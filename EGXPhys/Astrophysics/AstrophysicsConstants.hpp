@@ -12,10 +12,13 @@
 #pragma once
 //=================================
 // Included dependencies
+#include "Engine/ManagerTemplate.hpp"
+#include "Engine/Shader/Shader.hpp"
 
 //=================================
 // Forward declared dependencies
-
+#include "Common/CommonTypedefs.hpp"
+class GLContainer;
 //=================================
 //
 
