@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "EGXPhys", "index.html", [
+    [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -11,13 +12,16 @@ var NAVTREE =
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ]
       ] ]
+    ] ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"_e_g_x_phys_8hpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['_7ejavadoc_5ftest',['~Javadoc_Test',['../class_javadoc___test.html#a60016cd15a4ed82bbc35be79a0a6a6b5',1,'Javadoc_Test']]]
+  ['testme',['testMe',['../class_javadoc___test.html#a0c472683ed25ff096e8a9edfb18d550c',1,'Javadoc_Test']]],
+  ['testmetoo',['testMeToo',['../class_javadoc___test.html#ac2b39cabbe80957ae3e8bc2bd4e887f6',1,'Javadoc_Test']]]
 ];
