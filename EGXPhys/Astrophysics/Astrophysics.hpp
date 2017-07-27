@@ -1,6 +1,6 @@
 /// @file Astrophysics/Astrophysics.hpp
 ///
-/// @Includes all header files that are related to the field of Astrophysics.
+/// @brief Includes all header files that are related to the field of Astrophysics.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 7/25/17

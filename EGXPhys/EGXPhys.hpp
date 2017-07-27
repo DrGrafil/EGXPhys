@@ -1,4 +1,4 @@
-/// @file templates/header.hpp
+/// @file EGXPhys/EGXPhys.hpp
 ///
 /// @brief Allows you to use get bigger numbers
 ///
@@ -13,23 +13,14 @@
 //=================================
 // Included dependencies
 
+#include "EGXPhysConstants.hpp"
+
+#include "./Astrophysics/Astrophysics.hpp"
+
+
 //=================================
 // Forward declared dependencies
 
 //=================================
 //
 
-
-namespace EGXPhys
-{
-    /// @addtogroup templates
-    /// @{
-    
-    /// Compates two numbers and returns largest one.
-    template<typename T>
-    T getBigger(const T& a, const T& b);
-    
-    /// @}
-} //namespace EGXPhys
-
-#include "header.inl"

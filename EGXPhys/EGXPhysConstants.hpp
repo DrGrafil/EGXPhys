@@ -1,8 +1,7 @@
-/// @file templates/header.hpp
+/// @file EGXPhys/EGXPhysConstants.hpp
 ///
-/// @brief Allows you to use get bigger numbers
+/// @brief Link to all header files that includes constants.
 ///
-/// <templates/template.hpp> need to be included to use these functionalities.
 /// @author Elliot Grafil (Metex)
 /// @date 7/25/17
 /// @bug No known bugs.
