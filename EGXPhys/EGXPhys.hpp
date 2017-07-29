@@ -11,6 +11,12 @@
 #pragma once
 //=================================
 // Included dependencies
+#include <math.h>
+//=================================
+// Forward declared dependencies
+
+//=================================
+//
 
 #include "EGXPhysConstants.hpp"
 
@@ -23,10 +29,3 @@
 #include "./Quantum/Quantum.hpp"
 #include "./Relativity/Relativity.hpp"
 #include "./Thermodynamics/Thermodynamics.hpp"
-
-//=================================
-// Forward declared dependencies
-
-//=================================
-//
-
