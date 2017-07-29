@@ -11,4 +11,5 @@
 
 using namespace EGXPhys;
 #include "Astrophysics/AstrophysicsTests.hpp"
+#include "Optics/OpticsTests.hpp"
 
