@@ -12,7 +12,7 @@ Calculates luminosity of various types for stellar bodies.
 \begin{DoxyCompactItemize}
 \item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{_luminosity_8hpp_a909f82edfaed449b44e94788b642ebb8}{E\+G\+X\+Phys\+::blackbody\+Luminosity} (const T \&area, const T \&tempreture)
-\begin{DoxyCompactList}\small\item\em Calculates the luminosity in Watts of a black body. \[L=\sigma*Area*Temp^4\]. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the luminosity in Watts of a black body. \[L=\sigma*A*T^4\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{_luminosity_8hpp_a6d6865b2aac1bc7c7f06b7c4ac2444e4}{E\+G\+X\+Phys\+::radio\+Luminosity} (const T \&flux\+Density, const T \&luminosity\+Distance, const T \&redshift, const T \&spectral\+Index)
 \begin{DoxyCompactList}\small\item\em Calculates the radio luminosity in W/\+Hz of a radio source. See \href{https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\#\+Radio\+\_\+luminosity}. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
@@ -40,17 +40,17 @@ T E\+G\+X\+Phys\+::blackbody\+Luminosity (\begin{DoxyParamCaption}\item[{const T
 
 
 
-Calculates the luminosity in Watts of a black body. \[L=\sigma*Area*Temp^4\]. 
+Calculates the luminosity in Watts of a black body. \[L=\sigma*A*T^4\]. 
 
 
 \begin{DoxyParams}{Parameters}
-{\em tempreture} & (K) is tempreture of black body \\
+{\em area} & A(m$^\wedge$2) is the area of black body \\
 \hline
-{\em area} & (m$^\wedge$2) is the area of black body \\
+{\em tempreture} & T(\+K) is tempreture of black body \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-Luminosity (W) for a black body 
+Luminosity L(\+W) for a black body 
 \end{DoxyReturn}
 \mbox{\Hypertarget{_luminosity_8hpp_file_a6d6865b2aac1bc7c7f06b7c4ac2444e4}\label{_luminosity_8hpp_file_a6d6865b2aac1bc7c7f06b7c4ac2444e4}} 
 \index{Luminosity.\+hpp@{Luminosity.\+hpp}!radio\+Luminosity@{radio\+Luminosity}}
