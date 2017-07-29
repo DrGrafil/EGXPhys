@@ -28,9 +28,11 @@ namespace EGXPhys
 	/// @{
 
 	/** 
-	*   @brief  Calculates the luminosity in Watts of a black body. 
+	*   @brief  Calculates the luminosity in Watts of a black body.
+    *
 	*			\f[L=\sigma*A*T^4\f]   
-	*  
+	*   See https://en.wikipedia.org/wiki/Luminosity
+    *
 	*   @param  area A(m^2) is the area of black body
 	*   @param  tempreture T(K) is tempreture of black body 
 	*   @return Luminosity L(W) for a black body
@@ -39,7 +41,9 @@ namespace EGXPhys
     T blackbodyLuminosity(const T& area, const T& tempreture);
     
     /** 
-	*   @brief  Calculates the radio luminosity in W/Hz of a radio source. See https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity.  
+	*   @brief  Calculates the radio luminosity in W/Hz of a radio source. 
+    *
+    *   See https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity.
 	*  
 	*   @param  fluxDensity (W*m^2/Hz) is observed flux density 
 	*   @param  luminosityDistance (m) is the luminosity distance. See https://en.wikipedia.org/wiki/Luminosity_distance.

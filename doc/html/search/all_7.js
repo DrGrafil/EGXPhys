@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['quantum',['Quantum',['../group___quantum.html',1,'']]],
-  ['quantum_2ehpp',['Quantum.hpp',['../_quantum_8hpp.html',1,'']]],
-  ['quantumconstants_2ehpp',['QuantumConstants.hpp',['../_quantum_constants_8hpp.html',1,'']]]
+  ['plasma',['Plasma',['../group___plasma.html',1,'']]],
+  ['plasma_2ehpp',['Plasma.hpp',['../_plasma_8hpp.html',1,'']]],
+  ['plasmaconstants_2ehpp',['PlasmaConstants.hpp',['../_plasma_constants_8hpp.html',1,'']]]
 ];

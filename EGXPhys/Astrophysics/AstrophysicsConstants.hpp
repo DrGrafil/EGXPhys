@@ -1,8 +1,8 @@
 /// @file EGXPhys/Astrophysics/AstrophysicsConstants.hpp
 ///
-/// @brief Allows you to use get bigger numbers
+/// @brief Constants pertaining to astrophysics.
 /// @author Elliot Grafil (Metex)
-/// @date 7/25/17
+/// @date 7/28/17
 /// @bug No known bugs.
 
 //=================================
@@ -23,15 +23,15 @@ namespace EGXPhys
    	 
 	//Stellar Constants
 		//Sun
-	const double MassOfSun = 1.9891e30;									// kg /** @brief Mass Of Sun in kg */
-	const double SolarMass = MassOfSun;
-	const double SunTempreture = 5778.0;								//K
+	const double MassOfSun = 1.9891e30;									/**< Mass(kg) Of Sun */
+	const double SolarMass = MassOfSun;                                 /**< Mass(kg) Of Sun */
+	const double SunTempreture = 5778.0;								/**< Tempreture(K) of Sun */
 	const double SunAbsVMagnitude = 4.862;								//Mv abs
-	const double SunLuminocity = 3.8270e26;								//W
-	const double SunAge = 4572.0;										//Myr
+	const double SunLuminocity = 3.8270e26;								/**< Luminocity(W) of Sun */
+	const double SunAge = 4572.0;										/**< Age(Myr) of Sun */
 		//Earth
 	const double SemimajorAxisOfEarth = 149598261000;
-	const double EccentricityOfEarth = 0.01671123;
+	const double EccentricityOfEarth = 0.01671123;                      /**< Eccentricity(dimensionless) of Earth */
 	const double BondAlbedoOfEarth = 0.306;
 	const double GeometricAlbedoOfEarth = 0.367;
 	const double MassOfEarth = 5.97219e24;

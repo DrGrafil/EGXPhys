@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['handler',['handler',['../class_javadoc___test.html#ace81a523a4eef44501a841a6d338832b',1,'Javadoc_Test']]]
+  ['massofsun',['MassOfSun',['../_astrophysics_constants_8hpp.html#a6e84ae13f1dbcecb215af787bbc12cd6',1,'EGXPhys']]]
 ];

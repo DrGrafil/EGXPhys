@@ -4,9 +4,9 @@
 \begin{DoxyCompactItemize}
 \item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga909f82edfaed449b44e94788b642ebb8}{E\+G\+X\+Phys\+::blackbody\+Luminosity} (const T \&area, const T \&tempreture)
-\begin{DoxyCompactList}\small\item\em Calculates the luminosity in Watts of a black body. \[L=\sigma*A*T^4\]. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the luminosity in Watts of a black body. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga6d6865b2aac1bc7c7f06b7c4ac2444e4}{E\+G\+X\+Phys\+::radio\+Luminosity} (const T \&flux\+Density, const T \&luminosity\+Distance, const T \&redshift, const T \&spectral\+Index)
-\begin{DoxyCompactList}\small\item\em Calculates the radio luminosity in W/\+Hz of a radio source. See \href{https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\#\+Radio\+\_\+luminosity}. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the radio luminosity in W/\+Hz of a radio source. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_gaf962e650bf84a568458e8eb39b1c61ba}{E\+G\+X\+Phys\+::\+Apoapsis} (const T \&orbital\+Eccentricity, const T \&semimajor\+Axis)
 \begin{DoxyCompactList}\small\item\em Calculates apoapsis of an orbiting body. The apoapsis is the distance at which an orbiting object is farthest away from the body it is orbiting. \[r=a(1+e)\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
@@ -45,7 +45,9 @@ T E\+G\+X\+Phys\+::blackbody\+Luminosity (\begin{DoxyParamCaption}\item[{const T
 
 
 
-Calculates the luminosity in Watts of a black body. \[L=\sigma*A*T^4\]. 
+Calculates the luminosity in Watts of a black body. 
+
+\[L=\sigma*A*T^4\] See \href{https://en.wikipedia.org/wiki/Luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity}
 
 
 \begin{DoxyParams}{Parameters}
@@ -66,8 +68,26 @@ T E\+G\+X\+Phys\+::radio\+Luminosity (\begin{DoxyParamCaption}\item[{const T \&}
 
 
 
-Calculates the radio luminosity in W/\+Hz of a radio source. See \href{https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\#\+Radio\+\_\+luminosity}. 
+Calculates the radio luminosity in W/\+Hz of a radio source. 
 
+Calculates the radio luminosity in W/\+Hz of a radio source. See \href{https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\#\+Radio\+\_\+luminosity}.
+
+See \href{https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\#\+Radio\+\_\+luminosity}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em flux\+Density} & (W$\ast$m$^\wedge$2/\+Hz) is observed flux density \\
+\hline
+{\em luminosity\+Distance} & (m) is the luminosity distance. See \href{https://en.wikipedia.org/wiki/Luminosity_distance}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\+\_\+distance}. \\
+\hline
+{\em redshift} & (dimensionless) for a black body. See \href{https://en.wikipedia.org/wiki/Redshift}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Redshift}. \\
+\hline
+{\em spectral\+Index} & (dimensionless). The spectral index is typically -\/0.\+7. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Radio luminosity (W/\+Hz) of a radio source.
+\end{DoxyReturn}
 
 \begin{DoxyParams}{Parameters}
 {\em flux\+Density} & (W$\ast$m$^\wedge$2/\+Hz) is observed flux density \\
