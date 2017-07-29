@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['blackbodyluminosity',['blackbodyLuminosity',['../_luminosity_8hpp.html#a909f82edfaed449b44e94788b642ebb8',1,'EGXPhys']]]
+  ['apoapsis',['Apoapsis',['../_orbital_charecteristics_8hpp.html#af962e650bf84a568458e8eb39b1c61ba',1,'EGXPhys']]]
 ];

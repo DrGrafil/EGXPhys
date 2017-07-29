@@ -6,6 +6,7 @@
 /// @date 7/25/17
 /// @bug No known bugs.
 
+/// @defgroup Astrophysics Astrophysics
 //=================================
 // Header guard
 #pragma once

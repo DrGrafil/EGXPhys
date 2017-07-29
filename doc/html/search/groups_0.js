@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['templates',['Templates',['../group__templates.html',1,'']]]
+  ['optics',['Optics',['../group___optics.html',1,'']]]
 ];

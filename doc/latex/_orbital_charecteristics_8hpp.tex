@@ -1,0 +1,79 @@
+\hypertarget{_orbital_charecteristics_8hpp}{}\section{D\+:/\+Documents/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Orbital\+Charecteristics.hpp File Reference}
+\label{_orbital_charecteristics_8hpp}\index{D\+:/\+Documents/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Orbital\+Charecteristics.\+hpp@{D\+:/\+Documents/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Orbital\+Charecteristics.\+hpp}}
+
+
+Calculates luminosity of various types for stellar bodies.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Astrophysics\+Constants.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}header.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{_orbital_charecteristics_8hpp_af962e650bf84a568458e8eb39b1c61ba}{E\+G\+X\+Phys\+::\+Apoapsis} (const T \&orbital\+Eccentricity, const T \&semimajor\+Axis)
+\begin{DoxyCompactList}\small\item\em Calculates apoapsis of an orbiting body. The apoapsis is the distance at which an orbiting object is farthest away from the body it is orbiting. \[r=a(1+e)\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::radio\+Luminosity} (const T \&flux\+Density, const T \&luminosity\+Distance, const T \&redshift, const T \&spectral\+Index)
+\begin{DoxyCompactList}\small\item\em Calculates the radio luminosity in W/\+Hz of a radio source. See \href{https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\#\+Radio\+\_\+luminosity}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calculates luminosity of various types for stellar bodies. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+7/25/17 
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000009}{Bug}]No known bugs. \end{DoxyRefDesc}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_orbital_charecteristics_8hpp_file_af962e650bf84a568458e8eb39b1c61ba}\label{_orbital_charecteristics_8hpp_file_af962e650bf84a568458e8eb39b1c61ba}} 
+\index{Orbital\+Charecteristics.\+hpp@{Orbital\+Charecteristics.\+hpp}!Apoapsis@{Apoapsis}}
+\index{Apoapsis@{Apoapsis}!Orbital\+Charecteristics.\+hpp@{Orbital\+Charecteristics.\+hpp}}
+\subsubsection{\texorpdfstring{Apoapsis()}{Apoapsis()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Apoapsis (\begin{DoxyParamCaption}\item[{const T \&}]{orbital\+Eccentricity,  }\item[{const T \&}]{semimajor\+Axis }\end{DoxyParamCaption})}
+
+
+
+Calculates apoapsis of an orbiting body. The apoapsis is the distance at which an orbiting object is farthest away from the body it is orbiting. \[r=a(1+e)\]. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em orbital\+Eccentricity} & e(dimensionless) is the amount by which its orbit around another body deviates from a perfect circle. e=0 is circular, 0$<$e$<$1 is elliptical and e$>$1 is hyperbola. See \href{https://en.wikipedia.org/wiki/Orbital_eccentricity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+eccentricity}. \\
+\hline
+{\em semimajor\+Axis} & a(m) is the line segment from the center of the orbit to the widest point in the perimiter. See \href{https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Semi-\/major\+\_\+and\+\_\+semi-\/minor\+\_\+axes}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Apoapsis r(m) for a black body 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_luminosity_01-_01_copy_8hpp_file_a6d6865b2aac1bc7c7f06b7c4ac2444e4}\label{_luminosity_01-_01_copy_8hpp_file_a6d6865b2aac1bc7c7f06b7c4ac2444e4}} 
+\index{Orbital\+Charecteristics.\+hpp@{Orbital\+Charecteristics.\+hpp}!radio\+Luminosity@{radio\+Luminosity}}
+\index{radio\+Luminosity@{radio\+Luminosity}!Orbital\+Charecteristics.\+hpp@{Orbital\+Charecteristics.\+hpp}}
+\subsubsection{\texorpdfstring{radio\+Luminosity()}{radioLuminosity()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::radio\+Luminosity (\begin{DoxyParamCaption}\item[{const T \&}]{flux\+Density,  }\item[{const T \&}]{luminosity\+Distance,  }\item[{const T \&}]{redshift,  }\item[{const T \&}]{spectral\+Index }\end{DoxyParamCaption})}
+
+
+
+Calculates the radio luminosity in W/\+Hz of a radio source. See \href{https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\#\+Radio\+\_\+luminosity}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em flux\+Density} & (W$\ast$m$^\wedge$2/\+Hz) is observed flux density \\
+\hline
+{\em luminosity\+Distance} & (m) is the luminosity distance. See \href{https://en.wikipedia.org/wiki/Luminosity_distance}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\+\_\+distance}. \\
+\hline
+{\em redshift} & (dimensionless) for a black body. See \href{https://en.wikipedia.org/wiki/Redshift}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Redshift}. \\
+\hline
+{\em spectral\+Index} & (dimensionless). The spectral index is typically -\/0.\+7. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Radio luminosity (W/\+Hz) of a radio source. 
+\end{DoxyReturn}

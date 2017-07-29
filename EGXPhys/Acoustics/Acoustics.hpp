@@ -6,6 +6,7 @@
 /// @date 7/28/17
 /// @bug No known bugs.
 
+/// @defgroup Acoustics Acoustics
 //=================================
 // Header guard
 #pragma once

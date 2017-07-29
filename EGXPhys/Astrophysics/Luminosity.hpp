@@ -23,7 +23,10 @@
 
 
 namespace EGXPhys
-{
+{	
+	/// @addtogroup Astrophysics
+	/// @{
+
 	/** 
 	*   @brief  Calculates the luminosity in Watts of a black body. 
 	*			\f[L=\sigma*A*T^4\f]   
@@ -47,6 +50,7 @@ namespace EGXPhys
     template<typename T>
     T radioLuminosity(const T& fluxDensity, const T& luminosityDistance, const T& redshift, const T& spectralIndex);
     
+    /// @}
 } //namespace EGXPhys
 
 #include "Luminosity.inl"
