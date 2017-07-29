@@ -23,7 +23,7 @@ namespace EGXPhys
    	 
 	//Stellar Constants
 		//Sun
-	const double MassOfSun = 1.9891e30;									// kg
+	const double MassOfSun = 1.9891e30;									// kg /** @brief Mass Of Sun in kg */
 	const double SolarMass = MassOfSun;
 	const double SunTempreture = 5778.0;								//K
 	const double SunAbsVMagnitude = 4.862;								//Mv abs
