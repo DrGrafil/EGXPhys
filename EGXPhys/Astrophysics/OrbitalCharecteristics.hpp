@@ -24,6 +24,9 @@
 
 namespace EGXPhys
 {
+	/// @addtogroup Astrophysics
+	/// @{
+	
 	/** 
 	*   @brief  Calculates apoapsis of an orbiting body. The apoapsis is the distance at which an orbiting object is farthest away from the body it is orbiting.
 	*			\f[r=a(1+e)\f]   
@@ -54,6 +57,7 @@ namespace EGXPhys
     template<typename T>
     T radioLuminosity(const T& fluxDensity, const T& luminosityDistance, const T& redshift, const T& spectralIndex);
     
+    /// @}
 } //namespace EGXPhys
 
 #include "header.inl"

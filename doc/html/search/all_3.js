@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['getbigger',['getBigger',['../group__templates.html#ga33bfa46680adceb76677ef5086b6b879',1,'EGXPhys']]]
+  ['kinematics',['Kinematics',['../group___kinematics.html',1,'']]],
+  ['kinematics_2ehpp',['Kinematics.hpp',['../_kinematics_8hpp.html',1,'']]],
+  ['kinematicsconstants_2ehpp',['KinematicsConstants.hpp',['../_kinematics_constants_8hpp.html',1,'']]]
 ];

@@ -6,6 +6,7 @@
 /// @date 7/28/17
 /// @bug No known bugs.
 
+/// @defgroup Kinematics Kinematics
 //=================================
 // Header guard
 #pragma once

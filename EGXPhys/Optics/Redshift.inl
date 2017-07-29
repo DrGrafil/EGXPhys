@@ -1,34 +1,21 @@
-/// @file EGXPhys/Astrophysics/Luminosity.inl
+/// @file EGXPhys/Optics/Redshift.inl
 ///
-/// @brief Implimentation of luminosity calculations
+/// @brief Implimentation of redshift calculations
 /// @author Elliot Grafil (Metex)
-/// @date 7/25/17
+/// @date 7/28/17
 /// @bug No known bugs.
 
 namespace EGXPhys{
 	
 	template<typename T>
-    T blackbodyLuminosity(const T& area, const T& tempreture){
+    T redshiftByWavelength(const T& wavelengthObserved, const T& wavelengthEmitted){
     	
-    	return sigma * area * pow(tempreture,4.0);
+    	return (wavelengthObserved - wavelengthEmitted) / wavelengthObserved;
 	}
     
     template<typename T>
-    T radioLuminosity(const T& fluxDensity, const T& luminosityDistance, const T& redshift, const T& spectralIndex){
-    	return 	(fluxDensity * 4.0 * luminosityDistance * luminosityDistance) 
-				/
-				std::pow(1.0 + redshift, 1.0+spectralIndex) );
+    T redshiftByFrequency(const T& frequencyObserved, const T& frequencyEmitted){
+    	return (frequencyEmitted - frequencyObserved) / frequencyObserved;
 	}
-    
-    template<typename T>
-    T solarLuminosity(const T& area, const T& tempreture){
-    	
-    	return
-	}
-    
-    template<typename T>
-    T solarLuminosityRatio(const T& area, const T& tempreture){
-    	
-	}
-    
+        
 }//namespace EGXPhys

@@ -21,17 +21,32 @@
 
 namespace EGXPhys
 {
+	/// @addtogroup Optics
+	/// @{
+    
 	/** 
-	*   @brief  Calculates the luminosity in Watts of a black body. 
-	*			\f[L=\sigma*A*T^4\f]   
+	*   @brief  Calculates the redshift, \f$z\f$, of light based on wavelenght. Redshifts occur when \f$z > 0\f$, blueshifts when \f$z < 0\f$. See https://en.wikipedia.org/wiki/Redshift.
+	*			\f[z=\frac{\lambda_{observed}-\lambda_{emitted}}{\lambda_{emitted}}\f]   
 	*  
-	*   @param  area A(m^2) is the area of black body
-	*   @param  tempreture T(K) is tempreture of black body 
-	*   @return Luminosity L(W) for a black body
+	*   @param  wavelengthObserved \f$\lambda_{observed}\f$(m) is the observed wavelength of light.
+	*   @param  wavelengthEmitted \f$\lambda_{emitted}\f$(m) is the emitted wavelength of light. 
+	*   @return \f$z\f$(dimensionless) redshift of the observed light.
 	*/ 
     template<typename T>
-    T blackbodyLuminosity(const T& area, const T& tempreture);
+    T redshiftByWavelength(const T& wavelengthObserved, const T& wavelengthEmitted);
     
+    /** 
+	*   @brief  Calculates the redshift, \f$z\f$, of light based on frequency. Redshifts occur when \f$z > 0\f$, blueshifts when \f$z < 0\f$. See https://en.wikipedia.org/wiki/Redshift.
+	*			\f[z=\frac{f_{emitted}-f_{observed}}{f_{observed}}\f]   
+	*  
+	*   @param  frequencyObserved \f$f_{observed}\f$(m) is the observed frequency of light.
+	*   @param  frequencyEmitted \f$f_{emitted}\f$(m) is the emitted frequency of light. 
+	*   @return \f$z\f$(dimensionless) redshift of the observed light.
+	*/ 
+    template<typename T>
+    T redshiftByFrequency(const T& frequencyObserved, const T& frequencyEmitted);
+    
+	/// @}
 } //namespace EGXPhys
 
 #include "Redshift.inl"

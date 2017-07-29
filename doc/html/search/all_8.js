@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['radioluminosity',['radioLuminosity',['../_luminosity_8hpp.html#a6d6865b2aac1bc7c7f06b7c4ac2444e4',1,'EGXPhys']]]
+  ['quantum',['Quantum',['../group___quantum.html',1,'']]],
+  ['quantum_2ehpp',['Quantum.hpp',['../_quantum_8hpp.html',1,'']]],
+  ['quantumconstants_2ehpp',['QuantumConstants.hpp',['../_quantum_constants_8hpp.html',1,'']]]
 ];

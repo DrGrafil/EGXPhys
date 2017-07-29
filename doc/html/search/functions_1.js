@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getbigger',['getBigger',['../group__templates.html#ga33bfa46680adceb76677ef5086b6b879',1,'EGXPhys']]]
+  ['blackbodyluminosity',['blackbodyLuminosity',['../group___astrophysics.html#ga909f82edfaed449b44e94788b642ebb8',1,'EGXPhys']]]
 ];

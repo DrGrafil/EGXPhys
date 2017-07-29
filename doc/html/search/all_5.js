@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['javadoc_5ftest',['Javadoc_Test',['../class_javadoc___test.html',1,'Javadoc_Test'],['../class_javadoc___test.html#a17313327932ae97596b0a455ba8342cc',1,'Javadoc_Test::Javadoc_Test()']]]
+  ['massofsun',['MassOfSun',['../_astrophysics_constants_8hpp.html#a6e84ae13f1dbcecb215af787bbc12cd6',1,'EGXPhys']]]
 ];
