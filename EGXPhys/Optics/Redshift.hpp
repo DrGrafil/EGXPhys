@@ -25,7 +25,7 @@ namespace EGXPhys
 	/// @{
     
 	/** 
-	*   @brief  Calculates the redshift, \f$z\f$ of light based on wavelenght. Redshifts occur when \f$z > 0\f$, blueshifts when \f$z < 0\f$. See https://en.wikipedia.org/wiki/Redshift.
+	*   @brief  Calculates the redshift, \f$z\f$, of light based on wavelenght. Redshifts occur when \f$z > 0\f$, blueshifts when \f$z < 0\f$. See https://en.wikipedia.org/wiki/Redshift.
 	*			\f[z=\frac{\lambda_{observed}-\lambda_{emitted}}{\lambda_{emitted}}\f]   
 	*  
 	*   @param  wavelengthObserved \f$\lambda_{observed}\f$(m) is the observed wavelength of light.
@@ -36,7 +36,7 @@ namespace EGXPhys
     T redshiftByWavelength(const T& wavelengthObserved, const T& wavelengthEmitted);
     
     /** 
-	*   @brief  Calculates the redshift (\f$z\f$) of light based on frequency. Redshifts occur when \f$z > 0\f$, blueshifts when \f$z < 0\f$. See https://en.wikipedia.org/wiki/Redshift.
+	*   @brief  Calculates the redshift, \f$z\f$, of light based on frequency. Redshifts occur when \f$z > 0\f$, blueshifts when \f$z < 0\f$. See https://en.wikipedia.org/wiki/Redshift.
 	*			\f[z=\frac{f_{emitted}-f_{observed}}{f_{observed}}\f]   
 	*  
 	*   @param  frequencyObserved \f$f_{observed}\f$(m) is the observed frequency of light.

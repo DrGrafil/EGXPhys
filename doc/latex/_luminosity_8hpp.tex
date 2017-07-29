@@ -11,9 +11,9 @@ Calculates luminosity of various types for stellar bodies.
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::blackbody\+Luminosity} (const T \&area, const T \&tempreture)
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga909f82edfaed449b44e94788b642ebb8}{E\+G\+X\+Phys\+::blackbody\+Luminosity} (const T \&area, const T \&tempreture)
 \begin{DoxyCompactList}\small\item\em Calculates the luminosity in Watts of a black body. \[L=\sigma*A*T^4\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::radio\+Luminosity} (const T \&flux\+Density, const T \&luminosity\+Distance, const T \&redshift, const T \&spectral\+Index)
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga6d6865b2aac1bc7c7f06b7c4ac2444e4}{E\+G\+X\+Phys\+::radio\+Luminosity} (const T \&flux\+Density, const T \&luminosity\+Distance, const T \&redshift, const T \&spectral\+Index)
 \begin{DoxyCompactList}\small\item\em Calculates the radio luminosity in W/\+Hz of a radio source. See \href{https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\#\+Radio\+\_\+luminosity}. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -28,62 +28,3 @@ Elliot Grafil (Metex)
 \end{DoxyDate}
 \begin{DoxyRefDesc}{Bug}
 \item[\hyperlink{bug__bug000005}{Bug}]No known bugs. \end{DoxyRefDesc}
-
-
-\begin{DoxyAuthor}{Author}
-Elliot Grafil (Metex) 
-\end{DoxyAuthor}
-\begin{DoxyDate}{Date}
-7/25/17 
-\end{DoxyDate}
-\begin{DoxyRefDesc}{Bug}
-\item[\hyperlink{bug__bug000007}{Bug}]No known bugs. \end{DoxyRefDesc}
-
-
-\subsection{Function Documentation}
-\mbox{\Hypertarget{_luminosity_01-_01_copy_8hpp_file_a909f82edfaed449b44e94788b642ebb8}\label{_luminosity_01-_01_copy_8hpp_file_a909f82edfaed449b44e94788b642ebb8}} 
-\index{Luminosity.\+hpp@{Luminosity.\+hpp}!blackbody\+Luminosity@{blackbody\+Luminosity}}
-\index{blackbody\+Luminosity@{blackbody\+Luminosity}!Luminosity.\+hpp@{Luminosity.\+hpp}}
-\subsubsection{\texorpdfstring{blackbody\+Luminosity()}{blackbodyLuminosity()}}
-{\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Phys\+::blackbody\+Luminosity (\begin{DoxyParamCaption}\item[{const T \&}]{area,  }\item[{const T \&}]{tempreture }\end{DoxyParamCaption})}
-
-
-
-Calculates the luminosity in Watts of a black body. \[L=\sigma*A*T^4\]. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em area} & A(m$^\wedge$2) is the area of black body \\
-\hline
-{\em tempreture} & T(\+K) is tempreture of black body \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-Luminosity L(\+W) for a black body 
-\end{DoxyReturn}
-\mbox{\Hypertarget{_luminosity_01-_01_copy_8hpp_file_a6d6865b2aac1bc7c7f06b7c4ac2444e4}\label{_luminosity_01-_01_copy_8hpp_file_a6d6865b2aac1bc7c7f06b7c4ac2444e4}} 
-\index{Luminosity.\+hpp@{Luminosity.\+hpp}!radio\+Luminosity@{radio\+Luminosity}}
-\index{radio\+Luminosity@{radio\+Luminosity}!Luminosity.\+hpp@{Luminosity.\+hpp}}
-\subsubsection{\texorpdfstring{radio\+Luminosity()}{radioLuminosity()}}
-{\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Phys\+::radio\+Luminosity (\begin{DoxyParamCaption}\item[{const T \&}]{flux\+Density,  }\item[{const T \&}]{luminosity\+Distance,  }\item[{const T \&}]{redshift,  }\item[{const T \&}]{spectral\+Index }\end{DoxyParamCaption})}
-
-
-
-Calculates the radio luminosity in W/\+Hz of a radio source. See \href{https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\#\+Radio\+\_\+luminosity}. 
-
-
-\begin{DoxyParams}{Parameters}
-{\em flux\+Density} & (W$\ast$m$^\wedge$2/\+Hz) is observed flux density \\
-\hline
-{\em luminosity\+Distance} & (m) is the luminosity distance. See \href{https://en.wikipedia.org/wiki/Luminosity_distance}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Luminosity\+\_\+distance}. \\
-\hline
-{\em redshift} & (dimensionless) for a black body. See \href{https://en.wikipedia.org/wiki/Redshift}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Redshift}. \\
-\hline
-{\em spectral\+Index} & (dimensionless). The spectral index is typically -\/0.\+7. \\
-\hline
-\end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-Radio luminosity (W/\+Hz) of a radio source. 
-\end{DoxyReturn}
