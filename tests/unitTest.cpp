@@ -1,17 +1,14 @@
-// 	Unit Tests
+// 	Unit Tests for EGXPhys
 //
-//  Created by Elliot Grafil on 7/25/17.
-//  Copyright Â© 2017 Elliot Grafil. All rights reserved.
+//  Created by Elliot Grafil on 7/28/17.
+//  Copyright © 2017 Elliot Grafil. All rights reserved.
 //
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 #include "catch.hpp"
 
 #include "../EGXPhys/EGXPhys.hpp"
+
+
 using namespace EGXPhys;
+#include "Astrophysics/AstrophysicsTests.hpp"
 
-
-TEST_CASE("Luminosity"){
-	
-	double area = 4.0; double temp = 400;
-	REQUIRE( blackbodyLuminosity(area, temp) == 30);
-}
