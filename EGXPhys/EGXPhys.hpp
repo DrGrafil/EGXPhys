@@ -12,15 +12,12 @@
 #pragma once
 //=================================
 // Included dependencies
-
-#include "EGXPhysConstants.hpp"
-
-#include "./Astrophysics/Astrophysics.hpp"
-
-
+#include <math.h>
 //=================================
 // Forward declared dependencies
 
 //=================================
 //
 
+#include "EGXPhysConstants.hpp"
+#include "./Astrophysics/Astrophysics.hpp"
