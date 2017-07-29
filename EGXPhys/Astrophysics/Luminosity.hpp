@@ -49,4 +49,4 @@ namespace EGXPhys
     
 } //namespace EGXPhys
 
-#include "header.inl"
+#include "Luminosity.inl"
