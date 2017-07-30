@@ -1,8 +1,8 @@
-/// @file EGXPhys/Astrophysics/Luminosity.inl
+/// @file EGXPhys/Astrophysics/Apoapsis.inl
 ///
-/// @brief Implimentation of luminosity calculations
+/// @brief Implimentation of apoapsis calculations
 /// @author Elliot Grafil (Metex)
-/// @date 7/25/17
+/// @date 7/29/17
 /// @bug No known bugs.
 
 namespace EGXPhys{
@@ -10,24 +10,121 @@ namespace EGXPhys{
 	template<typename T>
     T Apoapsis( const T& orbitalEccentricity, const T& semimajorAxis ){
     	return ( 1.0 + orbitalEccentricity ) * semimajorAxis;
-	}
+    }
     
     template<typename T>
-    T radioLuminosity(const T& fluxDensity, const T& luminosityDistance, const T& redshift, const T& spectralIndex){
-    	return 	(fluxDensity * 4.0 * luminosityDistance * luminosityDistance) 
-				/
-				std::pow(1.0 + redshift, 1.0+spectralIndex) );
-	}
+    T Apocenter( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
     
     template<typename T>
-    T solarLuminosity(const T& area, const T& tempreture){
-    	
-    	return
-	}
+    T Apofocus( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
     
     template<typename T>
-    T solarLuminosityRatio(const T& area, const T& tempreture){
-    	
-	}
+    T Apogalacticon( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apobothron( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Aponigricon( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apastron( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Aphelion( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apohermion( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apocytherion( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apogee( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+
+    template<typename T>
+    T Apocenter( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apolune( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apocynthion( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Aposelene( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apoareion( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apozene( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apojove( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apochron( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apokrone( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+
+    template<typename T>
+    T Aposaturnium( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apouranion( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apoposeidon( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
+    
+    template<typename T>
+    T Apohadion( const T& orbitalEccentricity, const T& semimajorAxis ){
+        return Apoapsis(orbitalEccentricity,semimajorAxis);
+    }
     
 }//namespace EGXPhys
