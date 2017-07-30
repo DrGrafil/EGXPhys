@@ -1,6 +1,28 @@
 var group___astrophysics =
 [
+    [ "Apastron", "group___astrophysics.html#ga2fc1c406ce10f59b4f325150aecd279a", null ],
+    [ "Aphelion", "group___astrophysics.html#ga77dadb4d082a441c8e85203c983722c7", null ],
     [ "Apoapsis", "group___astrophysics.html#gaf962e650bf84a568458e8eb39b1c61ba", null ],
+    [ "Apoareion", "group___astrophysics.html#ga8d8ac5814f653e229e1d463b432ffca5", null ],
+    [ "Apobothron", "group___astrophysics.html#ga6fe084b9e69f47a5032b05aa8f6bf7ad", null ],
+    [ "Apocenter", "group___astrophysics.html#ga5e51a53e2f974264bada34f159fdc948", null ],
+    [ "Apochron", "group___astrophysics.html#gae4ea146039e6f32022321f0998e715e8", null ],
+    [ "Apocynthion", "group___astrophysics.html#ga557bb4d1a0ce7f17aaa8f8de469d4f52", null ],
+    [ "Apocytherion", "group___astrophysics.html#ga59a284bb0bc11848c5b9ef1283033425", null ],
+    [ "Apofocus", "group___astrophysics.html#gaa53ac4e15bc6bc0fecf72eadb7a513e0", null ],
+    [ "Apogalacticon", "group___astrophysics.html#ga09b4c7d5e971dc28e1ba37f479958c27", null ],
+    [ "Apogee", "group___astrophysics.html#ga5cf587a051db28cae9e028a2b4955b0d", null ],
+    [ "Apohadion", "group___astrophysics.html#gaa16847ddc5763c327067075dcb6a3353", null ],
+    [ "Apohermion", "group___astrophysics.html#gab002349e578241b3514f2212da9a7d48", null ],
+    [ "Apojove", "group___astrophysics.html#ga5a45d0a873514113aaa0adc95aefbbde", null ],
+    [ "Apokrone", "group___astrophysics.html#ga98557a8d49aa129c29e652c4758334d1", null ],
+    [ "Apolune", "group___astrophysics.html#gacc68b49812c38394611e1ef3a8bf0e3e", null ],
+    [ "Aponigricon", "group___astrophysics.html#ga83e866e2f887ff8eafbc3971d4cab8be", null ],
+    [ "Apoposeidon", "group___astrophysics.html#ga89679654fff13176e989536163a27f9d", null ],
+    [ "Aposaturnium", "group___astrophysics.html#gac157adc20a88c8616e4822eb819f9016", null ],
+    [ "Aposelene", "group___astrophysics.html#gab61f3b2d6a5be3f62f5fb6dfdf802014", null ],
+    [ "Apouranion", "group___astrophysics.html#ga6efaf5c9379f1085fa6e51bf97356124", null ],
+    [ "Apozene", "group___astrophysics.html#ga44d3dd8d8b350d053b25b7b1f1e15534", null ],
     [ "blackbodyLuminosity", "group___astrophysics.html#ga909f82edfaed449b44e94788b642ebb8", null ],
     [ "radioLuminosity", "group___astrophysics.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4", null ]
 ];
