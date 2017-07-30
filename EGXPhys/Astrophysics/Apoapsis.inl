@@ -61,11 +61,6 @@ namespace EGXPhys{
     T Apogee( const T& orbitalEccentricity, const T& semimajorAxis ){
         return Apoapsis(orbitalEccentricity,semimajorAxis);
     }
-
-    template<typename T>
-    T Apocenter( const T& orbitalEccentricity, const T& semimajorAxis ){
-        return Apoapsis(orbitalEccentricity,semimajorAxis);
-    }
     
     template<typename T>
     T Apolune( const T& orbitalEccentricity, const T& semimajorAxis ){

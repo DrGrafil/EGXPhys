@@ -63,11 +63,6 @@ namespace EGXPhys{
     }
 
     template<typename T>
-    T Pericenter( const T& orbitalEccentricity, const T& semimajorAxis ){
-        return Periapsis(orbitalEccentricity,semimajorAxis);
-    }
-    
-    template<typename T>
     T Perilune( const T& orbitalEccentricity, const T& semimajorAxis ){
         return Periapsis(orbitalEccentricity,semimajorAxis);
     }

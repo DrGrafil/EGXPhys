@@ -1,12 +1,12 @@
-/// @file EGXPhys/Astrophysics/Luminosity.inl
+/// @file EGXPhys/Astrophysics/OrbitalCharecteristics.inl
 ///
-/// @brief Implimentation of luminosity calculations
+/// @brief Implimentation of Orbital Charecteristics calculations
 /// @author Elliot Grafil (Metex)
 /// @date 7/25/17
 /// @bug No known bugs.
 
 namespace EGXPhys{
-	
+	/*
 	template<typename T>
     T Apoapsis( const T& orbitalEccentricity, const T& semimajorAxis ){
     	return ( 1.0 + orbitalEccentricity ) * semimajorAxis;
@@ -29,5 +29,5 @@ namespace EGXPhys{
     T solarLuminosityRatio(const T& area, const T& tempreture){
     	
 	}
-    
+    */
 }//namespace EGXPhys

@@ -14,7 +14,10 @@
 // Included dependencies
 #include "AstrophysicsConstants.hpp"
 
+#include "Apoapsis.hpp"
 #include "Luminosity.hpp"
+#include "Periapsis.hpp"
+#include "OrbitalCharecteristics.hpp"
 
 
 

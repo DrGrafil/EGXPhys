@@ -10,7 +10,7 @@ namespace EGXPhys{
 	template<typename T>
     T redshiftByWavelength(const T& wavelengthObserved, const T& wavelengthEmitted){
     	
-    	return (wavelengthObserved - wavelengthEmitted) / wavelengthObserved;
+    	return (wavelengthObserved - wavelengthEmitted) / wavelengthEmitted;
 	}
     
     template<typename T>
