@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['testme',['testMe',['../class_javadoc___test.html#a0c472683ed25ff096e8a9edfb18d550c',1,'Javadoc_Test']]],
-  ['testmetoo',['testMeToo',['../class_javadoc___test.html#ac2b39cabbe80957ae3e8bc2bd4e887f6',1,'Javadoc_Test']]]
+  ['radioluminosity',['radioLuminosity',['../group___astrophysics.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4',1,'EGXPhys']]],
+  ['redshiftbyfrequency',['redshiftByFrequency',['../group___optics.html#gacc6d3b2922061214d64b89a4b8e3967a',1,'EGXPhys']]],
+  ['redshiftbywavelength',['redshiftByWavelength',['../group___optics.html#ga29300a13e34da35332ca2d447b5ce82d',1,'EGXPhys']]]
 ];

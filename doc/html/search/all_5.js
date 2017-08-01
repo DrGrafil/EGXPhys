@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['massofsun',['MassOfSun',['../_astrophysics_constants_8hpp.html#a6e84ae13f1dbcecb215af787bbc12cd6',1,'EGXPhys']]]
+  ['luminosity_2ehpp',['Luminosity.hpp',['../_luminosity_8hpp.html',1,'']]],
+  ['luminosity_2einl',['Luminosity.inl',['../_luminosity_8inl.html',1,'']]]
 ];

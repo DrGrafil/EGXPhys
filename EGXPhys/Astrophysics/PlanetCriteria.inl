@@ -7,6 +7,41 @@
 
 namespace EGXPhys{
 	
+	
+	template<typename T>
+    T PlanetSimilarityIndex( const T& planetMeanRadius, const T& referenceMeanRadius, const T& planetBulkDensity, const T& referenceBulkDensity, const T& planetEscapeVelocity, const T& referenceEscapeVelocity, const T& planetSurfaceTemperature, const T& referenceSurfaceTemperature ){
+    	
+	}
+	
+	template<typename T>
+    T EarthSimilarityIndex( const T& planetMeanRadius, const T& planetBulkDensity, const T& planetEscapeVelocity, const T& planetSurfaceTemperature){
+    	return PlanetSimilarityIndex( planetMeanRadius, referenceMeanRadius, planetBulkDensity, referenceBulkDensity, planetEscapeVelocity, referenceEscapeVelocity, planetSurfaceTemperature, referenceSurfaceTemperature);
+	}
+	
+	
+	template<typename T>
+    T PlanetSimilarityIndexInterior( const T& planetMeanRadius, const T& referenceMeanRadius, const T& planetBulkDensity, const T& referenceBulkDensity ){
+    	
+		return ()
+	}
+	
+	template<typename T>
+    T EarthSimilarityIndexInterior( const T& planetMeanRadius, const T& referenceMeanRadius, const T& planetBulkDensity, const T& referenceBulkDensity, const T& planetEscapeVelocity, const T& referenceEscapeVelocity, const T& planetSurfaceTemperature, const T& referenceSurfaceTemperature ){
+    	
+	}
+	
+	
+	template<typename T>
+    T PlanetSimilarityIndexSurface( const T& planetMeanRadius, const T& referenceMeanRadius, const T& planetBulkDensity, const T& referenceBulkDensity, const T& planetEscapeVelocity, const T& referenceEscapeVelocity, const T& planetSurfaceTemperature, const T& referenceSurfaceTemperature ){
+    	
+	}
+	
+	template<typename T>
+    T EarthSimilarityIndexSurface( const T& planetMeanRadius, const T& referenceMeanRadius, const T& planetBulkDensity, const T& referenceBulkDensity, const T& planetEscapeVelocity, const T& referenceEscapeVelocity, const T& planetSurfaceTemperature, const T& referenceSurfaceTemperature ){
+    	
+	}
+	
+	
 	template<typename T>
     T Periapsis( const T& orbitalEccentricity, const T& semimajorAxis ){
     	return ( 1.0 - orbitalEccentricity ) * semimajorAxis;
