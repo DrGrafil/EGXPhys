@@ -11,7 +11,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_acoustics_8hpp.html"
+"_acoustics_8hpp.html",
+"group___astrophysics.html#ga5cf587a051db28cae9e028a2b4955b0d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['eccentricityofearth',['EccentricityOfEarth',['../_astrophysics_constants_8hpp.html#a327bbaf59d546f8524d6fb9da919d939',1,'EGXPhys']]]
+  ['bondalbedoofearth',['BondAlbedoOfEarth',['../_astrophysics_constants_8hpp.html#a932fff28fce4321fdbf9abc5c1783dc9',1,'EGXPhys']]]
 ];

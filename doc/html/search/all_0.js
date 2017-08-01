@@ -6,6 +6,8 @@ var searchData=
   ['apastron',['Apastron',['../group___astrophysics.html#ga2fc1c406ce10f59b4f325150aecd279a',1,'EGXPhys']]],
   ['aphelion',['Aphelion',['../group___astrophysics.html#ga77dadb4d082a441c8e85203c983722c7',1,'EGXPhys']]],
   ['apoapsis',['Apoapsis',['../group___astrophysics.html#gaf962e650bf84a568458e8eb39b1c61ba',1,'EGXPhys']]],
+  ['apoapsis_2ehpp',['Apoapsis.hpp',['../_apoapsis_8hpp.html',1,'']]],
+  ['apoapsis_2einl',['Apoapsis.inl',['../_apoapsis_8inl.html',1,'']]],
   ['apoareion',['Apoareion',['../group___astrophysics.html#ga8d8ac5814f653e229e1d463b432ffca5',1,'EGXPhys']]],
   ['apobothron',['Apobothron',['../group___astrophysics.html#ga6fe084b9e69f47a5032b05aa8f6bf7ad',1,'EGXPhys']]],
   ['apocenter',['Apocenter',['../group___astrophysics.html#ga5e51a53e2f974264bada34f159fdc948',1,'EGXPhys']]],
