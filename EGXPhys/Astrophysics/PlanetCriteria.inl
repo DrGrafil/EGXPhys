@@ -22,14 +22,14 @@ namespace EGXPhys{
     	return PlanetSimilarityIndex( planetMeanRadius, RadiusOfEarth, planetBulkDensity, DensityOfEarth, planetEscapeVelocity, EscapeVelocityOfEarth, planetSurfaceTemperature, SurfaceTempretureOfEarth);
 	}
 	
-	
+	#include <iostream>
 	template<typename T>
     T PlanetSimilarityIndexInterior( const T& planetMeanRadius, const T& referenceMeanRadius, const T& planetBulkDensity, const T& referenceBulkDensity ){
 		return sqrt( 
-			pow(1.0 - abs( (planetMeanRadius - referenceMeanRadius) / (planetMeanRadius - referenceMeanRadius) ), 0.57) 
+			pow(1.0 - fabs( (planetMeanRadius - referenceMeanRadius) / (planetMeanRadius + referenceMeanRadius) ), 0.57) 
 			*
-			pow(1.0 - abs( (planetBulkDensity - referenceBulkDensity) / (planetBulkDensity - referenceBulkDensity) ), 1.07)
-		); 	 
+			pow(1.0 - fabs( (planetBulkDensity - referenceBulkDensity) / (planetBulkDensity + referenceBulkDensity) ), 1.07)
+		); 	
 	}
 	
 	template<typename T>
@@ -41,9 +41,9 @@ namespace EGXPhys{
 	template<typename T>
     T PlanetSimilarityIndexSurface(const T& planetEscapeVelocity, const T& referenceEscapeVelocity, const T& planetSurfaceTemperature, const T& referenceSurfaceTemperature ){
     	return sqrt( 
-			pow(1.0 - abs( (planetEscapeVelocity - referenceEscapeVelocity) / (planetEscapeVelocity - referenceEscapeVelocity) ), 0.70) 
+			pow(1.0 - fabs( (planetEscapeVelocity - referenceEscapeVelocity) / (planetEscapeVelocity + referenceEscapeVelocity) ), 0.70) 
 			*
-			pow(1.0 - abs( (planetSurfaceTemperature - referenceSurfaceTemperature) / (planetSurfaceTemperature - referenceSurfaceTemperature) ), 5.58)
+			pow(1.0 - fabs( (planetSurfaceTemperature - referenceSurfaceTemperature) / (planetSurfaceTemperature + referenceSurfaceTemperature) ), 5.58)
 		); 
 	}
 	
