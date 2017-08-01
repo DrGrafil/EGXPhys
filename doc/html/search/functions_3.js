@@ -22,5 +22,8 @@ var searchData=
   ['perisaturnium',['Perisaturnium',['../group___astrophysics.html#ga60a50d09d29ebe47cbbfc125c2ea42bf',1,'EGXPhys']]],
   ['periselene',['Periselene',['../group___astrophysics.html#ga255874374dde571531e443cdbef9ef0c',1,'EGXPhys']]],
   ['periuranion',['Periuranion',['../group___astrophysics.html#gab8b8131a617dd2d2a4de1d48accd7442',1,'EGXPhys']]],
-  ['perizene',['Perizene',['../group___astrophysics.html#ga0523c65b7fc26e675388b2c3d38aa00b',1,'EGXPhys']]]
+  ['perizene',['Perizene',['../group___astrophysics.html#ga0523c65b7fc26e675388b2c3d38aa00b',1,'EGXPhys']]],
+  ['planetsimilarityindex',['PlanetSimilarityIndex',['../group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb',1,'EGXPhys']]],
+  ['planetsimilarityindexinterior',['PlanetSimilarityIndexInterior',['../group___astrophysics.html#ga6dc06a1a8baf6e132abed51fcf410c7f',1,'EGXPhys']]],
+  ['planetsimilarityindexsurface',['PlanetSimilarityIndexSurface',['../group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39',1,'EGXPhys']]]
 ];

@@ -17,6 +17,7 @@
 //=================================
 //
 
+// Note about astronomy symbols https://space.meta.stackexchange.com/questions/700/feature-request-add-marvosym-package-to-our-mathjax-set-for-celestial-body-sym
 
 namespace EGXPhys
 {

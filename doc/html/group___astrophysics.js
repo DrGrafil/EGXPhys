@@ -24,8 +24,9 @@ var group___astrophysics =
     [ "Apouranion", "group___astrophysics.html#ga6efaf5c9379f1085fa6e51bf97356124", null ],
     [ "Apozene", "group___astrophysics.html#ga44d3dd8d8b350d053b25b7b1f1e15534", null ],
     [ "blackbodyLuminosity", "group___astrophysics.html#ga909f82edfaed449b44e94788b642ebb8", null ],
-    [ "EarthSimilarityIndex", "group___astrophysics.html#ga057eb762bee8c3c74390eefc42589f12", null ],
-    [ "EarthSimilarityIndexInterior", "group___astrophysics.html#ga9e293828a04cd099bfa7c3ca1b1ea850", null ],
+    [ "EarthSimilarityIndex", "group___astrophysics.html#ga4b86397b1c839c49ac599d49fda207d4", null ],
+    [ "EarthSimilarityIndexInterior", "group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61", null ],
+    [ "EarthSimilarityIndexSurface", "group___astrophysics.html#ga1df772b0ed354ca7f7e4a7a4af072325", null ],
     [ "Periapsis", "group___astrophysics.html#ga4414ac75539371ec874a3d25cad6c9fe", null ],
     [ "Periareion", "group___astrophysics.html#ga0617ba07a30b0fd0544c02f691bfae26", null ],
     [ "Periastron", "group___astrophysics.html#ga477de6824cbb5986cdae923141e21648", null ],
@@ -49,5 +50,8 @@ var group___astrophysics =
     [ "Periselene", "group___astrophysics.html#ga255874374dde571531e443cdbef9ef0c", null ],
     [ "Periuranion", "group___astrophysics.html#gab8b8131a617dd2d2a4de1d48accd7442", null ],
     [ "Perizene", "group___astrophysics.html#ga0523c65b7fc26e675388b2c3d38aa00b", null ],
+    [ "PlanetSimilarityIndex", "group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb", null ],
+    [ "PlanetSimilarityIndexInterior", "group___astrophysics.html#ga6dc06a1a8baf6e132abed51fcf410c7f", null ],
+    [ "PlanetSimilarityIndexSurface", "group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39", null ],
     [ "radioLuminosity", "group___astrophysics.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4", null ]
 ];

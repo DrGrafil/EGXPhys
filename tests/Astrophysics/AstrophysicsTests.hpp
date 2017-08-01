@@ -7,3 +7,4 @@
 #include "ApoapsisTests.hpp"
 #include "LuminosityTests.hpp"
 #include "PeriapsisTests.hpp"
+#include "PlanetCriteriaTests.hpp"

@@ -21,7 +21,7 @@
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
+    extensions: ["tex2jax.js", "TeX/AMSsymbols.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
 </script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
@@ -86,8 +86,7 @@ $(document).ready(function(){initNavTree('_planet_criteria_8hpp.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">PlanetCriteria.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -103,18 +102,36 @@ $(document).ready(function(){initNavTree('_planet_criteria_8hpp.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga057eb762bee8c3c74390eefc42589f12"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga057eb762bee8c3c74390eefc42589f12"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga057eb762bee8c3c74390eefc42589f12">EGXPhys::EarthSimilarityIndex</a> (const T &amp;planetMeanRadius, const T &amp;planetBulkDensity, const T &amp;planetEscapeVelocity, const T &amp;planetSurfaceTemperature) template&lt; typename T &gt; T PlanetSimilarityIndex(const T &amp;planetMeanRadius</td></tr>
-<tr class="memdesc:ga057eb762bee8c3c74390eefc42589f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Earth Similarity Index ( \(ESI\)) of a planet.  <a href="group___astrophysics.html#ga057eb762bee8c3c74390eefc42589f12">More...</a><br /></td></tr>
-<tr class="separator:ga057eb762bee8c3c74390eefc42589f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9e293828a04cd099bfa7c3ca1b1ea850"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga9e293828a04cd099bfa7c3ca1b1ea850"><td class="memTemplItemLeft" align="right" valign="top">T const T const T const T const T const T const T const T &amp;referenceSurfaceTemperature T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga9e293828a04cd099bfa7c3ca1b1ea850">EGXPhys::EarthSimilarityIndexInterior</a> (const T &amp;planetMeanRadius, const T &amp;planetBulkDensity, const T &amp;planetEscapeVelocity, const T &amp;planetSurfaceTemperature) template&lt; typename T &gt; T EarthSimilarityIndexSurface(const T &amp;planetMeanRadius</td></tr>
-<tr class="memdesc:ga9e293828a04cd099bfa7c3ca1b1ea850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Interior Earth Similarity Index ( \(ESI_I\)) of a planet when comparing it to a reference planet.  <a href="group___astrophysics.html#ga9e293828a04cd099bfa7c3ca1b1ea850">More...</a><br /></td></tr>
-<tr class="separator:ga9e293828a04cd099bfa7c3ca1b1ea850"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa036b2bd461dc3b7dd777b550b9beb4b"><td class="memTemplParams" colspan="2">
+<tr class="memitem:ga62e8b781c301df60bd04af3183a965eb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga62e8b781c301df60bd04af3183a965eb"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb">EGXPhys::PlanetSimilarityIndex</a> (const T &amp;planetMeanRadius, const T &amp;referenceMeanRadius, const T &amp;planetBulkDensity, const T &amp;referenceBulkDensity, const T &amp;planetEscapeVelocity, const T &amp;referenceEscapeVelocity, const T &amp;planetSurfaceTemperature, const T &amp;referenceSurfaceTemperature)</td></tr>
+<tr class="memdesc:ga62e8b781c301df60bd04af3183a965eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Planet Similarity Index ( \(PSI\)) of a planet when comparing it to a reference planet.  <a href="group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb">More...</a><br /></td></tr>
+<tr class="separator:ga62e8b781c301df60bd04af3183a965eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b86397b1c839c49ac599d49fda207d4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga4b86397b1c839c49ac599d49fda207d4"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga4b86397b1c839c49ac599d49fda207d4">EGXPhys::EarthSimilarityIndex</a> (const T &amp;planetMeanRadius, const T &amp;planetBulkDensity, const T &amp;planetEscapeVelocity, const T &amp;planetSurfaceTemperature)</td></tr>
+<tr class="memdesc:ga4b86397b1c839c49ac599d49fda207d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Earth Similarity Index ( \(ESI\)) of a planet.  <a href="group___astrophysics.html#ga4b86397b1c839c49ac599d49fda207d4">More...</a><br /></td></tr>
+<tr class="separator:ga4b86397b1c839c49ac599d49fda207d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6dc06a1a8baf6e132abed51fcf410c7f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga6dc06a1a8baf6e132abed51fcf410c7f"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga6dc06a1a8baf6e132abed51fcf410c7f">EGXPhys::PlanetSimilarityIndexInterior</a> (const T &amp;planetMeanRadius, const T &amp;referenceMeanRadius, const T &amp;planetBulkDensity, const T &amp;referenceBulkDensity)</td></tr>
+<tr class="memdesc:ga6dc06a1a8baf6e132abed51fcf410c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Interior Planet Similarity Index ( \(PSI_I\)) of a planet when comparing it to a reference planet.  <a href="group___astrophysics.html#ga6dc06a1a8baf6e132abed51fcf410c7f">More...</a><br /></td></tr>
+<tr class="separator:ga6dc06a1a8baf6e132abed51fcf410c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga699bcc2f17b8855eaa856595d8032f61"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga699bcc2f17b8855eaa856595d8032f61"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61">EGXPhys::EarthSimilarityIndexInterior</a> (const T &amp;planetMeanRadius, const T &amp;planetBulkDensity)</td></tr>
+<tr class="memdesc:ga699bcc2f17b8855eaa856595d8032f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Interior Earth Similarity Index ( \(ESI_I\)) of a planet when comparing it to a reference planet.  <a href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61">More...</a><br /></td></tr>
+<tr class="separator:ga699bcc2f17b8855eaa856595d8032f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae0c7dce2779d66b0560ca388a34ddc39"><td class="memTemplParams" colspan="2">
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gaa036b2bd461dc3b7dd777b550b9beb4b"><td class="memTemplItemLeft" align="right" valign="top">T const T const T const T const T const T const T const T &amp;referenceSurfaceTemperature T const T const T const T &amp;planetSurfaceTemperature double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::HabitalZoneInnerRadius</b> (const double starSurfaceTemp, const double starLuminosity)</td></tr>
-<tr class="separator:gaa036b2bd461dc3b7dd777b550b9beb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae0c7dce2779d66b0560ca388a34ddc39"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39">EGXPhys::PlanetSimilarityIndexSurface</a> (const T &amp;planetEscapeVelocity, const T &amp;referenceEscapeVelocity, const T &amp;planetSurfaceTemperature, const T &amp;referenceSurfaceTemperature)</td></tr>
+<tr class="memdesc:gae0c7dce2779d66b0560ca388a34ddc39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Surface Planet Similarity Index of a planet. <br /></td></tr>
+<tr class="separator:gae0c7dce2779d66b0560ca388a34ddc39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="memTemplParams" colspan="2">
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga1df772b0ed354ca7f7e4a7a4af072325">EGXPhys::EarthSimilarityIndexSurface</a> (const T &amp;planetEscapeVelocity, const T &amp;planetSurfaceTemperature)</td></tr>
+<tr class="memdesc:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Surface Earth Similarity Index of a planet. <br /></td></tr>
+<tr class="separator:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga17e667a233c12e3e05aed3fdf08d1156"><td class="memTemplParams" colspan="2">
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga17e667a233c12e3e05aed3fdf08d1156"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::HabitalZoneInnerRadius</b> (const double starSurfaceTemp, const double starLuminosity)</td></tr>
+<tr class="separator:ga17e667a233c12e3e05aed3fdf08d1156"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacdb0f5c44bfad08164ae26b5b098be45"><td class="memTemplParams" colspan="2">
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gacdb0f5c44bfad08164ae26b5b098be45"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::HabitalZoneOuterRadius</b> (const double starSurfaceTemp, const double starLuminosity)</td></tr>
@@ -137,27 +154,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>EGXPhys::HabitableZ
 <tr class="memitem:ga216592494ebf26b017c36af156c4d14b"><td class="memItemLeft" align="right" valign="top">
 double&#160;</td><td class="memItemRight" valign="bottom"><b>EGXPhys::HabitableZoneComposition</b> (const double planetMass, const double planetRadius)</td></tr>
 <tr class="separator:ga216592494ebf26b017c36af156c4d14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ga6df51df8966c07fd3d79ce6f1e6d31e9"><td class="memItemLeft" align="right" valign="top">
-T const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>EGXPhys::referenceMeanRadius</b></td></tr>
-<tr class="separator:ga6df51df8966c07fd3d79ce6f1e6d31e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacebbbb12edf2abb6cbda8962d3ab3765"><td class="memItemLeft" align="right" valign="top">
-T const T const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>EGXPhys::planetBulkDensity</b></td></tr>
-<tr class="separator:gacebbbb12edf2abb6cbda8962d3ab3765"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae3aaabec61cc5d343aa9e0be53ea0a84"><td class="memItemLeft" align="right" valign="top">
-T const T const T const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>EGXPhys::referenceBulkDensity</b></td></tr>
-<tr class="separator:gae3aaabec61cc5d343aa9e0be53ea0a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga703b714efa9538d4a6245aba4e086ffb"><td class="memItemLeft" align="right" valign="top">
-T const T const T const T const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>EGXPhys::planetEscapeVelocity</b></td></tr>
-<tr class="separator:ga703b714efa9538d4a6245aba4e086ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2f813fba1c5f5b54b832628412946e8f"><td class="memItemLeft" align="right" valign="top">
-T const T const T const T const T const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>EGXPhys::referenceEscapeVelocity</b></td></tr>
-<tr class="separator:ga2f813fba1c5f5b54b832628412946e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf80e0110f6ea7b712de28dc76eac5b54"><td class="memItemLeft" align="right" valign="top">
-T const T const T const T const T const T const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>EGXPhys::planetSurfaceTemperature</b></td></tr>
-<tr class="separator:gaf80e0110f6ea7b712de28dc76eac5b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Calculates various criteria for planets including habitability. </p>

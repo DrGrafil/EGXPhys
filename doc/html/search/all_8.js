@@ -27,6 +27,9 @@ var searchData=
   ['perizene',['Perizene',['../group___astrophysics.html#ga0523c65b7fc26e675388b2c3d38aa00b',1,'EGXPhys']]],
   ['planetcriteria_2ehpp',['PlanetCriteria.hpp',['../_planet_criteria_8hpp.html',1,'']]],
   ['planetcriteria_2einl',['PlanetCriteria.inl',['../_planet_criteria_8inl.html',1,'']]],
+  ['planetsimilarityindex',['PlanetSimilarityIndex',['../group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb',1,'EGXPhys']]],
+  ['planetsimilarityindexinterior',['PlanetSimilarityIndexInterior',['../group___astrophysics.html#ga6dc06a1a8baf6e132abed51fcf410c7f',1,'EGXPhys']]],
+  ['planetsimilarityindexsurface',['PlanetSimilarityIndexSurface',['../group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39',1,'EGXPhys']]],
   ['plasma',['Plasma',['../group___plasma.html',1,'']]],
   ['plasma_2ehpp',['Plasma.hpp',['../_plasma_8hpp.html',1,'']]],
   ['plasmaconstants_2ehpp',['PlasmaConstants.hpp',['../_plasma_constants_8hpp.html',1,'']]]

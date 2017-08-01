@@ -11,11 +11,19 @@ Calculates various criteria for planets including habitability.
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga057eb762bee8c3c74390eefc42589f12}{E\+G\+X\+Phys\+::\+Earth\+Similarity\+Index} (const T \&planet\+Mean\+Radius, const T \&planet\+Bulk\+Density, const T \&planet\+Escape\+Velocity, const T \&planet\+Surface\+Temperature) template$<$ typename T $>$ T Planet\+Similarity\+Index(const T \&planet\+Mean\+Radius
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga62e8b781c301df60bd04af3183a965eb}{E\+G\+X\+Phys\+::\+Planet\+Similarity\+Index} (const T \&planet\+Mean\+Radius, const T \&reference\+Mean\+Radius, const T \&planet\+Bulk\+Density, const T \&reference\+Bulk\+Density, const T \&planet\+Escape\+Velocity, const T \&reference\+Escape\+Velocity, const T \&planet\+Surface\+Temperature, const T \&reference\+Surface\+Temperature)
+\begin{DoxyCompactList}\small\item\em Calculates Planet Similarity Index ( $PSI$) of a planet when comparing it to a reference planet. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga4b86397b1c839c49ac599d49fda207d4}{E\+G\+X\+Phys\+::\+Earth\+Similarity\+Index} (const T \&planet\+Mean\+Radius, const T \&planet\+Bulk\+Density, const T \&planet\+Escape\+Velocity, const T \&planet\+Surface\+Temperature)
 \begin{DoxyCompactList}\small\item\em Calculates Earth Similarity Index ( $ESI$) of a planet. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T const T const T const T const T const T const T const T \&reference\+Surface\+Temperature T \hyperlink{group___astrophysics_ga9e293828a04cd099bfa7c3ca1b1ea850}{E\+G\+X\+Phys\+::\+Earth\+Similarity\+Index\+Interior} (const T \&planet\+Mean\+Radius, const T \&planet\+Bulk\+Density, const T \&planet\+Escape\+Velocity, const T \&planet\+Surface\+Temperature) template$<$ typename T $>$ T Earth\+Similarity\+Index\+Surface(const T \&planet\+Mean\+Radius
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga6dc06a1a8baf6e132abed51fcf410c7f}{E\+G\+X\+Phys\+::\+Planet\+Similarity\+Index\+Interior} (const T \&planet\+Mean\+Radius, const T \&reference\+Mean\+Radius, const T \&planet\+Bulk\+Density, const T \&reference\+Bulk\+Density)
+\begin{DoxyCompactList}\small\item\em Calculates Interior Planet Similarity Index ( $PSI_I$) of a planet when comparing it to a reference planet. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga699bcc2f17b8855eaa856595d8032f61}{E\+G\+X\+Phys\+::\+Earth\+Similarity\+Index\+Interior} (const T \&planet\+Mean\+Radius, const T \&planet\+Bulk\+Density)
 \begin{DoxyCompactList}\small\item\em Calculates Interior Earth Similarity Index ( $ESI_I$) of a planet when comparing it to a reference planet. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T const T const T const T const T const T const T const T \&reference\+Surface\+Temperature T const T const T const T \&planet\+Surface\+Temperature double {\bfseries E\+G\+X\+Phys\+::\+Habital\+Zone\+Inner\+Radius} (const double star\+Surface\+Temp, const double star\+Luminosity)
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_gae0c7dce2779d66b0560ca388a34ddc39}{E\+G\+X\+Phys\+::\+Planet\+Similarity\+Index\+Surface} (const T \&planet\+Escape\+Velocity, const T \&reference\+Escape\+Velocity, const T \&planet\+Surface\+Temperature, const T \&reference\+Surface\+Temperature)
+\begin{DoxyCompactList}\small\item\em Calculates Surface Planet Similarity Index of a planet. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga1df772b0ed354ca7f7e4a7a4af072325}{E\+G\+X\+Phys\+::\+Earth\+Similarity\+Index\+Surface} (const T \&planet\+Escape\+Velocity, const T \&planet\+Surface\+Temperature)
+\begin{DoxyCompactList}\small\item\em Calculates Surface Earth Similarity Index of a planet. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\double {\bfseries E\+G\+X\+Phys\+::\+Habital\+Zone\+Inner\+Radius} (const double star\+Surface\+Temp, const double star\+Luminosity)
 \item 
 {\footnotesize template$<$typename T $>$ }\\double {\bfseries E\+G\+X\+Phys\+::\+Habital\+Zone\+Outer\+Radius} (const double star\+Surface\+Temp, const double star\+Luminosity)
 \item 
@@ -28,21 +36,6 @@ Calculates various criteria for planets including habitability.
 double {\bfseries E\+G\+X\+Phys\+::\+Habitable\+Zone\+Atmosphere} (const double planet\+Mass, const double planet\+Radius, const double planet\+Equilibrium\+Temp)
 \item 
 double {\bfseries E\+G\+X\+Phys\+::\+Habitable\+Zone\+Composition} (const double planet\+Mass, const double planet\+Radius)
-\end{DoxyCompactItemize}
-\subsection*{Variables}
-\begin{DoxyCompactItemize}
-\item 
-T const T \& {\bfseries E\+G\+X\+Phys\+::reference\+Mean\+Radius}
-\item 
-T const T const T \& {\bfseries E\+G\+X\+Phys\+::planet\+Bulk\+Density}
-\item 
-T const T const T const T \& {\bfseries E\+G\+X\+Phys\+::reference\+Bulk\+Density}
-\item 
-T const T const T const T const T \& {\bfseries E\+G\+X\+Phys\+::planet\+Escape\+Velocity}
-\item 
-T const T const T const T const T const T \& {\bfseries E\+G\+X\+Phys\+::reference\+Escape\+Velocity}
-\item 
-T const T const T const T const T const T const T \& {\bfseries E\+G\+X\+Phys\+::planet\+Surface\+Temperature}
 \end{DoxyCompactItemize}
 
 
