@@ -21,7 +21,7 @@
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
-    extensions: ["tex2jax.js", "TeX/AMSsymbols.js"],
+    extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
 </script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
@@ -1281,15 +1281,15 @@ template&lt;typename T &gt; </div>
 <p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>. Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">planetMeanRadius</td><td>r(m) is the mean radius of a planet. </td></tr>
-    <tr><td class="paramname">planetBulkDensity</td><td>\(\rho\)(kg/m^3) is the bulk density of the planet. </td></tr>
-    <tr><td class="paramname">planetEscapeVelocity</td><td>\(v_e\)(m/s) is the escape velocity needed to escape the planet's gravitational pull. </td></tr>
-    <tr><td class="paramname">planetSurfaceTemperature</td><td>T(K) is the average surface temperature of the planet. </td></tr>
+    <tr><td class="paramname">planetMeanRadius</td><td>\(r\)( \(m\)) is the mean radius of a planet. </td></tr>
+    <tr><td class="paramname">planetBulkDensity</td><td>\(\rho\)( \(\frac{kg}{m^3}\)) is the bulk density of the planet. </td></tr>
+    <tr><td class="paramname">planetEscapeVelocity</td><td>\(v_e\)( \(\frac{m}{s}\)) is the escape velocity needed to escape the planet's gravitational pull. </td></tr>
+    <tr><td class="paramname">planetSurfaceTemperature</td><td>\(T\)( \(K\)) is the average surface temperature of the planet. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Earth Similarity Index ESI(dimensionless) for a planet. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>PlanetSimiarityIndex() to calculate using R_ and M_ instead of SI units or to use other planets as the basis for comparison. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb" title="Calculates Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndex()</a> to calculate using R_ and M_ instead of SI units or to use other planets as the basis for comparison. </dd>
 <dd>
 <a class="el" href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61" title="Calculates Interior Earth Similarity Index ( ) of a planet when comparing it to a reference planet...">EarthSimilarityIndexInterior()</a> for \(ESI_I\) equation. </dd>
 <dd>
@@ -2269,19 +2269,19 @@ template&lt;typename T &gt; </div>
 <p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>. Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">planetMeanRadius</td><td>r(m) is the mean radius of a planet. </td></tr>
-    <tr><td class="paramname">referenceMeanRadius</td><td>r(m) is the mean radius of the reference planet. </td></tr>
-    <tr><td class="paramname">planetBulkDensity</td><td>\(\rho\)(kg/m^3) is the bulk density of the planet. </td></tr>
+    <tr><td class="paramname">planetMeanRadius</td><td>\(r\)( \(m\)) is the mean radius of a planet. </td></tr>
+    <tr><td class="paramname">referenceMeanRadius</td><td>\(r_{ref}\)( \(m\)) is the mean radius of the reference planet. </td></tr>
+    <tr><td class="paramname">planetBulkDensity</td><td>\(\rho\)( \(\frac{kg}{m^3}\)) is the bulk density of the planet. </td></tr>
     <tr><td class="paramname">referenceBulkDensity</td><td>\(\rho\)(kg/m^3) is the bulk density of the reference planet. </td></tr>
-    <tr><td class="paramname">planetEscapeVelocity</td><td>\(v_e\)(m/s) is the escape velocity needed to escape the planet's gravitational pull. </td></tr>
-    <tr><td class="paramname">referenceEscapeVelocity</td><td>\(v_e\)(m/s) is the escape velocity needed to escape the reference planet's gravitational pull. </td></tr>
-    <tr><td class="paramname">planetSurfaceTemperature</td><td>T(K) is the average surface temperature of the planet. </td></tr>
-    <tr><td class="paramname">referenceSurfaceTemperature</td><td>T(K) is the average surface temperature of the reference planet. </td></tr>
+    <tr><td class="paramname">planetEscapeVelocity</td><td>\(v_e\)( \(\frac{m}{s}\)) is the escape velocity needed to escape the planet's gravitational pull. </td></tr>
+    <tr><td class="paramname">referenceEscapeVelocity</td><td>\(v_{e,ref}\)( \(\frac{m}{s}\)) is the escape velocity needed to escape the reference planet's gravitational pull. </td></tr>
+    <tr><td class="paramname">planetSurfaceTemperature</td><td>\(T\)( \(K\)) is the average surface temperature of the planet. </td></tr>
+    <tr><td class="paramname">referenceSurfaceTemperature</td><td>\(T_{ref}\)( \(K\)) is the average surface temperature of the reference planet. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Planet Similarity Index PSI(dimensionless) for a planet when comparing it to a reference planet. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>PlanetSimiarityIndex() Earth based planet comparison. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga4b86397b1c839c49ac599d49fda207d4" title="Calculates Earth Similarity Index ( ) of a planet. ">EarthSimilarityIndex()</a> Earth based planet comparison. </dd>
 <dd>
 <a class="el" href="group___astrophysics.html#ga6dc06a1a8baf6e132abed51fcf410c7f" title="Calculates Interior Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndexInterior()</a> for \(PSI_I\) equation. </dd>
 <dd>
@@ -2339,15 +2339,15 @@ template&lt;typename T &gt; </div>
 <p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>. Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">planetMeanRadius</td><td>\(r\)(m) is the mean radius of a planet. </td></tr>
-    <tr><td class="paramname">referenceMeanRadius</td><td>\(r_{ref}\)(m) is the mean radius of the reference planet. </td></tr>
-    <tr><td class="paramname">planetBulkDensity</td><td>\(\rho\)(kg/m^3) is the bulk density of the planet. </td></tr>
-    <tr><td class="paramname">referenceBulkDensity</td><td>\(\rho_{ref}\)(kg/m^3) is the bulk density of the reference planet. </td></tr>
+    <tr><td class="paramname">planetMeanRadius</td><td>\(r\)( \(m\)) is the mean radius of a planet. </td></tr>
+    <tr><td class="paramname">referenceMeanRadius</td><td>\(r_{ref}\)( \(m\)) is the mean radius of the reference planet. </td></tr>
+    <tr><td class="paramname">planetBulkDensity</td><td>\(\rho\)( \(\frac{kg}{m^3}\)) is the bulk density of the planet. </td></tr>
+    <tr><td class="paramname">referenceBulkDensity</td><td>\(\rho_{ref}\)( \(\frac{kg}{m^3}\)) is the bulk density of the reference planet. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Planet Similarity Index PSI(dimensionless) for a planet when comparing it to a reference planet. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>PlanetSimiarityIndex() Earth based planet comparison. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb" title="Calculates Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndex()</a> Earth based planet comparison. </dd>
 <dd>
 <a class="el" href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61" title="Calculates Interior Earth Similarity Index ( ) of a planet when comparing it to a reference planet...">EarthSimilarityIndexInterior()</a> for \(PSI_I\) equation using earth as reference. </dd>
 <dd>

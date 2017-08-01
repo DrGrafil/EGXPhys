@@ -35,16 +35,16 @@ namespace EGXPhys
 	*   See http://phl.upr.edu/projects/earth-similarity-index-esi and https://en.wikipedia.org/wiki/Earth_Similarity_Index.
 	*	Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" https://doi.org/10.1089/ast.2010.0592.
     *
-	*   @param  planetMeanRadius r(m) is the mean radius of a planet.
-	*	@param  referenceMeanRadius r(m) is the mean radius of the reference planet.
-	*   @param  planetBulkDensity \f$\rho\f$(kg/m^3) is the bulk density of the planet.
+	*   @param  planetMeanRadius \f$r\f$(\f$m\f$) is the mean radius of a planet.
+	*	@param  referenceMeanRadius \f$r_{ref}\f$(\f$m\f$) is the mean radius of the reference planet.
+	*   @param  planetBulkDensity \f$\rho\f$(\f$\frac{kg}{m^3}\f$) is the bulk density of the planet.
 	*	@param  referenceBulkDensity \f$\rho\f$(kg/m^3) is the bulk density of the reference planet.
-	*   @param  planetEscapeVelocity \f$v_e\f$(m/s) is the escape velocity needed to escape the planet's gravitational pull.
-	*	@param  referenceEscapeVelocity \f$v_e\f$(m/s) is the escape velocity needed to escape the reference planet's gravitational pull.
-	*   @param  planetSurfaceTemperature T(K) is the average surface temperature of the planet.
-	*   @param  referenceSurfaceTemperature T(K) is the average surface temperature of the reference planet.
+	*   @param  planetEscapeVelocity \f$v_e\f$(\f$\frac{m}{s}\f$) is the escape velocity needed to escape the planet's gravitational pull.
+	*	@param  referenceEscapeVelocity \f$v_{e,ref}\f$(\f$\frac{m}{s}\f$) is the escape velocity needed to escape the reference planet's gravitational pull.
+	*   @param  planetSurfaceTemperature \f$T\f$(\f$K\f$) is the average surface temperature of the planet.
+	*   @param  referenceSurfaceTemperature \f$T_{ref}\f$(\f$K\f$) is the average surface temperature of the reference planet.
 	*   @return Planet Similarity Index PSI(dimensionless) for a planet when comparing it to a reference planet.
-	*	@see PlanetSimiarityIndex() Earth based planet comparison.
+	*	@see EarthSimilarityIndex() Earth based planet comparison.
 	*	@see PlanetSimilarityIndexInterior() for \f$PSI_I\f$ equation.
 	*	@see PlanetSimilarityIndexSurface() for \f$PSI_S\f$ equation.
 	*/ 
@@ -59,12 +59,12 @@ namespace EGXPhys
 	*   See http://phl.upr.edu/projects/earth-similarity-index-esi and https://en.wikipedia.org/wiki/Earth_Similarity_Index.
 	*	Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" https://doi.org/10.1089/ast.2010.0592.
     * 
-	*   @param  planetMeanRadius r(m) is the mean radius of a planet.
-	*   @param  planetBulkDensity \f$\rho\f$(kg/m^3) is the bulk density of the planet.
-	*   @param  planetEscapeVelocity \f$v_e\f$(m/s) is the escape velocity needed to escape the planet's gravitational pull.
-	*   @param  planetSurfaceTemperature T(K) is the average surface temperature of the planet.
+	*   @param  planetMeanRadius \f$r\f$(\f$m\f$) is the mean radius of a planet.
+	*   @param  planetBulkDensity \f$\rho\f$(\f$\frac{kg}{m^3}\f$) is the bulk density of the planet.
+	*   @param  planetEscapeVelocity \f$v_e\f$(\f$\frac{m}{s}\f$) is the escape velocity needed to escape the planet's gravitational pull.
+	*   @param  planetSurfaceTemperature \f$T\f$(\f$K\f$) is the average surface temperature of the planet.
 	*   @return Earth Similarity Index ESI(dimensionless) for a planet.
-	*	@see PlanetSimiarityIndex() to calculate using R_\Earth and M_\Earth instead of SI units or to use other planets as the basis for comparison.
+	*	@see PlanetSimilarityIndex() to calculate using R_\oplus and M_\oplus instead of SI units or to use other planets as the basis for comparison.
 	*	@see EarthSimilarityIndexInterior() for \f$ESI_I\f$ equation.
 	*	@see EarthSimilarityIndexSurface() for \f$ESI_S\f$ equation.
 	*/ 
@@ -82,12 +82,12 @@ namespace EGXPhys
 	*   See http://phl.upr.edu/projects/earth-similarity-index-esi and https://en.wikipedia.org/wiki/Earth_Similarity_Index.
 	*	Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" https://doi.org/10.1089/ast.2010.0592.
     *
-	*   @param  planetMeanRadius \f$r\f$(m) is the mean radius of a planet.
-	*	@param  referenceMeanRadius \f$r_{ref}\f$(m) is the mean radius of the reference planet.
-	*   @param  planetBulkDensity \f$\rho\f$(kg/m^3) is the bulk density of the planet.
-	*	@param  referenceBulkDensity \f$\rho_{ref}\f$(kg/m^3) is the bulk density of the reference planet.
+	*   @param  planetMeanRadius \f$r\f$(\f$m\f$) is the mean radius of a planet.
+	*	@param  referenceMeanRadius \f$r_{ref}\f$(\f$m\f$) is the mean radius of the reference planet.
+	*   @param  planetBulkDensity \f$\rho\f$(\f$\frac{kg}{m^3}\f$) is the bulk density of the planet.
+	*	@param  referenceBulkDensity \f$\rho_{ref}\f$(\f$\frac{kg}{m^3}\f$) is the bulk density of the reference planet.
 	*   @return Planet Similarity Index PSI(dimensionless) for a planet when comparing it to a reference planet.
-	*	@see PlanetSimiarityIndex() Earth based planet comparison.
+	*	@see PlanetSimilarityIndex() Earth based planet comparison.
 	*	@see EarthSimilarityIndexInterior() for \f$PSI_I\f$ equation using earth as reference.
 	*	@see PlanetSimilarityIndexSurface() for \f$PSI_S\f$ equation.
 	*/  
