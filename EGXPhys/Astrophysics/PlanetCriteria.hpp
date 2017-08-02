@@ -163,48 +163,7 @@ namespace EGXPhys
     template<typename T>
     T EarthSimilarityIndexSurface(const T& planetEscapeVelocity, const T& planetSurfaceTemperature);
 
-    
-        // Habital Zone Distance
-// http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets
-// http://xxx.lanl.gov/pdf/1301.6674v2.pdf Habitable Zones Around Main-Sequence Stars: New Estimates
-// http://depts.washington.edu/naivpl/content/hz-calculator
-// http://astro.unl.edu/naap/habitablezones/animations/stellarHabitableZone.html
-    
-	/** 
-	*   @brief Calculates the inner boundary of the Habitable Zone of a solar system.
-	*
-	*	See "Impacts of stellar evolution and dynamics on the habitable zone: The role of rotation and magnetic activity" https://doi.org/10.1051/0004-6361/201629034 
-	*	Equation taken from http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets and 
-	*   @param starEffectiveTemperature \f$T_{eff}\f$(\f$K\f$) is the effective temperature of the star (black body). See https://en.wikipedia.org/wiki/Effective_temperature.
-	*   @param starLuminosity
-	*   @return \f$r_{inner}\f$(\f$AU\f$) the inner boundary of the Habitable Zone. 
-	*	@see HabitalZoneDistance()
-	*	@see HabitalZoneOuterRadius() for outer boundary of the Habital Zone
-	*/  
-	template<typename T>
-	T HabitalZoneInnerBoundary( const T starEffectiveTemperature, const T starLuminosity);
-	
-	
-	    /** 
-	*   @brief Calculates Surface Earth Similarity Index (\f$ESI_S\f$) of a planet.
-	*
-	*   @param 
-	*   @return \f$ESI_S\f$(dimensionless) Surface Earth Similarity Index for a planet.
-	*	@see 
-	*/  
-	template<typename T>
-	T HabitalZoneOuterRadius( const T starEffectiveTemperature, const T starLuminosity );
-	
-	    /** 
-	*   @brief Calculates Surface Earth Similarity Index (\f$ESI_S\f$) of a planet.
-	*
-	*   @param 
-	*   @return \f$ESI_S\f$(dimensionless) Surface Earth Similarity Index for a planet.
-	*	@see 
-	*/  
-	template<typename T>
-	T HabitalZoneDistance( const T distanceFromStar, const T starEffectiveTemperature, const T starLuminosity );
-	
+ 
 	
 	template<typename T>
 	T PlanetaryEquilibriumTempreture( const T planetAlbedo, const T planetDistance, const T starLuminosity );
