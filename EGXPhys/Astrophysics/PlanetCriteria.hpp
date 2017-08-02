@@ -163,25 +163,51 @@ namespace EGXPhys
     template<typename T>
     T EarthSimilarityIndexSurface(const T& planetEscapeVelocity, const T& planetSurfaceTemperature);
 
-    	
+    
+    
+    /** 
+	*   @brief Calculates Surface Earth Similarity Index (\f$ESI_S\f$) of a planet.
+	*
+	*   @param 
+	*   @return \f$ESI_S\f$(dimensionless) Surface Earth Similarity Index for a planet.
+	*	@see 
+	*/  
 	template<typename T>
-	double HabitalZoneInnerRadius( const double starSurfaceTemp, const double starLuminosity);
+	T HabitalZoneInnerRadius( const T starSurfaceTemp, const T starLuminosity);
+	
+	
+	    /** 
+	*   @brief Calculates Surface Earth Similarity Index (\f$ESI_S\f$) of a planet.
+	*
+	*   @param 
+	*   @return \f$ESI_S\f$(dimensionless) Surface Earth Similarity Index for a planet.
+	*	@see 
+	*/  
+	template<typename T>
+	T HabitalZoneOuterRadius( const T starSurfaceTemp, const T starLuminosity );
+	
+	    /** 
+	*   @brief Calculates Surface Earth Similarity Index (\f$ESI_S\f$) of a planet.
+	*
+	*   @param 
+	*   @return \f$ESI_S\f$(dimensionless) Surface Earth Similarity Index for a planet.
+	*	@see 
+	*/  
+	template<typename T>
+	T HabitalZoneDistance( const T planetSemimajorAxis, const T starSurfaceTemp, const T starLuminosity );
+	
 	
 	template<typename T>
-	double HabitalZoneOuterRadius( const double starSurfaceTemp, const double starLuminosity );
+	T PlanetaryEquilibriumTempreture( const T planetAlbedo, const T planetDistance, const T starLuminosity );
 	
 	template<typename T>
-	double HabitalZoneDistance( const double planetSemimajorAxis, const double starSurfaceTemp, const double starLuminosity );
+	T PlanetaryEquilibriumTempreture( const T planetAlbedo,  const T planetDistance, const T starSurfaceTemp, const T starRadius );
 	
 	template<typename T>
-	double PlanetaryEquilibriumTempreture( const double planetAlbedo, const double planetDistance, const double starLuminosity );
+	T HabitableZoneAtmosphere( const T planetMass, const T planetRadius, const T planetEquilibriumTemp );
 	
 	template<typename T>
-	double PlanetaryEquilibriumTempreture( const double planetAlbedo,  const double planetDistance, const double starSurfaceTemp, const double starRadius );
-	
-	double HabitableZoneAtmosphere( const double planetMass, const double planetRadius, const double planetEquilibriumTemp );
-	
-	double HabitableZoneComposition( const double planetMass, const double planetRadius );
+	T HabitableZoneComposition( const T planetMass, const T planetRadius );
     
     /// @}
 } //namespace EGXPhys

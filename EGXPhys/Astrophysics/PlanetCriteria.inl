@@ -52,4 +52,24 @@ namespace EGXPhys{
     	return PlanetSimilarityIndexSurface(planetEscapeVelocity, EscapeVelocityOfEarth, planetSurfaceTemperature, SurfaceTempretureOfEarth);
 	}
     
+    
+    
+    template<typename T>
+	T HabitalZoneInnerRadius( const T starSurfaceTemp, const T starLuminosity){
+		
+	}
+	template<typename T>
+	T HabitalZoneOuterRadius( const T starSurfaceTemp, const T starLuminosity ){
+		
+	}
+	
+
+	template<typename T>
+	T HabitalZoneDistance( const T planetSemimajorAxis, const T starSurfaceTemp, const T starLuminosity ){
+		
+	}
+	
+    
+    
+
 }//namespace EGXPhys
