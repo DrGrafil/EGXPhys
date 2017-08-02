@@ -7,7 +7,11 @@
 
 namespace EGXPhys{
 	
-
+	template<typename T>
+	T CircumstellarHabitableZoneLimit(const T& starLuminosity, const T& stellarFluxEffective){
+		return sqrt( /stellarFluxEffective);
+		sqrt{\frac{L/L_\odot}{S_{eff}}}
+	}
 
 
     template<typename T>
