@@ -9,35 +9,34 @@ namespace EGXPhys{
 	
 	template<typename T>
 	T CircumstellarHabitableZoneLimit(const T& starLuminosity, const T& stellarFluxEffective){
-		return sqrt( /stellarFluxEffective);
-		sqrt{\frac{L/L_\odot}{S_{eff}}}
+		return sqrt((starLuminosity/SunLuminocity)/stellarFluxEffective);
 	}
 
-
+	template<typename T>
+	T StellarFluxEffectiveSelsis(const T& starEffectiveSurfaceTemperature, const T& sunEffectiveStellarFlux, const T& aModelParameter, const T& bModelParameter){
+		const T TempStar = starEffectiveSurfaceTemperature - 5700.0;
+		return 1.0 / pow( sunEffectiveStellarFlux - aModelParameter * TempStar - bModelParameter * TempStar * TempStar  ,2.0);
+	}	
+	
+	template<typename T>
+	T StellarFluxEffectiveUnderwood(const T& starEffectiveSurfaceTemperature, const T& sunEffectiveStellarFlux, const T& aModelParameter, const T& bModelParameter){
+		
+	}
+	
     template<typename T>
-	T CircumstellarHabitableZoneInnerRadius( const T  starEffectiveTemperature, const T starLuminosity){
-		const T ai = 2.7619e-5;
-		const T bi = 3.8095e-9;
-		const T ris = 0.72;
-		const T Ts = 5700; 
-		return ( ris - ai * ( starEffectiveTemperature - Ts ) - starEffectiveTemperature* pow( starEffectiveTemperature - Ts, 2.0 ) ) * sqrt( starLuminosity/SunLuminocity );
+	T CircumstellarHabitableZoneInnerRadius( const T& starEffectiveSurfaceTemperature, const T& starLuminosity){
+		return CircumstellarHabitableZoneLimit(starLuminosity, StellarFluxEffectiveSelsis(starEffectiveTemperature, 0.72, 2.7619e-5, 3.8095e-9) );
 	}
 	
 	template<typename T>
-	T CircumstellarHabitableZoneZoneOuterRadius( const T starEffectiveTemperature, const T starLuminosity ){
-		const T ao = 1.3786e-4;
-		const T bo = 1.4286e-9;
-		const T ros = 1.77;
-		const T Ts = 5700; 
-		return ( ros - ao * ( starEffectiveTemperature - Ts ) - bo* pow( starEffectiveTemperature - Ts, 2.0 ) ) * sqrt( starLuminosity/SunLuminocity );
+	T CircumstellarHabitableZoneZoneOuterRadius( const T& starEffectiveSurfaceTemperature, const T& starLuminosity ){
+		return CircumstellarHabitableZoneLimit(starLuminosity, StellarFluxEffectiveSelsis(starEffectiveTemperature, 1.77, 1.3786e-4, 1.4286e-9) );
 	}
 	
 
 	template<typename T>
-	T CircumstellarHabitableZoneZoneDistance( const T distanceFromStar, const T starEffectiveTemperature, const T starLuminosity ){
-		T ro = HabitalZoneOuterRadius( starEffectiveTemperature, starLuminosity );
-		T ri = HabitalZoneInnerRadius( starEffectiveTemperature, starLuminosity );
-		return ( 2.0*distanceFromStar - ro - ri ) / ( ro - ri );
+	T CircumstellarHabitableZoneDistance(const T& distanceFromStar, const T& CHZOuterBoundary, const T& CHZInnerBoundary){
+		return (2.0 * distanceFromStar - CHZOuterBoundary - CHZInnerBoundary )/(CHZOuterBoundary - CHZInnerBoundary);
 	}
     
 }//namespace EGXPhys

@@ -28,8 +28,8 @@ namespace EGXPhys
 	*   @brief  Calculates the redshift, \f$z\f$, of light based on wavelenght. Redshifts occur when \f$z > 0\f$, blueshifts when \f$z < 0\f$. See https://en.wikipedia.org/wiki/Redshift.
 	*			\f[z=\frac{\lambda_{observed}-\lambda_{emitted}}{\lambda_{emitted}}\f]   
 	*  
-	*   @param  wavelengthObserved \f$\lambda_{observed}(m)\f$ is the observed wavelength of light.
-	*   @param  wavelengthEmitted \f$\lambda_{emitted}(m) is the emitted wavelength of light.
+	*   @param  wavelengthObserved \f$\lambda_{observed}\f$(\f$m\f$) is the observed wavelength of light.
+	*   @param  wavelengthEmitted \f$\lambda_{emitted}\f$(\f$m\f$) is the emitted wavelength of light.
 	*   @return \f$z\f$(dimensionless) redshift of the observed light.
 	*/ 
     template<typename T>

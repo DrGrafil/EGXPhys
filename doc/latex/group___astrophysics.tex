@@ -49,6 +49,18 @@
 \begin{DoxyCompactList}\small\item\em Calculates apoapsis around Neptune. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_gaa16847ddc5763c327067075dcb6a3353}{E\+G\+X\+Phys\+::\+Apohadion} (const T \&orbital\+Eccentricity, const T \&semimajor\+Axis)
 \begin{DoxyCompactList}\small\item\em Calculates apoapsis around Pluto. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga23a8f602461ea3257e8767b1d455c383}{E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Limit} (const T \&star\+Luminosity, const T \&stellar\+Flux\+Effective)
+\begin{DoxyCompactList}\small\item\em Calculates the Circumstellar Habitable Zone Limits, $d_{CHZL}$ of a star. Also known as Habitable Zone Limits. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga3ce3a04fec7b1c8fb66ac54270ce3902}{E\+G\+X\+Phys\+::\+Stellar\+Flux\+Effective\+Selsis} (const T \&star\+Effective\+Surface\+Temperature, const T \&sun\+Effective\+Stellar\+Flux, const T \&a\+Model\+Parameter, const T \&b\+Model\+Parameter)
+\begin{DoxyCompactList}\small\item\em Calculates the effective stellar flux, ( $S_{eff}$) of a star using Selsis estimation. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga34d1e39bce17904bc6d383f1935c79d6}{E\+G\+X\+Phys\+::\+Stellar\+Flux\+Effective\+Underwood} (const T \&star\+Effective\+Surface\+Temperature, const T \&sun\+Effective\+Stellar\+Flux, const T \&a\+Model\+Parameter, const T \&b\+Model\+Parameter)
+\begin{DoxyCompactList}\small\item\em Calculates the effective stellar flux ( $S_{eff}$) using Underwood estimation. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga9ee2e8023cb444aa4638c962788b5853}{E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Inner\+Boundary} (const T \&star\+Effective\+Surface\+Temperature, const T \&star\+Luminosity)
+\begin{DoxyCompactList}\small\item\em Calculates the inner boundary of the Habitable Zone of a solar system. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_gaa47fcde814ba8007de800e930fc0a08d}{E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Outer\+Boundary} (const T \&star\+Effective\+Surface\+Temperature, const T \&star\+Luminosity)
+\begin{DoxyCompactList}\small\item\em Calculates Circumstellar Habitable Zone Outer Boundary ( $r_o$) of a star. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_gacf3a720793cdb27f6d93b170b44e81be}{E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Distance} (const T \&distance\+From\+Star, const T \&C\+H\+Z\+Outer\+Boundary, const T \&C\+H\+Z\+Inner\+Boundary)
+\begin{DoxyCompactList}\small\item\em Calculates Circumstellar Habitable Zone Distance ( $CHZD$) of a planet. Also known as Habitable Zone Distance. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga4414ac75539371ec874a3d25cad6c9fe}{E\+G\+X\+Phys\+::\+Periapsis} (const T \&orbital\+Eccentricity, const T \&semimajor\+Axis)
 \begin{DoxyCompactList}\small\item\em Calculates periapsis of an orbiting body. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_gac4c419a87a5802cf6afc98f50792e99f}{E\+G\+X\+Phys\+::\+Pericenter} (const T \&orbital\+Eccentricity, const T \&semimajor\+Axis)
@@ -111,26 +123,17 @@
 \begin{DoxyCompactList}\small\item\em Calculates Surface Planet Similarity Index ( $PSI_S$) of a planet when comparing it to a reference planet. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___astrophysics_ga1df772b0ed354ca7f7e4a7a4af072325}{E\+G\+X\+Phys\+::\+Earth\+Similarity\+Index\+Surface} (const T \&planet\+Escape\+Velocity, const T \&planet\+Surface\+Temperature)
 \begin{DoxyCompactList}\small\item\em Calculates Surface Earth Similarity Index ( $ESI_S$) of a planet. \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{group___astrophysics_ga17e667a233c12e3e05aed3fdf08d1156}\label{group___astrophysics_ga17e667a233c12e3e05aed3fdf08d1156}} 
-{\footnotesize template$<$typename T $>$ }\\double {\bfseries E\+G\+X\+Phys\+::\+Habital\+Zone\+Inner\+Radius} (const double star\+Surface\+Temp, const double star\+Luminosity)
+\mbox{\Hypertarget{group___astrophysics_gaeac3ced5104701ee02fc100f7cf4c189}\label{group___astrophysics_gaeac3ced5104701ee02fc100f7cf4c189}} 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Planetary\+Equilibrium\+Tempreture} (const T planet\+Albedo, const T planet\+Distance, const T star\+Luminosity)
 \item 
-\mbox{\Hypertarget{group___astrophysics_gacdb0f5c44bfad08164ae26b5b098be45}\label{group___astrophysics_gacdb0f5c44bfad08164ae26b5b098be45}} 
-{\footnotesize template$<$typename T $>$ }\\double {\bfseries E\+G\+X\+Phys\+::\+Habital\+Zone\+Outer\+Radius} (const double star\+Surface\+Temp, const double star\+Luminosity)
+\mbox{\Hypertarget{group___astrophysics_ga099c12876fba6deb13ae2cf0e92644fe}\label{group___astrophysics_ga099c12876fba6deb13ae2cf0e92644fe}} 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Planetary\+Equilibrium\+Tempreture} (const T planet\+Albedo, const T planet\+Distance, const T star\+Surface\+Temp, const T star\+Radius)
 \item 
-\mbox{\Hypertarget{group___astrophysics_ga227538d5ee00f66a5524a1daafd8dc26}\label{group___astrophysics_ga227538d5ee00f66a5524a1daafd8dc26}} 
-{\footnotesize template$<$typename T $>$ }\\double {\bfseries E\+G\+X\+Phys\+::\+Habital\+Zone\+Distance} (const double planet\+Semimajor\+Axis, const double star\+Surface\+Temp, const double star\+Luminosity)
+\mbox{\Hypertarget{group___astrophysics_ga0814237dccfe3c968b97fa6c93aeca27}\label{group___astrophysics_ga0814237dccfe3c968b97fa6c93aeca27}} 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Habitable\+Zone\+Atmosphere} (const T planet\+Mass, const T planet\+Radius, const T planet\+Equilibrium\+Temp)
 \item 
-\mbox{\Hypertarget{group___astrophysics_gaa428f551c34387a00d6c376b3f33632b}\label{group___astrophysics_gaa428f551c34387a00d6c376b3f33632b}} 
-{\footnotesize template$<$typename T $>$ }\\double {\bfseries E\+G\+X\+Phys\+::\+Planetary\+Equilibrium\+Tempreture} (const double planet\+Albedo, const double planet\+Distance, const double star\+Luminosity)
-\item 
-\mbox{\Hypertarget{group___astrophysics_ga387b915a2eb48bda3fe8bfc369bb564c}\label{group___astrophysics_ga387b915a2eb48bda3fe8bfc369bb564c}} 
-{\footnotesize template$<$typename T $>$ }\\double {\bfseries E\+G\+X\+Phys\+::\+Planetary\+Equilibrium\+Tempreture} (const double planet\+Albedo, const double planet\+Distance, const double star\+Surface\+Temp, const double star\+Radius)
-\item 
-\mbox{\Hypertarget{group___astrophysics_ga9829bd56a145bd0ef17b38c6f8006f66}\label{group___astrophysics_ga9829bd56a145bd0ef17b38c6f8006f66}} 
-double {\bfseries E\+G\+X\+Phys\+::\+Habitable\+Zone\+Atmosphere} (const double planet\+Mass, const double planet\+Radius, const double planet\+Equilibrium\+Temp)
-\item 
-\mbox{\Hypertarget{group___astrophysics_ga216592494ebf26b017c36af156c4d14b}\label{group___astrophysics_ga216592494ebf26b017c36af156c4d14b}} 
-double {\bfseries E\+G\+X\+Phys\+::\+Habitable\+Zone\+Composition} (const double planet\+Mass, const double planet\+Radius)
+\mbox{\Hypertarget{group___astrophysics_ga14ab036f8c617512236522c8e31dd072}\label{group___astrophysics_ga14ab036f8c617512236522c8e31dd072}} 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Habitable\+Zone\+Composition} (const T planet\+Mass, const T planet\+Radius)
 \end{DoxyCompactItemize}
 
 
@@ -573,6 +576,108 @@ Calculates the luminosity in Watts of a black body.
 \begin{DoxyReturn}{Returns}
 Luminosity L(\+W) for a black body 
 \end{DoxyReturn}
+\mbox{\Hypertarget{group___astrophysics_gacf3a720793cdb27f6d93b170b44e81be}\label{group___astrophysics_gacf3a720793cdb27f6d93b170b44e81be}} 
+\index{Astrophysics@{Astrophysics}!Circumstellar\+Habitable\+Zone\+Distance@{Circumstellar\+Habitable\+Zone\+Distance}}
+\index{Circumstellar\+Habitable\+Zone\+Distance@{Circumstellar\+Habitable\+Zone\+Distance}!Astrophysics@{Astrophysics}}
+\subsubsection{\texorpdfstring{Circumstellar\+Habitable\+Zone\+Distance()}{CircumstellarHabitableZoneDistance()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Distance (\begin{DoxyParamCaption}\item[{const T \&}]{distance\+From\+Star,  }\item[{const T \&}]{C\+H\+Z\+Outer\+Boundary,  }\item[{const T \&}]{C\+H\+Z\+Inner\+Boundary }\end{DoxyParamCaption})}
+
+
+
+Calculates Circumstellar Habitable Zone Distance ( $CHZD$) of a planet. Also known as Habitable Zone Distance. 
+
+Circumstellar Habitable Zone is the orbital area around a star where in which a rocky planet, with the right atmosphere, can maintain liquid water at the surface of the planet. The HZ of an exoplanet is generally defined as the area (in terms of distance from its central star) See \href{http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets}{\tt http\+://phl.\+upr.\+edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets} and \href{https://en.wikipedia.org/wiki/Circumstellar_habitable_zone}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Circumstellar\+\_\+habitable\+\_\+zone}
+
+Equation from 
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{group___astrophysics_ga9ee2e8023cb444aa4638c962788b5853}\label{group___astrophysics_ga9ee2e8023cb444aa4638c962788b5853}} 
+\index{Astrophysics@{Astrophysics}!Circumstellar\+Habitable\+Zone\+Inner\+Boundary@{Circumstellar\+Habitable\+Zone\+Inner\+Boundary}}
+\index{Circumstellar\+Habitable\+Zone\+Inner\+Boundary@{Circumstellar\+Habitable\+Zone\+Inner\+Boundary}!Astrophysics@{Astrophysics}}
+\subsubsection{\texorpdfstring{Circumstellar\+Habitable\+Zone\+Inner\+Boundary()}{CircumstellarHabitableZoneInnerBoundary()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Inner\+Boundary (\begin{DoxyParamCaption}\item[{const T \&}]{star\+Effective\+Surface\+Temperature,  }\item[{const T \&}]{star\+Luminosity }\end{DoxyParamCaption})}
+
+
+
+Calculates the inner boundary of the Habitable Zone of a solar system. 
+
+Habitable Zone is defined in astrophysics as the orbital area around a star where in which a rocky planet, with the right atmosphere, can maintain liquid water at the surface of the planet The HZ of an exoplanet is generally defined as the area (in terms of distance from its central star) See \char`\"{}\+Impacts of stellar evolution and dynamics on the habitable zone\+: The role of rotation and magnetic activity\char`\"{} \href{https://doi.org/10.1051/0004-6361/201629034}{\tt https\+://doi.\+org/10.\+1051/0004-\/6361/201629034} Equation taken from \href{http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets}{\tt http\+://phl.\+upr.\+edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets} and 
+\begin{DoxyParams}{Parameters}
+{\em star\+Effective\+Temperature} & $T_{eff}$( $K$) is the effective temperature of the star (black body). See \href{https://en.wikipedia.org/wiki/Effective_temperature}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Effective\+\_\+temperature}. \\
+\hline
+{\em star\+Luminosity} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$r_{inner}$( $AU$) the inner boundary of the Habitable Zone. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group___astrophysics_gacf3a720793cdb27f6d93b170b44e81be}{Circumstellar\+Habitable\+Zone\+Distance()} for circumstellar habitable zone distance, a habitability metric for planets. 
+
+\hyperlink{group___astrophysics_gaa47fcde814ba8007de800e930fc0a08d}{Circumstellar\+Habitable\+Zone\+Outer\+Boundary()} for outer boundary of the circumstellar habitable zone. 
+
+\hyperlink{group___astrophysics_ga23a8f602461ea3257e8767b1d455c383}{Circumstellar\+Habitable\+Zone\+Limit()} to calculate inner boundary using a diffrent model. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___astrophysics_ga23a8f602461ea3257e8767b1d455c383}\label{group___astrophysics_ga23a8f602461ea3257e8767b1d455c383}} 
+\index{Astrophysics@{Astrophysics}!Circumstellar\+Habitable\+Zone\+Limit@{Circumstellar\+Habitable\+Zone\+Limit}}
+\index{Circumstellar\+Habitable\+Zone\+Limit@{Circumstellar\+Habitable\+Zone\+Limit}!Astrophysics@{Astrophysics}}
+\subsubsection{\texorpdfstring{Circumstellar\+Habitable\+Zone\+Limit()}{CircumstellarHabitableZoneLimit()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Limit (\begin{DoxyParamCaption}\item[{const T \&}]{star\+Luminosity,  }\item[{const T \&}]{stellar\+Flux\+Effective }\end{DoxyParamCaption})}
+
+
+
+Calculates the Circumstellar Habitable Zone Limits, $d_{CHZL}$ of a star. Also known as Habitable Zone Limits. 
+
+Circumstellar Habitable Zone Limit is used to calculations the inner and outer radius of the circumstellar habitable zone. \[d_{CHZL}=1AU \sqrt{ \frac{L/L_\odot}{S_{eff}} }\]
+
+See \char`\"{}\+Impacts of stellar evolution and dynamics on the habitable zone\+: The role of rotation and magnetic activity\char`\"{} (Gallet 2016) \href{https://doi.org/10.1051/0004-6361/201629034}{\tt https\+://doi.\+org/10.\+1051/0004-\/6361/201629034}
+
+Equation taken from \char`\"{}\+Habitable Zones around Main Sequence Stars\char`\"{} \href{http://dx.doi.org/10.1006/icar.1993.1010}{\tt http\+://dx.\+doi.\+org/10.\+1006/icar.\+1993.\+1010}
+
+
+\begin{DoxyParams}{Parameters}
+{\em star\+Luminosity} & $L$( $W$) Luminosity of the star. \\
+\hline
+{\em stellar\+Flux\+Effective} & $S_{eff}$(dimensionless) Effective stellar flux. Estimation of the ratio of outgoing IR flux to incident IR flux of a planet with greenhouse effects folded in. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$d_{CHZL}$(AU) Circumstellar Habitable Zone Limit. Either the inner or outer radius of the circumstellar habitable zone. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group___astrophysics_gacf3a720793cdb27f6d93b170b44e81be}{Circumstellar\+Habitable\+Zone\+Distance()} for circumstellar habitable zone distance, a habitability metric for planets. 
+
+\hyperlink{group___astrophysics_ga9ee2e8023cb444aa4638c962788b5853}{Circumstellar\+Habitable\+Zone\+Inner\+Boundary()} for inner boundary of the circumstellar habitable zone. 
+
+\hyperlink{group___astrophysics_gaa47fcde814ba8007de800e930fc0a08d}{Circumstellar\+Habitable\+Zone\+Outer\+Boundary()} for outer boundary of the circumstellar habitable zone. 
+
+Stellar\+Flux\+Effective\+Kopparapu() for $S_{eff}$ using Kopparapu\textquotesingle{}s approximation. 
+
+\hyperlink{group___astrophysics_ga3ce3a04fec7b1c8fb66ac54270ce3902}{Stellar\+Flux\+Effective\+Selsis()} for $S_{eff}$ using Selsis\textquotesingle{}s approximation. 
+
+\hyperlink{group___astrophysics_ga34d1e39bce17904bc6d383f1935c79d6}{Stellar\+Flux\+Effective\+Underwood()} for $S_{eff}$ using Underwood\textquotesingle{}s approximation. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___astrophysics_gaa47fcde814ba8007de800e930fc0a08d}\label{group___astrophysics_gaa47fcde814ba8007de800e930fc0a08d}} 
+\index{Astrophysics@{Astrophysics}!Circumstellar\+Habitable\+Zone\+Outer\+Boundary@{Circumstellar\+Habitable\+Zone\+Outer\+Boundary}}
+\index{Circumstellar\+Habitable\+Zone\+Outer\+Boundary@{Circumstellar\+Habitable\+Zone\+Outer\+Boundary}!Astrophysics@{Astrophysics}}
+\subsubsection{\texorpdfstring{Circumstellar\+Habitable\+Zone\+Outer\+Boundary()}{CircumstellarHabitableZoneOuterBoundary()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Outer\+Boundary (\begin{DoxyParamCaption}\item[{const T \&}]{star\+Effective\+Surface\+Temperature,  }\item[{const T \&}]{star\+Luminosity }\end{DoxyParamCaption})}
+
+
+
+Calculates Circumstellar Habitable Zone Outer Boundary ( $r_o$) of a star. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
 \mbox{\Hypertarget{group___astrophysics_ga4b86397b1c839c49ac599d49fda207d4}\label{group___astrophysics_ga4b86397b1c839c49ac599d49fda207d4}} 
 \index{Astrophysics@{Astrophysics}!Earth\+Similarity\+Index@{Earth\+Similarity\+Index}}
 \index{Earth\+Similarity\+Index@{Earth\+Similarity\+Index}!Astrophysics@{Astrophysics}}
@@ -1228,3 +1333,91 @@ See \href{https://en.wikipedia.org/wiki/Luminosity#Radio_luminosity}{\tt https\+
 \begin{DoxyReturn}{Returns}
 Radio luminosity (W/\+Hz) of a radio source. 
 \end{DoxyReturn}
+\mbox{\Hypertarget{group___astrophysics_ga3ce3a04fec7b1c8fb66ac54270ce3902}\label{group___astrophysics_ga3ce3a04fec7b1c8fb66ac54270ce3902}} 
+\index{Astrophysics@{Astrophysics}!Stellar\+Flux\+Effective\+Selsis@{Stellar\+Flux\+Effective\+Selsis}}
+\index{Stellar\+Flux\+Effective\+Selsis@{Stellar\+Flux\+Effective\+Selsis}!Astrophysics@{Astrophysics}}
+\subsubsection{\texorpdfstring{Stellar\+Flux\+Effective\+Selsis()}{StellarFluxEffectiveSelsis()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Stellar\+Flux\+Effective\+Selsis (\begin{DoxyParamCaption}\item[{const T \&}]{star\+Effective\+Surface\+Temperature,  }\item[{const T \&}]{sun\+Effective\+Stellar\+Flux,  }\item[{const T \&}]{a\+Model\+Parameter,  }\item[{const T \&}]{b\+Model\+Parameter }\end{DoxyParamCaption})}
+
+
+
+Calculates the effective stellar flux, ( $S_{eff}$) of a star using Selsis estimation. 
+
+Effective stellar flux is used in circumstellar habitable zone calculations. \[S_{eff}= \frac{1}{(S_{eff\odot}+a(T_{eff}-5700)+b(T_{eff}-5700)^2)}\]
+
+See \char`\"{}\+Impacts of stellar evolution and dynamics on the habitable zone\+: The role of rotation and magnetic activity\char`\"{} (Gallet 2016) \href{https://doi.org/10.1051/0004-6361/201629034}{\tt https\+://doi.\+org/10.\+1051/0004-\/6361/201629034}
+
+Equation taken from \char`\"{}\+Habitable planets around the star Gl 581?\char`\"{} (Selsis 2008) \href{https://doi.org/10.1051/0004-6361:20078091}{\tt https\+://doi.\+org/10.\+1051/0004-\/6361\+:20078091}
+
+Example inputs for model parameters (recent Venus -\/ early Mars criteria)\+:
+
+$S_{eff\odot,inner} = 0.72$, $a_{inner} = 2.7619 \times 10^{-5}$, $b_{inner} = 3.8095 \times 10^{-9}$
+
+$S_{eff\odot,outer} = 1.77$, $a_{outer} = 1.3786 \times 10^{-4}$, $b_{outer} = 1.4286 \times 10^{-9}$
+
+
+\begin{DoxyParams}{Parameters}
+{\em star\+Effective\+Surface\+Temperature} & $T_{eff}$( $K$) is the effective temperature of the star surface (black body). See \href{https://en.wikipedia.org/wiki/Effective_temperature}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Effective\+\_\+temperature}. \\
+\hline
+{\em sun\+Effective\+Stellar\+Flux} & $S_{eff\odot}$(dimensionless) Model parameter estimating the ratio of outgoing IR flux to incident IR flux of a planet with greenhouse effects folded in the presence of the sun. \\
+\hline
+{\em a\+Model\+Parameter} & $a$(dimensionless) First order model fit parameter taking into account the change of star temperature from that of the Sun. \\
+\hline
+{\em b\+Model\+Parameter} & $b$(dimensionless) Second order model fit parameter taking into account the change of star temperature from that of the Sun. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$S_{eff}$(dimensionless) Effective Stellar Flux. Approximation used in circumstellar habitable zone calculations. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group___astrophysics_gacf3a720793cdb27f6d93b170b44e81be}{Circumstellar\+Habitable\+Zone\+Distance()} for circumstellar habitable zone distance, a habitability metric for planets. 
+
+\hyperlink{group___astrophysics_ga9ee2e8023cb444aa4638c962788b5853}{Circumstellar\+Habitable\+Zone\+Inner\+Boundary()} for inner boundary of the circumstellar habitable zone. 
+
+\hyperlink{group___astrophysics_gaa47fcde814ba8007de800e930fc0a08d}{Circumstellar\+Habitable\+Zone\+Outer\+Boundary()} for outer boundary of the circumstellar habitable zone. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___astrophysics_ga34d1e39bce17904bc6d383f1935c79d6}\label{group___astrophysics_ga34d1e39bce17904bc6d383f1935c79d6}} 
+\index{Astrophysics@{Astrophysics}!Stellar\+Flux\+Effective\+Underwood@{Stellar\+Flux\+Effective\+Underwood}}
+\index{Stellar\+Flux\+Effective\+Underwood@{Stellar\+Flux\+Effective\+Underwood}!Astrophysics@{Astrophysics}}
+\subsubsection{\texorpdfstring{Stellar\+Flux\+Effective\+Underwood()}{StellarFluxEffectiveUnderwood()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Stellar\+Flux\+Effective\+Underwood (\begin{DoxyParamCaption}\item[{const T \&}]{star\+Effective\+Surface\+Temperature,  }\item[{const T \&}]{sun\+Effective\+Stellar\+Flux,  }\item[{const T \&}]{a\+Model\+Parameter,  }\item[{const T \&}]{b\+Model\+Parameter }\end{DoxyParamCaption})}
+
+
+
+Calculates the effective stellar flux ( $S_{eff}$) using Underwood estimation. 
+
+Effective stellar flux is used in circumstellar habitable zone calculations. \[S_{eff}=S_{eff\odot}+aT_{eff}+bT^2_{eff}\]
+
+See \char`\"{}\+Impacts of stellar evolution and dynamics on the habitable zone\+: The role of rotation and magnetic activity\char`\"{} (Underwood 2003) \href{https://doi.org/10.1051/0004-6361/201629034}{\tt https\+://doi.\+org/10.\+1051/0004-\/6361/201629034}
+
+Equation taken from \char`\"{}\+The evolution of habitable zones during stellar lifetimes and implications on the search for extraterrestrial life\char`\"{} (Underwood 2003) \href{https://doi.org/10.1017/S1473550404001715}{\tt https\+://doi.\+org/10.\+1017/\+S1473550404001715}
+
+Example inputs for model parameters (recent Venus -\/ early Mars criteria)\+:
+
+$S_{eff\odot,inner} = 1.786$, $a_{inner} = 1.349 \times 10^{-4}$, $b_{inner} = 2.286 \times 10^{-8}$
+
+$S_{eff\odot,outer} = 0.2125$, $a_{outer} = 1.371 \times 10^{-5}$, $b_{outer} = 5.714 \times 10^{-9}$
+
+
+\begin{DoxyParams}{Parameters}
+{\em star\+Effective\+Surface\+Temperature} & $T_{eff}$( $K$) is the effective temperature of the star surface (black body). See \href{https://en.wikipedia.org/wiki/Effective_temperature}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Effective\+\_\+temperature}. \\
+\hline
+{\em sun\+Effective\+Stellar\+Flux} & $S_{eff\odot}$(dimensionless) Model parameter representing the ratio of outgoing IR flux to incident IR flux with the effects of the greenhouse effect in the presence of the Sun. \\
+\hline
+{\em a\+Model\+Parameter} & $a$(dimensionless) First order model fit parameter taking into account the change of star temperature from that of the Sun. \\
+\hline
+{\em b\+Model\+Parameter} & $b$(dimensionless) Second order model fit parameter taking into account the change of star temperature from that of the Sun. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$S_{eff}$(dimensionless) Effective Stellar Flux. Approximation used in circumstellar habitable zone calculations. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group___astrophysics_gacf3a720793cdb27f6d93b170b44e81be}{Circumstellar\+Habitable\+Zone\+Distance()} for circumstellar habitable zone distance, a habitability metric for planets. 
+
+\hyperlink{group___astrophysics_ga9ee2e8023cb444aa4638c962788b5853}{Circumstellar\+Habitable\+Zone\+Inner\+Boundary()} for inner boundary of the circumstellar habitable zone. 
+
+\hyperlink{group___astrophysics_gaa47fcde814ba8007de800e930fc0a08d}{Circumstellar\+Habitable\+Zone\+Outer\+Boundary()} for outer boundary of the circumstellar habitable zone. 
+\end{DoxySeeAlso}
