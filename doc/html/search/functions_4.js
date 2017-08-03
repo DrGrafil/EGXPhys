@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['radioluminosity',['radioLuminosity',['../group___astrophysics.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4',1,'EGXPhys']]],
-  ['redshiftbyfrequency',['redshiftByFrequency',['../group___optics.html#gacc6d3b2922061214d64b89a4b8e3967a',1,'EGXPhys']]],
-  ['redshiftbywavelength',['redshiftByWavelength',['../group___optics.html#ga29300a13e34da35332ca2d447b5ce82d',1,'EGXPhys']]]
+  ['lorentzfactor',['LorentzFactor',['../group___relativity.html#ga5f9b11c1f4c3ae26a7e64f02c22d5a75',1,'EGXPhys']]],
+  ['lorentzfactorviaenergy',['LorentzFactorViaEnergy',['../group___relativity.html#ga601de8c039be89a9abea22bc459436c9',1,'EGXPhys']]],
+  ['lorentzfactorviamomentum',['LorentzFactorViaMomentum',['../group___relativity.html#ga1ea24128654ac333dd843afdd5c003b7',1,'EGXPhys']]],
+  ['lorentzfactorviarapidity',['LorentzFactorViaRapidity',['../group___relativity.html#ga8064f5bce1d2ca5f7bc39d95ba4d2dd9',1,'EGXPhys']]]
 ];

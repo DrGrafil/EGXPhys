@@ -52,4 +52,8 @@ namespace EGXPhys{
     	return PlanetSimilarityIndexSurface(planetEscapeVelocity, EscapeVelocityOfEarth, planetSurfaceTemperature, SurfaceTempretureOfEarth);
 	}
     
+    
+    
+    
+
 }//namespace EGXPhys

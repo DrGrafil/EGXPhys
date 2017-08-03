@@ -21,7 +21,7 @@
 <script type="text/javascript" src="search/search.js"></script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
+    extensions: ["tex2jax.js", "TeX/AMSsymbols.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
 </script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
@@ -186,6 +186,30 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa16847ddc5763c327067075dcb6a3353"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#gaa16847ddc5763c327067075dcb6a3353">EGXPhys::Apohadion</a> (const T &amp;orbitalEccentricity, const T &amp;semimajorAxis)</td></tr>
 <tr class="memdesc:gaa16847ddc5763c327067075dcb6a3353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates apoapsis around Pluto.  <a href="group___astrophysics.html#gaa16847ddc5763c327067075dcb6a3353">More...</a><br /></td></tr>
 <tr class="separator:gaa16847ddc5763c327067075dcb6a3353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23a8f602461ea3257e8767b1d455c383"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga23a8f602461ea3257e8767b1d455c383"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga23a8f602461ea3257e8767b1d455c383">EGXPhys::CircumstellarHabitableZoneLimit</a> (const T &amp;starLuminosity, const T &amp;stellarFluxEffective)</td></tr>
+<tr class="memdesc:ga23a8f602461ea3257e8767b1d455c383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Circumstellar Habitable Zone Limits, \(d_{CHZL}\) of a star. Also known as Habitable Zone Limits.  <a href="group___astrophysics.html#ga23a8f602461ea3257e8767b1d455c383">More...</a><br /></td></tr>
+<tr class="separator:ga23a8f602461ea3257e8767b1d455c383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3ce3a04fec7b1c8fb66ac54270ce3902"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga3ce3a04fec7b1c8fb66ac54270ce3902"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga3ce3a04fec7b1c8fb66ac54270ce3902">EGXPhys::StellarFluxEffectiveSelsis</a> (const T &amp;starEffectiveSurfaceTemperature, const T &amp;sunEffectiveStellarFlux, const T &amp;aModelParameter, const T &amp;bModelParameter)</td></tr>
+<tr class="memdesc:ga3ce3a04fec7b1c8fb66ac54270ce3902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the effective stellar flux, ( \(S_{eff}\)) of a star using Selsis estimation.  <a href="group___astrophysics.html#ga3ce3a04fec7b1c8fb66ac54270ce3902">More...</a><br /></td></tr>
+<tr class="separator:ga3ce3a04fec7b1c8fb66ac54270ce3902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34d1e39bce17904bc6d383f1935c79d6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga34d1e39bce17904bc6d383f1935c79d6"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga34d1e39bce17904bc6d383f1935c79d6">EGXPhys::StellarFluxEffectiveUnderwood</a> (const T &amp;starEffectiveSurfaceTemperature, const T &amp;sunEffectiveStellarFlux, const T &amp;aModelParameter, const T &amp;bModelParameter)</td></tr>
+<tr class="memdesc:ga34d1e39bce17904bc6d383f1935c79d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the effective stellar flux ( \(S_{eff}\)) using Underwood estimation.  <a href="group___astrophysics.html#ga34d1e39bce17904bc6d383f1935c79d6">More...</a><br /></td></tr>
+<tr class="separator:ga34d1e39bce17904bc6d383f1935c79d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ee2e8023cb444aa4638c962788b5853"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga9ee2e8023cb444aa4638c962788b5853"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga9ee2e8023cb444aa4638c962788b5853">EGXPhys::CircumstellarHabitableZoneInnerBoundary</a> (const T &amp;starEffectiveSurfaceTemperature, const T &amp;starLuminosity)</td></tr>
+<tr class="memdesc:ga9ee2e8023cb444aa4638c962788b5853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the inner boundary of the Habitable Zone of a solar system.  <a href="group___astrophysics.html#ga9ee2e8023cb444aa4638c962788b5853">More...</a><br /></td></tr>
+<tr class="separator:ga9ee2e8023cb444aa4638c962788b5853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa47fcde814ba8007de800e930fc0a08d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaa47fcde814ba8007de800e930fc0a08d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#gaa47fcde814ba8007de800e930fc0a08d">EGXPhys::CircumstellarHabitableZoneOuterBoundary</a> (const T &amp;starEffectiveSurfaceTemperature, const T &amp;starLuminosity)</td></tr>
+<tr class="memdesc:gaa47fcde814ba8007de800e930fc0a08d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Circumstellar Habitable Zone Outer Boundary ( \(r_o\)) of a star.  <a href="group___astrophysics.html#gaa47fcde814ba8007de800e930fc0a08d">More...</a><br /></td></tr>
+<tr class="separator:gaa47fcde814ba8007de800e930fc0a08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacf3a720793cdb27f6d93b170b44e81be"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gacf3a720793cdb27f6d93b170b44e81be"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#gacf3a720793cdb27f6d93b170b44e81be">EGXPhys::CircumstellarHabitableZoneDistance</a> (const T &amp;distanceFromStar, const T &amp;CHZOuterBoundary, const T &amp;CHZInnerBoundary)</td></tr>
+<tr class="memdesc:gacf3a720793cdb27f6d93b170b44e81be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Circumstellar Habitable Zone Distance ( \(CHZD\)) of a planet. Also known as Habitable Zone Distance.  <a href="group___astrophysics.html#gacf3a720793cdb27f6d93b170b44e81be">More...</a><br /></td></tr>
+<tr class="separator:gacf3a720793cdb27f6d93b170b44e81be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4414ac75539371ec874a3d25cad6c9fe"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga4414ac75539371ec874a3d25cad6c9fe"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga4414ac75539371ec874a3d25cad6c9fe">EGXPhys::Periapsis</a> (const T &amp;orbitalEccentricity, const T &amp;semimajorAxis)</td></tr>
 <tr class="memdesc:ga4414ac75539371ec874a3d25cad6c9fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates periapsis of an orbiting body.  <a href="group___astrophysics.html#ga4414ac75539371ec874a3d25cad6c9fe">More...</a><br /></td></tr>
@@ -300,44 +324,32 @@ Functions</h2></td></tr>
 <tr class="separator:ga6dc06a1a8baf6e132abed51fcf410c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga699bcc2f17b8855eaa856595d8032f61"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga699bcc2f17b8855eaa856595d8032f61"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61">EGXPhys::EarthSimilarityIndexInterior</a> (const T &amp;planetMeanRadius, const T &amp;planetBulkDensity)</td></tr>
-<tr class="memdesc:ga699bcc2f17b8855eaa856595d8032f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Interior Earth Similarity Index ( \(ESI_I\)) of a planet when comparing it to a reference planet.  <a href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61">More...</a><br /></td></tr>
+<tr class="memdesc:ga699bcc2f17b8855eaa856595d8032f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Interior Earth Similarity Index ( \(ESI_I\)) of a planet.  <a href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61">More...</a><br /></td></tr>
 <tr class="separator:ga699bcc2f17b8855eaa856595d8032f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae0c7dce2779d66b0560ca388a34ddc39"><td class="memTemplParams" colspan="2"><a id="gae0c7dce2779d66b0560ca388a34ddc39"></a>
-template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gae0c7dce2779d66b0560ca388a34ddc39"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gae0c7dce2779d66b0560ca388a34ddc39"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39">EGXPhys::PlanetSimilarityIndexSurface</a> (const T &amp;planetEscapeVelocity, const T &amp;referenceEscapeVelocity, const T &amp;planetSurfaceTemperature, const T &amp;referenceSurfaceTemperature)</td></tr>
-<tr class="memdesc:gae0c7dce2779d66b0560ca388a34ddc39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Surface Planet Similarity Index of a planet. <br /></td></tr>
+<tr class="memdesc:gae0c7dce2779d66b0560ca388a34ddc39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Surface Planet Similarity Index ( \(PSI_S\)) of a planet when comparing it to a reference planet.  <a href="group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39">More...</a><br /></td></tr>
 <tr class="separator:gae0c7dce2779d66b0560ca388a34ddc39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="memTemplParams" colspan="2"><a id="ga1df772b0ed354ca7f7e4a7a4af072325"></a>
-template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga1df772b0ed354ca7f7e4a7a4af072325">EGXPhys::EarthSimilarityIndexSurface</a> (const T &amp;planetEscapeVelocity, const T &amp;planetSurfaceTemperature)</td></tr>
-<tr class="memdesc:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Surface Earth Similarity Index of a planet. <br /></td></tr>
+<tr class="memdesc:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Surface Earth Similarity Index ( \(ESI_S\)) of a planet.  <a href="group___astrophysics.html#ga1df772b0ed354ca7f7e4a7a4af072325">More...</a><br /></td></tr>
 <tr class="separator:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga17e667a233c12e3e05aed3fdf08d1156"><td class="memTemplParams" colspan="2"><a id="ga17e667a233c12e3e05aed3fdf08d1156"></a>
+<tr class="memitem:gaeac3ced5104701ee02fc100f7cf4c189"><td class="memTemplParams" colspan="2"><a id="gaeac3ced5104701ee02fc100f7cf4c189"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga17e667a233c12e3e05aed3fdf08d1156"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::HabitalZoneInnerRadius</b> (const double starSurfaceTemp, const double starLuminosity)</td></tr>
-<tr class="separator:ga17e667a233c12e3e05aed3fdf08d1156"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacdb0f5c44bfad08164ae26b5b098be45"><td class="memTemplParams" colspan="2"><a id="gacdb0f5c44bfad08164ae26b5b098be45"></a>
+<tr class="memitem:gaeac3ced5104701ee02fc100f7cf4c189"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::PlanetaryEquilibriumTempreture</b> (const T planetAlbedo, const T planetDistance, const T starLuminosity)</td></tr>
+<tr class="separator:gaeac3ced5104701ee02fc100f7cf4c189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga099c12876fba6deb13ae2cf0e92644fe"><td class="memTemplParams" colspan="2"><a id="ga099c12876fba6deb13ae2cf0e92644fe"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gacdb0f5c44bfad08164ae26b5b098be45"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::HabitalZoneOuterRadius</b> (const double starSurfaceTemp, const double starLuminosity)</td></tr>
-<tr class="separator:gacdb0f5c44bfad08164ae26b5b098be45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga227538d5ee00f66a5524a1daafd8dc26"><td class="memTemplParams" colspan="2"><a id="ga227538d5ee00f66a5524a1daafd8dc26"></a>
+<tr class="memitem:ga099c12876fba6deb13ae2cf0e92644fe"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::PlanetaryEquilibriumTempreture</b> (const T planetAlbedo, const T planetDistance, const T starSurfaceTemp, const T starRadius)</td></tr>
+<tr class="separator:ga099c12876fba6deb13ae2cf0e92644fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0814237dccfe3c968b97fa6c93aeca27"><td class="memTemplParams" colspan="2"><a id="ga0814237dccfe3c968b97fa6c93aeca27"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga227538d5ee00f66a5524a1daafd8dc26"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::HabitalZoneDistance</b> (const double planetSemimajorAxis, const double starSurfaceTemp, const double starLuminosity)</td></tr>
-<tr class="separator:ga227538d5ee00f66a5524a1daafd8dc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa428f551c34387a00d6c376b3f33632b"><td class="memTemplParams" colspan="2"><a id="gaa428f551c34387a00d6c376b3f33632b"></a>
+<tr class="memitem:ga0814237dccfe3c968b97fa6c93aeca27"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::HabitableZoneAtmosphere</b> (const T planetMass, const T planetRadius, const T planetEquilibriumTemp)</td></tr>
+<tr class="separator:ga0814237dccfe3c968b97fa6c93aeca27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga14ab036f8c617512236522c8e31dd072"><td class="memTemplParams" colspan="2"><a id="ga14ab036f8c617512236522c8e31dd072"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gaa428f551c34387a00d6c376b3f33632b"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::PlanetaryEquilibriumTempreture</b> (const double planetAlbedo, const double planetDistance, const double starLuminosity)</td></tr>
-<tr class="separator:gaa428f551c34387a00d6c376b3f33632b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga387b915a2eb48bda3fe8bfc369bb564c"><td class="memTemplParams" colspan="2"><a id="ga387b915a2eb48bda3fe8bfc369bb564c"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga387b915a2eb48bda3fe8bfc369bb564c"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::PlanetaryEquilibriumTempreture</b> (const double planetAlbedo, const double planetDistance, const double starSurfaceTemp, const double starRadius)</td></tr>
-<tr class="separator:ga387b915a2eb48bda3fe8bfc369bb564c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9829bd56a145bd0ef17b38c6f8006f66"><td class="memItemLeft" align="right" valign="top"><a id="ga9829bd56a145bd0ef17b38c6f8006f66"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>EGXPhys::HabitableZoneAtmosphere</b> (const double planetMass, const double planetRadius, const double planetEquilibriumTemp)</td></tr>
-<tr class="separator:ga9829bd56a145bd0ef17b38c6f8006f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga216592494ebf26b017c36af156c4d14b"><td class="memItemLeft" align="right" valign="top"><a id="ga216592494ebf26b017c36af156c4d14b"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>EGXPhys::HabitableZoneComposition</b> (const double planetMass, const double planetRadius)</td></tr>
-<tr class="separator:ga216592494ebf26b017c36af156c4d14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga14ab036f8c617512236522c8e31dd072"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::HabitableZoneComposition</b> (const T planetMass, const T planetRadius)</td></tr>
+<tr class="separator:ga14ab036f8c617512236522c8e31dd072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -1234,6 +1246,190 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="gacf3a720793cdb27f6d93b170b44e81be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacf3a720793cdb27f6d93b170b44e81be">&#9670;&nbsp;</a></span>CircumstellarHabitableZoneDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::CircumstellarHabitableZoneDistance </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>distanceFromStar</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>CHZOuterBoundary</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>CHZInnerBoundary</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates Circumstellar Habitable Zone Distance ( \(CHZD\)) of a planet. Also known as Habitable Zone Distance. </p>
+<p>Circumstellar Habitable Zone is the orbital area around a star where in which a rocky planet, with the right atmosphere, can maintain liquid water at the surface of the planet. The HZ of an exoplanet is generally defined as the area (in terms of distance from its central star) See <a href="http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets">http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets</a> and <a href="https://en.wikipedia.org/wiki/Circumstellar_habitable_zone">https://en.wikipedia.org/wiki/Circumstellar_habitable_zone</a></p>
+<p>Equation from </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9ee2e8023cb444aa4638c962788b5853"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ee2e8023cb444aa4638c962788b5853">&#9670;&nbsp;</a></span>CircumstellarHabitableZoneInnerBoundary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::CircumstellarHabitableZoneInnerBoundary </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>starEffectiveSurfaceTemperature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>starLuminosity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the inner boundary of the Habitable Zone of a solar system. </p>
+<p>Habitable Zone is defined in astrophysics as the orbital area around a star where in which a rocky planet, with the right atmosphere, can maintain liquid water at the surface of the planet The HZ of an exoplanet is generally defined as the area (in terms of distance from its central star) See "Impacts of stellar evolution and dynamics on the habitable zone: The role of rotation and magnetic activity" <a href="https://doi.org/10.1051/0004-6361/201629034">https://doi.org/10.1051/0004-6361/201629034</a> Equation taken from <a href="http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets">http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets</a> and </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">starEffectiveTemperature</td><td>\(T_{eff}\)( \(K\)) is the effective temperature of the star (black body). See <a href="https://en.wikipedia.org/wiki/Effective_temperature">https://en.wikipedia.org/wiki/Effective_temperature</a>. </td></tr>
+    <tr><td class="paramname">starLuminosity</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(r_{inner}\)( \(AU\)) the inner boundary of the Habitable Zone. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#gacf3a720793cdb27f6d93b170b44e81be" title="Calculates Circumstellar Habitable Zone Distance ( ) of a planet. Also known as Habitable Zone Distan...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#gaa47fcde814ba8007de800e930fc0a08d" title="Calculates Circumstellar Habitable Zone Outer Boundary ( ) of a star. ">CircumstellarHabitableZoneOuterBoundary()</a> for outer boundary of the circumstellar habitable zone. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#ga23a8f602461ea3257e8767b1d455c383" title="Calculates the Circumstellar Habitable Zone Limits,  of a star. Also known as Habitable Zone Limits...">CircumstellarHabitableZoneLimit()</a> to calculate inner boundary using a diffrent model. </dd></dl>
+
+</div>
+</div>
+<a id="ga23a8f602461ea3257e8767b1d455c383"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga23a8f602461ea3257e8767b1d455c383">&#9670;&nbsp;</a></span>CircumstellarHabitableZoneLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::CircumstellarHabitableZoneLimit </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>starLuminosity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>stellarFluxEffective</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the Circumstellar Habitable Zone Limits, \(d_{CHZL}\) of a star. Also known as Habitable Zone Limits. </p>
+<p>Circumstellar Habitable Zone Limit is used to calculations the inner and outer radius of the circumstellar habitable zone. </p><p class="formulaDsp">
+\[d_{CHZL}=1AU \sqrt{ \frac{L/L_\odot}{S_{eff}} }\]
+</p>
+<p>See "Impacts of stellar evolution and dynamics on the habitable zone: The role of rotation and magnetic activity" (Gallet 2016) <a href="https://doi.org/10.1051/0004-6361/201629034">https://doi.org/10.1051/0004-6361/201629034</a></p>
+<p>Equation taken from "Habitable Zones around Main Sequence Stars" <a href="http://dx.doi.org/10.1006/icar.1993.1010">http://dx.doi.org/10.1006/icar.1993.1010</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">starLuminosity</td><td>\(L\)( \(W\)) Luminosity of the star. </td></tr>
+    <tr><td class="paramname">stellarFluxEffective</td><td>\(S_{eff}\)(dimensionless) Effective stellar flux. Estimation of the ratio of outgoing IR flux to incident IR flux of a planet with greenhouse effects folded in. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(d_{CHZL}\)(AU) Circumstellar Habitable Zone Limit. Either the inner or outer radius of the circumstellar habitable zone. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#gacf3a720793cdb27f6d93b170b44e81be" title="Calculates Circumstellar Habitable Zone Distance ( ) of a planet. Also known as Habitable Zone Distan...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#ga9ee2e8023cb444aa4638c962788b5853" title="Calculates the inner boundary of the Habitable Zone of a solar system. ">CircumstellarHabitableZoneInnerBoundary()</a> for inner boundary of the circumstellar habitable zone. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#gaa47fcde814ba8007de800e930fc0a08d" title="Calculates Circumstellar Habitable Zone Outer Boundary ( ) of a star. ">CircumstellarHabitableZoneOuterBoundary()</a> for outer boundary of the circumstellar habitable zone. </dd>
+<dd>
+StellarFluxEffectiveKopparapu() for \(S_{eff}\) using Kopparapu's approximation. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#ga3ce3a04fec7b1c8fb66ac54270ce3902" title="Calculates the effective stellar flux, ( ) of a star using Selsis estimation. ">StellarFluxEffectiveSelsis()</a> for \(S_{eff}\) using Selsis's approximation. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#ga34d1e39bce17904bc6d383f1935c79d6" title="Calculates the effective stellar flux ( ) using Underwood estimation. ">StellarFluxEffectiveUnderwood()</a> for \(S_{eff}\) using Underwood's approximation. </dd></dl>
+
+</div>
+</div>
+<a id="gaa47fcde814ba8007de800e930fc0a08d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa47fcde814ba8007de800e930fc0a08d">&#9670;&nbsp;</a></span>CircumstellarHabitableZoneOuterBoundary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::CircumstellarHabitableZoneOuterBoundary </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>starEffectiveSurfaceTemperature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>starLuminosity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates Circumstellar Habitable Zone Outer Boundary ( \(r_o\)) of a star. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga4b86397b1c839c49ac599d49fda207d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga4b86397b1c839c49ac599d49fda207d4">&#9670;&nbsp;</a></span>EarthSimilarityIndex()</h2>
 
@@ -1276,24 +1472,25 @@ template&lt;typename T &gt; </div>
 
 <p>Calculates Earth Similarity Index ( \(ESI\)) of a planet. </p>
 <p>The earth similarity index is a number that denotes how similar a planet is to that of earth. 1 is being exactly earth like. </p><p class="formulaDsp">
-\[ESI=(ESI_I ESI_S)^(\frac{1}{2}\]
+\[ESI=\sqrt{ESI_I ESI_S}\]
 </p>
-<p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>. Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
+<p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>.</p>
+<p>Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">planetMeanRadius</td><td>\(r\)( \(m\)) is the mean radius of a planet. </td></tr>
     <tr><td class="paramname">planetBulkDensity</td><td>\(\rho\)( \(\frac{kg}{m^3}\)) is the bulk density of the planet. </td></tr>
-    <tr><td class="paramname">planetEscapeVelocity</td><td>\(v_e\)( \(\frac{m}{s}\)) is the escape velocity needed to escape the planet's gravitational pull. </td></tr>
+    <tr><td class="paramname">planetEscapeVelocity</td><td>\(v_e\)( \(\frac{m}{s}\)) is the escape velocity. The velocity needed to escape the planet's gravitational pull. </td></tr>
     <tr><td class="paramname">planetSurfaceTemperature</td><td>\(T\)( \(K\)) is the average surface temperature of the planet. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Earth Similarity Index ESI(dimensionless) for a planet. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb" title="Calculates Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndex()</a> to calculate using R_ and M_ instead of SI units or to use other planets as the basis for comparison. </dd>
+<dl class="section return"><dt>Returns</dt><dd>\(ESI\)(dimensionless) Earth Similarity Index for a planet. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb" title="Calculates Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndex()</a> for \(ESI\) equation using any planet as reference. </dd>
 <dd>
-<a class="el" href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61" title="Calculates Interior Earth Similarity Index ( ) of a planet when comparing it to a reference planet...">EarthSimilarityIndexInterior()</a> for \(ESI_I\) equation. </dd>
+<a class="el" href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61" title="Calculates Interior Earth Similarity Index ( ) of a planet. ">EarthSimilarityIndexInterior()</a> for \(ESI_I\) equation. </dd>
 <dd>
-<a class="el" href="group___astrophysics.html#ga1df772b0ed354ca7f7e4a7a4af072325" title="Calculates Surface Earth Similarity Index of a planet. ">EarthSimilarityIndexSurface()</a> for \(ESI_S\) equation. </dd></dl>
+<a class="el" href="group___astrophysics.html#ga1df772b0ed354ca7f7e4a7a4af072325" title="Calculates Surface Earth Similarity Index ( ) of a planet. ">EarthSimilarityIndexSurface()</a> for \(ESI_S\) equation. </dd></dl>
 
 </div>
 </div>
@@ -1325,27 +1522,81 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Calculates Interior Earth Similarity Index ( \(ESI_I\)) of a planet when comparing it to a reference planet. </p>
+<p>Calculates Interior Earth Similarity Index ( \(ESI_I\)) of a planet. </p>
 <p>The interior earth similarity index is a number that denotes how similar the interior of a planet is to the earth. 1 is being exactly earth like. </p><p class="formulaDsp">
 \[ESI_I=\sqrt{ESI_r ESI_\rho}\]
 </p>
  <p class="formulaDsp">
 \[ESI_I=\sqrt{\left ( 1 - \left | \frac{r-r_\oplus}{r+r_\oplus} \right | \right )^{0.57} \left ( 1 - \left | \frac{\rho-\rho_\oplus}{\rho+\rho_\oplus} \right | \right )^{1.07}}\]
 </p>
-<p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>. Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
+<p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>.</p>
+<p>Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">planetMeanRadius</td><td>r(m) is the mean radius of a planet. </td></tr>
-    <tr><td class="paramname">planetBulkDensity</td><td>\(\rho\)(kg/m^3) is the bulk density of the planet. </td></tr>
+    <tr><td class="paramname">planetMeanRadius</td><td>\(r\)( \(m\)) is the mean radius of a planet. </td></tr>
+    <tr><td class="paramname">planetBulkDensity</td><td>\(\rho\)( \(\frac{kg}{m^3}\)) is the bulk density of the planet. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Planet Similarity Index PSI(dimensionless) for a planet when comparing it to a reference planet. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>PlanetSimiarityIndex() Earth based planet comparison. </dd>
+<dl class="section return"><dt>Returns</dt><dd>\(ESI_I\)(dimensionless) Interior Earth Similarity Index for a planet when comparing it to a reference planet. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga4b86397b1c839c49ac599d49fda207d4" title="Calculates Earth Similarity Index ( ) of a planet. ">EarthSimilarityIndex()</a> Uses \(ESI_S\) for calculations. </dd>
 <dd>
-<a class="el" href="group___astrophysics.html#ga6dc06a1a8baf6e132abed51fcf410c7f" title="Calculates Interior Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndexInterior()</a> for \(PSI_I\) equation. </dd>
+<a class="el" href="group___astrophysics.html#ga6dc06a1a8baf6e132abed51fcf410c7f" title="Calculates Interior Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndexInterior()</a> for \(ESI_I\) equation using any planet as reference. </dd>
 <dd>
-<a class="el" href="group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39" title="Calculates Surface Planet Similarity Index of a planet. ">PlanetSimilarityIndexSurface()</a> for \(PSI_S\) equation. </dd></dl>
+<a class="el" href="group___astrophysics.html#ga1df772b0ed354ca7f7e4a7a4af072325" title="Calculates Surface Earth Similarity Index ( ) of a planet. ">EarthSimilarityIndexSurface()</a> for \(ESI_S\) equation. </dd></dl>
+
+</div>
+</div>
+<a id="ga1df772b0ed354ca7f7e4a7a4af072325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1df772b0ed354ca7f7e4a7a4af072325">&#9670;&nbsp;</a></span>EarthSimilarityIndexSurface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::EarthSimilarityIndexSurface </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>planetEscapeVelocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>planetSurfaceTemperature</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates Surface Earth Similarity Index ( \(ESI_S\)) of a planet. </p>
+<p>The interior planet similarity index is a number that denotes how similar the surface of a planet is to the earth. 1 is being exactly earth like. </p><p class="formulaDsp">
+\[PSI_S=\sqrt{PSI_{v_e} PSI_T}\]
+</p>
+ <p class="formulaDsp">
+\[PSI_S=\sqrt{\left ( 1 - \left | \frac{v_e-v_{e,\oplus}}{v_e+v_{e,\oplus}} \right | \right )^{0.70} \left ( 1 - \left | \frac{T-T_{\oplus}}{T+T_{\oplus}} \right | \right )^{5.58}}\]
+</p>
+<p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>.</p>
+<p>Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">planetEscapeVelocity</td><td>\(v_e\)( \(\frac{m}{s}\)) is the escape velocity needed to escape the planet's gravitational pull. </td></tr>
+    <tr><td class="paramname">planetSurfaceTemperature</td><td>\(T\)( \(K\)) is the average surface temperature of the planet. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(ESI_S\)(dimensionless) Surface Earth Similarity Index for a planet. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga4b86397b1c839c49ac599d49fda207d4" title="Calculates Earth Similarity Index ( ) of a planet. ">EarthSimilarityIndex()</a> Uses \(ESI_S\) for calculations. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39" title="Calculates Surface Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndexSurface()</a> for \(ESI_S\) equation using any planet as reference. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61" title="Calculates Interior Earth Similarity Index ( ) of a planet. ">EarthSimilarityIndexInterior()</a> for \(ESI_I\) equation. </dd></dl>
 
 </div>
 </div>
@@ -2266,13 +2517,14 @@ template&lt;typename T &gt; </div>
 <p>The planet similarity index is a number that denotes how similar a planet is to that of the reference. 1 is being exactly like the reference. </p><p class="formulaDsp">
 \[PSI=\sqrt{PSI_I PSI_S}\]
 </p>
-<p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>. Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
+<p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>.</p>
+<p>Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">planetMeanRadius</td><td>\(r\)( \(m\)) is the mean radius of a planet. </td></tr>
     <tr><td class="paramname">referenceMeanRadius</td><td>\(r_{ref}\)( \(m\)) is the mean radius of the reference planet. </td></tr>
     <tr><td class="paramname">planetBulkDensity</td><td>\(\rho\)( \(\frac{kg}{m^3}\)) is the bulk density of the planet. </td></tr>
-    <tr><td class="paramname">referenceBulkDensity</td><td>\(\rho\)(kg/m^3) is the bulk density of the reference planet. </td></tr>
+    <tr><td class="paramname">referenceBulkDensity</td><td>\(\rho\)( \(\frac{kg}{m^3}\)) is the bulk density of the reference planet. </td></tr>
     <tr><td class="paramname">planetEscapeVelocity</td><td>\(v_e\)( \(\frac{m}{s}\)) is the escape velocity needed to escape the planet's gravitational pull. </td></tr>
     <tr><td class="paramname">referenceEscapeVelocity</td><td>\(v_{e,ref}\)( \(\frac{m}{s}\)) is the escape velocity needed to escape the reference planet's gravitational pull. </td></tr>
     <tr><td class="paramname">planetSurfaceTemperature</td><td>\(T\)( \(K\)) is the average surface temperature of the planet. </td></tr>
@@ -2280,12 +2532,12 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Planet Similarity Index PSI(dimensionless) for a planet when comparing it to a reference planet. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga4b86397b1c839c49ac599d49fda207d4" title="Calculates Earth Similarity Index ( ) of a planet. ">EarthSimilarityIndex()</a> Earth based planet comparison. </dd>
+<dl class="section return"><dt>Returns</dt><dd>\(PSI\)(dimensionless) Planet Similarity Index for a planet when comparing it to a reference planet. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga4b86397b1c839c49ac599d49fda207d4" title="Calculates Earth Similarity Index ( ) of a planet. ">EarthSimilarityIndex()</a> for \(PSI\) equation using earth as reference. </dd>
 <dd>
 <a class="el" href="group___astrophysics.html#ga6dc06a1a8baf6e132abed51fcf410c7f" title="Calculates Interior Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndexInterior()</a> for \(PSI_I\) equation. </dd>
 <dd>
-<a class="el" href="group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39" title="Calculates Surface Planet Similarity Index of a planet. ">PlanetSimilarityIndexSurface()</a> for \(PSI_S\) equation. </dd></dl>
+<a class="el" href="group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39" title="Calculates Surface Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndexSurface()</a> for \(PSI_S\) equation. </dd></dl>
 
 </div>
 </div>
@@ -2330,13 +2582,14 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Calculates Interior Planet Similarity Index ( \(PSI_I\)) of a planet when comparing it to a reference planet. </p>
-<p>The interior earth similarity index is a number that denotes how similar the interior of a planet is to the earth. 1 is being exactly earth like. </p><p class="formulaDsp">
-\[ESI_I=\sqrt{ESI_r ESI_\rho}\]
+<p>The interior planet similarity index is a number that denotes how similar the interior of the planet is to that of the reference. 1 is being exactly like the reference. </p><p class="formulaDsp">
+\[PSI_I=\sqrt{PSI_r PSI_\rho}\]
 </p>
  <p class="formulaDsp">
-\[ESI_I=\sqrt{\left ( 1 - \left | \frac{r-r_{ref}}{r+r_{ref}} \right | \right )^{0.57} \left ( 1 - \left | \frac{\rho-\rho_{ref}}{\rho+\rho_{ref}} \right | \right )^{1.07}}\]
+\[PSI_I=\sqrt{\left ( 1 - \left | \frac{r-r_{ref}}{r+r_{ref}} \right | \right )^{0.57} \left ( 1 - \left | \frac{\rho-\rho_{ref}}{\rho+\rho_{ref}} \right | \right )^{1.07}}\]
 </p>
-<p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>. Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
+<p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>.</p>
+<p>Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">planetMeanRadius</td><td>\(r\)( \(m\)) is the mean radius of a planet. </td></tr>
@@ -2346,12 +2599,79 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Planet Similarity Index PSI(dimensionless) for a planet when comparing it to a reference planet. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb" title="Calculates Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndex()</a> Earth based planet comparison. </dd>
+<dl class="section return"><dt>Returns</dt><dd>\(PSI_I\)(dimensionless) Interior Planet Similarity Index for a planet when comparing it to a reference planet. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb" title="Calculates Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndex()</a> Uses \(PSI_I\) for calculations. </dd>
 <dd>
-<a class="el" href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61" title="Calculates Interior Earth Similarity Index ( ) of a planet when comparing it to a reference planet...">EarthSimilarityIndexInterior()</a> for \(PSI_I\) equation using earth as reference. </dd>
+<a class="el" href="group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61" title="Calculates Interior Earth Similarity Index ( ) of a planet. ">EarthSimilarityIndexInterior()</a> for \(PSI_I\) equation using earth as reference. </dd>
 <dd>
-<a class="el" href="group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39" title="Calculates Surface Planet Similarity Index of a planet. ">PlanetSimilarityIndexSurface()</a> for \(PSI_S\) equation. </dd></dl>
+<a class="el" href="group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39" title="Calculates Surface Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndexSurface()</a> for \(PSI_S\) equation. </dd></dl>
+
+</div>
+</div>
+<a id="gae0c7dce2779d66b0560ca388a34ddc39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae0c7dce2779d66b0560ca388a34ddc39">&#9670;&nbsp;</a></span>PlanetSimilarityIndexSurface()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::PlanetSimilarityIndexSurface </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>planetEscapeVelocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>referenceEscapeVelocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>planetSurfaceTemperature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>referenceSurfaceTemperature</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates Surface Planet Similarity Index ( \(PSI_S\)) of a planet when comparing it to a reference planet. </p>
+<p>The interior planet similarity index is a number that denotes how similar the interior of the planet is to that of the reference. 1 is being exactly like the reference. </p><p class="formulaDsp">
+\[PSI_S=\sqrt{PSI_{v_e} PSI_T}\]
+</p>
+ <p class="formulaDsp">
+\[PSI_S=\sqrt{\left ( 1 - \left | \frac{v_e-v_{e,ref}}{v_e+v_{e,ref}} \right | \right )^{0.70} \left ( 1 - \left | \frac{T-T_{ref}}{T+T_{ref}} \right | \right )^{5.58}}\]
+</p>
+<p> See <a href="http://phl.upr.edu/projects/earth-similarity-index-esi">http://phl.upr.edu/projects/earth-similarity-index-esi</a> and <a href="https://en.wikipedia.org/wiki/Earth_Similarity_Index">https://en.wikipedia.org/wiki/Earth_Similarity_Index</a>.</p>
+<p>Equations taken from "A Two-Tiered Approach to Assessing the Habitability of Exoplanets" <a href="https://doi.org/10.1089/ast.2010.0592">https://doi.org/10.1089/ast.2010.0592</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">planetEscapeVelocity</td><td>\(v_e\)( \(\frac{m}{s}\)) is the escape velocity needed to escape the planet's gravitational pull. </td></tr>
+    <tr><td class="paramname">referenceEscapeVelocity</td><td>\(v_{e,ref}\)( \(\frac{m}{s}\)) is the escape velocity needed to escape the reference planet's gravitational pull. </td></tr>
+    <tr><td class="paramname">planetSurfaceTemperature</td><td>\(T\)( \(K\)) is the average surface temperature of the planet. </td></tr>
+    <tr><td class="paramname">referenceSurfaceTemperature</td><td>\(T_{ref}\)( \(K\)) is the average surface temperature of the reference planet. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(PSI_S\)(dimensionless) Surface Planet Similarity Index for a planet when comparing it to a reference planet. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb" title="Calculates Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndex()</a> Uses \(PSI_S\) for calculations. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#ga1df772b0ed354ca7f7e4a7a4af072325" title="Calculates Surface Earth Similarity Index ( ) of a planet. ">EarthSimilarityIndexSurface()</a> for \(PSI_S\) equation using earth as reference. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#ga6dc06a1a8baf6e132abed51fcf410c7f" title="Calculates Interior Planet Similarity Index ( ) of a planet when comparing it to a reference planet...">PlanetSimilarityIndexInterior()</a> for \(PSI_I\) equation. </dd></dl>
 
 </div>
 </div>
@@ -2407,6 +2727,140 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Radio luminosity (W/Hz) of a radio source. </dd></dl>
+
+</div>
+</div>
+<a id="ga3ce3a04fec7b1c8fb66ac54270ce3902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3ce3a04fec7b1c8fb66ac54270ce3902">&#9670;&nbsp;</a></span>StellarFluxEffectiveSelsis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::StellarFluxEffectiveSelsis </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>starEffectiveSurfaceTemperature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>sunEffectiveStellarFlux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>aModelParameter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>bModelParameter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the effective stellar flux, ( \(S_{eff}\)) of a star using Selsis estimation. </p>
+<p>Effective stellar flux is used in circumstellar habitable zone calculations. </p><p class="formulaDsp">
+\[S_{eff}= \frac{1}{(S_{eff\odot}+a(T_{eff}-5700)+b(T_{eff}-5700)^2)^2}\]
+</p>
+<p>See "Impacts of stellar evolution and dynamics on the habitable zone: The role of rotation and magnetic activity" (Gallet 2016) <a href="https://doi.org/10.1051/0004-6361/201629034">https://doi.org/10.1051/0004-6361/201629034</a></p>
+<p>Equation taken from "Habitable planets around the star Gl 581?" (Selsis 2007) <a href="https://doi.org/10.1051/0004-6361:20078091">https://doi.org/10.1051/0004-6361:20078091</a></p>
+<p>Example inputs for model parameters (recent Venus - early Mars criteria):</p>
+<p>\(S_{eff\odot,inner} = 0.72\), \(a_{inner} = 2.7619 \times 10^{-5}\), \(b_{inner} = 3.8095 \times 10^{-9}\)</p>
+<p>\(S_{eff\odot,outer} = 1.77\), \(a_{outer} = 1.3786 \times 10^{-4}\), \(b_{outer} = 1.4286 \times 10^{-9}\)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">starEffectiveSurfaceTemperature</td><td>\(T_{eff}\)( \(K\)) is the effective temperature of the star surface (black body). See <a href="https://en.wikipedia.org/wiki/Effective_temperature">https://en.wikipedia.org/wiki/Effective_temperature</a>. </td></tr>
+    <tr><td class="paramname">sunEffectiveStellarFlux</td><td>\(S_{eff\odot}\)(dimensionless) Model parameter estimating the ratio of outgoing IR flux to incident IR flux of a planet with greenhouse effects folded in the presence of the sun. </td></tr>
+    <tr><td class="paramname">aModelParameter</td><td>\(a\)(dimensionless) First order model fit parameter taking into account the change of star temperature from that of the Sun. </td></tr>
+    <tr><td class="paramname">bModelParameter</td><td>\(b\)(dimensionless) Second order model fit parameter taking into account the change of star temperature from that of the Sun. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(S_{eff}\)(dimensionless) Effective Stellar Flux. Approximation used in circumstellar habitable zone calculations. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#gacf3a720793cdb27f6d93b170b44e81be" title="Calculates Circumstellar Habitable Zone Distance ( ) of a planet. Also known as Habitable Zone Distan...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#ga9ee2e8023cb444aa4638c962788b5853" title="Calculates the inner boundary of the Habitable Zone of a solar system. ">CircumstellarHabitableZoneInnerBoundary()</a> for inner boundary of the circumstellar habitable zone. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#gaa47fcde814ba8007de800e930fc0a08d" title="Calculates Circumstellar Habitable Zone Outer Boundary ( ) of a star. ">CircumstellarHabitableZoneOuterBoundary()</a> for outer boundary of the circumstellar habitable zone. </dd></dl>
+
+</div>
+</div>
+<a id="ga34d1e39bce17904bc6d383f1935c79d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34d1e39bce17904bc6d383f1935c79d6">&#9670;&nbsp;</a></span>StellarFluxEffectiveUnderwood()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::StellarFluxEffectiveUnderwood </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>starEffectiveSurfaceTemperature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>sunEffectiveStellarFlux</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>aModelParameter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>bModelParameter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the effective stellar flux ( \(S_{eff}\)) using Underwood estimation. </p>
+<p>Effective stellar flux is used in circumstellar habitable zone calculations. </p><p class="formulaDsp">
+\[S_{eff}=S_{eff\odot}+aT_{eff}+bT^2_{eff}\]
+</p>
+<p>See "Impacts of stellar evolution and dynamics on the habitable zone: The role of rotation and magnetic activity" (Underwood 2003) <a href="https://doi.org/10.1051/0004-6361/201629034">https://doi.org/10.1051/0004-6361/201629034</a></p>
+<p>Equation taken from "The evolution of habitable zones during stellar lifetimes and implications on the search for extraterrestrial life" (Underwood 2003) <a href="https://doi.org/10.1017/S1473550404001715">https://doi.org/10.1017/S1473550404001715</a></p>
+<p>Example inputs for model parameters (recent Venus - early Mars criteria):</p>
+<p>\(S_{eff\odot,inner} = 1.786\), \(a_{inner} = 1.349 \times 10^{-4}\), \(b_{inner} = 2.286 \times 10^{-8}\)</p>
+<p>\(S_{eff\odot,outer} = 0.2125\), \(a_{outer} = 1.371 \times 10^{-5}\), \(b_{outer} = 5.714 \times 10^{-9}\)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">starEffectiveSurfaceTemperature</td><td>\(T_{eff}\)( \(K\)) is the effective temperature of the star surface (black body). See <a href="https://en.wikipedia.org/wiki/Effective_temperature">https://en.wikipedia.org/wiki/Effective_temperature</a>. </td></tr>
+    <tr><td class="paramname">sunEffectiveStellarFlux</td><td>\(S_{eff\odot}\)(dimensionless) Model parameter representing the ratio of outgoing IR flux to incident IR flux with the effects of the greenhouse effect in the presence of the Sun. </td></tr>
+    <tr><td class="paramname">aModelParameter</td><td>\(a\)(dimensionless) First order model fit parameter taking into account the change of star temperature from that of the Sun. </td></tr>
+    <tr><td class="paramname">bModelParameter</td><td>\(b\)(dimensionless) Second order model fit parameter taking into account the change of star temperature from that of the Sun. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(S_{eff}\)(dimensionless) Effective Stellar Flux. Approximation used in circumstellar habitable zone calculations. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___astrophysics.html#gacf3a720793cdb27f6d93b170b44e81be" title="Calculates Circumstellar Habitable Zone Distance ( ) of a planet. Also known as Habitable Zone Distan...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#ga9ee2e8023cb444aa4638c962788b5853" title="Calculates the inner boundary of the Habitable Zone of a solar system. ">CircumstellarHabitableZoneInnerBoundary()</a> for inner boundary of the circumstellar habitable zone. </dd>
+<dd>
+<a class="el" href="group___astrophysics.html#gaa47fcde814ba8007de800e930fc0a08d" title="Calculates Circumstellar Habitable Zone Outer Boundary ( ) of a star. ">CircumstellarHabitableZoneOuterBoundary()</a> for outer boundary of the circumstellar habitable zone. </dd></dl>
 
 </div>
 </div>

@@ -15,6 +15,7 @@
 #include "AstrophysicsConstants.hpp"
 
 #include "Apoapsis.hpp"
+#include "CircumstellarHabitableZone.hpp"
 #include "Luminosity.hpp"
 #include "Periapsis.hpp"
 #include "PlanetCriteria.hpp"
