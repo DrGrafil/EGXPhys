@@ -2772,10 +2772,10 @@ template&lt;typename T &gt; </div>
 
 <p>Calculates the effective stellar flux, ( \(S_{eff}\)) of a star using Selsis estimation. </p>
 <p>Effective stellar flux is used in circumstellar habitable zone calculations. </p><p class="formulaDsp">
-\[S_{eff}= \frac{1}{(S_{eff\odot}+a(T_{eff}-5700)+b(T_{eff}-5700)^2)}\]
+\[S_{eff}= \frac{1}{(S_{eff\odot}+a(T_{eff}-5700)+b(T_{eff}-5700)^2)^2}\]
 </p>
 <p>See "Impacts of stellar evolution and dynamics on the habitable zone: The role of rotation and magnetic activity" (Gallet 2016) <a href="https://doi.org/10.1051/0004-6361/201629034">https://doi.org/10.1051/0004-6361/201629034</a></p>
-<p>Equation taken from "Habitable planets around the star Gl 581?" (Selsis 2008) <a href="https://doi.org/10.1051/0004-6361:20078091">https://doi.org/10.1051/0004-6361:20078091</a></p>
+<p>Equation taken from "Habitable planets around the star Gl 581?" (Selsis 2007) <a href="https://doi.org/10.1051/0004-6361:20078091">https://doi.org/10.1051/0004-6361:20078091</a></p>
 <p>Example inputs for model parameters (recent Venus - early Mars criteria):</p>
 <p>\(S_{eff\odot,inner} = 0.72\), \(a_{inner} = 2.7619 \times 10^{-5}\), \(b_{inner} = 3.8095 \times 10^{-9}\)</p>
 <p>\(S_{eff\odot,outer} = 1.77\), \(a_{outer} = 1.3786 \times 10^{-4}\), \(b_{outer} = 1.4286 \times 10^{-9}\)</p>
