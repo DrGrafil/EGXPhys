@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EGXPhys: D:/Documents/GitHub/EGXPhys/EGXPhys/Atomic/HalfLife.hpp File Reference</title>
+<title>EGXPhys: D:/Documents/GitHub/EGXPhys/EGXPhys/Atomic/MeanLifetime.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,7 +67,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('_half_life_8hpp.html','');});
+$(document).ready(function(){initNavTree('_mean_lifetime_8hpp.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -88,43 +88,42 @@ $(document).ready(function(){initNavTree('_half_life_8hpp.html','');});
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">HalfLife.hpp File Reference</div>  </div>
+<div class="title">MeanLifetime.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Calculates half life of a radioative substance.  
+<p>Calculates mean lifetime of a radioactive decay.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="_half_life_8inl.html">HalfLife.inl</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;MeanLifetime.inl&quot;</code><br />
 </div>
-<p><a href="_half_life_8hpp_source.html">Go to the source code of this file.</a></p>
+<p><a href="_mean_lifetime_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga21d268f154fb91c1c556bbfa7fe83ac1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga21d268f154fb91c1c556bbfa7fe83ac1"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___atomic.html#ga21d268f154fb91c1c556bbfa7fe83ac1">EGXPhys::HalfLife</a> (const T &amp;decayConstant)</td></tr>
-<tr class="memdesc:ga21d268f154fb91c1c556bbfa7fe83ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Half Life, \(t_{\frac{1}{2}}\), of a radioactive substance via the decay constant, \(\lambda\) .  <a href="group___atomic.html#ga21d268f154fb91c1c556bbfa7fe83ac1">More...</a><br /></td></tr>
-<tr class="separator:ga21d268f154fb91c1c556bbfa7fe83ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacddef16b62e98b214ec8dd8af7da7dce"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gacddef16b62e98b214ec8dd8af7da7dce"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___atomic.html#gacddef16b62e98b214ec8dd8af7da7dce">EGXPhys::HalfLifeViaMeanLifetime</a> (const T &amp;meanLifetime)</td></tr>
-<tr class="memdesc:gacddef16b62e98b214ec8dd8af7da7dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Half Life, \(t_{\frac{1}{2}}\), of a radioactive substance via the mean lifetime, \(\tau\).  <a href="group___atomic.html#gacddef16b62e98b214ec8dd8af7da7dce">More...</a><br /></td></tr>
-<tr class="separator:gacddef16b62e98b214ec8dd8af7da7dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaba3fda944d1a68ee1016a1f2f5809359"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gaba3fda944d1a68ee1016a1f2f5809359"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___atomic.html#gaba3fda944d1a68ee1016a1f2f5809359">EGXPhys::HalfLifeViaDecayWidth</a> (const T &amp;decayWidth)</td></tr>
-<tr class="memdesc:gaba3fda944d1a68ee1016a1f2f5809359"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Half Life, \(t_{\frac{1}{2}}\), of a radioactive substance via the decay width, \(\Gamma\) .  <a href="group___atomic.html#gaba3fda944d1a68ee1016a1f2f5809359">More...</a><br /></td></tr>
-<tr class="separator:gaba3fda944d1a68ee1016a1f2f5809359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa9e3c2deedda4bc7a745568b06fc47eb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaa9e3c2deedda4bc7a745568b06fc47eb"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___atomic.html#gaa9e3c2deedda4bc7a745568b06fc47eb">EGXPhys::MeanLifetime</a> (const T &amp;decayConstant)</td></tr>
+<tr class="memdesc:gaa9e3c2deedda4bc7a745568b06fc47eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Half Life, \(t_{\frac{1}{2}}\), of a radioactive substance via the decay constant, \(\lambda\) .  <a href="group___atomic.html#gaa9e3c2deedda4bc7a745568b06fc47eb">More...</a><br /></td></tr>
+<tr class="separator:gaa9e3c2deedda4bc7a745568b06fc47eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2586e148263e1f6c8ff89f269a0930ea"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga2586e148263e1f6c8ff89f269a0930ea"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___atomic.html#ga2586e148263e1f6c8ff89f269a0930ea">EGXPhys::MeanLifetimeViaHalfLife</a> (const T &amp;halfLife)</td></tr>
+<tr class="memdesc:ga2586e148263e1f6c8ff89f269a0930ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Half Life, \(t_{\frac{1}{2}}\), of a radioactive substance via the mean lifetime, \(\tau\).  <a href="group___atomic.html#ga2586e148263e1f6c8ff89f269a0930ea">More...</a><br /></td></tr>
+<tr class="separator:ga2586e148263e1f6c8ff89f269a0930ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8a1dda4168b4b25db93bf1ae7832fd7e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga8a1dda4168b4b25db93bf1ae7832fd7e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___atomic.html#ga8a1dda4168b4b25db93bf1ae7832fd7e">EGXPhys::MeanLifetimeViaDecayWidth</a> (const T &amp;decayWidth)</td></tr>
+<tr class="memdesc:ga8a1dda4168b4b25db93bf1ae7832fd7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Half Life, \(t_{\frac{1}{2}}\), of a radioactive substance via the decay width, \(\Gamma\) .  <a href="group___atomic.html#ga8a1dda4168b4b25db93bf1ae7832fd7e">More...</a><br /></td></tr>
+<tr class="separator:ga8a1dda4168b4b25db93bf1ae7832fd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Calculates half life of a radioative substance. </p>
+<div class="textblock"><p>Calculates mean lifetime of a radioactive decay. </p>
 <dl class="section author"><dt>Author</dt><dd>Elliot Grafil (Metex) </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>8/4/17 </dd></dl>
-<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000023">Bug:</a></b></dt><dd>No known bugs. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Add reference to Decay Width. </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000025">Bug:</a></b></dt><dd>No known bugs. </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_ce4ef40a56af8221486bcd78e6a47b62.html">EGXPhys</a></li><li class="navelem"><a class="el" href="dir_eae06af3aa80ee515a7eda0d5cc9e53d.html">Atomic</a></li><li class="navelem"><a class="el" href="_half_life_8hpp.html">HalfLife.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_ce4ef40a56af8221486bcd78e6a47b62.html">EGXPhys</a></li><li class="navelem"><a class="el" href="dir_eae06af3aa80ee515a7eda0d5cc9e53d.html">Atomic</a></li><li class="navelem"><a class="el" href="_mean_lifetime_8hpp.html">MeanLifetime.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -37,7 +37,7 @@ namespace EGXPhys
 	*
 	*   @param decayConstant \f$\lambda\f$(\f$\frac{1}{s}\f$) Decay constant. Fraction of radioactive substance that decays in 1 second.
 	*   @return \f$t_{\frac{1}{2}}\f$(\f$s\f$) Half life. Time required for the activity of a radioactive substance to decay to half of its initial value.
-	* 	@see DecayConstant() to calculate the decay constant.
+	* 	@see DecayConstant() to calculate the decay constant, \f$\lambda\f$.
 	* 	@see HalfLifeViaMeanLifetime() to calculate half life using mean lifetime, \f$\tau\f$.
 	* 	@see HalfLifeViaDecayWidth() to calculate half life using decay width, \f$\Gamma\f$.
 	*/    
@@ -56,7 +56,7 @@ namespace EGXPhys
 	*
 	*   @param meanLifetime \f$\lambda\f$(\f$\frac{1}{s}\f$) Mean lifetime. Average time that a radioactive substance is likely to survive before it decays.
 	*   @return \f$t_{\frac{1}{2}}\f$(\f$s\f$) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value.
-	*	@see MeanLifetime()
+	*	@see MeanLifetime() to calculate the mean lifetime, \f$\tau\f$.
 	*	@see HalfLife() to calculate half life using decay constant, \f$\lambda\f$.
 	* 	@see HalfLifeViaDecayWidth() to calculate half life using decay width, \f$\Gamma\f$.
 	*/    
@@ -75,7 +75,7 @@ namespace EGXPhys
 	*
 	*   @param decayWidth \f$\Gamma\f$(\f$eV\f$) Decay Width also known as line width, natural line width and decay FWHM. The FWHM of the uncertainty in the measured energy of the radioactive decay.
 	*   @return \f$t_{\frac{1}{2}}\f$(\f$s\f$) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value.
-	*	@see DecayWidth() to calculate the decay width.
+	*	@see DecayWidth() to calculate the decay width, \f$\Gamma\f$.
 	*	@see HalfLife() to calculate half life using decay constant, \f$\lambda\f$.
 	* 	@see HalfLifeViaMeanLifetime() to calculate half life using mean lifetime, \f$\tau\f$.
 	*/       

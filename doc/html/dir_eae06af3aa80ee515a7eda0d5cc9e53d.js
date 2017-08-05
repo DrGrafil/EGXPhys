@@ -6,7 +6,7 @@ var dir_eae06af3aa80ee515a7eda0d5cc9e53d =
     [ "DecayWidth.inl", "_decay_width_8inl.html", "_decay_width_8inl" ],
     [ "HalfLife.hpp", "_half_life_8hpp.html", "_half_life_8hpp" ],
     [ "HalfLife.inl", "_half_life_8inl.html", "_half_life_8inl" ],
-    [ "RadioactiveDecay - Copy.hpp", "_radioactive_decay_01-_01_copy_8hpp_source.html", null ],
-    [ "RadioactiveDecay.hpp", "_radioactive_decay_8hpp.html", "_radioactive_decay_8hpp" ],
-    [ "RadioactiveDecay.inl", "_radioactive_decay_8inl.html", "_radioactive_decay_8inl" ]
+    [ "MeanLifetime.hpp", "_mean_lifetime_8hpp.html", "_mean_lifetime_8hpp" ],
+    [ "RadioactiveDecay.hpp", "_radioactive_decay_8hpp.html", null ],
+    [ "RadioactiveDecay.inl", "_radioactive_decay_8inl.html", null ]
 ];
