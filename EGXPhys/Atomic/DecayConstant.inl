@@ -8,8 +8,8 @@
 namespace EGXPhys{
 	
 	template<typename T>
-	T DecayConstant(const T& energyUncertainty){
-		return 1.0;
+	T DecayConstant(const T& countInitial, const T& countFinal, const T& time){
+		return -( (countFinal-countInitial) / time ) / countInitial;
 	}
 
 	template<typename T>

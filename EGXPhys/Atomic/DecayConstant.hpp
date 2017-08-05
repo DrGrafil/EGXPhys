@@ -5,7 +5,7 @@
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
 /// @bug No known bugs.
-
+/// @todo decay constant in terms of dN/dt
 //=================================
 // Header guard
 #pragma once
@@ -25,31 +25,35 @@ namespace EGXPhys
 	/// @{
 
 	/** 
-	*   @brief Calculates the decay width, \f$\Gamma\f$, of a radioactive substance via the uncertainty in energy, \f$\Delta E\f$. The decay width is also known as line width, natural line width and decay FWHM.
+	*   @brief Calculates the decay constant, \f$\lambda\f$, of a radioactive substance via the uncertainty in energy, \f$\Delta E\f$.
 	*
 	*	The decay width is the full width half maximum of the energy distribution of a decay when fit using a Breit-Wigner distribution.
-	*	\f[\Gamma=2\Delta E\f]
+	*	\f[\frac{dN}{dt}=-\lambda N\f]
+	*	\f[\lambda=-\frac{\frac{dN}{dt}}{N}\f]
+	*	\f[\lambda=-\frac{\frac{N_t-N_0}{dt}}{N_0}\f]
 	*	
 	*	See http://quantummechanics.ucsd.edu/ph130a/130_notes/node428.html, http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/parlif.html
 	*
 	*	Equation taken from "On the Relationship between the Natural Line Width and Lifetime of X-Ray Transitions" (Croft, 2015), https://www.osti.gov/scitech/servlets/purl/1214016 and
 	*	"Mössbauer Spectroscopy and Transition Metal Chemistry" (Gütlich,2011) p 9 https://doi.org/10.1007/978-3-540-88428-6
 	*
-	*   @param energyUncertainty \f$\Delta E\f$(\f$eV\f$) Energy uncertainty. The uncertainty in the release energy from the decay of a radioactive substance.
+	*   @param countInitial \f$\Delta E\f$(dimensionless) Count Initial.
+	*   @param countFinal \f$\Delta E\f$(dimensionless) Count Final.
+	*   @param time \f$t\f$(\f$s\f$) Time.
 	*   @return \f$\Gamma\f$(\f$eV\f$) Decay width also known as line width, natural line width and decay FWHM. The FWHM of the uncertainty in the measured energy of the radioactive decay. 
 	* 	@see DecayConstantViaHalfLife() to calculate decay width using half life, \f$t_{\frac{1}{2}}\f$.
 	* 	@see DecayConstantViaMeanLifetime() to calculatedecay width using mean lifetime, \f$\tau\f$.
 	* 	@see DecayConstantViaDecayWidth() to calculate decay width using decay constant, \f$\lambda\f$.
 	*/    
     template<typename T>
-	T DecayConstant(const T& energyUncertainty);
+	T DecayConstant(const T& countInitial, const T& countFinal, const T& time);
 
 	
 	/** 
-	*   @brief Calculates the Decay Width, \f$\Gamma\f$, of a radioactive substance via the half life, \f$t_{\frac{1}{2}}\f$. The decay width is also known as line width, natural line width and decay FWHM.
+	*   @brief Calculates the decay constant, \f$\lambda\f$, of a radioactive substance via the half life, \f$t_{\frac{1}{2}}\f$. 
 	*
 	*	The decay width is the full width half maximum of the energy distribution of a decay when fit using a Breit-Wigner distribution.
-	*	\f[\Gamma\approx \frac{\hbar \ ln(2)}{t_{\frac{1}{2}}}\f]
+	*	\f[\lambda = \frac{ln(2)}{t_{\frac{1}{2}}}\f]
 	*	
 	*	See http://quantummechanics.ucsd.edu/ph130a/130_notes/node428.html, http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/parlif.html
 	*
@@ -67,10 +71,10 @@ namespace EGXPhys
 	T DecayConstantViaHalfLife(const T& halfLife);
 	
 	/** 
-	*   @brief Calculates the Decay Width, \f$\Gamma\f$, of a radioactive substance via the mean lifetime, \f$\tau\f$. The decay width is also known as line width, natural line width and decay FWHM.
+	*   @brief Calculates the decay constant, \f$\lambda\f$, of a radioactive substance via the mean lifetime, \f$\tau\f$.
 	*
 	*	The decay width is the full width half maximum of the energy distribution of a decay when fit using a Breit-Wigner distribution.
-	*	\f[\Gamma \approx \frac{\hbar}{\tau}\f]
+	*	\f[\lambda = \frac{1}{\tau}\f]
 	*	
 	*	See http://quantummechanics.ucsd.edu/ph130a/130_notes/node428.html, http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/parlif.html
 	*
@@ -87,18 +91,18 @@ namespace EGXPhys
     template<typename T>
 	T DecayConstantViaMeanLifetime(const T& meanLifetime);	
 	
-		/** 
-	*   @brief Calculates the decay width, \f$\Gamma\f$, of a radioactive substance via the decay constant, \f$\lambda\f$. The decay width is also known as line width, natural line width and decay FWHM.
+	/** 
+	*   @brief Calculates the decay constant, \f$\lambda\f$, of a radioactive substance via the decay width, \f$\Gamma\f$.
 	*
 	*	The decay width is the full width half maximum of the energy distribution of a decay when fit using a Breit-Wigner distribution.
-	*	\f[\Gamma \approx \hbar \lambda \f]
+	*	\f[\lambda = \frac{\Gamma}{\hbar} \f]
 	*	
 	*	See http://quantummechanics.ucsd.edu/ph130a/130_notes/node428.html, http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/parlif.html
 	*
 	*	Equation taken from "On the Relationship between the Natural Line Width and Lifetime of X-Ray Transitions" (Croft, 2015), https://www.osti.gov/scitech/servlets/purl/1214016 and
 	*	"Mössbauer Spectroscopy and Transition Metal Chemistry" (Gütlich,2011) p 9 https://doi.org/10.1007/978-3-540-88428-6
 	*
-	*   @param decayConstant \f$\lambda\f$(\f$\frac{1}{s}\f$) Decay constant. Fraction of radioactive substance that decays in 1 second.
+	*   @param decayWidth \f$\lambda\f$(\f$\frac{1}{s}\f$) Decay constant. Fraction of radioactive substance that decays in 1 second.
 	*   @return \f$\Gamma\f$(\f$eV\f$) Decay width also known as line width, natural line width and decay FWHM. The FWHM of the uncertainty in the measured energy of the radioactive decay. 
 	* 	@see DecayConstant() to calculate the decay constant, \f$\lambda\f$.
 	* 	@see DecayWidth() to calculate decay width, \f$\Gamma\f$.

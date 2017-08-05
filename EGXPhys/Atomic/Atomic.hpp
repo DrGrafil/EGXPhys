@@ -16,6 +16,7 @@
 //=================================
 #include "AtomicConstants.hpp"
 
+#include "DecayConstant.hpp"
 #include "DecayWidth.hpp"
 #include "HalfLife.hpp"
 #include "MeanLifetime.hpp"

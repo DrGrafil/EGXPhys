@@ -1,5 +1,9 @@
 var group___atomic =
 [
+    [ "DecayConstant", "group___atomic.html#ga904edce5aad441b4a0873b3b1a83c7f2", null ],
+    [ "DecayConstantViaDecayWidth", "group___atomic.html#gac0dc5d8a75657eaa2e939dd243fe4ba8", null ],
+    [ "DecayConstantViaHalfLife", "group___atomic.html#ga89c04a655d9e24f976399cc8f173b7aa", null ],
+    [ "DecayConstantViaMeanLifetime", "group___atomic.html#ga260cf6dc4f926269ea8966c19dfd269f", null ],
     [ "DecayWidth", "group___atomic.html#gae232ec8bb39710131be898c057a25620", null ],
     [ "DecayWidthViaDecayConstant", "group___atomic.html#ga143a666966efecc535a59bb4f36a79c6", null ],
     [ "DecayWidthViaHalfLife", "group___atomic.html#ga1113224b24790a2e34032f9e90ad55c6", null ],

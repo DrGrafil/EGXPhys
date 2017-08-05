@@ -53,7 +53,7 @@ namespace EGXPhys
 	*
 	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 161
 	*
-	*   @param meanLifetime \f$\lambda\f$(\f$\frac{1}{s}\f$) Mean lifetime. Average time that a radioactive substance is likely to survive before it decays.
+	*   @param halfLife \f$\lambda\f$(\f$\frac{1}{s}\f$) Mean lifetime. Average time that a radioactive substance is likely to survive before it decays.
 	*   @return \f$t_{\frac{1}{2}}\f$(\f$s\f$) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value.
 	*	@see MeanLifetime()
 	*	@see HalfLife() to calculate half life using decay constant, \f$\lambda\f$.
