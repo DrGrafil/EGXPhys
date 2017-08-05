@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['halflife',['HalfLife',['../group___atomic.html#ga21d268f154fb91c1c556bbfa7fe83ac1',1,'EGXPhys']]],
-  ['halflifeviadecayfwhm',['HalfLifeViaDecayFWHM',['../group___atomic.html#ga705a1fd3584a6d196676743024053fb8',1,'EGXPhys']]],
-  ['halflifeviameanlifetime',['HalfLifeViaMeanLifetime',['../group___atomic.html#gae2cb33d92f1422b9ccf453f18553d318',1,'EGXPhys']]]
+  ['earthsimilarityindex',['EarthSimilarityIndex',['../group___astrophysics.html#ga4b86397b1c839c49ac599d49fda207d4',1,'EGXPhys']]],
+  ['earthsimilarityindexinterior',['EarthSimilarityIndexInterior',['../group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61',1,'EGXPhys']]],
+  ['earthsimilarityindexsurface',['EarthSimilarityIndexSurface',['../group___astrophysics.html#ga1df772b0ed354ca7f7e4a7a4af072325',1,'EGXPhys']]]
 ];
