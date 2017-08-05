@@ -42,7 +42,7 @@ namespace EGXPhys
 	
 								// m
 	const double VolumeOfEarth = 4.0/3.0 * 3.14 * pow(RadiusOfEarth, 3);	/**< \f$V_\oplus\f$(\f$m^3\f$) Volume of Earth. */
-	const double DensityOfEarth =  MassOfEarth/VolumeOfEarth;				/**< \f$\rho_\oplus\f$(\f$\frac{kg}{m^3}) Density of Earth. */
+	const double DensityOfEarth =  MassOfEarth/VolumeOfEarth;				/**< \f$\rho_\oplus\f$(\f$\frac{kg}{m^3}\f$) Density of Earth. */
 	const double EscapeVelocityOfEarth = 11186; 							/**< \f$v_e\f$(\f$\frac{m}{s}\f$) Escape velocity of Earth. */
 	const double SurfaceTempretureOfEarth = 287;							/**< \f$T_{\oplus,Surface}\f$(\f$K\f$) Surface tempreture of Earth. */
 	 

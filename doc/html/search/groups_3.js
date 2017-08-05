@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['optics',['Optics',['../group___optics.html',1,'']]]
+  ['kinematics',['Kinematics',['../group___kinematics.html',1,'']]]
 ];

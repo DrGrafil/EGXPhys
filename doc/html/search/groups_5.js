@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['quantum',['Quantum',['../group___quantum.html',1,'']]]
+  ['periapsis',['Periapsis',['../group___periapsis.html',1,'']]],
+  ['plasma',['Plasma',['../group___plasma.html',1,'']]]
 ];

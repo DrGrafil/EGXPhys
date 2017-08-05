@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kinematics',['Kinematics',['../group___kinematics.html',1,'']]]
+  ['half_20life',['Half Life',['../group___half_life.html',1,'']]]
 ];

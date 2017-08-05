@@ -8,5 +8,6 @@ var searchData=
   ['sunabsvmagnitude',['SunAbsVMagnitude',['../_astrophysics_constants_8hpp.html#a61266dc1aaacdd9a9bd0f2fa92aa21c9',1,'EGXPhys']]],
   ['sunage',['SunAge',['../_astrophysics_constants_8hpp.html#a173216c099d7915fb16e6416902fcbb8',1,'EGXPhys']]],
   ['sunluminocity',['SunLuminocity',['../_astrophysics_constants_8hpp.html#a3987543f6972eb72eb2c07d39520b43e',1,'EGXPhys']]],
-  ['suntempreture',['SunTempreture',['../_astrophysics_constants_8hpp.html#a97be71e7f8ca4f7813362bc1dca66db5',1,'EGXPhys']]]
+  ['suntempreture',['SunTempreture',['../_astrophysics_constants_8hpp.html#a97be71e7f8ca4f7813362bc1dca66db5',1,'EGXPhys']]],
+  ['surfacetempretureofearth',['SurfaceTempretureOfEarth',['../_astrophysics_constants_8hpp.html#a942ce2ac76b5df8b08ec7827d3e20b76',1,'EGXPhys']]]
 ];

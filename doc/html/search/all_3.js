@@ -11,5 +11,6 @@ var searchData=
   ['decaywidth_2einl',['DecayWidth.inl',['../_decay_width_8inl.html',1,'']]],
   ['decaywidthviadecayconstant',['DecayWidthViaDecayConstant',['../group___decay_width.html#ga143a666966efecc535a59bb4f36a79c6',1,'EGXPhys']]],
   ['decaywidthviahalflife',['DecayWidthViaHalfLife',['../group___decay_width.html#ga1113224b24790a2e34032f9e90ad55c6',1,'EGXPhys']]],
-  ['decaywidthviameanlifetime',['DecayWidthViaMeanLifetime',['../group___decay_width.html#ga0b65d991f3f3d72cf09a4a7b343a01ca',1,'EGXPhys']]]
+  ['decaywidthviameanlifetime',['DecayWidthViaMeanLifetime',['../group___decay_width.html#ga0b65d991f3f3d72cf09a4a7b343a01ca',1,'EGXPhys']]],
+  ['densityofearth',['DensityOfEarth',['../_astrophysics_constants_8hpp.html#a2a671e37351b9b7e334385a26a7f7102',1,'EGXPhys']]]
 ];
