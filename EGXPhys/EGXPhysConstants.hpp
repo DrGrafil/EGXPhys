@@ -42,7 +42,7 @@ namespace EGXPhys
 	
 	const double redPlankConst = 1.054571726;							// J s
 	const double hbar = redPlankConst;       							// J s
-	
+	const double hbarIneVs = 6.582119514e-16;       							// eV s
 	
 
 	const double AU = 149597870700.0;									// m

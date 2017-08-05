@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['lorentztransformations_2ehpp',['LorentzTransformations.hpp',['../_lorentz_transformations_8hpp.html',1,'']]],
-  ['lorentztransformations_2einl',['LorentzTransformations.inl',['../_lorentz_transformations_8inl.html',1,'']]],
-  ['luminosity_2ehpp',['Luminosity.hpp',['../_luminosity_8hpp.html',1,'']]],
-  ['luminosity_2einl',['Luminosity.inl',['../_luminosity_8inl.html',1,'']]]
+  ['halflife_2ehpp',['HalfLife.hpp',['../_half_life_8hpp.html',1,'']]],
+  ['halflife_2einl',['HalfLife.inl',['../_half_life_8inl.html',1,'']]]
 ];

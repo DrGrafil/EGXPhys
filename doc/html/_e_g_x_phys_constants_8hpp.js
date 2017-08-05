@@ -9,6 +9,7 @@ var _e_g_x_phys_constants_8hpp =
     [ "GravitationalConstant", "_e_g_x_phys_constants_8hpp.html#acbed4939ce32ed600bbf34cf6afcd13e", null ],
     [ "h", "_e_g_x_phys_constants_8hpp.html#afb3c699d92b0aefdda969d5e85a51d03", null ],
     [ "hbar", "_e_g_x_phys_constants_8hpp.html#a63f3ecdbc4b800a4bcef293ce4af9802", null ],
+    [ "hbarIneVs", "_e_g_x_phys_constants_8hpp.html#a14ac4dd2ede3cf4cca253b36222d117a", null ],
     [ "hour", "_e_g_x_phys_constants_8hpp.html#a85c64ea70cddbb7e4c96adcc01cef6e2", null ],
     [ "kb", "_e_g_x_phys_constants_8hpp.html#a2d70c099018e30a89f6934166e7e5147", null ],
     [ "minute", "_e_g_x_phys_constants_8hpp.html#ab3a72a63e9c502847d0db88a167dc02b", null ],
