@@ -9,16 +9,16 @@ namespace EGXPhys{
 	
 	template<typename T>
 	T HalfLife(const T& decayConstant){
-		return Log(2.0)/decayConstant;
+		return log(2.0)/decayConstant;
 	}
 
     template<typename T>
 	T HalfLifeViaMeanLifetime(const T& meanLifetime){
-		return meanLifetime * Log(2.0);
+		return meanLifetime * log(2.0);
 	}
 	
 	template<typename T>
 	T HalfLifeViaDecayWidth(const T& decayWidth){
-		return hbarIneVs * Log(2.0) / decayWidth;
+		return hbarIneVs * log(2.0) / decayWidth;
 	}
 }//namespace EGXPhys

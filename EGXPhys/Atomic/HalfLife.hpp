@@ -3,7 +3,7 @@
 /// @brief Calculates half life of a radioative substance
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 8/2/17
+/// @date 8/4/17
 /// @bug No known bugs.
 /// @todo Add reference to Decay Width.
 

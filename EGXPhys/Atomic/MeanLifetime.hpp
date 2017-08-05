@@ -1,9 +1,9 @@
-/// @file EGXPhys/Atomic/RadioactiveDecay.hpp
+/// @file EGXPhys/Atomic/MeanLifetime.hpp
 ///
-/// @brief Calculates various radioactive decay measurements such as half life and mean lifetime
+/// @brief Calculates mean lifetime of a radioactive decay.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 8/2/17
+/// @date 8/4/17
 /// @bug No known bugs.
 
 //=================================
@@ -41,7 +41,7 @@ namespace EGXPhys
 	* 	@see HalfLifeViaDecayWidth() to calculate half life using decay width, \f$\Gamma\f$.
 	*/    
     template<typename T>
-	T HalfLife(const T& decayConstant);
+	T MeanLifetime(const T& decayConstant);
 
 	/** 
 	*   @brief Calculates the Half Life, \f$t_{\frac{1}{2}}\f$, of a radioactive substance via the mean lifetime, \f$\tau\f$. 
@@ -60,7 +60,7 @@ namespace EGXPhys
 	* 	@see HalfLifeViaDecayWidth() to calculate half life using decay width, \f$\Gamma\f$.
 	*/    
     template<typename T>
-	T HalfLifeViaMeanLifetime(const T& meanLifetime);	
+	T MeanLifetimeViaHalfLife(const T& halfLife);	
 	
     /** 
 	*   @brief Calculates the Half Life, \f$t_{\frac{1}{2}}\f$, of a radioactive substance via the decay width, \f$\Gamma\f$ . 
@@ -79,10 +79,10 @@ namespace EGXPhys
 	* 	@see HalfLifeViaMeanLifetime() to calculate half life using mean lifetime, \f$\tau\f$.
 	*/       
     template<typename T>
-	T HalfLifeViaDecayWidth(const T& decayWidth);		
+	T MeanLifetimeViaDecayWidth(const T& decayWidth);		
    
 
     /// @}
 } //namespace EGXPhys
 
-#include "CircumstellarHabitableZone.inl"
+#include "MeanLifetime.inl"

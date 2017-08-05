@@ -6,11 +6,11 @@
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_gae232ec8bb39710131be898c057a25620}{E\+G\+X\+Phys\+::\+Decay\+Width} (const T \&energy\+Uncertainty)
 \begin{DoxyCompactList}\small\item\em Calculates the Decay Width, $\Gamma$, of a radioactive substance via the uncertainty in energy, $\Delta E$. Also known as line width, natural line width and decay F\+W\+HM. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_ga143a666966efecc535a59bb4f36a79c6}{E\+G\+X\+Phys\+::\+Decay\+Width\+Via\+Decay\+Constant} (const T \&decay\+Constant)
-\begin{DoxyCompactList}\small\item\em Calculates the Decay Width, $\Gamma$, of a radioactive substance via the decay constant, $\lambda$. Also known as line width, natural line width and decay F\+W\+HM. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the Decay Width, $\Gamma$, of a radioactive substance via the uncertainty in energy, $\Delta E$. Also known as line width, natural line width and decay F\+W\+HM. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_gac83ded776bc027f9e92ccbd650926904}{E\+G\+X\+Phys\+::\+Decay\+Width\+Via\+Half\+Life} (const T \&decay\+Width)
-\begin{DoxyCompactList}\small\item\em Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the decay width, $\Gamma$ . \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the Decay Width, $\Gamma$, of a radioactive substance via the uncertainty in energy, $\Delta E$. Also known as line width, natural line width and decay F\+W\+HM. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_ga0b65d991f3f3d72cf09a4a7b343a01ca}{E\+G\+X\+Phys\+::\+Decay\+Width\+Via\+Mean\+Lifetime} (const T \&mean\+Lifetime)
-\begin{DoxyCompactList}\small\item\em Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the mean lifetime, $\tau$. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the Decay Width, $\Gamma$, of a radioactive substance via the uncertainty in energy, $\Delta E$. Also known as line width, natural line width and decay F\+W\+HM. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_ga21d268f154fb91c1c556bbfa7fe83ac1}{E\+G\+X\+Phys\+::\+Half\+Life} (const T \&decay\+Constant)
 \begin{DoxyCompactList}\small\item\em Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the decay constant, $\lambda$ . \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_gacddef16b62e98b214ec8dd8af7da7dce}{E\+G\+X\+Phys\+::\+Half\+Life\+Via\+Mean\+Lifetime} (const T \&mean\+Lifetime)
@@ -46,12 +46,12 @@ Equation taken from \char`\"{}\+On the Relationship between the Natural Line Wid
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-$\Gamma$ (eV) Decay width. Full width half maximum of a Breit-\/\+Wigner distribution fit to the energy distribution of a decay. 
+$\Gamma$( $eV$) Decay width. Full width half maximum of a Breit-\/\+Wigner distribution fit to the energy distribution of a decay. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
 \hyperlink{group___atomic_ga143a666966efecc535a59bb4f36a79c6}{Decay\+Width\+Via\+Decay\+Constant()} to calculate decay width using decay constant, $\lambda$. 
 
-\hyperlink{group___atomic_gac83ded776bc027f9e92ccbd650926904}{Decay\+Width\+Via\+Half\+Life()} to calculate decay width using half life, $t_{\frac{1}{2}$. 
+\hyperlink{group___atomic_gac83ded776bc027f9e92ccbd650926904}{Decay\+Width\+Via\+Half\+Life()} to calculate decay width using half life, $t_{\frac{1}{2}}$. 
 
 \hyperlink{group___atomic_ga0b65d991f3f3d72cf09a4a7b343a01ca}{Decay\+Width\+Via\+Mean\+Lifetime()} to calculatedecay width using mean lifetime, $\tau$. 
 \end{DoxySeeAlso}
@@ -64,9 +64,9 @@ T E\+G\+X\+Phys\+::\+Decay\+Width\+Via\+Decay\+Constant (\begin{DoxyParamCaption
 
 
 
-Calculates the Decay Width, $\Gamma$, of a radioactive substance via the decay constant, $\lambda$. Also known as line width, natural line width and decay F\+W\+HM. 
+Calculates the Decay Width, $\Gamma$, of a radioactive substance via the uncertainty in energy, $\Delta E$. Also known as line width, natural line width and decay F\+W\+HM. 
 
-The Decay Width is the full width half max (F\+W\+HM) of the energy distribution of a decay when fit using a Breit-\/\+Wigner distribution. \[\Gamma=2\Delta E\]
+The decay width is the full width half maximum of the energy distribution of a decay when fit using a Breit-\/\+Wigner distribution. \[\Gamma \approx \hbar \lambda \]
 
 See \href{http://quantummechanics.ucsd.edu/ph130a/130_notes/node428.html,}{\tt http\+://quantummechanics.\+ucsd.\+edu/ph130a/130\+\_\+notes/node428.\+html,} \href{http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/parlif.html}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/quantum/parlif.\+html}
 
@@ -74,18 +74,18 @@ Equation taken from \char`\"{}\+On the Relationship between the Natural Line Wid
 
 
 \begin{DoxyParams}{Parameters}
-{\em decay\+Constant} & $\lambda$( $\frac{1}{s}$) Decay constant. Fraction of radioactive substance that decays in 1 second. \\
+{\em decay\+Constant} & $\Delta E$( $eV$) Energy uncertainty. The uncertainty in the release energy from the decay of a radioactive substance. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-$\Gamma$) Decay width. Time required for the activity of a radioactive substance to decay to half of its initial value. 
+$\Gamma$( $eV$) Decay width. Full width half maximum of a Breit-\/\+Wigner distribution fit to the energy distribution of a decay. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-Decay\+Constant() to calculate the decay constant. 
+\hyperlink{group___atomic_gae232ec8bb39710131be898c057a25620}{Decay\+Width()} to calculate decay width using the uncertainty in energy, $\Delta E$. 
 
-\hyperlink{group___atomic_gacddef16b62e98b214ec8dd8af7da7dce}{Half\+Life\+Via\+Mean\+Lifetime()} to calculate half life using mean lifetime, $\tau$. 
+\hyperlink{group___atomic_gac83ded776bc027f9e92ccbd650926904}{Decay\+Width\+Via\+Half\+Life()} to calculate decay width using half life, $t_{\frac{1}{2}}$. 
 
-\hyperlink{group___atomic_gaba3fda944d1a68ee1016a1f2f5809359}{Half\+Life\+Via\+Decay\+Width()} to calculate half life using decay width, $\tau$. 
+\hyperlink{group___atomic_ga0b65d991f3f3d72cf09a4a7b343a01ca}{Decay\+Width\+Via\+Mean\+Lifetime()} to calculatedecay width using mean lifetime, $\tau$. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___atomic_gac83ded776bc027f9e92ccbd650926904}\label{group___atomic_gac83ded776bc027f9e92ccbd650926904}} 
 \index{Atomic@{Atomic}!Decay\+Width\+Via\+Half\+Life@{Decay\+Width\+Via\+Half\+Life}}
@@ -96,28 +96,28 @@ T E\+G\+X\+Phys\+::\+Decay\+Width\+Via\+Half\+Life (\begin{DoxyParamCaption}\ite
 
 
 
-Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the decay width, $\Gamma$ . 
+Calculates the Decay Width, $\Gamma$, of a radioactive substance via the uncertainty in energy, $\Delta E$. Also known as line width, natural line width and decay F\+W\+HM. 
 
-The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. \[t_{\frac{1}{2}}=\frac{\hbar \ ln(2)}{\Gamma}\]
+The decay width is the full width half maximum of the energy distribution of a decay when fit using a Breit-\/\+Wigner distribution. \[\Gamma\approx \frac{\hbar \ ln(2)}{t_{\frac{1}{2}}} E\]
 
-See \href{http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/parlif.html}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/quantum/parlif.\+html}
+See \href{http://quantummechanics.ucsd.edu/ph130a/130_notes/node428.html,}{\tt http\+://quantummechanics.\+ucsd.\+edu/ph130a/130\+\_\+notes/node428.\+html,} \href{http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/parlif.html}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/quantum/parlif.\+html}
 
-Equation taken from ????????
+Equation taken from \char`\"{}\+On the Relationship between the Natural Line Width and Lifetime of X-\/\+Ray Transitions\char`\"{} (Croft, 2015), \href{https://www.osti.gov/scitech/servlets/purl/1214016}{\tt https\+://www.\+osti.\+gov/scitech/servlets/purl/1214016} and \char`\"{}\+Mössbauer Spectroscopy and Transition Metal Chemistry\char`\"{} (Gütlich,2011) p 9 \href{https://doi.org/10.1007/978-3-540-88428-6}{\tt https\+://doi.\+org/10.\+1007/978-\/3-\/540-\/88428-\/6}
 
 
 \begin{DoxyParams}{Parameters}
-{\em decay\+Width} & $\Gamma$( $eV$) Decay width also known as line width, natural line width and decay F\+W\+HM. The F\+W\+HM of the uncertainty in the measured energy of the radioactive decay. \\
+{\em decay\+Width} & $\Delta E$( $eV$) Energy uncertainty. The uncertainty in the release energy from the decay of a radioactive substance. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-$t_{\frac{1}{2}}$( $s$) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value. 
+$\Gamma$( $eV$) Decay width. Full width half maximum of a Breit-\/\+Wigner distribution fit to the energy distribution of a decay. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\hyperlink{group___atomic_gae232ec8bb39710131be898c057a25620}{Decay\+Width()} to calculate the decay width. 
+\hyperlink{group___atomic_gae232ec8bb39710131be898c057a25620}{Decay\+Width()} to calculate decay width using the uncertainty in energy, $\Delta E$. 
 
-\hyperlink{group___atomic_ga21d268f154fb91c1c556bbfa7fe83ac1}{Half\+Life()} to calculate half life using decay constant, $\lambda$. 
+\hyperlink{group___atomic_ga143a666966efecc535a59bb4f36a79c6}{Decay\+Width\+Via\+Decay\+Constant()} to calculate decay width using decay constant, $\lambda$. 
 
-\hyperlink{group___atomic_gacddef16b62e98b214ec8dd8af7da7dce}{Half\+Life\+Via\+Mean\+Lifetime()} to calculate half life using mean lifetime, $\tau$. 
+\hyperlink{group___atomic_ga0b65d991f3f3d72cf09a4a7b343a01ca}{Decay\+Width\+Via\+Mean\+Lifetime()} to calculatedecay width using mean lifetime, $\tau$. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___atomic_ga0b65d991f3f3d72cf09a4a7b343a01ca}\label{group___atomic_ga0b65d991f3f3d72cf09a4a7b343a01ca}} 
 \index{Atomic@{Atomic}!Decay\+Width\+Via\+Mean\+Lifetime@{Decay\+Width\+Via\+Mean\+Lifetime}}
@@ -128,28 +128,28 @@ T E\+G\+X\+Phys\+::\+Decay\+Width\+Via\+Mean\+Lifetime (\begin{DoxyParamCaption}
 
 
 
-Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the mean lifetime, $\tau$. 
+Calculates the Decay Width, $\Gamma$, of a radioactive substance via the uncertainty in energy, $\Delta E$. Also known as line width, natural line width and decay F\+W\+HM. 
 
-The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. \[\tau= \tau \ ln(2)\]
+The decay width is the full width half maximum of the energy distribution of a decay when fit using a Breit-\/\+Wigner distribution. \[\Gamma \approx \frac{\hbar}{\tau}\]
 
-See \href{https://en.wikipedia.org/wiki/Half-life}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Half-\/life} and \href{http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/\+Nuclear/halfli2.\+html,} \href{https://en.wikipedia.org/wiki/Radioactive_decay}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Radioactive\+\_\+decay}
+See \href{http://quantummechanics.ucsd.edu/ph130a/130_notes/node428.html,}{\tt http\+://quantummechanics.\+ucsd.\+edu/ph130a/130\+\_\+notes/node428.\+html,} \href{http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/parlif.html}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/quantum/parlif.\+html}
 
-Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1987), p. 161
+Equation taken from \char`\"{}\+On the Relationship between the Natural Line Width and Lifetime of X-\/\+Ray Transitions\char`\"{} (Croft, 2015), \href{https://www.osti.gov/scitech/servlets/purl/1214016}{\tt https\+://www.\+osti.\+gov/scitech/servlets/purl/1214016} and \char`\"{}\+Mössbauer Spectroscopy and Transition Metal Chemistry\char`\"{} (Gütlich,2011) p 9 \href{https://doi.org/10.1007/978-3-540-88428-6}{\tt https\+://doi.\+org/10.\+1007/978-\/3-\/540-\/88428-\/6}
 
 
 \begin{DoxyParams}{Parameters}
-{\em mean\+Lifetime} & $\lambda$( $\frac{1}{s}$) Mean lifetime. Average time that a radioactive substance is likely to survive before it decays. \\
+{\em mean\+Lifetime} & $\Delta E$( $eV$) Energy uncertainty. The uncertainty in the release energy from the decay of a radioactive substance. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-$t_{\frac{1}{2}}$( $s$) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value. 
+$\Gamma$( $eV$) Decay width. Full width half maximum of a Breit-\/\+Wigner distribution fit to the energy distribution of a decay. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-Mean\+Lifetime() 
+\hyperlink{group___atomic_gae232ec8bb39710131be898c057a25620}{Decay\+Width()} to calculate decay width using the uncertainty in energy, $\Delta E$. 
 
-\hyperlink{group___atomic_ga21d268f154fb91c1c556bbfa7fe83ac1}{Half\+Life()} to calculate half life using decay constant, $\lambda$. 
+\hyperlink{group___atomic_ga143a666966efecc535a59bb4f36a79c6}{Decay\+Width\+Via\+Decay\+Constant()} to calculate decay width using decay constant, $\lambda$. 
 
-\hyperlink{group___atomic_gaba3fda944d1a68ee1016a1f2f5809359}{Half\+Life\+Via\+Decay\+Width()} to calculate half life using decay width, $\Gamma$. 
+\hyperlink{group___atomic_gac83ded776bc027f9e92ccbd650926904}{Decay\+Width\+Via\+Half\+Life()} to calculate decay width using half life, $t_{\frac{1}{2}}$. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___atomic_ga21d268f154fb91c1c556bbfa7fe83ac1}\label{group___atomic_ga21d268f154fb91c1c556bbfa7fe83ac1}} 
 \index{Atomic@{Atomic}!Half\+Life@{Half\+Life}}
