@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kinematics',['Kinematics',['../group___kinematics.html',1,'']]]
+  ['decay_20width',['Decay Width',['../group___decay_width.html',1,'']]]
 ];

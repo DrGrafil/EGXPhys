@@ -20,17 +20,17 @@ namespace EGXPhys{
 	
 	template<typename T>
 	T StellarFluxEffectiveUnderwood(const T& starEffectiveSurfaceTemperature, const T& sunEffectiveStellarFlux, const T& aModelParameter, const T& bModelParameter){
-		
+		return 1.0;
 	}
 	
     template<typename T>
 	T CircumstellarHabitableZoneInnerRadius( const T& starEffectiveSurfaceTemperature, const T& starLuminosity){
-		return CircumstellarHabitableZoneLimit(starLuminosity, StellarFluxEffectiveSelsis(starEffectiveTemperature, 0.72, 2.7619e-5, 3.8095e-9) );
+		return CircumstellarHabitableZoneLimit(starLuminosity, StellarFluxEffectiveSelsis(starEffectiveSurfaceTemperature, 0.72, 2.7619e-5, 3.8095e-9) );
 	}
 	
 	template<typename T>
 	T CircumstellarHabitableZoneZoneOuterRadius( const T& starEffectiveSurfaceTemperature, const T& starLuminosity ){
-		return CircumstellarHabitableZoneLimit(starLuminosity, StellarFluxEffectiveSelsis(starEffectiveTemperature, 1.77, 1.3786e-4, 1.4286e-9) );
+		return CircumstellarHabitableZoneLimit(starLuminosity, StellarFluxEffectiveSelsis(starEffectiveSurfaceTemperature, 1.77, 1.3786e-4, 1.4286e-9) );
 	}
 	
 

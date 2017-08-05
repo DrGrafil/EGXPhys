@@ -14,7 +14,7 @@ namespace EGXPhys{
 
 	template<typename T>
 	T DecayConstantViaHalfLife(const T& halfLife){
-		return halfLife * log(2);
+		return log(2)/halfLife;
 	}
 	
 	template<typename T>

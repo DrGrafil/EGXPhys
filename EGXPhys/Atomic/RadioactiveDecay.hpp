@@ -30,4 +30,4 @@ namespace EGXPhys
     /// @}
 } //namespace EGXPhys
 
-#include "CircumstellarHabitableZone.inl"
+#include "RadioactiveDecay.inl"

@@ -7,6 +7,10 @@
 /// @bug No known bugs.
 /// @todo Add reference to Decay Width.
 
+/// @defgroup HalfLife Half Life
+/// @ingroup Atomic
+/// Calculates the Half Life, \f$t_{\frac{1}{2}}\f$, of a radioactive substance.
+
 //=================================
 // Header guard
 #pragma once
@@ -22,7 +26,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Atomic
+	/// @addtogroup HalfLife
 	/// @{
 
     /** 

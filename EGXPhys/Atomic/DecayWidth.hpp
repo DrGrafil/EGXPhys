@@ -6,6 +6,10 @@
 /// @date 8/4/17
 /// @bug No known bugs.
 
+/// @defgroup DecayWidth Decay Width
+/// @ingroup Atomic
+/// Calculates the decay width, \f$\Gamma\f$, of a radioactive substance.
+ 
 //=================================
 // Header guard
 #pragma once
@@ -21,7 +25,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Atomic
+	/// @addtogroup DecayWidth
 	/// @{
 
 	/** 
