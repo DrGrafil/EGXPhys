@@ -1,2 +1,92 @@
 \hypertarget{group___atomic}{}\section{Atomic}
 \label{group___atomic}\index{Atomic@{Atomic}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_ga21d268f154fb91c1c556bbfa7fe83ac1}{E\+G\+X\+Phys\+::\+Half\+Life} (const T \&decay\+Constant)
+\begin{DoxyCompactList}\small\item\em Calculates the Half Life, $t_{\frac{1}{2}}$ of a radioactive substance via the nuclear decay constant, $\lambda$ . \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_ga705a1fd3584a6d196676743024053fb8}{E\+G\+X\+Phys\+::\+Half\+Life\+Via\+Decay\+F\+W\+HM} (const T \&decay\+F\+W\+HM)
+\begin{DoxyCompactList}\small\item\em Calculates the Half Life, $t_{\frac{1}{2}}$ of a radioactive substance via the decay constant. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_gae2cb33d92f1422b9ccf453f18553d318}{E\+G\+X\+Phys\+::\+Half\+Life\+Via\+Mean\+Lifetime} (const T \&decay\+Constant)
+\begin{DoxyCompactList}\small\item\em Calculates the Half Life, $t_{\frac{1}{2}}$ ( $1$) $2$$\vert$ $3$$\vert$ $$ test $2$ of a radioactive substance via the decay constant. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___atomic_ga21d268f154fb91c1c556bbfa7fe83ac1}\label{group___atomic_ga21d268f154fb91c1c556bbfa7fe83ac1}} 
+\index{Atomic@{Atomic}!Half\+Life@{Half\+Life}}
+\index{Half\+Life@{Half\+Life}!Atomic@{Atomic}}
+\subsubsection{\texorpdfstring{Half\+Life()}{HalfLife()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Half\+Life (\begin{DoxyParamCaption}\item[{const T \&}]{decay\+Constant }\end{DoxyParamCaption})}
+
+
+
+Calculates the Half Life, $t_{\frac{1}{2}}$ of a radioactive substance via the nuclear decay constant, $\lambda$ . 
+
+The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. \[t_{\frac{1}{2}}=\frac{ln(2)}{\lambda}\]
+
+See \href{https://en.wikipedia.org/wiki/Half-life}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Half-\/life} and \href{http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/\+Nuclear/halfli2.\+html,} \href{https://en.wikipedia.org/wiki/Radioactive_decay}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Radioactive\+\_\+decay}
+
+Equation taken from ??????
+
+
+\begin{DoxyParams}{Parameters}
+{\em decay\+Constant} & $\lambda$( $\frac{1}{s}$) Decay Constant. Fraction of radioactive substance that decays in 1 second. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$t_{\frac{1}{2}}$( $s$) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group___atomic_ga705a1fd3584a6d196676743024053fb8}\label{group___atomic_ga705a1fd3584a6d196676743024053fb8}} 
+\index{Atomic@{Atomic}!Half\+Life\+Via\+Decay\+F\+W\+HM@{Half\+Life\+Via\+Decay\+F\+W\+HM}}
+\index{Half\+Life\+Via\+Decay\+F\+W\+HM@{Half\+Life\+Via\+Decay\+F\+W\+HM}!Atomic@{Atomic}}
+\subsubsection{\texorpdfstring{Half\+Life\+Via\+Decay\+F\+W\+H\+M()}{HalfLifeViaDecayFWHM()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Half\+Life\+Via\+Decay\+F\+W\+HM (\begin{DoxyParamCaption}\item[{const T \&}]{decay\+F\+W\+HM }\end{DoxyParamCaption})}
+
+
+
+Calculates the Half Life, $t_{\frac{1}{2}}$ of a radioactive substance via the decay constant. 
+
+The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. \[t_{\frac{1}{2}}=\frac{ln(2)}{\lambda}\]
+
+See \href{https://en.wikipedia.org/wiki/Half-life}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Half-\/life} and \href{http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/\+Nuclear/halfli2.\+html,} \href{https://en.wikipedia.org/wiki/Radioactive_decay}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Radioactive\+\_\+decay}
+
+Equation taken from ??????
+
+
+\begin{DoxyParams}{Parameters}
+{\em decay\+Constant} & $\lambda$( $\frac{1}{s}$) Decay Constant. Fraction of radioactive substance that decays in 1 second. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$t_{\frac{1}{2}}$( $s$) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group___atomic_gae2cb33d92f1422b9ccf453f18553d318}\label{group___atomic_gae2cb33d92f1422b9ccf453f18553d318}} 
+\index{Atomic@{Atomic}!Half\+Life\+Via\+Mean\+Lifetime@{Half\+Life\+Via\+Mean\+Lifetime}}
+\index{Half\+Life\+Via\+Mean\+Lifetime@{Half\+Life\+Via\+Mean\+Lifetime}!Atomic@{Atomic}}
+\subsubsection{\texorpdfstring{Half\+Life\+Via\+Mean\+Lifetime()}{HalfLifeViaMeanLifetime()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Half\+Life\+Via\+Mean\+Lifetime (\begin{DoxyParamCaption}\item[{const T \&}]{decay\+Constant }\end{DoxyParamCaption})}
+
+
+
+Calculates the Half Life, $t_{\frac{1}{2}}$ ( $1$) $2$$\vert$ $3$$\vert$ $$ test $2$ of a radioactive substance via the decay constant. 
+
+The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. \[t_{\frac{1}{2}}=\frac{ln(2)}{\lambda}\]
+
+See \href{https://en.wikipedia.org/wiki/Half-life}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Half-\/life} and \href{http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/\+Nuclear/halfli2.\+html,} \href{https://en.wikipedia.org/wiki/Radioactive_decay}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Radioactive\+\_\+decay}
+
+Equation taken from ??????
+
+
+\begin{DoxyParams}{Parameters}
+{\em decay\+Constant} & $\lambda$( $\frac{1}{s}$) Decay Constant. Fraction of radioactive substance that decays in 1 second. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$t_{\frac{1}{2}}$( $s$) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value. 
+\end{DoxyReturn}

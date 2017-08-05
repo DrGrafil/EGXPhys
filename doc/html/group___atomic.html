@@ -85,10 +85,132 @@ $(document).ready(function(){initNavTree('group___atomic.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Atomic</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga21d268f154fb91c1c556bbfa7fe83ac1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga21d268f154fb91c1c556bbfa7fe83ac1"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___atomic.html#ga21d268f154fb91c1c556bbfa7fe83ac1">EGXPhys::HalfLife</a> (const T &amp;decayConstant)</td></tr>
+<tr class="memdesc:ga21d268f154fb91c1c556bbfa7fe83ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Half Life, \(t_{\frac{1}{2}}\) of a radioactive substance via the nuclear decay constant, \(\lambda\) .  <a href="group___atomic.html#ga21d268f154fb91c1c556bbfa7fe83ac1">More...</a><br /></td></tr>
+<tr class="separator:ga21d268f154fb91c1c556bbfa7fe83ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga705a1fd3584a6d196676743024053fb8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga705a1fd3584a6d196676743024053fb8"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___atomic.html#ga705a1fd3584a6d196676743024053fb8">EGXPhys::HalfLifeViaDecayFWHM</a> (const T &amp;decayFWHM)</td></tr>
+<tr class="memdesc:ga705a1fd3584a6d196676743024053fb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Half Life, \(t_{\frac{1}{2}}\) of a radioactive substance via the decay constant.  <a href="group___atomic.html#ga705a1fd3584a6d196676743024053fb8">More...</a><br /></td></tr>
+<tr class="separator:ga705a1fd3584a6d196676743024053fb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae2cb33d92f1422b9ccf453f18553d318"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gae2cb33d92f1422b9ccf453f18553d318"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___atomic.html#gae2cb33d92f1422b9ccf453f18553d318">EGXPhys::HalfLifeViaMeanLifetime</a> (const T &amp;decayConstant)</td></tr>
+<tr class="memdesc:gae2cb33d92f1422b9ccf453f18553d318"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Half Life, \(t_{\frac{1}{2}}\) ( \(1\)) \(2\)| \(3\)| \(\) test \(2\) of a radioactive substance via the decay constant.  <a href="group___atomic.html#gae2cb33d92f1422b9ccf453f18553d318">More...</a><br /></td></tr>
+<tr class="separator:gae2cb33d92f1422b9ccf453f18553d318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga21d268f154fb91c1c556bbfa7fe83ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga21d268f154fb91c1c556bbfa7fe83ac1">&#9670;&nbsp;</a></span>HalfLife()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::HalfLife </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>decayConstant</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the Half Life, \(t_{\frac{1}{2}}\) of a radioactive substance via the nuclear decay constant, \(\lambda\) . </p>
+<p>The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. </p><p class="formulaDsp">
+\[t_{\frac{1}{2}}=\frac{ln(2)}{\lambda}\]
+</p>
+<p>See <a href="https://en.wikipedia.org/wiki/Half-life">https://en.wikipedia.org/wiki/Half-life</a> and <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,">http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,</a> <a href="https://en.wikipedia.org/wiki/Radioactive_decay">https://en.wikipedia.org/wiki/Radioactive_decay</a></p>
+<p>Equation taken from ??????</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">decayConstant</td><td>\(\lambda\)( \(\frac{1}{s}\)) Decay Constant. Fraction of radioactive substance that decays in 1 second. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(t_{\frac{1}{2}}\)( \(s\)) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value. </dd></dl>
+
+</div>
+</div>
+<a id="ga705a1fd3584a6d196676743024053fb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga705a1fd3584a6d196676743024053fb8">&#9670;&nbsp;</a></span>HalfLifeViaDecayFWHM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::HalfLifeViaDecayFWHM </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>decayFWHM</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the Half Life, \(t_{\frac{1}{2}}\) of a radioactive substance via the decay constant. </p>
+<p>The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. </p><p class="formulaDsp">
+\[t_{\frac{1}{2}}=\frac{ln(2)}{\lambda}\]
+</p>
+<p>See <a href="https://en.wikipedia.org/wiki/Half-life">https://en.wikipedia.org/wiki/Half-life</a> and <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,">http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,</a> <a href="https://en.wikipedia.org/wiki/Radioactive_decay">https://en.wikipedia.org/wiki/Radioactive_decay</a></p>
+<p>Equation taken from ??????</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">decayConstant</td><td>\(\lambda\)( \(\frac{1}{s}\)) Decay Constant. Fraction of radioactive substance that decays in 1 second. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(t_{\frac{1}{2}}\)( \(s\)) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value. </dd></dl>
+
+</div>
+</div>
+<a id="gae2cb33d92f1422b9ccf453f18553d318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2cb33d92f1422b9ccf453f18553d318">&#9670;&nbsp;</a></span>HalfLifeViaMeanLifetime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::HalfLifeViaMeanLifetime </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>decayConstant</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the Half Life, \(t_{\frac{1}{2}}\) ( \(1\)) \(2\)| \(3\)| \(\) test \(2\) of a radioactive substance via the decay constant. </p>
+<p>The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. </p><p class="formulaDsp">
+\[t_{\frac{1}{2}}=\frac{ln(2)}{\lambda}\]
+</p>
+<p>See <a href="https://en.wikipedia.org/wiki/Half-life">https://en.wikipedia.org/wiki/Half-life</a> and <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,">http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,</a> <a href="https://en.wikipedia.org/wiki/Radioactive_decay">https://en.wikipedia.org/wiki/Radioactive_decay</a></p>
+<p>Equation taken from ??????</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">decayConstant</td><td>\(\lambda\)( \(\frac{1}{s}\)) Decay Constant. Fraction of radioactive substance that decays in 1 second. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(t_{\frac{1}{2}}\)( \(s\)) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value. </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
