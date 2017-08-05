@@ -8,7 +8,7 @@
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_ga143a666966efecc535a59bb4f36a79c6}{E\+G\+X\+Phys\+::\+Decay\+Width\+Via\+Decay\+Constant} (const T \&decay\+Constant)
 \begin{DoxyCompactList}\small\item\em Calculates the decay width, $\Gamma$, of a radioactive substance via the decay constant, $\lambda$. The decay width is also known as line width, natural line width and decay F\+W\+HM. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_ga1113224b24790a2e34032f9e90ad55c6}{E\+G\+X\+Phys\+::\+Decay\+Width\+Via\+Half\+Life} (const T \&half\+Life)
-\begin{DoxyCompactList}\small\item\em Calculates the Decay Width, $\Gamma$, of a radioactive substance via the hald life, $t_{\frac{1}{2}}$. The decay width is also known as line width, natural line width and decay F\+W\+HM. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the Decay Width, $\Gamma$, of a radioactive substance via the half life, $t_{\frac{1}{2}}$. The decay width is also known as line width, natural line width and decay F\+W\+HM. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_ga0b65d991f3f3d72cf09a4a7b343a01ca}{E\+G\+X\+Phys\+::\+Decay\+Width\+Via\+Mean\+Lifetime} (const T \&mean\+Lifetime)
 \begin{DoxyCompactList}\small\item\em Calculates the Decay Width, $\Gamma$, of a radioactive substance via the mean lifetime, $\tau$. The decay width is also known as line width, natural line width and decay F\+W\+HM. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___atomic_ga21d268f154fb91c1c556bbfa7fe83ac1}{E\+G\+X\+Phys\+::\+Half\+Life} (const T \&decay\+Constant)
@@ -104,7 +104,7 @@ T E\+G\+X\+Phys\+::\+Decay\+Width\+Via\+Half\+Life (\begin{DoxyParamCaption}\ite
 
 
 
-Calculates the Decay Width, $\Gamma$, of a radioactive substance via the hald life, $t_{\frac{1}{2}}$. The decay width is also known as line width, natural line width and decay F\+W\+HM. 
+Calculates the Decay Width, $\Gamma$, of a radioactive substance via the half life, $t_{\frac{1}{2}}$. The decay width is also known as line width, natural line width and decay F\+W\+HM. 
 
 The decay width is the full width half maximum of the energy distribution of a decay when fit using a Breit-\/\+Wigner distribution. \[\Gamma\approx \frac{\hbar \ ln(2)}{t_{\frac{1}{2}}}\]
 
@@ -238,7 +238,7 @@ T E\+G\+X\+Phys\+::\+Half\+Life\+Via\+Mean\+Lifetime (\begin{DoxyParamCaption}\i
 
 Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the mean lifetime, $\tau$. 
 
-The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. \[\tau= \tau \ ln(2)\]
+The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. \[t_{\frac{1}{2}}= \tau \ ln(2)\]
 
 See \href{https://en.wikipedia.org/wiki/Half-life}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Half-\/life} and \href{http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/\+Nuclear/halfli2.\+html,} \href{https://en.wikipedia.org/wiki/Radioactive_decay}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Radioactive\+\_\+decay}
 
@@ -246,7 +246,7 @@ Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1
 
 
 \begin{DoxyParams}{Parameters}
-{\em mean\+Lifetime} & $\lambda$( $\frac{1}{s}$) Mean lifetime. Average time that a radioactive substance is likely to survive before it decays. \\
+{\em mean\+Lifetime} & $\tau$( $\frac{1}{s}$) Mean lifetime. Average time that a radioactive substance is likely to survive before it decays. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}

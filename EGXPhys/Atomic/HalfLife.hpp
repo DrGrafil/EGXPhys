@@ -48,13 +48,13 @@ namespace EGXPhys
 	*   @brief Calculates the Half Life, \f$t_{\frac{1}{2}}\f$, of a radioactive substance via the mean lifetime, \f$\tau\f$. 
 	*
 	*	The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value.
-	*	\f[\tau= \tau \ ln(2)\f]
+	*	\f[t_{\frac{1}{2}}= \tau \ ln(2)\f]
 	*	
 	*	See https://en.wikipedia.org/wiki/Half-life and http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html, https://en.wikipedia.org/wiki/Radioactive_decay
 	*
 	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 161
 	*
-	*   @param meanLifetime \f$\lambda\f$(\f$\frac{1}{s}\f$) Mean lifetime. Average time that a radioactive substance is likely to survive before it decays.
+	*   @param meanLifetime \f$\tau\f$(\f$\frac{1}{s}\f$) Mean lifetime. Average time that a radioactive substance is likely to survive before it decays.
 	*   @return \f$t_{\frac{1}{2}}\f$(\f$s\f$) Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value.
 	*	@see MeanLifetime() to calculate the mean lifetime, \f$\tau\f$.
 	*	@see HalfLife() to calculate half life using decay constant, \f$\lambda\f$.
