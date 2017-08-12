@@ -19,5 +19,6 @@
 #include "DecayConstant.hpp"
 #include "DecayWidth.hpp"
 #include "HalfLife.hpp"
+#include "MassDefect.hpp"
 #include "MeanLifetime.hpp"
 #include "RadioactiveDecay.hpp"

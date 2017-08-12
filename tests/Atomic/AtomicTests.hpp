@@ -7,4 +7,5 @@
 #include "DecayConstantTests.hpp"
 #include "DecayWidthTests.hpp"
 #include "HalfLifeTests.hpp"
+#include "MassDefectTests.hpp"
 #include "MeanLifetimeTests.hpp"
