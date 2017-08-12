@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['lorentzfactor',['LorentzFactor',['../group___relativity.html#ga5f9b11c1f4c3ae26a7e64f02c22d5a75',1,'EGXPhys']]],
-  ['lorentzfactorviaenergy',['LorentzFactorViaEnergy',['../group___relativity.html#ga601de8c039be89a9abea22bc459436c9',1,'EGXPhys']]],
-  ['lorentzfactorviamomentum',['LorentzFactorViaMomentum',['../group___relativity.html#ga1ea24128654ac333dd843afdd5c003b7',1,'EGXPhys']]],
-  ['lorentzfactorviarapidity',['LorentzFactorViaRapidity',['../group___relativity.html#ga8064f5bce1d2ca5f7bc39d95ba4d2dd9',1,'EGXPhys']]]
+  ['earthsimilarityindex',['EarthSimilarityIndex',['../group___astrophysics.html#ga4b86397b1c839c49ac599d49fda207d4',1,'EGXPhys']]],
+  ['earthsimilarityindexinterior',['EarthSimilarityIndexInterior',['../group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61',1,'EGXPhys']]],
+  ['earthsimilarityindexsurface',['EarthSimilarityIndexSurface',['../group___astrophysics.html#ga1df772b0ed354ca7f7e4a7a4af072325',1,'EGXPhys']]]
 ];
