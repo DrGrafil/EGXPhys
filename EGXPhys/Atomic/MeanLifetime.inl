@@ -19,6 +19,6 @@ namespace EGXPhys{
 	
 	template<typename T>
 	T MeanLifetimeViaDecayWidth(const T& decayWidth){
-		return hbarIneVs/decayWidth;
+		return NISTConst::hbarIneVs/decayWidth;
 	}  
 }//namespace EGXPhys

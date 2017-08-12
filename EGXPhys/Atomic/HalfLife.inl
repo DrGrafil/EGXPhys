@@ -19,6 +19,6 @@ namespace EGXPhys{
 	
 	template<typename T>
 	T HalfLifeViaDecayWidth(const T& decayWidth){
-		return hbarIneVs * log(2.0) / decayWidth;
+		return NISTConst::hbarIneVs * log(2.0) / decayWidth;
 	}
 }//namespace EGXPhys

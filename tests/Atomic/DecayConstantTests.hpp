@@ -13,6 +13,6 @@ TEST_CASE("Decay Constant"){
 	CHECK( DecayConstantViaMeanLifetime(2.0) == 0.5);
 	CHECK( MeanLifetime(DecayConstantViaMeanLifetime(2.0))== 2.0);
 
-	CHECK( DecayConstantViaDecayWidth(hbarIneVs) == 1.0);
+	CHECK( DecayConstantViaDecayWidth(NISTConst::hbarIneVs) == 1.0);
 	CHECK( DecayWidthViaDecayConstant(DecayConstantViaDecayWidth(2.0)) == 2.0);
 }

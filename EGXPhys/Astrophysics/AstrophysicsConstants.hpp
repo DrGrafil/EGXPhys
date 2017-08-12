@@ -57,8 +57,9 @@ namespace EGXPhys
 	const double AlbedoOf =;
 	const double MassOf =;
 	const double RadiusOf=;
-*/
+
 	const double gravConstAuDay = gravConst*SolarMass*day*day/(AU*AU*AU); 		// AU^3 /(SolarMass day^2)
+	*/
 } //namespace EGXPhys
 
 

@@ -9,12 +9,12 @@ namespace EGXPhys{
 	
 	template<typename T>
     T LorentzFactor(const T& velocity){
-    	return 1.0/(sqrt(1.0-pow(v/c,2.0)));
+    	return 1.0/(sqrt(1.0-pow(v/NISTConst::c,2.0)));
 	}
     
     template<typename T>
     T LorentzFactorViaMomentum(const T& momentum, const T& restMass);{
-        return sqrt(1.0+pow(momentum/(restMass*c),2.0)));
+        return sqrt(1.0+pow(momentum/(restMass*NISTConst::c),2.0)));
     }
     
     template<typename T>

@@ -24,6 +24,6 @@ namespace EGXPhys{
 	
 	template<typename T>
 	T DecayConstantViaDecayWidth(const T& decayWidth){
-		return decayWidth / hbarIneVs;
+		return decayWidth / NISTConst::hbarIneVs;
 	}    
 }//namespace EGXPhys

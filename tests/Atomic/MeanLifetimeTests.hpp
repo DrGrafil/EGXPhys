@@ -7,6 +7,6 @@ TEST_CASE("Mean Lifetime"){
 	CHECK( MeanLifetimeViaHalfLife(log(2.0)) == 1.0);
 	CHECK( HalfLifeViaMeanLifetime(MeanLifetimeViaHalfLife(2.0)) == 2.0);
 
-	CHECK( MeanLifetimeViaDecayWidth(hbarIneVs) == 1.0 );
+	CHECK( MeanLifetimeViaDecayWidth(NISTConst::hbarIneVs) == 1.0 );
 	CHECK( DecayWidthViaMeanLifetime(MeanLifetimeViaDecayWidth(2.0)) == 2.0);
 }
