@@ -5,7 +5,6 @@ var _astrophysics_constants_8hpp =
     [ "EccentricityOfEarth", "_astrophysics_constants_8hpp.html#a327bbaf59d546f8524d6fb9da919d939", null ],
     [ "EscapeVelocityOfEarth", "_astrophysics_constants_8hpp.html#a6a8cb7abae15a2f1bbcfd6623f72316c", null ],
     [ "GeometricAlbedoOfEarth", "_astrophysics_constants_8hpp.html#aae01fb8ed365fc5de7acebeef34b7351", null ],
-    [ "gravConstAuDay", "_astrophysics_constants_8hpp.html#aa1ef016be75690e504d88b2750a02725", null ],
     [ "MassOfEarth", "_astrophysics_constants_8hpp.html#ace4a9d8c0b21215536857f4c1087a4e8", null ],
     [ "MassOfSun", "_astrophysics_constants_8hpp.html#a6e84ae13f1dbcecb215af787bbc12cd6", null ],
     [ "MassOfSunInEarthMass", "_astrophysics_constants_8hpp.html#a05709972a6a6089eb968f667ce0bf656", null ],

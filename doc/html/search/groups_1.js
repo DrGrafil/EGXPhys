@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['decay_20width',['Decay Width',['../group___decay_width.html',1,'']]]
+  ['bohr_20magneton',['Bohr magneton',['../group___bohr_magneton.html',1,'']]],
+  ['bohr_20radius',['Bohr radius',['../group___bohr_radius.html',1,'']]],
+  ['boltzmann_20constant',['Boltzmann constant',['../group___boltzmann_constant.html',1,'']]],
+  ['binding_20energy',['Binding Energy',['../group___nuclear_binding_energy.html',1,'']]]
 ];

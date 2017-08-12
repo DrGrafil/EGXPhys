@@ -1,9 +1,8 @@
-/// @file EGXPhys/Atomic/HalfLife.inl
+/// @file EGXPhys/Atomic/MassDefect.inl
 ///
-/// @brief Implimentation of half life calculations
+/// @brief Implimentation of mass defect calculations
 /// @author Elliot Grafil (Metex)
-/// @date 8/4/17
-/// @bug No known bugs.
+/// @date 8/12/17
 
 namespace EGXPhys{
 	

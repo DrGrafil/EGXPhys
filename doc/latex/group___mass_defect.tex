@@ -1,0 +1,58 @@
+\hypertarget{group___mass_defect}{}\section{Mass Defect}
+\label{group___mass_defect}\index{Mass Defect@{Mass Defect}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 \hyperlink{group___mass_defect_ga70400004a5cb622de372ab84670731ef}{E\+G\+X\+Phys\+::\+Mass\+Defect\+Inu} (const T \&atomic\+Number, const T \&mass\+Number, const T2 \&mass\+Atom\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the mass defect, $\Delta m$, of an atom in unified atomic mass units. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___mass_defect_gab51169bf871d0ea0ee0642fa300228fe}\label{group___mass_defect_gab51169bf871d0ea0ee0642fa300228fe}} 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 {\bfseries E\+G\+X\+Phys\+::\+Mass\+Defect\+In\+Me\+V\+Perc\+Squared} (const T \&atomic\+Number, const T \&mass\+Number, const T2 \&mass\+Atom\+In\+Me\+V\+Perc\+Squared)
+\item 
+\mbox{\Hypertarget{group___mass_defect_gad5378933021e13598a76bd8581b1e887}\label{group___mass_defect_gad5378933021e13598a76bd8581b1e887}} 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 {\bfseries E\+G\+X\+Phys\+::\+Mass\+Defect\+Inkg} (const T \&atomic\+Number, const T \&mass\+Number, const T2 \&mass\+Atom\+Inkg)
+\item 
+\mbox{\Hypertarget{group___mass_defect_ga08cff1dfa3259af8f1b67ec741796e91}\label{group___mass_defect_ga08cff1dfa3259af8f1b67ec741796e91}} 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 {\bfseries E\+G\+X\+Phys\+::\+Mass\+Defect\+In\+J\+Perc\+Squared} (const T \&atomic\+Number, const T \&mass\+Number, const T2 \&mass\+Atom\+In\+J\+Perc\+Squared)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calculates the mass defect, $\Delta m$, of a nucleus. 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___mass_defect_ga70400004a5cb622de372ab84670731ef}\label{group___mass_defect_ga70400004a5cb622de372ab84670731ef}} 
+\index{Mass Defect@{Mass Defect}!Mass\+Defect\+Inu@{Mass\+Defect\+Inu}}
+\index{Mass\+Defect\+Inu@{Mass\+Defect\+Inu}!Mass Defect@{Mass Defect}}
+\subsubsection{\texorpdfstring{Mass\+Defect\+Inu()}{MassDefectInu()}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+T2 E\+G\+X\+Phys\+::\+Mass\+Defect\+Inu (\begin{DoxyParamCaption}\item[{const T \&}]{atomic\+Number,  }\item[{const T \&}]{mass\+Number,  }\item[{const T2 \&}]{mass\+Atom\+Inu }\end{DoxyParamCaption})}
+
+
+
+Calculates the mass defect, $\Delta m$, of an atom in unified atomic mass units. 
+
+The mass defect is the diffrence in mass between a fully formed atom and its constituent parts. \[\Delta m = Z(m_p + m_e)+(A-Z)m_n - m({^A_ZX})\]
+
+See
+
+Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1987), p. 65
+
+
+\begin{DoxyParams}{Parameters}
+{\em atomic\+Number} & $Z\ (1)$ Atomic number. The number of protons in the nucleus of an atom. \\
+\hline
+{\em mass\+Number} & $A\ (1)$ Mass number. The number of protons and neutrons in the nucleus of an atom. \\
+\hline
+{\em mass\+Atom\+Inu} & $m({^A_ZX})\ (u)$ Mass of nucleus. The mass of the nucleus in unified atomic mass units. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\Delta m\ (u)$ Mass defect. The diffrence in mass between a fully formed atom and its constituent parts. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+Mass\+Defect\+Inkg() to calculate mass defect, $\Delta m$ in kilograms. 
+
+Binding\+Energy\+In\+Me\+V() to calculate the binding energy, $B$, of a nucleus in megaelectron volts. 
+
+Binding\+Energy\+In\+J() to calculate the binding energy, $B$, of a nucleus in joules. 
+\end{DoxySeeAlso}

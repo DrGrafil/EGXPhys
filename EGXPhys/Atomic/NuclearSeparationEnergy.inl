@@ -1,4 +1,4 @@
-/// @file EGXPhys/Atomic/HalfLife.inl
+/// @file EGXPhys/Atomic/NuclearSeparationEnergy.inl
 ///
 /// @brief Implimentation of half life calculations
 /// @author Elliot Grafil (Metex)
