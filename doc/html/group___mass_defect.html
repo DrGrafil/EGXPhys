@@ -88,7 +88,7 @@ $(document).ready(function(){initNavTree('group___mass_defect.html','');});
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Mass Defect<div class="ingroups"><a class="el" href="group___n_i_s_t_const.html">NIST Constants</a> &raquo; <a class="el" href="group___atomic.html">Atomic</a></div></div>  </div>
+<div class="title">Mass Defect<div class="ingroups"><a class="el" href="group___atomic.html">Atomic</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
@@ -112,7 +112,7 @@ template&lt;typename T , typename T2 &gt; </td></tr>
 <tr class="separator:ga08cff1dfa3259af8f1b67ec741796e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Calculates the mass defect, \(\Delta m\), of a nucleus. </p>
+<p>Calculates the mass defect, \(\Delta m\), of an atom. </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga70400004a5cb622de372ab84670731ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga70400004a5cb622de372ab84670731ef">&#9670;&nbsp;</a></span>MassDefectInu()</h2>
@@ -149,7 +149,7 @@ template&lt;typename T , typename T2 &gt; </div>
 </div><div class="memdoc">
 
 <p>Calculates the mass defect, \(\Delta m\), of an atom in unified atomic mass units. </p>
-<p>The mass defect is the diffrence in mass between a fully formed atom and its constituent parts. </p><p class="formulaDsp">
+<p>The mass defect is the diffrence in mass between a fully formed atom and its constituent parts(protons, neutrons and electrons). </p><p class="formulaDsp">
 \[\Delta m = Z(m_p + m_e)+(A-Z)m_n - m({^A_ZX})\]
 </p>
 <p>See</p>
@@ -163,7 +163,11 @@ template&lt;typename T , typename T2 &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\Delta m\ (u)\) Mass defect. The diffrence in mass between a fully formed atom and its constituent parts. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>MassDefectInkg() to calculate mass defect, \(\Delta m\) in kilograms. </dd>
+<dl class="section see"><dt>See also</dt><dd>MassDefectInMeVPercSquared() to calculate mass defect, \(\Delta m\) in megaelectron volts per c squared. </dd>
+<dd>
+MassDefectInkg() to calculate mass defect, \(\Delta m\) in kilograms. </dd>
+<dd>
+MassDefectInJPercSquared() to calculate mass defect, \(\Delta m\) in joules per c squared. </dd>
 <dd>
 BindingEnergyInMeV() to calculate the binding energy, \(B\), of a nucleus in megaelectron volts. </dd>
 <dd>

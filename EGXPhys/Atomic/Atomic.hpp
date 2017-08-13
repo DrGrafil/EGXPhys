@@ -22,3 +22,4 @@
 #include "MassDefect.hpp"
 #include "MeanLifetime.hpp"
 #include "RadioactiveDecay.hpp"
+#include "SemiEmpiricalMassFormula.hpp"

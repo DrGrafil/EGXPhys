@@ -9,3 +9,4 @@
 #include "HalfLifeTests.hpp"
 #include "MassDefectTests.hpp"
 #include "MeanLifetimeTests.hpp"
+#include "SemiEmpiricalMassFormulaTests.hpp"

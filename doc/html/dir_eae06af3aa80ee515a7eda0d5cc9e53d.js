@@ -9,6 +9,7 @@ var dir_eae06af3aa80ee515a7eda0d5cc9e53d =
     [ "HalfLife.hpp", "_half_life_8hpp.html", "_half_life_8hpp" ],
     [ "HalfLife.inl", "_half_life_8inl.html", "_half_life_8inl" ],
     [ "MassDefect.hpp", "_mass_defect_8hpp.html", "_mass_defect_8hpp" ],
+    [ "MassDefect.inl", "_mass_defect_8inl.html", "_mass_defect_8inl" ],
     [ "MassExcess.hpp", "_mass_excess_8hpp.html", null ],
     [ "MassExcess.inl", "_mass_excess_8inl.html", null ],
     [ "MeanLifetime.hpp", "_mean_lifetime_8hpp.html", "_mean_lifetime_8hpp" ],
@@ -17,6 +18,6 @@ var dir_eae06af3aa80ee515a7eda0d5cc9e53d =
     [ "NuclearSeparationEnergy.inl", "_nuclear_separation_energy_8inl.html", null ],
     [ "RadioactiveDecay.hpp", "_radioactive_decay_8hpp.html", null ],
     [ "RadioactiveDecay.inl", "_radioactive_decay_8inl.html", null ],
-    [ "SemiEmpiricalMassFormula.hpp", "_semi_empirical_mass_formula_8hpp.html", null ],
-    [ "SemiEmpiricalMassFormula.inl", "_semi_empirical_mass_formula_8inl.html", null ]
+    [ "SemiEmpiricalMassFormula.hpp", "_semi_empirical_mass_formula_8hpp.html", "_semi_empirical_mass_formula_8hpp" ],
+    [ "SemiEmpiricalMassFormula.inl", "_semi_empirical_mass_formula_8inl.html", "_semi_empirical_mass_formula_8inl" ]
 ];
