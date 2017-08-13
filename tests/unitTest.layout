@@ -4,11 +4,11 @@ CursorRow=1
 TopLine=1
 LeftChar=1
 [Editors]
-Order=1
+Order=1,9
 Focused=-1
 [Editor_1]
-CursorCol=98
-CursorRow=6
+CursorCol=25
+CursorRow=15
 TopLine=1
 LeftChar=1
 [Editor_2]
@@ -49,5 +49,10 @@ LeftChar=1
 [Editor_13]
 CursorCol=2
 CursorRow=12
+TopLine=1
+LeftChar=1
+[Editor_9]
+CursorCol=21
+CursorRow=11
 TopLine=1
 LeftChar=1

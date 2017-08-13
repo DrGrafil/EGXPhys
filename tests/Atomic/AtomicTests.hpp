@@ -8,5 +8,6 @@
 #include "DecayWidthTests.hpp"
 #include "HalfLifeTests.hpp"
 #include "MassDefectTests.hpp"
+#include "MassExcessTests.hpp"
 #include "MeanLifetimeTests.hpp"
 #include "SemiEmpiricalMassFormulaTests.hpp"

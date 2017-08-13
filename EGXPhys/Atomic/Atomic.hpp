@@ -20,6 +20,7 @@
 #include "DecayWidth.hpp"
 #include "HalfLife.hpp"
 #include "MassDefect.hpp"
+#include "MassExcess.hpp"
 #include "MeanLifetime.hpp"
 #include "RadioactiveDecay.hpp"
 #include "SemiEmpiricalMassFormula.hpp"

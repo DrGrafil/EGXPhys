@@ -3,7 +3,7 @@ var group___atomic =
     [ "Decay Width", "group___decay_width.html", "group___decay_width" ],
     [ "Half Life", "group___half_life.html", "group___half_life" ],
     [ "Mass Defect", "group___mass_defect.html", "group___mass_defect" ],
-    [ "Mass Excess", "group___mass_excess.html", null ],
+    [ "Mass Excess", "group___mass_excess.html", "group___mass_excess" ],
     [ "Binding Energy", "group___nuclear_binding_energy.html", null ],
     [ "Nuclear Separation Energy", "group___nuclear_separation_energy.html", null ],
     [ "Semi-Empirical Mass Formula", "group___semi_empirical_mass_formula.html", "group___semi_empirical_mass_formula" ],
