@@ -4,7 +4,7 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 7/28/17
-/// @bug No known bugs.
+
 
 /// @defgroup Atomic Atomic
 //=================================
@@ -16,7 +16,11 @@
 //=================================
 #include "AtomicConstants.hpp"
 
+#include "DecayConstant.hpp"
 #include "DecayWidth.hpp"
 #include "HalfLife.hpp"
+#include "MassDefect.hpp"
+#include "MassExcess.hpp"
 #include "MeanLifetime.hpp"
 #include "RadioactiveDecay.hpp"
+#include "SemiEmpiricalMassFormula.hpp"

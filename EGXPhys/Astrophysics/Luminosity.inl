@@ -3,14 +3,14 @@
 /// @brief Implimentation of luminosity calculations
 /// @author Elliot Grafil (Metex)
 /// @date 7/25/17
-/// @bug No known bugs.
+
 
 namespace EGXPhys{
 	
 	template<typename T>
     T blackbodyLuminosity(const T& area, const T& tempreture){
     	
-    	return sigma * area * pow(tempreture,4.0);
+    	return NISTConst::sigma * area * pow(tempreture,4.0);
 	}
     
     template<typename T>

@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['halflife',['HalfLife',['../group___atomic.html#ga21d268f154fb91c1c556bbfa7fe83ac1',1,'EGXPhys']]],
-  ['halflife_2ehpp',['HalfLife.hpp',['../_half_life_8hpp.html',1,'']]],
-  ['halflife_2einl',['HalfLife.inl',['../_half_life_8inl.html',1,'']]],
-  ['halflifeviadecaywidth',['HalfLifeViaDecayWidth',['../group___atomic.html#gaba3fda944d1a68ee1016a1f2f5809359',1,'EGXPhys']]],
-  ['halflifeviameanlifetime',['HalfLifeViaMeanLifetime',['../group___atomic.html#gacddef16b62e98b214ec8dd8af7da7dce',1,'EGXPhys']]]
+  ['geometricalbedoofearth',['GeometricAlbedoOfEarth',['../_astrophysics_constants_8hpp.html#aae01fb8ed365fc5de7acebeef34b7351',1,'EGXPhys']]],
+  ['gravitational_20constant',['Gravitational constant',['../group___n_i_s_t_const-_gravitational_constant.html',1,'']]],
+  ['gravity_20acceleration',['Gravity acceleration',['../group___n_i_s_t_const-_gravity_acceleration.html',1,'']]]
 ];

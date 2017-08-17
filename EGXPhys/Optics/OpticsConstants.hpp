@@ -3,7 +3,7 @@
 /// @brief Holds all constants related to the field of optics.
 /// @author Elliot Grafil (Metex)
 /// @date 7/28/17
-/// @bug No known bugs.
+
 
 //=================================
 // Header guard

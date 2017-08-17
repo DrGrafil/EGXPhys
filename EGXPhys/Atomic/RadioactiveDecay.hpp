@@ -4,7 +4,7 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 8/2/17
-/// @bug No known bugs.
+
 
 //=================================
 // Header guard
@@ -30,4 +30,4 @@ namespace EGXPhys
     /// @}
 } //namespace EGXPhys
 
-#include "CircumstellarHabitableZone.inl"
+#include "RadioactiveDecay.inl"

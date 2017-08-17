@@ -4,14 +4,15 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 7/25/17
-/// @bug No known bugs.
+
 
 //=================================
 // Header guard
 #pragma once
 //=================================
 // Included dependencies
-
+#define NISTCONST_COMMON_SYMBOLS_NAMES
+#include "NISTConst/NISTConst.hpp"
 //=================================
 // Forward declared dependencies
 
@@ -31,6 +32,7 @@ namespace EGXPhys
 	const double year = 365.25*day;	
 	const double secondsInYear = year;									// s
     // Universal Constants
+    /*
     const double speedLight = 299792458;                   				// m / s
 	const double c = speedLight;										// m / s
 	
@@ -44,7 +46,7 @@ namespace EGXPhys
 	const double hbar = redPlankConst;       							// J s
 	const double hbarIneVs = 6.582119514e-16;       							// eV s
 	
-
+*/
 	const double AU = 149597870700.0;									// m
 
 	//const double gravConstParsec = 6.6738480e-11; 
@@ -53,6 +55,7 @@ namespace EGXPhys
 	//atomic and nuclear constants
 	
 	//physico-chemical constants
+	/*
 	const double boltzmannConst = 1.3806488e-23;		   				// J / K
 	const double kb = boltzmannConst;	   								// J / K
 	
@@ -61,5 +64,6 @@ namespace EGXPhys
 	
 	const double wienDisplacement = 2.897772126e-3; 					// m K
 	const double b = wienDisplacement;									// m K
+	*/
 } //namespace EGXPhys
 

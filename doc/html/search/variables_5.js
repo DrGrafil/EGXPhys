@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['semimajoraxisofearth',['SemimajorAxisOfEarth',['../_astrophysics_constants_8hpp.html#ad1bdca5cec4a0f4a4b8a18ead61de6d9',1,'EGXPhys']]],
-  ['siderealrotationperiodofearth',['SiderealRotationPeriodOfEarth',['../_astrophysics_constants_8hpp.html#a34a388ac3f9196bb3cdbdbee5ff3cdb7',1,'EGXPhys']]],
-  ['solarmass',['SolarMass',['../_astrophysics_constants_8hpp.html#aa8636def23e66bc4ad32394a088b3950',1,'EGXPhys']]],
-  ['sunabsvmagnitude',['SunAbsVMagnitude',['../_astrophysics_constants_8hpp.html#a61266dc1aaacdd9a9bd0f2fa92aa21c9',1,'EGXPhys']]],
-  ['sunage',['SunAge',['../_astrophysics_constants_8hpp.html#a173216c099d7915fb16e6416902fcbb8',1,'EGXPhys']]],
-  ['sunluminocity',['SunLuminocity',['../_astrophysics_constants_8hpp.html#a3987543f6972eb72eb2c07d39520b43e',1,'EGXPhys']]],
-  ['suntempreture',['SunTempreture',['../_astrophysics_constants_8hpp.html#a97be71e7f8ca4f7813362bc1dca66db5',1,'EGXPhys']]]
+  ['faradayconstant',['FaradayConstant',['../group___n_i_s_t_const-_faraday_constant.html#ga3a2104c5d85a6e687d615ec8004aa4c5',1,'NISTConst']]],
+  ['faradayconstantforconventionalelectriccurrent',['FaradayConstantForConventionalElectricCurrent',['../group___n_i_s_t_const-_faraday_constant.html#ga06079db2ebfcb103460b80a977171ac0',1,'NISTConst']]],
+  ['fermicouplingconstant',['FermiCouplingConstant',['../group___n_i_s_t_const-_fermi_coupling_constant.html#ga0348e7c9835697c05fa7f68029bfb15a',1,'NISTConst']]],
+  ['finestructureconstant',['fineStructureConstant',['../group___n_i_s_t_const-_fine_structure_constant.html#ga0f1ddaca2627b7253ed177aa1b074724',1,'NISTConst']]],
+  ['firstradiationconstant',['firstRadiationConstant',['../group___n_i_s_t_const-_first_radiation_constant.html#ga59a54a84c539969a14695bd822b116cb',1,'NISTConst']]],
+  ['firstradiationconstantforspectralradiance',['firstRadiationConstantForSpectralRadiance',['../group___n_i_s_t_const-_first_radiation_constant.html#ga877c0bc2579b88ae515b80aeb58aa68e',1,'NISTConst']]]
 ];

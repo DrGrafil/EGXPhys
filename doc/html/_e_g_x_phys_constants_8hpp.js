@@ -1,27 +1,13 @@
 var _e_g_x_phys_constants_8hpp =
 [
+    [ "NISTCONST_COMMON_SYMBOLS_NAMES", "_e_g_x_phys_constants_8hpp.html#ab42ba0c0e1e16be114b35864944215ae", null ],
     [ "AU", "_e_g_x_phys_constants_8hpp.html#a999332303a2214425184fbe23dbae0c5", null ],
-    [ "b", "_e_g_x_phys_constants_8hpp.html#a32ebe141048af4d6e306fc5ec9422bd5", null ],
-    [ "boltzmannConst", "_e_g_x_phys_constants_8hpp.html#a83605eb04c664e39df511fe1c0603db2", null ],
-    [ "c", "_e_g_x_phys_constants_8hpp.html#aefe0cdf18e373592342761556f284327", null ],
     [ "day", "_e_g_x_phys_constants_8hpp.html#a24d985ae6f6cefe7e25ac40806b88f79", null ],
-    [ "gravConst", "_e_g_x_phys_constants_8hpp.html#ad0c4bfe8ccb6b131c349c8a4d25977dd", null ],
-    [ "GravitationalConstant", "_e_g_x_phys_constants_8hpp.html#acbed4939ce32ed600bbf34cf6afcd13e", null ],
-    [ "h", "_e_g_x_phys_constants_8hpp.html#afb3c699d92b0aefdda969d5e85a51d03", null ],
-    [ "hbar", "_e_g_x_phys_constants_8hpp.html#a63f3ecdbc4b800a4bcef293ce4af9802", null ],
-    [ "hbarIneVs", "_e_g_x_phys_constants_8hpp.html#a14ac4dd2ede3cf4cca253b36222d117a", null ],
     [ "hour", "_e_g_x_phys_constants_8hpp.html#a85c64ea70cddbb7e4c96adcc01cef6e2", null ],
-    [ "kb", "_e_g_x_phys_constants_8hpp.html#a2d70c099018e30a89f6934166e7e5147", null ],
     [ "minute", "_e_g_x_phys_constants_8hpp.html#ab3a72a63e9c502847d0db88a167dc02b", null ],
-    [ "plankConst", "_e_g_x_phys_constants_8hpp.html#a401652ddebbb003477850a7dc356991a", null ],
-    [ "redPlankConst", "_e_g_x_phys_constants_8hpp.html#af04cde09d40e452622cee41455ade394", null ],
     [ "secondsInDay", "_e_g_x_phys_constants_8hpp.html#ab4f86327f64403b843077ecc189ce52b", null ],
     [ "secondsInHour", "_e_g_x_phys_constants_8hpp.html#a9a6a4eb13636aa068a3f1e41cde4d6fd", null ],
     [ "secondsInMinute", "_e_g_x_phys_constants_8hpp.html#a65038e0b58235dc59a44cec16638df35", null ],
     [ "secondsInYear", "_e_g_x_phys_constants_8hpp.html#aac13efe8296819409bde4a0a8691d56a", null ],
-    [ "sigma", "_e_g_x_phys_constants_8hpp.html#a8c36134132c8c4ed757907db9c3231f7", null ],
-    [ "speedLight", "_e_g_x_phys_constants_8hpp.html#a8f364ff0eb4f4868624f056394364480", null ],
-    [ "stefanBoltzmannConst", "_e_g_x_phys_constants_8hpp.html#a15e57cd24bb78f5d3911cdaf84295dfc", null ],
-    [ "wienDisplacement", "_e_g_x_phys_constants_8hpp.html#ac9ed3bccfb17cf48bd193d42b6bd2b51", null ],
     [ "year", "_e_g_x_phys_constants_8hpp.html#afee9eebc1da4a1db2198fe0c45bcb53f", null ]
 ];

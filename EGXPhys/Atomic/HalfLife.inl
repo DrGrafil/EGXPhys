@@ -3,7 +3,7 @@
 /// @brief Implimentation of half life calculations
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
-/// @bug No known bugs.
+
 
 namespace EGXPhys{
 	
@@ -19,6 +19,6 @@ namespace EGXPhys{
 	
 	template<typename T>
 	T HalfLifeViaDecayWidth(const T& decayWidth){
-		return hbarIneVs * log(2.0) / decayWidth;
+		return NISTConst::hbarIneVs * log(2.0) / decayWidth;
 	}
 }//namespace EGXPhys
