@@ -1,15 +1,15 @@
 /// @file EGXPhys/Atomic/NuclearBindingEnergy.hpp
 ///
-/// @brief Calculates half life of a radioative substance
+/// @brief Calculates the nuclear binding energy of an atom.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
-/// @bug No known bugs.
+
 /// @todo Add reference to Decay Width.
 
 /// @defgroup NuclearBindingEnergy Binding Energy
 /// @ingroup Atomic
-/// Calculates the Half Life, \f$t_{\frac{1}{2}}\f$, of a radioactive substance.
+/// Calculates the nuclear binding energy, \f$BE\f$, of an atom.
 
 //=================================
 // Header guard
@@ -30,23 +30,41 @@ namespace EGXPhys
 	/// @{
 
     /** 
-	*   @brief Calculates the Half Life, \f$t_{\frac{1}{2}}\f$, of a radioactive substance via the decay constant, \f$\lambda\f$ . 
+	*   @brief Calculates the nuclear binding energy, \f$BE\f$, of an atom in mega electron volts. 
 	*
-	*	The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value.
-	*	\f[t_{\frac{1}{2}}=\frac{ln(2)}{\lambda}\f]
+	*	The nuclear binding energy is the diffrence in energy between a fully formed atom and its constituent parts(protons, neutrons and electrons).
+	*	\f[BE = \Delta m c^2\f]
+	*	\f[BE = \left (Z(m_p + m_e)+(A-Z)m_n - m({^A_ZX})  \right ) c^2\f]
 	*	
-	*	See https://en.wikipedia.org/wiki/Half-life and http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html, https://en.wikipedia.org/wiki/Radioactive_decay
+	*	It is often confused with the equation for mass defect, \f$\Delta m\f$. This is because nuclear physicist use natural units where \f$c = 1\f$ resulting in both equations looking the same. 
 	*
-	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 161
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 65
 	*
-	*   @param decayConstant \f$\lambda\f$(\f$\frac{1}{s}\f$) Decay constant. Fraction of radioactive substance that decays in 1 second.
-	*   @return \f$t_{\frac{1}{2}}\f$(\f$s\f$) Half life. Time required for the activity of a radioactive substance to decay to half of its initial value.
-	* 	@see DecayConstant() to calculate the decay constant, \f$\lambda\f$.
-	* 	@see HalfLifeViaMeanLifetime() to calculate half life using mean lifetime, \f$\tau\f$.
-	* 	@see HalfLifeViaDecayWidth() to calculate half life using decay width, \f$\Gamma\f$.
-	*/    
+	*   @param atomicNumber \f$Z\ (1)\f$ Atomic number. The number of protons in the nucleus of an atom.
+	*   @param massNumber \f$A\ (1)\f$ Mass number. The number of protons and neutrons in the nucleus of an atom.
+	*   @param massAtomInu \f$m({^A_ZX})\ (u)\f$ Mass of nucleus. The mass of the nucleus in unified atomic mass units.
+	*   @return \f$BE\ (MeV)\f$ Binding energy. The diffrence in energy between a fully formed atom and its constituent parts.
+	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$ in megaelectron volts per c squared.
+	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$ in kilograms.
+	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$ in joules per c squared.
+	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
+	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
+	*/
+	template<typename T, typename T2>
+    T2 NuclearBindingEnergy(const T& atomicNumber, const T& massNumber, const T2& massAtomInu)	
+	    
+	    
     template<typename T, typename T2>
-    T2 BindingEnergyInu(const T& atomicNumber, const T& massNumber, const T2& massAtom)	
+    T2 NuclearBindingEnergyInu(const T& atomicNumber, const T& massNumber, const T2& massAtomInu);	
+   
+	template<typename T, typename T2>
+    T2 NuclearBindingEnergyInMeVPercSquared(const T& atomicNumber, const T& massNumber, const T2& massAtomInMeVPercSquared);
+    
+	template<typename T, typename T2>
+    T2 NuclearBindingEnergyInkg(const T& atomicNumber, const T& massNumber, const T2& massAtomInkg);
+
+    template<typename T, typename T2>
+    T2 NuclearBindingEnergyInJPercSquared(const T& atomicNumber, const T& massNumber, const T2& massAtomInJPercSquared);
    
 
     /// @}

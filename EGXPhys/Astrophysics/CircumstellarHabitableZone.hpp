@@ -4,7 +4,7 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 8/2/17
-/// @bug No known bugs.
+
 /// @todo Add more models for Seff. https://en.wikipedia.org/wiki/Circumstellar_habitable_zone lists way more models
 
 //=================================

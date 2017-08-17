@@ -3,7 +3,7 @@
 /// @brief Implimentation of Circumstellar Habitable Zone calculations
 /// @author Elliot Grafil (Metex)
 /// @date 8/2/17
-/// @bug No known bugs.
+
 
 namespace EGXPhys{
 	

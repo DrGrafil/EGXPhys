@@ -3,7 +3,7 @@
 /// @brief Constants pertaining to astrophysics.
 /// @author Elliot Grafil (Metex)
 /// @date 7/28/17
-/// @bug No known bugs.
+
 
 //=================================
 // Header guard

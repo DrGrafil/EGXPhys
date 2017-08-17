@@ -4,7 +4,7 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
-/// @bug No known bugs.
+
 /// @todo Add reference to Decay Width.
 
 /// @defgroup SemiEmpiricalMassFormula Semi-Empirical Mass Formula
@@ -30,10 +30,10 @@ namespace EGXPhys
 	/// @{
 
 	/** 
-	*   @brief Calculates the binding energy, \f$B_{SEMF}\f$, used in the semi-emperical mass formula for determining the mass of a nucleus using Krane's method. 
+	*   @brief Calculates the binding energy, \f$BE_{SEMF}\f$, used in the semi-emperical mass formula for determining the mass of a nucleus using Krane's method. 
 	*
 	*	The semi-emperical binding energy calculates the binding energy   formula.
-	*	\f[B_{SEMF} = a_V A - a_S A^{2/3}-a_C Z(Z-1)A^{-1/3}-a_{sym}\frac{(A-2Z)^2}{A}+\delta(Z,A)\f]
+	*	\f[BE_{SEMF} = a_V A - a_S A^{2/3}-a_C Z(Z-1)A^{-1/3}-a_{sym}\frac{(A-2Z)^2}{A}+\delta(Z,A)\f]
 	*	
 	*	Where \f$\delta(Z,A)\f$:
 	*	\f[\delta(Z,A)=\begin{cases}

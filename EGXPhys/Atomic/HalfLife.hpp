@@ -4,7 +4,7 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
-/// @bug No known bugs.
+
 /// @todo Add reference to Decay Width.
 
 /// @defgroup HalfLife Half Life

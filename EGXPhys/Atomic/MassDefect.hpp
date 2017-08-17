@@ -47,6 +47,9 @@ namespace EGXPhys
 	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
 	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
 	*/    
+	template<typename T, typename T2>
+    T2 MassDefect(const T& atomicNumber, const T& massNumber, const T2& massAtomInu);	
+	
     template<typename T, typename T2>
     T2 MassDefectInu(const T& atomicNumber, const T& massNumber, const T2& massAtomInu);	
    

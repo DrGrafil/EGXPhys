@@ -4,7 +4,7 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
-/// @bug No known bugs.
+
 
 /// @defgroup DecayWidth Decay Width
 /// @ingroup Atomic

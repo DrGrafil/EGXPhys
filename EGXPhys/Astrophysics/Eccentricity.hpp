@@ -4,7 +4,7 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 7/29/17
-/// @bug No known bugs.
+
 
 //=================================
 // Header guard

@@ -5,10 +5,10 @@ TopLine=1
 LeftChar=1
 [Editors]
 Order=1,9
-Focused=-1
+Focused=9
 [Editor_1]
-CursorCol=25
-CursorRow=15
+CursorCol=27
+CursorRow=1
 TopLine=1
 LeftChar=1
 [Editor_2]

@@ -3,7 +3,7 @@
 /// @brief Implimentation of mean lifetime calculations
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
-/// @bug No known bugs.
+
 
 namespace EGXPhys{
 	
