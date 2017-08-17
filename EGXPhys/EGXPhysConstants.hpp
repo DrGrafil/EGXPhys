@@ -23,47 +23,15 @@
 namespace EGXPhys
 {
 // Time
-	const double minute = 60;											// s
-	const double secondsInMinute = minute;
-	const double hour = 60*minute;										// s
-	const double secondsInHour = hour;
-	const double day = 24*hour;											// s
-	const double secondsInDay = day;
-	const double year = 365.25*day;	
-	const double secondsInYear = year;									// s
+	const double minute = 60;											/**< \f$t_{min}\ (s)\f$ Seconds in a minute in seconds.*/
+	const double secondsInMinute = minute;								/**< \f$t_{min}\ (s)\f$ Seconds in a minute in seconds.*/
+	const double hour = 60*minute;										/**< \f$t_{h}\ (s)\f$ Seconds in an hour in seconds.*/
+	const double secondsInHour = hour;									/**< \f$t_{h}\ (s)\f$ Seconds in an hour in seconds.*/
+	const double day = 24*hour;											/**< \f$t_{day}\ (s)\f$ Seconds in a day in seconds.*/
+	const double secondsInDay = day;									/**< \f$t_{day}\ (s)\f$ Seconds in a day in seconds.*/
+	const double year = 365.25*day;										/**< \f$t_{year}\ (s)\f$ Seconds in a year in seconds.*/
+	const double secondsInYear = year;									/**< \f$t_{year}\ (s)\f$ Seconds in a year in seconds.*/
     // Universal Constants
-    /*
-    const double speedLight = 299792458;                   				// m / s
-	const double c = speedLight;										// m / s
-	
-	const double GravitationalConstant = 6.6738480e-11;    
-	const double gravConst = 6.6738480e-11;                				// m^3 /(kg s^2)
-	
-	const double plankConst = 6.62606957e-34;          					// J s
-	const double h = plankConst;          								// J s
-	
-	const double redPlankConst = 1.054571726;							// J s
-	const double hbar = redPlankConst;       							// J s
-	const double hbarIneVs = 6.582119514e-16;       							// eV s
-	
-*/
-	const double AU = 149597870700.0;									// m
-
-	//const double gravConstParsec = 6.6738480e-11; 
-	//electromagnetic constants
-	
-	//atomic and nuclear constants
-	
-	//physico-chemical constants
-	/*
-	const double boltzmannConst = 1.3806488e-23;		   				// J / K
-	const double kb = boltzmannConst;	   								// J / K
-	
-	const double stefanBoltzmannConst = 5.67037321e-8; 					// W / (m^2 K^4)
-	const double sigma = stefanBoltzmannConst; 							// W / (m^2 K^4)
-	
-	const double wienDisplacement = 2.897772126e-3; 					// m K
-	const double b = wienDisplacement;									// m K
-	*/
+	const double AU = 149597870700.0;									/**< \f$au\ (au)\f$ Astronomical units in meters.*/
 } //namespace EGXPhys
 

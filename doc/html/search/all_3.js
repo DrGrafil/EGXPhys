@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['day',['day',['../namespace_e_g_x_phys.html#a24d985ae6f6cefe7e25ac40806b88f79',1,'EGXPhys']]],
   ['decayconstant',['DecayConstant',['../group___atomic.html#ga904edce5aad441b4a0873b3b1a83c7f2',1,'EGXPhys']]],
   ['decayconstant_2ehpp',['DecayConstant.hpp',['../_decay_constant_8hpp.html',1,'']]],
   ['decayconstant_2einl',['DecayConstant.inl',['../_decay_constant_8inl.html',1,'']]],
