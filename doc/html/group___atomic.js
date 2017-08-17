@@ -4,7 +4,7 @@ var group___atomic =
     [ "Half Life", "group___half_life.html", "group___half_life" ],
     [ "Mass Defect", "group___mass_defect.html", "group___mass_defect" ],
     [ "Mass Excess", "group___mass_excess.html", "group___mass_excess" ],
-    [ "Binding Energy", "group___nuclear_binding_energy.html", null ],
+    [ "Binding Energy", "group___nuclear_binding_energy.html", "group___nuclear_binding_energy" ],
     [ "Nuclear Separation Energy", "group___nuclear_separation_energy.html", null ],
     [ "Semi-Empirical Mass Formula", "group___semi_empirical_mass_formula.html", "group___semi_empirical_mass_formula" ],
     [ "DecayConstant", "group___atomic.html#ga904edce5aad441b4a0873b3b1a83c7f2", null ],

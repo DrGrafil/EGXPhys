@@ -2,9 +2,9 @@ var searchData=
 [
   ['magneticconstant',['magneticConstant',['../group___n_i_s_t_const-_magnetic_constant.html#ga511860d1f2830ae6a85e1b1df8522071',1,'NISTConst']]],
   ['magneticfluxquantum',['magneticFluxQuantum',['../group___n_i_s_t_const-_magnetic_flux_quantum.html#ga2ed9e5fb19a6f2cc0c25ad945ea6b562',1,'NISTConst']]],
-  ['massofearth',['MassOfEarth',['../_astrophysics_constants_8hpp.html#ace4a9d8c0b21215536857f4c1087a4e8',1,'EGXPhys']]],
-  ['massofsun',['MassOfSun',['../_astrophysics_constants_8hpp.html#a6e84ae13f1dbcecb215af787bbc12cd6',1,'EGXPhys']]],
-  ['massofsuninearthmass',['MassOfSunInEarthMass',['../_astrophysics_constants_8hpp.html#a05709972a6a6089eb968f667ce0bf656',1,'EGXPhys']]],
+  ['massofearth',['MassOfEarth',['../namespace_e_g_x_phys.html#ace4a9d8c0b21215536857f4c1087a4e8',1,'EGXPhys']]],
+  ['massofsun',['MassOfSun',['../namespace_e_g_x_phys.html#a6e84ae13f1dbcecb215af787bbc12cd6',1,'EGXPhys']]],
+  ['massofsuninearthmass',['MassOfSunInEarthMass',['../namespace_e_g_x_phys.html#a05709972a6a6089eb968f667ce0bf656',1,'EGXPhys']]],
   ['molargasconstant',['molarGasConstant',['../group___n_i_s_t_const-_molar_gas_constant.html#ga923e5cda42e8fec4a70640b82051d309',1,'NISTConst']]],
   ['molarmassconstant',['molarMassConstant',['../group___n_i_s_t_const-_molar_mass_constant.html#ga83c1719df0cda1b4eae15de014b8f857',1,'NISTConst']]],
   ['molarmassofcarbon12',['molarMassOfCarbon12',['../group___n_i_s_t_const-_molar_mass_constant.html#gab1aae3b38f21cb9a15fdc8209d3cf1f0',1,'NISTConst']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['massdefectinu',['MassDefectInu',['../group___mass_defect.html#ga70400004a5cb622de372ab84670731ef',1,'EGXPhys']]],
+  ['massdefect',['MassDefect',['../group___mass_defect.html#gae89f2dfa65992c0314adc2440b2f582a',1,'EGXPhys']]],
   ['massexcessinjpercsquared',['MassExcessInJPercSquared',['../group___mass_excess.html#ga3eb487f438543e950b9c5aece4c5b409',1,'EGXPhys']]],
   ['massexcessinkg',['MassExcessInkg',['../group___mass_excess.html#gab72a3640886092be8b9c9662020a2306',1,'EGXPhys']]],
   ['massexcessinmevpercsquared',['MassExcessInMeVPercSquared',['../group___mass_excess.html#ga99a93b88df3425b7a153c32c05fa5a88',1,'EGXPhys']]],
