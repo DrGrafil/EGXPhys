@@ -4,7 +4,11 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 7/29/17
-/// @bug No known bugs.
+
+
+/// @defgroup Apoapsis Apoapsis
+/// @ingroup Astrophysics
+/// Calculates apoapsis of an orbiting body.
 
 //=================================
 // Header guard
@@ -24,7 +28,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup Astrophysics
+	/// @addtogroup Apoapsis
 	/// @{
 	
 	/** 

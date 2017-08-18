@@ -3,7 +3,7 @@
 /// @brief Implimentation of Orbital Charecteristics calculations
 /// @author Elliot Grafil (Metex)
 /// @date 7/25/17
-/// @bug No known bugs.
+
 
 namespace EGXPhys{
 	/*

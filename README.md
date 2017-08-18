@@ -2,13 +2,7 @@
 ## About
 EGXPhys is a header only C++ physics equation library for writing scientific programs and doing quick calculations.
 
-It is a  
-Basic physics library including atomic and astrophysics
-
-
-1. 
-
-Currenlty it is planed to focus on the following fields:
+EGXPhys focuses on the following fields in physics:
 * Acoustics
 * Astrophysics
 * Atomic
@@ -22,7 +16,7 @@ Currenlty it is planed to focus on the following fields:
 
 
 
-For vectors and matrixs the data are stored in the row-major C convention as seen in 
+For vectors and matrixs the data are stored in the row-major C convention as used in both [ROOT](https://root.cern.ch/) and [GLM](https://github.com/g-truc/glm). 
 
 
 ## Current Development
@@ -41,3 +35,6 @@ Thermodynamics | |
 
 # Latest Release
 ---
+
+
+[GLM]

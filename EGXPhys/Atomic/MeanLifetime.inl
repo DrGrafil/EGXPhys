@@ -3,7 +3,7 @@
 /// @brief Implimentation of mean lifetime calculations
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
-/// @bug No known bugs.
+
 
 namespace EGXPhys{
 	
@@ -19,6 +19,6 @@ namespace EGXPhys{
 	
 	template<typename T>
 	T MeanLifetimeViaDecayWidth(const T& decayWidth){
-		return hbarIneVs/decayWidth;
+		return NISTConst::hbarIneVs/decayWidth;
 	}  
 }//namespace EGXPhys

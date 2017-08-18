@@ -3,7 +3,7 @@
 /// @brief Implimentation of Decay Width calculations
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
-/// @bug No known bugs.
+
 
 namespace EGXPhys{
 	
@@ -14,16 +14,16 @@ namespace EGXPhys{
 
 	template<typename T>
 	T DecayWidthViaDecayConstant(const T& decayConstant){
-		return hbarIneVs * decayConstant;
+		return NISTConst::hbarIneVs * decayConstant;
 	}
 	
 	template<typename T>
 	T DecayWidthViaHalfLife(const T& halfLife){
-		return hbarIneVs * log(2) / halfLife;
+		return NISTConst::hbarIneVs * log(2) / halfLife;
 	}
 	
 	template<typename T>
 	T DecayWidthViaMeanLifetime(const T& meanLifetime){
-		return hbarIneVs / meanLifetime;
+		return NISTConst::hbarIneVs / meanLifetime;
 	}    
 }//namespace EGXPhys
