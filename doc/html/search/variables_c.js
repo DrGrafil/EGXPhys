@@ -7,7 +7,10 @@ var searchData=
   ['massofsuninearthmass',['MassOfSunInEarthMass',['../namespace_e_g_x_phys.html#a05709972a6a6089eb968f667ce0bf656',1,'EGXPhys']]],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   ['minute',['minute',['../namespace_e_g_x_phys.html#ab3a72a63e9c502847d0db88a167dc02b',1,'EGXPhys']]],
+=======
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======

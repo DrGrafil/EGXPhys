@@ -17,6 +17,9 @@ var indexSectionsWithContent =
   5: "abcdefghijklmnopqrstuvwx",
   6: "bt"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
+=======
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f

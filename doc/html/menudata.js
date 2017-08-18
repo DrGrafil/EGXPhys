@@ -21,8 +21,12 @@ var menudata={children:[
 {text:"s",url:"namespacemembers.html#index_s"},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 {text:"v",url:"namespacemembers.html#index_v"},
 {text:"y",url:"namespacemembers.html#index_y"}]},
+=======
+{text:"v",url:"namespacemembers.html#index_v"}]},
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======
 {text:"v",url:"namespacemembers.html#index_v"}]},
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f

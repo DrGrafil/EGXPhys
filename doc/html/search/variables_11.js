@@ -5,10 +5,13 @@ var searchData=
   ['secondradiationconstant',['secondRadiationConstant',['../group___n_i_s_t_const-_second_radiation_constant.html#ga40dfad662ee17ea208d271fa0977e69c',1,'NISTConst']]],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   ['secondsinday',['secondsInDay',['../namespace_e_g_x_phys.html#ab4f86327f64403b843077ecc189ce52b',1,'EGXPhys']]],
   ['secondsinhour',['secondsInHour',['../namespace_e_g_x_phys.html#a9a6a4eb13636aa068a3f1e41cde4d6fd',1,'EGXPhys']]],
   ['secondsinminute',['secondsInMinute',['../namespace_e_g_x_phys.html#a65038e0b58235dc59a44cec16638df35',1,'EGXPhys']]],
   ['secondsinyear',['secondsInYear',['../namespace_e_g_x_phys.html#aac13efe8296819409bde4a0a8691d56a',1,'EGXPhys']]],
+=======
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======

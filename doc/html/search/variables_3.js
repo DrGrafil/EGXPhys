@@ -2,7 +2,10 @@ var searchData=
 [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   ['day',['day',['../namespace_e_g_x_phys.html#a24d985ae6f6cefe7e25ac40806b88f79',1,'EGXPhys']]],
+=======
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======

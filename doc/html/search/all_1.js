@@ -14,7 +14,10 @@ var searchData=
   ['bondalbedoofearth',['BondAlbedoOfEarth',['../namespace_e_g_x_phys.html#a932fff28fce4321fdbf9abc5c1783dc9',1,'EGXPhys']]],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
   ['bug_20list',['Bug List',['../bug.html',1,'']]],
