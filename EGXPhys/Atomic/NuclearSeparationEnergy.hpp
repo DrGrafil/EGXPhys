@@ -4,6 +4,7 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 8/17/17
+/// @todo: Add better see links.
 
 /// @defgroup NuclearSeparationEnergy Separation Energy
 /// @ingroup Atomic
