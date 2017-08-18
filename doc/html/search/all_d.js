@@ -32,6 +32,7 @@ var searchData=
   ['neutronprotonmassdifferenceinmevpercsquared',['neutronProtonMassDifferenceInMeVPercSquared',['../group___n_i_s_t_const-_neutron.html#gae96854e1fcd14f08cc92a060c6690730',1,'NISTConst']]],
   ['neutronprotonmassdifferenceinu',['neutronProtonMassDifferenceInu',['../group___n_i_s_t_const-_neutron.html#ga570caff89957976a8486d25e5288df51',1,'NISTConst']]],
   ['neutronprotonmassratio',['neutronProtonMassRatio',['../group___n_i_s_t_const-_neutron.html#gad8a08222b3de2105b5b399faa5a59fbd',1,'NISTConst']]],
+  ['neutronseparationenergyinj',['neutronSeparationEnergyInJ',['../group___nuclear_separation_energy.html#ga2a5d74c0ab6645fa7860541e826897b6',1,'EGXPhys']]],
   ['neutrontaumassratio',['neutronTauMassRatio',['../group___n_i_s_t_const-_neutron.html#ga9c3ba7b26cbcc0b2f7f7fa551812683a',1,'NISTConst']]],
   ['neutrontoshieldedprotonmagneticmomentratio',['neutronToShieldedProtonMagneticMomentRatio',['../group___n_i_s_t_const-_neutron.html#ga7446ad6eb4c1e0b8167d1a1ff5c4cd89',1,'NISTConst']]],
   ['newtonianconstantofgravitation',['NewtonianConstantOfGravitation',['../group___n_i_s_t_const-_gravitational_constant.html#gaba6371307f4cebde50b3c61a07c724c5',1,'NISTConst']]],

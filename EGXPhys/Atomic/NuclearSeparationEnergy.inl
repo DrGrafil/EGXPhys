@@ -1,8 +1,8 @@
 /// @file EGXPhys/Atomic/NuclearSeparationEnergy.inl
 ///
-/// @brief Implimentation of half life calculations
+/// @brief Implimentation of nuclear separation energy calculations
 /// @author Elliot Grafil (Metex)
-/// @date 8/4/17
+/// @date 8/17/17
 
 
 namespace EGXPhys{

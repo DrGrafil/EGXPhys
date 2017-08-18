@@ -12,6 +12,10 @@ var searchData=
   ['boltzmannconstantinhzperk',['BoltzmannConstantInHzPerK',['../group___n_i_s_t_const-_boltzmann_constant.html#ga5c59003e6fbd70482ee1bdaf7ea35b7a',1,'NISTConst']]],
   ['boltzmannconstantininversemk',['BoltzmannConstantInInversemK',['../group___n_i_s_t_const-_boltzmann_constant.html#ga4f4d8adf824657420f54680daa6340d5',1,'NISTConst']]],
   ['bondalbedoofearth',['BondAlbedoOfEarth',['../namespace_e_g_x_phys.html#a932fff28fce4321fdbf9abc5c1783dc9',1,'EGXPhys']]],
+<<<<<<< HEAD
+=======
+  ['bug_20list',['Bug List',['../bug.html',1,'']]],
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
   ['bohr_20magneton',['Bohr magneton',['../group___n_i_s_t_const-_bohr_magneton.html',1,'']]],
   ['bohr_20radius',['Bohr radius',['../group___n_i_s_t_const-_bohr_radius.html',1,'']]],
   ['boltzmann_20constant',['Boltzmann constant',['../group___n_i_s_t_const-_boltzmann_constant.html',1,'']]],

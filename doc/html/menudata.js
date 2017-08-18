@@ -19,8 +19,12 @@ var menudata={children:[
 {text:"p",url:"namespacemembers.html#index_p"},
 {text:"r",url:"namespacemembers.html#index_r"},
 {text:"s",url:"namespacemembers.html#index_s"},
+<<<<<<< HEAD
 {text:"v",url:"namespacemembers.html#index_v"},
 {text:"y",url:"namespacemembers.html#index_y"}]},
+=======
+{text:"v",url:"namespacemembers.html#index_v"}]},
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 {text:"Functions",url:"namespacemembers_func.html",children:[
 {text:"a",url:"namespacemembers_func.html#index_a"},
 {text:"b",url:"namespacemembers_func.html#index_b"},
