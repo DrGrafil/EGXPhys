@@ -1,3 +1,69 @@
 \hypertarget{group___nuclear_binding_energy}{}\section{Binding Energy}
 \label{group___nuclear_binding_energy}\index{Binding Energy@{Binding Energy}}
-Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance. 
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 \hyperlink{group___nuclear_binding_energy_gafea41a3c21704414394c3204b35aba98}{E\+G\+X\+Phys\+::\+Nuclear\+Binding\+Energy} (const T \&atomic\+Number, const T \&mass\+Number, const T2 \&mass\+Atom\+Inu) template$<$ typename T
+\begin{DoxyCompactList}\small\item\em Calculates the nuclear binding energy, $BE$, of an atom in mega electron volts. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___nuclear_binding_energy_ga2e543916c55b602e8f2b4f096c901368}\label{group___nuclear_binding_energy_ga2e543916c55b602e8f2b4f096c901368}} 
+T2 T2 T2 {\bfseries E\+G\+X\+Phys\+::\+Nuclear\+Binding\+Energy\+Inu} (const T \&atomic\+Number, const T \&mass\+Number, const T2 \&mass\+Atom\+Inu)
+\item 
+\mbox{\Hypertarget{group___nuclear_binding_energy_ga4e253bc5cf89cd4bcf668d7e885150b7}\label{group___nuclear_binding_energy_ga4e253bc5cf89cd4bcf668d7e885150b7}} 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 {\bfseries E\+G\+X\+Phys\+::\+Nuclear\+Binding\+Energy\+In\+Me\+V\+Perc\+Squared} (const T \&atomic\+Number, const T \&mass\+Number, const T2 \&mass\+Atom\+In\+Me\+V\+Perc\+Squared)
+\item 
+\mbox{\Hypertarget{group___nuclear_binding_energy_ga5d6e7b3326ed2b375f30f8fd3111bef0}\label{group___nuclear_binding_energy_ga5d6e7b3326ed2b375f30f8fd3111bef0}} 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 {\bfseries E\+G\+X\+Phys\+::\+Nuclear\+Binding\+Energy\+Inkg} (const T \&atomic\+Number, const T \&mass\+Number, const T2 \&mass\+Atom\+Inkg)
+\item 
+\mbox{\Hypertarget{group___nuclear_binding_energy_gad3981a92c72ad0361531a716574f6931}\label{group___nuclear_binding_energy_gad3981a92c72ad0361531a716574f6931}} 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 {\bfseries E\+G\+X\+Phys\+::\+Nuclear\+Binding\+Energy\+In\+J\+Perc\+Squared} (const T \&atomic\+Number, const T \&mass\+Number, const T2 \&mass\+Atom\+In\+J\+Perc\+Squared)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000004}{Todo}]Add reference to Decay Width. \end{DoxyRefDesc}
+
+
+Calculates the nuclear binding energy, $BE$, of an atom. 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___nuclear_binding_energy_gafea41a3c21704414394c3204b35aba98}\label{group___nuclear_binding_energy_gafea41a3c21704414394c3204b35aba98}} 
+\index{Binding Energy@{Binding Energy}!Nuclear\+Binding\+Energy@{Nuclear\+Binding\+Energy}}
+\index{Nuclear\+Binding\+Energy@{Nuclear\+Binding\+Energy}!Binding Energy@{Binding Energy}}
+\subsubsection{\texorpdfstring{Nuclear\+Binding\+Energy()}{NuclearBindingEnergy()}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+T2 E\+G\+X\+Phys\+::\+Nuclear\+Binding\+Energy (\begin{DoxyParamCaption}\item[{const T \&}]{atomic\+Number,  }\item[{const T \&}]{mass\+Number,  }\item[{const T2 \&}]{mass\+Atom\+Inu }\end{DoxyParamCaption})}
+
+
+
+Calculates the nuclear binding energy, $BE$, of an atom in mega electron volts. 
+
+The nuclear binding energy is the diffrence in energy between a fully formed atom and its constituent parts(protons, neutrons and electrons). \[BE = \Delta m c^2\] \[BE = \left (Z(m_p + m_e)+(A-Z)m_n - m({^A_ZX}) \right ) c^2\]
+
+It is often confused with the equation for mass defect, $\Delta m$. This is because nuclear physicist use natural units where $c = 1$ resulting in both equations looking the same.
+
+Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1987), p. 65
+
+
+\begin{DoxyParams}{Parameters}
+{\em atomic\+Number} & $Z\ (1)$ Atomic number. The number of protons in the nucleus of an atom. \\
+\hline
+{\em mass\+Number} & $A\ (1)$ Mass number. The number of protons and neutrons in the nucleus of an atom. \\
+\hline
+{\em mass\+Atom\+Inu} & $m({^A_ZX})\ (u)$ Mass of nucleus. The mass of the nucleus in unified atomic mass units. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$BE\ (MeV)$ Binding energy. The diffrence in energy between a fully formed atom and its constituent parts. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+Mass\+Defect\+In\+Me\+V\+Perc\+Squared() to calculate mass defect, $\Delta m$ in megaelectron volts per c squared. 
+
+Mass\+Defect\+Inkg() to calculate mass defect, $\Delta m$ in kilograms. 
+
+Mass\+Defect\+In\+J\+Perc\+Squared() to calculate mass defect, $\Delta m$ in joules per c squared. 
+
+Binding\+Energy\+In\+Me\+V() to calculate the binding energy, $B$, of a nucleus in megaelectron volts. 
+
+Binding\+Energy\+In\+J() to calculate the binding energy, $B$, of a nucleus in joules. 
+\end{DoxySeeAlso}

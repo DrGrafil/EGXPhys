@@ -12,7 +12,7 @@ var searchData=
   ['decaywidthviadecayconstant',['DecayWidthViaDecayConstant',['../group___decay_width.html#ga143a666966efecc535a59bb4f36a79c6',1,'EGXPhys']]],
   ['decaywidthviahalflife',['DecayWidthViaHalfLife',['../group___decay_width.html#ga1113224b24790a2e34032f9e90ad55c6',1,'EGXPhys']]],
   ['decaywidthviameanlifetime',['DecayWidthViaMeanLifetime',['../group___decay_width.html#ga0b65d991f3f3d72cf09a4a7b343a01ca',1,'EGXPhys']]],
-  ['densityofearth',['DensityOfEarth',['../_astrophysics_constants_8hpp.html#a2a671e37351b9b7e334385a26a7f7102',1,'EGXPhys']]],
+  ['densityofearth',['DensityOfEarth',['../namespace_e_g_x_phys.html#a2a671e37351b9b7e334385a26a7f7102',1,'EGXPhys']]],
   ['deuteronelectronmagneticmomentratio',['deuteronElectronMagneticMomentRatio',['../group___n_i_s_t_const-_deuteron.html#gaa01fffefa3ab64430fabf08808572689',1,'NISTConst']]],
   ['deuteronelectronmassratio',['deuteronElectronMassRatio',['../group___n_i_s_t_const-_deuteron.html#gaf25b1cce3ab8e1ec7f4f7790ea06ad0b',1,'NISTConst']]],
   ['deuterongfactor',['deuterongFactor',['../group___n_i_s_t_const-_deuteron.html#ga975b6e46b7ceaa0780c4b066a52444b7',1,'NISTConst']]],

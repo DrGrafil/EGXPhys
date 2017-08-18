@@ -90,6 +90,10 @@
 \setcounter{secnumdepth}{5}
 \makeindex
 
+% Packages requested by user
+\usepackage{mhchem}
+\usepackage{amsmath}
+
 % Hyperlinks (required, but should be loaded last)
 \usepackage{ifpdf}
 \ifpdf
@@ -148,6 +152,8 @@
 \input{bug}
 \chapter{Module Index}
 \input{modules}
+\chapter{Namespace Index}
+\input{namespaces}
 \chapter{File Index}
 \input{files}
 \chapter{Module Documentation}
@@ -248,6 +254,8 @@
 \include{group___quantum}
 \include{group___relativity}
 \include{group___thermodynamics}
+\chapter{Namespace Documentation}
+\input{namespace_e_g_x_phys}
 \chapter{File Documentation}
 \input{_acoustics_8hpp}
 \input{_acoustics_constants_8hpp}

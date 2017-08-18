@@ -1,4 +1,4 @@
 var group___mass_defect =
 [
-    [ "MassDefectInu", "group___mass_defect.html#ga70400004a5cb622de372ab84670731ef", null ]
+    [ "MassDefect", "group___mass_defect.html#gae89f2dfa65992c0314adc2440b2f582a", null ]
 ];
