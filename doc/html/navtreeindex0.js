@@ -1,6 +1,7 @@
 var NAVTREEINDEX0 =
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 "_acoustics_8hpp.html":[3,0,0,0,0],
 "_acoustics_8hpp_source.html":[3,0,0,0,0],
 "_acoustics_constants_8hpp.html":[3,0,0,0,1],
@@ -252,6 +253,8 @@ var NAVTREEINDEX0 =
 "_n_i_s_t_const_8hpp.html#ga344399a1ac3bc2f57614ccdca4f4f1c1":[3,0,0,4,0,192],
 "_n_i_s_t_const_8hpp.html#ga349fed5e91e8d7f8d71ba45405da64e7":[3,0,0,4,0,277]
 =======
+=======
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 "_acoustics_8hpp.html":[4,0,0,0,0],
 "_acoustics_8hpp_source.html":[4,0,0,0,0],
 "_acoustics_constants_8hpp.html":[4,0,0,0,1],
@@ -502,5 +505,8 @@ var NAVTREEINDEX0 =
 "_n_i_s_t_const_8hpp.html#ga31f18ed601e6b0e9ebe95a3ac3d962f5":[4,0,0,4,0,191],
 "_n_i_s_t_const_8hpp.html#ga344399a1ac3bc2f57614ccdca4f4f1c1":[4,0,0,4,0,192],
 "_n_i_s_t_const_8hpp.html#ga349fed5e91e8d7f8d71ba45405da64e7":[4,0,0,4,0,277]
+<<<<<<< HEAD
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
+=======
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 };

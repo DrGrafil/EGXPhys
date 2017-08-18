@@ -15,7 +15,11 @@ var dir_eae06af3aa80ee515a7eda0d5cc9e53d =
     [ "MeanLifetime.hpp", "_mean_lifetime_8hpp.html", "_mean_lifetime_8hpp" ],
     [ "NuclearBindingEnergy.hpp", "_nuclear_binding_energy_8hpp.html", "_nuclear_binding_energy_8hpp" ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     [ "NuclearSeparationEnergy.hpp", "_nuclear_separation_energy_8hpp.html", null ],
+=======
+    [ "NuclearSeparationEnergy.hpp", "_nuclear_separation_energy_8hpp.html", "_nuclear_separation_energy_8hpp" ],
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======
     [ "NuclearSeparationEnergy.hpp", "_nuclear_separation_energy_8hpp.html", "_nuclear_separation_energy_8hpp" ],
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f

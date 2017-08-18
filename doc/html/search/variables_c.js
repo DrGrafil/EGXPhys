@@ -6,7 +6,10 @@ var searchData=
   ['massofsun',['MassOfSun',['../namespace_e_g_x_phys.html#a6e84ae13f1dbcecb215af787bbc12cd6',1,'EGXPhys']]],
   ['massofsuninearthmass',['MassOfSunInEarthMass',['../namespace_e_g_x_phys.html#a05709972a6a6089eb968f667ce0bf656',1,'EGXPhys']]],
 <<<<<<< HEAD
+<<<<<<< HEAD
   ['minute',['minute',['../namespace_e_g_x_phys.html#ab3a72a63e9c502847d0db88a167dc02b',1,'EGXPhys']]],
+=======
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
   ['molargasconstant',['molarGasConstant',['../group___n_i_s_t_const-_molar_gas_constant.html#ga923e5cda42e8fec4a70640b82051d309',1,'NISTConst']]],

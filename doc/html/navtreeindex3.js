@@ -1,6 +1,7 @@
 var NAVTREEINDEX3 =
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 "group___n_i_s_t_const-_atomic_unit.html#ga0b7518cf6058bb899c64b32b43bda955":[1,4,5,0,20],
 "group___n_i_s_t_const-_atomic_unit.html#ga108a8be4e32eddd7cdfdf4473f3532ab":[1,4,5,0,6],
 "group___n_i_s_t_const-_atomic_unit.html#ga139c6486b1899658838d403380fc229a":[1,4,5,0,10],
@@ -252,6 +253,8 @@ var NAVTREEINDEX3 =
 "group___n_i_s_t_const-_natural_unit.html#ga88a54043ec0c3a9de3d8549836044045":[1,4,5,2,6],
 "group___n_i_s_t_const-_natural_unit.html#ga8b044e82e055305f63f6f0a8255931b9":[1,4,5,2,2]
 =======
+=======
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 "group___n_i_s_t_const-_atomic_mass_unit.html#gafdd40d93803d15e1ff887dc12c49ca99":[2,4,6,0,6],
 "group___n_i_s_t_const-_atomic_unit.html":[2,4,5,0],
 "group___n_i_s_t_const-_atomic_unit.html#ga0b7518cf6058bb899c64b32b43bda955":[2,4,5,0,20],
@@ -502,5 +505,8 @@ var NAVTREEINDEX3 =
 "group___n_i_s_t_const-_natural_unit.html#ga4dcc4091af025cbd895e8bea1e265c32":[2,4,5,2,9],
 "group___n_i_s_t_const-_natural_unit.html#ga6470eede777c792729aeb594d11b1005":[2,4,5,2,0],
 "group___n_i_s_t_const-_natural_unit.html#ga75fc809b9ed4ab1f3a49337cf66df772":[2,4,5,2,4]
+<<<<<<< HEAD
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
+=======
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 };

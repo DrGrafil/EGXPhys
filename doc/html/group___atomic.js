@@ -6,7 +6,11 @@ var group___atomic =
     [ "Mass Excess", "group___mass_excess.html", "group___mass_excess" ],
     [ "Binding Energy", "group___nuclear_binding_energy.html", "group___nuclear_binding_energy" ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     [ "Nuclear Separation Energy", "group___nuclear_separation_energy.html", null ],
+=======
+    [ "Nuclear Separation Energy", "group___nuclear_separation_energy.html", "group___nuclear_separation_energy" ],
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======
     [ "Nuclear Separation Energy", "group___nuclear_separation_energy.html", "group___nuclear_separation_energy" ],
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f

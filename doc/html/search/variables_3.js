@@ -1,7 +1,10 @@
 var searchData=
 [
 <<<<<<< HEAD
+<<<<<<< HEAD
   ['day',['day',['../namespace_e_g_x_phys.html#a24d985ae6f6cefe7e25ac40806b88f79',1,'EGXPhys']]],
+=======
+>>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 =======
 >>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
   ['densityofearth',['DensityOfEarth',['../namespace_e_g_x_phys.html#a2a671e37351b9b7e334385a26a7f7102',1,'EGXPhys']]],
