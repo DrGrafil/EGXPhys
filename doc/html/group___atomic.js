@@ -5,19 +5,7 @@ var group___atomic =
     [ "Mass Defect", "group___mass_defect.html", "group___mass_defect" ],
     [ "Mass Excess", "group___mass_excess.html", "group___mass_excess" ],
     [ "Binding Energy", "group___nuclear_binding_energy.html", "group___nuclear_binding_energy" ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    [ "Nuclear Separation Energy", "group___nuclear_separation_energy.html", null ],
-=======
-    [ "Nuclear Separation Energy", "group___nuclear_separation_energy.html", "group___nuclear_separation_energy" ],
->>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
-=======
-    [ "Nuclear Separation Energy", "group___nuclear_separation_energy.html", "group___nuclear_separation_energy" ],
->>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
-=======
-    [ "Nuclear Separation Energy", "group___nuclear_separation_energy.html", "group___nuclear_separation_energy" ],
->>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
+    [ "Separation Energy", "group___nuclear_separation_energy.html", "group___nuclear_separation_energy" ],
     [ "Semi-Empirical Mass Formula", "group___semi_empirical_mass_formula.html", "group___semi_empirical_mass_formula" ],
     [ "DecayConstant", "group___atomic.html#ga904edce5aad441b4a0873b3b1a83c7f2", null ],
     [ "DecayConstantViaDecayWidth", "group___atomic.html#gac0dc5d8a75657eaa2e939dd243fe4ba8", null ],

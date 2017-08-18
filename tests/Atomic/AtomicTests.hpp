@@ -10,4 +10,5 @@
 #include "MassDefectTests.hpp"
 #include "MassExcessTests.hpp"
 #include "MeanLifetimeTests.hpp"
+#include "NuclearSeparationEnergyTests.hpp"
 #include "SemiEmpiricalMassFormulaTests.hpp"

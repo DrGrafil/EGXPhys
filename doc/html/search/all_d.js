@@ -32,9 +32,12 @@ var searchData=
   ['neutronprotonmassdifferenceinmevpercsquared',['neutronProtonMassDifferenceInMeVPercSquared',['../group___n_i_s_t_const-_neutron.html#gae96854e1fcd14f08cc92a060c6690730',1,'NISTConst']]],
   ['neutronprotonmassdifferenceinu',['neutronProtonMassDifferenceInu',['../group___n_i_s_t_const-_neutron.html#ga570caff89957976a8486d25e5288df51',1,'NISTConst']]],
   ['neutronprotonmassratio',['neutronProtonMassRatio',['../group___n_i_s_t_const-_neutron.html#gad8a08222b3de2105b5b399faa5a59fbd',1,'NISTConst']]],
-  ['neutronseparationenergyinj',['neutronSeparationEnergyInJ',['../group___nuclear_separation_energy.html#ga2a5d74c0ab6645fa7860541e826897b6',1,'EGXPhys']]],
+  ['neutronseparationenergyinj',['NeutronSeparationEnergyInJ',['../group___nuclear_separation_energy.html#ga14a4bb972ae000ef4ff35f2734ff22d0',1,'EGXPhys']]],
+  ['neutronseparationenergyinmev',['NeutronSeparationEnergyInMeV',['../group___nuclear_separation_energy.html#ga66133edb5809c81dd9fd60e09ebbef79',1,'EGXPhys']]],
   ['neutrontaumassratio',['neutronTauMassRatio',['../group___n_i_s_t_const-_neutron.html#ga9c3ba7b26cbcc0b2f7f7fa551812683a',1,'NISTConst']]],
   ['neutrontoshieldedprotonmagneticmomentratio',['neutronToShieldedProtonMagneticMomentRatio',['../group___n_i_s_t_const-_neutron.html#ga7446ad6eb4c1e0b8167d1a1ff5c4cd89',1,'NISTConst']]],
+  ['neutrontwoseparationenergyinj',['NeutronTwoSeparationEnergyInJ',['../group___nuclear_separation_energy.html#ga293ac9428420a0adf4235048dbe529b4',1,'EGXPhys']]],
+  ['neutrontwoseparationenergyinmev',['NeutronTwoSeparationEnergyInMeV',['../group___nuclear_separation_energy.html#ga09985fc876eb632695bfbc1f2f325401',1,'EGXPhys']]],
   ['newtonianconstantofgravitation',['NewtonianConstantOfGravitation',['../group___n_i_s_t_const-_gravitational_constant.html#gaba6371307f4cebde50b3c61a07c724c5',1,'NISTConst']]],
   ['newtonianconstantofgravitationoverhbarc',['NewtonianConstantOfGravitationOverhbarc',['../group___n_i_s_t_const-_gravitational_constant.html#gad7c8d8ef09f60e8f3f36f86f98df0472',1,'NISTConst']]],
   ['nist_20constants',['NIST Constants',['../group___n_i_s_t_const.html',1,'']]],
@@ -50,7 +53,6 @@ var searchData=
   ['nuclearmagnetonininversemt',['nuclearMagnetonInInversemT',['../group___n_i_s_t_const-_nuclear_magneton.html#ga2bb8e56daaa602b5097d38b2d1ca32ad',1,'NISTConst']]],
   ['nuclearmagnetoninkpert',['nuclearMagnetonInKPerT',['../group___n_i_s_t_const-_nuclear_magneton.html#gac546d7a48ca06ce3231f7cda738bb4e3',1,'NISTConst']]],
   ['nuclearmagnetoninmhzpert',['nuclearMagnetonInMHzPerT',['../group___n_i_s_t_const-_nuclear_magneton.html#gae1ed12acbc3f50345ed451327b86b5b5',1,'NISTConst']]],
-  ['nuclear_20separation_20energy',['Nuclear Separation Energy',['../group___nuclear_separation_energy.html',1,'']]],
   ['nuclearseparationenergy_2ehpp',['NuclearSeparationEnergy.hpp',['../_nuclear_separation_energy_8hpp.html',1,'']]],
   ['nuclearseparationenergy_2einl',['NuclearSeparationEnergy.inl',['../_nuclear_separation_energy_8inl.html',1,'']]]
 ];

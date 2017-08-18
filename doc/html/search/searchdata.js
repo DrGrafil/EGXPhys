@@ -1,6 +1,5 @@
 var indexSectionsWithContent =
 {
-<<<<<<< HEAD
   0: "abcdefghijklmnopqrstuvwxy",
   1: "e",
   2: "acdehklmnopqrst",
@@ -8,21 +7,6 @@ var indexSectionsWithContent =
   4: "abcdefghijklmnpqrstuvwy",
   5: "abcdefghijklmnopqrstuvwx",
   6: "t"
-=======
-  0: "abcdefghijklmnopqrstuvwx",
-  1: "e",
-  2: "acdehklmnopqrst",
-  3: "abcdehlmnprs",
-  4: "abcdefghijklmnpqrstuvw",
-  5: "abcdefghijklmnopqrstuvwx",
-  6: "bt"
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
-=======
->>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
-=======
->>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
 };
 
 var indexSectionNames =

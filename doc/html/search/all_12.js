@@ -7,6 +7,7 @@ var searchData=
   ['standard_20atmosphere',['Standard atmosphere',['../group___n_i_s_t_const-_standard_atmosphere.html',1,'']]],
   ['standard_20state_20pressure',['Standard state pressure',['../group___n_i_s_t_const-_standard_state_pressure.html',1,'']]],
   ['stefan_2dboltzmann_20constant',['Stefan-Boltzmann constant',['../group___n_i_s_t_const-_stefan_boltzmann_constant.html',1,'']]],
+  ['separation_20energy',['Separation Energy',['../group___nuclear_separation_energy.html',1,'']]],
   ['sackurtetrodeconstant',['SackurTetrodeConstant',['../group___n_i_s_t_const-_sackur_tetrode_constant.html#gabd9928304da228b5f9c482aa488ea6bd',1,'NISTConst']]],
   ['sackurtetrodeconstantatm',['SackurTetrodeConstantatm',['../group___n_i_s_t_const-_sackur_tetrode_constant.html#ga476418a3565db707ed30de46c3126220',1,'NISTConst']]],
   ['secondradiationconstant',['secondRadiationConstant',['../group___n_i_s_t_const-_second_radiation_constant.html#ga40dfad662ee17ea208d271fa0977e69c',1,'NISTConst']]],

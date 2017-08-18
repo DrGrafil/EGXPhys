@@ -1,15 +1,6 @@
 var searchData=
 [
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   ['day',['day',['../namespace_e_g_x_phys.html#a24d985ae6f6cefe7e25ac40806b88f79',1,'EGXPhys']]],
-=======
->>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
-=======
->>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
-=======
->>>>>>> d5c4ea83fdaaf3114daa659031b5ee220d413a9f
   ['densityofearth',['DensityOfEarth',['../namespace_e_g_x_phys.html#a2a671e37351b9b7e334385a26a7f7102',1,'EGXPhys']]],
   ['deuteronelectronmagneticmomentratio',['deuteronElectronMagneticMomentRatio',['../group___n_i_s_t_const-_deuteron.html#gaa01fffefa3ab64430fabf08808572689',1,'NISTConst']]],
   ['deuteronelectronmassratio',['deuteronElectronMassRatio',['../group___n_i_s_t_const-_deuteron.html#gaf25b1cce3ab8e1ec7f4f7790ea06ad0b',1,'NISTConst']]],
