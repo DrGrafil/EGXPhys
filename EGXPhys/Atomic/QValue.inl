@@ -114,21 +114,21 @@ namespace EGXPhys{
     
     template<typename T>
     T QValueProtonDecayInMeV(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - NISTConst::protonMassInu - massDaughterInu) * NISTConst::atomicMassConstantInMeVPercSquared;
+    	return (massParentInu - NISTConst::protonMassInu - massDaughterInu - NISTConst::electronMassInu) * NISTConst::atomicMassConstantInMeVPercSquared;
 	}
     
 	template<typename T>
     T QValueProtonDecayInJ(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - NISTConst::protonMassInu - massDaughterInu) * NISTConst::atomicMassConstantInJPercSquared;
+    	return (massParentInu - NISTConst::protonMassInu - massDaughterInu - NISTConst::electronMassInu) * NISTConst::atomicMassConstantInJPercSquared;
 	}
     
     template<typename T>
     T QValueDoubleProtonDecayInMeV(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - 2.0 * NISTConst::protonMassInu - massDaughterInu) * NISTConst::atomicMassConstantInMeVPercSquared;
+    	return (massParentInu - 2.0 * NISTConst::protonMassInu - massDaughterInu - 2.0 * NISTConst::electronMassInu) * NISTConst::atomicMassConstantInMeVPercSquared;
 	}
     
     template<typename T>
     T QValueDoubleProtonDecayInJ(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - 2.0 * NISTConst::protonMassInu - massDaughterInu) * NISTConst::atomicMassConstantInJPercSquared;
+    	return (massParentInu - 2.0 * NISTConst::protonMassInu - massDaughterInu - 2.0 * NISTConst::electronMassInu) * NISTConst::atomicMassConstantInJPercSquared;
 	}
 }//namespace EGXPhys

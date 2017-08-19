@@ -147,4 +147,4 @@ namespace EGXPhys
     /// @}
 } //namespace EGXPhys
 
-#include "NuclearSeparationEnergy.inl"
+#include "QValue.inl"
