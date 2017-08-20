@@ -1,0 +1,27 @@
+var _q_value_8inl =
+[
+    [ "QValueAlphaDecayInJ", "_q_value_8inl.html#ga3e767be294dae24e1df18e7ccb8989e6", null ],
+    [ "QValueAlphaDecayInMeV", "_q_value_8inl.html#ga18e054c21cd5f87744e9f5aadc959a54", null ],
+    [ "QValueBetaMinusDecayInJ", "_q_value_8inl.html#ga4a2ab24ffb317abc97ce46c92bb64c3c", null ],
+    [ "QValueBetaMinusDecayInMeV", "_q_value_8inl.html#ga42468e998cf58a027a676755aa1339ba", null ],
+    [ "QValueBetaPlusDecayInJ", "_q_value_8inl.html#ga066fe9a9816a204c801c557a85bc60df", null ],
+    [ "QValueBetaPlusDecayInMeV", "_q_value_8inl.html#ga9bf549cd4f8e1c76e9cc41b72d4f0279", null ],
+    [ "QValueDoubleAlphaDecayInJ", "_q_value_8inl.html#gaefd0ecd4ae3166d18a4748ff540e6bfc", null ],
+    [ "QValueDoubleAlphaDecayInMeV", "_q_value_8inl.html#ga9bc6e8f493ee3769eb6eea0ac7cbdc61", null ],
+    [ "QValueDoubleBetaMinusDecayInJ", "_q_value_8inl.html#gaf19d189152aec04d8b1ebbbe8792540b", null ],
+    [ "QValueDoubleBetaMinusDecayInMeV", "_q_value_8inl.html#ga0eefdd84aa89d210e00dca043368dfeb", null ],
+    [ "QValueDoubleBetaPlusDecayInJ", "_q_value_8inl.html#ga7d8dcc2691c2d4de9132e758e149ba51", null ],
+    [ "QValueDoubleBetaPlusDecayInMeV", "_q_value_8inl.html#ga3fb4b374bc1df69b96a66d0488bb2ba1", null ],
+    [ "QValueDoubleElectronCaptureDecayInJ", "_q_value_8inl.html#gae25e179b76580bc6af7fa4bdf938ba4e", null ],
+    [ "QValueDoubleElectronCaptureDecayInMeV", "_q_value_8inl.html#ga93e5774784c0d9551e46ba19e1dbc9ab", null ],
+    [ "QValueDoubleNeutronDecayInJ", "_q_value_8inl.html#gada1ace2aa0a791df382f120767a56fe9", null ],
+    [ "QValueDoubleNeutronDecayInMeV", "_q_value_8inl.html#ga6bfea723aca78b32ea67cc1ca7b4031b", null ],
+    [ "QValueDoubleProtonDecayInJ", "_q_value_8inl.html#ga64a3867f65de5586feab99527bb03d31", null ],
+    [ "QValueDoubleProtonDecayInMeV", "_q_value_8inl.html#ga4a57c8901e92918f08bee52493b81c59", null ],
+    [ "QValueElectronCaptureDecayInJ", "_q_value_8inl.html#ga7b523a7d197beb91dcda75ddde12c851", null ],
+    [ "QValueElectronCaptureDecayInMeV", "_q_value_8inl.html#ga9a6b76207e2ec60fd0ee3511582f9e26", null ],
+    [ "QValueNeutronDecayInJ", "_q_value_8inl.html#gab9ffbd12c3f814e03f0ed1fbdcba0700", null ],
+    [ "QValueNeutronDecayInMeV", "_q_value_8inl.html#gaf854b3ac07909a87f44be4e38ebb0c32", null ],
+    [ "QValueProtonDecayInJ", "_q_value_8inl.html#gaa344322393356bd442d17c992628218a", null ],
+    [ "QValueProtonDecayInMeV", "_q_value_8inl.html#ga514354518df3bf1cde561b6d75879ef0", null ]
+];
