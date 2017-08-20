@@ -35,7 +35,7 @@ namespace EGXPhys
 	*
 	*	Equation taken from "Habitable Zones around Main Sequence Stars" http://dx.doi.org/10.1006/icar.1993.1010
 	*
-	*   @param starLuminosity \f$L\f$(\f$W\f$) Luminosity of the star.
+	*   @param starLuminosity \f$L\ (W)\f$ Luminosity of the star.
 	*   @param stellarFluxEffective \f$S_{eff}\f$(dimensionless) Effective stellar flux. Estimation of the ratio of outgoing IR flux to incident IR flux of a planet with greenhouse effects folded in.
 	*   @return \f$d_{CHZL}\f$(AU) Circumstellar Habitable Zone Limit. Either the inner or outer radius of the circumstellar habitable zone.
 	*	@see CircumstellarHabitableZoneDistance() for circumstellar habitable zone distance, a habitability metric for planets.
@@ -51,7 +51,7 @@ namespace EGXPhys
    
 
     /** 
-	*   @brief Calculates the effective stellar flux, (\f$S_{eff}\f$) of a star using Selsis estimation.
+	*   @brief Calculates the effective stellar flux, (\f$S_{eff})\f$ of a star using Selsis estimation.
 	*
 	*	Effective stellar flux is used in circumstellar habitable zone calculations.
 	*	\f[S_{eff}= \frac{1}{(S_{eff\odot}+a(T_{eff}-5700)+b(T_{eff}-5700)^2)^2}\f]
@@ -66,7 +66,7 @@ namespace EGXPhys
 	*
 	*	\f$S_{eff\odot,outer} = 1.77\f$, \f$a_{outer} = 1.3786 \times 10^{-4}\f$, \f$b_{outer} = 1.4286 \times 10^{-9}\f$
 	*
-	*   @param starEffectiveSurfaceTemperature \f$T_{eff}\f$(\f$K\f$) is the effective temperature of the star surface (black body). See https://en.wikipedia.org/wiki/Effective_temperature.
+	*   @param starEffectiveSurfaceTemperature \f$T_{eff}\ (K)\f$ is the effective temperature of the star surface (black body). See https://en.wikipedia.org/wiki/Effective_temperature.
 	*   @param sunEffectiveStellarFlux \f$S_{eff\odot}\f$(dimensionless) Model parameter estimating the ratio of outgoing IR flux to incident IR flux of a planet with greenhouse effects folded in the presence of the sun.
 	*	@param aModelParameter \f$a\f$(dimensionless) First order model fit parameter taking into account the change of star temperature from that of the Sun. 
 	*	@param bModelParameter \f$b\f$(dimensionless) Second order model fit parameter taking into account the change of star temperature from that of the Sun. 
@@ -81,7 +81,7 @@ namespace EGXPhys
     	//http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets and 
     
     /** 
-	*   @brief Calculates the effective stellar flux (\f$S_{eff}\f$) using Underwood estimation.
+	*   @brief Calculates the effective stellar flux (\f$S_{eff})\f$ using Underwood estimation.
 	*
 	*	Effective stellar flux is used in circumstellar habitable zone calculations.
 	*	\f[S_{eff}=S_{eff\odot}+aT_{eff}+bT^2_{eff}\f]
@@ -96,7 +96,7 @@ namespace EGXPhys
 	*
 	*	\f$S_{eff\odot,outer} = 0.2125\f$, \f$a_{outer} = 1.371 \times 10^{-5}\f$, \f$b_{outer} = 5.714 \times 10^{-9}\f$
 	*
-	*   @param starEffectiveSurfaceTemperature \f$T_{eff}\f$(\f$K\f$) is the effective temperature of the star surface (black body). See https://en.wikipedia.org/wiki/Effective_temperature.
+	*   @param starEffectiveSurfaceTemperature \f$T_{eff}\ (K)\f$ is the effective temperature of the star surface (black body). See https://en.wikipedia.org/wiki/Effective_temperature.
 	*   @param sunEffectiveStellarFlux \f$S_{eff\odot}\f$(dimensionless) Model parameter representing the ratio of outgoing IR flux to incident IR flux with the effects of the greenhouse effect in the presence of the Sun.
 	*	@param aModelParameter \f$a\f$(dimensionless) First order model fit parameter taking into account the change of star temperature from that of the Sun. 
 	*	@param bModelParameter \f$b\f$(dimensionless) Second order model fit parameter taking into account the change of star temperature from that of the Sun. 
@@ -128,9 +128,9 @@ The HZ of an exoplanet is generally defined as the area
 (in terms of distance from its central star) 
 	*	See "Impacts of stellar evolution and dynamics on the habitable zone: The role of rotation and magnetic activity" https://doi.org/10.1051/0004-6361/201629034 
 	*	Equation taken from http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets and 
-	*   @param starEffectiveTemperature \f$T_{eff}\f$(\f$K\f$) is the effective temperature of the star (black body). See https://en.wikipedia.org/wiki/Effective_temperature.
+	*   @param starEffectiveTemperature \f$T_{eff}\ (K)\f$ is the effective temperature of the star (black body). See https://en.wikipedia.org/wiki/Effective_temperature.
 	*   @param starLuminosity
-	*   @return \f$r_{inner}\f$(\f$AU\f$) the inner boundary of the Habitable Zone. 
+	*   @return \f$r_{inner}\ (AU)\f$ the inner boundary of the Habitable Zone. 
 	*	@see CircumstellarHabitableZoneDistance() for circumstellar habitable zone distance, a habitability metric for planets.
 	*	@see CircumstellarHabitableZoneOuterBoundary() for outer boundary of the circumstellar habitable zone.
 	*	@see CircumstellarHabitableZoneLimit() to calculate inner boundary using a diffrent model.
@@ -140,7 +140,7 @@ The HZ of an exoplanet is generally defined as the area
 	
 	
 	/** 
-	*   @brief Calculates Circumstellar Habitable Zone Outer Boundary (\f$r_o\f$) of a star.
+	*   @brief Calculates Circumstellar Habitable Zone Outer Boundary (\f$r_o)\f$ of a star.
 	*
 	*   @param 
 	*   @return \f$ESI_S\f$(dimensionless) Surface Earth Similarity Index for a planet.
@@ -152,7 +152,7 @@ The HZ of an exoplanet is generally defined as the area
 	T CircumstellarHabitableZoneOuterBoundary(const T& starEffectiveSurfaceTemperature, const T& starLuminosity);
 	
 	/** 
-	*   @brief Calculates Circumstellar Habitable Zone Distance (\f$CHZD\f$) of a planet. Also known as Habitable Zone Distance.
+	*   @brief Calculates Circumstellar Habitable Zone Distance (\f$CHZD)\f$ of a planet. Also known as Habitable Zone Distance.
 	*
 	*	Circumstellar Habitable Zone is the orbital area around a star where in which a rocky planet, with the right atmosphere, can maintain liquid water at the surface of the planet.
 The HZ of an exoplanet is generally defined as the area

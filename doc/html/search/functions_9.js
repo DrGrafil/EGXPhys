@@ -25,5 +25,9 @@ var searchData=
   ['perizene',['Perizene',['../group___periapsis.html#ga0523c65b7fc26e675388b2c3d38aa00b',1,'EGXPhys']]],
   ['planetsimilarityindex',['PlanetSimilarityIndex',['../group___astrophysics.html#ga62e8b781c301df60bd04af3183a965eb',1,'EGXPhys']]],
   ['planetsimilarityindexinterior',['PlanetSimilarityIndexInterior',['../group___astrophysics.html#ga6dc06a1a8baf6e132abed51fcf410c7f',1,'EGXPhys']]],
-  ['planetsimilarityindexsurface',['PlanetSimilarityIndexSurface',['../group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39',1,'EGXPhys']]]
+  ['planetsimilarityindexsurface',['PlanetSimilarityIndexSurface',['../group___astrophysics.html#gae0c7dce2779d66b0560ca388a34ddc39',1,'EGXPhys']]],
+  ['protonseparationenergyinj',['ProtonSeparationEnergyInJ',['../group___nuclear_separation_energy.html#ga4274d8f5a3860169fd81970707eb582a',1,'EGXPhys']]],
+  ['protonseparationenergyinmev',['ProtonSeparationEnergyInMeV',['../group___nuclear_separation_energy.html#ga6a619ded55c47ed22ea2d8a85202ebeb',1,'EGXPhys']]],
+  ['protontwoseparationenergyinj',['ProtonTwoSeparationEnergyInJ',['../group___nuclear_separation_energy.html#gad7c1d4a32daa8aaa53c5fce37c421f82',1,'EGXPhys']]],
+  ['protontwoseparationenergyinmev',['ProtonTwoSeparationEnergyInMeV',['../group___nuclear_separation_energy.html#ga0de42783a7c650eb32f85dc2d40d84d7',1,'EGXPhys']]]
 ];

@@ -22,5 +22,7 @@
 #include "MassDefect.hpp"
 #include "MassExcess.hpp"
 #include "MeanLifetime.hpp"
+#include "NuclearSeparationEnergy.hpp"
+#include "QValue.hpp"
 #include "RadioactiveDecay.hpp"
 #include "SemiEmpiricalMassFormula.hpp"

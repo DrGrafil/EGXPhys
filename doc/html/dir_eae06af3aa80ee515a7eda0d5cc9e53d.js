@@ -15,7 +15,7 @@ var dir_eae06af3aa80ee515a7eda0d5cc9e53d =
     [ "MeanLifetime.hpp", "_mean_lifetime_8hpp.html", "_mean_lifetime_8hpp" ],
     [ "NuclearBindingEnergy.hpp", "_nuclear_binding_energy_8hpp.html", "_nuclear_binding_energy_8hpp" ],
     [ "NuclearSeparationEnergy.hpp", "_nuclear_separation_energy_8hpp.html", "_nuclear_separation_energy_8hpp" ],
-    [ "NuclearSeparationEnergy.inl", "_nuclear_separation_energy_8inl.html", null ],
+    [ "NuclearSeparationEnergy.inl", "_nuclear_separation_energy_8inl.html", "_nuclear_separation_energy_8inl" ],
     [ "RadioactiveDecay.hpp", "_radioactive_decay_8hpp.html", null ],
     [ "RadioactiveDecay.inl", "_radioactive_decay_8inl.html", null ],
     [ "SemiEmpiricalMassFormula.hpp", "_semi_empirical_mass_formula_8hpp.html", "_semi_empirical_mass_formula_8hpp" ],

@@ -70,5 +70,9 @@ var searchData=
   ['protonneutronmagneticmomentratio',['protonNeutronMagneticMomentRatio',['../group___n_i_s_t_const-_proton.html#ga349fed5e91e8d7f8d71ba45405da64e7',1,'NISTConst']]],
   ['protonneutronmassratio',['protonNeutronMassRatio',['../group___n_i_s_t_const-_proton.html#ga8b54a81cc7dec7f196f874dcc81dbab2',1,'NISTConst']]],
   ['protonrmschargeradius',['protonrmsChargeRadius',['../group___n_i_s_t_const-_proton.html#gadc726e50679ce96f2d6c0e84c378998e',1,'NISTConst']]],
-  ['protontaumassratio',['protonTauMassRatio',['../group___n_i_s_t_const-_proton.html#ga6b8624fb113601433f311bb5d3423115',1,'NISTConst']]]
+  ['protonseparationenergyinj',['ProtonSeparationEnergyInJ',['../group___nuclear_separation_energy.html#ga4274d8f5a3860169fd81970707eb582a',1,'EGXPhys']]],
+  ['protonseparationenergyinmev',['ProtonSeparationEnergyInMeV',['../group___nuclear_separation_energy.html#ga6a619ded55c47ed22ea2d8a85202ebeb',1,'EGXPhys']]],
+  ['protontaumassratio',['protonTauMassRatio',['../group___n_i_s_t_const-_proton.html#ga6b8624fb113601433f311bb5d3423115',1,'NISTConst']]],
+  ['protontwoseparationenergyinj',['ProtonTwoSeparationEnergyInJ',['../group___nuclear_separation_energy.html#gad7c1d4a32daa8aaa53c5fce37c421f82',1,'EGXPhys']]],
+  ['protontwoseparationenergyinmev',['ProtonTwoSeparationEnergyInMeV',['../group___nuclear_separation_energy.html#ga0de42783a7c650eb32f85dc2d40d84d7',1,'EGXPhys']]]
 ];

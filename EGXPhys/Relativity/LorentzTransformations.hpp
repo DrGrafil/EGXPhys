@@ -35,7 +35,7 @@ namespace EGXPhys
     *
     *   Equation taken from
     *
-	*   @param  velocity \f$v\f$ (\f$\frac{m}{s}\f$) velocity of relativistic object.
+	*   @param  velocity \f$v\f$ (\f$\frac{m}{s})\f$ velocity of relativistic object.
 	*   @return \f$\gamma\f$ (dimensionless) Lorentz factor.
 	*/ 
     template<typename T>
@@ -50,8 +50,8 @@ namespace EGXPhys
      *
      *   Equation taken from
      *
-     *   @param momentum \f$p\f$ (\f$\frac{kg m}{s}\f$) momentum of relativistic object.
-     *   @param restMass \f$m_0\f$ (\f$kg\f$) Rest mass of relativisitc object.
+     *   @param momentum \f$p\f$ (\f$\frac{kg m}{s})\f$ momentum of relativistic object.
+     *   @param restMass \f$m_0\f$ (\f$kg)\f$ Rest mass of relativisitc object.
      *   @return \f$\gamma\f$ (dimensionless) Lorentz factor.
      */
     template<typename T>
@@ -67,8 +67,8 @@ namespace EGXPhys
      *
      *   Equation taken from
      *
-     *   @param energyTotal \f$E_{total}\f$ (\f$J\f$) Total energy of relativistic object.
-     *   @param energyRest \f$E_{rest}\f$ (\f$J\f$) Rest energy of relativistic object.
+     *   @param energyTotal \f$E_{total}\f$ (\f$J)\f$ Total energy of relativistic object.
+     *   @param energyRest \f$E_{rest}\f$ (\f$J)\f$ Rest energy of relativistic object.
      *   @return \f$\gamma\f$ (dimensionless) Lorentz factor.
      */
     template<typename T>
