@@ -94,17 +94,19 @@ T E\+G\+X\+Phys\+::\+Apoapsis (\begin{DoxyParamCaption}\item[{const T \&}]{orbit
 
 Calculates apoapsis of an orbiting body. 
 
-The apoapsis is the distance at which an orbiting object is farthest away from the body it is orbiting. \[r=a(1+e)\] See \href{http://mathworld.wolfram.com/Apoapsis.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Apoapsis.\+html} and \href{https://en.wikipedia.org/wiki/Apsis}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Apsis}
+The apoapsis is the distance at which an orbiting object is farthest away from the body it is orbiting. \[r_a=a(1+e)\] See \href{https://en.wikipedia.org/wiki/Apsis}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Apsis}
+
+Equation taken from \href{http://mathworld.wolfram.com/Apoapsis.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Apoapsis.\+html}
 
 
 \begin{DoxyParams}{Parameters}
-{\em orbital\+Eccentricity} & e(dimensionless) is the amount by which its orbit around another body deviates from a perfect circle. e=0 is circular, 0$<$e$<$1 is elliptical and e$>$1 is hyperbola. See \href{https://en.wikipedia.org/wiki/Orbital_eccentricity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+eccentricity}. \\
+{\em orbital\+Eccentricity} & $e\ (1)$ Orbital eccentricity. The amount by which its orbit around another body deviates from a perfect circle. $e=0$ is circular, $ 0<e<1$ is elliptical and $e>1$ is hyperbola. See \href{https://en.wikipedia.org/wiki/Orbital_eccentricity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+eccentricity}. \\
 \hline
-{\em semimajor\+Axis} & a(m) is the line segment from the center of the orbit to the widest point in the perimiter. See \href{https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Semi-\/major\+\_\+and\+\_\+semi-\/minor\+\_\+axes}. \\
+{\em semimajor\+Axis} & $a\ (m)$ Semi-\/major Axis of orbit in meters. It is the line segment from the center of the orbit to the widest point in the perimiter. See \href{https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Semi-\/major\+\_\+and\+\_\+semi-\/minor\+\_\+axes}. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-Apoapsis r(m) for an orbiting body. 
+$r_a\ (m)$ Apoapsis. The distance at which an orbiting object is farthest away from the body it is orbiting in meters. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
 \hyperlink{group___apoapsis_ga5e51a53e2f974264bada34f159fdc948}{Apocenter()} alternative name. 

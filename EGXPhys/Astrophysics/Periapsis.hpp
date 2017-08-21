@@ -2,6 +2,11 @@
 ///
 /// @brief Calculates periapsis of various orbiting bodies.
 ///
+/// Equation Count: 23 \n
+/// Equations: Complete \n
+/// Documentation: Complete \n
+/// Unit-Test: Complete \n
+///
 /// @author Elliot Grafil (Metex)
 /// @date 7/29/17
 
@@ -34,13 +39,15 @@ namespace EGXPhys
 	/** 
 	*   @brief Calculates periapsis of an orbiting body. 
     *
-    *   The periapsis is the distance at which an orbiting object is farthest away from the body it is orbiting.
-	*			\f[r=a(1-e)\f]
-	*   See http://mathworld.wolfram.com/Periapsis.html and https://en.wikipedia.org/wiki/Apsis
-    * 
-	*   @param  orbitalEccentricity e(dimensionless) is the amount by which its orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-	*   @param  semimajorAxis a(m) is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-	*   @return Periapsis r(m) for an orbiting body.
+    *   The periapsis is the distance at which an orbiting object is nearest to the body it is orbiting.
+	*			\f[r_p=a(1-e)\f]
+	*   See https://en.wikipedia.org/wiki/Apsis
+    * 	
+    *	Equation taken from http://mathworld.wolfram.com/Periapsis.html	
+    *
+	*   @param  orbitalEccentricity \f$e\ (1)\f$ Orbital eccentricity. The amount by which its orbit around another body deviates from a perfect circle. \f$e=0\f$ is circular,\f$ 0<e<1\f$ is elliptical and \f$e>1\f$ is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+	*   @param  semimajorAxis \f$a\ (m)\f$ Semi-major Axis of orbit in meters. It is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+	*   @return \f$r_p\ (m)\f$ Periapsis. The distance at which an orbiting object is nearest to the body it is orbiting in meters.
     *   @see Pericenter() alternative name.
     *   @see Perifocus() alternative name.
     *   @see Perigalacticon() periapsis around a galaxy.

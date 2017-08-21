@@ -219,18 +219,19 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Calculates periapsis of an orbiting body. </p>
-<p>The periapsis is the distance at which an orbiting object is farthest away from the body it is orbiting. </p><p class="formulaDsp">
-\[r=a(1-e)\]
+<p>The periapsis is the distance at which an orbiting object is nearest to the body it is orbiting. </p><p class="formulaDsp">
+\[r_p=a(1-e)\]
 </p>
-<p> See <a href="http://mathworld.wolfram.com/Periapsis.html">http://mathworld.wolfram.com/Periapsis.html</a> and <a href="https://en.wikipedia.org/wiki/Apsis">https://en.wikipedia.org/wiki/Apsis</a></p>
+<p> See <a href="https://en.wikipedia.org/wiki/Apsis">https://en.wikipedia.org/wiki/Apsis</a></p>
+<p>Equation taken from <a href="http://mathworld.wolfram.com/Periapsis.html">http://mathworld.wolfram.com/Periapsis.html</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">orbitalEccentricity</td><td>e(dimensionless) is the amount by which its orbit around another body deviates from a perfect circle. e=0 is circular, 0&lt;e&lt;1 is elliptical and e&gt;1 is hyperbola. See <a href="https://en.wikipedia.org/wiki/Orbital_eccentricity">https://en.wikipedia.org/wiki/Orbital_eccentricity</a>. </td></tr>
-    <tr><td class="paramname">semimajorAxis</td><td>a(m) is the line segment from the center of the orbit to the widest point in the perimiter. See <a href="https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes">https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes</a>. </td></tr>
+    <tr><td class="paramname">orbitalEccentricity</td><td>\(e\ (1)\) Orbital eccentricity. The amount by which its orbit around another body deviates from a perfect circle. \(e=0\) is circular, \( 0&lt;e&lt;1\) is elliptical and \(e&gt;1\) is hyperbola. See <a href="https://en.wikipedia.org/wiki/Orbital_eccentricity">https://en.wikipedia.org/wiki/Orbital_eccentricity</a>. </td></tr>
+    <tr><td class="paramname">semimajorAxis</td><td>\(a\ (m)\) Semi-major Axis of orbit in meters. It is the line segment from the center of the orbit to the widest point in the perimiter. See <a href="https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes">https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes</a>. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Periapsis r(m) for an orbiting body. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>\(r_p\ (m)\) Periapsis. The distance at which an orbiting object is nearest to the body it is orbiting in meters. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___periapsis.html#gac4c419a87a5802cf6afc98f50792e99f" title="Calculates periapsis of an orbiting body. ">Pericenter()</a> alternative name. </dd>
 <dd>
 <a class="el" href="group___periapsis.html#gaff62669fb364a245cb85f9a91d8ea71f" title="Calculates periapsis of an orbiting body. ">Perifocus()</a> alternative name. </dd>

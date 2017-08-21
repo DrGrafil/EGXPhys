@@ -23,6 +23,7 @@ TEST_CASE("Periapsis"){
 	REQUIRE( Periapsis(50.0, 0.7) == Perizene(50.0, 0.7) );
 	REQUIRE( Periapsis(50.0, 0.7) == Perijove(50.0, 0.7) );
 	REQUIRE( Periapsis(50.0, 0.7) == Perichron(50.0, 0.7) );
+	REQUIRE( Periapsis(50.0, 0.7) == Perikrone(50.0, 0.7) );
 	REQUIRE( Periapsis(50.0, 0.7) == Perisaturnium(50.0, 0.7) );
 	REQUIRE( Periapsis(50.0, 0.7) == Periuranion(50.0, 0.7) );
 	REQUIRE( Periapsis(50.0, 0.7) == Periposeidon(50.0, 0.7) );
