@@ -2,6 +2,11 @@
 ///
 /// @brief Calculates apoapsis of various orbiting bodies.
 ///
+/// Equation Count: 23
+/// Equations: Complete
+/// Documentation: Complete
+/// Unit-Test: Complete
+///
 /// @author Elliot Grafil (Metex)
 /// @date 7/29/17
 
@@ -36,7 +41,9 @@ namespace EGXPhys
     *
     *   The apoapsis is the distance at which an orbiting object is farthest away from the body it is orbiting.
 	*			\f[r=a(1+e)\f]   
-	*   See http://mathworld.wolfram.com/Apoapsis.html and https://en.wikipedia.org/wiki/Apsis
+	*   See https://en.wikipedia.org/wiki/Apsis
+	*
+	*	Equation taken from http://mathworld.wolfram.com/Apoapsis.html
     * 
 	*   @param  orbitalEccentricity e(dimensionless) is the amount by which its orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
 	*   @param  semimajorAxis a(m) is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
