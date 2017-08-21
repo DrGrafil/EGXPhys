@@ -23,6 +23,7 @@ TEST_CASE("Apoapsis"){
 	REQUIRE( Apoapsis(50.0, 0.7) == Apozene(50.0, 0.7) );
 	REQUIRE( Apoapsis(50.0, 0.7) == Apojove(50.0, 0.7) );
 	REQUIRE( Apoapsis(50.0, 0.7) == Apochron(50.0, 0.7) );
+	REQUIRE( Apoapsis(50.0, 0.7) == Apokrone(50.0, 0.7) );
 	REQUIRE( Apoapsis(50.0, 0.7) == Aposaturnium(50.0, 0.7) );
 	REQUIRE( Apoapsis(50.0, 0.7) == Apouranion(50.0, 0.7) );
 	REQUIRE( Apoapsis(50.0, 0.7) == Apoposeidon(50.0, 0.7) );
