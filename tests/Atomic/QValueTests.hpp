@@ -36,6 +36,9 @@ TEST_CASE("Q Value"){
 	//CHECK( QValueProtonDecayInMeV(238.050789466,237.051147110)== Approx(-7.5070).scale(0.0).epsilon(0.001));  probably off by a bit due to bad decay da
 	//CHECK( QValueDoubleProtonDecayInMeV(238.050789466,236.049870)== Approx(-13.5240).scale(0.0).epsilon(0.001));
 
+	// U238+He4 = 241Np + 1H 
+	CHECK( QValueInMeV(238.050789466, 4.002602, 1.007825032241, 241.05825) == Approx(-11.8165).scale(0.0).epsilon(0.001));
+	
 	//Niobium 93
 	CHECK( QValueNeutronDecayInMeV(92.9063781,91.907194)== Approx(-8.83086).scale(0.0).epsilon(0.001));
 	CHECK( QValueDoubleNeutronDecayInMeV(92.9063781,90.906996)== Approx(-16.717).scale(0.0).epsilon(0.001));

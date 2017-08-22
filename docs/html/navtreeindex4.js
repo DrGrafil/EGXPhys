@@ -248,6 +248,6 @@ var NAVTREEINDEX4 =
 "group___periapsis.html#gaff62669fb364a245cb85f9a91d8ea71f":[1,1,1,8],
 "group___plasma.html":[1,6],
 "group___q_value.html":[1,2,6],
-"group___q_value.html#ga42468e998cf58a027a676755aa1339ba":[1,2,6,0],
-"group___q_value.html#ga4a57c8901e92918f08bee52493b81c59":[1,2,6,4]
+"group___q_value.html#ga0eefdd84aa89d210e00dca043368dfeb":[1,2,6,4],
+"group___q_value.html#ga42468e998cf58a027a676755aa1339ba":[1,2,6,1]
 };

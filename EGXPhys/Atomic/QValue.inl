@@ -7,7 +7,28 @@
 
 namespace EGXPhys{
 	
-	    // -------------- Alpha ----------------------
+	template<typename T>
+	static T adder(const T& num){
+  		return num;
+	}
+
+	template<typename T, typename... TArgs>
+	static T adder(T first, TArgs... args){
+		return first + adder(args...);
+	}
+	
+	
+	template<typename T, typename... TArgs>
+    T QValueInMeV(const T& massTargetInu, const T& massProjectileInu, const TArgs&... massProductInu){
+    	return (massTargetInu + massProjectileInu - adder(massProductInu...) ) * NISTConst::atomicMassConstantInMeVPercSquared;
+	}
+    
+    template<typename T, typename... TArgs>
+    T QValueInJ(const T& massTargetInu, const T& massProjectileInu, const TArgs&... massProductInu){
+    	return (massTargetInu + massProjectileInu - adder(massProductInu...) ) * NISTConst::atomicMassConstantInJPercSquared;
+	}
+	
+	// -------------- Alpha ----------------------
     
     template<typename T>
     T QValueAlphaDecayInMeV(const T& massParentInu, const T& massDaughterInu){
@@ -56,22 +77,22 @@ namespace EGXPhys{
     
     template<typename T>
     T QValueBetaPlusDecayInMeV(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - NISTConst::electronMassInu - (massDaughterInu + NISTConst::electronMassInu ) ) * NISTConst::atomicMassConstantInMeVPercSquared;
+    	return (massParentInu - massDaughterInu - 2.0 * NISTConst::electronMassInu ) * NISTConst::atomicMassConstantInMeVPercSquared;
 	}
     
 	template<typename T>
     T QValueBetaPlusDecayInJ(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - NISTConst::electronMassInu - (massDaughterInu + NISTConst::electronMassInu ) ) * NISTConst::atomicMassConstantInJPercSquared;
+    	return (massParentInu - massDaughterInu - 2.0 * NISTConst::electronMassInu ) * NISTConst::atomicMassConstantInJPercSquared;
 	}
     
     template<typename T>
     T QValueDoubleBetaPlusDecayInMeV(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - 2.0 * NISTConst::electronMassInu - (massDaughterInu + 2.0 * NISTConst::electronMassInu ) ) * NISTConst::atomicMassConstantInMeVPercSquared;
+    	return (massParentInu - massDaughterInu - 4.0 * NISTConst::electronMassInu ) * NISTConst::atomicMassConstantInMeVPercSquared;
 	}
     
     template<typename T>
     T QValueDoubleBetaPlusDecayInJ(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - 2.0 * NISTConst::electronMassInu - (massDaughterInu + 2.0 * NISTConst::electronMassInu ) ) * NISTConst::atomicMassConstantInJPercSquared;
+    	return (massParentInu - massDaughterInu - 4.0 * NISTConst::electronMassInu ) * NISTConst::atomicMassConstantInJPercSquared;
 	}
     
     // -------------- Electron Capture ----------------------
