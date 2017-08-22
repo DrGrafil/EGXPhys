@@ -1,5 +1,14 @@
 var NAVTREEINDEX5 =
 {
+"group___q_value.html#ga514354518df3bf1cde561b6d75879ef0":[1,2,6,9],
+"group___q_value.html#ga64a3867f65de5586feab99527bb03d31":[1,2,6,3],
+"group___q_value.html#ga6bfea723aca78b32ea67cc1ca7b4031b":[1,2,6,2],
+"group___q_value.html#ga9de3868818a3548b4a4ab42f8c17278d":[1,2,6,5],
+"group___q_value.html#gaa344322393356bd442d17c992628218a":[1,2,6,8],
+"group___q_value.html#gab9ffbd12c3f814e03f0ed1fbdcba0700":[1,2,6,6],
+"group___q_value.html#gada1ace2aa0a791df382f120767a56fe9":[1,2,6,1],
+"group___q_value.html#gaf854b3ac07909a87f44be4e38ebb0c32":[1,2,6,7],
+"group___quantum.html":[1,7],
 "group___relativity.html":[1,8],
 "group___relativity.html#ga1ea24128654ac333dd843afdd5c003b7":[1,8,2],
 "group___relativity.html#ga5f9b11c1f4c3ae26a7e64f02c22d5a75":[1,8,0],
