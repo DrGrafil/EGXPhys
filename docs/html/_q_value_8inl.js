@@ -20,6 +20,8 @@ var _q_value_8inl =
     [ "QValueDoubleProtonDecayInMeV", "_q_value_8inl.html#ga4a57c8901e92918f08bee52493b81c59", null ],
     [ "QValueElectronCaptureDecayInJ", "_q_value_8inl.html#ga7b523a7d197beb91dcda75ddde12c851", null ],
     [ "QValueElectronCaptureDecayInMeV", "_q_value_8inl.html#ga9a6b76207e2ec60fd0ee3511582f9e26", null ],
+    [ "QValueInJ", "_q_value_8inl.html#ga377e1e8298a32359ac68025fb1dd8151", null ],
+    [ "QValueInMeV", "_q_value_8inl.html#ga40937601d7aa0aac2a7ca005ef2d2a8b", null ],
     [ "QValueNeutronDecayInJ", "_q_value_8inl.html#gab9ffbd12c3f814e03f0ed1fbdcba0700", null ],
     [ "QValueNeutronDecayInMeV", "_q_value_8inl.html#gaf854b3ac07909a87f44be4e38ebb0c32", null ],
     [ "QValueProtonDecayInJ", "_q_value_8inl.html#gaa344322393356bd442d17c992628218a", null ],

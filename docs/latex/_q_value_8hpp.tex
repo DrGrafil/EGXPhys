@@ -14,18 +14,18 @@ Calculates Q-\/value of a nuclear reaction.
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga9de3868818a3548b4a4ab42f8c17278d}{E\+G\+X\+Phys\+::\+Q\+Value\+In\+MeV} (const T \&mass\+Initial1\+Inu, const T \&mass\+Initial2\+Inu, const T \&mass\+Product1\+Inu, const T \&mass\+Product2\+Inu)
+{\footnotesize template$<$typename T , typename... T\+Args$>$ }\\T \hyperlink{group___q_value_ga40937601d7aa0aac2a7ca005ef2d2a8b}{E\+G\+X\+Phys\+::\+Q\+Value\+In\+MeV} (const T \&mass\+Target\+Inu, const T \&mass\+Projectile\+Inu, const T\+Args \&... mass\+Product\+Inu)
 \begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$, of a nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+InJ} (const T \&mass\+Initial1\+Inu, const T \&mass\+Initial2\+Inu, const T \&mass\+Product1\+Inu, const T \&mass\+Product2\+Inu)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+Alpha\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+Alpha\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Alpha\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Alpha\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
-\item 
+{\footnotesize template$<$typename T , typename... T\+Args$>$ }\\T \hyperlink{group___q_value_ga377e1e8298a32359ac68025fb1dd8151}{E\+G\+X\+Phys\+::\+Q\+Value\+InJ} (const T \&mass\+Target\+Inu, const T \&mass\+Projectile\+Inu, const T\+Args \&... mass\+Product\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$, of a nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga18e054c21cd5f87744e9f5aadc959a54}{E\+G\+X\+Phys\+::\+Q\+Value\+Alpha\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the alpha decay Q-\/value, $Q_{\alpha}$, of an alpha decay nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga3e767be294dae24e1df18e7ccb8989e6}{E\+G\+X\+Phys\+::\+Q\+Value\+Alpha\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the alpha decay Q-\/value, $Q_{\alpha}$, of an alpha decay nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga9bc6e8f493ee3769eb6eea0ac7cbdc61}{E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Alpha\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the double alpha decay Q-\/value, $Q_{2\alpha}$, of a double alpha decay nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_gaefd0ecd4ae3166d18a4748ff540e6bfc}{E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Alpha\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the double alpha decay Q-\/value, $Q_{2\alpha}$, of a double alpha decay nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga42468e998cf58a027a676755aa1339ba}{E\+G\+X\+Phys\+::\+Q\+Value\+Beta\+Minus\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
 \begin{DoxyCompactList}\small\item\em Calculates the beta minus decay Q-\/value, $Q_{\beta^-}$, of a beta minus decay nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga4a2ab24ffb317abc97ce46c92bb64c3c}{E\+G\+X\+Phys\+::\+Q\+Value\+Beta\+Minus\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
@@ -36,20 +36,20 @@ Calculates Q-\/value of a nuclear reaction.
 \begin{DoxyCompactList}\small\item\em Calculates the double beta minus decay Q-\/value, $Q_{2\beta^-}$, of a double beta minus decay nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga9bf549cd4f8e1c76e9cc41b72d4f0279}{E\+G\+X\+Phys\+::\+Q\+Value\+Beta\+Plus\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
 \begin{DoxyCompactList}\small\item\em Calculates the beta plus decay Q-\/value, $Q_{\beta^+}$, of a beta plus decay nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+Beta\+Plus\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Beta\+Plus\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Beta\+Plus\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+Electron\+Capture\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+Electron\+Capture\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Electron\+Capture\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Electron\+Capture\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
-\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga066fe9a9816a204c801c557a85bc60df}{E\+G\+X\+Phys\+::\+Q\+Value\+Beta\+Plus\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the beta plus decay Q-\/value, $Q_{\beta^+}$, of a beta plus decay nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga3fb4b374bc1df69b96a66d0488bb2ba1}{E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Beta\+Plus\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the double beta plus decay Q-\/value, $Q_{2\beta^+}$, of a double beta plus decay nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga7d8dcc2691c2d4de9132e758e149ba51}{E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Beta\+Plus\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the double beta plus decay Q-\/value, $Q_{2\beta^+}$, of a double beta plus decay nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga9a6b76207e2ec60fd0ee3511582f9e26}{E\+G\+X\+Phys\+::\+Q\+Value\+Electron\+Capture\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the electron capture decay Q-\/value, $Q_{EC}$, of an electron capture nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga7b523a7d197beb91dcda75ddde12c851}{E\+G\+X\+Phys\+::\+Q\+Value\+Electron\+Capture\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the electron capture decay Q-\/value, $Q_{EC}$, of an electron capture nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_ga93e5774784c0d9551e46ba19e1dbc9ab}{E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Electron\+Capture\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the double electron capture decay Q-\/value, $Q_{2EC}$, of a double electron capture nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_gae25e179b76580bc6af7fa4bdf938ba4e}{E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Electron\+Capture\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the double electron capture decay Q-\/value, $Q_{2EC}$, of a double electron capture nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_gaf854b3ac07909a87f44be4e38ebb0c32}{E\+G\+X\+Phys\+::\+Q\+Value\+Neutron\+Decay\+In\+MeV} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
 \begin{DoxyCompactList}\small\item\em Calculates the neutron decay Q-\/value, $Q_{1n}$, of a neutron decay nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___q_value_gab9ffbd12c3f814e03f0ed1fbdcba0700}{E\+G\+X\+Phys\+::\+Q\+Value\+Neutron\+Decay\+InJ} (const T \&mass\+Parent\+Inu, const T \&mass\+Daughter\+Inu)
@@ -81,3 +81,5 @@ Elliot Grafil (Metex)
 \begin{DoxyDate}{Date}
 8/18/17 
 \end{DoxyDate}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000006}{Todo}]Decide if we are ok with variadic templates C++11 or do we want to keep it to 98 \end{DoxyRefDesc}

@@ -43,63 +43,147 @@ namespace EGXPhys
 	*	To calculate the Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
 	*	\f[Q = \left ( m_{initial}-m_{final}\right ) c^2\f]
 	*
-    *	For a projectile \f$x\f$ colliding with a target \f$X\f$ and thereby producing \f$y\f$ and \f$Y\f$ the equation becomes:
+    *	For a projectile \f$x\f$ colliding with a target \f$X\f$ and thereby producing \f$Y1\f$ and \f$Y2...\f$ the equation becomes:
     *
-    *	\f[Q = \left ( m(x) + m (X) - m(y) - m(Y) \right ) c^2\f]
+    *	\f[Q = \left ( m(x) + m(X) - m(Y1) - m(Y2) - ... \right ) c^2\f]
     *
     *	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/
     *
 	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
     *
-    *	@param massAtomInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of initial atom. The mass of the atom before a neutron is removed in unified atomic mass units.
-    *	@param massProducedAtomInu \f$m(\ce{ ^{A-1}_{Z}X_{N-1} })\ (u)\f$ Mass of produced atom. The mass of the produced atom once a neutron is removed in unified atomic mass units.
-    *	@return \f$S_{1n}\ (MeV)\f$ Neutron separation energy. The energy in megaelectron volts needed to remove a neutron from the nucleus of the initial atom.
-    *	@see NeutronSeparationEnergyInJ() to calculate the neutron separation energy in joules.
-	*	@see NeutronTwoSeparationEnergyInMeV() to calculate the two neutrons separation energy.
-    *	@see ProtonSeparationEnergyInMeV() to calculate the proton seperation energy. 
-    *	@see ProtonTwoSeparationEnergyInMeV() to calculate the two protons seperation energy. 
-    *	@see NuclearBindingEnergy() to calculate binding energy,\f$BE\f$, of an atom.
+    *	@param massTargetInu \f$m(X)\ (u)\f$ Mass of target. The mass of the target atom before being hit by projectile in unified atomic mass units.
+    *	@param massProjectileInu \f$m(x)\ (u)\f$ Mass of projectile. The mass of the projectile in unified atomic mass units.
+    *	@param massProductInu \f$m(Y)\ (u)\f$ Mass of product. The mass of a product from the collision of the target into the projectile in unified atomic mass units.
+    *	@return \f$Q\ (MeV)\f$  Q-value. The energy in megaelectron volts released during the nuclear reaction.
     */
     template<typename T, typename... TArgs>
     T QValueInMeV(const T& massTargetInu, const T& massProjectileInu, const TArgs&... massProductInu);
     
+     /**
+    *	@brief Calculates the Q-value, \f$Q\f$, of a nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+    *
+    *	The Q-value, \f$Q\f$, is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero.
+	*	For \f$Q < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy. 
+	*
+	*	To calculate the Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
+	*	\f[Q = \left ( m_{initial}-m_{final}\right ) c^2\f]
+	*
+    *	For a projectile \f$x\f$ colliding with a target \f$X\f$ and thereby producing \f$Y1\f$ and \f$Y2...\f$ the equation becomes:
+    *
+    *	\f[Q = \left ( m(x) + m(X) - m(Y1) - m(Y2) - ... \right ) c^2\f]
+    *
+    *	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/
+    *
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+    *
+    *	@param massTargetInu \f$m(X)\ (u)\f$ Mass of target. The mass of the target atom before being hit by projectile in unified atomic mass units.
+    *	@param massProjectileInu \f$m(x)\ (u)\f$ Mass of projectile. The mass of the projectile in unified atomic mass units.
+    *	@param massProductInu \f$m(Y)\ (u)\f$ Mass of product. The mass of a product from the collision of the target into the projectile in unified atomic mass units.
+    *	@return \f$Q\ (J)\f$  Q-value. The energy in joules released during the nuclear reaction.
+    */
     template<typename T, typename... TArgs>
     T QValueInJ(const T& massTargetInu, const T& massProjectileInu, const TArgs&... massProductInu);
     
     // -------------- Alpha ----------------------
     
     /**
-    *	@brief Calculates the beta minus decay Q-value, \f$Q_{\beta^-}\f$, of a beta minus decay nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+    *	@brief Calculates the alpha decay Q-value, \f$Q_{\alpha}\f$, of an alpha decay nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
     *
-    *	The beta minus decay Q-value, \f$Q_{\beta^-}\f$, is the energy released during a nuclear reaction undergoing beta minus decay. The Q-value can be positive, negative or zero.
-	*	For \f$Q_{\beta^-} < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
-	*	For \f$Q_{\beta^-} > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy. 
+    *	The alpha decay Q-value, \f$Q_{\alpha}\f$, is the energy released during a nuclear reaction undergoing alpha decay. The Q-value can be positive, negative or zero.
+	*	For \f$Q_{\alpha} < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q_{\alpha} > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy. 
 	*
-	*	To calculate the beta minus decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
-	*	\f[Q_{\beta^-} = \left ( m_{initial}-m_{final}\right ) c^2\f]
+	*	To calculate the alpha decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
+	*	\f[Q_{\alpha} = \left ( m_{initial}-m_{final}\right ) c^2\f]
 	*
-    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting an electron, \f$e^-\f$, throught beta minus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{+1}}X^{+1}_{N-1} }\f$ the equation becomes:
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting an alpha particle, \f$\alpha\ (\ce{ ^{4}_{2}He^{+2}_{2} })\f$, through alpha decay and thereby producing an atom \f$\ce{ ^{A-4}_{Z{-2}}X^{-2}_{N-2} }\f$ the equation becomes:
     *
-    *	\f[Q_{\beta^-} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A}_{Z{+1}}X_{N-1} }) - m(e^-)) - m(e^-)\right ) c^2\f]
-    *	\f[Q_{\beta^-} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z{+1}}X_{N-1} })\right ) c^2\f]
+    *	\f[Q_{\alpha} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A-4}_{Z{-2}}X_{N-2} }) + 2m(e^-)) - m(\alpha)\right ) c^2\f]
     *
     *	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/
     *
 	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
     *
-    *	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parent (initial) atom. The mass of the atom before it has undergone beta minus decay in unified atomic mass units.
-    *	@param massDaughterInu \f$m(\ce{ ^{A}_{Z{+1}}X_{N-1} })\ (u)\f$ Mass of daughter (produced) atom. The mass of the atom once it has undergone beta minus decay and charge has been added to make the atom neutral in unified atomic mass units.
-    *	@return \f$Q_{\beta^-}\ (MeV)\f$ Beta minus decay Q-value. The energy in megaelectron volts released during the nuclear reaction where beta minus decay has occured.
+    *	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parent (initial) atom. The mass of the atom before it has undergone alpha decay in unified atomic mass units.
+    *	@param massDaughterInu \f$m(\ce{ ^{A-4}_{Z{-2}}X_{N-2} })\ (u)\f$ Mass of daughter (produced) atom. The mass of the atom once it has undergone alpha decay and charge has been added to make the atom neutral in unified atomic mass units.
+    *	@return \f$Q_{\alpha}\ (MeV)\f$ Alpha decay Q-value. The energy in megaelectron volts released during the nuclear reaction where alpha decay has occured.
     */
     template<typename T>
     T QValueAlphaDecayInMeV(const T& massParentInu, const T& massDaughterInu);
 	
+	/**
+    *	@brief Calculates the alpha decay Q-value, \f$Q_{\alpha}\f$, of an alpha decay nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+    *
+    *	The alpha decay Q-value, \f$Q_{\alpha}\f$, is the energy released during a nuclear reaction undergoing alpha decay. The Q-value can be positive, negative or zero.
+	*	For \f$Q_{\alpha} < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q_{\alpha} > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy. 
+	*
+	*	To calculate the alpha decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
+	*	\f[Q_{\alpha} = \left ( m_{initial}-m_{final}\right ) c^2\f]
+	*
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting an alpha particle, \f$\alpha\ (\ce{ ^{4}_{2}He^{+2}_{2} })\f$, through alpha decay and thereby producing an atom \f$\ce{ ^{A-4}_{Z{-2}}X^{-2}_{N-2} }\f$ the equation becomes:
+    *
+    *	\f[Q_{\alpha} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A-4}_{Z{-2}}X_{N-2} }) + 2m(e^-)) - m(\alpha)\right ) c^2\f]
+    *
+    *	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/
+    *
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+    *
+    *	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parent (initial) atom. The mass of the atom before it has undergone alpha decay in unified atomic mass units.
+    *	@param massDaughterInu \f$m(\ce{ ^{A-4}_{Z{-2}}X_{N-2} })\ (u)\f$ Mass of daughter (produced) atom. The mass of the atom once it has undergone alpha decay and charge has been added to make the atom neutral in unified atomic mass units.
+    *	@return \f$Q_{\alpha}\ (J)\f$ Alpha decay Q-value. The energy in joules released during the nuclear reaction where alpha decay has occured.
+    */
 	template<typename T>
     T QValueAlphaDecayInJ(const T& massParentInu, const T& massDaughterInu);	
     
+    /**
+    *	@brief Calculates the double alpha decay Q-value, \f$Q_{2\alpha}\f$, of a double alpha decay nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+    *
+    *	The double alpha decay Q-value, \f$Q_{2\alpha}\f$, is the energy released during a nuclear reaction undergoing double alpha decay. The Q-value can be positive, negative or zero.
+	*	For \f$Q_{2\alpha} < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q_{2\alpha} > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy. 
+	*
+	*	To calculate the double alpha decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
+	*	\f[Q_{2\alpha} = \left ( m_{initial}-m_{final}\right ) c^2\f]
+	*
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting two alpha particles, \f$\alpha\ (\ce{ ^{4}_{2}He^{+2}_{2} })\f$, through double alpha decay and thereby producing an atom \f$\ce{ ^{A-8}_{Z{-4}}X^{-4}_{N-4} }\f$ the equation becomes:
+    *
+    *	\f[Q_{2\alpha} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A-8}_{Z{-4}}X_{N-4} }) + 4m(e^-)) - 2m(\alpha)\right ) c^2\f]
+    *
+    *	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/
+    *
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+    *
+    *	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parent (initial) atom. The mass of the atom before it has undergone double alpha decay in unified atomic mass units.
+    *	@param massDaughterInu \f$m(\ce{ ^{A-8}_{Z{-4}}X_{N-4} })\ (u)\f$ Mass of daughter (produced) atom. The mass of the atom once it has undergone double alpha decay and charge has been added to make the atom neutral in unified atomic mass units.
+    *	@return \f$Q_{2\alpha}\ (MeV)\f$ Double Alpha decay Q-value. The energy in megaelectron volts released during the nuclear reaction where double alpha decay has occured.
+    */
     template<typename T>
     T QValueDoubleAlphaDecayInMeV(const T& massParentInu, const T& massDaughterInu);
     
+    /**
+    *	@brief Calculates the double alpha decay Q-value, \f$Q_{2\alpha}\f$, of a double alpha decay nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+    *
+    *	The double alpha decay Q-value, \f$Q_{2\alpha}\f$, is the energy released during a nuclear reaction undergoing double alpha decay. The Q-value can be positive, negative or zero.
+	*	For \f$Q_{2\alpha} < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q_{2\alpha} > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy. 
+	*
+	*	To calculate the double alpha decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
+	*	\f[Q_{2\alpha} = \left ( m_{initial}-m_{final}\right ) c^2\f]
+	*
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting two alpha particles, \f$\alpha\ (\ce{ ^{4}_{2}He^{+2}_{2} })\f$, through double alpha decay and thereby producing an atom \f$\ce{ ^{A-8}_{Z{-4}}X^{-4}_{N-4} }\f$ the equation becomes:
+    *
+    *	\f[Q_{2\alpha} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A-8}_{Z{-4}}X_{N-4} }) + 4m(e^-)) - 2m(\alpha)\right ) c^2\f]
+    *
+    *	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/
+    *
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+    *
+    *	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parent (initial) atom. The mass of the atom before it has undergone double alpha decay in unified atomic mass units.
+    *	@param massDaughterInu \f$m(\ce{ ^{A-8}_{Z{-4}}X_{N-4} })\ (u)\f$ Mass of daughter (produced) atom. The mass of the atom once it has undergone double alpha decay and charge has been added to make the atom neutral in unified atomic mass units.
+    *	@return \f$Q_{2\alpha}\ (J)\f$ Double Alpha decay Q-value. The energy in joules released during the nuclear reaction where double alpha decay has occured.
+    */
     template<typename T>
     T QValueDoubleAlphaDecayInJ(const T& massParentInu, const T& massDaughterInu);
     
@@ -115,7 +199,7 @@ namespace EGXPhys
 	*	To calculate the beta minus decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
 	*	\f[Q_{\beta^-} = \left ( m_{initial}-m_{final}\right ) c^2\f]
 	*
-    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting an electron, \f$e^-\f$, throught beta minus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{+1}}X^{+1}_{N-1} }\f$ the equation becomes:
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting an electron, \f$e^-\f$, through beta minus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{+1}}X^{+1}_{N-1} }\f$ the equation becomes:
     *
     *	\f[Q_{\beta^-} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A}_{Z{+1}}X_{N-1} }) - m(e^-)) - m(e^-)\right ) c^2\f]
     *	\f[Q_{\beta^-} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z{+1}}X_{N-1} })\right ) c^2\f]
@@ -141,7 +225,7 @@ namespace EGXPhys
 	*	To calculate the beta minus decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
 	*	\f[Q_{\beta^-} = \left ( m_{initial}-m_{final}\right ) c^2\f]
 	*
-    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting an electron, \f$e^-\f$, throught beta minus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{+1}}X^{+1}_{N-1} }\f$ the equation becomes:
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting an electron, \f$e^-\f$, through beta minus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{+1}}X^{+1}_{N-1} }\f$ the equation becomes:
     *
     *	\f[Q_{\beta^-} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A}_{Z{+1}}X_{N-1} }) - m(e^-)) - m(e^-)\right ) c^2\f]
     *	\f[Q_{\beta^-} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z{+1}}X_{N-1} })\right ) c^2\f]
@@ -167,7 +251,7 @@ namespace EGXPhys
 	*	To calculate the double beta minus decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
 	*	\f[Q_{2\beta^-} = \left ( m_{initial}-m_{final}\right ) c^2\f]
 	*
-    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting two electrons, \f$e^-\f$, throught double beta minus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{+2}}X^{+2}_{N-2} }\f$ the equation becomes:
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting two electrons, \f$e^-\f$, through double beta minus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{+2}}X^{+2}_{N-2} }\f$ the equation becomes:
     *
     *	\f[Q_{2\beta^-} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A}_{Z{+2}}X_{N-2} }) - 2m(e^-)) - 2m(e^-)\right ) c^2\f]
     *	\f[Q_{2\beta^-} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z{+2}}X_{N-2} })\right ) c^2\f]
@@ -193,7 +277,7 @@ namespace EGXPhys
 	*	To calculate the double beta minus decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
 	*	\f[Q_{2\beta^-} = \left ( m_{initial}-m_{final}\right ) c^2\f]
 	*
-    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting two electrons, \f$e^-\f$, throught double beta minus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{+2}}X^{+2}_{N-2} }\f$ the equation becomes:
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting two electrons, \f$e^-\f$, through double beta minus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{+2}}X^{+2}_{N-2} }\f$ the equation becomes:
     *
     *	\f[Q_{2\beta^-} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A}_{Z{+2}}X_{N-2} }) - 2m(e^-)) - 2m(e^-)\right ) c^2\f]
     *	\f[Q_{2\beta^-} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z{+2}}X_{N-2} })\right ) c^2\f]
@@ -221,7 +305,7 @@ namespace EGXPhys
 	*	To calculate the beta plus decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
 	*	\f[Q_{\beta^+} = \left ( m_{initial}-m_{final}\right ) c^2\f]
 	*
-    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting a positron, \f$e^+\f$, throught beta plus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{-1}}X^{-1}_{N{+1}} }\f$ the equation becomes:
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting a positron, \f$e^+\f$, through beta plus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{-1}}X^{-1}_{N{+1}} }\f$ the equation becomes:
     *
     *	\f[Q_{\beta^+} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A}_{Z{-1}}X_{N{+1}} }) + m(e^+)) - m(e^+)\right ) c^2\f]
     *	\f[Q_{\beta^+} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z{-1}}X_{N{+1}} }) - 2m(e^+)\right ) c^2\f]
@@ -247,7 +331,7 @@ namespace EGXPhys
 	*	To calculate the beta plus decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
 	*	\f[Q_{\beta^+} = \left ( m_{initial}-m_{final}\right ) c^2\f]
 	*
-    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting a positron, \f$e^+\f$, throught beta plus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{-1}}X^{-1}_{N{+1}} }\f$ the equation becomes:
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting a positron, \f$e^+\f$, through beta plus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{-1}}X^{-1}_{N{+1}} }\f$ the equation becomes:
     *
     *	\f[Q_{\beta^+} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A}_{Z{-1}}X_{N{+1}} }) + m(e^+)) - m(e^+)\right ) c^2\f]
     *	\f[Q_{\beta^+} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z{-1}}X_{N{+1}} }) - 2m(e^+)\right ) c^2\f]
@@ -273,7 +357,7 @@ namespace EGXPhys
 	*	To calculate the beta plus decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
 	*	\f[Q_{2\beta^+} = \left ( m_{initial}-m_{final}\right ) c^2\f]
 	*
-    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting two positrons, \f$e^+\f$, throught double beta plus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{-2}}X^{-2}_{N{+2}} }\f$ the equation becomes:
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting two positrons, \f$e^+\f$, through double beta plus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{-2}}X^{-2}_{N{+2}} }\f$ the equation becomes:
     *
     *	\f[Q_{2\beta^+} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A}_{Z{-2}}X_{N{+2}} }) + 2m(e^+)) - 2m(e^+)\right ) c^2\f]
     *	\f[Q_{2\beta^+} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z{-2}}X_{N{+2}} }) - 4m(e^+)\right ) c^2\f]
@@ -299,7 +383,7 @@ namespace EGXPhys
 	*	To calculate the beta plus decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
 	*	\f[Q_{2\beta^+} = \left ( m_{initial}-m_{final}\right ) c^2\f]
 	*
-    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting two positrons, \f$e^+\f$, throught double beta plus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{-2}}X^{-2}_{N{+2}} }\f$ the equation becomes:
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ emitting two positrons, \f$e^+\f$, through double beta plus decay and thereby producing an atom \f$\ce{ ^{A}_{Z{-2}}X^{-2}_{N{+2}} }\f$ the equation becomes:
     *
     *	\f[Q_{2\beta^+} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - (m(\ce{ ^{A}_{Z{-2}}X_{N{+2}} }) + 2m(e^+)) - 2m(e^+)\right ) c^2\f]
     *	\f[Q_{2\beta^+} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z{-2}}X_{N{+2}} }) - 4m(e^+)\right ) c^2\f]
@@ -317,15 +401,103 @@ namespace EGXPhys
     
     // -------------- Electron Capture ----------------------
     
+    /**
+    *	@brief Calculates the electron capture decay Q-value, \f$Q_{EC}\f$, of an electron capture nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+    *
+    *	The electron capture decay Q-value, \f$Q_{EC}\f$, is the energy released during a nuclear reaction undergoing electron capture. The Q-value can be positive, negative or zero.
+	*	For \f$Q_{EC} < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q_{EC} > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy. 
+	*
+	*	To calculate the electron capture decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
+	*	\f[Q_{EC} = \left ( m_{initial}-m_{final}\right ) c^2\f]
+	*
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ capturing an electron, \f$e\f$, orbiting around the atom and thereby producing an atom \f$\ce{ ^{A}_{Z-1}X_{N{+1}} }\f$ the equation becomes:
+    *
+    *	\f[Q_{EC} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z-1}X_{N{+1}} }) \right ) c^2\f]
+    *
+    *	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/
+    *
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+    *
+    *	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parent (initial) atom. The mass of the atom before electron capture has happened in unified atomic mass units.
+    *	@param massDaughterInu \f$m(\ce{ ^{A}_{Z-1}X_{N{+1}} })\ (u)\f$ Mass of daughter (produced) atom. The mass of the atom once it has undergone electron capture in unified atomic mass units.
+    *	@return \f$Q_{EC}\ (MeV)\f$ Electron capture decay Q-value. The energy in megaelectron volts released during the nuclear reaction where electron capture has occured.
+    */
     template<typename T>
     T QValueElectronCaptureDecayInMeV(const T& massParentInu, const T& massDaughterInu);
     
+    /**
+    *	@brief Calculates the electron capture decay Q-value, \f$Q_{EC}\f$, of an electron capture nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+    *
+    *	The electron capture decay Q-value, \f$Q_{EC}\f$, is the energy released during a nuclear reaction undergoing electron capture. The Q-value can be positive, negative or zero.
+	*	For \f$Q_{EC} < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q_{EC} > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy. 
+	*
+	*	To calculate the electron capture decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
+	*	\f[Q_{EC} = \left ( m_{initial}-m_{final}\right ) c^2\f]
+	*
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ capturing an electron, \f$e\f$, orbiting around the atom and thereby producing an atom \f$\ce{ ^{A}_{Z-1}X_{N{+1}} }\f$ the equation becomes:
+    *
+    *	\f[Q_{EC} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z-1}X_{N{+1}} }) \right ) c^2\f]
+    *
+    *	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/
+    *
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+    *
+    *	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parent (initial) atom. The mass of the atom before electron capture has happened in unified atomic mass units.
+    *	@param massDaughterInu \f$m(\ce{ ^{A}_{Z-1}X_{N{+1}} })\ (u)\f$ Mass of daughter (produced) atom. The mass of the atom once it has undergone electron capture in unified atomic mass units.
+    *	@return \f$Q_{EC}\ (J)\f$ Electron capture decay Q-value. The energy in joules released during the nuclear reaction where electron capture has occured.
+    */
 	template<typename T>
     T QValueElectronCaptureDecayInJ(const T& massParentInu, const T& massDaughterInu);
     
+    /**
+    *	@brief Calculates the double electron capture decay Q-value, \f$Q_{2EC}\f$, of a double electron capture nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+    *
+    *	The double electron capture decay Q-value, \f$Q_{2EC}\f$, is the energy released during a nuclear reaction undergoing double electron capture. The Q-value can be positive, negative or zero.
+	*	For \f$Q_{2EC} < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q_{2EC} > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy. 
+	*
+	*	To calculate the double electron capture decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
+	*	\f[Q_{2EC} = \left ( m_{initial}-m_{final}\right ) c^2\f]
+	*
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ capturing an electron, \f$e\f$, orbiting around the atom and thereby producing an atom \f$\ce{ ^{A}_{Z-2}X_{N{+2}} }\f$ the equation becomes:
+    *
+    *	\f[Q_{2EC} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z-2}X_{N{+2}} }) \right ) c^2\f]
+    *
+    *	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/
+    *
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+    *
+    *	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parent (initial) atom. The mass of the atom before double electron capture has happened in unified atomic mass units.
+    *	@param massDaughterInu \f$m(\ce{ ^{A}_{Z-2}X_{N{+2}} })\ (u)\f$ Mass of daughter (produced) atom. The mass of the atom once it has undergone double electron capture in unified atomic mass units.
+    *	@return \f$Q_{2EC}\ (MeV)\f$ Double electron capture decay Q-value. The energy in megaelectron volts released during the nuclear reaction where double electron capture has occured.
+    */
     template<typename T>
     T QValueDoubleElectronCaptureDecayInMeV(const T& massParentInu, const T& massDaughterInu);
     
+    /**
+    *	@brief Calculates the double electron capture decay Q-value, \f$Q_{2EC}\f$, of a double electron capture nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+    *
+    *	The double electron capture decay Q-value, \f$Q_{2EC}\f$, is the energy released during a nuclear reaction undergoing double electron capture. The Q-value can be positive, negative or zero.
+	*	For \f$Q_{2EC} < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q_{2EC} > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy. 
+	*
+	*	To calculate the double electron capture decay Q-value it is the initial mass \f$m_{initial}\f$ energy minus the final mass \f$m_{final}\f$ energy:
+	*	\f[Q_{2EC} = \left ( m_{initial}-m_{final}\right ) c^2\f]
+	*
+    *	For an atom \f$\ce{ ^{A}_{Z}X_{N} }\f$ capturing an electron, \f$e\f$, orbiting around the atom and thereby producing an atom \f$\ce{ ^{A}_{Z-2}X_{N{+2}} }\f$ the equation becomes:
+    *
+    *	\f[Q_{2EC} = \left ( m(\ce{ ^{A}_{Z}X_{N} }) - m(\ce{ ^{A}_{Z-2}X_{N{+2}} }) \right ) c^2\f]
+    *
+    *	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/
+    *
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+    *
+    *	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parent (initial) atom. The mass of the atom before double electron capture has happened in unified atomic mass units.
+    *	@param massDaughterInu \f$m(\ce{ ^{A}_{Z-2}X_{N{+2}} })\ (u)\f$ Mass of daughter (produced) atom. The mass of the atom once it has undergone double electron capture in unified atomic mass units.
+    *	@return \f$Q_{2EC}\ (J)\f$ Double electron capture decay Q-value. The energy in joules released during the nuclear reaction where double electron capture has occured.
+    */
     template<typename T>
     T QValueDoubleElectronCaptureDecayInJ(const T& massParentInu, const T& massDaughterInu);
     

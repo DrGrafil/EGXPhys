@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"group___apoapsis.html#gab002349e578241b3514f2212da9a7d48":[1,1,0,13],
+"group___apoapsis.html#gab61f3b2d6a5be3f62f5fb6dfdf802014":[1,1,0,20],
 "group___apoapsis.html#gac157adc20a88c8616e4822eb819f9016":[1,1,0,19],
 "group___apoapsis.html#gacc68b49812c38394611e1ef3a8bf0e3e":[1,1,0,16],
 "group___apoapsis.html#gae4ea146039e6f32022321f0998e715e8":[1,1,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "group___n_i_s_t_const-_inverse_meter.html#gafdede27a7699d3a180bb829b65fac447":[1,4,6,4,1],
 "group___n_i_s_t_const-_josephson_constant.html":[1,4,1,3],
 "group___n_i_s_t_const-_josephson_constant.html#gae9f3553a6a6c5eed3df61ad33277cab8":[1,4,1,3,0],
-"group___n_i_s_t_const-_joule.html":[1,4,6,5],
-"group___n_i_s_t_const-_joule.html#ga08ffcdfd701ba898a91b0cbdde4d0e2d":[1,4,6,5,1],
-"group___n_i_s_t_const-_joule.html#ga250f161277a6e581e695dccb7c11d1fb":[1,4,6,5,6]
+"group___n_i_s_t_const-_joule.html":[1,4,6,5]
 };

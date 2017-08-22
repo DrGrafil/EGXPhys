@@ -32,22 +32,22 @@ namespace EGXPhys{
     
     template<typename T>
     T QValueAlphaDecayInMeV(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - NISTConst::alphaParticleMassInu - massDaughterInu) * NISTConst::atomicMassConstantInMeVPercSquared;
+    	return (massParentInu - massDaughterInu - NISTConst::alphaParticleMassInu - 2.0 * NISTConst::electronMassInu) * NISTConst::atomicMassConstantInMeVPercSquared;
 	}
 	
 	template<typename T>
     T QValueAlphaDecayInJ(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - NISTConst::alphaParticleMassInu - massDaughterInu) * NISTConst::atomicMassConstantInJPercSquared;
+    	return (massParentInu - massDaughterInu - NISTConst::alphaParticleMassInu - 2.0 * NISTConst::electronMassInu) * NISTConst::atomicMassConstantInJPercSquared;
 	}	
     
     template<typename T>
     T QValueDoubleAlphaDecayInMeV(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - 2.0 * NISTConst::alphaParticleMassInu - massDaughterInu) * NISTConst::atomicMassConstantInMeVPercSquared;
+    	return (massParentInu - massDaughterInu - 2.0 * NISTConst::alphaParticleMassInu - 4.0 * NISTConst::electronMassInu) * NISTConst::atomicMassConstantInMeVPercSquared;
 	}
     
     template<typename T>
     T QValueDoubleAlphaDecayInJ(const T& massParentInu, const T& massDaughterInu){
-    	return (massParentInu - 2.0 * NISTConst::alphaParticleMassInu - massDaughterInu) * NISTConst::atomicMassConstantInJPercSquared;
+    	return (massParentInu - massDaughterInu - 2.0 * NISTConst::alphaParticleMassInu - 4.0 * NISTConst::electronMassInu) * NISTConst::atomicMassConstantInJPercSquared;
 	}
     
     // -------------- Beta Minus----------------------
@@ -98,16 +98,24 @@ namespace EGXPhys{
     // -------------- Electron Capture ----------------------
     
     template<typename T>
-    T QValueElectronCaptureDecayInMeV(const T& massParentInu, const T& massDaughterInu);
+    T QValueElectronCaptureDecayInMeV(const T& massParentInu, const T& massDaughterInu){
+    	return (massParentInu - massDaughterInu ) * NISTConst::atomicMassConstantInMeVPercSquared;
+	}
     
 	template<typename T>
-    T QValueElectronCaptureDecayInJ(const T& massParentInu, const T& massDaughterInu);
+    T QValueElectronCaptureDecayInJ(const T& massParentInu, const T& massDaughterInu){
+    	return (massParentInu - massDaughterInu ) * NISTConst::atomicMassConstantInJPercSquared;
+	}
     
     template<typename T>
-    T QValueDoubleElectronCaptureDecayInMeV(const T& massParentInu, const T& massDaughterInu);
+    T QValueDoubleElectronCaptureDecayInMeV(const T& massParentInu, const T& massDaughterInu){
+    	return (massParentInu - massDaughterInu ) * NISTConst::atomicMassConstantInMeVPercSquared;
+	}
     
     template<typename T>
-    T QValueDoubleElectronCaptureDecayInJ(const T& massParentInu, const T& massDaughterInu);
+    T QValueDoubleElectronCaptureDecayInJ(const T& massParentInu, const T& massDaughterInu){
+    	return (massParentInu - massDaughterInu ) * NISTConst::atomicMassConstantInJPercSquared;
+	}
     
     // -------------- Neutron ----------------------
     

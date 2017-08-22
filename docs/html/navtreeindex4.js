@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"group___n_i_s_t_const-_joule.html#ga08ffcdfd701ba898a91b0cbdde4d0e2d":[1,4,6,5,1],
+"group___n_i_s_t_const-_joule.html#ga250f161277a6e581e695dccb7c11d1fb":[1,4,6,5,6],
 "group___n_i_s_t_const-_joule.html#ga506f23a4b88678bd7ee6f1067e97aa83":[1,4,6,5,5],
 "group___n_i_s_t_const-_joule.html#ga6a8cba6b834ee62ab61671208b1ae9ee":[1,4,6,5,0],
 "group___n_i_s_t_const-_joule.html#ga6ac361417bc6b472bf80fcfef276d742":[1,4,6,5,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "group___periapsis.html#gafb16e46e55078b38604eef0d7c7c40c4":[1,1,1,11],
 "group___periapsis.html#gaff62669fb364a245cb85f9a91d8ea71f":[1,1,1,8],
 "group___plasma.html":[1,6],
-"group___q_value.html":[1,2,6],
-"group___q_value.html#ga0eefdd84aa89d210e00dca043368dfeb":[1,2,6,4],
-"group___q_value.html#ga42468e998cf58a027a676755aa1339ba":[1,2,6,1]
+"group___q_value.html":[1,2,6]
 };
