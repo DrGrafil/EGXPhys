@@ -24,7 +24,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup Astrophysics
+	/// @addtogroup EGXPhys-Astrophysics
 	/// @{
 	
     

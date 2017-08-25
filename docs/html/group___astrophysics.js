@@ -1,7 +1,5 @@
 var group___astrophysics =
 [
-    [ "Apoapsis", "group___apoapsis.html", "group___apoapsis" ],
-    [ "Periapsis", "group___periapsis.html", "group___periapsis" ],
     [ "blackbodyLuminosity", "group___astrophysics.html#ga909f82edfaed449b44e94788b642ebb8", null ],
     [ "CircumstellarHabitableZoneDistance", "group___astrophysics.html#gacf3a720793cdb27f6d93b170b44e81be", null ],
     [ "CircumstellarHabitableZoneInnerBoundary", "group___astrophysics.html#ga9ee2e8023cb444aa4638c962788b5853", null ],

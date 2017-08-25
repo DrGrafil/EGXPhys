@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['mass_20defect',['Mass Defect',['../group___mass_defect.html',1,'']]],
-  ['mass_20excess',['Mass Excess',['../group___mass_excess.html',1,'']]],
+  ['mass_20defect',['Mass Defect',['../group___e_g_x_phys-_mass_defect.html',1,'']]],
+  ['mass_20excess',['Mass Excess',['../group___e_g_x_phys-_mass_excess.html',1,'']]],
+  ['mean_20lifetime',['Mean Lifetime',['../group___e_g_x_phys-_mean_lifetime.html',1,'']]],
   ['magnetic_20constant',['Magnetic constant',['../group___n_i_s_t_const-_magnetic_constant.html',1,'']]],
   ['magnetic_20flux_20quantum',['Magnetic flux quantum',['../group___n_i_s_t_const-_magnetic_flux_quantum.html',1,'']]],
   ['molar_20gas_20constant',['Molar gas constant',['../group___n_i_s_t_const-_molar_gas_constant.html',1,'']]],

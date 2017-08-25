@@ -6,7 +6,8 @@
 /// @date 7/28/17
 
 
-/// @defgroup Optics Optics
+/// @defgroup EGXPhys-Optics Optics
+/// @ingroup EGXPhys-EGXPhys
 //=================================
 // Header guard
 #pragma once

@@ -1,0 +1,128 @@
+\hypertarget{group___lorentz_factor}{}\section{Lorentz\+Factor}
+\label{group___lorentz_factor}\index{Lorentz\+Factor@{Lorentz\+Factor}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___lorentz_factor_ga5f9b11c1f4c3ae26a7e64f02c22d5a75}{E\+G\+X\+Phys\+::\+Lorentz\+Factor} (const T \&velocity)
+\begin{DoxyCompactList}\small\item\em Calculates the Lorentz factor, $\gamma$. The factor by which time, length, and relativistic mass changes due to movement of an object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___lorentz_factor_ga1ea24128654ac333dd843afdd5c003b7}{E\+G\+X\+Phys\+::\+Lorentz\+Factor\+Via\+Momentum} (const T \&momentum, const T \&rest\+Mass)
+\begin{DoxyCompactList}\small\item\em Calculates the Lorentz factor, $\gamma$. The factor by which time, length, and relativistic mass changes due to movement of an object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___lorentz_factor_ga601de8c039be89a9abea22bc459436c9}{E\+G\+X\+Phys\+::\+Lorentz\+Factor\+Via\+Energy} (const T \&energy\+Total, const T \&energy\+Rest)
+\begin{DoxyCompactList}\small\item\em Calculates the Lorentz factor, $\gamma$. The factor by which time, length, and relativistic mass changes due to movement of an object. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___lorentz_factor_ga8064f5bce1d2ca5f7bc39d95ba4d2dd9}{E\+G\+X\+Phys\+::\+Lorentz\+Factor\+Via\+Rapidity} (const T \&rapidity)
+\begin{DoxyCompactList}\small\item\em Calculates the Lorentz factor, $\gamma$. The factor by which time, length, and relativistic mass changes due to movement of an object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___lorentz_factor_ga5f9b11c1f4c3ae26a7e64f02c22d5a75}\label{group___lorentz_factor_ga5f9b11c1f4c3ae26a7e64f02c22d5a75}} 
+\index{Lorentz\+Factor@{Lorentz\+Factor}!Lorentz\+Factor@{Lorentz\+Factor}}
+\index{Lorentz\+Factor@{Lorentz\+Factor}!Lorentz\+Factor@{Lorentz\+Factor}}
+\subsubsection{\texorpdfstring{Lorentz\+Factor()}{LorentzFactor()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Lorentz\+Factor (\begin{DoxyParamCaption}\item[{const T \&}]{velocity }\end{DoxyParamCaption})}
+
+
+
+Calculates the Lorentz factor, $\gamma$. The factor by which time, length, and relativistic mass changes due to movement of an object. 
+
+\[\gamma=\frac{1}{\sqrt{1-(\frac{v}{c})^2}}\] \[\gamma=\frac{1}{\sqrt{1-\beta^2}}\]
+
+See \href{https://en.wikipedia.org/wiki/Lorentz_factor}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Lorentz\+\_\+factor}
+
+Equation taken from
+
+
+\begin{DoxyParams}{Parameters}
+{\em velocity} & $v$ ( $\frac{m}{s})$ velocity of relativistic object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\gamma$ (dimensionless) Lorentz factor. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group___lorentz_factor_ga601de8c039be89a9abea22bc459436c9}\label{group___lorentz_factor_ga601de8c039be89a9abea22bc459436c9}} 
+\index{Lorentz\+Factor@{Lorentz\+Factor}!Lorentz\+Factor\+Via\+Energy@{Lorentz\+Factor\+Via\+Energy}}
+\index{Lorentz\+Factor\+Via\+Energy@{Lorentz\+Factor\+Via\+Energy}!Lorentz\+Factor@{Lorentz\+Factor}}
+\subsubsection{\texorpdfstring{Lorentz\+Factor\+Via\+Energy()}{LorentzFactorViaEnergy()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Lorentz\+Factor\+Via\+Energy (\begin{DoxyParamCaption}\item[{const T \&}]{energy\+Total,  }\item[{const T \&}]{energy\+Rest }\end{DoxyParamCaption})}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+\{
+        \textcolor{keywordflow}{return} sqrt(1.0+pow(momentum/(restMass*NISTConst::c),2.0)))
+\end{DoxyCode}
+
+
+Calculates the Lorentz factor, $\gamma$. The factor by which time, length, and relativistic mass changes due to movement of an object. 
+
+\[\gamma=\frac{E_{total}}{E_{rest}}\] \[\gamma=\frac{\gamma m_0 c^2}{m_0 c^2}\]
+
+See \href{https://en.wikipedia.org/wiki/Lorentz_factor}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Lorentz\+\_\+factor}
+
+Equation taken from
+
+
+\begin{DoxyParams}{Parameters}
+{\em energy\+Total} & $E_{total}$ ( $J)$ Total energy of relativistic object. \\
+\hline
+{\em energy\+Rest} & $E_{rest}$ ( $J)$ Rest energy of relativistic object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\gamma$ (dimensionless) Lorentz factor. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group___lorentz_factor_ga1ea24128654ac333dd843afdd5c003b7}\label{group___lorentz_factor_ga1ea24128654ac333dd843afdd5c003b7}} 
+\index{Lorentz\+Factor@{Lorentz\+Factor}!Lorentz\+Factor\+Via\+Momentum@{Lorentz\+Factor\+Via\+Momentum}}
+\index{Lorentz\+Factor\+Via\+Momentum@{Lorentz\+Factor\+Via\+Momentum}!Lorentz\+Factor@{Lorentz\+Factor}}
+\subsubsection{\texorpdfstring{Lorentz\+Factor\+Via\+Momentum()}{LorentzFactorViaMomentum()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Lorentz\+Factor\+Via\+Momentum (\begin{DoxyParamCaption}\item[{const T \&}]{momentum,  }\item[{const T \&}]{rest\+Mass }\end{DoxyParamCaption})}
+
+
+
+Calculates the Lorentz factor, $\gamma$. The factor by which time, length, and relativistic mass changes due to movement of an object. 
+
+\[\gamma=\sqrt{1+(\frac{p}{m_0 c})^2}\]
+
+See \href{https://en.wikipedia.org/wiki/Lorentz_factor}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Lorentz\+\_\+factor}
+
+Equation taken from
+
+
+\begin{DoxyParams}{Parameters}
+{\em momentum} & $p$ ( $\frac{kg m}{s})$ momentum of relativistic object. \\
+\hline
+{\em rest\+Mass} & $m_0$ ( $kg)$ Rest mass of relativisitc object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\gamma$ (dimensionless) Lorentz factor. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group___lorentz_factor_ga8064f5bce1d2ca5f7bc39d95ba4d2dd9}\label{group___lorentz_factor_ga8064f5bce1d2ca5f7bc39d95ba4d2dd9}} 
+\index{Lorentz\+Factor@{Lorentz\+Factor}!Lorentz\+Factor\+Via\+Rapidity@{Lorentz\+Factor\+Via\+Rapidity}}
+\index{Lorentz\+Factor\+Via\+Rapidity@{Lorentz\+Factor\+Via\+Rapidity}!Lorentz\+Factor@{Lorentz\+Factor}}
+\subsubsection{\texorpdfstring{Lorentz\+Factor\+Via\+Rapidity()}{LorentzFactorViaRapidity()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Lorentz\+Factor\+Via\+Rapidity (\begin{DoxyParamCaption}\item[{const T \&}]{rapidity }\end{DoxyParamCaption})}
+
+
+
+Calculates the Lorentz factor, $\gamma$. The factor by which time, length, and relativistic mass changes due to movement of an object. 
+
+\[\gamma=Cosh(w)\]
+
+See \href{https://en.wikipedia.org/wiki/Lorentz_factor}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Lorentz\+\_\+factor}
+
+Equation taken from
+
+
+\begin{DoxyParams}{Parameters}
+{\em rapidity} & $w$ (dimensionless) rapidity of relativistic object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\gamma$ (dimensionless) Lorentz factor. 
+\end{DoxyReturn}

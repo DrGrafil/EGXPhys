@@ -6,7 +6,8 @@
 /// @date 7/28/17
 
 
-/// @defgroup Plasma Plasma
+/// @defgroup EGXPhys-Plasma Plasma
+/// @ingroup EGXPhys-EGXPhys
 //=================================
 // Header guard
 #pragma once

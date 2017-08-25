@@ -1,0 +1,57 @@
+\hypertarget{group___e_g_x_phys-_redshift}{}\section{Redshift}
+\label{group___e_g_x_phys-_redshift}\index{Redshift@{Redshift}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___e_g_x_phys-_redshift_ga29300a13e34da35332ca2d447b5ce82d}{E\+G\+X\+Phys\+::redshift\+By\+Wavelength} (const T \&wavelength\+Observed, const T \&wavelength\+Emitted)
+\begin{DoxyCompactList}\small\item\em Calculates the redshift, $z$, of light based on wavelenght. Redshifts occur when $z > 0$, blueshifts when $z < 0$. See \href{https://en.wikipedia.org/wiki/Redshift}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Redshift}. \[z=\frac{\lambda_{observed}-\lambda_{emitted}}{\lambda_{emitted}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \hyperlink{group___e_g_x_phys-_redshift_gacc6d3b2922061214d64b89a4b8e3967a}{E\+G\+X\+Phys\+::redshift\+By\+Frequency} (const T \&frequency\+Observed, const T \&frequency\+Emitted)
+\begin{DoxyCompactList}\small\item\em Calculates the redshift, $z$, of light based on frequency. Redshifts occur when $z > 0$, blueshifts when $z < 0$. See \href{https://en.wikipedia.org/wiki/Redshift}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Redshift}. \[z=\frac{f_{emitted}-f_{observed}}{f_{observed}}\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calculates the redshift, $z$, of light. 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_redshift_gacc6d3b2922061214d64b89a4b8e3967a}\label{group___e_g_x_phys-_redshift_gacc6d3b2922061214d64b89a4b8e3967a}} 
+\index{Redshift@{Redshift}!redshift\+By\+Frequency@{redshift\+By\+Frequency}}
+\index{redshift\+By\+Frequency@{redshift\+By\+Frequency}!Redshift@{Redshift}}
+\subsubsection{\texorpdfstring{redshift\+By\+Frequency()}{redshiftByFrequency()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::redshift\+By\+Frequency (\begin{DoxyParamCaption}\item[{const T \&}]{frequency\+Observed,  }\item[{const T \&}]{frequency\+Emitted }\end{DoxyParamCaption})}
+
+
+
+Calculates the redshift, $z$, of light based on frequency. Redshifts occur when $z > 0$, blueshifts when $z < 0$. See \href{https://en.wikipedia.org/wiki/Redshift}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Redshift}. \[z=\frac{f_{emitted}-f_{observed}}{f_{observed}}\]. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em frequency\+Observed} & $f_{observed}\ (m)$ is the observed frequency of light. \\
+\hline
+{\em frequency\+Emitted} & $f_{emitted}\ (m)$ is the emitted frequency of light. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$z$(dimensionless) redshift of the observed light. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group___e_g_x_phys-_redshift_ga29300a13e34da35332ca2d447b5ce82d}\label{group___e_g_x_phys-_redshift_ga29300a13e34da35332ca2d447b5ce82d}} 
+\index{Redshift@{Redshift}!redshift\+By\+Wavelength@{redshift\+By\+Wavelength}}
+\index{redshift\+By\+Wavelength@{redshift\+By\+Wavelength}!Redshift@{Redshift}}
+\subsubsection{\texorpdfstring{redshift\+By\+Wavelength()}{redshiftByWavelength()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::redshift\+By\+Wavelength (\begin{DoxyParamCaption}\item[{const T \&}]{wavelength\+Observed,  }\item[{const T \&}]{wavelength\+Emitted }\end{DoxyParamCaption})}
+
+
+
+Calculates the redshift, $z$, of light based on wavelenght. Redshifts occur when $z > 0$, blueshifts when $z < 0$. See \href{https://en.wikipedia.org/wiki/Redshift}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Redshift}. \[z=\frac{\lambda_{observed}-\lambda_{emitted}}{\lambda_{emitted}}\]. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wavelength\+Observed} & $\lambda_{observed}\ (m)$ is the observed wavelength of light. \\
+\hline
+{\em wavelength\+Emitted} & $\lambda_{emitted}\ (m)$ is the emitted wavelength of light. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$z$(dimensionless) redshift of the observed light. 
+\end{DoxyReturn}

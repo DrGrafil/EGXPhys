@@ -5,6 +5,9 @@
 /// @author Elliot Grafil (Metex)
 /// @date 7/28/17
 
+/// @defgroup EGXPhys-Redshift Redshift
+/// @ingroup EGXPhys-Optics
+/// Calculates the redshift, \f$z\f$, of light.
 
 //=================================
 // Header guard
@@ -21,7 +24,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup Optics
+	/// @addtogroup EGXPhys-Redshift
 	/// @{
     
 	/** 

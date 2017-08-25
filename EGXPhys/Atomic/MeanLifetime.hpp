@@ -5,6 +5,9 @@
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
 
+/// @defgroup EGXPhys-MeanLifetime Mean Lifetime
+/// @ingroup EGXPhys-Atomic
+/// Calculates the mean lifetime, \f$\tau\f$, of a radioactive decay.
 
 //=================================
 // Header guard
@@ -21,7 +24,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Atomic
+	/// @addtogroup EGXPhys-MeanLifetime
 	/// @{
 
     /** 

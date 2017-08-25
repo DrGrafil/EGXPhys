@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 8/13/17
 
-/// @defgroup MassExcess Mass Excess
-/// @ingroup Atomic
+/// @defgroup EGXPhys-MassExcess Mass Excess
+/// @ingroup EGXPhys-Atomic
 /// Calculates the mass excess, \f$\text{Mass excess}\f$, of an atom.
 
 //=================================
@@ -24,7 +24,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup MassExcess
+	/// @addtogroup EGXPhys-MassExcess
 	/// @{
 
 	/** 

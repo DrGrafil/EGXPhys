@@ -7,6 +7,10 @@
 
 /// @todo Add more models for Seff. https://en.wikipedia.org/wiki/Circumstellar_habitable_zone lists way more models
 
+/// @defgroup EGXPhys-CircumstellarHabitableZone Circumstellar Habitable Zone
+/// @ingroup EGXPhys-Astrophysics
+/// Calculates the Circumstellar Habitable Zone, \f$CHZ\f$, of a star.
+
 //=================================
 // Header guard
 #pragma once
@@ -22,7 +26,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Astrophysics
+	/// @addtogroup EGXPhys-CircumstellarHabitableZone
 	/// @{
 
     /** 

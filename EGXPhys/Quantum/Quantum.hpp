@@ -6,7 +6,8 @@
 /// @date 7/28/17
 
 
-/// @defgroup Quantum Quantum
+/// @defgroup EGXPhys-Quantum Quantum
+/// @ingroup EGXPhys-EGXPhys
 //=================================
 // Header guard
 #pragma once

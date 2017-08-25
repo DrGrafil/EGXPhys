@@ -27,5 +27,5 @@ var searchData=
   ['hertztojoule',['hertzToJoule',['../group___n_i_s_t_const-_hertz.html#ga827c4e99287fcd5363fabcfe1381cc37',1,'NISTConst']]],
   ['hertztokelvin',['hertzToKelvin',['../group___n_i_s_t_const-_hertz.html#gacda137a5d10ebba59b340d770802678f',1,'NISTConst']]],
   ['hertztokilogram',['hertzToKilogram',['../group___n_i_s_t_const-_hertz.html#ga7b63758ab74cb80c236d4eacd5b89484',1,'NISTConst']]],
-  ['hour',['hour',['../namespace_e_g_x_phys.html#a85c64ea70cddbb7e4c96adcc01cef6e2',1,'EGXPhys']]]
+  ['hour',['hour',['../_e_g_x_phys_constants_8hpp.html#a85c64ea70cddbb7e4c96adcc01cef6e2',1,'EGXPhys']]]
 ];

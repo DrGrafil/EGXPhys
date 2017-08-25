@@ -11,8 +11,8 @@
 /// @date 8/18/17
 /// @todo Decide if we are ok with variadic templates C++11 or do we want to keep it to 98
 
-/// @defgroup QValue Q-Value
-/// @ingroup Atomic
+/// @defgroup EGXPhys-QValue Q-Value
+/// @ingroup EGXPhys-Atomic
 /// Calculates the Q-value, \f$Q\f$, of a nuclear reaction.
 
 //=================================
@@ -30,7 +30,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup QValue
+	/// @addtogroup EGXPhys-QValue
 	/// @{
     
     /**

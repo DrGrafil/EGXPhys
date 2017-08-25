@@ -6,8 +6,8 @@
 /// @date 8/17/17
 /// @todo: Add better see links.
 
-/// @defgroup NuclearSeparationEnergy Separation Energy
-/// @ingroup Atomic
+/// @defgroup EGXPhys-NuclearSeparationEnergy Separation Energy
+/// @ingroup EGXPhys-Atomic
 /// Calculates the Separation Energy, \f$S\f$, of a radioactive substance.
 
 //=================================
@@ -25,7 +25,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup NuclearSeparationEnergy
+	/// @addtogroup EGXPhys-NuclearSeparationEnergy
 	/// @{
     
     /**

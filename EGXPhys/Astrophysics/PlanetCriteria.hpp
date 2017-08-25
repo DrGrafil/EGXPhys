@@ -5,15 +5,15 @@
 /// @author Elliot Grafil (Metex)
 /// @date 7/31/17
 
+/// @defgroup EGXPhys-PlanetSimilarityIndex Planet Similarity Index
+/// @ingroup EGXPhys-Astrophysics
+/// Calculates Planet Similarity Index (\f$PSI)\f$ of a planet.
 
 //=================================
 // Header guard
 #pragma once
 //=================================
 // Included dependencies
-#include <math.h>  
-
-#include "AstrophysicsConstants.hpp"
 
 //=================================
 // Forward declared dependencies
@@ -24,7 +24,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup Astrophysics
+	/// @addtogroup EGXPhys-PlanetSimilarityIndex
 	/// @{
 	
 	/** 

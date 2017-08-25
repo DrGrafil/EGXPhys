@@ -5,6 +5,9 @@
 /// @author Elliot Grafil (Metex)
 /// @date 8/2/17
 
+/// @defgroup EGXPhys-LorentzFactor Lorentz factor
+/// @ingroup EGXPhys-Relativity
+/// Calculates the Lorentz factor, \f$\gamma\f$, of relativistic motion.
 
 //=================================
 // Header guard
@@ -22,7 +25,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Relativity
+	/// @addtogroup EGXPhys-LorentzFactor
 	/// @{
 
 	/** 

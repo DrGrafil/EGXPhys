@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['blackbodyluminosity',['blackbodyLuminosity',['../group___astrophysics.html#ga909f82edfaed449b44e94788b642ebb8',1,'EGXPhys']]],
+  ['blackbodyluminosity',['blackbodyLuminosity',['../group___e_g_x_phys-_circumstellar_habitable_zone.html#ga909f82edfaed449b44e94788b642ebb8',1,'EGXPhys']]],
   ['bohrmagneton',['BohrMagneton',['../group___n_i_s_t_const-_bohr_magneton.html#gaace59be8951a23257cedcbef8f320c66',1,'NISTConst']]],
   ['bohrmagnetoninevpert',['BohrMagnetonIneVPerT',['../group___n_i_s_t_const-_bohr_magneton.html#ga8b97d10b13a2c5de4f0d268370bc3c50',1,'NISTConst']]],
   ['bohrmagnetoninhzpert',['BohrMagnetonInHzPerT',['../group___n_i_s_t_const-_bohr_magneton.html#ga0c3cc268d0e1abc4703ea8f2c11ccab8',1,'NISTConst']]],
@@ -11,9 +11,9 @@ var searchData=
   ['boltzmannconstantinevperk',['BoltzmannConstantIneVPerK',['../group___n_i_s_t_const-_boltzmann_constant.html#gad31ba56bbe6d4a0f40252ef7b48b52a3',1,'NISTConst']]],
   ['boltzmannconstantinhzperk',['BoltzmannConstantInHzPerK',['../group___n_i_s_t_const-_boltzmann_constant.html#ga5c59003e6fbd70482ee1bdaf7ea35b7a',1,'NISTConst']]],
   ['boltzmannconstantininversemk',['BoltzmannConstantInInversemK',['../group___n_i_s_t_const-_boltzmann_constant.html#ga4f4d8adf824657420f54680daa6340d5',1,'NISTConst']]],
-  ['bondalbedoofearth',['BondAlbedoOfEarth',['../namespace_e_g_x_phys.html#a932fff28fce4321fdbf9abc5c1783dc9',1,'EGXPhys']]],
+  ['bondalbedoofearth',['BondAlbedoOfEarth',['../_astrophysics_constants_8hpp.html#a932fff28fce4321fdbf9abc5c1783dc9',1,'EGXPhys']]],
+  ['binding_20energy',['Binding Energy',['../group___e_g_x_phys-_nuclear_binding_energy.html',1,'']]],
   ['bohr_20magneton',['Bohr magneton',['../group___n_i_s_t_const-_bohr_magneton.html',1,'']]],
   ['bohr_20radius',['Bohr radius',['../group___n_i_s_t_const-_bohr_radius.html',1,'']]],
-  ['boltzmann_20constant',['Boltzmann constant',['../group___n_i_s_t_const-_boltzmann_constant.html',1,'']]],
-  ['binding_20energy',['Binding Energy',['../group___nuclear_binding_energy.html',1,'']]]
+  ['boltzmann_20constant',['Boltzmann constant',['../group___n_i_s_t_const-_boltzmann_constant.html',1,'']]]
 ];

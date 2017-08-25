@@ -5,6 +5,9 @@
 /// @author Elliot Grafil (Metex)
 /// @date 7/25/17
 
+/// @defgroup EGXPhys-CircumstellarHabitableZone Circumstellar Habitable Zone
+/// @ingroup EGXPhys-Astrophysics
+/// Calculates the luminosity, \f$L\f$, of a star.
 
 //=================================
 // Header guard
@@ -24,7 +27,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Astrophysics
+	/// @addtogroup EGXPhys-CircumstellarHabitableZone
 	/// @{
 
 	/** 

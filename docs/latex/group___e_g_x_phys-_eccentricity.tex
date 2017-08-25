@@ -1,0 +1,50 @@
+\hypertarget{group___e_g_x_phys-_eccentricity}{}\section{Eccentricity}
+\label{group___e_g_x_phys-_eccentricity}\index{Eccentricity@{Eccentricity}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\\hyperlink{group___e_g_x_phys-_eccentricity_gad0a4e49f20aeb01bd7d4c6b6171f7732}{E\+G\+X\+Phys\+::\+Orbital\+Eccentricity\+From\+Apoapsis} (const T \&apoapsis, const T \&semi\+Major\+Axis)
+\begin{DoxyCompactList}\small\item\em Calculates eccentricity, $e$, of an orbit. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___e_g_x_phys-_eccentricity_gab7ac8f2a73c0719282af3b1b5ef21c33}\label{group___e_g_x_phys-_eccentricity_gab7ac8f2a73c0719282af3b1b5ef21c33}} 
+{\footnotesize template$<$typename T $>$ }\\{\bfseries E\+G\+X\+Phys\+::\+Orbital\+Eccentricity\+From\+Periapsis} (const T \&periapsis, const T \&semi\+Major\+Axis)
+\item 
+\mbox{\Hypertarget{group___e_g_x_phys-_eccentricity_ga3daa9333997e570655a2c9a798633fc1}\label{group___e_g_x_phys-_eccentricity_ga3daa9333997e570655a2c9a798633fc1}} 
+{\footnotesize template$<$typename T $>$ }\\{\bfseries E\+G\+X\+Phys\+::\+Orbital\+Eccentricity} (const T \&semi\+Major\+Axis, const T \&semi\+Minor\+Axis)
+\item 
+\mbox{\Hypertarget{group___e_g_x_phys-_eccentricity_ga8e98f895819e4fb56ce6bc99b4dfd5a1}\label{group___e_g_x_phys-_eccentricity_ga8e98f895819e4fb56ce6bc99b4dfd5a1}} 
+{\footnotesize template$<$typename T $>$ }\\{\bfseries E\+G\+X\+Phys\+::\+Orbital\+Eccentricity} (const T \&specific\+Orbital\+Energy, const T \&standard\+Gravitational\+Parameter, const T \&specific\+Relative\+Angular\+Momentum)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calculates eccentricity of an orbit. 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_eccentricity_gad0a4e49f20aeb01bd7d4c6b6171f7732}\label{group___e_g_x_phys-_eccentricity_gad0a4e49f20aeb01bd7d4c6b6171f7732}} 
+\index{Eccentricity@{Eccentricity}!Orbital\+Eccentricity\+From\+Apoapsis@{Orbital\+Eccentricity\+From\+Apoapsis}}
+\index{Orbital\+Eccentricity\+From\+Apoapsis@{Orbital\+Eccentricity\+From\+Apoapsis}!Eccentricity@{Eccentricity}}
+\subsubsection{\texorpdfstring{Orbital\+Eccentricity\+From\+Apoapsis()}{OrbitalEccentricityFromApoapsis()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+E\+G\+X\+Phys\+::\+Orbital\+Eccentricity\+From\+Apoapsis (\begin{DoxyParamCaption}\item[{const T \&}]{apoapsis,  }\item[{const T \&}]{semi\+Major\+Axis }\end{DoxyParamCaption})}
+
+
+
+Calculates eccentricity, $e$, of an orbit. 
+
+The eccentricity of an orbit is the distance at which an orbiting object is farthest away from the body it is orbiting. \[e = \frac{r_a}{a}-1.0)\] See \href{http://mathworld.wolfram.com/Eccentricity.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Eccentricity.\+html} and \href{https://en.wikipedia.org/wiki/Orbital_eccentricity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+eccentricity}
+
+Equation taken
+
+
+\begin{DoxyParams}{Parameters}
+{\em orbital\+Eccentricity} & $e\ (1)$ Orbital eccentricity. The amount by which its orbit around another body deviates from a perfect circle. $e=0$ is circular, $ 0<e<1$ is elliptical and $e>1$ is hyperbola. See \href{https://en.wikipedia.org/wiki/Orbital_eccentricity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+eccentricity}. \\
+\hline
+{\em semimajor\+Axis} & $a\ (m)$ Semi-\/major Axis of orbit in meters. It is the line segment from the center of the orbit to the widest point in the perimiter. See \href{https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Semi-\/major\+\_\+and\+\_\+semi-\/minor\+\_\+axes}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$r_a\ (m)$ Apoapsis. The distance at which an orbiting object is farthest away from the body it is orbiting in meters. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group___e_g_x_phys-_apoapsis_gaf962e650bf84a568458e8eb39b1c61ba}{Apoapsis()} alternative name. 
+\end{DoxySeeAlso}

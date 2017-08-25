@@ -1,0 +1,171 @@
+\hypertarget{group___e_g_x_phys-_mass_excess}{}\section{Mass Excess}
+\label{group___e_g_x_phys-_mass_excess}\index{Mass Excess@{Mass Excess}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 \hyperlink{group___e_g_x_phys-_mass_excess_ga61c6f557bd742126c0c76e88cf7740ad}{E\+G\+X\+Phys\+::\+Mass\+Excess\+Inu} (const T \&mass\+Number, const T2 \&mass\+Atom\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the mass excess, $\text{Mass excess}$, of an atom in unified atomic mass units. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 \hyperlink{group___e_g_x_phys-_mass_excess_ga99a93b88df3425b7a153c32c05fa5a88}{E\+G\+X\+Phys\+::\+Mass\+Excess\+In\+Me\+V\+Perc\+Squared} (const T \&mass\+Number, const T2 \&mass\+Atom\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the mass excess, $\text{Mass excess}$, of an atom in megaelectron volts per speed of light squared. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 \hyperlink{group___e_g_x_phys-_mass_excess_gab72a3640886092be8b9c9662020a2306}{E\+G\+X\+Phys\+::\+Mass\+Excess\+Inkg} (const T \&mass\+Number, const T2 \&mass\+Atom\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the mass excess, $\text{Mass excess}$, of an atom in kilograms. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T2 \hyperlink{group___e_g_x_phys-_mass_excess_ga3eb487f438543e950b9c5aece4c5b409}{E\+G\+X\+Phys\+::\+Mass\+Excess\+In\+J\+Perc\+Squared} (const T \&mass\+Number, const T2 \&mass\+Atom\+Inu)
+\begin{DoxyCompactList}\small\item\em Calculates the mass excess, $\text{Mass excess}$, of an atom in joules per speed of light squared. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calculates the mass excess, $\text{Mass excess}$, of an atom. 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_mass_excess_ga3eb487f438543e950b9c5aece4c5b409}\label{group___e_g_x_phys-_mass_excess_ga3eb487f438543e950b9c5aece4c5b409}} 
+\index{Mass Excess@{Mass Excess}!Mass\+Excess\+In\+J\+Perc\+Squared@{Mass\+Excess\+In\+J\+Perc\+Squared}}
+\index{Mass\+Excess\+In\+J\+Perc\+Squared@{Mass\+Excess\+In\+J\+Perc\+Squared}!Mass Excess@{Mass Excess}}
+\subsubsection{\texorpdfstring{Mass\+Excess\+In\+J\+Perc\+Squared()}{MassExcessInJPercSquared()}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+T2 E\+G\+X\+Phys\+::\+Mass\+Excess\+In\+J\+Perc\+Squared (\begin{DoxyParamCaption}\item[{const T \&}]{mass\+Number,  }\item[{const T2 \&}]{mass\+Atom\+Inu }\end{DoxyParamCaption})}
+
+
+
+Calculates the mass excess, $\text{Mass excess}$, of an atom in joules per speed of light squared. 
+
+The mass excess is the difference between a nucleus actual mass, $m({^A_ZX})$, and its mass number, $A$. \[\text{Mass excess} = m({^A_ZX}) - A\]
+
+It is sometimes confused with mass defect.
+
+See \href{http://www.science.uwaterloo.ca/~cchieh/cact/nuctek/nuclideunstable.html}{\tt http\+://www.\+science.\+uwaterloo.\+ca/$\sim$cchieh/cact/nuctek/nuclideunstable.\+html} and \href{https://en.wikipedia.org/wiki/Mass_excess}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Mass\+\_\+excess}
+
+Equation taken from \char`\"{}\+N\+U\+C\+L\+E\+A\+R P\+H\+Y\+S\+I\+C\+S\+: P\+R\+O\+B\+L\+E\+M-\/\+B\+A\+S\+E\+D A\+P\+P\+R\+O\+A\+C\+H I\+N\+C\+L\+U\+D\+I\+N\+G M\+A\+T\+L\+A\+B\char`\"{} (Agrawl, 1987), p. 19 and \char`\"{}\+The Ame2016 atomic mass evaluation\char`\"{} (Wang, 2017) p. 6 \href{https://doi.org/10.1088/1674-1137/41/3/030003}{\tt https\+://doi.\+org/10.\+1088/1674-\/1137/41/3/030003}
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass\+Number} & $A\ (1)$ Mass number. The number of protons and neutrons in the nucleus of an atom. \\
+\hline
+{\em mass\+Atom\+Inu} & $m({^A_ZX})\ (u)$ Mass of nucleus. The mass of the nucleus in unified atomic mass units. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\text{Mass excess}\ (\frac{J}{c^2})$ Mass excess. The difference between a nucleus actual mass and its mass number. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+Mass\+Defect\+Inu() to calculate mass defect, $\Delta m$ in megaelectron volts per speed of light squared. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_ga61c6f557bd742126c0c76e88cf7740ad}{Mass\+Excess\+Inu()} to calculate mass excess, $\text{Mass excess}$ in unified atomic mass units. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_ga99a93b88df3425b7a153c32c05fa5a88}{Mass\+Excess\+In\+Me\+V\+Perc\+Squared()} to calculate mass excess, $\text{Mass excess}$ in megaelectron volts per speed of light squared. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_gab72a3640886092be8b9c9662020a2306}{Mass\+Excess\+Inkg()} to calculate mass excess, $\text{Mass excess}$ in kilograms. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_mass_excess_gab72a3640886092be8b9c9662020a2306}\label{group___e_g_x_phys-_mass_excess_gab72a3640886092be8b9c9662020a2306}} 
+\index{Mass Excess@{Mass Excess}!Mass\+Excess\+Inkg@{Mass\+Excess\+Inkg}}
+\index{Mass\+Excess\+Inkg@{Mass\+Excess\+Inkg}!Mass Excess@{Mass Excess}}
+\subsubsection{\texorpdfstring{Mass\+Excess\+Inkg()}{MassExcessInkg()}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+T2 E\+G\+X\+Phys\+::\+Mass\+Excess\+Inkg (\begin{DoxyParamCaption}\item[{const T \&}]{mass\+Number,  }\item[{const T2 \&}]{mass\+Atom\+Inu }\end{DoxyParamCaption})}
+
+
+
+Calculates the mass excess, $\text{Mass excess}$, of an atom in kilograms. 
+
+The mass excess is the difference between a nucleus actual mass, $m({^A_ZX})$, and its mass number, $A$. \[\text{Mass excess} = m({^A_ZX}) - A\]
+
+It is sometimes confused with mass defect.
+
+See \href{http://www.science.uwaterloo.ca/~cchieh/cact/nuctek/nuclideunstable.html}{\tt http\+://www.\+science.\+uwaterloo.\+ca/$\sim$cchieh/cact/nuctek/nuclideunstable.\+html} and \href{https://en.wikipedia.org/wiki/Mass_excess}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Mass\+\_\+excess}
+
+Equation taken from \char`\"{}\+N\+U\+C\+L\+E\+A\+R P\+H\+Y\+S\+I\+C\+S\+: P\+R\+O\+B\+L\+E\+M-\/\+B\+A\+S\+E\+D A\+P\+P\+R\+O\+A\+C\+H I\+N\+C\+L\+U\+D\+I\+N\+G M\+A\+T\+L\+A\+B\char`\"{} (Agrawl, 1987), p. 19 and \char`\"{}\+The Ame2016 atomic mass evaluation\char`\"{} (Wang, 2017) p. 6 \href{https://doi.org/10.1088/1674-1137/41/3/030003}{\tt https\+://doi.\+org/10.\+1088/1674-\/1137/41/3/030003}
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass\+Number} & $A\ (1)$ Mass number. The number of protons and neutrons in the nucleus of an atom. \\
+\hline
+{\em mass\+Atom\+Inu} & $m({^A_ZX})\ (u)$ Mass of nucleus. The mass of the nucleus in unified atomic mass units. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\text{Mass excess}\ (kg)$ Mass excess. The difference between a nucleus actual mass and its mass number. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+Mass\+Defect\+Inu() to calculate mass defect, $\Delta m$ in megaelectron volts per speed of light squared. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_ga61c6f557bd742126c0c76e88cf7740ad}{Mass\+Excess\+Inu()} to calculate mass excess, $\text{Mass excess}$ in unified atomic mass units. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_ga99a93b88df3425b7a153c32c05fa5a88}{Mass\+Excess\+In\+Me\+V\+Perc\+Squared()} to calculate mass excess, $\text{Mass excess}$ in megaelectron volts per speed of light squared. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_ga3eb487f438543e950b9c5aece4c5b409}{Mass\+Excess\+In\+J\+Perc\+Squared()} to calculate mass excess, $\text{Mass excess}$ in joules per speed of light squared. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_mass_excess_ga99a93b88df3425b7a153c32c05fa5a88}\label{group___e_g_x_phys-_mass_excess_ga99a93b88df3425b7a153c32c05fa5a88}} 
+\index{Mass Excess@{Mass Excess}!Mass\+Excess\+In\+Me\+V\+Perc\+Squared@{Mass\+Excess\+In\+Me\+V\+Perc\+Squared}}
+\index{Mass\+Excess\+In\+Me\+V\+Perc\+Squared@{Mass\+Excess\+In\+Me\+V\+Perc\+Squared}!Mass Excess@{Mass Excess}}
+\subsubsection{\texorpdfstring{Mass\+Excess\+In\+Me\+V\+Perc\+Squared()}{MassExcessInMeVPercSquared()}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+T2 E\+G\+X\+Phys\+::\+Mass\+Excess\+In\+Me\+V\+Perc\+Squared (\begin{DoxyParamCaption}\item[{const T \&}]{mass\+Number,  }\item[{const T2 \&}]{mass\+Atom\+Inu }\end{DoxyParamCaption})}
+
+
+
+Calculates the mass excess, $\text{Mass excess}$, of an atom in megaelectron volts per speed of light squared. 
+
+The mass excess is the difference between a nucleus actual mass, $m({^A_ZX})$, and its mass number, $A$. \[\text{Mass excess} = m({^A_ZX}) - A\]
+
+It is sometimes confused with mass defect.
+
+See \href{http://www.science.uwaterloo.ca/~cchieh/cact/nuctek/nuclideunstable.html}{\tt http\+://www.\+science.\+uwaterloo.\+ca/$\sim$cchieh/cact/nuctek/nuclideunstable.\+html} and \href{https://en.wikipedia.org/wiki/Mass_excess}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Mass\+\_\+excess}
+
+Equation taken from \char`\"{}\+N\+U\+C\+L\+E\+A\+R P\+H\+Y\+S\+I\+C\+S\+: P\+R\+O\+B\+L\+E\+M-\/\+B\+A\+S\+E\+D A\+P\+P\+R\+O\+A\+C\+H I\+N\+C\+L\+U\+D\+I\+N\+G M\+A\+T\+L\+A\+B\char`\"{} (Agrawl, 1987), p. 19 and \char`\"{}\+The Ame2016 atomic mass evaluation\char`\"{} (Wang, 2017) p. 6 \href{https://doi.org/10.1088/1674-1137/41/3/030003}{\tt https\+://doi.\+org/10.\+1088/1674-\/1137/41/3/030003}
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass\+Number} & $A\ (1)$ Mass number. The number of protons and neutrons in the nucleus of an atom. \\
+\hline
+{\em mass\+Atom\+Inu} & $m({^A_ZX})\ (u)$ Mass of nucleus. The mass of the nucleus in unified atomic mass units. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\text{Mass excess}\ (\frac{MeV}{c^2})$ Mass excess. The difference between a nucleus actual mass and its mass number. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+Mass\+Defect\+Inu() to calculate mass defect, $\Delta m$ in megaelectron volts per speed of light squared. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_ga61c6f557bd742126c0c76e88cf7740ad}{Mass\+Excess\+Inu()} to calculate mass excess, $\text{Mass excess}$ in unified atomic mass units. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_gab72a3640886092be8b9c9662020a2306}{Mass\+Excess\+Inkg()} to calculate mass excess, $\text{Mass excess}$ in kilograms. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_ga3eb487f438543e950b9c5aece4c5b409}{Mass\+Excess\+In\+J\+Perc\+Squared()} to calculate mass excess, $\text{Mass excess}$ in joules per speed of light squared. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_mass_excess_ga61c6f557bd742126c0c76e88cf7740ad}\label{group___e_g_x_phys-_mass_excess_ga61c6f557bd742126c0c76e88cf7740ad}} 
+\index{Mass Excess@{Mass Excess}!Mass\+Excess\+Inu@{Mass\+Excess\+Inu}}
+\index{Mass\+Excess\+Inu@{Mass\+Excess\+Inu}!Mass Excess@{Mass Excess}}
+\subsubsection{\texorpdfstring{Mass\+Excess\+Inu()}{MassExcessInu()}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+T2 E\+G\+X\+Phys\+::\+Mass\+Excess\+Inu (\begin{DoxyParamCaption}\item[{const T \&}]{mass\+Number,  }\item[{const T2 \&}]{mass\+Atom\+Inu }\end{DoxyParamCaption})}
+
+
+
+Calculates the mass excess, $\text{Mass excess}$, of an atom in unified atomic mass units. 
+
+The mass excess is the difference between a nucleus actual mass, $m({^A_ZX})$, and its mass number, $A$. \[\text{Mass excess} = m({^A_ZX}) - A\]
+
+It is sometimes confused with mass defect.
+
+See \href{http://www.science.uwaterloo.ca/~cchieh/cact/nuctek/nuclideunstable.html}{\tt http\+://www.\+science.\+uwaterloo.\+ca/$\sim$cchieh/cact/nuctek/nuclideunstable.\+html} and \href{https://en.wikipedia.org/wiki/Mass_excess}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Mass\+\_\+excess}
+
+Equation taken from \char`\"{}\+N\+U\+C\+L\+E\+A\+R P\+H\+Y\+S\+I\+C\+S\+: P\+R\+O\+B\+L\+E\+M-\/\+B\+A\+S\+E\+D A\+P\+P\+R\+O\+A\+C\+H I\+N\+C\+L\+U\+D\+I\+N\+G M\+A\+T\+L\+A\+B\char`\"{} (Agrawl, 1987), p. 19 and \char`\"{}\+The Ame2016 atomic mass evaluation\char`\"{} (Wang, 2017) p. 6 \href{https://doi.org/10.1088/1674-1137/41/3/030003}{\tt https\+://doi.\+org/10.\+1088/1674-\/1137/41/3/030003}
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass\+Number} & $A\ (1)$ Mass number. The number of protons and neutrons in the nucleus of an atom. \\
+\hline
+{\em mass\+Atom\+Inu} & $m({^A_ZX})\ (u)$ Mass of nucleus. The mass of the nucleus in unified atomic mass units. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\text{Mass excess}\ (u)$ Mass excess. The difference between a nucleus actual mass and its mass number. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+Mass\+Defect\+Inu() to calculate mass defect, $\Delta m$ in megaelectron volts per speed of light squared. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_ga99a93b88df3425b7a153c32c05fa5a88}{Mass\+Excess\+In\+Me\+V\+Perc\+Squared()} to calculate mass excess, $\text{Mass excess}$ in megaelectron volts per speed of light squared. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_gab72a3640886092be8b9c9662020a2306}{Mass\+Excess\+Inkg()} to calculate mass excess, $\text{Mass excess}$ in kilograms. 
+
+\hyperlink{group___e_g_x_phys-_mass_excess_ga3eb487f438543e950b9c5aece4c5b409}{Mass\+Excess\+In\+J\+Perc\+Squared()} to calculate mass excess, $\text{Mass excess}$ in joules per speed of light squared. 
+\end{DoxySeeAlso}

@@ -6,7 +6,8 @@
 /// @date 7/28/17
 
 
-/// @defgroup Kinematics Kinematics
+/// @defgroup EGXPhys-Kinematics Kinematics
+/// @ingroup EGXPhys-EGXPhys
 //=================================
 // Header guard
 #pragma once

@@ -1,0 +1,52 @@
+\hypertarget{group___e_g_x_phys-_semi_empirical_mass_formula}{}\section{Semi-\/\+Empirical Mass Formula}
+\label{group___e_g_x_phys-_semi_empirical_mass_formula}\index{Semi-\/\+Empirical Mass Formula@{Semi-\/\+Empirical Mass Formula}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\double \hyperlink{group___e_g_x_phys-_semi_empirical_mass_formula_ga99c5a87be2c76d3fa4852654c3fd59a9}{E\+G\+X\+Phys\+::\+Semi\+Emperical\+Binding\+Energy\+Krane} (const T \&atomic\+Number, const T \&mass\+Number)
+\begin{DoxyCompactList}\small\item\em Calculates the binding energy, $BE_{SEMF}$, used in the semi-\/emperical mass formula for determining the mass of a nucleus using Krane\textquotesingle{}s method. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___e_g_x_phys-_semi_empirical_mass_formula_gac3fa98a788acc96ef1391c20824c27d5}\label{group___e_g_x_phys-_semi_empirical_mass_formula_gac3fa98a788acc96ef1391c20824c27d5}} 
+{\footnotesize template$<$typename T $>$ }\\double {\bfseries E\+G\+X\+Phys\+::\+Semi\+Emperical\+Mass\+Formula} (const T \&atomic\+Number, const T \&mass\+Number)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000007}{Todo}]Add reference to Decay Width. \end{DoxyRefDesc}
+
+
+Approximate the mass, $m_{SEMF}$, of a nucleus. 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_semi_empirical_mass_formula_ga99c5a87be2c76d3fa4852654c3fd59a9}\label{group___e_g_x_phys-_semi_empirical_mass_formula_ga99c5a87be2c76d3fa4852654c3fd59a9}} 
+\index{Semi-\/\+Empirical Mass Formula@{Semi-\/\+Empirical Mass Formula}!Semi\+Emperical\+Binding\+Energy\+Krane@{Semi\+Emperical\+Binding\+Energy\+Krane}}
+\index{Semi\+Emperical\+Binding\+Energy\+Krane@{Semi\+Emperical\+Binding\+Energy\+Krane}!Semi-\/\+Empirical Mass Formula@{Semi-\/\+Empirical Mass Formula}}
+\subsubsection{\texorpdfstring{Semi\+Emperical\+Binding\+Energy\+Krane()}{SemiEmpericalBindingEnergyKrane()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+double E\+G\+X\+Phys\+::\+Semi\+Emperical\+Binding\+Energy\+Krane (\begin{DoxyParamCaption}\item[{const T \&}]{atomic\+Number,  }\item[{const T \&}]{mass\+Number }\end{DoxyParamCaption})}
+
+
+
+Calculates the binding energy, $BE_{SEMF}$, used in the semi-\/emperical mass formula for determining the mass of a nucleus using Krane\textquotesingle{}s method. 
+
+The semi-\/emperical binding energy calculates the binding energy formula. \[BE_{SEMF} = a_V A - a_S A^{2/3}-a_C Z(Z-1)A^{-1/3}-a_{sym}\frac{(A-2Z)^2}{A}+\delta(Z,A)\]
+
+Where $\delta(Z,A)$\+: \[\delta(Z,A)=\begin{cases} a_pA^{-3/4} & \text{ if } Z,N\text{ even }\\ 0 & \text{ if } A \text{ odd }\\ -a_pA^{-3/4} & \text{ if } Z,N \text{ odd } \end{cases}\]
+
+Constants used\+: \[a_V = 15.5\ MeV\] \[a_S = 16.8\ MeV\] \[a_C = 0.72\ MeV\] \[a_{sym} = 23.0\ MeV\] \[a_p = 34.0\ MeV\]
+
+Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1987), p. 68
+
+
+\begin{DoxyParams}{Parameters}
+{\em atomic\+Number} & $Z\ (1)$ Atomic number. The number of protons in the nucleus of an atom. \\
+\hline
+{\em mass\+Number} & $A\ (1)$ Mass number. The number of protons and neutrons in the nucleus of an atom. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$B_{SEMF}\ (MeV)$ Binding Energy. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+Mass\+Defect\+In\+Me\+V\+Perc\+Squared() to calculate mass defect, $\Delta m$ in megaelectron volts per c squared. 
+\end{DoxySeeAlso}

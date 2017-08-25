@@ -6,6 +6,11 @@
 /// @date 8/4/17
 
 /// @todo decay constant in terms of dN/dt
+
+/// @defgroup EGXPhys-DecayConstant Decay Constant
+/// @ingroup EGXPhys-Atomic
+/// Calculates decay constant,\f$\lambda\f$, of radioactive substance.
+
 //=================================
 // Header guard
 #pragma once
@@ -21,7 +26,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Atomic
+	/// @addtogroup EGXPhys-DecayConstant
 	/// @{
 
 	/** 

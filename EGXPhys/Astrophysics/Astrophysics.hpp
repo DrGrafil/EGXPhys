@@ -6,7 +6,8 @@
 /// @date 7/25/17
 
 
-/// @defgroup Astrophysics Astrophysics
+/// @defgroup EGXPhys-Astrophysics Astrophysics
+/// @ingroup EGXPhys-EGXPhys
 //=================================
 // Header guard
 #pragma once
