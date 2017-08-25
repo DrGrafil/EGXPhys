@@ -5,6 +5,7 @@ var searchData=
   ['radioactivedecay_2einl',['RadioactiveDecay.inl',['../_radioactive_decay_8inl.html',1,'']]],
   ['radioluminosity',['radioLuminosity',['../group___astrophysics.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4',1,'EGXPhys']]],
   ['radiusofearth',['RadiusOfEarth',['../namespace_e_g_x_phys.html#a11a2d4a914eb43c4095e225358293a45',1,'EGXPhys']]],
+  ['radiusofsun',['RadiusOfSun',['../namespace_e_g_x_phys.html#a983b842cceb4a584787874fc9486384d',1,'EGXPhys']]],
   ['redshift_2ehpp',['Redshift.hpp',['../_redshift_8hpp.html',1,'']]],
   ['redshift_2einl',['Redshift.inl',['../_redshift_8inl.html',1,'']]],
   ['redshiftbyfrequency',['redshiftByFrequency',['../group___optics.html#gacc6d3b2922061214d64b89a4b8e3967a',1,'EGXPhys']]],
