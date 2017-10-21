@@ -1,0 +1,47 @@
+	/** 
+	*   @brief Calculates the Inertia, \f$C_{Circle}\f$, of a circle given its radius, \f$r\f$.
+	*
+	*	\f[C_{Circle}=2 \pi r\f]
+	*
+	*   @param radius \f$r\ (m)\f$ Radius. The radius of a circle in meters.
+	*   @return \f$C_{Circle}\ (m^2)\f$ Circumference. The circumference of a circle in meters.
+	* 	@see CircleArea() to calculate the area of a circle, \f$A_{Circle}\f$.
+	* 	@see SphereArea() to calculate area if a sphere, \f$A_{Sphere}\f$.
+	* 	@see SphereVolume() to calculate the volume of a sphere, \f$V_{Sphere}\f$.
+	*/ 
+	template<typename T>
+	void CircleInertia( const T& mass, const T& radius );
+
+
+	template<typename T>
+	glm::mat3 CircleInertia( const T& mass, const T& radius );
+	
+	template<typename T>
+	void DiskInertia( const T& mass, const T& radius, T& result[] );
+		
+	template<typename T>
+	glm::mat3 DiskInertia( const T& mass, const T& radius, T& result[] );
+    
+
+
+glm::mat3 CircleInertia( const double mass, const double radius)
+{
+	glm::mat3 matrix = glm::mat3(0.0);
+	
+	matrix[0][0] = 1.0/2.0 * mass * radius * radius;
+	matrix[1][1] = 1.0/2.0 * mass * radius * radius;
+	matrix[2][2] = mass * radius * radius;
+	
+	return matrix;
+}
+
+glm::mat3 DiskInertia( const double mass, const double radius)
+{
+	glm::mat3 matrix = glm::mat3(0.0);
+	
+	matrix[0][0] = 1.0/4.0 * mass * radius * radius;
+	matrix[1][1] = 1.0/4.0 * mass * radius * radius;
+	matrix[2][2] = 1.0/2.0 * mass * radius * radius;
+	
+	return matrix;
+}

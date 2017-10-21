@@ -1,12 +1,21 @@
-///  Created by Elliot Grafil on 7/25/17.
-///  Copyright © 2017 Elliot Grafil. All rights reserved.
-/// @ref templates
-/// @file templates/header.inl
+/// @file EGXPhys/Atomic/DecayConstant.inl
+///
+/// @brief Implimentation of curcle calculations
+/// @author Elliot Grafil (Metex)
+/// @date 10/20/17
 
 namespace EGXPhys{
+
     template<typename T>
-    T getBigger(const T& a, const T& b)
-    {
-        return a>b?a:b;
-    }
+    double CircleArea( const T& radius )
+	{
+		return pi * radius * radius;
+	}
+
+	template<typename T>
+	double CircleCircumference( const T& radius )
+	{
+		return 2.0 * pi * radius;
+	}
+
 }//namespace EGXPhys
