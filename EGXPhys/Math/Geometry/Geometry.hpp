@@ -17,14 +17,14 @@
 //=================================
 
 // --------- 2D -----------
-#include "2D/Circle.hpp"
-#include "2D/Ellipse.hpp"
+#include "./2D/Circle.hpp"
+#include "./2D/Ellipse.hpp"
 
 // --------- 3D -----------
-#include "3D/Cone.hpp"
-#include "3D/Cube.hpp"
-#include "3D/Cuboid.hpp"
-#include "3D/Cylinder.hpp"
-#include "3D/Ellipsoid.hpp"
-#include "3D/Sphere.hpp"
+#include "./3D/Cone.hpp"
+#include "./3D/Cube.hpp"
+#include "./3D/Cuboid.hpp"
+#include "./3D/Cylinder.hpp"
+#include "./3D/Ellipsoid.hpp"
+#include "./3D/Sphere.hpp"
 
