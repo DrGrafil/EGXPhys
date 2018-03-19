@@ -1,3 +1,6 @@
+#directories
+/project/vs2017/.vs
+
 # Prerequisites
 *.d
 
