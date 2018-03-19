@@ -1,5 +1,7 @@
 #directories
 /project/vs2017/.vs
+/project/vs2017/Debug
+/project/vs2017/Release
 
 # Prerequisites
 *.d

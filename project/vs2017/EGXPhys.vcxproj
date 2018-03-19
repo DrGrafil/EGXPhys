@@ -139,6 +139,90 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\EGXPhys\Acoustics\Acoustics.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Acoustics\AcousticsConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Apoapsis.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Astrophysics.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\AstrophysicsConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\CircumstellarHabitableZone.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Eccentricity.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Luminosity.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\OrbitalCharecteristics.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Periapsis.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\Atomic.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\AtomicConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\DecayConstant.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\DecayWidth.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\HalfLife.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\MassDefect.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\MassExcess.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\MeanLifetime.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\NuclearBindingEnergy.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\NuclearSeparationEnergy.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\QValue.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\RadioactiveDecay.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Atomic\SemiEmpiricalMassFormula.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXPhys.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXPhysConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Kinematics\Kinematics.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Kinematics\KinematicsConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\NISTConst\NISTConst.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Optics\Optics.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Optics\OpticsConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Optics\Redshift.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Plasma\Plasma.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Plasma\PlasmaConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Quantum\Quantum.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Quantum\QuantumConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Relativity\LorentzTransformations.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Relativity\Relativity.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Relativity\RelativityConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Thermodynamics\Thermodynamics.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Thermodynamics\ThermodynamicsConstants.hpp" />
+    <ClInclude Include="..\..\tests\Astrophysics\ApoapsisTests.hpp" />
+    <ClInclude Include="..\..\tests\Astrophysics\AstrophysicsTests.hpp" />
+    <ClInclude Include="..\..\tests\Astrophysics\LuminosityTests.hpp" />
+    <ClInclude Include="..\..\tests\Astrophysics\PeriapsisTests.hpp" />
+    <ClInclude Include="..\..\tests\Astrophysics\PlanetCriteriaTests.hpp" />
+    <ClInclude Include="..\..\tests\Atomic\AtomicTests.hpp" />
+    <ClInclude Include="..\..\tests\Atomic\DecayConstantTests.hpp" />
+    <ClInclude Include="..\..\tests\Atomic\DecayWidthTests.hpp" />
+    <ClInclude Include="..\..\tests\Atomic\HalfLifeTests.hpp" />
+    <ClInclude Include="..\..\tests\Atomic\MassDefectTests.hpp" />
+    <ClInclude Include="..\..\tests\Atomic\MassExcessTests.hpp" />
+    <ClInclude Include="..\..\tests\Atomic\MeanLifetimeTests.hpp" />
+    <ClInclude Include="..\..\tests\Atomic\NuclearSeparationEnergyTests.hpp" />
+    <ClInclude Include="..\..\tests\Atomic\QValueTests.hpp" />
+    <ClInclude Include="..\..\tests\Atomic\SemiEmpiricalMassFormulaTests.hpp" />
+    <ClInclude Include="..\..\tests\catch.hpp" />
+    <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp" />
+    <ClInclude Include="..\..\tests\Optics\RedshiftTests.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\tests\unitTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\EGXPhys\Astrophysics\Apoapsis.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\CircumstellarHabitableZone.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\Eccentricity.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\Luminosity.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\OrbitalCharecteristics.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\Periapsis.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.inl" />
+    <None Include="..\..\EGXPhys\Atomic\DecayConstant.inl" />
+    <None Include="..\..\EGXPhys\Atomic\DecayWidth.inl" />
+    <None Include="..\..\EGXPhys\Atomic\HalfLife.inl" />
+    <None Include="..\..\EGXPhys\Atomic\MassDefect.inl" />
+    <None Include="..\..\EGXPhys\Atomic\MassExcess.inl" />
+    <None Include="..\..\EGXPhys\Atomic\MeanLifetime.inl" />
+    <None Include="..\..\EGXPhys\Atomic\NuclearBindingEnergy.inl" />
+    <None Include="..\..\EGXPhys\Atomic\NuclearSeparationEnergy.inl" />
+    <None Include="..\..\EGXPhys\Atomic\QValue.inl" />
+    <None Include="..\..\EGXPhys\Atomic\RadioactiveDecay.inl" />
+    <None Include="..\..\EGXPhys\Atomic\SemiEmpiricalMassFormula.inl" />
+    <None Include="..\..\EGXPhys\Optics\Redshift.inl" />
+    <None Include="..\..\EGXPhys\Relativity\LorentzTransformations.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

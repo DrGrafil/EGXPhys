@@ -1,17 +1,296 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{c569b588-41d7-4c7d-a280-bca2b770ff78}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="EGXPhys">
+      <UniqueIdentifier>{cf054365-2ed4-4fb1-8f66-f13f61073ebf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Tests\Astrophysics">
+      <UniqueIdentifier>{70d732c1-aaee-41c3-accd-2ce3f3c4eee3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tests\Atomic">
+      <UniqueIdentifier>{9d1aec4e-7623-4f1f-9b6f-6931c34e8720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Optics">
+      <UniqueIdentifier>{acf7d87b-d163-4cfe-b222-b2fff2c2a240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\Acoustics">
+      <UniqueIdentifier>{0d8dfbe0-78af-4d18-9026-3be23c291eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\Astrophysics">
+      <UniqueIdentifier>{8c9c727e-eedb-402d-8b93-dbb617448a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\Atomic">
+      <UniqueIdentifier>{a132398e-15d7-4cd0-84ba-21efe79bbca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\Kinematics">
+      <UniqueIdentifier>{5fe5ad7e-3d66-4c14-9585-f3c09c91b13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\NISTConst">
+      <UniqueIdentifier>{b5aacf5e-e29c-4c52-a4a0-65e790f9cc42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\Optics">
+      <UniqueIdentifier>{b5d9d6e9-7605-48d8-8aa1-f5ef56f66dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\Plasma">
+      <UniqueIdentifier>{4950e85f-4bac-451c-94be-d904d352855f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\Quantum">
+      <UniqueIdentifier>{3027b000-c8d6-4b84-bb12-4584b918ef8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\Relativity">
+      <UniqueIdentifier>{7923d75c-58a9-4e8a-8733-a6ba5e870cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\Thermodynamics">
+      <UniqueIdentifier>{44809c44-5d59-4512-a6b2-28d68418450f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
+      <Filter>Tests\Optics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Optics\RedshiftTests.hpp">
+      <Filter>Tests\Optics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Atomic\AtomicTests.hpp">
+      <Filter>Tests\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Atomic\DecayConstantTests.hpp">
+      <Filter>Tests\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Atomic\DecayWidthTests.hpp">
+      <Filter>Tests\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Atomic\HalfLifeTests.hpp">
+      <Filter>Tests\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Atomic\MassDefectTests.hpp">
+      <Filter>Tests\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Atomic\MassExcessTests.hpp">
+      <Filter>Tests\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Atomic\MeanLifetimeTests.hpp">
+      <Filter>Tests\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Atomic\NuclearSeparationEnergyTests.hpp">
+      <Filter>Tests\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Atomic\QValueTests.hpp">
+      <Filter>Tests\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Atomic\SemiEmpiricalMassFormulaTests.hpp">
+      <Filter>Tests\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Astrophysics\ApoapsisTests.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Astrophysics\AstrophysicsTests.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Astrophysics\LuminosityTests.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Astrophysics\PeriapsisTests.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Astrophysics\PlanetCriteriaTests.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\catch.hpp">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Apoapsis.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Astrophysics.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\AstrophysicsConstants.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\CircumstellarHabitableZone.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Eccentricity.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Luminosity.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\OrbitalCharecteristics.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Periapsis.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Acoustics\Acoustics.hpp">
+      <Filter>EGXPhys\Acoustics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Acoustics\AcousticsConstants.hpp">
+      <Filter>EGXPhys\Acoustics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXPhys.hpp">
+      <Filter>EGXPhys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXPhysConstants.hpp">
+      <Filter>EGXPhys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\Atomic.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\AtomicConstants.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\DecayConstant.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\DecayWidth.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\HalfLife.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\MassDefect.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\MassExcess.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\MeanLifetime.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\NuclearBindingEnergy.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\NuclearSeparationEnergy.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\QValue.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\RadioactiveDecay.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Atomic\SemiEmpiricalMassFormula.hpp">
+      <Filter>EGXPhys\Atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Kinematics\Kinematics.hpp">
+      <Filter>EGXPhys\Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Kinematics\KinematicsConstants.hpp">
+      <Filter>EGXPhys\Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Optics\Optics.hpp">
+      <Filter>EGXPhys\Optics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Optics\OpticsConstants.hpp">
+      <Filter>EGXPhys\Optics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Optics\Redshift.hpp">
+      <Filter>EGXPhys\Optics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Plasma\Plasma.hpp">
+      <Filter>EGXPhys\Plasma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Plasma\PlasmaConstants.hpp">
+      <Filter>EGXPhys\Plasma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Thermodynamics\Thermodynamics.hpp">
+      <Filter>EGXPhys\Thermodynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Thermodynamics\ThermodynamicsConstants.hpp">
+      <Filter>EGXPhys\Thermodynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Relativity\LorentzTransformations.hpp">
+      <Filter>EGXPhys\Relativity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Relativity\Relativity.hpp">
+      <Filter>EGXPhys\Relativity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Relativity\RelativityConstants.hpp">
+      <Filter>EGXPhys\Relativity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Quantum\Quantum.hpp">
+      <Filter>EGXPhys\Quantum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Quantum\QuantumConstants.hpp">
+      <Filter>EGXPhys\Quantum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\NISTConst\NISTConst.hpp">
+      <Filter>EGXPhys\NISTConst</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\tests\unitTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\EGXPhys\Astrophysics\Apoapsis.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\CircumstellarHabitableZone.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\Eccentricity.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\Luminosity.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\OrbitalCharecteristics.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\Periapsis.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Atomic\DecayConstant.inl">
+      <Filter>EGXPhys\Atomic</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Atomic\DecayWidth.inl">
+      <Filter>EGXPhys\Atomic</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Atomic\HalfLife.inl">
+      <Filter>EGXPhys\Atomic</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Atomic\MassDefect.inl">
+      <Filter>EGXPhys\Atomic</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Atomic\MassExcess.inl">
+      <Filter>EGXPhys\Atomic</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Atomic\MeanLifetime.inl">
+      <Filter>EGXPhys\Atomic</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Atomic\NuclearBindingEnergy.inl">
+      <Filter>EGXPhys\Atomic</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Atomic\NuclearSeparationEnergy.inl">
+      <Filter>EGXPhys\Atomic</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Atomic\QValue.inl">
+      <Filter>EGXPhys\Atomic</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Atomic\RadioactiveDecay.inl">
+      <Filter>EGXPhys\Atomic</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Atomic\SemiEmpiricalMassFormula.inl">
+      <Filter>EGXPhys\Atomic</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Optics\Redshift.inl">
+      <Filter>EGXPhys\Optics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Relativity\LorentzTransformations.inl">
+      <Filter>EGXPhys\Relativity</Filter>
+    </None>
   </ItemGroup>
 </Project>
