@@ -228,10 +228,13 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\Astrophysics\SolarMass.hpp">
+    <ClInclude Include="..\..\tests\Astrophysics\PlanetaryMassTests.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarMass.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\tests\Astrophysics\PlanetaryMassTests.hpp">
+    <ClInclude Include="..\..\tests\Astrophysics\StellarMassTests.hpp">
       <Filter>Tests\Astrophysics</Filter>
     </ClInclude>
   </ItemGroup>
@@ -304,7 +307,7 @@
     <None Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
-    <None Include="..\..\EGXPhys\Astrophysics\SolarMass.inl">
+    <None Include="..\..\EGXPhys\Astrophysics\StellarMass.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>

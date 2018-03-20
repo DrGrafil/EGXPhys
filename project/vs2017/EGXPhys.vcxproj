@@ -151,7 +151,7 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Periapsis.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.hpp" />
-    <ClInclude Include="..\..\EGXPhys\Astrophysics\SolarMass.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarMass.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\Atomic.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\AtomicConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\DecayConstant.hpp" />
@@ -188,6 +188,7 @@
     <ClInclude Include="..\..\tests\Astrophysics\PeriapsisTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\PlanetaryMassTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\PlanetCriteriaTests.hpp" />
+    <ClInclude Include="..\..\tests\Astrophysics\StellarMassTests.hpp" />
     <ClInclude Include="..\..\tests\Atomic\AtomicTests.hpp" />
     <ClInclude Include="..\..\tests\Atomic\DecayConstantTests.hpp" />
     <ClInclude Include="..\..\tests\Atomic\DecayWidthTests.hpp" />
@@ -214,7 +215,7 @@
     <None Include="..\..\EGXPhys\Astrophysics\Periapsis.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.inl" />
-    <None Include="..\..\EGXPhys\Astrophysics\SolarMass.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\StellarMass.inl" />
     <None Include="..\..\EGXPhys\Atomic\DecayConstant.inl" />
     <None Include="..\..\EGXPhys\Atomic\DecayWidth.inl" />
     <None Include="..\..\EGXPhys\Atomic\HalfLife.inl" />

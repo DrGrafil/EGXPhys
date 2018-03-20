@@ -1,6 +1,4 @@
 TEST_CASE("Planetary Mass"){
-	//Data taken from https://www.nndc.bnl.gov/chart/
-	//Mass taken from http://wwwndc.jaea.go.jp/NuC/
 	
 	//General
 	CHECK(PlanetaryMass(10.0, 10.0) == 1.0);

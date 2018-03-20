@@ -8,9 +8,9 @@ var _astrophysics_constants_8hpp =
     [ "RadiusOfEarth", "_astrophysics_constants_8hpp.html#a11a2d4a914eb43c4095e225358293a45", null ],
     [ "SemimajorAxisOfEarth", "_astrophysics_constants_8hpp.html#ad1bdca5cec4a0f4a4b8a18ead61de6d9", null ],
     [ "SiderealRotationPeriodOfEarth", "_astrophysics_constants_8hpp.html#a34a388ac3f9196bb3cdbdbee5ff3cdb7", null ],
-    [ "SolarMass", "_astrophysics_constants_8hpp.html#aa8636def23e66bc4ad32394a088b3950", null ],
     [ "SunAbsVMagnitude", "_astrophysics_constants_8hpp.html#a61266dc1aaacdd9a9bd0f2fa92aa21c9", null ],
     [ "SunAge", "_astrophysics_constants_8hpp.html#a173216c099d7915fb16e6416902fcbb8", null ],
     [ "SunLuminocity", "_astrophysics_constants_8hpp.html#a3987543f6972eb72eb2c07d39520b43e", null ],
+    [ "SunMass", "_astrophysics_constants_8hpp.html#a15b2187a46d73ac35fa7467b8fa6cb19", null ],
     [ "SunTempreture", "_astrophysics_constants_8hpp.html#a97be71e7f8ca4f7813362bc1dca66db5", null ]
 ];

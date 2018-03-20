@@ -36,9 +36,9 @@ namespace EGXPhys
     *
 	*   @param  planetMass \f$m_{planet}\ (kg)\f$ is the mass of the planet.
 	*	@param  referenceMass \f$m_{ref}\ (kg)\f$ is the mass of the reference planet.
-	*   @return \f$M\f$(dimensionless) M of planet in  for a planet when comparing it to a reference planet.
-	*	@see PlanetaryEarthMass()  for \f$M\f$ equation using earth as reference.
-	*	@see PlanetaryLunarMass()  for \f$M\f$ equation using moon as reference.
+	*   @return \f$M\f$(dimensionless) Planetary mass. Mass ratio of a planet compared to a reference planet.
+	*	@see PlanetaryEarthMass()  for \f$M\f$ equation using earth as a reference.
+	*	@see PlanetaryLunarMass()  for \f$M\f$ equation using moon as a reference.
 	*	@see PlanetaryJupiterMass() for \f$M\f$ equation using Jupiter as a reference.
 	*	@see PlanetaryJovianMass() for \f$M\f$ equation using Jupiter as a reference.
 	*	@see StellarMass() for \f$M\f$ equation used for star like objects.
@@ -47,14 +47,14 @@ namespace EGXPhys
     T PlanetaryMass(const T& planetMass, const T& referenceMass);
 	  
 	/**
-	*   @brief Calculates the planetary mass \f$(M)\f$ of a planet when comparing it to the mass of Earth \f$(M_\oplus)\f$.
+	*   @brief Calculates the planetary mass \f$(M)\f$ of a planet when comparing it to the mass of Earth \f$(M_\oplus)\f$. Also known as Earth Mass.
 	*   		\f[M=\frac{m_{planet}}{M_\oplus}\f]
 	*   See https://en.wikipedia.org/wiki/Earth_mass
 	*
 	*   @param  planetMass \f$m_{planet}\ (kg)\f$ is the mass of the planet.
-	*   @return \f$M\f$(dimensionless) M of planet in  for a planet when comparing it to Earth.
-	*	@see PlanetaryMass() for \f$M\f$ equation using any planet as reference.
-	*	@see PlanetaryLunarMass()  for \f$M\f$ equation using moon as reference.
+	*   @return \f$M\f$(dimensionless) Planetary mass. Mass ratio of a planet compared to Earth.
+	*	@see PlanetaryMass() for \f$M\f$ equation using any planet as a reference.
+	*	@see PlanetaryLunarMass()  for \f$M\f$ equation using moon as a reference.
 	*	@see PlanetaryJupiterMass() for \f$M\f$ equation using Jupiter as a reference.
 	*	@see PlanetaryJovianMass() for \f$M\f$ equation using Jupiter as a reference.
 	*	@see StellarMass() for \f$M\f$ equation used for star like objects.
@@ -63,14 +63,14 @@ namespace EGXPhys
 	T PlanetaryEarthMass(const T& planetMass);
 
 	/**
-	*   @brief Calculates the planetary mass \f$(M)\f$ of a planet when comparing it to the mass of the Moon \f$(M_L)\f$.
+	*   @brief Calculates the planetary mass \f$(M)\f$ of a planet when comparing it to the mass of the Moon \f$(M_L)\f$. Also known as Lunar Mass.
 	*   		\f[M=\frac{m_{planet}}{M_L}\f]
 	*   See https://en.wikipedia.org/wiki/Planetary_mass
 	*
 	*   @param  planetMass \f$m_{planet}\ (kg)\f$ is the mass of the planet.
-	*   @return \f$M\f$(dimensionless) M of planet in  for a planet when comparing it to the Moon.
-	*	@see PlanetaryMass() for \f$M\f$ equation using any planet as reference.
-	*	@see PlanetaryEarthMass()  for \f$M\f$ equation using earth as reference.
+	*   @return \f$M\f$(dimensionless) Planetary mass. Mass ratio of a planet compared to the Moon.
+	*	@see PlanetaryMass() for \f$M\f$ equation using any planet as a reference.
+	*	@see PlanetaryEarthMass() for \f$M\f$ equation using earth as a reference.
 	*	@see PlanetaryJupiterMass() for \f$M\f$ equation using Jupiter as a reference.
 	*	@see PlanetaryJovianMass() for \f$M\f$ equation using Jupiter as a reference.
 	*	@see StellarMass() for \f$M\f$ equation used for star like objects.
@@ -79,15 +79,15 @@ namespace EGXPhys
 	T PlanetaryLunarMass(const T& planetMass);
 
 	/**
-	*   @brief Calculates the planetary mass \f$(M)\f$ of a planet when comparing it to the mass of Jupiter \f$(M_J)\f$.
+	*   @brief Calculates the planetary mass \f$(M)\f$ of a planet when comparing it to the mass of Jupiter \f$(M_J)\f$. Also known as Jupiter Mass.
 	*   		\f[M=\frac{m_{planet}}{M_J}\f]
 	*   See https://en.wikipedia.org/wiki/Jupiter_mass
 	*
 	*   @param  planetMass \f$m_{planet}\ (kg)\f$ is the mass of the planet.
-	*   @return \f$M\f$(dimensionless) M of planet in  for a planet when comparing it to Jupiter.
-	*	@see PlanetaryMass() for \f$M\f$ equation using any planet as reference.
-	*	@see PlanetaryEarthMass()  for \f$M\f$ equation using earth as reference.
-	*	@see PlanetaryLunarMass()  for \f$M\f$ equation using moon as reference.
+	*   @return \f$M\f$(dimensionless) Planetary mass. Mass ratio of a planet compared to Jupiter.
+	*	@see PlanetaryMass() for \f$M\f$ equation using any planet as a reference.
+	*	@see PlanetaryEarthMass() for \f$M\f$ equation using earth as a reference.
+	*	@see PlanetaryLunarMass() for \f$M\f$ equation using moon as a reference.
 	*	@see PlanetaryJovianMass() for \f$M\f$ equation using Jupiter as a reference.
 	*	@see StellarMass() for \f$M\f$ equation used for star like objects.
 	*/
@@ -95,15 +95,15 @@ namespace EGXPhys
 	T PlanetaryJupiterMass(const T& planetMass);
 
 	/**
-	*   @brief Calculates the planetary mass \f$(M)\f$ of a planet when comparing it to the mass of Jupiter \f$(M_J)\f$.
+	*   @brief Calculates the planetary mass \f$(M)\f$ of a planet when comparing it to the mass of Jupiter \f$(M_J)\f$. Also known as Jovian Mass.
 	*   		\f[M=\frac{m_{planet}}{M_J}\f]
 	*   See https://en.wikipedia.org/wiki/Jupiter_mass
 	*
 	*   @param  planetMass \f$m_{planet}\ (kg)\f$ is the mass of the planet.
-	*   @return \f$M\f$(dimensionless) M of planet in  for a planet when comparing it to Jupiter.
-	*	@see PlanetaryMass() for \f$M\f$ equation using any planet as reference.
-	*	@see PlanetaryEarthMass()  for \f$M\f$ equation using earth as reference.
-	*	@see PlanetaryLunarMass()  for \f$M\f$ equation using moon as reference.
+	*   @return \f$M\f$(dimensionless) Planetary mass. Mass ratio of a planet compared to Jupiter.
+	*	@see PlanetaryMass() for \f$M\f$ equation using any planet as a reference.
+	*	@see PlanetaryEarthMass()  for \f$M\f$ equation using earth as a reference.
+	*	@see PlanetaryLunarMass()  for \f$M\f$ equation using moon as a reference.
 	*	@see PlanetaryJupiterMass() for \f$M\f$ equation using Jupiter as a reference.
 	*	@see StellarMass() for \f$M\f$ equation used for star like objects.
 	*/

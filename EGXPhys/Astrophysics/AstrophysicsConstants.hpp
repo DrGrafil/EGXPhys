@@ -25,7 +25,8 @@ namespace EGXPhys
 	//Stellar Constants
 		//Sun
 	const double MassOfSun = 1.9891e30;										/**< \f$m_\odot\f$ (kg) Mass of Sun. */
-	const double SolarMass = MassOfSun;                                 	/**< \f$m_\odot\f$ (kg) Mass of Sun. */
+	//const double SolarMass = MassOfSun;                                 	/**< \f$m_\odot\f$ (kg) Mass of Sun. */
+	const double SunMass = MassOfSun;                                 		/**< \f$m_\odot\f$ (kg) Mass of Sun. */
 	const double SunTempreture = 5778.0;									/**< \f$T_\odot\f$(K) Tempreture of Sun. */
 	const double SunAbsVMagnitude = 4.862;									/**< Absolute V Magnitude (??) of Sun. */
 	const double SunLuminocity = 3.8270e26;									/**< \f$L_\odot\f$(W) Luminocity of Sun. */

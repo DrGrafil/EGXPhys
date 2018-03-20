@@ -220,7 +220,7 @@ var NAVTREEINDEX2 =
 "_semi_empirical_mass_formula_8inl.html":[3,0,0,2,21],
 "_semi_empirical_mass_formula_8inl.html#ga99c5a87be2c76d3fa4852654c3fd59a9":[3,0,0,2,21,0],
 "_semi_empirical_mass_formula_8inl.html#gac3fa98a788acc96ef1391c20824c27d5":[3,0,0,2,21,1],
-"_solar_mass_8hpp_source.html":[3,0,0,1,17],
+"_stellar_mass_8hpp_source.html":[3,0,0,1,17],
 "_thermodynamics_8hpp.html":[3,0,0,9,0],
 "_thermodynamics_8hpp_source.html":[3,0,0,9,0],
 "_thermodynamics_constants_8hpp.html":[3,0,0,9,1],

@@ -17,5 +17,5 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "PlanetaryMass.inl", "_planetary_mass_8inl.html", "_planetary_mass_8inl" ],
     [ "PlanetCriteria.hpp", "_planet_criteria_8hpp.html", "_planet_criteria_8hpp" ],
     [ "PlanetCriteria.inl", "_planet_criteria_8inl.html", "_planet_criteria_8inl" ],
-    [ "SolarMass.hpp", "_solar_mass_8hpp_source.html", null ]
+    [ "StellarMass.hpp", "_stellar_mass_8hpp_source.html", null ]
 ];

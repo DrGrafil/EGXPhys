@@ -17,11 +17,12 @@
 #include "Apoapsis.hpp"
 #include "CircumstellarHabitableZone.hpp"
 #include "Luminosity.hpp"
-#include "Periapsis.hpp"
-#include "PlanetCriteria.hpp"
-#include "PlanetaryMass.hpp"
-#include "OrbitalCharecteristics.hpp"
 
+#include "OrbitalCharecteristics.hpp"
+#include "Periapsis.hpp"
+#include "PlanetaryMass.hpp"
+#include "PlanetCriteria.hpp"
+#include "StellarMass.hpp"
 
 
 //=================================
