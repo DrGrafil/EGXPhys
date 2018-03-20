@@ -51,7 +51,7 @@ namespace EGXPhys
    
 
     /** 
-	*   @brief Calculates the effective stellar flux, (\f$S_{eff})\f$ of a star using Selsis estimation.
+	*   @brief Calculates the effective stellar flux, \f$(S_{eff})\f$ of a star using Selsis estimation.
 	*
 	*	Effective stellar flux is used in circumstellar habitable zone calculations.
 	*	\f[S_{eff}= \frac{1}{(S_{eff\odot}+a(T_{eff}-5700)+b(T_{eff}-5700)^2)^2}\f]
@@ -81,7 +81,7 @@ namespace EGXPhys
     	//http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets and 
     
     /** 
-	*   @brief Calculates the effective stellar flux (\f$S_{eff})\f$ using Underwood estimation.
+	*   @brief Calculates the effective stellar flux \f$(S_{eff})\f$ using Underwood estimation.
 	*
 	*	Effective stellar flux is used in circumstellar habitable zone calculations.
 	*	\f[S_{eff}=S_{eff\odot}+aT_{eff}+bT^2_{eff}\f]
@@ -140,7 +140,7 @@ The HZ of an exoplanet is generally defined as the area
 	
 	
 	/** 
-	*   @brief Calculates Circumstellar Habitable Zone Outer Boundary (\f$r_o)\f$ of a star.
+	*   @brief Calculates Circumstellar Habitable Zone Outer Boundary \f$(r_o)\f$ of a star.
 	*
 	*   @param 
 	*   @return \f$ESI_S\f$(dimensionless) Surface Earth Similarity Index for a planet.
@@ -152,7 +152,7 @@ The HZ of an exoplanet is generally defined as the area
 	T CircumstellarHabitableZoneOuterBoundary(const T& starEffectiveSurfaceTemperature, const T& starLuminosity);
 	
 	/** 
-	*   @brief Calculates Circumstellar Habitable Zone Distance (\f$CHZD)\f$ of a planet. Also known as Habitable Zone Distance.
+	*   @brief Calculates Circumstellar Habitable Zone Distance \f$(CHZD)\f$ of a planet. Also known as Habitable Zone Distance.
 	*
 	*	Circumstellar Habitable Zone is the orbital area around a star where in which a rocky planet, with the right atmosphere, can maintain liquid water at the surface of the planet.
 The HZ of an exoplanet is generally defined as the area

@@ -1,14 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"group___periapsis.html#ga60a50d09d29ebe47cbbfc125c2ea42bf":[1,1,1,19],
-"group___periapsis.html#ga941d285e3a0b48ada9c9f60925ff63c2":[1,1,1,12],
-"group___periapsis.html#ga9562e9cbfd73019ae9cdaa643b843d63":[1,1,1,13],
-"group___periapsis.html#ga99d86af90179994e17158b082c502fd4":[1,1,1,17],
-"group___periapsis.html#gaa270e364cbbd7d3d6212872df484926f":[1,1,1,7],
-"group___periapsis.html#gaa56f74c44a3583b8f0d13b821c1d7422":[1,1,1,15],
-"group___periapsis.html#gab8b8131a617dd2d2a4de1d48accd7442":[1,1,1,21],
-"group___periapsis.html#gac4c419a87a5802cf6afc98f50792e99f":[1,1,1,4],
-"group___periapsis.html#gada5892309279a3a687c4eb2f88238e4e":[1,1,1,3],
 "group___periapsis.html#gae2d053caf69cb0b4c3207064a2ab143a":[1,1,1,10],
 "group___periapsis.html#gaeeba153b188cd06cbd233eaef12f0a6a":[1,1,1,6],
 "group___periapsis.html#gafb16e46e55078b38604eef0d7c7c40c4":[1,1,1,11],

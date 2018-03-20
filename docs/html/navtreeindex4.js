@@ -1,14 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"group___n_i_s_t_const-_hertz.html#ga827c4e99287fcd5363fabcfe1381cc37":[1,4,6,3,4],
-"group___n_i_s_t_const-_hertz.html#gacda137a5d10ebba59b340d770802678f":[1,4,6,3,5],
-"group___n_i_s_t_const-_impedance_of_vacuum.html":[1,4,0,0],
-"group___n_i_s_t_const-_impedance_of_vacuum.html#ga51e1aede5d89041ea7423522b526dd0e":[1,4,0,0,0],
-"group___n_i_s_t_const-_inverse_meter.html":[1,4,6,4],
-"group___n_i_s_t_const-_inverse_meter.html#ga5743c27316774c4f065336d0a016508e":[1,4,6,4,3],
-"group___n_i_s_t_const-_inverse_meter.html#ga6b5807b2161fa29684e4862e575b9102":[1,4,6,4,6],
-"group___n_i_s_t_const-_inverse_meter.html#ga6f47bdfe8997031b0f15229eb5bf4b9e":[1,4,6,4,2],
-"group___n_i_s_t_const-_inverse_meter.html#ga7d76b1c26bd9b6226d0bdbcbfe44c3a0":[1,4,6,4,0],
 "group___n_i_s_t_const-_inverse_meter.html#gaa927232a822dccc33f7c56ac002aff52":[1,4,6,4,4],
 "group___n_i_s_t_const-_inverse_meter.html#gaf5a61f53f6757db329df597b76b2df69":[1,4,6,4,5],
 "group___n_i_s_t_const-_inverse_meter.html#gafdede27a7699d3a180bb829b65fac447":[1,4,6,4,1],
@@ -249,5 +240,14 @@ var NAVTREEINDEX4 =
 "group___periapsis.html#ga255874374dde571531e443cdbef9ef0c":[1,1,1,20],
 "group___periapsis.html#ga2cc7ab05e18d32c94d8d74972e032793":[1,1,1,16],
 "group___periapsis.html#ga4414ac75539371ec874a3d25cad6c9fe":[1,1,1,0],
-"group___periapsis.html#ga477de6824cbb5986cdae923141e21648":[1,1,1,2]
+"group___periapsis.html#ga477de6824cbb5986cdae923141e21648":[1,1,1,2],
+"group___periapsis.html#ga60a50d09d29ebe47cbbfc125c2ea42bf":[1,1,1,19],
+"group___periapsis.html#ga941d285e3a0b48ada9c9f60925ff63c2":[1,1,1,12],
+"group___periapsis.html#ga9562e9cbfd73019ae9cdaa643b843d63":[1,1,1,13],
+"group___periapsis.html#ga99d86af90179994e17158b082c502fd4":[1,1,1,17],
+"group___periapsis.html#gaa270e364cbbd7d3d6212872df484926f":[1,1,1,7],
+"group___periapsis.html#gaa56f74c44a3583b8f0d13b821c1d7422":[1,1,1,15],
+"group___periapsis.html#gab8b8131a617dd2d2a4de1d48accd7442":[1,1,1,21],
+"group___periapsis.html#gac4c419a87a5802cf6afc98f50792e99f":[1,1,1,4],
+"group___periapsis.html#gada5892309279a3a687c4eb2f88238e4e":[1,1,1,3]
 };

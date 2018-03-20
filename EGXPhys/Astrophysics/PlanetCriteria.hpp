@@ -28,7 +28,7 @@ namespace EGXPhys
 	/// @{
 	
 	/** 
-	*   @brief Calculates Planet Similarity Index (\f$PSI)\f$ of a planet when comparing it to a reference planet.
+	*   @brief Calculates Planet Similarity Index \f$(PSI)\f$ of a planet when comparing it to a reference planet.
     *
     *	The planet similarity index is a number that denotes how similar a planet is to that of the reference. 1 is being exactly like the reference.
     *   		\f[PSI=\sqrt{PSI_I PSI_S}\f]
@@ -53,7 +53,7 @@ namespace EGXPhys
     T PlanetSimilarityIndex(const T& planetMeanRadius, const T& referenceMeanRadius, const T& planetBulkDensity, const T& referenceBulkDensity, const T& planetEscapeVelocity, const T& referenceEscapeVelocity, const T& planetSurfaceTemperature, const T& referenceSurfaceTemperature );
 	  
     /** 
-	*   @brief Calculates Earth Similarity Index (\f$ESI)\f$ of a planet.
+	*   @brief Calculates Earth Similarity Index \f$(ESI)\f$ of a planet.
     *
     *	The earth similarity index is a number that denotes how similar a planet is to that of earth. 1 is being exactly earth like.
     *   		\f[ESI=\sqrt{ESI_I ESI_S}\f]
@@ -76,7 +76,7 @@ namespace EGXPhys
     
 	  
     /** 
-	*   @brief Calculates Interior Planet Similarity Index (\f$PSI_I)\f$ of a planet when comparing it to a reference planet.
+	*   @brief Calculates Interior Planet Similarity Index \f$(PSI_I)\f$ of a planet when comparing it to a reference planet.
     *
     *	The interior planet similarity index is a number that denotes how similar the interior of the planet is to that of the reference. 1 is being exactly like the reference. 
     *   		\f[PSI_I=\sqrt{PSI_r PSI_\rho}\f]
@@ -99,7 +99,7 @@ namespace EGXPhys
     	  
 	  
     /** 
-	*   @brief Calculates Interior Earth Similarity Index (\f$ESI_I)\f$ of a planet.
+	*   @brief Calculates Interior Earth Similarity Index \f$(ESI_I)\f$ of a planet.
     *
     *	The interior earth similarity index is a number that denotes how similar the interior of a planet is to the earth. 1 is being exactly earth like.
     *   		\f[ESI_I=\sqrt{ESI_r ESI_\rho}\f]
@@ -122,7 +122,7 @@ namespace EGXPhys
     
     
     /** 
-	*   @brief Calculates Surface Planet Similarity Index (\f$PSI_S)\f$ of a planet when comparing it to a reference planet.
+	*   @brief Calculates Surface Planet Similarity Index \f$(PSI_S)\f$ of a planet when comparing it to a reference planet.
     *
     *	The interior planet similarity index is a number that denotes how similar the interior of the planet is to that of the reference. 1 is being exactly like the reference. 
     *   		\f[PSI_S=\sqrt{PSI_{v_e} PSI_T}\f]
@@ -144,7 +144,7 @@ namespace EGXPhys
     T PlanetSimilarityIndexSurface(const T& planetEscapeVelocity, const T& referenceEscapeVelocity, const T& planetSurfaceTemperature, const T& referenceSurfaceTemperature);
 
     /** 
-	*   @brief Calculates Surface Earth Similarity Index (\f$ESI_S)\f$ of a planet.
+	*   @brief Calculates Surface Earth Similarity Index \f$(ESI_S)\f$ of a planet.
     *
     *	The interior planet similarity index is a number that denotes how similar the surface of a planet is to the earth. 1 is being exactly earth like.
     *   		\f[PSI_S=\sqrt{PSI_{v_e} PSI_T}\f]
