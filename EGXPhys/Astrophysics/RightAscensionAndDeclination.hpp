@@ -32,9 +32,9 @@ namespace EGXPhys
 
 
 	/**
-	*   @brief Calculates the stellar mass \f$(M)\f$ of a star when comparing it to the mass of a reference star \f$(m_{ref})\f$.
-	*   		\f[M=\frac{m_{star}}{m_{ref}}\f]
-	*   See https://en.wikipedia.org/wiki/Stellar_mass
+	*   @brief Converts right ascensions \f$(\alpha)\f$ from hours \f$(RA_h)\f$, minutes \f$(RA_m)\f$ and seconds\f$(RA_s)\f$ to radians.
+	*   		\f[\alpha=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\f]
+	*   See http://en.wikipedia.org/wiki/Right_ascension, http://en.wikipedia.org/wiki/Sidereal_hour_angle
 	*
 	*   @param starMass \f$m_{star}\ (kg)\f$ is the mass of the star.
 	*	@param referenceMass \f$m_{ref}\ (kg)\f$ is the mass of the reference star.
@@ -43,19 +43,21 @@ namespace EGXPhys
 	*	@see StellarMass() for \f$M\f$ equation using a star as a reference.
 	*	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
 	*/
-	// Right Ascension to Radians. Right ascension is in Sidereal hour angle (360degrees = 24 hours)
-	// See http://en.wikipedia.org/wiki/Right_ascension, http://en.wikipedia.org/wiki/Sidereal_hour_angle
 	template<typename T>
 	T RightAscensionToRadians(const T hours, const T minutes, const T seconds);
 
 	
+	template<typename T>
+	void RadiansToRightAscension(const T radians, T& hours, T& minutes, T& seconds);
+
 	// Declination to Radians. Delination is in Sexagesimal(traditional degrees) system.
 	// !!!WARNING!! Will return with0.0 rads pointing up Z axis and pi/2 pointing at positive X-axis
 	// Think Spherical Co-ordinate system http://en.wikipedia.org/wiki/Spherical_coordinate_system
-	double DeclinationToRad(const double degrees, const double arcminutes, const double arcseconds)
-	{
-		return (degrees * pi / 180.0 + arcminutes * pi / 10800.0 + arcseconds * pi / 648000.0);
-	}
+	template<typename T>
+	T DeclinationToRadians(const T degrees, const T arcminutes, const T arcseconds);
+
+	template<typename T>
+	void DeclinationToRadians(const T& radians, T& degrees, T& arcminutes, T& arcseconds);
 
 
     /// @}

@@ -22,6 +22,8 @@
 
 namespace EGXPhys
 {
+	//Only works for C++14 + should figure out a way to check for it.
+	template<typename T> constexpr T pi = T(3.141592653589793238462643383L);
 // Time
 	const double minute = 60;											/**< \f$t_{min}\ (s)\f$ Seconds in a minute in seconds.*/
 	const double secondsInMinute = minute;								/**< \f$t_{min}\ (s)\f$ Seconds in a minute in seconds.*/
