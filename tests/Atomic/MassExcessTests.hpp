@@ -1,10 +1,10 @@
 TEST_CASE("Mass Excess"){
 	
 	//Carbon 12
-	CHECK( MassExcessInu(12,12)== 0.0);
-	CHECK( MassExcessInMeVPercSquared(12,12)== 0.0);
-	CHECK( MassExcessInkg(12,12)== 0.0);
-	CHECK( MassExcessInJPercSquared(12,12)== 0.0); 
+	CHECK( MassExcessInu(12,12.0)== 0.0);
+	CHECK( MassExcessInMeVPercSquared(12,12.0)== 0.0);
+	CHECK( MassExcessInkg(12,12.0)== 0.0);
+	CHECK( MassExcessInJPercSquared(12,12.0)== 0.0); 
 	
 	//Lithium 7
 	CHECK( MassExcessInu(7,7.016003)== Approx(0.016003).scale(0.0).epsilon(0.001));

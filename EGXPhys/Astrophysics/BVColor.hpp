@@ -1,11 +1,11 @@
-/// @file EGXPhys/Astrophysics/PlanetCriteria.hpp
+/// @file EGXPhys/Astrophysics/BVColor.hpp
 ///
-/// @brief Calculates various criteria for planets including habitability.
+/// @brief Calculates B-V Color of stars and related information derived from it.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 7/31/17
+/// @date 3/19/18
 
-/// @defgroup StellarMass Stellar Mass
+/// @defgroup BVColor B-V Color
 /// @ingroup Astrophysics
 
 //=================================
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup StellarMass
+	/// @addtogroup BVColor
 	/// @{
 	
 	/**
@@ -61,4 +61,4 @@ namespace EGXPhys
     /// @}
 } //namespace EGXPhys
 
-#include "StellarMass.inl"
+#include "BVColor.inl"

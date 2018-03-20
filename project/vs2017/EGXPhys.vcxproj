@@ -141,17 +141,23 @@
   <ItemGroup>
     <ClInclude Include="..\..\EGXPhys\Acoustics\Acoustics.hpp" />
     <ClInclude Include="..\..\EGXPhys\Acoustics\AcousticsConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\AbsoluteMagnitude.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Apoapsis.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Astrophysics.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\AstrophysicsConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\BVColor.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\CircumstellarHabitableZone.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\RightAscensionAndDeclination.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Eccentricity.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Luminosity.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\OrbitalCharecteristics.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Parallax.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Periapsis.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarMass.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarRadius.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarTemperature.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\Atomic.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\AtomicConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\DecayConstant.hpp" />
@@ -207,15 +213,21 @@
     <ClCompile Include="..\..\tests\unitTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\EGXPhys\Astrophysics\AbsoluteMagnitude.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Apoapsis.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\BVColor.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\CircumstellarHabitableZone.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\RightAscensionAndDeclination.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Eccentricity.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Luminosity.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\OrbitalCharecteristics.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\Parallax.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Periapsis.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\StellarMass.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\StellarRadius.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\StellarTemperature..inl" />
     <None Include="..\..\EGXPhys\Atomic\DecayConstant.inl" />
     <None Include="..\..\EGXPhys\Atomic\DecayWidth.inl" />
     <None Include="..\..\EGXPhys\Atomic\HalfLife.inl" />
