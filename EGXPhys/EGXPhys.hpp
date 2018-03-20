@@ -12,6 +12,7 @@
 //=================================
 // Included dependencies
 #include <math.h>
+#include "EGXMath/EGXMath.hpp"
 //=================================
 // Forward declared dependencies
 

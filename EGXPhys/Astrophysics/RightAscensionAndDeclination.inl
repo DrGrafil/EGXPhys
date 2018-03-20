@@ -12,7 +12,7 @@ namespace EGXPhys{
 	template<typename T>
 	T RightAscensionToRadians(const T hours, const T minutes, const T seconds)
 	{
-		return (hours * 15 + minutes/ 4.0 + seconds/ 240.0) * (pi / 180.0);
+		return (hours * 15 + minutes / 4.0 + seconds / 240.0) * (pi / 180.0);
 	}
 
 	template<typename T>
@@ -22,7 +22,7 @@ namespace EGXPhys{
 
 	template<typename T>
 	T DeclinationToRadians(const T degrees, const T arcminutes, const T arcseconds) {
-		return (degrees * pi / 180.0 + arcminutes * pi / 10800.0 + arcseconds * pi / 648000.0);
+		return (degrees + arcminutes / 60.0 + arcseconds / 3600.0)* (pi / 180.0);
 	}
     
 	template<typename T>

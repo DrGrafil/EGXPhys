@@ -46,6 +46,9 @@
     <Filter Include="EGXPhys\Thermodynamics">
       <UniqueIdentifier>{44809c44-5d59-4512-a6b2-28d68418450f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\EGXMath">
+      <UniqueIdentifier>{834eb996-646d-4a09-8ed6-a127b2f86da8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -254,6 +257,12 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\Astrophysics\RightAscensionAndDeclination.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp">
+      <Filter>EGXPhys\EGXMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp">
+      <Filter>EGXPhys\EGXMath</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -171,6 +171,8 @@
     <ClInclude Include="..\..\EGXPhys\Atomic\QValue.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\RadioactiveDecay.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\SemiEmpiricalMassFormula.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXPhys.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXPhysConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\Kinematics\Kinematics.hpp" />
