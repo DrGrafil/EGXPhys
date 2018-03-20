@@ -13,6 +13,9 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "OrbitalCharecteristics.inl", "_orbital_charecteristics_8inl.html", null ],
     [ "Periapsis.hpp", "_periapsis_8hpp.html", "_periapsis_8hpp" ],
     [ "Periapsis.inl", "_periapsis_8inl.html", "_periapsis_8inl" ],
+    [ "PlanetaryMass.hpp", "_planetary_mass_8hpp.html", "_planetary_mass_8hpp" ],
+    [ "PlanetaryMass.inl", "_planetary_mass_8inl.html", "_planetary_mass_8inl" ],
     [ "PlanetCriteria.hpp", "_planet_criteria_8hpp.html", "_planet_criteria_8hpp" ],
-    [ "PlanetCriteria.inl", "_planet_criteria_8inl.html", "_planet_criteria_8inl" ]
+    [ "PlanetCriteria.inl", "_planet_criteria_8inl.html", "_planet_criteria_8inl" ],
+    [ "SolarMass.hpp", "_solar_mass_8hpp_source.html", null ]
 ];

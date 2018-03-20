@@ -51,6 +51,11 @@ namespace EGXPhys
 
 		//Mars
 	
+
+
+	const double EarthMass = 5.97219e24;									/**< Mass(kg) Of Earth. \f$M_\oplus\f$ */
+	const double JupiterMass = 1.89813e27;									/**< Mass(kg) Of Jupiter. \f$M_J\f$ */
+	const double LunarMass = 7.342e22;										/**< Mass(kg) Of Moon. \f$M_L\f$ */ //Is this right for symbol?
 	/*
 	const double SemimajorAxisOf =;
 	const double EccentricityOf =;

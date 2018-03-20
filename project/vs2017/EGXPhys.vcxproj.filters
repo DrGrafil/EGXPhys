@@ -225,6 +225,15 @@
     <ClInclude Include="..\..\EGXPhys\NISTConst\NISTConst.hpp">
       <Filter>EGXPhys\NISTConst</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\SolarMass.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Astrophysics\PlanetaryMassTests.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -291,6 +300,12 @@
     </None>
     <None Include="..\..\EGXPhys\Relativity\LorentzTransformations.inl">
       <Filter>EGXPhys\Relativity</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\SolarMass.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>
 </Project>

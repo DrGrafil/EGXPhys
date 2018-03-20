@@ -2,9 +2,12 @@ var _astrophysics_constants_8hpp =
 [
     [ "BondAlbedoOfEarth", "_astrophysics_constants_8hpp.html#a932fff28fce4321fdbf9abc5c1783dc9", null ],
     [ "DensityOfEarth", "_astrophysics_constants_8hpp.html#a2a671e37351b9b7e334385a26a7f7102", null ],
+    [ "EarthMass", "_astrophysics_constants_8hpp.html#a9f866a7985fe2676a1e50a3dd175f5b6", null ],
     [ "EccentricityOfEarth", "_astrophysics_constants_8hpp.html#a327bbaf59d546f8524d6fb9da919d939", null ],
     [ "EscapeVelocityOfEarth", "_astrophysics_constants_8hpp.html#a6a8cb7abae15a2f1bbcfd6623f72316c", null ],
     [ "GeometricAlbedoOfEarth", "_astrophysics_constants_8hpp.html#aae01fb8ed365fc5de7acebeef34b7351", null ],
+    [ "JupiterMass", "_astrophysics_constants_8hpp.html#ad790be322eb318e95b4ea609b4954da9", null ],
+    [ "LunarMass", "_astrophysics_constants_8hpp.html#a55e13f18ccd52a098969eaa5755c448e", null ],
     [ "MassOfEarth", "_astrophysics_constants_8hpp.html#ace4a9d8c0b21215536857f4c1087a4e8", null ],
     [ "MassOfSun", "_astrophysics_constants_8hpp.html#a6e84ae13f1dbcecb215af787bbc12cd6", null ],
     [ "MassOfSunInEarthMass", "_astrophysics_constants_8hpp.html#a05709972a6a6089eb968f667ce0bf656", null ],

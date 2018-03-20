@@ -8,3 +8,4 @@
 #include "LuminosityTests.hpp"
 #include "PeriapsisTests.hpp"
 #include "PlanetCriteriaTests.hpp"
+#include "PlanetaryMassTests.hpp"

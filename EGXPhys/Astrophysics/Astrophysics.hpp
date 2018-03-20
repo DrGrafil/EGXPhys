@@ -19,6 +19,7 @@
 #include "Luminosity.hpp"
 #include "Periapsis.hpp"
 #include "PlanetCriteria.hpp"
+#include "PlanetaryMass.hpp"
 #include "OrbitalCharecteristics.hpp"
 
 

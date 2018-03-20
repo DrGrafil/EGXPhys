@@ -12,5 +12,6 @@ var searchData=
   ['loschmidtconstantatm',['LoschmidtConstantatm',['../group___n_i_s_t_const-_loschmidt_constant.html#ga1442f26c5c9f899f74ef7b546a41c461',1,'NISTConst']]],
   ['luminosity_2ehpp',['Luminosity.hpp',['../_luminosity_8hpp.html',1,'']]],
   ['luminosity_2einl',['Luminosity.inl',['../_luminosity_8inl.html',1,'']]],
+  ['lunarmass',['LunarMass',['../namespace_e_g_x_phys.html#a55e13f18ccd52a098969eaa5755c448e',1,'EGXPhys']]],
   ['loschmidt_20constant',['Loschmidt constant',['../group___n_i_s_t_const-_loschmidt_constant.html',1,'']]]
 ];
