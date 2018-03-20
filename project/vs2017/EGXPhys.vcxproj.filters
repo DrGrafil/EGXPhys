@@ -49,6 +49,9 @@
     <Filter Include="EGXPhys\EGXMath">
       <UniqueIdentifier>{834eb996-646d-4a09-8ed6-a127b2f86da8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\EGXMath\Conversions">
+      <UniqueIdentifier>{bb064649-91d8-498b-91ef-95a981a18a9f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -264,6 +267,9 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp">
       <Filter>EGXPhys\EGXMath</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -354,6 +360,9 @@
     </None>
     <None Include="..\..\EGXPhys\Astrophysics\RightAscensionAndDeclination.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.inl">
+      <Filter>EGXPhys\EGXMath\Conversions</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -171,6 +171,7 @@
     <ClInclude Include="..\..\EGXPhys\Atomic\QValue.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\RadioactiveDecay.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\SemiEmpiricalMassFormula.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXPhys.hpp" />
@@ -241,6 +242,7 @@
     <None Include="..\..\EGXPhys\Atomic\QValue.inl" />
     <None Include="..\..\EGXPhys\Atomic\RadioactiveDecay.inl" />
     <None Include="..\..\EGXPhys\Atomic\SemiEmpiricalMassFormula.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.inl" />
     <None Include="..\..\EGXPhys\Optics\Redshift.inl" />
     <None Include="..\..\EGXPhys\Relativity\LorentzTransformations.inl" />
   </ItemGroup>
