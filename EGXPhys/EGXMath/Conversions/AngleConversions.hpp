@@ -29,6 +29,137 @@ namespace EGXMath
 	/// @addtogroup AngleConversions
 	/// @{
 	
+	//// Degrees
+	template<typename T>
+	T DegreeToRadian(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Milliradian
+	template<typename T>
+	T DegreeToMilliradian(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	template<typename T>
+	T DegreeToDegree(const T& decimalDegree);
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	template<typename T>
+	T DegreeToDecimalDegree(const T& decimalDegree);
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	template<typename T>
+	T DegreeToArcdegree(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	template<typename T>
+	T DegreeToArcminute(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	template<typename T>
+	T DegreeToArcsecond(const T& decimalDegree);
+
+	template<typename T>
+	T DegreeToMilliarcsecond(const T& decimalDegree);
+
+	template<typename T>
+	T DegreeToMicroarcsecond(const T& decimalDegree);
+
+	template<typename T>
+	void DegreeToDegreesMinutesSeconds(const T& decimalDegree, T& degree, T& minute, T& second);
+
+	template<typename T>
+	void DegreeToDMS(const T& decimalDegree, T& degree, T& minute, T& second);
+
+	template<typename T>
+	void DegreeToHoursMinutesSeconds(const T& decimalDegree, T& hour, T& minute, T& second);
+
+	template<typename T>
+	void DegreeToHMS(const T& decimalDegree, T& hour, T& minute, T& second);
+
+	template<typename T>
+	T DegreeToGradian(const T& decimalDegree);
+
+	template<typename T>
+	T DegreeToGon(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	template<typename T>
+	std::string DegreeToCompass8Wind(const T& decimalDegree);
+	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	template<typename T>
+	std::string DegreeToCompass16Wind(const T& decimalDegree);
+	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	template<typename T>
+	std::string DegreeToCompass32Wind(const T& decimalDegree);
+
+
+
+	//// DECIMAL DEGREES (they are bounded unlike normal degrees
+
+	template<typename T>
+	T DegreeToRadian(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Milliradian
+	template<typename T>
+	T DegreeToMilliradian(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	template<typename T>
+	T DegreeToDegree(const T& decimalDegree);
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	template<typename T>
+	T DegreeToDecimalDegree(const T& decimalDegree);
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	template<typename T>
+	T DegreeToArcdegree(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	template<typename T>
+	T DegreeToArcminute(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	template<typename T>
+	T DegreeToArcsecond(const T& decimalDegree);
+
+	template<typename T>
+	T DegreeToMilliarcsecond(const T& decimalDegree);
+
+	template<typename T>
+	T DegreeToMicroarcsecond(const T& decimalDegree);
+
+	template<typename T>
+	void DegreeToDegreesMinutesSeconds(const T& decimalDegree, T& degree, T& minute, T& second);
+
+	template<typename T>
+	void DegreeToDMS(const T& decimalDegree, T& degree, T& minute, T& second);
+
+	template<typename T>
+	void DegreeToHoursMinutesSeconds(const T& decimalDegree, T& hour, T& minute, T& second);
+
+	template<typename T>
+	void DegreeToHMS(const T& decimalDegree, T& hour, T& minute, T& second);
+
+	template<typename T>
+	void DegreeToGradian(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	template<typename T>
+	std::string DegreeToCompass8Wind(const T& decimalDegree);
+	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	template<typename T>
+	std::string DegreeToCompass16Wind(const T& decimalDegree);
+	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	template<typename T>
+	std::string DegreeToCompass32Wind(const T& decimalDegree);
+
+
+
+
+
+
 	/**
 	*   @brief Converts an angle \f$(\alpha)\f$ in radians to (decimal) degrees.
 	*   		\f[\alpha_{Deg}=\alpha_{Rad}\frac{180}{\pi}\f]
@@ -43,64 +174,68 @@ namespace EGXMath
 	*	@see RadiansToHoursMinutesSeconds() to convert to HMS.
 	*/
 
+	//// RADIANS
 	template<typename T>
-	T RadianToRadian(const T& radians);
+	T RadianToRadian(const T& radian);
 
 	//https://en.wikipedia.org/wiki/Milliradian
 	template<typename T>
-	T RadianToMilliradian(const T& radians);
+	T RadianToMilliradian(const T& radian);
 
 	//https://en.wikipedia.org/wiki/Degree_(angle)
 
 	template<typename T>
-	T RadianToDegree(const T& radians);
+	T RadianToDegree(const T& radian);
 	//https://en.wikipedia.org/wiki/Degree_(angle)
 
 	template<typename T>
-	T RadianToDecimalDegree(const T& radians);
+	T RadianToDecimalDegree(const T& radian);
 	//https://en.wikipedia.org/wiki/Degree_(angle)
 
 	template<typename T>
-	T RadianToArcdegree(const T& radians);
+	T RadianToArcdegree(const T& radian);
 
 	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	template<typename T>
-	T RadianToArcminute(const T& radians);
+	T RadianToArcminute(const T& radian);
 
 	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	template<typename T>
-	T RadianToArcsecond(const T& radians);
+	T RadianToArcsecond(const T& radian);
 
 	template<typename T>
-	T RadianToMilliarcsecond(const T& radians);
+	T RadianToMilliarcsecond(const T& radian);
 
 	template<typename T>
-	T RadianToMicroarcsecond(const T& radians);
+	T RadianToMicroarcsecond(const T& radian);
 
 	template<typename T>
-	void RadianToDegreesMinutesSeconds(const T& starMass);
+	void RadianToDegreesMinutesSeconds(const T& radian, T& degree, T& minute, T& second);
 
 	template<typename T>
-	void RadianToDMS(const T& starMass);
+	void RadianToDMS(const T& radian, T& degree, T& minute, T& second);
 
 	template<typename T>
-	void RadianToHoursMinutesSeconds(const T& starMass);
+	void RadianToHoursMinutesSeconds(const T& radian, T& hour, T& minute, T& second);
 
 	template<typename T>
-	void RadianToHMS(const T& starMass);
+	void RadianToHMS(const T& radian, T& hour, T& minute, T& second);
 
 	template<typename T>
-	void RadianToGradian(const T& starMass);
+	T RadianToGradian(const T& radian);
+
+	template<typename T>
+	T RadianToGon(const T& radian);
 
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
-	std::string RadianToCompass8Wind(const T& starMass);
+	std::string RadianToCompass8Wind(const T& radian);
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
-	std::string RadianToCompass16Wind(const T& starMass);
+	std::string RadianToCompass16Wind(const T& radian);
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
-	std::string RadianToCompass32Wind(const T& starMass);
+	std::string RadianToCompass32Wind(const T& radian);
 
     /// @}
 } //namespace EGXMath
