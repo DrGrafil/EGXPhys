@@ -1,3 +1,5 @@
+#pragma once
+
 TEST_CASE("Apoapsis"){
 	
     REQUIRE( Apoapsis(0.0, 1.0) == 1.0 );

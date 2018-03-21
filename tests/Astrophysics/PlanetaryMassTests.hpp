@@ -1,3 +1,4 @@
+#pragma once
 TEST_CASE("Planetary Mass"){
 	
 	//General

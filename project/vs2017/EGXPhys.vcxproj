@@ -211,6 +211,9 @@
     <ClInclude Include="..\..\tests\Atomic\QValueTests.hpp" />
     <ClInclude Include="..\..\tests\Atomic\SemiEmpiricalMassFormulaTests.hpp" />
     <ClInclude Include="..\..\tests\catch.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\AngularConversionsTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\ConversionsTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\EGXMathTests.hpp" />
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp" />
     <ClInclude Include="..\..\tests\Optics\RedshiftTests.hpp" />
   </ItemGroup>

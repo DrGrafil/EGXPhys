@@ -1,3 +1,4 @@
+#pragma once
 TEST_CASE("Luminosity"){
 	
 	REQUIRE( blackbodyLuminosity(0.0, 0.0) == 0.0);

@@ -22,6 +22,8 @@ using namespace EGXPhys;
 #include "Optics/OpticsTests.hpp"
 
 
+using namespace EGXMath;
+#include "EGXMath/EGXMathTests.hpp"
 
 int main(int argc, char* argv[]) {
 	// global setup...

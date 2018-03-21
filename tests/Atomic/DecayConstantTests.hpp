@@ -1,3 +1,4 @@
+#pragma once
 TEST_CASE("Decay Constant"){
 	
 	CHECK( DecayConstant(1000.0, 800.0, 2.0) == Approx(0.1).scale(0.0).epsilon(0.001));

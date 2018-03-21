@@ -1,3 +1,4 @@
+#pragma once
 TEST_CASE("Q Value"){
 	//Data taken from https://www.nndc.bnl.gov/chart/
 	//Mass taken from http://wwwndc.jaea.go.jp/NuC/

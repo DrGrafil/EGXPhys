@@ -84,69 +84,6 @@ namespace EGXMath
 
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
-	std::string DegreeToCompass8Wind(const T& decimalDegree);
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
-	template<typename T>
-	std::string DegreeToCompass16Wind(const T& decimalDegree);
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
-	template<typename T>
-	std::string DegreeToCompass32Wind(const T& decimalDegree);
-
-
-
-	//// DECIMAL DEGREES (they are bounded unlike normal degrees
-
-	template<typename T>
-	T DegreeToRadian(const T& decimalDegree);
-
-	//https://en.wikipedia.org/wiki/Milliradian
-	template<typename T>
-	T DegreeToMilliradian(const T& decimalDegree);
-
-	//https://en.wikipedia.org/wiki/Degree_(angle)
-
-	template<typename T>
-	T DegreeToDegree(const T& decimalDegree);
-	//https://en.wikipedia.org/wiki/Degree_(angle)
-
-	template<typename T>
-	T DegreeToDecimalDegree(const T& decimalDegree);
-	//https://en.wikipedia.org/wiki/Degree_(angle)
-
-	template<typename T>
-	T DegreeToArcdegree(const T& decimalDegree);
-
-	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	template<typename T>
-	T DegreeToArcminute(const T& decimalDegree);
-
-	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	template<typename T>
-	T DegreeToArcsecond(const T& decimalDegree);
-
-	template<typename T>
-	T DegreeToMilliarcsecond(const T& decimalDegree);
-
-	template<typename T>
-	T DegreeToMicroarcsecond(const T& decimalDegree);
-
-	template<typename T>
-	void DegreeToDegreesMinutesSeconds(const T& decimalDegree, T& degree, T& minute, T& second);
-
-	template<typename T>
-	void DegreeToDMS(const T& decimalDegree, T& degree, T& minute, T& second);
-
-	template<typename T>
-	void DegreeToHoursMinutesSeconds(const T& decimalDegree, T& hour, T& minute, T& second);
-
-	template<typename T>
-	void DegreeToHMS(const T& decimalDegree, T& hour, T& minute, T& second);
-
-	template<typename T>
-	void DegreeToGradian(const T& decimalDegree);
-
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
-	template<typename T>
 	std::string DegreeToCompass8Wind(const T& decimalDegree, const bool abbreviate);
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
@@ -154,6 +91,69 @@ namespace EGXMath
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
 	std::string DegreeToCompass32Wind(const T& decimalDegree, const bool abbreviate);
+
+
+
+	//// DECIMAL DEGREES (they are bounded unlike normal degrees
+
+	template<typename T>
+	T DecimalDegreeToRadian(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Milliradian
+	template<typename T>
+	T DecimalDegreeToMilliradian(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	template<typename T>
+	T DecimalDegreeToDegree(const T& decimalDegree);
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	template<typename T>
+	T DecimalDegreeToDecimalDegree(const T& decimalDegree);
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	template<typename T>
+	T DecimalDegreeToArcdegree(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	template<typename T>
+	T DecimalDegreeToArcminute(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	template<typename T>
+	T DecimalDegreeToArcsecond(const T& decimalDegree);
+
+	template<typename T>
+	T DecimalDegreeToMilliarcsecond(const T& decimalDegree);
+
+	template<typename T>
+	T DecimalDegreeToMicroarcsecond(const T& decimalDegree);
+
+	template<typename T>
+	void DecimalDegreeToDegreesMinutesSeconds(const T& decimalDegree, T& degree, T& minute, T& second);
+
+	template<typename T>
+	void DecimalDegreeToDMS(const T& decimalDegree, T& degree, T& minute, T& second);
+
+	template<typename T>
+	void DecimalDegreeToHoursMinutesSeconds(const T& decimalDegree, T& hour, T& minute, T& second);
+
+	template<typename T>
+	void DecimalDegreeToHMS(const T& decimalDegree, T& hour, T& minute, T& second);
+
+	template<typename T>
+	void DecimalDegreeToGradian(const T& decimalDegree);
+
+	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	template<typename T>
+	std::string DecimalDegreeToCompass8Wind(const T& decimalDegree, const bool abbreviate);
+	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	template<typename T>
+	std::string DecimalDegreeToCompass16Wind(const T& decimalDegree, const bool abbreviate);
+	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	template<typename T>
+	std::string DecimalDegreeToCompass32Wind(const T& decimalDegree, const bool abbreviate);
 
 
 

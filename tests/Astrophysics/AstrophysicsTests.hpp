@@ -3,6 +3,7 @@
 //  Created by Elliot Grafil on 7/28/17.
 //  Copyright © 2017 Elliot Grafil. All rights reserved.
 //
+#pragma once
 
 #include "ApoapsisTests.hpp"
 #include "LuminosityTests.hpp"

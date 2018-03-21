@@ -1,3 +1,4 @@
+#pragma once
 TEST_CASE("Semi Empirical Mass Formula"){
 	
 	//Carbon 12

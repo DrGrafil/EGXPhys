@@ -1,3 +1,4 @@
+#pragma once
 TEST_CASE("Half Life"){
 	
 	CHECK( HalfLife(log(2.0)) == 1.0);

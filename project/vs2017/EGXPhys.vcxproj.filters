@@ -52,6 +52,12 @@
     <Filter Include="EGXPhys\EGXMath\Conversions">
       <UniqueIdentifier>{bb064649-91d8-498b-91ef-95a981a18a9f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tests\EGXMath">
+      <UniqueIdentifier>{be7cf732-da6b-46e9-885d-d0015c24aa8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\EGXMath\Conversions">
+      <UniqueIdentifier>{b292193c-eff4-4d91-9083-c09908b35153}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -275,6 +281,15 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\ConversionsConstants.hpp">
       <Filter>EGXPhys\EGXMath\Conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\EGXMathTests.hpp">
+      <Filter>Tests\EGXMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\AngularConversionsTest.hpp">
+      <Filter>Tests\EGXMath\Conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\ConversionsTest.hpp">
+      <Filter>Tests\EGXMath\Conversions</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

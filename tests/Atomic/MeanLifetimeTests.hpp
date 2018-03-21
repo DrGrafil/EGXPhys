@@ -1,3 +1,4 @@
+#pragma once
 TEST_CASE("Mean Lifetime"){
 	
 	CHECK( MeanLifetime(2.0) == 0.5);

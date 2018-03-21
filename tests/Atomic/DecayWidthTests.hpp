@@ -1,3 +1,5 @@
+#pragma once
+
 TEST_CASE("Decay Width"){
 	
 	CHECK( DecayWidth(2.0) == 4.0 );

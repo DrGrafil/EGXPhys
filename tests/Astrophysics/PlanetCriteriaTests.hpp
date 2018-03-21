@@ -1,3 +1,4 @@
+#pragma once
 TEST_CASE("Planet Criteria"){
 	
 	// As per the paper pulished

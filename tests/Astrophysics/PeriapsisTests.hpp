@@ -1,3 +1,4 @@
+#pragma once
 TEST_CASE("Periapsis"){
 	
     REQUIRE( Periapsis(0.0, 1.0) == 1.0 );

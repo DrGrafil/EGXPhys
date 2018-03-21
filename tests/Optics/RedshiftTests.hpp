@@ -1,3 +1,5 @@
+#pragma once
+
 TEST_CASE("Redshift"){
 	
 	REQUIRE( redshiftByWavelength(1.0, 1.0) == 0.0);
