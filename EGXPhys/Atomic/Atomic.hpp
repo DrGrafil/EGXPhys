@@ -6,7 +6,8 @@
 /// @date 7/28/17
 
 
-/// @defgroup Atomic Atomic
+/// @defgroup EGXPhys-Atomic Atomic
+/// @ingroup EGXPhys
 //=================================
 // Header guard
 #pragma once

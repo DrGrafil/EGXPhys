@@ -6,8 +6,8 @@
 /// @date 8/4/17
 
 
-/// @defgroup DecayWidth Decay Width
-/// @ingroup Atomic
+/// @defgroup EGXPhys-DecayWidth Decay Width
+/// @ingroup EGXPhys-Atomic
 /// Calculates the decay width, \f$\Gamma\f$, of a radioactive substance.
  
 //=================================
@@ -25,7 +25,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup DecayWidth
+	/// @addtogroup EGXPhys-DecayWidth
 	/// @{
 
 	/** 

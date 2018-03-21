@@ -1,0 +1,113 @@
+\hypertarget{group___e_g_x_phys-_mean_lifetime}{}\section{Mean Lifetime}
+\label{group___e_g_x_phys-_mean_lifetime}\index{Mean Lifetime@{Mean Lifetime}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_mean_lifetime_gaa9e3c2deedda4bc7a745568b06fc47eb}{E\+G\+X\+Phys\+::\+Mean\+Lifetime}} (const T \&decay\+Constant)
+\begin{DoxyCompactList}\small\item\em Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the decay constant, $\lambda$ . \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_mean_lifetime_ga2586e148263e1f6c8ff89f269a0930ea}{E\+G\+X\+Phys\+::\+Mean\+Lifetime\+Via\+Half\+Life}} (const T \&half\+Life)
+\begin{DoxyCompactList}\small\item\em Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the mean lifetime, $\tau$. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_mean_lifetime_ga8a1dda4168b4b25db93bf1ae7832fd7e}{E\+G\+X\+Phys\+::\+Mean\+Lifetime\+Via\+Decay\+Width}} (const T \&decay\+Width)
+\begin{DoxyCompactList}\small\item\em Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the decay width, $\Gamma$ . \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_mean_lifetime_gaa9e3c2deedda4bc7a745568b06fc47eb}\label{group___e_g_x_phys-_mean_lifetime_gaa9e3c2deedda4bc7a745568b06fc47eb}} 
+\index{Mean Lifetime@{Mean Lifetime}!Mean\+Lifetime@{Mean\+Lifetime}}
+\index{Mean\+Lifetime@{Mean\+Lifetime}!Mean Lifetime@{Mean Lifetime}}
+\subsubsection{\texorpdfstring{Mean\+Lifetime()}{MeanLifetime()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Mean\+Lifetime (\begin{DoxyParamCaption}\item[{const T \&}]{decay\+Constant }\end{DoxyParamCaption})}
+
+
+
+Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the decay constant, $\lambda$ . 
+
+The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. \[t_{\frac{1}{2}}=\frac{ln(2)}{\lambda}\]
+
+See \href{https://en.wikipedia.org/wiki/Half-life}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Half-\/life} and \href{http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/\+Nuclear/halfli2.\+html,} \href{https://en.wikipedia.org/wiki/Radioactive_decay}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Radioactive\+\_\+decay}
+
+Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1987), p. 161
+
+
+\begin{DoxyParams}{Parameters}
+{\em decay\+Constant} & $\lambda\ (\frac{1}{s})$ Decay constant. Fraction of radioactive substance that decays in 1 second. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$t_{\frac{1}{2}}\ (s)$ Half life. Time required for the activity of a radioactive substance to decay to half of its initial value. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_decay_constant_ga904edce5aad441b4a0873b3b1a83c7f2}{Decay\+Constant()}} to calculate the decay constant. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_half_life_gacddef16b62e98b214ec8dd8af7da7dce}{Half\+Life\+Via\+Mean\+Lifetime()}} to calculate half life using mean lifetime, $\tau$. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_half_life_gaba3fda944d1a68ee1016a1f2f5809359}{Half\+Life\+Via\+Decay\+Width()}} to calculate half life using decay width, $\Gamma$. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_mean_lifetime_ga8a1dda4168b4b25db93bf1ae7832fd7e}\label{group___e_g_x_phys-_mean_lifetime_ga8a1dda4168b4b25db93bf1ae7832fd7e}} 
+\index{Mean Lifetime@{Mean Lifetime}!Mean\+Lifetime\+Via\+Decay\+Width@{Mean\+Lifetime\+Via\+Decay\+Width}}
+\index{Mean\+Lifetime\+Via\+Decay\+Width@{Mean\+Lifetime\+Via\+Decay\+Width}!Mean Lifetime@{Mean Lifetime}}
+\subsubsection{\texorpdfstring{Mean\+Lifetime\+Via\+Decay\+Width()}{MeanLifetimeViaDecayWidth()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Mean\+Lifetime\+Via\+Decay\+Width (\begin{DoxyParamCaption}\item[{const T \&}]{decay\+Width }\end{DoxyParamCaption})}
+
+
+
+Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the decay width, $\Gamma$ . 
+
+The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. \[t_{\frac{1}{2}}=\frac{\hbar \ ln(2)}{\Gamma}\]
+
+See \href{http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/parlif.html}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/quantum/parlif.\+html}
+
+Equation taken from ????????
+
+
+\begin{DoxyParams}{Parameters}
+{\em decay\+Width} & $\Gamma\ (eV)$ Decay Width also known as line width, natural line width and decay F\+W\+HM. The F\+W\+HM of the uncertainty in the measured energy of the radioactive decay. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$t_{\frac{1}{2}}\ (s)$ Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_decay_width_gae232ec8bb39710131be898c057a25620}{Decay\+Width()}} to calculate the decay width. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_half_life_ga21d268f154fb91c1c556bbfa7fe83ac1}{Half\+Life()}} to calculate half life using decay constant, $\lambda$. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_half_life_gacddef16b62e98b214ec8dd8af7da7dce}{Half\+Life\+Via\+Mean\+Lifetime()}} to calculate half life using mean lifetime, $\tau$. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_mean_lifetime_ga2586e148263e1f6c8ff89f269a0930ea}\label{group___e_g_x_phys-_mean_lifetime_ga2586e148263e1f6c8ff89f269a0930ea}} 
+\index{Mean Lifetime@{Mean Lifetime}!Mean\+Lifetime\+Via\+Half\+Life@{Mean\+Lifetime\+Via\+Half\+Life}}
+\index{Mean\+Lifetime\+Via\+Half\+Life@{Mean\+Lifetime\+Via\+Half\+Life}!Mean Lifetime@{Mean Lifetime}}
+\subsubsection{\texorpdfstring{Mean\+Lifetime\+Via\+Half\+Life()}{MeanLifetimeViaHalfLife()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Mean\+Lifetime\+Via\+Half\+Life (\begin{DoxyParamCaption}\item[{const T \&}]{half\+Life }\end{DoxyParamCaption})}
+
+
+
+Calculates the Half Life, $t_{\frac{1}{2}}$, of a radioactive substance via the mean lifetime, $\tau$. 
+
+The Half Life is the time required for the activity of a radioactive substance to decay to half of its initial value. \[\tau= \tau \ ln(2)\]
+
+See \href{https://en.wikipedia.org/wiki/Half-life}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Half-\/life} and \href{http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/halfli2.html,}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/\+Nuclear/halfli2.\+html,} \href{https://en.wikipedia.org/wiki/Radioactive_decay}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Radioactive\+\_\+decay}
+
+Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1987), p. 161
+
+
+\begin{DoxyParams}{Parameters}
+{\em half\+Life} & $\lambda\ (\frac{1}{s})$ Mean lifetime. Average time that a radioactive substance is likely to survive before it decays. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$t_{\frac{1}{2}}\ (s)$ Half Life. Time required for the activity of a radioactive substance to decay to half of its initial value. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_mean_lifetime_gaa9e3c2deedda4bc7a745568b06fc47eb}{Mean\+Lifetime()}} 
+
+\mbox{\hyperlink{group___e_g_x_phys-_half_life_ga21d268f154fb91c1c556bbfa7fe83ac1}{Half\+Life()}} to calculate half life using decay constant, $\lambda$. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_half_life_gaba3fda944d1a68ee1016a1f2f5809359}{Half\+Life\+Via\+Decay\+Width()}} to calculate half life using decay width, $\Gamma$. 
+\end{DoxySeeAlso}

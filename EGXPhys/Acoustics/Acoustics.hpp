@@ -6,7 +6,8 @@
 /// @date 7/28/17
 
 
-/// @defgroup Acoustics Acoustics
+/// @defgroup EGXPhys-Acoustics Acoustics
+/// @ingroup EGXPhys
 //=================================
 // Header guard
 #pragma once

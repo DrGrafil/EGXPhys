@@ -5,7 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
 
-
+/// @defgroup EGXPhys-MeanLifetime Mean Lifetime
+/// @ingroup EGXPhys-Atomic
 //=================================
 // Header guard
 #pragma once
@@ -21,7 +22,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Atomic
+	/// @addtogroup EGXPhys-MeanLifetime
 	/// @{
 
     /** 

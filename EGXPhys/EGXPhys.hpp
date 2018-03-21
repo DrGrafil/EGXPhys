@@ -4,7 +4,9 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 7/25/17
-
+///
+/// @defgroup EGXPhys EGXPhys Library
+/// @brief Physics library to be used in a variety of physics and chemistry programs.
 
 //=================================
 // Header guard

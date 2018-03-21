@@ -26,14 +26,6 @@ var NAVTREE =
   [ "EGXPhys", "index.html", [
     [ "Todo List", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ]
-      ] ]
-    ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ]
     ] ]
@@ -43,11 +35,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_absolute_magnitude_8hpp.html",
-"_n_i_s_t_const_8hpp.html#ga0baa245921425da84c42fd881b7d1c0f",
-"_n_i_s_t_const_8hpp.html#gac96a82ff7cb2cf20cb9cfe754756c08e",
-"_radioactive_decay_8hpp.html",
-"group___n_i_s_t_const-_electron.html#gad051ac865a63e667306850054f912ab1",
-"group___n_i_s_t_const-_speed_of_light.html"
+"_n_i_s_t_const_8hpp.html#ga0b7518cf6058bb899c64b32b43bda955",
+"_n_i_s_t_const_8hpp.html#gac8f7404645a2f994d9b1eda283e441d5",
+"_quantum_constants_8hpp_source.html",
+"group___n_i_s_t_const-_atomic_unit.html#gadc3fdb8850235efe9e73bcf733fdbfe8",
+"group___n_i_s_t_const-_neutron.html#ga9c3ba7b26cbcc0b2f7f7fa551812683a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,17 +1,17 @@
 var searchData=
 [
-  ['decayconstant',['DecayConstant',['../group___atomic.html#ga904edce5aad441b4a0873b3b1a83c7f2',1,'EGXPhys']]],
+  ['decayconstant',['DecayConstant',['../group___e_g_x_phys-_decay_constant.html#ga904edce5aad441b4a0873b3b1a83c7f2',1,'EGXPhys']]],
   ['decayconstant_2ehpp',['DecayConstant.hpp',['../_decay_constant_8hpp.html',1,'']]],
   ['decayconstant_2einl',['DecayConstant.inl',['../_decay_constant_8inl.html',1,'']]],
-  ['decayconstantviadecaywidth',['DecayConstantViaDecayWidth',['../group___atomic.html#gac0dc5d8a75657eaa2e939dd243fe4ba8',1,'EGXPhys']]],
-  ['decayconstantviahalflife',['DecayConstantViaHalfLife',['../group___atomic.html#ga89c04a655d9e24f976399cc8f173b7aa',1,'EGXPhys']]],
-  ['decayconstantviameanlifetime',['DecayConstantViaMeanLifetime',['../group___atomic.html#ga260cf6dc4f926269ea8966c19dfd269f',1,'EGXPhys']]],
-  ['decaywidth',['DecayWidth',['../group___decay_width.html#gae232ec8bb39710131be898c057a25620',1,'EGXPhys::DecayWidth()'],['../group___decay_width.html',1,'(Global Namespace)']]],
+  ['decayconstantviadecaywidth',['DecayConstantViaDecayWidth',['../group___e_g_x_phys-_decay_constant.html#gac0dc5d8a75657eaa2e939dd243fe4ba8',1,'EGXPhys']]],
+  ['decayconstantviahalflife',['DecayConstantViaHalfLife',['../group___e_g_x_phys-_decay_constant.html#ga89c04a655d9e24f976399cc8f173b7aa',1,'EGXPhys']]],
+  ['decayconstantviameanlifetime',['DecayConstantViaMeanLifetime',['../group___e_g_x_phys-_decay_constant.html#ga260cf6dc4f926269ea8966c19dfd269f',1,'EGXPhys']]],
+  ['decaywidth',['DecayWidth',['../group___e_g_x_phys-_decay_width.html#gae232ec8bb39710131be898c057a25620',1,'EGXPhys']]],
   ['decaywidth_2ehpp',['DecayWidth.hpp',['../_decay_width_8hpp.html',1,'']]],
   ['decaywidth_2einl',['DecayWidth.inl',['../_decay_width_8inl.html',1,'']]],
-  ['decaywidthviadecayconstant',['DecayWidthViaDecayConstant',['../group___decay_width.html#ga143a666966efecc535a59bb4f36a79c6',1,'EGXPhys']]],
-  ['decaywidthviahalflife',['DecayWidthViaHalfLife',['../group___decay_width.html#ga1113224b24790a2e34032f9e90ad55c6',1,'EGXPhys']]],
-  ['decaywidthviameanlifetime',['DecayWidthViaMeanLifetime',['../group___decay_width.html#ga0b65d991f3f3d72cf09a4a7b343a01ca',1,'EGXPhys']]],
+  ['decaywidthviadecayconstant',['DecayWidthViaDecayConstant',['../group___e_g_x_phys-_decay_width.html#ga143a666966efecc535a59bb4f36a79c6',1,'EGXPhys']]],
+  ['decaywidthviahalflife',['DecayWidthViaHalfLife',['../group___e_g_x_phys-_decay_width.html#ga1113224b24790a2e34032f9e90ad55c6',1,'EGXPhys']]],
+  ['decaywidthviameanlifetime',['DecayWidthViaMeanLifetime',['../group___e_g_x_phys-_decay_width.html#ga0b65d991f3f3d72cf09a4a7b343a01ca',1,'EGXPhys']]],
   ['deuteronelectronmagneticmomentratio',['deuteronElectronMagneticMomentRatio',['../group___n_i_s_t_const-_deuteron.html#gaa01fffefa3ab64430fabf08808572689',1,'NISTConst']]],
   ['deuteronelectronmassratio',['deuteronElectronMassRatio',['../group___n_i_s_t_const-_deuteron.html#gaf25b1cce3ab8e1ec7f4f7790ea06ad0b',1,'NISTConst']]],
   ['deuterongfactor',['deuterongFactor',['../group___n_i_s_t_const-_deuteron.html#ga975b6e46b7ceaa0780c4b066a52444b7',1,'NISTConst']]],
@@ -27,5 +27,7 @@ var searchData=
   ['deuteronprotonmagneticmomentratio',['deuteronProtonMagneticMomentRatio',['../group___n_i_s_t_const-_deuteron.html#gaac523a6a3c61390396544e4b0acb3c05',1,'NISTConst']]],
   ['deuteronprotonmassratio',['deuteronProtonMassRatio',['../group___n_i_s_t_const-_deuteron.html#gabe2731d4997c2227da2cc2d7e7cda194',1,'NISTConst']]],
   ['deuteronrmschargeradius',['deuteronrmsChargeRadius',['../group___n_i_s_t_const-_deuteron.html#gaef4ebab0e996f7ac1934663efbd32aed',1,'NISTConst']]],
+  ['decay_20constant',['Decay Constant',['../group___e_g_x_phys-_decay_constant.html',1,'']]],
+  ['decay_20width',['Decay Width',['../group___e_g_x_phys-_decay_width.html',1,'']]],
   ['deuteron_20_28deuterium_2fhydrogen_2d2_20nucleus_29',['Deuteron (Deuterium/Hydrogen-2 nucleus)',['../group___n_i_s_t_const-_deuteron.html',1,'']]]
 ];

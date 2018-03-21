@@ -7,6 +7,9 @@
 
 /// @todo Add more models for Seff. https://en.wikipedia.org/wiki/Circumstellar_habitable_zone lists way more models
 
+/// @defgroup EGXPhys-CircumstellarHabitableZoneLimit Circumstellar Habitable Zone Limit
+/// @ingroup EGXPhys-Astrophysics
+
 //=================================
 // Header guard
 #pragma once
@@ -22,7 +25,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Astrophysics
+	/// @addtogroup EGXPhys-CircumstellarHabitableZoneLimit
 	/// @{
 
     /** 

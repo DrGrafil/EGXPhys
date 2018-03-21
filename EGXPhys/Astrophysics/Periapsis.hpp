@@ -6,8 +6,8 @@
 /// @date 7/29/17
 
 
-/// @defgroup Periapsis Periapsis
-/// @ingroup Astrophysics
+/// @defgroup EGXPhys-Periapsis Periapsis
+/// @ingroup EGXPhys-Astrophysics
 /// Calculates periapsis of an orbiting body.
 
 //=================================
@@ -28,7 +28,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup Periapsis
+	/// @addtogroup EGXPhys-Periapsis
 	/// @{
 	
 	/** 

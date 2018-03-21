@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 7/31/17
 
-/// @defgroup AbsoluteMagnitude Absolute Magnitude
-/// @ingroup Astrophysics
+/// @defgroup EGXPhys-AbsoluteMagnitude Absolute Magnitude
+/// @ingroup EGXPhys-Astrophysics
 
 //=================================
 // Header guard
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup AbsoluteMagnitude
+	/// @addtogroup EGXPhys-AbsoluteMagnitude
 	/// @{
 
 

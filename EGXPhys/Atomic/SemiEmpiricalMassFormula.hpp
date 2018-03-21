@@ -7,8 +7,8 @@
 
 /// @todo Add reference to Decay Width.
 
-/// @defgroup SemiEmpiricalMassFormula Semi-Empirical Mass Formula
-/// @ingroup Atomic
+/// @defgroup EGXPhys-SemiEmpiricalMassFormula Semi-Empirical Mass Formula
+/// @ingroup EGXPhys-Atomic
 /// Approximate the mass, \f$m_{SEMF}\f$, of a nucleus.
 
 //=================================
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup SemiEmpiricalMassFormula
+	/// @addtogroup EGXPhys-SemiEmpiricalMassFormula
 	/// @{
 
 	/** 

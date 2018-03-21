@@ -7,8 +7,8 @@
 
 /// @todo Add reference to Decay Width.
 
-/// @defgroup NuclearBindingEnergy Binding Energy
-/// @ingroup Atomic
+/// @defgroup EGXPhys-NuclearBindingEnergy Binding Energy
+/// @ingroup EGXPhys-Atomic
 /// Calculates the nuclear binding energy, \f$BE\f$, of an atom.
 
 //=================================
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup NuclearBindingEnergy
+	/// @addtogroup EGXPhys-NuclearBindingEnergy
 	/// @{
 
     /** 

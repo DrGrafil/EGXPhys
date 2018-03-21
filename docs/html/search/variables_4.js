@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['eccentricityofearth',['EccentricityOfEarth',['../namespace_e_g_x_phys.html#a327bbaf59d546f8524d6fb9da919d939',1,'EGXPhys']]],
+  ['eccentricityofearth',['EccentricityOfEarth',['../_astrophysics_constants_8hpp.html#a327bbaf59d546f8524d6fb9da919d939',1,'EGXPhys']]],
   ['electricconstant',['electricConstant',['../group___n_i_s_t_const-_electric_constant.html#gae5a425228125285727dd53333725ef76',1,'NISTConst']]],
   ['electronchargetomass',['electronChargeToMass',['../group___n_i_s_t_const-_electron.html#ga941e6299b6ef4b90cc525c335d9989dc',1,'NISTConst']]],
   ['electrondeuteronmagneticmomentratio',['electronDeuteronMagneticMomentRatio',['../group___n_i_s_t_const-_electron.html#ga3dea53b57010903586a46d81a49fc80f',1,'NISTConst']]],

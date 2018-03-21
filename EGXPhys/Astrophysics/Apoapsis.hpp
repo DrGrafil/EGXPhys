@@ -11,8 +11,8 @@
 /// @date 7/29/17
 
 
-/// @defgroup Apoapsis Apoapsis
-/// @ingroup Astrophysics
+/// @defgroup EGXPhys-Apoapsis Apoapsis
+/// @ingroup EGXPhys-Astrophysics
 /// Calculates apoapsis of an orbiting body.
 
 //=================================
@@ -33,7 +33,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup Apoapsis
+	/// @addtogroup EGXPhys-Apoapsis
 	/// @{
 	
 	/** 

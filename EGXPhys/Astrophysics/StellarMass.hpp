@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 7/31/17
 
-/// @defgroup StellarMass Stellar Mass
-/// @ingroup Astrophysics
+/// @defgroup EGXPhys-StellarMass Stellar Mass
+/// @ingroup EGXPhys-Astrophysics
 
 //=================================
 // Header guard
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup StellarMass
+	/// @addtogroup EGXPhys-StellarMass
 	/// @{
 	
 	/**

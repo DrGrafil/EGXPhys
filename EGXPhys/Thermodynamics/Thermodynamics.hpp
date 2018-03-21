@@ -6,7 +6,8 @@
 /// @date 7/28/17
 
 
-/// @defgroup Thermodynamics Thermodynamics
+/// @defgroup EGXPhys-Thermodynamics Thermodynamics
+/// @ingroup EGXPhys
 //=================================
 // Header guard
 #pragma once

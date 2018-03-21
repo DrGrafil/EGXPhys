@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/19/18
 
-/// @defgroup StellarRadius Stellar Radius
-/// @ingroup Astrophysics
+/// @defgroup EGXPhys-StellarRadius Stellar Radius
+/// @ingroup EGXPhys-Astrophysics
 
 //=================================
 // Header guard
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup StellarRadius
+	/// @addtogroup EGXPhys-StellarRadius
 	/// @{
 	
 

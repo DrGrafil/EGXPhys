@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/19/18
 
-/// @defgroup RightAscensionAndDeclination Right Ascension And Declination
-/// @ingroup Astrophysics
+/// @defgroup EGXPhys-RightAscensionAndDeclination Right Ascension And Declination
+/// @ingroup EGXPhys-Astrophysics
 
 //=================================
 // Header guard
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup RightAscensionAndDeclination
+	/// @addtogroup EGXPhys-RightAscensionAndDeclination
 	/// @{
 	
 

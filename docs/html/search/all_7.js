@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['halflife',['HalfLife',['../group___half_life.html#ga21d268f154fb91c1c556bbfa7fe83ac1',1,'EGXPhys::HalfLife()'],['../group___half_life.html',1,'(Global Namespace)']]],
+  ['half_20life',['Half Life',['../group___e_g_x_phys-_half_life.html',1,'']]],
+  ['halflife',['HalfLife',['../group___e_g_x_phys-_half_life.html#ga21d268f154fb91c1c556bbfa7fe83ac1',1,'EGXPhys']]],
   ['halflife_2ehpp',['HalfLife.hpp',['../_half_life_8hpp.html',1,'']]],
   ['halflife_2einl',['HalfLife.inl',['../_half_life_8inl.html',1,'']]],
-  ['halflifeviadecaywidth',['HalfLifeViaDecayWidth',['../group___half_life.html#gaba3fda944d1a68ee1016a1f2f5809359',1,'EGXPhys']]],
-  ['halflifeviameanlifetime',['HalfLifeViaMeanLifetime',['../group___half_life.html#gacddef16b62e98b214ec8dd8af7da7dce',1,'EGXPhys']]],
+  ['halflifeviadecaywidth',['HalfLifeViaDecayWidth',['../group___e_g_x_phys-_half_life.html#gaba3fda944d1a68ee1016a1f2f5809359',1,'EGXPhys']]],
+  ['halflifeviameanlifetime',['HalfLifeViaMeanLifetime',['../group___e_g_x_phys-_half_life.html#gacddef16b62e98b214ec8dd8af7da7dce',1,'EGXPhys']]],
   ['hartreeenergy',['HartreeEnergy',['../group___n_i_s_t_const-_hartree_energy.html#gab58dc1c4e59e83d4fb1217778fe9f29b',1,'NISTConst']]],
   ['hartreeenergyinev',['HartreeEnergyIneV',['../group___n_i_s_t_const-_hartree_energy.html#ga400eb5b8c9b55b0f601870ba54120364',1,'NISTConst']]],
   ['hartreetoatomicmassunit',['hartreeToAtomicMassUnit',['../group___n_i_s_t_const-_hartree.html#gafc823cd4d405fbad0af7abf03a28917d',1,'NISTConst']]],

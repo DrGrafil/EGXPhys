@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 8/12/17
 
-/// @defgroup MassDefect Mass Defect
-/// @ingroup Atomic
+/// @defgroup EGXPhys-MassDefect Mass Defect
+/// @ingroup EGXPhys-Atomic
 /// Calculates the mass defect, \f$\Delta m\f$, of an atom.
 
 //=================================
@@ -24,7 +24,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup MassDefect
+	/// @addtogroup EGXPhys-MassDefect
 	/// @{
 
     /** 

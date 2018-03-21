@@ -6,6 +6,9 @@
 /// @date 8/4/17
 
 /// @todo decay constant in terms of dN/dt
+
+/// @defgroup EGXPhys-DecayConstant Decay Constant
+/// @ingroup EGXPhys-Atomic
 //=================================
 // Header guard
 #pragma once
@@ -21,7 +24,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Atomic
+	/// @addtogroup EGXPhys-DecayConstant
 	/// @{
 
 	/** 

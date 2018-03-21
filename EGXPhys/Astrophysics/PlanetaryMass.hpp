@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/19/18
 
-/// @defgroup PlanetaryMass Planetary Mass
-/// @ingroup Astrophysics
+/// @defgroup EGXPhys-PlanetaryMass Planetary Mass
+/// @ingroup EGXPhys-Astrophysics
 
 //=================================
 // Header guard
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup PlanetaryMass
+	/// @addtogroup EGXPhys-PlanetaryMass
 	/// @{
 	
 	/** 

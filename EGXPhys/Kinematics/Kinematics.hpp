@@ -7,6 +7,7 @@
 
 
 /// @defgroup Kinematics Kinematics
+/// @ingroup EGXPhys
 //=================================
 // Header guard
 #pragma once

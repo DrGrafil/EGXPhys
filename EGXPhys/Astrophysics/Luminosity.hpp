@@ -6,6 +6,9 @@
 /// @date 7/25/17
 
 
+/// @defgroup EGXPhys-Luminosity Luminosity
+/// @ingroup EGXPhys-Astrophysics
+
 //=================================
 // Header guard
 #pragma once
@@ -24,7 +27,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Astrophysics
+	/// @addtogroup EGXPhys-Luminosity
 	/// @{
 
 	/** 

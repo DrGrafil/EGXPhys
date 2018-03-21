@@ -7,8 +7,8 @@
 
 /// @todo Add reference to Decay Width.
 
-/// @defgroup HalfLife Half Life
-/// @ingroup Atomic
+/// @defgroup EGXPhys-HalfLife Half Life
+/// @ingroup EGXPhys-Atomic
 /// Calculates the Half Life, \f$t_{\frac{1}{2}}\f$, of a radioactive substance.
 
 //=================================
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup HalfLife
+	/// @addtogroup EGXPhys-HalfLife
 	/// @{
 
     /** 

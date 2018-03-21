@@ -1,9 +1,12 @@
-/// @file EGXPhys/Astrophysics/Periapsis.hpp
+/// @file EGXPhys/Astrophysics/Eccentricity.hpp
 ///
-/// @brief Calculates periapsis of various orbiting bodies.
+/// @brief Calculates eccentricity of an orbit.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 7/29/17
+
+/// @defgroup EGXPhys-Eccentricity Eccentricity
+/// @ingroup EGXPhys-Astrophysics
 
 
 //=================================
@@ -24,7 +27,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup Astrophysics
+	/// @addtogroup EGXPhys-Eccentricity
 	/// @{
 
    
@@ -32,4 +35,4 @@ namespace EGXPhys
     /// @}
 } //namespace EGXPhys
 
-#include "Periapsis.inl"
+#include "Eccentricity.inl"

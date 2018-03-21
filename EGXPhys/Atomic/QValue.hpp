@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 8/18/17
 
-/// @defgroup QValue Q-Value
-/// @ingroup Atomic
+/// @defgroup EGXPhys-QValue Q-Value
+/// @ingroup EGXPhys-Atomic
 /// Calculates the Q-value, \f$Q\f$, of a nuclear reaction.
 
 //=================================
@@ -24,7 +24,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup QValue
+	/// @addtogroup EGXPhys-QValue
 	/// @{
     
     /**

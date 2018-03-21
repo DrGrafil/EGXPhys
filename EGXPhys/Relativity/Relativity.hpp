@@ -6,7 +6,8 @@
 /// @date 7/28/17
 
 
-/// @defgroup Relativity Relativity
+/// @defgroup EGXPhys-Relativity Relativity
+/// @ingroup EGXPhys
 //=================================
 // Header guard
 #pragma once

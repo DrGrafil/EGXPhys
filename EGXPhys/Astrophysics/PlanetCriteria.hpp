@@ -5,6 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 7/31/17
 
+/// @defgroup EGXPhys-PlanetCriteria Planet Criteria
+/// @ingroup EGXPhys-Astrophysics
 
 //=================================
 // Header guard
@@ -24,7 +26,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup Astrophysics
+	/// @addtogroup EGXPhys-PlanetCriteria
 	/// @{
 	
 	/** 

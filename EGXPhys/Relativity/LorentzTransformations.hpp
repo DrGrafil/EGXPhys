@@ -5,6 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 8/2/17
 
+/// @defgroup EGXPhys-LorentzTransformations Lorentz Transformations
+/// @ingroup EGXPhys-Relativity
 
 //=================================
 // Header guard
@@ -22,7 +24,7 @@
 
 namespace EGXPhys
 {	
-	/// @addtogroup Relativity
+	/// @addtogroup EGXPhys-LorentzTransformations
 	/// @{
 
 	/** 

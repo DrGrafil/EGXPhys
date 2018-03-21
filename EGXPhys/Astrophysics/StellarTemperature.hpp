@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 7/31/17
 
-/// @defgroup StellarTemperature Stellar Temperature
-/// @ingroup Astrophysics
+/// @defgroup EGXPhys-StellarTemperature Stellar Temperature
+/// @ingroup EGXPhys-Astrophysics
 
 //=================================
 // Header guard
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup StellarTemperature
+	/// @addtogroup EGXPhys-StellarTemperature
 	/// @{
 	
 
