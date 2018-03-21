@@ -1,6 +1,10 @@
 var searchData=
 [
   ['rydberg_20constant',['Rydberg constant',['../group___n_i_s_t_const-_rydberg_constant.html',1,'']]],
+  ['radiantocompass16wind',['RadianToCompass16Wind',['../group___e_g_x_math-_angle_conversions.html#gae3be24eac965abfab281c6307fed482a',1,'EGXMath']]],
+  ['radiantocompass32wind',['RadianToCompass32Wind',['../group___e_g_x_math-_angle_conversions.html#ga64587b5f303e1921ab34bc344b5089bb',1,'EGXMath']]],
+  ['radiantocompass8wind',['RadianToCompass8Wind',['../group___e_g_x_math-_angle_conversions.html#ga3c06a01860f69bcd57fab918037318b3',1,'EGXMath']]],
+  ['radiantoradian',['RadianToRadian',['../group___e_g_x_math-_angle_conversions.html#gae08681bd86b8e7e4325f6c8cb3a0dc37',1,'EGXMath']]],
   ['radioactivedecay_2ehpp',['RadioactiveDecay.hpp',['../_radioactive_decay_8hpp.html',1,'']]],
   ['radioactivedecay_2einl',['RadioactiveDecay.inl',['../_radioactive_decay_8inl.html',1,'']]],
   ['radioluminosity',['radioLuminosity',['../group___astrophysics.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4',1,'EGXPhys']]],
@@ -12,6 +16,10 @@ var searchData=
   ['relativity',['Relativity',['../group___relativity.html',1,'']]],
   ['relativity_2ehpp',['Relativity.hpp',['../_relativity_8hpp.html',1,'']]],
   ['relativityconstants_2ehpp',['RelativityConstants.hpp',['../_relativity_constants_8hpp.html',1,'']]],
+  ['right_20ascension_20and_20declination',['Right Ascension And Declination',['../group___right_ascension_and_declination.html',1,'']]],
+  ['rightascensionanddeclination_2ehpp',['RightAscensionAndDeclination.hpp',['../_right_ascension_and_declination_8hpp.html',1,'']]],
+  ['rightascensionanddeclination_2einl',['RightAscensionAndDeclination.inl',['../_right_ascension_and_declination_8inl.html',1,'']]],
+  ['rightascensiontoradians',['RightAscensionToRadians',['../group___right_ascension_and_declination.html#ga25cb93de046663967af01d6687c423ae',1,'EGXPhys']]],
   ['rydbergconstant',['RydbergConstant',['../group___n_i_s_t_const-_rydberg_constant.html#gaa434f78f9fead2fcf2e129a137853e26',1,'NISTConst']]],
   ['rydbergconstanttimescinhz',['RydbergConstantTimescInHz',['../group___n_i_s_t_const-_rydberg_constant.html#ga473e14f2663eccecd987928be1d512ad',1,'NISTConst']]],
   ['rydbergconstanttimeshcinev',['RydbergConstantTimeshcIneV',['../group___n_i_s_t_const-_rydberg_constant.html#ga77c7dd314342e7f121d9b8775a45d20f',1,'NISTConst']]],

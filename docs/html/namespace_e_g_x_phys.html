@@ -193,6 +193,20 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa16847ddc5763c327067075dcb6a3353"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___apoapsis.html#gaa16847ddc5763c327067075dcb6a3353">Apohadion</a> (const T &amp;orbitalEccentricity, const T &amp;semimajorAxis)</td></tr>
 <tr class="memdesc:gaa16847ddc5763c327067075dcb6a3353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates apoapsis around Pluto.  <a href="group___apoapsis.html#gaa16847ddc5763c327067075dcb6a3353">More...</a><br /></td></tr>
 <tr class="separator:gaa16847ddc5763c327067075dcb6a3353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabbd6081cd3bfb0153d7470d58f733a61"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gabbd6081cd3bfb0153d7470d58f733a61"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___b_v_color.html#gabbd6081cd3bfb0153d7470d58f733a61">StellarMass</a> (const T &amp;starMass, const T &amp;referenceMass)</td></tr>
+<tr class="memdesc:gabbd6081cd3bfb0153d7470d58f733a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the stellar mass \((M)\) of a star when comparing it to the mass of a reference star \((m_{ref})\). </p><p class="formulaDsp">
+\[M=\frac{m_{star}}{m_{ref}}\]
+</p>
+<p> See <a href="https://en.wikipedia.org/wiki/Stellar_mass">https://en.wikipedia.org/wiki/Stellar_mass</a>.  <a href="group___b_v_color.html#gabbd6081cd3bfb0153d7470d58f733a61">More...</a><br /></td></tr>
+<tr class="separator:gabbd6081cd3bfb0153d7470d58f733a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac393d64d586be3dc76ac7a98ac336514"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gac393d64d586be3dc76ac7a98ac336514"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___b_v_color.html#gac393d64d586be3dc76ac7a98ac336514">SolarMass</a> (const T &amp;starMass)</td></tr>
+<tr class="memdesc:gac393d64d586be3dc76ac7a98ac336514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the solar mass \((M)\) of a star when comparing it to the mass of the sun \((m_\odot)\). </p><p class="formulaDsp">
+\[M=\frac{m_{star}}{m_\odot}\]
+</p>
+<p> See <a href="https://en.wikipedia.org/wiki/Solar_mass">https://en.wikipedia.org/wiki/Solar_mass</a>.  <a href="group___b_v_color.html#gac393d64d586be3dc76ac7a98ac336514">More...</a><br /></td></tr>
+<tr class="separator:gac393d64d586be3dc76ac7a98ac336514"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga23a8f602461ea3257e8767b1d455c383"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga23a8f602461ea3257e8767b1d455c383"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___astrophysics.html#ga23a8f602461ea3257e8767b1d455c383">CircumstellarHabitableZoneLimit</a> (const T &amp;starLuminosity, const T &amp;stellarFluxEffective)</td></tr>
 <tr class="memdesc:ga23a8f602461ea3257e8767b1d455c383"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Circumstellar Habitable Zone Limits, \(d_{CHZL}\) of a star. Also known as Habitable Zone Limits.  <a href="group___astrophysics.html#ga23a8f602461ea3257e8767b1d455c383">More...</a><br /></td></tr>
@@ -408,20 +422,25 @@ template&lt;typename T &gt; </td></tr>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga14ab036f8c617512236522c8e31dd072"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>HabitableZoneComposition</b> (const T planetMass, const T planetRadius)</td></tr>
 <tr class="separator:ga14ab036f8c617512236522c8e31dd072"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabbd6081cd3bfb0153d7470d58f733a61"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gabbd6081cd3bfb0153d7470d58f733a61"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61">StellarMass</a> (const T &amp;starMass, const T &amp;referenceMass)</td></tr>
-<tr class="memdesc:gabbd6081cd3bfb0153d7470d58f733a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the stellar mass \((M)\) of a star when comparing it to the mass of a reference star \((m_{ref})\). </p><p class="formulaDsp">
-\[M=\frac{m_{star}}{m_{ref}}\]
+<tr class="memitem:ga25cb93de046663967af01d6687c423ae"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga25cb93de046663967af01d6687c423ae"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___right_ascension_and_declination.html#ga25cb93de046663967af01d6687c423ae">RightAscensionToRadians</a> (const T hours, const T minutes, const T seconds)</td></tr>
+<tr class="memdesc:ga25cb93de046663967af01d6687c423ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts right ascensions \((\alpha)\) from hours \((RA_h)\), minutes \((RA_m)\) and seconds \((RA_s)\) to radians. </p><p class="formulaDsp">
+\[\alpha=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\]
 </p>
-<p> See <a href="https://en.wikipedia.org/wiki/Stellar_mass">https://en.wikipedia.org/wiki/Stellar_mass</a>.  <a href="group___stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61">More...</a><br /></td></tr>
-<tr class="separator:gabbd6081cd3bfb0153d7470d58f733a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac393d64d586be3dc76ac7a98ac336514"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gac393d64d586be3dc76ac7a98ac336514"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514">SolarMass</a> (const T &amp;starMass)</td></tr>
-<tr class="memdesc:gac393d64d586be3dc76ac7a98ac336514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the stellar mass \((M)\) of a star when comparing it to the mass of the sun \((m_\odot)\). </p><p class="formulaDsp">
-\[M=\frac{m_{star}}{m_\odot}\]
-</p>
-<p> See <a href="https://en.wikipedia.org/wiki/Solar_mass">https://en.wikipedia.org/wiki/Solar_mass</a>.  <a href="group___stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514">More...</a><br /></td></tr>
-<tr class="separator:gac393d64d586be3dc76ac7a98ac336514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p> See <a href="http://en.wikipedia.org/wiki/Right_ascension,">http://en.wikipedia.org/wiki/Right_ascension,</a> <a href="http://en.wikipedia.org/wiki/Sidereal_hour_angle">http://en.wikipedia.org/wiki/Sidereal_hour_angle</a>.  <a href="group___right_ascension_and_declination.html#ga25cb93de046663967af01d6687c423ae">More...</a><br /></td></tr>
+<tr class="separator:ga25cb93de046663967af01d6687c423ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c7b757d2841b5ec067c87403e9b8867"><td class="memTemplParams" colspan="2">
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga1c7b757d2841b5ec067c87403e9b8867"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>RadiansToRightAscension</b> (const T radians, T &amp;hours, T &amp;minutes, T &amp;seconds)</td></tr>
+<tr class="separator:ga1c7b757d2841b5ec067c87403e9b8867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11a658bf9e00f4cb1682cda005ad39dc"><td class="memTemplParams" colspan="2">
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga11a658bf9e00f4cb1682cda005ad39dc"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>DeclinationToRadians</b> (const T degrees, const T arcminutes, const T arcseconds)</td></tr>
+<tr class="separator:ga11a658bf9e00f4cb1682cda005ad39dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad144150a085ddfeda10f1948f16b0a3e"><td class="memTemplParams" colspan="2">
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gad144150a085ddfeda10f1948f16b0a3e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>DeclinationToRadians</b> (const T &amp;radians, T &amp;degrees, T &amp;arcminutes, T &amp;arcseconds)</td></tr>
+<tr class="separator:gad144150a085ddfeda10f1948f16b0a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga904edce5aad441b4a0873b3b1a83c7f2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga904edce5aad441b4a0873b3b1a83c7f2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___atomic.html#ga904edce5aad441b4a0873b3b1a83c7f2">DecayConstant</a> (const T &amp;countInitial, const T &amp;countFinal, const T &amp;time)</td></tr>
 <tr class="memdesc:ga904edce5aad441b4a0873b3b1a83c7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the decay constant, \(\lambda\), of a radioactive substance via the uncertainty in energy, \(\Delta E\).  <a href="group___atomic.html#ga904edce5aad441b4a0873b3b1a83c7f2">More...</a><br /></td></tr>
@@ -734,24 +753,8 @@ Variables</h2></td></tr>
 <tr class="separator:ace4a9d8c0b21215536857f4c1087a4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11a2d4a914eb43c4095e225358293a45"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#a11a2d4a914eb43c4095e225358293a45">RadiusOfEarth</a> = 6371000</td></tr>
 <tr class="separator:a11a2d4a914eb43c4095e225358293a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34a388ac3f9196bb3cdbdbee5ff3cdb7"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#a34a388ac3f9196bb3cdbdbee5ff3cdb7">SiderealRotationPeriodOfEarth</a> = 0.99726968* <a class="el" href="namespace_e_g_x_phys.html#ab4f86327f64403b843077ecc189ce52b">secondsInDay</a></td></tr>
+<tr class="memitem:a34a388ac3f9196bb3cdbdbee5ff3cdb7"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#a34a388ac3f9196bb3cdbdbee5ff3cdb7">SiderealRotationPeriodOfEarth</a> = 0.99726968* secondsInDay</td></tr>
 <tr class="separator:a34a388ac3f9196bb3cdbdbee5ff3cdb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3a72a63e9c502847d0db88a167dc02b"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#ab3a72a63e9c502847d0db88a167dc02b">minute</a> = 60</td></tr>
-<tr class="separator:ab3a72a63e9c502847d0db88a167dc02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65038e0b58235dc59a44cec16638df35"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#a65038e0b58235dc59a44cec16638df35">secondsInMinute</a> = <a class="el" href="namespace_e_g_x_phys.html#ab3a72a63e9c502847d0db88a167dc02b">minute</a></td></tr>
-<tr class="separator:a65038e0b58235dc59a44cec16638df35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85c64ea70cddbb7e4c96adcc01cef6e2"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#a85c64ea70cddbb7e4c96adcc01cef6e2">hour</a> = 60*<a class="el" href="namespace_e_g_x_phys.html#ab3a72a63e9c502847d0db88a167dc02b">minute</a></td></tr>
-<tr class="separator:a85c64ea70cddbb7e4c96adcc01cef6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a6a4eb13636aa068a3f1e41cde4d6fd"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#a9a6a4eb13636aa068a3f1e41cde4d6fd">secondsInHour</a> = <a class="el" href="namespace_e_g_x_phys.html#a85c64ea70cddbb7e4c96adcc01cef6e2">hour</a></td></tr>
-<tr class="separator:a9a6a4eb13636aa068a3f1e41cde4d6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24d985ae6f6cefe7e25ac40806b88f79"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#a24d985ae6f6cefe7e25ac40806b88f79">day</a> = 24*<a class="el" href="namespace_e_g_x_phys.html#a85c64ea70cddbb7e4c96adcc01cef6e2">hour</a></td></tr>
-<tr class="separator:a24d985ae6f6cefe7e25ac40806b88f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4f86327f64403b843077ecc189ce52b"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#ab4f86327f64403b843077ecc189ce52b">secondsInDay</a> = <a class="el" href="namespace_e_g_x_phys.html#a24d985ae6f6cefe7e25ac40806b88f79">day</a></td></tr>
-<tr class="separator:ab4f86327f64403b843077ecc189ce52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afee9eebc1da4a1db2198fe0c45bcb53f"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#afee9eebc1da4a1db2198fe0c45bcb53f">year</a> = 365.25*<a class="el" href="namespace_e_g_x_phys.html#a24d985ae6f6cefe7e25ac40806b88f79">day</a></td></tr>
-<tr class="separator:afee9eebc1da4a1db2198fe0c45bcb53f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac13efe8296819409bde4a0a8691d56a"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#aac13efe8296819409bde4a0a8691d56a">secondsInYear</a> = <a class="el" href="namespace_e_g_x_phys.html#afee9eebc1da4a1db2198fe0c45bcb53f">year</a></td></tr>
-<tr class="separator:aac13efe8296819409bde4a0a8691d56a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a999332303a2214425184fbe23dbae0c5"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html#a999332303a2214425184fbe23dbae0c5">AU</a> = 149597870700.0</td></tr>
 <tr class="separator:a999332303a2214425184fbe23dbae0c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -789,21 +792,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a24d985ae6f6cefe7e25ac40806b88f79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24d985ae6f6cefe7e25ac40806b88f79">&#9670;&nbsp;</a></span>day</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double EGXPhys::day = 24*<a class="el" href="namespace_e_g_x_phys.html#a85c64ea70cddbb7e4c96adcc01cef6e2">hour</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>\(t_{day}\ (s)\) Seconds in a day in seconds. </p>
-
-</div>
-</div>
 <a id="a327bbaf59d546f8524d6fb9da919d939"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a327bbaf59d546f8524d6fb9da919d939">&#9670;&nbsp;</a></span>EccentricityOfEarth</h2>
 
@@ -831,21 +819,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Geometric Albedo(dimensionless) of Earth. </p>
-
-</div>
-</div>
-<a id="a85c64ea70cddbb7e4c96adcc01cef6e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85c64ea70cddbb7e4c96adcc01cef6e2">&#9670;&nbsp;</a></span>hour</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double EGXPhys::hour = 60*<a class="el" href="namespace_e_g_x_phys.html#ab3a72a63e9c502847d0db88a167dc02b">minute</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>\(t_{h}\ (s)\) Seconds in an hour in seconds. </p>
 
 </div>
 </div>
@@ -879,21 +852,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab3a72a63e9c502847d0db88a167dc02b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3a72a63e9c502847d0db88a167dc02b">&#9670;&nbsp;</a></span>minute</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double EGXPhys::minute = 60</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>\(t_{min}\ (s)\) Seconds in a minute in seconds. </p>
-
-</div>
-</div>
 <a id="a11a2d4a914eb43c4095e225358293a45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a11a2d4a914eb43c4095e225358293a45">&#9670;&nbsp;</a></span>RadiusOfEarth</h2>
 
@@ -906,66 +864,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Radius(m) Of Earth. \(R_\oplus\) </p>
-
-</div>
-</div>
-<a id="ab4f86327f64403b843077ecc189ce52b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4f86327f64403b843077ecc189ce52b">&#9670;&nbsp;</a></span>secondsInDay</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double EGXPhys::secondsInDay = <a class="el" href="namespace_e_g_x_phys.html#a24d985ae6f6cefe7e25ac40806b88f79">day</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>\(t_{day}\ (s)\) Seconds in a day in seconds. </p>
-
-</div>
-</div>
-<a id="a9a6a4eb13636aa068a3f1e41cde4d6fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a6a4eb13636aa068a3f1e41cde4d6fd">&#9670;&nbsp;</a></span>secondsInHour</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double EGXPhys::secondsInHour = <a class="el" href="namespace_e_g_x_phys.html#a85c64ea70cddbb7e4c96adcc01cef6e2">hour</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>\(t_{h}\ (s)\) Seconds in an hour in seconds. </p>
-
-</div>
-</div>
-<a id="a65038e0b58235dc59a44cec16638df35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65038e0b58235dc59a44cec16638df35">&#9670;&nbsp;</a></span>secondsInMinute</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double EGXPhys::secondsInMinute = <a class="el" href="namespace_e_g_x_phys.html#ab3a72a63e9c502847d0db88a167dc02b">minute</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>\(t_{min}\ (s)\) Seconds in a minute in seconds. </p>
-
-</div>
-</div>
-<a id="aac13efe8296819409bde4a0a8691d56a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac13efe8296819409bde4a0a8691d56a">&#9670;&nbsp;</a></span>secondsInYear</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double EGXPhys::secondsInYear = <a class="el" href="namespace_e_g_x_phys.html#afee9eebc1da4a1db2198fe0c45bcb53f">year</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>\(t_{year}\ (s)\) Seconds in a year in seconds. </p>
 
 </div>
 </div>
@@ -991,7 +889,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const double EGXPhys::SiderealRotationPeriodOfEarth = 0.99726968* <a class="el" href="namespace_e_g_x_phys.html#ab4f86327f64403b843077ecc189ce52b">secondsInDay</a></td>
+          <td class="memname">const double EGXPhys::SiderealRotationPeriodOfEarth = 0.99726968* secondsInDay</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1071,21 +969,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>\(T_\odot\)(K) Tempreture of Sun. </p>
-
-</div>
-</div>
-<a id="afee9eebc1da4a1db2198fe0c45bcb53f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afee9eebc1da4a1db2198fe0c45bcb53f">&#9670;&nbsp;</a></span>year</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double EGXPhys::year = 365.25*<a class="el" href="namespace_e_g_x_phys.html#a24d985ae6f6cefe7e25ac40806b88f79">day</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>\(t_{year}\ (s)\) Seconds in a year in seconds. </p>
 
 </div>
 </div>

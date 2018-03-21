@@ -18,7 +18,6 @@ var searchData=
   ['meanlifetime_2ehpp',['MeanLifetime.hpp',['../_mean_lifetime_8hpp.html',1,'']]],
   ['meanlifetimeviadecaywidth',['MeanLifetimeViaDecayWidth',['../group___atomic.html#ga8a1dda4168b4b25db93bf1ae7832fd7e',1,'EGXPhys']]],
   ['meanlifetimeviahalflife',['MeanLifetimeViaHalfLife',['../group___atomic.html#ga2586e148263e1f6c8ff89f269a0930ea',1,'EGXPhys']]],
-  ['minute',['minute',['../namespace_e_g_x_phys.html#ab3a72a63e9c502847d0db88a167dc02b',1,'EGXPhys']]],
   ['molargasconstant',['molarGasConstant',['../group___n_i_s_t_const-_molar_gas_constant.html#ga923e5cda42e8fec4a70640b82051d309',1,'NISTConst']]],
   ['molarmassconstant',['molarMassConstant',['../group___n_i_s_t_const-_molar_mass_constant.html#ga83c1719df0cda1b4eae15de014b8f857',1,'NISTConst']]],
   ['molarmassofcarbon12',['molarMassOfCarbon12',['../group___n_i_s_t_const-_molar_mass_constant.html#gab1aae3b38f21cb9a15fdc8209d3cf1f0',1,'NISTConst']]],

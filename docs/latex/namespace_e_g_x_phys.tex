@@ -49,6 +49,10 @@
 \begin{DoxyCompactList}\small\item\em Calculates apoapsis around Neptune. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___apoapsis_gaa16847ddc5763c327067075dcb6a3353}{Apohadion}} (const T \&orbital\+Eccentricity, const T \&semimajor\+Axis)
 \begin{DoxyCompactList}\small\item\em Calculates apoapsis around Pluto. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___b_v_color_gabbd6081cd3bfb0153d7470d58f733a61}{Stellar\+Mass}} (const T \&star\+Mass, const T \&reference\+Mass)
+\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___b_v_color_gac393d64d586be3dc76ac7a98ac336514}{Solar\+Mass}} (const T \&star\+Mass)
+\begin{DoxyCompactList}\small\item\em Calculates the solar mass $(M)$ of a star when comparing it to the mass of the sun $(m_\odot)$. \[M=\frac{m_{star}}{m_\odot}\] See \href{https://en.wikipedia.org/wiki/Solar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Solar\+\_\+mass}. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___astrophysics_ga23a8f602461ea3257e8767b1d455c383}{Circumstellar\+Habitable\+Zone\+Limit}} (const T \&star\+Luminosity, const T \&stellar\+Flux\+Effective)
 \begin{DoxyCompactList}\small\item\em Calculates the Circumstellar Habitable Zone Limits, $d_{CHZL}$ of a star. Also known as Habitable Zone Limits. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___astrophysics_ga3ce3a04fec7b1c8fb66ac54270ce3902}{Stellar\+Flux\+Effective\+Selsis}} (const T \&star\+Effective\+Surface\+Temperature, const T \&sun\+Effective\+Stellar\+Flux, const T \&a\+Model\+Parameter, const T \&b\+Model\+Parameter)
@@ -153,10 +157,14 @@
 \item 
 {\footnotesize template$<$typename T $>$ }\\T {\bfseries Habitable\+Zone\+Composition} (const T planet\+Mass, const T planet\+Radius)
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___stellar_mass_gabbd6081cd3bfb0153d7470d58f733a61}{Stellar\+Mass}} (const T \&star\+Mass, const T \&reference\+Mass)
-\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___stellar_mass_gac393d64d586be3dc76ac7a98ac336514}{Solar\+Mass}} (const T \&star\+Mass)
-\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of the sun $(m_\odot)$. \[M=\frac{m_{star}}{m_\odot}\] See \href{https://en.wikipedia.org/wiki/Solar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Solar\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___right_ascension_and_declination_ga25cb93de046663967af01d6687c423ae}{Right\+Ascension\+To\+Radians}} (const T hours, const T minutes, const T seconds)
+\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha)$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to radians. \[\alpha=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\] See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries Radians\+To\+Right\+Ascension} (const T radians, T \&hours, T \&minutes, T \&seconds)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries Declination\+To\+Radians} (const T degrees, const T arcminutes, const T arcseconds)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries Declination\+To\+Radians} (const T \&radians, T \&degrees, T \&arcminutes, T \&arcseconds)
+\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___atomic_ga904edce5aad441b4a0873b3b1a83c7f2}{Decay\+Constant}} (const T \&count\+Initial, const T \&count\+Final, const T \&time)
 \begin{DoxyCompactList}\small\item\em Calculates the decay constant, $\lambda$, of a radioactive substance via the uncertainty in energy, $\Delta E$. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___atomic_ga89c04a655d9e24f976399cc8f173b7aa}{Decay\+Constant\+Via\+Half\+Life}} (const T \&half\+Life)
@@ -324,23 +332,7 @@ const double \mbox{\hyperlink{namespace_e_g_x_phys_ace4a9d8c0b21215536857f4c1087
 \item 
 const double \mbox{\hyperlink{namespace_e_g_x_phys_a11a2d4a914eb43c4095e225358293a45}{Radius\+Of\+Earth}} = 6371000
 \item 
-const double \mbox{\hyperlink{namespace_e_g_x_phys_a34a388ac3f9196bb3cdbdbee5ff3cdb7}{Sidereal\+Rotation\+Period\+Of\+Earth}} = 0.\+99726968$\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_ab4f86327f64403b843077ecc189ce52b}{seconds\+In\+Day}}
-\item 
-const double \mbox{\hyperlink{namespace_e_g_x_phys_ab3a72a63e9c502847d0db88a167dc02b}{minute}} = 60
-\item 
-const double \mbox{\hyperlink{namespace_e_g_x_phys_a65038e0b58235dc59a44cec16638df35}{seconds\+In\+Minute}} = \mbox{\hyperlink{namespace_e_g_x_phys_ab3a72a63e9c502847d0db88a167dc02b}{minute}}
-\item 
-const double \mbox{\hyperlink{namespace_e_g_x_phys_a85c64ea70cddbb7e4c96adcc01cef6e2}{hour}} = 60$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_ab3a72a63e9c502847d0db88a167dc02b}{minute}}
-\item 
-const double \mbox{\hyperlink{namespace_e_g_x_phys_a9a6a4eb13636aa068a3f1e41cde4d6fd}{seconds\+In\+Hour}} = \mbox{\hyperlink{namespace_e_g_x_phys_a85c64ea70cddbb7e4c96adcc01cef6e2}{hour}}
-\item 
-const double \mbox{\hyperlink{namespace_e_g_x_phys_a24d985ae6f6cefe7e25ac40806b88f79}{day}} = 24$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a85c64ea70cddbb7e4c96adcc01cef6e2}{hour}}
-\item 
-const double \mbox{\hyperlink{namespace_e_g_x_phys_ab4f86327f64403b843077ecc189ce52b}{seconds\+In\+Day}} = \mbox{\hyperlink{namespace_e_g_x_phys_a24d985ae6f6cefe7e25ac40806b88f79}{day}}
-\item 
-const double \mbox{\hyperlink{namespace_e_g_x_phys_afee9eebc1da4a1db2198fe0c45bcb53f}{year}} = 365.\+25$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a24d985ae6f6cefe7e25ac40806b88f79}{day}}
-\item 
-const double \mbox{\hyperlink{namespace_e_g_x_phys_aac13efe8296819409bde4a0a8691d56a}{seconds\+In\+Year}} = \mbox{\hyperlink{namespace_e_g_x_phys_afee9eebc1da4a1db2198fe0c45bcb53f}{year}}
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a34a388ac3f9196bb3cdbdbee5ff3cdb7}{Sidereal\+Rotation\+Period\+Of\+Earth}} = 0.\+99726968$\ast$ seconds\+In\+Day
 \item 
 const double \mbox{\hyperlink{namespace_e_g_x_phys_a999332303a2214425184fbe23dbae0c5}{AU}} = 149597870700.\+0
 \end{DoxyCompactItemize}
@@ -368,13 +360,7 @@ $au\ (au)$ Astronomical units in meters. \mbox{\Hypertarget{namespace_e_g_x_phys
 \subsubsection{\texorpdfstring{Bond\+Albedo\+Of\+Earth}{BondAlbedoOfEarth}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Bond\+Albedo\+Of\+Earth = 0.\+306}
 
-Bond Albedo(dimensionless) of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a24d985ae6f6cefe7e25ac40806b88f79}\label{namespace_e_g_x_phys_a24d985ae6f6cefe7e25ac40806b88f79}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!day@{day}}
-\index{day@{day}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{day}{day}}
-{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::day = 24$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a85c64ea70cddbb7e4c96adcc01cef6e2}{hour}}}
-
-$t_{day}\ (s)$ Seconds in a day in seconds. \mbox{\Hypertarget{namespace_e_g_x_phys_a327bbaf59d546f8524d6fb9da919d939}\label{namespace_e_g_x_phys_a327bbaf59d546f8524d6fb9da919d939}} 
+Bond Albedo(dimensionless) of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a327bbaf59d546f8524d6fb9da919d939}\label{namespace_e_g_x_phys_a327bbaf59d546f8524d6fb9da919d939}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Eccentricity\+Of\+Earth@{Eccentricity\+Of\+Earth}}
 \index{Eccentricity\+Of\+Earth@{Eccentricity\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Eccentricity\+Of\+Earth}{EccentricityOfEarth}}
@@ -386,13 +372,7 @@ Eccentricity(dimensionless) of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_aa
 \subsubsection{\texorpdfstring{Geometric\+Albedo\+Of\+Earth}{GeometricAlbedoOfEarth}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Geometric\+Albedo\+Of\+Earth = 0.\+367}
 
-Geometric Albedo(dimensionless) of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a85c64ea70cddbb7e4c96adcc01cef6e2}\label{namespace_e_g_x_phys_a85c64ea70cddbb7e4c96adcc01cef6e2}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!hour@{hour}}
-\index{hour@{hour}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{hour}{hour}}
-{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::hour = 60$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_ab3a72a63e9c502847d0db88a167dc02b}{minute}}}
-
-$t_{h}\ (s)$ Seconds in an hour in seconds. \mbox{\Hypertarget{namespace_e_g_x_phys_ace4a9d8c0b21215536857f4c1087a4e8}\label{namespace_e_g_x_phys_ace4a9d8c0b21215536857f4c1087a4e8}} 
+Geometric Albedo(dimensionless) of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_ace4a9d8c0b21215536857f4c1087a4e8}\label{namespace_e_g_x_phys_ace4a9d8c0b21215536857f4c1087a4e8}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Mass\+Of\+Earth@{Mass\+Of\+Earth}}
 \index{Mass\+Of\+Earth@{Mass\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Mass\+Of\+Earth}{MassOfEarth}}
@@ -404,43 +384,13 @@ Mass(kg) Of Earth. $M_\oplus$ \mbox{\Hypertarget{namespace_e_g_x_phys_a6e84ae13f
 \subsubsection{\texorpdfstring{Mass\+Of\+Sun}{MassOfSun}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Mass\+Of\+Sun = 1.\+9891e30}
 
-$m_\odot$ (kg) Mass of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_ab3a72a63e9c502847d0db88a167dc02b}\label{namespace_e_g_x_phys_ab3a72a63e9c502847d0db88a167dc02b}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!minute@{minute}}
-\index{minute@{minute}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{minute}{minute}}
-{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::minute = 60}
-
-$t_{min}\ (s)$ Seconds in a minute in seconds. \mbox{\Hypertarget{namespace_e_g_x_phys_a11a2d4a914eb43c4095e225358293a45}\label{namespace_e_g_x_phys_a11a2d4a914eb43c4095e225358293a45}} 
+$m_\odot$ (kg) Mass of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_a11a2d4a914eb43c4095e225358293a45}\label{namespace_e_g_x_phys_a11a2d4a914eb43c4095e225358293a45}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Radius\+Of\+Earth@{Radius\+Of\+Earth}}
 \index{Radius\+Of\+Earth@{Radius\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Radius\+Of\+Earth}{RadiusOfEarth}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Radius\+Of\+Earth = 6371000}
 
-Radius(m) Of Earth. $R_\oplus$ \mbox{\Hypertarget{namespace_e_g_x_phys_ab4f86327f64403b843077ecc189ce52b}\label{namespace_e_g_x_phys_ab4f86327f64403b843077ecc189ce52b}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!seconds\+In\+Day@{seconds\+In\+Day}}
-\index{seconds\+In\+Day@{seconds\+In\+Day}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{seconds\+In\+Day}{secondsInDay}}
-{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::seconds\+In\+Day = \mbox{\hyperlink{namespace_e_g_x_phys_a24d985ae6f6cefe7e25ac40806b88f79}{day}}}
-
-$t_{day}\ (s)$ Seconds in a day in seconds. \mbox{\Hypertarget{namespace_e_g_x_phys_a9a6a4eb13636aa068a3f1e41cde4d6fd}\label{namespace_e_g_x_phys_a9a6a4eb13636aa068a3f1e41cde4d6fd}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!seconds\+In\+Hour@{seconds\+In\+Hour}}
-\index{seconds\+In\+Hour@{seconds\+In\+Hour}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{seconds\+In\+Hour}{secondsInHour}}
-{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::seconds\+In\+Hour = \mbox{\hyperlink{namespace_e_g_x_phys_a85c64ea70cddbb7e4c96adcc01cef6e2}{hour}}}
-
-$t_{h}\ (s)$ Seconds in an hour in seconds. \mbox{\Hypertarget{namespace_e_g_x_phys_a65038e0b58235dc59a44cec16638df35}\label{namespace_e_g_x_phys_a65038e0b58235dc59a44cec16638df35}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!seconds\+In\+Minute@{seconds\+In\+Minute}}
-\index{seconds\+In\+Minute@{seconds\+In\+Minute}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{seconds\+In\+Minute}{secondsInMinute}}
-{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::seconds\+In\+Minute = \mbox{\hyperlink{namespace_e_g_x_phys_ab3a72a63e9c502847d0db88a167dc02b}{minute}}}
-
-$t_{min}\ (s)$ Seconds in a minute in seconds. \mbox{\Hypertarget{namespace_e_g_x_phys_aac13efe8296819409bde4a0a8691d56a}\label{namespace_e_g_x_phys_aac13efe8296819409bde4a0a8691d56a}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!seconds\+In\+Year@{seconds\+In\+Year}}
-\index{seconds\+In\+Year@{seconds\+In\+Year}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{seconds\+In\+Year}{secondsInYear}}
-{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::seconds\+In\+Year = \mbox{\hyperlink{namespace_e_g_x_phys_afee9eebc1da4a1db2198fe0c45bcb53f}{year}}}
-
-$t_{year}\ (s)$ Seconds in a year in seconds. \mbox{\Hypertarget{namespace_e_g_x_phys_ad1bdca5cec4a0f4a4b8a18ead61de6d9}\label{namespace_e_g_x_phys_ad1bdca5cec4a0f4a4b8a18ead61de6d9}} 
+Radius(m) Of Earth. $R_\oplus$ \mbox{\Hypertarget{namespace_e_g_x_phys_ad1bdca5cec4a0f4a4b8a18ead61de6d9}\label{namespace_e_g_x_phys_ad1bdca5cec4a0f4a4b8a18ead61de6d9}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Semimajor\+Axis\+Of\+Earth@{Semimajor\+Axis\+Of\+Earth}}
 \index{Semimajor\+Axis\+Of\+Earth@{Semimajor\+Axis\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Semimajor\+Axis\+Of\+Earth}{SemimajorAxisOfEarth}}
@@ -450,7 +400,7 @@ Semimajor Axis(m) Of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a34a388ac3f9
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Sidereal\+Rotation\+Period\+Of\+Earth@{Sidereal\+Rotation\+Period\+Of\+Earth}}
 \index{Sidereal\+Rotation\+Period\+Of\+Earth@{Sidereal\+Rotation\+Period\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Sidereal\+Rotation\+Period\+Of\+Earth}{SiderealRotationPeriodOfEarth}}
-{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Sidereal\+Rotation\+Period\+Of\+Earth = 0.\+99726968$\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_ab4f86327f64403b843077ecc189ce52b}{seconds\+In\+Day}}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Sidereal\+Rotation\+Period\+Of\+Earth = 0.\+99726968$\ast$ seconds\+In\+Day}
 
 Sidereal Rotation Period(s) Of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a61266dc1aaacdd9a9bd0f2fa92aa21c9}\label{namespace_e_g_x_phys_a61266dc1aaacdd9a9bd0f2fa92aa21c9}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Sun\+Abs\+V\+Magnitude@{Sun\+Abs\+V\+Magnitude}}
@@ -482,10 +432,4 @@ $m_\odot$ (kg) Mass of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_a97be71e7f8c
 \subsubsection{\texorpdfstring{Sun\+Tempreture}{SunTempreture}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Sun\+Tempreture = 5778.\+0}
 
-$T_\odot$(K) Tempreture of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_afee9eebc1da4a1db2198fe0c45bcb53f}\label{namespace_e_g_x_phys_afee9eebc1da4a1db2198fe0c45bcb53f}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!year@{year}}
-\index{year@{year}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{year}{year}}
-{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::year = 365.\+25$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a24d985ae6f6cefe7e25ac40806b88f79}{day}}}
-
-$t_{year}\ (s)$ Seconds in a year in seconds. 
+$T_\odot$(K) Tempreture of Sun. 

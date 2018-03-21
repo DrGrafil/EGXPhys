@@ -1,9 +1,15 @@
 var group___astrophysics =
 [
+    [ "Absolute Magnitude", "group___absolute_magnitude.html", null ],
     [ "Apoapsis", "group___apoapsis.html", "group___apoapsis" ],
+    [ "B-V Color", "group___b_v_color.html", "group___b_v_color" ],
+    [ "Parallax", "group___parallax.html", null ],
     [ "Periapsis", "group___periapsis.html", "group___periapsis" ],
     [ "Planetary Mass", "group___planetary_mass.html", "group___planetary_mass" ],
-    [ "Stellar Mass", "group___stellar_mass.html", "group___stellar_mass" ],
+    [ "Right Ascension And Declination", "group___right_ascension_and_declination.html", "group___right_ascension_and_declination" ],
+    [ "Stellar Mass", "group___stellar_mass.html", null ],
+    [ "Stellar Radius", "group___stellar_radius.html", null ],
+    [ "Stellar Temperature", "group___stellar_temperature.html", null ],
     [ "blackbodyLuminosity", "group___astrophysics.html#ga909f82edfaed449b44e94788b642ebb8", null ],
     [ "CircumstellarHabitableZoneDistance", "group___astrophysics.html#gacf3a720793cdb27f6d93b170b44e81be", null ],
     [ "CircumstellarHabitableZoneInnerBoundary", "group___astrophysics.html#ga9ee2e8023cb444aa4638c962788b5853", null ],

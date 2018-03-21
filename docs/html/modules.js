@@ -3,6 +3,7 @@ var modules =
     [ "Acoustics", "group___acoustics.html", null ],
     [ "Astrophysics", "group___astrophysics.html", "group___astrophysics" ],
     [ "Atomic", "group___atomic.html", "group___atomic" ],
+    [ "EGXMath Library", "group___e_g_x_math.html", "group___e_g_x_math" ],
     [ "Kinematics", "group___kinematics.html", null ],
     [ "NIST Constants", "group___n_i_s_t_const.html", "group___n_i_s_t_const" ],
     [ "Optics", "group___optics.html", "group___optics" ],

@@ -1,0 +1,105 @@
+\hypertarget{_angle_conversions_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions.hpp File Reference}
+\label{_angle_conversions_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions.\+hpp}}
+
+
+Converts angle measurements into various styles such as radians, degrees, D\+MS, H\+MS.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}../\+E\+G\+X\+Math\+Constants.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Angle\+Conversions.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Radian} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Milliradian} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Degree} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Decimal\+Degree} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Arcdegree} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Arcminute} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Arcsecond} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Milliarcsecond} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Microarcsecond} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Degrees\+Minutes\+Seconds} (const T \&decimal\+Degree, T \&degree, T \&minute, T \&second)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+D\+MS} (const T \&decimal\+Degree, T \&degree, T \&minute, T \&second)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Hours\+Minutes\+Seconds} (const T \&decimal\+Degree, T \&hour, T \&minute, T \&second)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+H\+MS} (const T \&decimal\+Degree, T \&hour, T \&minute, T \&second)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Gradian} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Gon} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Compass8\+Wind} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Compass16\+Wind} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Compass32\+Wind} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Gradian} (const T \&decimal\+Degree)
+\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Compass8\+Wind} (const T \&decimal\+Degree, const bool abbreviate)
+\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Compass16\+Wind} (const T \&decimal\+Degree, const bool abbreviate)
+\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Compass32\+Wind} (const T \&decimal\+Degree, const bool abbreviate)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions_gae08681bd86b8e7e4325f6c8cb3a0dc37}{E\+G\+X\+Math\+::\+Radian\+To\+Radian}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle $(\alpha)$ in radians to (decimal) degrees. \[\alpha_{Deg}=\alpha_{Rad}\frac{180}{\pi}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Milliradian} (const T \&radian)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Degree} (const T \&radian)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Decimal\+Degree} (const T \&radian)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Arcdegree} (const T \&radian)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Arcminute} (const T \&radian)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Arcsecond} (const T \&radian)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Milliarcsecond} (const T \&radian)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Microarcsecond} (const T \&radian)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Degrees\+Minutes\+Seconds} (const T \&radian, T \&degree, T \&minute, T \&second)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+D\+MS} (const T \&radian, T \&degree, T \&minute, T \&second)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Hours\+Minutes\+Seconds} (const T \&radian, T \&hour, T \&minute, T \&second)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+H\+MS} (const T \&radian, T \&hour, T \&minute, T \&second)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Gradian} (const T \&radian)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Radian\+To\+Gon} (const T \&radian)
+\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{group___e_g_x_math-_angle_conversions_ga3c06a01860f69bcd57fab918037318b3}{E\+G\+X\+Math\+::\+Radian\+To\+Compass8\+Wind}} (const T \&radian, const bool abbreviate)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radians to a 8-\/\+Wind compass point name. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{group___e_g_x_math-_angle_conversions_gae3be24eac965abfab281c6307fed482a}{E\+G\+X\+Math\+::\+Radian\+To\+Compass16\+Wind}} (const T \&radian, const bool abbreviate)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radians to a 16-\/\+Wind compass point name. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{group___e_g_x_math-_angle_conversions_ga64587b5f303e1921ab34bc344b5089bb}{E\+G\+X\+Math\+::\+Radian\+To\+Compass32\+Wind}} (const T \&radian, const bool abbreviate)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radians to a 32-\/\+Wind compass point name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Converts angle measurements into various styles such as radians, degrees, D\+MS, H\+MS. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+3/20/18 
+\end{DoxyDate}

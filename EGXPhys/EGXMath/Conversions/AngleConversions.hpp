@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/20/18
 
-/// @defgroup AngleConversions Angle Conversions
-/// @ingroup Conversions
+/// @defgroup EGXMath-AngleConversions Angle Conversions
+/// @ingroup EGXMath-Conversions
 
 //=================================
 // Header guard
@@ -26,7 +26,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup AngleConversions
+	/// @addtogroup EGXMath-AngleConversions
 	/// @{
 	
 	//// Degrees
@@ -147,13 +147,13 @@ namespace EGXMath
 
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
-	std::string DegreeToCompass8Wind(const T& decimalDegree);
+	std::string DegreeToCompass8Wind(const T& decimalDegree, const bool abbreviate);
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
-	std::string DegreeToCompass16Wind(const T& decimalDegree);
+	std::string DegreeToCompass16Wind(const T& decimalDegree, const bool abbreviate);
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
-	std::string DegreeToCompass32Wind(const T& decimalDegree);
+	std::string DegreeToCompass32Wind(const T& decimalDegree, const bool abbreviate);
 
 
 
@@ -227,15 +227,38 @@ namespace EGXMath
 	template<typename T>
 	T RadianToGon(const T& radian);
 
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	/**
+	*   @brief Converts an angle in radians to a 8-Wind compass point name.
+	*
+	*   @param radians \f$\alpha_{Rad}\ (rad)\f$ is the angle in radians.
+	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
+	*   @return \f$wind (dimensionless)\f$ is the name of the compass point.
+	*	@see DegreeToCompass8Wind() for full explination of conversion.
+	*/
 	template<typename T>
-	std::string RadianToCompass8Wind(const T& radian);
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	std::string RadianToCompass8Wind(const T& radian, const bool abbreviate);
+
+	/**
+	*   @brief Converts an angle in radians to a 16-Wind compass point name.
+	*
+	*   @param radians \f$\alpha_{Rad}\ (rad)\f$ is the angle in radians.
+	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
+	*   @return \f$wind (dimensionless)\f$ is the name of the compass point.
+	*	@see DegreeToCompass16Wind() for full explination of conversion.
+	*/
 	template<typename T>
-	std::string RadianToCompass16Wind(const T& radian);
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
+	std::string RadianToCompass16Wind(const T& radian, const bool abbreviate);
+	
+	/**
+	*   @brief Converts an angle in radians to a 32-Wind compass point name.
+	*
+	*   @param radians \f$\alpha_{Rad}\ (rad)\f$ is the angle in radians.
+	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
+	*   @return \f$wind (dimensionless)\f$ is the name of the compass point.
+	*	@see DegreeToCompass32Wind() for full explination of conversion.
+	*/
 	template<typename T>
-	std::string RadianToCompass32Wind(const T& radian);
+	std::string RadianToCompass32Wind(const T& radian, const bool abbreviate);
 
     /// @}
 } //namespace EGXMath

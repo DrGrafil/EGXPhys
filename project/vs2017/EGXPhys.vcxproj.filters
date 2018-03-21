@@ -270,6 +270,12 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.hpp">
       <Filter>EGXPhys\EGXMath\Conversions</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\Conversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\ConversionsConstants.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">

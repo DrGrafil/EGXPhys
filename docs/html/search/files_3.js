@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['egxphys_2ehpp',['EGXPhys.hpp',['../_e_g_x_phys_8hpp.html',1,'']]],
-  ['egxphysconstants_2ehpp',['EGXPhysConstants.hpp',['../_e_g_x_phys_constants_8hpp.html',1,'']]]
+  ['decayconstant_2ehpp',['DecayConstant.hpp',['../_decay_constant_8hpp.html',1,'']]],
+  ['decayconstant_2einl',['DecayConstant.inl',['../_decay_constant_8inl.html',1,'']]],
+  ['decaywidth_2ehpp',['DecayWidth.hpp',['../_decay_width_8hpp.html',1,'']]],
+  ['decaywidth_2einl',['DecayWidth.inl',['../_decay_width_8inl.html',1,'']]]
 ];

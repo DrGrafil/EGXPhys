@@ -9,5 +9,7 @@ var searchData=
   ['stefan_2dboltzmann_20constant',['Stefan-Boltzmann constant',['../group___n_i_s_t_const-_stefan_boltzmann_constant.html',1,'']]],
   ['separation_20energy',['Separation Energy',['../group___nuclear_separation_energy.html',1,'']]],
   ['semi_2dempirical_20mass_20formula',['Semi-Empirical Mass Formula',['../group___semi_empirical_mass_formula.html',1,'']]],
-  ['stellar_20mass',['Stellar Mass',['../group___stellar_mass.html',1,'']]]
+  ['stellar_20mass',['Stellar Mass',['../group___stellar_mass.html',1,'']]],
+  ['stellar_20radius',['Stellar Radius',['../group___stellar_radius.html',1,'']]],
+  ['stellar_20temperature',['Stellar Temperature',['../group___stellar_temperature.html',1,'']]]
 ];

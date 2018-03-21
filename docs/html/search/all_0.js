@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['absolute_20magnitude',['Absolute Magnitude',['../group___absolute_magnitude.html',1,'']]],
+  ['absolutemagnitude_2ehpp',['AbsoluteMagnitude.hpp',['../_absolute_magnitude_8hpp.html',1,'']]],
+  ['absolutemagnitude_2einl',['AbsoluteMagnitude.inl',['../_absolute_magnitude_8inl.html',1,'']]],
   ['acoustics',['Acoustics',['../group___acoustics.html',1,'']]],
   ['acoustics_2ehpp',['Acoustics.hpp',['../_acoustics_8hpp.html',1,'']]],
   ['acousticsconstants_2ehpp',['AcousticsConstants.hpp',['../_acoustics_constants_8hpp.html',1,'']]],
@@ -10,6 +13,7 @@ var searchData=
   ['alphaparticlemassinu',['alphaParticleMassInu',['../group___n_i_s_t_const-_alpha.html#ga1233ffb0d6537e112ce39623e6c6d0d5',1,'NISTConst']]],
   ['alphaparticlemolarmass',['alphaParticleMolarMass',['../group___n_i_s_t_const-_alpha.html#ga06d92f78de04d4e1d79b8468b04959ef',1,'NISTConst']]],
   ['alphaparticleprotonmassratio',['alphaParticleProtonMassRatio',['../group___n_i_s_t_const-_alpha.html#ga4629465057dc35ad7eecca610bcbd092',1,'NISTConst']]],
+  ['angleconversions_2ehpp',['AngleConversions.hpp',['../_angle_conversions_8hpp.html',1,'']]],
   ['angstromstar',['AngstromStar',['../group___n_i_s_t_const-_angstrom_star.html#ga42db9558ed1ddd9706c14e4d0b0863cc',1,'NISTConst']]],
   ['apastron',['Apastron',['../group___apoapsis.html#ga2fc1c406ce10f59b4f325150aecd279a',1,'EGXPhys']]],
   ['aphelion',['Aphelion',['../group___apoapsis.html#ga77dadb4d082a441c8e85203c983722c7',1,'EGXPhys']]],
@@ -77,6 +81,7 @@ var searchData=
   ['atomicunitofvelocity',['atomicUnitOfVelocity',['../group___n_i_s_t_const-_atomic_unit.html#gaf22e630a5412176c4d94dbc8b1e36f70',1,'NISTConst']]],
   ['au',['AU',['../namespace_e_g_x_phys.html#a999332303a2214425184fbe23dbae0c5',1,'EGXPhys']]],
   ['avogadroconstant',['AvogadroConstant',['../group___n_i_s_t_const-_avogadro_constant.html#gad82b2a4777628c4e67a87b8f5b99174e',1,'NISTConst']]],
+  ['angle_20conversions',['Angle Conversions',['../group___e_g_x_math-_angle_conversions.html',1,'']]],
   ['adopted',['Adopted',['../group___n_i_s_t_const-_adopted.html',1,'']]],
   ['alpha_20particle_20_28helium_2d4_20nucleus_29',['Alpha particle (Helium-4 nucleus)',['../group___n_i_s_t_const-_alpha.html',1,'']]],
   ['angstrom_20star',['Angstrom star',['../group___n_i_s_t_const-_angstrom_star.html',1,'']]],

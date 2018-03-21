@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['circumstellarhabitablezone_2ehpp',['CircumstellarHabitableZone.hpp',['../_circumstellar_habitable_zone_8hpp.html',1,'']]],
-  ['circumstellarhabitablezone_2einl',['CircumstellarHabitableZone.inl',['../_circumstellar_habitable_zone_8inl.html',1,'']]]
+  ['bvcolor_2ehpp',['BVColor.hpp',['../_b_v_color_8hpp.html',1,'']]],
+  ['bvcolor_2einl',['BVColor.inl',['../_b_v_color_8inl.html',1,'']]]
 ];

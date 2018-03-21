@@ -4,6 +4,8 @@ var searchData=
   ['earthsimilarityindexinterior',['EarthSimilarityIndexInterior',['../group___astrophysics.html#ga699bcc2f17b8855eaa856595d8032f61',1,'EGXPhys']]],
   ['earthsimilarityindexsurface',['EarthSimilarityIndexSurface',['../group___astrophysics.html#ga1df772b0ed354ca7f7e4a7a4af072325',1,'EGXPhys']]],
   ['eccentricityofearth',['EccentricityOfEarth',['../namespace_e_g_x_phys.html#a327bbaf59d546f8524d6fb9da919d939',1,'EGXPhys']]],
+  ['egxmath_20library',['EGXMath Library',['../group___e_g_x_math.html',1,'']]],
+  ['egxmath_2ehpp',['EGXMath.hpp',['../_e_g_x_math_8hpp.html',1,'']]],
   ['egxphys',['EGXPhys',['../namespace_e_g_x_phys.html',1,'']]],
   ['egxphys_2ehpp',['EGXPhys.hpp',['../_e_g_x_phys_8hpp.html',1,'']]],
   ['egxphysconstants_2ehpp',['EGXPhysConstants.hpp',['../_e_g_x_phys_constants_8hpp.html',1,'']]],

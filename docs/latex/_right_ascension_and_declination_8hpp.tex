@@ -1,0 +1,37 @@
+\hypertarget{_right_ascension_and_declination_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Right\+Ascension\+And\+Declination.hpp File Reference}
+\label{_right_ascension_and_declination_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Right\+Ascension\+And\+Declination.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Right\+Ascension\+And\+Declination.\+hpp}}
+
+
+Calculates co-\/ordinate transformations of Right Ascension and Declination.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Astrophysics\+Constants.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Right\+Ascension\+And\+Declination.\+inl\char`\"{}}\newline
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_e_g_x_phys}{E\+G\+X\+Phys}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___right_ascension_and_declination_ga25cb93de046663967af01d6687c423ae}{E\+G\+X\+Phys\+::\+Right\+Ascension\+To\+Radians}} (const T hours, const T minutes, const T seconds)
+\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha)$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to radians. \[\alpha=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\] See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Radians\+To\+Right\+Ascension} (const T radians, T \&hours, T \&minutes, T \&seconds)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Declination\+To\+Radians} (const T degrees, const T arcminutes, const T arcseconds)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Declination\+To\+Radians} (const T \&radians, T \&degrees, T \&arcminutes, T \&arcseconds)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calculates co-\/ordinate transformations of Right Ascension and Declination. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+3/19/18 
+\end{DoxyDate}

@@ -5,7 +5,7 @@
 /// @date 3/20/18
 
 
-namespace EGXPhys {
+namespace EGXMath {
 
 	//// degrees
 	template<typename T>
@@ -65,7 +65,13 @@ namespace EGXPhys {
 
 	template<typename T>
 	void DegreeToHoursMinutesSeconds(const T& decimalDegree, T& hour, T& minute, T& second) {
-		
+		T hUntrunct = decimalDegree / 15.0;	//Before truncation
+		hour = std::trunc(hUntrunct);
+
+		T mUntrunct = std::abs(hUntrunct - hour) * 60.0; // Remainder * 60 minutes in a hour
+		minute = std::trunc(mUntrunct);
+
+		second = (mUntrunct - minute) * 60.0; // Remainder * 60 seconds in a minute
 	}
 
 	template<typename T>
@@ -85,13 +91,17 @@ namespace EGXPhys {
 
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
-	std::string DegreeToCompass8Wind(const T& decimalDegree);
+	std::string DegreeToCompass8Wind(const T& decimalDegree, const bool abbreviate) {
+		return "not working";
+	}
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
-	std::string DegreeToCompass16Wind(const T& decimalDegree);
+	std::string DegreeToCompass16Wind(const T& decimalDegree, const bool abbreviate) {
+		return "not working";
+	}
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
-	std::string DegreeToCompass32Wind(const T& decimalDegree) {
+	std::string DegreeToCompass32Wind(const T& decimalDegree, const bool abbreviate) {
 		static std::vector<std::string> pointName;
 		pointName = {
 			"north",				"north by east",		"north-northeast",	"northeast by north",
@@ -132,7 +142,7 @@ namespace EGXPhys {
 
 		unsigned int position = (unsigned int)angle / (unsigned int)32;
 
-		if (!abreviation) {
+		if (!abbreviate) {
 			return pointName[position];
 		}
 		else {
@@ -196,22 +206,22 @@ namespace EGXPhys {
 
 	template<typename T>
 	void RadianToDegreesMinutesSeconds(const T& radian, T& degree, T& minute, T& second) {
-		
+		DegreeToDegreesMinutesSeconds(RadianToDegree(radian), degree, minute, second);
 	}
 
 	template<typename T>
 	void RadianToDMS(const T& radian, T& degree, T& minute, T& second) {
-		RadianToDegreesMinutesSeconds(radian, degree, minute, second);
+		DegreeToDegreesMinutesSeconds(RadianToDegree(radian), degree, minute, second);
 	}
 
 	template<typename T>
 	void RadianToHoursMinutesSeconds(const T& radian, T& hour, T& minute, T& second) {
-
+		DegreeToHoursMinutesSeconds(RadianToDegree(radian), hour, minute, second);
 	}
 
 	template<typename T>
 	void RadianToHMS(const T& radian, T& hour, T& minute, T& second) {
-		RadianToHoursMinutesSeconds(radian, hour, minute, second);
+		DegreeToHoursMinutesSeconds(RadianToDegree(radian), hour, minute, second);
 	}
 
 	//https://en.wikipedia.org/wiki/Gradian
@@ -227,17 +237,17 @@ namespace EGXPhys {
 
 //https://en.wikipedia.org/wiki/Points_of_the_compass
 	template<typename T>
-	std::string RadianToCompass8Wind(const T& radian) {
-		return DegreeToCompass8Wind(RadianToDegree(radian));
+	std::string RadianToCompass8Wind(const T& radian, const bool abbreviate) {
+		return DegreeToCompass8Wind(RadianToDegree(radian), abbreviate);
 	}
 
 	template<typename T>
-	std::string RadianToCompass16Wind(const T& radian) {
-		return DegreeToCompass16Wind(RadianToDegree(radian));
+	std::string RadianToCompass16Wind(const T& radian, const bool abbreviate) {
+		return DegreeToCompass16Wind(RadianToDegree(radian), abbreviate);
 	}
 
 	template<typename T>
-	std::string RadianToCompass32Wind(const T& radian const bool abreviation) {
-		return DegreeToCompass32Wind(RadianToDegree(radian));
+	std::string RadianToCompass32Wind(const T& radian, const bool abbreviate) {
+		return DegreeToCompass32Wind(RadianToDegree(radian), abbreviate);
 	}
 }//namespace EGXPhys
