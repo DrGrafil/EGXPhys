@@ -6,7 +6,16 @@
 /// @date 3/20/18
 
 /// @defgroup EGXMath-AngleConversions Angle Conversions
-/// @ingroup EGXMath-Conversions
+/// @ingroup EGXMath
+
+/// @defgroup EGXMath-AngleConversions-Degree Degree
+/// @ingroup EGXMath-AngleConversions
+
+/// @defgroup EGXMath-AngleConversions-DecimalDegree Decimal Degree
+/// @ingroup EGXMath-AngleConversions
+
+/// @defgroup EGXMath-AngleConversions-Radian Radian 
+/// @ingroup EGXMath-AngleConversions
 
 //=================================
 // Header guard
@@ -26,7 +35,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-AngleConversions
+	/// @addtogroup EGXMath-AngleConversions-Degree
 	/// @{
 	
 	//// Degrees
@@ -65,10 +74,10 @@ namespace EGXMath
 	T DegreeToMicroarcsecond(const T& decimalDegree);
 
 	template<typename T>
-	void DegreeToDegreesMinutesSeconds(const T& decimalDegree, T& degree, T& minute, T& second);
+	void DegreeToDegreesMinutesSeconds(const T& decimalDegree, T& degree, T& arcminute, T& arcsecond);
 
 	template<typename T>
-	void DegreeToDMS(const T& decimalDegree, T& degree, T& minute, T& second);
+	void DegreeToDMS(const T& decimalDegree, T& degree, T& arcminute, T& arcsecond);
 
 	template<typename T>
 	void DegreeToHoursMinutesSeconds(const T& decimalDegree, T& hour, T& minute, T& second);
@@ -83,182 +92,236 @@ namespace EGXMath
 	T DegreeToGon(const T& decimalDegree);
 
 	//https://en.wikipedia.org/wiki/Points_of_the_compass
-	template<typename T>
-	std::string DegreeToCompass8Wind(const T& decimalDegree, const bool abbreviate);
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
-	template<typename T>
-	std::string DegreeToCompass16Wind(const T& decimalDegree, const bool abbreviate);
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
-	template<typename T>
-	std::string DegreeToCompass32Wind(const T& decimalDegree, const bool abbreviate);
-
-
-
-	//// DECIMAL DEGREES (they are bounded unlike normal degrees
-
-	template<typename T>
-	T DecimalDegreeToRadian(const T& decimalDegree);
-
-	//https://en.wikipedia.org/wiki/Milliradian
-	template<typename T>
-	T DecimalDegreeToMilliradian(const T& decimalDegree);
-
-	//https://en.wikipedia.org/wiki/Degree_(angle)
-
-	template<typename T>
-	T DecimalDegreeToDegree(const T& decimalDegree);
-	//https://en.wikipedia.org/wiki/Degree_(angle)
-
-	template<typename T>
-	T DecimalDegreeToDecimalDegree(const T& decimalDegree);
-	//https://en.wikipedia.org/wiki/Degree_(angle)
-
-	template<typename T>
-	T DecimalDegreeToArcdegree(const T& decimalDegree);
-
-	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	template<typename T>
-	T DecimalDegreeToArcminute(const T& decimalDegree);
-
-	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	template<typename T>
-	T DecimalDegreeToArcsecond(const T& decimalDegree);
-
-	template<typename T>
-	T DecimalDegreeToMilliarcsecond(const T& decimalDegree);
-
-	template<typename T>
-	T DecimalDegreeToMicroarcsecond(const T& decimalDegree);
-
-	template<typename T>
-	void DecimalDegreeToDegreesMinutesSeconds(const T& decimalDegree, T& degree, T& minute, T& second);
-
-	template<typename T>
-	void DecimalDegreeToDMS(const T& decimalDegree, T& degree, T& minute, T& second);
-
-	template<typename T>
-	void DecimalDegreeToHoursMinutesSeconds(const T& decimalDegree, T& hour, T& minute, T& second);
-
-	template<typename T>
-	void DecimalDegreeToHMS(const T& decimalDegree, T& hour, T& minute, T& second);
-
-	template<typename T>
-	void DecimalDegreeToGradian(const T& decimalDegree);
-
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
-	template<typename T>
-	std::string DecimalDegreeToCompass8Wind(const T& decimalDegree, const bool abbreviate);
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
-	template<typename T>
-	std::string DecimalDegreeToCompass16Wind(const T& decimalDegree, const bool abbreviate);
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
-	template<typename T>
-	std::string DecimalDegreeToCompass32Wind(const T& decimalDegree, const bool abbreviate);
-
-
-
-
-
 
 	/**
-	*   @brief Converts an angle \f$(\alpha)\f$ in radians to (decimal) degrees.
-	*   		\f[\alpha_{Deg}=\alpha_{Rad}\frac{180}{\pi}\f]
-	*   See https://en.wikipedia.org/wiki/Stellar_mass
+	*   @brief Converts an angle in radians to a n-Wind compass point name.
 	*
-	*   @param radians \f$\alpha_{Rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{Deg} ({^{\circ}})\f$ is the angle in decimal degrees.
-	*	@see RadiansToDegrees() for (decimal) degrees.
-	*	@see RadiansToDecimalDegrees() for decimal degrees.
-	*	@see RadiansToMilliradian() for milliradians.
-	*	@see RadiansToDegreesMinutesSeconds() to convert to DMS.
-	*	@see RadiansToHoursMinutesSeconds() to convert to HMS.
-	*/
-
-	//// RADIANS
-	template<typename T>
-	T RadianToRadian(const T& radian);
-
-	//https://en.wikipedia.org/wiki/Milliradian
-	template<typename T>
-	T RadianToMilliradian(const T& radian);
-
-	//https://en.wikipedia.org/wiki/Degree_(angle)
-
-	template<typename T>
-	T RadianToDegree(const T& radian);
-	//https://en.wikipedia.org/wiki/Degree_(angle)
-
-	template<typename T>
-	T RadianToDecimalDegree(const T& radian);
-	//https://en.wikipedia.org/wiki/Degree_(angle)
-
-	template<typename T>
-	T RadianToArcdegree(const T& radian);
-
-	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	template<typename T>
-	T RadianToArcminute(const T& radian);
-
-	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	template<typename T>
-	T RadianToArcsecond(const T& radian);
-
-	template<typename T>
-	T RadianToMilliarcsecond(const T& radian);
-
-	template<typename T>
-	T RadianToMicroarcsecond(const T& radian);
-
-	template<typename T>
-	void RadianToDegreesMinutesSeconds(const T& radian, T& degree, T& minute, T& second);
-
-	template<typename T>
-	void RadianToDMS(const T& radian, T& degree, T& minute, T& second);
-
-	template<typename T>
-	void RadianToHoursMinutesSeconds(const T& radian, T& hour, T& minute, T& second);
-
-	template<typename T>
-	void RadianToHMS(const T& radian, T& hour, T& minute, T& second);
-
-	template<typename T>
-	T RadianToGradian(const T& radian);
-
-	template<typename T>
-	T RadianToGon(const T& radian);
-
-	/**
-	*   @brief Converts an angle in radians to a 8-Wind compass point name.
-	*
-	*   @param radians \f$\alpha_{Rad}\ (rad)\f$ is the angle in radians.
+	*   @param decimalDegree \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
 	*   @return \f$wind (dimensionless)\f$ is the name of the compass point.
 	*	@see DegreeToCompass8Wind() for full explination of conversion.
 	*/
 	template<typename T>
-	std::string RadianToCompass8Wind(const T& radian, const bool abbreviate);
+	std::string DegreeToCompassWind(const T& decimalDegree, const unsigned int winds, const bool abbreviate);
+
+	/// @}
+
+	//// DECIMAL DEGREES (alias to degrees)
+
+
+
+
+	//// RADIANS
+	/// @addtogroup EGXMath-AngleConversions-Radian
+	/// @{
 
 	/**
-	*   @brief Converts an angle in radians to a 16-Wind compass point name.
+	*   @brief Converts an angle in radians to radians.
+	*		\f[\alpha_{rad}=\alpha_{rad}\f]
 	*
-	*   @param radians \f$\alpha_{Rad}\ (rad)\f$ is the angle in radians.
-	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
-	*   @return \f$wind (dimensionless)\f$ is the name of the compass point.
-	*	@see DegreeToCompass16Wind() for full explination of conversion.
+	*	See https://en.wikipedia.org/wiki/Radian
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{rad} (rad)\f$ is the angle in radians.
+	*	@see RadianToMilliradian() for conversion to milliradians.
+	*	@see DegreeToRadian() for conversion from (decimal) degrees.
 	*/
 	template<typename T>
-	std::string RadianToCompass16Wind(const T& radian, const bool abbreviate);
-	
+	T RadianToRadian(const T& radian);
+
+	//
 	/**
-	*   @brief Converts an angle in radians to a 32-Wind compass point name.
+	*   @brief Converts an angle in radians to (decimal) degree.
+	*		\f[\alpha_{mrad}=\alpha_{rad}*10^3\f]
 	*
-	*   @param radians \f$\alpha_{Rad}\ (rad)\f$ is the angle in radians.
-	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
-	*   @return \f$wind (dimensionless)\f$ is the name of the compass point.
-	*	@see DegreeToCompass32Wind() for full explination of conversion.
+	*	See https://en.wikipedia.org/wiki/Milliradian 
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{mrad} (mrad)\f$ is the angle in milliradians.
+	*	@see RadianToRadian() for conversion to radians.
+	*	@see DegreeToMilliradian() for conversion from (decimal) degrees.
 	*/
 	template<typename T>
-	std::string RadianToCompass32Wind(const T& radian, const bool abbreviate);
+	T RadianToMilliradian(const T& radian);
+
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	/**
+	*   @brief Converts an angle in radians to (decimal) degree.
+	*		\f[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{deg} (deg)\f$ is the angle in (decimal) degree.
+	*	@see RadianToArcdegree() for alias.
+	*	@see RadianToDegree() for alias.
+	*/
+	template<typename T>
+	T RadianToDegree(const T& radian);
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	/**
+	*   @brief Converts an angle in radians to decimal degree.
+	*		\f[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{deg} (deg)\f$ is the angle in decimal degree.
+	*	@see RadianToDegree() for alias.
+	*	@see RadianToArcdegree() for alias.
+	*/
+	template<typename T>
+	T RadianToDecimalDegree(const T& radian);
+	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	/**
+	*   @brief Converts an angle in radians to arcdegree (decimal degree).
+	*		\f[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{deg} (deg)\f$ is the angle in arcdegree (decimal degree).
+	*	@see RadianToDegree() for alias.
+	*	@see RadianToDecimalDegree() for alias.
+	*/
+	template<typename T>
+	T RadianToArcdegree(const T& radian);
+
+	/**
+	*   @brief Converts an angle in radians to arcminute.
+	*		\f[\alpha_{arcmin}=\alpha_{rad}\frac{180 * 60}{\pi}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{arcmin} (arcmin)\f$ is the angle in arcminutes.
+	*	@see DegreeToArcminute() for conversion from (decimal) degrees.
+	*/
+	template<typename T>
+	T RadianToArcminute(const T& radian);
+
+	/**
+	*   @brief Converts an angle in radians to arcsecond.
+	*		\f[\alpha_{arcsec}=\alpha_{rad}\frac{180 * 60 * 60}{\pi}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{arcsec} (arcsec)\f$ is the angle in arcseconds.
+	*	@see DegreeToArcsecond() for conversion from (decimal) degrees.
+	*/
+	template<typename T>
+	T RadianToArcsecond(const T& radian);
+
+	/**
+	*   @brief Converts an angle in radians to milliarcsecond.
+	*		\f[\alpha_{mas}=\alpha_{rad}\frac{180 * 60 * 60 * 10^3}{\pi}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{mas} (mas)\f$ is the angle in milliarcseconds.
+	*	@see DegreeToMilliarcsecond() for conversion from (decimal) degrees.
+	*/
+	template<typename T>
+	T RadianToMilliarcsecond(const T& radian);
+
+	/**
+	*   @brief Converts an angle in radians to microarcsecond.
+	*		\f[\alpha_{\mu as}=\alpha_{rad}\frac{180 * 60 * 60 * 10^6}{\pi}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{\mu as} (\mu as)\f$ is the angle in microarcseconds.
+	*	@see DegreeToMicroarcsecond() for conversion from (decimal) degrees.
+	*/
+	template<typename T>
+	T RadianToMicroarcsecond(const T& radian);
+
+	/**
+	*   @brief Converts an angle in radians to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
+	*
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*	@param degree \f$degree (deg)\f$ is the angle in degrees in whole numbers.
+	*	@param arcminute \f$arcminute(arcmin)\f$ is the angle in arcminute in whole numbers.
+	*   @param arcsecond \f$arcsecond (arcsec)\f$ is the angle in arcsecond.
+	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees and full explination.
+	*	@see RadianToDMS() for alias.
+	*/
+	template<typename T>
+	void RadianToDegreesMinutesSeconds(const T& radian, T& degree, T& arcminute, T& arcsecond);
+
+	/**
+	*   @brief Converts an angle in radians to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
+	*
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*	@param degree \f$degree (deg)\f$ is the angle in degrees in whole numbers.
+	*	@param arcminute \f$arcminute(arcmin)\f$ is the angle in arcminute in whole numbers.
+	*   @param arcsecond \f$arcsecond (arcsec)\f$ is the angle in arcsecond.
+	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees and full explination.
+	*	@see RadianToDegreesMinutesSeconds() for alias.
+	*/
+	template<typename T>
+	void RadianToDMS(const T& radian, T& degree, T& arcminute, T& arcsecond);
+
+	/**
+	*   @brief Converts an angle in radians to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.
+	*
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*	@param hour \f$hour (h)\f$ is the angle in hours in whole numbers.
+	*	@param minute \f$minute (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
+	*   @param second \f$second (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
+	*	@see DegreeToHoursMinutesSeconds() for conversion from (decimal) degrees and full explination.
+	*	@see RadianToHMS() for alias.
+	*/
+	template<typename T>
+	void RadianToHoursMinutesSeconds(const T& radian, T& hour, T& minute, T& second);
+
+	/**
+	*   @brief Converts an angle in radians to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.
+	*
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*	@param hour \f$hour (h)\f$ is the angle in hours in whole numbers.
+	*	@param minute \f$minute (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
+	*   @param second \f$second (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
+	*	@see DegreeToHoursMinutesSeconds() for conversion from (decimal) degrees and full explination.
+	*	@see RadianToHoursMinutesSeconds() for alias.
+	*/
+	template<typename T>
+	void RadianToHMS(const T& radian, T& hour, T& minute, T& second);
+
+	/**
+	*   @brief Converts an angle in radians to gradians.
+	*		\f[\alpha_{g}=\alpha_{rad}\frac{200}{\pi}\f]
+	*
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{g} (g)\f$ is the angle in gradians.
+	*	@see DegreeToGradian() for conversion from (decimal) degrees.
+	*	@see RadianToGon() for alias.
+	*/
+	template<typename T>
+	T RadianToGradian(const T& radian);
+
+	/**
+	*   @brief Converts an angle in radians to gradians.
+	*		\f[\alpha_{g}=\alpha_{rad}\frac{200}{\pi}\f]
+	*
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{g} (g)\f$ is the angle in gradians.
+	*	@see DegreeToGradian() for conversion from (decimal) degrees.
+	*	@see RadianToGradian() for alias.
+	*/
+	template<typename T>
+	T RadianToGon(const T& radian);
+
+	/**
+	*   @brief Converts an angle in radians to a n-Wind compass point name.
+	*
+	*	See https://en.wikipedia.org/wiki/Points_of_the_compass
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*	@param winds \f$winds\ (int)\f$ The number of points(names) that the compass should have. Must be 2,4,8,16 or 32.
+	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
+	*   @return \f$point name (dimensionless)\f$ is the name of the compass point.
+	*	@see DegreeToCompassWind() for full explination of conversion.
+	*/
+	template<typename T>
+	std::string RadianToCompassWind(const T& radian, const unsigned int winds, const bool abbreviate);
+
 
     /// @}
 } //namespace EGXMath

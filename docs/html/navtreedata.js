@@ -35,11 +35,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_absolute_magnitude_8hpp.html",
-"_n_i_s_t_const_8hpp.html#ga0b7518cf6058bb899c64b32b43bda955",
-"_n_i_s_t_const_8hpp.html#gac8f7404645a2f994d9b1eda283e441d5",
-"_quantum_constants_8hpp_source.html",
-"group___n_i_s_t_const-_atomic_unit.html#gadc3fdb8850235efe9e73bcf733fdbfe8",
-"group___n_i_s_t_const-_neutron.html#ga9c3ba7b26cbcc0b2f7f7fa551812683a"
+"_n_i_s_t_const_8hpp.html#ga1094e420290686333202d186399d706d",
+"_n_i_s_t_const_8hpp.html#gacf35e7562c94178f6b182cff46131b6d",
+"_redshift_8inl.html",
+"group___n_i_s_t_const-_atomic_unit.html#ga61a2da51489f7bb8965e9e4747db34a7",
+"group___n_i_s_t_const-_neutron.html#ga6ee94c226124c9b64617ed473e78902a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

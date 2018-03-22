@@ -12,6 +12,7 @@ var searchData=
   ['decaywidthviadecayconstant',['DecayWidthViaDecayConstant',['../group___e_g_x_phys-_decay_width.html#ga143a666966efecc535a59bb4f36a79c6',1,'EGXPhys']]],
   ['decaywidthviahalflife',['DecayWidthViaHalfLife',['../group___e_g_x_phys-_decay_width.html#ga1113224b24790a2e34032f9e90ad55c6',1,'EGXPhys']]],
   ['decaywidthviameanlifetime',['DecayWidthViaMeanLifetime',['../group___e_g_x_phys-_decay_width.html#ga0b65d991f3f3d72cf09a4a7b343a01ca',1,'EGXPhys']]],
+  ['degreetocompasswind',['DegreeToCompassWind',['../group___e_g_x_math-_angle_conversions-_degree.html#ga5ffef873bcec300ab90570ad6e7b1ab1',1,'EGXMath']]],
   ['deuteronelectronmagneticmomentratio',['deuteronElectronMagneticMomentRatio',['../group___n_i_s_t_const-_deuteron.html#gaa01fffefa3ab64430fabf08808572689',1,'NISTConst']]],
   ['deuteronelectronmassratio',['deuteronElectronMassRatio',['../group___n_i_s_t_const-_deuteron.html#gaf25b1cce3ab8e1ec7f4f7790ea06ad0b',1,'NISTConst']]],
   ['deuterongfactor',['deuterongFactor',['../group___n_i_s_t_const-_deuteron.html#ga975b6e46b7ceaa0780c4b066a52444b7',1,'NISTConst']]],
@@ -27,6 +28,8 @@ var searchData=
   ['deuteronprotonmagneticmomentratio',['deuteronProtonMagneticMomentRatio',['../group___n_i_s_t_const-_deuteron.html#gaac523a6a3c61390396544e4b0acb3c05',1,'NISTConst']]],
   ['deuteronprotonmassratio',['deuteronProtonMassRatio',['../group___n_i_s_t_const-_deuteron.html#gabe2731d4997c2227da2cc2d7e7cda194',1,'NISTConst']]],
   ['deuteronrmschargeradius',['deuteronrmsChargeRadius',['../group___n_i_s_t_const-_deuteron.html#gaef4ebab0e996f7ac1934663efbd32aed',1,'NISTConst']]],
+  ['decimal_20degree',['Decimal Degree',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html',1,'']]],
+  ['degree',['Degree',['../group___e_g_x_math-_angle_conversions-_degree.html',1,'']]],
   ['decay_20constant',['Decay Constant',['../group___e_g_x_phys-_decay_constant.html',1,'']]],
   ['decay_20width',['Decay Width',['../group___e_g_x_phys-_decay_width.html',1,'']]],
   ['deuteron_20_28deuterium_2fhydrogen_2d2_20nucleus_29',['Deuteron (Deuterium/Hydrogen-2 nucleus)',['../group___n_i_s_t_const-_deuteron.html',1,'']]]

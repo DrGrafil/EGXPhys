@@ -92,28 +92,32 @@ TEST_CASE("Angular Conversions"){
 
 
 	
-	CHECK(DegreeToCompass32Wind(0.0, false) == "north");
-	CHECK(DegreeToCompass32Wind(90.0, false) == "east");
-	CHECK(DegreeToCompass32Wind(180.0, false) == "south");
-	CHECK(DegreeToCompass32Wind(270.0, false) == "west");
+	CHECK(DegreeToCompassWind(0.0, 32, false) == "north");
+	CHECK(DegreeToCompassWind(90.0, 32, false) == "east");
+	CHECK(DegreeToCompassWind(180.0, 32, false) == "south");
+	CHECK(DegreeToCompassWind(270.0, 32, false) == "west");
 
-	CHECK(DegreeToCompass32Wind(0.0, true) == "N");
-	CHECK(DegreeToCompass32Wind(90.0, true) == "E");
-	CHECK(DegreeToCompass32Wind(180.0, true) == "S");
-	CHECK(DegreeToCompass32Wind(270.0, true) == "W");
+	CHECK(DegreeToCompassWind(0.0, 32, true) == "N");
+	CHECK(DegreeToCompassWind(90.0, 32, true) == "E");
+	CHECK(DegreeToCompassWind(180.0, 32, true) == "S");
+	CHECK(DegreeToCompassWind(270.0, 32, true) == "W");
 
-	CHECK(DegreeToCompass32Wind(359.0, false) == "north");
-	CHECK(DegreeToCompass32Wind(361.0, false) == "north");
-	CHECK(DegreeToCompass32Wind(-1.0, false) == "north");
+	CHECK(DegreeToCompassWind(359.0, 32, false) == "north");
+	CHECK(DegreeToCompassWind(361.0, 32, false) == "north");
+	CHECK(DegreeToCompassWind(-1.0, 32, false) == "north");
 
-	CHECK(DegreeToCompass16Wind(0.0, false) == "north");
-	CHECK(DegreeToCompass16Wind(90.0, false) == "east");
-	CHECK(DegreeToCompass16Wind(180.0, false) == "south");
-	CHECK(DegreeToCompass16Wind(270.0, false) == "west");
+	CHECK(DegreeToCompassWind(0.0, 16, false) == "north");
+	CHECK(DegreeToCompassWind(90.0, 16, false) == "east");
+	CHECK(DegreeToCompassWind(180.0, 16, false) == "south");
+	CHECK(DegreeToCompassWind(270.0, 16, false) == "west");
 
-	CHECK(DegreeToCompass8Wind(0.0, false) == "north");
-	CHECK(DegreeToCompass8Wind(90.0, false) == "east");
-	CHECK(DegreeToCompass8Wind(180.0, false) == "south");
-	CHECK(DegreeToCompass8Wind(270.0, false) == "west");
+	CHECK(DegreeToCompassWind(0.0, 8, false) == "north");
+	CHECK(DegreeToCompassWind(90.0, 8, false) == "east");
+	CHECK(DegreeToCompassWind(180.0, 8, false) == "south");
+	CHECK(DegreeToCompassWind(270.0, 8, false) == "west");
 
+	CHECK(DegreeToCompassWind(0.0, 4, false) == "north");
+	CHECK(DegreeToCompassWind(90.0, 4, false) == "east");
+	CHECK(DegreeToCompassWind(180.0, 4, false) == "south");
+	CHECK(DegreeToCompassWind(270.0, 4, false) == "west");
 }
