@@ -121,7 +121,7 @@ namespace EGXMath
 	*
 	*	See https://en.wikipedia.org/wiki/Radian
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{rad} (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*	@see RadianToMilliradian() for conversion to milliradians.
 	*	@see DegreeToRadian() for conversion from (decimal) degrees.
 	*/
@@ -130,12 +130,12 @@ namespace EGXMath
 
 	//
 	/**
-	*   @brief Converts an angle in radians to (decimal) degree.
+	*   @brief Converts an angle in radians to milliradians.
 	*		\f[\alpha_{mrad}=\alpha_{rad}*10^3\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Milliradian 
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{mrad} (mrad)\f$ is the angle in milliradians.
+	*   @return \f$\alpha_{mrad}\ (mrad)\f$ is the angle in milliradians.
 	*	@see RadianToRadian() for conversion to radians.
 	*	@see DegreeToMilliradian() for conversion from (decimal) degrees.
 	*/
@@ -150,7 +150,7 @@ namespace EGXMath
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{deg} (deg)\f$ is the angle in (decimal) degree.
+	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
 	*	@see RadianToArcdegree() for alias.
 	*	@see RadianToDegree() for alias.
 	*/
@@ -164,7 +164,7 @@ namespace EGXMath
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{deg} (deg)\f$ is the angle in decimal degree.
+	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degree.
 	*	@see RadianToDegree() for alias.
 	*	@see RadianToArcdegree() for alias.
 	*/
@@ -178,7 +178,7 @@ namespace EGXMath
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{deg} (deg)\f$ is the angle in arcdegree (decimal degree).
+	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in arcdegree (decimal degree).
 	*	@see RadianToDegree() for alias.
 	*	@see RadianToDecimalDegree() for alias.
 	*/
@@ -191,7 +191,7 @@ namespace EGXMath
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{arcmin} (arcmin)\f$ is the angle in arcminutes.
+	*   @return \f$\alpha_{arcmin}\ (arcmin)\f$ is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*	@see DegreeToArcminute() for conversion from (decimal) degrees.
 	*/
 	template<typename T>
@@ -203,7 +203,7 @@ namespace EGXMath
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{arcsec} (arcsec)\f$ is the angle in arcseconds.
+	*   @return \f$\alpha_{arcsec}\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
 	*	@see DegreeToArcsecond() for conversion from (decimal) degrees.
 	*/
 	template<typename T>
@@ -215,7 +215,7 @@ namespace EGXMath
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{mas} (mas)\f$ is the angle in milliarcseconds.
+	*   @return \f$\alpha_{mas}\ (mas)\f$ is the angle in milliarcseconds.
 	*	@see DegreeToMilliarcsecond() for conversion from (decimal) degrees.
 	*/
 	template<typename T>
@@ -227,7 +227,7 @@ namespace EGXMath
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{\mu as} (\mu as)\f$ is the angle in microarcseconds.
+	*   @return \f$\alpha_{\mu as}\ (\mu as)\f$ is the angle in microarcseconds.
 	*	@see DegreeToMicroarcsecond() for conversion from (decimal) degrees.
 	*/
 	template<typename T>
@@ -237,9 +237,9 @@ namespace EGXMath
 	*   @brief Converts an angle in radians to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
 	*
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@param degree \f$degree (deg)\f$ is the angle in degrees in whole numbers.
-	*	@param arcminute \f$arcminute(arcmin)\f$ is the angle in arcminute in whole numbers.
-	*   @param arcsecond \f$arcsecond (arcsec)\f$ is the angle in arcsecond.
+	*	@param degree \f$degree\ (deg)\f$ is the angle in degrees in whole numbers.
+	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
+	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
 	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees and full explination.
 	*	@see RadianToDMS() for alias.
 	*/
@@ -250,9 +250,9 @@ namespace EGXMath
 	*   @brief Converts an angle in radians to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
 	*
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@param degree \f$degree (deg)\f$ is the angle in degrees in whole numbers.
-	*	@param arcminute \f$arcminute(arcmin)\f$ is the angle in arcminute in whole numbers.
-	*   @param arcsecond \f$arcsecond (arcsec)\f$ is the angle in arcsecond.
+	*	@param degree \f$degree\ (deg)\f$ is the angle in degrees in whole numbers.
+	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
+	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
 	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees and full explination.
 	*	@see RadianToDegreesMinutesSeconds() for alias.
 	*/
@@ -263,9 +263,9 @@ namespace EGXMath
 	*   @brief Converts an angle in radians to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.
 	*
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@param hour \f$hour (h)\f$ is the angle in hours in whole numbers.
-	*	@param minute \f$minute (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
-	*   @param second \f$second (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
+	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
+	*	@param minute \f$minute\ (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
+	*   @param second \f$second\ (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
 	*	@see DegreeToHoursMinutesSeconds() for conversion from (decimal) degrees and full explination.
 	*	@see RadianToHMS() for alias.
 	*/
@@ -276,9 +276,9 @@ namespace EGXMath
 	*   @brief Converts an angle in radians to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.
 	*
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@param hour \f$hour (h)\f$ is the angle in hours in whole numbers.
-	*	@param minute \f$minute (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
-	*   @param second \f$second (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
+	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
+	*	@param minute \f$minute\ (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
+	*   @param second \f$second\ (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
 	*	@see DegreeToHoursMinutesSeconds() for conversion from (decimal) degrees and full explination.
 	*	@see RadianToHoursMinutesSeconds() for alias.
 	*/
@@ -290,7 +290,7 @@ namespace EGXMath
 	*		\f[\alpha_{g}=\alpha_{rad}\frac{200}{\pi}\f]
 	*
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{g} (g)\f$ is the angle in gradians.
+	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see DegreeToGradian() for conversion from (decimal) degrees.
 	*	@see RadianToGon() for alias.
 	*/
@@ -302,7 +302,7 @@ namespace EGXMath
 	*		\f[\alpha_{g}=\alpha_{rad}\frac{200}{\pi}\f]
 	*
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{g} (g)\f$ is the angle in gradians.
+	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see DegreeToGradian() for conversion from (decimal) degrees.
 	*	@see RadianToGradian() for alias.
 	*/
@@ -316,7 +316,7 @@ namespace EGXMath
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*	@param winds \f$winds\ (int)\f$ The number of points(names) that the compass should have. Must be 2,4,8,16 or 32.
 	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
-	*   @return \f$point name (dimensionless)\f$ is the name of the compass point.
+	*   @return \f$point\ name\ (dimensionless)\f$ is the name of the compass point.
 	*	@see DegreeToCompassWind() for full explination of conversion.
 	*/
 	template<typename T>
