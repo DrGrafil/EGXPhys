@@ -14,9 +14,9 @@
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3dfdc97357cc07f8379976bbc08f9852}{E\+G\+X\+Math\+::\+Radian\+To\+Arcdegree}} (const T \&radian)
 \begin{DoxyCompactList}\small\item\em Converts an angle in radians to arcdegree (decimal degree). \[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga722e3b8e78540a6b3942b73b64aeb8d2}{E\+G\+X\+Math\+::\+Radian\+To\+Arcminute}} (const T \&radian)
-\begin{DoxyCompactList}\small\item\em Converts an angle in radians to arcminute. \[\alpha_{arcmin}=\alpha_{rad}\frac{180 * 60}{\pi}\]. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Converts an angle in radians to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}=\alpha_{rad}\frac{180 * 60}{\pi}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga2f952f6675a0fc54bf72bfe4e3d2664a}{E\+G\+X\+Math\+::\+Radian\+To\+Arcsecond}} (const T \&radian)
-\begin{DoxyCompactList}\small\item\em Converts an angle in radians to arcsecond. \[\alpha_{arcsec}=\alpha_{rad}\frac{180 * 60 * 60}{\pi}\]. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Converts an angle in radians to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=\alpha_{rad}\frac{180 * 60 * 60}{\pi}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga84fbb494a455cfeb30be62776f96c9a9}{E\+G\+X\+Math\+::\+Radian\+To\+Milliarcsecond}} (const T \&radian)
 \begin{DoxyCompactList}\small\item\em Converts an angle in radians to milliarcsecond. \[\alpha_{mas}=\alpha_{rad}\frac{180 * 60 * 60 * 10^3}{\pi}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3a515ca2838a305fa40750763f546a86}{E\+G\+X\+Math\+::\+Radian\+To\+Microarcsecond}} (const T \&radian)
@@ -74,7 +74,7 @@ T E\+G\+X\+Math\+::\+Radian\+To\+Arcminute (\begin{DoxyParamCaption}\item[{const
 
 
 
-Converts an angle in radians to arcminute. \[\alpha_{arcmin}=\alpha_{rad}\frac{180 * 60}{\pi}\]. 
+Converts an angle in radians to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}=\alpha_{rad}\frac{180 * 60}{\pi}\]. 
 
 See \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
 \begin{DoxyParams}{Parameters}
@@ -85,7 +85,7 @@ See \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://
 $\alpha_{arcmin}\ (arcmin)$ is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-Degree\+To\+Arcminute() for conversion from (decimal) degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga8abf327dc5f52907b2c881999e9cc43e}{Degree\+To\+Arcminute()}} for conversion from (decimal) degrees. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_radian_ga2f952f6675a0fc54bf72bfe4e3d2664a}\label{group___e_g_x_math-_angle_conversions-_radian_ga2f952f6675a0fc54bf72bfe4e3d2664a}} 
 \index{Radian@{Radian}!Radian\+To\+Arcsecond@{Radian\+To\+Arcsecond}}
@@ -96,7 +96,7 @@ T E\+G\+X\+Math\+::\+Radian\+To\+Arcsecond (\begin{DoxyParamCaption}\item[{const
 
 
 
-Converts an angle in radians to arcsecond. \[\alpha_{arcsec}=\alpha_{rad}\frac{180 * 60 * 60}{\pi}\]. 
+Converts an angle in radians to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=\alpha_{rad}\frac{180 * 60 * 60}{\pi}\]. 
 
 See \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
 \begin{DoxyParams}{Parameters}
@@ -170,6 +170,8 @@ T E\+G\+X\+Math\+::\+Radian\+To\+Degree (\begin{DoxyParamCaption}\item[{const T 
 
 Converts an angle in radians to (decimal) degree. \[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\]. 
 
+Converts an angle in radians to integer degree. \[\alpha_{deg int}=\alpha_{rad}\frac{180}{\pi}\].
+
 See \href{https://en.wikipedia.org/wiki/Degree_(angle)}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Degree\+\_\+(angle)} and \href{https://en.wikipedia.org/wiki/Decimal_degrees}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Decimal\+\_\+degrees} 
 \begin{DoxyParams}{Parameters}
 {\em radian} & $\alpha_{rad}\ (rad)$ is the angle in radians. \\
@@ -181,8 +183,16 @@ $\alpha_{deg}\ (deg)$ is the angle in (decimal) degree.
 \begin{DoxySeeAlso}{See also}
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3dfdc97357cc07f8379976bbc08f9852}{Radian\+To\+Arcdegree()}} for alias. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga25bbce6cdc1c3621f2a158d320e3bc45}{Radian\+To\+Degree()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga25bbce6cdc1c3621f2a158d320e3bc45}{Radian\+To\+Degree()}} for alias.
 \end{DoxySeeAlso}
+See \href{https://en.wikipedia.org/wiki/Degree_(angle)}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Degree\+\_\+(angle)} and \href{https://en.wikipedia.org/wiki/Decimal_degrees}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Decimal\+\_\+degrees} 
+\begin{DoxyParams}{Parameters}
+{\em radian} & $\alpha_{rad}\ (rad)$ is the angle in radians. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\alpha_{deg int}\ (deg)$ is the angle in integer degree. 
+\end{DoxyReturn}
 \mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_radian_ga1de6f151aa0950edd2b62ec2449c9361}\label{group___e_g_x_math-_angle_conversions-_radian_ga1de6f151aa0950edd2b62ec2449c9361}} 
 \index{Radian@{Radian}!Radian\+To\+Degrees\+Minutes\+Seconds@{Radian\+To\+Degrees\+Minutes\+Seconds}}
 \index{Radian\+To\+Degrees\+Minutes\+Seconds@{Radian\+To\+Degrees\+Minutes\+Seconds}!Radian@{Radian}}
@@ -405,7 +415,7 @@ $\alpha_{mrad}\ (mrad)$ is the angle in milliradians.
 \begin{DoxySeeAlso}{See also}
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gae08681bd86b8e7e4325f6c8cb3a0dc37}{Radian\+To\+Radian()}} for conversion to radians. 
 
-Degree\+To\+Milliradian() for conversion from (decimal) degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_gae4fa6c2d3805430760783650cfbfdb11}{Degree\+To\+Milliradian()}} for conversion from (decimal) degrees. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_radian_gae08681bd86b8e7e4325f6c8cb3a0dc37}\label{group___e_g_x_math-_angle_conversions-_radian_gae08681bd86b8e7e4325f6c8cb3a0dc37}} 
 \index{Radian@{Radian}!Radian\+To\+Radian@{Radian\+To\+Radian}}
@@ -429,5 +439,5 @@ $\alpha_{rad}\ (rad)$ is the angle in radians.
 \begin{DoxySeeAlso}{See also}
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gaea391f0cca39b05e298dd1cae162e7f1}{Radian\+To\+Milliradian()}} for conversion to milliradians. 
 
-Degree\+To\+Radian() for conversion from (decimal) degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga48585541b228c852c9d08a9eac3682f0}{Degree\+To\+Radian()}} for conversion from (decimal) degrees. 
 \end{DoxySeeAlso}

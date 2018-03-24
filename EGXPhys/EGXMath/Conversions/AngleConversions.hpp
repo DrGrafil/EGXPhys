@@ -14,6 +14,9 @@
 /// @defgroup EGXMath-AngleConversions-DecimalDegree Decimal Degree
 /// @ingroup EGXMath-AngleConversions
 
+/// @defgroup EGXMath-AngleConversions-IntegerDegree Integer Degree
+/// @ingroup EGXMath-AngleConversions
+
 /// @defgroup EGXMath-AngleConversions-Radian Radian 
 /// @ingroup EGXMath-AngleConversions
 
@@ -39,31 +42,104 @@ namespace EGXMath
 	/// @{
 	
 	//// Degrees
+	/**
+	*   @brief Converts an angle in (decimal) degrees to radians.
+	*		\f[\alpha_{rad}=\alpha_{deg}\frac{\pi}{180}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Radian
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*	@see DecimalDegreeToRadian() for alias.
+	*	@see DegreeToMilliradian() for conversion to milliradians.
+	*	@see IntegerDegreeToRadian() for result as integer.
+	*/
 	template<typename T>
 	T DegreeToRadian(const T& decimalDegree);
 
-	//https://en.wikipedia.org/wiki/Milliradian
+	/**
+	*   @brief Converts an angle in (decimal) degrees to milliradians.
+	*		\f[\alpha_{mrad}=\alpha_{deg}\frac{\pi}{180}*10^3\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Milliradian
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @return \f$\alpha_{mrad}\ (mrad)\f$ is the angle in milliradians.
+	*	@see DecimalDegreeToMilliradian() for alias.
+	*	@see DegreeToRadian() for conversion to radians.
+	*	@see RadianToMilliradian() for conversion from radians.
+	*/
 	template<typename T>
 	T DegreeToMilliradian(const T& decimalDegree);
 
-	//https://en.wikipedia.org/wiki/Degree_(angle)
-
+	/**
+	*   @brief Converts an angle in (decimal) degree to (decimal) degree.
+	*		\f[\alpha_{deg}=\alpha_{deg}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
+	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
+	*	@see DegreeToDecimalDegree() for alias.
+	*	@see DegreeToArcdegree() for alias.
+	*	@see RadianToDegree() for conversion from radians.
+	*/
 	template<typename T>
 	T DegreeToDegree(const T& decimalDegree);
-	//https://en.wikipedia.org/wiki/Degree_(angle)
 
+	/**
+	*   @brief Converts an angle in (decimal) degree to integer degree. This rounds to the nearest integer.
+	*		\f[\alpha_{deg int}=round(\alpha_{deg})\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
+	*   @return \f$\alpha_{deg int}\ (deg int)\f$ is the angle in integer degree.
+	*	@see RadianToIntegerDegree() for conversion from radians.
+	*/
+	template<typename T>
+	T DegreeToIntegerDegree(const T& decimalDegree);
+
+
+	/**
+	*   @brief Converts an angle in (decimal) degree to decimal degree.
+	*		\f[\alpha_{deg}=\alpha_{deg}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
+	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degree.
+	*	@see DegreeToDegree() for alias.
+	*	@see DegreeToArcdegree() for alias.
+	*	@see RadianToDegree() for conversion from radians.
+	*/
 	template<typename T>
 	T DegreeToDecimalDegree(const T& decimalDegree);
 	//https://en.wikipedia.org/wiki/Degree_(angle)
 
+	/**
+	*   @brief Converts an angle in (decimal) degree to (decimal) arc degree.
+	*		\f[\alpha_{deg}=\alpha_{deg}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) arc degree.
+	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) arc degree.
+	*	@see DegreeToDecimalDegree() for alias.
+	*	@see DegreeToDegree() for alias.
+	*	@see RadianToDegree() for conversion from radians.
+	*/
 	template<typename T>
 	T DegreeToArcdegree(const T& decimalDegree);
 
-	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+
+	/**
+	*   @brief Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes.
+	*		\f[\alpha_{arcmin}= 60 \alpha_{deg}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	*   @param radian \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
+	*   @return \f$\alpha_{arcmin}\ (arcmin)\f$ is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes.
+	*	@see RadianToArcminute() for conversion from radians.
+	*/
 	template<typename T>
 	T DegreeToArcminute(const T& decimalDegree);
 
-	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+
 	template<typename T>
 	T DegreeToArcsecond(const T& decimalDegree);
 
@@ -108,6 +184,8 @@ namespace EGXMath
 
 	//// DECIMAL DEGREES (alias to degrees)
 
+	//Integer Degrees
+
 
 
 
@@ -128,7 +206,6 @@ namespace EGXMath
 	template<typename T>
 	T RadianToRadian(const T& radian);
 
-	//
 	/**
 	*   @brief Converts an angle in radians to milliradians.
 	*		\f[\alpha_{mrad}=\alpha_{rad}*10^3\f]
@@ -142,8 +219,6 @@ namespace EGXMath
 	template<typename T>
 	T RadianToMilliradian(const T& radian);
 
-	//https://en.wikipedia.org/wiki/Degree_(angle)
-
 	/**
 	*   @brief Converts an angle in radians to (decimal) degree.
 	*		\f[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\f]
@@ -156,7 +231,17 @@ namespace EGXMath
 	*/
 	template<typename T>
 	T RadianToDegree(const T& radian);
-	//https://en.wikipedia.org/wiki/Degree_(angle)
+
+	/**
+	*   @brief Converts an angle in radians to integer degree.
+	*		\f[\alpha_{deg int}=\alpha_{rad}\frac{180}{\pi}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
+	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*   @return \f$\alpha_{deg int}\ (deg)\f$ is the angle in integer degree.
+	*/
+	template<typename T>
+	T RadianToDegree(const T& radian);
 
 	/**
 	*   @brief Converts an angle in radians to decimal degree.
@@ -170,7 +255,6 @@ namespace EGXMath
 	*/
 	template<typename T>
 	T RadianToDecimalDegree(const T& radian);
-	//https://en.wikipedia.org/wiki/Degree_(angle)
 
 	/**
 	*   @brief Converts an angle in radians to arcdegree (decimal degree).
@@ -186,7 +270,7 @@ namespace EGXMath
 	T RadianToArcdegree(const T& radian);
 
 	/**
-	*   @brief Converts an angle in radians to arcminute.
+	*   @brief Converts an angle in radians to arcminute. Note that arcminutes are not equal to minutes.
 	*		\f[\alpha_{arcmin}=\alpha_{rad}\frac{180 * 60}{\pi}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
@@ -198,7 +282,7 @@ namespace EGXMath
 	T RadianToArcminute(const T& radian);
 
 	/**
-	*   @brief Converts an angle in radians to arcsecond.
+	*   @brief Converts an angle in radians to arcsecond. Note that arcsecond are not equal to seconds.
 	*		\f[\alpha_{arcsec}=\alpha_{rad}\frac{180 * 60 * 60}{\pi}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc

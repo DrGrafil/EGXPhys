@@ -8,5 +8,12 @@ var searchData=
   ['decaywidthviadecayconstant',['DecayWidthViaDecayConstant',['../group___e_g_x_phys-_decay_width.html#ga143a666966efecc535a59bb4f36a79c6',1,'EGXPhys']]],
   ['decaywidthviahalflife',['DecayWidthViaHalfLife',['../group___e_g_x_phys-_decay_width.html#ga1113224b24790a2e34032f9e90ad55c6',1,'EGXPhys']]],
   ['decaywidthviameanlifetime',['DecayWidthViaMeanLifetime',['../group___e_g_x_phys-_decay_width.html#ga0b65d991f3f3d72cf09a4a7b343a01ca',1,'EGXPhys']]],
-  ['degreetocompasswind',['DegreeToCompassWind',['../group___e_g_x_math-_angle_conversions-_degree.html#ga5ffef873bcec300ab90570ad6e7b1ab1',1,'EGXMath']]]
+  ['degreetoarcdegree',['DegreeToArcdegree',['../group___e_g_x_math-_angle_conversions-_degree.html#gac1b5f3b68f66c77a6df4ceef842c9b19',1,'EGXMath']]],
+  ['degreetoarcminute',['DegreeToArcminute',['../group___e_g_x_math-_angle_conversions-_degree.html#ga8abf327dc5f52907b2c881999e9cc43e',1,'EGXMath']]],
+  ['degreetocompasswind',['DegreeToCompassWind',['../group___e_g_x_math-_angle_conversions-_degree.html#ga5ffef873bcec300ab90570ad6e7b1ab1',1,'EGXMath']]],
+  ['degreetodecimaldegree',['DegreeToDecimalDegree',['../group___e_g_x_math-_angle_conversions-_degree.html#ga568afc1d436d425bf5d4edea584aee08',1,'EGXMath']]],
+  ['degreetodegree',['DegreeToDegree',['../group___e_g_x_math-_angle_conversions-_degree.html#gaca157e7d3e99a46a11a04b92680d2574',1,'EGXMath']]],
+  ['degreetointegerdegree',['DegreeToIntegerDegree',['../group___e_g_x_math-_angle_conversions-_degree.html#gaabd20f21be3c18ee423d0bc1a677c6f6',1,'EGXMath']]],
+  ['degreetomilliradian',['DegreeToMilliradian',['../group___e_g_x_math-_angle_conversions-_degree.html#gae4fa6c2d3805430760783650cfbfdb11',1,'EGXMath']]],
+  ['degreetoradian',['DegreeToRadian',['../group___e_g_x_math-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0',1,'EGXMath']]]
 ];

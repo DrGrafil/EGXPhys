@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['integer_20degree',['Integer Degree',['../group___e_g_x_math-_angle_conversions-_integer_degree.html',1,'']]],
   ['impedanceofvacuum',['impedanceOfVacuum',['../group___n_i_s_t_const-_impedance_of_vacuum.html#ga51e1aede5d89041ea7423522b526dd0e',1,'NISTConst']]],
   ['inversefinestructureconstant',['inverseFineStructureConstant',['../group___n_i_s_t_const-_fine_structure_constant.html#gaa4cd257f5376577cf0331e71dd952bb6',1,'NISTConst']]],
   ['inversemetertoatomicmassunit',['inverseMeterToAtomicMassUnit',['../group___n_i_s_t_const-_inverse_meter.html#ga7d76b1c26bd9b6226d0bdbcbfe44c3a0',1,'NISTConst']]],

@@ -19,6 +19,11 @@ namespace EGXMath {
 	}
 
 	template<typename T>
+	T DegreeToDegree(const T& decimalDegree) {
+		return decimalDegree;
+	}
+
+	template<typename T>
 	T DegreeToDecimalDegree(const T& decimalDegree) {
 		return decimalDegree;
 	}

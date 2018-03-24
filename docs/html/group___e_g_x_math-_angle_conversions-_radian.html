@@ -137,14 +137,14 @@ Functions</h2></td></tr>
 <tr class="separator:ga3dfdc97357cc07f8379976bbc08f9852"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga722e3b8e78540a6b3942b73b64aeb8d2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga722e3b8e78540a6b3942b73b64aeb8d2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga722e3b8e78540a6b3942b73b64aeb8d2">EGXMath::RadianToArcminute</a> (const T &amp;radian)</td></tr>
-<tr class="memdesc:ga722e3b8e78540a6b3942b73b64aeb8d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in radians to arcminute. </p><p class="formulaDsp">
+<tr class="memdesc:ga722e3b8e78540a6b3942b73b64aeb8d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in radians to arcminute. Note that arcminutes are not equal to minutes. </p><p class="formulaDsp">
 \[\alpha_{arcmin}=\alpha_{rad}\frac{180 * 60}{\pi}\]
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_radian.html#ga722e3b8e78540a6b3942b73b64aeb8d2">More...</a><br /></td></tr>
 <tr class="separator:ga722e3b8e78540a6b3942b73b64aeb8d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2f952f6675a0fc54bf72bfe4e3d2664a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga2f952f6675a0fc54bf72bfe4e3d2664a"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga2f952f6675a0fc54bf72bfe4e3d2664a">EGXMath::RadianToArcsecond</a> (const T &amp;radian)</td></tr>
-<tr class="memdesc:ga2f952f6675a0fc54bf72bfe4e3d2664a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in radians to arcsecond. </p><p class="formulaDsp">
+<tr class="memdesc:ga2f952f6675a0fc54bf72bfe4e3d2664a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in radians to arcsecond. Note that arcsecond are not equal to seconds. </p><p class="formulaDsp">
 \[\alpha_{arcsec}=\alpha_{rad}\frac{180 * 60 * 60}{\pi}\]
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_radian.html#ga2f952f6675a0fc54bf72bfe4e3d2664a">More...</a><br /></td></tr>
@@ -254,7 +254,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Converts an angle in radians to arcminute. </p><p class="formulaDsp">
+<p>Converts an angle in radians to arcminute. Note that arcminutes are not equal to minutes. </p><p class="formulaDsp">
 \[\alpha_{arcmin}=\alpha_{rad}\frac{180 * 60}{\pi}\]
 </p>
 <p>. </p>
@@ -265,7 +265,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{arcmin}\ (arcmin)\) is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>DegreeToArcminute() for conversion from (decimal) degrees. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga8abf327dc5f52907b2c881999e9cc43e" title="Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes...">DegreeToArcminute()</a> for conversion from (decimal) degrees. </dd></dl>
 
 </div>
 </div>
@@ -287,7 +287,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Converts an angle in radians to arcsecond. </p><p class="formulaDsp">
+<p>Converts an angle in radians to arcsecond. Note that arcsecond are not equal to seconds. </p><p class="formulaDsp">
 \[\alpha_{arcsec}=\alpha_{rad}\frac{180 * 60 * 60}{\pi}\]
 </p>
 <p>. </p>
@@ -407,6 +407,10 @@ template&lt;typename T &gt; </div>
 \[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\]
 </p>
 <p>. </p>
+<p>Converts an angle in radians to integer degree. </p><p class="formulaDsp">
+\[\alpha_{deg int}=\alpha_{rad}\frac{180}{\pi}\]
+</p>
+<p>.</p>
 <p>See <a href="https://en.wikipedia.org/wiki/Degree_(angle)">https://en.wikipedia.org/wiki/Degree_(angle)</a> and <a href="https://en.wikipedia.org/wiki/Decimal_degrees">https://en.wikipedia.org/wiki/Decimal_degrees</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">radian</td><td>\(\alpha_{rad}\ (rad)\) is the angle in radians. </td></tr>
@@ -416,7 +420,14 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{deg}\ (deg)\) is the angle in (decimal) degree. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3dfdc97357cc07f8379976bbc08f9852" title="Converts an angle in radians to arcdegree (decimal degree). . ">RadianToArcdegree()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radians to (decimal) degree. . ">RadianToDegree()</a> for alias. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radians to (decimal) degree. . ">RadianToDegree()</a> for alias.</dd></dl>
+<p>See <a href="https://en.wikipedia.org/wiki/Degree_(angle)">https://en.wikipedia.org/wiki/Degree_(angle)</a> and <a href="https://en.wikipedia.org/wiki/Decimal_degrees">https://en.wikipedia.org/wiki/Decimal_degrees</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radian</td><td>\(\alpha_{rad}\ (rad)\) is the angle in radians. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(\alpha_{deg int}\ (deg)\) is the angle in integer degree. </dd></dl>
 
 </div>
 </div>
@@ -811,7 +822,7 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{mrad}\ (mrad)\) is the angle in milliradians. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gae08681bd86b8e7e4325f6c8cb3a0dc37" title="Converts an angle in radians to radians. . ">RadianToRadian()</a> for conversion to radians. </dd>
 <dd>
-DegreeToMilliradian() for conversion from (decimal) degrees. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gae4fa6c2d3805430760783650cfbfdb11" title="Converts an angle in (decimal) degrees to milliradians. . ">DegreeToMilliradian()</a> for conversion from (decimal) degrees. </dd></dl>
 
 </div>
 </div>
@@ -846,7 +857,7 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{rad}\ (rad)\) is the angle in radians. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1" title="Converts an angle in radians to milliradians. . ">RadianToMilliradian()</a> for conversion to milliradians. </dd>
 <dd>
-DegreeToRadian() for conversion from (decimal) degrees. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0" title="Converts an angle in (decimal) degrees to radians. . ">DegreeToRadian()</a> for conversion from (decimal) degrees. </dd></dl>
 
 </div>
 </div>

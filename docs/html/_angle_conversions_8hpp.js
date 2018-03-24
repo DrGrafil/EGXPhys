@@ -12,6 +12,7 @@ var _angle_conversions_8hpp =
     [ "DegreeToGradian", "_angle_conversions_8hpp.html#ga25bb5506b3f66fff7a1b85bf7bd795b3", null ],
     [ "DegreeToHMS", "_angle_conversions_8hpp.html#ga0bb223ca6e77b00439a6d910ab32d82e", null ],
     [ "DegreeToHoursMinutesSeconds", "_angle_conversions_8hpp.html#ga770b13da33b6f6c7bfa398cca7f24dbe", null ],
+    [ "DegreeToIntegerDegree", "_angle_conversions_8hpp.html#gaabd20f21be3c18ee423d0bc1a677c6f6", null ],
     [ "DegreeToMicroarcsecond", "_angle_conversions_8hpp.html#ga31b65388fe1b4656663b3d66b9d764e6", null ],
     [ "DegreeToMilliarcsecond", "_angle_conversions_8hpp.html#ga2c218e286b2ef72a00734dbc5a7f5ab6", null ],
     [ "DegreeToMilliradian", "_angle_conversions_8hpp.html#gae4fa6c2d3805430760783650cfbfdb11", null ],
