@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"_redshift_8hpp.html#gacc6d3b2922061214d64b89a4b8e3967a":[2,0,0,6,2,0],
 "_redshift_8hpp_source.html":[2,0,0,6,2],
 "_redshift_8inl.html":[2,0,0,6,3],
 "_redshift_8inl.html#ga29300a13e34da35332ca2d447b5ce82d":[2,0,0,6,3,1],
@@ -143,6 +144,10 @@ var NAVTREEINDEX3 =
 "group___e_g_x_phys-_luminosity.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4":[1,1,1,5,1],
 "group___e_g_x_phys-_luminosity.html#ga909f82edfaed449b44e94788b642ebb8":[1,1,1,5,0],
 "group___e_g_x_phys-_mass_defect.html":[1,1,2,3],
+"group___e_g_x_phys-_mass_defect.html#ga08cff1dfa3259af8f1b67ec741796e91":[1,1,2,3,1],
+"group___e_g_x_phys-_mass_defect.html#ga70400004a5cb622de372ab84670731ef":[1,1,2,3,4],
+"group___e_g_x_phys-_mass_defect.html#gab51169bf871d0ea0ee0642fa300228fe":[1,1,2,3,3],
+"group___e_g_x_phys-_mass_defect.html#gad5378933021e13598a76bd8581b1e887":[1,1,2,3,2],
 "group___e_g_x_phys-_mass_defect.html#gae89f2dfa65992c0314adc2440b2f582a":[1,1,2,3,0],
 "group___e_g_x_phys-_mass_excess.html":[1,1,2,4],
 "group___e_g_x_phys-_mass_excess.html#ga3eb487f438543e950b9c5aece4c5b409":[1,1,2,4,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX3 =
 "group___n_i_s_t_const-_atomic_mass_unit.html#ga8a6b352e1a13d0cbbc0f36f650e2c682":[1,2,6,0,1],
 "group___n_i_s_t_const-_atomic_mass_unit.html#gad284f1982f0182e1e4a90e0bff793af9":[1,2,6,0,2],
 "group___n_i_s_t_const-_atomic_mass_unit.html#gae1f5517810a5df9365d26887c04ada40":[1,2,6,0,3],
-"group___n_i_s_t_const-_atomic_mass_unit.html#gaea7c1916a35df8824ac6a67be3f65f33":[1,2,6,0,4],
-"group___n_i_s_t_const-_atomic_mass_unit.html#gaf9c3a2dfd69d4e74cee3361abd7d7ecf":[1,2,6,0,5],
-"group___n_i_s_t_const-_atomic_mass_unit.html#gafdd40d93803d15e1ff887dc12c49ca99":[1,2,6,0,6],
-"group___n_i_s_t_const-_atomic_unit.html":[1,2,5,0],
-"group___n_i_s_t_const-_atomic_unit.html#ga0b7518cf6058bb899c64b32b43bda955":[1,2,5,0,20],
-"group___n_i_s_t_const-_atomic_unit.html#ga108a8be4e32eddd7cdfdf4473f3532ab":[1,2,5,0,6]
+"group___n_i_s_t_const-_atomic_mass_unit.html#gaea7c1916a35df8824ac6a67be3f65f33":[1,2,6,0,4]
 };

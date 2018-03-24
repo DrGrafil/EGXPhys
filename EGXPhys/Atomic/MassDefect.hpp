@@ -42,9 +42,9 @@ namespace EGXPhys
 	*   @param massAtomInu \f$m({^A_ZX})\ (u)\f$ Mass of nucleus. The mass of the nucleus in unified atomic mass units.
 	*   @return \f$\Delta m\ (u)\f$ Mass defect. The diffrence in mass between a fully formed atom and its constituent parts in unified atomic mass unit.
 	*	@see MassDefectInu for alias.
-	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$ in megaelectron volts per c squared.
-	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$ in kilograms.
-	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$ in joules per c squared.
+	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$, in megaelectron volts per c squared.
+	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$, in kilograms.
+	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$, in joules per c squared.
 	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
 	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
 	*/    
@@ -66,9 +66,9 @@ namespace EGXPhys
 	*   @param massAtomInu \f$m({^A_ZX})\ (u)\f$ Mass of nucleus. The mass of the nucleus in unified atomic mass units.
 	*   @return \f$\Delta m\ (u)\f$ Mass defect. The diffrence in mass between a fully formed atom and its constituent parts in unified atomic mass unit.
 	*	@see MassDefect for alias.
-	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$ in megaelectron volts per c squared.
-	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$ in kilograms.
-	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$ in joules per c squared.
+	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$, in megaelectron volts per c squared.
+	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$, in kilograms.
+	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$, in joules per c squared.
 	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
 	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
 	*/
@@ -87,12 +87,12 @@ namespace EGXPhys
 	*
 	*   @param atomicNumber \f$Z\ (1)\f$ Atomic number. The number of protons in the nucleus of an atom.
 	*   @param massNumber \f$A\ (1)\f$ Mass number. The number of protons and neutrons in the nucleus of an atom.
-	*   @param massAtomInu \f$m({^A_ZX})\ (u)\f$ Mass of nucleus. The mass of the nucleus in unified atomic mass units.
+	*   @param massAtomInMeVPercSquared \f$m({^A_ZX})\ (u)\f$ Mass of nucleus. The mass of the nucleus in megaelectron volts per c squared.
 	*   @return \f$\Delta m\ (\frac{MeV}{c^2})\f$ Mass defect. The diffrence in mass between a fully formed atom and its constituent parts in megaelectron volts per c squared.
-	*   @see MassDefect() to calculate mass defect,\f$\Delta m\f$ in unified atomic mass units.
-	*   @see MassDefectInu() to calculate mass defect,\f$\Delta m\f$ in unified atomic mass units.
-	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$ in kilograms.
-	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$ in joules per c squared.
+	*   @see MassDefect() to calculate mass defect,\f$\Delta m\f$, in unified atomic mass units.
+	*   @see MassDefectInu() to calculate mass defect,\f$\Delta m\f$, in unified atomic mass units.
+	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$, in kilograms.
+	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$, in joules per c squared.
 	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
 	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
 	*/
@@ -111,12 +111,12 @@ namespace EGXPhys
 	*
 	*   @param atomicNumber \f$Z\ (1)\f$ Atomic number. The number of protons in the nucleus of an atom.
 	*   @param massNumber \f$A\ (1)\f$ Mass number. The number of protons and neutrons in the nucleus of an atom.
-	*   @param massAtomInu \f$m({^A_ZX})\ (u)\f$ Mass of nucleus. The mass of the nucleus in unified atomic mass units.
+	*   @param massAtomInkg \f$m({^A_ZX})\ (u)\f$ Mass of nucleus. The mass of the nucleus in kilograms.
 	*   @return \f$\Delta m\ (kg)\f$ Mass defect. The diffrence in mass between a fully formed atom and its constituent parts in kilograms.
-	*   @see MassDefect() to calculate mass defect,\f$\Delta m\f$ in unified atomic mass units.
-	*   @see MassDefectInu() to calculate mass defect,\f$\Delta m\f$ in unified atomic mass units.
-	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$ in megaelectron volts per c squared.
-	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$ in joules per c squared.
+	*   @see MassDefect() to calculate mass defect,\f$\Delta m\f$, in unified atomic mass units.
+	*   @see MassDefectInu() to calculate mass defect,\f$\Delta m\f$, in unified atomic mass units.
+	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$, in megaelectron volts per c squared.
+	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$, in joules per c squared.
 	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
 	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
 	*/
@@ -135,12 +135,12 @@ namespace EGXPhys
 	*
 	*   @param atomicNumber \f$Z\ (1)\f$ Atomic number. The number of protons in the nucleus of an atom.
 	*   @param massNumber \f$A\ (1)\f$ Mass number. The number of protons and neutrons in the nucleus of an atom.
-	*   @param massAtomInu \f$m({^A_ZX})\ (u)\f$ Mass of nucleus. The mass of the nucleus in unified atomic mass units.
+	*   @param massAtomInJPercSquared \f$m({^A_ZX})\ (u)\f$ Mass of nucleus. The mass of the nucleus in joules per c squared.
 	*   @return \f$\Delta m\ (\frac{J}{c^2})\f$ Mass defect. The diffrence in mass between a fully formed atom and its constituent parts in joules per c squared.
-	*   @see MassDefect() to calculate mass defect,\f$\Delta m\f$ in unified atomic mass units.
-	*   @see MassDefectInu() to calculate mass defect,\f$\Delta m\f$ in unified atomic mass units.
-	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$ in megaelectron volts per c squared.
-	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$ in kilograms.
+	*   @see MassDefect() to calculate mass defect,\f$\Delta m\f$, in unified atomic mass units.
+	*   @see MassDefectInu() to calculate mass defect,\f$\Delta m\f$, in unified atomic mass units.
+	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$, in megaelectron volts per c squared.
+	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$, in kilograms.
 	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
 	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
 	*/
