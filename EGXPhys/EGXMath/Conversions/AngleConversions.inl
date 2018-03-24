@@ -56,18 +56,18 @@ namespace EGXMath {
 	}
 
 	template<typename T>
-	void DegreeToDegreesMinutesSeconds(const T& decimalDegree, T& degree, T& arcminute, T& arcsecond) {
+	void DegreeToDegreesMinutesSeconds(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond) {
 
 		//See https://en.wikipedia.org/wiki/Decimal_degrees
-		degree = std::trunc(decimalDegree);
+		integerDegree = std::trunc(decimalDegree);
 
 		arcminute = std::fmod( std::trunc( std::abs(decimalDegree) * 60.0), 60.0);
 		arcsecond = std::fmod( std::abs(decimalDegree) * 3600.0, 60.0);
 	}
 
 	template<typename T>
-	void DegreeToDMS(const T& decimalDegree, T& degree, T& arcminute, T& arcsecond){
-		DegreeToDegreesMinutesSeconds(decimalDegree, degree, arcminute, arcsecond);
+	void DegreeToDMS(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond){
+		DegreeToDegreesMinutesSeconds(decimalDegree, integerDegree, arcminute, arcsecond);
 	}
 
 	template<typename T>
@@ -206,13 +206,13 @@ namespace EGXMath {
 	}
 
 	template<typename T>
-	void RadianToDegreesMinutesSeconds(const T& radian, T& degree, T& arcminute, T& arcsecond) {
-		DegreeToDegreesMinutesSeconds(RadianToDegree(radian), degree, arcminute, arcsecond);
+	void RadianToDegreesMinutesSeconds(const T& radian, T& integerDegree, T& arcminute, T& arcsecond) {
+		DegreeToDegreesMinutesSeconds(RadianToDegree(radian), integerDegree, arcminute, arcsecond);
 	}
 
 	template<typename T>
-	void RadianToDMS(const T& radian, T& degree, T& arcminute, T& arcsecond) {
-		DegreeToDegreesMinutesSeconds(RadianToDegree(radian), degree, arcminute, arcsecond);
+	void RadianToDMS(const T& radian, T& integerDegree, T& arcminute, T& arcsecond) {
+		DegreeToDegreesMinutesSeconds(RadianToDegree(radian), integerDegree, arcminute, arcsecond);
 	}
 
 	template<typename T>

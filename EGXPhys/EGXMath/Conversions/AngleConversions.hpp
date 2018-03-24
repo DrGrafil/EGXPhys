@@ -117,7 +117,7 @@ namespace EGXMath
 	*		\f[\alpha_{deg}=\alpha_{deg}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) arc degree.
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) arc degree.
 	*	@see DegreeToDecimalDegree() for alias.
 	*	@see DegreeToDegree() for alias.
@@ -126,34 +126,70 @@ namespace EGXMath
 	template<typename T>
 	T DegreeToArcdegree(const T& decimalDegree);
 
-
 	/**
 	*   @brief Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes.
-	*		\f[\alpha_{arcmin}= 60 \alpha_{deg}\f]
+	*		\f[\alpha_{arcmin}= 60 * \alpha_{deg}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param radian \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
 	*   @return \f$\alpha_{arcmin}\ (arcmin)\f$ is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*	@see RadianToArcminute() for conversion from radians.
 	*/
 	template<typename T>
 	T DegreeToArcminute(const T& decimalDegree);
 
-
+	/**
+	*   @brief Converts an angle in (decimal) degree to arcsecond. Note that arcsecond are not equal to seconds.
+	*		\f[\alpha_{arcsec}=60 * 60 * \alpha_{rad}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
+	*   @return \f$\alpha_{arcsec}\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
+	*	@see RadianToArcsecond() for conversion from radians.
+	*/
 	template<typename T>
 	T DegreeToArcsecond(const T& decimalDegree);
 
+	/**
+	*   @brief Converts an angle in (decimal) degree to milliarcsecond.
+	*		\f[\alpha_{mas}=60 * 60 * 10^3 * \alpha_{deg} \f]
+	*
+	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
+	*   @return \f$\alpha_{mas}\ (mas)\f$ is the angle in milliarcseconds.
+	*	@see RadianToMilliarcsecond() for conversion from radians.
+	*/
 	template<typename T>
 	T DegreeToMilliarcsecond(const T& decimalDegree);
 
+
+	/**
+	*   @brief Converts an angle in (decimal) degree to microarcsecond.
+	*		\f[\alpha_{\mu as}=60 * 60 * 10^6 * \alpha_{deg}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
+	*   @return \f$\alpha_{\mu as}\ (\mu as)\f$ is the angle in microarcseconds.
+	*	@see RadianToMicroarcsecond() for conversion from radians.
+	*/
 	template<typename T>
 	T DegreeToMicroarcsecond(const T& decimalDegree);
 
+	/**
+	*   @brief Converts an angle in (decimal) degree to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
+	*
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
+	*	@param integerDegree \f$degree\ (deg int)\f$ is the angle in integer degrees.
+	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
+	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
+	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees and full explination.
+	*	@see RadianToDMS() for alias.
+	*/
 	template<typename T>
-	void DegreeToDegreesMinutesSeconds(const T& decimalDegree, T& degree, T& arcminute, T& arcsecond);
+	void DegreeToDegreesMinutesSeconds(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond);
 
 	template<typename T>
-	void DegreeToDMS(const T& decimalDegree, T& degree, T& arcminute, T& arcsecond);
+	void DegreeToDMS(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond);
 
 	template<typename T>
 	void DegreeToHoursMinutesSeconds(const T& decimalDegree, T& hour, T& minute, T& second);
@@ -167,15 +203,16 @@ namespace EGXMath
 	template<typename T>
 	T DegreeToGon(const T& decimalDegree);
 
-	//https://en.wikipedia.org/wiki/Points_of_the_compass
 
 	/**
-	*   @brief Converts an angle in radians to a n-Wind compass point name.
+	*   @brief Converts an angle in (decimal) degree to a n-Wind compass point name.
 	*
-	*   @param decimalDegree \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
+	*	See https://en.wikipedia.org/wiki/Points_of_the_compass
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
+	*	@param winds \f$winds\ (int)\f$ The number of points(names) that the compass should have. Must be 2,4,8,16 or 32.
 	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
-	*   @return \f$wind (dimensionless)\f$ is the name of the compass point.
-	*	@see DegreeToCompass8Wind() for full explination of conversion.
+	*   @return \f$point\ name\ (dimensionless)\f$ is the name of the compass point.
+	*	@see DegreeToCompassWind() for full explination of conversion.
 	*/
 	template<typename T>
 	std::string DegreeToCompassWind(const T& decimalDegree, const unsigned int winds, const bool abbreviate);
@@ -321,27 +358,27 @@ namespace EGXMath
 	*   @brief Converts an angle in radians to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
 	*
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@param degree \f$degree\ (deg)\f$ is the angle in degrees in whole numbers.
+	*	@param integerDegree \f$degree\ (deg int)\f$ is the angle in degrees in whole numbers.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
 	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees and full explination.
 	*	@see RadianToDMS() for alias.
 	*/
 	template<typename T>
-	void RadianToDegreesMinutesSeconds(const T& radian, T& degree, T& arcminute, T& arcsecond);
+	void RadianToDegreesMinutesSeconds(const T& radian, T& integerDegree, T& arcminute, T& arcsecond);
 
 	/**
 	*   @brief Converts an angle in radians to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
 	*
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@param degree \f$degree\ (deg)\f$ is the angle in degrees in whole numbers.
+	*	@param integerDegree \f$degree\ (deg)\f$ is the angle in degrees in whole numbers.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
 	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees and full explination.
 	*	@see RadianToDegreesMinutesSeconds() for alias.
 	*/
 	template<typename T>
-	void RadianToDMS(const T& radian, T& degree, T& arcminute, T& arcsecond);
+	void RadianToDMS(const T& radian, T& integerDegree, T& arcminute, T& arcsecond);
 
 	/**
 	*   @brief Converts an angle in radians to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.

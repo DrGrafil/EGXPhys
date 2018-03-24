@@ -25,16 +25,16 @@ Converts angle measurements into various styles such as radians, degrees, D\+MS,
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_gac1b5f3b68f66c77a6df4ceef842c9b19}{E\+G\+X\+Math\+::\+Degree\+To\+Arcdegree}} (const T \&decimal\+Degree)
 \begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to (decimal) arc degree. \[\alpha_{deg}=\alpha_{deg}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga8abf327dc5f52907b2c881999e9cc43e}{E\+G\+X\+Math\+::\+Degree\+To\+Arcminute}} (const T \&decimal\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}= 60 \alpha_{deg}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Arcsecond} (const T \&decimal\+Degree)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Milliarcsecond} (const T \&decimal\+Degree)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Microarcsecond} (const T \&decimal\+Degree)
-\item 
-{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Degrees\+Minutes\+Seconds} (const T \&decimal\+Degree, T \&degree, T \&arcminute, T \&arcsecond)
-\item 
-{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+D\+MS} (const T \&decimal\+Degree, T \&degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}= 60 * \alpha_{deg}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_gaf85e2d765c248f447854a807a68a5de8}{E\+G\+X\+Math\+::\+Degree\+To\+Arcsecond}} (const T \&decimal\+Degree)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=60 * 60 * \alpha_{rad}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga2c218e286b2ef72a00734dbc5a7f5ab6}{E\+G\+X\+Math\+::\+Degree\+To\+Milliarcsecond}} (const T \&decimal\+Degree)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to milliarcsecond. \[\alpha_{mas}=60 * 60 * 10^3 * \alpha_{deg} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga31b65388fe1b4656663b3d66b9d764e6}{E\+G\+X\+Math\+::\+Degree\+To\+Microarcsecond}} (const T \&decimal\+Degree)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to microarcsecond. \[\alpha_{\mu as}=60 * 60 * 10^6 * \alpha_{deg}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga859585939255d52d010c780c68eb6e23}{E\+G\+X\+Math\+::\+Degree\+To\+Degrees\+Minutes\+Seconds}} (const T \&decimal\+Degree, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+D\+MS} (const T \&decimal\+Degree, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
 \item 
 {\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Hours\+Minutes\+Seconds} (const T \&decimal\+Degree, T \&hour, T \&minute, T \&second)
 \item 
@@ -45,7 +45,7 @@ Converts angle measurements into various styles such as radians, degrees, D\+MS,
 {\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Gon} (const T \&decimal\+Degree)
 \item 
 {\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga5ffef873bcec300ab90570ad6e7b1ab1}{E\+G\+X\+Math\+::\+Degree\+To\+Compass\+Wind}} (const T \&decimal\+Degree, const unsigned int winds, const bool abbreviate)
-\begin{DoxyCompactList}\small\item\em Converts an angle in radians to a n-\/\+Wind compass point name. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to a n-\/\+Wind compass point name. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gae08681bd86b8e7e4325f6c8cb3a0dc37}{E\+G\+X\+Math\+::\+Radian\+To\+Radian}} (const T \&radian)
 \begin{DoxyCompactList}\small\item\em Converts an angle in radians to radians. \[\alpha_{rad}=\alpha_{rad}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gaea391f0cca39b05e298dd1cae162e7f1}{E\+G\+X\+Math\+::\+Radian\+To\+Milliradian}} (const T \&radian)
@@ -64,9 +64,9 @@ Converts angle measurements into various styles such as radians, degrees, D\+MS,
 \begin{DoxyCompactList}\small\item\em Converts an angle in radians to milliarcsecond. \[\alpha_{mas}=\alpha_{rad}\frac{180 * 60 * 60 * 10^3}{\pi}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3a515ca2838a305fa40750763f546a86}{E\+G\+X\+Math\+::\+Radian\+To\+Microarcsecond}} (const T \&radian)
 \begin{DoxyCompactList}\small\item\em Converts an angle in radians to microarcsecond. \[\alpha_{\mu as}=\alpha_{rad}\frac{180 * 60 * 60 * 10^6}{\pi}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga1de6f151aa0950edd2b62ec2449c9361}{E\+G\+X\+Math\+::\+Radian\+To\+Degrees\+Minutes\+Seconds}} (const T \&radian, T \&degree, T \&arcminute, T \&arcsecond)
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gadae98c255924fdc8b232b6539eae81a9}{E\+G\+X\+Math\+::\+Radian\+To\+Degrees\+Minutes\+Seconds}} (const T \&radian, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
 \begin{DoxyCompactList}\small\item\em Converts an angle in radians to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gabe3e9aef44d51f0a0bfc33d49ed2483e}{E\+G\+X\+Math\+::\+Radian\+To\+D\+MS}} (const T \&radian, T \&degree, T \&arcminute, T \&arcsecond)
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gaf80be0c5c65ccaa5544a08a7754f3575}{E\+G\+X\+Math\+::\+Radian\+To\+D\+MS}} (const T \&radian, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
 \begin{DoxyCompactList}\small\item\em Converts an angle in radians to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3467598d89af2b8ff68af50b39bb19e2}{E\+G\+X\+Math\+::\+Radian\+To\+Hours\+Minutes\+Seconds}} (const T \&radian, T \&hour, T \&minute, T \&second)
 \begin{DoxyCompactList}\small\item\em Converts an angle in radians to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\item 

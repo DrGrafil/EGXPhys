@@ -16,21 +16,17 @@
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_gac1b5f3b68f66c77a6df4ceef842c9b19}{E\+G\+X\+Math\+::\+Degree\+To\+Arcdegree}} (const T \&decimal\+Degree)
 \begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to (decimal) arc degree. \[\alpha_{deg}=\alpha_{deg}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga8abf327dc5f52907b2c881999e9cc43e}{E\+G\+X\+Math\+::\+Degree\+To\+Arcminute}} (const T \&decimal\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}= 60 \alpha_{deg}\]. \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_gaf85e2d765c248f447854a807a68a5de8}\label{group___e_g_x_math-_angle_conversions-_degree_gaf85e2d765c248f447854a807a68a5de8}} 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Arcsecond} (const T \&decimal\+Degree)
-\item 
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_ga2c218e286b2ef72a00734dbc5a7f5ab6}\label{group___e_g_x_math-_angle_conversions-_degree_ga2c218e286b2ef72a00734dbc5a7f5ab6}} 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Milliarcsecond} (const T \&decimal\+Degree)
-\item 
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_ga31b65388fe1b4656663b3d66b9d764e6}\label{group___e_g_x_math-_angle_conversions-_degree_ga31b65388fe1b4656663b3d66b9d764e6}} 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Microarcsecond} (const T \&decimal\+Degree)
-\item 
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_ga3b39266386e4249680593283c800a620}\label{group___e_g_x_math-_angle_conversions-_degree_ga3b39266386e4249680593283c800a620}} 
-{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Degrees\+Minutes\+Seconds} (const T \&decimal\+Degree, T \&degree, T \&arcminute, T \&arcsecond)
-\item 
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_ga7dead1e0446ea77034caf1fd89f2ab24}\label{group___e_g_x_math-_angle_conversions-_degree_ga7dead1e0446ea77034caf1fd89f2ab24}} 
-{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+D\+MS} (const T \&decimal\+Degree, T \&degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}= 60 * \alpha_{deg}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_gaf85e2d765c248f447854a807a68a5de8}{E\+G\+X\+Math\+::\+Degree\+To\+Arcsecond}} (const T \&decimal\+Degree)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=60 * 60 * \alpha_{rad}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga2c218e286b2ef72a00734dbc5a7f5ab6}{E\+G\+X\+Math\+::\+Degree\+To\+Milliarcsecond}} (const T \&decimal\+Degree)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to milliarcsecond. \[\alpha_{mas}=60 * 60 * 10^3 * \alpha_{deg} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga31b65388fe1b4656663b3d66b9d764e6}{E\+G\+X\+Math\+::\+Degree\+To\+Microarcsecond}} (const T \&decimal\+Degree)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to microarcsecond. \[\alpha_{\mu as}=60 * 60 * 10^6 * \alpha_{deg}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga859585939255d52d010c780c68eb6e23}{E\+G\+X\+Math\+::\+Degree\+To\+Degrees\+Minutes\+Seconds}} (const T \&decimal\+Degree, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_ga1096d04647918e20f61fb184ba2a7dce}\label{group___e_g_x_math-_angle_conversions-_degree_ga1096d04647918e20f61fb184ba2a7dce}} 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+D\+MS} (const T \&decimal\+Degree, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
 \item 
 \mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_ga770b13da33b6f6c7bfa398cca7f24dbe}\label{group___e_g_x_math-_angle_conversions-_degree_ga770b13da33b6f6c7bfa398cca7f24dbe}} 
 {\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Hours\+Minutes\+Seconds} (const T \&decimal\+Degree, T \&hour, T \&minute, T \&second)
@@ -45,7 +41,7 @@
 {\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Math\+::\+Degree\+To\+Gon} (const T \&decimal\+Degree)
 \item 
 {\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga5ffef873bcec300ab90570ad6e7b1ab1}{E\+G\+X\+Math\+::\+Degree\+To\+Compass\+Wind}} (const T \&decimal\+Degree, const unsigned int winds, const bool abbreviate)
-\begin{DoxyCompactList}\small\item\em Converts an angle in radians to a n-\/\+Wind compass point name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to a n-\/\+Wind compass point name. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -65,7 +61,7 @@ Converts an angle in (decimal) degree to (decimal) arc degree. \[\alpha_{deg}=\a
 
 See \href{https://en.wikipedia.org/wiki/Degree_(angle)}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Degree\+\_\+(angle)} and \href{https://en.wikipedia.org/wiki/Decimal_degrees}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Decimal\+\_\+degrees} 
 \begin{DoxyParams}{Parameters}
-{\em decimal\+Degree} & $\alpha_{deg}\ (deg)$ is the angle in (decimal) arc degree. \\
+{\em decimal\+Degree} & $\alpha_{deg}\ (deg)$ is the angle in (decimal) degrees. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -87,11 +83,11 @@ T E\+G\+X\+Math\+::\+Degree\+To\+Arcminute (\begin{DoxyParamCaption}\item[{const
 
 
 
-Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}= 60 \alpha_{deg}\]. 
+Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}= 60 * \alpha_{deg}\]. 
 
 See \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
 \begin{DoxyParams}{Parameters}
-{\em radian} & $\alpha_{deg}\ (deg)$ is the angle in (decimal) degree. \\
+{\em decimal\+Degree} & $\alpha_{deg}\ (deg)$ is the angle in (decimal) degrees. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -99,6 +95,28 @@ $\alpha_{arcmin}\ (arcmin)$ is the angle in arcminutes. Note that this is 1/60 o
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga722e3b8e78540a6b3942b73b64aeb8d2}{Radian\+To\+Arcminute()}} for conversion from radians. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_gaf85e2d765c248f447854a807a68a5de8}\label{group___e_g_x_math-_angle_conversions-_degree_gaf85e2d765c248f447854a807a68a5de8}} 
+\index{Degree@{Degree}!Degree\+To\+Arcsecond@{Degree\+To\+Arcsecond}}
+\index{Degree\+To\+Arcsecond@{Degree\+To\+Arcsecond}!Degree@{Degree}}
+\subsubsection{\texorpdfstring{Degree\+To\+Arcsecond()}{DegreeToArcsecond()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Degree\+To\+Arcsecond (\begin{DoxyParamCaption}\item[{const T \&}]{decimal\+Degree }\end{DoxyParamCaption})}
+
+
+
+Converts an angle in (decimal) degree to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=60 * 60 * \alpha_{rad}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
+\begin{DoxyParams}{Parameters}
+{\em decimal\+Degree} & $\alpha_{deg}\ (deg)$ is the angle in (decimal) degrees. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\alpha_{arcsec}\ (arcsec)$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga2f952f6675a0fc54bf72bfe4e3d2664a}{Radian\+To\+Arcsecond()}} for conversion from radians. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_ga5ffef873bcec300ab90570ad6e7b1ab1}\label{group___e_g_x_math-_angle_conversions-_degree_ga5ffef873bcec300ab90570ad6e7b1ab1}} 
 \index{Degree@{Degree}!Degree\+To\+Compass\+Wind@{Degree\+To\+Compass\+Wind}}
@@ -109,20 +127,22 @@ std\+::string E\+G\+X\+Math\+::\+Degree\+To\+Compass\+Wind (\begin{DoxyParamCapt
 
 
 
-Converts an angle in radians to a n-\/\+Wind compass point name. 
+Converts an angle in (decimal) degree to a n-\/\+Wind compass point name. 
 
-
+See \href{https://en.wikipedia.org/wiki/Points_of_the_compass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Points\+\_\+of\+\_\+the\+\_\+compass} 
 \begin{DoxyParams}{Parameters}
-{\em decimal\+Degree} & $\alpha_{rad}\ (rad)$ is the angle in radians. \\
+{\em decimal\+Degree} & $\alpha_{deg}\ (deg)$ is the angle in (decimal) degrees. \\
+\hline
+{\em winds} & $winds\ (int)$ The number of points(names) that the compass should have. Must be 2,4,8,16 or 32. \\
 \hline
 {\em abbreviate} & $abbreviate\ (bool)$ should the compass point name be abbreviated. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-$wind (dimensionless)$ is the name of the compass point. 
+$point\ name\ (dimensionless)$ is the name of the compass point. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-Degree\+To\+Compass8\+Wind() for full explination of conversion. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga5ffef873bcec300ab90570ad6e7b1ab1}{Degree\+To\+Compass\+Wind()}} for full explination of conversion. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_ga568afc1d436d425bf5d4edea584aee08}\label{group___e_g_x_math-_angle_conversions-_degree_ga568afc1d436d425bf5d4edea584aee08}} 
 \index{Degree@{Degree}!Degree\+To\+Decimal\+Degree@{Degree\+To\+Decimal\+Degree}}
@@ -176,6 +196,33 @@ $\alpha_{deg}\ (deg)$ is the angle in (decimal) degree.
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga25bbce6cdc1c3621f2a158d320e3bc45}{Radian\+To\+Degree()}} for conversion from radians. 
 \end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_ga859585939255d52d010c780c68eb6e23}\label{group___e_g_x_math-_angle_conversions-_degree_ga859585939255d52d010c780c68eb6e23}} 
+\index{Degree@{Degree}!Degree\+To\+Degrees\+Minutes\+Seconds@{Degree\+To\+Degrees\+Minutes\+Seconds}}
+\index{Degree\+To\+Degrees\+Minutes\+Seconds@{Degree\+To\+Degrees\+Minutes\+Seconds}!Degree@{Degree}}
+\subsubsection{\texorpdfstring{Degree\+To\+Degrees\+Minutes\+Seconds()}{DegreeToDegreesMinutesSeconds()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void E\+G\+X\+Math\+::\+Degree\+To\+Degrees\+Minutes\+Seconds (\begin{DoxyParamCaption}\item[{const T \&}]{decimal\+Degree,  }\item[{T \&}]{integer\+Degree,  }\item[{T \&}]{arcminute,  }\item[{T \&}]{arcsecond }\end{DoxyParamCaption})}
+
+
+
+Converts an angle in (decimal) degree to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em decimal\+Degree} & $\alpha_{deg}\ (deg)$ is the angle in (decimal) degrees. \\
+\hline
+{\em integer\+Degree} & $degree\ (deg int)$ is the angle in integer degrees. \\
+\hline
+{\em arcminute} & $arcminute\ (arcmin)$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. \\
+\hline
+{\em arcsecond} & $arcsecond\ (arcsec)$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga859585939255d52d010c780c68eb6e23}{Degree\+To\+Degrees\+Minutes\+Seconds()}} for conversion from (decimal) degrees and full explination. 
+
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gaf80be0c5c65ccaa5544a08a7754f3575}{Radian\+To\+D\+M\+S()}} for alias. 
+\end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_gaabd20f21be3c18ee423d0bc1a677c6f6}\label{group___e_g_x_math-_angle_conversions-_degree_gaabd20f21be3c18ee423d0bc1a677c6f6}} 
 \index{Degree@{Degree}!Degree\+To\+Integer\+Degree@{Degree\+To\+Integer\+Degree}}
 \index{Degree\+To\+Integer\+Degree@{Degree\+To\+Integer\+Degree}!Degree@{Degree}}
@@ -197,6 +244,50 @@ $\alpha_{deg int}\ (deg int)$ is the angle in integer degree.
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
 Radian\+To\+Integer\+Degree() for conversion from radians. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_ga31b65388fe1b4656663b3d66b9d764e6}\label{group___e_g_x_math-_angle_conversions-_degree_ga31b65388fe1b4656663b3d66b9d764e6}} 
+\index{Degree@{Degree}!Degree\+To\+Microarcsecond@{Degree\+To\+Microarcsecond}}
+\index{Degree\+To\+Microarcsecond@{Degree\+To\+Microarcsecond}!Degree@{Degree}}
+\subsubsection{\texorpdfstring{Degree\+To\+Microarcsecond()}{DegreeToMicroarcsecond()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Degree\+To\+Microarcsecond (\begin{DoxyParamCaption}\item[{const T \&}]{decimal\+Degree }\end{DoxyParamCaption})}
+
+
+
+Converts an angle in (decimal) degree to microarcsecond. \[\alpha_{\mu as}=60 * 60 * 10^6 * \alpha_{deg}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
+\begin{DoxyParams}{Parameters}
+{\em decimal\+Degree} & $\alpha_{deg}\ (deg)$ is the angle in (decimal) degrees. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\alpha_{\mu as}\ (\mu as)$ is the angle in microarcseconds. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3a515ca2838a305fa40750763f546a86}{Radian\+To\+Microarcsecond()}} for conversion from radians. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_ga2c218e286b2ef72a00734dbc5a7f5ab6}\label{group___e_g_x_math-_angle_conversions-_degree_ga2c218e286b2ef72a00734dbc5a7f5ab6}} 
+\index{Degree@{Degree}!Degree\+To\+Milliarcsecond@{Degree\+To\+Milliarcsecond}}
+\index{Degree\+To\+Milliarcsecond@{Degree\+To\+Milliarcsecond}!Degree@{Degree}}
+\subsubsection{\texorpdfstring{Degree\+To\+Milliarcsecond()}{DegreeToMilliarcsecond()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Degree\+To\+Milliarcsecond (\begin{DoxyParamCaption}\item[{const T \&}]{decimal\+Degree }\end{DoxyParamCaption})}
+
+
+
+Converts an angle in (decimal) degree to milliarcsecond. \[\alpha_{mas}=60 * 60 * 10^3 * \alpha_{deg} \]. 
+
+See \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
+\begin{DoxyParams}{Parameters}
+{\em decimal\+Degree} & $\alpha_{deg}\ (deg)$ is the angle in (decimal) degrees. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\alpha_{mas}\ (mas)$ is the angle in milliarcseconds. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga84fbb494a455cfeb30be62776f96c9a9}{Radian\+To\+Milliarcsecond()}} for conversion from radians. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_degree_gae4fa6c2d3805430760783650cfbfdb11}\label{group___e_g_x_math-_angle_conversions-_degree_gae4fa6c2d3805430760783650cfbfdb11}} 
 \index{Degree@{Degree}!Degree\+To\+Milliradian@{Degree\+To\+Milliradian}}

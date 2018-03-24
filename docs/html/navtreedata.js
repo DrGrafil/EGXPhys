@@ -38,8 +38,8 @@ var NAVTREEINDEX =
 "_n_i_s_t_const_8hpp.html#ga108a8be4e32eddd7cdfdf4473f3532ab",
 "_n_i_s_t_const_8hpp.html#gacd4a3b462095f6b3ec3de099a34b9726",
 "_quantum_constants_8hpp_source.html",
-"group___n_i_s_t_const-_atomic_mass_constant.html",
-"group___n_i_s_t_const-_muon.html#gacd182505756807ab247465449d821110"
+"group___n_i_s_t_const-_alpha.html#ga9f00b32c60f1bc5b8a950b58e64d08c8",
+"group___n_i_s_t_const-_muon.html#ga98b4dada2be08e51ae363d18d745d60e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
