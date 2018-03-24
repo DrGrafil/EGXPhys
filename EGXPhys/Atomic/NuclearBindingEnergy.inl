@@ -1,6 +1,6 @@
-/// @file EGXPhys/Atomic/HalfLife.inl
+/// @file EGXPhys/Atomic/NuclearBindingEnergy.inl
 ///
-/// @brief Implimentation of half life calculations
+/// @brief Implimentation of nuclear binding energy calculations
 /// @author Elliot Grafil (Metex)
 /// @date 8/4/17
 
@@ -8,12 +8,33 @@
 namespace EGXPhys{
 	
 	template<typename T, typename T2>
-    T2 MassDefectInu(const T& atomicNumber, const T& massNumber, const T2& massAtom)
-	{
-		double protonMass = atomicNumber * NISTConst::protonMassInu;
-		double electronMass = atomicNumber * NISTConst::electronMassInu;
-		double neutronMass = (massNumber - atomicNumber) * NISTConst::neutronMassInu;
+	T2 NuclearBindingEnergy(const T& atomicNumber, const T& massNumber, const T2& massAtomInu) {
+		T c = 1.0; // c is set to 1 in atomic calculations
+		return MassDefectInMeVPercSquared(atomicNumber, massNumber, massAtomInu * NISTConst::atomicMassConstantInMeVPercSquared) * c * c;
+	}
 
-		return protonMass + electronMass + neutronMass - massAtom;	
+
+	template<typename T, typename T2>
+	T2 NuclearBindingEnergyInucSquared(const T& atomicNumber, const T& massNumber, const T2& massAtomInu) {
+		T c = 1.0; // c is set to 1 in atomic calculations
+		return MassDefectInu(atomicNumber, massNumber, massAtomInu) * c * c;
+	}
+
+	template<typename T, typename T2>
+	T2 NuclearBindingEnergyInMeV(const T& atomicNumber, const T& massNumber, const T2& massAtomInMeVPercSquared) {
+		T c = 1.0; // c is set to 1 in atomic calculations
+		return MassDefectInMeVPercSquared(atomicNumber, massNumber, massAtomInMeVPercSquared) * c * c;
+	}
+
+	template<typename T, typename T2>
+	T2 NuclearBindingEnergyInkgcSquared(const T& atomicNumber, const T& massNumber, const T2& massAtomInkg) {
+		T c = 1.0; // c is set to 1 in atomic calculations
+		return MassDefectInkg(atomicNumber, massNumber, massAtomInkg) * c * c;
+	}
+
+	template<typename T, typename T2>
+	T2 NuclearBindingEnergyInJ(const T& atomicNumber, const T& massNumber, const T2& massAtomInJPercSquared) {
+		T c = 1.0; // c is set to 1 in atomic calculations
+		return MassDefectInJPercSquared(atomicNumber, massNumber, massAtomInJPercSquared) * c * c;
 	}
 }//namespace EGXPhys

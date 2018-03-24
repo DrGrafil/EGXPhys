@@ -14,6 +14,7 @@ var dir_eae06af3aa80ee515a7eda0d5cc9e53d =
     [ "MassExcess.inl", "_mass_excess_8inl.html", "_mass_excess_8inl" ],
     [ "MeanLifetime.hpp", "_mean_lifetime_8hpp.html", "_mean_lifetime_8hpp" ],
     [ "NuclearBindingEnergy.hpp", "_nuclear_binding_energy_8hpp.html", "_nuclear_binding_energy_8hpp" ],
+    [ "NuclearBindingEnergy.inl", "_nuclear_binding_energy_8inl.html", "_nuclear_binding_energy_8inl" ],
     [ "NuclearSeparationEnergy.hpp", "_nuclear_separation_energy_8hpp.html", "_nuclear_separation_energy_8hpp" ],
     [ "NuclearSeparationEnergy.inl", "_nuclear_separation_energy_8inl.html", "_nuclear_separation_energy_8inl" ],
     [ "QValue.hpp", "_q_value_8hpp.html", "_q_value_8hpp" ],

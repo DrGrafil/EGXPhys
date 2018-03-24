@@ -16,7 +16,7 @@
 #include <math.h>  
 
 #include "AstrophysicsConstants.hpp"
-
+#include "./../EGXMath/EGXMath.hpp"
 //=================================
 // Forward declared dependencies
 
@@ -42,6 +42,7 @@ namespace EGXPhys
 	*	@see PlanetaryMass() for \f$M\f$ equation used for planets size objects.
 	*	@see StellarMass() for \f$M\f$ equation using a star as a reference.
 	*	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
+	*	@See HMSToRadians for alias.
 	*/
 	template<typename T>
 	T RightAscensionToRadians(const T hours, const T minutes, const T seconds);
@@ -53,6 +54,8 @@ namespace EGXPhys
 	// Declination to Radians. Delination is in Sexagesimal(traditional degrees) system.
 	// !!!WARNING!! Will return with0.0 rads pointing up Z axis and pi/2 pointing at positive X-axis
 	// Think Spherical Co-ordinate system http://en.wikipedia.org/wiki/Spherical_coordinate_system
+	
+//https://en.wikipedia.org/wiki/Declination
 	template<typename T>
 	T DeclinationToRadians(const T degrees, const T arcminutes, const T arcseconds);
 

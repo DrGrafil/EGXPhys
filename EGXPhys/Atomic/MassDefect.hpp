@@ -45,8 +45,7 @@ namespace EGXPhys
 	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$, in megaelectron volts per c squared.
 	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$, in kilograms.
 	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$, in joules per c squared.
-	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
-	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
+	* 	@see NuclearBindingEnergy() to calculate the binding energy, \f$BE\f$, of a nucleus in megaelectron volts.
 	*/    
 	template<typename T, typename T2>
     T2 MassDefect(const T& atomicNumber, const T& massNumber, const T2& massAtomInu);	
@@ -69,8 +68,7 @@ namespace EGXPhys
 	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$, in megaelectron volts per c squared.
 	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$, in kilograms.
 	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$, in joules per c squared.
-	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
-	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
+	* 	@see NuclearBindingEnergy() to calculate the binding energy, \f$BE\f$, of a nucleus in megaelectron volts.
 	*/
     template<typename T, typename T2>
     T2 MassDefectInu(const T& atomicNumber, const T& massNumber, const T2& massAtomInu);	
@@ -93,8 +91,7 @@ namespace EGXPhys
 	*   @see MassDefectInu() to calculate mass defect,\f$\Delta m\f$, in unified atomic mass units.
 	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$, in kilograms.
 	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$, in joules per c squared.
-	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
-	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
+	* 	@see NuclearBindingEnergy() to calculate the binding energy, \f$BE\f$, of a nucleus in megaelectron volts.
 	*/
 	template<typename T, typename T2>
     T2 MassDefectInMeVPercSquared(const T& atomicNumber, const T& massNumber, const T2& massAtomInMeVPercSquared);
@@ -117,8 +114,7 @@ namespace EGXPhys
 	*   @see MassDefectInu() to calculate mass defect,\f$\Delta m\f$, in unified atomic mass units.
 	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$, in megaelectron volts per c squared.
 	* 	@see MassDefectInJPercSquared() to calculate mass defect,\f$\Delta m\f$, in joules per c squared.
-	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
-	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
+	* 	@see NuclearBindingEnergy() to calculate the binding energy, \f$BE\f$, of a nucleus in megaelectron volts.
 	*/
 	template<typename T, typename T2>
     T2 MassDefectInkg(const T& atomicNumber, const T& massNumber, const T2& massAtomInkg);
@@ -141,8 +137,7 @@ namespace EGXPhys
 	*   @see MassDefectInu() to calculate mass defect,\f$\Delta m\f$, in unified atomic mass units.
 	*   @see MassDefectInMeVPercSquared() to calculate mass defect,\f$\Delta m\f$, in megaelectron volts per c squared.
 	* 	@see MassDefectInkg() to calculate mass defect,\f$\Delta m\f$, in kilograms.
-	* 	@see BindingEnergyInMeV() to calculate the binding energy, \f$B\f$, of a nucleus in megaelectron volts.
-	* 	@see BindingEnergyInJ() to calculate the binding energy, \f$B\f$, of a nucleus in joules.
+	* 	@see NuclearBindingEnergy() to calculate the binding energy, \f$BE\f$, of a nucleus in megaelectron volts.
 	*/
     template<typename T, typename T2>
     T2 MassDefectInJPercSquared(const T& atomicNumber, const T& massNumber, const T2& massAtomInJPercSquared);

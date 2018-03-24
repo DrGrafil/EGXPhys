@@ -37,9 +37,9 @@ var NAVTREEINDEX =
 "_absolute_magnitude_8hpp.html",
 "_n_i_s_t_const_8hpp.html#ga108a8be4e32eddd7cdfdf4473f3532ab",
 "_n_i_s_t_const_8hpp.html#gacd4a3b462095f6b3ec3de099a34b9726",
-"_redshift_8hpp.html#gacc6d3b2922061214d64b89a4b8e3967a",
-"group___n_i_s_t_const-_atomic_mass_unit.html#gaf9c3a2dfd69d4e74cee3361abd7d7ecf",
-"group___n_i_s_t_const-_natural_unit.html#ga75fc809b9ed4ab1f3a49337cf66df772"
+"_quantum_constants_8hpp_source.html",
+"group___n_i_s_t_const-_atomic_mass_constant.html",
+"group___n_i_s_t_const-_muon.html#gacd182505756807ab247465449d821110"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

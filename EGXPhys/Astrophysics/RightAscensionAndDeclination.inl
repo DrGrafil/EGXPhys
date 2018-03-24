@@ -17,7 +17,7 @@ namespace EGXPhys{
 
 	template<typename T>
 	void RadiansToRightAscension(const T radians, T& hours, T& minutes, T& seconds) {
-
+		EGXMath::RadianToHMS(radians, hours, minutes, seconds);
 	}
 
 	template<typename T>
@@ -27,7 +27,7 @@ namespace EGXPhys{
     
 	template<typename T>
 	void DeclinationToRadians(const T& radians, T& degrees, T& arcminutes, T& arcseconds) {
-
+		EGXMath::RadianToDMS(radians, degrees, arcminutes, arcseconds);
 	}
 
 }//namespace EGXPhys
