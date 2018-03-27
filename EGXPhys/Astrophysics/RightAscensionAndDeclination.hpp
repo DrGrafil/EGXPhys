@@ -29,7 +29,18 @@ namespace EGXPhys
 	/// @addtogroup EGXPhys-RightAscensionAndDeclination
 	/// @{
 	
+	//Decimal degrees
+	template<typename T>
+	T RightAscensionToDegree(const T& hours, const T& minutes, const T& seconds);
 
+	template<typename T>
+	void DegreeToRightAscension(const T& decimalDegree, T& hours, T& minutes, T& seconds);
+
+	template<typename T>
+	T DeclinationToDegree(const T& integerDegrees, const T& arcminutes, const T& arcseconds);
+
+	template<typename T>
+	void DegreeToDeclination(const T& decimalDegree, T& degrees, T& arcminutes, T& arcseconds);
 
 	/**
 	*   @brief Converts right ascensions \f$(\alpha)\f$ from hours \f$(RA_h)\f$, minutes \f$(RA_m)\f$ and seconds\f$(RA_s)\f$ to radians.
@@ -45,11 +56,11 @@ namespace EGXPhys
 	*	@See HMSToRadians for alias.
 	*/
 	template<typename T>
-	T RightAscensionToRadians(const T hours, const T minutes, const T seconds);
+	T RightAscensionToRadian(const T& hours, const T& minutes, const T& seconds);
 
 	
 	template<typename T>
-	void RadiansToRightAscension(const T radians, T& hours, T& minutes, T& seconds);
+	void RadianToRightAscension(const T& radians, T& hours, T& minutes, T& seconds);
 
 	// Declination to Radians. Delination is in Sexagesimal(traditional degrees) system.
 	// !!!WARNING!! Will return with0.0 rads pointing up Z axis and pi/2 pointing at positive X-axis
@@ -57,10 +68,10 @@ namespace EGXPhys
 	
 //https://en.wikipedia.org/wiki/Declination
 	template<typename T>
-	T DeclinationToRadians(const T degrees, const T arcminutes, const T arcseconds);
+	T DeclinationToRadian(const T& integerDegrees, const T& arcminutes, const T& arcseconds);
 
 	template<typename T>
-	void DeclinationToRadians(const T& radians, T& degrees, T& arcminutes, T& arcseconds);
+	void RadianToDeclination(const T& radians, T& degrees, T& arcminutes, T& arcseconds);
 
 
     /// @}
