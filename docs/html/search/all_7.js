@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['hours_20minutes_20seconds_20_28hms_29',['Hours Minutes Seconds (HMS)',['../group___e_g_x_math-_angle_conversions-_h_m_s.html',1,'']]],
   ['half_20life',['Half Life',['../group___e_g_x_phys-_half_life.html',1,'']]],
   ['halflife',['HalfLife',['../group___e_g_x_phys-_half_life.html#ga21d268f154fb91c1c556bbfa7fe83ac1',1,'EGXPhys']]],
   ['halflife_2ehpp',['HalfLife.hpp',['../_half_life_8hpp.html',1,'']]],

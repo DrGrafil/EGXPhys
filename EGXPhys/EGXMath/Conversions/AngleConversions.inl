@@ -19,13 +19,13 @@ namespace EGXMath {
 	}
 
 	template<typename T>
-	T DegreeToDegree(const T& decimalDegree) {
-		return decimalDegree;
+	T DegreeToTurn(const T& decimalDegree) {
+		return decimalDegree /360.0;
 	}
 
 	template<typename T>
-	T DegreeToIntegerDegree(const T& decimalDegree) {
-		return std::round(decimalDegree);
+	T DegreeToDegree(const T& decimalDegree) {
+		return decimalDegree;
 	}
 
 	template<typename T>
@@ -38,13 +38,21 @@ namespace EGXMath {
 		return decimalDegree;
 	}
 
-	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	template<typename T>
+	T DegreeToIntegerDegree(const T& decimalDegree) {
+		return std::round(decimalDegree);
+	}
+
+	template<typename T, typename T2>
+	T DegreeToBinaryDegree(const T& decimalDegree, const T2& bits) {
+		return decimalDegree * std::pow(2.0, bits - 1.0) / 360.0;
+	}
+
 	template<typename T>
 	T DegreeToArcminute(const T& decimalDegree) {
 		return decimalDegree * 60.0;
 	}
 
-	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	template<typename T>
 	T DegreeToArcsecond(const T& decimalDegree) {
 		return decimalDegree * 3600.0;
@@ -169,13 +177,13 @@ namespace EGXMath {
 	}
 
 	template<typename T>
-	T DecimalDegreeToDegree(const T& decimalDegree) {
-		return DegreeToDegree(decimalDegree);
+	T DecimalDegreeToTurn(const T& decimalDegree) {
+		return DegreeToTurn(decimalDegree);
 	}
 
 	template<typename T>
-	T DecimalDegreeToIntegerDegree(const T& decimalDegree) {
-		return DegreeToIntegerDegree(decimalDegree);
+	T DecimalDegreeToDegree(const T& decimalDegree) {
+		return DegreeToDegree(decimalDegree);
 	}
 
 	template<typename T>
@@ -186,6 +194,16 @@ namespace EGXMath {
 	template<typename T>
 	T DecimalDegreeToArcdegree(const T& decimalDegree) {
 		return DegreeToArcdegree(decimalDegree);
+	}
+
+	template<typename T>
+	T DecimalDegreeToIntegerDegree(const T& decimalDegree) {
+		return DegreeToIntegerDegree(decimalDegree);
+	}
+
+	template<typename T, typename T2>
+	T DecimalDegreeToBinaryDegree(const T& decimalDegree, const T2& bits) {
+		return DegreeToBinaryDegree(decimalDegree, bits);
 	}
 
 	template<typename T>
@@ -265,13 +283,13 @@ namespace EGXMath {
 	}
 
 	template<typename T>
-	T IntegerDegreeToDegree(const T& integerDegree) {
-		return DegreeToDegree(integerDegree);
+	T IntegerDegreeToTurn(const T& integerDegree) {
+		return DegreeToTurn(integerDegree);
 	}
 
 	template<typename T>
-	T IntegerDegreeToIntegerDegree(const T& integerDegree) {
-		return DegreeToIntegerDegree(integerDegree);
+	T IntegerDegreeToDegree(const T& integerDegree) {
+		return DegreeToDegree(integerDegree);
 	}
 
 	template<typename T>
@@ -282,6 +300,16 @@ namespace EGXMath {
 	template<typename T>
 	T IntegerDegreeToArcdegree(const T& integerDegree) {
 		return DegreeToArcdegree(integerDegree);
+	}
+
+	template<typename T>
+	T IntegerDegreeToIntegerDegree(const T& integerDegree) {
+		return DegreeToIntegerDegree(integerDegree);
+	}
+
+	template<typename T, typename T2>
+	T IntegerDegreeToBinaryDegree(const T& integerDegree, const T2& bits) {
+		return DegreeToBinaryDegree(integerDegree, bits);
 	}
 
 	template<typename T>
@@ -366,6 +394,11 @@ namespace EGXMath {
 	}
 
 	template<typename T>
+	T RadianToTurn(const T& radian) {
+		return radian / (2.0 * EGXMath::pi<T>);
+	}
+
+	template<typename T>
 	T RadianToDegree(const T& radian) {
 		return radian * 180.0 / EGXMath::pi<T>;
 	}
@@ -380,7 +413,16 @@ namespace EGXMath {
 		return RadianToDegree(radian);
 	}
 
-	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	template<typename T>
+	T RadianToIntegerDegree(const T& radian) {
+		return std::round(RadianToDegree(radian));
+	}
+
+	template<typename T, typename T2>
+	T RadianToBinaryDegree(const T& radian, const T2& bits) {
+		return radian * std::pow(2.0, bits - 1.0) / (2.0 * EGXMath::pi<T>);
+	}
+
 	template<typename T>
 	T RadianToArcminute(const T& radian) {
 		return radian * 10800.0 / EGXMath::pi<T>; // 60 * 180

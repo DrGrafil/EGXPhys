@@ -14,6 +14,7 @@ var searchData=
   ['bondalbedoofearth',['BondAlbedoOfEarth',['../_astrophysics_constants_8hpp.html#a932fff28fce4321fdbf9abc5c1783dc9',1,'EGXPhys']]],
   ['bvcolor_2ehpp',['BVColor.hpp',['../_b_v_color_8hpp.html',1,'']]],
   ['bvcolor_2einl',['BVColor.inl',['../_b_v_color_8inl.html',1,'']]],
+  ['binary_20degree',['Binary Degree',['../group___e_g_x_math-_angle_conversions-_binary_degree.html',1,'']]],
   ['b_2dv_20color',['B-V Color',['../group___e_g_x_phys-_b_v_color.html',1,'']]],
   ['binding_20energy',['Binding Energy',['../group___e_g_x_phys-_nuclear_binding_energy.html',1,'']]],
   ['bohr_20magneton',['Bohr magneton',['../group___n_i_s_t_const-_bohr_magneton.html',1,'']]],

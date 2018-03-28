@@ -11,6 +11,7 @@ var searchData=
   ['decimaldegreetoarcdegree',['DecimalDegreeToArcdegree',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#gacdd463fcabffeb598ebda65b012ce743',1,'EGXMath']]],
   ['decimaldegreetoarcminute',['DecimalDegreeToArcminute',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga6b6ea6e45d2a13f556824ca419cc9fbd',1,'EGXMath']]],
   ['decimaldegreetoarcsecond',['DecimalDegreeToArcsecond',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#gab9d5635a6e35127b5245978aba508962',1,'EGXMath']]],
+  ['decimaldegreetobinarydegree',['DecimalDegreeToBinaryDegree',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaceec7ae7988c7f342d0b0fa6940720a1',1,'EGXMath']]],
   ['decimaldegreetocompasswind',['DecimalDegreeToCompassWind',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga415a94651a2b2397b7f2bda90a19ee2c',1,'EGXMath']]],
   ['decimaldegreetodecimaldegree',['DecimalDegreeToDecimalDegree',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#gafccf9cd779903872887978ab9d79661f',1,'EGXMath']]],
   ['decimaldegreetodegree',['DecimalDegreeToDegree',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga0aa7f2f5dbb00cf4ab303421c6e33ccf',1,'EGXMath']]],
@@ -25,9 +26,11 @@ var searchData=
   ['decimaldegreetomilliarcsecond',['DecimalDegreeToMilliarcsecond',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#gadb9ff3c92cf7484793f91e7de80c222e',1,'EGXMath']]],
   ['decimaldegreetomilliradian',['DecimalDegreeToMilliradian',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#gab567d02d4692d9642a4ad219e479713a',1,'EGXMath']]],
   ['decimaldegreetoradian',['DecimalDegreeToRadian',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga906ee2c83cdf4caa59eb613dc2d5d52a',1,'EGXMath']]],
+  ['decimaldegreetoturn',['DecimalDegreeToTurn',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga396a13c10acdef5026c12f3217b142c1',1,'EGXMath']]],
   ['degreetoarcdegree',['DegreeToArcdegree',['../group___e_g_x_math-_angle_conversions-_degree.html#gac1b5f3b68f66c77a6df4ceef842c9b19',1,'EGXMath']]],
   ['degreetoarcminute',['DegreeToArcminute',['../group___e_g_x_math-_angle_conversions-_degree.html#ga8abf327dc5f52907b2c881999e9cc43e',1,'EGXMath']]],
   ['degreetoarcsecond',['DegreeToArcsecond',['../group___e_g_x_math-_angle_conversions-_degree.html#gaf85e2d765c248f447854a807a68a5de8',1,'EGXMath']]],
+  ['degreetobinarydegree',['DegreeToBinaryDegree',['../group___e_g_x_math-_angle_conversions-_degree.html#gacd1e3dc5194e89426a899a7cac4874f8',1,'EGXMath']]],
   ['degreetocompasswind',['DegreeToCompassWind',['../group___e_g_x_math-_angle_conversions-_degree.html#ga5ffef873bcec300ab90570ad6e7b1ab1',1,'EGXMath']]],
   ['degreetodecimaldegree',['DegreeToDecimalDegree',['../group___e_g_x_math-_angle_conversions-_degree.html#ga568afc1d436d425bf5d4edea584aee08',1,'EGXMath']]],
   ['degreetodegree',['DegreeToDegree',['../group___e_g_x_math-_angle_conversions-_degree.html#gaca157e7d3e99a46a11a04b92680d2574',1,'EGXMath']]],
@@ -41,5 +44,6 @@ var searchData=
   ['degreetomicroarcsecond',['DegreeToMicroarcsecond',['../group___e_g_x_math-_angle_conversions-_degree.html#ga31b65388fe1b4656663b3d66b9d764e6',1,'EGXMath']]],
   ['degreetomilliarcsecond',['DegreeToMilliarcsecond',['../group___e_g_x_math-_angle_conversions-_degree.html#ga2c218e286b2ef72a00734dbc5a7f5ab6',1,'EGXMath']]],
   ['degreetomilliradian',['DegreeToMilliradian',['../group___e_g_x_math-_angle_conversions-_degree.html#gae4fa6c2d3805430760783650cfbfdb11',1,'EGXMath']]],
-  ['degreetoradian',['DegreeToRadian',['../group___e_g_x_math-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0',1,'EGXMath']]]
+  ['degreetoradian',['DegreeToRadian',['../group___e_g_x_math-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0',1,'EGXMath']]],
+  ['degreetoturn',['DegreeToTurn',['../group___e_g_x_math-_angle_conversions-_degree.html#gafb4ce930493a7d6202ede3ee1630ef5d',1,'EGXMath']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['compass_20winds',['Compass Winds',['../group___e_g_x_math-_angle_conversions-_compass_winds.html',1,'']]],
   ['conversions',['Conversions',['../group___e_g_x_math-_conversions.html',1,'']]],
   ['circumstellar_20habitable_20zone_20limit',['Circumstellar Habitable Zone Limit',['../group___e_g_x_phys-_circumstellar_habitable_zone_limit.html',1,'']]],
   ['compton_20wavelength',['Compton Wavelength',['../group___n_i_s_t_const-_compton_wavelength.html',1,'']]],

@@ -14,6 +14,7 @@ var searchData=
   ['conventionalvonklitzingconstant',['conventionalvonKlitzingConstant',['../group___n_i_s_t_const-_conventionalvon_klitzing_constant.html#gabf641ec13f8a8d63762992724dd6d670',1,'NISTConst']]],
   ['conversions_2ehpp',['Conversions.hpp',['../_conversions_8hpp.html',1,'']]],
   ['cuxunit',['CuXUnit',['../group___n_i_s_t_const-_copper.html#gaefed00ac64123e598d5c20abac22f22f',1,'NISTConst']]],
+  ['compass_20winds',['Compass Winds',['../group___e_g_x_math-_angle_conversions-_compass_winds.html',1,'']]],
   ['conversions',['Conversions',['../group___e_g_x_math-_conversions.html',1,'']]],
   ['circumstellar_20habitable_20zone_20limit',['Circumstellar Habitable Zone Limit',['../group___e_g_x_phys-_circumstellar_habitable_zone_limit.html',1,'']]],
   ['compton_20wavelength',['Compton Wavelength',['../group___n_i_s_t_const-_compton_wavelength.html',1,'']]],
