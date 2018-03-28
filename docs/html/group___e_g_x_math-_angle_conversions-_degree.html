@@ -124,7 +124,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gaabd20f21be3c18ee423d0bc1a677c6f6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gaabd20f21be3c18ee423d0bc1a677c6f6"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gaabd20f21be3c18ee423d0bc1a677c6f6">EGXMath::DegreeToIntegerDegree</a> (const T &amp;decimalDegree)</td></tr>
 <tr class="memdesc:gaabd20f21be3c18ee423d0bc1a677c6f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in (decimal) degree to integer degree. This rounds to the nearest integer. </p><p class="formulaDsp">
-\[\alpha_{deg int}=round(\alpha_{deg})\]
+\[\alpha_{deg int}=trunc(\alpha_{deg})\]
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_degree.html#gaabd20f21be3c18ee423d0bc1a677c6f6">More...</a><br /></td></tr>
 <tr class="separator:gaabd20f21be3c18ee423d0bc1a677c6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,27 +172,69 @@ Functions</h2></td></tr>
 <tr class="separator:ga31b65388fe1b4656663b3d66b9d764e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga859585939255d52d010c780c68eb6e23"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga859585939255d52d010c780c68eb6e23"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga859585939255d52d010c780c68eb6e23">EGXMath::DegreeToDegreesMinutesSeconds</a> (const T &amp;decimalDegree, T &amp;integerDegree, T &amp;arcminute, T &amp;arcsecond)</td></tr>
-<tr class="memdesc:ga859585939255d52d010c780c68eb6e23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in (decimal) degree to degrees minutes seconds (DMS). \({DD}^{\circ}{MM}&#39;{SS.SS}&#39;&#39;\) format.  <a href="group___e_g_x_math-_angle_conversions-_degree.html#ga859585939255d52d010c780c68eb6e23">More...</a><br /></td></tr>
+<tr class="memdesc:ga859585939255d52d010c780c68eb6e23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in (decimal) degree to degrees minutes seconds (DMS). \({DD}^{\circ}{MM}&#39;{SS.SS}&#39;&#39;\) format. </p><p class="formulaDsp">
+\[degree=trun(\alpha_{deg})\]
+</p>
+ <p class="formulaDsp">
+\[arcminute=trun(60 * |\alpha_{deg} - degree|)\]
+</p>
+ <p class="formulaDsp">
+\[arcsecond=60 * ((60 * |\alpha_{deg} - degree|)-arcminute)\]
+</p>
+<p>.  <a href="group___e_g_x_math-_angle_conversions-_degree.html#ga859585939255d52d010c780c68eb6e23">More...</a><br /></td></tr>
 <tr class="separator:ga859585939255d52d010c780c68eb6e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1096d04647918e20f61fb184ba2a7dce"><td class="memTemplParams" colspan="2"><a id="ga1096d04647918e20f61fb184ba2a7dce"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga1096d04647918e20f61fb184ba2a7dce"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXMath::DegreeToDMS</b> (const T &amp;decimalDegree, T &amp;integerDegree, T &amp;arcminute, T &amp;arcsecond)</td></tr>
+<tr class="memitem:ga1096d04647918e20f61fb184ba2a7dce"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga1096d04647918e20f61fb184ba2a7dce"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga1096d04647918e20f61fb184ba2a7dce">EGXMath::DegreeToDMS</a> (const T &amp;decimalDegree, T &amp;integerDegree, T &amp;arcminute, T &amp;arcsecond)</td></tr>
+<tr class="memdesc:ga1096d04647918e20f61fb184ba2a7dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in (decimal) degree to degrees minutes seconds (DMS). \({DD}^{\circ}{MM}&#39;{SS.SS}&#39;&#39;\) format. </p><p class="formulaDsp">
+\[degree=trun(\alpha_{deg})\]
+</p>
+ <p class="formulaDsp">
+\[arcminute=trun(60 * |\alpha_{deg} - degree|)\]
+</p>
+ <p class="formulaDsp">
+\[arcsecond=60 * ((60 * |\alpha_{deg} - degree|)-arcminute)\]
+</p>
+<p>.  <a href="group___e_g_x_math-_angle_conversions-_degree.html#ga1096d04647918e20f61fb184ba2a7dce">More...</a><br /></td></tr>
 <tr class="separator:ga1096d04647918e20f61fb184ba2a7dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga770b13da33b6f6c7bfa398cca7f24dbe"><td class="memTemplParams" colspan="2"><a id="ga770b13da33b6f6c7bfa398cca7f24dbe"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga770b13da33b6f6c7bfa398cca7f24dbe"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXMath::DegreeToHoursMinutesSeconds</b> (const T &amp;decimalDegree, T &amp;hour, T &amp;minute, T &amp;second)</td></tr>
+<tr class="memitem:ga770b13da33b6f6c7bfa398cca7f24dbe"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga770b13da33b6f6c7bfa398cca7f24dbe"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga770b13da33b6f6c7bfa398cca7f24dbe">EGXMath::DegreeToHoursMinutesSeconds</a> (const T &amp;decimalDegree, T &amp;hour, T &amp;minute, T &amp;second)</td></tr>
+<tr class="memdesc:ga770b13da33b6f6c7bfa398cca7f24dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in (decimal) degree to hours minutes seconds (DMS). \({HH}^{h}{MM}^{m}{SS.SS}^{s}\) format. </p><p class="formulaDsp">
+\[hour=trun(\frac{\alpha_{deg}}{15})\]
+</p>
+ <p class="formulaDsp">
+\[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\]
+</p>
+ <p class="formulaDsp">
+\[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\]
+</p>
+<p>.  <a href="group___e_g_x_math-_angle_conversions-_degree.html#ga770b13da33b6f6c7bfa398cca7f24dbe">More...</a><br /></td></tr>
 <tr class="separator:ga770b13da33b6f6c7bfa398cca7f24dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0bb223ca6e77b00439a6d910ab32d82e"><td class="memTemplParams" colspan="2"><a id="ga0bb223ca6e77b00439a6d910ab32d82e"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga0bb223ca6e77b00439a6d910ab32d82e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXMath::DegreeToHMS</b> (const T &amp;decimalDegree, T &amp;hour, T &amp;minute, T &amp;second)</td></tr>
+<tr class="memitem:ga0bb223ca6e77b00439a6d910ab32d82e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga0bb223ca6e77b00439a6d910ab32d82e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga0bb223ca6e77b00439a6d910ab32d82e">EGXMath::DegreeToHMS</a> (const T &amp;decimalDegree, T &amp;hour, T &amp;minute, T &amp;second)</td></tr>
+<tr class="memdesc:ga0bb223ca6e77b00439a6d910ab32d82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in (decimal) degree to hours minutes seconds (DMS). \({HH}^{h}{MM}^{m}{SS.SS}^{s}\) format. </p><p class="formulaDsp">
+\[hour=trun(\frac{\alpha_{deg}}{15})\]
+</p>
+ <p class="formulaDsp">
+\[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\]
+</p>
+ <p class="formulaDsp">
+\[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\]
+</p>
+<p>.  <a href="group___e_g_x_math-_angle_conversions-_degree.html#ga0bb223ca6e77b00439a6d910ab32d82e">More...</a><br /></td></tr>
 <tr class="separator:ga0bb223ca6e77b00439a6d910ab32d82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga25bb5506b3f66fff7a1b85bf7bd795b3"><td class="memTemplParams" colspan="2"><a id="ga25bb5506b3f66fff7a1b85bf7bd795b3"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga25bb5506b3f66fff7a1b85bf7bd795b3"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXMath::DegreeToGradian</b> (const T &amp;decimalDegree)</td></tr>
+<tr class="memitem:ga25bb5506b3f66fff7a1b85bf7bd795b3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga25bb5506b3f66fff7a1b85bf7bd795b3"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga25bb5506b3f66fff7a1b85bf7bd795b3">EGXMath::DegreeToGradian</a> (const T &amp;decimalDegree)</td></tr>
+<tr class="memdesc:ga25bb5506b3f66fff7a1b85bf7bd795b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in (decimal) degree to gradian. </p><p class="formulaDsp">
+\[\alpha_{g}=\alpha_{deg}\frac{10}{9}\]
+</p>
+<p>.  <a href="group___e_g_x_math-_angle_conversions-_degree.html#ga25bb5506b3f66fff7a1b85bf7bd795b3">More...</a><br /></td></tr>
 <tr class="separator:ga25bb5506b3f66fff7a1b85bf7bd795b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga87c3fab0867021e5d2501197b4db6194"><td class="memTemplParams" colspan="2"><a id="ga87c3fab0867021e5d2501197b4db6194"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga87c3fab0867021e5d2501197b4db6194"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXMath::DegreeToGon</b> (const T &amp;decimalDegree)</td></tr>
+<tr class="memitem:ga87c3fab0867021e5d2501197b4db6194"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga87c3fab0867021e5d2501197b4db6194"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga87c3fab0867021e5d2501197b4db6194">EGXMath::DegreeToGon</a> (const T &amp;decimalDegree)</td></tr>
+<tr class="memdesc:ga87c3fab0867021e5d2501197b4db6194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in radians to gradians. </p><p class="formulaDsp">
+\[\alpha_{g}=\alpha_{deg}\frac{10}{9}\]
+</p>
+<p>.  <a href="group___e_g_x_math-_angle_conversions-_degree.html#ga87c3fab0867021e5d2501197b4db6194">More...</a><br /></td></tr>
 <tr class="separator:ga87c3fab0867021e5d2501197b4db6194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5ffef873bcec300ab90570ad6e7b1ab1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga5ffef873bcec300ab90570ad6e7b1ab1"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga5ffef873bcec300ab90570ad6e7b1ab1">EGXMath::DegreeToCompassWind</a> (const T &amp;decimalDegree, const unsigned int winds, const bool abbreviate)</td></tr>
@@ -234,7 +276,13 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gaca157e7d3e99a46a11a04b92680d2574" title="Converts an angle in (decimal) degree to (decimal) degree. . ">DegreeToDegree()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radians to (decimal) degree. . ">RadianToDegree()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gafccf9cd779903872887978ab9d79661f" title="Converts an angle in (decimal) degree to decimal degree. . ">DecimalDegreeToDecimalDegree()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga0aa7f2f5dbb00cf4ab303421c6e33ccf" title="Converts an angle in (decimal) degree to (decimal) degree. . ">DecimalDegreeToDegree()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gacdd463fcabffeb598ebda65b012ce743" title="Converts an angle in (decimal) degree to (decimal) arc degree. . ">DecimalDegreeToArcdegree()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radian to (decimal) degree. . ">RadianToDegree()</a> for conversion from radians. </dd></dl>
 
 </div>
 </div>
@@ -267,7 +315,9 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{arcmin}\ (arcmin)\) is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga722e3b8e78540a6b3942b73b64aeb8d2" title="Converts an angle in radians to arcminute. Note that arcminutes are not equal to minutes. . ">RadianToArcminute()</a> for conversion from radians. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga6b6ea6e45d2a13f556824ca419cc9fbd" title="Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes...">DecimalDegreeToArcminute()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga722e3b8e78540a6b3942b73b64aeb8d2" title="Converts an angle in radian to arcminute. Note that arcminutes are not equal to minutes. . ">RadianToArcminute()</a> for conversion from radians. </dd></dl>
 
 </div>
 </div>
@@ -300,7 +350,9 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{arcsec}\ (arcsec)\) is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga2f952f6675a0fc54bf72bfe4e3d2664a" title="Converts an angle in radians to arcsecond. Note that arcsecond are not equal to seconds. . ">RadianToArcsecond()</a> for conversion from radians. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gab9d5635a6e35127b5245978aba508962" title="Converts an angle in (decimal) degree to arcsecond. Note that arcsecond are not equal to seconds...">DecimalDegreeToArcsecond()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga2f952f6675a0fc54bf72bfe4e3d2664a" title="Converts an angle in radian to arcsecond. Note that arcsecond are not equal to seconds. . ">RadianToArcsecond()</a> for conversion from radians. </dd></dl>
 
 </div>
 </div>
@@ -348,7 +400,9 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(point\ name\ (dimensionless)\) is the name of the compass point. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga5ffef873bcec300ab90570ad6e7b1ab1" title="Converts an angle in (decimal) degree to a n-Wind compass point name. ">DegreeToCompassWind()</a> for full explination of conversion. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga5ffef873bcec300ab90570ad6e7b1ab1" title="Converts an angle in (decimal) degree to a n-Wind compass point name. ">DegreeToCompassWind()</a> for full explination of conversion. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga415a94651a2b2397b7f2bda90a19ee2c" title="Converts an angle in (decimal) degree to a n-Wind compass point name. ">DecimalDegreeToCompassWind()</a> for alias. </dd></dl>
 
 </div>
 </div>
@@ -385,7 +439,13 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gac1b5f3b68f66c77a6df4ceef842c9b19" title="Converts an angle in (decimal) degree to (decimal) arc degree. . ">DegreeToArcdegree()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radians to (decimal) degree. . ">RadianToDegree()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga0aa7f2f5dbb00cf4ab303421c6e33ccf" title="Converts an angle in (decimal) degree to (decimal) degree. . ">DecimalDegreeToDegree()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gacdd463fcabffeb598ebda65b012ce743" title="Converts an angle in (decimal) degree to (decimal) arc degree. . ">DecimalDegreeToArcdegree()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gafccf9cd779903872887978ab9d79661f" title="Converts an angle in (decimal) degree to decimal degree. . ">DecimalDegreeToDecimalDegree()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radian to (decimal) degree. . ">RadianToDegree()</a> for conversion from radians. </dd></dl>
 
 </div>
 </div>
@@ -422,7 +482,11 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gac1b5f3b68f66c77a6df4ceef842c9b19" title="Converts an angle in (decimal) degree to (decimal) arc degree. . ">DegreeToArcdegree()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radians to (decimal) degree. . ">RadianToDegree()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gafccf9cd779903872887978ab9d79661f" title="Converts an angle in (decimal) degree to decimal degree. . ">DecimalDegreeToDecimalDegree()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gacdd463fcabffeb598ebda65b012ce743" title="Converts an angle in (decimal) degree to (decimal) arc degree. . ">DecimalDegreeToArcdegree()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radian to (decimal) degree. . ">RadianToDegree()</a> for conversion from radians. </dd></dl>
 
 </div>
 </div>
@@ -466,19 +530,320 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Converts an angle in (decimal) degree to degrees minutes seconds (DMS). \({DD}^{\circ}{MM}&#39;{SS.SS}&#39;&#39;\) format. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Converts an angle in (decimal) degree to degrees minutes seconds (DMS). \({DD}^{\circ}{MM}&#39;{SS.SS}&#39;&#39;\) format. </p><p class="formulaDsp">
+\[degree=trun(\alpha_{deg})\]
+</p>
+ <p class="formulaDsp">
+\[arcminute=trun(60 * |\alpha_{deg} - degree|)\]
+</p>
+ <p class="formulaDsp">
+\[arcsecond=60 * ((60 * |\alpha_{deg} - degree|)-arcminute)\]
+</p>
+<p>. </p>
+<p>Where trunc is the integer truncation command.</p>
+<p>See <a href="https://en.wikipedia.org/wiki/Geographic_coordinate_conversion">https://en.wikipedia.org/wiki/Geographic_coordinate_conversion</a> and <a href="https://en.wikipedia.org/wiki/Minute_and_second_of_arc">https://en.wikipedia.org/wiki/Minute_and_second_of_arc</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">decimalDegree</td><td>\(\alpha_{deg}\ (deg)\) is the angle in (decimal) degrees. </td></tr>
     <tr><td class="paramname">integerDegree</td><td>\(degree\ (deg int)\) is the angle in integer degrees. </td></tr>
-    <tr><td class="paramname">arcminute</td><td>\(arcminute\ (arcmin)\) is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. </td></tr>
-    <tr><td class="paramname">arcsecond</td><td>\(arcsecond\ (arcsec)\) is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. </td></tr>
+    <tr><td class="paramname">arcminute</td><td>\(arcminute\ (arcmin)\) is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. </td></tr>
+    <tr><td class="paramname">arcsecond</td><td>\(arcsecond\ (arcsec)\) is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga859585939255d52d010c780c68eb6e23" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format. ">DegreeToDegreesMinutesSeconds()</a> for conversion from (decimal) degrees and full explination. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga859585939255d52d010c780c68eb6e23" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DegreeToDegreesMinutesSeconds()</a> for conversion from (decimal) degrees and full explination. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gaf80be0c5c65ccaa5544a08a7754f3575" title="Converts an angle in radians to degrees minutes seconds (DMS).  format. ">RadianToDMS()</a> for alias. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gadae98c255924fdc8b232b6539eae81a9" title="Converts an angle in radian to degrees minutes seconds (DMS).  format. ">RadianToDegreesMinutesSeconds()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga1096d04647918e20f61fb184ba2a7dce" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DegreeToDMS()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gac5a5255c8d120f71b60d8f60de1a1b6e" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DecimalDegreeToDegreesMinutesSeconds()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga64a1b298ce16e9edf3209b678a7bed46" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DecimalDegreeToDMS()</a> for alias. </dd></dl>
+
+</div>
+</div>
+<a id="ga1096d04647918e20f61fb184ba2a7dce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1096d04647918e20f61fb184ba2a7dce">&#9670;&nbsp;</a></span>DegreeToDMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void EGXMath::DegreeToDMS </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>decimalDegree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>integerDegree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>arcminute</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>arcsecond</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an angle in (decimal) degree to degrees minutes seconds (DMS). \({DD}^{\circ}{MM}&#39;{SS.SS}&#39;&#39;\) format. </p><p class="formulaDsp">
+\[degree=trun(\alpha_{deg})\]
+</p>
+ <p class="formulaDsp">
+\[arcminute=trun(60 * |\alpha_{deg} - degree|)\]
+</p>
+ <p class="formulaDsp">
+\[arcsecond=60 * ((60 * |\alpha_{deg} - degree|)-arcminute)\]
+</p>
+<p>. </p>
+<p>Where trunc is the integer truncation command. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">decimalDegree</td><td>\(\alpha_{deg}\ (deg)\) is the angle in (decimal) degrees. </td></tr>
+    <tr><td class="paramname">integerDegree</td><td>\(degree\ (deg int)\) is the angle in integer degrees. </td></tr>
+    <tr><td class="paramname">arcminute</td><td>\(arcminute\ (arcmin)\) is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. </td></tr>
+    <tr><td class="paramname">arcsecond</td><td>\(arcsecond\ (arcsec)\) is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga859585939255d52d010c780c68eb6e23" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DegreeToDegreesMinutesSeconds()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gac5a5255c8d120f71b60d8f60de1a1b6e" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DecimalDegreeToDegreesMinutesSeconds()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga64a1b298ce16e9edf3209b678a7bed46" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DecimalDegreeToDMS()</a> for alias. </dd></dl>
+
+</div>
+</div>
+<a id="ga87c3fab0867021e5d2501197b4db6194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga87c3fab0867021e5d2501197b4db6194">&#9670;&nbsp;</a></span>DegreeToGon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXMath::DegreeToGon </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>decimalDegree</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an angle in radians to gradians. </p><p class="formulaDsp">
+\[\alpha_{g}=\alpha_{deg}\frac{10}{9}\]
+</p>
+<p>. </p>
+<p>See <a href="https://en.wikipedia.org/wiki/Gradian">https://en.wikipedia.org/wiki/Gradian</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">decimalDegree</td><td>\(\alpha_{deg}\ (deg)\) is the angle in (decimal) degrees. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(\alpha_{g}\ (g)\) is the angle in gradians. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga25bb5506b3f66fff7a1b85bf7bd795b3" title="Converts an angle in (decimal) degree to gradian. . ">DegreeToGradian()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga3ac6f1ceb36a4938cdf3b55554734c99" title="Converts an angle in (decimal) degree to gradian. . ">DecimalDegreeToGradian()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaeb333a1ad0aeb913c025fbd1be85fcb3" title="Converts an angle in radians to gradians. . ">DecimalDegreeToGon()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga36912e5a810b64c271c4dafc17f4ca45" title="Converts an angle in radian to gradian. . ">RadianToGon()</a> for conversion from radians. </dd></dl>
+
+</div>
+</div>
+<a id="ga25bb5506b3f66fff7a1b85bf7bd795b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga25bb5506b3f66fff7a1b85bf7bd795b3">&#9670;&nbsp;</a></span>DegreeToGradian()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXMath::DegreeToGradian </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>decimalDegree</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an angle in (decimal) degree to gradian. </p><p class="formulaDsp">
+\[\alpha_{g}=\alpha_{deg}\frac{10}{9}\]
+</p>
+<p>. </p>
+<p>See <a href="https://en.wikipedia.org/wiki/Gradian">https://en.wikipedia.org/wiki/Gradian</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">decimalDegree</td><td>\(\alpha_{deg}\ (deg)\) is the angle in (decimal) degrees. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(\alpha_{g}\ (g)\) is the angle in gradians. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga87c3fab0867021e5d2501197b4db6194" title="Converts an angle in radians to gradians. . ">DegreeToGon()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga3ac6f1ceb36a4938cdf3b55554734c99" title="Converts an angle in (decimal) degree to gradian. . ">DecimalDegreeToGradian()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaeb333a1ad0aeb913c025fbd1be85fcb3" title="Converts an angle in radians to gradians. . ">DecimalDegreeToGon()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3c1607eae50cbf0186c42485bb3878d5" title="Converts an angle in radian to gradian. . ">RadianToGradian()</a> for conversion from radians. </dd></dl>
+
+</div>
+</div>
+<a id="ga0bb223ca6e77b00439a6d910ab32d82e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0bb223ca6e77b00439a6d910ab32d82e">&#9670;&nbsp;</a></span>DegreeToHMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void EGXMath::DegreeToHMS </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>decimalDegree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>hour</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>minute</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an angle in (decimal) degree to hours minutes seconds (DMS). \({HH}^{h}{MM}^{m}{SS.SS}^{s}\) format. </p><p class="formulaDsp">
+\[hour=trun(\frac{\alpha_{deg}}{15})\]
+</p>
+ <p class="formulaDsp">
+\[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\]
+</p>
+ <p class="formulaDsp">
+\[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\]
+</p>
+<p>. </p>
+<p>See and <a href="https://en.wikipedia.org/wiki/Right_ascension">https://en.wikipedia.org/wiki/Right_ascension</a> and <a href="https://en.wikipedia.org/wiki/Hour_angle">https://en.wikipedia.org/wiki/Hour_angle</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">decimalDegree</td><td>\(\alpha_{deg}\ (deg)\) is the angle in (decimal) degrees. </td></tr>
+    <tr><td class="paramname">hour</td><td>\(hour\ (hour)\) is the angle in hours. </td></tr>
+    <tr><td class="paramname">minute</td><td>\(minute\ (min)\) is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. </td></tr>
+    <tr><td class="paramname">second</td><td>\(second\ (sec)\) is the angle in seconds. Note that this is 1/60 of a minute, not arcminute. It is not equal to arcseconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga770b13da33b6f6c7bfa398cca7f24dbe" title="Converts an angle in (decimal) degree to hours minutes seconds (DMS).  format.   . ">DegreeToHoursMinutesSeconds()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaa3f0b6c7c497882935487ad2d55a0f5a" title="Converts an angle in (decimal) degree to hours minutes seconds (DMS).  format.   . ">DecimalDegreeToHoursMinutesSeconds()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga981b48f16766590641360ca98dfa7b8c" title="Converts an angle in (decimal) degree to hours minutes seconds (DMS).  format.   . ">DecimalDegreeToHMS()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga55b5fba9307f34ab8db57391789a90cc" title="Converts an angle in radian to hours minutes seconds (HMS).  format. ">RadianToHMS()</a> for conversion from radians. </dd></dl>
+
+</div>
+</div>
+<a id="ga770b13da33b6f6c7bfa398cca7f24dbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga770b13da33b6f6c7bfa398cca7f24dbe">&#9670;&nbsp;</a></span>DegreeToHoursMinutesSeconds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void EGXMath::DegreeToHoursMinutesSeconds </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>decimalDegree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>hour</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>minute</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an angle in (decimal) degree to hours minutes seconds (DMS). \({HH}^{h}{MM}^{m}{SS.SS}^{s}\) format. </p><p class="formulaDsp">
+\[hour=trun(\frac{\alpha_{deg}}{15})\]
+</p>
+ <p class="formulaDsp">
+\[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\]
+</p>
+ <p class="formulaDsp">
+\[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\]
+</p>
+<p>. </p>
+<p>See and <a href="https://en.wikipedia.org/wiki/Right_ascension">https://en.wikipedia.org/wiki/Right_ascension</a> and <a href="https://en.wikipedia.org/wiki/Hour_angle">https://en.wikipedia.org/wiki/Hour_angle</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">decimalDegree</td><td>\(\alpha_{deg}\ (deg)\) is the angle in (decimal) degrees. </td></tr>
+    <tr><td class="paramname">hour</td><td>\(hour\ (hour)\) is the angle in hours. </td></tr>
+    <tr><td class="paramname">minute</td><td>\(minute\ (min)\) is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. </td></tr>
+    <tr><td class="paramname">second</td><td>\(second\ (sec)\) is the angle in seconds. Note that this is 1/60 of a minute, not arcminute. It is not equal to arcseconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga770b13da33b6f6c7bfa398cca7f24dbe" title="Converts an angle in (decimal) degree to hours minutes seconds (DMS).  format.   . ">DegreeToHoursMinutesSeconds()</a> for conversion from (decimal) degrees and full explination. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga0bb223ca6e77b00439a6d910ab32d82e" title="Converts an angle in (decimal) degree to hours minutes seconds (DMS).  format.   . ">DegreeToHMS()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaa3f0b6c7c497882935487ad2d55a0f5a" title="Converts an angle in (decimal) degree to hours minutes seconds (DMS).  format.   . ">DecimalDegreeToHoursMinutesSeconds()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga981b48f16766590641360ca98dfa7b8c" title="Converts an angle in (decimal) degree to hours minutes seconds (DMS).  format.   . ">DecimalDegreeToHMS()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gadae98c255924fdc8b232b6539eae81a9" title="Converts an angle in radian to degrees minutes seconds (DMS).  format. ">RadianToDegreesMinutesSeconds()</a> for conversion from radians. </dd></dl>
 
 </div>
 </div>
@@ -501,7 +866,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Converts an angle in (decimal) degree to integer degree. This rounds to the nearest integer. </p><p class="formulaDsp">
-\[\alpha_{deg int}=round(\alpha_{deg})\]
+\[\alpha_{deg int}=trunc(\alpha_{deg})\]
 </p>
 <p>. </p>
 <p>See <a href="https://en.wikipedia.org/wiki/Degree_(angle)">https://en.wikipedia.org/wiki/Degree_(angle)</a> and <a href="https://en.wikipedia.org/wiki/Decimal_degrees">https://en.wikipedia.org/wiki/Decimal_degrees</a> </p><dl class="params"><dt>Parameters</dt><dd>
@@ -511,7 +876,9 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{deg int}\ (deg int)\) is the angle in integer degree. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>RadianToIntegerDegree() for conversion from radians. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>DecimalDegreeIntegerDegree() for alias. </dd>
+<dd>
+RadianToIntegerDegree() for conversion from radians. </dd></dl>
 
 </div>
 </div>
@@ -544,7 +911,9 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{\mu as}\ (\mu as)\) is the angle in microarcseconds. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3a515ca2838a305fa40750763f546a86" title="Converts an angle in radians to microarcsecond. . ">RadianToMicroarcsecond()</a> for conversion from radians. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga6fa88456069907fd24716fa575517571" title="Converts an angle in (decimal) degree to microarcsecond. . ">DecimalDegreeToMicroarcsecond()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3a515ca2838a305fa40750763f546a86" title="Converts an angle in radian to microarcsecond. . ">RadianToMicroarcsecond()</a> for conversion from radians. </dd></dl>
 
 </div>
 </div>
@@ -577,7 +946,9 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{mas}\ (mas)\) is the angle in milliarcseconds. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga84fbb494a455cfeb30be62776f96c9a9" title="Converts an angle in radians to milliarcsecond. . ">RadianToMilliarcsecond()</a> for conversion from radians. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gadb9ff3c92cf7484793f91e7de80c222e" title="Converts an angle in (decimal) degree to milliarcsecond. . ">DecimalDegreeToMilliarcsecond()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga84fbb494a455cfeb30be62776f96c9a9" title="Converts an angle in radian to milliarcsecond. . ">RadianToMilliarcsecond()</a> for conversion from radians. </dd></dl>
 
 </div>
 </div>
@@ -610,11 +981,11 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{mrad}\ (mrad)\) is the angle in milliradians. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>DecimalDegreeToMilliradian() for alias. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gab567d02d4692d9642a4ad219e479713a" title="Converts an angle in (decimal) degrees to milliradians. . ">DecimalDegreeToMilliradian()</a> for alias. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0" title="Converts an angle in (decimal) degrees to radians. . ">DegreeToRadian()</a> for conversion to radians. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1" title="Converts an angle in radians to milliradians. . ">RadianToMilliradian()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1" title="Converts an angle in radian to milliradian. . ">RadianToMilliradian()</a> for conversion from radians. </dd></dl>
 
 </div>
 </div>
@@ -647,11 +1018,11 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{rad}\ (rad)\) is the angle in radians. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>DecimalDegreeToRadian() for alias. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga906ee2c83cdf4caa59eb613dc2d5d52a" title="Converts an angle in (decimal) degrees to radians. . ">DecimalDegreeToRadian()</a> for alias. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gae4fa6c2d3805430760783650cfbfdb11" title="Converts an angle in (decimal) degrees to milliradians. . ">DegreeToMilliradian()</a> for conversion to milliradians. </dd>
 <dd>
-IntegerDegreeToRadian() for result as integer. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga05d3368b00ea27b9895de2ffe5c8df38" title="Converts an angle in integer degrees to radians. . ">IntegerDegreeToRadian()</a> for result as integer. </dd></dl>
 
 </div>
 </div>

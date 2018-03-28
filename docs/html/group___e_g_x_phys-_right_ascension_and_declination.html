@@ -100,30 +100,46 @@ $(document).ready(function(){initNavTree('group___e_g_x_phys-_right_ascension_an
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga25cb93de046663967af01d6687c423ae"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga25cb93de046663967af01d6687c423ae"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_right_ascension_and_declination.html#ga25cb93de046663967af01d6687c423ae">EGXPhys::RightAscensionToRadians</a> (const T hours, const T minutes, const T seconds)</td></tr>
-<tr class="memdesc:ga25cb93de046663967af01d6687c423ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts right ascensions \((\alpha)\) from hours \((RA_h)\), minutes \((RA_m)\) and seconds \((RA_s)\) to radians. </p><p class="formulaDsp">
+<tr class="memitem:ga30e95e529dac871efc014c8ca0108c0d"><td class="memTemplParams" colspan="2"><a id="ga30e95e529dac871efc014c8ca0108c0d"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga30e95e529dac871efc014c8ca0108c0d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::RightAscensionToDegree</b> (const T &amp;hours, const T &amp;minutes, const T &amp;seconds)</td></tr>
+<tr class="separator:ga30e95e529dac871efc014c8ca0108c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabdd9d1c686dd5e2580518f526b78295f"><td class="memTemplParams" colspan="2"><a id="gabdd9d1c686dd5e2580518f526b78295f"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gabdd9d1c686dd5e2580518f526b78295f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::DegreeToRightAscension</b> (const T &amp;decimalDegree, T &amp;hours, T &amp;minutes, T &amp;seconds)</td></tr>
+<tr class="separator:gabdd9d1c686dd5e2580518f526b78295f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadcadb4f709a5115a8edb18c872af9eda"><td class="memTemplParams" colspan="2"><a id="gadcadb4f709a5115a8edb18c872af9eda"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gadcadb4f709a5115a8edb18c872af9eda"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::DeclinationToDegree</b> (const T &amp;integerDegrees, const T &amp;arcminutes, const T &amp;arcseconds)</td></tr>
+<tr class="separator:gadcadb4f709a5115a8edb18c872af9eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f3c37a00f59722857bcd4e6acd01865"><td class="memTemplParams" colspan="2"><a id="ga4f3c37a00f59722857bcd4e6acd01865"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga4f3c37a00f59722857bcd4e6acd01865"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::DegreeToDeclination</b> (const T &amp;decimalDegree, T &amp;degrees, T &amp;arcminutes, T &amp;arcseconds)</td></tr>
+<tr class="separator:ga4f3c37a00f59722857bcd4e6acd01865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad90de181361375b745a9b226fa13ba14"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gad90de181361375b745a9b226fa13ba14"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_right_ascension_and_declination.html#gad90de181361375b745a9b226fa13ba14">EGXPhys::RightAscensionToRadian</a> (const T &amp;hours, const T &amp;minutes, const T &amp;seconds)</td></tr>
+<tr class="memdesc:gad90de181361375b745a9b226fa13ba14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts right ascensions \((\alpha)\) from hours \((RA_h)\), minutes \((RA_m)\) and seconds \((RA_s)\) to radians. </p><p class="formulaDsp">
 \[\alpha=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\]
 </p>
-<p> See <a href="http://en.wikipedia.org/wiki/Right_ascension,">http://en.wikipedia.org/wiki/Right_ascension,</a> <a href="http://en.wikipedia.org/wiki/Sidereal_hour_angle">http://en.wikipedia.org/wiki/Sidereal_hour_angle</a>.  <a href="group___e_g_x_phys-_right_ascension_and_declination.html#ga25cb93de046663967af01d6687c423ae">More...</a><br /></td></tr>
-<tr class="separator:ga25cb93de046663967af01d6687c423ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1c7b757d2841b5ec067c87403e9b8867"><td class="memTemplParams" colspan="2"><a id="ga1c7b757d2841b5ec067c87403e9b8867"></a>
+<p> See <a href="http://en.wikipedia.org/wiki/Right_ascension,">http://en.wikipedia.org/wiki/Right_ascension,</a> <a href="http://en.wikipedia.org/wiki/Sidereal_hour_angle">http://en.wikipedia.org/wiki/Sidereal_hour_angle</a>.  <a href="group___e_g_x_phys-_right_ascension_and_declination.html#gad90de181361375b745a9b226fa13ba14">More...</a><br /></td></tr>
+<tr class="separator:gad90de181361375b745a9b226fa13ba14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga50c306a7d118d3b3c02bc3621e1cb078"><td class="memTemplParams" colspan="2"><a id="ga50c306a7d118d3b3c02bc3621e1cb078"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga1c7b757d2841b5ec067c87403e9b8867"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::RadiansToRightAscension</b> (const T radians, T &amp;hours, T &amp;minutes, T &amp;seconds)</td></tr>
-<tr class="separator:ga1c7b757d2841b5ec067c87403e9b8867"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga11a658bf9e00f4cb1682cda005ad39dc"><td class="memTemplParams" colspan="2"><a id="ga11a658bf9e00f4cb1682cda005ad39dc"></a>
+<tr class="memitem:ga50c306a7d118d3b3c02bc3621e1cb078"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::RadianToRightAscension</b> (const T &amp;radians, T &amp;hours, T &amp;minutes, T &amp;seconds)</td></tr>
+<tr class="separator:ga50c306a7d118d3b3c02bc3621e1cb078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeddd0fbc1c695863bf2bbc2a948b9b59"><td class="memTemplParams" colspan="2"><a id="gaeddd0fbc1c695863bf2bbc2a948b9b59"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga11a658bf9e00f4cb1682cda005ad39dc"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::DeclinationToRadians</b> (const T degrees, const T arcminutes, const T arcseconds)</td></tr>
-<tr class="separator:ga11a658bf9e00f4cb1682cda005ad39dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad144150a085ddfeda10f1948f16b0a3e"><td class="memTemplParams" colspan="2"><a id="gad144150a085ddfeda10f1948f16b0a3e"></a>
+<tr class="memitem:gaeddd0fbc1c695863bf2bbc2a948b9b59"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::DeclinationToRadian</b> (const T &amp;integerDegrees, const T &amp;arcminutes, const T &amp;arcseconds)</td></tr>
+<tr class="separator:gaeddd0fbc1c695863bf2bbc2a948b9b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa91fc4b5a4ac9e9dc94aff7b8f6f9bd1"><td class="memTemplParams" colspan="2"><a id="gaa91fc4b5a4ac9e9dc94aff7b8f6f9bd1"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gad144150a085ddfeda10f1948f16b0a3e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::DeclinationToRadians</b> (const T &amp;radians, T &amp;degrees, T &amp;arcminutes, T &amp;arcseconds)</td></tr>
-<tr class="separator:gad144150a085ddfeda10f1948f16b0a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa91fc4b5a4ac9e9dc94aff7b8f6f9bd1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::RadianToDeclination</b> (const T &amp;radians, T &amp;degrees, T &amp;arcminutes, T &amp;arcseconds)</td></tr>
+<tr class="separator:gaa91fc4b5a4ac9e9dc94aff7b8f6f9bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga25cb93de046663967af01d6687c423ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga25cb93de046663967af01d6687c423ae">&#9670;&nbsp;</a></span>RightAscensionToRadians()</h2>
+<a id="gad90de181361375b745a9b226fa13ba14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad90de181361375b745a9b226fa13ba14">&#9670;&nbsp;</a></span>RightAscensionToRadian()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -131,21 +147,21 @@ template&lt;typename T &gt; </td></tr>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T EGXPhys::RightAscensionToRadians </td>
+          <td class="memname">T EGXPhys::RightAscensionToRadian </td>
           <td>(</td>
-          <td class="paramtype">const T&#160;</td>
+          <td class="paramtype">const T &amp;&#160;</td>
           <td class="paramname"><em>hours</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T&#160;</td>
+          <td class="paramtype">const T &amp;&#160;</td>
           <td class="paramname"><em>minutes</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T&#160;</td>
+          <td class="paramtype">const T &amp;&#160;</td>
           <td class="paramname"><em>seconds</em>&#160;</td>
         </tr>
         <tr>

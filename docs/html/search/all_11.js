@@ -34,7 +34,7 @@ var searchData=
   ['relativityconstants_2ehpp',['RelativityConstants.hpp',['../_relativity_constants_8hpp.html',1,'']]],
   ['rightascensionanddeclination_2ehpp',['RightAscensionAndDeclination.hpp',['../_right_ascension_and_declination_8hpp.html',1,'']]],
   ['rightascensionanddeclination_2einl',['RightAscensionAndDeclination.inl',['../_right_ascension_and_declination_8inl.html',1,'']]],
-  ['rightascensiontoradians',['RightAscensionToRadians',['../group___e_g_x_phys-_right_ascension_and_declination.html#ga25cb93de046663967af01d6687c423ae',1,'EGXPhys']]],
+  ['rightascensiontoradian',['RightAscensionToRadian',['../group___e_g_x_phys-_right_ascension_and_declination.html#gad90de181361375b745a9b226fa13ba14',1,'EGXPhys']]],
   ['rydbergconstant',['RydbergConstant',['../group___n_i_s_t_const-_rydberg_constant.html#gaa434f78f9fead2fcf2e129a137853e26',1,'NISTConst']]],
   ['rydbergconstanttimescinhz',['RydbergConstantTimescInHz',['../group___n_i_s_t_const-_rydberg_constant.html#ga473e14f2663eccecd987928be1d512ad',1,'NISTConst']]],
   ['rydbergconstanttimeshcinev',['RydbergConstantTimeshcIneV',['../group___n_i_s_t_const-_rydberg_constant.html#ga77c7dd314342e7f121d9b8775a45d20f',1,'NISTConst']]],
