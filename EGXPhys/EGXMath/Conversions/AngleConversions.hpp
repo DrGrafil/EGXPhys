@@ -149,7 +149,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to arcsecond. Note that arcsecond are not equal to seconds.
-	*		\f[\alpha_{arcsec}=60 * 60 * \alpha_{rad}\f]
+	*		\f[\alpha_{arcsec}=60 * 60 * \alpha_{deg}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
@@ -436,7 +436,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to arcsecond. Note that arcsecond are not equal to seconds.
-	*		\f[\alpha_{arcsec}=60 * 60 * \alpha_{rad}\f]
+	*		\f[\alpha_{arcsec}=60 * 60 * \alpha_{deg}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
@@ -624,7 +624,7 @@ namespace EGXMath
 	*		\f[\alpha_{rad}=\alpha_{deg\ int}\frac{\pi}{180}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Radian
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in decimal degrees.
 	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*	@see DecimalDegreeToRadian() for alias.
 	*	@see DegreeToMilliradian() for conversion to milliradians.
@@ -635,10 +635,10 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in integer degrees to milliradians.
-	*		\f[\alpha_{mrad}=\alpha_{degint}\frac{\pi}{180}*10^3\f]
+	*		\f[\alpha_{mrad}=\alpha_{deg\ int}\frac{\pi}{180}*10^3\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Milliradian
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in decimal degrees.
 	*   @return \f$\alpha_{mrad}\ (mrad)\f$ is the angle in milliradians.
 	*	@see DecimalDegreeToMilliradian() for alias.
 	*	@see DegreeToRadian() for conversion to radians.
@@ -649,10 +649,10 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to (decimal) degree.
-	*		\f[\alpha_{deg}=\alpha_{deg int}\f]
+	*		\f[\alpha_{deg}=\alpha_{deg\ int}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in (decimal) degree.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
 	*	@see DegreeToDecimalDegree() for alias.
 	*	@see DegreeToArcdegree() for alias.
@@ -665,11 +665,11 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to integer degree. This rounds to the nearest integer.
-	*		\f[\alpha_{deg int}=trunc(\alpha_{deg int})\f]
+	*		\f[\alpha_{deg}=trunc(\alpha_{deg int})\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
-	*   @return \f$\alpha_{deg int}\ (deg int)\f$ is the angle in integer degree.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degree.
+	*   @return \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degree.
 	*	@see DecimalDegreeIntegerDegree() for alias.
 	*	@see RadianToIntegerDegree() for conversion from radians.
 	*/
@@ -679,10 +679,10 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to decimal degree.
-	*		\f[\alpha_{deg}=\alpha_{deg}\f]
+	*		\f[\alpha_{deg}=\alpha_{deg\ int}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degree.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degree.
 	*	@see DegreeToDegree() for alias.
 	*	@see DegreeToArcdegree() for alias.
@@ -696,10 +696,10 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to (decimal) arc degree.
-	*		\f[\alpha_{deg}=\alpha_{deg}\f]
+	*		\f[\alpha_{deg}=\alpha_{deg\ int}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) arc degree.
 	*	@see DegreeToDecimalDegree() for alias.
 	*	@see DegreeToDegree() for alias.
@@ -713,10 +713,10 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes.
-	*		\f[\alpha_{arcmin}= 60 * \alpha_{deg}\f]
+	*		\f[\alpha_{arcmin}= 60 * \alpha_{deg\ int}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{arcmin}\ (arcmin)\f$ is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*	@see DecimalDegreeToArcminute() for alias.
 	*	@see RadianToArcminute() for conversion from radians.
@@ -726,10 +726,10 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to arcsecond. Note that arcsecond are not equal to seconds.
-	*		\f[\alpha_{arcsec}=60 * 60 * \alpha_{rad}\f]
+	*		\f[\alpha_{arcsec}=60 * 60 * \alpha_{deg\ int}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{arcsec}\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
 	*	@see DecimalDegreeToArcsecond() for alias.
 	*	@see RadianToArcsecond() for conversion from radians.
@@ -739,10 +739,10 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to milliarcsecond.
-	*		\f[\alpha_{mas}=60 * 60 * 10^3 * \alpha_{deg} \f]
+	*		\f[\alpha_{mas}=60 * 60 * 10^3 * \alpha_{deg\ int} \f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{mas}\ (mas)\f$ is the angle in milliarcseconds.
 	*	@see DecimalDegreeToMilliarcsecond() for alias.
 	*	@see RadianToMilliarcsecond() for conversion from radians.
@@ -753,10 +753,10 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to microarcsecond.
-	*		\f[\alpha_{\mu as}=60 * 60 * 10^6 * \alpha_{deg}\f]
+	*		\f[\alpha_{\mu as}=60 * 60 * 10^6 * \alpha_{deg\ int}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{\mu as}\ (\mu as)\f$ is the angle in microarcseconds.
 	*	@see DecimalDegreeToMicroarcsecond() for alias.
 	*	@see RadianToMicroarcsecond() for conversion from radians.
@@ -766,15 +766,15 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
-	*		\f[degree=trun(\alpha_{deg})\f]
-	*		\f[arcminute=trun(60 * |\alpha_{deg} - degree|)\f]
-	*		\f[arcsecond=60 * ((60 * |\alpha_{deg} - degree|)-arcminute)\f]
+	*		\f[degree=\alpha_{deg\ int}\f]
+	*		\f[arcminute= 0\f]
+	*		\f[arcsecond= 0\f]
 	*
 	*	Where trunc is the integer truncation command.
 	*
 	*	See https://en.wikipedia.org/wiki/Geographic_coordinate_conversion and https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
-	*	@param integerDegree \f$degree\ (deg int)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
+	*	@param degree \f$degree\ (deg\ int)\f$ is the angle in integer degrees.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
 	*	@see DegreeToDegreesMinutesSeconds() for conversion from integer degrees and full explination.
@@ -788,13 +788,13 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
-	*		\f[degree=trun(\alpha_{deg})\f]
-	*		\f[arcminute=trun(60 * |\alpha_{deg} - degree|)\f]
-	*		\f[arcsecond=60 * ((60 * |\alpha_{deg} - degree|)-arcminute)\f]
+	*		\f[degree=\alpha_{deg\ int}\f]
+	*		\f[arcminute= 0\f]
+	*		\f[arcsecond= 0\f]
 	*
 	*	Where trunc is the integer truncation command.
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
-	*	@param integerDegree \f$degree\ (deg int)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
+	*	@param degree \f$degree\ (deg int)\f$ is the angle in integer degrees.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
 	*	@see DegreeToDegreesMinutesSeconds() for alias.
@@ -806,12 +806,12 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to hours minutes seconds (DMS). \f${HH}^{h}{MM}^{m}{SS.SS}^{s}\f$ format.
-	*		\f[hour=trun(\frac{\alpha_{deg}}{15})\f]
-	*		\f[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\f]
-	*		\f[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\f]
+	*		\f[hour=trun(\frac{\alpha_{deg\ int}}{15})\f]
+	*		\f[minute=trun(60 * |\frac{\alpha_{deg\ int}}{15} - hour|)\f]
+	*		\f[second=60 * ((60 * |\frac{\alpha_{deg\ int}}{15} - hour|)-minute)\f]
 	*
 	*	See and https://en.wikipedia.org/wiki/Right_ascension and https://en.wikipedia.org/wiki/Hour_angle
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*	@param hour \f$hour\ (hour)\f$ is the angle in hours.
 	*	@param minute \f$minute\ (min)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
 	*   @param second \f$second\ (sec)\f$ is the angle in seconds. Note that this is 1/60 of a minute, not arcminute. It is not equal to arcseconds.
@@ -827,12 +827,12 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to hours minutes seconds (DMS). \f${HH}^{h}{MM}^{m}{SS.SS}^{s}\f$ format.
-	*		\f[hour=trun(\frac{\alpha_{deg}}{15})\f]
-	*		\f[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\f]
-	*		\f[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\f]
+	*		\f[hour=trun(\frac{\alpha_{deg\ int}}{15})\f]
+	*		\f[minute=trun(60 * |\frac{\alpha_{deg\ int}}{15} - hour|)\f]
+	*		\f[second=60 * ((60 * |\frac{\alpha_{deg\ int}}{15} - hour|)-minute)\f]
 	*
 	*	See and https://en.wikipedia.org/wiki/Right_ascension and https://en.wikipedia.org/wiki/Hour_angle
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*	@param hour \f$hour\ (hour)\f$ is the angle in hours.
 	*	@param minute \f$minute\ (min)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
 	*   @param second \f$second\ (sec)\f$ is the angle in seconds. Note that this is 1/60 of a minute, not arcminute. It is not equal to arcseconds.
@@ -846,10 +846,10 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to gradian.
-	*		\f[\alpha_{g}=\alpha_{deg}\frac{10}{9}\f]
+	*		\f[\alpha_{g}=\alpha_{deg\ int}\frac{10}{9}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Gradian
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see DegreeToGon() for alias.
 	*	@see DecimalDegreeToGradian() for alias.
@@ -861,10 +861,10 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in radians to gradians.
-	*		\f[\alpha_{g}=\alpha_{deg}\frac{10}{9}\f]
+	*		\f[\alpha_{g}=\alpha_{deg\ int}\frac{10}{9}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Gradian
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see DegreeToGradian() for alias.
 	*	@see DecimalDegreeToGradian() for alias.
@@ -879,7 +879,7 @@ namespace EGXMath
 	*   @brief Converts an angle in (decimal) degree to a n-Wind compass point name.
 	*
 	*	See https://en.wikipedia.org/wiki/Points_of_the_compass
-	*   @param integerDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in integer degrees.
+	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*	@param winds \f$winds\ (int)\f$ The number of points(names) that the compass should have. Must be 2,4,8,16 or 32.
 	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
 	*   @return \f$point\ name\ (dimensionless)\f$ is the name of the compass point.
