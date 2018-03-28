@@ -25,7 +25,7 @@ namespace EGXMath {
 
 	template<typename T>
 	T DegreeToIntegerDegree(const T& decimalDegree) {
-		return std::trunc(decimalDegree);
+		return std::round(decimalDegree);
 	}
 
 	template<typename T>
@@ -256,86 +256,86 @@ namespace EGXMath {
 	//Integer Degrees
 	template<typename T>
 	T IntegerDegreeToRadian(const T& integerDegree) {
-		return std::round(DegreeToRadian(integerDegree)));
+		return DegreeToRadian(integerDegree);
 	}
 
 	template<typename T>
 	T IntegerDegreeToMilliradian(const T& integerDegree) {
-		return std::round(DegreeToMilliradian(integerDegree));
+		return DegreeToMilliradian(integerDegree);
 	}
 
 	template<typename T>
 	T IntegerDegreeToDegree(const T& integerDegree) {
-		return std::round(DegreeToDegree(integerDegree));
+		return DegreeToDegree(integerDegree);
 	}
 
 	template<typename T>
 	T IntegerDegreeToIntegerDegree(const T& integerDegree) {
-		return std::round(DegreeToIntegerDegree(integerDegree));
+		return DegreeToIntegerDegree(integerDegree);
 	}
 
 	template<typename T>
 	T IntegerDegreeToDecimalDegree(const T& integerDegree) {
-		return std::round(DegreeToDecimalDegree(integerDegree));
+		return DegreeToDecimalDegree(integerDegree);
 	}
 
 	template<typename T>
 	T IntegerDegreeToArcdegree(const T& integerDegree) {
-		return std::round(DegreeToArcdegree(integerDegree));
+		return DegreeToArcdegree(integerDegree);
 	}
 
 	template<typename T>
 	T IntegerDegreeToArcminute(const T& integerDegree) {
-		return std::round(DegreeToArcminute(integerDegree));
+		return DegreeToArcminute(integerDegree);
 	}
 
 	template<typename T>
 	T IntegerDegreeToArcsecond(const T& integerDegree) {
-		return std::round(DegreeToArcsecond(integerDegree));
+		return DegreeToArcsecond(integerDegree);
 	}
 
 	template<typename T>
 	T IntegerDegreeToMilliarcsecond(const T& integerDegree) {
-		return std::round(DegreeToMilliarcsecond(integerDegree));
+		return DegreeToMilliarcsecond(integerDegree);
 	}
 
 	template<typename T>
 	T IntegerDegreeToMicroarcsecond(const T& integerDegree) {
-		return std::round(DegreeToMicroarcsecond(integerDegree));
+		return DegreeToMicroarcsecond(integerDegree);
 	}
 
 	template<typename T>
 	void IntegerDegreeToDegreesMinutesSeconds(const T& integerDegree, T& degree, T& arcminute, T& arcsecond) {
-		degree = std::round(integerDegree);
+		degree = integerDegree;
 		arcminute = 0;
 		arcsecond = 0;
 	}
 
 	template<typename T>
 	void IntegerDegreeToDMS(const T& integerDegree, T& degree, T& arcminute, T& arcsecond) {
-		degree = std::round(integerDegree);
+		degree = integerDegree;
 		arcminute = 0;
 		arcsecond = 0;
 	}
 
 	template<typename T>
 	void IntegerDegreeToHoursMinutesSeconds(const T& integerDegree, T& hour, T& minute, T& second) {
-		DegreeToHoursMinutesSeconds(integerDegree, hour, minute, second));
+		DegreeToHoursMinutesSeconds(integerDegree, hour, minute, second);
 	}
 
 	template<typename T>
 	void IntegerDegreeToHMS(const T& integerDegree, T& hour, T& minute, T& second) {
-		DegreeToHoursMinutesSeconds(integerDegree, hour, minute, second));
+		DegreeToHoursMinutesSeconds(integerDegree, hour, minute, second);
 	}
 
 	template<typename T>
 	T IntegerDegreeToGradian(const T& integerDegree) {
-		return std::round(DegreeToGradian(integerDegree));
+		return DegreeToGradian(integerDegree);
 	}
 
 	template<typename T>
 	T IntegerDegreeToGon(const T& integerDegree) {
-		return std::round(DegreeToGradian(integerDegree));
+		return DegreeToGradian(integerDegree);
 	}
 
 	template<typename T>
