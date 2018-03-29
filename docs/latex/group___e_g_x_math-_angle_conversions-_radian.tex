@@ -18,7 +18,7 @@
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gac84796dfdeb56235e1e338522a5f9350}{E\+G\+X\+Math\+::\+Radian\+To\+Integer\+Degree}} (const T \&radian)
 \begin{DoxyCompactList}\small\item\em Converts an angle in radian to integer degree. \[\alpha_{deg\ int}=round(\alpha_{rad}\frac{180}{\pi})\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T , typename T2 $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga13311d9b6977d514f1d6c336e7c0162b}{E\+G\+X\+Math\+::\+Radian\+To\+Binary\+Degree}} (const T \&radian, const T2 \&bits=8)
-\begin{DoxyCompactList}\small\item\em Converts an angle in radian to binary degree (brad). \[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^(n-1)}{2 \pi})\] Where $n$ is the number of bits avaliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to binary degree (brad). \[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^{(n-1)}}{2 \pi})\] Where $n$ is the number of bits avaliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga722e3b8e78540a6b3942b73b64aeb8d2}{E\+G\+X\+Math\+::\+Radian\+To\+Arcminute}} (const T \&radian)
 \begin{DoxyCompactList}\small\item\em Converts an angle in radian to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}=\alpha_{rad}\frac{180 * 60}{\pi}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga2f952f6675a0fc54bf72bfe4e3d2664a}{E\+G\+X\+Math\+::\+Radian\+To\+Arcsecond}} (const T \&radian)
@@ -44,7 +44,7 @@
 
 
 \subsection{Detailed Description}
-R\+A\+D\+I\+A\+NS 
+
 
 \subsection{Function Documentation}
 \mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_radian_ga3dfdc97357cc07f8379976bbc08f9852}\label{group___e_g_x_math-_angle_conversions-_radian_ga3dfdc97357cc07f8379976bbc08f9852}} 
@@ -180,7 +180,9 @@ T E\+G\+X\+Math\+::\+Radian\+To\+Binary\+Degree (\begin{DoxyParamCaption}\item[{
 
 
 
-Converts an angle in radian to binary degree (brad). \[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^(n-1)}{2 \pi})\] Where $n$ is the number of bits avaliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees. 
+Converts an angle in radian to binary degree (brad). \[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^{(n-1)}}{2 \pi})\] Where $n$ is the number of bits avaliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees. 
+
+Converts an angle in radian to binary degree (brad). \[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^(n-1)}{2 \pi})\] Where $n$ is the number of bits avaliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees.
 
 See \href{https://en.wikipedia.org/wiki/Binary_scaling#Binary_angles}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Binary\+\_\+scaling\#\+Binary\+\_\+angles} and \href{https://www.globalspec.com/reference/14722/160210/Chapter-7-5-3-Binary-Angular-Measure}{\tt https\+://www.\+globalspec.\+com/reference/14722/160210/\+Chapter-\/7-\/5-\/3-\/\+Binary-\/\+Angular-\/\+Measure} 
 \begin{DoxyParams}{Parameters}
@@ -457,25 +459,25 @@ $\alpha_{g}\ (g)$ is the angle in gradians.
 \begin{DoxySeeAlso}{See also}
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3c1607eae50cbf0186c42485bb3878d5}{Radian\+To\+Gradian()}} for alias. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga25bb5506b3f66fff7a1b85bf7bd795b3}{Degree\+To\+Gradian()}} for conversion from (decimal) degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga87c3fab0867021e5d2501197b4db6194}{Degree\+To\+Gon()}} for conversion from (decimal) degrees. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_decimal_degree_ga3ac6f1ceb36a4938cdf3b55554734c99}{Decimal\+Degree\+To\+Gradian()}} for conversion from decimal degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_decimal_degree_gaeb333a1ad0aeb913c025fbd1be85fcb3}{Decimal\+Degree\+To\+Gon()}} for conversion from decimal degrees. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3c1607eae50cbf0186c42485bb3878d5}{Radian\+To\+Gradian()}} for conversion from radians. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga36912e5a810b64c271c4dafc17f4ca45}{Radian\+To\+Gon()}} for conversion from radians. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga47127467ff7a8ef57f6be9ce496a97df}{Integer\+Degree\+To\+Gradian()}} for conversion from integer degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga6e5be425c37ad27319f09329156c64bb}{Integer\+Degree\+To\+Gon()}} for conversion from integer degrees. 
 
-Binary\+Degree\+To\+Gradian() for conversion from binary degrees. 
+Binary\+Degree\+To\+Gon() for conversion from binary degrees. 
 
-Turn\+To\+Gradian() for conversion from turns. 
+Turn\+To\+Gon() for conversion from turns. 
 
-Gradian\+To\+Gradian() for conversion from gradians. 
+Gradian\+To\+Gon() for conversion from gradians. 
 
-Hours\+Minutes\+Seconds\+To\+Gradian() for conversion from hours minutes seconds. 
+Hours\+Minutes\+Seconds\+To\+Gon() for conversion from hours minutes seconds. 
 
-Degrees\+Minutes\+Seconds\+To\+Gradian() for conversion from degrees minutes seconds. 
+Degrees\+Minutes\+Seconds\+To\+Gon() for conversion from degrees minutes seconds. 
 
-Compass\+Wind\+To\+Gradian() for conversion from compass wind. 
+Compass\+Wind\+To\+Gon() for conversion from compass wind. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_radian_ga3c1607eae50cbf0186c42485bb3878d5}\label{group___e_g_x_math-_angle_conversions-_radian_ga3c1607eae50cbf0186c42485bb3878d5}} 
 \index{Radian@{Radian}!Radian\+To\+Gradian@{Radian\+To\+Gradian}}
@@ -499,25 +501,25 @@ $\alpha_{g}\ (g)$ is the angle in gradians.
 \begin{DoxySeeAlso}{See also}
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga36912e5a810b64c271c4dafc17f4ca45}{Radian\+To\+Gon()}} for alias. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga87c3fab0867021e5d2501197b4db6194}{Degree\+To\+Gon()}} for conversion from (decimal) degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga25bb5506b3f66fff7a1b85bf7bd795b3}{Degree\+To\+Gradian()}} for conversion from (decimal) degrees. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_decimal_degree_gaeb333a1ad0aeb913c025fbd1be85fcb3}{Decimal\+Degree\+To\+Gon()}} for conversion from decimal degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_decimal_degree_ga3ac6f1ceb36a4938cdf3b55554734c99}{Decimal\+Degree\+To\+Gradian()}} for conversion from decimal degrees. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga36912e5a810b64c271c4dafc17f4ca45}{Radian\+To\+Gon()}} for conversion from radians. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3c1607eae50cbf0186c42485bb3878d5}{Radian\+To\+Gradian()}} for conversion from radians. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga6e5be425c37ad27319f09329156c64bb}{Integer\+Degree\+To\+Gon()}} for conversion from integer degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga47127467ff7a8ef57f6be9ce496a97df}{Integer\+Degree\+To\+Gradian()}} for conversion from integer degrees. 
 
-Binary\+Degree\+To\+Gon() for conversion from binary degrees. 
+Binary\+Degree\+To\+Gradian() for conversion from binary degrees. 
 
-Turn\+To\+Gon() for conversion from turns. 
+Turn\+To\+Gradian() for conversion from turns. 
 
-Gradian\+To\+Gon() for conversion from gradians. 
+Gradian\+To\+Gradian() for conversion from gradians. 
 
-Hours\+Minutes\+Seconds\+To\+Gon() for conversion from hours minutes seconds. 
+Hours\+Minutes\+Seconds\+To\+Gradian() for conversion from hours minutes seconds. 
 
-Degrees\+Minutes\+Seconds\+To\+Gon() for conversion from degrees minutes seconds. 
+Degrees\+Minutes\+Seconds\+To\+Gradian() for conversion from degrees minutes seconds. 
 
-Compass\+Wind\+To\+Gon() for conversion from compass wind. 
+Compass\+Wind\+To\+Gradian() for conversion from compass wind. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_radian_ga55b5fba9307f34ab8db57391789a90cc}\label{group___e_g_x_math-_angle_conversions-_radian_ga55b5fba9307f34ab8db57391789a90cc}} 
 \index{Radian@{Radian}!Radian\+To\+H\+MS@{Radian\+To\+H\+MS}}
@@ -833,8 +835,6 @@ See \href{https://en.wikipedia.org/wiki/Turn_(geometry)}{\tt https\+://en.\+wiki
 $\alpha_{turn}\ (turn)$ is the angle in turns. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga8492d6d2f6467c619b65e5fb75a9ae04}{Radian\+To\+Turn()}} for conversion to radians. 
-
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_gafb4ce930493a7d6202ede3ee1630ef5d}{Degree\+To\+Turn()}} for conversion from (decimal) degrees. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_decimal_degree_ga396a13c10acdef5026c12f3217b142c1}{Decimal\+Degree\+To\+Turn()}} for conversion from decimal degrees. 

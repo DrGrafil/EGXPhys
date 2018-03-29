@@ -152,7 +152,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga13311d9b6977d514f1d6c336e7c0162b"><td class="memTemplParams" colspan="2">template&lt;typename T , typename T2 &gt; </td></tr>
 <tr class="memitem:ga13311d9b6977d514f1d6c336e7c0162b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga13311d9b6977d514f1d6c336e7c0162b">EGXMath::RadianToBinaryDegree</a> (const T &amp;radian, const T2 &amp;bits=8)</td></tr>
 <tr class="memdesc:ga13311d9b6977d514f1d6c336e7c0162b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in radian to binary degree (brad). </p><p class="formulaDsp">
-\[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^(n-1)}{2 \pi})\]
+\[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^{(n-1)}}{2 \pi})\]
 </p>
 <p> Where \(n\) is the number of bits avaliable to store the number. \(n\) defaults to 8, the tradiational number for binary degrees.  <a href="group___e_g_x_math-_angle_conversions-_radian.html#ga13311d9b6977d514f1d6c336e7c0162b">More...</a><br /></td></tr>
 <tr class="separator:ga13311d9b6977d514f1d6c336e7c0162b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,7 +220,6 @@ Functions</h2></td></tr>
 <tr class="separator:ga4d845b171148481aa7e85018d6dad035"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>RADIANS </p>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga3dfdc97357cc07f8379976bbc08f9852"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3dfdc97357cc07f8379976bbc08f9852">&#9670;&nbsp;</a></span>RadianToArcdegree()</h2>
@@ -408,9 +407,13 @@ template&lt;typename T , typename T2 &gt; </div>
 </div><div class="memdoc">
 
 <p>Converts an angle in radian to binary degree (brad). </p><p class="formulaDsp">
-\[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^(n-1)}{2 \pi})\]
+\[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^{(n-1)}}{2 \pi})\]
 </p>
 <p> Where \(n\) is the number of bits avaliable to store the number. \(n\) defaults to 8, the tradiational number for binary degrees. </p>
+<p>Converts an angle in radian to binary degree (brad). </p><p class="formulaDsp">
+\[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^(n-1)}{2 \pi})\]
+</p>
+<p> Where \(n\) is the number of bits avaliable to store the number. \(n\) defaults to 8, the tradiational number for binary degrees.</p>
 <p>See <a href="https://en.wikipedia.org/wiki/Binary_scaling#Binary_angles">https://en.wikipedia.org/wiki/Binary_scaling#Binary_angles</a> and <a href="https://www.globalspec.com/reference/14722/160210/Chapter-7-5-3-Binary-Angular-Measure">https://www.globalspec.com/reference/14722/160210/Chapter-7-5-3-Binary-Angular-Measure</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">radian</td><td>\(\alpha_{rad}\ (rad)\) is the angle in radians. </td></tr>
@@ -796,25 +799,25 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{g}\ (g)\) is the angle in gradians. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3c1607eae50cbf0186c42485bb3878d5" title="Converts an angle in radian to gradian. . ">RadianToGradian()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga25bb5506b3f66fff7a1b85bf7bd795b3" title="Converts an angle in (decimal) degree to gradian. . ">DegreeToGradian()</a> for conversion from (decimal) degrees. </dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga87c3fab0867021e5d2501197b4db6194" title="Converts an angle in (decimal) degree to gradians. . ">DegreeToGon()</a> for conversion from (decimal) degrees. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga3ac6f1ceb36a4938cdf3b55554734c99" title="Converts an angle in decimal degree to gradian. . ">DecimalDegreeToGradian()</a> for conversion from decimal degrees. </dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaeb333a1ad0aeb913c025fbd1be85fcb3" title="Converts an angle in decimal degrees to gradians. . ">DecimalDegreeToGon()</a> for conversion from decimal degrees. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3c1607eae50cbf0186c42485bb3878d5" title="Converts an angle in radian to gradian. . ">RadianToGradian()</a> for conversion from radians. </dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga36912e5a810b64c271c4dafc17f4ca45" title="Converts an angle in radian to gradian. . ">RadianToGon()</a> for conversion from radians. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga47127467ff7a8ef57f6be9ce496a97df" title="Converts an angle in integer degree to gradian. . ">IntegerDegreeToGradian()</a> for conversion from integer degrees. </dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga6e5be425c37ad27319f09329156c64bb" title="Converts an angle in integer to gradians. . ">IntegerDegreeToGon()</a> for conversion from integer degrees. </dd>
 <dd>
-BinaryDegreeToGradian() for conversion from binary degrees. </dd>
+BinaryDegreeToGon() for conversion from binary degrees. </dd>
 <dd>
-TurnToGradian() for conversion from turns. </dd>
+TurnToGon() for conversion from turns. </dd>
 <dd>
-GradianToGradian() for conversion from gradians. </dd>
+GradianToGon() for conversion from gradians. </dd>
 <dd>
-HoursMinutesSecondsToGradian() for conversion from hours minutes seconds. </dd>
+HoursMinutesSecondsToGon() for conversion from hours minutes seconds. </dd>
 <dd>
-DegreesMinutesSecondsToGradian() for conversion from degrees minutes seconds. </dd>
+DegreesMinutesSecondsToGon() for conversion from degrees minutes seconds. </dd>
 <dd>
-CompassWindToGradian() for conversion from compass wind. </dd></dl>
+CompassWindToGon() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -849,25 +852,25 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{g}\ (g)\) is the angle in gradians. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga36912e5a810b64c271c4dafc17f4ca45" title="Converts an angle in radian to gradian. . ">RadianToGon()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga87c3fab0867021e5d2501197b4db6194" title="Converts an angle in (decimal) degree to gradians. . ">DegreeToGon()</a> for conversion from (decimal) degrees. </dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga25bb5506b3f66fff7a1b85bf7bd795b3" title="Converts an angle in (decimal) degree to gradian. . ">DegreeToGradian()</a> for conversion from (decimal) degrees. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaeb333a1ad0aeb913c025fbd1be85fcb3" title="Converts an angle in decimal degrees to gradians. . ">DecimalDegreeToGon()</a> for conversion from decimal degrees. </dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga3ac6f1ceb36a4938cdf3b55554734c99" title="Converts an angle in decimal degree to gradian. . ">DecimalDegreeToGradian()</a> for conversion from decimal degrees. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga36912e5a810b64c271c4dafc17f4ca45" title="Converts an angle in radian to gradian. . ">RadianToGon()</a> for conversion from radians. </dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3c1607eae50cbf0186c42485bb3878d5" title="Converts an angle in radian to gradian. . ">RadianToGradian()</a> for conversion from radians. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga6e5be425c37ad27319f09329156c64bb" title="Converts an angle in integer to gradians. . ">IntegerDegreeToGon()</a> for conversion from integer degrees. </dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga47127467ff7a8ef57f6be9ce496a97df" title="Converts an angle in integer degree to gradian. . ">IntegerDegreeToGradian()</a> for conversion from integer degrees. </dd>
 <dd>
-BinaryDegreeToGon() for conversion from binary degrees. </dd>
+BinaryDegreeToGradian() for conversion from binary degrees. </dd>
 <dd>
-TurnToGon() for conversion from turns. </dd>
+TurnToGradian() for conversion from turns. </dd>
 <dd>
-GradianToGon() for conversion from gradians. </dd>
+GradianToGradian() for conversion from gradians. </dd>
 <dd>
-HoursMinutesSecondsToGon() for conversion from hours minutes seconds. </dd>
+HoursMinutesSecondsToGradian() for conversion from hours minutes seconds. </dd>
 <dd>
-DegreesMinutesSecondsToGon() for conversion from degrees minutes seconds. </dd>
+DegreesMinutesSecondsToGradian() for conversion from degrees minutes seconds. </dd>
 <dd>
-CompassWindToGon() for conversion from compass wind. </dd></dl>
+CompassWindToGradian() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -1307,9 +1310,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{turn}\ (turn)\) is the angle in turns. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga8492d6d2f6467c619b65e5fb75a9ae04" title="Converts an angle in radian to turn. . ">RadianToTurn()</a> for conversion to radians. </dd>
-<dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gafb4ce930493a7d6202ede3ee1630ef5d" title="Converts an angle in (decimal) degree to turn. . ">DegreeToTurn()</a> for conversion from (decimal) degrees. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gafb4ce930493a7d6202ede3ee1630ef5d" title="Converts an angle in (decimal) degree to turn. . ">DegreeToTurn()</a> for conversion from (decimal) degrees. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga396a13c10acdef5026c12f3217b142c1" title="Converts an angle in decimal degree to turn. . ">DecimalDegreeToTurn()</a> for conversion from decimal degrees. </dd>
 <dd>

@@ -172,6 +172,10 @@
     <ClInclude Include="..\..\EGXPhys\Atomic\RadioactiveDecay.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\SemiEmpiricalMassFormula.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DecimalDegreeConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DegreeConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\IntegerDegreeConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\RadianConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\Conversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\ConversionsConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp" />
@@ -248,6 +252,10 @@
     <None Include="..\..\EGXPhys\Atomic\RadioactiveDecay.inl" />
     <None Include="..\..\EGXPhys\Atomic\SemiEmpiricalMassFormula.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DecimalDegreeConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DegreeConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\IntegerDegreeConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\RadianConversion.inl" />
     <None Include="..\..\EGXPhys\Optics\Redshift.inl" />
     <None Include="..\..\EGXPhys\Relativity\LorentzTransformations.inl" />
   </ItemGroup>

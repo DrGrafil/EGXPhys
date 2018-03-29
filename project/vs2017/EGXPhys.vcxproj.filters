@@ -58,6 +58,9 @@
     <Filter Include="Tests\EGXMath\Conversions">
       <UniqueIdentifier>{b292193c-eff4-4d91-9083-c09908b35153}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\EGXMath\Conversions\AngleConversions">
+      <UniqueIdentifier>{95308975-c6d5-4b25-8d64-f387a4a775be}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -291,6 +294,18 @@
     <ClInclude Include="..\..\tests\EGXMath\Conversions\ConversionsTest.hpp">
       <Filter>Tests\EGXMath\Conversions</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DegreeConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DecimalDegreeConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\IntegerDegreeConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\RadianConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -384,6 +399,18 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.inl">
       <Filter>EGXPhys\EGXMath\Conversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DegreeConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DecimalDegreeConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\IntegerDegreeConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\RadianConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -142,6 +142,20 @@ Functions</h2></td></tr>
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gacdd463fcabffeb598ebda65b012ce743">More...</a><br /></td></tr>
 <tr class="separator:gacdd463fcabffeb598ebda65b012ce743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga115239ea7202dbc6a6c9fba68e0ac189"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga115239ea7202dbc6a6c9fba68e0ac189"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga115239ea7202dbc6a6c9fba68e0ac189">EGXMath::DecimalDegreeToIntegerDegree</a> (const T &amp;decimalDegree)</td></tr>
+<tr class="memdesc:ga115239ea7202dbc6a6c9fba68e0ac189"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in decimal degree to integer degree. This rounds to the nearest integer. </p><p class="formulaDsp">
+\[\alpha_{deg int}=round(\alpha_{deg})\]
+</p>
+<p>.  <a href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga115239ea7202dbc6a6c9fba68e0ac189">More...</a><br /></td></tr>
+<tr class="separator:ga115239ea7202dbc6a6c9fba68e0ac189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaceec7ae7988c7f342d0b0fa6940720a1"><td class="memTemplParams" colspan="2">template&lt;typename T , typename T2 &gt; </td></tr>
+<tr class="memitem:gaceec7ae7988c7f342d0b0fa6940720a1"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaceec7ae7988c7f342d0b0fa6940720a1">EGXMath::DecimalDegreeToBinaryDegree</a> (const T &amp;decimalDegree, const T2 &amp;bits=8)</td></tr>
+<tr class="memdesc:gaceec7ae7988c7f342d0b0fa6940720a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in decimal degree to binary degree (brad). </p><p class="formulaDsp">
+\[\alpha_{deg\ bin}=round(\alpha_{deg}\frac{2^{(n-1)}}{360})\]
+</p>
+<p> Where \(n\) is the number of bits avaliable to store the number. \(n\) defaults to 8, the tradiational number for binary degrees.  <a href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaceec7ae7988c7f342d0b0fa6940720a1">More...</a><br /></td></tr>
+<tr class="separator:gaceec7ae7988c7f342d0b0fa6940720a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6b6ea6e45d2a13f556824ca419cc9fbd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga6b6ea6e45d2a13f556824ca419cc9fbd"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga6b6ea6e45d2a13f556824ca419cc9fbd">EGXMath::DecimalDegreeToArcminute</a> (const T &amp;decimalDegree)</td></tr>
 <tr class="memdesc:ga6b6ea6e45d2a13f556824ca419cc9fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in decimal degree to arcminute. Note that arcminutes are not equal to minutes. </p><p class="formulaDsp">
@@ -149,20 +163,6 @@ Functions</h2></td></tr>
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga6b6ea6e45d2a13f556824ca419cc9fbd">More...</a><br /></td></tr>
 <tr class="separator:ga6b6ea6e45d2a13f556824ca419cc9fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga115239ea7202dbc6a6c9fba68e0ac189"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga115239ea7202dbc6a6c9fba68e0ac189"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga115239ea7202dbc6a6c9fba68e0ac189">EGXMath::DecimalDegreeToIntegerDegree</a> (const T &amp;decimalDegree)</td></tr>
-<tr class="memdesc:ga115239ea7202dbc6a6c9fba68e0ac189"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in decimal degree to integer degree. This rounds to the nearest integer. </p><p class="formulaDsp">
-\[\alpha_{deg int}=trunc(\alpha_{deg})\]
-</p>
-<p>.  <a href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga115239ea7202dbc6a6c9fba68e0ac189">More...</a><br /></td></tr>
-<tr class="separator:ga115239ea7202dbc6a6c9fba68e0ac189"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaceec7ae7988c7f342d0b0fa6940720a1"><td class="memTemplParams" colspan="2">template&lt;typename T , typename T2 &gt; </td></tr>
-<tr class="memitem:gaceec7ae7988c7f342d0b0fa6940720a1"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaceec7ae7988c7f342d0b0fa6940720a1">EGXMath::DecimalDegreeToBinaryDegree</a> (const T &amp;decimalDegree, const T2 &amp;bits=8)</td></tr>
-<tr class="memdesc:gaceec7ae7988c7f342d0b0fa6940720a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in decimal degree to binary degree (brad). </p><p class="formulaDsp">
-\[\alpha_{deg\ bin}=round(\alpha_{deg}\frac{2^(n-1)}{360})\]
-</p>
-<p> Where \(n\) is the number of bits avaliable to store the number. \(n\) defaults to 8, the tradiational number for binary degrees.  <a href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaceec7ae7988c7f342d0b0fa6940720a1">More...</a><br /></td></tr>
-<tr class="separator:gaceec7ae7988c7f342d0b0fa6940720a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab9d5635a6e35127b5245978aba508962"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gab9d5635a6e35127b5245978aba508962"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gab9d5635a6e35127b5245978aba508962">EGXMath::DecimalDegreeToArcsecond</a> (const T &amp;decimalDegree)</td></tr>
 <tr class="memdesc:gab9d5635a6e35127b5245978aba508962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in decimal degree to arcsecond. Note that arcsecond are not equal to seconds. </p><p class="formulaDsp">
@@ -296,7 +296,25 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gacdd463fcabffeb598ebda65b012ce743" title="Converts an angle in decimal degree to (decimal) arc degree. . ">DecimalDegreeToArcdegree()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radian to (decimal) degree. . ">RadianToDegree()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gac1b5f3b68f66c77a6df4ceef842c9b19" title="Converts an angle in (decimal) degree to (decimal) arc degree. . ">DegreeToArcdegree()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gacdd463fcabffeb598ebda65b012ce743" title="Converts an angle in decimal degree to (decimal) arc degree. . ">DecimalDegreeToArcdegree()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3dfdc97357cc07f8379976bbc08f9852" title="Converts an angle in radian to arcdegree (decimal degree). . ">RadianToArcdegree()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#gaf633d0b82bfb7586ce86ffbcf78d8f7a" title="Converts an angle in integer degree to (decimal) arc degree. . ">IntegerDegreeToArcdegree()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToArcdegree() for conversion from binary degrees. </dd>
+<dd>
+TurnToArcdegree() for conversion from turns. </dd>
+<dd>
+GradianToArcdegree() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToArcdegree() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToArcdegree() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToArcdegree() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -329,9 +347,27 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{arcmin}\ (arcmin)\) is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga6b6ea6e45d2a13f556824ca419cc9fbd" title="Converts an angle in decimal degree to arcminute. Note that arcminutes are not equal to minutes...">DecimalDegreeToArcminute()</a> for alias. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga8abf327dc5f52907b2c881999e9cc43e" title="Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes...">DegreeToArcminute()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga722e3b8e78540a6b3942b73b64aeb8d2" title="Converts an angle in radian to arcminute. Note that arcminutes are not equal to minutes. . ">RadianToArcminute()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga8abf327dc5f52907b2c881999e9cc43e" title="Converts an angle in (decimal) degree to arcminute. Note that arcminutes are not equal to minutes...">DegreeToArcminute()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga6b6ea6e45d2a13f556824ca419cc9fbd" title="Converts an angle in decimal degree to arcminute. Note that arcminutes are not equal to minutes...">DecimalDegreeToArcminute()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga722e3b8e78540a6b3942b73b64aeb8d2" title="Converts an angle in radian to arcminute. Note that arcminutes are not equal to minutes. . ">RadianToArcminute()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga78b014e7649d666a3647c467e64e4fe8" title="Converts an angle in integer degree to arcminute. Note that arcminutes are not equal to minutes...">IntegerDegreeToArcminute()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToArcminute() for conversion from binary degrees. </dd>
+<dd>
+TurnToArcminute() for conversion from turns. </dd>
+<dd>
+GradianToArcminute() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToArcminute() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToArcminute() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToArcminute() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -364,9 +400,27 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{arcsec}\ (arcsec)\) is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gab9d5635a6e35127b5245978aba508962" title="Converts an angle in decimal degree to arcsecond. Note that arcsecond are not equal to seconds...">DecimalDegreeToArcsecond()</a> for alias. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gaf85e2d765c248f447854a807a68a5de8" title="Converts an angle in (decimal) degree to arcsecond. Note that arcsecond are not equal to seconds...">DegreeToArcsecond()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga2f952f6675a0fc54bf72bfe4e3d2664a" title="Converts an angle in radian to arcsecond. Note that arcsecond are not equal to seconds. . ">RadianToArcsecond()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gaf85e2d765c248f447854a807a68a5de8" title="Converts an angle in (decimal) degree to arcsecond. Note that arcsecond are not equal to seconds...">DegreeToArcsecond()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gab9d5635a6e35127b5245978aba508962" title="Converts an angle in decimal degree to arcsecond. Note that arcsecond are not equal to seconds...">DecimalDegreeToArcsecond()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga2f952f6675a0fc54bf72bfe4e3d2664a" title="Converts an angle in radian to arcsecond. Note that arcsecond are not equal to seconds. . ">RadianToArcsecond()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#gaa04058a2fea3dc3678264a05fac6e1ae" title="Converts an angle in integer degree to arcsecond. Note that arcsecond are not equal to seconds...">IntegerDegreeToArcsecond()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToArcsecond() for conversion from binary degrees. </dd>
+<dd>
+TurnToArcsecond() for conversion from turns. </dd>
+<dd>
+GradianToArcsecond() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToArcsecond() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToArcsecond() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToArcsecond() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -399,7 +453,7 @@ template&lt;typename T , typename T2 &gt; </div>
 </div><div class="memdoc">
 
 <p>Converts an angle in decimal degree to binary degree (brad). </p><p class="formulaDsp">
-\[\alpha_{deg\ bin}=round(\alpha_{deg}\frac{2^(n-1)}{360})\]
+\[\alpha_{deg\ bin}=round(\alpha_{deg}\frac{2^{(n-1)}}{360})\]
 </p>
 <p> Where \(n\) is the number of bits avaliable to store the number. \(n\) defaults to 8, the tradiational number for binary degrees. </p>
 <p>See <a href="https://en.wikipedia.org/wiki/Binary_scaling#Binary_angles">https://en.wikipedia.org/wiki/Binary_scaling#Binary_angles</a> and <a href="https://www.globalspec.com/reference/14722/160210/Chapter-7-5-3-Binary-Angular-Measure">https://www.globalspec.com/reference/14722/160210/Chapter-7-5-3-Binary-Angular-Measure</a> </p><dl class="params"><dt>Parameters</dt><dd>
@@ -535,7 +589,25 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gafccf9cd779903872887978ab9d79661f" title="Converts an angle in decimal degree to decimal degree. . ">DecimalDegreeToDecimalDegree()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radian to (decimal) degree. . ">RadianToDegree()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga568afc1d436d425bf5d4edea584aee08" title="Converts an angle in (decimal) degree to decimal degree. . ">DegreeToDecimalDegree()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gafccf9cd779903872887978ab9d79661f" title="Converts an angle in decimal degree to decimal degree. . ">DecimalDegreeToDecimalDegree()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga6d170f1882c32de53167c04524d05f67" title="Converts an angle in radian to decimal degree. . ">RadianToDecimalDegree()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#gac219c3198508ba984d8d81d22831b27d" title="Converts an angle in integer degree to decimal degree. . ">IntegerDegreeToDecimalDegree()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToDecimalDegree() for conversion from binary degrees. </dd>
+<dd>
+TurnToDecimalDegree() for conversion from turns. </dd>
+<dd>
+GradianToDecimalDegree() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToDecimalDegree() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToDecimalDegree() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToDecimalDegree() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -576,7 +648,25 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gacdd463fcabffeb598ebda65b012ce743" title="Converts an angle in decimal degree to (decimal) arc degree. . ">DecimalDegreeToArcdegree()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radian to (decimal) degree. . ">RadianToDegree()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gaca157e7d3e99a46a11a04b92680d2574" title="Converts an angle in (decimal) degree to (decimal) degree. . ">DegreeToDegree()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga0aa7f2f5dbb00cf4ab303421c6e33ccf" title="Converts an angle in decimal degree to (decimal) degree. . ">DecimalDegreeToDegree()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45" title="Converts an angle in radian to (decimal) degree. . ">RadianToDegree()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#gaa9b63c6095fd7f8809fcfa2ba1e62235" title="Converts an angle in integer degree to (decimal) degree. . ">IntegerDegreeToDegree()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToDegree() for conversion from binary degrees. </dd>
+<dd>
+TurnToDegree() for conversion from turns. </dd>
+<dd>
+GradianToDegree() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToDegree() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToDegree() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToDegree() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -640,15 +730,31 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga859585939255d52d010c780c68eb6e23" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DegreeToDegreesMinutesSeconds()</a> for conversion from (decimal) degrees. </dd>
-<dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gadae98c255924fdc8b232b6539eae81a9" title="Converts an angle in radian to degrees minutes seconds (DMS).  format. ">RadianToDegreesMinutesSeconds()</a> for conversion from radians. </dd>
-<dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga1096d04647918e20f61fb184ba2a7dce" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DegreeToDMS()</a> for alias. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga1096d04647918e20f61fb184ba2a7dce" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DegreeToDMS()</a> for alias. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gac5a5255c8d120f71b60d8f60de1a1b6e" title="Converts an angle in decimal degree to degrees minutes seconds (DMS).  format.   . ">DecimalDegreeToDegreesMinutesSeconds()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga64a1b298ce16e9edf3209b678a7bed46" title="Converts an angle in decimal degree to degrees minutes seconds (DMS).  format.   . ">DecimalDegreeToDMS()</a> for alias. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga64a1b298ce16e9edf3209b678a7bed46" title="Converts an angle in decimal degree to degrees minutes seconds (DMS).  format.   . ">DecimalDegreeToDMS()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga859585939255d52d010c780c68eb6e23" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DegreeToDegreesMinutesSeconds()</a> for conversion from (decimal) degrees and full explination. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gac5a5255c8d120f71b60d8f60de1a1b6e" title="Converts an angle in decimal degree to degrees minutes seconds (DMS).  format.   . ">DecimalDegreeToDegreesMinutesSeconds()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gadae98c255924fdc8b232b6539eae81a9" title="Converts an angle in radian to degrees minutes seconds (DMS).  format. ">RadianToDegreesMinutesSeconds()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga204317877546ea6bbafe5ff558f55a16" title="Converts an angle in integer degree to degrees minutes seconds (DMS).  format.   . ">IntegerDegreeToDegreesMinutesSeconds()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToDegreesMinutesSeconds() for conversion from binary degrees. </dd>
+<dd>
+TurnToDegreesMinutesSeconds() for conversion from turns. </dd>
+<dd>
+GradianToDegreesMinutesSeconds() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToDegreesMinutesSeconds() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToDegreesMinutesSecondsS() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToDegreesMinutesSeconds() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -715,7 +821,27 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gac5a5255c8d120f71b60d8f60de1a1b6e" title="Converts an angle in decimal degree to degrees minutes seconds (DMS).  format.   . ">DecimalDegreeToDegreesMinutesSeconds()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga64a1b298ce16e9edf3209b678a7bed46" title="Converts an angle in decimal degree to degrees minutes seconds (DMS).  format.   . ">DecimalDegreeToDMS()</a> for alias. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga64a1b298ce16e9edf3209b678a7bed46" title="Converts an angle in decimal degree to degrees minutes seconds (DMS).  format.   . ">DecimalDegreeToDMS()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga1096d04647918e20f61fb184ba2a7dce" title="Converts an angle in (decimal) degree to degrees minutes seconds (DMS).  format.   ...">DegreeToDMS()</a> for conversion from (decimal) degrees and full explination. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga64a1b298ce16e9edf3209b678a7bed46" title="Converts an angle in decimal degree to degrees minutes seconds (DMS).  format.   . ">DecimalDegreeToDMS()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gaf80be0c5c65ccaa5544a08a7754f3575" title="Converts an angle in radian to degrees minutes seconds (DMS).  format. ">RadianToDMS()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#gaf76779bcc23268b41d4c3a7610d60eaf" title="Converts an angle in integer degree to degrees minutes seconds (DMS).  format.   . ">IntegerDegreeToDMS()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToDMS() for conversion from binary degrees. </dd>
+<dd>
+TurnToDMS() for conversion from turns. </dd>
+<dd>
+GradianToDMS() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToDMS() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToDMS() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToDMS() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -754,7 +880,25 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaeb333a1ad0aeb913c025fbd1be85fcb3" title="Converts an angle in decimal degrees to gradians. . ">DecimalDegreeToGon()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga36912e5a810b64c271c4dafc17f4ca45" title="Converts an angle in radian to gradian. . ">RadianToGon()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga87c3fab0867021e5d2501197b4db6194" title="Converts an angle in (decimal) degree to gradians. . ">DegreeToGon()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaeb333a1ad0aeb913c025fbd1be85fcb3" title="Converts an angle in decimal degrees to gradians. . ">DecimalDegreeToGon()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga36912e5a810b64c271c4dafc17f4ca45" title="Converts an angle in radian to gradian. . ">RadianToGon()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga6e5be425c37ad27319f09329156c64bb" title="Converts an angle in integer to gradians. . ">IntegerDegreeToGon()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToGon() for conversion from binary degrees. </dd>
+<dd>
+TurnToGon() for conversion from turns. </dd>
+<dd>
+GradianToGon() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToGon() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToGon() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToGon() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -793,7 +937,25 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaeb333a1ad0aeb913c025fbd1be85fcb3" title="Converts an angle in decimal degrees to gradians. . ">DecimalDegreeToGon()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3c1607eae50cbf0186c42485bb3878d5" title="Converts an angle in radian to gradian. . ">RadianToGradian()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga25bb5506b3f66fff7a1b85bf7bd795b3" title="Converts an angle in (decimal) degree to gradian. . ">DegreeToGradian()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga3ac6f1ceb36a4938cdf3b55554734c99" title="Converts an angle in decimal degree to gradian. . ">DecimalDegreeToGradian()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3c1607eae50cbf0186c42485bb3878d5" title="Converts an angle in radian to gradian. . ">RadianToGradian()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga47127467ff7a8ef57f6be9ce496a97df" title="Converts an angle in integer degree to gradian. . ">IntegerDegreeToGradian()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToGradian() for conversion from binary degrees. </dd>
+<dd>
+TurnToGradian() for conversion from turns. </dd>
+<dd>
+GradianToGradian() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToGradian() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToGradian() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToGradian() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -862,7 +1024,25 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga981b48f16766590641360ca98dfa7b8c" title="Converts an angle in decimal degree to hours minutes seconds (DMS).  format.   . ">DecimalDegreeToHMS()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga55b5fba9307f34ab8db57391789a90cc" title="Converts an angle in radian to hours minutes seconds (HMS).  format. ">RadianToHMS()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga0bb223ca6e77b00439a6d910ab32d82e" title="Converts an angle in (decimal) degree to hours minutes seconds (DMS).  format.   . ">DegreeToHMS()</a> for conversion from (decimal) degrees and full explination. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga981b48f16766590641360ca98dfa7b8c" title="Converts an angle in decimal degree to hours minutes seconds (DMS).  format.   . ">DecimalDegreeToHMS()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga55b5fba9307f34ab8db57391789a90cc" title="Converts an angle in radian to hours minutes seconds (HMS).  format. ">RadianToHMS()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#gae6b79bd5a92f8c6942b9fc2c50695e6a" title="Converts an angle in integer degree to hours minutes seconds (DMS).  format.   . ">IntegerDegreeToHMS()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToHMS() for conversion from binary degrees. </dd>
+<dd>
+TurnToHMS() for conversion from turns. </dd>
+<dd>
+GradianToHMS() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToHMS() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToHMS() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToHMS() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -933,7 +1113,25 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga981b48f16766590641360ca98dfa7b8c" title="Converts an angle in decimal degree to hours minutes seconds (DMS).  format.   . ">DecimalDegreeToHMS()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gadae98c255924fdc8b232b6539eae81a9" title="Converts an angle in radian to degrees minutes seconds (DMS).  format. ">RadianToDegreesMinutesSeconds()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga770b13da33b6f6c7bfa398cca7f24dbe" title="Converts an angle in (decimal) degree to hours minutes seconds (DMS).  format.   . ">DegreeToHoursMinutesSeconds()</a> for conversion from (decimal) degrees and full explination. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaa3f0b6c7c497882935487ad2d55a0f5a" title="Converts an angle in decimal degree to hours minutes seconds (DMS).  format.   . ">DecimalDegreeToHoursMinutesSeconds()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3467598d89af2b8ff68af50b39bb19e2" title="Converts an angle in radian to hours minutes seconds (HMS).  format. ">RadianToHoursMinutesSeconds()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#gaaac96728b305fd8ed024843f4e92fd08" title="Converts an angle in integer degree to hours minutes seconds (DMS).  format.   . ">IntegerDegreeToHoursMinutesSeconds()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToHoursMinutesSeconds() for conversion from binary degrees. </dd>
+<dd>
+TurnToHoursMinutesSeconds() for conversion from turns. </dd>
+<dd>
+GradianToHoursMinutesSeconds() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToHoursMinutesSeconds() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToHoursMinutesSeconds() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToHoursMinutesSeconds() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -956,7 +1154,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Converts an angle in decimal degree to integer degree. This rounds to the nearest integer. </p><p class="formulaDsp">
-\[\alpha_{deg int}=trunc(\alpha_{deg})\]
+\[\alpha_{deg int}=round(\alpha_{deg})\]
 </p>
 <p>. </p>
 <p>See <a href="https://en.wikipedia.org/wiki/Degree_(angle)">https://en.wikipedia.org/wiki/Degree_(angle)</a> and <a href="https://en.wikipedia.org/wiki/Decimal_degrees">https://en.wikipedia.org/wiki/Decimal_degrees</a> </p><dl class="params"><dt>Parameters</dt><dd>
@@ -966,9 +1164,27 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{deg\ int}\ (deg\ int)\) is the angle in integer degree. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>DecimalDegreeIntegerDegree() for alias. </dd>
+<dl class="section see"><dt>See also</dt><dd>DegreeIntegerDegree() for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gac84796dfdeb56235e1e338522a5f9350" title="Converts an angle in radian to integer degree. . ">RadianToIntegerDegree()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gaabd20f21be3c18ee423d0bc1a677c6f6" title="Converts an angle in (decimal) degree to integer degree. This rounds to the nearest integer...">DegreeToIntegerDegree()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga115239ea7202dbc6a6c9fba68e0ac189" title="Converts an angle in decimal degree to integer degree. This rounds to the nearest integer...">DecimalDegreeToIntegerDegree()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gac84796dfdeb56235e1e338522a5f9350" title="Converts an angle in radian to integer degree. . ">RadianToIntegerDegree()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#gac9e870bdfa60dd2bb61469fdf6eedd7c" title="Converts an angle in integer degree to integer degree. This rounds to the nearest integer...">IntegerDegreeToIntegerDegree()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToIntegerDegree() for conversion from binary degrees. </dd>
+<dd>
+TurnToIntegerDegree() for conversion from turns. </dd>
+<dd>
+GradianToIntegerDegree() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToIntegerDegree() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToIntegerDegree() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToIntegerDegree() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -1003,7 +1219,25 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{\mu as}\ (\mu as)\) is the angle in microarcseconds. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga6fa88456069907fd24716fa575517571" title="Converts an angle in decimal degree to microarcsecond. . ">DecimalDegreeToMicroarcsecond()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3a515ca2838a305fa40750763f546a86" title="Converts an angle in radian to microarcsecond. . ">RadianToMicroarcsecond()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga31b65388fe1b4656663b3d66b9d764e6" title="Converts an angle in (decimal) degree to microarcsecond. . ">DegreeToMicroarcsecond()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga6fa88456069907fd24716fa575517571" title="Converts an angle in decimal degree to microarcsecond. . ">DecimalDegreeToMicroarcsecond()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3a515ca2838a305fa40750763f546a86" title="Converts an angle in radian to microarcsecond. . ">RadianToMicroarcsecond()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga69179d6082764595c7014805e1f6b31e" title="Converts an angle in integer degree to microarcsecond. . ">IntegerDegreeToMicroarcsecond()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToMicroarcsecond() for conversion from binary degrees. </dd>
+<dd>
+TurnToMicroarcsecond() for conversion from turns. </dd>
+<dd>
+GradianToMicroarcsecond() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToMicroarcsecond() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToMicroarcsecond() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToMicroarcsecond() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -1038,7 +1272,25 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{mas}\ (mas)\) is the angle in milliarcseconds. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gadb9ff3c92cf7484793f91e7de80c222e" title="Converts an angle in decimal degree to milliarcsecond. . ">DecimalDegreeToMilliarcsecond()</a> for alias. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga84fbb494a455cfeb30be62776f96c9a9" title="Converts an angle in radian to milliarcsecond. . ">RadianToMilliarcsecond()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga2c218e286b2ef72a00734dbc5a7f5ab6" title="Converts an angle in (decimal) degree to milliarcsecond. . ">DegreeToMilliarcsecond()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gadb9ff3c92cf7484793f91e7de80c222e" title="Converts an angle in decimal degree to milliarcsecond. . ">DecimalDegreeToMilliarcsecond()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga84fbb494a455cfeb30be62776f96c9a9" title="Converts an angle in radian to milliarcsecond. . ">RadianToMilliarcsecond()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#gadc43f22e832cd8fcf16b7bd2269ae348" title="Converts an angle in integer degree to milliarcsecond. . ">IntegerDegreeToMilliarcsecond()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToMilliarcsecond() for conversion from binary degrees. </dd>
+<dd>
+TurnToMilliarcsecond() for conversion from turns. </dd>
+<dd>
+GradianToMilliarcsecond() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToMilliarcsecond() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToMilliarcsecond() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToMilliarcsecond() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -1075,7 +1327,25 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0" title="Converts an angle in (decimal) degrees to radians. . ">DegreeToRadian()</a> for conversion to radians. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1" title="Converts an angle in radian to milliradian. . ">RadianToMilliradian()</a> for conversion from radians. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gae4fa6c2d3805430760783650cfbfdb11" title="Converts an angle in (decimal) degrees to milliradians. . ">DegreeToMilliradian()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#gab567d02d4692d9642a4ad219e479713a" title="Converts an angle in decimal degrees to milliradians. . ">DecimalDegreeToMilliradian()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1" title="Converts an angle in radian to milliradian. . ">RadianToMilliradian()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga5379a68bdff5cc4fab5bb1ba06ef9453" title="Converts an angle in integer degrees to milliradians. . ">IntegerDegreeToMilliradian()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToMilliradian() for conversion from binary degrees. </dd>
+<dd>
+TurnToMilliradian() for conversion from turns. </dd>
+<dd>
+GradianToMilliradian() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToMilliradian() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToMilliradian() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToMilliradian() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -1112,7 +1382,25 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gae4fa6c2d3805430760783650cfbfdb11" title="Converts an angle in (decimal) degrees to milliradians. . ">DegreeToMilliradian()</a> for conversion to milliradians. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga05d3368b00ea27b9895de2ffe5c8df38" title="Converts an angle in integer degrees to radians. . ">IntegerDegreeToRadian()</a> for result as integer. </dd></dl>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0" title="Converts an angle in (decimal) degrees to radians. . ">DegreeToRadian()</a> for conversion from (decimal) degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga906ee2c83cdf4caa59eb613dc2d5d52a" title="Converts an angle in decimal degrees to radians. . ">DecimalDegreeToRadian()</a> for conversion from decimal degrees. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#gae08681bd86b8e7e4325f6c8cb3a0dc37" title="Converts an angle in radian to radian. . ">RadianToRadian()</a> for conversion from radians. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_integer_degree.html#ga05d3368b00ea27b9895de2ffe5c8df38" title="Converts an angle in integer degrees to radians. . ">IntegerDegreeToRadian()</a> for conversion from integer degrees. </dd>
+<dd>
+BinaryDegreeToRadian() for conversion from binary degrees. </dd>
+<dd>
+TurnToRadian() for conversion from turns. </dd>
+<dd>
+GradianToRadian() for conversion from gradians. </dd>
+<dd>
+HoursMinutesSecondsToRadian() for conversion from hours minutes seconds. </dd>
+<dd>
+DegreesMinutesSecondsToRadian() for conversion from degrees minutes seconds. </dd>
+<dd>
+CompassWindToRadian() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
@@ -1145,9 +1433,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(\alpha_{turn}\ (turn)\) is the angle in turns. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga8492d6d2f6467c619b65e5fb75a9ae04" title="Converts an angle in radian to turn. . ">RadianToTurn()</a> for conversion to radians. </dd>
-<dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gafb4ce930493a7d6202ede3ee1630ef5d" title="Converts an angle in (decimal) degree to turn. . ">DegreeToTurn()</a> for conversion from (decimal) degrees. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#gafb4ce930493a7d6202ede3ee1630ef5d" title="Converts an angle in (decimal) degree to turn. . ">DegreeToTurn()</a> for conversion from (decimal) degrees. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga396a13c10acdef5026c12f3217b142c1" title="Converts an angle in decimal degree to turn. . ">DecimalDegreeToTurn()</a> for conversion from decimal degrees. </dd>
 <dd>
