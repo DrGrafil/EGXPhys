@@ -10,14 +10,18 @@ namespace EGXPhys{
 	// https://physics.stackexchange.com/questions/224950/how-can-i-convert-right-ascension-and-declination-to-distances helpful
 
 	template<typename T>
-	T RightAscensionToDegree(const T& hours, const T& minutes, const T& seconds)
-	{
-		return EGXMath::HMSToDegree(hours, minutes, seconds);
+	T RightAscensionToDegree(const T& hours, const T& minutes, const T& seconds){
+		return EGXMath::HoursMinutesSecondsToDegree(hours, minutes, seconds);
+	}
+
+	template<typename T>
+	T RightAscensionToRadian(const T& hours, const T& minutes, const T& seconds){
+		return EGXMath::HoursMinutesSecondsToRadian(hours, minutes, seconds);
 	}
 
 	template<typename T>
 	void DegreeToRightAscension(const T& decimalDegree, T& hours, T& minutes, T& seconds) {
-		EGXMath::DegreeToHMS(decimalDegree, hours, minutes, seconds);
+		EGXMath::DegreeToHoursMinutesSeconds(decimalDegree, hours, minutes, seconds);
 	}
 
 	template<typename T>
@@ -31,23 +35,16 @@ namespace EGXPhys{
 	}
 
 
-	template<typename T>
-	T RightAscensionToRadian(const T& hours, const T& minutes, const T& seconds)
-	{
-		return EGXMath::HMSToRadian(hours, minutes, seconds);
-
-		//return (hours * 15 + minutes / 4.0 + seconds / 240.0) * (pi / 180.0);
-	}
+	
 
 	template<typename T>
 	void RadianToRightAscension(const T& radians, T& hours, T& minutes, T& seconds) {
-		EGXMath::RadianToHMS(radians, hours, minutes, seconds);
+		EGXMath::RadianToHoursMinutesSeconds(radians, hours, minutes, seconds);
 	}
 
 	template<typename T>
 	T DeclinationToRadian(const T& integerDegrees, const T& arcminutes, const T& arcseconds) {
 		return EGXMath::DMSToRadian(integerDegrees, arcminutes, arcseconds);
-		//return (degrees + arcminutes / 60.0 + arcseconds / 3600.0)* (pi / 180.0);
 	}
 
 	template<typename T>

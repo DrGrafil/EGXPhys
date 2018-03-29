@@ -27,8 +27,8 @@
 \begin{DoxyCompactList}\small\item\em Converts an angle in degrees minutes seconds to milliarcsecond. \[\alpha_{mas}=\alpha_{rad}\frac{180 * 60 * 60 * 10^3}{\pi}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_d_m_s_ga1230f4c81771a59d9973beb0e6747dbf}{E\+G\+X\+Math\+::\+D\+M\+S\+To\+Microarcsecond}} (const T \&integer\+Degree, const T \&arcminute, const T \&arcsecond)
 \begin{DoxyCompactList}\small\item\em Converts an angle in degrees minutes seconds to microarcsecond. \[\alpha_{\mu as}=\alpha_{rad}\frac{180 * 60 * 60 * 10^6}{\pi}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_d_m_s_gaf71b42823b38454ad66668f086d46bdc}{E\+G\+X\+Math\+::\+D\+M\+S\+To\+Degrees\+Minutes\+Seconds}} (const T \&integer\+Degree, const T \&arcminute, const T \&arcsecond, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
-\begin{DoxyCompactList}\small\item\em Converts an angle in degrees minutes seconds to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_d_m_s_gae8804d622399df85d60c0c8bb5c6ebc5}{E\+G\+X\+Math\+::\+D\+M\+S\+To\+Degrees\+Minutes\+Seconds}} (const T \&integer\+Degree, const T \&arcminute, const T \&arcsecond, T \&integer\+Degree2, T \&arcminute2, T \&arcsecond2)
+\begin{DoxyCompactList}\small\item\em Converts an angle in degrees minutes seconds to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \[integerDegree2 = integerDegree \] \[arcminute2 = arcminute\] \[arcsecond2 = arcsecond\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_d_m_s_ga62f95d8bf79b8788ef6d1003f8d6a65f}{E\+G\+X\+Math\+::\+D\+M\+S\+To\+Hours\+Minutes\+Seconds}} (const T \&integer\+Degree, const T \&arcminute, const T \&arcsecond, T \&hour, T \&minute, T \&second)
 \begin{DoxyCompactList}\small\item\em Converts an angle in degrees minutes seconds to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_d_m_s_ga570e90c6555753cccfcaa55f0e6374ac}{E\+G\+X\+Math\+::\+D\+M\+S\+To\+H\+MS}} (const T \&integer\+Degree, const T \&arcminute, const T \&arcsecond, T \&hour, T \&minute, T \&second)
@@ -371,16 +371,16 @@ Binary\+Degree\+To\+Degree() for conversion from binary degrees.
 
 Compass\+Wind\+To\+Degree() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_d_m_s_gaf71b42823b38454ad66668f086d46bdc}\label{group___e_g_x_math-_angle_conversions-_d_m_s_gaf71b42823b38454ad66668f086d46bdc}} 
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_d_m_s_gae8804d622399df85d60c0c8bb5c6ebc5}\label{group___e_g_x_math-_angle_conversions-_d_m_s_gae8804d622399df85d60c0c8bb5c6ebc5}} 
 \index{D\+MS@{D\+MS}!D\+M\+S\+To\+Degrees\+Minutes\+Seconds@{D\+M\+S\+To\+Degrees\+Minutes\+Seconds}}
 \index{D\+M\+S\+To\+Degrees\+Minutes\+Seconds@{D\+M\+S\+To\+Degrees\+Minutes\+Seconds}!D\+MS@{D\+MS}}
 \subsubsection{\texorpdfstring{D\+M\+S\+To\+Degrees\+Minutes\+Seconds()}{DMSToDegreesMinutesSeconds()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-void E\+G\+X\+Math\+::\+D\+M\+S\+To\+Degrees\+Minutes\+Seconds (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree,  }\item[{const T \&}]{arcminute,  }\item[{const T \&}]{arcsecond,  }\item[{T \&}]{integer\+Degree,  }\item[{T \&}]{arcminute,  }\item[{T \&}]{arcsecond }\end{DoxyParamCaption})}
+void E\+G\+X\+Math\+::\+D\+M\+S\+To\+Degrees\+Minutes\+Seconds (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree,  }\item[{const T \&}]{arcminute,  }\item[{const T \&}]{arcsecond,  }\item[{T \&}]{integer\+Degree2,  }\item[{T \&}]{arcminute2,  }\item[{T \&}]{arcsecond2 }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in degrees minutes seconds to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. 
+Converts an angle in degrees minutes seconds to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \[integerDegree2 = integerDegree \] \[arcminute2 = arcminute\] \[arcsecond2 = arcsecond\]. 
 
 See \href{https://en.wikipedia.org/wiki/Geographic_coordinate_conversion}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Geographic\+\_\+coordinate\+\_\+conversion} and \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
 \begin{DoxyParams}{Parameters}
@@ -390,11 +390,11 @@ See \href{https://en.wikipedia.org/wiki/Geographic_coordinate_conversion}{\tt ht
 \hline
 {\em arcsecond} & $arcsecond\ (arcsec)$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. \\
 \hline
-{\em integer\+Degree} & $degree\ (deg int)$ is the angle in degrees in whole numbers. \\
+{\em integer\+Degree2} & $degree\ (deg int)$ is the angle in degrees in whole numbers. \\
 \hline
-{\em arcminute} & $arcminute\ (arcmin)$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. \\
+{\em arcminute2} & $arcminute\ (arcmin)$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. \\
 \hline
-{\em arcsecond} & $arcsecond\ (arcsec)$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. \\
+{\em arcsecond2} & $arcsecond\ (arcsec)$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. \\
 \hline
 \end{DoxyParams}
 \begin{DoxySeeAlso}{See also}

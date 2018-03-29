@@ -368,14 +368,17 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in hours minutes seconds to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.
+	*		\f[hour2 = hour \f]
+	*		\f[minute2 = minute\f]
+	*		\f[second2 = second\f]
 	*
 	*	See and https://en.wikipedia.org/wiki/Right_ascension and https://en.wikipedia.org/wiki/Hour_angle
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
 	*	@param minute \f$minute\ (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
 	*   @param second \f$second\ (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
-	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
-	*	@param minute \f$minute\ (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
-	*   @param second \f$second\ (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
+	*	@param hour2 \f$hour\ (h)\f$ is the angle in hours in whole numbers.
+	*	@param minute2 \f$minute\ (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
+	*   @param second2 \f$second\ (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
 	*	@see HMSToHMS() for alias.
 	*	@see DegreeToHoursMinutesSeconds() for conversion from (decimal) degrees and full explination.
 	*	@see DecimalDegreeToHoursMinutesSeconds() for conversion from decimal degrees.
@@ -389,7 +392,7 @@ namespace EGXMath
 	*	@see CompassWindToHoursMinutesSeconds() for conversion from compass wind.
 	*/
 	template<typename T>
-	void HMSToHoursMinutesSeconds(const T& hour, const T& minute, const T& second, T& hour, T& minute, T& second);
+	void HMSToHoursMinutesSeconds(const T& hour, const T& minute, const T& second, T& hour2, T& minute2, T& second2);
 
 	/**
 	*   @brief Converts an angle in hours minutes seconds to gradian.

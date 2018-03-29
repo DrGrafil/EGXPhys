@@ -246,7 +246,7 @@
     <None Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\StellarMass.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\StellarRadius.inl" />
-    <None Include="..\..\EGXPhys\Astrophysics\StellarTemperature..inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\StellarTemperature.inl" />
     <None Include="..\..\EGXPhys\Atomic\DecayConstant.inl" />
     <None Include="..\..\EGXPhys\Atomic\DecayWidth.inl" />
     <None Include="..\..\EGXPhys\Atomic\HalfLife.inl" />

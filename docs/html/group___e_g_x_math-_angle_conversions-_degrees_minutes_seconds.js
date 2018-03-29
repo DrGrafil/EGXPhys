@@ -7,7 +7,7 @@ var group___e_g_x_math__angle_conversions__degrees_minutes_seconds =
     [ "DegreesMinutesSecondsToCompassWind", "group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#ga756ecf42a02c09344bc8a9ad67845168", null ],
     [ "DegreesMinutesSecondsToDecimalDegree", "group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#gab4d4c25623f86611692c39eb29f16141", null ],
     [ "DegreesMinutesSecondsToDegree", "group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#gae59bfb37c0751e60e315f8a1ed3dc0cf", null ],
-    [ "DegreesMinutesSecondsToDMS", "group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#ga303b21c8ed41a718268bee6346a45be6", null ],
+    [ "DegreesMinutesSecondsToDMS", "group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#gae6652ea4b358b3f35f6b7c18faffabb2", null ],
     [ "DegreesMinutesSecondsToGon", "group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#ga90b481c224ad083726ffe0fd35f4dbfc", null ],
     [ "DegreesMinutesSecondsToGradian", "group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#ga59e2c2b178f760c337fcb3ea7406570f", null ],
     [ "DegreesMinutesSecondsToHMS", "group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#ga63c1cd3c9048d0c5a80fd9bc851c38ac", null ],

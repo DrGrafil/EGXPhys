@@ -317,14 +317,17 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in degrees minutes seconds to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
+	*		\f[integerDegree2 = integerDegree \f]
+	*		\f[arcminute2 = arcminute\f]
+	*		\f[arcsecond2 = arcsecond\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Geographic_coordinate_conversion and https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*	@param integerDegree \f$degree\ (deg)\f$ is the angle in degrees in whole numbers.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
-	*	@param integerDegree \f$degree\ (deg)\f$ is the angle in degrees in whole numbers.
-	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
-	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
+	*	@param integerDegree2 \f$degree\ (deg)\f$ is the angle in degrees in whole numbers.
+	*	@param arcminute2 \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
+	*   @param arcsecond2 \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
 	*	@see DegreesMinutesSecondsToDegreesMinutesSeconds() for alias.
 	*	@see DegreeToDMS() for conversion from (decimal) degrees and full explination.
 	*	@see DecimalDegreeToDMS() for conversion from decimal degrees.
@@ -338,7 +341,7 @@ namespace EGXMath
 	*	@see CompassWindToDMS() for conversion from compass wind.
 	*/
 	template<typename T>
-	void DegreesMinutesSecondsToDMS(const T& integerDegree, const T& arcminute, const T& arcsecond, T& integerDegree, T& arcminute, T& arcsecond);
+	void DegreesMinutesSecondsToDMS(const T& integerDegree, const T& arcminute, const T& arcsecond, T& integerDegree2, T& arcminute2, T& arcsecond2);
 
 	/**
 	*   @brief Converts an angle in degrees minutes seconds to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.

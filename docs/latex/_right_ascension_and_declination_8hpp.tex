@@ -12,17 +12,17 @@ Calculates co-\/ordinate transformations of Right Ascension and Declination.
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Right\+Ascension\+To\+Degree} (const T \&hours, const T \&minutes, const T \&seconds)
-\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_right_ascension_and_declination_ga30e95e529dac871efc014c8ca0108c0d}{E\+G\+X\+Phys\+::\+Right\+Ascension\+To\+Degree}} (const T \&hours, const T \&minutes, const T \&seconds)
+\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to degrees. \[\alpha_{deg}=(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_right_ascension_and_declination_gad90de181361375b745a9b226fa13ba14}{E\+G\+X\+Phys\+::\+Right\+Ascension\+To\+Radian}} (const T \&hours, const T \&minutes, const T \&seconds)
+\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to radians. \[\alpha_{rad}=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\] See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle}. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Degree\+To\+Right\+Ascension} (const T \&decimal\+Degree, T \&hours, T \&minutes, T \&seconds)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Radian\+To\+Right\+Ascension} (const T \&radians, T \&hours, T \&minutes, T \&seconds)
 \item 
 {\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Declination\+To\+Degree} (const T \&integer\+Degrees, const T \&arcminutes, const T \&arcseconds)
 \item 
 {\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Degree\+To\+Declination} (const T \&decimal\+Degree, T \&degrees, T \&arcminutes, T \&arcseconds)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_right_ascension_and_declination_gad90de181361375b745a9b226fa13ba14}{E\+G\+X\+Phys\+::\+Right\+Ascension\+To\+Radian}} (const T \&hours, const T \&minutes, const T \&seconds)
-\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha)$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to radians. \[\alpha=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\] See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle}. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Radian\+To\+Right\+Ascension} (const T \&radians, T \&hours, T \&minutes, T \&seconds)
 \item 
 {\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Declination\+To\+Radian} (const T \&integer\+Degrees, const T \&arcminutes, const T \&arcseconds)
 \item 

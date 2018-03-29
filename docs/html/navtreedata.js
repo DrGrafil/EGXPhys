@@ -35,13 +35,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_absolute_magnitude_8hpp.html",
-"_degrees_minutes_seconds_conversion_8inl.html#ga71fd0a3b9238a3a4fde150802938dee8",
-"_luminosity_8inl.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4",
-"_n_i_s_t_const_8hpp.html#gaa43ceaed22f3b69aee64d117cae645fb",
-"_q_value_8hpp.html#ga3e767be294dae24e1df18e7ccb8989e6",
-"group___e_g_x_math-_angle_conversions-_degree.html#gaf85e2d765c248f447854a807a68a5de8",
-"group___e_g_x_phys-_optics.html#gacc6d3b2922061214d64b89a4b8e3967a",
-"group___n_i_s_t_const-_inverse_meter.html"
+"_degrees_minutes_seconds_conversion_8hpp_source.html",
+"_luminosity_8hpp.html",
+"_n_i_s_t_const_8hpp.html#gaa1918065ee8731837afe6bddee194320",
+"_plasma_constants_8hpp.html",
+"group___e_g_x_math-_angle_conversions-_degree.html#ga770b13da33b6f6c7bfa398cca7f24dbe",
+"group___e_g_x_phys-_nuclear_separation_energy.html#ga4274d8f5a3860169fd81970707eb582a",
+"group___n_i_s_t_const-_hertz.html#ga035f43de5d8ad8208675c53a0057d14d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

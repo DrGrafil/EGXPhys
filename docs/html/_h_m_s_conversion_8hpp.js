@@ -11,7 +11,7 @@ var _h_m_s_conversion_8hpp =
     [ "HMSToDMS", "_h_m_s_conversion_8hpp.html#ga7a875e85b32c4d7a8c6fa9a833f2bf7a", null ],
     [ "HMSToGon", "_h_m_s_conversion_8hpp.html#ga7751b1ea9b1874096023286240a91068", null ],
     [ "HMSToGradian", "_h_m_s_conversion_8hpp.html#ga89aaece52b0760559444d0303bee3bf1", null ],
-    [ "HMSToHoursMinutesSeconds", "_h_m_s_conversion_8hpp.html#ga25573fcb58b30f77a8797515d8b04b66", null ],
+    [ "HMSToHoursMinutesSeconds", "_h_m_s_conversion_8hpp.html#gaf9acea32cca77104b92fe10fe0d1595f", null ],
     [ "HMSToIntegerDegree", "_h_m_s_conversion_8hpp.html#ga5091437050cc32e29f722a3c50650405", null ],
     [ "HMSToMicroarcsecond", "_h_m_s_conversion_8hpp.html#ga5d91ade4a1aaf641f9483e840e701446", null ],
     [ "HMSToMilliarcsecond", "_h_m_s_conversion_8hpp.html#ga08189ea113f78c71e3d30055c757604a", null ],

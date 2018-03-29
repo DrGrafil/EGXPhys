@@ -7,7 +7,7 @@ var _degrees_minutes_seconds_conversion_8inl =
     [ "DegreesMinutesSecondsToCompassWind", "_degrees_minutes_seconds_conversion_8inl.html#ga756ecf42a02c09344bc8a9ad67845168", null ],
     [ "DegreesMinutesSecondsToDecimalDegree", "_degrees_minutes_seconds_conversion_8inl.html#gab4d4c25623f86611692c39eb29f16141", null ],
     [ "DegreesMinutesSecondsToDegree", "_degrees_minutes_seconds_conversion_8inl.html#gae59bfb37c0751e60e315f8a1ed3dc0cf", null ],
-    [ "DegreesMinutesSecondsToDMS", "_degrees_minutes_seconds_conversion_8inl.html#ga303b21c8ed41a718268bee6346a45be6", null ],
+    [ "DegreesMinutesSecondsToDMS", "_degrees_minutes_seconds_conversion_8inl.html#gae6652ea4b358b3f35f6b7c18faffabb2", null ],
     [ "DegreesMinutesSecondsToGon", "_degrees_minutes_seconds_conversion_8inl.html#ga90b481c224ad083726ffe0fd35f4dbfc", null ],
     [ "DegreesMinutesSecondsToGradian", "_degrees_minutes_seconds_conversion_8inl.html#ga59e2c2b178f760c337fcb3ea7406570f", null ],
     [ "DegreesMinutesSecondsToHMS", "_degrees_minutes_seconds_conversion_8inl.html#ga63c1cd3c9048d0c5a80fd9bc851c38ac", null ],

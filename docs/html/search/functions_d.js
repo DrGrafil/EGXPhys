@@ -21,5 +21,6 @@ var searchData=
   ['radioluminosity',['radioLuminosity',['../group___e_g_x_phys-_luminosity.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4',1,'EGXPhys']]],
   ['redshiftbyfrequency',['redshiftByFrequency',['../group___e_g_x_phys-_optics.html#gacc6d3b2922061214d64b89a4b8e3967a',1,'EGXPhys']]],
   ['redshiftbywavelength',['redshiftByWavelength',['../group___e_g_x_phys-_optics.html#ga29300a13e34da35332ca2d447b5ce82d',1,'EGXPhys']]],
+  ['rightascensiontodegree',['RightAscensionToDegree',['../group___e_g_x_phys-_right_ascension_and_declination.html#ga30e95e529dac871efc014c8ca0108c0d',1,'EGXPhys']]],
   ['rightascensiontoradian',['RightAscensionToRadian',['../group___e_g_x_phys-_right_ascension_and_declination.html#gad90de181361375b745a9b226fa13ba14',1,'EGXPhys']]]
 ];

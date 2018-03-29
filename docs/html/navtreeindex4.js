@@ -1,5 +1,12 @@
 var NAVTREEINDEX4 =
 {
+"_plasma_constants_8hpp.html":[2,0,0,7,1],
+"_plasma_constants_8hpp_source.html":[2,0,0,7,1],
+"_q_value_8hpp.html":[2,0,0,2,17],
+"_q_value_8hpp.html#ga04e540785b9f7e4fb930160a3b1225af":[2,0,0,2,17,20],
+"_q_value_8hpp.html#ga066fe9a9816a204c801c557a85bc60df":[2,0,0,2,17,4],
+"_q_value_8hpp.html#ga0eefdd84aa89d210e00dca043368dfeb":[2,0,0,2,17,9],
+"_q_value_8hpp.html#ga18e054c21cd5f87744e9f5aadc959a54":[2,0,0,2,17,1],
 "_q_value_8hpp.html#ga3e767be294dae24e1df18e7ccb8989e6":[2,0,0,2,17,0],
 "_q_value_8hpp.html#ga3fb4b374bc1df69b96a66d0488bb2ba1":[2,0,0,2,17,11],
 "_q_value_8hpp.html#ga42468e998cf58a027a676755aa1339ba":[2,0,0,2,17,3],
@@ -137,6 +144,7 @@ var NAVTREEINDEX4 =
 "_stellar_radius_8inl.html":[2,0,0,1,27],
 "_stellar_temperature_8hpp.html":[2,0,0,1,28],
 "_stellar_temperature_8hpp_source.html":[2,0,0,1,28],
+"_stellar_temperature_8inl.html":[2,0,0,1,29],
 "_thermodynamics_8hpp.html":[2,0,0,10,0],
 "_thermodynamics_8hpp_source.html":[2,0,0,10,0],
 "_thermodynamics_constants_8hpp.html":[2,0,0,10,1],
@@ -212,7 +220,7 @@ var NAVTREEINDEX4 =
 "group___e_g_x_math-_angle_conversions-_d_m_s.html#gab0fa9a734b22ff812a83a7784280d6db":[1,0,0,3,1],
 "group___e_g_x_math-_angle_conversions-_d_m_s.html#gac9d0871ac2dd889cf9f3c00d25f8a013":[1,0,0,3,2],
 "group___e_g_x_math-_angle_conversions-_d_m_s.html#gae0b9627dc69707dd6febb80306318d9a":[1,0,0,3,3],
-"group___e_g_x_math-_angle_conversions-_d_m_s.html#gaf71b42823b38454ad66668f086d46bdc":[1,0,0,3,7],
+"group___e_g_x_math-_angle_conversions-_d_m_s.html#gae8804d622399df85d60c0c8bb5c6ebc5":[1,0,0,3,7],
 "group___e_g_x_math-_angle_conversions-_d_m_s.html#gaf87ebf95727895ba81084a2246e93211":[1,0,0,3,16],
 "group___e_g_x_math-_angle_conversions-_decimal_degree.html":[1,0,0,0],
 "group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga0aa7f2f5dbb00cf4ab303421c6e33ccf":[1,0,0,0,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX4 =
 "group___e_g_x_math-_angle_conversions-_degree.html#ga31b65388fe1b4656663b3d66b9d764e6":[1,0,0,1,13],
 "group___e_g_x_math-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0":[1,0,0,1,16],
 "group___e_g_x_math-_angle_conversions-_degree.html#ga568afc1d436d425bf5d4edea584aee08":[1,0,0,1,5],
-"group___e_g_x_math-_angle_conversions-_degree.html#ga5ffef873bcec300ab90570ad6e7b1ab1":[1,0,0,1,4],
-"group___e_g_x_math-_angle_conversions-_degree.html#ga770b13da33b6f6c7bfa398cca7f24dbe":[1,0,0,1,11],
-"group___e_g_x_math-_angle_conversions-_degree.html#ga859585939255d52d010c780c68eb6e23":[1,0,0,1,6],
-"group___e_g_x_math-_angle_conversions-_degree.html#ga87c3fab0867021e5d2501197b4db6194":[1,0,0,1,8],
-"group___e_g_x_math-_angle_conversions-_degree.html#ga8abf327dc5f52907b2c881999e9cc43e":[1,0,0,1,1],
-"group___e_g_x_math-_angle_conversions-_degree.html#gaabd20f21be3c18ee423d0bc1a677c6f6":[1,0,0,1,12],
-"group___e_g_x_math-_angle_conversions-_degree.html#gac1b5f3b68f66c77a6df4ceef842c9b19":[1,0,0,1,0],
-"group___e_g_x_math-_angle_conversions-_degree.html#gacd1e3dc5194e89426a899a7cac4874f8":[1,0,0,1,3],
-"group___e_g_x_math-_angle_conversions-_degree.html#gae4fa6c2d3805430760783650cfbfdb11":[1,0,0,1,15]
+"group___e_g_x_math-_angle_conversions-_degree.html#ga5ffef873bcec300ab90570ad6e7b1ab1":[1,0,0,1,4]
 };

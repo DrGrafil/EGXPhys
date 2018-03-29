@@ -14,7 +14,7 @@ var searchData=
   ['hmstodms',['HMSToDMS',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga7a875e85b32c4d7a8c6fa9a833f2bf7a',1,'EGXMath']]],
   ['hmstogon',['HMSToGon',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga7751b1ea9b1874096023286240a91068',1,'EGXMath']]],
   ['hmstogradian',['HMSToGradian',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga89aaece52b0760559444d0303bee3bf1',1,'EGXMath']]],
-  ['hmstohoursminutesseconds',['HMSToHoursMinutesSeconds',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga25573fcb58b30f77a8797515d8b04b66',1,'EGXMath']]],
+  ['hmstohoursminutesseconds',['HMSToHoursMinutesSeconds',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#gaf9acea32cca77104b92fe10fe0d1595f',1,'EGXMath']]],
   ['hmstointegerdegree',['HMSToIntegerDegree',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga5091437050cc32e29f722a3c50650405',1,'EGXMath']]],
   ['hmstomicroarcsecond',['HMSToMicroarcsecond',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga5d91ade4a1aaf641f9483e840e701446',1,'EGXMath']]],
   ['hmstomilliarcsecond',['HMSToMilliarcsecond',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga08189ea113f78c71e3d30055c757604a',1,'EGXMath']]],

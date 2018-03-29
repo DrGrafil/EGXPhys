@@ -184,10 +184,19 @@ Functions</h2></td></tr>
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#gabc4de7934e776de13953707344a4da88">More...</a><br /></td></tr>
 <tr class="separator:gabc4de7934e776de13953707344a4da88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga303b21c8ed41a718268bee6346a45be6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga303b21c8ed41a718268bee6346a45be6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#ga303b21c8ed41a718268bee6346a45be6">EGXMath::DegreesMinutesSecondsToDMS</a> (const T &amp;integerDegree, const T &amp;arcminute, const T &amp;arcsecond, T &amp;integerDegree, T &amp;arcminute, T &amp;arcsecond)</td></tr>
-<tr class="memdesc:ga303b21c8ed41a718268bee6346a45be6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in degrees minutes seconds to degrees minutes seconds (DMS). \({DD}^{\circ}{MM}&#39;{SS.SS}&#39;&#39;\) format.  <a href="group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#ga303b21c8ed41a718268bee6346a45be6">More...</a><br /></td></tr>
-<tr class="separator:ga303b21c8ed41a718268bee6346a45be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae6652ea4b358b3f35f6b7c18faffabb2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gae6652ea4b358b3f35f6b7c18faffabb2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#gae6652ea4b358b3f35f6b7c18faffabb2">EGXMath::DegreesMinutesSecondsToDMS</a> (const T &amp;integerDegree, const T &amp;arcminute, const T &amp;arcsecond, T &amp;integerDegree2, T &amp;arcminute2, T &amp;arcsecond2)</td></tr>
+<tr class="memdesc:gae6652ea4b358b3f35f6b7c18faffabb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in degrees minutes seconds to degrees minutes seconds (DMS). \({DD}^{\circ}{MM}&#39;{SS.SS}&#39;&#39;\) format. </p><p class="formulaDsp">
+\[integerDegree2 = integerDegree \]
+</p>
+ <p class="formulaDsp">
+\[arcminute2 = arcminute\]
+</p>
+ <p class="formulaDsp">
+\[arcsecond2 = arcsecond\]
+</p>
+<p>.  <a href="group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#gae6652ea4b358b3f35f6b7c18faffabb2">More...</a><br /></td></tr>
+<tr class="separator:gae6652ea4b358b3f35f6b7c18faffabb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7fc14ecc37f95ec9228821c3a087e83b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga7fc14ecc37f95ec9228821c3a087e83b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#ga7fc14ecc37f95ec9228821c3a087e83b">EGXMath::DegreesMinutesSecondsToHoursMinutesSeconds</a> (const T &amp;integerDegree, const T &amp;arcminute, const T &amp;arcsecond, T &amp;hour, T &amp;minute, T &amp;second)</td></tr>
 <tr class="memdesc:ga7fc14ecc37f95ec9228821c3a087e83b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in degrees minutes seconds to hours minutes seconds (HMS). \({HH}^h{MM}^m{SS.SS}^s\) format.  <a href="group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#ga7fc14ecc37f95ec9228821c3a087e83b">More...</a><br /></td></tr>
@@ -730,8 +739,8 @@ CompassWindToDegree() for conversion from compass wind. </dd></dl>
 
 </div>
 </div>
-<a id="ga303b21c8ed41a718268bee6346a45be6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga303b21c8ed41a718268bee6346a45be6">&#9670;&nbsp;</a></span>DegreesMinutesSecondsToDMS()</h2>
+<a id="gae6652ea4b358b3f35f6b7c18faffabb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae6652ea4b358b3f35f6b7c18faffabb2">&#9670;&nbsp;</a></span>DegreesMinutesSecondsToDMS()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -760,19 +769,19 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>integerDegree</em>, </td>
+          <td class="paramname"><em>integerDegree2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>arcminute</em>, </td>
+          <td class="paramname"><em>arcminute2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>arcsecond</em>&#160;</td>
+          <td class="paramname"><em>arcsecond2</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -782,15 +791,24 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Converts an angle in degrees minutes seconds to degrees minutes seconds (DMS). \({DD}^{\circ}{MM}&#39;{SS.SS}&#39;&#39;\) format. </p>
+<p>Converts an angle in degrees minutes seconds to degrees minutes seconds (DMS). \({DD}^{\circ}{MM}&#39;{SS.SS}&#39;&#39;\) format. </p><p class="formulaDsp">
+\[integerDegree2 = integerDegree \]
+</p>
+ <p class="formulaDsp">
+\[arcminute2 = arcminute\]
+</p>
+ <p class="formulaDsp">
+\[arcsecond2 = arcsecond\]
+</p>
+<p>. </p>
 <p>See <a href="https://en.wikipedia.org/wiki/Geographic_coordinate_conversion">https://en.wikipedia.org/wiki/Geographic_coordinate_conversion</a> and <a href="https://en.wikipedia.org/wiki/Minute_and_second_of_arc">https://en.wikipedia.org/wiki/Minute_and_second_of_arc</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">integerDegree</td><td>\(degree\ (deg)\) is the angle in degrees in whole numbers. </td></tr>
     <tr><td class="paramname">arcminute</td><td>\(arcminute\ (arcmin)\) is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. </td></tr>
     <tr><td class="paramname">arcsecond</td><td>\(arcsecond\ (arcsec)\) is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. </td></tr>
-    <tr><td class="paramname">integerDegree</td><td>\(degree\ (deg)\) is the angle in degrees in whole numbers. </td></tr>
-    <tr><td class="paramname">arcminute</td><td>\(arcminute\ (arcmin)\) is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. </td></tr>
-    <tr><td class="paramname">arcsecond</td><td>\(arcsecond\ (arcsec)\) is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. </td></tr>
+    <tr><td class="paramname">integerDegree2</td><td>\(degree\ (deg)\) is the angle in degrees in whole numbers. </td></tr>
+    <tr><td class="paramname">arcminute2</td><td>\(arcminute\ (arcmin)\) is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. </td></tr>
+    <tr><td class="paramname">arcsecond2</td><td>\(arcsecond\ (arcsec)\) is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. </td></tr>
   </table>
   </dd>
 </dl>
@@ -812,7 +830,7 @@ BinaryDegreeToDMS() for conversion from binary degrees. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga8fe72f56eebb44d7e8d7033476bbdd9b" title="Converts an angle in hours minutes seconds to degrees minutes seconds (DMS).  format. ">HoursMinutesSecondsToDMS()</a> for conversion from hours minutes seconds. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#ga303b21c8ed41a718268bee6346a45be6" title="Converts an angle in degrees minutes seconds to degrees minutes seconds (DMS).  format. ">DegreesMinutesSecondsToDMS()</a> for conversion from degrees minutes seconds. </dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#gae6652ea4b358b3f35f6b7c18faffabb2" title="Converts an angle in degrees minutes seconds to degrees minutes seconds (DMS).  format.   . ">DegreesMinutesSecondsToDMS()</a> for conversion from degrees minutes seconds. </dd>
 <dd>
 CompassWindToDMS() for conversion from compass wind. </dd></dl>
 

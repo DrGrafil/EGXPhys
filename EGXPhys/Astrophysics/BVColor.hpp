@@ -41,8 +41,8 @@ namespace EGXPhys
 	*	@see StellarMass() for \f$M\f$ equation using a star as a reference.
 	*	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
 	*/
-	template<typename T>
-	T StellarMass(const T& starMass, const T& referenceMass);
+	//template<typename T>
+	//T StellarMass(const T& starMass, const T& referenceMass);
 	  
 	/**
 	*   @brief Calculates the solar mass \f$(M)\f$ of a star when comparing it to the mass of the sun \f$(m_\odot)\f$.
@@ -55,8 +55,8 @@ namespace EGXPhys
 	*	@see StellarMass() for \f$M\f$ equation using a star as a reference.
 	*	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
 	*/
-	template<typename T>
-	T SolarMass(const T& starMass);
+	//template<typename T>
+	//T SolarMass(const T& starMass);
 
     /// @}
 } //namespace EGXPhys

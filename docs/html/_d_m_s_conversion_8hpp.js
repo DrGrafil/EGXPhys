@@ -7,7 +7,7 @@ var _d_m_s_conversion_8hpp =
     [ "DMSToCompassWind", "_d_m_s_conversion_8hpp.html#ga3beb450aec060ec6d4f0abae7eb7e503", null ],
     [ "DMSToDecimalDegree", "_d_m_s_conversion_8hpp.html#ga10e325fbb65f6e2e7d8cd7d3d8af2931", null ],
     [ "DMSToDegree", "_d_m_s_conversion_8hpp.html#ga3744d5ef737f693a191efc151d8ef3f3", null ],
-    [ "DMSToDegreesMinutesSeconds", "_d_m_s_conversion_8hpp.html#gaf71b42823b38454ad66668f086d46bdc", null ],
+    [ "DMSToDegreesMinutesSeconds", "_d_m_s_conversion_8hpp.html#gae8804d622399df85d60c0c8bb5c6ebc5", null ],
     [ "DMSToGon", "_d_m_s_conversion_8hpp.html#ga47fe1b9127ec6b73ee759eef038a8eb6", null ],
     [ "DMSToGradian", "_d_m_s_conversion_8hpp.html#ga2abca0654499b46df6ab9592f95b9ef1", null ],
     [ "DMSToHMS", "_d_m_s_conversion_8hpp.html#ga570e90c6555753cccfcaa55f0e6374ac", null ],

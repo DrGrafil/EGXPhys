@@ -112,14 +112,14 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa0b04e9012ec739df1464298971e3be7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gaa0b04e9012ec739df1464298971e3be7"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#gaa0b04e9012ec739df1464298971e3be7">EGXMath::HoursMinutesSecondsToRadian</a> (const T &amp;hour, const T &amp;minute, const T &amp;second)</td></tr>
 <tr class="memdesc:gaa0b04e9012ec739df1464298971e3be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in hours minutes seconds to radian. </p><p class="formulaDsp">
-\[\alpha_{rad}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\frac{\pi}{180}\]
+\[\alpha_{rad}=\frac{\pi}{180}(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\]
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#gaa0b04e9012ec739df1464298971e3be7">More...</a><br /></td></tr>
 <tr class="separator:gaa0b04e9012ec739df1464298971e3be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad78a90abaed52ca9d5fe6b4287c4a5f3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gad78a90abaed52ca9d5fe6b4287c4a5f3"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#gad78a90abaed52ca9d5fe6b4287c4a5f3">EGXMath::HoursMinutesSecondsToMilliradian</a> (const T &amp;hour, const T &amp;minute, const T &amp;second)</td></tr>
 <tr class="memdesc:gad78a90abaed52ca9d5fe6b4287c4a5f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in hours minutes seconds to milliradian. </p><p class="formulaDsp">
-\[\alpha_{mrad}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\frac{\pi}{180}*10^3\]
+\[\alpha_{mrad}=\frac{\pi}{180}(15.0 * hour + \frac{minute}{4} + \frac{second}{240})*10^3\]
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#gad78a90abaed52ca9d5fe6b4287c4a5f3">More...</a><br /></td></tr>
 <tr class="separator:gad78a90abaed52ca9d5fe6b4287c4a5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,7 +161,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga962a367fd21f0047eb0a7116a59c2bfc"><td class="memTemplParams" colspan="2">template&lt;typename T , typename T2 &gt; </td></tr>
 <tr class="memitem:ga962a367fd21f0047eb0a7116a59c2bfc"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga962a367fd21f0047eb0a7116a59c2bfc">EGXMath::HoursMinutesSecondsToBinaryDegree</a> (const T &amp;hour, const T &amp;minute, const T &amp;second, const T2 &amp;bits=8)</td></tr>
 <tr class="memdesc:ga962a367fd21f0047eb0a7116a59c2bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in hours minutes seconds to binary degree (brad). </p><p class="formulaDsp">
-\[\alpha_{deg\ bin}=round(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\frac{2^{(n-1)}}{360})\]
+\[\alpha_{deg\ bin}=round(\frac{2^{(n-1)}}{360}(15.0 * hour + \frac{minute}{4} + \frac{second}{240}))\]
 </p>
 <p> Where \(n\) is the number of bits avaliable to store the number. \(n\) defaults to 8, the tradiational number for binary degrees.  <a href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga962a367fd21f0047eb0a7116a59c2bfc">More...</a><br /></td></tr>
 <tr class="separator:ga962a367fd21f0047eb0a7116a59c2bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,21 +175,21 @@ Functions</h2></td></tr>
 <tr class="memitem:ga14620899c81c1f5e65cde96ef4ee626e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga14620899c81c1f5e65cde96ef4ee626e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga14620899c81c1f5e65cde96ef4ee626e">EGXMath::HoursMinutesSecondsToArcsecond</a> (const T &amp;hour, const T &amp;minute, const T &amp;second)</td></tr>
 <tr class="memdesc:ga14620899c81c1f5e65cde96ef4ee626e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in hours minutes seconds to arcsecond. Note that arcsecond are not equal to seconds. </p><p class="formulaDsp">
-\[\alpha_{arcsec}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60}{\pi}\]
+\[\alpha_{arcsec}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60\]
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga14620899c81c1f5e65cde96ef4ee626e">More...</a><br /></td></tr>
 <tr class="separator:ga14620899c81c1f5e65cde96ef4ee626e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf63c3ba5f75aacd268db2814575fa3f9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gaf63c3ba5f75aacd268db2814575fa3f9"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#gaf63c3ba5f75aacd268db2814575fa3f9">EGXMath::HoursMinutesSecondsToMilliarcsecond</a> (const T &amp;hour, const T &amp;minute, const T &amp;second)</td></tr>
 <tr class="memdesc:gaf63c3ba5f75aacd268db2814575fa3f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in hours minutes seconds to milliarcsecond. </p><p class="formulaDsp">
-\[\alpha_{mas}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60 * 10^3}{\pi}\]
+\[\alpha_{mas}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60 * 10^3\]
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#gaf63c3ba5f75aacd268db2814575fa3f9">More...</a><br /></td></tr>
 <tr class="separator:gaf63c3ba5f75aacd268db2814575fa3f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga061e4fa10d73e459d5f411cfe436bbe3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga061e4fa10d73e459d5f411cfe436bbe3"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga061e4fa10d73e459d5f411cfe436bbe3">EGXMath::HoursMinutesSecondsToMicroarcsecond</a> (const T &amp;hour, const T &amp;minute, const T &amp;second)</td></tr>
 <tr class="memdesc:ga061e4fa10d73e459d5f411cfe436bbe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in hours minutes seconds to microarcsecond. </p><p class="formulaDsp">
-\[\alpha_{\mu as}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60 * 10^6}{\pi}\]
+\[\alpha_{\mu as}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60 * 10^6\]
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga061e4fa10d73e459d5f411cfe436bbe3">More...</a><br /></td></tr>
 <tr class="separator:ga061e4fa10d73e459d5f411cfe436bbe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,14 +217,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1731e750f3e5561313ee9d22adff747e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga1731e750f3e5561313ee9d22adff747e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga1731e750f3e5561313ee9d22adff747e">EGXMath::HoursMinutesSecondsToGradian</a> (const T &amp;hour, const T &amp;minute, const T &amp;second)</td></tr>
 <tr class="memdesc:ga1731e750f3e5561313ee9d22adff747e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in hours minutes seconds to gradian. </p><p class="formulaDsp">
-\[\alpha_{g}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\frac{10}{9}\]
+\[\alpha_{g}=\frac{10}{9}(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\]
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga1731e750f3e5561313ee9d22adff747e">More...</a><br /></td></tr>
 <tr class="separator:ga1731e750f3e5561313ee9d22adff747e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga356f1e89c3ea35a9d46967644d4ddfd3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga356f1e89c3ea35a9d46967644d4ddfd3"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga356f1e89c3ea35a9d46967644d4ddfd3">EGXMath::HoursMinutesSecondsToGon</a> (const T &amp;hour, const T &amp;minute, const T &amp;second)</td></tr>
 <tr class="memdesc:ga356f1e89c3ea35a9d46967644d4ddfd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in hours minutes seconds to gradian. </p><p class="formulaDsp">
-\[\alpha_{g}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\frac{10}{9}\]
+\[\alpha_{g}=\frac{10}{9}(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\]
 </p>
 <p>.  <a href="group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga356f1e89c3ea35a9d46967644d4ddfd3">More...</a><br /></td></tr>
 <tr class="separator:ga356f1e89c3ea35a9d46967644d4ddfd3"><td class="memSeparator" colspan="2">&#160;</td></tr>

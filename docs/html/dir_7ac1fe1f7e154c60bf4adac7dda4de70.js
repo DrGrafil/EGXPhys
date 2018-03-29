@@ -6,7 +6,7 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "Apoapsis.inl", "_apoapsis_8inl.html", "_apoapsis_8inl" ],
     [ "Astrophysics.hpp", "_astrophysics_8hpp.html", null ],
     [ "AstrophysicsConstants.hpp", "_astrophysics_constants_8hpp.html", "_astrophysics_constants_8hpp" ],
-    [ "BVColor.hpp", "_b_v_color_8hpp.html", "_b_v_color_8hpp" ],
+    [ "BVColor.hpp", "_b_v_color_8hpp.html", null ],
     [ "BVColor.inl", "_b_v_color_8inl.html", null ],
     [ "CircumstellarHabitableZone.hpp", "_circumstellar_habitable_zone_8hpp.html", "_circumstellar_habitable_zone_8hpp" ],
     [ "CircumstellarHabitableZone.inl", "_circumstellar_habitable_zone_8inl.html", "_circumstellar_habitable_zone_8inl" ],
@@ -28,5 +28,6 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "StellarMass.hpp", "_stellar_mass_8hpp_source.html", null ],
     [ "StellarRadius.hpp", "_stellar_radius_8hpp.html", null ],
     [ "StellarRadius.inl", "_stellar_radius_8inl.html", null ],
-    [ "StellarTemperature.hpp", "_stellar_temperature_8hpp.html", null ]
+    [ "StellarTemperature.hpp", "_stellar_temperature_8hpp.html", null ],
+    [ "StellarTemperature.inl", "_stellar_temperature_8inl.html", null ]
 ];

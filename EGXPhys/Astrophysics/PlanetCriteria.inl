@@ -22,7 +22,6 @@ namespace EGXPhys{
     	return PlanetSimilarityIndex( planetMeanRadius, RadiusOfEarth, planetBulkDensity, DensityOfEarth, planetEscapeVelocity, EscapeVelocityOfEarth, planetSurfaceTemperature, SurfaceTempretureOfEarth);
 	}
 	
-	#include <iostream>
 	template<typename T>
     T PlanetSimilarityIndexInterior( const T& planetMeanRadius, const T& referenceMeanRadius, const T& planetBulkDensity, const T& referenceBulkDensity ){
 		return sqrt( 

@@ -1,5 +1,11 @@
 var NAVTREEINDEX6 =
 {
+"group___e_g_x_phys-_nuclear_separation_energy.html#ga4274d8f5a3860169fd81970707eb582a":[1,1,2,7,4],
+"group___e_g_x_phys-_nuclear_separation_energy.html#ga66133edb5809c81dd9fd60e09ebbef79":[1,1,2,7,1],
+"group___e_g_x_phys-_nuclear_separation_energy.html#ga6a619ded55c47ed22ea2d8a85202ebeb":[1,1,2,7,5],
+"group___e_g_x_phys-_nuclear_separation_energy.html#gad7c1d4a32daa8aaa53c5fce37c421f82":[1,1,2,7,6],
+"group___e_g_x_phys-_optics.html":[1,1,4],
+"group___e_g_x_phys-_optics.html#ga29300a13e34da35332ca2d447b5ce82d":[1,1,4,2],
 "group___e_g_x_phys-_optics.html#gacc6d3b2922061214d64b89a4b8e3967a":[1,1,4,1],
 "group___e_g_x_phys-_orbital_charecteristics.html":[1,1,1,6],
 "group___e_g_x_phys-_parallax.html":[1,1,1,7],
@@ -48,10 +54,13 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_redshift.html":[1,1,4,0],
 "group___e_g_x_phys-_relativity.html":[1,1,7],
 "group___e_g_x_phys-_right_ascension_and_declination.html":[1,1,1,11],
-"group___e_g_x_phys-_right_ascension_and_declination.html#gad90de181361375b745a9b226fa13ba14":[1,1,1,11,0],
+"group___e_g_x_phys-_right_ascension_and_declination.html#ga30e95e529dac871efc014c8ca0108c0d":[1,1,1,11,0],
+"group___e_g_x_phys-_right_ascension_and_declination.html#gad90de181361375b745a9b226fa13ba14":[1,1,1,11,1],
 "group___e_g_x_phys-_semi_empirical_mass_formula.html":[1,1,2,10],
 "group___e_g_x_phys-_semi_empirical_mass_formula.html#ga99c5a87be2c76d3fa4852654c3fd59a9":[1,1,2,10,0],
 "group___e_g_x_phys-_stellar_mass.html":[1,1,1,12],
+"group___e_g_x_phys-_stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61":[1,1,1,12,1],
+"group___e_g_x_phys-_stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514":[1,1,1,12,0],
 "group___e_g_x_phys-_stellar_radius.html":[1,1,1,13],
 "group___e_g_x_phys-_stellar_temperature.html":[1,1,1,14],
 "group___e_g_x_phys-_thermodynamics.html":[1,1,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX6 =
 "group___n_i_s_t_const-_helion.html#gae3bf1eccb33e00a6da688959fd99bbb3":[1,2,2,8,15],
 "group___n_i_s_t_const-_helion.html#gaed43f2ab9c5e89c6dda577a3b5fc265c":[1,2,2,8,12],
 "group___n_i_s_t_const-_helion.html#gaf3b7dabd6de7a263aba710256e793c8e":[1,2,2,8,11],
-"group___n_i_s_t_const-_hertz.html":[1,2,6,3],
-"group___n_i_s_t_const-_hertz.html#ga035f43de5d8ad8208675c53a0057d14d":[1,2,6,3,1],
-"group___n_i_s_t_const-_hertz.html#ga2ededb8b750b44cde6d83c1c07b6a870":[1,2,6,3,2],
-"group___n_i_s_t_const-_hertz.html#ga5e2fd7ea13ae13a34435ff0578082d34":[1,2,6,3,0],
-"group___n_i_s_t_const-_hertz.html#ga6d5ccd7fed8ad7f2abb5c368565a1666":[1,2,6,3,3],
-"group___n_i_s_t_const-_hertz.html#ga7b63758ab74cb80c236d4eacd5b89484":[1,2,6,3,6],
-"group___n_i_s_t_const-_hertz.html#ga827c4e99287fcd5363fabcfe1381cc37":[1,2,6,3,4],
-"group___n_i_s_t_const-_hertz.html#gacda137a5d10ebba59b340d770802678f":[1,2,6,3,5],
-"group___n_i_s_t_const-_impedance_of_vacuum.html":[1,2,0,0],
-"group___n_i_s_t_const-_impedance_of_vacuum.html#ga51e1aede5d89041ea7423522b526dd0e":[1,2,0,0,0]
+"group___n_i_s_t_const-_hertz.html":[1,2,6,3]
 };

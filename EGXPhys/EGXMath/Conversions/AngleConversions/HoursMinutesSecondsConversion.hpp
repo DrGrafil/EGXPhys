@@ -32,7 +32,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in hours minutes seconds to radian.
-	*		\f[\alpha_{rad}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\frac{\pi}{180}\f]
+	*		\f[\alpha_{rad}=\frac{\pi}{180}(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Radian
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
@@ -56,7 +56,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in hours minutes seconds to milliradian.
-	*		\f[\alpha_{mrad}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\frac{\pi}{180}*10^3\f]
+	*		\f[\alpha_{mrad}=\frac{\pi}{180}(15.0 * hour + \frac{minute}{4} + \frac{second}{240})*10^3\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Milliradian 
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
@@ -201,7 +201,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in hours minutes seconds to binary degree (brad).
-	*		\f[\alpha_{deg\ bin}=round(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\frac{2^{(n-1)}}{360})\f]
+	*		\f[\alpha_{deg\ bin}=round(\frac{2^{(n-1)}}{360}(15.0 * hour + \frac{minute}{4} + \frac{second}{240}))\f]
 	*	Where \f$n\f$ is the number of bits avaliable to store the number. \f$n\f$ defaults to 8, the tradiational number for binary degrees.
 	*
 	*	See https://en.wikipedia.org/wiki/Binary_scaling#Binary_angles and https://www.globalspec.com/reference/14722/160210/Chapter-7-5-3-Binary-Angular-Measure
@@ -249,7 +249,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in hours minutes seconds to arcsecond. Note that arcsecond are not equal to seconds.
-	*		\f[\alpha_{arcsec}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60}{\pi}\f]
+	*		\f[\alpha_{arcsec}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
@@ -272,7 +272,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in hours minutes seconds to milliarcsecond.
-	*		\f[\alpha_{mas}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60 * 10^3}{\pi}\f]
+	*		\f[\alpha_{mas}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60 * 10^3\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
@@ -295,7 +295,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in hours minutes seconds to microarcsecond.
-	*		\f[\alpha_{\mu as}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60 * 10^6}{\pi}\f]
+	*		\f[\alpha_{\mu as}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240}) * 60 * 60 * 10^6\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
@@ -396,7 +396,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in hours minutes seconds to gradian.
-	*		\f[\alpha_{g}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\frac{10}{9}\f]
+	*		\f[\alpha_{g}=\frac{10}{9}(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Gradian
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
@@ -420,7 +420,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Converts an angle in hours minutes seconds to gradian.
-	*		\f[\alpha_{g}=(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\frac{10}{9}\f]
+	*		\f[\alpha_{g}=\frac{10}{9}(15.0 * hour + \frac{minute}{4} + \frac{second}{240})\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Gradian
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.

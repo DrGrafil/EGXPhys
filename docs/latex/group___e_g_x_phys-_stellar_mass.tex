@@ -1,2 +1,69 @@
 \hypertarget{group___e_g_x_phys-_stellar_mass}{}\section{Stellar Mass}
 \label{group___e_g_x_phys-_stellar_mass}\index{Stellar Mass@{Stellar Mass}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gabbd6081cd3bfb0153d7470d58f733a61}{E\+G\+X\+Phys\+::\+Stellar\+Mass}} (const T \&star\+Mass, const T \&reference\+Mass)
+\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gac393d64d586be3dc76ac7a98ac336514}{E\+G\+X\+Phys\+::\+Solar\+Mass}} (const T \&star\+Mass)
+\begin{DoxyCompactList}\small\item\em Calculates the solar mass $(M)$ of a star when comparing it to the mass of the sun $(m_\odot)$. \[M=\frac{m_{star}}{m_\odot}\] See \href{https://en.wikipedia.org/wiki/Solar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Solar\+\_\+mass}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_stellar_mass_gac393d64d586be3dc76ac7a98ac336514}\label{group___e_g_x_phys-_stellar_mass_gac393d64d586be3dc76ac7a98ac336514}} 
+\index{Stellar Mass@{Stellar Mass}!Solar\+Mass@{Solar\+Mass}}
+\index{Solar\+Mass@{Solar\+Mass}!Stellar Mass@{Stellar Mass}}
+\subsubsection{\texorpdfstring{Solar\+Mass()}{SolarMass()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Solar\+Mass (\begin{DoxyParamCaption}\item[{const T \&}]{star\+Mass }\end{DoxyParamCaption})}
+
+
+
+Calculates the solar mass $(M)$ of a star when comparing it to the mass of the sun $(m_\odot)$. \[M=\frac{m_{star}}{m_\odot}\] See \href{https://en.wikipedia.org/wiki/Solar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Solar\+\_\+mass}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em star\+Mass} & $m_{star}\ (kg)$ is the mass of the star. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$M$(dimensionless) Solar mass. Mass ratio of a star compared to the sun. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga225bcf56fb37468f6d4d46493d403503}{Planetary\+Mass()}} for $M$ equation used for planets size objects. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gabbd6081cd3bfb0153d7470d58f733a61}{Stellar\+Mass()}} for $M$ equation using a star as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gac393d64d586be3dc76ac7a98ac336514}{Solar\+Mass()}} for $M$ equation using the Sun as a reference. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_stellar_mass_gabbd6081cd3bfb0153d7470d58f733a61}\label{group___e_g_x_phys-_stellar_mass_gabbd6081cd3bfb0153d7470d58f733a61}} 
+\index{Stellar Mass@{Stellar Mass}!Stellar\+Mass@{Stellar\+Mass}}
+\index{Stellar\+Mass@{Stellar\+Mass}!Stellar Mass@{Stellar Mass}}
+\subsubsection{\texorpdfstring{Stellar\+Mass()}{StellarMass()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Stellar\+Mass (\begin{DoxyParamCaption}\item[{const T \&}]{star\+Mass,  }\item[{const T \&}]{reference\+Mass }\end{DoxyParamCaption})}
+
+
+
+Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em star\+Mass} & $m_{star}\ (kg)$ is the mass of the star. \\
+\hline
+{\em reference\+Mass} & $m_{ref}\ (kg)$ is the mass of the reference star. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$M$(dimensionless) Stellar mass. Mass ratio of a star compared to a reference star. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga225bcf56fb37468f6d4d46493d403503}{Planetary\+Mass()}} for $M$ equation used for planets size objects. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gabbd6081cd3bfb0153d7470d58f733a61}{Stellar\+Mass()}} for $M$ equation using a star as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gac393d64d586be3dc76ac7a98ac336514}{Solar\+Mass()}} for $M$ equation using the Sun as a reference. 
+\end{DoxySeeAlso}
