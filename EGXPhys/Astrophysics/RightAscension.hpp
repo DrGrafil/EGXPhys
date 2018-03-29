@@ -1,11 +1,11 @@
-/// @file EGXPhys/Astrophysics/RightAscensionAndDeclination.hpp
+/// @file EGXPhys/Astrophysics/RightAscension.hpp
 ///
 /// @brief Calculates co-ordinate transformations of Right Ascension and Declination.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 3/19/18
+/// @date 3/29/18
 
-/// @defgroup EGXPhys-RightAscensionAndDeclination Right Ascension And Declination
+/// @defgroup EGXPhys-Astrophysics-RightAscension Right Ascension
 /// @ingroup EGXPhys-Astrophysics
 
 //=================================
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup EGXPhys-RightAscensionAndDeclination
+	/// @addtogroup EGXPhys-Astrophysics-RightAscension
 	/// @{
 	
 	/**
@@ -68,32 +68,7 @@ namespace EGXPhys
 	template<typename T>
 	void RadianToRightAscension(const T& radians, T& hours, T& minutes, T& seconds);
 
-
-
-	template<typename T>
-	T DeclinationToDegree(const T& integerDegrees, const T& arcminutes, const T& arcseconds);
-
-	template<typename T>
-	void DegreeToDeclination(const T& decimalDegree, T& degrees, T& arcminutes, T& arcseconds);
-
-
-
-	
-	
-
-	// Declination to Radians. Delination is in Sexagesimal(traditional degrees) system.
-	// !!!WARNING!! Will return with0.0 rads pointing up Z axis and pi/2 pointing at positive X-axis
-	// Think Spherical Co-ordinate system http://en.wikipedia.org/wiki/Spherical_coordinate_system
-	
-//https://en.wikipedia.org/wiki/Declination
-	template<typename T>
-	T DeclinationToRadian(const T& integerDegrees, const T& arcminutes, const T& arcseconds);
-
-	template<typename T>
-	void RadianToDeclination(const T& radians, T& degrees, T& arcminutes, T& arcseconds);
-
-
     /// @}
 } //namespace EGXPhys
 
-#include "RightAscensionAndDeclination.inl"
+#include "RightAscension.inl"

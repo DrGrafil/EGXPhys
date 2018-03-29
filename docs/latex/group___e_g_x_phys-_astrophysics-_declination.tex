@@ -1,0 +1,52 @@
+\hypertarget{group___e_g_x_phys-_astrophysics-_declination}{}\section{Declination}
+\label{group___e_g_x_phys-_astrophysics-_declination}\index{Declination@{Declination}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_declination_gadcadb4f709a5115a8edb18c872af9eda}{E\+G\+X\+Phys\+::\+Declination\+To\+Degree}} (const T \&integer\+Degrees, const T \&arcminutes, const T \&arcseconds)
+\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to radians. \[\alpha_{rad}=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\] See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_declination_ga4f3c37a00f59722857bcd4e6acd01865}\label{group___e_g_x_phys-_astrophysics-_declination_ga4f3c37a00f59722857bcd4e6acd01865}} 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Degree\+To\+Declination} (const T \&decimal\+Degree, T \&degrees, T \&arcminutes, T \&arcseconds)
+\item 
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_declination_gaeddd0fbc1c695863bf2bbc2a948b9b59}\label{group___e_g_x_phys-_astrophysics-_declination_gaeddd0fbc1c695863bf2bbc2a948b9b59}} 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Declination\+To\+Radian} (const T \&integer\+Degrees, const T \&arcminutes, const T \&arcseconds)
+\item 
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_declination_gaa91fc4b5a4ac9e9dc94aff7b8f6f9bd1}\label{group___e_g_x_phys-_astrophysics-_declination_gaa91fc4b5a4ac9e9dc94aff7b8f6f9bd1}} 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Radian\+To\+Declination} (const T \&radians, T \&degrees, T \&arcminutes, T \&arcseconds)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_declination_gadcadb4f709a5115a8edb18c872af9eda}\label{group___e_g_x_phys-_astrophysics-_declination_gadcadb4f709a5115a8edb18c872af9eda}} 
+\index{Declination@{Declination}!Declination\+To\+Degree@{Declination\+To\+Degree}}
+\index{Declination\+To\+Degree@{Declination\+To\+Degree}!Declination@{Declination}}
+\subsubsection{\texorpdfstring{Declination\+To\+Degree()}{DeclinationToDegree()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Declination\+To\+Degree (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degrees,  }\item[{const T \&}]{arcminutes,  }\item[{const T \&}]{arcseconds }\end{DoxyParamCaption})}
+
+
+
+Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to radians. \[\alpha_{rad}=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\] See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hour} & $hour\ (h)$ is the angle in hours in whole numbers. \\
+\hline
+{\em minute} & $minute\ (m)$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. \\
+\hline
+{\em second} & $second\ (s)$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\alpha_{rad}\ (rad)$ is the angle in radians. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_hours_minutes_seconds_gaa0b04e9012ec739df1464298971e3be7}{Hours\+Minutes\+Seconds\+To\+Radian()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_h_m_s_ga5f0873c7c013ba2c5784de3725f2c042}{H\+M\+S\+To\+Radian()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_right_ascension_ga30e95e529dac871efc014c8ca0108c0d}{Right\+Ascension\+To\+Degree()}} for conversion from (decimal) degrees. 
+\end{DoxySeeAlso}

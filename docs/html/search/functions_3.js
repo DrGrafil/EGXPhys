@@ -26,6 +26,7 @@ var searchData=
   ['decimaldegreetomilliradian',['DecimalDegreeToMilliradian',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#gab567d02d4692d9642a4ad219e479713a',1,'EGXMath']]],
   ['decimaldegreetoradian',['DecimalDegreeToRadian',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga906ee2c83cdf4caa59eb613dc2d5d52a',1,'EGXMath']]],
   ['decimaldegreetoturn',['DecimalDegreeToTurn',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga396a13c10acdef5026c12f3217b142c1',1,'EGXMath']]],
+  ['declinationtodegree',['DeclinationToDegree',['../group___e_g_x_phys-_astrophysics-_declination.html#gadcadb4f709a5115a8edb18c872af9eda',1,'EGXPhys']]],
   ['degreesminutessecondstoarcdegree',['DegreesMinutesSecondsToArcdegree',['../group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#ga71fd0a3b9238a3a4fde150802938dee8',1,'EGXMath']]],
   ['degreesminutessecondstoarcminute',['DegreesMinutesSecondsToArcminute',['../group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#gadb8da2c4b9cdd4f618b6281314b1318c',1,'EGXMath']]],
   ['degreesminutessecondstoarcsecond',['DegreesMinutesSecondsToArcsecond',['../group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html#gabebc8a012be0442c12409a2a71661ed4',1,'EGXMath']]],

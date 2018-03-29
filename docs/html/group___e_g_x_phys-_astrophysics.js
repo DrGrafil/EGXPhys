@@ -4,6 +4,7 @@ var group___e_g_x_phys__astrophysics =
     [ "Apoapsis", "group___e_g_x_phys-_apoapsis.html", "group___e_g_x_phys-_apoapsis" ],
     [ "B-V Color", "group___e_g_x_phys-_b_v_color.html", null ],
     [ "Circumstellar Habitable Zone Limit", "group___e_g_x_phys-_circumstellar_habitable_zone_limit.html", "group___e_g_x_phys-_circumstellar_habitable_zone_limit" ],
+    [ "Declination", "group___e_g_x_phys-_astrophysics-_declination.html", "group___e_g_x_phys-_astrophysics-_declination" ],
     [ "Eccentricity", "group___e_g_x_phys-_eccentricity.html", null ],
     [ "Luminosity", "group___e_g_x_phys-_luminosity.html", "group___e_g_x_phys-_luminosity" ],
     [ "Orbital Charecteristics", "group___e_g_x_phys-_orbital_charecteristics.html", null ],
@@ -11,7 +12,7 @@ var group___e_g_x_phys__astrophysics =
     [ "Periapsis", "group___e_g_x_phys-_periapsis.html", "group___e_g_x_phys-_periapsis" ],
     [ "Planetary Mass", "group___e_g_x_phys-_planetary_mass.html", "group___e_g_x_phys-_planetary_mass" ],
     [ "Planet Criteria", "group___e_g_x_phys-_planet_criteria.html", "group___e_g_x_phys-_planet_criteria" ],
-    [ "Right Ascension And Declination", "group___e_g_x_phys-_right_ascension_and_declination.html", "group___e_g_x_phys-_right_ascension_and_declination" ],
+    [ "Right Ascension", "group___e_g_x_phys-_astrophysics-_right_ascension.html", "group___e_g_x_phys-_astrophysics-_right_ascension" ],
     [ "Stellar Mass", "group___e_g_x_phys-_stellar_mass.html", "group___e_g_x_phys-_stellar_mass" ],
     [ "Stellar Radius", "group___e_g_x_phys-_stellar_radius.html", null ],
     [ "Stellar Temperature", "group___e_g_x_phys-_stellar_temperature.html", null ]

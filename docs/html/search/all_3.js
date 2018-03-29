@@ -32,6 +32,9 @@ var searchData=
   ['decimaldegreetomilliradian',['DecimalDegreeToMilliradian',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#gab567d02d4692d9642a4ad219e479713a',1,'EGXMath']]],
   ['decimaldegreetoradian',['DecimalDegreeToRadian',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga906ee2c83cdf4caa59eb613dc2d5d52a',1,'EGXMath']]],
   ['decimaldegreetoturn',['DecimalDegreeToTurn',['../group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga396a13c10acdef5026c12f3217b142c1',1,'EGXMath']]],
+  ['declination_2ehpp',['Declination.hpp',['../_declination_8hpp.html',1,'']]],
+  ['declination_2einl',['Declination.inl',['../_declination_8inl.html',1,'']]],
+  ['declinationtodegree',['DeclinationToDegree',['../group___e_g_x_phys-_astrophysics-_declination.html#gadcadb4f709a5115a8edb18c872af9eda',1,'EGXPhys']]],
   ['degreeconversion_2einl',['DegreeConversion.inl',['../_degree_conversion_8inl.html',1,'']]],
   ['degreesminutessecondsconversion_2ehpp',['DegreesMinutesSecondsConversion.hpp',['../_degrees_minutes_seconds_conversion_8hpp.html',1,'']]],
   ['degreesminutessecondsconversion_2einl',['DegreesMinutesSecondsConversion.inl',['../_degrees_minutes_seconds_conversion_8inl.html',1,'']]],
@@ -111,6 +114,7 @@ var searchData=
   ['degree',['Degree',['../group___e_g_x_math-_angle_conversions-_degree.html',1,'']]],
   ['degrees_20minutes_20seconds',['Degrees Minutes Seconds',['../group___e_g_x_math-_angle_conversions-_degrees_minutes_seconds.html',1,'']]],
   ['dms',['DMS',['../group___e_g_x_math-_angle_conversions-_d_m_s.html',1,'']]],
+  ['declination',['Declination',['../group___e_g_x_phys-_astrophysics-_declination.html',1,'']]],
   ['decay_20constant',['Decay Constant',['../group___e_g_x_phys-_decay_constant.html',1,'']]],
   ['decay_20width',['Decay Width',['../group___e_g_x_phys-_decay_width.html',1,'']]],
   ['deuteron_20_28deuterium_2fhydrogen_2d2_20nucleus_29',['Deuteron (Deuterium/Hydrogen-2 nucleus)',['../group___n_i_s_t_const-_deuteron.html',1,'']]]

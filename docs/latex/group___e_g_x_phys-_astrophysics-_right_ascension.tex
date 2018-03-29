@@ -1,0 +1,81 @@
+\hypertarget{group___e_g_x_phys-_astrophysics-_right_ascension}{}\section{Right Ascension}
+\label{group___e_g_x_phys-_astrophysics-_right_ascension}\index{Right Ascension@{Right Ascension}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_right_ascension_ga30e95e529dac871efc014c8ca0108c0d}{E\+G\+X\+Phys\+::\+Right\+Ascension\+To\+Degree}} (const T \&hours, const T \&minutes, const T \&seconds)
+\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to degrees. \[\alpha_{deg}=(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_right_ascension_gad90de181361375b745a9b226fa13ba14}{E\+G\+X\+Phys\+::\+Right\+Ascension\+To\+Radian}} (const T \&hours, const T \&minutes, const T \&seconds)
+\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to radians. \[\alpha_{rad}=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\] See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_right_ascension_gabdd9d1c686dd5e2580518f526b78295f}\label{group___e_g_x_phys-_astrophysics-_right_ascension_gabdd9d1c686dd5e2580518f526b78295f}} 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Degree\+To\+Right\+Ascension} (const T \&decimal\+Degree, T \&hours, T \&minutes, T \&seconds)
+\item 
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_right_ascension_ga50c306a7d118d3b3c02bc3621e1cb078}\label{group___e_g_x_phys-_astrophysics-_right_ascension_ga50c306a7d118d3b3c02bc3621e1cb078}} 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Radian\+To\+Right\+Ascension} (const T \&radians, T \&hours, T \&minutes, T \&seconds)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_right_ascension_ga30e95e529dac871efc014c8ca0108c0d}\label{group___e_g_x_phys-_astrophysics-_right_ascension_ga30e95e529dac871efc014c8ca0108c0d}} 
+\index{Right Ascension@{Right Ascension}!Right\+Ascension\+To\+Degree@{Right\+Ascension\+To\+Degree}}
+\index{Right\+Ascension\+To\+Degree@{Right\+Ascension\+To\+Degree}!Right Ascension@{Right Ascension}}
+\subsubsection{\texorpdfstring{Right\+Ascension\+To\+Degree()}{RightAscensionToDegree()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Right\+Ascension\+To\+Degree (\begin{DoxyParamCaption}\item[{const T \&}]{hours,  }\item[{const T \&}]{minutes,  }\item[{const T \&}]{seconds }\end{DoxyParamCaption})}
+
+
+
+Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to degrees. \[\alpha_{deg}=(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\]. 
+
+See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle} 
+\begin{DoxyParams}{Parameters}
+{\em hour} & $hour\ (h)$ is the angle in hours in whole numbers. \\
+\hline
+{\em minute} & $minute\ (m)$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. \\
+\hline
+{\em second} & $second\ (s)$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\alpha_{deg}\ (deg)$ is the angle in degrees. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_hours_minutes_seconds_ga4f66698550a0cf0fd326f25aba2c0d80}{Hours\+Minutes\+Seconds\+To\+Degree()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_h_m_s_ga281ee88be0cb04f58bdf19efcef58146}{H\+M\+S\+To\+Degree()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_right_ascension_gad90de181361375b745a9b226fa13ba14}{Right\+Ascension\+To\+Radian()}} for conversion from radians. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_right_ascension_gad90de181361375b745a9b226fa13ba14}\label{group___e_g_x_phys-_astrophysics-_right_ascension_gad90de181361375b745a9b226fa13ba14}} 
+\index{Right Ascension@{Right Ascension}!Right\+Ascension\+To\+Radian@{Right\+Ascension\+To\+Radian}}
+\index{Right\+Ascension\+To\+Radian@{Right\+Ascension\+To\+Radian}!Right Ascension@{Right Ascension}}
+\subsubsection{\texorpdfstring{Right\+Ascension\+To\+Radian()}{RightAscensionToRadian()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Right\+Ascension\+To\+Radian (\begin{DoxyParamCaption}\item[{const T \&}]{hours,  }\item[{const T \&}]{minutes,  }\item[{const T \&}]{seconds }\end{DoxyParamCaption})}
+
+
+
+Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to radians. \[\alpha_{rad}=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\] See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hour} & $hour\ (h)$ is the angle in hours in whole numbers. \\
+\hline
+{\em minute} & $minute\ (m)$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. \\
+\hline
+{\em second} & $second\ (s)$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\alpha_{rad}\ (rad)$ is the angle in radians. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_hours_minutes_seconds_gaa0b04e9012ec739df1464298971e3be7}{Hours\+Minutes\+Seconds\+To\+Radian()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_h_m_s_ga5f0873c7c013ba2c5784de3725f2c042}{H\+M\+S\+To\+Radian()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_right_ascension_ga30e95e529dac871efc014c8ca0108c0d}{Right\+Ascension\+To\+Degree()}} for conversion from (decimal) degrees. 
+\end{DoxySeeAlso}

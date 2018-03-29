@@ -1,8 +1,8 @@
-/// @file EGXPhys/Astrophysics/RightAscensionAndDeclination.inl
+/// @file EGXPhys/Astrophysics/RightAscension.inl
 ///
-/// @brief Right ascension and declination calculations
+/// @brief Right ascension  calculations
 /// @author Elliot Grafil (Metex)
-/// @date 3/19/18
+/// @date 3/29/18
 
 
 namespace EGXPhys{
@@ -25,31 +25,8 @@ namespace EGXPhys{
 	}
 
 	template<typename T>
-	T DeclinationToDegree(const T& integerDegrees, const T& arcminutes, const T& arcseconds) {
-		return EGXMath::DMSToDegree(integerDegrees, arcminutes, arcseconds);
-	}
-
-	template<typename T>
-	void DegreeToDeclination(const T& decimalDegree, T& degrees, T& arcminutes, T& arcseconds) {
-		EGXMath::DegreeToDMS(decimalDegree, degrees, arcminutes, arcseconds);
-	}
-
-
-	
-
-	template<typename T>
 	void RadianToRightAscension(const T& radians, T& hours, T& minutes, T& seconds) {
 		EGXMath::RadianToHoursMinutesSeconds(radians, hours, minutes, seconds);
-	}
-
-	template<typename T>
-	T DeclinationToRadian(const T& integerDegrees, const T& arcminutes, const T& arcseconds) {
-		return EGXMath::DMSToRadian(integerDegrees, arcminutes, arcseconds);
-	}
-
-	template<typename T>
-	void RadianToDeclination(const T& radians, T& degrees, T& arcminutes, T& arcseconds) {
-		EGXMath::RadianToDMS(radians, degrees, arcminutes, arcseconds);
 	}
 
 }//namespace EGXPhys

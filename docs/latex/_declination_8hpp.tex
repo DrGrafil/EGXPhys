@@ -1,0 +1,33 @@
+\hypertarget{_declination_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Declination.hpp File Reference}
+\label{_declination_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Declination.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Declination.\+hpp}}
+
+
+Calculates co-\/ordinate transformations of Declination.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Astrophysics\+Constants.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./../\+E\+G\+X\+Math/\+E\+G\+X\+Math.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Declination.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_declination_gadcadb4f709a5115a8edb18c872af9eda}{E\+G\+X\+Phys\+::\+Declination\+To\+Degree}} (const T \&integer\+Degrees, const T \&arcminutes, const T \&arcseconds)
+\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to radians. \[\alpha_{rad}=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\] See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Degree\+To\+Declination} (const T \&decimal\+Degree, T \&degrees, T \&arcminutes, T \&arcseconds)
+\item 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+Declination\+To\+Radian} (const T \&integer\+Degrees, const T \&arcminutes, const T \&arcseconds)
+\item 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Radian\+To\+Declination} (const T \&radians, T \&degrees, T \&arcminutes, T \&arcseconds)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calculates co-\/ordinate transformations of Declination. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+3/29/18 
+\end{DoxyDate}

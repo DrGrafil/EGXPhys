@@ -267,9 +267,6 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarTemperature.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\Astrophysics\RightAscensionAndDeclination.hpp">
-      <Filter>EGXPhys\Astrophysics</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp">
       <Filter>EGXPhys\EGXMath</Filter>
     </ClInclude>
@@ -326,6 +323,12 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\TurnConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\Declination.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\RightAscension.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -412,9 +415,6 @@
     <None Include="..\..\EGXPhys\Astrophysics\StellarRadius.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
-    <None Include="..\..\EGXPhys\Astrophysics\RightAscensionAndDeclination.inl">
-      <Filter>EGXPhys\Astrophysics</Filter>
-    </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\DecimalDegreeConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
     </None>
@@ -449,6 +449,12 @@
       <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
     </None>
     <None Include="..\..\EGXPhys\Astrophysics\StellarTemperature.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\Declination.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\RightAscension.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>
