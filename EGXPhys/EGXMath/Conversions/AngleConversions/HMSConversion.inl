@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/AngularConversions/HMSConversion.inl
+/// @file EGXMath/Conversions/AngleConversions/HMSConversion.inl
 ///
 /// @brief Implimentation of hours minutes seconds conversions.
 /// @author Elliot Grafil (Metex)

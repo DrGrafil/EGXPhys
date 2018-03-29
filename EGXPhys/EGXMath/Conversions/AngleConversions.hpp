@@ -23,15 +23,15 @@
 
 //=================================
 //
-#include "./AngularConversions/DegreeConversion.hpp"
+#include "./AngleConversions/DegreeConversion.hpp"
 
-#include "./AngularConversions/DecimalDegreeConversion.hpp"
-#include "./AngularConversions/DegreesMinutesSecondsConversion.hpp"
-#include "./AngularConversions/DMSConversion.hpp"
-#include "./AngularConversions/GonConversion.hpp"
-#include "./AngularConversions/GradianConversion.hpp"
-#include "./AngularConversions/HMSConversion.hpp"
-#include "./AngularConversions/HoursMinutesSecondsConversion.hpp"
-#include "./AngularConversions/IntegerDegreeConversion.hpp"
-#include "./AngularConversions/RadianConversion.hpp"
-#include "./AngularConversions/TurnConversion.hpp"
+#include "./AngleConversions/DecimalDegreeConversion.hpp"
+#include "./AngleConversions/DegreesMinutesSecondsConversion.hpp"
+#include "./AngleConversions/DMSConversion.hpp"
+#include "./AngleConversions/GonConversion.hpp"
+#include "./AngleConversions/GradianConversion.hpp"
+#include "./AngleConversions/HMSConversion.hpp"
+#include "./AngleConversions/HoursMinutesSecondsConversion.hpp"
+#include "./AngleConversions/IntegerDegreeConversion.hpp"
+#include "./AngleConversions/RadianConversion.hpp"
+#include "./AngleConversions/TurnConversion.hpp"
