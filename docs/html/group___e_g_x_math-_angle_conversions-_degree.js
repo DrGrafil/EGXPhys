@@ -6,7 +6,6 @@ var group___e_g_x_math__angle_conversions__degree =
     [ "DegreeToBinaryDegree", "group___e_g_x_math-_angle_conversions-_degree.html#gacd1e3dc5194e89426a899a7cac4874f8", null ],
     [ "DegreeToCompassWind", "group___e_g_x_math-_angle_conversions-_degree.html#ga5ffef873bcec300ab90570ad6e7b1ab1", null ],
     [ "DegreeToDecimalDegree", "group___e_g_x_math-_angle_conversions-_degree.html#ga568afc1d436d425bf5d4edea584aee08", null ],
-    [ "DegreeToDegree", "group___e_g_x_math-_angle_conversions-_degree.html#gaca157e7d3e99a46a11a04b92680d2574", null ],
     [ "DegreeToDegreesMinutesSeconds", "group___e_g_x_math-_angle_conversions-_degree.html#ga859585939255d52d010c780c68eb6e23", null ],
     [ "DegreeToDMS", "group___e_g_x_math-_angle_conversions-_degree.html#ga1096d04647918e20f61fb184ba2a7dce", null ],
     [ "DegreeToGon", "group___e_g_x_math-_angle_conversions-_degree.html#ga87c3fab0867021e5d2501197b4db6194", null ],

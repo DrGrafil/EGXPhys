@@ -17,6 +17,5 @@ var group___e_g_x_math__angle_conversions__turn =
     [ "TurnToMicroarcsecond", "group___e_g_x_math-_angle_conversions-_turn.html#ga41a861a04d65aab05647b32142e6d80d", null ],
     [ "TurnToMilliarcsecond", "group___e_g_x_math-_angle_conversions-_turn.html#ga05d6fea8f8475831e93dd23f6196393f", null ],
     [ "TurnToMilliradian", "group___e_g_x_math-_angle_conversions-_turn.html#ga2aea2621472294ce4c25ac7e55db51c6", null ],
-    [ "TurnToRadian", "group___e_g_x_math-_angle_conversions-_turn.html#ga72e6d3c46ebfc25f7be5050136d8df16", null ],
-    [ "TurnToTurn", "group___e_g_x_math-_angle_conversions-_turn.html#ga32c8dfa2861fefd0b18e36f8d6d95ed4", null ]
+    [ "TurnToRadian", "group___e_g_x_math-_angle_conversions-_turn.html#ga72e6d3c46ebfc25f7be5050136d8df16", null ]
 ];

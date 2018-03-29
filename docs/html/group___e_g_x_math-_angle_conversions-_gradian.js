@@ -10,7 +10,6 @@ var group___e_g_x_math__angle_conversions__gradian =
     [ "GradianToDegreesMinutesSeconds", "group___e_g_x_math-_angle_conversions-_gradian.html#ga5c81967ddb8f677634d161713174e419", null ],
     [ "GradianToDMS", "group___e_g_x_math-_angle_conversions-_gradian.html#ga0b6700b55ab4a24fa581bf2af0dafdaa", null ],
     [ "GradianToGon", "group___e_g_x_math-_angle_conversions-_gradian.html#gaff399262b6c8455e450e0a9dc8eb2ad1", null ],
-    [ "GradianToGradian", "group___e_g_x_math-_angle_conversions-_gradian.html#ga0dcd5b58c4073a9df5e0a210aca307ce", null ],
     [ "GradianToHMS", "group___e_g_x_math-_angle_conversions-_gradian.html#ga6513a992679fbb97d2969cf8bd68306f", null ],
     [ "GradianToHoursMinutesSeconds", "group___e_g_x_math-_angle_conversions-_gradian.html#gaf174cf5b716d5a490b3744ffe9ff3b97", null ],
     [ "GradianToIntegerDegree", "group___e_g_x_math-_angle_conversions-_gradian.html#ga555aae885f8a7d0876a36aa07cbbd816", null ],

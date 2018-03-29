@@ -17,6 +17,5 @@ var group___e_g_x_math__angle_conversions__radian =
     [ "RadianToMicroarcsecond", "group___e_g_x_math-_angle_conversions-_radian.html#ga3a515ca2838a305fa40750763f546a86", null ],
     [ "RadianToMilliarcsecond", "group___e_g_x_math-_angle_conversions-_radian.html#ga84fbb494a455cfeb30be62776f96c9a9", null ],
     [ "RadianToMilliradian", "group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1", null ],
-    [ "RadianToRadian", "group___e_g_x_math-_angle_conversions-_radian.html#gae08681bd86b8e7e4325f6c8cb3a0dc37", null ],
     [ "RadianToTurn", "group___e_g_x_math-_angle_conversions-_radian.html#ga8492d6d2f6467c619b65e5fb75a9ae04", null ]
 ];

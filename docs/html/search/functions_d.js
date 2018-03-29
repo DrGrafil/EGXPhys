@@ -17,7 +17,6 @@ var searchData=
   ['radiantomicroarcsecond',['RadianToMicroarcsecond',['../group___e_g_x_math-_angle_conversions-_radian.html#ga3a515ca2838a305fa40750763f546a86',1,'EGXMath']]],
   ['radiantomilliarcsecond',['RadianToMilliarcsecond',['../group___e_g_x_math-_angle_conversions-_radian.html#ga84fbb494a455cfeb30be62776f96c9a9',1,'EGXMath']]],
   ['radiantomilliradian',['RadianToMilliradian',['../group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1',1,'EGXMath']]],
-  ['radiantoradian',['RadianToRadian',['../group___e_g_x_math-_angle_conversions-_radian.html#gae08681bd86b8e7e4325f6c8cb3a0dc37',1,'EGXMath']]],
   ['radiantoturn',['RadianToTurn',['../group___e_g_x_math-_angle_conversions-_radian.html#ga8492d6d2f6467c619b65e5fb75a9ae04',1,'EGXMath']]],
   ['radioluminosity',['radioLuminosity',['../group___e_g_x_phys-_luminosity.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4',1,'EGXPhys']]],
   ['redshiftbyfrequency',['redshiftByFrequency',['../group___e_g_x_phys-_optics.html#gacc6d3b2922061214d64b89a4b8e3967a',1,'EGXPhys']]],

@@ -9,7 +9,6 @@ var group___e_g_x_math__angle_conversions__gon =
     [ "GonToDegree", "group___e_g_x_math-_angle_conversions-_gon.html#gaf1c40076eaf3be4e070ff34045db55d1", null ],
     [ "GonToDegreesMinutesSeconds", "group___e_g_x_math-_angle_conversions-_gon.html#gabd1dfe541d8caf9ee5ed261fe6f08261", null ],
     [ "GonToDMS", "group___e_g_x_math-_angle_conversions-_gon.html#ga14b45561114365c4707d40e3b8b57667", null ],
-    [ "GonToGon", "group___e_g_x_math-_angle_conversions-_gon.html#ga9f2fb553662f3367fc65b5de24128a27", null ],
     [ "GonToGradian", "group___e_g_x_math-_angle_conversions-_gon.html#ga69eb507d44c7a0bfc5660ed3ebcc2f1a", null ],
     [ "GonToHMS", "group___e_g_x_math-_angle_conversions-_gon.html#gac7263c178052895c8b1a71190b62aabc", null ],
     [ "GonToHoursMinutesSeconds", "group___e_g_x_math-_angle_conversions-_gon.html#gaafdd71fd185afe7aa91f5c3ca531b668", null ],

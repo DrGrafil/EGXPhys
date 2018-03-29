@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['hours_20minutes_20seconds_20_28hms_29',['Hours Minutes Seconds (HMS)',['../group___e_g_x_math-_angle_conversions-_h_m_s.html',1,'']]],
+  ['hms',['HMS',['../group___e_g_x_math-_angle_conversions-_h_m_s.html',1,'']]],
   ['half_20life',['Half Life',['../group___e_g_x_phys-_half_life.html',1,'']]],
   ['hartree',['Hartree',['../group___n_i_s_t_const-_hartree.html',1,'']]],
   ['hartree_20energy',['Hartree energy',['../group___n_i_s_t_const-_hartree_energy.html',1,'']]],

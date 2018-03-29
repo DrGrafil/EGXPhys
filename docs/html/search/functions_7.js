@@ -13,7 +13,6 @@ var searchData=
   ['integerdegreetogradian',['IntegerDegreeToGradian',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#ga47127467ff7a8ef57f6be9ce496a97df',1,'EGXMath']]],
   ['integerdegreetohms',['IntegerDegreeToHMS',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#gae6b79bd5a92f8c6942b9fc2c50695e6a',1,'EGXMath']]],
   ['integerdegreetohoursminutesseconds',['IntegerDegreeToHoursMinutesSeconds',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#gaaac96728b305fd8ed024843f4e92fd08',1,'EGXMath']]],
-  ['integerdegreetointegerdegree',['IntegerDegreeToIntegerDegree',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#gac9e870bdfa60dd2bb61469fdf6eedd7c',1,'EGXMath']]],
   ['integerdegreetomicroarcsecond',['IntegerDegreeToMicroarcsecond',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#ga69179d6082764595c7014805e1f6b31e',1,'EGXMath']]],
   ['integerdegreetomilliarcsecond',['IntegerDegreeToMilliarcsecond',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#gadc43f22e832cd8fcf16b7bd2269ae348',1,'EGXMath']]],
   ['integerdegreetomilliradian',['IntegerDegreeToMilliradian',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#ga5379a68bdff5cc4fab5bb1ba06ef9453',1,'EGXMath']]],

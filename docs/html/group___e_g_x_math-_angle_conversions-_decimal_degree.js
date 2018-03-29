@@ -5,7 +5,6 @@ var group___e_g_x_math__angle_conversions__decimal_degree =
     [ "DecimalDegreeToArcsecond", "group___e_g_x_math-_angle_conversions-_decimal_degree.html#gab9d5635a6e35127b5245978aba508962", null ],
     [ "DecimalDegreeToBinaryDegree", "group___e_g_x_math-_angle_conversions-_decimal_degree.html#gaceec7ae7988c7f342d0b0fa6940720a1", null ],
     [ "DecimalDegreeToCompassWind", "group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga415a94651a2b2397b7f2bda90a19ee2c", null ],
-    [ "DecimalDegreeToDecimalDegree", "group___e_g_x_math-_angle_conversions-_decimal_degree.html#gafccf9cd779903872887978ab9d79661f", null ],
     [ "DecimalDegreeToDegree", "group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga0aa7f2f5dbb00cf4ab303421c6e33ccf", null ],
     [ "DecimalDegreeToDegreesMinutesSeconds", "group___e_g_x_math-_angle_conversions-_decimal_degree.html#gac5a5255c8d120f71b60d8f60de1a1b6e", null ],
     [ "DecimalDegreeToDMS", "group___e_g_x_math-_angle_conversions-_decimal_degree.html#ga64a1b298ce16e9edf3209b678a7bed46", null ],
