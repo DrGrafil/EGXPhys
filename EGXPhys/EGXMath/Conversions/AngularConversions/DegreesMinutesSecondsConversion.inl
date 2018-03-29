@@ -9,62 +9,62 @@ namespace EGXMath {
 
 	template<typename T>
 	T DegreesMinutesSecondsToRadian(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return 1;
+		return DegreeToRadian(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond));
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToMilliradian(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return xyy / 1000.0;
+		return DegreeToMilliradian(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond));
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToTurn(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return xyy / (2.0 * EGXMath::pi<T>);
+		return DegreeToTurn(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond));
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToDegree(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return xyy * 180.0 / EGXMath::pi<T>;
+		return integerDegree + (arcminute / 60.0) + (arcsecond / 3600);
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToDecimalDegree(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return DegreesMinutesSecondsToDegree(xyy);
+		return DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond);
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToArcdegree(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return DegreesMinutesSecondsToDegree(xyy);
+		return DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond);
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToIntegerDegree(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return std::round(DegreesMinutesSecondsToDegree(xyy));
+		return std::round(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond));
 	}
 
 	template<typename T, typename T2>
 	T DegreesMinutesSecondsToBinaryDegree(const T& integerDegree, const T& arcminute, const T& arcsecond, const T2& bits) {
-		return xyy * std::pow(2.0, bits - 1.0) / (2.0 * EGXMath::pi<T>);
+		return DegreeToBinaryDegree(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond), bits);
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToArcminute(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return xyy * 10800.0 / EGXMath::pi<T>; // 60 * 180
+		return DegreeToArcminute(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond));
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToArcsecond(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return xyy * 648000.0 / EGXMath::pi<T>; // 60 * 60 * 180 
+		return DegreeToArcsecond(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond));
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToMilliarcsecond(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return xyy * 648000000.0 / EGXMath::pi<T>; // 60 * 60 * 180 * 1000
+		return DegreeToMilliarcsecond(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond));
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToMicroarcsecond(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return xyy * 648000000000.0 / EGXMath::pi<T>;// 60 * 60 * 180 * 1000 * 1000
+		return DegreeToMicroarcsecond(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond));
 	}
 
 	template<typename T>
@@ -76,27 +76,27 @@ namespace EGXMath {
 
 	template<typename T>
 	void DegreesMinutesSecondsToHoursMinutesSeconds(const T& integerDegree, const T& arcminute, const T& arcsecond, T& hour, T& minute, T& second) {
-		DegreeToHoursMinutesSeconds(DegreesMinutesSecondsToDegree(xyy), hour, minute, second);
+		DegreeToHoursMinutesSeconds(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond), hour, minute, second);
 	}
 
 	template<typename T>
 	void DegreesMinutesSecondsToHMS(const T& integerDegree, const T& arcminute, const T& arcsecond, T& hour, T& minute, T& second) {
-		DegreeToHoursMinutesSeconds(DegreesMinutesSecondsToDegree(xyy), hour, minute, second);
+		DegreeToHoursMinutesSeconds(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond), hour, minute, second);
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToGradian(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return xyy * 200.0 / EGXMath::pi<T>;
+		return DegreeToGradian(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond));
 	}
 
 	template<typename T>
 	T DegreesMinutesSecondsToGon(const T& integerDegree, const T& arcminute, const T& arcsecond) {
-		return DegreesMinutesSecondsToGradian(xyy);
+		return DegreeToGon(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond));
 	}
 
 	template<typename T>
 	std::string DegreesMinutesSecondsToCompassWind(const T& integerDegree, const T& arcminute, const T& arcsecond, const unsigned int winds, const bool abbreviate) {
-		return DegreeToCompassWind(DegreesMinutesSecondsToDegree(xyy), winds, abbreviate);
+		return DegreeToCompassWind(DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond), winds, abbreviate);
 	}
 
 }//namespace EGXPhys
