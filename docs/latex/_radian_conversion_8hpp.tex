@@ -1,0 +1,61 @@
+\hypertarget{_radian_conversion_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions/\+Radian\+Conversion.hpp File Reference}
+\label{_radian_conversion_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions/\+Radian\+Conversion.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions/\+Radian\+Conversion.\+hpp}}
+
+
+Converts angle measurements in radians into various styles such as radians, degrees, D\+MS, H\+MS.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}../../\+E\+G\+X\+Math\+Constants.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Radian\+Conversion.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gaea391f0cca39b05e298dd1cae162e7f1}{E\+G\+X\+Math\+::\+Radian\+To\+Milliradian}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to milliradian. \[\alpha_{mrad}=\alpha_{rad}*10^3\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga8492d6d2f6467c619b65e5fb75a9ae04}{E\+G\+X\+Math\+::\+Radian\+To\+Turn}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to turn. \[\alpha_{turn}=\alpha_{rad}\frac{1}{2 \pi}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga25bbce6cdc1c3621f2a158d320e3bc45}{E\+G\+X\+Math\+::\+Radian\+To\+Degree}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to (decimal) degree. \[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga6d170f1882c32de53167c04524d05f67}{E\+G\+X\+Math\+::\+Radian\+To\+Decimal\+Degree}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to decimal degree. \[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3dfdc97357cc07f8379976bbc08f9852}{E\+G\+X\+Math\+::\+Radian\+To\+Arcdegree}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to arcdegree (decimal degree). \[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gac84796dfdeb56235e1e338522a5f9350}{E\+G\+X\+Math\+::\+Radian\+To\+Integer\+Degree}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to integer degree. \[\alpha_{deg\ int}=round(\alpha_{rad}\frac{180}{\pi})\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga13311d9b6977d514f1d6c336e7c0162b}{E\+G\+X\+Math\+::\+Radian\+To\+Binary\+Degree}} (const T \&radian, const T2 \&bits=8)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to binary degree (brad). \[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^{(n-1)}}{2 \pi})\] Where $n$ is the number of bits avaliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga722e3b8e78540a6b3942b73b64aeb8d2}{E\+G\+X\+Math\+::\+Radian\+To\+Arcminute}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}=\alpha_{rad}\frac{180 * 60}{\pi}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga2f952f6675a0fc54bf72bfe4e3d2664a}{E\+G\+X\+Math\+::\+Radian\+To\+Arcsecond}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=\alpha_{rad}\frac{180 * 60 * 60}{\pi}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga84fbb494a455cfeb30be62776f96c9a9}{E\+G\+X\+Math\+::\+Radian\+To\+Milliarcsecond}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to milliarcsecond. \[\alpha_{mas}=\alpha_{rad}\frac{180 * 60 * 60 * 10^3}{\pi}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3a515ca2838a305fa40750763f546a86}{E\+G\+X\+Math\+::\+Radian\+To\+Microarcsecond}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to microarcsecond. \[\alpha_{\mu as}=\alpha_{rad}\frac{180 * 60 * 60 * 10^6}{\pi}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gadae98c255924fdc8b232b6539eae81a9}{E\+G\+X\+Math\+::\+Radian\+To\+Degrees\+Minutes\+Seconds}} (const T \&radian, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_gaf80be0c5c65ccaa5544a08a7754f3575}{E\+G\+X\+Math\+::\+Radian\+To\+D\+MS}} (const T \&radian, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3467598d89af2b8ff68af50b39bb19e2}{E\+G\+X\+Math\+::\+Radian\+To\+Hours\+Minutes\+Seconds}} (const T \&radian, T \&hour, T \&minute, T \&second)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga55b5fba9307f34ab8db57391789a90cc}{E\+G\+X\+Math\+::\+Radian\+To\+H\+MS}} (const T \&radian, T \&hour, T \&minute, T \&second)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga3c1607eae50cbf0186c42485bb3878d5}{E\+G\+X\+Math\+::\+Radian\+To\+Gradian}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to gradian. \[\alpha_{g}=\alpha_{rad}\frac{200}{\pi}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga36912e5a810b64c271c4dafc17f4ca45}{E\+G\+X\+Math\+::\+Radian\+To\+Gon}} (const T \&radian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to gradian. \[\alpha_{g}=\alpha_{rad}\frac{200}{\pi}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga4d845b171148481aa7e85018d6dad035}{E\+G\+X\+Math\+::\+Radian\+To\+Compass\+Wind}} (const T \&radian, const unsigned int winds, const bool abbreviate)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to a n-\/\+Wind compass point name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Converts angle measurements in radians into various styles such as radians, degrees, D\+MS, H\+MS. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+3/28/18 
+\end{DoxyDate}

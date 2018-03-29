@@ -35,12 +35,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_absolute_magnitude_8hpp.html",
-"_n_i_s_t_const_8hpp.html#ga139c6486b1899658838d403380fc229a",
-"_n_i_s_t_const_8hpp.html#gad128828903af19e91fdc1a95ef9cbb24",
-"_redshift_8hpp.html",
-"group___e_g_x_math-_angle_conversions-_radian.html#gadae98c255924fdc8b232b6539eae81a9",
-"group___n_i_s_t_const-_copper.html#gaefed00ac64123e598d5c20abac22f22f",
-"group___n_i_s_t_const-_proton.html#ga03e84ef0d1452fa7c647f8866913fbc3"
+"_degrees_minutes_seconds_conversion_8inl.html#ga71fd0a3b9238a3a4fde150802938dee8",
+"_luminosity_8inl.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4",
+"_n_i_s_t_const_8hpp.html#gaa43ceaed22f3b69aee64d117cae645fb",
+"_q_value_8hpp.html#ga3e767be294dae24e1df18e7ccb8989e6",
+"group___e_g_x_math-_angle_conversions-_degree.html#gaf85e2d765c248f447854a807a68a5de8",
+"group___e_g_x_phys-_optics.html#gacc6d3b2922061214d64b89a4b8e3967a",
+"group___n_i_s_t_const-_inverse_meter.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

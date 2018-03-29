@@ -1,6 +1,7 @@
 var searchData=
 [
   ['hms',['HMS',['../group___e_g_x_math-_angle_conversions-_h_m_s.html',1,'']]],
+  ['hours_20minutes_20seconds',['Hours Minutes Seconds',['../group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html',1,'']]],
   ['half_20life',['Half Life',['../group___e_g_x_phys-_half_life.html',1,'']]],
   ['halflife',['HalfLife',['../group___e_g_x_phys-_half_life.html#ga21d268f154fb91c1c556bbfa7fe83ac1',1,'EGXPhys']]],
   ['halflife_2ehpp',['HalfLife.hpp',['../_half_life_8hpp.html',1,'']]],
@@ -34,6 +35,7 @@ var searchData=
   ['hertztojoule',['hertzToJoule',['../group___n_i_s_t_const-_hertz.html#ga827c4e99287fcd5363fabcfe1381cc37',1,'NISTConst']]],
   ['hertztokelvin',['hertzToKelvin',['../group___n_i_s_t_const-_hertz.html#gacda137a5d10ebba59b340d770802678f',1,'NISTConst']]],
   ['hertztokilogram',['hertzToKilogram',['../group___n_i_s_t_const-_hertz.html#ga7b63758ab74cb80c236d4eacd5b89484',1,'NISTConst']]],
+  ['hmsconversion_2ehpp',['HMSConversion.hpp',['../_h_m_s_conversion_8hpp.html',1,'']]],
   ['hmsconversion_2einl',['HMSConversion.inl',['../_h_m_s_conversion_8inl.html',1,'']]],
   ['hmstoarcdegree',['HMSToArcdegree',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#gaf4a94d34cb0629049bbcab8775d2af43',1,'EGXMath']]],
   ['hmstoarcminute',['HMSToArcminute',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga36fcb6a59fd8d135346f7ee3d648c2f4',1,'EGXMath']]],
@@ -53,6 +55,8 @@ var searchData=
   ['hmstomilliradian',['HMSToMilliradian',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga175cead130e511e2c61545d71e3dc2f3',1,'EGXMath']]],
   ['hmstoradian',['HMSToRadian',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga5f0873c7c013ba2c5784de3725f2c042',1,'EGXMath']]],
   ['hmstoturn',['HMSToTurn',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga9352ac15414f9e52351f21d7976964db',1,'EGXMath']]],
+  ['hoursminutessecondsconversion_2ehpp',['HoursMinutesSecondsConversion.hpp',['../_hours_minutes_seconds_conversion_8hpp.html',1,'']]],
+  ['hoursminutessecondsconversion_2einl',['HoursMinutesSecondsConversion.inl',['../_hours_minutes_seconds_conversion_8inl.html',1,'']]],
   ['hoursminutessecondstoarcdegree',['HoursMinutesSecondsToArcdegree',['../group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga3c38143df47da88534ddbd13726748e2',1,'EGXMath']]],
   ['hoursminutessecondstoarcminute',['HoursMinutesSecondsToArcminute',['../group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga23bfa5abeb014726c2e2ac6303be5dae',1,'EGXMath']]],
   ['hoursminutessecondstoarcsecond',['HoursMinutesSecondsToArcsecond',['../group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga14620899c81c1f5e65cde96ef4ee626e',1,'EGXMath']]],

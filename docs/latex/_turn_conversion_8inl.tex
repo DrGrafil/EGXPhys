@@ -1,0 +1,57 @@
+\hypertarget{_turn_conversion_8inl}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions/\+Turn\+Conversion.inl File Reference}
+\label{_turn_conversion_8inl}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions/\+Turn\+Conversion.\+inl@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions/\+Turn\+Conversion.\+inl}}
+
+
+Implimentation of turn conversions.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga72e6d3c46ebfc25f7be5050136d8df16}{E\+G\+X\+Math\+::\+Turn\+To\+Radian}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to radian. \[\alpha_{rad}=2\pi\alpha_{turn}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga2aea2621472294ce4c25ac7e55db51c6}{E\+G\+X\+Math\+::\+Turn\+To\+Milliradian}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to milliradian. \[\alpha_{mrad}=2\pi\alpha_{turn}*10^3\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga19eceb6db54a1cf17789639c2a869cb9}{E\+G\+X\+Math\+::\+Turn\+To\+Degree}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to (decimal) degree. \[\alpha_{deg}=360\alpha_{turn}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga79231536255e77fb7a158b99a30c1767}{E\+G\+X\+Math\+::\+Turn\+To\+Decimal\+Degree}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to decimal degree. \[\alpha_{deg}=360\alpha_{turn}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga7bdc3a81ce316dd47b1a3179489fa195}{E\+G\+X\+Math\+::\+Turn\+To\+Arcdegree}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to arcdegree (decimal degree). \[\alpha_{deg}=360\alpha_{turn}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga999085c62490997da870618e20e88ebb}{E\+G\+X\+Math\+::\+Turn\+To\+Integer\+Degree}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to integer degree. \[\alpha_{deg\ int}=round(360\alpha_{turn})\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga678efb8f5c3958351fc3f1dfaf117b28}{E\+G\+X\+Math\+::\+Turn\+To\+Binary\+Degree}} (const T \&turn, const T2 \&bits=8)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to binary degree (brad). \[\alpha_{deg\ bin}=round(2^{(n-1)}\alpha_{turn})\] Where $n$ is the number of bits avaliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga72cda928d9043c7d82097b1a7920769e}{E\+G\+X\+Math\+::\+Turn\+To\+Arcminute}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}=\alpha_{turn} * 360 * 60\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_gaad072969abc59ef6f5b63ac6a176a11b}{E\+G\+X\+Math\+::\+Turn\+To\+Arcsecond}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=\alpha_{turn} * 360 * 60 * 60\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga05d6fea8f8475831e93dd23f6196393f}{E\+G\+X\+Math\+::\+Turn\+To\+Milliarcsecond}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to milliarcsecond. \[\alpha_{mas}=\alpha_{turn}* 360 * 60 * 60 * 10^3\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga41a861a04d65aab05647b32142e6d80d}{E\+G\+X\+Math\+::\+Turn\+To\+Microarcsecond}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to microarcsecond. \[\alpha_{\mu as}=\alpha_{turn} * 360 * 60 * 60 * 10^6\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_gaefdee18d878c2e66e7bd737c8900ab30}{E\+G\+X\+Math\+::\+Turn\+To\+Degrees\+Minutes\+Seconds}} (const T \&turn, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga6ca011c0ae55ae079402080d7a1b4010}{E\+G\+X\+Math\+::\+Turn\+To\+D\+MS}} (const T \&turn, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga0bc017b3314253352ddec728d3f6b76a}{E\+G\+X\+Math\+::\+Turn\+To\+Hours\+Minutes\+Seconds}} (const T \&turn, T \&hour, T \&minute, T \&second)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_ga74efaece2f95aa6671f18382e5f3925f}{E\+G\+X\+Math\+::\+Turn\+To\+H\+MS}} (const T \&turn, T \&hour, T \&minute, T \&second)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_gad6aa9bdde2cde17cec136b24ee017bba}{E\+G\+X\+Math\+::\+Turn\+To\+Gradian}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to gradian. \[\alpha_{g}=400\alpha_{turn}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_gad81dd0bb1660ef24e28fa15b2403dec7}{E\+G\+X\+Math\+::\+Turn\+To\+Gon}} (const T \&turn)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to gradian. \[\alpha_{g}=400\alpha_{turn}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_gaea42f973566f770cc3552831717f525e}{E\+G\+X\+Math\+::\+Turn\+To\+Compass\+Wind}} (const T \&turn, const unsigned int winds, const bool abbreviate)
+\begin{DoxyCompactList}\small\item\em Converts an angle in turn to a n-\/\+Wind compass point name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implimentation of turn conversions. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+3/28/18 
+\end{DoxyDate}

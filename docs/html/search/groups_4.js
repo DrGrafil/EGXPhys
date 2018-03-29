@@ -1,7 +1,6 @@
 var searchData=
 [
   ['egxmath_20library',['EGXMath Library',['../group___e_g_x_math.html',1,'']]],
-  ['egxmath_2dangleconversions_2dhoursminutesseconds',['EGXMath-AngleConversions-HoursMinutesSeconds',['../group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html',1,'']]],
   ['egxphys_20library',['EGXPhys Library',['../group___e_g_x_phys.html',1,'']]],
   ['eccentricity',['Eccentricity',['../group___e_g_x_phys-_eccentricity.html',1,'']]],
   ['electric_20constant',['Electric constant',['../group___n_i_s_t_const-_electric_constant.html',1,'']]],

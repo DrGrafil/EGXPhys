@@ -1,0 +1,61 @@
+\hypertarget{_gon_conversion_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions/\+Gon\+Conversion.hpp File Reference}
+\label{_gon_conversion_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions/\+Gon\+Conversion.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Angle\+Conversions/\+Gon\+Conversion.\+hpp}}
+
+
+Converts angle measurements in gradians into various styles such as radians, degrees, D\+MS, H\+MS.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}../../\+E\+G\+X\+Math\+Constants.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Gon\+Conversion.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gafdf7d525a98427da55b86ff420a5ec86}{E\+G\+X\+Math\+::\+Gon\+To\+Radian}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to radian. \[\alpha_{rad}=\alpha_{g}\frac{\pi}{200}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gae5956f7e80b143f3cc22eb8122c1b745}{E\+G\+X\+Math\+::\+Gon\+To\+Milliradian}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to milliradian. \[\alpha_{mrad}=\alpha_{g}\frac{\pi}{200}*10^3\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gae55acf3fc27d34374b5ec10e0a471b3b}{E\+G\+X\+Math\+::\+Gon\+To\+Turn}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to turn. \[\alpha_{turn}=\alpha_{g}\frac{1}{400}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gaf1c40076eaf3be4e070ff34045db55d1}{E\+G\+X\+Math\+::\+Gon\+To\+Degree}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to (decimal) degree. \[\alpha_{deg}=\alpha_{g}\frac{9}{10}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga737e654bac7b6aa9c18f73b1b83e0605}{E\+G\+X\+Math\+::\+Gon\+To\+Decimal\+Degree}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to decimal degree. \[\alpha_{deg}=\alpha_{g}\frac{9}{10}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga00757282768841abe48ac3c8452627cb}{E\+G\+X\+Math\+::\+Gon\+To\+Arcdegree}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to arcdegree (decimal degree). \[\alpha_{deg}=\alpha_{g}\frac{9}{10}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gaabbfaeef5b1ae1b3e58c5b4b15c8bdaf}{E\+G\+X\+Math\+::\+Gon\+To\+Integer\+Degree}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to integer degree. \[\alpha_{deg\ int}=round(\alpha_{g}\frac{9}{10})\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga4f3f154b9c553b22af2621ac3d196648}{E\+G\+X\+Math\+::\+Gon\+To\+Binary\+Degree}} (const T \&gradian, const T2 \&bits=8)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to binary degree (brad). \[\alpha_{deg\ bin}=round(\alpha_{g}\frac{2^{(n-1)}}{400})\] Where $n$ is the number of bits gliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga02679f6b0f3520ede1db642aadb51383}{E\+G\+X\+Math\+::\+Gon\+To\+Arcminute}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}=\alpha_{g}\frac{9}{10} * 60\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gad4f34877c74cc444e7b741b99cd20d5a}{E\+G\+X\+Math\+::\+Gon\+To\+Arcsecond}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=\alpha_{g}\frac{9}{10} * 60 * 60\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga63013f99af7ec2b9628b8b87eb2e2a92}{E\+G\+X\+Math\+::\+Gon\+To\+Milliarcsecond}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to milliarcsecond. \[\alpha_{mas}=\alpha_{g}\frac{9}{10} * 60 * 60 * 10^3\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gae3f14ff3441def6d88fed69f2466cf82}{E\+G\+X\+Math\+::\+Gon\+To\+Microarcsecond}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to microarcsecond. \[\alpha_{\mu as}=\alpha_{g}\frac{9}{10} * 60 * 60 * 10^6\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gabd1dfe541d8caf9ee5ed261fe6f08261}{E\+G\+X\+Math\+::\+Gon\+To\+Degrees\+Minutes\+Seconds}} (const T \&gradian, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga14b45561114365c4707d40e3b8b57667}{E\+G\+X\+Math\+::\+Gon\+To\+D\+MS}} (const T \&gradian, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gaafdd71fd185afe7aa91f5c3ca531b668}{E\+G\+X\+Math\+::\+Gon\+To\+Hours\+Minutes\+Seconds}} (const T \&gradian, T \&hour, T \&minute, T \&second)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gac7263c178052895c8b1a71190b62aabc}{E\+G\+X\+Math\+::\+Gon\+To\+H\+MS}} (const T \&gradian, T \&hour, T \&minute, T \&second)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga69eb507d44c7a0bfc5660ed3ebcc2f1a}{E\+G\+X\+Math\+::\+Gon\+To\+Gradian}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to gradian. \[\alpha_{g}=\alpha_{g}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga1d8ed4116236694608d7409aa149f677}{E\+G\+X\+Math\+::\+Gon\+To\+Compass\+Wind}} (const T \&gradian, const unsigned int winds, const bool abbreviate)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to a n-\/\+Wind compass point name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Converts angle measurements in gradians into various styles such as radians, degrees, D\+MS, H\+MS. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+3/28/18 
+\end{DoxyDate}

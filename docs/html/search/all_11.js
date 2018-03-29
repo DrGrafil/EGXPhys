@@ -6,6 +6,8 @@ var searchData=
   ['relativity',['Relativity',['../group___e_g_x_phys-_relativity.html',1,'']]],
   ['right_20ascension_20and_20declination',['Right Ascension And Declination',['../group___e_g_x_phys-_right_ascension_and_declination.html',1,'']]],
   ['rydberg_20constant',['Rydberg constant',['../group___n_i_s_t_const-_rydberg_constant.html',1,'']]],
+  ['radianconversion_2ehpp',['RadianConversion.hpp',['../_radian_conversion_8hpp.html',1,'']]],
+  ['radianconversion_2einl',['RadianConversion.inl',['../_radian_conversion_8inl.html',1,'']]],
   ['radiantoarcdegree',['RadianToArcdegree',['../group___e_g_x_math-_angle_conversions-_radian.html#ga3dfdc97357cc07f8379976bbc08f9852',1,'EGXMath']]],
   ['radiantoarcminute',['RadianToArcminute',['../group___e_g_x_math-_angle_conversions-_radian.html#ga722e3b8e78540a6b3942b73b64aeb8d2',1,'EGXMath']]],
   ['radiantoarcsecond',['RadianToArcsecond',['../group___e_g_x_math-_angle_conversions-_radian.html#ga2f952f6675a0fc54bf72bfe4e3d2664a',1,'EGXMath']]],

@@ -5,7 +5,7 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/29/18
 
-/// @defgroup EGXMath-AngleConversions-HMS Hours Minutes Seconds (HMS)
+/// @defgroup EGXMath-AngleConversions-HoursMinutesSeconds Hours Minutes Seconds
 /// @ingroup EGXMath-AngleConversions
 
 

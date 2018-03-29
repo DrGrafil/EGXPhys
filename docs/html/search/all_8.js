@@ -2,6 +2,8 @@ var searchData=
 [
   ['integer_20degree',['Integer Degree',['../group___e_g_x_math-_angle_conversions-_integer_degree.html',1,'']]],
   ['impedanceofvacuum',['impedanceOfVacuum',['../group___n_i_s_t_const-_impedance_of_vacuum.html#ga51e1aede5d89041ea7423522b526dd0e',1,'NISTConst']]],
+  ['integerdegreeconversion_2ehpp',['IntegerDegreeConversion.hpp',['../_integer_degree_conversion_8hpp.html',1,'']]],
+  ['integerdegreeconversion_2einl',['IntegerDegreeConversion.inl',['../_integer_degree_conversion_8inl.html',1,'']]],
   ['integerdegreetoarcdegree',['IntegerDegreeToArcdegree',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#gaf633d0b82bfb7586ce86ffbcf78d8f7a',1,'EGXMath']]],
   ['integerdegreetoarcminute',['IntegerDegreeToArcminute',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#ga78b014e7649d666a3647c467e64e4fe8',1,'EGXMath']]],
   ['integerdegreetoarcsecond',['IntegerDegreeToArcsecond',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#gaa04058a2fea3dc3678264a05fac6e1ae',1,'EGXMath']]],

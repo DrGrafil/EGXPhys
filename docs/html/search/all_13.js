@@ -31,6 +31,8 @@ var searchData=
   ['tritonmassinu',['tritonMassInu',['../group___n_i_s_t_const-_triton.html#gad1ea3191cc1092390e96267e7e2e97b3',1,'NISTConst']]],
   ['tritonmolarmass',['tritonMolarMass',['../group___n_i_s_t_const-_triton.html#gab22c798216b8f6290211f61270b77eb9',1,'NISTConst']]],
   ['tritonprotonmassratio',['tritonProtonMassRatio',['../group___n_i_s_t_const-_triton.html#ga955fba44514fff409bec435aadc11f40',1,'NISTConst']]],
+  ['turnconversion_2ehpp',['TurnConversion.hpp',['../_turn_conversion_8hpp.html',1,'']]],
+  ['turnconversion_2einl',['TurnConversion.inl',['../_turn_conversion_8inl.html',1,'']]],
   ['turntoarcdegree',['TurnToArcdegree',['../group___e_g_x_math-_angle_conversions-_turn.html#ga7bdc3a81ce316dd47b1a3179489fa195',1,'EGXMath']]],
   ['turntoarcminute',['TurnToArcminute',['../group___e_g_x_math-_angle_conversions-_turn.html#ga72cda928d9043c7d82097b1a7920769e',1,'EGXMath']]],
   ['turntoarcsecond',['TurnToArcsecond',['../group___e_g_x_math-_angle_conversions-_turn.html#gaad072969abc59ef6f5b63ac6a176a11b',1,'EGXMath']]],
