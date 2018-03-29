@@ -8,11 +8,6 @@
 namespace EGXMath {
 
 	template<typename T>
-	T RadianToRadian(const T& radian) {
-		return 1;
-	}
-
-	template<typename T>
 	T RadianToMilliradian(const T& radian) {
 		return radian / 1000.0;
 	}

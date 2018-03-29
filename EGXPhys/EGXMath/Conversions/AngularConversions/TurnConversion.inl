@@ -18,11 +18,6 @@ namespace EGXMath {
 	}
 
 	template<typename T>
-	T TurnToTurn(const T& turn) {
-		return turn;
-	}
-
-	template<typename T>
 	T TurnToDegree(const T& turn) {
 		return turn * 360.0;
 	}

@@ -383,27 +383,6 @@ namespace EGXMath
 	template<typename T>
 	void GradianToHMS(const T& gradian, T& hour, T& minute, T& second);
 
-	/**
-	*   @brief Converts an angle in gradian to gradian.
-	*		\f[\alpha_{g}=\alpha_{g}\f]
-	*
-	*	See https://en.wikipedia.org/wiki/Gradian
-	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
-	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
-	*	@see GradianToGon() for alias.
-	*	@see DegreeToGradian() for conversion from (decimal) degrees.
-	*	@see DecimalDegreeToGradian() for conversion from decimal degrees.
-	*	@see RadianToGradian() for conversion from radians.
-	*	@see IntegerDegreeToGradian() for conversion from integer degrees.
-	*	@see BinaryDegreeToGradian() for conversion from binary degrees.
-	*	@see TurnToGradian() for conversion from turns.
-	*	@see GradianToGradian() for conversion from gradians.
-	*	@see HoursMinutesSecondsToGradian() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToGradian() for conversion from degrees minutes seconds.
-	*	@see CompassWindToGradian() for conversion from compass wind.
-	*/
-	template<typename T>
-	T GradianToGradian(const T& gradian);
 
 	/**
 	*   @brief Converts an angle in gradian to gradian.

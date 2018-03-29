@@ -75,27 +75,6 @@ namespace EGXMath
 	T TurnToMilliradian(const T& turn);
 
 	/**
-	*   @brief Converts an angle in turn to turn.
-	*		\f[\alpha_{turn}=\alpha_{turn}\f]
-	*
-	*	See https://en.wikipedia.org/wiki/Turn_(geometry)
-	*   @param turn \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
-	*   @return \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
-	*	@see DegreeToTurn() for conversion from (decimal) degrees.
-	*	@see DecimalDegreeToTurn() for conversion from decimal degrees.
-	*	@see RadianToTurn() for conversion from radians.
-	*	@see IntegerDegreeToTurn() for conversion from integer degrees.
-	*	@see BinaryDegreeToTurn() for conversion from binary degrees.
-	*	@see TurnToTurn() for conversion from turns.
-	*	@see GradianToTurn() for conversion from gradians.
-	*	@see HoursMinutesSecondsToTurn() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToTurn() for conversion from degrees minutes seconds.
-	*	@see CompassWindToTurn() for conversion from compass wind.
-	*/
-	template<typename T>
-	T TurnToTurn(const T& turn);
-
-	/**
 	*   @brief Converts an angle in turn to (decimal) degree.
 	*		\f[\alpha_{deg}=360\alpha_{turn}\f]
 	*

@@ -30,28 +30,6 @@ namespace EGXMath
 	/// @{
 
 	/**
-	*   @brief Converts an angle in radian to radian.
-	*		\f[\alpha_{rad}=\alpha_{rad}\f]
-	*
-	*	See https://en.wikipedia.org/wiki/Radian
-	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@see RadianToMilliradian() for conversion to milliradians.
-	*	@see DegreeToRadian() for conversion from (decimal) degrees.
-	*	@see DecimalDegreeToRadian() for conversion from decimal degrees.
-	*	@see RadianToRadian() for conversion from radians.
-	*	@see IntegerDegreeToRadian() for conversion from integer degrees.
-	*	@see BinaryDegreeToRadian() for conversion from binary degrees.
-	*	@see TurnToRadian() for conversion from turns.
-	*	@see GradianToRadian() for conversion from gradians.
-	*	@see HoursMinutesSecondsToRadian() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToRadian() for conversion from degrees minutes seconds.
-	*	@see CompassWindToRadian() for conversion from compass wind.
-	*/
-	template<typename T>
-	T RadianToRadian(const T& radian);
-
-	/**
 	*   @brief Converts an angle in radian to milliradian.
 	*		\f[\alpha_{mrad}=\alpha_{rad}*10^3\f]
 	*

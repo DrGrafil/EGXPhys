@@ -98,31 +98,6 @@ namespace EGXMath
 	T DegreeToTurn(const T& decimalDegree);
 
 	/**
-	*   @brief Converts an angle in (decimal) degree to (decimal) degree.
-	*		\f[\alpha_{deg}=\alpha_{deg}\f]
-	*
-	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
-	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
-	*	@see DegreeToDecimalDegree() for alias.
-	*	@see DegreeToArcdegree() for alias.
-	*	@see DecimalDegreeToDecimalDegree() for alias.
-	*	@see DecimalDegreeToArcdegree() for alias.
-	*	@see DegreeToDegree() for conversion from (decimal) degrees.
-	*	@see DecimalDegreeToDegree() for conversion from decimal degrees.
-	*	@see RadianToDegree() for conversion from radians.
-	*	@see IntegerDegreeToDegree() for conversion from integer degrees.
-	*	@see BinaryDegreeToDegree() for conversion from binary degrees.
-	*	@see TurnToDegree() for conversion from turns.
-	*	@see GradianToDegree() for conversion from gradians.
-	*	@see HoursMinutesSecondsToDegree() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToDegree() for conversion from degrees minutes seconds.
-	*	@see CompassWindToDegree() for conversion from compass wind.
-	*/
-	template<typename T>
-	T DegreeToDegree(const T& decimalDegree);
-
-	/**
 	*   @brief Converts an angle in (decimal) degree to decimal degree.
 	*		\f[\alpha_{deg}=\alpha_{deg}\f]
 	*
@@ -133,7 +108,7 @@ namespace EGXMath
 	*	@see DegreeToArcdegree() for alias.
 	*	@see DecimalDegreeToDegree() for alias.
 	*	@see DecimalDegreeToArcdegree() for alias.
-	*	@see DecimalDegreeToDecimalDegree() for alias.
+
 	*	@see DegreeToDecimalDegree() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToDecimalDegree() for conversion from decimal degrees.
 	*	@see RadianToDecimalDegree() for conversion from radians.
@@ -156,8 +131,6 @@ namespace EGXMath
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) arc degree.
 	*	@see DegreeToDecimalDegree() for alias.
-	*	@see DegreeToDegree() for alias.
-	*	@see DecimalDegreeToDecimalDegree() for alias.
 	*	@see DecimalDegreeToDegree() for alias.
 	*	@see DecimalDegreeToArcdegree() for alias.
 	*	@see DegreeToArcdegree() for conversion from (decimal) degrees.

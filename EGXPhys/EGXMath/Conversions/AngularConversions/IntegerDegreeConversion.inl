@@ -37,11 +37,6 @@ namespace EGXMath {
 		return DegreeToArcdegree(integerDegree);
 	}
 
-	template<typename T>
-	T IntegerDegreeToIntegerDegree(const T& integerDegree) {
-		return DegreeToIntegerDegree(integerDegree);
-	}
-
 	template<typename T, typename T2>
 	T IntegerDegreeToBinaryDegree(const T& integerDegree, const T2& bits) {
 		return DegreeToBinaryDegree(integerDegree, bits);

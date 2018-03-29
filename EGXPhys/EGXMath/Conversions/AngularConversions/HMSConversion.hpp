@@ -1,12 +1,13 @@
-/// @file EGXMath/Conversions/AngleConversions/DecimalDegreeConversion.hpp
+/// @file EGXMath/Conversions/AngleConversions/XZXConversion.hpp
 ///
-/// @brief Converts angle measurements from decimal degrees into various styles such as radians, degrees, DMS, HMS.
+/// @brief Converts angle measurements in xyys into various styles such as radians, degrees, DMS, HMS.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 3/28/18
+/// @date 3/29/18
 
-/// @defgroup EGXMath-AngleConversions-DecimalDegree Decimal Degree
+/// @defgroup EGXMath-AngleConversions-HMS HMS
 /// @ingroup EGXMath-AngleConversions
+
 
 //=================================
 // Header guard
@@ -26,18 +27,17 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-AngleConversions-DecimalDegree
+	/// @addtogroup EGXMath-AngleConversions-XZX
 	/// @{
 
 	/**
-	*   @brief Converts an angle in decimal degrees to radians.
-	*		\f[\alpha_{rad}=\alpha_{deg}\frac{\pi}{180}\f]
+	*   @brief Converts an angle in xyy to radian.
+	*		\f[\alpha_{rad}=\alpha_{rad}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Radian
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@see DecimalDegreeToRadian() for alias.
-	*	@see DegreeToMilliradian() for conversion to milliradians.
+	*	@see XZXToMilliradian() for conversion to milliradians.
 	*	@see DegreeToRadian() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToRadian() for conversion from decimal degrees.
 	*	@see RadianToRadian() for conversion from radians.
@@ -50,17 +50,16 @@ namespace EGXMath
 	*	@see CompassWindToRadian() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToRadian(const T& decimalDegree);
+	T XZXToRadian(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degrees to milliradians.
-	*		\f[\alpha_{mrad}=\alpha_{deg}\frac{\pi}{180}*10^3\f]
+	*   @brief Converts an angle in xyy to milliradian.
+	*		\f[\alpha_{mrad}=\alpha_{rad}*10^3\f]
 	*
-	*	See https://en.wikipedia.org/wiki/Milliradian
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*	See https://en.wikipedia.org/wiki/Milliradian 
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*   @return \f$\alpha_{mrad}\ (mrad)\f$ is the angle in milliradians.
-	*	@see DecimalDegreeToMilliradian() for alias.
-	*	@see DegreeToRadian() for conversion to radians.
+	*	@see XZXToRadian() for conversion to radians.
 	*	@see DegreeToMilliradian() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToMilliradian() for conversion from decimal degrees.
 	*	@see RadianToMilliradian() for conversion from radians.
@@ -73,14 +72,14 @@ namespace EGXMath
 	*	@see CompassWindToMilliradian() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToMilliradian(const T& decimalDegree);
+	T XZXToMilliradian(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degree to turn.
-	*		\f[\alpha_{turn}=\alpha_{deg}\frac{1}{360}\f]
+	*   @brief Converts an angle in xyy to turn.
+	*		\f[\alpha_{turn}=\alpha_{rad}\frac{1}{2 \pi}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Turn_(geometry)
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degree.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*   @return \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
 	*	@see DegreeToTurn() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToTurn() for conversion from decimal degrees.
@@ -94,18 +93,17 @@ namespace EGXMath
 	*	@see CompassWindToTurn() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToTurn(const T& decimalDegree);
+	T XZXToTurn(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degree to (decimal) degree.
-	*		\f[\alpha_{deg}=\alpha_{deg}\f]
+	*   @brief Converts an angle in xyy to (decimal) degree.
+	*		\f[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degree.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
-	*	@see DegreeToDecimalDegree() for alias.
-	*	@see DegreeToArcdegree() for alias.
-	*	@see DecimalDegreeToArcdegree() for alias.
+	*	@see XZXToArcdegree() for alias.
+	*	@see XZXToDegree() for alias.
 	*	@see DegreeToDegree() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToDegree() for conversion from decimal degrees.
 	*	@see RadianToDegree() for conversion from radians.
@@ -118,20 +116,40 @@ namespace EGXMath
 	*	@see CompassWindToDegree() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToDegree(const T& decimalDegree);	
+	T XZXToDegree(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degree to (decimal) arc degree.
-	*		\f[\alpha_{deg}=\alpha_{deg}\f]
+	*   @brief Converts an angle in xyy to decimal degree.
+	*		\f[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
-	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) arc degree.
-	*	@see DegreeToDecimalDegree() for alias.
-	*	@see DegreeToDegree() for alias.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
+	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degree.
+	*	@see XZXToDegree() for alias.
+	*	@see XZXToArcdegree() for alias.
+	*	@see DegreeToDecimalDegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToDecimalDegree() for conversion from decimal degrees.
+	*	@see RadianToDecimalDegree() for conversion from radians.
+	*	@see IntegerDegreeToDecimalDegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToDecimalDegree() for conversion from binary degrees.
+	*	@see TurnToDecimalDegree() for conversion from turns.
+	*	@see GradianToDecimalDegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDecimalDegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDecimalDegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDecimalDegree() for conversion from compass wind.
+	*/
+	template<typename T>
+	T XZXToDecimalDegree(const T& xyy);
 
-	*	@see DecimalDegreeToDegree() for alias.
-	*	@see DecimalDegreeToArcdegree() for alias.
+	/**
+	*   @brief Converts an angle in xyy to arcdegree (decimal degree).
+	*		\f[\alpha_{deg}=\alpha_{rad}\frac{180}{\pi}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
+	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in arcdegree (decimal degree).
+	*	@see XZXToDegree() for alias.
+	*	@see XZXToDecimalDegree() for alias.
 	*	@see DegreeToArcdegree() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToArcdegree() for conversion from decimal degrees.
 	*	@see RadianToArcdegree() for conversion from radians.
@@ -144,17 +162,15 @@ namespace EGXMath
 	*	@see CompassWindToArcdegree() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToArcdegree(const T& decimalDegree);
-
+	T XZXToArcdegree(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degree to integer degree. This rounds to the nearest integer.
-	*		\f[\alpha_{deg int}=round(\alpha_{deg})\f]
+	*   @brief Converts an angle in xyy to integer degree.
+	*		\f[\alpha_{deg\ int}=round(\alpha_{rad}\frac{180}{\pi})\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degree.
-	*   @return \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degree.
-	*	@see DegreeIntegerDegree() for alias.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
+	*   @return \f$\alpha_{deg\ int}\ (deg)\f$ is the angle in integer degrees.
 	*	@see DegreeToIntegerDegree() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToIntegerDegree() for conversion from decimal degrees.
 	*	@see RadianToIntegerDegree() for conversion from radians.
@@ -167,15 +183,15 @@ namespace EGXMath
 	*	@see CompassWindToIntegerDegree() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToIntegerDegree(const T& decimalDegree);
+	T XZXToIntegerDegree(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degree to binary degree (brad).
-	*		\f[\alpha_{deg\ bin}=round(\alpha_{deg}\frac{2^{(n-1)}}{360})\f]
+	*   @brief Converts an angle in xyy to binary degree (brad).
+	*		\f[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^{(n-1)}}{2 \pi})\f]
 	*	Where \f$n\f$ is the number of bits avaliable to store the number. \f$n\f$ defaults to 8, the tradiational number for binary degrees.
 	*
 	*	See https://en.wikipedia.org/wiki/Binary_scaling#Binary_angles and https://www.globalspec.com/reference/14722/160210/Chapter-7-5-3-Binary-Angular-Measure
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*	@param bits \f$n\ (bit)\f$ is the number of bits avaliable to store the number. Defaults to 8.
 	*   @return \f$\alpha_{deg\ bin}\ (brad)\f$ is the angle in binary degrees.
 	*	@see DegreeToBinaryDegree() for conversion from (decimal) degrees.
@@ -190,16 +206,15 @@ namespace EGXMath
 	*	@see CompassWindToBinaryDegree() for conversion from compass wind.
 	*/
 	template<typename T, typename T2>
-	T DecimalDegreeToBinaryDegree(const T& decimalDegree, const T2& bits = 8);
+	T XZXToBinaryDegree(const T& xyy, const T2& bits = 8);
 
 	/**
-	*   @brief Converts an angle in decimal degree to arcminute. Note that arcminutes are not equal to minutes.
-	*		\f[\alpha_{arcmin}= 60 * \alpha_{deg}\f]
+	*   @brief Converts an angle in xyy to arcminute. Note that arcminutes are not equal to minutes.
+	*		\f[\alpha_{arcmin}=\alpha_{rad}\frac{180 * 60}{\pi}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*   @return \f$\alpha_{arcmin}\ (arcmin)\f$ is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes.
-	*	@see DegreeToArcminute() for alias.
 	*	@see DegreeToArcminute() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToArcminute() for conversion from decimal degrees.
 	*	@see RadianToArcminute() for conversion from radians.
@@ -212,16 +227,15 @@ namespace EGXMath
 	*	@see CompassWindToArcminute() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToArcminute(const T& decimalDegree);
+	T XZXToArcminute(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degree to arcsecond. Note that arcsecond are not equal to seconds.
-	*		\f[\alpha_{arcsec}=60 * 60 * \alpha_{deg}\f]
+	*   @brief Converts an angle in xyy to arcsecond. Note that arcsecond are not equal to seconds.
+	*		\f[\alpha_{arcsec}=\alpha_{rad}\frac{180 * 60 * 60}{\pi}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*   @return \f$\alpha_{arcsec}\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
-	*	@see DegreeToArcsecond() for alias.
 	*	@see DegreeToArcsecond() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToArcsecond() for conversion from decimal degrees.
 	*	@see RadianToArcsecond() for conversion from radians.
@@ -234,16 +248,15 @@ namespace EGXMath
 	*	@see CompassWindToArcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToArcsecond(const T& decimalDegree);
+	T XZXToArcsecond(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degree to milliarcsecond.
-	*		\f[\alpha_{mas}=60 * 60 * 10^3 * \alpha_{deg} \f]
+	*   @brief Converts an angle in xyy to milliarcsecond.
+	*		\f[\alpha_{mas}=\alpha_{rad}\frac{180 * 60 * 60 * 10^3}{\pi}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*   @return \f$\alpha_{mas}\ (mas)\f$ is the angle in milliarcseconds.
-	*	@see DecimalDegreeToMilliarcsecond() for alias.
 	*	@see DegreeToMilliarcsecond() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToMilliarcsecond() for conversion from decimal degrees.
 	*	@see RadianToMilliarcsecond() for conversion from radians.
@@ -256,17 +269,15 @@ namespace EGXMath
 	*	@see CompassWindToMilliarcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToMilliarcsecond(const T& decimalDegree);
-
+	T XZXToMilliarcsecond(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degree to microarcsecond.
-	*		\f[\alpha_{\mu as}=60 * 60 * 10^6 * \alpha_{deg}\f]
+	*   @brief Converts an angle in xyy to microarcsecond.
+	*		\f[\alpha_{\mu as}=\alpha_{rad}\frac{180 * 60 * 60 * 10^6}{\pi}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*   @return \f$\alpha_{\mu as}\ (\mu as)\f$ is the angle in microarcseconds.
-	*	@see DecimalDegreeToMicroarcsecond() for alias.
 	*	@see DegreeToMicroarcsecond() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToMicroarcsecond() for conversion from decimal degrees.
 	*	@see RadianToMicroarcsecond() for conversion from radians.
@@ -279,24 +290,17 @@ namespace EGXMath
 	*	@see CompassWindToMicroarcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToMicroarcsecond(const T& decimalDegree);
+	T XZXToMicroarcsecond(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degree to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
-	*		\f[degree=trun(\alpha_{deg})\f]
-	*		\f[arcminute=trun(60 * |\alpha_{deg} - degree|)\f]
-	*		\f[arcsecond=60 * ((60 * |\alpha_{deg} - degree|)-arcminute)\f]
-	*
-	*	Where trunc is the integer truncation command.
+	*   @brief Converts an angle in xyy to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
 	*
 	*	See https://en.wikipedia.org/wiki/Geographic_coordinate_conversion and https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
-	*	@param integerDegree \f$degree\ (deg\ int)\f$ is the angle in integer degrees.
-	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
-	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
-	*	@see DegreeToDMS() for alias.
-	*	@see DecimalDegreeToDegreesMinutesSeconds() for alias.
-	*	@see DecimalDegreeToDMS() for alias.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
+	*	@param integerDegree \f$degree\ (deg int)\f$ is the angle in degrees in whole numbers.
+	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
+	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
+	*	@see XZXToDMS() for alias.
 	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees and full explination.
 	*	@see DecimalDegreeToDegreesMinutesSeconds() for conversion from decimal degrees.
 	*	@see RadianToDegreesMinutesSeconds() for conversion from radians.
@@ -309,23 +313,17 @@ namespace EGXMath
 	*	@see CompassWindToDegreesMinutesSeconds() for conversion from compass wind.
 	*/
 	template<typename T>
-	void DecimalDegreeToDegreesMinutesSeconds(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond);
+	void XZXToDegreesMinutesSeconds(const T& xyy, T& integerDegree, T& arcminute, T& arcsecond);
 
 	/**
-	*   @brief Converts an angle in decimal degree to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
-	*		\f[degree=trun(\alpha_{deg})\f]
-	*		\f[arcminute=trun(60 * |\alpha_{deg} - degree|)\f]
-	*		\f[arcsecond=60 * ((60 * |\alpha_{deg} - degree|)-arcminute)\f]
+	*   @brief Converts an angle in xyy to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
 	*
 	*	See https://en.wikipedia.org/wiki/Geographic_coordinate_conversion and https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*	Where trunc is the integer truncation command.
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
-	*	@param integerDegree \f$degree\ (deg\ int)\f$ is the angle in integer degrees.
-	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
-	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
-	*	@see DegreeToDegreesMinutesSeconds() for alias.
-	*	@see DecimalDegreeToDegreesMinutesSeconds() for alias.
-	*	@see DecimalDegreeToDMS() for alias.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
+	*	@param integerDegree \f$degree\ (deg)\f$ is the angle in degrees in whole numbers.
+	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
+	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
+	*	@see XZXToDegreesMinutesSeconds() for alias.
 	*	@see DegreeToDMS() for conversion from (decimal) degrees and full explination.
 	*	@see DecimalDegreeToDMS() for conversion from decimal degrees.
 	*	@see RadianToDMS() for conversion from radians.
@@ -338,23 +336,17 @@ namespace EGXMath
 	*	@see CompassWindToDMS() for conversion from compass wind.
 	*/
 	template<typename T>
-	void DecimalDegreeToDMS(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond);
+	void XZXToDMS(const T& xyy, T& integerDegree, T& arcminute, T& arcsecond);
 
 	/**
-	*   @brief Converts an angle in decimal degree to hours minutes seconds (DMS). \f${HH}^{h}{MM}^{m}{SS.SS}^{s}\f$ format.
-	*		\f[hour=trun(\frac{\alpha_{deg}}{15})\f]
-	*		\f[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\f]
-	*		\f[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\f]
+	*   @brief Converts an angle in xyy to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.
 	*
 	*	See and https://en.wikipedia.org/wiki/Right_ascension and https://en.wikipedia.org/wiki/Hour_angle
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
-	*	@param hour \f$hour\ (hour)\f$ is the angle in hours.
-	*	@param minute \f$minute\ (min)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
-	*   @param second \f$second\ (sec)\f$ is the angle in seconds. Note that this is 1/60 of a minute, not arcminute. It is not equal to arcseconds.
-	*	@see DegreeToHoursMinutesSeconds() for conversion from (decimal) degrees.
-	*	@see DegreeToHMS() for alias.
-	*	@see DecimalDegreeToHoursMinutesSeconds() for alias.
-	*	@see DecimalDegreeToHMS() for alias.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
+	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
+	*	@param minute \f$minute\ (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
+	*   @param second \f$second\ (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
+	*	@see XZXToHMS() for alias.
 	*	@see DegreeToHoursMinutesSeconds() for conversion from (decimal) degrees and full explination.
 	*	@see DecimalDegreeToHoursMinutesSeconds() for conversion from decimal degrees.
 	*	@see RadianToHoursMinutesSeconds() for conversion from radians.
@@ -367,47 +359,16 @@ namespace EGXMath
 	*	@see CompassWindToHoursMinutesSeconds() for conversion from compass wind.
 	*/
 	template<typename T>
-	void DecimalDegreeToHoursMinutesSeconds(const T& decimalDegree, T& hour, T& minute, T& second);
-
-
-	/**
-	*   @brief Converts an angle in decimal degree to hours minutes seconds (DMS). \f${HH}^{h}{MM}^{m}{SS.SS}^{s}\f$ format.
-	*		\f[hour=trun(\frac{\alpha_{deg}}{15})\f]
-	*		\f[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\f]
-	*		\f[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\f]
-	*
-	*	See and https://en.wikipedia.org/wiki/Right_ascension and https://en.wikipedia.org/wiki/Hour_angle
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
-	*	@param hour \f$hour\ (hour)\f$ is the angle in hours.
-	*	@param minute \f$minute\ (min)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
-	*   @param second \f$second\ (sec)\f$ is the angle in seconds. Note that this is 1/60 of a minute, not arcminute. It is not equal to arcseconds.
-	*	@see DegreeToHoursMinutesSeconds() for alias.
-	*	@see DecimalDegreeToHoursMinutesSeconds() for alias.
-	*	@see DecimalDegreeToHMS() for alias.
-	*	@see DegreeToHMS() for conversion from (decimal) degrees and full explination.
-	*	@see DecimalDegreeToHMS() for conversion from decimal degrees.
-	*	@see RadianToHMS() for conversion from radians.
-	*	@see IntegerDegreeToHMS() for conversion from integer degrees.
-	*	@see BinaryDegreeToHMS() for conversion from binary degrees.
-	*	@see TurnToHMS() for conversion from turns.
-	*	@see GradianToHMS() for conversion from gradians.
-	*	@see HoursMinutesSecondsToHMS() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToHMS() for conversion from degrees minutes seconds.
-	*	@see CompassWindToHMS() for conversion from compass wind.
-	*/
-	template<typename T>
-	void DecimalDegreeToHMS(const T& decimalDegree, T& hour, T& minute, T& second);
+	void XZXToHoursMinutesSeconds(const T& xyy, T& hour, T& minute, T& second);
 
 	/**
-	*   @brief Converts an angle in decimal degree to gradian.
-	*		\f[\alpha_{g}=\alpha_{deg}\frac{10}{9}\f]
+	*   @brief Converts an angle in xyy to gradian.
+	*		\f[\alpha_{g}=\alpha_{rad}\frac{200}{\pi}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Gradian
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
-	*	@see DegreeToGon() for alias.
-	*	@see DecimalDegreeToGradian() for alias.
-	*	@see DecimalDegreeToGon() for alias.
+	*	@see XZXToGon() for alias.
 	*	@see DegreeToGradian() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToGradian() for conversion from decimal degrees.
 	*	@see RadianToGradian() for conversion from radians.
@@ -420,19 +381,17 @@ namespace EGXMath
 	*	@see CompassWindToGradian() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToGradian(const T& decimalDegree);
+	T XZXToGradian(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degrees to gradians.
-	*		\f[\alpha_{g}=\alpha_{deg}\frac{10}{9}\f]
+	*   @brief Converts an angle in xyy to gradian.
+	*		\f[\alpha_{g}=\alpha_{rad}\frac{200}{\pi}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Gradian
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
-	*	@see DegreeToGradian() for alias.
-	*	@see DecimalDegreeToGradian() for alias.
-	*	@see DecimalDegreeToGon() for alias.
-		*	@see DegreeToGon() for conversion from (decimal) degrees.
+	*	@see XZXToGradian() for alias.
+	*	@see DegreeToGon() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToGon() for conversion from decimal degrees.
 	*	@see RadianToGon() for conversion from radians.
 	*	@see IntegerDegreeToGon() for conversion from integer degrees.
@@ -444,31 +403,32 @@ namespace EGXMath
 	*	@see CompassWindToGon() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DecimalDegreeToGon(const T& decimalDegree);
-
+	T XZXToGon(const T& xyy);
 
 	/**
-	*   @brief Converts an angle in decimal degree to a n-Wind compass point name.
+	*   @brief Converts an angle in xyy to a n-Wind compass point name.
 	*
 	*	See https://en.wikipedia.org/wiki/Points_of_the_compass
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @param xyy \f$\alpha_{ava}\ (uuu)\f$ is the angle in xyys.
 	*	@param winds \f$winds\ (int)\f$ The number of points(names) that the compass should have. Must be 2,4,8,16 or 32.
 	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
 	*   @return \f$point\ name\ (dimensionless)\f$ is the name of the compass point.
-	*	@see DegreeToCompassWind() for alias and for full explination of conversion.
+	*	@see DegreeToCompassWind() for full explination of conversion and conversion from (decimal) degrees.
 	*	@see DecimalDegreeToCompassWind() for conversion from decimal degrees.
 	*	@see RadianToCompassWind() for conversion from radians.
 	*	@see IntegerDegreeToCompassWind() for conversion from integer degrees.
 	*	@see BinaryDegreeToCompassWind() for conversion from binary degrees.
-	*	@see TurnToCompassWind() for conversion from binary degrees.
+	*	@see TurnToCompassWind() for conversion from turns.
 	*	@see GradianToCompassWind() for conversion from gradians.
 	*	@see HoursMinutesSecondsToCompassWind() for conversion from hours minutes seconds.
 	*	@see DegreesMinutesSecondsToCompassWind() for conversion from degrees minutes seconds.
+	*	@see CompassWindToCompassWind() for conversion from degrees minutes seconds.
 	*/
 	template<typename T>
-	std::string DecimalDegreeToCompassWind(const T& decimalDegree, const unsigned int winds, const bool abbreviate);
+	std::string XZXToCompassWind(const T& xyy, const unsigned int winds, const bool abbreviate);
 
-	/// @}
+
+    /// @}
 } //namespace EGXMath
 
-#include "DecimalDegreeConversion.inl"
+#include "XZXConversion.inl"

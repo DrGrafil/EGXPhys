@@ -88,11 +88,6 @@ namespace EGXMath {
 	}
 
 	template<typename T>
-	T GradianToGradian(const T& gradian) {
-		return gradian;
-	}
-
-	template<typename T>
 	T GradianToGon(const T& gradian) {
 		return GradianToGradian(gradian);
 	}

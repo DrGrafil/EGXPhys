@@ -407,28 +407,6 @@ namespace EGXMath
 	T GonToGradian(const T& gradian);
 
 	/**
-	*   @brief Converts an angle in gradian to gradian.
-	*		\f[\alpha_{g}=\alpha_{g}\f]
-	*
-	*	See https://en.wikipedia.org/wiki/Gradian
-	*   @param gradian \f$\alpha_{g}\ (gon)\f$ is the angle in gradians.
-	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
-	*	@see GonToGradian() for alias.
-	*	@see DegreeToGon() for conversion from (decimal) degrees.
-	*	@see DecimalDegreeToGon() for conversion from decimal degrees.
-	*	@see RadianToGon() for conversion from radians.
-	*	@see IntegerDegreeToGon() for conversion from integer degrees.
-	*	@see BinaryDegreeToGon() for conversion from binary degrees.
-	*	@see TurnToGon() for conversion from turns.
-	*	@see GradianToGon() for conversion from gradians.
-	*	@see HoursMinutesSecondsToGon() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToGon() for conversion from degrees minutes seconds.
-	*	@see CompassWindToGon() for conversion from compass wind.
-	*/
-	template<typename T>
-	T GonToGon(const T& gradian);
-
-	/**
 	*   @brief Converts an angle in gradian to a n-Wind compass point name.
 	*
 	*	See https://en.wikipedia.org/wiki/Points_of_the_compass

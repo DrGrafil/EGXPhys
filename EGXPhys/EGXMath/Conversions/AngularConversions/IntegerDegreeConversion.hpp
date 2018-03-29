@@ -164,28 +164,6 @@ namespace EGXMath
 	T IntegerDegreeToArcdegree(const T& integerDegree);
 
 	/**
-	*   @brief Converts an angle in integer degree to integer degree. This rounds to the nearest integer.
-	*		\f[\alpha_{deg\ int}=\alpha_{deg int}\f]
-	*
-	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degree.
-	*   @return \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degree.
-	*	@see DecimalDegreeIntegerDegree() for alias.
-	*	@see DegreeToIntegerDegree() for conversion from (decimal) degrees.
-	*	@see DecimalDegreeToIntegerDegree() for conversion from decimal degrees.
-	*	@see RadianToIntegerDegree() for conversion from radians.
-	*	@see IntegerDegreeToIntegerDegree() for conversion from integer degrees.
-	*	@see BinaryDegreeToIntegerDegree() for conversion from binary degrees.
-	*	@see TurnToIntegerDegree() for conversion from turns.
-	*	@see GradianToIntegerDegree() for conversion from gradians.
-	*	@see HoursMinutesSecondsToIntegerDegree() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToIntegerDegree() for conversion from degrees minutes seconds.
-	*	@see CompassWindToIntegerDegree() for conversion from compass wind.
-	*/
-	template<typename T>
-	T IntegerDegreeToIntegerDegree(const T& integerDegree);
-
-	/**
 	*   @brief Converts an angle in integer degree to binary degree (brad).
 	*		\f[\alpha_{deg\ bin}=round(\alpha_{deg\ int}\frac{2^{(n-1)}}{360})\f]
 	*	Where \f$n\f$ is the number of bits avaliable to store the number. \f$n\f$ defaults to 8, the tradiational number for binary degrees.

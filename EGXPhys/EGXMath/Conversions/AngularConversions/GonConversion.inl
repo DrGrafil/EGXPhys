@@ -93,11 +93,6 @@ namespace EGXMath {
 	}
 
 	template<typename T>
-	T GonToGon(const T& gradian) {
-		return GonToGradian(gradian);
-	}
-
-	template<typename T>
 	std::string GonToCompassWind(const T& gradian, const unsigned int winds, const bool abbreviate) {
 		return DegreeToCompassWind(GradianToDegree(gradian), winds, abbreviate);
 	}
