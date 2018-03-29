@@ -344,6 +344,7 @@ namespace EGXMath
 	*		\f[arcminute=trun(60 * |\alpha_{deg} - degree|)\f]
 	*		\f[arcsecond=60 * ((60 * |\alpha_{deg} - degree|)-arcminute)\f]
 	*
+	*	See https://en.wikipedia.org/wiki/Geographic_coordinate_conversion and https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*	Where trunc is the integer truncation command.
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
 	*	@param integerDegree \f$degree\ (deg int)\f$ is the angle in integer degrees.

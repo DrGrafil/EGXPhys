@@ -325,6 +325,7 @@ namespace EGXMath
 	*		\f[arcminute= 0\f]
 	*		\f[arcsecond= 0\f]
 	*
+	*	See https://en.wikipedia.org/wiki/Geographic_coordinate_conversion and https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*	@param degree \f$degree\ (deg int)\f$ is the angle in integer degrees.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.

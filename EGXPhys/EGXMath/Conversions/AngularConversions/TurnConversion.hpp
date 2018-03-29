@@ -295,6 +295,7 @@ namespace EGXMath
 	/**
 	*   @brief Converts an angle in turn to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
 	*
+	*	See https://en.wikipedia.org/wiki/Geographic_coordinate_conversion and https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param turn \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
 	*	@param integerDegree \f$degree\ (deg int)\f$ is the angle in degrees in whole numbers.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
@@ -317,6 +318,7 @@ namespace EGXMath
 	/**
 	*   @brief Converts an angle in turn to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
 	*
+	*	See https://en.wikipedia.org/wiki/Geographic_coordinate_conversion and https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param turn \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
 	*	@param integerDegree \f$degree\ (deg)\f$ is the angle in degrees in whole numbers.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
@@ -339,6 +341,7 @@ namespace EGXMath
 	/**
 	*   @brief Converts an angle in turn to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.
 	*
+	*	See and https://en.wikipedia.org/wiki/Right_ascension and https://en.wikipedia.org/wiki/Hour_angle
 	*   @param turn \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
 	*	@param minute \f$minute\ (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
@@ -361,6 +364,7 @@ namespace EGXMath
 	/**
 	*   @brief Converts an angle in turn to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.
 	*
+	*	See and https://en.wikipedia.org/wiki/Right_ascension and https://en.wikipedia.org/wiki/Hour_angle
 	*   @param turn \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
 	*	@param minute \f$minute\ (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.

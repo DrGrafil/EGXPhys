@@ -34,7 +34,7 @@ namespace EGXMath
 	*		\f[\alpha_{rad}=\alpha_{g}\frac{\pi}{200}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Radian
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*	@see GradianToMilliradian() for conversion to milliradians.
 	*	@see DegreeToRadian() for conversion from (decimal) degrees.
@@ -56,7 +56,7 @@ namespace EGXMath
 	*		\f[\alpha_{mrad}=\alpha_{g}\frac{\pi}{200}*10^3\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Milliradian 
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{mrad}\ (mrad)\f$ is the angle in milliradians.
 	*	@see GradianToRadian() for conversion to radians.
 	*	@see DegreeToMilliradian() for conversion from (decimal) degrees.
@@ -78,7 +78,7 @@ namespace EGXMath
 	*		\f[\alpha_{turn}=\alpha_{g}\frac{1}{400}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Turn_(geometry)
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
 	*	@see DegreeToTurn() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToTurn() for conversion from decimal degrees.
@@ -99,7 +99,7 @@ namespace EGXMath
 	*		\f[\alpha_{deg}=\alpha_{g}\frac{9}{10}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
 	*	@see GradianToArcdegree() for alias.
 	*	@see GradianToDegree() for alias.
@@ -122,7 +122,7 @@ namespace EGXMath
 	*		\f[\alpha_{deg}=\alpha_{g}\frac{9}{10}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degree.
 	*	@see GradianToDegree() for alias.
 	*	@see GradianToArcdegree() for alias.
@@ -145,7 +145,7 @@ namespace EGXMath
 	*		\f[\alpha_{deg}=\alpha_{g}\frac{9}{10}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in arcdegree (decimal degree).
 	*	@see GradianToDegree() for alias.
 	*	@see GradianToDecimalDegree() for alias.
@@ -168,7 +168,7 @@ namespace EGXMath
 	*		\f[\alpha_{deg\ int}=round(\alpha_{g}\frac{9}{10})\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{deg\ int}\ (deg)\f$ is the angle in integer degrees.
 	*	@see DegreeToIntegerDegree() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToIntegerDegree() for conversion from decimal degrees.
@@ -187,11 +187,11 @@ namespace EGXMath
 	/**
 	*   @brief Converts an angle in gradian to binary degree (brad).
 	*		\f[\alpha_{deg\ bin}=round(\alpha_{g}\frac{2^{(n-1)}}{400})\f]
-	*	Where \f$n\f$ is the number of bits avaliable to store the number. \f$n\f$ defaults to 8, the tradiational number for binary degrees.
+	*	Where \f$n\f$ is the number of bits gliable to store the number. \f$n\f$ defaults to 8, the tradiational number for binary degrees.
 	*
 	*	See https://en.wikipedia.org/wiki/Binary_scaling#Binary_angles and https://www.globalspec.com/reference/14722/160210/Chapter-7-5-3-Binary-Angular-Measure
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
-	*	@param bits \f$n\ (bit)\f$ is the number of bits avaliable to store the number. Defaults to 8.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
+	*	@param bits \f$n\ (bit)\f$ is the number of bits gliable to store the number. Defaults to 8.
 	*   @return \f$\alpha_{deg\ bin}\ (brad)\f$ is the angle in binary degrees.
 	*	@see DegreeToBinaryDegree() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToBinaryDegree() for conversion from decimal degrees.
@@ -212,7 +212,7 @@ namespace EGXMath
 	*		\f[\alpha_{arcmin}=\alpha_{g}\frac{9}{10} * 60\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{arcmin}\ (arcmin)\f$ is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*	@see DegreeToArcminute() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToArcminute() for conversion from decimal degrees.
@@ -233,7 +233,7 @@ namespace EGXMath
 	*		\f[\alpha_{arcsec}=\alpha_{g}\frac{9}{10} * 60 * 60\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{arcsec}\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
 	*	@see DegreeToArcsecond() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToArcsecond() for conversion from decimal degrees.
@@ -254,7 +254,7 @@ namespace EGXMath
 	*		\f[\alpha_{mas}=\alpha_{g}\frac{9}{10} * 60 * 60 * 10^3\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{mas}\ (mas)\f$ is the angle in milliarcseconds.
 	*	@see DegreeToMilliarcsecond() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToMilliarcsecond() for conversion from decimal degrees.
@@ -275,7 +275,7 @@ namespace EGXMath
 	*		\f[\alpha_{\mu as}=\alpha_{g}\frac{9}{10} * 60 * 60 * 10^6\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{\mu as}\ (\mu as)\f$ is the angle in microarcseconds.
 	*	@see DegreeToMicroarcsecond() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToMicroarcsecond() for conversion from decimal degrees.
@@ -294,7 +294,8 @@ namespace EGXMath
 	/**
 	*   @brief Converts an angle in gradian to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
 	*
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*	See https://en.wikipedia.org/wiki/Geographic_coordinate_conversion and https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*	@param integerDegree \f$degree\ (deg int)\f$ is the angle in degrees in whole numbers.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
@@ -316,7 +317,8 @@ namespace EGXMath
 	/**
 	*   @brief Converts an angle in gradian to degrees minutes seconds (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
 	*
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*	See https://en.wikipedia.org/wiki/Geographic_coordinate_conversion and https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*	@param integerDegree \f$degree\ (deg)\f$ is the angle in degrees in whole numbers.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
@@ -338,7 +340,8 @@ namespace EGXMath
 	/**
 	*   @brief Converts an angle in gradian to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.
 	*
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*	See and https://en.wikipedia.org/wiki/Right_ascension and https://en.wikipedia.org/wiki/Hour_angle
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
 	*	@param minute \f$minute\ (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
 	*   @param second \f$second\ (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
@@ -360,7 +363,8 @@ namespace EGXMath
 	/**
 	*   @brief Converts an angle in gradian to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.
 	*
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*	See and https://en.wikipedia.org/wiki/Right_ascension and https://en.wikipedia.org/wiki/Hour_angle
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
 	*	@param minute \f$minute\ (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
 	*   @param second \f$second\ (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
@@ -384,7 +388,7 @@ namespace EGXMath
 	*		\f[\alpha_{g}=\alpha_{g}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Gradian
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see GradianToGon() for alias.
 	*	@see DegreeToGradian() for conversion from (decimal) degrees.
@@ -406,7 +410,7 @@ namespace EGXMath
 	*		\f[\alpha_{g}=\alpha_{g}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Gradian
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see GradianToGradian() for alias.
 	*	@see DegreeToGon() for conversion from (decimal) degrees.
@@ -427,7 +431,7 @@ namespace EGXMath
 	*   @brief Converts an angle in gradian to a n-Wind compass point name.
 	*
 	*	See https://en.wikipedia.org/wiki/Points_of_the_compass
-	*   @param gradian \f$\alpha_{ava}\ (uuu)\f$ is the angle in gradians.
+	*   @param gradian \f$\alpha_{g}\ (grad)\f$ is the angle in gradians.
 	*	@param winds \f$winds\ (int)\f$ The number of points(names) that the compass should have. Must be 2,4,8,16 or 32.
 	*   @param abbreviate \f$abbreviate\ (bool)\f$ should the compass point name be abbreviated.
 	*   @return \f$point\ name\ (dimensionless)\f$ is the name of the compass point.
