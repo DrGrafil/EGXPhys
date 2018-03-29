@@ -69,7 +69,16 @@ namespace EGXMath
 	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*	@see DecimalDegreeToRadian() for alias.
 	*	@see DegreeToMilliradian() for conversion to milliradians.
-	*	@see IntegerDegreeToRadian() for result as integer.
+	*	@see DegreeToRadian() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToRadian() for conversion from decimal degrees.
+	*	@see RadianToRadian() for conversion from radians.
+	*	@see IntegerDegreeToRadian() for conversion from integer degrees.
+	*	@see BinaryDegreeToRadian() for conversion from binary degrees.
+	*	@see TurnToRadian() for conversion from turns.
+	*	@see GradianToRadian() for conversion from gradians.
+	*	@see HoursMinutesSecondsToRadian() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToRadian() for conversion from degrees minutes seconds.
+	*	@see CompassWindToRadian() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToRadian(const T& decimalDegree);
@@ -83,7 +92,16 @@ namespace EGXMath
 	*   @return \f$\alpha_{mrad}\ (mrad)\f$ is the angle in milliradians.
 	*	@see DecimalDegreeToMilliradian() for alias.
 	*	@see DegreeToRadian() for conversion to radians.
+	*	@see DegreeToMilliradian() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToMilliradian() for conversion from decimal degrees.
 	*	@see RadianToMilliradian() for conversion from radians.
+	*	@see IntegerDegreeToMilliradian() for conversion from integer degrees.
+	*	@see BinaryDegreeToMilliradian() for conversion from binary degrees.
+	*	@see TurnToMilliradian() for conversion from turns.
+	*	@see GradianToMilliradian() for conversion from gradians.
+	*	@see HoursMinutesSecondsToMilliradian() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToMilliradian() for conversion from degrees minutes seconds.
+	*	@see CompassWindToMilliradian() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToMilliradian(const T& decimalDegree);
@@ -95,7 +113,6 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Turn_(geometry)
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
 	*   @return \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
-	*	@see RadianToTurn() for conversion to radians.
 	*	@see DegreeToTurn() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToTurn() for conversion from decimal degrees.
 	*	@see RadianToTurn() for conversion from radians.
@@ -121,7 +138,16 @@ namespace EGXMath
 	*	@see DegreeToArcdegree() for alias.
 	*	@see DecimalDegreeToDecimalDegree() for alias.
 	*	@see DecimalDegreeToArcdegree() for alias.
+	*	@see DegreeToDegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToDegree() for conversion from decimal degrees.
 	*	@see RadianToDegree() for conversion from radians.
+	*	@see IntegerDegreeToDegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToDegree() for conversion from binary degrees.
+	*	@see TurnToDegree() for conversion from turns.
+	*	@see GradianToDegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToDegree(const T& decimalDegree);
@@ -138,7 +164,16 @@ namespace EGXMath
 	*	@see DecimalDegreeToDegree() for alias.
 	*	@see DecimalDegreeToArcdegree() for alias.
 	*	@see DecimalDegreeToDecimalDegree() for alias.
-	*	@see RadianToDegree() for conversion from radians.
+	*	@see DegreeToDecimalDegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToDecimalDegree() for conversion from decimal degrees.
+	*	@see RadianToDecimalDegree() for conversion from radians.
+	*	@see IntegerDegreeToDecimalDegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToDecimalDegree() for conversion from binary degrees.
+	*	@see TurnToDecimalDegree() for conversion from turns.
+	*	@see GradianToDecimalDegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDecimalDegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDecimalDegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDecimalDegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToDecimalDegree(const T& decimalDegree);
@@ -155,20 +190,38 @@ namespace EGXMath
 	*	@see DecimalDegreeToDecimalDegree() for alias.
 	*	@see DecimalDegreeToDegree() for alias.
 	*	@see DecimalDegreeToArcdegree() for alias.
-	*	@see RadianToDegree() for conversion from radians.
+	*	@see DegreeToArcdegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToArcdegree() for conversion from decimal degrees.
+	*	@see RadianToArcdegree() for conversion from radians.
+	*	@see IntegerDegreeToArcdegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToArcdegree() for conversion from binary degrees.
+	*	@see TurnToArcdegree() for conversion from turns.
+	*	@see GradianToArcdegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToArcdegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToArcdegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToArcdegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToArcdegree(const T& decimalDegree);
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to integer degree. This rounds to the nearest integer.
-	*		\f[\alpha_{deg int}=trunc(\alpha_{deg})\f]
+	*		\f[\alpha_{deg int}=round(\alpha_{deg})\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
 	*   @return \f$\alpha_{deg int}\ (deg int)\f$ is the angle in integer degree.
 	*	@see DecimalDegreeIntegerDegree() for alias.
+	*	@see DegreeToIntegerDegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToIntegerDegree() for conversion from decimal degrees.
 	*	@see RadianToIntegerDegree() for conversion from radians.
+	*	@see IntegerDegreeToIntegerDegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToIntegerDegree() for conversion from binary degrees.
+	*	@see TurnToIntegerDegree() for conversion from turns.
+	*	@see GradianToIntegerDegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToIntegerDegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToIntegerDegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToIntegerDegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToIntegerDegree(const T& decimalDegree);
@@ -204,7 +257,16 @@ namespace EGXMath
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
 	*   @return \f$\alpha_{arcmin}\ (arcmin)\f$ is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*	@see DecimalDegreeToArcminute() for alias.
+	*	@see DegreeToArcminute() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToArcminute() for conversion from decimal degrees.
 	*	@see RadianToArcminute() for conversion from radians.
+	*	@see IntegerDegreeToArcminute() for conversion from integer degrees.
+	*	@see BinaryDegreeToArcminute() for conversion from binary degrees.
+	*	@see TurnToArcminute() for conversion from turns.
+	*	@see GradianToArcminute() for conversion from gradians.
+	*	@see HoursMinutesSecondsToArcminute() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToArcminute() for conversion from degrees minutes seconds.
+	*	@see CompassWindToArcminute() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToArcminute(const T& decimalDegree);
@@ -217,7 +279,16 @@ namespace EGXMath
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
 	*   @return \f$\alpha_{arcsec}\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
 	*	@see DecimalDegreeToArcsecond() for alias.
+	*	@see DegreeToArcsecond() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToArcsecond() for conversion from decimal degrees.
 	*	@see RadianToArcsecond() for conversion from radians.
+	*	@see IntegerDegreeToArcsecond() for conversion from integer degrees.
+	*	@see BinaryDegreeToArcsecond() for conversion from binary degrees.
+	*	@see TurnToArcsecond() for conversion from turns.
+	*	@see GradianToArcsecond() for conversion from gradians.
+	*	@see HoursMinutesSecondsToArcsecond() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToArcsecond() for conversion from degrees minutes seconds.
+	*	@see CompassWindToArcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToArcsecond(const T& decimalDegree);
@@ -230,7 +301,16 @@ namespace EGXMath
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
 	*   @return \f$\alpha_{mas}\ (mas)\f$ is the angle in milliarcseconds.
 	*	@see DecimalDegreeToMilliarcsecond() for alias.
+	*	@see DegreeToMilliarcsecond() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToMilliarcsecond() for conversion from decimal degrees.
 	*	@see RadianToMilliarcsecond() for conversion from radians.
+	*	@see IntegerDegreeToMilliarcsecond() for conversion from integer degrees.
+	*	@see BinaryDegreeToMilliarcsecond() for conversion from binary degrees.
+	*	@see TurnToMilliarcsecond() for conversion from turns.
+	*	@see GradianToMilliarcsecond() for conversion from gradians.
+	*	@see HoursMinutesSecondsToMilliarcsecond() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToMilliarcsecond() for conversion from degrees minutes seconds.
+	*	@see CompassWindToMilliarcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToMilliarcsecond(const T& decimalDegree);
@@ -244,7 +324,16 @@ namespace EGXMath
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degrees.
 	*   @return \f$\alpha_{\mu as}\ (\mu as)\f$ is the angle in microarcseconds.
 	*	@see DecimalDegreeToMicroarcsecond() for alias.
+	*	@see DegreeToMicroarcsecond() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToMicroarcsecond() for conversion from decimal degrees.
 	*	@see RadianToMicroarcsecond() for conversion from radians.
+	*	@see IntegerDegreeToMicroarcsecond() for conversion from integer degrees.
+	*	@see BinaryDegreeToMicroarcsecond() for conversion from binary degrees.
+	*	@see TurnToMicroarcsecond() for conversion from turns.
+	*	@see GradianToMicroarcsecond() for conversion from gradians.
+	*	@see HoursMinutesSecondsToMicroarcsecond() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToMicroarcsecond() for conversion from degrees minutes seconds.
+	*	@see CompassWindToMicroarcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToMicroarcsecond(const T& decimalDegree);
@@ -262,11 +351,19 @@ namespace EGXMath
 	*	@param integerDegree \f$degree\ (deg int)\f$ is the angle in integer degrees.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
-	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees.
-	*	@see RadianToDegreesMinutesSeconds() for conversion from radians.
 	*	@see DegreeToDMS() for alias.
 	*	@see DecimalDegreeToDegreesMinutesSeconds() for alias.
 	*	@see DecimalDegreeToDMS() for alias.
+	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees and full explination.
+	*	@see DecimalDegreeToDegreesMinutesSeconds() for conversion from decimal degrees.
+	*	@see RadianToDegreesMinutesSeconds() for conversion from radians.
+	*	@see IntegerDegreeToDegreesMinutesSeconds() for conversion from integer degrees.
+	*	@see BinaryDegreeToDegreesMinutesSeconds() for conversion from binary degrees.
+	*	@see TurnToDegreesMinutesSeconds() for conversion from turns.
+	*	@see GradianToDegreesMinutesSeconds() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDegreesMinutesSeconds() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDegreesMinutesSecondsS() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDegreesMinutesSeconds() for conversion from compass wind.
 	*/
 	template<typename T>
 	void DegreeToDegreesMinutesSeconds(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond);
@@ -285,6 +382,16 @@ namespace EGXMath
 	*	@see DegreeToDegreesMinutesSeconds() for alias.
 	*	@see DecimalDegreeToDegreesMinutesSeconds() for alias.
 	*	@see DecimalDegreeToDMS() for alias.
+	*	@see DegreeToDMS() for conversion from (decimal) degrees and full explination.
+	*	@see DecimalDegreeToDMS() for conversion from decimal degrees.
+	*	@see RadianToDMS() for conversion from radians.
+	*	@see IntegerDegreeToDMS() for conversion from integer degrees.
+	*	@see BinaryDegreeToDMS() for conversion from binary degrees.
+	*	@see TurnToDMS() for conversion from turns.
+	*	@see GradianToDMS() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDMS() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDMS() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDMS() for conversion from compass wind.
 	*/
 	template<typename T>
 	void DegreeToDMS(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond);
@@ -304,7 +411,16 @@ namespace EGXMath
 	*	@see DegreeToHMS() for alias.
 	*	@see DecimalDegreeToHoursMinutesSeconds() for alias.
 	*	@see DecimalDegreeToHMS() for alias.
-	*	@see RadianToDegreesMinutesSeconds() for conversion from radians.
+	*	@see DegreeToHoursMinutesSeconds() for conversion from (decimal) degrees and full explination.
+	*	@see DecimalDegreeToHoursMinutesSeconds() for conversion from decimal degrees.
+	*	@see RadianToHoursMinutesSeconds() for conversion from radians.
+	*	@see IntegerDegreeToHoursMinutesSeconds() for conversion from integer degrees.
+	*	@see BinaryDegreeToHoursMinutesSeconds() for conversion from binary degrees.
+	*	@see TurnToHoursMinutesSeconds() for conversion from turns.
+	*	@see GradianToHoursMinutesSeconds() for conversion from gradians.
+	*	@see HoursMinutesSecondsToHoursMinutesSeconds() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToHoursMinutesSeconds() for conversion from degrees minutes seconds.
+	*	@see CompassWindToHoursMinutesSeconds() for conversion from compass wind.
 	*/
 	template<typename T>
 	void DegreeToHoursMinutesSeconds(const T& decimalDegree, T& hour, T& minute, T& second);
@@ -324,7 +440,16 @@ namespace EGXMath
 	*	@see DegreeToHoursMinutesSeconds() for alias.
 	*	@see DecimalDegreeToHoursMinutesSeconds() for alias.
 	*	@see DecimalDegreeToHMS() for alias.
+	*	@see DegreeToHMS() for conversion from (decimal) degrees and full explination.
+	*	@see DecimalDegreeToHMS() for conversion from decimal degrees.
 	*	@see RadianToHMS() for conversion from radians.
+	*	@see IntegerDegreeToHMS() for conversion from integer degrees.
+	*	@see BinaryDegreeToHMS() for conversion from binary degrees.
+	*	@see TurnToHMS() for conversion from turns.
+	*	@see GradianToHMS() for conversion from gradians.
+	*	@see HoursMinutesSecondsToHMS() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToHMS() for conversion from degrees minutes seconds.
+	*	@see CompassWindToHMS() for conversion from compass wind.
 	*/
 	template<typename T>
 	void DegreeToHMS(const T& decimalDegree, T& hour, T& minute, T& second);
@@ -339,7 +464,16 @@ namespace EGXMath
 	*	@see DegreeToGon() for alias.
 	*	@see DecimalDegreeToGradian() for alias.
 	*	@see DecimalDegreeToGon() for alias.
+	*	@see DegreeToGradian() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToGradian() for conversion from decimal degrees.
 	*	@see RadianToGradian() for conversion from radians.
+	*	@see IntegerDegreeToGradian() for conversion from integer degrees.
+	*	@see BinaryDegreeToGradian() for conversion from binary degrees.
+	*	@see TurnToGradian() for conversion from turns.
+	*	@see GradianToGradian() for conversion from gradians.
+	*	@see HoursMinutesSecondsToGradian() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToGradian() for conversion from degrees minutes seconds.
+	*	@see CompassWindToGradian() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToGradian(const T& decimalDegree);
@@ -354,7 +488,16 @@ namespace EGXMath
 	*	@see DegreeToGradian() for alias.
 	*	@see DecimalDegreeToGradian() for alias.
 	*	@see DecimalDegreeToGon() for alias.
+	*	@see DegreeToGon() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToGon() for conversion from decimal degrees.
 	*	@see RadianToGon() for conversion from radians.
+	*	@see IntegerDegreeToGon() for conversion from integer degrees.
+	*	@see BinaryDegreeToGon() for conversion from binary degrees.
+	*	@see TurnToGon() for conversion from turns.
+	*	@see GradianToGon() for conversion from gradians.
+	*	@see HoursMinutesSecondsToGon() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToGon() for conversion from degrees minutes seconds.
+	*	@see CompassWindToGon() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DegreeToGon(const T& decimalDegree);
@@ -406,7 +549,16 @@ namespace EGXMath
 	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*	@see DecimalDegreeToRadian() for alias.
 	*	@see DegreeToMilliradian() for conversion to milliradians.
-	*	@see IntegerDegreeToRadian() for result as integer.
+	*	@see DegreeToRadian() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToRadian() for conversion from decimal degrees.
+	*	@see RadianToRadian() for conversion from radians.
+	*	@see IntegerDegreeToRadian() for conversion from integer degrees.
+	*	@see BinaryDegreeToRadian() for conversion from binary degrees.
+	*	@see TurnToRadian() for conversion from turns.
+	*	@see GradianToRadian() for conversion from gradians.
+	*	@see HoursMinutesSecondsToRadian() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToRadian() for conversion from degrees minutes seconds.
+	*	@see CompassWindToRadian() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DecimalDegreeToRadian(const T& decimalDegree);
@@ -420,7 +572,16 @@ namespace EGXMath
 	*   @return \f$\alpha_{mrad}\ (mrad)\f$ is the angle in milliradians.
 	*	@see DecimalDegreeToMilliradian() for alias.
 	*	@see DegreeToRadian() for conversion to radians.
+	*	@see DegreeToMilliradian() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToMilliradian() for conversion from decimal degrees.
 	*	@see RadianToMilliradian() for conversion from radians.
+	*	@see IntegerDegreeToMilliradian() for conversion from integer degrees.
+	*	@see BinaryDegreeToMilliradian() for conversion from binary degrees.
+	*	@see TurnToMilliradian() for conversion from turns.
+	*	@see GradianToMilliradian() for conversion from gradians.
+	*	@see HoursMinutesSecondsToMilliradian() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToMilliradian() for conversion from degrees minutes seconds.
+	*	@see CompassWindToMilliradian() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DecimalDegreeToMilliradian(const T& decimalDegree);
@@ -432,7 +593,6 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Turn_(geometry)
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degree.
 	*   @return \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
-	*	@see RadianToTurn() for conversion to radians.
 	*	@see DegreeToTurn() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToTurn() for conversion from decimal degrees.
 	*	@see RadianToTurn() for conversion from radians.
@@ -458,7 +618,16 @@ namespace EGXMath
 	*	@see DegreeToArcdegree() for alias.
 	*	@see DecimalDegreeToDecimalDegree() for alias.
 	*	@see DecimalDegreeToArcdegree() for alias.
+	*	@see DegreeToDegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToDegree() for conversion from decimal degrees.
 	*	@see RadianToDegree() for conversion from radians.
+	*	@see IntegerDegreeToDegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToDegree() for conversion from binary degrees.
+	*	@see TurnToDegree() for conversion from turns.
+	*	@see GradianToDegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DecimalDegreeToDegree(const T& decimalDegree);
@@ -475,7 +644,16 @@ namespace EGXMath
 	*	@see DecimalDegreeToDegree() for alias.
 	*	@see DecimalDegreeToArcdegree() for alias.
 	*	@see DecimalDegreeToDecimalDegree() for alias.
-	*	@see RadianToDegree() for conversion from radians.
+	*	@see DegreeToDecimalDegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToDecimalDegree() for conversion from decimal degrees.
+	*	@see RadianToDecimalDegree() for conversion from radians.
+	*	@see IntegerDegreeToDecimalDegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToDecimalDegree() for conversion from binary degrees.
+	*	@see TurnToDecimalDegree() for conversion from turns.
+	*	@see GradianToDecimalDegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDecimalDegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDecimalDegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDecimalDegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DecimalDegreeToDecimalDegree(const T& decimalDegree);
@@ -492,33 +670,39 @@ namespace EGXMath
 	*	@see DecimalDegreeToDecimalDegree() for alias.
 	*	@see DecimalDegreeToDegree() for alias.
 	*	@see DecimalDegreeToArcdegree() for alias.
-	*	@see RadianToDegree() for conversion from radians.
+	*	@see DegreeToArcdegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToArcdegree() for conversion from decimal degrees.
+	*	@see RadianToArcdegree() for conversion from radians.
+	*	@see IntegerDegreeToArcdegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToArcdegree() for conversion from binary degrees.
+	*	@see TurnToArcdegree() for conversion from turns.
+	*	@see GradianToArcdegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToArcdegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToArcdegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToArcdegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DecimalDegreeToArcdegree(const T& decimalDegree);
 
-	/**
-	*   @brief Converts an angle in decimal degree to arcminute. Note that arcminutes are not equal to minutes.
-	*		\f[\alpha_{arcmin}= 60 * \alpha_{deg}\f]
-	*
-	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
-	*   @return \f$\alpha_{arcmin}\ (arcmin)\f$ is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes.
-	*	@see DecimalDegreeToArcminute() for alias.
-	*	@see RadianToArcminute() for conversion from radians.
-	*/
-	template<typename T>
-	T DecimalDegreeToArcminute(const T& decimalDegree);
 
 	/**
 	*   @brief Converts an angle in decimal degree to integer degree. This rounds to the nearest integer.
-	*		\f[\alpha_{deg int}=trunc(\alpha_{deg})\f]
+	*		\f[\alpha_{deg int}=round(\alpha_{deg})\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degree.
 	*   @return \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degree.
-	*	@see DecimalDegreeIntegerDegree() for alias.
+	*	@see DegreeIntegerDegree() for alias.
+	*	@see DegreeToIntegerDegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToIntegerDegree() for conversion from decimal degrees.
 	*	@see RadianToIntegerDegree() for conversion from radians.
+	*	@see IntegerDegreeToIntegerDegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToIntegerDegree() for conversion from binary degrees.
+	*	@see TurnToIntegerDegree() for conversion from turns.
+	*	@see GradianToIntegerDegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToIntegerDegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToIntegerDegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToIntegerDegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DecimalDegreeToIntegerDegree(const T& decimalDegree);
@@ -547,14 +731,45 @@ namespace EGXMath
 	T DecimalDegreeToBinaryDegree(const T& decimalDegree, const T2& bits = 8);
 
 	/**
+	*   @brief Converts an angle in decimal degree to arcminute. Note that arcminutes are not equal to minutes.
+	*		\f[\alpha_{arcmin}= 60 * \alpha_{deg}\f]
+	*
+	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
+	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
+	*   @return \f$\alpha_{arcmin}\ (arcmin)\f$ is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes.
+	*	@see DegreeToArcminute() for alias.
+	*	@see DegreeToArcminute() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToArcminute() for conversion from decimal degrees.
+	*	@see RadianToArcminute() for conversion from radians.
+	*	@see IntegerDegreeToArcminute() for conversion from integer degrees.
+	*	@see BinaryDegreeToArcminute() for conversion from binary degrees.
+	*	@see TurnToArcminute() for conversion from turns.
+	*	@see GradianToArcminute() for conversion from gradians.
+	*	@see HoursMinutesSecondsToArcminute() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToArcminute() for conversion from degrees minutes seconds.
+	*	@see CompassWindToArcminute() for conversion from compass wind.
+	*/
+	template<typename T>
+	T DecimalDegreeToArcminute(const T& decimalDegree);
+
+	/**
 	*   @brief Converts an angle in decimal degree to arcsecond. Note that arcsecond are not equal to seconds.
 	*		\f[\alpha_{arcsec}=60 * 60 * \alpha_{deg}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
 	*   @return \f$\alpha_{arcsec}\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
-	*	@see DecimalDegreeToArcsecond() for alias.
+	*	@see DegreeToArcsecond() for alias.
+	*	@see DegreeToArcsecond() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToArcsecond() for conversion from decimal degrees.
 	*	@see RadianToArcsecond() for conversion from radians.
+	*	@see IntegerDegreeToArcsecond() for conversion from integer degrees.
+	*	@see BinaryDegreeToArcsecond() for conversion from binary degrees.
+	*	@see TurnToArcsecond() for conversion from turns.
+	*	@see GradianToArcsecond() for conversion from gradians.
+	*	@see HoursMinutesSecondsToArcsecond() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToArcsecond() for conversion from degrees minutes seconds.
+	*	@see CompassWindToArcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DecimalDegreeToArcsecond(const T& decimalDegree);
@@ -567,7 +782,16 @@ namespace EGXMath
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
 	*   @return \f$\alpha_{mas}\ (mas)\f$ is the angle in milliarcseconds.
 	*	@see DecimalDegreeToMilliarcsecond() for alias.
+	*	@see DegreeToMilliarcsecond() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToMilliarcsecond() for conversion from decimal degrees.
 	*	@see RadianToMilliarcsecond() for conversion from radians.
+	*	@see IntegerDegreeToMilliarcsecond() for conversion from integer degrees.
+	*	@see BinaryDegreeToMilliarcsecond() for conversion from binary degrees.
+	*	@see TurnToMilliarcsecond() for conversion from turns.
+	*	@see GradianToMilliarcsecond() for conversion from gradians.
+	*	@see HoursMinutesSecondsToMilliarcsecond() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToMilliarcsecond() for conversion from degrees minutes seconds.
+	*	@see CompassWindToMilliarcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DecimalDegreeToMilliarcsecond(const T& decimalDegree);
@@ -581,7 +805,16 @@ namespace EGXMath
 	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
 	*   @return \f$\alpha_{\mu as}\ (\mu as)\f$ is the angle in microarcseconds.
 	*	@see DecimalDegreeToMicroarcsecond() for alias.
+	*	@see DegreeToMicroarcsecond() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToMicroarcsecond() for conversion from decimal degrees.
 	*	@see RadianToMicroarcsecond() for conversion from radians.
+	*	@see IntegerDegreeToMicroarcsecond() for conversion from integer degrees.
+	*	@see BinaryDegreeToMicroarcsecond() for conversion from binary degrees.
+	*	@see TurnToMicroarcsecond() for conversion from turns.
+	*	@see GradianToMicroarcsecond() for conversion from gradians.
+	*	@see HoursMinutesSecondsToMicroarcsecond() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToMicroarcsecond() for conversion from degrees minutes seconds.
+	*	@see CompassWindToMicroarcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DecimalDegreeToMicroarcsecond(const T& decimalDegree);
@@ -599,11 +832,19 @@ namespace EGXMath
 	*	@param integerDegree \f$degree\ (deg\ int)\f$ is the angle in integer degrees.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
-	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees.
-	*	@see RadianToDegreesMinutesSeconds() for conversion from radians.
 	*	@see DegreeToDMS() for alias.
 	*	@see DecimalDegreeToDegreesMinutesSeconds() for alias.
 	*	@see DecimalDegreeToDMS() for alias.
+	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees and full explination.
+	*	@see DecimalDegreeToDegreesMinutesSeconds() for conversion from decimal degrees.
+	*	@see RadianToDegreesMinutesSeconds() for conversion from radians.
+	*	@see IntegerDegreeToDegreesMinutesSeconds() for conversion from integer degrees.
+	*	@see BinaryDegreeToDegreesMinutesSeconds() for conversion from binary degrees.
+	*	@see TurnToDegreesMinutesSeconds() for conversion from turns.
+	*	@see GradianToDegreesMinutesSeconds() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDegreesMinutesSeconds() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDegreesMinutesSecondsS() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDegreesMinutesSeconds() for conversion from compass wind.
 	*/
 	template<typename T>
 	void DecimalDegreeToDegreesMinutesSeconds(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond);
@@ -622,6 +863,16 @@ namespace EGXMath
 	*	@see DegreeToDegreesMinutesSeconds() for alias.
 	*	@see DecimalDegreeToDegreesMinutesSeconds() for alias.
 	*	@see DecimalDegreeToDMS() for alias.
+	*	@see DegreeToDMS() for conversion from (decimal) degrees and full explination.
+	*	@see DecimalDegreeToDMS() for conversion from decimal degrees.
+	*	@see RadianToDMS() for conversion from radians.
+	*	@see IntegerDegreeToDMS() for conversion from integer degrees.
+	*	@see BinaryDegreeToDMS() for conversion from binary degrees.
+	*	@see TurnToDMS() for conversion from turns.
+	*	@see GradianToDMS() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDMS() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDMS() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDMS() for conversion from compass wind.
 	*/
 	template<typename T>
 	void DecimalDegreeToDMS(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond);
@@ -641,7 +892,16 @@ namespace EGXMath
 	*	@see DegreeToHMS() for alias.
 	*	@see DecimalDegreeToHoursMinutesSeconds() for alias.
 	*	@see DecimalDegreeToHMS() for alias.
-	*	@see RadianToDegreesMinutesSeconds() for conversion from radians.
+	*	@see DegreeToHoursMinutesSeconds() for conversion from (decimal) degrees and full explination.
+	*	@see DecimalDegreeToHoursMinutesSeconds() for conversion from decimal degrees.
+	*	@see RadianToHoursMinutesSeconds() for conversion from radians.
+	*	@see IntegerDegreeToHoursMinutesSeconds() for conversion from integer degrees.
+	*	@see BinaryDegreeToHoursMinutesSeconds() for conversion from binary degrees.
+	*	@see TurnToHoursMinutesSeconds() for conversion from turns.
+	*	@see GradianToHoursMinutesSeconds() for conversion from gradians.
+	*	@see HoursMinutesSecondsToHoursMinutesSeconds() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToHoursMinutesSeconds() for conversion from degrees minutes seconds.
+	*	@see CompassWindToHoursMinutesSeconds() for conversion from compass wind.
 	*/
 	template<typename T>
 	void DecimalDegreeToHoursMinutesSeconds(const T& decimalDegree, T& hour, T& minute, T& second);
@@ -661,7 +921,16 @@ namespace EGXMath
 	*	@see DegreeToHoursMinutesSeconds() for alias.
 	*	@see DecimalDegreeToHoursMinutesSeconds() for alias.
 	*	@see DecimalDegreeToHMS() for alias.
+	*	@see DegreeToHMS() for conversion from (decimal) degrees and full explination.
+	*	@see DecimalDegreeToHMS() for conversion from decimal degrees.
 	*	@see RadianToHMS() for conversion from radians.
+	*	@see IntegerDegreeToHMS() for conversion from integer degrees.
+	*	@see BinaryDegreeToHMS() for conversion from binary degrees.
+	*	@see TurnToHMS() for conversion from turns.
+	*	@see GradianToHMS() for conversion from gradians.
+	*	@see HoursMinutesSecondsToHMS() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToHMS() for conversion from degrees minutes seconds.
+	*	@see CompassWindToHMS() for conversion from compass wind.
 	*/
 	template<typename T>
 	void DecimalDegreeToHMS(const T& decimalDegree, T& hour, T& minute, T& second);
@@ -676,7 +945,16 @@ namespace EGXMath
 	*	@see DegreeToGon() for alias.
 	*	@see DecimalDegreeToGradian() for alias.
 	*	@see DecimalDegreeToGon() for alias.
+	*	@see DegreeToGradian() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToGradian() for conversion from decimal degrees.
 	*	@see RadianToGradian() for conversion from radians.
+	*	@see IntegerDegreeToGradian() for conversion from integer degrees.
+	*	@see BinaryDegreeToGradian() for conversion from binary degrees.
+	*	@see TurnToGradian() for conversion from turns.
+	*	@see GradianToGradian() for conversion from gradians.
+	*	@see HoursMinutesSecondsToGradian() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToGradian() for conversion from degrees minutes seconds.
+	*	@see CompassWindToGradian() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DecimalDegreeToGradian(const T& decimalDegree);
@@ -691,7 +969,16 @@ namespace EGXMath
 	*	@see DegreeToGradian() for alias.
 	*	@see DecimalDegreeToGradian() for alias.
 	*	@see DecimalDegreeToGon() for alias.
+		*	@see DegreeToGon() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToGon() for conversion from decimal degrees.
 	*	@see RadianToGon() for conversion from radians.
+	*	@see IntegerDegreeToGon() for conversion from integer degrees.
+	*	@see BinaryDegreeToGon() for conversion from binary degrees.
+	*	@see TurnToGon() for conversion from turns.
+	*	@see GradianToGon() for conversion from gradians.
+	*	@see HoursMinutesSecondsToGon() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToGon() for conversion from degrees minutes seconds.
+	*	@see CompassWindToGon() for conversion from compass wind.
 	*/
 	template<typename T>
 	T DecimalDegreeToGon(const T& decimalDegree);
@@ -745,9 +1032,17 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Radian
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@see DecimalDegreeToRadian() for alias.
 	*	@see DegreeToMilliradian() for conversion to milliradians.
-	*	@see IntegerDegreeToRadian() for result as integer.
+	*	@see DegreeToRadian() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToRadian() for conversion from decimal degrees.
+	*	@see RadianToRadian() for conversion from radians.
+	*	@see IntegerDegreeToRadian() for conversion from integer degrees.
+	*	@see BinaryDegreeToRadian() for conversion from binary degrees.
+	*	@see TurnToRadian() for conversion from turns.
+	*	@see GradianToRadian() for conversion from gradians.
+	*	@see HoursMinutesSecondsToRadian() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToRadian() for conversion from degrees minutes seconds.
+	*	@see CompassWindToRadian() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToRadian(const T& integerDegree);
@@ -759,9 +1054,17 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Milliradian
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{mrad}\ (mrad)\f$ is the angle in milliradians.
-	*	@see DecimalDegreeToMilliradian() for alias.
 	*	@see DegreeToRadian() for conversion to radians.
+	*	@see DegreeToMilliradian() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToMilliradian() for conversion from decimal degrees.
 	*	@see RadianToMilliradian() for conversion from radians.
+	*	@see IntegerDegreeToMilliradian() for conversion from integer degrees.
+	*	@see BinaryDegreeToMilliradian() for conversion from binary degrees.
+	*	@see TurnToMilliradian() for conversion from turns.
+	*	@see GradianToMilliradian() for conversion from gradians.
+	*	@see HoursMinutesSecondsToMilliradian() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToMilliradian() for conversion from degrees minutes seconds.
+	*	@see CompassWindToMilliradian() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToMilliradian(const T& integerDegree);
@@ -773,7 +1076,6 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Turn_(geometry)
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
-	*	@see RadianToTurn() for conversion to radians.
 	*	@see DegreeToTurn() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToTurn() for conversion from decimal degrees.
 	*	@see RadianToTurn() for conversion from radians.
@@ -795,11 +1097,18 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degree.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) degree.
-	*	@see DegreeToDecimalDegree() for alias.
-	*	@see DegreeToArcdegree() for alias.
-	*	@see DecimalDegreeToDecimalDegree() for alias.
-	*	@see DecimalDegreeToArcdegree() for alias.
+	*	@see IntegerDegreeToDecimalDegree() for alias.
+	*	@see IntegerDegreeToArcdegree() for alias.
+	*	@see DegreeToDegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToDegree() for conversion from decimal degrees.
 	*	@see RadianToDegree() for conversion from radians.
+	*	@see IntegerDegreeToDegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToDegree() for conversion from binary degrees.
+	*	@see TurnToDegree() for conversion from turns.
+	*	@see GradianToDegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToDegree(const T& integerDegree);
@@ -811,12 +1120,18 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degree.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degree.
-	*	@see DegreeToDegree() for alias.
-	*	@see DegreeToArcdegree() for alias.
-	*	@see DecimalDegreeToDegree() for alias.
-	*	@see DecimalDegreeToArcdegree() for alias.
-	*	@see DecimalDegreeToDecimalDegree() for alias.
-	*	@see RadianToDegree() for conversion from radians.
+	*	@see IntegerDegreeToDegree() for alias.
+	*	@see IntegerDegreeToArcdegree() for alias.
+	*	@see DegreeToDecimalDegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToDecimalDegree() for conversion from decimal degrees.
+	*	@see RadianToDecimalDegree() for conversion from radians.
+	*	@see IntegerDegreeToDecimalDegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToDecimalDegree() for conversion from binary degrees.
+	*	@see TurnToDecimalDegree() for conversion from turns.
+	*	@see GradianToDecimalDegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDecimalDegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDecimalDegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDecimalDegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToDecimalDegree(const T& integerDegree);
@@ -828,25 +1143,40 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{deg}\ (deg)\f$ is the angle in (decimal) arc degree.
-	*	@see DegreeToDecimalDegree() for alias.
-	*	@see DegreeToDegree() for alias.
-	*	@see DecimalDegreeToDecimalDegree() for alias.
-	*	@see DecimalDegreeToDegree() for alias.
-	*	@see DecimalDegreeToArcdegree() for alias.
-	*	@see RadianToDegree() for conversion from radians.
+	*	@see IntegerDegreeToDegree() for alias.
+	*	@see IntegerDegreeToDecimalDegree() for alias.
+	*	@see DegreeToArcdegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToArcdegree() for conversion from decimal degrees.
+	*	@see RadianToArcdegree() for conversion from radians.
+	*	@see IntegerDegreeToArcdegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToArcdegree() for conversion from binary degrees.
+	*	@see TurnToArcdegree() for conversion from turns.
+	*	@see GradianToArcdegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToArcdegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToArcdegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToArcdegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToArcdegree(const T& integerDegree);
 
 	/**
 	*   @brief Converts an angle in integer degree to integer degree. This rounds to the nearest integer.
-	*		\f[\alpha_{deg}=trunc(\alpha_{deg int})\f]
+	*		\f[\alpha_{deg\ int}=\alpha_{deg int}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Degree_(angle) and https://en.wikipedia.org/wiki/Decimal_degrees
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degree.
 	*   @return \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degree.
 	*	@see DecimalDegreeIntegerDegree() for alias.
+	*	@see DegreeToIntegerDegree() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToIntegerDegree() for conversion from decimal degrees.
 	*	@see RadianToIntegerDegree() for conversion from radians.
+	*	@see IntegerDegreeToIntegerDegree() for conversion from integer degrees.
+	*	@see BinaryDegreeToIntegerDegree() for conversion from binary degrees.
+	*	@see TurnToIntegerDegree() for conversion from turns.
+	*	@see GradianToIntegerDegree() for conversion from gradians.
+	*	@see HoursMinutesSecondsToIntegerDegree() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToIntegerDegree() for conversion from degrees minutes seconds.
+	*	@see CompassWindToIntegerDegree() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToIntegerDegree(const T& integerDegree);
@@ -881,8 +1211,16 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{arcmin}\ (arcmin)\f$ is the angle in arcminutes. Note that this is 1/60 of an degree. It is not equal to minutes.
-	*	@see DecimalDegreeToArcminute() for alias.
+	*	@see DegreeToArcminute() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToArcminute() for conversion from decimal degrees.
 	*	@see RadianToArcminute() for conversion from radians.
+	*	@see IntegerDegreeToArcminute() for conversion from integer degrees.
+	*	@see BinaryDegreeToArcminute() for conversion from binary degrees.
+	*	@see TurnToArcminute() for conversion from turns.
+	*	@see GradianToArcminute() for conversion from gradians.
+	*	@see HoursMinutesSecondsToArcminute() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToArcminute() for conversion from degrees minutes seconds.
+	*	@see CompassWindToArcminute() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToArcminute(const T& integerDegree);
@@ -894,8 +1232,16 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{arcsec}\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
-	*	@see DecimalDegreeToArcsecond() for alias.
+	*	@see DegreeToArcsecond() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToArcsecond() for conversion from decimal degrees.
 	*	@see RadianToArcsecond() for conversion from radians.
+	*	@see IntegerDegreeToArcsecond() for conversion from integer degrees.
+	*	@see BinaryDegreeToArcsecond() for conversion from binary degrees.
+	*	@see TurnToArcsecond() for conversion from turns.
+	*	@see GradianToArcsecond() for conversion from gradians.
+	*	@see HoursMinutesSecondsToArcsecond() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToArcsecond() for conversion from degrees minutes seconds.
+	*	@see CompassWindToArcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToArcsecond(const T& integerDegree);
@@ -907,8 +1253,16 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{mas}\ (mas)\f$ is the angle in milliarcseconds.
-	*	@see DecimalDegreeToMilliarcsecond() for alias.
+	*	@see DegreeToMilliarcsecond() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToMilliarcsecond() for conversion from decimal degrees.
 	*	@see RadianToMilliarcsecond() for conversion from radians.
+	*	@see IntegerDegreeToMilliarcsecond() for conversion from integer degrees.
+	*	@see BinaryDegreeToMilliarcsecond() for conversion from binary degrees.
+	*	@see TurnToMilliarcsecond() for conversion from turns.
+	*	@see GradianToMilliarcsecond() for conversion from gradians.
+	*	@see HoursMinutesSecondsToMilliarcsecond() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToMilliarcsecond() for conversion from degrees minutes seconds.
+	*	@see CompassWindToMilliarcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToMilliarcsecond(const T& integerDegree);
@@ -921,8 +1275,16 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{\mu as}\ (\mu as)\f$ is the angle in microarcseconds.
-	*	@see DecimalDegreeToMicroarcsecond() for alias.
+	*	@see DegreeToMicroarcsecond() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToMicroarcsecond() for conversion from decimal degrees.
 	*	@see RadianToMicroarcsecond() for conversion from radians.
+	*	@see IntegerDegreeToMicroarcsecond() for conversion from integer degrees.
+	*	@see BinaryDegreeToMicroarcsecond() for conversion from binary degrees.
+	*	@see TurnToMicroarcsecond() for conversion from turns.
+	*	@see GradianToMicroarcsecond() for conversion from gradians.
+	*	@see HoursMinutesSecondsToMicroarcsecond() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToMicroarcsecond() for conversion from degrees minutes seconds.
+	*	@see CompassWindToMicroarcsecond() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToMicroarcsecond(const T& integerDegree);
@@ -938,11 +1300,17 @@ namespace EGXMath
 	*	@param degree \f$degree\ (deg\ int)\f$ is the angle in integer degrees.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
-	*	@see DegreeToDegreesMinutesSeconds() for conversion from integer degrees and full explination.
+	*	@see IntegerDegreeToDMS() for alias.
+	*	@see DegreeToDegreesMinutesSeconds() for conversion from (decimal) degrees and full explination.
+	*	@see DecimalDegreeToDegreesMinutesSeconds() for conversion from decimal degrees.
 	*	@see RadianToDegreesMinutesSeconds() for conversion from radians.
-	*	@see DegreeToDMS() for alias.
-	*	@see DecimalDegreeToDegreesMinutesSeconds() for alias.
-	*	@see DecimalDegreeToDMS() for alias.
+	*	@see IntegerDegreeToDegreesMinutesSeconds() for conversion from integer degrees.
+	*	@see BinaryDegreeToDegreesMinutesSeconds() for conversion from binary degrees.
+	*	@see TurnToDegreesMinutesSeconds() for conversion from turns.
+	*	@see GradianToDegreesMinutesSeconds() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDegreesMinutesSeconds() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDegreesMinutesSecondsS() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDegreesMinutesSeconds() for conversion from compass wind.
 	*/
 	template<typename T>
 	void IntegerDegreeToDegreesMinutesSeconds(const T& integerDegree, T& degree, T& arcminute, T& arcsecond);
@@ -957,9 +1325,17 @@ namespace EGXMath
 	*	@param degree \f$degree\ (deg int)\f$ is the angle in integer degrees.
 	*	@param arcminute \f$arcminute\ (arcmin)\f$ is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes.
 	*   @param arcsecond \f$arcsecond\ (arcsec)\f$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds.
-	*	@see DegreeToDegreesMinutesSeconds() for alias.
-	*	@see DecimalDegreeToDegreesMinutesSeconds() for alias.
-	*	@see DecimalDegreeToDMS() for alias.
+	*	@see IntegerDegreeToDegreesMinutesSeconds() for alias.
+	*	@see DegreeToDMS() for conversion from (decimal) degrees and full explination.
+	*	@see DecimalDegreeToDMS() for conversion from decimal degrees.
+	*	@see RadianToDMS() for conversion from radians.
+	*	@see IntegerDegreeToDMS() for conversion from integer degrees.
+	*	@see BinaryDegreeToDMS() for conversion from binary degrees.
+	*	@see TurnToDMS() for conversion from turns.
+	*	@see GradianToDMS() for conversion from gradians.
+	*	@see HoursMinutesSecondsToDMS() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToDMS() for conversion from degrees minutes seconds.
+	*	@see CompassWindToDMS() for conversion from compass wind.
 	*/
 	template<typename T>
 	void IntegerDegreeToDMS(const T& integerDegree, T& degree, T& arcminute, T& arcsecond);
@@ -975,9 +1351,17 @@ namespace EGXMath
 	*	@param hour \f$hour\ (hour)\f$ is the angle in hours.
 	*	@param minute \f$minute\ (min)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
 	*   @param second \f$second\ (sec)\f$ is the angle in seconds. Note that this is 1/60 of a minute, not arcminute. It is not equal to arcseconds.
-	*	@see DegreeToHoursMinutesSeconds() for conversion from decimal degrees.
+	*	@see IntegerDegreeToHMS() for alias.
+	*	@see DegreeToHoursMinutesSeconds() for conversion from (decimal) degrees and full explination.
 	*	@see DecimalDegreeToHoursMinutesSeconds() for conversion from decimal degrees.
-	*	@see RadianToDegreesMinutesSeconds() for conversion from radians.
+	*	@see RadianToHoursMinutesSeconds() for conversion from radians.
+	*	@see IntegerDegreeToHoursMinutesSeconds() for conversion from integer degrees.
+	*	@see BinaryDegreeToHoursMinutesSeconds() for conversion from binary degrees.
+	*	@see TurnToHoursMinutesSeconds() for conversion from turns.
+	*	@see GradianToHoursMinutesSeconds() for conversion from gradians.
+	*	@see HoursMinutesSecondsToHoursMinutesSeconds() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToHoursMinutesSeconds() for conversion from degrees minutes seconds.
+	*	@see CompassWindToHoursMinutesSeconds() for conversion from compass wind.
 	*/
 	template<typename T>
 	void IntegerDegreeToHoursMinutesSeconds(const T& integerDegree, T& hour, T& minute, T& second);
@@ -994,9 +1378,17 @@ namespace EGXMath
 	*	@param hour \f$hour\ (hour)\f$ is the angle in hours.
 	*	@param minute \f$minute\ (min)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
 	*   @param second \f$second\ (sec)\f$ is the angle in seconds. Note that this is 1/60 of a minute, not arcminute. It is not equal to arcseconds.
-	*	@see DegreeToHMS() for conversion from decimal degrees.
+	*	@see IntegerDegreeToHoursMinutesSeconds() for alias.
+	*	@see DegreeToHMS() for conversion from (decimal) degrees and full explination.
 	*	@see DecimalDegreeToHMS() for conversion from decimal degrees.
 	*	@see RadianToHMS() for conversion from radians.
+	*	@see IntegerDegreeToHMS() for conversion from integer degrees.
+	*	@see BinaryDegreeToHMS() for conversion from binary degrees.
+	*	@see TurnToHMS() for conversion from turns.
+	*	@see GradianToHMS() for conversion from gradians.
+	*	@see HoursMinutesSecondsToHMS() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToHMS() for conversion from degrees minutes seconds.
+	*	@see CompassWindToHMS() for conversion from compass wind.
 	*/
 	template<typename T>
 	void IntegerDegreeToHMS(const T& integerDegree, T& hour, T& minute, T& second);
@@ -1009,9 +1401,16 @@ namespace EGXMath
 	*   @param integerDegree \f$\alpha_{deg\ int}\ (deg\ int)\f$ is the angle in integer degrees.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see IntegerDegreeToGon() for alias.
-	*	@see DegreeToGradian() for conversion from decimal degrees.
+	*	@see DegreeToGradian() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToGradian() for conversion from decimal degrees.
 	*	@see RadianToGradian() for conversion from radians.
+	*	@see IntegerDegreeToGradian() for conversion from integer degrees.
+	*	@see BinaryDegreeToGradian() for conversion from binary degrees.
+	*	@see TurnToGradian() for conversion from turns.
+	*	@see GradianToGradian() for conversion from gradians.
+	*	@see HoursMinutesSecondsToGradian() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToGradian() for conversion from degrees minutes seconds.
+	*	@see CompassWindToGradian() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToGradian(const T& integerDegree);
@@ -1026,7 +1425,16 @@ namespace EGXMath
 	*	@see IntegerDegreeToGradian() for alias.
 	*	@see DegreeToGon() for conversion from decimal degrees.
 	*	@see DecimalDegreeToGon() for conversion from decimal degrees.
+	*	@see DegreeToGon() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToGon() for conversion from decimal degrees.
 	*	@see RadianToGon() for conversion from radians.
+	*	@see IntegerDegreeToGon() for conversion from integer degrees.
+	*	@see BinaryDegreeToGon() for conversion from binary degrees.
+	*	@see TurnToGon() for conversion from turns.
+	*	@see GradianToGon() for conversion from gradians.
+	*	@see HoursMinutesSecondsToGon() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToGon() for conversion from degrees minutes seconds.
+	*	@see CompassWindToGon() for conversion from compass wind.
 	*/
 	template<typename T>
 	T IntegerDegreeToGon(const T& integerDegree);
@@ -1123,7 +1531,6 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Turn_(geometry)
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*   @return \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
-	*	@see RadianToTurn() for conversion to radians.
 	*	@see DegreeToTurn() for conversion from (decimal) degrees.
 	*	@see DecimalDegreeToTurn() for conversion from decimal degrees.
 	*	@see RadianToTurn() for conversion from radians.
@@ -1430,16 +1837,16 @@ namespace EGXMath
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see RadianToGon() for alias.
-	*	@see DegreeToGon() for conversion from (decimal) degrees.
-	*	@see DecimalDegreeToGon() for conversion from decimal degrees.
-	*	@see RadianToGon() for conversion from radians.
-	*	@see IntegerDegreeToGon() for conversion from integer degrees.
-	*	@see BinaryDegreeToGon() for conversion from binary degrees.
-	*	@see TurnToGon() for conversion from turns.
-	*	@see GradianToGon() for conversion from gradians.
-	*	@see HoursMinutesSecondsToGon() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToGon() for conversion from degrees minutes seconds.
-	*	@see CompassWindToGon() for conversion from compass wind.
+	*	@see DegreeToGradian() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToGradian() for conversion from decimal degrees.
+	*	@see RadianToGradian() for conversion from radians.
+	*	@see IntegerDegreeToGradian() for conversion from integer degrees.
+	*	@see BinaryDegreeToGradian() for conversion from binary degrees.
+	*	@see TurnToGradian() for conversion from turns.
+	*	@see GradianToGradian() for conversion from gradians.
+	*	@see HoursMinutesSecondsToGradian() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToGradian() for conversion from degrees minutes seconds.
+	*	@see CompassWindToGradian() for conversion from compass wind.
 	*/
 	template<typename T>
 	T RadianToGradian(const T& radian);
@@ -1451,16 +1858,16 @@ namespace EGXMath
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see RadianToGradian() for alias.
-	*	@see DegreeToGradian() for conversion from (decimal) degrees.
-	*	@see DecimalDegreeToGradian() for conversion from decimal degrees.
-	*	@see RadianToGradian() for conversion from radians.
-	*	@see IntegerDegreeToGradian() for conversion from integer degrees.
-	*	@see BinaryDegreeToGradian() for conversion from binary degrees.
-	*	@see TurnToGradian() for conversion from turns.
-	*	@see GradianToGradian() for conversion from gradians.
-	*	@see HoursMinutesSecondsToGradian() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToGradian() for conversion from degrees minutes seconds.
-	*	@see CompassWindToGradian() for conversion from compass wind.
+	*	@see DegreeToGon() for conversion from (decimal) degrees.
+	*	@see DecimalDegreeToGon() for conversion from decimal degrees.
+	*	@see RadianToGon() for conversion from radians.
+	*	@see IntegerDegreeToGon() for conversion from integer degrees.
+	*	@see BinaryDegreeToGon() for conversion from binary degrees.
+	*	@see TurnToGon() for conversion from turns.
+	*	@see GradianToGon() for conversion from gradians.
+	*	@see HoursMinutesSecondsToGon() for conversion from hours minutes seconds.
+	*	@see DegreesMinutesSecondsToGon() for conversion from degrees minutes seconds.
+	*	@see CompassWindToGon() for conversion from compass wind.
 	*/
 	template<typename T>
 	T RadianToGon(const T& radian);
