@@ -38,8 +38,8 @@ var NAVTREEINDEX =
 "_n_i_s_t_const_8hpp.html#ga2ed9e5fb19a6f2cc0c25ad945ea6b562",
 "_n_i_s_t_const_8hpp.html#gae77577280e3dd4a78d41af37076c8f8d",
 "_right_ascension_and_declination_8inl.html#gaa91fc4b5a4ac9e9dc94aff7b8f6f9bd1",
-"group___e_g_x_phys-_planet_criteria.html#ga699bcc2f17b8855eaa856595d8032f61",
-"group___n_i_s_t_const-_kilogram.html#gaeb262618c1568d210f8a5a8fdca39ae2"
+"group___e_g_x_phys-_nuclear_separation_energy.html#ga0de42783a7c650eb32f85dc2d40d84d7",
+"group___n_i_s_t_const-_hertz.html#ga035f43de5d8ad8208675c53a0057d14d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

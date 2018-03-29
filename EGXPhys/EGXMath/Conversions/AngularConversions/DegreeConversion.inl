@@ -44,7 +44,7 @@ namespace EGXMath {
 
 	template<typename T, typename T2>
 	T DegreeToBinaryDegree(const T& decimalDegree, const T2& bits) {
-		return decimalDegree * std::pow(2.0, bits - 1.0) / 360.0;
+		return std::round(decimalDegree * std::pow(2.0, bits - 1.0) / 360.0);
 	}
 
 	template<typename T>

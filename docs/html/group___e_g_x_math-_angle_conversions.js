@@ -5,7 +5,7 @@ var group___e_g_x_math__angle_conversions =
     [ "Integer Degree", "group___e_g_x_math-_angle_conversions-_integer_degree.html", "group___e_g_x_math-_angle_conversions-_integer_degree" ],
     [ "Radian", "group___e_g_x_math-_angle_conversions-_radian.html", "group___e_g_x_math-_angle_conversions-_radian" ],
     [ "Binary Degree", "group___e_g_x_math-_angle_conversions-_binary_degree.html", null ],
-    [ "Turn", "group___e_g_x_math-_angle_conversions-_turn.html", null ],
+    [ "Turn", "group___e_g_x_math-_angle_conversions-_turn.html", "group___e_g_x_math-_angle_conversions-_turn" ],
     [ "Gradian", "group___e_g_x_math-_angle_conversions-_gradian.html", null ],
     [ "Hours Minutes Seconds (HMS)", "group___e_g_x_math-_angle_conversions-_h_m_s.html", null ],
     [ "Degrees Minutes Seconds (DMS)", "group___e_g_x_math-_angle_conversions-_d_m_s.html", null ],

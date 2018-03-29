@@ -306,6 +306,9 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\RadianConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\TurnConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -397,9 +400,6 @@
     <None Include="..\..\EGXPhys\Astrophysics\RightAscensionAndDeclination.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.inl">
-      <Filter>EGXPhys\EGXMath\Conversions</Filter>
-    </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DegreeConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
     </None>
@@ -410,6 +410,9 @@
       <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\RadianConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\TurnConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
     </None>
   </ItemGroup>

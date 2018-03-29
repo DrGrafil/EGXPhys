@@ -28,3 +28,4 @@
 #include "./AngularConversions/DecimalDegreeConversion.hpp"
 #include "./AngularConversions/IntegerDegreeConversion.hpp"
 #include "./AngularConversions/RadianConversion.hpp"
+#include "./AngularConversions/TurnConversion.hpp"

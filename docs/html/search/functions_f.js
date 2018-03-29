@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['x_2dray_20values',['X-ray values',['../group___n_i_s_t_const-_x-ray.html',1,'']]],
   ['xzxtoarcdegree',['XZXToArcdegree',['../group___e_g_x_math-_angle_conversions-_x_z_x.html#gade03c99ea870f58dcebd6307beed2364',1,'EGXMath']]],
   ['xzxtoarcminute',['XZXToArcminute',['../group___e_g_x_math-_angle_conversions-_x_z_x.html#ga291a98dde605fdf092ba16acb2989b84',1,'EGXMath']]],
   ['xzxtoarcsecond',['XZXToArcsecond',['../group___e_g_x_math-_angle_conversions-_x_z_x.html#gaebb234b957f08dcd4f84726bcd3cdf62',1,'EGXMath']]],

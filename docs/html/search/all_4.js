@@ -6,6 +6,7 @@ var searchData=
   ['eccentricity_2ehpp',['Eccentricity.hpp',['../_eccentricity_8hpp.html',1,'']]],
   ['eccentricityofearth',['EccentricityOfEarth',['../_astrophysics_constants_8hpp.html#a327bbaf59d546f8524d6fb9da919d939',1,'EGXPhys']]],
   ['egxmath_20library',['EGXMath Library',['../group___e_g_x_math.html',1,'']]],
+  ['egxmath_2dangleconversions_2dxzx',['EGXMath-AngleConversions-XZX',['../group___e_g_x_math-_angle_conversions-_x_z_x.html',1,'']]],
   ['egxmath_2ehpp',['EGXMath.hpp',['../_e_g_x_math_8hpp.html',1,'']]],
   ['egxphys_20library',['EGXPhys Library',['../group___e_g_x_phys.html',1,'']]],
   ['eccentricity',['Eccentricity',['../group___e_g_x_phys-_eccentricity.html',1,'']]],

@@ -44,7 +44,7 @@ namespace EGXMath {
 
 	template<typename T, typename T2>
 	T RadianToBinaryDegree(const T& radian, const T2& bits) {
-		return radian * std::pow(2.0, bits - 1.0) / (2.0 * EGXMath::pi<T>);
+		return std::round(radian * std::pow(2.0, bits - 1.0) / (2.0 * EGXMath::pi<T>));
 	}
 
 	template<typename T>
