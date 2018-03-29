@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"_n_i_s_t_const_8hpp.html#gae61d97fa154d94e710c951a26bd47896":[2,0,0,5,0,164],
+"_n_i_s_t_const_8hpp.html#gae70262618755d765a1de59f471b56040":[2,0,0,5,0,37],
 "_n_i_s_t_const_8hpp.html#gae77577280e3dd4a78d41af37076c8f8d":[2,0,0,5,0,168],
 "_n_i_s_t_const_8hpp.html#gae7f2ec900567291168cdf7351248074d":[2,0,0,5,0,29],
 "_n_i_s_t_const_8hpp.html#gae80c1242d33bf681a09a87d20cd4162e":[2,0,0,5,0,105],
@@ -221,7 +223,7 @@ var NAVTREEINDEX2 =
 "_quantum_8hpp_source.html":[2,0,0,8,0],
 "_quantum_constants_8hpp.html":[2,0,0,8,1],
 "_quantum_constants_8hpp_source.html":[2,0,0,8,1],
-"_radian_conversion_8hpp_source.html":[2,0,0,3,0,0,3],
+"_radian_conversion_8hpp_source.html":[2,0,0,3,0,0,5],
 "_radioactive_decay_8hpp.html":[2,0,0,2,19],
 "_radioactive_decay_8hpp_source.html":[2,0,0,2,19],
 "_radioactive_decay_8inl.html":[2,0,0,2,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "_right_ascension_and_declination_8hpp.html#gaeddd0fbc1c695863bf2bbc2a948b9b59":[2,0,0,1,23,1],
 "_right_ascension_and_declination_8hpp_source.html":[2,0,0,1,23],
 "_right_ascension_and_declination_8inl.html":[2,0,0,1,24],
-"_right_ascension_and_declination_8inl.html#ga30e95e529dac871efc014c8ca0108c0d":[2,0,0,1,24,6],
-"_right_ascension_and_declination_8inl.html#ga4f3c37a00f59722857bcd4e6acd01865":[2,0,0,1,24,2],
-"_right_ascension_and_declination_8inl.html#ga50c306a7d118d3b3c02bc3621e1cb078":[2,0,0,1,24,5]
+"_right_ascension_and_declination_8inl.html#ga30e95e529dac871efc014c8ca0108c0d":[2,0,0,1,24,6]
 };

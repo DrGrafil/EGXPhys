@@ -309,6 +309,12 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\TurnConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\GonConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\GradianConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -413,6 +419,12 @@
       <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\TurnConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\GonConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\GradianConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
     </None>
   </ItemGroup>

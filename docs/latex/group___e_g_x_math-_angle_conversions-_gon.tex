@@ -1,75 +1,75 @@
-\hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree}{}\section{Integer Degree}
-\label{group___e_g_x_math-_angle_conversions-_integer_degree}\index{Integer Degree@{Integer Degree}}
+\hypertarget{group___e_g_x_math-_angle_conversions-_gon}{}\section{Gon}
+\label{group___e_g_x_math-_angle_conversions-_gon}\index{Gon@{Gon}}
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga05d3368b00ea27b9895de2ffe5c8df38}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Radian}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degrees to radians. \[\alpha_{rad}=\alpha_{deg\ int}\frac{\pi}{180}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga5379a68bdff5cc4fab5bb1ba06ef9453}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Milliradian}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degrees to milliradians. \[\alpha_{mrad}=\alpha_{deg\ int}\frac{\pi}{180}*10^3\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga06ddbdada5a3978105c855d4aae735ae}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Turn}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degrees to turn. \[\alpha_{turn}=\alpha_{deg\ int}\frac{1}{360}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gaa9b63c6095fd7f8809fcfa2ba1e62235}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Degree}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to (decimal) degree. \[\alpha_{deg}=\alpha_{deg\ int}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gac219c3198508ba984d8d81d22831b27d}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Decimal\+Degree}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to decimal degree. \[\alpha_{deg}=\alpha_{deg\ int}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gaf633d0b82bfb7586ce86ffbcf78d8f7a}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Arcdegree}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to (decimal) arc degree. \[\alpha_{deg}=\alpha_{deg\ int}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gac9e870bdfa60dd2bb61469fdf6eedd7c}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Integer\+Degree}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to integer degree. This rounds to the nearest integer. \[\alpha_{deg\ int}=\alpha_{deg int}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T , typename T2 $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga694bbfe624c3c14e97ce6155ca9bc44d}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Binary\+Degree}} (const T \&integer\+Degree, const T2 \&bits=8)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to binary degree (brad). \[\alpha_{deg\ bin}=round(\alpha_{deg\ int}\frac{2^{(n-1)}}{360})\] Where $n$ is the number of bits avaliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga78b014e7649d666a3647c467e64e4fe8}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Arcminute}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}= 60 * \alpha_{deg\ int}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gaa04058a2fea3dc3678264a05fac6e1ae}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Arcsecond}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=60 * 60 * \alpha_{deg\ int}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gadc43f22e832cd8fcf16b7bd2269ae348}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Milliarcsecond}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to milliarcsecond. \[\alpha_{mas}=60 * 60 * 10^3 * \alpha_{deg\ int} \]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga69179d6082764595c7014805e1f6b31e}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Microarcsecond}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to microarcsecond. \[\alpha_{\mu as}=60 * 60 * 10^6 * \alpha_{deg\ int}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga204317877546ea6bbafe5ff558f55a16}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Degrees\+Minutes\+Seconds}} (const T \&integer\+Degree, T \&degree, T \&arcminute, T \&arcsecond)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \[degree=\alpha_{deg\ int}\] \[arcminute= 0\] \[arcsecond= 0\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gaf76779bcc23268b41d4c3a7610d60eaf}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+D\+MS}} (const T \&integer\+Degree, T \&degree, T \&arcminute, T \&arcsecond)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \[degree=\alpha_{deg\ int}\] \[arcminute= 0\] \[arcsecond= 0\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gaaac96728b305fd8ed024843f4e92fd08}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Hours\+Minutes\+Seconds}} (const T \&integer\+Degree, T \&hour, T \&minute, T \&second)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to hours minutes seconds (D\+MS). ${HH}^{h}{MM}^{m}{SS.SS}^{s}$ format. \[hour=trun(\frac{\alpha_{deg\ int}}{15})\] \[minute=trun(60 * |\frac{\alpha_{deg\ int}}{15} - hour|)\] \[second=60 * ((60 * |\frac{\alpha_{deg\ int}}{15} - hour|)-minute)\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gae6b79bd5a92f8c6942b9fc2c50695e6a}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+H\+MS}} (const T \&integer\+Degree, T \&hour, T \&minute, T \&second)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to hours minutes seconds (D\+MS). ${HH}^{h}{MM}^{m}{SS.SS}^{s}$ format. \[hour=trun(\frac{\alpha_{deg\ int}}{15})\] \[minute=trun(60 * |\frac{\alpha_{deg\ int}}{15} - hour|)\] \[second=60 * ((60 * |\frac{\alpha_{deg\ int}}{15} - hour|)-minute)\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga47127467ff7a8ef57f6be9ce496a97df}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Gradian}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to gradian. \[\alpha_{g}=\alpha_{deg\ int}\frac{10}{9}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga6e5be425c37ad27319f09329156c64bb}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Gon}} (const T \&integer\+Degree)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer to gradians. \[\alpha_{g}=\alpha_{deg\ int}\frac{10}{9}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga01abeefd29282a3c88d3d3c28fd2c6fa}{E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Compass\+Wind}} (const T \&integer\+Degree, const unsigned int winds, const bool abbreviate)
-\begin{DoxyCompactList}\small\item\em Converts an angle in integer degree to a n-\/\+Wind compass point name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gafdf7d525a98427da55b86ff420a5ec86}{E\+G\+X\+Math\+::\+Gon\+To\+Radian}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to radian. \[\alpha_{rad}=\alpha_{g}\frac{\pi}{200}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gae5956f7e80b143f3cc22eb8122c1b745}{E\+G\+X\+Math\+::\+Gon\+To\+Milliradian}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to milliradian. \[\alpha_{mrad}=\alpha_{g}\frac{\pi}{200}*10^3\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gae55acf3fc27d34374b5ec10e0a471b3b}{E\+G\+X\+Math\+::\+Gon\+To\+Turn}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to turn. \[\alpha_{turn}=\alpha_{g}\frac{1}{400}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gaf1c40076eaf3be4e070ff34045db55d1}{E\+G\+X\+Math\+::\+Gon\+To\+Degree}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to (decimal) degree. \[\alpha_{deg}=\alpha_{g}\frac{9}{10}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga737e654bac7b6aa9c18f73b1b83e0605}{E\+G\+X\+Math\+::\+Gon\+To\+Decimal\+Degree}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to decimal degree. \[\alpha_{deg}=\alpha_{g}\frac{9}{10}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga00757282768841abe48ac3c8452627cb}{E\+G\+X\+Math\+::\+Gon\+To\+Arcdegree}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to arcdegree (decimal degree). \[\alpha_{deg}=\alpha_{g}\frac{9}{10}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gaabbfaeef5b1ae1b3e58c5b4b15c8bdaf}{E\+G\+X\+Math\+::\+Gon\+To\+Integer\+Degree}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to integer degree. \[\alpha_{deg\ int}=round(\alpha_{g}\frac{9}{10})\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga4f3f154b9c553b22af2621ac3d196648}{E\+G\+X\+Math\+::\+Gon\+To\+Binary\+Degree}} (const T \&gradian, const T2 \&bits=8)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to binary degree (brad). \[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^{(n-1)}}{400})\] Where $n$ is the number of bits gliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga02679f6b0f3520ede1db642aadb51383}{E\+G\+X\+Math\+::\+Gon\+To\+Arcminute}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}=\alpha_{g}\frac{9}{10} * 60\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gad4f34877c74cc444e7b741b99cd20d5a}{E\+G\+X\+Math\+::\+Gon\+To\+Arcsecond}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=\alpha_{g}\frac{9}{10} * 60 * 60\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga63013f99af7ec2b9628b8b87eb2e2a92}{E\+G\+X\+Math\+::\+Gon\+To\+Milliarcsecond}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to milliarcsecond. \[\alpha_{mas}=\alpha_{g}\frac{9}{10} * 60 * 60 * 10^3\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gae3f14ff3441def6d88fed69f2466cf82}{E\+G\+X\+Math\+::\+Gon\+To\+Microarcsecond}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to microarcsecond. \[\alpha_{\mu as}=\alpha_{g}\frac{9}{10} * 60 * 60 * 10^6\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gabd1dfe541d8caf9ee5ed261fe6f08261}{E\+G\+X\+Math\+::\+Gon\+To\+Degrees\+Minutes\+Seconds}} (const T \&gradian, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga14b45561114365c4707d40e3b8b57667}{E\+G\+X\+Math\+::\+Gon\+To\+D\+MS}} (const T \&gradian, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gaafdd71fd185afe7aa91f5c3ca531b668}{E\+G\+X\+Math\+::\+Gon\+To\+Hours\+Minutes\+Seconds}} (const T \&gradian, T \&hour, T \&minute, T \&second)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gac7263c178052895c8b1a71190b62aabc}{E\+G\+X\+Math\+::\+Gon\+To\+H\+MS}} (const T \&gradian, T \&hour, T \&minute, T \&second)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga69eb507d44c7a0bfc5660ed3ebcc2f1a}{E\+G\+X\+Math\+::\+Gon\+To\+Gradian}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to gradian. \[\alpha_{g}=\alpha_{g}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga9f2fb553662f3367fc65b5de24128a27}{E\+G\+X\+Math\+::\+Gon\+To\+Gon}} (const T \&gradian)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to gradian. \[\alpha_{g}=\alpha_{g}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga1d8ed4116236694608d7409aa149f677}{E\+G\+X\+Math\+::\+Gon\+To\+Compass\+Wind}} (const T \&gradian, const unsigned int winds, const bool abbreviate)
+\begin{DoxyCompactList}\small\item\em Converts an angle in gradian to a n-\/\+Wind compass point name. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
 
 
 \subsection{Function Documentation}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_gaf633d0b82bfb7586ce86ffbcf78d8f7a}\label{group___e_g_x_math-_angle_conversions-_integer_degree_gaf633d0b82bfb7586ce86ffbcf78d8f7a}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Arcdegree@{Integer\+Degree\+To\+Arcdegree}}
-\index{Integer\+Degree\+To\+Arcdegree@{Integer\+Degree\+To\+Arcdegree}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Arcdegree()}{IntegerDegreeToArcdegree()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_ga00757282768841abe48ac3c8452627cb}\label{group___e_g_x_math-_angle_conversions-_gon_ga00757282768841abe48ac3c8452627cb}} 
+\index{Gon@{Gon}!Gon\+To\+Arcdegree@{Gon\+To\+Arcdegree}}
+\index{Gon\+To\+Arcdegree@{Gon\+To\+Arcdegree}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Arcdegree()}{GonToArcdegree()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Arcdegree (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Arcdegree (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to (decimal) arc degree. \[\alpha_{deg}=\alpha_{deg\ int}\]. 
+Converts an angle in gradian to arcdegree (decimal degree). \[\alpha_{deg}=\alpha_{g}\frac{9}{10}\]. 
 
 See \href{https://en.wikipedia.org/wiki/Degree_(angle)}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Degree\+\_\+(angle)} and \href{https://en.wikipedia.org/wiki/Decimal_degrees}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Decimal\+\_\+degrees} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-$\alpha_{deg}\ (deg)$ is the angle in (decimal) arc degree. 
+$\alpha_{deg}\ (deg)$ is the angle in arcdegree (decimal degree). 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gaa9b63c6095fd7f8809fcfa2ba1e62235}{Integer\+Degree\+To\+Degree()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gaf1c40076eaf3be4e070ff34045db55d1}{Gon\+To\+Degree()}} for alias. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gac219c3198508ba984d8d81d22831b27d}{Integer\+Degree\+To\+Decimal\+Degree()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga737e654bac7b6aa9c18f73b1b83e0605}{Gon\+To\+Decimal\+Degree()}} for alias. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_gac1b5f3b68f66c77a6df4ceef842c9b19}{Degree\+To\+Arcdegree()}} for conversion from (decimal) degrees. 
 
@@ -91,20 +91,20 @@ Degrees\+Minutes\+Seconds\+To\+Arcdegree() for conversion from degrees minutes s
 
 Compass\+Wind\+To\+Arcdegree() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_ga78b014e7649d666a3647c467e64e4fe8}\label{group___e_g_x_math-_angle_conversions-_integer_degree_ga78b014e7649d666a3647c467e64e4fe8}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Arcminute@{Integer\+Degree\+To\+Arcminute}}
-\index{Integer\+Degree\+To\+Arcminute@{Integer\+Degree\+To\+Arcminute}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Arcminute()}{IntegerDegreeToArcminute()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_ga02679f6b0f3520ede1db642aadb51383}\label{group___e_g_x_math-_angle_conversions-_gon_ga02679f6b0f3520ede1db642aadb51383}} 
+\index{Gon@{Gon}!Gon\+To\+Arcminute@{Gon\+To\+Arcminute}}
+\index{Gon\+To\+Arcminute@{Gon\+To\+Arcminute}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Arcminute()}{GonToArcminute()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Arcminute (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Arcminute (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}= 60 * \alpha_{deg\ int}\]. 
+Converts an angle in gradian to arcminute. Note that arcminutes are not equal to minutes. \[\alpha_{arcmin}=\alpha_{g}\frac{9}{10} * 60\]. 
 
 See \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -131,20 +131,20 @@ Degrees\+Minutes\+Seconds\+To\+Arcminute() for conversion from degrees minutes s
 
 Compass\+Wind\+To\+Arcminute() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_gaa04058a2fea3dc3678264a05fac6e1ae}\label{group___e_g_x_math-_angle_conversions-_integer_degree_gaa04058a2fea3dc3678264a05fac6e1ae}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Arcsecond@{Integer\+Degree\+To\+Arcsecond}}
-\index{Integer\+Degree\+To\+Arcsecond@{Integer\+Degree\+To\+Arcsecond}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Arcsecond()}{IntegerDegreeToArcsecond()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_gad4f34877c74cc444e7b741b99cd20d5a}\label{group___e_g_x_math-_angle_conversions-_gon_gad4f34877c74cc444e7b741b99cd20d5a}} 
+\index{Gon@{Gon}!Gon\+To\+Arcsecond@{Gon\+To\+Arcsecond}}
+\index{Gon\+To\+Arcsecond@{Gon\+To\+Arcsecond}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Arcsecond()}{GonToArcsecond()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Arcsecond (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Arcsecond (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=60 * 60 * \alpha_{deg\ int}\]. 
+Converts an angle in gradian to arcsecond. Note that arcsecond are not equal to seconds. \[\alpha_{arcsec}=\alpha_{g}\frac{9}{10} * 60 * 60\]. 
 
 See \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -171,22 +171,22 @@ Degrees\+Minutes\+Seconds\+To\+Arcsecond() for conversion from degrees minutes s
 
 Compass\+Wind\+To\+Arcsecond() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_ga694bbfe624c3c14e97ce6155ca9bc44d}\label{group___e_g_x_math-_angle_conversions-_integer_degree_ga694bbfe624c3c14e97ce6155ca9bc44d}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Binary\+Degree@{Integer\+Degree\+To\+Binary\+Degree}}
-\index{Integer\+Degree\+To\+Binary\+Degree@{Integer\+Degree\+To\+Binary\+Degree}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Binary\+Degree()}{IntegerDegreeToBinaryDegree()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_ga4f3f154b9c553b22af2621ac3d196648}\label{group___e_g_x_math-_angle_conversions-_gon_ga4f3f154b9c553b22af2621ac3d196648}} 
+\index{Gon@{Gon}!Gon\+To\+Binary\+Degree@{Gon\+To\+Binary\+Degree}}
+\index{Gon\+To\+Binary\+Degree@{Gon\+To\+Binary\+Degree}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Binary\+Degree()}{GonToBinaryDegree()}}
 {\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Binary\+Degree (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree,  }\item[{const T2 \&}]{bits = {\ttfamily 8} }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Binary\+Degree (\begin{DoxyParamCaption}\item[{const T \&}]{gradian,  }\item[{const T2 \&}]{bits = {\ttfamily 8} }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to binary degree (brad). \[\alpha_{deg\ bin}=round(\alpha_{deg\ int}\frac{2^{(n-1)}}{360})\] Where $n$ is the number of bits avaliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees. 
+Converts an angle in gradian to binary degree (brad). \[\alpha_{deg\ bin}=round(\alpha_{rad}\frac{2^{(n-1)}}{400})\] Where $n$ is the number of bits gliable to store the number. $n$ defaults to 8, the tradiational number for binary degrees. 
 
 See \href{https://en.wikipedia.org/wiki/Binary_scaling#Binary_angles}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Binary\+\_\+scaling\#\+Binary\+\_\+angles} and \href{https://www.globalspec.com/reference/14722/160210/Chapter-7-5-3-Binary-Angular-Measure}{\tt https\+://www.\+globalspec.\+com/reference/14722/160210/\+Chapter-\/7-\/5-\/3-\/\+Binary-\/\+Angular-\/\+Measure} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
-{\em bits} & $n\ (bit)$ is the number of bits avaliable to store the number. Defaults to 8. \\
+{\em bits} & $n\ (bit)$ is the number of bits gliable to store the number. Defaults to 8. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -213,20 +213,20 @@ Degrees\+Minutes\+Seconds\+To\+Binary\+Degree() for conversion from degrees minu
 
 Compass\+Wind\+To\+Binary\+Degree() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_ga01abeefd29282a3c88d3d3c28fd2c6fa}\label{group___e_g_x_math-_angle_conversions-_integer_degree_ga01abeefd29282a3c88d3d3c28fd2c6fa}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Compass\+Wind@{Integer\+Degree\+To\+Compass\+Wind}}
-\index{Integer\+Degree\+To\+Compass\+Wind@{Integer\+Degree\+To\+Compass\+Wind}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Compass\+Wind()}{IntegerDegreeToCompassWind()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_ga1d8ed4116236694608d7409aa149f677}\label{group___e_g_x_math-_angle_conversions-_gon_ga1d8ed4116236694608d7409aa149f677}} 
+\index{Gon@{Gon}!Gon\+To\+Compass\+Wind@{Gon\+To\+Compass\+Wind}}
+\index{Gon\+To\+Compass\+Wind@{Gon\+To\+Compass\+Wind}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Compass\+Wind()}{GonToCompassWind()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-std\+::string E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Compass\+Wind (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree,  }\item[{const unsigned int}]{winds,  }\item[{const bool}]{abbreviate }\end{DoxyParamCaption})}
+std\+::string E\+G\+X\+Math\+::\+Gon\+To\+Compass\+Wind (\begin{DoxyParamCaption}\item[{const T \&}]{gradian,  }\item[{const unsigned int}]{winds,  }\item[{const bool}]{abbreviate }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to a n-\/\+Wind compass point name. 
+Converts an angle in gradian to a n-\/\+Wind compass point name. 
 
 See \href{https://en.wikipedia.org/wiki/Points_of_the_compass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Points\+\_\+of\+\_\+the\+\_\+compass} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 {\em winds} & $winds\ (int)$ The number of points(names) that the compass should have. Must be 2,4,8,16 or 32. \\
 \hline
@@ -237,17 +237,17 @@ See \href{https://en.wikipedia.org/wiki/Points_of_the_compass}{\tt https\+://en.
 $point\ name\ (dimensionless)$ is the name of the compass point. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga5ffef873bcec300ab90570ad6e7b1ab1}{Degree\+To\+Compass\+Wind()}} for full explination of conversion and conversion from decimal degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga5ffef873bcec300ab90570ad6e7b1ab1}{Degree\+To\+Compass\+Wind()}} for full explination of conversion and conversion from (decimal) degrees. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_decimal_degree_ga415a94651a2b2397b7f2bda90a19ee2c}{Decimal\+Degree\+To\+Compass\+Wind()}} for conversion from decimal degrees. 
 
-Radian\+Degree\+To\+Compass\+Wind() for conversion from radians. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_radian_ga4d845b171148481aa7e85018d6dad035}{Radian\+To\+Compass\+Wind()}} for conversion from radians. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga01abeefd29282a3c88d3d3c28fd2c6fa}{Integer\+Degree\+To\+Compass\+Wind()}} for conversion from integer degrees. 
 
 Binary\+Degree\+To\+Compass\+Wind() for conversion from binary degrees. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_gaea42f973566f770cc3552831717f525e}{Turn\+To\+Compass\+Wind()}} for conversion from binary degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_turn_gaea42f973566f770cc3552831717f525e}{Turn\+To\+Compass\+Wind()}} for conversion from turns. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gradian_ga52ed2e44217e6a57e56829bee36612dc}{Gradian\+To\+Compass\+Wind()}} for conversion from gradians. 
 
@@ -257,29 +257,29 @@ Degrees\+Minutes\+Seconds\+To\+Compass\+Wind() for conversion from degrees minut
 
 Compass\+Wind\+To\+Compass\+Wind() for conversion from degrees minutes seconds. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_gac219c3198508ba984d8d81d22831b27d}\label{group___e_g_x_math-_angle_conversions-_integer_degree_gac219c3198508ba984d8d81d22831b27d}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Decimal\+Degree@{Integer\+Degree\+To\+Decimal\+Degree}}
-\index{Integer\+Degree\+To\+Decimal\+Degree@{Integer\+Degree\+To\+Decimal\+Degree}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Decimal\+Degree()}{IntegerDegreeToDecimalDegree()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_ga737e654bac7b6aa9c18f73b1b83e0605}\label{group___e_g_x_math-_angle_conversions-_gon_ga737e654bac7b6aa9c18f73b1b83e0605}} 
+\index{Gon@{Gon}!Gon\+To\+Decimal\+Degree@{Gon\+To\+Decimal\+Degree}}
+\index{Gon\+To\+Decimal\+Degree@{Gon\+To\+Decimal\+Degree}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Decimal\+Degree()}{GonToDecimalDegree()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Decimal\+Degree (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Decimal\+Degree (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to decimal degree. \[\alpha_{deg}=\alpha_{deg\ int}\]. 
+Converts an angle in gradian to decimal degree. \[\alpha_{deg}=\alpha_{g}\frac{9}{10}\]. 
 
 See \href{https://en.wikipedia.org/wiki/Degree_(angle)}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Degree\+\_\+(angle)} and \href{https://en.wikipedia.org/wiki/Decimal_degrees}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Decimal\+\_\+degrees} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degree. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 $\alpha_{deg}\ (deg)$ is the angle in decimal degree. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gaa9b63c6095fd7f8809fcfa2ba1e62235}{Integer\+Degree\+To\+Degree()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gaf1c40076eaf3be4e070ff34045db55d1}{Gon\+To\+Degree()}} for alias. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gaf633d0b82bfb7586ce86ffbcf78d8f7a}{Integer\+Degree\+To\+Arcdegree()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga00757282768841abe48ac3c8452627cb}{Gon\+To\+Arcdegree()}} for alias. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga568afc1d436d425bf5d4edea584aee08}{Degree\+To\+Decimal\+Degree()}} for conversion from (decimal) degrees. 
 
@@ -301,29 +301,29 @@ Degrees\+Minutes\+Seconds\+To\+Decimal\+Degree() for conversion from degrees min
 
 Compass\+Wind\+To\+Decimal\+Degree() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_gaa9b63c6095fd7f8809fcfa2ba1e62235}\label{group___e_g_x_math-_angle_conversions-_integer_degree_gaa9b63c6095fd7f8809fcfa2ba1e62235}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Degree@{Integer\+Degree\+To\+Degree}}
-\index{Integer\+Degree\+To\+Degree@{Integer\+Degree\+To\+Degree}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Degree()}{IntegerDegreeToDegree()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_gaf1c40076eaf3be4e070ff34045db55d1}\label{group___e_g_x_math-_angle_conversions-_gon_gaf1c40076eaf3be4e070ff34045db55d1}} 
+\index{Gon@{Gon}!Gon\+To\+Degree@{Gon\+To\+Degree}}
+\index{Gon\+To\+Degree@{Gon\+To\+Degree}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Degree()}{GonToDegree()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Degree (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Degree (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to (decimal) degree. \[\alpha_{deg}=\alpha_{deg\ int}\]. 
+Converts an angle in gradian to (decimal) degree. \[\alpha_{deg}=\alpha_{g}\frac{9}{10}\]. 
 
 See \href{https://en.wikipedia.org/wiki/Degree_(angle)}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Degree\+\_\+(angle)} and \href{https://en.wikipedia.org/wiki/Decimal_degrees}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Decimal\+\_\+degrees} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degree. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 $\alpha_{deg}\ (deg)$ is the angle in (decimal) degree. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gac219c3198508ba984d8d81d22831b27d}{Integer\+Degree\+To\+Decimal\+Degree()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga00757282768841abe48ac3c8452627cb}{Gon\+To\+Arcdegree()}} for alias. 
 
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gaf633d0b82bfb7586ce86ffbcf78d8f7a}{Integer\+Degree\+To\+Arcdegree()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gaf1c40076eaf3be4e070ff34045db55d1}{Gon\+To\+Degree()}} for alias. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_gaca157e7d3e99a46a11a04b92680d2574}{Degree\+To\+Degree()}} for conversion from (decimal) degrees. 
 
@@ -345,30 +345,30 @@ Degrees\+Minutes\+Seconds\+To\+Degree() for conversion from degrees minutes seco
 
 Compass\+Wind\+To\+Degree() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_ga204317877546ea6bbafe5ff558f55a16}\label{group___e_g_x_math-_angle_conversions-_integer_degree_ga204317877546ea6bbafe5ff558f55a16}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Degrees\+Minutes\+Seconds@{Integer\+Degree\+To\+Degrees\+Minutes\+Seconds}}
-\index{Integer\+Degree\+To\+Degrees\+Minutes\+Seconds@{Integer\+Degree\+To\+Degrees\+Minutes\+Seconds}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Degrees\+Minutes\+Seconds()}{IntegerDegreeToDegreesMinutesSeconds()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_gabd1dfe541d8caf9ee5ed261fe6f08261}\label{group___e_g_x_math-_angle_conversions-_gon_gabd1dfe541d8caf9ee5ed261fe6f08261}} 
+\index{Gon@{Gon}!Gon\+To\+Degrees\+Minutes\+Seconds@{Gon\+To\+Degrees\+Minutes\+Seconds}}
+\index{Gon\+To\+Degrees\+Minutes\+Seconds@{Gon\+To\+Degrees\+Minutes\+Seconds}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Degrees\+Minutes\+Seconds()}{GonToDegreesMinutesSeconds()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-void E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Degrees\+Minutes\+Seconds (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree,  }\item[{T \&}]{degree,  }\item[{T \&}]{arcminute,  }\item[{T \&}]{arcsecond }\end{DoxyParamCaption})}
+void E\+G\+X\+Math\+::\+Gon\+To\+Degrees\+Minutes\+Seconds (\begin{DoxyParamCaption}\item[{const T \&}]{gradian,  }\item[{T \&}]{integer\+Degree,  }\item[{T \&}]{arcminute,  }\item[{T \&}]{arcsecond }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \[degree=\alpha_{deg\ int}\] \[arcminute= 0\] \[arcsecond= 0\]. 
+Converts an angle in gradian to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. 
 
-See \href{https://en.wikipedia.org/wiki/Geographic_coordinate_conversion}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Geographic\+\_\+coordinate\+\_\+conversion} and \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
+
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
-{\em degree} & $degree\ (deg\ int)$ is the angle in integer degrees. \\
+{\em integer\+Degree} & $degree\ (deg int)$ is the angle in degrees in whole numbers. \\
 \hline
-{\em arcminute} & $arcminute\ (arcmin)$ is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. \\
+{\em arcminute} & $arcminute\ (arcmin)$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. \\
 \hline
-{\em arcsecond} & $arcsecond\ (arcsec)$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. \\
+{\em arcsecond} & $arcsecond\ (arcsec)$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. \\
 \hline
 \end{DoxyParams}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gaf76779bcc23268b41d4c3a7610d60eaf}{Integer\+Degree\+To\+D\+M\+S()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga14b45561114365c4707d40e3b8b57667}{Gon\+To\+D\+M\+S()}} for alias. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga859585939255d52d010c780c68eb6e23}{Degree\+To\+Degrees\+Minutes\+Seconds()}} for conversion from (decimal) degrees and full explination. 
 
@@ -390,30 +390,30 @@ Degrees\+Minutes\+Seconds\+To\+Degrees\+Minutes\+Seconds\+S() for conversion fro
 
 Compass\+Wind\+To\+Degrees\+Minutes\+Seconds() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_gaf76779bcc23268b41d4c3a7610d60eaf}\label{group___e_g_x_math-_angle_conversions-_integer_degree_gaf76779bcc23268b41d4c3a7610d60eaf}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+D\+MS@{Integer\+Degree\+To\+D\+MS}}
-\index{Integer\+Degree\+To\+D\+MS@{Integer\+Degree\+To\+D\+MS}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+D\+M\+S()}{IntegerDegreeToDMS()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_ga14b45561114365c4707d40e3b8b57667}\label{group___e_g_x_math-_angle_conversions-_gon_ga14b45561114365c4707d40e3b8b57667}} 
+\index{Gon@{Gon}!Gon\+To\+D\+MS@{Gon\+To\+D\+MS}}
+\index{Gon\+To\+D\+MS@{Gon\+To\+D\+MS}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+D\+M\+S()}{GonToDMS()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-void E\+G\+X\+Math\+::\+Integer\+Degree\+To\+D\+MS (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree,  }\item[{T \&}]{degree,  }\item[{T \&}]{arcminute,  }\item[{T \&}]{arcsecond }\end{DoxyParamCaption})}
+void E\+G\+X\+Math\+::\+Gon\+To\+D\+MS (\begin{DoxyParamCaption}\item[{const T \&}]{gradian,  }\item[{T \&}]{integer\+Degree,  }\item[{T \&}]{arcminute,  }\item[{T \&}]{arcsecond }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \[degree=\alpha_{deg\ int}\] \[arcminute= 0\] \[arcsecond= 0\]. 
+Converts an angle in gradian to degrees minutes seconds (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. 
 
 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
-{\em degree} & $degree\ (deg int)$ is the angle in integer degrees. \\
+{\em integer\+Degree} & $degree\ (deg)$ is the angle in degrees in whole numbers. \\
 \hline
-{\em arcminute} & $arcminute\ (arcmin)$ is the angle in arcminutes in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. \\
+{\em arcminute} & $arcminute\ (arcmin)$ is the angle in arcminute in whole numbers. Note that this is 1/60 of an degree. It is not equal to minutes. \\
 \hline
-{\em arcsecond} & $arcsecond\ (arcsec)$ is the angle in arcseconds. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. \\
+{\em arcsecond} & $arcsecond\ (arcsec)$ is the angle in arcsecond. Note that this is 1/60 of a arcminute, not minute. It is not equal to seconds. \\
 \hline
 \end{DoxyParams}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga204317877546ea6bbafe5ff558f55a16}{Integer\+Degree\+To\+Degrees\+Minutes\+Seconds()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gabd1dfe541d8caf9ee5ed261fe6f08261}{Gon\+To\+Degrees\+Minutes\+Seconds()}} for alias. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga1096d04647918e20f61fb184ba2a7dce}{Degree\+To\+D\+M\+S()}} for conversion from (decimal) degrees and full explination. 
 
@@ -435,31 +435,27 @@ Degrees\+Minutes\+Seconds\+To\+D\+M\+S() for conversion from degrees minutes sec
 
 Compass\+Wind\+To\+D\+M\+S() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_ga6e5be425c37ad27319f09329156c64bb}\label{group___e_g_x_math-_angle_conversions-_integer_degree_ga6e5be425c37ad27319f09329156c64bb}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Gon@{Integer\+Degree\+To\+Gon}}
-\index{Integer\+Degree\+To\+Gon@{Integer\+Degree\+To\+Gon}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Gon()}{IntegerDegreeToGon()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_ga9f2fb553662f3367fc65b5de24128a27}\label{group___e_g_x_math-_angle_conversions-_gon_ga9f2fb553662f3367fc65b5de24128a27}} 
+\index{Gon@{Gon}!Gon\+To\+Gon@{Gon\+To\+Gon}}
+\index{Gon\+To\+Gon@{Gon\+To\+Gon}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Gon()}{GonToGon()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Gon (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Gon (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer to gradians. \[\alpha_{g}=\alpha_{deg\ int}\frac{10}{9}\]. 
+Converts an angle in gradian to gradian. \[\alpha_{g}=\alpha_{g}\]. 
 
 See \href{https://en.wikipedia.org/wiki/Gradian}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Gradian} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 $\alpha_{g}\ (g)$ is the angle in gradians. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga47127467ff7a8ef57f6be9ce496a97df}{Integer\+Degree\+To\+Gradian()}} for alias. 
-
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga87c3fab0867021e5d2501197b4db6194}{Degree\+To\+Gon()}} for conversion from decimal degrees. 
-
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_decimal_degree_gaeb333a1ad0aeb913c025fbd1be85fcb3}{Decimal\+Degree\+To\+Gon()}} for conversion from decimal degrees. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga69eb507d44c7a0bfc5660ed3ebcc2f1a}{Gon\+To\+Gradian()}} for alias. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga87c3fab0867021e5d2501197b4db6194}{Degree\+To\+Gon()}} for conversion from (decimal) degrees. 
 
@@ -481,27 +477,27 @@ Degrees\+Minutes\+Seconds\+To\+Gon() for conversion from degrees minutes seconds
 
 Compass\+Wind\+To\+Gon() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_ga47127467ff7a8ef57f6be9ce496a97df}\label{group___e_g_x_math-_angle_conversions-_integer_degree_ga47127467ff7a8ef57f6be9ce496a97df}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Gradian@{Integer\+Degree\+To\+Gradian}}
-\index{Integer\+Degree\+To\+Gradian@{Integer\+Degree\+To\+Gradian}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Gradian()}{IntegerDegreeToGradian()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_ga69eb507d44c7a0bfc5660ed3ebcc2f1a}\label{group___e_g_x_math-_angle_conversions-_gon_ga69eb507d44c7a0bfc5660ed3ebcc2f1a}} 
+\index{Gon@{Gon}!Gon\+To\+Gradian@{Gon\+To\+Gradian}}
+\index{Gon\+To\+Gradian@{Gon\+To\+Gradian}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Gradian()}{GonToGradian()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Gradian (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Gradian (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to gradian. \[\alpha_{g}=\alpha_{deg\ int}\frac{10}{9}\]. 
+Converts an angle in gradian to gradian. \[\alpha_{g}=\alpha_{g}\]. 
 
 See \href{https://en.wikipedia.org/wiki/Gradian}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Gradian} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 $\alpha_{g}\ (g)$ is the angle in gradians. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_ga6e5be425c37ad27319f09329156c64bb}{Integer\+Degree\+To\+Gon()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_ga9f2fb553662f3367fc65b5de24128a27}{Gon\+To\+Gon()}} for alias. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga25bb5506b3f66fff7a1b85bf7bd795b3}{Degree\+To\+Gradian()}} for conversion from (decimal) degrees. 
 
@@ -523,30 +519,30 @@ Degrees\+Minutes\+Seconds\+To\+Gradian() for conversion from degrees minutes sec
 
 Compass\+Wind\+To\+Gradian() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_gae6b79bd5a92f8c6942b9fc2c50695e6a}\label{group___e_g_x_math-_angle_conversions-_integer_degree_gae6b79bd5a92f8c6942b9fc2c50695e6a}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+H\+MS@{Integer\+Degree\+To\+H\+MS}}
-\index{Integer\+Degree\+To\+H\+MS@{Integer\+Degree\+To\+H\+MS}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+H\+M\+S()}{IntegerDegreeToHMS()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_gac7263c178052895c8b1a71190b62aabc}\label{group___e_g_x_math-_angle_conversions-_gon_gac7263c178052895c8b1a71190b62aabc}} 
+\index{Gon@{Gon}!Gon\+To\+H\+MS@{Gon\+To\+H\+MS}}
+\index{Gon\+To\+H\+MS@{Gon\+To\+H\+MS}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+H\+M\+S()}{GonToHMS()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-void E\+G\+X\+Math\+::\+Integer\+Degree\+To\+H\+MS (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree,  }\item[{T \&}]{hour,  }\item[{T \&}]{minute,  }\item[{T \&}]{second }\end{DoxyParamCaption})}
+void E\+G\+X\+Math\+::\+Gon\+To\+H\+MS (\begin{DoxyParamCaption}\item[{const T \&}]{gradian,  }\item[{T \&}]{hour,  }\item[{T \&}]{minute,  }\item[{T \&}]{second }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to hours minutes seconds (D\+MS). ${HH}^{h}{MM}^{m}{SS.SS}^{s}$ format. \[hour=trun(\frac{\alpha_{deg\ int}}{15})\] \[minute=trun(60 * |\frac{\alpha_{deg\ int}}{15} - hour|)\] \[second=60 * ((60 * |\frac{\alpha_{deg\ int}}{15} - hour|)-minute)\]. 
+Converts an angle in gradian to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. 
 
-See and \href{https://en.wikipedia.org/wiki/Right_ascension}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension} and \href{https://en.wikipedia.org/wiki/Hour_angle}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Hour\+\_\+angle} 
+
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
-{\em hour} & $hour\ (hour)$ is the angle in hours. \\
+{\em hour} & $hour\ (h)$ is the angle in hours in whole numbers. \\
 \hline
-{\em minute} & $minute\ (min)$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. \\
+{\em minute} & $minute\ (m)$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. \\
 \hline
-{\em second} & $second\ (sec)$ is the angle in seconds. Note that this is 1/60 of a minute, not arcminute. It is not equal to arcseconds. \\
+{\em second} & $second\ (s)$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds. \\
 \hline
 \end{DoxyParams}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gaaac96728b305fd8ed024843f4e92fd08}{Integer\+Degree\+To\+Hours\+Minutes\+Seconds()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gaafdd71fd185afe7aa91f5c3ca531b668}{Gon\+To\+Hours\+Minutes\+Seconds()}} for alias. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga0bb223ca6e77b00439a6d910ab32d82e}{Degree\+To\+H\+M\+S()}} for conversion from (decimal) degrees and full explination. 
 
@@ -568,30 +564,30 @@ Degrees\+Minutes\+Seconds\+To\+H\+M\+S() for conversion from degrees minutes sec
 
 Compass\+Wind\+To\+H\+M\+S() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_gaaac96728b305fd8ed024843f4e92fd08}\label{group___e_g_x_math-_angle_conversions-_integer_degree_gaaac96728b305fd8ed024843f4e92fd08}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Hours\+Minutes\+Seconds@{Integer\+Degree\+To\+Hours\+Minutes\+Seconds}}
-\index{Integer\+Degree\+To\+Hours\+Minutes\+Seconds@{Integer\+Degree\+To\+Hours\+Minutes\+Seconds}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Hours\+Minutes\+Seconds()}{IntegerDegreeToHoursMinutesSeconds()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_gaafdd71fd185afe7aa91f5c3ca531b668}\label{group___e_g_x_math-_angle_conversions-_gon_gaafdd71fd185afe7aa91f5c3ca531b668}} 
+\index{Gon@{Gon}!Gon\+To\+Hours\+Minutes\+Seconds@{Gon\+To\+Hours\+Minutes\+Seconds}}
+\index{Gon\+To\+Hours\+Minutes\+Seconds@{Gon\+To\+Hours\+Minutes\+Seconds}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Hours\+Minutes\+Seconds()}{GonToHoursMinutesSeconds()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-void E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Hours\+Minutes\+Seconds (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree,  }\item[{T \&}]{hour,  }\item[{T \&}]{minute,  }\item[{T \&}]{second }\end{DoxyParamCaption})}
+void E\+G\+X\+Math\+::\+Gon\+To\+Hours\+Minutes\+Seconds (\begin{DoxyParamCaption}\item[{const T \&}]{gradian,  }\item[{T \&}]{hour,  }\item[{T \&}]{minute,  }\item[{T \&}]{second }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to hours minutes seconds (D\+MS). ${HH}^{h}{MM}^{m}{SS.SS}^{s}$ format. \[hour=trun(\frac{\alpha_{deg\ int}}{15})\] \[minute=trun(60 * |\frac{\alpha_{deg\ int}}{15} - hour|)\] \[second=60 * ((60 * |\frac{\alpha_{deg\ int}}{15} - hour|)-minute)\]. 
+Converts an angle in gradian to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. 
 
-See and \href{https://en.wikipedia.org/wiki/Right_ascension}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension} and \href{https://en.wikipedia.org/wiki/Hour_angle}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Hour\+\_\+angle} 
+
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
-{\em hour} & $hour\ (hour)$ is the angle in hours. \\
+{\em hour} & $hour\ (h)$ is the angle in hours in whole numbers. \\
 \hline
-{\em minute} & $minute\ (min)$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. \\
+{\em minute} & $minute\ (m)$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. \\
 \hline
-{\em second} & $second\ (sec)$ is the angle in seconds. Note that this is 1/60 of a minute, not arcminute. It is not equal to arcseconds. \\
+{\em second} & $second\ (s)$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds. \\
 \hline
 \end{DoxyParams}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_integer_degree_gae6b79bd5a92f8c6942b9fc2c50695e6a}{Integer\+Degree\+To\+H\+M\+S()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gac7263c178052895c8b1a71190b62aabc}{Gon\+To\+H\+M\+S()}} for alias. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga770b13da33b6f6c7bfa398cca7f24dbe}{Degree\+To\+Hours\+Minutes\+Seconds()}} for conversion from (decimal) degrees and full explination. 
 
@@ -613,28 +609,26 @@ Degrees\+Minutes\+Seconds\+To\+Hours\+Minutes\+Seconds() for conversion from deg
 
 Compass\+Wind\+To\+Hours\+Minutes\+Seconds() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_gac9e870bdfa60dd2bb61469fdf6eedd7c}\label{group___e_g_x_math-_angle_conversions-_integer_degree_gac9e870bdfa60dd2bb61469fdf6eedd7c}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Integer\+Degree@{Integer\+Degree\+To\+Integer\+Degree}}
-\index{Integer\+Degree\+To\+Integer\+Degree@{Integer\+Degree\+To\+Integer\+Degree}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Integer\+Degree()}{IntegerDegreeToIntegerDegree()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_gaabbfaeef5b1ae1b3e58c5b4b15c8bdaf}\label{group___e_g_x_math-_angle_conversions-_gon_gaabbfaeef5b1ae1b3e58c5b4b15c8bdaf}} 
+\index{Gon@{Gon}!Gon\+To\+Integer\+Degree@{Gon\+To\+Integer\+Degree}}
+\index{Gon\+To\+Integer\+Degree@{Gon\+To\+Integer\+Degree}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Integer\+Degree()}{GonToIntegerDegree()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Integer\+Degree (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Integer\+Degree (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to integer degree. This rounds to the nearest integer. \[\alpha_{deg\ int}=\alpha_{deg int}\]. 
+Converts an angle in gradian to integer degree. \[\alpha_{deg\ int}=round(\alpha_{g}\frac{9}{10})\]. 
 
 See \href{https://en.wikipedia.org/wiki/Degree_(angle)}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Degree\+\_\+(angle)} and \href{https://en.wikipedia.org/wiki/Decimal_degrees}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Decimal\+\_\+degrees} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degree. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-$\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degree. 
+$\alpha_{deg\ int}\ (deg)$ is the angle in integer degrees. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-Decimal\+Degree\+Integer\+Degree() for alias. 
-
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_gaabd20f21be3c18ee423d0bc1a677c6f6}{Degree\+To\+Integer\+Degree()}} for conversion from (decimal) degrees. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_decimal_degree_ga115239ea7202dbc6a6c9fba68e0ac189}{Decimal\+Degree\+To\+Integer\+Degree()}} for conversion from decimal degrees. 
@@ -655,20 +649,20 @@ Degrees\+Minutes\+Seconds\+To\+Integer\+Degree() for conversion from degrees min
 
 Compass\+Wind\+To\+Integer\+Degree() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_ga69179d6082764595c7014805e1f6b31e}\label{group___e_g_x_math-_angle_conversions-_integer_degree_ga69179d6082764595c7014805e1f6b31e}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Microarcsecond@{Integer\+Degree\+To\+Microarcsecond}}
-\index{Integer\+Degree\+To\+Microarcsecond@{Integer\+Degree\+To\+Microarcsecond}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Microarcsecond()}{IntegerDegreeToMicroarcsecond()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_gae3f14ff3441def6d88fed69f2466cf82}\label{group___e_g_x_math-_angle_conversions-_gon_gae3f14ff3441def6d88fed69f2466cf82}} 
+\index{Gon@{Gon}!Gon\+To\+Microarcsecond@{Gon\+To\+Microarcsecond}}
+\index{Gon\+To\+Microarcsecond@{Gon\+To\+Microarcsecond}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Microarcsecond()}{GonToMicroarcsecond()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Microarcsecond (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Microarcsecond (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to microarcsecond. \[\alpha_{\mu as}=60 * 60 * 10^6 * \alpha_{deg\ int}\]. 
+Converts an angle in gradian to microarcsecond. \[\alpha_{\mu as}=\alpha_{g}\frac{9}{10} * 60 * 60 * 10^6\]. 
 
 See \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -695,20 +689,20 @@ Degrees\+Minutes\+Seconds\+To\+Microarcsecond() for conversion from degrees minu
 
 Compass\+Wind\+To\+Microarcsecond() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_gadc43f22e832cd8fcf16b7bd2269ae348}\label{group___e_g_x_math-_angle_conversions-_integer_degree_gadc43f22e832cd8fcf16b7bd2269ae348}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Milliarcsecond@{Integer\+Degree\+To\+Milliarcsecond}}
-\index{Integer\+Degree\+To\+Milliarcsecond@{Integer\+Degree\+To\+Milliarcsecond}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Milliarcsecond()}{IntegerDegreeToMilliarcsecond()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_ga63013f99af7ec2b9628b8b87eb2e2a92}\label{group___e_g_x_math-_angle_conversions-_gon_ga63013f99af7ec2b9628b8b87eb2e2a92}} 
+\index{Gon@{Gon}!Gon\+To\+Milliarcsecond@{Gon\+To\+Milliarcsecond}}
+\index{Gon\+To\+Milliarcsecond@{Gon\+To\+Milliarcsecond}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Milliarcsecond()}{GonToMilliarcsecond()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Milliarcsecond (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Milliarcsecond (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degree to milliarcsecond. \[\alpha_{mas}=60 * 60 * 10^3 * \alpha_{deg\ int} \]. 
+Converts an angle in gradian to milliarcsecond. \[\alpha_{mas}=\alpha_{g}\frac{9}{10} * 60 * 60 * 10^3\]. 
 
 See \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -735,27 +729,27 @@ Degrees\+Minutes\+Seconds\+To\+Milliarcsecond() for conversion from degrees minu
 
 Compass\+Wind\+To\+Milliarcsecond() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_ga5379a68bdff5cc4fab5bb1ba06ef9453}\label{group___e_g_x_math-_angle_conversions-_integer_degree_ga5379a68bdff5cc4fab5bb1ba06ef9453}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Milliradian@{Integer\+Degree\+To\+Milliradian}}
-\index{Integer\+Degree\+To\+Milliradian@{Integer\+Degree\+To\+Milliradian}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Milliradian()}{IntegerDegreeToMilliradian()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_gae5956f7e80b143f3cc22eb8122c1b745}\label{group___e_g_x_math-_angle_conversions-_gon_gae5956f7e80b143f3cc22eb8122c1b745}} 
+\index{Gon@{Gon}!Gon\+To\+Milliradian@{Gon\+To\+Milliradian}}
+\index{Gon\+To\+Milliradian@{Gon\+To\+Milliradian}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Milliradian()}{GonToMilliradian()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Milliradian (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Milliradian (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degrees to milliradians. \[\alpha_{mrad}=\alpha_{deg\ int}\frac{\pi}{180}*10^3\]. 
+Converts an angle in gradian to milliradian. \[\alpha_{mrad}=\alpha_{g}\frac{\pi}{200}*10^3\]. 
 
 See \href{https://en.wikipedia.org/wiki/Milliradian}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Milliradian} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 $\alpha_{mrad}\ (mrad)$ is the angle in milliradians. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga48585541b228c852c9d08a9eac3682f0}{Degree\+To\+Radian()}} for conversion to radians. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gafdf7d525a98427da55b86ff420a5ec86}{Gon\+To\+Radian()}} for conversion to radians. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_gae4fa6c2d3805430760783650cfbfdb11}{Degree\+To\+Milliradian()}} for conversion from (decimal) degrees. 
 
@@ -777,27 +771,27 @@ Degrees\+Minutes\+Seconds\+To\+Milliradian() for conversion from degrees minutes
 
 Compass\+Wind\+To\+Milliradian() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_ga05d3368b00ea27b9895de2ffe5c8df38}\label{group___e_g_x_math-_angle_conversions-_integer_degree_ga05d3368b00ea27b9895de2ffe5c8df38}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Radian@{Integer\+Degree\+To\+Radian}}
-\index{Integer\+Degree\+To\+Radian@{Integer\+Degree\+To\+Radian}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Radian()}{IntegerDegreeToRadian()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_gafdf7d525a98427da55b86ff420a5ec86}\label{group___e_g_x_math-_angle_conversions-_gon_gafdf7d525a98427da55b86ff420a5ec86}} 
+\index{Gon@{Gon}!Gon\+To\+Radian@{Gon\+To\+Radian}}
+\index{Gon\+To\+Radian@{Gon\+To\+Radian}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Radian()}{GonToRadian()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Radian (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Radian (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degrees to radians. \[\alpha_{rad}=\alpha_{deg\ int}\frac{\pi}{180}\]. 
+Converts an angle in gradian to radian. \[\alpha_{rad}=\alpha_{g}\frac{\pi}{200}\]. 
 
 See \href{https://en.wikipedia.org/wiki/Radian}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Radian} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 $\alpha_{rad}\ (rad)$ is the angle in radians. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_gae4fa6c2d3805430760783650cfbfdb11}{Degree\+To\+Milliradian()}} for conversion to milliradians. 
+\mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_gon_gae5956f7e80b143f3cc22eb8122c1b745}{Gon\+To\+Milliradian()}} for conversion to milliradians. 
 
 \mbox{\hyperlink{group___e_g_x_math-_angle_conversions-_degree_ga48585541b228c852c9d08a9eac3682f0}{Degree\+To\+Radian()}} for conversion from (decimal) degrees. 
 
@@ -819,20 +813,20 @@ Degrees\+Minutes\+Seconds\+To\+Radian() for conversion from degrees minutes seco
 
 Compass\+Wind\+To\+Radian() for conversion from compass wind. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_integer_degree_ga06ddbdada5a3978105c855d4aae735ae}\label{group___e_g_x_math-_angle_conversions-_integer_degree_ga06ddbdada5a3978105c855d4aae735ae}} 
-\index{Integer Degree@{Integer Degree}!Integer\+Degree\+To\+Turn@{Integer\+Degree\+To\+Turn}}
-\index{Integer\+Degree\+To\+Turn@{Integer\+Degree\+To\+Turn}!Integer Degree@{Integer Degree}}
-\subsubsection{\texorpdfstring{Integer\+Degree\+To\+Turn()}{IntegerDegreeToTurn()}}
+\mbox{\Hypertarget{group___e_g_x_math-_angle_conversions-_gon_gae55acf3fc27d34374b5ec10e0a471b3b}\label{group___e_g_x_math-_angle_conversions-_gon_gae55acf3fc27d34374b5ec10e0a471b3b}} 
+\index{Gon@{Gon}!Gon\+To\+Turn@{Gon\+To\+Turn}}
+\index{Gon\+To\+Turn@{Gon\+To\+Turn}!Gon@{Gon}}
+\subsubsection{\texorpdfstring{Gon\+To\+Turn()}{GonToTurn()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Integer\+Degree\+To\+Turn (\begin{DoxyParamCaption}\item[{const T \&}]{integer\+Degree }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Gon\+To\+Turn (\begin{DoxyParamCaption}\item[{const T \&}]{gradian }\end{DoxyParamCaption})}
 
 
 
-Converts an angle in integer degrees to turn. \[\alpha_{turn}=\alpha_{deg\ int}\frac{1}{360}\]. 
+Converts an angle in gradian to turn. \[\alpha_{turn}=\alpha_{g}\frac{1}{400}\]. 
 
 See \href{https://en.wikipedia.org/wiki/Turn_(geometry)}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Turn\+\_\+(geometry)} 
 \begin{DoxyParams}{Parameters}
-{\em integer\+Degree} & $\alpha_{deg\ int}\ (deg\ int)$ is the angle in integer degrees. \\
+{\em gradian} & $\alpha_{g}\ (gon)$ is the angle in gradians. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}

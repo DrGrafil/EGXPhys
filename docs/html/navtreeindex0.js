@@ -137,6 +137,8 @@ var NAVTREEINDEX0 =
 "_e_g_x_phys_constants_8hpp_source.html":[2,0,0,12],
 "_eccentricity_8hpp.html":[2,0,0,1,10],
 "_eccentricity_8hpp_source.html":[2,0,0,1,10],
+"_gon_conversion_8hpp_source.html":[2,0,0,3,0,0,2],
+"_gradian_conversion_8hpp_source.html":[2,0,0,3,0,0,3],
 "_half_life_8hpp.html":[2,0,0,2,6],
 "_half_life_8hpp.html#ga21d268f154fb91c1c556bbfa7fe83ac1":[2,0,0,2,6,0],
 "_half_life_8hpp.html#gaba3fda944d1a68ee1016a1f2f5809359":[2,0,0,2,6,1],
@@ -146,7 +148,7 @@ var NAVTREEINDEX0 =
 "_half_life_8inl.html#ga21d268f154fb91c1c556bbfa7fe83ac1":[2,0,0,2,7,0],
 "_half_life_8inl.html#gaba3fda944d1a68ee1016a1f2f5809359":[2,0,0,2,7,1],
 "_half_life_8inl.html#gacddef16b62e98b214ec8dd8af7da7dce":[2,0,0,2,7,2],
-"_integer_degree_conversion_8hpp_source.html":[2,0,0,3,0,0,2],
+"_integer_degree_conversion_8hpp_source.html":[2,0,0,3,0,0,4],
 "_kinematics_8hpp.html":[2,0,0,4,0],
 "_kinematics_8hpp_source.html":[2,0,0,4,0],
 "_kinematics_constants_8hpp.html":[2,0,0,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "_n_i_s_t_const_8hpp.html#ga296bbfcb4bd095c1167efa636898632c":[2,0,0,5,0,220],
 "_n_i_s_t_const_8hpp.html#ga2affce442da8b445cce1c580b41bbd82":[2,0,0,5,0,297],
 "_n_i_s_t_const_8hpp.html#ga2bb8e56daaa602b5097d38b2d1ca32ad":[2,0,0,5,0,247],
-"_n_i_s_t_const_8hpp.html#ga2c0f984bb3ae4dd8ca2696d4fec8f9bf":[2,0,0,5,0,85],
-"_n_i_s_t_const_8hpp.html#ga2c815ce73f942601621223bef09be40a":[2,0,0,5,0,8],
-"_n_i_s_t_const_8hpp.html#ga2c9773ce81cfbe85e9042adccd788589":[2,0,0,5,0,86]
+"_n_i_s_t_const_8hpp.html#ga2c0f984bb3ae4dd8ca2696d4fec8f9bf":[2,0,0,5,0,85]
 };

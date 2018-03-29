@@ -384,6 +384,7 @@ namespace EGXMath
 	*   @brief Converts an angle in turn to gradian.
 	*		\f[\alpha_{g}=400\alpha_{turn}\f]
 	*
+	*	See https://en.wikipedia.org/wiki/Gradian
 	*   @param turn \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see TurnToGon() for alias.
@@ -405,6 +406,7 @@ namespace EGXMath
 	*   @brief Converts an angle in turn to gradian.
 	*		\f[\alpha_{g}=400\alpha_{turn}\f]
 	*
+	*	See https://en.wikipedia.org/wiki/Gradian
 	*   @param turn \f$\alpha_{turn}\ (turn)\f$ is the angle in turns.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see TurnToGradian() for alias.

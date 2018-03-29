@@ -383,6 +383,7 @@ namespace EGXMath
 	*   @brief Converts an angle in radian to gradian.
 	*		\f[\alpha_{g}=\alpha_{rad}\frac{200}{\pi}\f]
 	*
+	*	See https://en.wikipedia.org/wiki/Gradian
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see RadianToGon() for alias.
@@ -404,6 +405,7 @@ namespace EGXMath
 	*   @brief Converts an angle in radian to gradian.
 	*		\f[\alpha_{g}=\alpha_{rad}\frac{200}{\pi}\f]
 	*
+	*	See https://en.wikipedia.org/wiki/Gradian
 	*   @param radian \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
 	*   @return \f$\alpha_{g}\ (g)\f$ is the angle in gradians.
 	*	@see RadianToGradian() for alias.

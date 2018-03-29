@@ -174,6 +174,8 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DecimalDegreeConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DegreeConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\GonConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\GradianConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\IntegerDegreeConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\RadianConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\TurnConversion.hpp" />
@@ -254,6 +256,8 @@
     <None Include="..\..\EGXPhys\Atomic\SemiEmpiricalMassFormula.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DecimalDegreeConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\DegreeConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\GonConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\GradianConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\IntegerDegreeConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\RadianConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngularConversions\TurnConversion.inl" />
