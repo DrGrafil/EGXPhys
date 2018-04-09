@@ -428,9 +428,6 @@
     <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Sphere.cpp">
       <Filter>EGXPhys\EGXMath\Geometry</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Functions\Functions.cpp">
-      <Filter>EGXPhys\EGXMath\Functions</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\EGXPhys\EGXMath\Random\QuickRand.cpp">
       <Filter>EGXPhys\EGXMath\Random</Filter>
     </ClCompile>

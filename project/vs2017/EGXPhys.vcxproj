@@ -250,7 +250,6 @@
     <ClInclude Include="..\..\tests\Optics\RedshiftTests.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Functions\Functions.cpp" />
     <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Circle.cpp" />
     <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Cone.cpp" />
     <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Cube.cpp" />

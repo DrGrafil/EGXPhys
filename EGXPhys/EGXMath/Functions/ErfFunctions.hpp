@@ -29,7 +29,7 @@ namespace EGXMath
 	/// @{
 
 	/**
-	*   @brief Error function, the cummlitive distribution function for a guassian/normal distribution.
+	*   @brief Error function. The cummlitive distribution function for a guassian/normal distribution.
 	*		\f[ erf(x)\equiv \frac{2}{\sqrt{\pi}}\int_0^x e^{-t^2}dt\f]
 	*
 	*	See http://mathworld.wolfram.com/Erf.html
@@ -44,7 +44,7 @@ namespace EGXMath
 	T Erf(const T& x);
 	
 	/**
-	*   @brief Inverese error function, the inverse of the error function.
+	*   @brief Inverese error function. The inverse of the error function.
 	*		\f[ erf^{-1}(erf(x)) = x]
 	*
 	*	See http://mathworld.wolfram.com/InverseErf.html
@@ -75,7 +75,7 @@ namespace EGXMath
 	T Erfc(const T& x);
 	
 	/**
-	*   @brief Inverse complementary error function.
+	*   @brief Inverse complementary error function. The inverse of the complementary error function.
 	*		\f[erfc^{-1}(erfc(x)) = x\f]
 	*
 	*	See http://mathworld.wolfram.com/InverseErfc.html

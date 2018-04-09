@@ -1,12 +1,12 @@
 /// @file EGXMath/Conversions/AngleConversions/HMSConversion.hpp
 ///
-/// @brief Converts angle measurements in hours minutes seconds into various styles such as radians, degrees, DMS, HMS.
+/// @brief Defines functions relating to the sign function.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 3/29/18
+/// @date 4/9/18
 
-/// @defgroup EGXMath-AngleConversions-HMS HMS
-/// @ingroup EGXMath-AngleConversions
+/// @defgroup EGXMath-Functions-Sign Sign
+/// @ingroup EGXMath-Functions
 
 
 //=================================
@@ -27,7 +27,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-AngleConversions-HMS
+	/// @addtogroup EGXMath-Functions-Sign
 	/// @{
 
 	/**
