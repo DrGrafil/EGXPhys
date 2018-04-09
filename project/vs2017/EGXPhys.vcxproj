@@ -188,8 +188,6 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\ConversionsConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp" />
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\Erf.hpp" />
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\Erf2.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\Functions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\GaussianFunctions.hpp" />

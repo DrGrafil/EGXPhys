@@ -366,9 +366,6 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Sphere.hpp">
       <Filter>EGXPhys\EGXMath\Geometry</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\Erf.hpp">
-      <Filter>EGXPhys\EGXMath\Functions</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\Functions.hpp">
       <Filter>EGXPhys\EGXMath\Functions</Filter>
     </ClInclude>
@@ -386,9 +383,6 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Random\simplexnoise.h">
       <Filter>EGXPhys\EGXMath\Random</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\Erf2.hpp">
-      <Filter>EGXPhys\EGXMath\Functions</Filter>
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.hpp">
       <Filter>EGXPhys\EGXMath\Functions</Filter>

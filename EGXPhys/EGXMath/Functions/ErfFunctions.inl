@@ -18,7 +18,7 @@ namespace EGXMath {
 
 	//Inverse
 	template <typename T>
-	T InverseErfc(T x)
+	T InverseErfc(const T& x)
 	{
 		T sign = 1.0;
 		if (x < 1.0)
@@ -38,7 +38,7 @@ namespace EGXMath {
 	}
 
 	template <typename T>
-	T InverseErf(T x)
+	T InverseErf(const T& x)
 	{
 		InverseErfc(1.0 - x);
 	}
