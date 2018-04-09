@@ -188,6 +188,28 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\ConversionsConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\Erf.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\Erf2.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\Functions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\GaussianFunctions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\LogFunctions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\PeriodicFunctions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Circle.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Cone.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Cube.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Cuboid.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Cylinder.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Ellipse.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Ellipsoid.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Geometry.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Sphere.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Random\QuickRand.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Random\Random.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Random\RandomNumber.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Random\Shuffle.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Random\simplexnoise.h" />
     <ClInclude Include="..\..\EGXPhys\EGXPhys.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXPhysConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\Kinematics\Kinematics.hpp" />
@@ -230,6 +252,19 @@
     <ClInclude Include="..\..\tests\Optics\RedshiftTests.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Functions\Functions.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Circle.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Cone.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Cube.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Cuboid.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Cylinder.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Ellipse.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Ellipsoid.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Sphere.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Random\QuickRand.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Random\RandomNumber.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Random\RandomPDFFunctions.cpp" />
+    <ClCompile Include="..\..\EGXPhys\EGXMath\Random\simplexnoise.cpp" />
     <ClCompile Include="..\..\tests\unitTest.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -271,6 +306,11 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\IntegerDegreeConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\RadianConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\TurnConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Functions\GaussianFunctions.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Functions\LogFunctions.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Functions\PeriodicFunctions.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.inl" />
     <None Include="..\..\EGXPhys\Optics\Redshift.inl" />
     <None Include="..\..\EGXPhys\Relativity\LorentzTransformations.inl" />
   </ItemGroup>

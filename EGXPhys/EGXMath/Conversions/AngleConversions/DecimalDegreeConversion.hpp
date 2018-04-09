@@ -341,7 +341,7 @@ namespace EGXMath
 	void DecimalDegreeToDMS(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond);
 
 	/**
-	*   @brief Converts an angle in decimal degree to hours minutes seconds (DMS). \f${HH}^{h}{MM}^{m}{SS.SS}^{s}\f$ format.
+	*   @brief Converts an angle in decimal degree to hours minutes seconds (HMS). \f${HH}^{h}{MM}^{m}{SS.SS}^{s}\f$ format.
 	*		\f[hour=trun(\frac{\alpha_{deg}}{15})\f]
 	*		\f[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\f]
 	*		\f[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\f]
@@ -371,7 +371,7 @@ namespace EGXMath
 
 
 	/**
-	*   @brief Converts an angle in decimal degree to hours minutes seconds (DMS). \f${HH}^{h}{MM}^{m}{SS.SS}^{s}\f$ format.
+	*   @brief Converts an angle in decimal degree to hours minutes seconds (HMS). \f${HH}^{h}{MM}^{m}{SS.SS}^{s}\f$ format.
 	*		\f[hour=trun(\frac{\alpha_{deg}}{15})\f]
 	*		\f[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\f]
 	*		\f[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\f]

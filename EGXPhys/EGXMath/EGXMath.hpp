@@ -23,4 +23,7 @@
 #include "EGXMathConstants.hpp"
 
 #include "./Conversions/Conversions.hpp"
+#include "./Functions/Functions.hpp"
+#include "./Geometry/Geometry.hpp"
+#include "./Random/Random.hpp"
 
