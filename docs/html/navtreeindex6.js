@@ -34,7 +34,10 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_apoapsis.html#gae4ea146039e6f32022321f0998e715e8":[1,1,1,1,6],
 "group___e_g_x_phys-_apoapsis.html#gaf962e650bf84a568458e8eb39b1c61ba":[1,1,1,1,2],
 "group___e_g_x_phys-_astrophysics-_declination.html":[1,1,1,4],
-"group___e_g_x_phys-_astrophysics-_declination.html#gadcadb4f709a5115a8edb18c872af9eda":[1,1,1,4,0],
+"group___e_g_x_phys-_astrophysics-_declination.html#ga2f4a254231601709112351afad3e504c":[1,1,1,4,2],
+"group___e_g_x_phys-_astrophysics-_declination.html#ga6d607dacfbbdd0b1e0f18b746cabd712":[1,1,1,4,0],
+"group___e_g_x_phys-_astrophysics-_declination.html#ga9966c20d61a2f1846a338383f695c1e5":[1,1,1,4,1],
+"group___e_g_x_phys-_astrophysics-_declination.html#gac0f1fab204ea5ae84b6723f857b89318":[1,1,1,4,3],
 "group___e_g_x_phys-_astrophysics-_right_ascension.html":[1,1,1,12],
 "group___e_g_x_phys-_astrophysics-_right_ascension.html#ga30e95e529dac871efc014c8ca0108c0d":[1,1,1,12,2],
 "group___e_g_x_phys-_astrophysics-_right_ascension.html#ga50c306a7d118d3b3c02bc3621e1cb078":[1,1,1,12,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX6 =
 "group___n_i_s_t_const-_deuteron.html#ga6b5a049d972613d8d885f53880399100":[1,2,2,3,7],
 "group___n_i_s_t_const-_deuteron.html#ga6eb7ee28bf12ef4d2e7acf59d29f6450":[1,2,2,3,4],
 "group___n_i_s_t_const-_deuteron.html#ga975b6e46b7ceaa0780c4b066a52444b7":[1,2,2,3,2],
-"group___n_i_s_t_const-_deuteron.html#ga995aff603756394740d5eacd29265d20":[1,2,2,3,8],
-"group___n_i_s_t_const-_deuteron.html#gaa01fffefa3ab64430fabf08808572689":[1,2,2,3,0],
-"group___n_i_s_t_const-_deuteron.html#gaac523a6a3c61390396544e4b0acb3c05":[1,2,2,3,12],
-"group___n_i_s_t_const-_deuteron.html#gaad8a0231ec17f5669c9c22a4daba5a77":[1,2,2,3,11]
+"group___n_i_s_t_const-_deuteron.html#ga995aff603756394740d5eacd29265d20":[1,2,2,3,8]
 };

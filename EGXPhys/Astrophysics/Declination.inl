@@ -10,23 +10,23 @@ namespace EGXPhys{
 	// https://physics.stackexchange.com/questions/224950/how-can-i-convert-right-ascension-and-declination-to-distances helpful
 
 	template<typename T>
-	T DeclinationToDegree(const T& integerDegrees, const T& arcminutes, const T& arcseconds) {
-		return EGXMath::DegreesMinutesSecondsToDegree(integerDegrees, arcminutes, arcseconds);
+	T DeclinationToDegree(const T& integerDegree, const T& arcminute, const T& arcsecond) {
+		return EGXMath::DegreesMinutesSecondsToDegree(integerDegree, arcminute, arcsecond);
 	}
 
 	template<typename T>
-	T DeclinationToRadian(const T& integerDegrees, const T& arcminutes, const T& arcseconds) {
-		return EGXMath::DegreesMinutesSecondsToRadian(integerDegrees, arcminutes, arcseconds);
+	T DeclinationToRadian(const T& integerDegree, const T& arcminute, const T& arcsecond) {
+		return EGXMath::DegreesMinutesSecondsToRadian(integerDegree, arcminute, arcsecond);
 	}
 
 	template<typename T>
-	void DegreeToDeclination(const T& decimalDegree, T& degrees, T& arcminutes, T& arcseconds) {
-		EGXMath::DegreeToDegreesMinutesSeconds(decimalDegree, degrees, arcminutes, arcseconds);
+	void DegreeToDeclination(const T& decimalDegree, T& integerDegrees, T& arcminute, T& arcsecond) {
+		EGXMath::DegreeToDegreesMinutesSeconds(decimalDegree, integerDegree, arcminute, arcsecond);
 	}
 
 	template<typename T>
-	void RadianToDeclination(const T& radians, T& degrees, T& arcminutes, T& arcseconds) {
-		EGXMath::RadianToDegreesMinutesSeconds(radians, degrees, arcminutes, arcseconds);
+	void RadianToDeclination(const T& radian, T& integerDegrees, T& arcminute, T& arcsecond) {
+		EGXMath::RadianToDegreesMinutesSeconds(radian, integerDegree, arcminute, arcsecond);
 	}
 
 }//namespace EGXPhys

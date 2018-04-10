@@ -15,6 +15,7 @@ var searchData=
   ['radiantobinarydegree',['RadianToBinaryDegree',['../group___e_g_x_math-_angle_conversions-_radian.html#ga13311d9b6977d514f1d6c336e7c0162b',1,'EGXMath']]],
   ['radiantocompasswind',['RadianToCompassWind',['../group___e_g_x_math-_angle_conversions-_radian.html#ga4d845b171148481aa7e85018d6dad035',1,'EGXMath']]],
   ['radiantodecimaldegree',['RadianToDecimalDegree',['../group___e_g_x_math-_angle_conversions-_radian.html#ga6d170f1882c32de53167c04524d05f67',1,'EGXMath']]],
+  ['radiantodeclination',['RadianToDeclination',['../group___e_g_x_phys-_astrophysics-_declination.html#gac0f1fab204ea5ae84b6723f857b89318',1,'EGXPhys']]],
   ['radiantodegree',['RadianToDegree',['../group___e_g_x_math-_angle_conversions-_radian.html#ga25bbce6cdc1c3621f2a158d320e3bc45',1,'EGXMath']]],
   ['radiantodegreesminutesseconds',['RadianToDegreesMinutesSeconds',['../group___e_g_x_math-_angle_conversions-_radian.html#gadae98c255924fdc8b232b6539eae81a9',1,'EGXMath']]],
   ['radiantodms',['RadianToDMS',['../group___e_g_x_math-_angle_conversions-_radian.html#gaf80be0c5c65ccaa5544a08a7754f3575',1,'EGXMath']]],

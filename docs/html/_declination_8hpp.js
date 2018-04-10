@@ -1,7 +1,7 @@
 var _declination_8hpp =
 [
-    [ "DeclinationToDegree", "_declination_8hpp.html#gadcadb4f709a5115a8edb18c872af9eda", null ],
-    [ "DeclinationToRadian", "_declination_8hpp.html#gaeddd0fbc1c695863bf2bbc2a948b9b59", null ],
-    [ "DegreeToDeclination", "_declination_8hpp.html#ga4f3c37a00f59722857bcd4e6acd01865", null ],
-    [ "RadianToDeclination", "_declination_8hpp.html#gaa91fc4b5a4ac9e9dc94aff7b8f6f9bd1", null ]
+    [ "DeclinationToDegree", "_declination_8hpp.html#ga6d607dacfbbdd0b1e0f18b746cabd712", null ],
+    [ "DeclinationToRadian", "_declination_8hpp.html#ga9966c20d61a2f1846a338383f695c1e5", null ],
+    [ "DegreeToDeclination", "_declination_8hpp.html#ga2f4a254231601709112351afad3e504c", null ],
+    [ "RadianToDeclination", "_declination_8hpp.html#gac0f1fab204ea5ae84b6723f857b89318", null ]
 ];

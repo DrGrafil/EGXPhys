@@ -41,8 +41,8 @@ var NAVTREEINDEX =
 "_periapsis_8inl.html#ga237e7af3794202c67e65f64f4c8abc2a",
 "_turn_conversion_8inl.html#gad6aa9bdde2cde17cec136b24ee017bba",
 "group___e_g_x_math-_functions-_periodic.html#gafa81ebd66ef7cd080370fad972d6ac50",
-"group___n_i_s_t_const-_deuteron.html#gabe2731d4997c2227da2cc2d7e7cda194",
-"group___n_i_s_t_const-_proton.html#ga8b54a81cc7dec7f196f874dcc81dbab2"
+"group___n_i_s_t_const-_deuteron.html#gaa01fffefa3ab64430fabf08808572689",
+"group___n_i_s_t_const-_proton.html#ga6b8624fb113601433f311bb5d3423115"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
