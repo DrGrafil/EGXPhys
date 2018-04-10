@@ -1,6 +1,6 @@
-/// @file EGXMath/Conversions/AngleConversions/HMSConversion.hpp
+/// @file EGXMath/Functions/PeriodicFunctions.hpp
 ///
-/// @brief Defines functions relating to the periodic functions.
+/// @brief Defines functions relating to periodic functions.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 4/9/18
@@ -15,8 +15,6 @@
 //=================================
 // Included dependencies
 #include <math.h>  
-#include <string>
-#include "../../EGXMathConstants.hpp"
 
 //=================================
 // Forward declared dependencies
@@ -31,55 +29,66 @@ namespace EGXMath
 	/// @{
 
 	/**
-	*   @brief Converts an angle in hours minutes seconds to radian.
-	*		\f[\alpha_{rad}=\alpha_{rad}\f]
+	*   @brief Sawtooth wave function. Periodic function with a perodicity of \f$T\f$. Values range from -1 to 1.
+	*		\f[sawtooth(x)=2(\frac{x}{T} - floor(\frac{x}{T} + \frac{1}{2})\f]
 	*
-	*	See https://en.wikipedia.org/wiki/Radian
-	*	@param hour \f$hour\ (h)\f$ is the angle in hours in whole numbers.
-	*	@param minute \f$minute\ (m)\f$ is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes.
-	*   @param second \f$second\ (s)\f$ is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds.
-	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@see HMSToMilliradian() for conversion to milliradians.
-	*	@see DegreeToRadian() for conversion from (decimal) degrees.
-	*	@see DecimalDegreeToRadian() for conversion from decimal degrees.
-	*	@see RadianToRadian() for conversion from radians.
-	*	@see IntegerDegreeToRadian() for conversion from integer degrees.
-	*	@see BinaryDegreeToRadian() for conversion from binary degrees.
-	*	@see TurnToRadian() for conversion from turns.
-	*	@see GradianToRadian() for conversion from gradians.
-	*	@see HoursMinutesSecondsToRadian() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToRadian() for conversion from degrees minutes seconds.
-	*	@see CompassWindToRadian() for conversion from compass wind.
+	*	See http://mathworld.wolfram.com/SawtoothWave.html and https://en.wikipedia.org/wiki/Sawtooth_wave
+	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function.
+	*	@param period \f$T\ (dimensionless)\f$ is the period of the periodic function. After how much should the function repeate.
+	*   @return \f$sawtooth(x)\ (dimensionless)\f$ the value of the sawthooth wave function at x. Ranges from -1 to 1 with a periodicity of period.
+	*	@see SquareWave() for square wave function.
+	*	@see TriangleWave() for triangle wave function.
+	*	@see HeavisideStep() for heaviside step function.
 	*/
-	template<typename T>
-	T HMSToRadian(const T& hour, const T& minute, const T& second);
-	/*Sawtooth wave, -1,1 with a period of period*/
 	template <typename T>
-	T SawtoothWave(T x, T period)
-	{
-		return 2.0*(x / period - floor(x / period + 0.5));
-	}
-	/*Square wave, -1,1 with a period of period*/
-	template <typename T>
-	T SquareWave(T x, T period)
-	{
-		return QuickSign(sin(2.0 * pi * x / period));
-	}
+	T SawtoothWave(const T& x, const T& period);
 
-	/*Triangle wave, -1,1 with a period of period*/
+	/**
+	*   @brief Square wave function. Periodic function with a perodicity of \f$T\f$. Values range from -1 to 1.
+	*		\f[square(x)= sign( sin (\frac{2 \pi x}{T}) \f]
+	*
+	*	See http://mathworld.wolfram.com/SquareWave.html and https://en.wikipedia.org/wiki/Square_wave
+	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function.
+	*	@param period \f$T\ (dimensionless)\f$ is the period of the periodic function. After how much should the function repeate.
+	*   @return \f$square(x)\ (dimensionless)\f$ the value of the square wave function at x. Ranges from -1 to 1 with a periodicity of period.
+	*	@see SawtoothWave() for sawtooth wave function.
+	*	@see TriangleWave() for triangle wave function.
+	*	@see HeavisideStep() for heaviside step function.
+	*/
 	template <typename T>
-	T TriangleWave(T x, T period)
-	{
-		return 2.0 * fabs(SawtoothWave(x + (period / 4.0), period)) + 1.0;
-	}
+	T SquareWave(const T& x, const T& period);
 
+	/**
+	*   @brief Triangle wave function. Periodic function with a perodicity of \f$T\f$. Values range from -1 to 1.
+	*		\f[triangle(x)= \frac{4}{T}(x-\frac{T}{2} floor(\frac{2 x}{T}+\frac{1}{2}) )(-1)^{floor(\frac{2 x}{T}+\frac{1}{2})} \f]
+	*
+	*	See http://mathworld.wolfram.com/TriangleWave.html and https://en.wikipedia.org/wiki/Triangle_wave
+	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function.
+	*	@param period \f$T\ (dimensionless)\f$ is the period of the periodic function. After how much should the function repeate.
+	*   @return \f$triangle(x)\ (dimensionless)\f$ the value of the triangle wave function at x. Ranges from -1 to 1 with a periodicity of period.
+	*	@see SawtoothWave() for sawtooth wave function.
+	*	@see SquareWave() for square wave function.
+	*	@see TriangleWave() for triangle wave function.
+	*	@see HeavisideStep() for heaviside step function.
+	*/
 	template <typename T>
-	T HeavisideStep(T x)
-	{
-		return (x >= 0);
-	}
+	T TriangleWave(const T& x, const T& period);
+	
+	/**
+	*   @brief Heaviside step function. Values range from 0 to 1.
+	*		\f[H(x)=\begin{cases} 0, & x < 0, \\ 1, & x \ge 0, \end{cases} \f]
+	*
+	*	See http://mathworld.wolfram.com/HeavisideStepFunction.html and https://en.wikipedia.org/wiki/Heaviside_step_function
+	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function.
+	*   @return \f$H(x)\ (dimensionless)\f$ the value of the heaviside step function at x. Ranges from -1 to 1 with a periodicity of period.
+	*	@see SawtoothWave() for sawtooth wave function.
+	*	@see SquareWave() for square wave function.
+	*	@see TriangleWave() for triangle wave function.
+	*/
+	template <typename T>
+	T HeavisideStep(const T& x);
 
     /// @}
 } //namespace EGXMath
 
-#include "HMSConversion.inl"
+#include "PeriodicFunctions.inl"

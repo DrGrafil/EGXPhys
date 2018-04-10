@@ -34,7 +34,7 @@ namespace EGXMath
 	*		\f[signedLog(x)= sign(x)*\int_{1}^{|x|}\frac{1}{t} dt\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Logarithm and http://mathworld.wolfram.com/NaturalLogarithm.html
-	*	@param argument \f$x\ (dimensionless)\f$ is the argument of the function. Inputting 0 results in an error.
+	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function. Inputting 0 results in an error.
 	*   @return \f$signedLog(x)\ (dimensionless)\f$ is the signed log of x in base e.
 	*/
 	template<typename T>
@@ -45,7 +45,7 @@ namespace EGXMath
 	*		\f[signedLog(x)= sign(x)*\frac{Log_e(|x|)}{Log_e(base)}\f]
 	*
 	*	See https://en.wikipedia.org/wiki/Logarithm and http://mathworld.wolfram.com/NaturalLogarithm.html
-	*	@param argument \f$x\ (dimensionless)\f$ is the argument of the function. Inputting 0 results in an error.
+	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function. Inputting 0 results in an error.
 	*	@param base base\ (dimensionless)\f$ is the base that the log is taken in. Base is a positive real number.
 	*   @return \f$signedLog(x)\ (dimensionless)\f$ is the signed log of x in base.
 	*/

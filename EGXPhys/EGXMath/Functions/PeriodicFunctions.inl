@@ -1,36 +1,35 @@
-/// @file EGXMath/Conversions/AngleConversions/HMSConversion.inl
+/// @file EGXMath/Functions/PeriodicFunctions.inl
 ///
-/// @brief Implimentation of hours minutes seconds conversions.
+/// @brief Implimentation of functions related to the log function.
 /// @author Elliot Grafil (Metex)
-/// @date 3/29/18
+/// @date 4/9/18
 
 
 namespace EGXMath {
 
-	/*Sawtooth wave, -1,1 with a period of period*/
 	template <typename T>
-	T SawtoothWave(T x, T period)
+	T SawtoothWave(const T& x, const T& period)
 	{
 		return 2.0*(x / period - floor(x / period + 0.5));
 	}
-	/*Square wave, -1,1 with a period of period*/
+
 	template <typename T>
-	T SquareWave(T x, T period)
+	T SquareWave(const T& x, const T& period)
 	{
 		return QuickSign(sin(2.0 * pi * x / period));
 	}
 
-	/*Triangle wave, -1,1 with a period of period*/
 	template <typename T>
-	T TriangleWave(T x, T period)
+	T TriangleWave(const T& x, const T& period)
 	{
-		return 2.0 * fabs(SawtoothWave(x + (period / 4.0), period)) + 1.0;
+		T fl = floor((2.0 * x / period) + 0.5);
+		return (4.0/period) * (x - (period/2.0) * fl) * pow(-1.0, fl);
 	}
 
 	template <typename T>
-	T HeavisideStep(T x)
+	T HeavisideStep(const T& x)
 	{
 		return (x >= 0);
 	}
 
-}//namespace EGXPhys
+}//namespace EGXMath
