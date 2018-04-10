@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['periodic',['Periodic',['../group___e_g_x_math-_functions-_periodic.html',1,'']]],
   ['parallax',['Parallax',['../group___e_g_x_phys-_parallax.html',1,'']]],
   ['periapsis',['Periapsis',['../group___e_g_x_phys-_periapsis.html',1,'']]],
   ['planetary_20mass',['Planetary Mass',['../group___e_g_x_phys-_planetary_mass.html',1,'']]],
@@ -34,6 +35,8 @@ var searchData=
   ['perikrone',['Perikrone',['../group___e_g_x_phys-_periapsis.html#gaa56f74c44a3583b8f0d13b821c1d7422',1,'EGXPhys']]],
   ['perilune',['Perilune',['../group___e_g_x_phys-_periapsis.html#ga2cc7ab05e18d32c94d8d74972e032793',1,'EGXPhys']]],
   ['perinigricon',['Perinigricon',['../group___e_g_x_phys-_periapsis.html#ga99d86af90179994e17158b082c502fd4',1,'EGXPhys']]],
+  ['periodicfunctions_2ehpp',['PeriodicFunctions.hpp',['../_periodic_functions_8hpp.html',1,'']]],
+  ['periodicfunctions_2einl',['PeriodicFunctions.inl',['../_periodic_functions_8inl.html',1,'']]],
   ['periposeidon',['Periposeidon',['../group___e_g_x_phys-_periapsis.html#ga237e7af3794202c67e65f64f4c8abc2a',1,'EGXPhys']]],
   ['perisaturnium',['Perisaturnium',['../group___e_g_x_phys-_periapsis.html#ga60a50d09d29ebe47cbbfc125c2ea42bf',1,'EGXPhys']]],
   ['periselene',['Periselene',['../group___e_g_x_phys-_periapsis.html#ga255874374dde571531e443cdbef9ef0c',1,'EGXPhys']]],

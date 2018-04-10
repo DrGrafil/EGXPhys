@@ -1,6 +1,7 @@
 var searchData=
 [
   ['egxmath_20library',['EGXMath Library',['../group___e_g_x_math.html',1,'']]],
+  ['error_20function_20_28erf_29',['Error Function (Erf)',['../group___e_g_x_math-_functions-_e_r_f.html',1,'']]],
   ['egxphys_20library',['EGXPhys Library',['../group___e_g_x_phys.html',1,'']]],
   ['eccentricity',['Eccentricity',['../group___e_g_x_phys-_eccentricity.html',1,'']]],
   ['electric_20constant',['Electric constant',['../group___n_i_s_t_const-_electric_constant.html',1,'']]],

@@ -103,28 +103,162 @@ Functions</h2></td></tr>
 <tr class="memitem:ga30e95e529dac871efc014c8ca0108c0d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga30e95e529dac871efc014c8ca0108c0d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_right_ascension.html#ga30e95e529dac871efc014c8ca0108c0d">EGXPhys::RightAscensionToDegree</a> (const T &amp;hours, const T &amp;minutes, const T &amp;seconds)</td></tr>
 <tr class="memdesc:ga30e95e529dac871efc014c8ca0108c0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts right ascensions \((\alpha_{RA})\) from hours \((RA_h)\), minutes \((RA_m)\) and seconds \((RA_s)\) to degrees. </p><p class="formulaDsp">
-\[\alpha_{deg}=(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\]
+\[\alpha_{deg}=(15 RA_h + \frac{RA_m}{4} + \frac{RA_s}{240})\]
 </p>
 <p>.  <a href="group___e_g_x_phys-_astrophysics-_right_ascension.html#ga30e95e529dac871efc014c8ca0108c0d">More...</a><br /></td></tr>
 <tr class="separator:ga30e95e529dac871efc014c8ca0108c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad90de181361375b745a9b226fa13ba14"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gad90de181361375b745a9b226fa13ba14"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_right_ascension.html#gad90de181361375b745a9b226fa13ba14">EGXPhys::RightAscensionToRadian</a> (const T &amp;hours, const T &amp;minutes, const T &amp;seconds)</td></tr>
 <tr class="memdesc:gad90de181361375b745a9b226fa13ba14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts right ascensions \((\alpha_{RA})\) from hours \((RA_h)\), minutes \((RA_m)\) and seconds \((RA_s)\) to radians. </p><p class="formulaDsp">
-\[\alpha_{rad}=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\]
+\[\alpha_{rad}=\frac{\pi}{180.0}(15 RA_h + \frac{RA_m}{4} + \frac{RA_s}{240})\]
 </p>
 <p> See <a href="http://en.wikipedia.org/wiki/Right_ascension,">http://en.wikipedia.org/wiki/Right_ascension,</a> <a href="http://en.wikipedia.org/wiki/Sidereal_hour_angle">http://en.wikipedia.org/wiki/Sidereal_hour_angle</a>.  <a href="group___e_g_x_phys-_astrophysics-_right_ascension.html#gad90de181361375b745a9b226fa13ba14">More...</a><br /></td></tr>
 <tr class="separator:gad90de181361375b745a9b226fa13ba14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabdd9d1c686dd5e2580518f526b78295f"><td class="memTemplParams" colspan="2"><a id="gabdd9d1c686dd5e2580518f526b78295f"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gabdd9d1c686dd5e2580518f526b78295f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::DegreeToRightAscension</b> (const T &amp;decimalDegree, T &amp;hours, T &amp;minutes, T &amp;seconds)</td></tr>
+<tr class="memitem:gabdd9d1c686dd5e2580518f526b78295f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gabdd9d1c686dd5e2580518f526b78295f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_right_ascension.html#gabdd9d1c686dd5e2580518f526b78295f">EGXPhys::DegreeToRightAscension</a> (const T &amp;decimalDegree, T &amp;hours, T &amp;minutes, T &amp;seconds)</td></tr>
+<tr class="memdesc:gabdd9d1c686dd5e2580518f526b78295f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in (decimal) degree to hours minutes seconds (HMS). \({HH}^{h}{MM}^{m}{SS.SS}^{s}\) format. </p><p class="formulaDsp">
+\[hour=trun(\frac{\alpha_{deg}}{15})\]
+</p>
+ <p class="formulaDsp">
+\[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\]
+</p>
+ <p class="formulaDsp">
+\[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\]
+</p>
+<p>.  <a href="group___e_g_x_phys-_astrophysics-_right_ascension.html#gabdd9d1c686dd5e2580518f526b78295f">More...</a><br /></td></tr>
 <tr class="separator:gabdd9d1c686dd5e2580518f526b78295f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga50c306a7d118d3b3c02bc3621e1cb078"><td class="memTemplParams" colspan="2"><a id="ga50c306a7d118d3b3c02bc3621e1cb078"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga50c306a7d118d3b3c02bc3621e1cb078"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>EGXPhys::RadianToRightAscension</b> (const T &amp;radians, T &amp;hours, T &amp;minutes, T &amp;seconds)</td></tr>
+<tr class="memitem:ga50c306a7d118d3b3c02bc3621e1cb078"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga50c306a7d118d3b3c02bc3621e1cb078"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_right_ascension.html#ga50c306a7d118d3b3c02bc3621e1cb078">EGXPhys::RadianToRightAscension</a> (const T &amp;radians, T &amp;hours, T &amp;minutes, T &amp;seconds)</td></tr>
+<tr class="memdesc:ga50c306a7d118d3b3c02bc3621e1cb078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an angle in radian to hours minutes seconds (HMS). \({HH}^h{MM}^m{SS.SS}^s\) format.  <a href="group___e_g_x_phys-_astrophysics-_right_ascension.html#ga50c306a7d118d3b3c02bc3621e1cb078">More...</a><br /></td></tr>
 <tr class="separator:ga50c306a7d118d3b3c02bc3621e1cb078"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gabdd9d1c686dd5e2580518f526b78295f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabdd9d1c686dd5e2580518f526b78295f">&#9670;&nbsp;</a></span>DegreeToRightAscension()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void EGXPhys::DegreeToRightAscension </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>decimalDegree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>hours</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>minutes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>seconds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an angle in (decimal) degree to hours minutes seconds (HMS). \({HH}^{h}{MM}^{m}{SS.SS}^{s}\) format. </p><p class="formulaDsp">
+\[hour=trun(\frac{\alpha_{deg}}{15})\]
+</p>
+ <p class="formulaDsp">
+\[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\]
+</p>
+ <p class="formulaDsp">
+\[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\]
+</p>
+<p>. </p>
+<p>See and <a href="https://en.wikipedia.org/wiki/Right_ascension">https://en.wikipedia.org/wiki/Right_ascension</a> and <a href="https://en.wikipedia.org/wiki/Hour_angle">https://en.wikipedia.org/wiki/Hour_angle</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">decimalDegree</td><td>\(\alpha_{deg}\ (deg)\) is the angle in (decimal) degrees. </td></tr>
+    <tr><td class="paramname">hour</td><td>\(RA_h\ (hour)\) is the angle in hours. </td></tr>
+    <tr><td class="paramname">minute</td><td>\(RA_m\ (min)\) is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. </td></tr>
+    <tr><td class="paramname">second</td><td>\(RA_s\ (sec)\) is the angle in seconds. Note that this is 1/60 of a minute, not arcminute. It is not equal to arcseconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga770b13da33b6f6c7bfa398cca7f24dbe" title="Converts an angle in (decimal) degree to hours minutes seconds (HMS).  format.   . ">DegreeToHoursMinutesSeconds()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_degree.html#ga0bb223ca6e77b00439a6d910ab32d82e" title="Converts an angle in (decimal) degree to hours minutes seconds (HMS).  format.   . ">DegreeToHMS()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_phys-_astrophysics-_right_ascension.html#ga50c306a7d118d3b3c02bc3621e1cb078" title="Converts an angle in radian to hours minutes seconds (HMS).  format. ">RadianToRightAscension()</a> for conversion from radians. </dd></dl>
+
+</div>
+</div>
+<a id="ga50c306a7d118d3b3c02bc3621e1cb078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga50c306a7d118d3b3c02bc3621e1cb078">&#9670;&nbsp;</a></span>RadianToRightAscension()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void EGXPhys::RadianToRightAscension </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>radians</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>hours</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>minutes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>seconds</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an angle in radian to hours minutes seconds (HMS). \({HH}^h{MM}^m{SS.SS}^s\) format. </p>
+<p>See and <a href="https://en.wikipedia.org/wiki/Right_ascension">https://en.wikipedia.org/wiki/Right_ascension</a> and <a href="https://en.wikipedia.org/wiki/Hour_angle">https://en.wikipedia.org/wiki/Hour_angle</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radian</td><td>\(\alpha_{rad}\ (rad)\) is the angle in radians. </td></tr>
+    <tr><td class="paramname">hour</td><td>\(RA_h\ (h)\) is the angle in hours in whole numbers. </td></tr>
+    <tr><td class="paramname">minute</td><td>\(RA_m\ (m)\) is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. </td></tr>
+    <tr><td class="paramname">second</td><td>\(RA_s\ (s)\) is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga3467598d89af2b8ff68af50b39bb19e2" title="Converts an angle in radian to hours minutes seconds (HMS).  format. ">RadianToHoursMinutesSeconds()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_angle_conversions-_radian.html#ga55b5fba9307f34ab8db57391789a90cc" title="Converts an angle in radian to hours minutes seconds (HMS).  format. ">RadianToHMS()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_phys-_astrophysics-_right_ascension.html#gabdd9d1c686dd5e2580518f526b78295f" title="Converts an angle in (decimal) degree to hours minutes seconds (HMS).  format.   . ">DegreeToRightAscension()</a> for conversion from degrees. </dd></dl>
+
+</div>
+</div>
 <a id="ga30e95e529dac871efc014c8ca0108c0d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga30e95e529dac871efc014c8ca0108c0d">&#9670;&nbsp;</a></span>RightAscensionToDegree()</h2>
 
@@ -160,14 +294,14 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Converts right ascensions \((\alpha_{RA})\) from hours \((RA_h)\), minutes \((RA_m)\) and seconds \((RA_s)\) to degrees. </p><p class="formulaDsp">
-\[\alpha_{deg}=(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\]
+\[\alpha_{deg}=(15 RA_h + \frac{RA_m}{4} + \frac{RA_s}{240})\]
 </p>
 <p>. </p>
 <p>See <a href="http://en.wikipedia.org/wiki/Right_ascension,">http://en.wikipedia.org/wiki/Right_ascension,</a> <a href="http://en.wikipedia.org/wiki/Sidereal_hour_angle">http://en.wikipedia.org/wiki/Sidereal_hour_angle</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">hour</td><td>\(hour\ (h)\) is the angle in hours in whole numbers. </td></tr>
-    <tr><td class="paramname">minute</td><td>\(minute\ (m)\) is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. </td></tr>
-    <tr><td class="paramname">second</td><td>\(second\ (s)\) is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds. </td></tr>
+    <tr><td class="paramname">hour</td><td>\(RA_h\ (h)\) is the angle in hours in whole numbers. </td></tr>
+    <tr><td class="paramname">minute</td><td>\(RA_m\ (m)\) is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. </td></tr>
+    <tr><td class="paramname">second</td><td>\(RA_s\ (s)\) is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds. </td></tr>
   </table>
   </dd>
 </dl>
@@ -215,14 +349,14 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Converts right ascensions \((\alpha_{RA})\) from hours \((RA_h)\), minutes \((RA_m)\) and seconds \((RA_s)\) to radians. </p><p class="formulaDsp">
-\[\alpha_{rad}=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\]
+\[\alpha_{rad}=\frac{\pi}{180.0}(15 RA_h + \frac{RA_m}{4} + \frac{RA_s}{240})\]
 </p>
 <p> See <a href="http://en.wikipedia.org/wiki/Right_ascension,">http://en.wikipedia.org/wiki/Right_ascension,</a> <a href="http://en.wikipedia.org/wiki/Sidereal_hour_angle">http://en.wikipedia.org/wiki/Sidereal_hour_angle</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">hour</td><td>\(hour\ (h)\) is the angle in hours in whole numbers. </td></tr>
-    <tr><td class="paramname">minute</td><td>\(minute\ (m)\) is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. </td></tr>
-    <tr><td class="paramname">second</td><td>\(second\ (s)\) is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds. </td></tr>
+    <tr><td class="paramname">hour</td><td>\(RA_h\ (h)\) is the angle in hours in whole numbers. </td></tr>
+    <tr><td class="paramname">minute</td><td>\(RA_m\ (m)\) is the angle in minutes in whole numbers. Note that this is 1/60 of an hour. It is not equal to arcminutes. </td></tr>
+    <tr><td class="paramname">second</td><td>\(RA_s\ (s)\) is the angle in seconds. Note that this is 1/60 of a minute. It is not equal to arcseconds. </td></tr>
   </table>
   </dd>
 </dl>

@@ -22,6 +22,8 @@ var searchData=
   ['integerdegreetomilliradian',['IntegerDegreeToMilliradian',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#ga5379a68bdff5cc4fab5bb1ba06ef9453',1,'EGXMath']]],
   ['integerdegreetoradian',['IntegerDegreeToRadian',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#ga05d3368b00ea27b9895de2ffe5c8df38',1,'EGXMath']]],
   ['integerdegreetoturn',['IntegerDegreeToTurn',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#ga06ddbdada5a3978105c855d4aae735ae',1,'EGXMath']]],
+  ['inverseerf',['InverseErf',['../group___e_g_x_math-_functions-_e_r_f.html#gab7cacb258ac31ab3929204dc1ed93400',1,'EGXMath']]],
+  ['inverseerfc',['InverseErfc',['../group___e_g_x_math-_functions-_e_r_f.html#gad1f81a581f9f2d66a1a4bad2578c3368',1,'EGXMath']]],
   ['inversefinestructureconstant',['inverseFineStructureConstant',['../group___n_i_s_t_const-_fine_structure_constant.html#gaa4cd257f5376577cf0331e71dd952bb6',1,'NISTConst']]],
   ['inversemetertoatomicmassunit',['inverseMeterToAtomicMassUnit',['../group___n_i_s_t_const-_inverse_meter.html#ga7d76b1c26bd9b6226d0bdbcbfe44c3a0',1,'NISTConst']]],
   ['inversemetertoelectronvolt',['inverseMeterToElectronVolt',['../group___n_i_s_t_const-_inverse_meter.html#gafdede27a7699d3a180bb829b65fac447',1,'NISTConst']]],

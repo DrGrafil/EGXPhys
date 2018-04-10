@@ -29,7 +29,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Gives the sign of a number. -1 for negative numbers, 1 for positive and 0 for zero.
-	*		\f[sign(x)=(0 < x) - (x < 0)]
+	*		\f[sign(x)=(0 < x) - (x < 0) \f]
 	*
 	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function.
 	*   @return \f$sign(x)\ (dimensionless)\f$ the sign of x.

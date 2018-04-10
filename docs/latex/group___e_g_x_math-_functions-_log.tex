@@ -1,0 +1,55 @@
+\hypertarget{group___e_g_x_math-_functions-_log}{}\section{Log}
+\label{group___e_g_x_math-_functions-_log}\index{Log@{Log}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_log_gac87b6832572195929967808d98d502d5}{E\+G\+X\+Math\+::\+Signed\+Log}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Signed Log. Gives the signed (keeps sign on number) log base e of a number. \[signedLog(x)= sign(x)*Log_e(|x|)\] \[signedLog(x)= sign(x)*\int_{1}^{|x|}\frac{1}{t} dt\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_log_ga4cd6a087fb1977d52a321bfad0dae0f6}{E\+G\+X\+Math\+::\+Signed\+Log}} (const T \&x, const T \&base)
+\begin{DoxyCompactList}\small\item\em Signed Log. Gives the signed (keeps sign on number) log of a number in a base of your choice. \[signedLog(x)= sign(x)*\frac{Log_e(|x|)}{Log_e(base)}\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_functions-_log_gac87b6832572195929967808d98d502d5}\label{group___e_g_x_math-_functions-_log_gac87b6832572195929967808d98d502d5}} 
+\index{Log@{Log}!Signed\+Log@{Signed\+Log}}
+\index{Signed\+Log@{Signed\+Log}!Log@{Log}}
+\subsubsection{\texorpdfstring{Signed\+Log()}{SignedLog()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Signed\+Log (\begin{DoxyParamCaption}\item[{const T \&}]{x }\end{DoxyParamCaption})}
+
+
+
+Signed Log. Gives the signed (keeps sign on number) log base e of a number. \[signedLog(x)= sign(x)*Log_e(|x|)\] \[signedLog(x)= sign(x)*\int_{1}^{|x|}\frac{1}{t} dt\]. 
+
+See \href{https://en.wikipedia.org/wiki/Logarithm}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Logarithm} and \href{http://mathworld.wolfram.com/NaturalLogarithm.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Natural\+Logarithm.\+html} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. Inputting 0 results in an error. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$signedLog(x)\ (dimensionless)$ is the signed log of x in base e. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group___e_g_x_math-_functions-_log_ga4cd6a087fb1977d52a321bfad0dae0f6}\label{group___e_g_x_math-_functions-_log_ga4cd6a087fb1977d52a321bfad0dae0f6}} 
+\index{Log@{Log}!Signed\+Log@{Signed\+Log}}
+\index{Signed\+Log@{Signed\+Log}!Log@{Log}}
+\subsubsection{\texorpdfstring{Signed\+Log()}{SignedLog()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Signed\+Log (\begin{DoxyParamCaption}\item[{const T \&}]{x,  }\item[{const T \&}]{base }\end{DoxyParamCaption})}
+
+
+
+Signed Log. Gives the signed (keeps sign on number) log of a number in a base of your choice. \[signedLog(x)= sign(x)*\frac{Log_e(|x|)}{Log_e(base)}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Logarithm}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Logarithm} and \href{http://mathworld.wolfram.com/NaturalLogarithm.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Natural\+Logarithm.\+html} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. Inputting 0 results in an error. \\
+\hline
+{\em base} & $base\ (dimensionless)$ is the base that the log is taken in. Base is a positive real number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$signedLog(x)\ (dimensionless)$ is the signed log of x in base. 
+\end{DoxyReturn}

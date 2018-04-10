@@ -1,9 +1,12 @@
 var searchData=
 [
+  ['log',['Log',['../group___e_g_x_math-_functions-_log.html',1,'']]],
   ['lorentz_20transformations',['Lorentz Transformations',['../group___e_g_x_phys-_lorentz_transformations.html',1,'']]],
   ['luminosity',['Luminosity',['../group___e_g_x_phys-_luminosity.html',1,'']]],
   ['latticeparameterofsilicon',['latticeParameterOfSilicon',['../group___n_i_s_t_const-_silicon.html#ga8ab64e0d4d7e0ebde43f1dd5f4ff68bf',1,'NISTConst']]],
   ['latticespacingofsilicon',['latticeSpacingOfSilicon',['../group___n_i_s_t_const-_silicon.html#ga439c53134da8a910d17c996b136da7a8',1,'NISTConst']]],
+  ['logfunctions_2ehpp',['LogFunctions.hpp',['../_log_functions_8hpp.html',1,'']]],
+  ['logfunctions_2einl',['LogFunctions.inl',['../_log_functions_8inl.html',1,'']]],
   ['lorentzfactor',['LorentzFactor',['../group___e_g_x_phys-_lorentz_transformations.html#ga5f9b11c1f4c3ae26a7e64f02c22d5a75',1,'EGXPhys']]],
   ['lorentzfactorviaenergy',['LorentzFactorViaEnergy',['../group___e_g_x_phys-_lorentz_transformations.html#ga601de8c039be89a9abea22bc459436c9',1,'EGXPhys']]],
   ['lorentzfactorviamomentum',['LorentzFactorViaMomentum',['../group___e_g_x_phys-_lorentz_transformations.html#ga1ea24128654ac333dd843afdd5c003b7',1,'EGXPhys']]],

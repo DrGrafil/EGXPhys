@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['kinematics_2ehpp',['Kinematics.hpp',['../_kinematics_8hpp.html',1,'']]],
-  ['kinematicsconstants_2ehpp',['KinematicsConstants.hpp',['../_kinematics_constants_8hpp.html',1,'']]]
+  ['integerdegreeconversion_2ehpp',['IntegerDegreeConversion.hpp',['../_integer_degree_conversion_8hpp.html',1,'']]],
+  ['integerdegreeconversion_2einl',['IntegerDegreeConversion.inl',['../_integer_degree_conversion_8inl.html',1,'']]]
 ];

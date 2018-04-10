@@ -46,7 +46,7 @@ namespace EGXMath
 	*
 	*	See https://en.wikipedia.org/wiki/Logarithm and http://mathworld.wolfram.com/NaturalLogarithm.html
 	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function. Inputting 0 results in an error.
-	*	@param base base\ (dimensionless)\f$ is the base that the log is taken in. Base is a positive real number.
+	*	@param base \f$base\ (dimensionless)\f$ is the base that the log is taken in. Base is a positive real number.
 	*   @return \f$signedLog(x)\ (dimensionless)\f$ is the signed log of x in base.
 	*/
 	template<typename T>

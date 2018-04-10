@@ -30,7 +30,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Sawtooth wave function. Periodic function with a perodicity of \f$T\f$. Values range from -1 to 1.
-	*		\f[sawtooth(x)=2(\frac{x}{T} - floor(\frac{x}{T} + \frac{1}{2})\f]
+	*		\f[sawtooth(x)=2(\frac{x}{T} - floor(\frac{x}{T} + \frac{1}{2}))\f]
 	*
 	*	See http://mathworld.wolfram.com/SawtoothWave.html and https://en.wikipedia.org/wiki/Sawtooth_wave
 	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function.
@@ -45,7 +45,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Square wave function. Periodic function with a perodicity of \f$T\f$. Values range from -1 to 1.
-	*		\f[square(x)= sign( sin (\frac{2 \pi x}{T}) \f]
+	*		\f[square(x)= sign( sin (\frac{2 \pi x}{T})) \f]
 	*
 	*	See http://mathworld.wolfram.com/SquareWave.html and https://en.wikipedia.org/wiki/Square_wave
 	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function.
@@ -68,7 +68,6 @@ namespace EGXMath
 	*   @return \f$triangle(x)\ (dimensionless)\f$ the value of the triangle wave function at x. Ranges from -1 to 1 with a periodicity of period.
 	*	@see SawtoothWave() for sawtooth wave function.
 	*	@see SquareWave() for square wave function.
-	*	@see TriangleWave() for triangle wave function.
 	*	@see HeavisideStep() for heaviside step function.
 	*/
 	template <typename T>

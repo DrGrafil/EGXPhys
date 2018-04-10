@@ -1,0 +1,131 @@
+\hypertarget{group___e_g_x_math-_functions-_e_r_f}{}\section{Error Function (Erf)}
+\label{group___e_g_x_math-_functions-_e_r_f}\index{Error Function (\+Erf)@{Error Function (\+Erf)}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_ga167bde890986906e6cd3b32adaa8e6a8}{E\+G\+X\+Math\+::\+Erf}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Error function. The cummlitive distribution function for a guassian/normal distribution. \[ erf(x)\equiv \frac{2}{\sqrt{\pi}}\int_0^x e^{-t^2}dt \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_gab7cacb258ac31ab3929204dc1ed93400}{E\+G\+X\+Math\+::\+Inverse\+Erf}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Inverese error function. The inverse of the error function. \[ erf^{-1}(erf(x)) = x \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_ga58f76263d205c47000068176d3116571}{E\+G\+X\+Math\+::\+Erfc}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Complementary error function. \[ erfc(x)\equiv 1-erf(x) \] \[ erfc(x)=\frac{2}{\sqrt{\pi}}\int_x^\infty e^{-t^2}dt \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_gad1f81a581f9f2d66a1a4bad2578c3368}{E\+G\+X\+Math\+::\+Inverse\+Erfc}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Inverse complementary error function. The inverse of the complementary error function. \[erfc^{-1}(erfc(x)) = x\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_functions-_e_r_f_ga167bde890986906e6cd3b32adaa8e6a8}\label{group___e_g_x_math-_functions-_e_r_f_ga167bde890986906e6cd3b32adaa8e6a8}} 
+\index{Error Function (\+Erf)@{Error Function (\+Erf)}!Erf@{Erf}}
+\index{Erf@{Erf}!Error Function (\+Erf)@{Error Function (\+Erf)}}
+\subsubsection{\texorpdfstring{Erf()}{Erf()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Erf (\begin{DoxyParamCaption}\item[{const T \&}]{x }\end{DoxyParamCaption})}
+
+
+
+Error function. The cummlitive distribution function for a guassian/normal distribution. \[ erf(x)\equiv \frac{2}{\sqrt{\pi}}\int_0^x e^{-t^2}dt \]. 
+
+See \href{http://mathworld.wolfram.com/Erf.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Erf.\+html} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$erf(x)\ (dimensionless)$ is the value after applying the error function. Ranges from -\/1 $<$ x $<$ 1. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_gab7cacb258ac31ab3929204dc1ed93400}{Inverse\+Erf()}} for inverse error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_ga58f76263d205c47000068176d3116571}{Erfc()}} for complementary error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_gad1f81a581f9f2d66a1a4bad2578c3368}{Inverse\+Erfc()}} for inverse complementary error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_gaussian_ga647b46315081e299edc16a1c7f4e4032}{Gaussian()}} for gaussian/normal distribution. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_functions-_e_r_f_ga58f76263d205c47000068176d3116571}\label{group___e_g_x_math-_functions-_e_r_f_ga58f76263d205c47000068176d3116571}} 
+\index{Error Function (\+Erf)@{Error Function (\+Erf)}!Erfc@{Erfc}}
+\index{Erfc@{Erfc}!Error Function (\+Erf)@{Error Function (\+Erf)}}
+\subsubsection{\texorpdfstring{Erfc()}{Erfc()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Erfc (\begin{DoxyParamCaption}\item[{const T \&}]{x }\end{DoxyParamCaption})}
+
+
+
+Complementary error function. \[ erfc(x)\equiv 1-erf(x) \] \[ erfc(x)=\frac{2}{\sqrt{\pi}}\int_x^\infty e^{-t^2}dt \]. 
+
+See \href{http://mathworld.wolfram.com/Erfc.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Erfc.\+html} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$erfc(x)\ (dimensionless)$ is the value after applying the complementary error function. Ranges from -\/1 $<$ x $<$ 1. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_ga167bde890986906e6cd3b32adaa8e6a8}{Erf()}} for error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_gab7cacb258ac31ab3929204dc1ed93400}{Inverse\+Erf()}} for inverse error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_gad1f81a581f9f2d66a1a4bad2578c3368}{Inverse\+Erfc()}} for inverse complementary error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_gaussian_ga647b46315081e299edc16a1c7f4e4032}{Gaussian()}} for gaussian/normal distribution. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_functions-_e_r_f_gab7cacb258ac31ab3929204dc1ed93400}\label{group___e_g_x_math-_functions-_e_r_f_gab7cacb258ac31ab3929204dc1ed93400}} 
+\index{Error Function (\+Erf)@{Error Function (\+Erf)}!Inverse\+Erf@{Inverse\+Erf}}
+\index{Inverse\+Erf@{Inverse\+Erf}!Error Function (\+Erf)@{Error Function (\+Erf)}}
+\subsubsection{\texorpdfstring{Inverse\+Erf()}{InverseErf()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Inverse\+Erf (\begin{DoxyParamCaption}\item[{const T \&}]{x }\end{DoxyParamCaption})}
+
+
+
+Inverese error function. The inverse of the error function. \[ erf^{-1}(erf(x)) = x \]. 
+
+See \href{http://mathworld.wolfram.com/InverseErf.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Inverse\+Erf.\+html} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. Ranges from -\/1 $<$ x $<$ 1. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$erf^{-1}(x)\ (dimensionless)$ is the value after applying the inverse error function. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_ga167bde890986906e6cd3b32adaa8e6a8}{Erf()}} for error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_ga58f76263d205c47000068176d3116571}{Erfc()}} for complementary error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_gad1f81a581f9f2d66a1a4bad2578c3368}{Inverse\+Erfc()}} for inverse complementary error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_gaussian_ga647b46315081e299edc16a1c7f4e4032}{Gaussian()}} for gaussian/normal distribution. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_functions-_e_r_f_gad1f81a581f9f2d66a1a4bad2578c3368}\label{group___e_g_x_math-_functions-_e_r_f_gad1f81a581f9f2d66a1a4bad2578c3368}} 
+\index{Error Function (\+Erf)@{Error Function (\+Erf)}!Inverse\+Erfc@{Inverse\+Erfc}}
+\index{Inverse\+Erfc@{Inverse\+Erfc}!Error Function (\+Erf)@{Error Function (\+Erf)}}
+\subsubsection{\texorpdfstring{Inverse\+Erfc()}{InverseErfc()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Inverse\+Erfc (\begin{DoxyParamCaption}\item[{const T \&}]{x }\end{DoxyParamCaption})}
+
+
+
+Inverse complementary error function. The inverse of the complementary error function. \[erfc^{-1}(erfc(x)) = x\]. 
+
+See \href{http://mathworld.wolfram.com/InverseErfc.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Inverse\+Erfc.\+html} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. Ranges from -\/1 $<$ x $<$ 1. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$erfc^{-1}(x)\ (dimensionless)$ is the value after applying the inverse complementary error function. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_ga167bde890986906e6cd3b32adaa8e6a8}{Erf()}} for error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_gab7cacb258ac31ab3929204dc1ed93400}{Inverse\+Erf()}} for inverse error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_ga58f76263d205c47000068176d3116571}{Erfc()}} for complementary error function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_gaussian_ga647b46315081e299edc16a1c7f4e4032}{Gaussian()}} for gaussian/normal distribution. 
+\end{DoxySeeAlso}

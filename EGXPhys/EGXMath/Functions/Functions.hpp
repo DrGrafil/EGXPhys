@@ -1,4 +1,4 @@
-/// @file EGXMath/Functions/Funcstions.hpp
+/// @file EGXMath/Functions/Functions.hpp
 ///
 /// @brief Includes all header files that are related to funcstions.
 ///

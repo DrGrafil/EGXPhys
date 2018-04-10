@@ -30,7 +30,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Error function. The cummlitive distribution function for a guassian/normal distribution.
-	*		\f[ erf(x)\equiv \frac{2}{\sqrt{\pi}}\int_0^x e^{-t^2}dt\f]
+	*		\f[ erf(x)\equiv \frac{2}{\sqrt{\pi}}\int_0^x e^{-t^2}dt \f]
 	*
 	*	See http://mathworld.wolfram.com/Erf.html
 	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function.
@@ -45,7 +45,7 @@ namespace EGXMath
 	
 	/**
 	*   @brief Inverese error function. The inverse of the error function.
-	*		\f[ erf^{-1}(erf(x)) = x]
+	*		\f[ erf^{-1}(erf(x)) = x \f]
 	*
 	*	See http://mathworld.wolfram.com/InverseErf.html
 	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function. Ranges from -1 < x < 1.
@@ -60,8 +60,8 @@ namespace EGXMath
 
 	/**
 	*   @brief Complementary error function.
-	*		\f[erfc(x)\equiv 1-erf(x)\f]
-	*		\f[erfc(x)=\frac{2}{\sqrt{\pi}}\int_x^\infty e^{-t^2}dt\f]
+	*		\f[ erfc(x)\equiv 1-erf(x) \f]
+	*		\f[ erfc(x)=\frac{2}{\sqrt{\pi}}\int_x^\infty e^{-t^2}dt \f]
 	*
 	*	See http://mathworld.wolfram.com/Erfc.html
 	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function.

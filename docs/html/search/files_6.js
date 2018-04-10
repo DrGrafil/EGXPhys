@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['halflife_2ehpp',['HalfLife.hpp',['../_half_life_8hpp.html',1,'']]],
-  ['halflife_2einl',['HalfLife.inl',['../_half_life_8inl.html',1,'']]],
-  ['hmsconversion_2ehpp',['HMSConversion.hpp',['../_h_m_s_conversion_8hpp.html',1,'']]],
-  ['hmsconversion_2einl',['HMSConversion.inl',['../_h_m_s_conversion_8inl.html',1,'']]],
-  ['hoursminutessecondsconversion_2ehpp',['HoursMinutesSecondsConversion.hpp',['../_hours_minutes_seconds_conversion_8hpp.html',1,'']]],
-  ['hoursminutessecondsconversion_2einl',['HoursMinutesSecondsConversion.inl',['../_hours_minutes_seconds_conversion_8inl.html',1,'']]]
+  ['gaussianfunctions_2ehpp',['GaussianFunctions.hpp',['../_gaussian_functions_8hpp.html',1,'']]],
+  ['gaussianfunctions_2einl',['GaussianFunctions.inl',['../_gaussian_functions_8inl.html',1,'']]],
+  ['geometry_2ehpp',['Geometry.hpp',['../_geometry_8hpp.html',1,'']]],
+  ['gonconversion_2ehpp',['GonConversion.hpp',['../_gon_conversion_8hpp.html',1,'']]],
+  ['gonconversion_2einl',['GonConversion.inl',['../_gon_conversion_8inl.html',1,'']]],
+  ['gradianconversion_2ehpp',['GradianConversion.hpp',['../_gradian_conversion_8hpp.html',1,'']]],
+  ['gradianconversion_2einl',['GradianConversion.inl',['../_gradian_conversion_8inl.html',1,'']]]
 ];

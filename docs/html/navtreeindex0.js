@@ -91,6 +91,7 @@ var NAVTREEINDEX0 =
 "_b_v_color_8hpp.html":[2,0,0,1,6],
 "_b_v_color_8hpp_source.html":[2,0,0,1,6],
 "_b_v_color_8inl.html":[2,0,0,1,7],
+"_circle_8hpp_source.html":[2,0,0,3,2,0],
 "_circumstellar_habitable_zone_8hpp.html":[2,0,0,1,8],
 "_circumstellar_habitable_zone_8hpp.html#ga23a8f602461ea3257e8767b1d455c383":[2,0,0,1,8,2],
 "_circumstellar_habitable_zone_8hpp.html#ga34d1e39bce17904bc6d383f1935c79d6":[2,0,0,1,8,5],
@@ -106,9 +107,13 @@ var NAVTREEINDEX0 =
 "_circumstellar_habitable_zone_8inl.html#ga34d1e39bce17904bc6d383f1935c79d6":[2,0,0,1,9,5],
 "_circumstellar_habitable_zone_8inl.html#ga3ce3a04fec7b1c8fb66ac54270ce3902":[2,0,0,1,9,4],
 "_circumstellar_habitable_zone_8inl.html#gacf3a720793cdb27f6d93b170b44e81be":[2,0,0,1,9,0],
+"_cone_8hpp_source.html":[2,0,0,3,2,1],
 "_conversions_8hpp.html":[2,0,0,3,0,2],
 "_conversions_8hpp_source.html":[2,0,0,3,0,2],
 "_conversions_constants_8hpp_source.html":[2,0,0,3,0,3],
+"_cube_8hpp_source.html":[2,0,0,3,2,2],
+"_cuboid_8hpp_source.html":[2,0,0,3,2,3],
+"_cylinder_8hpp_source.html":[2,0,0,3,2,4],
 "_d_m_s_conversion_8hpp.html":[2,0,0,3,0,0,6],
 "_d_m_s_conversion_8hpp.html#ga10e325fbb65f6e2e7d8cd7d3d8af2931":[2,0,0,3,0,0,6,5],
 "_d_m_s_conversion_8hpp.html#ga1230f4c81771a59d9973beb0e6747dbf":[2,0,0,3,0,0,6,13],
@@ -244,10 +249,5 @@ var NAVTREEINDEX0 =
 "_degree_conversion_8inl.html#gafb4ce930493a7d6202ede3ee1630ef5d":[2,0,0,3,0,0,3,18],
 "_degrees_minutes_seconds_conversion_8hpp.html":[2,0,0,3,0,0,4],
 "_degrees_minutes_seconds_conversion_8hpp.html#ga1e6b1b889f6914942b12623934341fc6":[2,0,0,3,0,0,4,17],
-"_degrees_minutes_seconds_conversion_8hpp.html#ga59e2c2b178f760c337fcb3ea7406570f":[2,0,0,3,0,0,4,9],
-"_degrees_minutes_seconds_conversion_8hpp.html#ga63c1cd3c9048d0c5a80fd9bc851c38ac":[2,0,0,3,0,0,4,10],
-"_degrees_minutes_seconds_conversion_8hpp.html#ga6c99d7a2a1646b3d9c8d40cd7f083aa4":[2,0,0,3,0,0,4,16],
-"_degrees_minutes_seconds_conversion_8hpp.html#ga71fd0a3b9238a3a4fde150802938dee8":[2,0,0,3,0,0,4,0],
-"_degrees_minutes_seconds_conversion_8hpp.html#ga756ecf42a02c09344bc8a9ad67845168":[2,0,0,3,0,0,4,4],
-"_degrees_minutes_seconds_conversion_8hpp.html#ga7fc14ecc37f95ec9228821c3a087e83b":[2,0,0,3,0,0,4,11]
+"_degrees_minutes_seconds_conversion_8hpp.html#ga59e2c2b178f760c337fcb3ea7406570f":[2,0,0,3,0,0,4,9]
 };

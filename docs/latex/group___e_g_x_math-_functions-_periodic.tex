@@ -1,0 +1,129 @@
+\hypertarget{group___e_g_x_math-_functions-_periodic}{}\section{Periodic}
+\label{group___e_g_x_math-_functions-_periodic}\index{Periodic@{Periodic}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga3eab4a0455f64881f9c183987682d85c}{E\+G\+X\+Math\+::\+Sawtooth\+Wave}} (const T \&x, const T \&period)
+\begin{DoxyCompactList}\small\item\em Sawtooth wave function. Periodic function with a perodicity of $T$. Values range from -\/1 to 1. \[sawtooth(x)=2(\frac{x}{T} - floor(\frac{x}{T} + \frac{1}{2}))\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga3bdc6c02d347f48f91bca886448db33a}{E\+G\+X\+Math\+::\+Square\+Wave}} (const T \&x, const T \&period)
+\begin{DoxyCompactList}\small\item\em Square wave function. Periodic function with a perodicity of $T$. Values range from -\/1 to 1. \[square(x)= sign( sin (\frac{2 \pi x}{T})) \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_gafa81ebd66ef7cd080370fad972d6ac50}{E\+G\+X\+Math\+::\+Triangle\+Wave}} (const T \&x, const T \&period)
+\begin{DoxyCompactList}\small\item\em Triangle wave function. Periodic function with a perodicity of $T$. Values range from -\/1 to 1. \[triangle(x)= \frac{4}{T}(x-\frac{T}{2} floor(\frac{2 x}{T}+\frac{1}{2}) )(-1)^{floor(\frac{2 x}{T}+\frac{1}{2})} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga0fb325d5423606e9c222e1ebd6a65833}{E\+G\+X\+Math\+::\+Heaviside\+Step}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Heaviside step function. Values range from 0 to 1. \[H(x)=\begin{cases} 0, & x < 0, \\ 1, & x \ge 0, \end{cases} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_functions-_periodic_ga0fb325d5423606e9c222e1ebd6a65833}\label{group___e_g_x_math-_functions-_periodic_ga0fb325d5423606e9c222e1ebd6a65833}} 
+\index{Periodic@{Periodic}!Heaviside\+Step@{Heaviside\+Step}}
+\index{Heaviside\+Step@{Heaviside\+Step}!Periodic@{Periodic}}
+\subsubsection{\texorpdfstring{Heaviside\+Step()}{HeavisideStep()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Heaviside\+Step (\begin{DoxyParamCaption}\item[{const T \&}]{x }\end{DoxyParamCaption})}
+
+
+
+Heaviside step function. Values range from 0 to 1. \[H(x)=\begin{cases} 0, & x < 0, \\ 1, & x \ge 0, \end{cases} \]. 
+
+See \href{http://mathworld.wolfram.com/HeavisideStepFunction.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Heaviside\+Step\+Function.\+html} and \href{https://en.wikipedia.org/wiki/Heaviside_step_function}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Heaviside\+\_\+step\+\_\+function} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$H(x)\ (dimensionless)$ the value of the heaviside step function at x. Ranges from -\/1 to 1 with a periodicity of period. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga3eab4a0455f64881f9c183987682d85c}{Sawtooth\+Wave()}} for sawtooth wave function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga3bdc6c02d347f48f91bca886448db33a}{Square\+Wave()}} for square wave function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_gafa81ebd66ef7cd080370fad972d6ac50}{Triangle\+Wave()}} for triangle wave function. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_functions-_periodic_ga3eab4a0455f64881f9c183987682d85c}\label{group___e_g_x_math-_functions-_periodic_ga3eab4a0455f64881f9c183987682d85c}} 
+\index{Periodic@{Periodic}!Sawtooth\+Wave@{Sawtooth\+Wave}}
+\index{Sawtooth\+Wave@{Sawtooth\+Wave}!Periodic@{Periodic}}
+\subsubsection{\texorpdfstring{Sawtooth\+Wave()}{SawtoothWave()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Sawtooth\+Wave (\begin{DoxyParamCaption}\item[{const T \&}]{x,  }\item[{const T \&}]{period }\end{DoxyParamCaption})}
+
+
+
+Sawtooth wave function. Periodic function with a perodicity of $T$. Values range from -\/1 to 1. \[sawtooth(x)=2(\frac{x}{T} - floor(\frac{x}{T} + \frac{1}{2}))\]. 
+
+See \href{http://mathworld.wolfram.com/SawtoothWave.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Sawtooth\+Wave.\+html} and \href{https://en.wikipedia.org/wiki/Sawtooth_wave}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Sawtooth\+\_\+wave} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. \\
+\hline
+{\em period} & $T\ (dimensionless)$ is the period of the periodic function. After how much should the function repeate. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$sawtooth(x)\ (dimensionless)$ the value of the sawthooth wave function at x. Ranges from -\/1 to 1 with a periodicity of period. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga3bdc6c02d347f48f91bca886448db33a}{Square\+Wave()}} for square wave function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_gafa81ebd66ef7cd080370fad972d6ac50}{Triangle\+Wave()}} for triangle wave function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga0fb325d5423606e9c222e1ebd6a65833}{Heaviside\+Step()}} for heaviside step function. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_functions-_periodic_ga3bdc6c02d347f48f91bca886448db33a}\label{group___e_g_x_math-_functions-_periodic_ga3bdc6c02d347f48f91bca886448db33a}} 
+\index{Periodic@{Periodic}!Square\+Wave@{Square\+Wave}}
+\index{Square\+Wave@{Square\+Wave}!Periodic@{Periodic}}
+\subsubsection{\texorpdfstring{Square\+Wave()}{SquareWave()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Square\+Wave (\begin{DoxyParamCaption}\item[{const T \&}]{x,  }\item[{const T \&}]{period }\end{DoxyParamCaption})}
+
+
+
+Square wave function. Periodic function with a perodicity of $T$. Values range from -\/1 to 1. \[square(x)= sign( sin (\frac{2 \pi x}{T})) \]. 
+
+See \href{http://mathworld.wolfram.com/SquareWave.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Square\+Wave.\+html} and \href{https://en.wikipedia.org/wiki/Square_wave}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Square\+\_\+wave} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. \\
+\hline
+{\em period} & $T\ (dimensionless)$ is the period of the periodic function. After how much should the function repeate. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$square(x)\ (dimensionless)$ the value of the square wave function at x. Ranges from -\/1 to 1 with a periodicity of period. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga3eab4a0455f64881f9c183987682d85c}{Sawtooth\+Wave()}} for sawtooth wave function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_gafa81ebd66ef7cd080370fad972d6ac50}{Triangle\+Wave()}} for triangle wave function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga0fb325d5423606e9c222e1ebd6a65833}{Heaviside\+Step()}} for heaviside step function. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_functions-_periodic_gafa81ebd66ef7cd080370fad972d6ac50}\label{group___e_g_x_math-_functions-_periodic_gafa81ebd66ef7cd080370fad972d6ac50}} 
+\index{Periodic@{Periodic}!Triangle\+Wave@{Triangle\+Wave}}
+\index{Triangle\+Wave@{Triangle\+Wave}!Periodic@{Periodic}}
+\subsubsection{\texorpdfstring{Triangle\+Wave()}{TriangleWave()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Triangle\+Wave (\begin{DoxyParamCaption}\item[{const T \&}]{x,  }\item[{const T \&}]{period }\end{DoxyParamCaption})}
+
+
+
+Triangle wave function. Periodic function with a perodicity of $T$. Values range from -\/1 to 1. \[triangle(x)= \frac{4}{T}(x-\frac{T}{2} floor(\frac{2 x}{T}+\frac{1}{2}) )(-1)^{floor(\frac{2 x}{T}+\frac{1}{2})} \]. 
+
+See \href{http://mathworld.wolfram.com/TriangleWave.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Triangle\+Wave.\+html} and \href{https://en.wikipedia.org/wiki/Triangle_wave}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Triangle\+\_\+wave} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. \\
+\hline
+{\em period} & $T\ (dimensionless)$ is the period of the periodic function. After how much should the function repeate. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$triangle(x)\ (dimensionless)$ the value of the triangle wave function at x. Ranges from -\/1 to 1 with a periodicity of period. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga3eab4a0455f64881f9c183987682d85c}{Sawtooth\+Wave()}} for sawtooth wave function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga3bdc6c02d347f48f91bca886448db33a}{Square\+Wave()}} for square wave function. 
+
+\mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga0fb325d5423606e9c222e1ebd6a65833}{Heaviside\+Step()}} for heaviside step function. 
+\end{DoxySeeAlso}

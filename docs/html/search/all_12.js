@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['sign',['Sign',['../group___e_g_x_math-_functions-_sign.html',1,'']]],
   ['separation_20energy',['Separation Energy',['../group___e_g_x_phys-_nuclear_separation_energy.html',1,'']]],
   ['semi_2dempirical_20mass_20formula',['Semi-Empirical Mass Formula',['../group___e_g_x_phys-_semi_empirical_mass_formula.html',1,'']]],
   ['stellar_20mass',['Stellar Mass',['../group___e_g_x_phys-_stellar_mass.html',1,'']]],
@@ -14,6 +15,7 @@ var searchData=
   ['stefan_2dboltzmann_20constant',['Stefan-Boltzmann constant',['../group___n_i_s_t_const-_stefan_boltzmann_constant.html',1,'']]],
   ['sackurtetrodeconstant',['SackurTetrodeConstant',['../group___n_i_s_t_const-_sackur_tetrode_constant.html#gabd9928304da228b5f9c482aa488ea6bd',1,'NISTConst']]],
   ['sackurtetrodeconstantatm',['SackurTetrodeConstantatm',['../group___n_i_s_t_const-_sackur_tetrode_constant.html#ga476418a3565db707ed30de46c3126220',1,'NISTConst']]],
+  ['sawtoothwave',['SawtoothWave',['../group___e_g_x_math-_functions-_periodic.html#ga3eab4a0455f64881f9c183987682d85c',1,'EGXMath']]],
   ['secondradiationconstant',['secondRadiationConstant',['../group___n_i_s_t_const-_second_radiation_constant.html#ga40dfad662ee17ea208d271fa0977e69c',1,'NISTConst']]],
   ['semiempericalbindingenergykrane',['SemiEmpericalBindingEnergyKrane',['../group___e_g_x_phys-_semi_empirical_mass_formula.html#ga99c5a87be2c76d3fa4852654c3fd59a9',1,'EGXPhys']]],
   ['semiempiricalmassformula_2ehpp',['SemiEmpiricalMassFormula.hpp',['../_semi_empirical_mass_formula_8hpp.html',1,'']]],
@@ -32,8 +34,12 @@ var searchData=
   ['shieldedprotonmagneticmomenttobohrmagnetonratio',['shieldedProtonMagneticMomentToBohrMagnetonRatio',['../group___n_i_s_t_const-_proton.html#ga175eb518370bc31471e8ad763e760b72',1,'NISTConst']]],
   ['shieldedprotonmagneticmomenttonuclearmagnetonratio',['shieldedProtonMagneticMomentToNuclearMagnetonRatio',['../group___n_i_s_t_const-_proton.html#ga03e84ef0d1452fa7c647f8866913fbc3',1,'NISTConst']]],
   ['siderealrotationperiodofearth',['SiderealRotationPeriodOfEarth',['../_astrophysics_constants_8hpp.html#a34a388ac3f9196bb3cdbdbee5ff3cdb7',1,'EGXPhys']]],
+  ['signedlog',['SignedLog',['../group___e_g_x_math-_functions-_log.html#gac87b6832572195929967808d98d502d5',1,'EGXMath::SignedLog(const T &amp;x)'],['../group___e_g_x_math-_functions-_log.html#ga4cd6a087fb1977d52a321bfad0dae0f6',1,'EGXMath::SignedLog(const T &amp;x, const T &amp;base)']]],
+  ['signfunctions_2ehpp',['SignFunctions.hpp',['../_sign_functions_8hpp.html',1,'']]],
+  ['signfunctions_2einl',['SignFunctions.inl',['../_sign_functions_8inl.html',1,'']]],
   ['solarmass',['SolarMass',['../group___e_g_x_phys-_stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514',1,'EGXPhys']]],
   ['speedoflightinvacuum',['speedOfLightInVacuum',['../group___n_i_s_t_const-_speed_of_light.html#gacb4a04d9cca33259effabdd28c28e964',1,'NISTConst']]],
+  ['squarewave',['SquareWave',['../group___e_g_x_math-_functions-_periodic.html#ga3bdc6c02d347f48f91bca886448db33a',1,'EGXMath']]],
   ['standardaccelerationofgravity',['standardAccelerationOfGravity',['../group___n_i_s_t_const-_gravity_acceleration.html#gad5bc5f7f030bc2c467a8430e00b42f5e',1,'NISTConst']]],
   ['standardatmosphere',['standardAtmosphere',['../group___n_i_s_t_const-_standard_atmosphere.html#ga260e00232ff2d0d8a24bdbf7f6c87b4e',1,'NISTConst']]],
   ['standardstatepressure',['standardStatePressure',['../group___n_i_s_t_const-_standard_state_pressure.html#gaede4b63db291cd6a839180595c7a191d',1,'NISTConst']]],

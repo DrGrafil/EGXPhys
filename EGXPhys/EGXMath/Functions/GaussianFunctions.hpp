@@ -5,7 +5,7 @@
 /// @author Elliot Grafil (Metex)
 /// @date 4/9/18
 
-/// @defgroup EGXMath-Functions-Gaussian Gaussian (Normal)
+/// @defgroup EGXMath-Functions-Gaussian Gaussian/Normal Distribution
 /// @ingroup EGXMath-Functions
 
 
@@ -24,12 +24,12 @@
 
 namespace EGXMath
 {
-	/// @addtogroup GXMath-Functions-Gaussian Gaussian/Normal Distribution
+	/// @addtogroup EGXMath-Functions-Gaussian 
 	/// @{
 
 	/**
 	*   @brief Gaussian function. The probability desnisty function of a normal distribution.
-	*		\f[Gaussian(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}\f]
+	*		\f[ Gaussian(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}} \f]
 	*
 	*	See http://mathworld.wolfram.com/GaussianFunction.html and http://mathworld.wolfram.com/NormalDistribution.html
 	*	@param x \f$x\ (dimensionless)\f$ is the argument of the function.

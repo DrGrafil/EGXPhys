@@ -1,0 +1,131 @@
+\hypertarget{group___g_x_math-_functions-_gaussian}{}\section{G\+X\+Math-\/\+Functions-\/\+Gaussian}
+\label{group___g_x_math-_functions-_gaussian}\index{G\+X\+Math-\/\+Functions-\/\+Gaussian@{G\+X\+Math-\/\+Functions-\/\+Gaussian}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga647b46315081e299edc16a1c7f4e4032}{E\+G\+X\+Math\+::\+Gaussian}} (const T \&x, const T \&mu, const T \&sigma)
+\begin{DoxyCompactList}\small\item\em Gaussian function. The probability desnisty function of a normal distribution. \[Gaussian(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga3747a7d047293d0e5310ba112bece627}{E\+G\+X\+Math\+::\+Normal\+Distribution}} (const T \&x, const T \&mu, const T \&sigma)
+\begin{DoxyCompactList}\small\item\em Gaussian function. The probability desnisty function of a normal distribution. \[Gaussian(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga0b8be7b82cb82e871a2613e6a7180431}{E\+G\+X\+Math\+::\+Gaussian\+F\+W\+HM}} (const T \&sigma)
+\begin{DoxyCompactList}\small\item\em Finds the full width half max (F\+W\+HM) of a gaussian/normal distribution. \[GaussianFWHM(x)=2\sqrt{2 ln 2} \sigma \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___g_x_math-_functions-_gaussian_gac537b8c525932979b28101cf432bcc0f}{E\+G\+X\+Math\+::\+Normal\+Distribution\+F\+W\+HM}} (const T \&sigma)
+\begin{DoxyCompactList}\small\item\em Finds the full width half max (F\+W\+HM) of a gaussian/normal distribution. \[GaussianFWHM(x)=2\sqrt{2 ln 2} \sigma \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___g_x_math-_functions-_gaussian_ga647b46315081e299edc16a1c7f4e4032}\label{group___g_x_math-_functions-_gaussian_ga647b46315081e299edc16a1c7f4e4032}} 
+\index{G\+X\+Math-\/\+Functions-\/\+Gaussian@{G\+X\+Math-\/\+Functions-\/\+Gaussian}!Gaussian@{Gaussian}}
+\index{Gaussian@{Gaussian}!G\+X\+Math-\/\+Functions-\/\+Gaussian@{G\+X\+Math-\/\+Functions-\/\+Gaussian}}
+\subsubsection{\texorpdfstring{Gaussian()}{Gaussian()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Gaussian (\begin{DoxyParamCaption}\item[{const T \&}]{x,  }\item[{const T \&}]{mu,  }\item[{const T \&}]{sigma }\end{DoxyParamCaption})}
+
+
+
+Gaussian function. The probability desnisty function of a normal distribution. \[Gaussian(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}\]. 
+
+See \href{http://mathworld.wolfram.com/GaussianFunction.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Gaussian\+Function.\+html} and \href{http://mathworld.wolfram.com/NormalDistribution.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Normal\+Distribution.\+html} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. \\
+\hline
+{\em mu} & $\mu\ (dimensionless)$ is the mean of the gaussian/normal distribution. \\
+\hline
+{\em sigma} & $\sigma\ (dimensionless)$ is the standard deviation of the gaussian/normal distribution. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$Gaussian(x)\ (dimensionless)$ the value of the gaussian/normal distribution at x. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga3747a7d047293d0e5310ba112bece627}{Normal\+Distribution()}} for alias. 
+
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga0b8be7b82cb82e871a2613e6a7180431}{Gaussian\+F\+W\+H\+M()}} for full width half max of gaussian/normal distribution. 
+
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_gac537b8c525932979b28101cf432bcc0f}{Normal\+Distribution\+F\+W\+H\+M()}} for full width half max of gaussian/normal distribution. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___g_x_math-_functions-_gaussian_ga0b8be7b82cb82e871a2613e6a7180431}\label{group___g_x_math-_functions-_gaussian_ga0b8be7b82cb82e871a2613e6a7180431}} 
+\index{G\+X\+Math-\/\+Functions-\/\+Gaussian@{G\+X\+Math-\/\+Functions-\/\+Gaussian}!Gaussian\+F\+W\+HM@{Gaussian\+F\+W\+HM}}
+\index{Gaussian\+F\+W\+HM@{Gaussian\+F\+W\+HM}!G\+X\+Math-\/\+Functions-\/\+Gaussian@{G\+X\+Math-\/\+Functions-\/\+Gaussian}}
+\subsubsection{\texorpdfstring{Gaussian\+F\+W\+H\+M()}{GaussianFWHM()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Gaussian\+F\+W\+HM (\begin{DoxyParamCaption}\item[{const T \&}]{sigma }\end{DoxyParamCaption})}
+
+
+
+Finds the full width half max (F\+W\+HM) of a gaussian/normal distribution. \[GaussianFWHM(x)=2\sqrt{2 ln 2} \sigma \]. 
+
+See \href{http://mathworld.wolfram.com/GaussianFunction.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Gaussian\+Function.\+html} and \href{http://mathworld.wolfram.com/NormalDistribution.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Normal\+Distribution.\+html} 
+\begin{DoxyParams}{Parameters}
+{\em sigma} & $\sigma\ (dimensionless)$ is the standard deviation of the gaussian/normal distribution. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$GaussianFWHM(x)\ (dimensionless)$ the full width half max of gaussian/normal\+Distribution. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga647b46315081e299edc16a1c7f4e4032}{Gaussian()}} for gaussian/normal distribution. 
+
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga3747a7d047293d0e5310ba112bece627}{Normal\+Distribution()}} for gaussian/normal distribution. 
+
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_gac537b8c525932979b28101cf432bcc0f}{Normal\+Distribution\+F\+W\+H\+M()}} for alias. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___g_x_math-_functions-_gaussian_ga3747a7d047293d0e5310ba112bece627}\label{group___g_x_math-_functions-_gaussian_ga3747a7d047293d0e5310ba112bece627}} 
+\index{G\+X\+Math-\/\+Functions-\/\+Gaussian@{G\+X\+Math-\/\+Functions-\/\+Gaussian}!Normal\+Distribution@{Normal\+Distribution}}
+\index{Normal\+Distribution@{Normal\+Distribution}!G\+X\+Math-\/\+Functions-\/\+Gaussian@{G\+X\+Math-\/\+Functions-\/\+Gaussian}}
+\subsubsection{\texorpdfstring{Normal\+Distribution()}{NormalDistribution()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Normal\+Distribution (\begin{DoxyParamCaption}\item[{const T \&}]{x,  }\item[{const T \&}]{mu,  }\item[{const T \&}]{sigma }\end{DoxyParamCaption})}
+
+
+
+Gaussian function. The probability desnisty function of a normal distribution. \[Gaussian(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}\]. 
+
+See \href{http://mathworld.wolfram.com/GaussianFunction.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Gaussian\+Function.\+html} and \href{http://mathworld.wolfram.com/NormalDistribution.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Normal\+Distribution.\+html} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $x\ (dimensionless)$ is the argument of the function. \\
+\hline
+{\em mu} & $\mu\ (dimensionless)$ is the mean of the gaussian/normal distribution. \\
+\hline
+{\em sigma} & $\sigma\ (dimensionless)$ is the standard deviation of the gaussian/normal distribution. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$Gaussian(x)\ (dimensionless)$ the value of the gaussian/normal distribution at x. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga647b46315081e299edc16a1c7f4e4032}{Gaussian()}} for alias. 
+
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga0b8be7b82cb82e871a2613e6a7180431}{Gaussian\+F\+W\+H\+M()}} for full width half max of gaussian/normal distribution. 
+
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_gac537b8c525932979b28101cf432bcc0f}{Normal\+Distribution\+F\+W\+H\+M()}} for full width half max of gaussian/normal distribution. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___g_x_math-_functions-_gaussian_gac537b8c525932979b28101cf432bcc0f}\label{group___g_x_math-_functions-_gaussian_gac537b8c525932979b28101cf432bcc0f}} 
+\index{G\+X\+Math-\/\+Functions-\/\+Gaussian@{G\+X\+Math-\/\+Functions-\/\+Gaussian}!Normal\+Distribution\+F\+W\+HM@{Normal\+Distribution\+F\+W\+HM}}
+\index{Normal\+Distribution\+F\+W\+HM@{Normal\+Distribution\+F\+W\+HM}!G\+X\+Math-\/\+Functions-\/\+Gaussian@{G\+X\+Math-\/\+Functions-\/\+Gaussian}}
+\subsubsection{\texorpdfstring{Normal\+Distribution\+F\+W\+H\+M()}{NormalDistributionFWHM()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Normal\+Distribution\+F\+W\+HM (\begin{DoxyParamCaption}\item[{const T \&}]{sigma }\end{DoxyParamCaption})}
+
+
+
+Finds the full width half max (F\+W\+HM) of a gaussian/normal distribution. \[GaussianFWHM(x)=2\sqrt{2 ln 2} \sigma \]. 
+
+See \href{http://mathworld.wolfram.com/GaussianFunction.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Gaussian\+Function.\+html} and \href{http://mathworld.wolfram.com/NormalDistribution.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Normal\+Distribution.\+html} 
+\begin{DoxyParams}{Parameters}
+{\em sigma} & $\sigma\ (dimensionless)$ is the standard deviation of the gaussian/normal distribution. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$GaussianFWHM(x)\ (dimensionless)$ the full width half max of gaussian/normal\+Distribution. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga647b46315081e299edc16a1c7f4e4032}{Gaussian()}} for gaussian/normal distribution. 
+
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga3747a7d047293d0e5310ba112bece627}{Normal\+Distribution()}} for gaussian/normal distribution. 
+
+\mbox{\hyperlink{group___g_x_math-_functions-_gaussian_ga0b8be7b82cb82e871a2613e6a7180431}{Gaussian\+F\+W\+H\+M()}} for alias. 
+\end{DoxySeeAlso}

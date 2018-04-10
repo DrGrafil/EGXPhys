@@ -9,13 +9,13 @@ Right ascension calculations.
 \begin{DoxyCompactItemize}
 \item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_right_ascension_ga30e95e529dac871efc014c8ca0108c0d}{E\+G\+X\+Phys\+::\+Right\+Ascension\+To\+Degree}} (const T \&hours, const T \&minutes, const T \&seconds)
-\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to degrees. \[\alpha_{deg}=(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\]. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to degrees. \[\alpha_{deg}=(15 RA_h + \frac{RA_m}{4} + \frac{RA_s}{240})\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_right_ascension_gad90de181361375b745a9b226fa13ba14}{E\+G\+X\+Phys\+::\+Right\+Ascension\+To\+Radian}} (const T \&hours, const T \&minutes, const T \&seconds)
-\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to radians. \[\alpha_{rad}=\frac{pi}{180.0}(15 RA_h + \frac{RA_m}{4.0} + \frac{RA_s}{240.0})\] See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle}. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Degree\+To\+Right\+Ascension} (const T \&decimal\+Degree, T \&hours, T \&minutes, T \&seconds)
-\item 
-{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Phys\+::\+Radian\+To\+Right\+Ascension} (const T \&radians, T \&hours, T \&minutes, T \&seconds)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Converts right ascensions $(\alpha_{RA})$ from hours $(RA_h)$, minutes $(RA_m)$ and seconds $(RA_s)$ to radians. \[\alpha_{rad}=\frac{\pi}{180.0}(15 RA_h + \frac{RA_m}{4} + \frac{RA_s}{240})\] See \href{http://en.wikipedia.org/wiki/Right_ascension,}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Right\+\_\+ascension,} \href{http://en.wikipedia.org/wiki/Sidereal_hour_angle}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Sidereal\+\_\+hour\+\_\+angle}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_right_ascension_gabdd9d1c686dd5e2580518f526b78295f}{E\+G\+X\+Phys\+::\+Degree\+To\+Right\+Ascension}} (const T \&decimal\+Degree, T \&hours, T \&minutes, T \&seconds)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to hours minutes seconds (H\+MS). ${HH}^{h}{MM}^{m}{SS.SS}^{s}$ format. \[hour=trun(\frac{\alpha_{deg}}{15})\] \[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\] \[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_right_ascension_ga50c306a7d118d3b3c02bc3621e1cb078}{E\+G\+X\+Phys\+::\+Radian\+To\+Right\+Ascension}} (const T \&radians, T \&hours, T \&minutes, T \&seconds)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}

@@ -4,6 +4,8 @@ var searchData=
   ['neutronseparationenergyinmev',['NeutronSeparationEnergyInMeV',['../group___e_g_x_phys-_nuclear_separation_energy.html#ga66133edb5809c81dd9fd60e09ebbef79',1,'EGXPhys']]],
   ['neutrontwoseparationenergyinj',['NeutronTwoSeparationEnergyInJ',['../group___e_g_x_phys-_nuclear_separation_energy.html#ga293ac9428420a0adf4235048dbe529b4',1,'EGXPhys']]],
   ['neutrontwoseparationenergyinmev',['NeutronTwoSeparationEnergyInMeV',['../group___e_g_x_phys-_nuclear_separation_energy.html#ga09985fc876eb632695bfbc1f2f325401',1,'EGXPhys']]],
+  ['normaldistribution',['NormalDistribution',['../group___e_g_x_math-_functions-_gaussian.html#ga3747a7d047293d0e5310ba112bece627',1,'EGXMath']]],
+  ['normaldistributionfwhm',['NormalDistributionFWHM',['../group___e_g_x_math-_functions-_gaussian.html#gac537b8c525932979b28101cf432bcc0f',1,'EGXMath']]],
   ['nuclearbindingenergy',['NuclearBindingEnergy',['../group___e_g_x_phys-_nuclear_binding_energy.html#gab6832bf15ead7b4e867e759e0a2a078e',1,'EGXPhys']]],
   ['nuclearbindingenergyinj',['NuclearBindingEnergyInJ',['../group___e_g_x_phys-_nuclear_binding_energy.html#gae48a95188d9b71b36d02babf227b9449',1,'EGXPhys']]],
   ['nuclearbindingenergyinkgcsquared',['NuclearBindingEnergyInkgcSquared',['../group___e_g_x_phys-_nuclear_binding_energy.html#gaf229d8c0d2aa30ff95aa20e5213df3bd',1,'EGXPhys']]],

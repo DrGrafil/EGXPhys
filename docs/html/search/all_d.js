@@ -46,6 +46,8 @@ var searchData=
   ['non_2dsi_20units',['Non-SI units',['../group___n_i_s_t_const-_non-_s_i.html',1,'']]],
   ['nuclear_20magneton',['Nuclear magneton',['../group___n_i_s_t_const-_nuclear_magneton.html',1,'']]],
   ['nistconst_2ehpp',['NISTConst.hpp',['../_n_i_s_t_const_8hpp.html',1,'']]],
+  ['normaldistribution',['NormalDistribution',['../group___e_g_x_math-_functions-_gaussian.html#ga3747a7d047293d0e5310ba112bece627',1,'EGXMath']]],
+  ['normaldistributionfwhm',['NormalDistributionFWHM',['../group___e_g_x_math-_functions-_gaussian.html#gac537b8c525932979b28101cf432bcc0f',1,'EGXMath']]],
   ['nuclearbindingenergy',['NuclearBindingEnergy',['../group___e_g_x_phys-_nuclear_binding_energy.html#gab6832bf15ead7b4e867e759e0a2a078e',1,'EGXPhys']]],
   ['nuclearbindingenergy_2ehpp',['NuclearBindingEnergy.hpp',['../_nuclear_binding_energy_8hpp.html',1,'']]],
   ['nuclearbindingenergy_2einl',['NuclearBindingEnergy.inl',['../_nuclear_binding_energy_8inl.html',1,'']]],

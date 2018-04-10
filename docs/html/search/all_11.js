@@ -1,6 +1,7 @@
 var searchData=
 [
   ['radian',['Radian',['../group___e_g_x_math-_angle_conversions-_radian.html',1,'']]],
+  ['random',['Random',['../group___e_g_x_math-_random.html',1,'']]],
   ['right_20ascension',['Right Ascension',['../group___e_g_x_phys-_astrophysics-_right_ascension.html',1,'']]],
   ['radioactive_20decay',['Radioactive Decay',['../group___e_g_x_phys-_radioactive_decay.html',1,'']]],
   ['redshift',['Redshift',['../group___e_g_x_phys-_redshift.html',1,'']]],
@@ -25,12 +26,14 @@ var searchData=
   ['radiantomicroarcsecond',['RadianToMicroarcsecond',['../group___e_g_x_math-_angle_conversions-_radian.html#ga3a515ca2838a305fa40750763f546a86',1,'EGXMath']]],
   ['radiantomilliarcsecond',['RadianToMilliarcsecond',['../group___e_g_x_math-_angle_conversions-_radian.html#ga84fbb494a455cfeb30be62776f96c9a9',1,'EGXMath']]],
   ['radiantomilliradian',['RadianToMilliradian',['../group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1',1,'EGXMath']]],
+  ['radiantorightascension',['RadianToRightAscension',['../group___e_g_x_phys-_astrophysics-_right_ascension.html#ga50c306a7d118d3b3c02bc3621e1cb078',1,'EGXPhys']]],
   ['radiantoturn',['RadianToTurn',['../group___e_g_x_math-_angle_conversions-_radian.html#ga8492d6d2f6467c619b65e5fb75a9ae04',1,'EGXMath']]],
   ['radioactivedecay_2ehpp',['RadioactiveDecay.hpp',['../_radioactive_decay_8hpp.html',1,'']]],
   ['radioactivedecay_2einl',['RadioactiveDecay.inl',['../_radioactive_decay_8inl.html',1,'']]],
   ['radioluminosity',['radioLuminosity',['../group___e_g_x_phys-_luminosity.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4',1,'EGXPhys']]],
   ['radiusofearth',['RadiusOfEarth',['../_astrophysics_constants_8hpp.html#a11a2d4a914eb43c4095e225358293a45',1,'EGXPhys']]],
   ['radiusofsun',['RadiusOfSun',['../_astrophysics_constants_8hpp.html#a983b842cceb4a584787874fc9486384d',1,'EGXPhys']]],
+  ['random_2ehpp',['Random.hpp',['../_random_8hpp.html',1,'']]],
   ['redshift_2ehpp',['Redshift.hpp',['../_redshift_8hpp.html',1,'']]],
   ['redshift_2einl',['Redshift.inl',['../_redshift_8inl.html',1,'']]],
   ['redshiftbyfrequency',['redshiftByFrequency',['../group___e_g_x_phys-_optics.html#gacc6d3b2922061214d64b89a4b8e3967a',1,'EGXPhys']]],

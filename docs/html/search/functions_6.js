@@ -3,6 +3,7 @@ var searchData=
   ['halflife',['HalfLife',['../group___e_g_x_phys-_half_life.html#ga21d268f154fb91c1c556bbfa7fe83ac1',1,'EGXPhys']]],
   ['halflifeviadecaywidth',['HalfLifeViaDecayWidth',['../group___e_g_x_phys-_half_life.html#gaba3fda944d1a68ee1016a1f2f5809359',1,'EGXPhys']]],
   ['halflifeviameanlifetime',['HalfLifeViaMeanLifetime',['../group___e_g_x_phys-_half_life.html#gacddef16b62e98b214ec8dd8af7da7dce',1,'EGXPhys']]],
+  ['heavisidestep',['HeavisideStep',['../group___e_g_x_math-_functions-_periodic.html#ga0fb325d5423606e9c222e1ebd6a65833',1,'EGXMath']]],
   ['hmstoarcdegree',['HMSToArcdegree',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#gaf4a94d34cb0629049bbcab8775d2af43',1,'EGXMath']]],
   ['hmstoarcminute',['HMSToArcminute',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga36fcb6a59fd8d135346f7ee3d648c2f4',1,'EGXMath']]],
   ['hmstoarcsecond',['HMSToArcsecond',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga0eb401fd061fcc28ed22ddc869938bea',1,'EGXMath']]],

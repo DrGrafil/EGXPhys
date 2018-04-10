@@ -17,6 +17,7 @@ var searchData=
   ['hartreetojoule',['hartreeToJoule',['../group___n_i_s_t_const-_hartree.html#ga0c47e6885cdf30ceb56ac3c9420cb81c',1,'NISTConst']]],
   ['hartreetokelvin',['hartreeToKelvin',['../group___n_i_s_t_const-_hartree.html#ga5468b69d29f43719e4642f9c5248e546',1,'NISTConst']]],
   ['hartreetokilogram',['hartreeToKilogram',['../group___n_i_s_t_const-_hartree.html#ga1184624f36892653b10c2bb068541f82',1,'NISTConst']]],
+  ['heavisidestep',['HeavisideStep',['../group___e_g_x_math-_functions-_periodic.html#ga0fb325d5423606e9c222e1ebd6a65833',1,'EGXMath']]],
   ['helionelectronmassratio',['helionElectronMassRatio',['../group___n_i_s_t_const-_helion.html#ga5c779784a4f223f0936cb067e2674474',1,'NISTConst']]],
   ['heliongfactor',['heliongFactor',['../group___n_i_s_t_const-_helion.html#ga93c08fee128607b2609355ea6ddbc76e',1,'NISTConst']]],
   ['helionmagneticmoment',['helionMagneticMoment',['../group___n_i_s_t_const-_helion.html#ga06d8cffa7452ce8d1d30334e89fddc55',1,'NISTConst']]],

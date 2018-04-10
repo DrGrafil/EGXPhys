@@ -62,6 +62,7 @@ var searchData=
   ['degreetomilliarcsecond',['DegreeToMilliarcsecond',['../group___e_g_x_math-_angle_conversions-_degree.html#ga2c218e286b2ef72a00734dbc5a7f5ab6',1,'EGXMath']]],
   ['degreetomilliradian',['DegreeToMilliradian',['../group___e_g_x_math-_angle_conversions-_degree.html#gae4fa6c2d3805430760783650cfbfdb11',1,'EGXMath']]],
   ['degreetoradian',['DegreeToRadian',['../group___e_g_x_math-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0',1,'EGXMath']]],
+  ['degreetorightascension',['DegreeToRightAscension',['../group___e_g_x_phys-_astrophysics-_right_ascension.html#gabdd9d1c686dd5e2580518f526b78295f',1,'EGXPhys']]],
   ['degreetoturn',['DegreeToTurn',['../group___e_g_x_math-_angle_conversions-_degree.html#gafb4ce930493a7d6202ede3ee1630ef5d',1,'EGXMath']]],
   ['dmstoarcdegree',['DMSToArcdegree',['../group___e_g_x_math-_angle_conversions-_d_m_s.html#ga641f46ead1a3f19312aab422e569b810',1,'EGXMath']]],
   ['dmstoarcminute',['DMSToArcminute',['../group___e_g_x_math-_angle_conversions-_d_m_s.html#gab0fa9a734b22ff812a83a7784280d6db',1,'EGXMath']]],

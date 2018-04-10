@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['gaussian',['Gaussian',['../group___e_g_x_math-_functions-_gaussian.html#ga647b46315081e299edc16a1c7f4e4032',1,'EGXMath']]],
+  ['gaussianfwhm',['GaussianFWHM',['../group___e_g_x_math-_functions-_gaussian.html#ga0b8be7b82cb82e871a2613e6a7180431',1,'EGXMath']]],
   ['gontoarcdegree',['GonToArcdegree',['../group___e_g_x_math-_angle_conversions-_gon.html#ga00757282768841abe48ac3c8452627cb',1,'EGXMath']]],
   ['gontoarcminute',['GonToArcminute',['../group___e_g_x_math-_angle_conversions-_gon.html#ga02679f6b0f3520ede1db642aadb51383',1,'EGXMath']]],
   ['gontoarcsecond',['GonToArcsecond',['../group___e_g_x_math-_angle_conversions-_gon.html#gad4f34877c74cc444e7b741b99cd20d5a',1,'EGXMath']]],

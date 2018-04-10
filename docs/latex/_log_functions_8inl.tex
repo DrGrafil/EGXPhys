@@ -1,0 +1,25 @@
+\hypertarget{_log_functions_8inl}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Functions/\+Log\+Functions.inl File Reference}
+\label{_log_functions_8inl}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Functions/\+Log\+Functions.\+inl@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Functions/\+Log\+Functions.\+inl}}
+
+
+Implimentation of functions related to the log function.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_log_gac87b6832572195929967808d98d502d5}{E\+G\+X\+Math\+::\+Signed\+Log}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Signed Log. Gives the signed (keeps sign on number) log base e of a number. \[signedLog(x)= sign(x)*Log_e(|x|)\] \[signedLog(x)= sign(x)*\int_{1}^{|x|}\frac{1}{t} dt\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_log_ga4cd6a087fb1977d52a321bfad0dae0f6}{E\+G\+X\+Math\+::\+Signed\+Log}} (const T \&x, const T \&base)
+\begin{DoxyCompactList}\small\item\em Signed Log. Gives the signed (keeps sign on number) log of a number in a base of your choice. \[signedLog(x)= sign(x)*\frac{Log_e(|x|)}{Log_e(base)}\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implimentation of functions related to the log function. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/9/18 
+\end{DoxyDate}

@@ -35,13 +35,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_absolute_magnitude_8hpp.html",
-"_degrees_minutes_seconds_conversion_8hpp.html#ga838c47916ce872cab2dfecd5ccf0a6ee",
-"_lorentz_transformations_8hpp.html",
-"_n_i_s_t_const_8hpp.html#ga98d22d0957c639e03a8432aadd02f58f",
-"_planetary_mass_8hpp.html#gaadff5ffa04bb55a572c1403ab9500c06",
-"group___e_g_x_math-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0",
-"group___e_g_x_phys-_nuclear_binding_energy.html#gae48a95188d9b71b36d02babf227b9449",
-"group___n_i_s_t_const-_helion.html#gac7da5201f92f47f4ca2310ae1c9f4fb6"
+"_degrees_minutes_seconds_conversion_8hpp.html#ga63c1cd3c9048d0c5a80fd9bc851c38ac",
+"_integer_degree_conversion_8hpp.html#ga78b014e7649d666a3647c467e64e4fe8",
+"_n_i_s_t_const_8hpp.html#ga77c7dd314342e7f121d9b8775a45d20f",
+"_periapsis_8inl.html#ga237e7af3794202c67e65f64f4c8abc2a",
+"_turn_conversion_8inl.html#gad6aa9bdde2cde17cec136b24ee017bba",
+"group___e_g_x_math-_functions-_periodic.html#gafa81ebd66ef7cd080370fad972d6ac50",
+"group___n_i_s_t_const-_deuteron.html#gabe2731d4997c2227da2cc2d7e7cda194",
+"group___n_i_s_t_const-_proton.html#ga8b54a81cc7dec7f196f874dcc81dbab2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

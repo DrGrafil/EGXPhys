@@ -20,6 +20,7 @@ var searchData=
   ['thermodynamicsconstants_2ehpp',['ThermodynamicsConstants.hpp',['../_thermodynamics_constants_8hpp.html',1,'']]],
   ['thomsoncrosssection',['ThomsonCrossSection',['../group___n_i_s_t_const-_thomson.html#gac0806b1a7f3e82009afeac7ea16728ce',1,'NISTConst']]],
   ['todo_20list',['Todo List',['../todo.html',1,'']]],
+  ['trianglewave',['TriangleWave',['../group___e_g_x_math-_functions-_periodic.html#gafa81ebd66ef7cd080370fad972d6ac50',1,'EGXMath']]],
   ['tritonelectronmassratio',['tritonElectronMassRatio',['../group___n_i_s_t_const-_triton.html#ga8508adabd4d9f81969eeed5838a61443',1,'NISTConst']]],
   ['tritongfactor',['tritongFactor',['../group___n_i_s_t_const-_triton.html#ga4d9812975c185048a8367d9838b53215',1,'NISTConst']]],
   ['tritonmagneticmoment',['tritonMagneticMoment',['../group___n_i_s_t_const-_triton.html#ga9b4063b3a2a14f1ad4718d844f37652e',1,'NISTConst']]],

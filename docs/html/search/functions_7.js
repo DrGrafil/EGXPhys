@@ -17,5 +17,7 @@ var searchData=
   ['integerdegreetomilliarcsecond',['IntegerDegreeToMilliarcsecond',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#gadc43f22e832cd8fcf16b7bd2269ae348',1,'EGXMath']]],
   ['integerdegreetomilliradian',['IntegerDegreeToMilliradian',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#ga5379a68bdff5cc4fab5bb1ba06ef9453',1,'EGXMath']]],
   ['integerdegreetoradian',['IntegerDegreeToRadian',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#ga05d3368b00ea27b9895de2ffe5c8df38',1,'EGXMath']]],
-  ['integerdegreetoturn',['IntegerDegreeToTurn',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#ga06ddbdada5a3978105c855d4aae735ae',1,'EGXMath']]]
+  ['integerdegreetoturn',['IntegerDegreeToTurn',['../group___e_g_x_math-_angle_conversions-_integer_degree.html#ga06ddbdada5a3978105c855d4aae735ae',1,'EGXMath']]],
+  ['inverseerf',['InverseErf',['../group___e_g_x_math-_functions-_e_r_f.html#gab7cacb258ac31ab3929204dc1ed93400',1,'EGXMath']]],
+  ['inverseerfc',['InverseErfc',['../group___e_g_x_math-_functions-_e_r_f.html#gad1f81a581f9f2d66a1a4bad2578c3368',1,'EGXMath']]]
 ];
