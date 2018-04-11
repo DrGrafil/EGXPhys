@@ -70,6 +70,12 @@
     <Filter Include="EGXPhys\EGXMath\Random">
       <UniqueIdentifier>{7067758f-6273-4bc6-b598-5e7d6cc61a7d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\EGXMath\Geometry\2D">
+      <UniqueIdentifier>{70f1aab2-81f4-41b2-9e7c-6c5c08f711dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\EGXMath\Geometry\3D">
+      <UniqueIdentifier>{35c38dfc-daeb-4923-9501-e2cdb62f77ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -339,50 +345,8 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\RightAscension.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Circle.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Cone.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Cube.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Cuboid.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Cylinder.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Ellipse.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Ellipsoid.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Geometry.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Sphere.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\Functions.hpp">
       <Filter>EGXPhys\EGXMath\Functions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Random\QuickRand.hpp">
-      <Filter>EGXPhys\EGXMath\Random</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Random\Random.hpp">
-      <Filter>EGXPhys\EGXMath\Random</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Random\RandomNumber.hpp">
-      <Filter>EGXPhys\EGXMath\Random</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Random\Shuffle.hpp">
-      <Filter>EGXPhys\EGXMath\Random</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Random\simplexnoise.h">
-      <Filter>EGXPhys\EGXMath\Random</Filter>
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.hpp">
       <Filter>EGXPhys\EGXMath\Functions</Filter>
@@ -399,46 +363,16 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.hpp">
       <Filter>EGXPhys\EGXMath\Functions</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Geometry.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
       <Filter>Tests</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Circle.cpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Cone.cpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Cube.cpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Cuboid.cpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Cylinder.cpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Ellipse.cpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Ellipsoid.cpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Geometry\Sphere.cpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Random\QuickRand.cpp">
-      <Filter>EGXPhys\EGXMath\Random</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Random\RandomNumber.cpp">
-      <Filter>EGXPhys\EGXMath\Random</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Random\RandomPDFFunctions.cpp">
-      <Filter>EGXPhys\EGXMath\Random</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\EGXPhys\EGXMath\Random\simplexnoise.cpp">
-      <Filter>EGXPhys\EGXMath\Random</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -576,6 +510,9 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.inl">
       <Filter>EGXPhys\EGXMath\Functions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\2D</Filter>
     </None>
   </ItemGroup>
 </Project>

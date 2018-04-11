@@ -1,9 +1,9 @@
-#include "Math/Random/RandomNumber.hpp"
-#include "Math/Random/QuickRand.hpp"
-#include "mtrand/mtrand.h"
-#include <assert.h>
+#include "RandomNumber.hpp"
+#include "QuickRand.hpp"
+//#include "mtrand/mtrand.h"
+//#include <assert.h>
 
-MTRand_closed SeededRand;
+//MTRand_closed SeededRand;
 
 void SeedRandom( unsigned long seed )
 {
