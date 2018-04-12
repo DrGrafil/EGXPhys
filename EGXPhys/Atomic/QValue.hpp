@@ -46,7 +46,7 @@ namespace EGXPhys
 	/// @{
     
     /**
-    *	@brief Calculates the Q-value, \f$Q\f$ of a nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+    *	@brief Calculates the Q-value, \f$Q\f$, of a nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
     *
     *	The Q-value, \f$Q\f$, is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero.
 	*	For \f$Q < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
@@ -74,14 +74,14 @@ namespace EGXPhys
 	*	@see QValueBetaMinusDecayInMeV() to calculate Q-Value for a beta-minus decay reaction in mega electron volts.
 	*	@see QValueBetaPlusDecayInMeV() to calculate Q-Value for a beta-plus reaction decay in mega electron volts.
 	*	@see QValueElectronCaptureInMeV() to calculate Q-Value for a electron capture reaction in mega electron volts.
-	*	@see QValueNeutronDecayInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
-	*	@see QValueProtonDecayInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
+	*	@see QValueNeutronEmissionInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
+	*	@see QValueProtonEmissionInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
     */
     template<typename T>
     T QValueInMeV(const T projectileInu, const T targetInu, const T massProduct1Inu, const T massProduct2Inu);
     
 	/**
-	*	@brief Calculates the Q-value, \f$Q\f$ of a nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+	*	@brief Calculates the Q-value, \f$Q\f$, of a nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
 	*
 	*	The Q-value, \f$Q\f$, is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero.
 	*	For \f$Q < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
@@ -109,8 +109,8 @@ namespace EGXPhys
 	*	@see QValueBetaMinusDecayInJ() to calculate Q-Value for a beta-minus decay reaction in joules.
 	*	@see QValueBetaPlusDecayInJ() to calculate Q-Value for a beta-plus reaction decay in joules.
 	*	@see QValueElectronCaptureInJ() to calculate Q-Value for a electron capture reaction in joules.
-	*	@see QValueNeutronDecayInJ() to calculate Q-Value for an neutron decay reaction in joules.
-	*	@see QValueProtonDecayInJ() to calculate Q-Value for a proton decay reaction in joules.
+	*	@see QValueNeutronEmissionInJ() to calculate Q-Value for an neutron decay reaction in joules.
+	*	@see QValueProtonEmissionInJ() to calculate Q-Value for a proton decay reaction in joules.
 	*/
     template<typename T>
     T QValueInJ(const T projectileInu, const T targetInu, const T massProduct1Inu, const T massProduct2Inu);
@@ -143,8 +143,8 @@ namespace EGXPhys
 	*	@see QValueBetaMinusDecayInMeV() to calculate Q-Value for a beta-minus decay reaction in mega electron volts.
 	*	@see QValueBetaPlusDecayInMeV() to calculate Q-Value for a beta-plus reaction decay in mega electron volts.
 	*	@see QValueElectronCaptureInMeV() to calculate Q-Value for a electron capture reaction in mega electron volts.
-	*	@see QValueNeutronDecayInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
-	*	@see QValueProtonDecayInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
+	*	@see QValueNeutronEmissionInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
+	*	@see QValueProtonEmissionInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
 	*/
     template<typename T>
     T QValueAlphaDecayInMeV(const T massParentInu, const T massDaughterInu);
@@ -172,14 +172,14 @@ namespace EGXPhys
 	*	@see QValueBetaMinusDecayInJ() to calculate Q-Value for a beta-minus decay reaction in joules.
 	*	@see QValueBetaPlusDecayInJ() to calculate Q-Value for a beta-plus reaction decay in joules.
 	*	@see QValueElectronCaptureInJ() to calculate Q-Value for a electron capture reaction in joules.
-	*	@see QValueNeutronDecayInJ() to calculate Q-Value for an neutron decay reaction in joules.
-	*	@see QValueProtonDecayInJ() to calculate Q-Value for a proton decay reaction in joules.
+	*	@see QValueNeutronEmissionInJ() to calculate Q-Value for an neutron decay reaction in joules.
+	*	@see QValueProtonEmissionInJ() to calculate Q-Value for a proton decay reaction in joules.
 	*/
 	template<typename T>
     T QValueAlphaDecayInJ(const T massParentInu, const T massDaughterInu);	
     
 	/**
-	*	@brief Calculates the Q-value, \f$Q\f$ of a double alpha decay nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+	*	@brief Calculates the Q-value, \f$Q\f$, of a double alpha decay nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
 	*
 	*	The Q-value, \f$Q\f$, is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero.
 	*	For \f$Q < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
@@ -201,14 +201,14 @@ namespace EGXPhys
 	*	@see QValueBetaMinusDecayInMeV() to calculate Q-Value for a beta-minus decay reaction in mega electron volts.
 	*	@see QValueBetaPlusDecayInMeV() to calculate Q-Value for a beta-plus reaction decay in mega electron volts.
 	*	@see QValueElectronCaptureInMeV() to calculate Q-Value for a electron capture reaction in mega electron volts.
-	*	@see QValueNeutronDecayInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
-	*	@see QValueProtonDecayInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
+	*	@see QValueNeutronEmissionInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
+	*	@see QValueProtonEmissionInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
 	*/
     template<typename T>
     T QValueDoubleAlphaDecayInMeV(const T massParentInu, const T massDaughterInu);
     
 	/**
-	*	@brief Calculates the Q-value, \f$Q\f$ of a double alpha decay nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+	*	@brief Calculates the Q-value, \f$Q\f$, of a double alpha decay nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
 	*
 	*	The Q-value, \f$Q\f$, is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero.
 	*	For \f$Q < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
@@ -230,8 +230,8 @@ namespace EGXPhys
 	*	@see QValueBetaMinusDecayInJ() to calculate Q-Value for a beta-minus decay reaction in joules.
 	*	@see QValueBetaPlusDecayInJ() to calculate Q-Value for a beta-plus reaction decay in joules.
 	*	@see QValueElectronCaptureInJ() to calculate Q-Value for a electron capture reaction in joules.
-	*	@see QValueNeutronDecayInJ() to calculate Q-Value for an neutron decay reaction in joules.
-	*	@see QValueProtonDecayInJ() to calculate Q-Value for a proton decay reaction in joules.
+	*	@see QValueNeutronEmissionInJ() to calculate Q-Value for an neutron decay reaction in joules.
+	*	@see QValueProtonEmissionInJ() to calculate Q-Value for a proton decay reaction in joules.
 	*/
     template<typename T>
     T QValueDoubleAlphaDecayInJ(const T massParentInu, const T massDaughterInu);
@@ -264,8 +264,8 @@ namespace EGXPhys
 	*	@see QValueBetaMinusDecayInMeV() to calculate Q-Value for a beta-minus decay reaction in mega electron volts.
 	*	@see QValueBetaPlusDecayInMeV() to calculate Q-Value for a beta-plus reaction decay in mega electron volts.
 	*	@see QValueElectronCaptureInMeV() to calculate Q-Value for a electron capture reaction in mega electron volts.
-	*	@see QValueNeutronDecayInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
-	*	@see QValueProtonDecayInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
+	*	@see QValueNeutronEmissionInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
+	*	@see QValueProtonEmissionInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
 	*/
    	template<typename T>
     T QValueBetaMinusDecayInMeV(const T massParentInu, const T massDaughterInu);
@@ -327,8 +327,8 @@ namespace EGXPhys
 	*	@see QValueBetaMinusDecayInMeV() to calculate Q-Value for a beta-minus decay reaction in mega electron volts.
 	*	@see QValueBetaPlusDecayInMeV() to calculate Q-Value for a beta-plus reaction decay in mega electron volts.
 	*	@see QValueElectronCaptureInMeV() to calculate Q-Value for a electron capture reaction in mega electron volts.
-	*	@see QValueNeutronDecayInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
-	*	@see QValueProtonDecayInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
+	*	@see QValueNeutronEmissionInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
+	*	@see QValueProtonEmissionInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
 	*/
     template<typename T>
     T QValueElectronCaptureInMeV(const T massParentInu, const T massDaughterInu, const T neutronBindingEnergyInMeV = (T)(0.0));
@@ -359,14 +359,14 @@ namespace EGXPhys
 	*	@see QValueBetaMinusDecayInJ() to calculate Q-Value for a beta-minus decay reaction in joules.
 	*	@see QValueBetaPlusDecayInJ() to calculate Q-Value for a beta-plus reaction decay in joules.
 	*	@see QValueElectronCaptureInJ() to calculate Q-Value for a electron capture reaction in joules.
-	*	@see QValueNeutronDecayInJ() to calculate Q-Value for an neutron decay reaction in joules.
-	*	@see QValueProtonDecayInJ() to calculate Q-Value for a proton decay reaction in joules.
+	*	@see QValueNeutronEmissionInJ() to calculate Q-Value for an neutron decay reaction in joules.
+	*	@see QValueProtonEmissionInJ() to calculate Q-Value for a proton decay reaction in joules.
 	*/
 	template<typename T>
     T QValueElectronCaptureInJ(const T massParentInu, const T massDaughterInu, const T neutronBindingEnergyInJ = (T)(0.0));
     
 	/**
-	*	@brief Calculates the Q-value, \f$Q\f$ of a double electron capture(k-capture) nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+	*	@brief Calculates the Q-value, \f$Q\f$, of a double electron capture(k-capture) nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
 	*
 	*	The Q-value, \f$Q\f$, is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero.
 	*	For \f$Q < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
@@ -391,14 +391,14 @@ namespace EGXPhys
 	*	@see QValueBetaMinusDecayInMeV() to calculate Q-Value for a beta-minus decay reaction in mega electron volts.
 	*	@see QValueBetaPlusDecayInMeV() to calculate Q-Value for a beta-plus reaction decay in mega electron volts.
 	*	@see QValueElectronCaptureInMeV() to calculate Q-Value for a electron capture reaction in mega electron volts.
-	*	@see QValueNeutronDecayInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
-	*	@see QValueProtonDecayInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
+	*	@see QValueNeutronEmissionInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts.
+	*	@see QValueProtonEmissionInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts.
 	*/
     template<typename T>
     T QValueDoubleElectronCaptureInMeV(const T massParentInu, const T massDaughterInu, const T neutronBindingEnergyInMeV = (T)(0.0));
     
 	/**
-	*	@brief Calculates the Q-value, \f$Q\f$ of a double electron capture(k-capture) nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+	*	@brief Calculates the Q-value, \f$Q\f$, of a double electron capture(k-capture) nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
 	*
 	*	The Q-value, \f$Q\f$, is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero.
 	*	For \f$Q < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
@@ -423,8 +423,8 @@ namespace EGXPhys
 	*	@see QValueBetaMinusDecayInJ() to calculate Q-Value for a beta-minus decay reaction in joules.
 	*	@see QValueBetaPlusDecayInJ() to calculate Q-Value for a beta-plus reaction decay in joules.
 	*	@see QValueElectronCaptureInJ() to calculate Q-Value for a electron capture reaction in joules.
-	*	@see QValueNeutronDecayInJ() to calculate Q-Value for an neutron decay reaction in joules.
-	*	@see QValueProtonDecayInJ() to calculate Q-Value for a proton decay reaction in joules.
+	*	@see QValueNeutronEmissionInJ() to calculate Q-Value for an neutron decay reaction in joules.
+	*	@see QValueProtonEmissionInJ() to calculate Q-Value for a proton decay reaction in joules.
 	*/
     template<typename T>
     T QValueDoubleElectronCaptureInJ(const T massParentInu, const T massDaughterInu, const T neutronBindingEnergyInJ = (T)(0.0));
@@ -435,16 +435,16 @@ namespace EGXPhys
 	/// @{
 
     template<typename T>
-    T QValueNeutronDecayInMeV(const T massParentInu, const T massDaughterInu);
+    T QValueNeutronEmissionInMeV(const T massParentInu, const T massDaughterInu);
     
 	template<typename T>
-    T QValueNeutronDecayInJ(const T massParentInu, const T massDaughterInu);
+    T QValueNeutronEmissionInJ(const T massParentInu, const T massDaughterInu);
     
     template<typename T>
-    T QValueDoubleNeutronDecayInMeV(const T massParentInu, const T massDaughterInu);
+    T QValueDoubleNeutronEmissionInMeV(const T massParentInu, const T massDaughterInu);
     
     template<typename T>
-    T QValueDoubleNeutronDecayInJ(const T massParentInu, const T massDaughterInu);
+    T QValueDoubleNeutronEmissionInJ(const T massParentInu, const T massDaughterInu);
     
 	/// @}
     // -------------- Proton ----------------------
@@ -452,16 +452,16 @@ namespace EGXPhys
 	/// @{
 
     template<typename T>
-    T QValueProtonDecayInMeV(const T massParentInu, const T massDaughterInu);
+    T QValueProtonEmissionInMeV(const T massParentInu, const T massDaughterInu);
     
 	template<typename T>
-    T QValueProtonDecayInJ(const T massParentInu, const T massDaughterInu);
+    T QValueProtonEmissionInJ(const T massParentInu, const T massDaughterInu);
     
     template<typename T>
-    T QValueDoubleProtonDecayInMeV(const T massParentInu, const T massDaughterInu);
+    T QValueDoubleProtonEmissionInMeV(const T massParentInu, const T massDaughterInu);
     
     template<typename T>
-    T QValueDoubleProtonDecayInJ(const T massParentInu, const T massDaughterInu);
+    T QValueDoubleProtonEmissionInJ(const T massParentInu, const T massDaughterInu);
     
     /// @}
 } //namespace EGXPhys

@@ -113,44 +113,44 @@ namespace EGXPhys{
     // -------------- Neutron ----------------------
     
     template<typename T>
-    T QValueNeutronDecayInMeV(const T massParentInu, const T massDaughterInu){
+    T QValueNeutronEmissionInMeV(const T massParentInu, const T massDaughterInu){
     	return (massParentInu - (T)NISTConst::neutronMassInu - massDaughterInu) * (T)NISTConst::atomicMassConstantInMeVPercSquared;
 	}
     
 	template<typename T>
-    T QValueNeutronDecayInJ(const T massParentInu, const T massDaughterInu){
+    T QValueNeutronEmissionInJ(const T massParentInu, const T massDaughterInu){
     	return (massParentInu - (T)NISTConst::neutronMassInu - massDaughterInu) * (T)NISTConst::atomicMassConstantInJPercSquared;
 	}
     
     template<typename T>
-    T QValueDoubleNeutronDecayInMeV(const T massParentInu, const T massDaughterInu){
+    T QValueDoubleNeutronEmissionInMeV(const T massParentInu, const T massDaughterInu){
     	return (massParentInu - 2.0 * (T)NISTConst::neutronMassInu - massDaughterInu) * (T)NISTConst::atomicMassConstantInMeVPercSquared;
 	}
     
     template<typename T>
-    T QValueDoubleNeutronDecayInJ(const T massParentInu, const T massDaughterInu){
+    T QValueDoubleNeutronEmissionInJ(const T massParentInu, const T massDaughterInu){
     	return (massParentInu - 2.0 * (T)NISTConst::neutronMassInu - massDaughterInu) * (T)NISTConst::atomicMassConstantInJPercSquared;
 	}
     
     // -------------- Proton ----------------------
     
     template<typename T>
-    T QValueProtonDecayInMeV(const T massParentInu, const T massDaughterInu){
+    T QValueProtonEmissionInMeV(const T massParentInu, const T massDaughterInu){
     	return (massParentInu - (T)NISTConst::protonMassInu - massDaughterInu - (T)NISTConst::electronMassInu) * (T)NISTConst::atomicMassConstantInMeVPercSquared;
 	}
     
 	template<typename T>
-    T QValueProtonDecayInJ(const T massParentInu, const T massDaughterInu){
+    T QValueProtonEmissionInJ(const T massParentInu, const T massDaughterInu){
     	return (massParentInu - (T)NISTConst::protonMassInu - massDaughterInu - (T)NISTConst::electronMassInu) * (T)NISTConst::atomicMassConstantInJPercSquared;
 	}
     
     template<typename T>
-    T QValueDoubleProtonDecayInMeV(const T massParentInu, const T massDaughterInu){
+    T QValueDoubleProtonEmissionInMeV(const T massParentInu, const T massDaughterInu){
     	return (massParentInu - 2.0 * (T)NISTConst::protonMassInu - massDaughterInu - 2.0 * (T)NISTConst::electronMassInu) * (T)NISTConst::atomicMassConstantInMeVPercSquared;
 	}
     
     template<typename T>
-    T QValueDoubleProtonDecayInJ(const T massParentInu, const T massDaughterInu){
+    T QValueDoubleProtonEmissionInJ(const T massParentInu, const T massDaughterInu){
     	return (massParentInu - 2.0 * (T)NISTConst::protonMassInu - massDaughterInu - 2.0 * (T)NISTConst::electronMassInu) * (T)NISTConst::atomicMassConstantInJPercSquared;
 	}
 }//namespace EGXPhys
