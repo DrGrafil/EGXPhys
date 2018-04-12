@@ -1,0 +1,30 @@
+\hypertarget{_hoop_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Hoop.hpp File Reference}
+\label{_hoop_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Hoop.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Hoop.\+hpp}}
+
+
+Defines functions relating to hoop shape.  
+
+
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include \char`\"{}Hoop.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_hoop_gab3a84dc2aa29ce0db990425747d291c6}{E\+G\+X\+Math\+::\+Hoop\+Thin\+Inertia}} (const T mass, const T radius, T2(\&matrix)\mbox{[}9\mbox{]})
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{hoop}$ of a hoop with radius, $r$, and mass $m$ that is infinitly thin. \[ I_{hoop}=\begin{bmatrix} \frac{1}{2}m\ r^2 & 0 & 0\\ 0 & \frac{1}{2}m\ r^2 & 0\\ 0 & 0 & m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_hoop_ga0bc0b59dbaad05d7dd184d710f99b199}{E\+G\+X\+Math\+::\+Hoop\+Thin\+Inertia}} (const T mass, const T radius, std\+::vector$<$ T2 $>$ \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{hoop}$ of a hoop with radius, $r$, and mass $m$ that is infinitly thin. \[ I_{hoop}=\begin{bmatrix} \frac{1}{2}m\ r^2 & 0 & 0\\ 0 & \frac{1}{2}m\ r^2 & 0\\ 0 & 0 & m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_hoop_ga810ed1548ab8825b8830b97cfcbcfe11}{E\+G\+X\+Math\+::\+Hoop\+Thin\+Inertia}} (const T mass, const T radius, glm\+::mat3 \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{hoop}$ of a hoop with radius, $r$, and mass $m$ that is infinitly thin. \[ I_{hoop}=\begin{bmatrix} \frac{1}{2}m\ r^2 & 0 & 0\\ 0 & \frac{1}{2}m\ r^2 & 0\\ 0 & 0 & m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines functions relating to hoop shape. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/11/18 
+\end{DoxyDate}

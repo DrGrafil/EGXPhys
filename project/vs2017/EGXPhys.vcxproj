@@ -195,6 +195,8 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\PeriodicFunctions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Geometry.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXPhys.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXPhysConstants.hpp" />
@@ -287,6 +289,8 @@
     <None Include="..\..\EGXPhys\EGXMath\Functions\PeriodicFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.inl" />
     <None Include="..\..\EGXPhys\Optics\Redshift.inl" />
     <None Include="..\..\EGXPhys\Relativity\LorentzTransformations.inl" />
   </ItemGroup>

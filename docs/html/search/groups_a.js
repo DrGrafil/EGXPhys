@@ -2,6 +2,7 @@ var searchData=
 [
   ['hms',['HMS',['../group___e_g_x_math-_angle_conversions-_h_m_s.html',1,'']]],
   ['hours_20minutes_20seconds',['Hours Minutes Seconds',['../group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html',1,'']]],
+  ['hoop',['Hoop',['../group___e_g_x_math-_geometry-3_d-_hoop.html',1,'']]],
   ['half_20life',['Half Life',['../group___e_g_x_phys-_half_life.html',1,'']]],
   ['hartree',['Hartree',['../group___n_i_s_t_const-_hartree.html',1,'']]],
   ['hartree_20energy',['Hartree energy',['../group___n_i_s_t_const-_hartree_energy.html',1,'']]],

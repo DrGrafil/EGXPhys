@@ -2,6 +2,7 @@ var searchData=
 [
   ['hms',['HMS',['../group___e_g_x_math-_angle_conversions-_h_m_s.html',1,'']]],
   ['hours_20minutes_20seconds',['Hours Minutes Seconds',['../group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html',1,'']]],
+  ['hoop',['Hoop',['../group___e_g_x_math-_geometry-3_d-_hoop.html',1,'']]],
   ['half_20life',['Half Life',['../group___e_g_x_phys-_half_life.html',1,'']]],
   ['halflife',['HalfLife',['../group___e_g_x_phys-_half_life.html#ga21d268f154fb91c1c556bbfa7fe83ac1',1,'EGXPhys']]],
   ['halflife_2ehpp',['HalfLife.hpp',['../_half_life_8hpp.html',1,'']]],
@@ -56,6 +57,9 @@ var searchData=
   ['hmstomilliradian',['HMSToMilliradian',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga175cead130e511e2c61545d71e3dc2f3',1,'EGXMath']]],
   ['hmstoradian',['HMSToRadian',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga5f0873c7c013ba2c5784de3725f2c042',1,'EGXMath']]],
   ['hmstoturn',['HMSToTurn',['../group___e_g_x_math-_angle_conversions-_h_m_s.html#ga9352ac15414f9e52351f21d7976964db',1,'EGXMath']]],
+  ['hoop_2ehpp',['Hoop.hpp',['../_hoop_8hpp.html',1,'']]],
+  ['hoop_2einl',['Hoop.inl',['../_hoop_8inl.html',1,'']]],
+  ['hoopthininertia',['HoopThinInertia',['../group___e_g_x_math-_geometry-3_d-_hoop.html#gab3a84dc2aa29ce0db990425747d291c6',1,'EGXMath::HoopThinInertia(const T mass, const T radius, T2(&amp;matrix)[9])'],['../group___e_g_x_math-_geometry-3_d-_hoop.html#ga0bc0b59dbaad05d7dd184d710f99b199',1,'EGXMath::HoopThinInertia(const T mass, const T radius, std::vector&lt; T2 &gt; &amp;matrix)'],['../group___e_g_x_math-_geometry-3_d-_hoop.html#ga810ed1548ab8825b8830b97cfcbcfe11',1,'EGXMath::HoopThinInertia(const T mass, const T radius, glm::mat3 &amp;matrix)']]],
   ['hoursminutessecondsconversion_2ehpp',['HoursMinutesSecondsConversion.hpp',['../_hours_minutes_seconds_conversion_8hpp.html',1,'']]],
   ['hoursminutessecondsconversion_2einl',['HoursMinutesSecondsConversion.inl',['../_hours_minutes_seconds_conversion_8inl.html',1,'']]],
   ['hoursminutessecondstoarcdegree',['HoursMinutesSecondsToArcdegree',['../group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga3c38143df47da88534ddbd13726748e2',1,'EGXMath']]],
