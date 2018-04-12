@@ -234,6 +234,8 @@
     <ClInclude Include="..\..\tests\EGXMath\Conversions\AngularConversionsTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Conversions\ConversionsTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\EGXMathTests.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\CircleTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\GeometryTest.hpp" />
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp" />
     <ClInclude Include="..\..\tests\Optics\RedshiftTests.hpp" />
   </ItemGroup>

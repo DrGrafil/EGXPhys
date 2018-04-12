@@ -1,13 +1,8 @@
 var searchData=
 [
-  ['egxmath_20library',['EGXMath Library',['../group___e_g_x_math.html',1,'']]],
-  ['error_20function_20_28erf_29',['Error Function (Erf)',['../group___e_g_x_math-_functions-_e_r_f.html',1,'']]],
-  ['egxphys_20library',['EGXPhys Library',['../group___e_g_x_phys.html',1,'']]],
-  ['eccentricity',['Eccentricity',['../group___e_g_x_phys-_eccentricity.html',1,'']]],
-  ['electric_20constant',['Electric constant',['../group___n_i_s_t_const-_electric_constant.html',1,'']]],
-  ['electromagnetic',['Electromagnetic',['../group___n_i_s_t_const-_electromagnetic.html',1,'']]],
-  ['electron_20particle',['Electron particle',['../group___n_i_s_t_const-_electron.html',1,'']]],
-  ['electron_20volt',['Electron volt',['../group___n_i_s_t_const-_electron_volt.html',1,'']]],
-  ['electron_20volt_20unit',['Electron Volt unit',['../group___n_i_s_t_const-_electron_volt_unit.html',1,'']]],
-  ['elementary_20charge',['Elementary charge',['../group___n_i_s_t_const-_elementary_charge.html',1,'']]]
+  ['b_2dv_20color',['B-V Color',['../group___e_g_x_phys-_b_v_color.html',1,'']]],
+  ['binding_20energy',['Binding Energy',['../group___e_g_x_phys-_nuclear_binding_energy.html',1,'']]],
+  ['bohr_20magneton',['Bohr magneton',['../group___n_i_s_t_const-_bohr_magneton.html',1,'']]],
+  ['bohr_20radius',['Bohr radius',['../group___n_i_s_t_const-_bohr_radius.html',1,'']]],
+  ['boltzmann_20constant',['Boltzmann constant',['../group___n_i_s_t_const-_boltzmann_constant.html',1,'']]]
 ];

@@ -76,6 +76,18 @@
     <Filter Include="EGXPhys\EGXMath\Geometry\3D">
       <UniqueIdentifier>{35c38dfc-daeb-4923-9501-e2cdb62f77ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tests\EGXMath\Geometry">
+      <UniqueIdentifier>{06150827-8a99-4366-bd47-761dfbe07dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\EGXMath\Functions">
+      <UniqueIdentifier>{77a52f75-03bd-4560-ad9e-911d0ba066fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\EGXMath\Geometry\2D">
+      <UniqueIdentifier>{8fc93c1f-2792-4437-a94f-c26002551233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\EGXMath\Geometry\3D">
+      <UniqueIdentifier>{2e5e47ba-0dd5-496d-98b1-5fe163bb37aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -368,6 +380,12 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Geometry.hpp">
       <Filter>EGXPhys\EGXMath\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\GeometryTest.hpp">
+      <Filter>Tests\EGXMath\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\CircleTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\2D</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

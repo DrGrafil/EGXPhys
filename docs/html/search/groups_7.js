@@ -1,10 +1,14 @@
 var searchData=
 [
-  ['hms',['HMS',['../group___e_g_x_math-_angle_conversions-_h_m_s.html',1,'']]],
-  ['hours_20minutes_20seconds',['Hours Minutes Seconds',['../group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html',1,'']]],
-  ['half_20life',['Half Life',['../group___e_g_x_phys-_half_life.html',1,'']]],
-  ['hartree',['Hartree',['../group___n_i_s_t_const-_hartree.html',1,'']]],
-  ['hartree_20energy',['Hartree energy',['../group___n_i_s_t_const-_hartree_energy.html',1,'']]],
-  ['helion_20_28helium_2d3_20nucleus_29',['Helion (Helium-3 nucleus)',['../group___n_i_s_t_const-_helion.html',1,'']]],
-  ['hertz',['Hertz',['../group___n_i_s_t_const-_hertz.html',1,'']]]
+  ['egxmath_20library',['EGXMath Library',['../group___e_g_x_math.html',1,'']]],
+  ['error_20function_20_28erf_29',['Error Function (Erf)',['../group___e_g_x_math-_functions-_e_r_f.html',1,'']]],
+  ['egxmath_2dgeometry_2d',['EGXMath-Geometry-',['../group___e_g_x_math-_geometry-.html',1,'']]],
+  ['egxphys_20library',['EGXPhys Library',['../group___e_g_x_phys.html',1,'']]],
+  ['eccentricity',['Eccentricity',['../group___e_g_x_phys-_eccentricity.html',1,'']]],
+  ['electric_20constant',['Electric constant',['../group___n_i_s_t_const-_electric_constant.html',1,'']]],
+  ['electromagnetic',['Electromagnetic',['../group___n_i_s_t_const-_electromagnetic.html',1,'']]],
+  ['electron_20particle',['Electron particle',['../group___n_i_s_t_const-_electron.html',1,'']]],
+  ['electron_20volt',['Electron volt',['../group___n_i_s_t_const-_electron_volt.html',1,'']]],
+  ['electron_20volt_20unit',['Electron Volt unit',['../group___n_i_s_t_const-_electron_volt_unit.html',1,'']]],
+  ['elementary_20charge',['Elementary charge',['../group___n_i_s_t_const-_elementary_charge.html',1,'']]]
 ];

@@ -5,4 +5,5 @@
 //
 
 #include "./Conversions/ConversionsTest.hpp"
-
+#include "./Geometry/GeometryTest.hpp"
+#include "./Functions/FunctionsTest.hpp"

@@ -1,16 +1,16 @@
 var searchData=
 [
-  ['sign',['Sign',['../group___e_g_x_math-_functions-_sign.html',1,'']]],
-  ['separation_20energy',['Separation Energy',['../group___e_g_x_phys-_nuclear_separation_energy.html',1,'']]],
-  ['semi_2dempirical_20mass_20formula',['Semi-Empirical Mass Formula',['../group___e_g_x_phys-_semi_empirical_mass_formula.html',1,'']]],
-  ['stellar_20mass',['Stellar Mass',['../group___e_g_x_phys-_stellar_mass.html',1,'']]],
-  ['stellar_20radius',['Stellar Radius',['../group___e_g_x_phys-_stellar_radius.html',1,'']]],
-  ['stellar_20temperature',['Stellar Temperature',['../group___e_g_x_phys-_stellar_temperature.html',1,'']]],
-  ['sackur_2dtetrode_20constant',['Sackur-Tetrode constant',['../group___n_i_s_t_const-_sackur_tetrode_constant.html',1,'']]],
-  ['second_20radiation_20constant',['Second radiation constant',['../group___n_i_s_t_const-_second_radiation_constant.html',1,'']]],
-  ['silicon',['Silicon',['../group___n_i_s_t_const-_silicon.html',1,'']]],
-  ['speed_20of_20light',['Speed of light',['../group___n_i_s_t_const-_speed_of_light.html',1,'']]],
-  ['standard_20atmosphere',['Standard atmosphere',['../group___n_i_s_t_const-_standard_atmosphere.html',1,'']]],
-  ['standard_20state_20pressure',['Standard state pressure',['../group___n_i_s_t_const-_standard_state_pressure.html',1,'']]],
-  ['stefan_2dboltzmann_20constant',['Stefan-Boltzmann constant',['../group___n_i_s_t_const-_stefan_boltzmann_constant.html',1,'']]]
+  ['periodic',['Periodic',['../group___e_g_x_math-_functions-_periodic.html',1,'']]],
+  ['parallax',['Parallax',['../group___e_g_x_phys-_parallax.html',1,'']]],
+  ['periapsis',['Periapsis',['../group___e_g_x_phys-_periapsis.html',1,'']]],
+  ['planetary_20mass',['Planetary Mass',['../group___e_g_x_phys-_planetary_mass.html',1,'']]],
+  ['planet_20criteria',['Planet Criteria',['../group___e_g_x_phys-_planet_criteria.html',1,'']]],
+  ['plasma',['Plasma',['../group___e_g_x_phys-_plasma.html',1,'']]],
+  ['physico_2dchemical',['Physico-Chemical',['../group___n_i_s_t_const-_physico_chemical.html',1,'']]],
+  ['planck_20constant',['Planck constant',['../group___n_i_s_t_const-_planck_constant.html',1,'']]],
+  ['planck_20length',['Planck length',['../group___n_i_s_t_const-_planck_length.html',1,'']]],
+  ['planck_20mass',['Planck mass',['../group___n_i_s_t_const-_planck_mass.html',1,'']]],
+  ['planck_20temperature',['Planck temperature',['../group___n_i_s_t_const-_planck_temperature.html',1,'']]],
+  ['planck_20time',['Planck time',['../group___n_i_s_t_const-_planck_time.html',1,'']]],
+  ['proton_20particle',['Proton particle',['../group___n_i_s_t_const-_proton.html',1,'']]]
 ];

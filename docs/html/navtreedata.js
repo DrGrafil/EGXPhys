@@ -35,14 +35,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_absolute_magnitude_8hpp.html",
-"_degrees_minutes_seconds_conversion_8hpp.html#ga63c1cd3c9048d0c5a80fd9bc851c38ac",
-"_integer_degree_conversion_8hpp.html#ga78b014e7649d666a3647c467e64e4fe8",
-"_n_i_s_t_const_8hpp.html#ga77c7dd314342e7f121d9b8775a45d20f",
-"_periapsis_8inl.html#ga237e7af3794202c67e65f64f4c8abc2a",
-"_turn_conversion_8inl.html#gad6aa9bdde2cde17cec136b24ee017bba",
-"group___e_g_x_math-_functions-_periodic.html#gafa81ebd66ef7cd080370fad972d6ac50",
-"group___n_i_s_t_const-_deuteron.html#gaa01fffefa3ab64430fabf08808572689",
-"group___n_i_s_t_const-_proton.html#ga6b8624fb113601433f311bb5d3423115"
+"_degree_conversion_8inl.html#ga87c3fab0867021e5d2501197b4db6194",
+"_hours_minutes_seconds_conversion_8inl.html#gadf3829ca1704cfd64886a4de1b3e366f",
+"_n_i_s_t_const_8hpp.html#ga6f47bdfe8997031b0f15229eb5bf4b9e",
+"_periapsis_8hpp.html#gac4c419a87a5802cf6afc98f50792e99f",
+"_turn_conversion_8hpp_source.html",
+"group___e_g_x_math-_conversions.html",
+"group___n_i_s_t_const-_bohr_radius.html#ga38bdb86c2f3e484e8b164e75a3980638",
+"group___n_i_s_t_const-_nuclear_magneton.html#gae1ed12acbc3f50345ed451327b86b5b5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

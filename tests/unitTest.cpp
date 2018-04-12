@@ -12,6 +12,11 @@
 
 #define NISTCONST_COMMON_SYMBOLS_NAMES
 
+#define EGXPHYS_GLM // Useing GLM
+#define EGXMATH_GLM // Useing GLM
+
+#include "./3rd Party/glm/glm.hpp"
+#include "./3rd Party/glm/gtc/type_ptr.hpp"
 
 #include "../EGXPhys/EGXPhys.hpp"
 

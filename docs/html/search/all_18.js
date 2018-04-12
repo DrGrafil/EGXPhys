@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['year',['year',['../namespace_e_g_x_phys.html#afee9eebc1da4a1db2198fe0c45bcb53f',1,'EGXPhys']]]
+  ['von_20klitzing_20constant',['von Klitzing constant',['../group___n_i_s_t_const-von_klitzing_constant.html',1,'']]],
+  ['volumeofearth',['VolumeOfEarth',['../_astrophysics_constants_8hpp.html#a73aaaddeacf5d59643ec5e4a53a1a251',1,'EGXPhys']]],
+  ['vonklitzingconstant',['vonKlitzingConstant',['../group___n_i_s_t_const-von_klitzing_constant.html#ga664441cab64a6a8feda702f6354c1e7f',1,'NISTConst']]]
 ];

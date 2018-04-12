@@ -8,6 +8,15 @@
 
 /// @defgroup EGXMath-Geometry Geometry
 /// @ingroup EGXMath
+
+/// @defgroup EGXMath-Geometry-2D 2D Objects
+/// @ingroup EGXMath-Geometry
+
+/// @defgroup EGXMath-Geometry-3D 3D Objects
+/// @ingroup EGXMath-Geometry
+
+/// @defgroup EGXMath-Geometry-4D 4D Objects
+/// @ingroup EGXMath-Geometry
 //=================================
 // Header guard
 #pragma once

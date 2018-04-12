@@ -16,15 +16,15 @@ TEST_CASE("Angular Conversions"){
 
 	CHECK(DegreeToArcminute(0.0) == 0.0);
 	CHECK(DegreeToArcminute(90.0) == Approx(90.0*60.0).scale(0.0).epsilon(0.001));
-	CHECK(DegreeToArcminute(90) == Approx(90.0*60.0).scale(0.0).epsilon(0.001));
+	CHECK(DegreeToArcminute(83.0) == Approx(83.0*60.0).scale(0.0).epsilon(0.001));
 
 	CHECK(DegreeToArcsecond(0.0) == 0.0);
 	CHECK(DegreeToArcsecond(90.0) == Approx(90.0*60.0*60).scale(0.0).epsilon(0.001));
-	CHECK(DegreeToArcsecond(90) == Approx(90.0*60.0*60).scale(0.0).epsilon(0.001));
+	CHECK(DegreeToArcsecond(84.2) == Approx(84.2*60.0*60).scale(0.0).epsilon(0.001));
 
 	CHECK(DegreeToMilliarcsecond(0.0) == 0.0);
 	CHECK(DegreeToMilliarcsecond(90.0) == Approx(90.0*60.0 * 60*1000).scale(0.0).epsilon(0.001));
-	CHECK(DegreeToMilliarcsecond(90) == Approx(90.0*60.0 * 60 * 1000).scale(0.0).epsilon(0.001));
+	CHECK(DegreeToMilliarcsecond(84.2) == Approx(84.2*60.0 * 60 * 1000).scale(0.0).epsilon(0.001));
 
 	CHECK(DegreeToMicroarcsecond(0.0) == 0.0);
 	CHECK(DegreeToMicroarcsecond(90.0) == Approx(90.0*60.0 * 60.0 * 1000.0* 1000.0).scale(0.0).epsilon(0.001));

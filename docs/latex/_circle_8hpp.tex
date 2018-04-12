@@ -1,0 +1,36 @@
+\hypertarget{_circle_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Circle.hpp File Reference}
+\label{_circle_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Circle.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Circle.\+hpp}}
+
+
+Defines functions relating to circle shape.  
+
+
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include \char`\"{}Circle.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_circle_gabf5aadec991cc2bbf9d74fd83c46f40d}{E\+G\+X\+Math\+::\+Circle\+Area}} (const T radius)
+\begin{DoxyCompactList}\small\item\em Finds the area, $A_{circle}$ of a circle with radius, $r$ \[ A_{circle}=\pi r^2 \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_circle_gadb55695b75a06a3f3534494eb767e18e}{E\+G\+X\+Math\+::\+Circle\+Circumference}} (const T radius)
+\begin{DoxyCompactList}\small\item\em Finds the circumference, $C_{circle}$ of a circle with radius, $r$ \[ C_{circle}=2 \pi r \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_circle_ga2baf68984c03323ba47c9d9f00cf0559}{E\+G\+X\+Math\+::\+Circle\+Thin\+Hoop\+Inertia}} (const T mass, const T radius, T2(\&matrix)\mbox{[}9\mbox{]})
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{hoop}$ of a hoop with radius, $r$, and mass $m$ that is infinitly thin. \[ I_{hoop}=\begin{bmatrix} \frac{1}{2}m\ r^2 & 0 & 0\\ 0 & \frac{1}{2}m\ r^2 & 0\\ 0 & 0 & m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_circle_ga4d5e95f0986ab5e760679adeccb53181}{E\+G\+X\+Math\+::\+Circle\+Thin\+Disk\+Inertia}} (const T mass, const T radius, T2(\&matrix)\mbox{[}9\mbox{]})
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{disk}$ of a disk with radius, $r$, and mass $m$ that is infinitly thin. \[ I_{disk}=\begin{bmatrix} \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_circle_ga902bfe249e733c8d2917600cc4a3392b}{E\+G\+X\+Math\+::\+Circle\+Thin\+Hoop\+Inertia}} (const T mass, const T radius, std\+::vector$<$ T2 $>$ \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{hoop}$ of a hoop with radius, $r$, and mass $m$ that is infinitly thin. \[ I_{hoop}=\begin{bmatrix} \frac{1}{2}m\ r^2 & 0 & 0\\ 0 & \frac{1}{2}m\ r^2 & 0\\ 0 & 0 & m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Circle\+Thin\+Disk\+Inertia} (const T mass, const T radius, std\+::vector$<$ T2 $>$ \&matrix)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines functions relating to circle shape. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/11/18 
+\end{DoxyDate}
