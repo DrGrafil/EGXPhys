@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"_degree_conversion_8inl.html#ga770b13da33b6f6c7bfa398cca7f24dbe":[2,0,0,3,0,0,3,12],
+"_degree_conversion_8inl.html#ga859585939255d52d010c780c68eb6e23":[2,0,0,3,0,0,3,7],
 "_degree_conversion_8inl.html#ga87c3fab0867021e5d2501197b4db6194":[2,0,0,3,0,0,3,9],
 "_degree_conversion_8inl.html#ga8abf327dc5f52907b2c881999e9cc43e":[2,0,0,3,0,0,3,1],
 "_degree_conversion_8inl.html#gaabd20f21be3c18ee423d0bc1a677c6f6":[2,0,0,3,0,0,3,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "_hours_minutes_seconds_conversion_8inl.html#ga8fe72f56eebb44d7e8d7033476bbdd9b":[2,0,0,3,0,0,15,8],
 "_hours_minutes_seconds_conversion_8inl.html#ga962a367fd21f0047eb0a7116a59c2bfc":[2,0,0,3,0,0,15,3],
 "_hours_minutes_seconds_conversion_8inl.html#gaa0b04e9012ec739df1464298971e3be7":[2,0,0,3,0,0,15,16],
-"_hours_minutes_seconds_conversion_8inl.html#gacb8fc46aacbc82db6852dfc9c42c77df":[2,0,0,3,0,0,15,4],
-"_hours_minutes_seconds_conversion_8inl.html#gad6662d1113ae8aea6baca6317888b4cd":[2,0,0,3,0,0,15,5],
-"_hours_minutes_seconds_conversion_8inl.html#gad78a90abaed52ca9d5fe6b4287c4a5f3":[2,0,0,3,0,0,15,15]
+"_hours_minutes_seconds_conversion_8inl.html#gacb8fc46aacbc82db6852dfc9c42c77df":[2,0,0,3,0,0,15,4]
 };

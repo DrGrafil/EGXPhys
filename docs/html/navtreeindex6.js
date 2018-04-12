@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"group___e_g_x_math-_angle_conversions-_turn.html#gaefdee18d878c2e66e7bd737c8900ab30":[1,0,0,10,7],
+"group___e_g_x_math-_angle_conversions.html":[1,0,0],
 "group___e_g_x_math-_conversions.html":[1,0,1],
 "group___e_g_x_math-_functions-_e_r_f.html":[1,0,2,0],
 "group___e_g_x_math-_functions-_e_r_f.html#ga167bde890986906e6cd3b32adaa8e6a8":[1,0,2,0,0],
@@ -24,9 +26,12 @@ var NAVTREEINDEX6 =
 "group___e_g_x_math-_functions.html":[1,0,2],
 "group___e_g_x_math-_geometry-.html":[1,0,3,0],
 "group___e_g_x_math-_geometry-2_d-_circle.html":[1,0,3,1,0],
-"group___e_g_x_math-_geometry-2_d-_circle.html#ga2baf68984c03323ba47c9d9f00cf0559":[1,0,3,1,0,3],
+"group___e_g_x_math-_geometry-2_d-_circle.html#ga2baf68984c03323ba47c9d9f00cf0559":[1,0,3,1,0,5],
+"group___e_g_x_math-_geometry-2_d-_circle.html#ga2ccb30846977757242697e70983bbec5":[1,0,3,1,0,4],
+"group___e_g_x_math-_geometry-2_d-_circle.html#ga2f2dedb5c96a67a98d3434ef3dc81b1d":[1,0,3,1,0,3],
 "group___e_g_x_math-_geometry-2_d-_circle.html#ga4d5e95f0986ab5e760679adeccb53181":[1,0,3,1,0,2],
-"group___e_g_x_math-_geometry-2_d-_circle.html#ga902bfe249e733c8d2917600cc4a3392b":[1,0,3,1,0,4],
+"group___e_g_x_math-_geometry-2_d-_circle.html#ga5c84d0d64d475e472a75f4f10b4a0c26":[1,0,3,1,0,7],
+"group___e_g_x_math-_geometry-2_d-_circle.html#ga902bfe249e733c8d2917600cc4a3392b":[1,0,3,1,0,6],
 "group___e_g_x_math-_geometry-2_d-_circle.html#gabf5aadec991cc2bbf9d74fd83c46f40d":[1,0,3,1,0,0],
 "group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e":[1,0,3,1,0,1],
 "group___e_g_x_math-_geometry-2_d.html":[1,0,3,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX6 =
 "group___n_i_s_t_const-_avogadro_constant.html":[1,2,3,1],
 "group___n_i_s_t_const-_avogadro_constant.html#gad82b2a4777628c4e67a87b8f5b99174e":[1,2,3,1,0],
 "group___n_i_s_t_const-_bohr_magneton.html":[1,2,1,0],
-"group___n_i_s_t_const-_bohr_magneton.html#ga0c3cc268d0e1abc4703ea8f2c11ccab8":[1,2,1,0,2],
-"group___n_i_s_t_const-_bohr_magneton.html#ga4fcb81eff2823748ae5fced898ecc0ec":[1,2,1,0,4],
-"group___n_i_s_t_const-_bohr_magneton.html#ga5d2bdfa6451f3966c0e4ce0d76da7880":[1,2,1,0,3],
-"group___n_i_s_t_const-_bohr_magneton.html#ga8b97d10b13a2c5de4f0d268370bc3c50":[1,2,1,0,1],
-"group___n_i_s_t_const-_bohr_magneton.html#gaace59be8951a23257cedcbef8f320c66":[1,2,1,0,0],
-"group___n_i_s_t_const-_bohr_radius.html":[1,2,2,1]
+"group___n_i_s_t_const-_bohr_magneton.html#ga0c3cc268d0e1abc4703ea8f2c11ccab8":[1,2,1,0,2]
 };

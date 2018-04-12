@@ -1,5 +1,10 @@
 var NAVTREEINDEX7 =
 {
+"group___n_i_s_t_const-_bohr_magneton.html#ga4fcb81eff2823748ae5fced898ecc0ec":[1,2,1,0,4],
+"group___n_i_s_t_const-_bohr_magneton.html#ga5d2bdfa6451f3966c0e4ce0d76da7880":[1,2,1,0,3],
+"group___n_i_s_t_const-_bohr_magneton.html#ga8b97d10b13a2c5de4f0d268370bc3c50":[1,2,1,0,1],
+"group___n_i_s_t_const-_bohr_magneton.html#gaace59be8951a23257cedcbef8f320c66":[1,2,1,0,0],
+"group___n_i_s_t_const-_bohr_radius.html":[1,2,2,1],
 "group___n_i_s_t_const-_bohr_radius.html#ga38bdb86c2f3e484e8b164e75a3980638":[1,2,2,1,0],
 "group___n_i_s_t_const-_boltzmann_constant.html":[1,2,3,2],
 "group___n_i_s_t_const-_boltzmann_constant.html#ga4f4d8adf824657420f54680daa6340d5":[1,2,3,2,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX7 =
 "group___n_i_s_t_const-_neutron.html#gac96a82ff7cb2cf20cb9cfe754756c08e":[1,2,2,10,4],
 "group___n_i_s_t_const-_neutron.html#gad8a08222b3de2105b5b399faa5a59fbd":[1,2,2,10,21],
 "group___n_i_s_t_const-_neutron.html#gae96854e1fcd14f08cc92a060c6690730":[1,2,2,10,19],
-"group___n_i_s_t_const-_non-_s_i.html":[1,2,5],
-"group___n_i_s_t_const-_nuclear_magneton.html":[1,2,1,5],
-"group___n_i_s_t_const-_nuclear_magneton.html#ga2bb8e56daaa602b5097d38b2d1ca32ad":[1,2,1,5,2],
-"group___n_i_s_t_const-_nuclear_magneton.html#ga5a31a1865923a1c14cd7f22c8973186e":[1,2,1,5,1],
-"group___n_i_s_t_const-_nuclear_magneton.html#gac546d7a48ca06ce3231f7cda738bb4e3":[1,2,1,5,3],
-"group___n_i_s_t_const-_nuclear_magneton.html#gacf9b0d2a2517113d30300e4ed7b56cc7":[1,2,1,5,0]
+"group___n_i_s_t_const-_non-_s_i.html":[1,2,5]
 };
