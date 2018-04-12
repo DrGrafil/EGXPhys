@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1":[1,0,0,9,16],
+"group___e_g_x_math-_angle_conversions-_radian.html#gaf80be0c5c65ccaa5544a08a7754f3575":[1,0,0,9,8],
 "group___e_g_x_math-_angle_conversions-_turn.html":[1,0,0,10],
 "group___e_g_x_math-_angle_conversions-_turn.html#ga05d6fea8f8475831e93dd23f6196393f":[1,0,0,10,15],
 "group___e_g_x_math-_angle_conversions-_turn.html#ga0bc017b3314253352ddec728d3f6b76a":[1,0,0,10,12],
@@ -205,8 +207,15 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_planetary_mass.html#gaadff5ffa04bb55a572c1403ab9500c06":[1,1,1,10,2],
 "group___e_g_x_phys-_planetary_mass.html#gaaea9675ef409d141d269d970f2f5e9dd":[1,1,1,10,3],
 "group___e_g_x_phys-_plasma.html":[1,1,5],
+"group___e_g_x_phys-_q_value-_alpha.html":[1,1,2,8,0],
+"group___e_g_x_phys-_q_value-_beta_minus.html":[1,1,2,8,1],
+"group___e_g_x_phys-_q_value-_beta_plus.html":[1,1,2,8,2],
+"group___e_g_x_phys-_q_value-_electron_capture.html":[1,1,2,8,3],
+"group___e_g_x_phys-_q_value-_neutron.html":[1,1,2,8,4],
+"group___e_g_x_phys-_q_value-_proton.html":[1,1,2,8,5],
 "group___e_g_x_phys-_q_value.html":[1,1,2,8],
-"group___e_g_x_phys-_q_value.html#ga9de3868818a3548b4a4ab42f8c17278d":[1,1,2,8,0],
+"group___e_g_x_phys-_q_value.html#ga53f07ac44d3d3b217b8c5b7aa548e3fc":[1,1,2,8,7],
+"group___e_g_x_phys-_q_value.html#gaa61414574096631a36ff857b311c435c":[1,1,2,8,6],
 "group___e_g_x_phys-_quantum.html":[1,1,6],
 "group___e_g_x_phys-_radioactive_decay.html":[1,1,2,9],
 "group___e_g_x_phys-_redshift.html":[1,1,4,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX6 =
 "group___n_i_s_t_const-_atomic_mass_unit.html":[1,2,6,0],
 "group___n_i_s_t_const-_atomic_mass_unit.html#ga4a5d912289e6a828a25e9e7ae3385b0d":[1,2,6,0,0],
 "group___n_i_s_t_const-_atomic_mass_unit.html#ga8a6b352e1a13d0cbbc0f36f650e2c682":[1,2,6,0,1],
-"group___n_i_s_t_const-_atomic_mass_unit.html#gad284f1982f0182e1e4a90e0bff793af9":[1,2,6,0,2],
-"group___n_i_s_t_const-_atomic_mass_unit.html#gae1f5517810a5df9365d26887c04ada40":[1,2,6,0,3],
-"group___n_i_s_t_const-_atomic_mass_unit.html#gaea7c1916a35df8824ac6a67be3f65f33":[1,2,6,0,4],
-"group___n_i_s_t_const-_atomic_mass_unit.html#gaf9c3a2dfd69d4e74cee3361abd7d7ecf":[1,2,6,0,5],
-"group___n_i_s_t_const-_atomic_mass_unit.html#gafdd40d93803d15e1ff887dc12c49ca99":[1,2,6,0,6],
-"group___n_i_s_t_const-_atomic_unit.html":[1,2,5,0],
-"group___n_i_s_t_const-_atomic_unit.html#ga0b7518cf6058bb899c64b32b43bda955":[1,2,5,0,20],
-"group___n_i_s_t_const-_atomic_unit.html#ga108a8be4e32eddd7cdfdf4473f3532ab":[1,2,5,0,6],
-"group___n_i_s_t_const-_atomic_unit.html#ga139c6486b1899658838d403380fc229a":[1,2,5,0,10],
-"group___n_i_s_t_const-_atomic_unit.html#ga1a42bd5db581dc5bf7a87b864bc77cf4":[1,2,5,0,3]
+"group___n_i_s_t_const-_atomic_mass_unit.html#gad284f1982f0182e1e4a90e0bff793af9":[1,2,6,0,2]
 };

@@ -37,4 +37,14 @@ TEST_CASE("Q Value"){
 //	CHECK( ProtonTwoSeparationEnergyInMeV(238.050789466,236.049870)== Approx(13.5240).scale(0.0).epsilon(0.001));
 
 
+	//Electron capture
+	// See http://www-personal.umich.edu/~ianrit/a5.pdf
+	//Au196 -> Pt196
+	double Au196 = 195.966570;//wikipedia
+	double Pt196 = 195.9649515;// wikipedia
+	double bneutron = 0.0848776; //see link
+
+	CHECK(QValueElectronCaptureInMeV(Au196, Pt196) == Approx(1.5070).scale(0.0).epsilon(0.001)); // bnl
+	CHECK(QValueElectronCaptureInMeV(Au196, Pt196, bneutron) == Approx(1.422292).scale(0.0).epsilon(0.001)); //link
+
 }

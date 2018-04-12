@@ -30,117 +30,117 @@ TEST_CASE("Geometry 2D Circle"){
 
 	
 	//Array Matrix check
-	CircleThinHoopInertia(0.0, 0.0, arrayMatrix);
+	HoopThinInertia(0.0, 0.0, arrayMatrix);
 	for (int i = 0; i < 9; i++) {
 		CHECK(arrayMatrix[i] == arrayZeroMatrix[i]);
 	}
 
-	CircleThinHoopInertia(r1, m1, arrayMatrix);
+	HoopThinInertia(r1, m1, arrayMatrix);
 	CHECK(arrayMatrix[0] == 0.5 * m1 * r1 * r1);
 	CHECK(arrayMatrix[4] == 0.5 * m1 * r1 * r1);
 	CHECK(arrayMatrix[8] == m1 * r1 * r1);
 
-	CircleThinHoopInertia(r2, m2, arrayMatrix);
+	HoopThinInertia(r2, m2, arrayMatrix);
 	CHECK(arrayMatrix[0] == 0.5 * m2 * r2 * r2);
 	CHECK(arrayMatrix[4] == 0.5 * m2 * r2 * r2);
 	CHECK(arrayMatrix[8] == m2 * r2 * r2);
 
-	CircleThinHoopInertia(r3, m3, arrayMatrix);
+	HoopThinInertia(r3, m3, arrayMatrix);
 	CHECK(arrayMatrix[0] == 0.5 * m3 * r3 * r3);
 	CHECK(arrayMatrix[4] == 0.5 * m3 * r3 * r3);
 	CHECK(arrayMatrix[8] == m3 * r3 * r3);
 
-	CircleThinDiskInertia(0.0, 0.0, arrayMatrix);
+	DiskThinInertia(0.0, 0.0, arrayMatrix);
 	for (int i = 0; i < 9; i++) {
 		CHECK(arrayMatrix[i] == arrayZeroMatrix[i]);
 	}
 
-	CircleThinDiskInertia(r1, m1, arrayMatrix);
+	DiskThinInertia(r1, m1, arrayMatrix);
 	CHECK(arrayMatrix[0] == 0.25 * m1 * r1 * r1);
 	CHECK(arrayMatrix[4] == 0.25 * m1 * r1 * r1);
 	CHECK(arrayMatrix[8] == 0.5 * m1 * r1 * r1);
 
-	CircleThinDiskInertia(r2, m2, arrayMatrix);
+	DiskThinInertia(r2, m2, arrayMatrix);
 	CHECK(arrayMatrix[0] == 0.25 * m2 * r2 * r2);
 	CHECK(arrayMatrix[4] == 0.25 * m2 * r2 * r2);
 	CHECK(arrayMatrix[8] == 0.5 * m2 * r2 * r2);
 
-	CircleThinDiskInertia(r3, m3, arrayMatrix);
+	DiskThinInertia(r3, m3, arrayMatrix);
 	CHECK(arrayMatrix[0] == 0.25 * m3 * r3 * r3);
 	CHECK(arrayMatrix[4] == 0.25 * m3 * r3 * r3);
 	CHECK(arrayMatrix[8] == 0.5 * m3 * r3 * r3);
 
 
 	//Vector matrix check
-	CircleThinHoopInertia(0.0, 0.0, vectorMatrix);
+	HoopThinInertia(0.0, 0.0, vectorMatrix);
 	CHECK(vectorMatrix == vectorZeroMatrix);
 
-	CircleThinHoopInertia(r1, m1, vectorMatrix);
+	HoopThinInertia(r1, m1, vectorMatrix);
 	CHECK(vectorMatrix[0] == 0.5 * m1 * r1 * r1);
 	CHECK(vectorMatrix[4] == 0.5 * m1 * r1 * r1);
 	CHECK(vectorMatrix[8] == m1 * r1 * r1);
 
-	CircleThinHoopInertia(r2, m2, vectorMatrix);
+	HoopThinInertia(r2, m2, vectorMatrix);
 	CHECK(vectorMatrix[0] == 0.5 * m2 * r2 * r2);
 	CHECK(vectorMatrix[4] == 0.5 * m2 * r2 * r2);
 	CHECK(vectorMatrix[8] == m2 * r2 * r2);
 
-	CircleThinHoopInertia(r3, m3, vectorMatrix);
+	HoopThinInertia(r3, m3, vectorMatrix);
 	CHECK(vectorMatrix[0] == 0.5 * m3 * r3 * r3);
 	CHECK(vectorMatrix[4] == 0.5 * m3 * r3 * r3);
 	CHECK(vectorMatrix[8] == m3 * r3 * r3);
 
-	CircleThinDiskInertia(0.0, 0.0, vectorMatrix);
+	DiskThinInertia(0.0, 0.0, vectorMatrix);
 	CHECK(vectorMatrix == vectorZeroMatrix);
 
-	CircleThinDiskInertia(r1, m1, vectorMatrix);
+	DiskThinInertia(r1, m1, vectorMatrix);
 	CHECK(vectorMatrix[0] == 0.25 * m1 * r1 * r1);
 	CHECK(vectorMatrix[4] == 0.25 * m1 * r1 * r1);
 	CHECK(vectorMatrix[8] == 0.5 * m1 * r1 * r1);
 
-	CircleThinDiskInertia(r2, m2, vectorMatrix);
+	DiskThinInertia(r2, m2, vectorMatrix);
 	CHECK(vectorMatrix[0] == 0.25 * m2 * r2 * r2);
 	CHECK(vectorMatrix[4] == 0.25 * m2 * r2 * r2);
 	CHECK(vectorMatrix[8] == 0.5 * m2 * r2 * r2);
 
-	CircleThinDiskInertia(r3, m3, vectorMatrix);
+	DiskThinInertia(r3, m3, vectorMatrix);
 	CHECK(vectorMatrix[0] == 0.25 * m3 * r3 * r3);
 	CHECK(vectorMatrix[4] == 0.25 * m3 * r3 * r3);
 	CHECK(vectorMatrix[8] == 0.5 * m3 * r3 * r3);
 
 	//Glm matrix check
-	CircleThinHoopInertia(0.0, 0.0, glmMatrix);
+	HoopThinInertia(0.0, 0.0, glmMatrix);
 	CHECK(glmMatrix == glmZeroMatrix);
 
-	CircleThinHoopInertia(r1, m1, glmMatrix);
+	HoopThinInertia(r1, m1, glmMatrix);
 	CHECK(glmMatrix[0][0] == 0.5 * m1 * r1 * r1);
 	CHECK(glmMatrix[1][1] == 0.5 * m1 * r1 * r1);
 	CHECK(glmMatrix[2][2] == m1 * r1 * r1);
 
-	CircleThinHoopInertia(r2, m2, glmMatrix);
+	HoopThinInertia(r2, m2, glmMatrix);
 	CHECK(glmMatrix[0][0] == 0.5 * m2 * r2 * r2);
 	CHECK(glmMatrix[1][1] == 0.5 * m2 * r2 * r2);
 	CHECK(glmMatrix[2][2] == m2 * r2 * r2);
 
-	CircleThinHoopInertia(r3, m3, glmMatrix);
+	HoopThinInertia(r3, m3, glmMatrix);
 	CHECK(glmMatrix[0][0] == 0.5 * m3 * r3 * r3);
 	CHECK(glmMatrix[1][1] == 0.5 * m3 * r3 * r3);
 	CHECK(glmMatrix[2][2] == m3 * r3 * r3);
 
-	CircleThinDiskInertia(0.0, 0.0, glmMatrix);
+	DiskThinInertia(0.0, 0.0, glmMatrix);
 	CHECK(glmMatrix == glmZeroMatrix);
 
-	CircleThinDiskInertia(r1, m1, glmMatrix);
+	DiskThinInertia(r1, m1, glmMatrix);
 	CHECK(glmMatrix[0][0] == 0.25 * m1 * r1 * r1);
 	CHECK(glmMatrix[1][1] == 0.25 * m1 * r1 * r1);
 	CHECK(glmMatrix[2][2] == 0.5 * m1 * r1 * r1);
 
-	CircleThinDiskInertia(r2, m2, glmMatrix);
+	DiskThinInertia(r2, m2, glmMatrix);
 	CHECK(glmMatrix[0][0] == 0.25 * m2 * r2 * r2);
 	CHECK(glmMatrix[1][1] == 0.25 * m2 * r2 * r2);
 	CHECK(glmMatrix[2][2] == 0.5 *m2 * r2 * r2);
 
-	CircleThinDiskInertia(r3, m3, glmMatrix);
+	DiskThinInertia(r3, m3, glmMatrix);
 	CHECK(glmMatrix[0][0] == 0.25 * m3 * r3 * r3);
 	CHECK(glmMatrix[1][1] == 0.25 * m3 * r3 * r3);
 	CHECK(glmMatrix[2][2] == 0.5 * m3 * r3 * r3);

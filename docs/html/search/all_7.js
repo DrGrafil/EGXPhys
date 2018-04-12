@@ -12,6 +12,7 @@ var searchData=
   ['egxmath_2ehpp',['EGXMath.hpp',['../_e_g_x_math_8hpp.html',1,'']]],
   ['egxphys_20library',['EGXPhys Library',['../group___e_g_x_phys.html',1,'']]],
   ['eccentricity',['Eccentricity',['../group___e_g_x_phys-_eccentricity.html',1,'']]],
+  ['electron_20capture',['Electron Capture',['../group___e_g_x_phys-_q_value-_electron_capture.html',1,'']]],
   ['egxphys_2ehpp',['EGXPhys.hpp',['../_e_g_x_phys_8hpp.html',1,'']]],
   ['egxphysconstants_2ehpp',['EGXPhysConstants.hpp',['../_e_g_x_phys_constants_8hpp.html',1,'']]],
   ['electricconstant',['electricConstant',['../group___n_i_s_t_const-_electric_constant.html#gae5a425228125285727dd53333725ef76',1,'NISTConst']]],

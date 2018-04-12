@@ -39,10 +39,10 @@ var NAVTREEINDEX =
 "_hours_minutes_seconds_conversion_8hpp.html#gadf3829ca1704cfd64886a4de1b3e366f",
 "_n_i_s_t_const_8hpp.html#ga664441cab64a6a8feda702f6354c1e7f",
 "_parallax_8hpp_source.html",
-"_thermodynamics_constants_8hpp_source.html",
-"group___e_g_x_math-_angle_conversions-_turn.html",
-"group___n_i_s_t_const-_atomic_unit.html#ga246e4c3edecdd5aa1d5d208fc02a4636",
-"group___n_i_s_t_const-_neutron.html#ga28892913d6ed40673a170941f79bb86e"
+"_thermodynamics_8hpp_source.html",
+"group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1",
+"group___n_i_s_t_const-_atomic_mass_unit.html#gae1f5517810a5df9365d26887c04ada40",
+"group___n_i_s_t_const-_natural_unit.html#ga4dcc4091af025cbd895e8bea1e265c32"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
