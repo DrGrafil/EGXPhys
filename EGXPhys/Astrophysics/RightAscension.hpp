@@ -43,7 +43,7 @@ namespace EGXPhys
 	*	@see RightAscensionToRadian() for conversion from radians.
 	*/
 	template<typename T>
-	T RightAscensionToDegree(const T& hours, const T& minutes, const T& seconds);
+	T RightAscensionToDegree(const T hour, const T minute, const T second);
 
 	/**
 	*   @brief Converts right ascensions \f$(\alpha_{RA})\f$ from hours \f$(RA_h)\f$, minutes \f$(RA_m)\f$ and seconds\f$(RA_s)\f$ to radians.
@@ -59,7 +59,7 @@ namespace EGXPhys
 	*	@see RightAscensionToDegree() for conversion from (decimal) degrees.
 	*/
 	template<typename T>
-	T RightAscensionToRadian(const T& hours, const T& minutes, const T& seconds);
+	T RightAscensionToRadian(const T hour, const T minute, const T second);
 
 	/**
 	*   @brief Converts an angle in (decimal) degree to hours minutes seconds (HMS). \f${HH}^{h}{MM}^{m}{SS.SS}^{s}\f$ format.
@@ -77,7 +77,7 @@ namespace EGXPhys
 	*	@see RadianToRightAscension() for conversion from radians.
 	*/
 	template<typename T>
-	void DegreeToRightAscension(const T& decimalDegree, T& hours, T& minutes, T& seconds);
+	void DegreeToRightAscension(const T decimalDegree, T& hour, T& minute, T& second);
 
 	/**
 	*   @brief Converts an angle in radian to hours minutes seconds (HMS). \f${HH}^h{MM}^m{SS.SS}^s\f$ format.
@@ -92,7 +92,7 @@ namespace EGXPhys
 	*	@see DegreeToRightAscension() for conversion from degrees.
 	*/
 	template<typename T>
-	void RadianToRightAscension(const T& radians, T& hours, T& minutes, T& seconds);
+	void RadianToRightAscension(const T radian, T& hour, T& minute, T& second);
 
     /// @}
 } //namespace EGXPhys

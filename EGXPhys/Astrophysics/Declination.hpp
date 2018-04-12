@@ -43,7 +43,7 @@ namespace EGXPhys
 		*	@see DeclinationToRadian() for conversion from radians.
 		*/
 	template<typename T>
-	T DeclinationToDegree(const T& integerDegree, const T& arcminute, const T& arcsecond);
+	T DeclinationToDegree(const T integerDegree, const T arcminute, const T arcsecond);
 
 
 	/**
@@ -66,7 +66,7 @@ namespace EGXPhys
 	*	@see RadianToDeclination() for conversion from radians.
 	*/
 	template<typename T>
-	void DegreeToDeclination(const T& decimalDegree, T& integerDegree, T& arcminute, T& arcsecond);
+	void DegreeToDeclination(const T decimalDegree, T& integerDegree, T& arcminute, T& arcsecond);
 
 	/**
 	*   @brief Converts declination \f$(\alpha_{DE})\f$ from degrees \f$(DE_{deg})\f$, arcminutes \f$(DE_{arcmin})\f$ and arcseconds\f$(DE_{arcsec})\f$ to radians.
@@ -82,7 +82,7 @@ namespace EGXPhys
 	*	@see DeclinationToDegree() for conversion from (decimal) degrees.
 	*/
 	template<typename T>
-	T DeclinationToRadian(const T& integerDegree, const T& arcminute, const T& arcsecond);
+	T DeclinationToRadian(const T integerDegree, const T arcminute, const T arcsecond);
 
 	/**
 	*   @brief Converts an angle in radian to declination in degrees \f$(DE_{deg})\f$, arcminutes \f$(DE_{arcmin})\f$ and arcseconds\f$(DE_{arcsec})\f$ (DMS). \f${DD}^{\circ}{MM}'{SS.SS}''\f$ format.
@@ -100,7 +100,7 @@ namespace EGXPhys
 	*	@see DegreeToDeclination() for conversion from (decimal) degrees.
 	*/
 	template<typename T>
-	void RadianToDeclination(const T& radian, T& integerDegree, T& arcminute, T& arcsecond);
+	void RadianToDeclination(const T radian, T& integerDegree, T& arcminute, T& arcsecond);
 
 
     /// @}
