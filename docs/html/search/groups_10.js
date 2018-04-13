@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['neutron',['Neutron',['../group___e_g_x_phys-_q_value-_neutron.html',1,'']]],
+  ['neutron_20emission',['Neutron Emission',['../group___e_g_x_phys-_q_value-_neutron_emission.html',1,'']]],
   ['nist_20constants',['NIST Constants',['../group___n_i_s_t_const.html',1,'']]],
   ['natural_20units',['Natural units',['../group___n_i_s_t_const-_natural_unit.html',1,'']]],
   ['neutron_20particle',['Neutron particle',['../group___n_i_s_t_const-_neutron.html',1,'']]],

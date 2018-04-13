@@ -6,7 +6,7 @@ var searchData=
   ['planetary_20mass',['Planetary Mass',['../group___e_g_x_phys-_planetary_mass.html',1,'']]],
   ['planet_20criteria',['Planet Criteria',['../group___e_g_x_phys-_planet_criteria.html',1,'']]],
   ['plasma',['Plasma',['../group___e_g_x_phys-_plasma.html',1,'']]],
-  ['proton',['Proton',['../group___e_g_x_phys-_q_value-_proton.html',1,'']]],
+  ['proton_20emission',['Proton Emission',['../group___e_g_x_phys-_q_value-_proton_emission.html',1,'']]],
   ['physico_2dchemical',['Physico-Chemical',['../group___n_i_s_t_const-_physico_chemical.html',1,'']]],
   ['planck_20constant',['Planck constant',['../group___n_i_s_t_const-_planck_constant.html',1,'']]],
   ['planck_20length',['Planck length',['../group___n_i_s_t_const-_planck_length.html',1,'']]],

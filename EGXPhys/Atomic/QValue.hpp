@@ -21,10 +21,10 @@
 /// @defgroup EGXPhys-QValue-ElectronCapture Electron Capture
 /// @ingroup EGXPhys-QValue
 
-/// @defgroup EGXPhys-QValue-Neutron Neutron
+/// @defgroup EGXPhys-QValue-NeutronEmission Neutron Emission
 /// @ingroup EGXPhys-QValue
 
-/// @defgroup EGXPhys-QValue-Proton Proton
+/// @defgroup EGXPhys-QValue-ProtonEmission Proton Emission
 /// @ingroup EGXPhys-QValue
 
 //=================================
@@ -431,24 +431,128 @@ namespace EGXPhys
     
 	/// @}
     // -------------- Neutron ----------------------
-	/// @addtogroup EGXPhys-QValue-Neutron
+	/// @addtogroup EGXPhys-QValue-NeutronEmission
 	/// @{
 
+	/**
+	*	@brief Calculates the Q-value, \f$Q\f$, of a neutron emission nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+	*
+	*	The Q-value, \f$Q\f$, is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero.
+	*	For \f$Q < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
+	*
+	*	To calculate the Q-value it is the initial mass of the parent atom, \f$m(\ce{ ^{A}_{Z}X_{N} })\f$, minus the final mass of the daughter atom, \f$m(\ce{ ^{A-1}_{Z}X_{N -1} })\f$, as well as the mass of a neutron \f$m(\ce{ ^{1}_{0}n_{1} })\f$:
+	*	\f[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-1}_{Z}X_{N -1} })-m(\ce{ ^{1}_{0}n_{1} }) \right) c^2\f]
+	*
+	*	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/ and https://en.wikipedia.org/wiki/Proton_emission
+	*
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+	*
+	*	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parrent nucleus in unified atomic mass units.
+	*	@param massDaughterInu \f$m(\ce{ ^{A-1}_{Z}X_{N -1} })\ (u)\f$ Mass of daughter nucleus in unified atomic mass units.
+	*	@return \f$Q\ (MeV)\f$ Q-value. The energy in megaelectron volts produced by a nuclear reaction.
+	*	@see MassDefect() to calculate the mass defect of an atom.
+	*	@see NuclearBindingEnergy() to calculate binding energy,\f$BE\f$, of an atom.
+	*	@see QValueAlphaDecayInMeV() to calculate Q-Value for an alpha decay reaction in megaelectron volts.
+	*	@see QValueBetaMinusDecayInMeV() to calculate Q-Value for a beta-minus decay reaction in megaelectron volts.
+	*	@see QValueBetaPlusDecayInMeV() to calculate Q-Value for a beta-plus reaction decay in megaelectron volts.
+	*	@see QValueElectronCaptureInMeV() to calculate Q-Value for a electron capture reaction in megaelectron volts.
+	*	@see QValueNeutronEmissionInMeV() to calculate Q-Value for an neutron decay reaction in megaelectron volts.
+	*	@see QValueProtonEmissionInMeV() to calculate Q-Value for a proton decay reaction in megaelectron volts.
+	*/
     template<typename T>
     T QValueNeutronEmissionInMeV(const T massParentInu, const T massDaughterInu);
     
+	/**
+	*	@brief Calculates the Q-value, \f$Q\f$, of a neutron emission nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+	*
+	*	The Q-value, \f$Q\f$, is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero.
+	*	For \f$Q < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
+	*
+	*	To calculate the Q-value it is the initial mass of the parent atom, \f$m(\ce{ ^{A}_{Z}X_{N} })\f$, minus the final mass of the daughter atom, \f$m(\ce{ ^{A-1}_{Z}X_{N -1} })\f$, as well as the mass of a neutron \f$m(\ce{ ^{1}_{0}n_{1} })\f$:
+	*	\f[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-1}_{Z}X_{N -1} })-m(\ce{ ^{1}_{0}n_{1} }) \right) c^2\f]
+	*
+	*	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/ and https://en.wikipedia.org/wiki/Proton_emission
+	*
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+	*
+	*	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parrent nucleus in unified atomic mass units.
+	*	@param massDaughterInu \f$m(\ce{ ^{A-1}_{Z}X_{N -1} })\ (u)\f$ Mass of daughter nucleus in unified atomic mass units.
+	*	@return \f$Q\ (J)\f$ Q-value. The energy in joules produced by a nuclear reaction.
+	*	@see MassDefect() to calculate the mass defect of an atom.
+	*	@see NuclearBindingEnergy() to calculate binding energy,\f$BE\f$, of an atom.
+	*	@see QValueAlphaDecayInJ() to calculate Q-Value for an alpha decay reaction in joules.
+	*	@see QValueBetaMinusDecayInJ() to calculate Q-Value for a beta-minus decay reaction in joules.
+	*	@see QValueBetaPlusDecayInJ() to calculate Q-Value for a beta-plus reaction decay in joules.
+	*	@see QValueElectronCaptureInJ() to calculate Q-Value for a electron capture reaction in joules.
+	*	@see QValueNeutronEmissionInJ() to calculate Q-Value for an neutron decay reaction in joules.
+	*	@see QValueProtonEmissionInJ() to calculate Q-Value for a proton decay reaction in joules.
+	*/
 	template<typename T>
     T QValueNeutronEmissionInJ(const T massParentInu, const T massDaughterInu);
     
+	/**
+	*	@brief Calculates the Q-value, \f$Q\f$, of a double neutron emission nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+	*
+	*	The Q-value, \f$Q\f$, is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero.
+	*	For \f$Q < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
+	*
+	*	To calculate the Q-value it is the initial mass of the parent atom, \f$m(\ce{ ^{A}_{Z}X_{N} })\f$, minus the final mass of the daughter atom, \f$m(\ce{ ^{A-2}_{Z}X_{N -2} })\f$, as well as the mass of two neutron \f$m(\ce{ ^{1}_{0}n_{1} })\f$:
+	*	\f[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-2}_{Z}X_{N -2} })-2m(\ce{ ^{1}_{0}n_{1} }) \right) c^2\f]
+	*
+	*	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/ and https://en.wikipedia.org/wiki/Proton_emission
+	*
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+	*
+	*	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parrent nucleus in unified atomic mass units.
+	*	@param massDaughterInu \f$m(\ce{ ^{A-2}_{Z}X_{N -2} })\ (u)\f$ Mass of daughter nucleus in unified atomic mass units.
+	*	@return \f$Q\ (MeV)\f$ Q-value. The energy in megaelectron volts produced by a nuclear reaction.
+	*	@see MassDefect() to calculate the mass defect of an atom.
+	*	@see NuclearBindingEnergy() to calculate binding energy,\f$BE\f$, of an atom.
+	*	@see QValueAlphaDecayInMeV() to calculate Q-Value for an alpha decay reaction in megaelectron volts.
+	*	@see QValueBetaMinusDecayInMeV() to calculate Q-Value for a beta-minus decay reaction in megaelectron volts.
+	*	@see QValueBetaPlusDecayInMeV() to calculate Q-Value for a beta-plus reaction decay in megaelectron volts.
+	*	@see QValueElectronCaptureInMeV() to calculate Q-Value for a electron capture reaction in megaelectron volts.
+	*	@see QValueNeutronEmissionInMeV() to calculate Q-Value for an neutron decay reaction in megaelectron volts.
+	*	@see QValueProtonEmissionInMeV() to calculate Q-Value for a proton decay reaction in megaelectron volts.
+	*/
     template<typename T>
     T QValueDoubleNeutronEmissionInMeV(const T massParentInu, const T massDaughterInu);
     
+	/**
+	*	@brief Calculates the Q-value, \f$Q\f$, of a double neutron emission nuclear reaction in joules. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic.
+	*
+	*	The Q-value, \f$Q\f$, is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero.
+	*	For \f$Q < 0\f$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy.
+	*	For \f$Q > 0\f$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
+	*
+	*	To calculate the Q-value it is the initial mass of the parent atom, \f$m(\ce{ ^{A}_{Z}X_{N} })\f$, minus the final mass of the daughter atom, \f$m(\ce{ ^{A-2}_{Z}X_{N -2} })\f$, as well as the mass of two neutron \f$m(\ce{ ^{1}_{0}n_{1} })\f$:
+	*	\f[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-2}_{Z}X_{N -2} })-2m(\ce{ ^{1}_{0}n_{1} }) \right) c^2\f]
+	*
+	*	See http://www.nndc.bnl.gov/qcalc/ and http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/ and https://en.wikipedia.org/wiki/Proton_emission
+	*
+	*	Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 & p. 381
+	*
+	*	@param massParentInu \f$m(\ce{ ^{A}_{Z}X_{N} })\ (u)\f$ Mass of parrent nucleus in unified atomic mass units.
+	*	@param massDaughterInu \f$m(\ce{ ^{A-2}_{Z}X_{N -2} })\ (u)\f$ Mass of daughter nucleus in unified atomic mass units.
+	*	@return \f$Q\ (J)\f$ Q-value. The energy in joules produced by a nuclear reaction.
+	*	@see MassDefect() to calculate the mass defect of an atom.
+	*	@see NuclearBindingEnergy() to calculate binding energy,\f$BE\f$, of an atom.
+	*	@see QValueAlphaDecayInJ() to calculate Q-Value for an alpha decay reaction in joules.
+	*	@see QValueBetaMinusDecayInJ() to calculate Q-Value for a beta-minus decay reaction in joules.
+	*	@see QValueBetaPlusDecayInJ() to calculate Q-Value for a beta-plus reaction decay in joules.
+	*	@see QValueElectronCaptureInJ() to calculate Q-Value for a electron capture reaction in joules.
+	*	@see QValueNeutronEmissionInJ() to calculate Q-Value for an neutron decay reaction in joules.
+	*	@see QValueProtonEmissionInJ() to calculate Q-Value for a proton decay reaction in joules.
+	*/
     template<typename T>
     T QValueDoubleNeutronEmissionInJ(const T massParentInu, const T massDaughterInu);
     
 	/// @}
     // -------------- Proton ----------------------
-	/// @addtogroup EGXPhys-QValue-Proton
+	/// @addtogroup EGXPhys-QValue-ProtonEmission
 	/// @{
 
 	/**

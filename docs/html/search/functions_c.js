@@ -8,12 +8,16 @@ var searchData=
   ['qvaluedoublealphadecayinmev',['QValueDoubleAlphaDecayInMeV',['../group___e_g_x_phys-_q_value-_alpha.html#ga85230c793adc7fc78fef760874f75ad9',1,'EGXPhys']]],
   ['qvaluedoubleelectroncaptureinj',['QValueDoubleElectronCaptureInJ',['../group___e_g_x_phys-_q_value-_electron_capture.html#gacb431a07ac565f8e48a08c25544e5d22',1,'EGXPhys']]],
   ['qvaluedoubleelectroncaptureinmev',['QValueDoubleElectronCaptureInMeV',['../group___e_g_x_phys-_q_value-_electron_capture.html#gab16ac92ae27b2c0c96c7abc35f949cb8',1,'EGXPhys']]],
-  ['qvaluedoubleprotonemissioninj',['QValueDoubleProtonEmissionInJ',['../group___e_g_x_phys-_q_value-_proton.html#gab8979dd25aeac115834a4a8b233fec6f',1,'EGXPhys']]],
-  ['qvaluedoubleprotonemissioninmev',['QValueDoubleProtonEmissionInMeV',['../group___e_g_x_phys-_q_value-_proton.html#ga61d07711da603f2f4426fbb3f271fc34',1,'EGXPhys']]],
+  ['qvaluedoubleneutronemissioninj',['QValueDoubleNeutronEmissionInJ',['../group___e_g_x_phys-_q_value-_neutron_emission.html#gae8a2c7bd5c4facaea7615eccdfc47be1',1,'EGXPhys']]],
+  ['qvaluedoubleneutronemissioninmev',['QValueDoubleNeutronEmissionInMeV',['../group___e_g_x_phys-_q_value-_neutron_emission.html#gaeafae8a98e46b701517c1a2b8bfc241d',1,'EGXPhys']]],
+  ['qvaluedoubleprotonemissioninj',['QValueDoubleProtonEmissionInJ',['../group___e_g_x_phys-_q_value-_proton_emission.html#gab8979dd25aeac115834a4a8b233fec6f',1,'EGXPhys']]],
+  ['qvaluedoubleprotonemissioninmev',['QValueDoubleProtonEmissionInMeV',['../group___e_g_x_phys-_q_value-_proton_emission.html#ga61d07711da603f2f4426fbb3f271fc34',1,'EGXPhys']]],
   ['qvalueelectroncaptureinj',['QValueElectronCaptureInJ',['../group___e_g_x_phys-_q_value-_electron_capture.html#gaf2569f9c706130b730dcf55695780263',1,'EGXPhys']]],
   ['qvalueelectroncaptureinmev',['QValueElectronCaptureInMeV',['../group___e_g_x_phys-_q_value-_electron_capture.html#ga9cd8502b6101614c17114e9710cdcf6c',1,'EGXPhys']]],
   ['qvalueinj',['QValueInJ',['../group___e_g_x_phys-_q_value.html#gaa61414574096631a36ff857b311c435c',1,'EGXPhys']]],
   ['qvalueinmev',['QValueInMeV',['../group___e_g_x_phys-_q_value.html#ga53f07ac44d3d3b217b8c5b7aa548e3fc',1,'EGXPhys']]],
-  ['qvalueprotonemissioninj',['QValueProtonEmissionInJ',['../group___e_g_x_phys-_q_value-_proton.html#ga41f19b0d9a2dc06e89de44aaa2d48d62',1,'EGXPhys']]],
-  ['qvalueprotonemissioninmev',['QValueProtonEmissionInMeV',['../group___e_g_x_phys-_q_value-_proton.html#ga5d92756e945e66bd2ed7d55145b95c3b',1,'EGXPhys']]]
+  ['qvalueneutronemissioninj',['QValueNeutronEmissionInJ',['../group___e_g_x_phys-_q_value-_neutron_emission.html#gacb17fa06731637937bc65765943d67ca',1,'EGXPhys']]],
+  ['qvalueneutronemissioninmev',['QValueNeutronEmissionInMeV',['../group___e_g_x_phys-_q_value-_neutron_emission.html#ga8ad6e53cb04260eb9b140e22b5b6d9f6',1,'EGXPhys']]],
+  ['qvalueprotonemissioninj',['QValueProtonEmissionInJ',['../group___e_g_x_phys-_q_value-_proton_emission.html#ga41f19b0d9a2dc06e89de44aaa2d48d62',1,'EGXPhys']]],
+  ['qvalueprotonemissioninmev',['QValueProtonEmissionInMeV',['../group___e_g_x_phys-_q_value-_proton_emission.html#ga5d92756e945e66bd2ed7d55145b95c3b',1,'EGXPhys']]]
 ];
