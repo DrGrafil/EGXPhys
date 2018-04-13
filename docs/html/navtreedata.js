@@ -41,8 +41,8 @@ var NAVTREEINDEX =
 "_parallax_8hpp_source.html",
 "_thermodynamics_8hpp_source.html",
 "group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1",
-"group___n_i_s_t_const-_alpha.html#ga1233ffb0d6537e112ce39623e6c6d0d5",
-"group___n_i_s_t_const-_muon.html#ga72ca5408215ae40bb36ef1bff9107cf7"
+"group___e_g_x_phys-_stellar_temperature.html",
+"group___n_i_s_t_const-_molybdenum.html#ga31f18ed601e6b0e9ebe95a3ac3d962f5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

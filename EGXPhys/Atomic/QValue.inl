@@ -8,13 +8,13 @@
 namespace EGXPhys{
 	
 	template<typename T>
-	T QValueInMeV(const T projectileInu, const T targetInu, const T massProduct1Inu, const T massProduct2Inu) {
-		return (projectileInu + targetInu - massProduct1Inu - massProduct2Inu) * (T)NISTConst::atomicMassConstantInMeVPercSquared;
+	T QValueInMeV(const T massProjectileInu, const T massTargetInu, const T massProduct1Inu, const T massProduct2Inu) {
+		return (massProjectileInu + massTargetInu - massProduct1Inu - massProduct2Inu) * (T)NISTConst::atomicMassConstantInMeVPercSquared;
 	}
 
 	template<typename T>
-	T QValueInJ(const T projectileInu, const T targetInu, const T massProduct1Inu, const T massProduct2Inu) {
-		return (projectileInu + targetInu - massProduct1Inu - massProduct2Inu) * (T)NISTConst::atomicMassConstantInJPercSquared;
+	T QValueInJ(const T massProjectileInu, const T massTargetInu, const T massProduct1Inu, const T massProduct2Inu) {
+		return (massProjectileInu + massTargetInu - massProduct1Inu - massProduct2Inu) * (T)NISTConst::atomicMassConstantInJPercSquared;
 	}
 
 	    // -------------- Alpha ----------------------

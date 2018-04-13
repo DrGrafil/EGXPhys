@@ -3,11 +3,11 @@
 \subsection*{Modules}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha}{Alpha}}
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha}{Alpha Decay}}
 \item 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus}{Beta Minus}}
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus}{Beta Minus Decay}}
 \item 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_plus}{Beta Plus}}
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_plus}{Beta Plus Decay}}
 \item 
 \mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture}{Electron Capture}}
 \item 
@@ -18,9 +18,9 @@
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_q_value_ga53f07ac44d3d3b217b8c5b7aa548e3fc}{E\+G\+X\+Phys\+::\+Q\+Value\+In\+MeV}} (const T projectile\+Inu, const T target\+Inu, const T mass\+Product1\+Inu, const T mass\+Product2\+Inu)
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_q_value_gab96ade2d74f5303e30a43ff97bd03841}{E\+G\+X\+Phys\+::\+Q\+Value\+In\+MeV}} (const T mass\+Projectile\+Inu, const T mass\+Target\+Inu, const T mass\+Product1\+Inu, const T mass\+Product2\+Inu)
 \begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$, of a nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_q_value_gaa61414574096631a36ff857b311c435c}{E\+G\+X\+Phys\+::\+Q\+Value\+InJ}} (const T projectile\+Inu, const T target\+Inu, const T mass\+Product1\+Inu, const T mass\+Product2\+Inu)
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_q_value_ga4b23be4fb0a3a9e7229c95377afc74b5}{E\+G\+X\+Phys\+::\+Q\+Value\+InJ}} (const T mass\+Projectile\+Inu, const T mass\+Target\+Inu, const T mass\+Product1\+Inu, const T mass\+Product2\+Inu)
 \begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$, of a nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -28,12 +28,12 @@
 Calculates the Q-\/value, $Q$, of a nuclear reaction. 
 
 \subsection{Function Documentation}
-\mbox{\Hypertarget{group___e_g_x_phys-_q_value_gaa61414574096631a36ff857b311c435c}\label{group___e_g_x_phys-_q_value_gaa61414574096631a36ff857b311c435c}} 
+\mbox{\Hypertarget{group___e_g_x_phys-_q_value_ga4b23be4fb0a3a9e7229c95377afc74b5}\label{group___e_g_x_phys-_q_value_ga4b23be4fb0a3a9e7229c95377afc74b5}} 
 \index{Q-\/\+Value@{Q-\/\+Value}!Q\+Value\+InJ@{Q\+Value\+InJ}}
 \index{Q\+Value\+InJ@{Q\+Value\+InJ}!Q-\/\+Value@{Q-\/\+Value}}
 \subsubsection{\texorpdfstring{Q\+Value\+In\+J()}{QValueInJ()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Phys\+::\+Q\+Value\+InJ (\begin{DoxyParamCaption}\item[{const T}]{projectile\+Inu,  }\item[{const T}]{target\+Inu,  }\item[{const T}]{mass\+Product1\+Inu,  }\item[{const T}]{mass\+Product2\+Inu }\end{DoxyParamCaption})}
+T E\+G\+X\+Phys\+::\+Q\+Value\+InJ (\begin{DoxyParamCaption}\item[{const T}]{mass\+Projectile\+Inu,  }\item[{const T}]{mass\+Target\+Inu,  }\item[{const T}]{mass\+Product1\+Inu,  }\item[{const T}]{mass\+Product2\+Inu }\end{DoxyParamCaption})}
 
 
 
@@ -53,9 +53,9 @@ Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1
 
 
 \begin{DoxyParams}{Parameters}
-{\em projectile\+Inu} & $m(x)\ (u)$ Mass of projectile. The mass of the projectile in unified atomic mass units. \\
+{\em mass\+Projectile\+Inu} & $m(x)\ (u)$ Mass of projectile. The mass of the projectile in unified atomic mass units. \\
 \hline
-{\em target\+Inu} & $m(X)\ (u)$ Mass of target. The mass of the target in unified atomic mass units. \\
+{\em mass\+Target\+Inu} & $m(X)\ (u)$ Mass of target. The mass of the target in unified atomic mass units. \\
 \hline
 {\em mass\+Product1\+Inu} & $m(y)\ (u)$ Mass of first product. The mass of the first product in unified atomic mass units. \\
 \hline
@@ -72,22 +72,22 @@ $Q\ (J)$ Q-\/value. The energy in joules produced by a nuclear reaction.
 
 \mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_gab8a50c18f6de3c1b6ed280c26c3ff3a5}{Q\+Value\+Alpha\+Decay\+In\+J()}} to calculate Q-\/\+Value for an alpha decay reaction in joules. 
 
-Q\+Value\+Beta\+Minus\+Decay\+In\+J() to calculate Q-\/\+Value for a beta-\/minus decay reaction in joules. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus_gae9a4a9f4c6e0f555e20c3144dd7329fc}{Q\+Value\+Beta\+Minus\+Decay\+In\+J()}} to calculate Q-\/\+Value for a beta minus decay reaction in joules. 
 
-Q\+Value\+Beta\+Plus\+Decay\+In\+J() to calculate Q-\/\+Value for a beta-\/plus reaction decay in joules. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_plus_gaaee51753f077c9fe05188aa5b24f642e}{Q\+Value\+Beta\+Plus\+Decay\+In\+J()}} to calculate Q-\/\+Value for a beta plus decay reaction decay in joules. 
 
 \mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_gaf2569f9c706130b730dcf55695780263}{Q\+Value\+Electron\+Capture\+In\+J()}} to calculate Q-\/\+Value for a electron capture reaction in joules. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_neutron_emission_gacb17fa06731637937bc65765943d67ca}{Q\+Value\+Neutron\+Emission\+In\+J()}} to calculate Q-\/\+Value for an neutron decay reaction in joules. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_neutron_emission_gacb17fa06731637937bc65765943d67ca}{Q\+Value\+Neutron\+Emission\+In\+J()}} to calculate Q-\/\+Value for an neutron emission reaction in joules. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_emission_ga41f19b0d9a2dc06e89de44aaa2d48d62}{Q\+Value\+Proton\+Emission\+In\+J()}} to calculate Q-\/\+Value for a proton decay reaction in joules. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_emission_ga41f19b0d9a2dc06e89de44aaa2d48d62}{Q\+Value\+Proton\+Emission\+In\+J()}} to calculate Q-\/\+Value for a proton emission reaction in joules. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_phys-_q_value_ga53f07ac44d3d3b217b8c5b7aa548e3fc}\label{group___e_g_x_phys-_q_value_ga53f07ac44d3d3b217b8c5b7aa548e3fc}} 
+\mbox{\Hypertarget{group___e_g_x_phys-_q_value_gab96ade2d74f5303e30a43ff97bd03841}\label{group___e_g_x_phys-_q_value_gab96ade2d74f5303e30a43ff97bd03841}} 
 \index{Q-\/\+Value@{Q-\/\+Value}!Q\+Value\+In\+MeV@{Q\+Value\+In\+MeV}}
 \index{Q\+Value\+In\+MeV@{Q\+Value\+In\+MeV}!Q-\/\+Value@{Q-\/\+Value}}
 \subsubsection{\texorpdfstring{Q\+Value\+In\+Me\+V()}{QValueInMeV()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Phys\+::\+Q\+Value\+In\+MeV (\begin{DoxyParamCaption}\item[{const T}]{projectile\+Inu,  }\item[{const T}]{target\+Inu,  }\item[{const T}]{mass\+Product1\+Inu,  }\item[{const T}]{mass\+Product2\+Inu }\end{DoxyParamCaption})}
+T E\+G\+X\+Phys\+::\+Q\+Value\+In\+MeV (\begin{DoxyParamCaption}\item[{const T}]{mass\+Projectile\+Inu,  }\item[{const T}]{mass\+Target\+Inu,  }\item[{const T}]{mass\+Product1\+Inu,  }\item[{const T}]{mass\+Product2\+Inu }\end{DoxyParamCaption})}
 
 
 
@@ -107,9 +107,9 @@ Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1
 
 
 \begin{DoxyParams}{Parameters}
-{\em projectile\+Inu} & $m(x)\ (u)$ Mass of projectile. The mass of the projectile in unified atomic mass units. \\
+{\em mass\+Projectile\+Inu} & $m(x)\ (u)$ Mass of projectile. The mass of the projectile in unified atomic mass units. \\
 \hline
-{\em target\+Inu} & $m(X)\ (u)$ Mass of target. The mass of the target in unified atomic mass units. \\
+{\em mass\+Target\+Inu} & $m(X)\ (u)$ Mass of target. The mass of the target in unified atomic mass units. \\
 \hline
 {\em mass\+Product1\+Inu} & $m(y)\ (u)$ Mass of first product. The mass of the first product in unified atomic mass units. \\
 \hline
@@ -127,13 +127,13 @@ $Q\ (MeV)$ Q-\/value. The energy in megaelectron volts produced by a nuclear rea
 
 \mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_ga4f9a38d3ad4bf93471a0affb493b6e72}{Q\+Value\+Alpha\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for an alpha decay reaction in megaelectron volts. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus_gaac1374ce9ba39bef416f34298708bda9}{Q\+Value\+Beta\+Minus\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for a beta-\/minus decay reaction in megaelectron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus_gaac1374ce9ba39bef416f34298708bda9}{Q\+Value\+Beta\+Minus\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for a beta minus decay reaction in megaelectron volts. 
 
-Q\+Value\+Beta\+Plus\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a beta-\/plus reaction decay in megaelectron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_plus_ga3c4f7ec8e7c44d01d3aee6447a5ab443}{Q\+Value\+Beta\+Plus\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for a beta plus decay reaction decay in megaelectron volts. 
 
 \mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_ga9cd8502b6101614c17114e9710cdcf6c}{Q\+Value\+Electron\+Capture\+In\+Me\+V()}} to calculate Q-\/\+Value for a electron capture reaction in megaelectron volts. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_neutron_emission_ga8ad6e53cb04260eb9b140e22b5b6d9f6}{Q\+Value\+Neutron\+Emission\+In\+Me\+V()}} to calculate Q-\/\+Value for an neutron decay reaction in megaelectron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_neutron_emission_ga8ad6e53cb04260eb9b140e22b5b6d9f6}{Q\+Value\+Neutron\+Emission\+In\+Me\+V()}} to calculate Q-\/\+Value for an neutron emission reaction in megaelectron volts. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_emission_ga5d92756e945e66bd2ed7d55145b95c3b}{Q\+Value\+Proton\+Emission\+In\+Me\+V()}} to calculate Q-\/\+Value for a proton decay reaction in megaelectron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_emission_ga5d92756e945e66bd2ed7d55145b95c3b}{Q\+Value\+Proton\+Emission\+In\+Me\+V()}} to calculate Q-\/\+Value for a proton emission reaction in megaelectron volts. 
 \end{DoxySeeAlso}
