@@ -8,9 +8,9 @@
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_gaf2569f9c706130b730dcf55695780263}{E\+G\+X\+Phys\+::\+Q\+Value\+Electron\+Capture\+InJ}} (const T mass\+Parent\+Inu, const T mass\+Daughter\+Inu, const T neutron\+Binding\+Energy\+InJ=(T)(0.\+0))
 \begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$ of an electron capture(k-\/capture) nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_gab16ac92ae27b2c0c96c7abc35f949cb8}{E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Electron\+Capture\+In\+MeV}} (const T mass\+Parent\+Inu, const T mass\+Daughter\+Inu, const T neutron\+Binding\+Energy\+In\+MeV=(T)(0.\+0))
-\begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$ of a double electron capture(k-\/capture) nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$, of a double electron capture(k-\/capture) nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_gacb431a07ac565f8e48a08c25544e5d22}{E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Electron\+Capture\+InJ}} (const T mass\+Parent\+Inu, const T mass\+Daughter\+Inu, const T neutron\+Binding\+Energy\+InJ=(T)(0.\+0))
-\begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$ of a double electron capture(k-\/capture) nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$, of a double electron capture(k-\/capture) nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -26,11 +26,11 @@ T E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Electron\+Capture\+InJ (\begin{DoxyParamC
 
 
 
-Calculates the Q-\/value, $Q$ of a double electron capture(k-\/capture) nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. 
+Calculates the Q-\/value, $Q$, of a double electron capture(k-\/capture) nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. 
 
 The Q-\/value, $Q$, is the energy released during a nuclear reaction. The Q-\/value can be positive, negative or zero. For $Q < 0$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy. For $Q > 0$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
 
-To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A}_{Z-1}X_{N +1} })$, as well as the binding energy of the n-\/shell captured electron $B_{2n}$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A}_{Z-1}X_{N +1} })-B_{2n} \right) c^2\]
+To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A}_{Z-2}Y_{N +2} })$, as well as the binding energy of the n-\/shell captured electron $B_{2n}$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A}_{Z-2}Y_{N +2} }) \right) c^2-B_{2n}\]
 
 Depending on the database/calculation style the binding energy of the n-\/shelled captured electron is not included in the calculation. For example nndc.\+bnl.\+gov exlcudes it while Krane includes it.
 
@@ -42,7 +42,7 @@ Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1
 \begin{DoxyParams}{Parameters}
 {\em mass\+Parent\+Inu} & $m(\ce{ ^{A}_{Z}X_{N} })\ (u)$ Mass of parrent nucleus in unified atomic mass units. \\
 \hline
-{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A}_{Z-1}X_{N +1} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
+{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A}_{Z-2}Y_{N +2} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
 \hline
 {\em neutron\+Binding\+Energy\+InJ} & $B_{2n}\ (J)$ Binding energy of the two n-\/shell captured electron in joules. \\
 \hline
@@ -63,9 +63,9 @@ Q\+Value\+Beta\+Plus\+Decay\+In\+J() to calculate Q-\/\+Value for a beta-\/plus 
 
 \mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_gaf2569f9c706130b730dcf55695780263}{Q\+Value\+Electron\+Capture\+In\+J()}} to calculate Q-\/\+Value for a electron capture reaction in joules. 
 
-Q\+Value\+Neutron\+Decay\+In\+J() to calculate Q-\/\+Value for an neutron decay reaction in joules. 
+Q\+Value\+Neutron\+Emission\+In\+J() to calculate Q-\/\+Value for an neutron decay reaction in joules. 
 
-Q\+Value\+Proton\+Decay\+In\+J() to calculate Q-\/\+Value for a proton decay reaction in joules. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_ga41f19b0d9a2dc06e89de44aaa2d48d62}{Q\+Value\+Proton\+Emission\+In\+J()}} to calculate Q-\/\+Value for a proton decay reaction in joules. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_phys-_q_value-_electron_capture_gab16ac92ae27b2c0c96c7abc35f949cb8}\label{group___e_g_x_phys-_q_value-_electron_capture_gab16ac92ae27b2c0c96c7abc35f949cb8}} 
 \index{Electron Capture@{Electron Capture}!Q\+Value\+Double\+Electron\+Capture\+In\+MeV@{Q\+Value\+Double\+Electron\+Capture\+In\+MeV}}
@@ -76,11 +76,11 @@ T E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Electron\+Capture\+In\+MeV (\begin{DoxyPa
 
 
 
-Calculates the Q-\/value, $Q$ of a double electron capture(k-\/capture) nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. 
+Calculates the Q-\/value, $Q$, of a double electron capture(k-\/capture) nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. 
 
 The Q-\/value, $Q$, is the energy released during a nuclear reaction. The Q-\/value can be positive, negative or zero. For $Q < 0$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy. For $Q > 0$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
 
-To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A}_{Z-1}X_{N +1} })$, as well as the binding energy of the two n-\/shell captured electron $B_{2n}$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A}_{Z-1}X_{N +1} })-B_{2n} \right) c^2\]
+To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A}_{Z-2}Y_{N +2} })$, as well as the binding energy of the two n-\/shell captured electron $B_{2n}$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A}_{Z-2}Y_{N +2} }) \right) c^2-B_{2n}\]
 
 Depending on the database/calculation style the binding energy of the two n-\/shelled captured electron is not included in the calculation. For example nndc.\+bnl.\+gov exlcudes it while Krane includes it.
 
@@ -92,9 +92,9 @@ Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1
 \begin{DoxyParams}{Parameters}
 {\em mass\+Parent\+Inu} & $m(\ce{ ^{A}_{Z}X_{N} })\ (u)$ Mass of parrent nucleus in unified atomic mass units. \\
 \hline
-{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A}_{Z-1}X_{N +1} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
+{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A}_{Z-2}Y_{N +2} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
 \hline
-{\em neutron\+Binding\+Energy\+In\+MeV} & $B_{2n}\ (MeV)$ Binding energy of the two n-\/shell captured electron in mega electron volts. \\
+{\em neutron\+Binding\+Energy\+In\+MeV} & $B_{2n}\ (MeV)$ Binding energy of the two n-\/shell captured electron in megaelectron volts. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -105,17 +105,17 @@ $Q\ (MeV)$ Q-\/value. The energy in megaelectron volts produced by a nuclear rea
 
 \mbox{\hyperlink{group___e_g_x_phys-_nuclear_binding_energy_gab6832bf15ead7b4e867e759e0a2a078e}{Nuclear\+Binding\+Energy()}} to calculate binding energy, $BE$, of an atom. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_ga4f9a38d3ad4bf93471a0affb493b6e72}{Q\+Value\+Alpha\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for an alpha decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_ga4f9a38d3ad4bf93471a0affb493b6e72}{Q\+Value\+Alpha\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for an alpha decay reaction in megaelectron volts. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus_gaac1374ce9ba39bef416f34298708bda9}{Q\+Value\+Beta\+Minus\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for a beta-\/minus decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus_gaac1374ce9ba39bef416f34298708bda9}{Q\+Value\+Beta\+Minus\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for a beta-\/minus decay reaction in megaelectron volts. 
 
-Q\+Value\+Beta\+Plus\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a beta-\/plus reaction decay in mega electron volts. 
+Q\+Value\+Beta\+Plus\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a beta-\/plus reaction decay in megaelectron volts. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_ga9cd8502b6101614c17114e9710cdcf6c}{Q\+Value\+Electron\+Capture\+In\+Me\+V()}} to calculate Q-\/\+Value for a electron capture reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_ga9cd8502b6101614c17114e9710cdcf6c}{Q\+Value\+Electron\+Capture\+In\+Me\+V()}} to calculate Q-\/\+Value for a electron capture reaction in megaelectron volts. 
 
-Q\+Value\+Neutron\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for an neutron decay reaction in mega electron volts. 
+Q\+Value\+Neutron\+Emission\+In\+Me\+V() to calculate Q-\/\+Value for an neutron decay reaction in megaelectron volts. 
 
-Q\+Value\+Proton\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a proton decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_ga5d92756e945e66bd2ed7d55145b95c3b}{Q\+Value\+Proton\+Emission\+In\+Me\+V()}} to calculate Q-\/\+Value for a proton decay reaction in megaelectron volts. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_phys-_q_value-_electron_capture_gaf2569f9c706130b730dcf55695780263}\label{group___e_g_x_phys-_q_value-_electron_capture_gaf2569f9c706130b730dcf55695780263}} 
 \index{Electron Capture@{Electron Capture}!Q\+Value\+Electron\+Capture\+InJ@{Q\+Value\+Electron\+Capture\+InJ}}
@@ -130,7 +130,7 @@ Calculates the Q-\/value, $Q$ of an electron capture(k-\/capture) nuclear reacti
 
 The Q-\/value, $Q$, is the energy released during a nuclear reaction. The Q-\/value can be positive, negative or zero. For $Q < 0$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy. For $Q > 0$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
 
-To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A}_{Z-1}X_{N +1} })$, as well as the binding energy of the n-\/shell captured electron $B_n$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A}_{Z-1}X_{N +1} })-B_n \right) c^2\]
+To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A}_{Z-1}Y_{N +1} })$, as well as the binding energy of the n-\/shell captured electron $B_n$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A}_{Z-1}Y_{N +1} }) \right) c^2-B_n\]
 
 Depending on the database/calculation style the binding energy of the n-\/shelled captured electron is not included in the calculation. For example nndc.\+bnl.\+gov exlcudes it while Krane includes it.
 
@@ -142,7 +142,7 @@ Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1
 \begin{DoxyParams}{Parameters}
 {\em mass\+Parent\+Inu} & $m(\ce{ ^{A}_{Z}X_{N} })\ (u)$ Mass of parrent nucleus in unified atomic mass units. \\
 \hline
-{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A}_{Z-1}X_{N +1} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
+{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A}_{Z-1}Y_{N +1} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
 \hline
 {\em neutron\+Binding\+Energy\+InJ} & $B_n\ (J)$ Binding energy of the n-\/shell captured electron in joules. \\
 \hline
@@ -163,9 +163,9 @@ Q\+Value\+Beta\+Plus\+Decay\+In\+J() to calculate Q-\/\+Value for a beta-\/plus 
 
 \mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_gaf2569f9c706130b730dcf55695780263}{Q\+Value\+Electron\+Capture\+In\+J()}} to calculate Q-\/\+Value for a electron capture reaction in joules. 
 
-Q\+Value\+Neutron\+Decay\+In\+J() to calculate Q-\/\+Value for an neutron decay reaction in joules. 
+Q\+Value\+Neutron\+Emission\+In\+J() to calculate Q-\/\+Value for an neutron decay reaction in joules. 
 
-Q\+Value\+Proton\+Decay\+In\+J() to calculate Q-\/\+Value for a proton decay reaction in joules. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_ga41f19b0d9a2dc06e89de44aaa2d48d62}{Q\+Value\+Proton\+Emission\+In\+J()}} to calculate Q-\/\+Value for a proton decay reaction in joules. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_phys-_q_value-_electron_capture_ga9cd8502b6101614c17114e9710cdcf6c}\label{group___e_g_x_phys-_q_value-_electron_capture_ga9cd8502b6101614c17114e9710cdcf6c}} 
 \index{Electron Capture@{Electron Capture}!Q\+Value\+Electron\+Capture\+In\+MeV@{Q\+Value\+Electron\+Capture\+In\+MeV}}
@@ -180,7 +180,7 @@ Calculates the Q-\/value, $Q$ of an electron capture(k-\/capture) nuclear reacti
 
 The Q-\/value, $Q$, is the energy released during a nuclear reaction. The Q-\/value can be positive, negative or zero. For $Q < 0$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy. For $Q > 0$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
 
-To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A}_{Z-1}X_{N +1} })$, as well as the binding energy of the n-\/shell captured electron $B_n$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A}_{Z-1}X_{N +1} })-B_n \right) c^2\]
+To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A}_{Z-1}Y_{N +1} })$, as well as the binding energy of the n-\/shell captured electron $B_n$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A}_{Z-1}Y_{N +1} }) \right) c^2-B_n\]
 
 Depending on the database/calculation style the binding energy of the n-\/shelled captured electron is not included in the calculation. For example nndc.\+bnl.\+gov exlcudes it while Krane includes it.
 
@@ -192,9 +192,9 @@ Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1
 \begin{DoxyParams}{Parameters}
 {\em mass\+Parent\+Inu} & $m(\ce{ ^{A}_{Z}X_{N} })\ (u)$ Mass of parrent nucleus in unified atomic mass units. \\
 \hline
-{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A}_{Z-1}X_{N +1} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
+{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A}_{Z-1}Y_{N +1} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
 \hline
-{\em neutron\+Binding\+Energy\+In\+MeV} & $B_n\ (MeV)$ Binding energy of the n-\/shell captured electron in mega electron volts. \\
+{\em neutron\+Binding\+Energy\+In\+MeV} & $B_n\ (MeV)$ Binding energy of the n-\/shell captured electron in megaelectron volts. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -205,15 +205,15 @@ $Q\ (MeV)$ Q-\/value. The energy in megaelectron volts produced by a nuclear rea
 
 \mbox{\hyperlink{group___e_g_x_phys-_nuclear_binding_energy_gab6832bf15ead7b4e867e759e0a2a078e}{Nuclear\+Binding\+Energy()}} to calculate binding energy, $BE$, of an atom. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_ga4f9a38d3ad4bf93471a0affb493b6e72}{Q\+Value\+Alpha\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for an alpha decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_ga4f9a38d3ad4bf93471a0affb493b6e72}{Q\+Value\+Alpha\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for an alpha decay reaction in megaelectron volts. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus_gaac1374ce9ba39bef416f34298708bda9}{Q\+Value\+Beta\+Minus\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for a beta-\/minus decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus_gaac1374ce9ba39bef416f34298708bda9}{Q\+Value\+Beta\+Minus\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for a beta-\/minus decay reaction in megaelectron volts. 
 
-Q\+Value\+Beta\+Plus\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a beta-\/plus reaction decay in mega electron volts. 
+Q\+Value\+Beta\+Plus\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a beta-\/plus reaction decay in megaelectron volts. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_ga9cd8502b6101614c17114e9710cdcf6c}{Q\+Value\+Electron\+Capture\+In\+Me\+V()}} to calculate Q-\/\+Value for a electron capture reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_ga9cd8502b6101614c17114e9710cdcf6c}{Q\+Value\+Electron\+Capture\+In\+Me\+V()}} to calculate Q-\/\+Value for a electron capture reaction in megaelectron volts. 
 
-Q\+Value\+Neutron\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for an neutron decay reaction in mega electron volts. 
+Q\+Value\+Neutron\+Emission\+In\+Me\+V() to calculate Q-\/\+Value for an neutron decay reaction in megaelectron volts. 
 
-Q\+Value\+Proton\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a proton decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_ga5d92756e945e66bd2ed7d55145b95c3b}{Q\+Value\+Proton\+Emission\+In\+Me\+V()}} to calculate Q-\/\+Value for a proton decay reaction in megaelectron volts. 
 \end{DoxySeeAlso}

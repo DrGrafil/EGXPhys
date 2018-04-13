@@ -149,15 +149,15 @@ template&lt;typename T &gt; </div>
 
 <p>Calculates the Q-value, \(Q\) of an beta minus decay nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic. </p>
 <p>The Q-value, \(Q\), is the energy released during a nuclear reaction. The Q-value can be positive, negative or zero. For \(Q &lt; 0\) the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy. For \(Q &gt; 0\) the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.</p>
-<p>To calculate the Q-value it is the initial mass of the parent atom, \(m(\ce{ ^{A}_{Z}X_{N} })\), minus the final mass of the daughter atom, \(m(\ce{ ^{A-4}_{Z-2}X_{N-2} })\), as well as the mass of the alpha particle \(m(\alpha)\): </p><p class="formulaDsp">
-\[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-4}_{Z-2}X_{N-2} })-m(\alpha) \right) c^2\]
+<p>To calculate the Q-value it is the initial mass of the parent atom, \(m(\ce{ ^{A}_{Z}X_{N} })\), minus the final mass of the daughter atom, \(m(\ce{ ^{A-4}_{Z-2}Y_{N-2} })\), as well as the mass of the alpha particle \(m(\alpha)\): </p><p class="formulaDsp">
+\[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-4}_{Z-2}Y_{N-2} })-m(\alpha) \right) c^2\]
 </p>
 <p>See <a href="http://www.nndc.bnl.gov/qcalc/">http://www.nndc.bnl.gov/qcalc/</a> and <a href="http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/">http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/</a></p>
 <p>Equation taken from "Introductory Nuclear Physics" (Krane, 1987), p. 62 &amp; p. 381</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">massParentInu</td><td>\(m(\ce{ ^{A}_{Z}X_{N} })\ (u)\) Mass of parrent nucleus in unified atomic mass units. </td></tr>
-    <tr><td class="paramname">massDaughterInu</td><td>\(m(\ce{ ^{A-4}_{Z-2}X_{N-2} })\ (u)\) Mass of daughter nucleus in unified atomic mass units. </td></tr>
+    <tr><td class="paramname">massDaughterInu</td><td>\(m(\ce{ ^{A-4}_{Z-2}Y_{N-2} })\ (u)\) Mass of daughter nucleus in unified atomic mass units. </td></tr>
   </table>
   </dd>
 </dl>
@@ -166,17 +166,17 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_phys-_nuclear_binding_energy.html#gab6832bf15ead7b4e867e759e0a2a078e" title="Calculates the nuclear binding energy, , of an atom in megaelectron volts. ">NuclearBindingEnergy()</a> to calculate binding energy, \(BE\), of an atom. </dd>
 <dd>
-<a class="el" href="group___e_g_x_phys-_q_value-_alpha.html#ga4f9a38d3ad4bf93471a0affb493b6e72" title="Calculates the Q-value,  of an alpha decay nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic. ">QValueAlphaDecayInMeV()</a> to calculate Q-Value for an alpha decay reaction in mega electron volts. </dd>
+<a class="el" href="group___e_g_x_phys-_q_value-_alpha.html#ga4f9a38d3ad4bf93471a0affb493b6e72" title="Calculates the Q-value,  of an alpha decay nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic. ">QValueAlphaDecayInMeV()</a> to calculate Q-Value for an alpha decay reaction in megaelectron volts. </dd>
 <dd>
-<a class="el" href="group___e_g_x_phys-_q_value-_beta_minus.html#gaac1374ce9ba39bef416f34298708bda9" title="Calculates the Q-value,  of an beta minus decay nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic. ">QValueBetaMinusDecayInMeV()</a> to calculate Q-Value for a beta-minus decay reaction in mega electron volts. </dd>
+<a class="el" href="group___e_g_x_phys-_q_value-_beta_minus.html#gaac1374ce9ba39bef416f34298708bda9" title="Calculates the Q-value,  of an beta minus decay nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic. ">QValueBetaMinusDecayInMeV()</a> to calculate Q-Value for a beta-minus decay reaction in megaelectron volts. </dd>
 <dd>
-QValueBetaPlusDecayInMeV() to calculate Q-Value for a beta-plus reaction decay in mega electron volts. </dd>
+QValueBetaPlusDecayInMeV() to calculate Q-Value for a beta-plus reaction decay in megaelectron volts. </dd>
 <dd>
-<a class="el" href="group___e_g_x_phys-_q_value-_electron_capture.html#ga9cd8502b6101614c17114e9710cdcf6c" title="Calculates the Q-value,  of an electron capture(k-capture) nuclear reaction in megaelectron volts...">QValueElectronCaptureInMeV()</a> to calculate Q-Value for a electron capture reaction in mega electron volts. </dd>
+<a class="el" href="group___e_g_x_phys-_q_value-_electron_capture.html#ga9cd8502b6101614c17114e9710cdcf6c" title="Calculates the Q-value,  of an electron capture(k-capture) nuclear reaction in megaelectron volts...">QValueElectronCaptureInMeV()</a> to calculate Q-Value for a electron capture reaction in megaelectron volts. </dd>
 <dd>
-QValueNeutronDecayInMeV() to calculate Q-Value for an neutron decay reaction in mega electron volts. </dd>
+QValueNeutronEmissionInMeV() to calculate Q-Value for an neutron decay reaction in megaelectron volts. </dd>
 <dd>
-QValueProtonDecayInMeV() to calculate Q-Value for a proton decay reaction in mega electron volts. </dd></dl>
+<a class="el" href="group___e_g_x_phys-_q_value-_proton.html#ga5d92756e945e66bd2ed7d55145b95c3b" title="Calculates the Q-value, , of a proton emission nuclear reaction in megaelectron volts. The Q-value allows you to determine if a nuclear reaction is endothermic or exothermic. ">QValueProtonEmissionInMeV()</a> to calculate Q-Value for a proton decay reaction in megaelectron volts. </dd></dl>
 
 </div>
 </div>

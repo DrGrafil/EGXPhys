@@ -222,6 +222,10 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_q_value-_electron_capture.html#gaf2569f9c706130b730dcf55695780263":[1,1,2,8,3,2],
 "group___e_g_x_phys-_q_value-_neutron.html":[1,1,2,8,4],
 "group___e_g_x_phys-_q_value-_proton.html":[1,1,2,8,5],
+"group___e_g_x_phys-_q_value-_proton.html#ga41f19b0d9a2dc06e89de44aaa2d48d62":[1,1,2,8,5,2],
+"group___e_g_x_phys-_q_value-_proton.html#ga5d92756e945e66bd2ed7d55145b95c3b":[1,1,2,8,5,3],
+"group___e_g_x_phys-_q_value-_proton.html#ga61d07711da603f2f4426fbb3f271fc34":[1,1,2,8,5,1],
+"group___e_g_x_phys-_q_value-_proton.html#gab8979dd25aeac115834a4a8b233fec6f":[1,1,2,8,5,0],
 "group___e_g_x_phys-_q_value.html":[1,1,2,8],
 "group___e_g_x_phys-_q_value.html#ga53f07ac44d3d3b217b8c5b7aa548e3fc":[1,1,2,8,7],
 "group___e_g_x_phys-_q_value.html#gaa61414574096631a36ff857b311c435c":[1,1,2,8,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX6 =
 "group___n_i_s_t_const-_alpha.html#ga1233ffb0d6537e112ce39623e6c6d0d5":[1,2,2,0,4],
 "group___n_i_s_t_const-_alpha.html#ga34f456e4d23d54ea0231ada958882a38":[1,2,2,0,3],
 "group___n_i_s_t_const-_alpha.html#ga4629465057dc35ad7eecca610bcbd092":[1,2,2,0,6],
-"group___n_i_s_t_const-_alpha.html#ga5a2a4f4310d2e3584253471fe4381b93":[1,2,2,0,1],
-"group___n_i_s_t_const-_alpha.html#ga90b635a865e315d2c4cd14c26560c7dd":[1,2,2,0,2],
-"group___n_i_s_t_const-_alpha.html#ga9f00b32c60f1bc5b8a950b58e64d08c8":[1,2,2,0,0],
-"group___n_i_s_t_const-_angstrom_star.html":[1,2,7,0],
-"group___n_i_s_t_const-_angstrom_star.html#ga42db9558ed1ddd9706c14e4d0b0863cc":[1,2,7,0,0]
+"group___n_i_s_t_const-_alpha.html#ga5a2a4f4310d2e3584253471fe4381b93":[1,2,2,0,1]
 };

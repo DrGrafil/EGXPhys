@@ -8,9 +8,9 @@
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_gab8a50c18f6de3c1b6ed280c26c3ff3a5}{E\+G\+X\+Phys\+::\+Q\+Value\+Alpha\+Decay\+InJ}} (const T mass\+Parent\+Inu, const T mass\+Daughter\+Inu)
 \begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$ of an alpha decay nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_ga85230c793adc7fc78fef760874f75ad9}{E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Alpha\+Decay\+In\+MeV}} (const T mass\+Parent\+Inu, const T mass\+Daughter\+Inu)
-\begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$ of a double alpha decay nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$, of a double alpha decay nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_ga015ade04346d0c6dae4dda8e3aab8cbd}{E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Alpha\+Decay\+InJ}} (const T mass\+Parent\+Inu, const T mass\+Daughter\+Inu)
-\begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$ of a double alpha decay nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Calculates the Q-\/value, $Q$, of a double alpha decay nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -30,7 +30,7 @@ Calculates the Q-\/value, $Q$ of an alpha decay nuclear reaction in joules. The 
 
 The Q-\/value, $Q$, is the energy released during a nuclear reaction. The Q-\/value can be positive, negative or zero. For $Q < 0$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy. For $Q > 0$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
 
-To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A-4}_{Z-2}X_{N-2} })$, as well as the mass of the alpha particle $m(\alpha)$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-4}_{Z-2}X_{N-2} })-m(\alpha) \right) c^2\]
+To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A-4}_{Z-2}Y_{N-2} })$, as well as the mass of the alpha particle $m(\alpha)$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-4}_{Z-2}Y_{N-2} })-m(\alpha) \right) c^2\]
 
 See \href{http://www.nndc.bnl.gov/qcalc/}{\tt http\+://www.\+nndc.\+bnl.\+gov/qcalc/} and \href{http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/}{\tt http\+://www.\+nuclear-\/power.\+net/nuclear-\/power/nuclear-\/reactions/q-\/value-\/energetics-\/nuclear-\/reactions/}
 
@@ -40,7 +40,7 @@ Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1
 \begin{DoxyParams}{Parameters}
 {\em mass\+Parent\+Inu} & $m(\ce{ ^{A}_{Z}X_{N} })\ (u)$ Mass of parrent nucleus in unified atomic mass units. \\
 \hline
-{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A-4}_{Z-2}X_{N-2} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
+{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A-4}_{Z-2}Y_{N-2} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -59,9 +59,9 @@ Q\+Value\+Beta\+Plus\+Decay\+In\+J() to calculate Q-\/\+Value for a beta-\/plus 
 
 \mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_gaf2569f9c706130b730dcf55695780263}{Q\+Value\+Electron\+Capture\+In\+J()}} to calculate Q-\/\+Value for a electron capture reaction in joules. 
 
-Q\+Value\+Neutron\+Decay\+In\+J() to calculate Q-\/\+Value for an neutron decay reaction in joules. 
+Q\+Value\+Neutron\+Emission\+In\+J() to calculate Q-\/\+Value for an neutron decay reaction in joules. 
 
-Q\+Value\+Proton\+Decay\+In\+J() to calculate Q-\/\+Value for a proton decay reaction in joules. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_ga41f19b0d9a2dc06e89de44aaa2d48d62}{Q\+Value\+Proton\+Emission\+In\+J()}} to calculate Q-\/\+Value for a proton decay reaction in joules. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_phys-_q_value-_alpha_ga4f9a38d3ad4bf93471a0affb493b6e72}\label{group___e_g_x_phys-_q_value-_alpha_ga4f9a38d3ad4bf93471a0affb493b6e72}} 
 \index{Alpha@{Alpha}!Q\+Value\+Alpha\+Decay\+In\+MeV@{Q\+Value\+Alpha\+Decay\+In\+MeV}}
@@ -76,7 +76,7 @@ Calculates the Q-\/value, $Q$ of an alpha decay nuclear reaction in megaelectron
 
 The Q-\/value, $Q$, is the energy released during a nuclear reaction. The Q-\/value can be positive, negative or zero. For $Q < 0$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy. For $Q > 0$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
 
-To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A-4}_{Z-2}X_{N-2} })$, as well as the mass of the alpha particle $m(\alpha)$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-4}_{Z-2}X_{N-2} })-m(\alpha) \right) c^2\]
+To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A-4}_{Z-2}Y_{N-2} })$, as well as the mass of the alpha particle $m(\alpha)$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-4}_{Z-2}Y_{N-2} })-m(\alpha) \right) c^2\]
 
 See \href{http://www.nndc.bnl.gov/qcalc/}{\tt http\+://www.\+nndc.\+bnl.\+gov/qcalc/} and \href{http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/}{\tt http\+://www.\+nuclear-\/power.\+net/nuclear-\/power/nuclear-\/reactions/q-\/value-\/energetics-\/nuclear-\/reactions/}
 
@@ -86,7 +86,7 @@ Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1
 \begin{DoxyParams}{Parameters}
 {\em mass\+Parent\+Inu} & $m(\ce{ ^{A}_{Z}X_{N} })\ (u)$ Mass of parrent nucleus in unified atomic mass units. \\
 \hline
-{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A-4}_{Z-2}X_{N-2} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
+{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A-4}_{Z-2}Y_{N-2} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -97,17 +97,17 @@ $Q\ (MeV)$ Q-\/value. The energy in megaelectron volts produced by a nuclear rea
 
 \mbox{\hyperlink{group___e_g_x_phys-_nuclear_binding_energy_gab6832bf15ead7b4e867e759e0a2a078e}{Nuclear\+Binding\+Energy()}} to calculate binding energy, $BE$, of an atom. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_ga4f9a38d3ad4bf93471a0affb493b6e72}{Q\+Value\+Alpha\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for an alpha decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_ga4f9a38d3ad4bf93471a0affb493b6e72}{Q\+Value\+Alpha\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for an alpha decay reaction in megaelectron volts. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus_gaac1374ce9ba39bef416f34298708bda9}{Q\+Value\+Beta\+Minus\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for a beta-\/minus decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus_gaac1374ce9ba39bef416f34298708bda9}{Q\+Value\+Beta\+Minus\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for a beta-\/minus decay reaction in megaelectron volts. 
 
-Q\+Value\+Beta\+Plus\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a beta-\/plus reaction decay in mega electron volts. 
+Q\+Value\+Beta\+Plus\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a beta-\/plus reaction decay in megaelectron volts. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_ga9cd8502b6101614c17114e9710cdcf6c}{Q\+Value\+Electron\+Capture\+In\+Me\+V()}} to calculate Q-\/\+Value for a electron capture reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_ga9cd8502b6101614c17114e9710cdcf6c}{Q\+Value\+Electron\+Capture\+In\+Me\+V()}} to calculate Q-\/\+Value for a electron capture reaction in megaelectron volts. 
 
-Q\+Value\+Neutron\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for an neutron decay reaction in mega electron volts. 
+Q\+Value\+Neutron\+Emission\+In\+Me\+V() to calculate Q-\/\+Value for an neutron decay reaction in megaelectron volts. 
 
-Q\+Value\+Proton\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a proton decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_ga5d92756e945e66bd2ed7d55145b95c3b}{Q\+Value\+Proton\+Emission\+In\+Me\+V()}} to calculate Q-\/\+Value for a proton decay reaction in megaelectron volts. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_phys-_q_value-_alpha_ga015ade04346d0c6dae4dda8e3aab8cbd}\label{group___e_g_x_phys-_q_value-_alpha_ga015ade04346d0c6dae4dda8e3aab8cbd}} 
 \index{Alpha@{Alpha}!Q\+Value\+Double\+Alpha\+Decay\+InJ@{Q\+Value\+Double\+Alpha\+Decay\+InJ}}
@@ -118,11 +118,11 @@ T E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Alpha\+Decay\+InJ (\begin{DoxyParamCaptio
 
 
 
-Calculates the Q-\/value, $Q$ of a double alpha decay nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. 
+Calculates the Q-\/value, $Q$, of a double alpha decay nuclear reaction in joules. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. 
 
 The Q-\/value, $Q$, is the energy released during a nuclear reaction. The Q-\/value can be positive, negative or zero. For $Q < 0$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy. For $Q > 0$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
 
-To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A-4}_{Z-2}X_{N-2} })$, as well as the mass of two alpha particle $m(\alpha)$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-4}_{Z-2}X_{N-2} })-2m(\alpha) \right) c^2\]
+To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A-8}_{Z-4}Y_{N-4} })$, as well as the mass of two alpha particle $m(\alpha)$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-8}_{Z-4}Y_{N-4} })-2m(\alpha) \right) c^2\]
 
 See \href{http://www.nndc.bnl.gov/qcalc/}{\tt http\+://www.\+nndc.\+bnl.\+gov/qcalc/} and \href{http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/}{\tt http\+://www.\+nuclear-\/power.\+net/nuclear-\/power/nuclear-\/reactions/q-\/value-\/energetics-\/nuclear-\/reactions/}
 
@@ -132,7 +132,7 @@ Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1
 \begin{DoxyParams}{Parameters}
 {\em mass\+Parent\+Inu} & $m(\ce{ ^{A}_{Z}X_{N} })\ (u)$ Mass of parrent nucleus in unified atomic mass units. \\
 \hline
-{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A-4}_{Z-2}X_{N-2} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
+{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A-8}_{Z-4}Y_{N-4} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -151,9 +151,9 @@ Q\+Value\+Beta\+Plus\+Decay\+In\+J() to calculate Q-\/\+Value for a beta-\/plus 
 
 \mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_gaf2569f9c706130b730dcf55695780263}{Q\+Value\+Electron\+Capture\+In\+J()}} to calculate Q-\/\+Value for a electron capture reaction in joules. 
 
-Q\+Value\+Neutron\+Decay\+In\+J() to calculate Q-\/\+Value for an neutron decay reaction in joules. 
+Q\+Value\+Neutron\+Emission\+In\+J() to calculate Q-\/\+Value for an neutron decay reaction in joules. 
 
-Q\+Value\+Proton\+Decay\+In\+J() to calculate Q-\/\+Value for a proton decay reaction in joules. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_ga41f19b0d9a2dc06e89de44aaa2d48d62}{Q\+Value\+Proton\+Emission\+In\+J()}} to calculate Q-\/\+Value for a proton decay reaction in joules. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_phys-_q_value-_alpha_ga85230c793adc7fc78fef760874f75ad9}\label{group___e_g_x_phys-_q_value-_alpha_ga85230c793adc7fc78fef760874f75ad9}} 
 \index{Alpha@{Alpha}!Q\+Value\+Double\+Alpha\+Decay\+In\+MeV@{Q\+Value\+Double\+Alpha\+Decay\+In\+MeV}}
@@ -164,11 +164,11 @@ T E\+G\+X\+Phys\+::\+Q\+Value\+Double\+Alpha\+Decay\+In\+MeV (\begin{DoxyParamCa
 
 
 
-Calculates the Q-\/value, $Q$ of a double alpha decay nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. 
+Calculates the Q-\/value, $Q$, of a double alpha decay nuclear reaction in megaelectron volts. The Q-\/value allows you to determine if a nuclear reaction is endothermic or exothermic. 
 
 The Q-\/value, $Q$, is the energy released during a nuclear reaction. The Q-\/value can be positive, negative or zero. For $Q < 0$ the reaction is endothermic/endoergic resulting in the kinetic energy of the reaction being converted into mass or binding energy. For $Q > 0$ the reaction is exothermic/exoergic resulting in the mass or binding energy being released as kinetic energy.
 
-To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A-4}_{Z-2}X_{N-2} })$, as well as the mass of two alpha particle $m(\alpha)$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-4}_{Z-2}X_{N-2} })-2m(\alpha) \right) c^2\]
+To calculate the Q-\/value it is the initial mass of the parent atom, $m(\ce{ ^{A}_{Z}X_{N} })$, minus the final mass of the daughter atom, $m(\ce{ ^{A-8}_{Z-4}Y_{N-4} })$, as well as the mass of two alpha particle $m(\alpha)$\+: \[Q = \left ( m(\ce{ ^{A}_{Z}X_{N} })-m(\ce{ ^{A-8}_{Z-4}Y_{N-4} })-2m(\alpha) \right) c^2\]
 
 See \href{http://www.nndc.bnl.gov/qcalc/}{\tt http\+://www.\+nndc.\+bnl.\+gov/qcalc/} and \href{http://www.nuclear-power.net/nuclear-power/nuclear-reactions/q-value-energetics-nuclear-reactions/}{\tt http\+://www.\+nuclear-\/power.\+net/nuclear-\/power/nuclear-\/reactions/q-\/value-\/energetics-\/nuclear-\/reactions/}
 
@@ -178,7 +178,7 @@ Equation taken from \char`\"{}\+Introductory Nuclear Physics\char`\"{} (Krane, 1
 \begin{DoxyParams}{Parameters}
 {\em mass\+Parent\+Inu} & $m(\ce{ ^{A}_{Z}X_{N} })\ (u)$ Mass of parrent nucleus in unified atomic mass units. \\
 \hline
-{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A-4}_{Z-2}X_{N-2} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
+{\em mass\+Daughter\+Inu} & $m(\ce{ ^{A-8}_{Z-4}Y_{N-4} })\ (u)$ Mass of daughter nucleus in unified atomic mass units. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -189,15 +189,15 @@ $Q\ (MeV)$ Q-\/value. The energy in megaelectron volts produced by a nuclear rea
 
 \mbox{\hyperlink{group___e_g_x_phys-_nuclear_binding_energy_gab6832bf15ead7b4e867e759e0a2a078e}{Nuclear\+Binding\+Energy()}} to calculate binding energy, $BE$, of an atom. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_ga4f9a38d3ad4bf93471a0affb493b6e72}{Q\+Value\+Alpha\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for an alpha decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_alpha_ga4f9a38d3ad4bf93471a0affb493b6e72}{Q\+Value\+Alpha\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for an alpha decay reaction in megaelectron volts. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus_gaac1374ce9ba39bef416f34298708bda9}{Q\+Value\+Beta\+Minus\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for a beta-\/minus decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_beta_minus_gaac1374ce9ba39bef416f34298708bda9}{Q\+Value\+Beta\+Minus\+Decay\+In\+Me\+V()}} to calculate Q-\/\+Value for a beta-\/minus decay reaction in megaelectron volts. 
 
-Q\+Value\+Beta\+Plus\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a beta-\/plus reaction decay in mega electron volts. 
+Q\+Value\+Beta\+Plus\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a beta-\/plus reaction decay in megaelectron volts. 
 
-\mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_ga9cd8502b6101614c17114e9710cdcf6c}{Q\+Value\+Electron\+Capture\+In\+Me\+V()}} to calculate Q-\/\+Value for a electron capture reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_electron_capture_ga9cd8502b6101614c17114e9710cdcf6c}{Q\+Value\+Electron\+Capture\+In\+Me\+V()}} to calculate Q-\/\+Value for a electron capture reaction in megaelectron volts. 
 
-Q\+Value\+Neutron\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for an neutron decay reaction in mega electron volts. 
+Q\+Value\+Neutron\+Emission\+In\+Me\+V() to calculate Q-\/\+Value for an neutron decay reaction in megaelectron volts. 
 
-Q\+Value\+Proton\+Decay\+In\+Me\+V() to calculate Q-\/\+Value for a proton decay reaction in mega electron volts. 
+\mbox{\hyperlink{group___e_g_x_phys-_q_value-_proton_ga5d92756e945e66bd2ed7d55145b95c3b}{Q\+Value\+Proton\+Emission\+In\+Me\+V()}} to calculate Q-\/\+Value for a proton decay reaction in megaelectron volts. 
 \end{DoxySeeAlso}

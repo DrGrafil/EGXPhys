@@ -4,10 +4,10 @@ TEST_CASE("Q Value"){
 	//Mass taken from http://wwwndc.jaea.go.jp/NuC/
 	
 	//Carbon 12
-	CHECK( QValueNeutronDecayInMeV(12.0,11.011433611)== Approx(-18.7216).scale(0.0).epsilon(0.001));
-	CHECK( QValueDoubleNeutronDecayInMeV(12.0,10.016853230)== Approx(-31.8414).scale(0.0).epsilon(0.001));
-	CHECK( QValueProtonDecayInMeV(12.0,11.009305404)== Approx(-15.9568).scale(0.0).epsilon(0.001));
-	CHECK( QValueDoubleProtonDecayInMeV(12.0,10.013534679)== Approx(-27.18543).scale(0.0).epsilon(0.001));
+	CHECK( QValueNeutronEmissionInMeV(12.0,11.011433611)== Approx(-18.7216).scale(0.0).epsilon(0.001));
+	CHECK( QValueDoubleNeutronEmissionInMeV(12.0,10.016853230)== Approx(-31.8414).scale(0.0).epsilon(0.001));
+	CHECK( QValueProtonEmissionInMeV(12.0,11.009305404)== Approx(-15.9568).scale(0.0).epsilon(0.001));
+	CHECK( QValueDoubleProtonEmissionInMeV(12.0,10.013534679)== Approx(-27.18543).scale(0.0).epsilon(0.001));
 
     CHECK( QValueBetaMinusDecayInMeV(12.0,12.018613196)== Approx(-17.3381).scale(0.0).epsilon(0.001));
 	CHECK( QValueDoubleBetaMinusDecayInMeV(12.0,12.034405)== Approx(-31.915).scale(0.0).epsilon(0.001));
@@ -18,16 +18,16 @@ TEST_CASE("Q Value"){
 	
 	
 	//Joule check
-	CHECK( QValueNeutronDecayInJ(12.0,11.011433611)== Approx(-18.7216e6 * NISTConst::electronVoltToJoule).scale(0.0).epsilon(0.001));
-	CHECK( QValueDoubleNeutronDecayInJ(12.0,10.016853230)== Approx(-31.8414e6* NISTConst::electronVoltToJoule).scale(0.0).epsilon(0.001));
-	CHECK( QValueProtonDecayInJ(12.0,11.009305404)== Approx(-15.9568e6* NISTConst::electronVoltToJoule).scale(0.0).epsilon(0.001));
-	CHECK( QValueDoubleProtonDecayInJ(12.0,10.013534679)== Approx(-27.18543e6* NISTConst::electronVoltToJoule).scale(0.0).epsilon(0.001));
+	CHECK( QValueNeutronEmissionInJ(12.0,11.011433611)== Approx(-18.7216e6 * NISTConst::electronVoltToJoule).scale(0.0).epsilon(0.001));
+	CHECK( QValueDoubleNeutronEmissionInJ(12.0,10.016853230)== Approx(-31.8414e6* NISTConst::electronVoltToJoule).scale(0.0).epsilon(0.001));
+	CHECK(QValueProtonEmissionInJ(12.0,11.009305404)== Approx(-15.9568e6* NISTConst::electronVoltToJoule).scale(0.0).epsilon(0.001));
+	CHECK( QValueDoubleProtonEmissionInJ(12.0,10.013534679)== Approx(-27.18543e6* NISTConst::electronVoltToJoule).scale(0.0).epsilon(0.001));
 	
 	//Lithium 7
-	CHECK( QValueNeutronDecayInMeV(7.01600342665,6.01512288741)== Approx(-7.2510898).scale(0.0).epsilon(0.001));
-	CHECK( QValueDoubleNeutronDecayInMeV(7.01600342665,5.01254)== Approx(-12.91).scale(0.0).epsilon(0.001));
-	CHECK( QValueProtonDecayInMeV(7.01600342665,6.018886648)== Approx(-9.97396).scale(0.0).epsilon(0.001));
-	CHECK( QValueDoubleProtonDecayInMeV(7.01600342665,5.03531)== Approx(-32.56).scale(0.0).epsilon(0.001));
+	CHECK( QValueNeutronEmissionInMeV(7.01600342665,6.01512288741)== Approx(-7.2510898).scale(0.0).epsilon(0.001));
+	CHECK( QValueDoubleNeutronEmissionInMeV(7.01600342665,5.01254)== Approx(-12.91).scale(0.0).epsilon(0.001));
+	CHECK( QValueProtonEmissionInMeV(7.01600342665,6.018886648)== Approx(-9.97396).scale(0.0).epsilon(0.001));
+	CHECK( QValueDoubleProtonEmissionInMeV(7.01600342665,5.03531)== Approx(-32.56).scale(0.0).epsilon(0.001));
 	
 	
 	//Uranium 238
