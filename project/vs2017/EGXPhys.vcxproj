@@ -145,7 +145,7 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Apoapsis.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Astrophysics.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\AstrophysicsConstants.hpp" />
-    <ClInclude Include="..\..\EGXPhys\Astrophysics\BVColor.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\B-VColor.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\CircumstellarHabitableZone.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Declination.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Eccentricity.hpp" />
@@ -217,6 +217,7 @@
     <ClInclude Include="..\..\EGXPhys\Thermodynamics\ThermodynamicsConstants.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\ApoapsisTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\AstrophysicsTests.hpp" />
+    <ClInclude Include="..\..\tests\Astrophysics\B-VColorTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\LuminosityTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\PeriapsisTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\PlanetaryMassTests.hpp" />
@@ -247,7 +248,7 @@
   <ItemGroup>
     <None Include="..\..\EGXPhys\Astrophysics\AbsoluteMagnitude.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Apoapsis.inl" />
-    <None Include="..\..\EGXPhys\Astrophysics\BVColor.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\B-VColor.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\CircumstellarHabitableZone.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Declination.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Eccentricity.inl" />

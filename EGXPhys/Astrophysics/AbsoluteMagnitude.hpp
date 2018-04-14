@@ -3,7 +3,7 @@
 /// @brief Calculates the absolute magnitude of a star.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 7/31/17
+/// @date 4/14/18
 
 /// @defgroup EGXPhys-AbsoluteMagnitude Absolute Magnitude
 /// @ingroup EGXPhys-Astrophysics

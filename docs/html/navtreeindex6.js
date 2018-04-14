@@ -1,5 +1,14 @@
 var NAVTREEINDEX6 =
 {
+"group___e_g_x_math-_angle_conversions-_radian.html#ga3dfdc97357cc07f8379976bbc08f9852":[1,0,0,9,0],
+"group___e_g_x_math-_angle_conversions-_radian.html#ga4d845b171148481aa7e85018d6dad035":[1,0,0,9,4],
+"group___e_g_x_math-_angle_conversions-_radian.html#ga55b5fba9307f34ab8db57391789a90cc":[1,0,0,9,11],
+"group___e_g_x_math-_angle_conversions-_radian.html#ga6d170f1882c32de53167c04524d05f67":[1,0,0,9,5],
+"group___e_g_x_math-_angle_conversions-_radian.html#ga722e3b8e78540a6b3942b73b64aeb8d2":[1,0,0,9,1],
+"group___e_g_x_math-_angle_conversions-_radian.html#ga8492d6d2f6467c619b65e5fb75a9ae04":[1,0,0,9,17],
+"group___e_g_x_math-_angle_conversions-_radian.html#ga84fbb494a455cfeb30be62776f96c9a9":[1,0,0,9,15],
+"group___e_g_x_math-_angle_conversions-_radian.html#gac84796dfdeb56235e1e338522a5f9350":[1,0,0,9,13],
+"group___e_g_x_math-_angle_conversions-_radian.html#gadae98c255924fdc8b232b6539eae81a9":[1,0,0,9,7],
 "group___e_g_x_math-_angle_conversions-_radian.html#gaea391f0cca39b05e298dd1cae162e7f1":[1,0,0,9,16],
 "group___e_g_x_math-_angle_conversions-_radian.html#gaf80be0c5c65ccaa5544a08a7754f3575":[1,0,0,9,8],
 "group___e_g_x_math-_angle_conversions-_turn.html":[1,0,0,10],
@@ -103,7 +112,9 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_astrophysics-_right_ascension.html#ga6fdbd35a030d278f396496899a1c236f":[1,1,1,12,0],
 "group___e_g_x_phys-_astrophysics.html":[1,1,1],
 "group___e_g_x_phys-_atomic.html":[1,1,2],
-"group___e_g_x_phys-_b_v_color.html":[1,1,1,2],
+"group___e_g_x_phys-_b-_v_color.html":[1,1,1,2],
+"group___e_g_x_phys-_b-_v_color.html#ga11cf848625fe052fe9250ce2aa22253b":[1,1,1,2,0],
+"group___e_g_x_phys-_b-_v_color.html#gacefbc01847cd5fac2bbf132937392fd1":[1,1,1,2,1],
 "group___e_g_x_phys-_circumstellar_habitable_zone_limit.html":[1,1,1,3],
 "group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga23a8f602461ea3257e8767b1d455c383":[1,1,1,3,2],
 "group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga34d1e39bce17904bc6d383f1935c79d6":[1,1,1,3,5],
@@ -238,16 +249,5 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_q_value-_proton_emission.html#ga61d07711da603f2f4426fbb3f271fc34":[1,1,2,8,5,1],
 "group___e_g_x_phys-_q_value-_proton_emission.html#gab8979dd25aeac115834a4a8b233fec6f":[1,1,2,8,5,0],
 "group___e_g_x_phys-_q_value.html":[1,1,2,8],
-"group___e_g_x_phys-_q_value.html#ga4b23be4fb0a3a9e7229c95377afc74b5":[1,1,2,8,6],
-"group___e_g_x_phys-_q_value.html#gab96ade2d74f5303e30a43ff97bd03841":[1,1,2,8,7],
-"group___e_g_x_phys-_quantum.html":[1,1,6],
-"group___e_g_x_phys-_radioactive_decay.html":[1,1,2,9],
-"group___e_g_x_phys-_redshift.html":[1,1,4,0],
-"group___e_g_x_phys-_relativity.html":[1,1,7],
-"group___e_g_x_phys-_semi_empirical_mass_formula.html":[1,1,2,10],
-"group___e_g_x_phys-_semi_empirical_mass_formula.html#ga99c5a87be2c76d3fa4852654c3fd59a9":[1,1,2,10,0],
-"group___e_g_x_phys-_stellar_mass.html":[1,1,1,13],
-"group___e_g_x_phys-_stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61":[1,1,1,13,1],
-"group___e_g_x_phys-_stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514":[1,1,1,13,0],
-"group___e_g_x_phys-_stellar_radius.html":[1,1,1,14]
+"group___e_g_x_phys-_q_value.html#ga4b23be4fb0a3a9e7229c95377afc74b5":[1,1,2,8,6]
 };

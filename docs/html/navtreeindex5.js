@@ -1,5 +1,14 @@
 var NAVTREEINDEX5 =
 {
+"_square_8hpp_source.html":[2,0,0,3,2,0,4],
+"_stellar_mass_8hpp_source.html":[2,0,0,1,27],
+"_stellar_radius_8hpp.html":[2,0,0,1,28],
+"_stellar_radius_8hpp_source.html":[2,0,0,1,28],
+"_stellar_radius_8inl.html":[2,0,0,1,29],
+"_stellar_temperature_8hpp.html":[2,0,0,1,30],
+"_stellar_temperature_8hpp_source.html":[2,0,0,1,30],
+"_stellar_temperature_8inl.html":[2,0,0,1,31],
+"_thermodynamics_8hpp.html":[2,0,0,10,0],
 "_thermodynamics_8hpp_source.html":[2,0,0,10,0],
 "_thermodynamics_constants_8hpp.html":[2,0,0,10,1],
 "_thermodynamics_constants_8hpp_source.html":[2,0,0,10,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX5 =
 "group___e_g_x_math-_angle_conversions-_radian.html#ga3467598d89af2b8ff68af50b39bb19e2":[1,0,0,9,12],
 "group___e_g_x_math-_angle_conversions-_radian.html#ga36912e5a810b64c271c4dafc17f4ca45":[1,0,0,9,9],
 "group___e_g_x_math-_angle_conversions-_radian.html#ga3a515ca2838a305fa40750763f546a86":[1,0,0,9,14],
-"group___e_g_x_math-_angle_conversions-_radian.html#ga3c1607eae50cbf0186c42485bb3878d5":[1,0,0,9,10],
-"group___e_g_x_math-_angle_conversions-_radian.html#ga3dfdc97357cc07f8379976bbc08f9852":[1,0,0,9,0],
-"group___e_g_x_math-_angle_conversions-_radian.html#ga4d845b171148481aa7e85018d6dad035":[1,0,0,9,4],
-"group___e_g_x_math-_angle_conversions-_radian.html#ga55b5fba9307f34ab8db57391789a90cc":[1,0,0,9,11],
-"group___e_g_x_math-_angle_conversions-_radian.html#ga6d170f1882c32de53167c04524d05f67":[1,0,0,9,5],
-"group___e_g_x_math-_angle_conversions-_radian.html#ga722e3b8e78540a6b3942b73b64aeb8d2":[1,0,0,9,1],
-"group___e_g_x_math-_angle_conversions-_radian.html#ga8492d6d2f6467c619b65e5fb75a9ae04":[1,0,0,9,17],
-"group___e_g_x_math-_angle_conversions-_radian.html#ga84fbb494a455cfeb30be62776f96c9a9":[1,0,0,9,15],
-"group___e_g_x_math-_angle_conversions-_radian.html#gac84796dfdeb56235e1e338522a5f9350":[1,0,0,9,13],
-"group___e_g_x_math-_angle_conversions-_radian.html#gadae98c255924fdc8b232b6539eae81a9":[1,0,0,9,7]
+"group___e_g_x_math-_angle_conversions-_radian.html#ga3c1607eae50cbf0186c42485bb3878d5":[1,0,0,9,10]
 };

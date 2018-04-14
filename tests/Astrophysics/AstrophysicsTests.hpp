@@ -11,3 +11,4 @@
 #include "PlanetCriteriaTests.hpp"
 #include "PlanetaryMassTests.hpp"
 #include "StellarMassTests.hpp"
+#include "B-VColorTests.hpp"

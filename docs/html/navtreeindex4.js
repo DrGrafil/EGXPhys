@@ -1,5 +1,14 @@
 var NAVTREEINDEX4 =
 {
+"_nuclear_separation_energy_8inl.html#gad7c1d4a32daa8aaa53c5fce37c421f82":[2,0,0,2,16,6],
+"_optics_8hpp.html":[2,0,0,6,0],
+"_optics_8hpp_source.html":[2,0,0,6,0],
+"_optics_constants_8hpp.html":[2,0,0,6,1],
+"_optics_constants_8hpp_source.html":[2,0,0,6,1],
+"_orbital_charecteristics_8hpp.html":[2,0,0,1,15],
+"_orbital_charecteristics_8hpp_source.html":[2,0,0,1,15],
+"_orbital_charecteristics_8inl.html":[2,0,0,1,16],
+"_parallax_8hpp.html":[2,0,0,1,17],
 "_parallax_8hpp_source.html":[2,0,0,1,17],
 "_parallax_8inl.html":[2,0,0,1,18],
 "_periapsis_8hpp.html":[2,0,0,1,19],
@@ -240,14 +249,5 @@ var NAVTREEINDEX4 =
 "_sign_functions_8inl.html":[2,0,0,3,1,10],
 "_sign_functions_8inl.html#ga54232a5bc24caf3833c30c15def764bf":[2,0,0,3,1,10,0],
 "_sphere1_8hpp_source.html":[2,0,0,3,2,1,15],
-"_sphere_8hpp_source.html":[2,0,0,3,2,1,14],
-"_square_8hpp_source.html":[2,0,0,3,2,0,4],
-"_stellar_mass_8hpp_source.html":[2,0,0,1,27],
-"_stellar_radius_8hpp.html":[2,0,0,1,28],
-"_stellar_radius_8hpp_source.html":[2,0,0,1,28],
-"_stellar_radius_8inl.html":[2,0,0,1,29],
-"_stellar_temperature_8hpp.html":[2,0,0,1,30],
-"_stellar_temperature_8hpp_source.html":[2,0,0,1,30],
-"_stellar_temperature_8inl.html":[2,0,0,1,31],
-"_thermodynamics_8hpp.html":[2,0,0,10,0]
+"_sphere_8hpp_source.html":[2,0,0,3,2,1,14]
 };

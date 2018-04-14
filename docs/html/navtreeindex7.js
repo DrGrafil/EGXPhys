@@ -1,5 +1,16 @@
 var NAVTREEINDEX7 =
 {
+"group___e_g_x_phys-_q_value.html#gab96ade2d74f5303e30a43ff97bd03841":[1,1,2,8,7],
+"group___e_g_x_phys-_quantum.html":[1,1,6],
+"group___e_g_x_phys-_radioactive_decay.html":[1,1,2,9],
+"group___e_g_x_phys-_redshift.html":[1,1,4,0],
+"group___e_g_x_phys-_relativity.html":[1,1,7],
+"group___e_g_x_phys-_semi_empirical_mass_formula.html":[1,1,2,10],
+"group___e_g_x_phys-_semi_empirical_mass_formula.html#ga99c5a87be2c76d3fa4852654c3fd59a9":[1,1,2,10,0],
+"group___e_g_x_phys-_stellar_mass.html":[1,1,1,13],
+"group___e_g_x_phys-_stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61":[1,1,1,13,1],
+"group___e_g_x_phys-_stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514":[1,1,1,13,0],
+"group___e_g_x_phys-_stellar_radius.html":[1,1,1,14],
 "group___e_g_x_phys-_stellar_temperature.html":[1,1,1,15],
 "group___e_g_x_phys-_thermodynamics.html":[1,1,8],
 "group___e_g_x_phys.html":[1,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX7 =
 "group___n_i_s_t_const-_magnetic_constant.html#ga511860d1f2830ae6a85e1b1df8522071":[1,2,0,2,0],
 "group___n_i_s_t_const-_magnetic_flux_quantum.html":[1,2,1,4],
 "group___n_i_s_t_const-_magnetic_flux_quantum.html#ga2ed9e5fb19a6f2cc0c25ad945ea6b562":[1,2,1,4,0],
-"group___n_i_s_t_const-_molar_gas_constant.html":[1,2,3,6],
-"group___n_i_s_t_const-_molar_gas_constant.html#ga923e5cda42e8fec4a70640b82051d309":[1,2,3,6,0],
-"group___n_i_s_t_const-_molar_mass_constant.html":[1,2,4,2],
-"group___n_i_s_t_const-_molar_mass_constant.html#ga83c1719df0cda1b4eae15de014b8f857":[1,2,4,2,0],
-"group___n_i_s_t_const-_molar_mass_constant.html#gab1aae3b38f21cb9a15fdc8209d3cf1f0":[1,2,4,2,1],
-"group___n_i_s_t_const-_molar_planck_constant.html":[1,2,3,7],
-"group___n_i_s_t_const-_molar_planck_constant.html#ga4ead25403deaa41d6f95b1252140b8b0":[1,2,3,7,1],
-"group___n_i_s_t_const-_molar_planck_constant.html#gaf75c23aa4c9305b0670bc8162fa25b66":[1,2,3,7,0],
-"group___n_i_s_t_const-_molar_volume.html":[1,2,3,8],
-"group___n_i_s_t_const-_molar_volume.html#ga005e08baa33a25a474bd2287281883c4":[1,2,3,8,1],
-"group___n_i_s_t_const-_molar_volume.html#ga666dc78c2b916ed12bcaf3ec15d7c4d3":[1,2,3,8,0],
-"group___n_i_s_t_const-_molybdenum.html":[1,2,7,2]
+"group___n_i_s_t_const-_molar_gas_constant.html":[1,2,3,6]
 };

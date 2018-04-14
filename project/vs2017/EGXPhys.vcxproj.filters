@@ -282,9 +282,6 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\AbsoluteMagnitude.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\Astrophysics\BVColor.hpp">
-      <Filter>EGXPhys\Astrophysics</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Parallax.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
@@ -393,6 +390,12 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\B-VColor.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Astrophysics\B-VColorTests.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -469,9 +472,6 @@
     <None Include="..\..\EGXPhys\Astrophysics\AbsoluteMagnitude.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
-    <None Include="..\..\EGXPhys\Astrophysics\BVColor.inl">
-      <Filter>EGXPhys\Astrophysics</Filter>
-    </None>
     <None Include="..\..\EGXPhys\Astrophysics\Parallax.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
@@ -543,6 +543,9 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\B-VColor.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -1,2 +1,40 @@
 \hypertarget{group___e_g_x_phys-_b_v_color}{}\section{B-\/V Color}
 \label{group___e_g_x_phys-_b_v_color}\index{B-\/\+V Color@{B-\/\+V Color}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_b_v_color_ga11cf848625fe052fe9250ce2aa22253b}{E\+G\+X\+Phys\+::\+B\+V\+To\+Tempreture}} (const T BV)
+\begin{DoxyCompactList}\small\item\em Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___e_g_x_phys-_b_v_color_gacefbc01847cd5fac2bbf132937392fd1}\label{group___e_g_x_phys-_b_v_color_gacefbc01847cd5fac2bbf132937392fd1}} 
+{\footnotesize template$<$typename T $>$ }\\T {\bfseries E\+G\+X\+Phys\+::\+B\+V\+To\+Tempreture\+Ballesteros} (const T BV)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_b_v_color_ga11cf848625fe052fe9250ce2aa22253b}\label{group___e_g_x_phys-_b_v_color_ga11cf848625fe052fe9250ce2aa22253b}} 
+\index{B-\/\+V Color@{B-\/\+V Color}!B\+V\+To\+Tempreture@{B\+V\+To\+Tempreture}}
+\index{B\+V\+To\+Tempreture@{B\+V\+To\+Tempreture}!B-\/\+V Color@{B-\/\+V Color}}
+\subsubsection{\texorpdfstring{B\+V\+To\+Tempreture()}{BVToTempreture()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+B\+V\+To\+Tempreture (\begin{DoxyParamCaption}\item[{const T}]{BV }\end{DoxyParamCaption})}
+
+
+
+Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. 
+
+See \href{https://arxiv.org/pdf/1201.1809.pdf}{\tt https\+://arxiv.\+org/pdf/1201.\+1809.\+pdf} for Ballesteros\textquotesingle{} paper. See \href{http://en.wikipedia.org/wiki/Color_index}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Color\+\_\+index}
+
+
+\begin{DoxyParams}{Parameters}
+{\em BV} & $B-V\ (dimensionless)$ is the B-\/V color index of the star. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$T$(K) Tempreture of the star in Kelvin. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_b_v_color_ga11cf848625fe052fe9250ce2aa22253b}{B\+V\+To\+Tempreture()}} for alias. 
+\end{DoxySeeAlso}

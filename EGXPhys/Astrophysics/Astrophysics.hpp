@@ -16,6 +16,7 @@
 #include "AstrophysicsConstants.hpp"
 
 #include "Apoapsis.hpp"
+#include "B-VColor.hpp"
 #include "CircumstellarHabitableZone.hpp"
 #include "Declination.hpp"
 #include "Luminosity.hpp"

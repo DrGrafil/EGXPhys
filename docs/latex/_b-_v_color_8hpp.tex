@@ -1,0 +1,28 @@
+\hypertarget{_b-_v_color_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+B-\/\+V\+Color.hpp File Reference}
+\label{_b-_v_color_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+B-\/\+V\+Color.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+B-\/\+V\+Color.\+hpp}}
+
+
+Calculates B-\/V Color of stars and related information derived from it.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Astrophysics\+Constants.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}B-\/\+V\+Color.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_b-_v_color_ga11cf848625fe052fe9250ce2aa22253b}{E\+G\+X\+Phys\+::\+B\+V\+To\+Tempreture}} (const T BV)
+\begin{DoxyCompactList}\small\item\em Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_b-_v_color_gacefbc01847cd5fac2bbf132937392fd1}{E\+G\+X\+Phys\+::\+B\+V\+To\+Tempreture\+Ballesteros}} (const T BV)
+\begin{DoxyCompactList}\small\item\em Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calculates B-\/V Color of stars and related information derived from it. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+3/19/18 
+\end{DoxyDate}

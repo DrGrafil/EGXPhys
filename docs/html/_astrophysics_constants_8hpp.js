@@ -17,6 +17,7 @@ var _astrophysics_constants_8hpp =
     [ "SiderealRotationPeriodOfEarth", "_astrophysics_constants_8hpp.html#a34a388ac3f9196bb3cdbdbee5ff3cdb7", null ],
     [ "SunAbsVMagnitude", "_astrophysics_constants_8hpp.html#a61266dc1aaacdd9a9bd0f2fa92aa21c9", null ],
     [ "SunAge", "_astrophysics_constants_8hpp.html#a173216c099d7915fb16e6416902fcbb8", null ],
+    [ "sunGravConstInAuCubedperSolarMassDay", "_astrophysics_constants_8hpp.html#ad6c3d6fda98ef1efd005dd096890e981", null ],
     [ "SunLuminocity", "_astrophysics_constants_8hpp.html#a3987543f6972eb72eb2c07d39520b43e", null ],
     [ "SunMass", "_astrophysics_constants_8hpp.html#a15b2187a46d73ac35fa7467b8fa6cb19", null ],
     [ "SunTempreture", "_astrophysics_constants_8hpp.html#a97be71e7f8ca4f7813362bc1dca66db5", null ],

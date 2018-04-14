@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_2dv_20color',['B-V Color',['../group___e_g_x_phys-_b_v_color.html',1,'']]],
+  ['b_2dv_20color',['B-V Color',['../group___e_g_x_phys-_b-_v_color.html',1,'']]],
   ['binding_20energy',['Binding Energy',['../group___e_g_x_phys-_nuclear_binding_energy.html',1,'']]],
   ['beta_20minus_20decay',['Beta Minus Decay',['../group___e_g_x_phys-_q_value-_beta_minus.html',1,'']]],
   ['beta_20plus_20decay',['Beta Plus Decay',['../group___e_g_x_phys-_q_value-_beta_plus.html',1,'']]],

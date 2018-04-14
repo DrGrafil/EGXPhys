@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EGXPhys: D:/GitHub/EGXPhys/EGXPhys/Astrophysics/AbsoluteMagnitude.hpp File Reference</title>
+<title>EGXPhys: D:/GitHub/EGXPhys/EGXPhys/Astrophysics/B-VColor.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('_absolute_magnitude_8hpp.html','');});
+$(document).ready(function(){initNavTree('_b-_v_color_8hpp.html','');});
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,28 +91,48 @@ $(document).ready(function(){initNavTree('_absolute_magnitude_8hpp.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">AbsoluteMagnitude.hpp File Reference</div>  </div>
+<div class="title">B-VColor.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Calculates the absolute magnitude of a star.  
+<p>Calculates B-V Color of stars and related information derived from it.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;math.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="_astrophysics_constants_8hpp_source.html">AstrophysicsConstants.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_absolute_magnitude_8inl.html">AbsoluteMagnitude.inl</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_b-_v_color_8inl.html">B-VColor.inl</a>&quot;</code><br />
 </div>
-<p><a href="_absolute_magnitude_8hpp_source.html">Go to the source code of this file.</a></p>
+<p><a href="_b-_v_color_8hpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga11cf848625fe052fe9250ce2aa22253b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga11cf848625fe052fe9250ce2aa22253b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_b-_v_color.html#ga11cf848625fe052fe9250ce2aa22253b">EGXPhys::BVToTempreture</a> (const T BV)</td></tr>
+<tr class="memdesc:ga11cf848625fe052fe9250ce2aa22253b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the tempreture, \(T_{star}\), of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies. </p><p class="formulaDsp">
+\[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]
+</p>
+<p>.  <a href="group___e_g_x_phys-_b-_v_color.html#ga11cf848625fe052fe9250ce2aa22253b">More...</a><br /></td></tr>
+<tr class="separator:ga11cf848625fe052fe9250ce2aa22253b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacefbc01847cd5fac2bbf132937392fd1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gacefbc01847cd5fac2bbf132937392fd1"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_b-_v_color.html#gacefbc01847cd5fac2bbf132937392fd1">EGXPhys::BVToTempretureBallesteros</a> (const T BV)</td></tr>
+<tr class="memdesc:gacefbc01847cd5fac2bbf132937392fd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the tempreture, \(T_{star}\), of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies. </p><p class="formulaDsp">
+\[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]
+</p>
+<p>.  <a href="group___e_g_x_phys-_b-_v_color.html#gacefbc01847cd5fac2bbf132937392fd1">More...</a><br /></td></tr>
+<tr class="separator:gacefbc01847cd5fac2bbf132937392fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Calculates the absolute magnitude of a star. </p>
+<div class="textblock"><p>Calculates B-V Color of stars and related information derived from it. </p>
 <dl class="section author"><dt>Author</dt><dd>Elliot Grafil (Metex) </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>4/14/18 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>3/19/18 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_ce4ef40a56af8221486bcd78e6a47b62.html">EGXPhys</a></li><li class="navelem"><a class="el" href="dir_7ac1fe1f7e154c60bf4adac7dda4de70.html">Astrophysics</a></li><li class="navelem"><a class="el" href="_absolute_magnitude_8hpp.html">AbsoluteMagnitude.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_ce4ef40a56af8221486bcd78e6a47b62.html">EGXPhys</a></li><li class="navelem"><a class="el" href="dir_7ac1fe1f7e154c60bf4adac7dda4de70.html">Astrophysics</a></li><li class="navelem"><a class="el" href="_b-_v_color_8hpp.html">B-VColor.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
