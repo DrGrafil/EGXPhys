@@ -21,7 +21,9 @@
 
 namespace EGXPhys
 {
-   	 
+	
+
+	
 	//Stellar Constants
 		//Sun
 	const double MassOfSun = 1.9891e30;										/**< \f$m_\odot\f$ (kg) Mass of Sun. */
@@ -44,8 +46,8 @@ namespace EGXPhys
 								// m
 	const double VolumeOfEarth = 4.0/3.0 * 3.14 * pow(RadiusOfEarth, 3);	/**< \f$V_\oplus\ (m^3)\f$ Volume of Earth. */
 	const double DensityOfEarth =  MassOfEarth/VolumeOfEarth;				/**< \f$\rho_\oplus\ (\frac{kg}{m^3})\f$ Density of Earth. */
-	const double EscapeVelocityOfEarth = 11186; 							/**< \f$v_e\ (\frac{m}{s})\f$ Escape velocity of Earth. */
-	const double SurfaceTempretureOfEarth = 287;							/**< \f$T_{\oplus,Surface}\ (K)\f$ Surface tempreture of Earth. */
+	const double EscapeVelocityOfEarth = 11186.0; 							/**< \f$v_e\ (\frac{m}{s})\f$ Escape velocity of Earth. */
+	const double SurfaceTempretureOfEarth = 287.0;							/**< \f$T_{\oplus,Surface}\ (K)\f$ Surface tempreture of Earth. */
 	 
 	 
 	const double RadiusOfSun =  6.955e8;									/**< \f$R_\odot\ (m)\f$ Radius of Sun. */
@@ -57,6 +59,10 @@ namespace EGXPhys
 	const double EarthMass = 5.97219e24;									/**< Mass(kg) Of Earth. \f$M_\oplus\f$ */
 	const double JupiterMass = 1.89813e27;									/**< Mass(kg) Of Jupiter. \f$M_J\f$ */
 	const double LunarMass = 7.342e22;										/**< Mass(kg) Of Moon. \f$M_L\f$ */ //Is this right for symbol?
+
+
+	const double sunGravConstInAuCubedperSolarMassDay = NISTConst::gravitationalConstant * MassOfSun * secondsInDay * secondsInDay / (AU*AU*AU); /**< \f$G_{Sun}\f$ (\frac{AU^3}{SolarMass day) Gravitational constant around sun per day. */
+
 	/*
 	const double SemimajorAxisOf =;
 	const double EccentricityOf =;
@@ -64,7 +70,7 @@ namespace EGXPhys
 	const double MassOf =;
 	const double RadiusOf=;
 
-	const double gravConstAuDay = gravConst*SolarMass*day*day/(AU*AU*AU); 		// AU^3 /(SolarMass day^2)
+	
 	*/
 } //namespace EGXPhys
 
