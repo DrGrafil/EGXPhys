@@ -41,7 +41,7 @@ namespace EGXPhys
 	*	@see BVToTempretureBallesteros() for alias.
 	*/
 	template<typename T>
-	T BVToTempreture(const T BV);
+	T BVColorToTempreture(const T BV);
 
 	/**
 	*   @brief Calculates the tempreture, \f$T_{star}\f$, of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies.
@@ -55,7 +55,7 @@ namespace EGXPhys
 	*	@see BVToTempreture() for alias.
 	*/
 	template<typename T>
-	T BVToTempretureBallesteros(const T BV);
+	T BVColorToTempretureBallesteros(const T BV);
 
     /// @}
 } //namespace EGXPhys

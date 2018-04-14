@@ -4,6 +4,7 @@ var group___e_g_x_phys__astrophysics =
     [ "Apoapsis", "group___e_g_x_phys-_apoapsis.html", "group___e_g_x_phys-_apoapsis" ],
     [ "B-V Color", "group___e_g_x_phys-_b-_v_color.html", "group___e_g_x_phys-_b-_v_color" ],
     [ "Circumstellar Habitable Zone Limit", "group___e_g_x_phys-_circumstellar_habitable_zone_limit.html", "group___e_g_x_phys-_circumstellar_habitable_zone_limit" ],
+    [ "Color Temperature", "group___e_g_x_phys-_astrophysics-_color_temperature.html", "group___e_g_x_phys-_astrophysics-_color_temperature" ],
     [ "Declination", "group___e_g_x_phys-_astrophysics-_declination.html", "group___e_g_x_phys-_astrophysics-_declination" ],
     [ "Eccentricity", "group___e_g_x_phys-_eccentricity.html", null ],
     [ "Luminosity", "group___e_g_x_phys-_luminosity.html", "group___e_g_x_phys-_luminosity" ],

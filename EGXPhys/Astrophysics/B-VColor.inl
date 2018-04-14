@@ -9,7 +9,7 @@ namespace EGXPhys{
 	//add ramirez
 	//https://www.hs.uni-hamburg.de/DE/Ins/Per/Czesla/PyA/PyA/pyaslDoc/aslDoc/aslExt_1Doc/ramirez2005.html
 	template<typename T>
-	T BVToTempreture(const T BV)
+	T BVColorToTempreture(const T BV)
 	{
 		return (T)(4600.0* (
 			(1.0 / (0.92*(BV)+1.70)) +
@@ -19,7 +19,7 @@ namespace EGXPhys{
 	}
 
 	template<typename T>
-	T BVToTempretureBallesteros(const T BV)
+	T BVColorToTempretureBallesteros(const T BV)
 	{
 		return (T)(4600.0* (
 			(1.0 / (0.92*(BV)+1.70)) +

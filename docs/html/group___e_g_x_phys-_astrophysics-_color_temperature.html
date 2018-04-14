@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EGXPhys: D:/GitHub/EGXPhys/EGXPhys/Astrophysics/B-VColor.hpp File Reference</title>
+<title>EGXPhys: Color Temperature</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('_b-_v_color_8hpp.html','');});
+$(document).ready(function(){initNavTree('group___e_g_x_phys-_astrophysics-_color_temperature.html','');});
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -94,45 +94,78 @@ $(document).ready(function(){initNavTree('_b-_v_color_8hpp.html','');});
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">B-VColor.hpp File Reference</div>  </div>
+<div class="title">Color Temperature<div class="ingroups"><a class="el" href="group___e_g_x_phys.html">EGXPhys Library</a> &raquo; <a class="el" href="group___e_g_x_phys-_astrophysics.html">Astrophysics</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Calculates B-V Color of stars and related information derived from it.  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;math.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="_astrophysics_constants_8hpp_source.html">AstrophysicsConstants.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_b-_v_color_8inl.html">B-VColor.inl</a>&quot;</code><br />
-</div>
-<p><a href="_b-_v_color_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gad251a8c25285f5817e307c35c3ec971a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gad251a8c25285f5817e307c35c3ec971a"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_b-_v_color.html#gad251a8c25285f5817e307c35c3ec971a">EGXPhys::BVColorToTempreture</a> (const T BV)</td></tr>
-<tr class="memdesc:gad251a8c25285f5817e307c35c3ec971a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the tempreture, \(T_{star}\), of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies. </p><p class="formulaDsp">
-\[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]
-</p>
-<p>.  <a href="group___e_g_x_phys-_b-_v_color.html#gad251a8c25285f5817e307c35c3ec971a">More...</a><br /></td></tr>
-<tr class="separator:gad251a8c25285f5817e307c35c3ec971a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0e553143a3bb121c3ae50ca96c502140"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga0e553143a3bb121c3ae50ca96c502140"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_b-_v_color.html#ga0e553143a3bb121c3ae50ca96c502140">EGXPhys::BVColorToTempretureBallesteros</a> (const T BV)</td></tr>
-<tr class="memdesc:ga0e553143a3bb121c3ae50ca96c502140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the tempreture, \(T_{star}\), of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies. </p><p class="formulaDsp">
-\[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]
-</p>
-<p>.  <a href="group___e_g_x_phys-_b-_v_color.html#ga0e553143a3bb121c3ae50ca96c502140">More...</a><br /></td></tr>
-<tr class="separator:ga0e553143a3bb121c3ae50ca96c502140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81db6b5b397c9f788001be73adae032d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga81db6b5b397c9f788001be73adae032d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_color_temperature.html#ga81db6b5b397c9f788001be73adae032d">EGXPhys::ColorTemperatureToRGB</a> (const T temperatureInK, T &amp;R, T &amp;G, T &amp;B)</td></tr>
+<tr class="memdesc:ga81db6b5b397c9f788001be73adae032d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the color RGB values from the color tempreture, \(T_{black}\), assuming the color was emitted via black body radiation.  <a href="group___e_g_x_phys-_astrophysics-_color_temperature.html#ga81db6b5b397c9f788001be73adae032d">More...</a><br /></td></tr>
+<tr class="separator:ga81db6b5b397c9f788001be73adae032d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Calculates B-V Color of stars and related information derived from it. </p>
-<dl class="section author"><dt>Author</dt><dd>Elliot Grafil (Metex) </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>3/19/18 </dd></dl>
-</div></div><!-- contents -->
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga81db6b5b397c9f788001be73adae032d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81db6b5b397c9f788001be73adae032d">&#9670;&nbsp;</a></span>ColorTemperatureToRGB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::ColorTemperatureToRGB </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>temperatureInK</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>R</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the color RGB values from the color tempreture, \(T_{black}\), assuming the color was emitted via black body radiation. </p>
+<p>See <a href="http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/">http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/</a> for equation used</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">temperatureInK</td><td>\(T_{black}\ (K)\) is the tempreture of the black body emittor. </td></tr>
+    <tr><td class="paramname">R</td><td>\(R\ (dimensionless)\) the red color in an RGB color. Values varies from 0-1. </td></tr>
+    <tr><td class="paramname">G</td><td>\(G\ (dimensionless)\) the green color in an RGB color. Values varies from 0-1. </td></tr>
+    <tr><td class="paramname">B</td><td>\(B\ (dimensionless)\) the blue color in an RGB color. Values varies from 0-1. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_ce4ef40a56af8221486bcd78e6a47b62.html">EGXPhys</a></li><li class="navelem"><a class="el" href="dir_7ac1fe1f7e154c60bf4adac7dda4de70.html">Astrophysics</a></li><li class="navelem"><a class="el" href="_b-_v_color_8hpp.html">B-VColor.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>

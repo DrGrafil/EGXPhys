@@ -396,6 +396,9 @@
     <ClInclude Include="..\..\tests\Astrophysics\B-VColorTests.hpp">
       <Filter>Tests\Astrophysics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\ColorTemperature.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -545,6 +548,9 @@
       <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
     </None>
     <None Include="..\..\EGXPhys\Astrophysics\B-VColor.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\ColorTemperature.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>

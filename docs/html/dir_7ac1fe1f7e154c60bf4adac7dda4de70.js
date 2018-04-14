@@ -10,6 +10,8 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "B-VColor.inl", "_b-_v_color_8inl.html", "_b-_v_color_8inl" ],
     [ "CircumstellarHabitableZone.hpp", "_circumstellar_habitable_zone_8hpp.html", "_circumstellar_habitable_zone_8hpp" ],
     [ "CircumstellarHabitableZone.inl", "_circumstellar_habitable_zone_8inl.html", "_circumstellar_habitable_zone_8inl" ],
+    [ "ColorTemperature.hpp", "_color_temperature_8hpp.html", "_color_temperature_8hpp" ],
+    [ "ColorTemperature.inl", "_color_temperature_8inl.html", "_color_temperature_8inl" ],
     [ "Declination.hpp", "_declination_8hpp.html", "_declination_8hpp" ],
     [ "Declination.inl", "_declination_8inl.html", "_declination_8inl" ],
     [ "Eccentricity.hpp", "_eccentricity_8hpp.html", null ],
