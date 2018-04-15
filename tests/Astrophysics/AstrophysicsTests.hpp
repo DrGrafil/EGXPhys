@@ -6,9 +6,10 @@
 #pragma once
 
 #include "ApoapsisTests.hpp"
+#include "B-VColorTests.hpp"
+#include "EscapeVelocityTests.hpp"
 #include "LuminosityTests.hpp"
 #include "PeriapsisTests.hpp"
 #include "PlanetCriteriaTests.hpp"
 #include "PlanetaryMassTests.hpp"
 #include "StellarMassTests.hpp"
-#include "B-VColorTests.hpp"

@@ -402,6 +402,9 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\EscapeVelocity.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\tests\Astrophysics\EscapeVelocityTests.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">

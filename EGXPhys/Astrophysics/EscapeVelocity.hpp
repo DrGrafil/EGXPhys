@@ -31,7 +31,7 @@ namespace EGXPhys
 	
 	/**
 	*   @brief Calculates the escape velocity, \f$v_{e}\f$, the minimum speed needed for an object to escape from the gravitational influence of a massive body.
-	*   		\f[v_{e}=\sqrt{2 G M}{r}\f]
+	*   		\f[v_{e}=\sqrt{\frac{2 G M}{r}}\f]
 	*
 	*   See https://en.wikipedia.org/wiki/Escape_velocity
 	*
