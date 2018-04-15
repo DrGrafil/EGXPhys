@@ -35,14 +35,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_absolute_magnitude_8hpp.html",
-"_degree_conversion_8inl.html#ga25bb5506b3f66fff7a1b85bf7bd795b3",
-"_hoop_8hpp_source.html",
-"_n_i_s_t_const_8hpp.html#ga570caff89957976a8486d25e5288df51",
-"_nuclear_separation_energy_8hpp.html#ga66133edb5809c81dd9fd60e09ebbef79",
-"_semi_empirical_mass_formula_8hpp_source.html",
-"group___e_g_x_math-_angle_conversions-_integer_degree.html#gadc43f22e832cd8fcf16b7bd2269ae348",
-"group___e_g_x_phys-_q_value-_electron_capture.html",
-"group___n_i_s_t_const-_kelvin.html#gaf5fcf341c9c92f8ede2f402989ae8de1"
+"_degree_conversion_8inl.html#ga0bb223ca6e77b00439a6d910ab32d82e",
+"_hoop_8hpp.html#ga810ed1548ab8825b8830b97cfcbcfe11",
+"_n_i_s_t_const_8hpp.html#ga55b22fa50aa069b98aa1bcb050206a8e",
+"_nuclear_separation_energy_8hpp.html#ga293ac9428420a0adf4235048dbe529b4",
+"_semi_empirical_mass_formula_8hpp.html#ga99c5a87be2c76d3fa4852654c3fd59a9",
+"group___e_g_x_math-_angle_conversions-_integer_degree.html#gaaac96728b305fd8ed024843f4e92fd08",
+"group___e_g_x_phys-_q_value-_beta_plus.html#ga3c4f7ec8e7c44d01d3aee6447a5ab443",
+"group___n_i_s_t_const-_kelvin.html#gae61d97fa154d94e710c951a26bd47896"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

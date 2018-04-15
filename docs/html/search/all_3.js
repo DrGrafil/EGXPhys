@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['absolutemagnitude',['AbsoluteMagnitude',['../group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga2ddb255fa28972334d82f377ce182048',1,'EGXPhys']]],
   ['absolutemagnitude_2ehpp',['AbsoluteMagnitude.hpp',['../_absolute_magnitude_8hpp.html',1,'']]],
   ['absolutemagnitude_2einl',['AbsoluteMagnitude.inl',['../_absolute_magnitude_8inl.html',1,'']]],
   ['acoustics_2ehpp',['Acoustics.hpp',['../_acoustics_8hpp.html',1,'']]],
@@ -78,10 +79,10 @@ var searchData=
   ['au',['AU',['../_e_g_x_phys_constants_8hpp.html#a999332303a2214425184fbe23dbae0c5',1,'EGXPhys']]],
   ['avogadroconstant',['AvogadroConstant',['../group___n_i_s_t_const-_avogadro_constant.html#gad82b2a4777628c4e67a87b8f5b99174e',1,'NISTConst']]],
   ['angle_20conversions',['Angle Conversions',['../group___e_g_x_math-_angle_conversions.html',1,'']]],
-  ['absolute_20magnitude',['Absolute Magnitude',['../group___e_g_x_phys-_absolute_magnitude.html',1,'']]],
   ['acoustics',['Acoustics',['../group___e_g_x_phys-_acoustics.html',1,'']]],
   ['apoapsis',['Apoapsis',['../group___e_g_x_phys-_apoapsis.html',1,'']]],
   ['astrophysics',['Astrophysics',['../group___e_g_x_phys-_astrophysics.html',1,'']]],
+  ['absolute_20magnitude',['Absolute Magnitude',['../group___e_g_x_phys-_astrophysics-_absolute_magnitude.html',1,'']]],
   ['atomic',['Atomic',['../group___e_g_x_phys-_atomic.html',1,'']]],
   ['alpha_20decay',['Alpha Decay',['../group___e_g_x_phys-_q_value-_alpha.html',1,'']]],
   ['adopted',['Adopted',['../group___n_i_s_t_const-_adopted.html',1,'']]],

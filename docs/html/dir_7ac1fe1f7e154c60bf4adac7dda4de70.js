@@ -1,7 +1,7 @@
 var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
 [
-    [ "AbsoluteMagnitude.hpp", "_absolute_magnitude_8hpp.html", null ],
-    [ "AbsoluteMagnitude.inl", "_absolute_magnitude_8inl.html", null ],
+    [ "AbsoluteMagnitude.hpp", "_absolute_magnitude_8hpp.html", "_absolute_magnitude_8hpp" ],
+    [ "AbsoluteMagnitude.inl", "_absolute_magnitude_8inl.html", "_absolute_magnitude_8inl" ],
     [ "Apoapsis.hpp", "_apoapsis_8hpp.html", "_apoapsis_8hpp" ],
     [ "Apoapsis.inl", "_apoapsis_8inl.html", "_apoapsis_8inl" ],
     [ "Astrophysics.hpp", "_astrophysics_8hpp.html", null ],

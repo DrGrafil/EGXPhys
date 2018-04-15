@@ -1,5 +1,8 @@
 var NAVTREEINDEX7 =
 {
+"group___e_g_x_phys-_q_value-_beta_plus.html#ga3c4f7ec8e7c44d01d3aee6447a5ab443":[1,1,2,8,2,1],
+"group___e_g_x_phys-_q_value-_beta_plus.html#gaaee51753f077c9fe05188aa5b24f642e":[1,1,2,8,2,0],
+"group___e_g_x_phys-_q_value-_beta_plus.html#gab78be314eac63ddbce441b4c8b22b47d":[1,1,2,8,2,3],
 "group___e_g_x_phys-_q_value-_electron_capture.html":[1,1,2,8,3],
 "group___e_g_x_phys-_q_value-_electron_capture.html#ga9cd8502b6101614c17114e9710cdcf6c":[1,1,2,8,3,3],
 "group___e_g_x_phys-_q_value-_electron_capture.html#gab16ac92ae27b2c0c96c7abc35f949cb8":[1,1,2,8,3,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX7 =
 "group___n_i_s_t_const-_kelvin.html":[1,2,6,6],
 "group___n_i_s_t_const-_kelvin.html#ga361938b994609879a0377a94e49dacf2":[1,2,6,6,4],
 "group___n_i_s_t_const-_kelvin.html#gaa426666c20c9b04efcdcfd05f5a90cd9":[1,2,6,6,3],
-"group___n_i_s_t_const-_kelvin.html#gadad57a8f65f4d323846c97fbe0c485b1":[1,2,6,6,0],
-"group___n_i_s_t_const-_kelvin.html#gae61d97fa154d94e710c951a26bd47896":[1,2,6,6,1],
-"group___n_i_s_t_const-_kelvin.html#gae77577280e3dd4a78d41af37076c8f8d":[1,2,6,6,5],
-"group___n_i_s_t_const-_kelvin.html#gaece5622592a7f817204ca28c6d00d570":[1,2,6,6,2]
+"group___n_i_s_t_const-_kelvin.html#gadad57a8f65f4d323846c97fbe0c485b1":[1,2,6,6,0]
 };

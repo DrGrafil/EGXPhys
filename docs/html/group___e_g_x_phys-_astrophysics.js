@@ -1,6 +1,6 @@
 var group___e_g_x_phys__astrophysics =
 [
-    [ "Absolute Magnitude", "group___e_g_x_phys-_absolute_magnitude.html", null ],
+    [ "Absolute Magnitude", "group___e_g_x_phys-_astrophysics-_absolute_magnitude.html", "group___e_g_x_phys-_astrophysics-_absolute_magnitude" ],
     [ "Apoapsis", "group___e_g_x_phys-_apoapsis.html", "group___e_g_x_phys-_apoapsis" ],
     [ "B-V Color", "group___e_g_x_phys-_b-_v_color.html", "group___e_g_x_phys-_b-_v_color" ],
     [ "Circumstellar Habitable Zone Limit", "group___e_g_x_phys-_circumstellar_habitable_zone_limit.html", "group___e_g_x_phys-_circumstellar_habitable_zone_limit" ],

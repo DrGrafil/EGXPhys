@@ -1,9 +1,9 @@
 var _circumstellar_habitable_zone_8inl =
 [
-    [ "CircumstellarHabitableZoneDistance", "_circumstellar_habitable_zone_8inl.html#gacf3a720793cdb27f6d93b170b44e81be", null ],
-    [ "CircumstellarHabitableZoneInnerRadius", "_circumstellar_habitable_zone_8inl.html#abcc7fdd3086efb4c0b786960a45c02e2", null ],
-    [ "CircumstellarHabitableZoneLimit", "_circumstellar_habitable_zone_8inl.html#ga23a8f602461ea3257e8767b1d455c383", null ],
-    [ "CircumstellarHabitableZoneZoneOuterRadius", "_circumstellar_habitable_zone_8inl.html#ac6f89712c52ce26e1e2085fd85a914ea", null ],
-    [ "StellarFluxEffectiveSelsis", "_circumstellar_habitable_zone_8inl.html#ga3ce3a04fec7b1c8fb66ac54270ce3902", null ],
-    [ "StellarFluxEffectiveUnderwood", "_circumstellar_habitable_zone_8inl.html#ga34d1e39bce17904bc6d383f1935c79d6", null ]
+    [ "CircumstellarHabitableZoneDistance", "_circumstellar_habitable_zone_8inl.html#ga3247e5fe14db39121ce622207af172fd", null ],
+    [ "CircumstellarHabitableZoneInnerBoundary", "_circumstellar_habitable_zone_8inl.html#gab31a33d0dbd3ecd00537832b5b836d73", null ],
+    [ "CircumstellarHabitableZoneLimit", "_circumstellar_habitable_zone_8inl.html#ga809f4c557ce6d2fe566a69c2a8a5d41b", null ],
+    [ "CircumstellarHabitableZoneOuterBoundary", "_circumstellar_habitable_zone_8inl.html#ga3a6dbbdaddddd071cb1f0a20e40d83bd", null ],
+    [ "StellarFluxEffectiveSelsis", "_circumstellar_habitable_zone_8inl.html#ga0eb1003b4cfcbcafde635cefca5ae5c2", null ],
+    [ "StellarFluxEffectiveUnderwood", "_circumstellar_habitable_zone_8inl.html#gafe02cffcc63c39794feb6f1de5e7a9bb", null ]
 ];

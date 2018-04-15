@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"_nuclear_separation_energy_8hpp.html#ga293ac9428420a0adf4235048dbe529b4":[2,0,0,2,15,2],
+"_nuclear_separation_energy_8hpp.html#ga4274d8f5a3860169fd81970707eb582a":[2,0,0,2,15,4],
 "_nuclear_separation_energy_8hpp.html#ga66133edb5809c81dd9fd60e09ebbef79":[2,0,0,2,15,1],
 "_nuclear_separation_energy_8hpp.html#ga6a619ded55c47ed22ea2d8a85202ebeb":[2,0,0,2,15,5],
 "_nuclear_separation_energy_8hpp.html#gad7c1d4a32daa8aaa53c5fce37c421f82":[2,0,0,2,15,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "_right_ascension_8inl.html#ga624dd87144a17d19d0100500c34da978":[2,0,0,1,30,1],
 "_right_ascension_8inl.html#ga63a3103990c95078443e39a5b487ab0d":[2,0,0,1,30,3],
 "_right_ascension_8inl.html#ga6fdbd35a030d278f396496899a1c236f":[2,0,0,1,30,0],
-"_semi_empirical_mass_formula_8hpp.html":[2,0,0,2,21],
-"_semi_empirical_mass_formula_8hpp.html#ga99c5a87be2c76d3fa4852654c3fd59a9":[2,0,0,2,21,0],
-"_semi_empirical_mass_formula_8hpp.html#gac3fa98a788acc96ef1391c20824c27d5":[2,0,0,2,21,1]
+"_semi_empirical_mass_formula_8hpp.html":[2,0,0,2,21]
 };

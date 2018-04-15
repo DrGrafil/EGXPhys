@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"_semi_empirical_mass_formula_8hpp.html#ga99c5a87be2c76d3fa4852654c3fd59a9":[2,0,0,2,21,0],
+"_semi_empirical_mass_formula_8hpp.html#gac3fa98a788acc96ef1391c20824c27d5":[2,0,0,2,21,1],
 "_semi_empirical_mass_formula_8hpp_source.html":[2,0,0,2,21],
 "_semi_empirical_mass_formula_8inl.html":[2,0,0,2,22],
 "_semi_empirical_mass_formula_8inl.html#ga99c5a87be2c76d3fa4852654c3fd59a9":[2,0,0,2,22,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "group___e_g_x_math-_angle_conversions-_integer_degree.html#ga6e5be425c37ad27319f09329156c64bb":[1,0,0,8,9],
 "group___e_g_x_math-_angle_conversions-_integer_degree.html#ga78b014e7649d666a3647c467e64e4fe8":[1,0,0,8,1],
 "group___e_g_x_math-_angle_conversions-_integer_degree.html#gaa04058a2fea3dc3678264a05fac6e1ae":[1,0,0,8,2],
-"group___e_g_x_math-_angle_conversions-_integer_degree.html#gaa9b63c6095fd7f8809fcfa2ba1e62235":[1,0,0,8,6],
-"group___e_g_x_math-_angle_conversions-_integer_degree.html#gaaac96728b305fd8ed024843f4e92fd08":[1,0,0,8,12],
-"group___e_g_x_math-_angle_conversions-_integer_degree.html#gac219c3198508ba984d8d81d22831b27d":[1,0,0,8,5]
+"group___e_g_x_math-_angle_conversions-_integer_degree.html#gaa9b63c6095fd7f8809fcfa2ba1e62235":[1,0,0,8,6]
 };

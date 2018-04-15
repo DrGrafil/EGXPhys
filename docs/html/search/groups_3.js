@@ -1,10 +1,10 @@
 var searchData=
 [
   ['angle_20conversions',['Angle Conversions',['../group___e_g_x_math-_angle_conversions.html',1,'']]],
-  ['absolute_20magnitude',['Absolute Magnitude',['../group___e_g_x_phys-_absolute_magnitude.html',1,'']]],
   ['acoustics',['Acoustics',['../group___e_g_x_phys-_acoustics.html',1,'']]],
   ['apoapsis',['Apoapsis',['../group___e_g_x_phys-_apoapsis.html',1,'']]],
   ['astrophysics',['Astrophysics',['../group___e_g_x_phys-_astrophysics.html',1,'']]],
+  ['absolute_20magnitude',['Absolute Magnitude',['../group___e_g_x_phys-_astrophysics-_absolute_magnitude.html',1,'']]],
   ['atomic',['Atomic',['../group___e_g_x_phys-_atomic.html',1,'']]],
   ['alpha_20decay',['Alpha Decay',['../group___e_g_x_phys-_q_value-_alpha.html',1,'']]],
   ['adopted',['Adopted',['../group___n_i_s_t_const-_adopted.html',1,'']]],

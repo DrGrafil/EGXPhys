@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"group___e_g_x_math-_angle_conversions-_integer_degree.html#gaaac96728b305fd8ed024843f4e92fd08":[1,0,0,8,12],
+"group___e_g_x_math-_angle_conversions-_integer_degree.html#gac219c3198508ba984d8d81d22831b27d":[1,0,0,8,5],
 "group___e_g_x_math-_angle_conversions-_integer_degree.html#gadc43f22e832cd8fcf16b7bd2269ae348":[1,0,0,8,14],
 "group___e_g_x_math-_angle_conversions-_integer_degree.html#gae6b79bd5a92f8c6942b9fc2c50695e6a":[1,0,0,8,11],
 "group___e_g_x_math-_angle_conversions-_integer_degree.html#gaf633d0b82bfb7586ce86ffbcf78d8f7a":[1,0,0,8,0],
@@ -86,7 +88,6 @@ var NAVTREEINDEX6 =
 "group___e_g_x_math-_geometry.html":[1,0,3],
 "group___e_g_x_math-_random.html":[1,0,4],
 "group___e_g_x_math.html":[1,0],
-"group___e_g_x_phys-_absolute_magnitude.html":[1,1,1,0],
 "group___e_g_x_phys-_acoustics.html":[1,1,0],
 "group___e_g_x_phys-_apoapsis.html":[1,1,1,1],
 "group___e_g_x_phys-_apoapsis.html#ga09b4c7d5e971dc28e1ba37f479958c27":[1,1,1,1,10],
@@ -112,6 +113,8 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_apoapsis.html#gacc68b49812c38394611e1ef3a8bf0e3e":[1,1,1,1,16],
 "group___e_g_x_phys-_apoapsis.html#gae4ea146039e6f32022321f0998e715e8":[1,1,1,1,6],
 "group___e_g_x_phys-_apoapsis.html#gaf962e650bf84a568458e8eb39b1c61ba":[1,1,1,1,2],
+"group___e_g_x_phys-_astrophysics-_absolute_magnitude.html":[1,1,1,0],
+"group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga2ddb255fa28972334d82f377ce182048":[1,1,1,0,0],
 "group___e_g_x_phys-_astrophysics-_color_temperature.html":[1,1,1,4],
 "group___e_g_x_phys-_astrophysics-_color_temperature.html#ga81db6b5b397c9f788001be73adae032d":[1,1,1,4,0],
 "group___e_g_x_phys-_astrophysics-_color_temperature.html#gaad787485a232976da96c2c785ce21dad":[1,1,1,4,1],
@@ -133,12 +136,12 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_b-_v_color.html#ga0e553143a3bb121c3ae50ca96c502140":[1,1,1,2,1],
 "group___e_g_x_phys-_b-_v_color.html#gad251a8c25285f5817e307c35c3ec971a":[1,1,1,2,0],
 "group___e_g_x_phys-_circumstellar_habitable_zone_limit.html":[1,1,1,3],
-"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga23a8f602461ea3257e8767b1d455c383":[1,1,1,3,2],
-"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga34d1e39bce17904bc6d383f1935c79d6":[1,1,1,3,5],
-"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3ce3a04fec7b1c8fb66ac54270ce3902":[1,1,1,3,4],
-"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga9ee2e8023cb444aa4638c962788b5853":[1,1,1,3,1],
-"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gaa47fcde814ba8007de800e930fc0a08d":[1,1,1,3,3],
-"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gacf3a720793cdb27f6d93b170b44e81be":[1,1,1,3,0],
+"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga0eb1003b4cfcbcafde635cefca5ae5c2":[1,1,1,3,4],
+"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3247e5fe14db39121ce622207af172fd":[1,1,1,3,0],
+"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3a6dbbdaddddd071cb1f0a20e40d83bd":[1,1,1,3,3],
+"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga809f4c557ce6d2fe566a69c2a8a5d41b":[1,1,1,3,2],
+"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gab31a33d0dbd3ecd00537832b5b836d73":[1,1,1,3,1],
+"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gafe02cffcc63c39794feb6f1de5e7a9bb":[1,1,1,3,5],
 "group___e_g_x_phys-_decay_constant.html":[1,1,2,0],
 "group___e_g_x_phys-_decay_constant.html#ga260cf6dc4f926269ea8966c19dfd269f":[1,1,2,0,3],
 "group___e_g_x_phys-_decay_constant.html#ga89c04a655d9e24f976399cc8f173b7aa":[1,1,2,0,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_q_value-_beta_minus.html#gaac1374ce9ba39bef416f34298708bda9":[1,1,2,8,1,1],
 "group___e_g_x_phys-_q_value-_beta_minus.html#gae9a4a9f4c6e0f555e20c3144dd7329fc":[1,1,2,8,1,0],
 "group___e_g_x_phys-_q_value-_beta_plus.html":[1,1,2,8,2],
-"group___e_g_x_phys-_q_value-_beta_plus.html#ga3531ffda0c561a601a61f54f5c7780df":[1,1,2,8,2,2],
-"group___e_g_x_phys-_q_value-_beta_plus.html#ga3c4f7ec8e7c44d01d3aee6447a5ab443":[1,1,2,8,2,1],
-"group___e_g_x_phys-_q_value-_beta_plus.html#gaaee51753f077c9fe05188aa5b24f642e":[1,1,2,8,2,0],
-"group___e_g_x_phys-_q_value-_beta_plus.html#gab78be314eac63ddbce441b4c8b22b47d":[1,1,2,8,2,3]
+"group___e_g_x_phys-_q_value-_beta_plus.html#ga3531ffda0c561a601a61f54f5c7780df":[1,1,2,8,2,2]
 };

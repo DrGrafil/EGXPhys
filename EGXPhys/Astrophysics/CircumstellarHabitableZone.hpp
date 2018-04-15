@@ -38,7 +38,7 @@ namespace EGXPhys
 	*
 	*	Equation taken from "Habitable Zones around Main Sequence Stars" http://dx.doi.org/10.1006/icar.1993.1010
 	*
-	*   @param starLuminosity \f$L\ (W)\f$ Luminosity of the star.
+	*   @param starLuminosityInW \f$L\ (W)\f$ Luminosity of the star in watts.
 	*   @param stellarFluxEffective \f$S_{eff}\f$(dimensionless) Effective stellar flux. Estimation of the ratio of outgoing IR flux to incident IR flux of a planet with greenhouse effects folded in.
 	*   @return \f$d_{CHZL}\f$(AU) Circumstellar Habitable Zone Limit. Either the inner or outer radius of the circumstellar habitable zone.
 	*	@see CircumstellarHabitableZoneDistance() for circumstellar habitable zone distance, a habitability metric for planets.
@@ -49,7 +49,7 @@ namespace EGXPhys
 	*	@see StellarFluxEffectiveUnderwood() for \f$S_{eff}\f$ using Underwood's approximation.
 	*/    
     template<typename T>
-	T CircumstellarHabitableZoneLimit(const T& starLuminosity, const T& stellarFluxEffective);
+	T CircumstellarHabitableZoneLimit(const T starLuminosityInW, const T stellarFluxEffective);
 
    
 
@@ -69,7 +69,7 @@ namespace EGXPhys
 	*
 	*	\f$S_{eff\odot,outer} = 1.77\f$, \f$a_{outer} = 1.3786 \times 10^{-4}\f$, \f$b_{outer} = 1.4286 \times 10^{-9}\f$
 	*
-	*   @param starEffectiveSurfaceTemperature \f$T_{eff}\ (K)\f$ is the effective temperature of the star surface (black body). See https://en.wikipedia.org/wiki/Effective_temperature.
+	*   @param starEffectiveSurfaceTemperatureInK \f$T_{eff}\ (K)\f$ Effective surface temperature of the star (black body) in kelvin. See https://en.wikipedia.org/wiki/Effective_temperature.
 	*   @param sunEffectiveStellarFlux \f$S_{eff\odot}\f$(dimensionless) Model parameter estimating the ratio of outgoing IR flux to incident IR flux of a planet with greenhouse effects folded in the presence of the sun.
 	*	@param aModelParameter \f$a\f$(dimensionless) First order model fit parameter taking into account the change of star temperature from that of the Sun. 
 	*	@param bModelParameter \f$b\f$(dimensionless) Second order model fit parameter taking into account the change of star temperature from that of the Sun. 
@@ -79,7 +79,7 @@ namespace EGXPhys
 	*	@see CircumstellarHabitableZoneOuterBoundary() for outer boundary of the circumstellar habitable zone.
 	*/ 
     template<typename T>
-    T StellarFluxEffectiveSelsis(const T& starEffectiveSurfaceTemperature, const T& sunEffectiveStellarFlux, const T& aModelParameter, const T& bModelParameter);
+    T StellarFluxEffectiveSelsis(const T starEffectiveSurfaceTemperatureInK, const T sunEffectiveStellarFlux, const T aModelParameter, const T bModelParameter);
     
     	//http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets and 
     
@@ -99,7 +99,7 @@ namespace EGXPhys
 	*
 	*	\f$S_{eff\odot,outer} = 0.2125\f$, \f$a_{outer} = 1.371 \times 10^{-5}\f$, \f$b_{outer} = 5.714 \times 10^{-9}\f$
 	*
-	*   @param starEffectiveSurfaceTemperature \f$T_{eff}\ (K)\f$ is the effective temperature of the star surface (black body). See https://en.wikipedia.org/wiki/Effective_temperature.
+	*   @param starEffectiveSurfaceTemperatureInK \f$T_{eff}\ (K)\f$ Effective surface temperature of the star (black body) in kelvin. See https://en.wikipedia.org/wiki/Effective_temperature.
 	*   @param sunEffectiveStellarFlux \f$S_{eff\odot}\f$(dimensionless) Model parameter representing the ratio of outgoing IR flux to incident IR flux with the effects of the greenhouse effect in the presence of the Sun.
 	*	@param aModelParameter \f$a\f$(dimensionless) First order model fit parameter taking into account the change of star temperature from that of the Sun. 
 	*	@param bModelParameter \f$b\f$(dimensionless) Second order model fit parameter taking into account the change of star temperature from that of the Sun. 
@@ -109,7 +109,7 @@ namespace EGXPhys
 	*	@see CircumstellarHabitableZoneOuterBoundary() for outer boundary of the circumstellar habitable zone.
 	*/ 
     template<typename T>
-    T StellarFluxEffectiveUnderwood(const T& starEffectiveSurfaceTemperature, const T& sunEffectiveStellarFlux, const T& aModelParameter, const T& bModelParameter);
+    T StellarFluxEffectiveUnderwood(const T starEffectiveSurfaceTemperatureInK, const T sunEffectiveStellarFlux, const T aModelParameter, const T bModelParameter);
     
     
     
@@ -131,28 +131,29 @@ The HZ of an exoplanet is generally defined as the area
 (in terms of distance from its central star) 
 	*	See "Impacts of stellar evolution and dynamics on the habitable zone: The role of rotation and magnetic activity" https://doi.org/10.1051/0004-6361/201629034 
 	*	Equation taken from http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets and 
-	*   @param starEffectiveTemperature \f$T_{eff}\ (K)\f$ is the effective temperature of the star (black body). See https://en.wikipedia.org/wiki/Effective_temperature.
-	*   @param starLuminosity
+	*   @param starEffectiveSurfaceTemperatureInK \f$T_{eff}\ (K)\f$ Effective surface temperature of the star (black body) in kelvin. See https://en.wikipedia.org/wiki/Effective_temperature.
+	*   @param starLuminosityInW \f$L\ (W)\f$ Luminosity of the star in watts.
 	*   @return \f$r_{inner}\ (AU)\f$ the inner boundary of the Habitable Zone. 
 	*	@see CircumstellarHabitableZoneDistance() for circumstellar habitable zone distance, a habitability metric for planets.
 	*	@see CircumstellarHabitableZoneOuterBoundary() for outer boundary of the circumstellar habitable zone.
 	*	@see CircumstellarHabitableZoneLimit() to calculate inner boundary using a diffrent model.
 	*/  
 	template<typename T>
-	T CircumstellarHabitableZoneInnerBoundary( const T& starEffectiveSurfaceTemperature, const T& starLuminosity);
+	T CircumstellarHabitableZoneInnerBoundary( const T starEffectiveSurfaceTemperatureInK, const T starLuminosityInW);
 	
 	
 	/** 
 	*   @brief Calculates Circumstellar Habitable Zone Outer Boundary \f$(r_o)\f$ of a star.
 	*
-	*   @param 
+	*   @param starEffectiveSurfaceTemperatureInK \f$T_{eff}\ (K)\f$ Effective surface temperature of the star (black body) in kelvin. See https://en.wikipedia.org/wiki/Effective_temperature.
+	*   @param starLuminosityInW \f$L\ (W)\f$ Luminosity of the star in watts.
 	*   @return \f$ESI_S\f$(dimensionless) Surface Earth Similarity Index for a planet.
 	*	@see CircumstellarHabitableZoneDistance() for circumstellar habitable zone distance, a habitability metric for planets.
 	*	@see CircumstellarHabitableZoneInnerBoundary() for inner boundary of the circumstellar habitable zone.
 	*	@see CircumstellarHabitableZoneLimit() to calculate outer boundary using a diffrent model.
 	*/  
 	template<typename T>
-	T CircumstellarHabitableZoneOuterBoundary(const T& starEffectiveSurfaceTemperature, const T& starLuminosity);
+	T CircumstellarHabitableZoneOuterBoundary(const T starEffectiveSurfaceTemperatureInK, const T starLuminosityInW);
 	
 	/** 
 	*   @brief Calculates Circumstellar Habitable Zone Distance \f$(CHZD)\f$ of a planet. Also known as Habitable Zone Distance.
@@ -163,14 +164,16 @@ The HZ of an exoplanet is generally defined as the area
 	*	See http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets and https://en.wikipedia.org/wiki/Circumstellar_habitable_zone
 	*
 	*	Equation from 
-	*   @param 
+	*   @param distanceFromStar
+	*   @param CHZOuterBoundary
+	*   @param CHZInnerBoundary
 	*   @return \f$CHZD\f$(HZU) circumstellar habitable zone distance, a habitability metric for planets. Between -1 and +1 HZU correspond to planets within the habitable zone.
 	*	@see CircumstellarHabitableZoneOuterBoundary() for outer boundary of the circumstellar habitable zone.
 	*	@see CircumstellarHabitableZoneInnerBoundary() for inner boundary of the circumstellar habitable zone. 
 	*	@see CircumstellarHabitableZoneLimit() to calculate outer and inner boundary using diffrent models.
 	*/  
 	template<typename T>
-	T CircumstellarHabitableZoneDistance(const T& distanceFromStar, const T& CHZOuterBoundary, const T& CHZInnerBoundary);
+	T CircumstellarHabitableZoneDistance(const T distanceFromStar, const T CHZOuterBoundary, const T CHZInnerBoundary);
 	
 	
     /// @}
