@@ -4,6 +4,7 @@ var searchData=
   ['error_20function_20_28erf_29',['Error Function (Erf)',['../group___e_g_x_math-_functions-_e_r_f.html',1,'']]],
   ['egxmath_2dgeometry_2d',['EGXMath-Geometry-',['../group___e_g_x_math-_geometry-.html',1,'']]],
   ['egxphys_20library',['EGXPhys Library',['../group___e_g_x_phys.html',1,'']]],
+  ['escape_20velocity',['Escape Velocity',['../group___e_g_x_phys-_astrophysics-_escape_velocity.html',1,'']]],
   ['eccentricity',['Eccentricity',['../group___e_g_x_phys-_eccentricity.html',1,'']]],
   ['electron_20capture',['Electron Capture',['../group___e_g_x_phys-_q_value-_electron_capture.html',1,'']]],
   ['electric_20constant',['Electric constant',['../group___n_i_s_t_const-_electric_constant.html',1,'']]],

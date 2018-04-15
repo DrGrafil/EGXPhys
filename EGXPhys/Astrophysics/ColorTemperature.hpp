@@ -34,10 +34,10 @@ namespace EGXPhys
 	*
 	*	See http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/ for equation used
 	*
-	*   @param temperatureInK \f$T_{black}\ (K)\f$ is the tempreture of the black body emittor.
-	*   @param R \f$R\ (dimensionless)\f$ the red color in an RGB color. Values varies from 0-1.
-	*   @param G \f$G\ (dimensionless)\f$ the green color in an RGB color. Values varies from 0-1.
-	*   @param B \f$B\ (dimensionless)\f$ the blue color in an RGB color. Values varies from 0-1.
+	*   @param temperatureInK \f$T_{black}\ (K)\f$ Tempreture of the black body emittor.
+	*   @param R \f$R\ (dimensionless)\f$ Red color in an RGB color. Values varies from 0-1.
+	*   @param G \f$G\ (dimensionless)\f$ Green color in an RGB color. Values varies from 0-1.
+	*   @param B \f$B\ (dimensionless)\f$ Blue color in an RGB color. Values varies from 0-1.
 	*/
 	template<typename T>
 	T ColorTemperatureToRGB(const T temperatureInK, T& R, T& G, T& B);
@@ -49,10 +49,9 @@ namespace EGXPhys
 	*
 	*	See http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/ for equation used
 	*
-	*   @param temperatureInK \f$T_{black}\ (K)\f$ is the tempreture of the black body emittor.
+	*   @param temperatureInK \f$T_{black}\ (K)\f$ Tempreture of the black body emittor.
 	*   @return \f$RGB\ (dimensionless)\f$ RGB color vector. Values varies from 0-1.
 	*/
-	template<ty
 	template<typename T>
 	glm::vec3 ColorTemperatureToRGB(const T temperatureInK);
 

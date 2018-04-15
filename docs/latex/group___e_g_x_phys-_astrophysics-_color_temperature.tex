@@ -4,6 +4,8 @@
 \begin{DoxyCompactItemize}
 \item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_color_temperature_ga81db6b5b397c9f788001be73adae032d}{E\+G\+X\+Phys\+::\+Color\+Temperature\+To\+R\+GB}} (const T temperature\+InK, T \&R, T \&G, T \&B)
+\begin{DoxyCompactList}\small\item\em Calculates the color R\+GB values from the color tempreture, $T_{black}$, assuming the color was emitted via black body radiation. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\glm\+::vec3 \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_color_temperature_gaad787485a232976da96c2c785ce21dad}{E\+G\+X\+Phys\+::\+Color\+Temperature\+To\+R\+GB}} (const T temperature\+InK)
 \begin{DoxyCompactList}\small\item\em Calculates the color R\+GB values from the color tempreture, $T_{black}$, assuming the color was emitted via black body radiation. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -14,7 +16,7 @@
 \mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_color_temperature_ga81db6b5b397c9f788001be73adae032d}\label{group___e_g_x_phys-_astrophysics-_color_temperature_ga81db6b5b397c9f788001be73adae032d}} 
 \index{Color Temperature@{Color Temperature}!Color\+Temperature\+To\+R\+GB@{Color\+Temperature\+To\+R\+GB}}
 \index{Color\+Temperature\+To\+R\+GB@{Color\+Temperature\+To\+R\+GB}!Color Temperature@{Color Temperature}}
-\subsubsection{\texorpdfstring{Color\+Temperature\+To\+R\+G\+B()}{ColorTemperatureToRGB()}}
+\subsubsection{\texorpdfstring{Color\+Temperature\+To\+R\+G\+B()}{ColorTemperatureToRGB()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
 T E\+G\+X\+Phys\+::\+Color\+Temperature\+To\+R\+GB (\begin{DoxyParamCaption}\item[{const T}]{temperature\+InK,  }\item[{T \&}]{R,  }\item[{T \&}]{G,  }\item[{T \&}]{B }\end{DoxyParamCaption})}
 
@@ -26,12 +28,33 @@ See \href{http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-co
 
 
 \begin{DoxyParams}{Parameters}
-{\em temperature\+InK} & $T_{black}\ (K)$ is the tempreture of the black body emittor. \\
+{\em temperature\+InK} & $T_{black}\ (K)$ Tempreture of the black body emittor. \\
 \hline
-{\em R} & $R\ (dimensionless)$ the red color in an R\+GB color. Values varies from 0-\/1. \\
+{\em R} & $R\ (dimensionless)$ Red color in an R\+GB color. Values varies from 0-\/1. \\
 \hline
-{\em G} & $G\ (dimensionless)$ the green color in an R\+GB color. Values varies from 0-\/1. \\
+{\em G} & $G\ (dimensionless)$ Green color in an R\+GB color. Values varies from 0-\/1. \\
 \hline
-{\em B} & $B\ (dimensionless)$ the blue color in an R\+GB color. Values varies from 0-\/1. \\
+{\em B} & $B\ (dimensionless)$ Blue color in an R\+GB color. Values varies from 0-\/1. \\
 \hline
 \end{DoxyParams}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_color_temperature_gaad787485a232976da96c2c785ce21dad}\label{group___e_g_x_phys-_astrophysics-_color_temperature_gaad787485a232976da96c2c785ce21dad}} 
+\index{Color Temperature@{Color Temperature}!Color\+Temperature\+To\+R\+GB@{Color\+Temperature\+To\+R\+GB}}
+\index{Color\+Temperature\+To\+R\+GB@{Color\+Temperature\+To\+R\+GB}!Color Temperature@{Color Temperature}}
+\subsubsection{\texorpdfstring{Color\+Temperature\+To\+R\+G\+B()}{ColorTemperatureToRGB()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+glm\+::vec3 E\+G\+X\+Phys\+::\+Color\+Temperature\+To\+R\+GB (\begin{DoxyParamCaption}\item[{const T}]{temperature\+InK }\end{DoxyParamCaption})}
+
+
+
+Calculates the color R\+GB values from the color tempreture, $T_{black}$, assuming the color was emitted via black body radiation. 
+
+See \href{http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/}{\tt http\+://www.\+tannerhelland.\+com/4435/convert-\/temperature-\/rgb-\/algorithm-\/code/} for equation used
+
+
+\begin{DoxyParams}{Parameters}
+{\em temperature\+InK} & $T_{black}\ (K)$ Tempreture of the black body emittor. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$RGB\ (dimensionless)$ R\+GB color vector. Values varies from 0-\/1. 
+\end{DoxyReturn}

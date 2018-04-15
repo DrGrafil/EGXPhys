@@ -7,6 +7,7 @@ var group___e_g_x_phys__astrophysics =
     [ "Color Temperature", "group___e_g_x_phys-_astrophysics-_color_temperature.html", "group___e_g_x_phys-_astrophysics-_color_temperature" ],
     [ "Declination", "group___e_g_x_phys-_astrophysics-_declination.html", "group___e_g_x_phys-_astrophysics-_declination" ],
     [ "Eccentricity", "group___e_g_x_phys-_eccentricity.html", null ],
+    [ "Escape Velocity", "group___e_g_x_phys-_astrophysics-_escape_velocity.html", "group___e_g_x_phys-_astrophysics-_escape_velocity" ],
     [ "Luminosity", "group___e_g_x_phys-_luminosity.html", "group___e_g_x_phys-_luminosity" ],
     [ "Orbital Charecteristics", "group___e_g_x_phys-_orbital_charecteristics.html", null ],
     [ "Parallax", "group___e_g_x_phys-_parallax.html", null ],

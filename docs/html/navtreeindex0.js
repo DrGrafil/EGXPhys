@@ -117,10 +117,11 @@ var NAVTREEINDEX0 =
 "_circumstellar_habitable_zone_8inl.html#gacf3a720793cdb27f6d93b170b44e81be":[2,0,0,1,9,0],
 "_color_temperature_8hpp.html":[2,0,0,1,10],
 "_color_temperature_8hpp.html#ga81db6b5b397c9f788001be73adae032d":[2,0,0,1,10,0],
+"_color_temperature_8hpp.html#gaad787485a232976da96c2c785ce21dad":[2,0,0,1,10,1],
 "_color_temperature_8hpp_source.html":[2,0,0,1,10],
 "_color_temperature_8inl.html":[2,0,0,1,11],
-"_color_temperature_8inl.html#aad787485a232976da96c2c785ce21dad":[2,0,0,1,11,1],
 "_color_temperature_8inl.html#ga81db6b5b397c9f788001be73adae032d":[2,0,0,1,11,0],
+"_color_temperature_8inl.html#gaad787485a232976da96c2c785ce21dad":[2,0,0,1,11,1],
 "_cone1_8hpp_source.html":[2,0,0,3,2,1,1],
 "_cone_8hpp_source.html":[2,0,0,3,2,1,0],
 "_conversions_8hpp.html":[2,0,0,3,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "_degree_conversion_8inl.html":[2,0,0,3,0,0,3],
 "_degree_conversion_8inl.html#aca157e7d3e99a46a11a04b92680d2574":[2,0,0,3,0,0,3,6],
 "_degree_conversion_8inl.html#ga0bb223ca6e77b00439a6d910ab32d82e":[2,0,0,3,0,0,3,11],
-"_degree_conversion_8inl.html#ga1096d04647918e20f61fb184ba2a7dce":[2,0,0,3,0,0,3,8],
-"_degree_conversion_8inl.html#ga25bb5506b3f66fff7a1b85bf7bd795b3":[2,0,0,3,0,0,3,10]
+"_degree_conversion_8inl.html#ga1096d04647918e20f61fb184ba2a7dce":[2,0,0,3,0,0,3,8]
 };

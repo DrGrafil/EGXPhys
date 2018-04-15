@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EGXPhys: D:/GitHub/EGXPhys/EGXPhys/Astrophysics/ColorTemperature.hpp File Reference</title>
+<title>EGXPhys: Escape Velocity</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('_color_temperature_8hpp.html','');});
+$(document).ready(function(){initNavTree('group___e_g_x_phys-_astrophysics-_escape_velocity.html','');});
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -94,39 +94,71 @@ $(document).ready(function(){initNavTree('_color_temperature_8hpp.html','');});
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">ColorTemperature.hpp File Reference</div>  </div>
+<div class="title">Escape Velocity<div class="ingroups"><a class="el" href="group___e_g_x_phys.html">EGXPhys Library</a> &raquo; <a class="el" href="group___e_g_x_phys-_astrophysics.html">Astrophysics</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Calculates color temperature and related information derived from it.  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;math.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="_astrophysics_constants_8hpp_source.html">AstrophysicsConstants.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_color_temperature_8inl.html">ColorTemperature.inl</a>&quot;</code><br />
-</div>
-<p><a href="_color_temperature_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga81db6b5b397c9f788001be73adae032d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga81db6b5b397c9f788001be73adae032d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_color_temperature.html#ga81db6b5b397c9f788001be73adae032d">EGXPhys::ColorTemperatureToRGB</a> (const T temperatureInK, T &amp;R, T &amp;G, T &amp;B)</td></tr>
-<tr class="memdesc:ga81db6b5b397c9f788001be73adae032d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the color RGB values from the color tempreture, \(T_{black}\), assuming the color was emitted via black body radiation.  <a href="group___e_g_x_phys-_astrophysics-_color_temperature.html#ga81db6b5b397c9f788001be73adae032d">More...</a><br /></td></tr>
-<tr class="separator:ga81db6b5b397c9f788001be73adae032d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaad787485a232976da96c2c785ce21dad"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gaad787485a232976da96c2c785ce21dad"><td class="memTemplItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_color_temperature.html#gaad787485a232976da96c2c785ce21dad">EGXPhys::ColorTemperatureToRGB</a> (const T temperatureInK)</td></tr>
-<tr class="memdesc:gaad787485a232976da96c2c785ce21dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the color RGB values from the color tempreture, \(T_{black}\), assuming the color was emitted via black body radiation.  <a href="group___e_g_x_phys-_astrophysics-_color_temperature.html#gaad787485a232976da96c2c785ce21dad">More...</a><br /></td></tr>
-<tr class="separator:gaad787485a232976da96c2c785ce21dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb8c0c9e780f883ea33498f076b08cb9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaeb8c0c9e780f883ea33498f076b08cb9"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_escape_velocity.html#gaeb8c0c9e780f883ea33498f076b08cb9">EGXPhys::EscapeVelocity</a> (const T distanceFromCenterOfMassInm, const T massOfBodyInkg)</td></tr>
+<tr class="memdesc:gaeb8c0c9e780f883ea33498f076b08cb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the escape velocity, \(v_{e}\), the minimum speed needed for an object to escape from the gravitational influence of a massive body. </p><p class="formulaDsp">
+\[v_{e}=\sqrt{2 G M}{r}\]
+</p>
+<p>.  <a href="group___e_g_x_phys-_astrophysics-_escape_velocity.html#gaeb8c0c9e780f883ea33498f076b08cb9">More...</a><br /></td></tr>
+<tr class="separator:gaeb8c0c9e780f883ea33498f076b08cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Calculates color temperature and related information derived from it. </p>
-<dl class="section author"><dt>Author</dt><dd>Elliot Grafil (Metex) </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>4/14/18 </dd></dl>
-</div></div><!-- contents -->
+<h2 class="groupheader">Function Documentation</h2>
+<a id="gaeb8c0c9e780f883ea33498f076b08cb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb8c0c9e780f883ea33498f076b08cb9">&#9670;&nbsp;</a></span>EscapeVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::EscapeVelocity </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>distanceFromCenterOfMassInm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>massOfBodyInkg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the escape velocity, \(v_{e}\), the minimum speed needed for an object to escape from the gravitational influence of a massive body. </p><p class="formulaDsp">
+\[v_{e}=\sqrt{2 G M}{r}\]
+</p>
+<p>. </p>
+<p>See <a href="https://en.wikipedia.org/wiki/Escape_velocity">https://en.wikipedia.org/wiki/Escape_velocity</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">distanceFromCenterOfMassInm</td><td>\(r\ (m)\) Distance from center of mass of the massive body in meters. </td></tr>
+    <tr><td class="paramname">massOfBodyInkg</td><td>\(M\ (kg)\) Mass of massive body in kilograms. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(v_{e}\ (\frac{m}{s})\) Escape velocity in meters per second. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_ce4ef40a56af8221486bcd78e6a47b62.html">EGXPhys</a></li><li class="navelem"><a class="el" href="dir_7ac1fe1f7e154c60bf4adac7dda4de70.html">Astrophysics</a></li><li class="navelem"><a class="el" href="_color_temperature_8hpp.html">ColorTemperature.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>

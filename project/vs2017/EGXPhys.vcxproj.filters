@@ -399,6 +399,9 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\ColorTemperature.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\EscapeVelocity.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -551,6 +554,9 @@
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
     <None Include="..\..\EGXPhys\Astrophysics\ColorTemperature.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\EscapeVelocity.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>

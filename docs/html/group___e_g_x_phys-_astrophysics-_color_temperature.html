@@ -104,11 +104,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ga81db6b5b397c9f788001be73adae032d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_color_temperature.html#ga81db6b5b397c9f788001be73adae032d">EGXPhys::ColorTemperatureToRGB</a> (const T temperatureInK, T &amp;R, T &amp;G, T &amp;B)</td></tr>
 <tr class="memdesc:ga81db6b5b397c9f788001be73adae032d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the color RGB values from the color tempreture, \(T_{black}\), assuming the color was emitted via black body radiation.  <a href="group___e_g_x_phys-_astrophysics-_color_temperature.html#ga81db6b5b397c9f788001be73adae032d">More...</a><br /></td></tr>
 <tr class="separator:ga81db6b5b397c9f788001be73adae032d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaad787485a232976da96c2c785ce21dad"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaad787485a232976da96c2c785ce21dad"><td class="memTemplItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_color_temperature.html#gaad787485a232976da96c2c785ce21dad">EGXPhys::ColorTemperatureToRGB</a> (const T temperatureInK)</td></tr>
+<tr class="memdesc:gaad787485a232976da96c2c785ce21dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the color RGB values from the color tempreture, \(T_{black}\), assuming the color was emitted via black body radiation.  <a href="group___e_g_x_phys-_astrophysics-_color_temperature.html#gaad787485a232976da96c2c785ce21dad">More...</a><br /></td></tr>
+<tr class="separator:gaad787485a232976da96c2c785ce21dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga81db6b5b397c9f788001be73adae032d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga81db6b5b397c9f788001be73adae032d">&#9670;&nbsp;</a></span>ColorTemperatureToRGB()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81db6b5b397c9f788001be73adae032d">&#9670;&nbsp;</a></span>ColorTemperatureToRGB() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,13 +155,43 @@ template&lt;typename T &gt; </div>
 <p>See <a href="http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/">http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/</a> for equation used</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">temperatureInK</td><td>\(T_{black}\ (K)\) is the tempreture of the black body emittor. </td></tr>
-    <tr><td class="paramname">R</td><td>\(R\ (dimensionless)\) the red color in an RGB color. Values varies from 0-1. </td></tr>
-    <tr><td class="paramname">G</td><td>\(G\ (dimensionless)\) the green color in an RGB color. Values varies from 0-1. </td></tr>
-    <tr><td class="paramname">B</td><td>\(B\ (dimensionless)\) the blue color in an RGB color. Values varies from 0-1. </td></tr>
+    <tr><td class="paramname">temperatureInK</td><td>\(T_{black}\ (K)\) Tempreture of the black body emittor. </td></tr>
+    <tr><td class="paramname">R</td><td>\(R\ (dimensionless)\) Red color in an RGB color. Values varies from 0-1. </td></tr>
+    <tr><td class="paramname">G</td><td>\(G\ (dimensionless)\) Green color in an RGB color. Values varies from 0-1. </td></tr>
+    <tr><td class="paramname">B</td><td>\(B\ (dimensionless)\) Blue color in an RGB color. Values varies from 0-1. </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="gaad787485a232976da96c2c785ce21dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaad787485a232976da96c2c785ce21dad">&#9670;&nbsp;</a></span>ColorTemperatureToRGB() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec3 EGXPhys::ColorTemperatureToRGB </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>temperatureInK</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the color RGB values from the color tempreture, \(T_{black}\), assuming the color was emitted via black body radiation. </p>
+<p>See <a href="http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/">http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/</a> for equation used</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">temperatureInK</td><td>\(T_{black}\ (K)\) Tempreture of the black body emittor. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(RGB\ (dimensionless)\) RGB color vector. Values varies from 0-1. </dd></dl>
 
 </div>
 </div>
