@@ -204,6 +204,9 @@
     <ClInclude Include="..\..\EGXPhys\EGXPhysConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\Kinematics\Kinematics.hpp" />
     <ClInclude Include="..\..\EGXPhys\Kinematics\KinematicsConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Kinetics\Kinetics.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Kinetics\KineticsConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Kinetics\Torque.hpp" />
     <ClInclude Include="..\..\EGXPhys\NISTConst\NISTConst.hpp" />
     <ClInclude Include="..\..\EGXPhys\Optics\Optics.hpp" />
     <ClInclude Include="..\..\EGXPhys\Optics\OpticsConstants.hpp" />
@@ -297,6 +300,7 @@
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.inl" />
+    <None Include="..\..\EGXPhys\Kinetics\Torque.inl" />
     <None Include="..\..\EGXPhys\Optics\Redshift.inl" />
     <None Include="..\..\EGXPhys\Relativity\LorentzTransformations.inl" />
   </ItemGroup>

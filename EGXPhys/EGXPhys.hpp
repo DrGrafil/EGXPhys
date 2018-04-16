@@ -27,6 +27,7 @@
 #include "./Astrophysics/Astrophysics.hpp"
 #include "./Atomic/Atomic.hpp"
 #include "./Kinematics/Kinematics.hpp"
+#include "./Kinetics/Kinetics.hpp"
 #include "./Optics/Optics.hpp"
 #include "./Plasma/Plasma.hpp"
 #include "./Quantum/Quantum.hpp"

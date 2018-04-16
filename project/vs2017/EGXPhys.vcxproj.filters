@@ -88,6 +88,9 @@
     <Filter Include="Tests\EGXMath\Geometry\3D">
       <UniqueIdentifier>{2e5e47ba-0dd5-496d-98b1-5fe163bb37aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\Kinetics">
+      <UniqueIdentifier>{f717d3ca-f643-431f-9c0e-6eef76057c36}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -405,6 +408,15 @@
     <ClInclude Include="..\..\tests\Astrophysics\EscapeVelocityTests.hpp">
       <Filter>Tests\Astrophysics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Kinetics\Kinetics.hpp">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Kinetics\KineticsConstants.hpp">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Kinetics\Torque.hpp">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -561,6 +573,9 @@
     </None>
     <None Include="..\..\EGXPhys\Astrophysics\EscapeVelocity.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Kinetics\Torque.inl">
+      <Filter>EGXPhys\Kinetics</Filter>
     </None>
   </ItemGroup>
 </Project>
