@@ -9,7 +9,7 @@ namespace EGXMath {
 
 	template<typename T>
 	T GradianToRadian(const T& gradian) {
-		return gradian * EGXMath::pi<T> / 200.0;
+		return gradian * (T)EGXMath::pi / 200.0;
 	}
 
 	template<typename T>

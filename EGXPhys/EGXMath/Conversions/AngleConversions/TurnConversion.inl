@@ -9,7 +9,7 @@ namespace EGXMath {
 
 	template<typename T>
 	T TurnToRadian(const T& turn) {
-		return turn * 2.0 * EGXMath::pi<T>;
+		return turn * 2.0 * (T)EGXMath::pi;
 	}
 
 	template<typename T>

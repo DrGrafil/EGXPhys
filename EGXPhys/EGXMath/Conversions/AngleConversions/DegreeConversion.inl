@@ -9,12 +9,12 @@ namespace EGXMath {
 
 	template<typename T>
 	T DegreeToRadian(const T& decimalDegree) {
-		return decimalDegree * EGXMath::pi<T> / 180.0;
+		return decimalDegree * (T)EGXMath::pi / 180.0;
 	}
 
 	template<typename T>
 	T DegreeToMilliradian(const T& decimalDegree) {
-		return decimalDegree * EGXMath::pi<T> / 180.0 * 1000.0;
+		return decimalDegree * (T)EGXMath::pi / 180.0 * 1000.0;
 	}
 
 	template<typename T>

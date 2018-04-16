@@ -18,15 +18,15 @@ TEST_CASE("Geometry 2D Circle"){
 
 	//Area
 	CHECK(CircleArea(0.0) == 0.0);
-	CHECK(CircleArea(r1) == Approx(EGXMath::pi<float>).scale(0.0).epsilon(0.001));
-	CHECK(CircleArea(r2) == Approx(4.0*EGXMath::pi<float>).scale(0.0).epsilon(0.001));
-	CHECK(CircleArea(r3) == Approx(16.0*EGXMath::pi<float>).scale(0.0).epsilon(0.001));
+	CHECK(CircleArea(r1) == Approx(EGXMath::pi).scale(0.0).epsilon(0.001));
+	CHECK(CircleArea(r2) == Approx(4.0*EGXMath::pi).scale(0.0).epsilon(0.001));
+	CHECK(CircleArea(r3) == Approx(16.0*EGXMath::pi).scale(0.0).epsilon(0.001));
 	
 	//Circumference
 	CHECK(CircleCircumference(0.0) == 0.0);
-	CHECK(CircleCircumference(r1) == Approx(2.0 * EGXMath::pi<float>).scale(0.0).epsilon(0.001));
-	CHECK(CircleCircumference(r2) == Approx(4.0 * EGXMath::pi<float>).scale(0.0).epsilon(0.001));
-	CHECK(CircleCircumference(r3) == Approx(8.0*EGXMath::pi<float>).scale(0.0).epsilon(0.001));
+	CHECK(CircleCircumference(r1) == Approx(2.0 * EGXMath::pi).scale(0.0).epsilon(0.001));
+	CHECK(CircleCircumference(r2) == Approx(4.0 * EGXMath::pi).scale(0.0).epsilon(0.001));
+	CHECK(CircleCircumference(r3) == Approx(8.0*EGXMath::pi).scale(0.0).epsilon(0.001));
 
 	
 	//Array Matrix check

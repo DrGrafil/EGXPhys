@@ -5,13 +5,13 @@ TEST_CASE("Angular Conversions"){
 	//Degree
 
 	CHECK(DegreeToRadian(0.0) == 0.0);
-	CHECK(DegreeToRadian(90.0) == Approx(EGXMath::pi<double>/2.0).scale(0.0).epsilon(0.001));
-	CHECK(DegreeToRadian(180.0) == Approx(EGXMath::pi<double>).scale(0.0).epsilon(0.001));
+	CHECK(DegreeToRadian(90.0) == Approx(EGXMath::pi/2.0).scale(0.0).epsilon(0.001));
+	CHECK(DegreeToRadian(180.0) == Approx(EGXMath::pi).scale(0.0).epsilon(0.001));
 
 	
 	CHECK(DegreeToMilliradian(0.0) == 0.0);
-	CHECK(DegreeToMilliradian(90.0) == Approx(EGXMath::pi<double>*1000.0 / 2.0).scale(0.0).epsilon(0.001));
-	CHECK(DegreeToMilliradian(180.0) == Approx(EGXMath::pi<double>*1000.0).scale(0.0).epsilon(0.001));
+	CHECK(DegreeToMilliradian(90.0) == Approx(EGXMath::pi*1000.0 / 2.0).scale(0.0).epsilon(0.001));
+	CHECK(DegreeToMilliradian(180.0) == Approx(EGXMath::pi*1000.0).scale(0.0).epsilon(0.001));
 
 
 	CHECK(DegreeToArcminute(0.0) == 0.0);

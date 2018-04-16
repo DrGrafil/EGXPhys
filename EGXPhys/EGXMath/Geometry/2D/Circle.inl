@@ -11,13 +11,13 @@ namespace EGXMath {
 	template <typename T>
 	T CircleArea(const T radius)
 	{
-		return pi<T> * radius * radius;
+		return (T)pi * radius * radius;
 	}
 
 	template <typename T>
 	T CircleCircumference(const T radius)
 	{
-		return (T)2.0 * pi<T> * radius;
+		return (T)2.0 * (T)pi * radius;
 	}
 
 

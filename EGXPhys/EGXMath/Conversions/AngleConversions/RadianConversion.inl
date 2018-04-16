@@ -14,12 +14,12 @@ namespace EGXMath {
 
 	template<typename T>
 	T RadianToTurn(const T& radian) {
-		return radian / (2.0 * EGXMath::pi<T>);
+		return radian / (2.0 * (T)EGXMath::pi);
 	}
 
 	template<typename T>
 	T RadianToDegree(const T& radian) {
-		return radian * 180.0 / EGXMath::pi<T>;
+		return radian * 180.0 / (T)EGXMath::pi;
 	}
 
 	template<typename T>
@@ -39,28 +39,28 @@ namespace EGXMath {
 
 	template<typename T, typename T2>
 	T RadianToBinaryDegree(const T& radian, const T2& bits) {
-		return std::round(radian * std::pow(2.0, bits - 1.0) / (2.0 * EGXMath::pi<T>));
+		return std::round(radian * std::pow(2.0, bits - 1.0) / (2.0 * (T)EGXMath::pi));
 	}
 
 	template<typename T>
 	T RadianToArcminute(const T& radian) {
-		return radian * 10800.0 / EGXMath::pi<T>; // 60 * 180
+		return radian * 10800.0 / (T)EGXMath::pi; // 60 * 180
 	}
 
 	//https://en.wikipedia.org/wiki/Minute_and_second_of_arc
 	template<typename T>
 	T RadianToArcsecond(const T& radian) {
-		return radian * 648000.0 / EGXMath::pi<T>; // 60 * 60 * 180 
+		return radian * 648000.0 / (T)EGXMath::pi; // 60 * 60 * 180 
 	}
 
 	template<typename T>
 	T RadianToMilliarcsecond(const T& radian) {
-		return radian * 648000000.0 / EGXMath::pi<T>; // 60 * 60 * 180 * 1000
+		return radian * 648000000.0 / (T)EGXMath::pi; // 60 * 60 * 180 * 1000
 	}
 
 	template<typename T>
 	T RadianToMicroarcsecond(const T& radian) {
-		return radian * 648000000000.0 / EGXMath::pi<T>;// 60 * 60 * 180 * 1000 * 1000
+		return radian * 648000000000.0 / (T)EGXMath::pi;// 60 * 60 * 180 * 1000 * 1000
 	}
 
 	template<typename T>
@@ -86,7 +86,7 @@ namespace EGXMath {
 	//https://en.wikipedia.org/wiki/Gradian
 	template<typename T>
 	T RadianToGradian(const T& radian) {
-		return radian * 200.0 / EGXMath::pi<T>;
+		return radian * 200.0 / (T)EGXMath::pi;
 	}
 
 	template<typename T>
