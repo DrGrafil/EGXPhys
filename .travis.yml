@@ -48,21 +48,21 @@ script:
 - cmake --version
 - mkdir ./build_pure_17
 - cd ./build_pure_17
-- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Release -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_17=ON ..
+- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Release -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_17=ON -DCMAKE_CXX_STANDARD=17 ..
 - cmake -E time cmake --build .
 - ctest
 - cd ..
 - cmake --version
 - mkdir ./build_pure_14
 - cd ./build_pure_14
-- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Release -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_14=ON ..
+- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Release -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_14=ON -DCMAKE_CXX_STANDARD=14 ..
 - cmake -E time cmake --build .
 - ctest
 - cd ..
 - cmake --version
 - mkdir ./build_pure_11
 - cd ./build_pure_11
-- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Release -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_11=ON ..
+- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Release -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_11=ON -DCMAKE_CXX_STANDARD=11 ..
 - cmake -E time cmake --build .
 - ctest
 - cd ..
@@ -74,19 +74,19 @@ script:
 - cd ..
 - mkdir ./build_pure_17_debug
 - cd ./build_pure_17_debug
-- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Debug -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_17=ON ..
+- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Debug -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_17=ON -DCMAKE_CXX_STANDARD=17 ..
 - cmake -E time cmake --build .
 - ctest
 - cd ..
 - mkdir ./build_pure_14_debug
 - cd ./build_pure_14_debug
-- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Debug -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_14=ON ..
+- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Debug -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_14=ON -DCMAKE_CXX_STANDARD=14 ..
 - cmake -E time cmake --build .
 - ctest
 - cd ..
 - mkdir ./build_pure_11_debug
 - cd ./build_pure_11_debug
-- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Debug -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_11=ON ..
+- cmake -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=Debug -DEGXPHYS_TEST_ENABLE=ON -DEGXPHYS_TEST_ENABLE_CXX_11=ON -DCMAKE_CXX_STANDARD=11 ..
 - cmake -E time cmake --build .
 - ctest
 - cd ..
