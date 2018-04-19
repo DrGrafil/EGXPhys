@@ -15,8 +15,6 @@ set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 
 
 
-
-
 #Build options static/dynamic and unit tests
 
 option(EGXPHYS_STATIC_LIBRARY_ENABLE "EGXPhys static library" OFF)
@@ -49,36 +47,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
 
-
-
-
 # The following folder will be included
 include_directories("${PROJECT_SOURCE_DIR}")
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+include_directories("${PROJECT_SOURCE_DIR}/tests/3rd Party") 
 
 
 
