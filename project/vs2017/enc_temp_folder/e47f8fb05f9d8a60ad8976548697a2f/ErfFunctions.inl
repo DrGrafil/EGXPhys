@@ -20,7 +20,6 @@ namespace EGXMath {
 	template <typename T>
 	T InverseErfc(const T& x)
 	{
-		/*
 		T sign = 1.0;
 		if (x < 1.0)
 		{
@@ -35,8 +34,7 @@ namespace EGXMath {
 		r += err / (1.12837916709551257*Exp[-r*r] - r*err);
 		T err = Erfc(r) - x;
 		r += err / (1.12837916709551257*Exp[-r*r] - r*err);
-		return r*sign;*/
-		return 0;
+		return r*sign;
 	}
 
 	template <typename T>

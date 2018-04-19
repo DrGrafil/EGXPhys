@@ -20,12 +20,12 @@ namespace EGXPhys{
 	}
 
 	template<typename T>
-	void DegreeToDeclination(const T decimalDegree, T& integerDegree, T& arcminute, T& arcsecond) {
+	void DegreeToDeclination(const T decimalDegree, T& integerDegrees, T& arcminute, T& arcsecond) {
 		EGXMath::DegreeToDegreesMinutesSeconds(decimalDegree, integerDegree, arcminute, arcsecond);
 	}
 
 	template<typename T>
-	void RadianToDeclination(const T radian, T& integerDegree, T& arcminute, T& arcsecond) {
+	void RadianToDeclination(const T radian, T& integerDegrees, T& arcminute, T& arcsecond) {
 		EGXMath::RadianToDegreesMinutesSeconds(radian, integerDegree, arcminute, arcsecond);
 	}
 
