@@ -26,35 +26,34 @@ namespace EGXPhys
 	/// @addtogroup EGXPhys-Kinetics-Torque
 	/// @{
 	
-	/**
-	*   @brief Calculates the stellar mass \f$(M)\f$ of a star when comparing it to the mass of a reference star \f$(m_{ref})\f$.
-	*   		\f[M=\frac{m_{star}}{m_{ref}}\f]
-	*   See https://en.wikipedia.org/wiki/Stellar_mass
+	/**<!--
+	*   @brief Calculates the torque, \f$\tau\f$, in Newton meters. Torque on an object is calculated from the force, \f$F\f$, applied to an object at a position, \f$r\f$, away from the fulcrum (pivot point):
+	*   		\f[\tau=r \times F \f]
 	*
-	*   @param starMass \f$m_{star}\ (kg)\f$ is the mass of the star.
-	*	@param referenceMass \f$m_{ref}\ (kg)\f$ is the mass of the reference star.
-	*   @return \f$M\f$(dimensionless) Stellar mass. Mass ratio of a star compared to a reference star.
-	*	@see PlanetaryMass() for \f$M\f$ equation used for planets size objects.
-	*	@see StellarMass() for \f$M\f$ equation using a star as a reference.
-	*	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
-	*/
-	template<typename T>
-	T Torque(const T& starMass, const T& referenceMass);
-	  
-	/**
-	*   @brief Calculates the solar mass \f$(M)\f$ of a star when comparing it to the mass of the sun \f$(m_\odot)\f$.
-	*   		\f[M=\frac{m_{star}}{m_\odot}\f]
-	*   See https://en.wikipedia.org/wiki/Solar_mass
+	*   See https://en.wikipedia.org/wiki/Torque
 	*
-	*   @param starMass \f$m_{star}\ (kg)\f$ is the mass of the star.
-	*   @return \f$M\f$(dimensionless) Solar mass. Mass ratio of a star compared to the sun.
-	*	@see PlanetaryMass() for \f$M\f$ equation used for planets size objects.
-	*	@see StellarMass() for \f$M\f$ equation using a star as a reference.
-	*	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
+	*   @param positionFromFulcrumInm \f$r\ (m)\f$ Position that the force is apply to object away from fulcrum(pivot point) in meters.
+	*	@param forceInN \f$F\ (N)\f$ Force vector applied to object in Newtons.
+	*	@param torqueInNm \f$\tau\ (N\ m)\f$ Torque in Newton meters. -->
 	*/
-	template<typename T>
-	T Torque(const T& starMass);
+	//template<typename T>
+	//void Torque(const T(&positionFromFulcrumInm)[3], const T(&forceInN)[3], T(&torqueInNm)[3]);
+
 	
+#ifdef EGXPHYS_GLM
+	/**
+	*   @brief Calculates the torque, \f$\tau\f$, in Newton meters. Torque on an object is calculated from the force, \f$F\f$, applied to an object at a position, \f$r\f$, away from the fulcrum (pivot point):
+	*   		\f[\tau=r \times F \f]
+	*
+	*   See https://en.wikipedia.org/wiki/Torque
+	*
+	*   @param positionFromFulcrumInm \f$r\ (m)\f$ Position that the force is apply to object away from fulcrum(pivot point) in meters.
+	*	@param forceInN \f$F\ (N)\f$ Force vector applied to object in Newtons.
+	*	@param torqueInNm \f$\tau\ (N\ m)\f$ Torque in Newton meters.
+	*/
+	void Torque(const glm::vec3& positionFromFulcrumInm, const glm::vec3& forceInN, glm::vec3& torqueInNm);
+#endif // EGXPHYS_GLM
+
     /// @}
 } //namespace EGXPhys
 

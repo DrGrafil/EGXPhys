@@ -16,7 +16,9 @@
 #include <math.h>  
 
 #include "AstrophysicsConstants.hpp"
-
+#ifdef EGXPHYS_GLM
+#include <glm/fwd.hpp>
+#endif // EGXPHYS_GLM
 //=================================
 // Forward declared dependencies
 

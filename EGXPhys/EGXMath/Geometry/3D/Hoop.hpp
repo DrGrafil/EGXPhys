@@ -18,7 +18,9 @@
 #include <algorithm>
 //=================================
 // Forward declared dependencies
-
+#ifdef EGXMATH_GLM
+#include <glm/fwd.hpp>
+#endif // EGXPHYS_GLM
 //=================================
 //
 

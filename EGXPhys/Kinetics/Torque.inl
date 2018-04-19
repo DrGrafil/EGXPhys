@@ -2,22 +2,20 @@
 ///
 /// @brief Implimentation of torque calculations
 /// @author Elliot Grafil (Metex)
-/// @date 7/31/17
+/// @date 4/19/17
 
 
 namespace EGXPhys{
+	
 	/*
 	template<typename T>
-	T StellarMass(const T& starMass, const T& referenceMass) {
-		return starMass / referenceMass;
-	}
+	void Torque(const T(&positionFromFulcrumInm)[3], const T(&forceInN)[3], T(&torqueInNm)[3]){
 
-	template<typename T>
-	T SolarMass(const T& starMass) {
-		return starMass / SunMass;
 	}
-    */
-    
-    
+	*/
+
+	void Torque(const glm::vec3& positionFromFulcrumInm, const glm::vec3& forceInN, glm::vec3& torqueInNm) {
+		torqueInNm = glm::cross(positionFromFulcrumInm, forceInN);
+	}
 
 }//namespace EGXPhys

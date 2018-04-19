@@ -1,6 +1,7 @@
 var searchData=
 [
   ['turn',['Turn',['../group___e_g_x_math-_angle_conversions-_turn.html',1,'']]],
+  ['torque',['Torque',['../group___e_g_x_phys-_kinetics-_torque.html',1,'']]],
   ['thermodynamics',['Thermodynamics',['../group___e_g_x_phys-_thermodynamics.html',1,'']]],
   ['tau_20particle',['Tau particle',['../group___n_i_s_t_const-_tau.html',1,'']]],
   ['thomson_20cross_20section',['Thomson cross section',['../group___n_i_s_t_const-_thomson.html',1,'']]],
@@ -20,6 +21,9 @@ var searchData=
   ['thermodynamicsconstants_2ehpp',['ThermodynamicsConstants.hpp',['../_thermodynamics_constants_8hpp.html',1,'']]],
   ['thomsoncrosssection',['ThomsonCrossSection',['../group___n_i_s_t_const-_thomson.html#gac0806b1a7f3e82009afeac7ea16728ce',1,'NISTConst']]],
   ['todo_20list',['Todo List',['../todo.html',1,'']]],
+  ['torque',['Torque',['../group___e_g_x_phys-_kinetics-_torque.html#ga12a787853cab88d40412c8290ca41c61',1,'EGXPhys']]],
+  ['torque_2ehpp',['Torque.hpp',['../_torque_8hpp.html',1,'']]],
+  ['torque_2einl',['Torque.inl',['../_torque_8inl.html',1,'']]],
   ['trianglewave',['TriangleWave',['../group___e_g_x_math-_functions-_periodic.html#gafa81ebd66ef7cd080370fad972d6ac50',1,'EGXMath']]],
   ['tritonelectronmassratio',['tritonElectronMassRatio',['../group___n_i_s_t_const-_triton.html#ga8508adabd4d9f81969eeed5838a61443',1,'NISTConst']]],
   ['tritongfactor',['tritongFactor',['../group___n_i_s_t_const-_triton.html#ga4d9812975c185048a8367d9838b53215',1,'NISTConst']]],

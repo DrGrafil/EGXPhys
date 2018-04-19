@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['kinetics',['Kinetics',['../group___e_g_x_phys-_kinetics.html',1,'']]],
   ['kelvintoatomicmassunit',['kelvinToAtomicMassUnit',['../group___n_i_s_t_const-_kelvin.html#gadad57a8f65f4d323846c97fbe0c485b1',1,'NISTConst']]],
   ['kelvintoelectronvolt',['kelvinToElectronVolt',['../group___n_i_s_t_const-_kelvin.html#gae61d97fa154d94e710c951a26bd47896',1,'NISTConst']]],
   ['kelvintohartree',['kelvinToHartree',['../group___n_i_s_t_const-_kelvin.html#gaece5622592a7f817204ca28c6d00d570',1,'NISTConst']]],
@@ -17,6 +18,8 @@ var searchData=
   ['kinematics',['Kinematics',['../group___kinematics.html',1,'']]],
   ['kinematics_2ehpp',['Kinematics.hpp',['../_kinematics_8hpp.html',1,'']]],
   ['kinematicsconstants_2ehpp',['KinematicsConstants.hpp',['../_kinematics_constants_8hpp.html',1,'']]],
+  ['kinetics_2ehpp',['Kinetics.hpp',['../_kinetics_8hpp.html',1,'']]],
+  ['kineticsconstants_2ehpp',['KineticsConstants.hpp',['../_kinetics_constants_8hpp.html',1,'']]],
   ['kelvin',['Kelvin',['../group___n_i_s_t_const-_kelvin.html',1,'']]],
   ['kilogram',['Kilogram',['../group___n_i_s_t_const-_kilogram.html',1,'']]]
 ];

@@ -14,12 +14,20 @@
 //=================================
 // Included dependencies
 #include <math.h>
+
+#ifdef EGXPHYS_GLM
+#define EGXMATH_GLM // Useing GLM
+#endif // EGXPHYS_GLM
 #include "EGXMath/EGXMath.hpp"
 //=================================
 // Forward declared dependencies
-
+#ifdef EGXPHYS_GLM
+#include <glm/fwd.hpp>
+#endif // EGXPHYS_GLM
 //=================================
 //
+
+
 
 #include "EGXPhysConstants.hpp"
 

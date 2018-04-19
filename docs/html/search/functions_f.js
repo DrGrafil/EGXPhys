@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['torque',['Torque',['../group___e_g_x_phys-_kinetics-_torque.html#ga12a787853cab88d40412c8290ca41c61',1,'EGXPhys']]],
   ['trianglewave',['TriangleWave',['../group___e_g_x_math-_functions-_periodic.html#gafa81ebd66ef7cd080370fad972d6ac50',1,'EGXMath']]],
   ['turntoarcdegree',['TurnToArcdegree',['../group___e_g_x_math-_angle_conversions-_turn.html#ga7bdc3a81ce316dd47b1a3179489fa195',1,'EGXMath']]],
   ['turntoarcminute',['TurnToArcminute',['../group___e_g_x_math-_angle_conversions-_turn.html#ga72cda928d9043c7d82097b1a7920769e',1,'EGXMath']]],
