@@ -91,6 +91,9 @@
     <Filter Include="EGXPhys\Kinetics">
       <UniqueIdentifier>{f717d3ca-f643-431f-9c0e-6eef76057c36}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tests\Kinetics">
+      <UniqueIdentifier>{f09e725a-cdb8-4ad8-b3ef-42c5ee817e24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -416,6 +419,12 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\Kinetics\Torque.hpp">
       <Filter>EGXPhys\Kinetics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Kinetics\KineticsTests.hpp">
+      <Filter>Tests\Kinetics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Kinetics\TorqueTests.hpp">
+      <Filter>Tests\Kinetics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
