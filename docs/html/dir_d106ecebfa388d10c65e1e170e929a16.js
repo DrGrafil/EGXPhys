@@ -16,5 +16,9 @@ var dir_d106ecebfa388d10c65e1e170e929a16 =
     [ "Hoop.hpp", "_hoop_8hpp.html", "_hoop_8hpp" ],
     [ "Hoop.inl", "_hoop_8inl.html", "_hoop_8inl" ],
     [ "Sphere.hpp", "_sphere_8hpp_source.html", null ],
-    [ "Sphere1.hpp", "_sphere1_8hpp_source.html", null ]
+    [ "Sphere1.hpp", "_sphere1_8hpp_source.html", null ],
+    [ "Spheroid.hpp", "_spheroid_8hpp.html", null ],
+    [ "Spheroid.inl", "_spheroid_8inl.html", null ],
+    [ "SpheroidFlattening.hpp", "_spheroid_flattening_8hpp.html", "_spheroid_flattening_8hpp" ],
+    [ "SpheroidFlattening.inl", "_spheroid_flattening_8inl.html", "_spheroid_flattening_8inl" ]
 ];

@@ -203,6 +203,8 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Cylinder.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\SpheroidFlattening.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Geometry.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXPhys.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXPhysConstants.hpp" />
@@ -256,6 +258,7 @@
     <ClInclude Include="..\..\tests\EGXMath\Conversions\ConversionsTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\EGXMathTests.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\CircleTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\SpheroidFlatteningTests.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\GeometryTest.hpp" />
     <ClInclude Include="..\..\tests\Kinetics\AngularAccelerationTests.hpp" />
     <ClInclude Include="..\..\tests\Kinetics\KineticsTests.hpp" />
@@ -318,6 +321,8 @@
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Cylinder.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\SpheroidFlattening.inl" />
     <None Include="..\..\EGXPhys\Kinetics\AngularAcceleration.inl" />
     <None Include="..\..\EGXPhys\Kinetics\AngularFrequency.inl" />
     <None Include="..\..\EGXPhys\Kinetics\AngularPeriod.inl" />

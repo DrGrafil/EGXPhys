@@ -1,0 +1,43 @@
+\hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid_flattening}{}\section{Spheroid Flattening}
+\label{group___e_g_x_math-_geometry-3_d-_spheroid_flattening}\index{Spheroid Flattening@{Spheroid Flattening}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid_flattening_ga640f4bcd86aa4c378819bffda31c0852}{E\+G\+X\+Math\+::\+Spheroid\+Flattening}} (const T equatorial\+Radius, const T polar\+Radius)
+\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a spheroid with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid_flattening_ga640f4bcd86aa4c378819bffda31c0852}\label{group___e_g_x_math-_geometry-3_d-_spheroid_flattening_ga640f4bcd86aa4c378819bffda31c0852}} 
+\index{Spheroid Flattening@{Spheroid Flattening}!Spheroid\+Flattening@{Spheroid\+Flattening}}
+\index{Spheroid\+Flattening@{Spheroid\+Flattening}!Spheroid Flattening@{Spheroid Flattening}}
+\subsubsection{\texorpdfstring{Spheroid\+Flattening()}{SpheroidFlattening()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Spheroid\+Flattening (\begin{DoxyParamCaption}\item[{const T}]{equatorial\+Radius,  }\item[{const T}]{polar\+Radius }\end{DoxyParamCaption})}
+
+
+
+Finds the flattening (oblateness), $f$, of a spheroid with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. 
+
+Equation taken from \char`\"{}\+Map Projections-\/\+A Working Manual\char`\"{} (Snyder, 1987), p. 13
+
+See \href{http://mathworld.wolfram.com/Flattening.html,}{\tt http\+://mathworld.\+wolfram.\+com/\+Flattening.\+html,} \href{https://en.wikipedia.org/wiki/Flattening}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Flattening} and \href{https://en.wikipedia.org/wiki/Equatorial_bulge}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Equatorial\+\_\+bulge} 
+\begin{DoxyParams}{Parameters}
+{\em equatorial\+Radius} & $ a\ (m)$ Equatorial radius in meters. \\
+\hline
+{\em polar\+Radius} & $ c\ (m)$ Polar radius in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ f\ (dimensionless)$ Flattening of spheroid. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+Spheroid\+Surface\+Area() for surface area of a spheroid. 
+
+Spheroid\+Volume() for volume of a spheroid. 
+
+Spheroid\+Inertia() for inertia tensor of a spheroid. 
+\end{DoxySeeAlso}

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['functions',['Functions',['../group___e_g_x_math-_functions.html',1,'']]],
+  ['flattening_2foblateness',['Flattening/Oblateness',['../group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html',1,'']]],
   ['faradayconstant',['FaradayConstant',['../group___n_i_s_t_const-_faraday_constant.html#ga3a2104c5d85a6e687d615ec8004aa4c5',1,'NISTConst']]],
   ['faradayconstantforconventionalelectriccurrent',['FaradayConstantForConventionalElectricCurrent',['../group___n_i_s_t_const-_faraday_constant.html#ga06079db2ebfcb103460b80a977171ac0',1,'NISTConst']]],
   ['fermicouplingconstant',['FermiCouplingConstant',['../group___n_i_s_t_const-_fermi_coupling_constant.html#ga0348e7c9835697c05fa7f68029bfb15a',1,'NISTConst']]],

@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 4/19/18
 
-/// @defgroup EGXMath-Geometry-Cylinder Cylinder 
-/// @ingroup EGXMath-Geometry
+/// @defgroup EGXMath-Geometry-3D-Cylinder Cylinder 
+/// @ingroup EGXMath-Geometry-3D
 
 
 //=================================
@@ -26,7 +26,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Geometry-Cylinder
+	/// @addtogroup EGXMath-Geometry-3D-Cylinder
 	/// @{
 
 	/**

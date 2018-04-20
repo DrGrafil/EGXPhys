@@ -6,3 +6,5 @@
 
 #include "./2D/CircleTest.hpp"
 
+#include "./3D/SpheroidFlatteningTests.hpp"
+

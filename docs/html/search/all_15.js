@@ -1,6 +1,7 @@
 var searchData=
 [
   ['sign',['Sign',['../group___e_g_x_math-_functions-_sign.html',1,'']]],
+  ['spheroid',['Spheroid',['../group___e_g_x_math-_geometry-3_d-_spheroid.html',1,'']]],
   ['standard_20gravitational_20parameter',['Standard Gravitational Parameter',['../group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html',1,'']]],
   ['surface_20gravity',['Surface Gravity',['../group___e_g_x_phys-_astrophysics-_surface_gravity.html',1,'']]],
   ['separation_20energy',['Separation Energy',['../group___e_g_x_phys-_nuclear_separation_energy.html',1,'']]],
@@ -45,6 +46,12 @@ var searchData=
   ['signfunctions_2einl',['SignFunctions.inl',['../_sign_functions_8inl.html',1,'']]],
   ['solarmass',['SolarMass',['../group___e_g_x_phys-_stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514',1,'EGXPhys']]],
   ['speedoflightinvacuum',['speedOfLightInVacuum',['../group___n_i_s_t_const-_speed_of_light.html#gacb4a04d9cca33259effabdd28c28e964',1,'NISTConst']]],
+  ['spheroid_2ehpp',['Spheroid.hpp',['../_spheroid_8hpp.html',1,'']]],
+  ['spheroid_2einl',['Spheroid.inl',['../_spheroid_8inl.html',1,'']]],
+  ['spheroidflattening',['SpheroidFlattening',['../group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga640f4bcd86aa4c378819bffda31c0852',1,'EGXMath::SpheroidFlattening(const T equatorialRadius, const T polarRadius)'],['../group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#gacd0d1ae60af3a7f1a09ed2f65636c132',1,'EGXMath::SpheroidFlattening(const T ellipticity)']]],
+  ['spheroidflattening_2ehpp',['SpheroidFlattening.hpp',['../_spheroid_flattening_8hpp.html',1,'']]],
+  ['spheroidflattening_2einl',['SpheroidFlattening.inl',['../_spheroid_flattening_8inl.html',1,'']]],
+  ['spheroidoblateness',['SpheroidOblateness',['../group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga8f547f5dd10721862b602c7769eb6116',1,'EGXMath::SpheroidOblateness(const T equatorialRadius, const T polarRadius)'],['../group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#gaf2530de595124e75a7f58482d617cfce',1,'EGXMath::SpheroidOblateness(const T ellipticity)']]],
   ['squarewave',['SquareWave',['../group___e_g_x_math-_functions-_periodic.html#ga3bdc6c02d347f48f91bca886448db33a',1,'EGXMath']]],
   ['standardaccelerationofgravity',['standardAccelerationOfGravity',['../group___n_i_s_t_const-_gravity_acceleration.html#gad5bc5f7f030bc2c467a8430e00b42f5e',1,'NISTConst']]],
   ['standardatmosphere',['standardAtmosphere',['../group___n_i_s_t_const-_standard_atmosphere.html#ga260e00232ff2d0d8a24bdbf7f6c87b4e',1,'NISTConst']]],

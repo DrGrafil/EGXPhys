@@ -40,10 +40,10 @@ var NAVTREEINDEX =
 "_n_i_s_t_const_8hpp.html#ga45f55b90a26e2e96f00c2664ddd79f11",
 "_n_i_s_t_const_8hpp.html#gaf4037fe32df08c9c7eccd8487b5eab34",
 "_radioactive_decay_8hpp_source.html",
-"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga0eb401fd061fcc28ed22ddc869938bea",
-"group___e_g_x_phys-_nuclear_binding_energy.html#gaf229d8c0d2aa30ff95aa20e5213df3bd",
-"group___n_i_s_t_const-_gravitational_constant.html#gad7c8d8ef09f60e8f3f36f86f98df0472",
-"group___n_i_s_t_const-_triton.html#gab22c798216b8f6290211f61270b77eb9"
+"group___e_g_x_math-_angle_conversions-_gradian.html#ga5c81967ddb8f677634d161713174e419",
+"group___e_g_x_phys-_luminosity.html#ga909f82edfaed449b44e94788b642ebb8",
+"group___n_i_s_t_const-_electron_volt.html#gabd56c1195e7ce2bb9c314e88b43e30ab",
+"group___n_i_s_t_const-_tau.html#ga07e317845454c4534cc0273efa2e55c6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
