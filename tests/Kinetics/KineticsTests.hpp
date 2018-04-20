@@ -5,5 +5,6 @@
 //
 #pragma once
 
+#include "AngularAccelerationTests.hpp"
 #include "TorqueTests.hpp"
 

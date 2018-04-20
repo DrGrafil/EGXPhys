@@ -1,6 +1,6 @@
-/// @file EGXMath/Geometry/XXXXX.inl
+/// @file EGXMath/Geometry/2D/Circle.inl
 ///
-/// @brief Implimentation of functions related to shape.
+/// @brief Implimentation of functions related to Circle shape.
 /// @author Elliot Grafil (Metex)
 /// @date 4/10/18
 
@@ -9,7 +9,7 @@ namespace EGXMath {
 
 
 	template <typename T>
-	T CircleArea(const T radius)
+	T CircleSurfaceArea(const T radius)
 	{
 		return (T)pi * radius * radius;
 	}

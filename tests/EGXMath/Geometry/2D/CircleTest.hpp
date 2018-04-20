@@ -17,10 +17,10 @@ TEST_CASE("Geometry 2D Circle"){
 	float r1 = 1.0; float r2 = 2.0; float r3 = 4.0;
 
 	//Area
-	CHECK(CircleArea(0.0) == 0.0);
-	CHECK(CircleArea(r1) == Approx(EGXMath::pi).scale(0.0).epsilon(0.001));
-	CHECK(CircleArea(r2) == Approx(4.0*EGXMath::pi).scale(0.0).epsilon(0.001));
-	CHECK(CircleArea(r3) == Approx(16.0*EGXMath::pi).scale(0.0).epsilon(0.001));
+	CHECK(CircleSurfaceArea(0.0) == 0.0);
+	CHECK(CircleSurfaceArea(r1) == Approx(EGXMath::pi).scale(0.0).epsilon(0.001));
+	CHECK(CircleSurfaceArea(r2) == Approx(4.0*EGXMath::pi).scale(0.0).epsilon(0.001));
+	CHECK(CircleSurfaceArea(r3) == Approx(16.0*EGXMath::pi).scale(0.0).epsilon(0.001));
 	
 	//Circumference
 	CHECK(CircleCircumference(0.0) == 0.0);

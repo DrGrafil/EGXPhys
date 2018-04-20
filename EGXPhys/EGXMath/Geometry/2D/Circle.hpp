@@ -41,7 +41,7 @@ namespace EGXMath
 	*	@see DiskInertia() for inertial tensor of a disk.
 	*/
 	template <typename T>
-	T CircleArea(const T radius);
+	T CircleSurfaceArea(const T radius);
 
 	/**
 	*   @brief Finds the circumference, \f$C_{circle}\f$ of a circle with radius, \f$r\f$

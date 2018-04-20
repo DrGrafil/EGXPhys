@@ -444,6 +444,12 @@
     <ClInclude Include="..\..\EGXPhys\Kinetics\CentripetalForce.hpp">
       <Filter>EGXPhys\Kinetics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\tests\Kinetics\AngularAccelerationTests.hpp">
+      <Filter>Tests\Kinetics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Cylinder.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -621,6 +627,9 @@
     </None>
     <None Include="..\..\EGXPhys\Kinetics\CentripetalForce.inl">
       <Filter>EGXPhys\Kinetics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Cylinder.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -38,10 +38,10 @@ namespace EGXMath
 	0 & 0 & \frac{1}{2}m\ r^2
 	\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html
-	*	@param mass \f$ m\ (kg)\f$ is the mass of the disk.
-	*	@param height \f$ r\ (m)\f$ is the height of the disk.
-	*	@param radius \f$ r\ (m)\f$ is the radius of the disk.
-	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
+	*	@param mass \f$ m\ (kg)\f$ Mass of disk in kilograms.
+	*	@param height \f$ r\ (m)\f$ Height of disk in meters.
+	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
+	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
 	*	@see CylinderInertia() for alias.
 	*	@see CircleArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
@@ -62,9 +62,9 @@ namespace EGXMath
 			0 & 0 & \frac{1}{2}m\ r^2
 			\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html
-	*	@param mass \f$ m\ (kg)\f$ is the mass of the disk.
-	*	@param radius \f$ r\ (m)\f$ is the radius of the disk.
-	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
+	*	@param mass \f$ m\ (kg)\f$ Mass of disk in kilograms.
+	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
+	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
 	*	@see CircleArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
@@ -85,10 +85,10 @@ namespace EGXMath
 	0 & 0 & \frac{1}{2}m\ r^2
 	\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html
-	*	@param mass \f$ m\ (kg)\f$ is the mass of the disk.
-	*	@param height \f$ r\ (m)\f$ is the height of the disk.
-	*	@param radius \f$ r\ (m)\f$ is the radius of the disk.
-	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
+	*	@param mass \f$ m\ (kg)\f$ Mass of disk in kilograms.
+	*	@param height \f$ r\ (m)\f$ Height of disk in meters.
+	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
+	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
 	*	@see CylinderInertia() for alias.
 	*	@see CircleArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
@@ -109,9 +109,9 @@ namespace EGXMath
 	0 & 0 & \frac{1}{2}m\ r^2
 	\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html
-	*	@param mass \f$ m\ (kg)\f$ is the mass of the disk.
-	*	@param radius \f$ r\ (m)\f$ is the radius of the disk.
-	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
+	*	@param mass \f$ m\ (kg)\f$ Mass of disk in kilograms.
+	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
+	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
 	*	@see CircleArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
@@ -134,10 +134,10 @@ namespace EGXMath
 	0 & 0 & \frac{1}{2}m\ r^2
 	\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html
-	*	@param mass \f$ m\ (kg)\f$ is the mass of the disk.
-	*	@param height \f$ r\ (m)\f$ is the height of the disk.
-	*	@param radius \f$ r\ (m)\f$ is the radius of the disk.
-	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
+	*	@param mass \f$ m\ (kg)\f$ Mass of disk in kilograms.
+	*	@param height \f$ r\ (m)\f$ Height of disk in meters.
+	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
+	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
 	*	@see CylinderInertia() for alias.
 	*	@see CircleArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
@@ -158,9 +158,9 @@ namespace EGXMath
 	0 & 0 & \frac{1}{2}m\ r^2
 	\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html
-	*	@param mass \f$ m\ (kg)\f$ is the mass of the disk.
-	*	@param radius \f$ r\ (m)\f$ is the radius of the disk.
-	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
+	*	@param mass \f$ m\ (kg)\f$ Mass of disk in kilograms.
+	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
+	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
 	*	@see CircleArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.

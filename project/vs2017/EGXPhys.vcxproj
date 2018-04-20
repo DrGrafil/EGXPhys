@@ -198,6 +198,7 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\PeriodicFunctions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Cylinder.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Geometry.hpp" />
@@ -252,6 +253,7 @@
     <ClInclude Include="..\..\tests\EGXMath\EGXMathTests.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\CircleTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\GeometryTest.hpp" />
+    <ClInclude Include="..\..\tests\Kinetics\AngularAccelerationTests.hpp" />
     <ClInclude Include="..\..\tests\Kinetics\KineticsTests.hpp" />
     <ClInclude Include="..\..\tests\Kinetics\TorqueTests.hpp" />
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp" />
@@ -307,6 +309,7 @@
     <None Include="..\..\EGXPhys\EGXMath\Functions\PeriodicFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Cylinder.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.inl" />
     <None Include="..\..\EGXPhys\Kinetics\AngularAcceleration.inl" />
