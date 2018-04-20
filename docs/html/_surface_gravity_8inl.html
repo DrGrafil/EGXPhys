@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EGXPhys: D:/GitHub/EGXPhys/EGXPhys/Astrophysics/Astrophysics.hpp File Reference</title>
+<title>EGXPhys: D:/GitHub/EGXPhys/EGXPhys/Astrophysics/SurfaceGravity.inl File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('_astrophysics_8hpp.html','');});
+$(document).ready(function(){initNavTree('_surface_gravity_8inl.html','');});
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -91,41 +91,43 @@ $(document).ready(function(){initNavTree('_astrophysics_8hpp.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Astrophysics.hpp File Reference</div>  </div>
+<div class="title">SurfaceGravity.inl File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Includes all header files that are related to the field of Astrophysics.  
+<p>Implimentation of surface gravity calculations.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="_astrophysics_constants_8hpp_source.html">AstrophysicsConstants.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_apoapsis_8hpp_source.html">Apoapsis.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_b-_v_color_8hpp_source.html">B-VColor.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_circumstellar_habitable_zone_8hpp_source.html">CircumstellarHabitableZone.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_color_temperature_8hpp_source.html">ColorTemperature.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_declination_8hpp_source.html">Declination.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_escape_velocity_8hpp_source.html">EscapeVelocity.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_luminosity_8hpp_source.html">Luminosity.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_orbital_charecteristics_8hpp_source.html">OrbitalCharecteristics.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_periapsis_8hpp_source.html">Periapsis.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_planetary_mass_8hpp_source.html">PlanetaryMass.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_planet_criteria_8hpp_source.html">PlanetCriteria.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_right_ascension_8hpp_source.html">RightAscension.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_standard_gravitational_parameter_8hpp_source.html">StandardGravitationalParameter.hpp</a>&quot;</code><br />
-<code>#include &quot;StellarMass.hpp&quot;</code><br />
-<code>#include &quot;<a class="el" href="_surface_gravity_8hpp_source.html">SurfaceGravity.hpp</a>&quot;</code><br />
-</div>
-<p><a href="_astrophysics_8hpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gaf7e1f42b674fe8bb2211c40882a7d5b6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaf7e1f42b674fe8bb2211c40882a7d5b6"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_surface_gravity.html#gaf7e1f42b674fe8bb2211c40882a7d5b6">EGXPhys::SurfaceGravityInmPersSquared</a> (const T massInkg, const T meanRadiusInm)</td></tr>
+<tr class="memdesc:gaf7e1f42b674fe8bb2211c40882a7d5b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the surface gravity, \(g\), of a celestial body in meters per second squared. The surface gravity is a product of the gravitational constant, \(G\), as well as the mass, \(M\), and mean radius, \(r\), of the celestial body: </p><p class="formulaDsp">
+\[g = \frac{GM}{r^2}\]
+</p>
+<p>.  <a href="group___e_g_x_phys-_astrophysics-_surface_gravity.html#gaf7e1f42b674fe8bb2211c40882a7d5b6">More...</a><br /></td></tr>
+<tr class="separator:gaf7e1f42b674fe8bb2211c40882a7d5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab5bb479758d72608ef6ada063f6c1a1b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gab5bb479758d72608ef6ada063f6c1a1b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_astrophysics-_surface_gravity.html#gab5bb479758d72608ef6ada063f6c1a1b">EGXPhys::SurfaceGravityIng</a> (const T massInkg, const T meanRadiusInm)</td></tr>
+<tr class="memdesc:gab5bb479758d72608ef6ada063f6c1a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the surface gravity, \(g\), of a celestial body in gs (Earth's gravity). The surface gravity is a product of the gravitational constant, \(G\), as well as the mass, \(M\), and mean radius, \(r\), of the celestial body: </p><p class="formulaDsp">
+\[g = \frac{GM}{g_{Earth}r^2}\]
+</p>
+<p>.  <a href="group___e_g_x_phys-_astrophysics-_surface_gravity.html#gab5bb479758d72608ef6ada063f6c1a1b">More...</a><br /></td></tr>
+<tr class="separator:gab5bb479758d72608ef6ada063f6c1a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Includes all header files that are related to the field of Astrophysics. </p>
+<div class="textblock"><p>Implimentation of surface gravity calculations. </p>
 <dl class="section author"><dt>Author</dt><dd>Elliot Grafil (Metex) </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>7/25/17 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>4/19/18 </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_ce4ef40a56af8221486bcd78e6a47b62.html">EGXPhys</a></li><li class="navelem"><a class="el" href="dir_7ac1fe1f7e154c60bf4adac7dda4de70.html">Astrophysics</a></li><li class="navelem"><a class="el" href="_astrophysics_8hpp.html">Astrophysics.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_ce4ef40a56af8221486bcd78e6a47b62.html">EGXPhys</a></li><li class="navelem"><a class="el" href="dir_7ac1fe1f7e154c60bf4adac7dda4de70.html">Astrophysics</a></li><li class="navelem"><a class="el" href="_surface_gravity_8inl.html">SurfaceGravity.inl</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>

@@ -5,7 +5,7 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/19/18
 
-/// @defgroup EGXPhys-Parallax Parallax
+/// @defgroup EGXPhys-Astrophysic-Parallax Parallax
 /// @ingroup EGXPhys-Astrophysics
 
 //=================================
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup EGXPhys-Parallax
+	/// @addtogroup EGXPhys-Astrophysic-Parallax
 	/// @{
 	
     /// @}

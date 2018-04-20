@@ -2,6 +2,7 @@ var searchData=
 [
   ['sign',['Sign',['../group___e_g_x_math-_functions-_sign.html',1,'']]],
   ['standard_20gravitational_20parameter',['Standard Gravitational Parameter',['../group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html',1,'']]],
+  ['surface_20gravity',['Surface Gravity',['../group___e_g_x_phys-_astrophysics-_surface_gravity.html',1,'']]],
   ['separation_20energy',['Separation Energy',['../group___e_g_x_phys-_nuclear_separation_energy.html',1,'']]],
   ['semi_2dempirical_20mass_20formula',['Semi-Empirical Mass Formula',['../group___e_g_x_phys-_semi_empirical_mass_formula.html',1,'']]],
   ['stellar_20mass',['Stellar Mass',['../group___e_g_x_phys-_stellar_mass.html',1,'']]],
@@ -65,5 +66,9 @@ var searchData=
   ['sunluminocity',['SunLuminocity',['../_astrophysics_constants_8hpp.html#a3987543f6972eb72eb2c07d39520b43e',1,'EGXPhys']]],
   ['sunmass',['SunMass',['../_astrophysics_constants_8hpp.html#a15b2187a46d73ac35fa7467b8fa6cb19',1,'EGXPhys']]],
   ['suntempreture',['SunTempreture',['../_astrophysics_constants_8hpp.html#a97be71e7f8ca4f7813362bc1dca66db5',1,'EGXPhys']]],
+  ['surfacegravity_2ehpp',['SurfaceGravity.hpp',['../_surface_gravity_8hpp.html',1,'']]],
+  ['surfacegravity_2einl',['SurfaceGravity.inl',['../_surface_gravity_8inl.html',1,'']]],
+  ['surfacegravitying',['SurfaceGravityIng',['../group___e_g_x_phys-_astrophysics-_surface_gravity.html#gab5bb479758d72608ef6ada063f6c1a1b',1,'EGXPhys']]],
+  ['surfacegravityinmperssquared',['SurfaceGravityInmPersSquared',['../group___e_g_x_phys-_astrophysics-_surface_gravity.html#gaf7e1f42b674fe8bb2211c40882a7d5b6',1,'EGXPhys']]],
   ['surfacetempretureofearth',['SurfaceTempretureOfEarth',['../_astrophysics_constants_8hpp.html#a942ce2ac76b5df8b08ec7827d3e20b76',1,'EGXPhys']]]
 ];

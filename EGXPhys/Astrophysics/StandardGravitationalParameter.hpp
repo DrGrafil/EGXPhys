@@ -27,13 +27,13 @@ namespace EGXPhys
 	/// @{
 	
 	/**
-	*   @brief Calculates the standard gravitational parameter, \f$\mu\f$, of a celestial body in meters cubed per second squared. The standard gravitational parameter is a product of the gravitational constant, \f$G\f$, and the mass, \f$M\f$, of the celestial body:
+	*   @brief Calculates the standard gravitational parameter, \f$\mu\f$, of a celestial body in meter cubed per second squared. The standard gravitational parameter is a product of the gravitational constant, \f$G\f$, and the mass, \f$M\f$, of the celestial body:
 	*   		\f[\mu  = GM\f]
 	*
 	*   See https://en.wikipedia.org/wiki/Standard_gravitational_parameter
 	*
 	*   @param massInkg \f$M\ (kg)\f$ Mass of celestial body in kilograms.
-	*   @return \f$\mu\ (\frac{m^3}{s^2})\f$ Standard gravitational parameter of celestial body in meters cubed per second squared.
+	*   @return \f$\mu\ (\frac{m^3}{s^2})\f$ Standard gravitational parameter of celestial body in meter cubed per second squared.
 	*/
 	template<typename T>
 	T StandardGravitationalParameter(const T massInkg);

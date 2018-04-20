@@ -1,5 +1,12 @@
 var NAVTREEINDEX6 =
 {
+"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga0eb401fd061fcc28ed22ddc869938bea":[1,0,0,6,2],
+"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga175cead130e511e2c61545d71e3dc2f3":[1,0,0,6,15],
+"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga281ee88be0cb04f58bdf19efcef58146":[1,0,0,6,6],
+"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga36fcb6a59fd8d135346f7ee3d648c2f4":[1,0,0,6,1],
+"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga5091437050cc32e29f722a3c50650405":[1,0,0,6,12],
+"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga5d91ade4a1aaf641f9483e840e701446":[1,0,0,6,13],
+"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga5f0873c7c013ba2c5784de3725f2c042":[1,0,0,6,16],
 "group___e_g_x_math-_angle_conversions-_h_m_s.html#ga6374888f82360747241f6670e1b2048e":[1,0,0,6,4],
 "group___e_g_x_math-_angle_conversions-_h_m_s.html#ga7751b1ea9b1874096023286240a91068":[1,0,0,6,9],
 "group___e_g_x_math-_angle_conversions-_h_m_s.html#ga7a875e85b32c4d7a8c6fa9a833f2bf7a":[1,0,0,6,8],
@@ -161,6 +168,7 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_apoapsis.html#gacc68b49812c38394611e1ef3a8bf0e3e":[1,1,1,1,16],
 "group___e_g_x_phys-_apoapsis.html#gae4ea146039e6f32022321f0998e715e8":[1,1,1,1,6],
 "group___e_g_x_phys-_apoapsis.html#gaf962e650bf84a568458e8eb39b1c61ba":[1,1,1,1,2],
+"group___e_g_x_phys-_astrophysic-_parallax.html":[1,1,1,10],
 "group___e_g_x_phys-_astrophysics-_absolute_magnitude.html":[1,1,1,0],
 "group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga2ddb255fa28972334d82f377ce182048":[1,1,1,0,0],
 "group___e_g_x_phys-_astrophysics-_color_temperature.html":[1,1,1,4],
@@ -180,6 +188,9 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_astrophysics-_right_ascension.html#ga6fdbd35a030d278f396496899a1c236f":[1,1,1,14,0],
 "group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html":[1,1,1,15],
 "group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html#ga37f4ed78b0fc23603b49ade3e435ea20":[1,1,1,15,0],
+"group___e_g_x_phys-_astrophysics-_surface_gravity.html":[1,1,1,19],
+"group___e_g_x_phys-_astrophysics-_surface_gravity.html#gab5bb479758d72608ef6ada063f6c1a1b":[1,1,1,19,0],
+"group___e_g_x_phys-_astrophysics-_surface_gravity.html#gaf7e1f42b674fe8bb2211c40882a7d5b6":[1,1,1,19,1],
 "group___e_g_x_phys-_astrophysics.html":[1,1,1],
 "group___e_g_x_phys-_atomic.html":[1,1,2],
 "group___e_g_x_phys-_b-_v_color.html":[1,1,1,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_nuclear_binding_energy.html":[1,1,2,6],
 "group___e_g_x_phys-_nuclear_binding_energy.html#ga25f5d2d32fad7e28e278cf8b5ea8ffa8":[1,1,2,6,3],
 "group___e_g_x_phys-_nuclear_binding_energy.html#gab6832bf15ead7b4e867e759e0a2a078e":[1,1,2,6,0],
-"group___e_g_x_phys-_nuclear_binding_energy.html#gae48a95188d9b71b36d02babf227b9449":[1,1,2,6,1],
-"group___e_g_x_phys-_nuclear_binding_energy.html#gaf229d8c0d2aa30ff95aa20e5213df3bd":[1,1,2,6,2],
-"group___e_g_x_phys-_nuclear_binding_energy.html#gafeed0fb7220e4900a8da011ed9fca44f":[1,1,2,6,4],
-"group___e_g_x_phys-_nuclear_separation_energy.html":[1,1,2,7],
-"group___e_g_x_phys-_nuclear_separation_energy.html#ga09985fc876eb632695bfbc1f2f325401":[1,1,2,7,3],
-"group___e_g_x_phys-_nuclear_separation_energy.html#ga0de42783a7c650eb32f85dc2d40d84d7":[1,1,2,7,7],
-"group___e_g_x_phys-_nuclear_separation_energy.html#ga14a4bb972ae000ef4ff35f2734ff22d0":[1,1,2,7,0],
-"group___e_g_x_phys-_nuclear_separation_energy.html#ga293ac9428420a0adf4235048dbe529b4":[1,1,2,7,2],
-"group___e_g_x_phys-_nuclear_separation_energy.html#ga4274d8f5a3860169fd81970707eb582a":[1,1,2,7,4],
-"group___e_g_x_phys-_nuclear_separation_energy.html#ga66133edb5809c81dd9fd60e09ebbef79":[1,1,2,7,1],
-"group___e_g_x_phys-_nuclear_separation_energy.html#ga6a619ded55c47ed22ea2d8a85202ebeb":[1,1,2,7,5],
-"group___e_g_x_phys-_nuclear_separation_energy.html#gad7c1d4a32daa8aaa53c5fce37c421f82":[1,1,2,7,6]
+"group___e_g_x_phys-_nuclear_binding_energy.html#gae48a95188d9b71b36d02babf227b9449":[1,1,2,6,1]
 };

@@ -29,6 +29,7 @@
 #include "RightAscension.hpp"
 #include "StandardGravitationalParameter.hpp"
 #include "StellarMass.hpp"
+#include "SurfaceGravity.hpp"
 
 
 //=================================

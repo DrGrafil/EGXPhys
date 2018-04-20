@@ -10,7 +10,7 @@ var group___e_g_x_phys__astrophysics =
     [ "Escape Velocity", "group___e_g_x_phys-_astrophysics-_escape_velocity.html", "group___e_g_x_phys-_astrophysics-_escape_velocity" ],
     [ "Luminosity", "group___e_g_x_phys-_luminosity.html", "group___e_g_x_phys-_luminosity" ],
     [ "Orbital Charecteristics", "group___e_g_x_phys-_orbital_charecteristics.html", null ],
-    [ "Parallax", "group___e_g_x_phys-_parallax.html", null ],
+    [ "Parallax", "group___e_g_x_phys-_astrophysic-_parallax.html", null ],
     [ "Periapsis", "group___e_g_x_phys-_periapsis.html", "group___e_g_x_phys-_periapsis" ],
     [ "Planetary Mass", "group___e_g_x_phys-_planetary_mass.html", "group___e_g_x_phys-_planetary_mass" ],
     [ "Planet Criteria", "group___e_g_x_phys-_planet_criteria.html", "group___e_g_x_phys-_planet_criteria" ],
@@ -18,5 +18,6 @@ var group___e_g_x_phys__astrophysics =
     [ "Standard Gravitational Parameter", "group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html", "group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter" ],
     [ "Stellar Mass", "group___e_g_x_phys-_stellar_mass.html", "group___e_g_x_phys-_stellar_mass" ],
     [ "Stellar Radius", "group___e_g_x_phys-_stellar_radius.html", null ],
-    [ "Stellar Temperature", "group___e_g_x_phys-_stellar_temperature.html", null ]
+    [ "Stellar Temperature", "group___e_g_x_phys-_stellar_temperature.html", null ],
+    [ "Surface Gravity", "group___e_g_x_phys-_astrophysics-_surface_gravity.html", "group___e_g_x_phys-_astrophysics-_surface_gravity" ]
 ];

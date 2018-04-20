@@ -56,6 +56,13 @@ var NAVTREEINDEX5 =
 "_stellar_temperature_8hpp.html":[2,0,0,1,36],
 "_stellar_temperature_8hpp_source.html":[2,0,0,1,36],
 "_stellar_temperature_8inl.html":[2,0,0,1,37],
+"_surface_gravity_8hpp.html":[2,0,0,1,38],
+"_surface_gravity_8hpp.html#gab5bb479758d72608ef6ada063f6c1a1b":[2,0,0,1,38,0],
+"_surface_gravity_8hpp.html#gaf7e1f42b674fe8bb2211c40882a7d5b6":[2,0,0,1,38,1],
+"_surface_gravity_8hpp_source.html":[2,0,0,1,38],
+"_surface_gravity_8inl.html":[2,0,0,1,39],
+"_surface_gravity_8inl.html#gab5bb479758d72608ef6ada063f6c1a1b":[2,0,0,1,39,0],
+"_surface_gravity_8inl.html#gaf7e1f42b674fe8bb2211c40882a7d5b6":[2,0,0,1,39,1],
 "_tangential_velocity_8hpp_source.html":[2,0,0,5,8],
 "_thermodynamics_8hpp.html":[2,0,0,11,0],
 "_thermodynamics_8hpp_source.html":[2,0,0,11,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX5 =
 "group___e_g_x_math-_angle_conversions-_gradian.html#gaf174cf5b716d5a490b3744ffe9ff3b97":[1,0,0,5,11],
 "group___e_g_x_math-_angle_conversions-_gradian.html#gaff399262b6c8455e450e0a9dc8eb2ad1":[1,0,0,5,9],
 "group___e_g_x_math-_angle_conversions-_h_m_s.html":[1,0,0,6],
-"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga08189ea113f78c71e3d30055c757604a":[1,0,0,6,14],
-"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga0eb401fd061fcc28ed22ddc869938bea":[1,0,0,6,2],
-"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga175cead130e511e2c61545d71e3dc2f3":[1,0,0,6,15],
-"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga281ee88be0cb04f58bdf19efcef58146":[1,0,0,6,6],
-"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga36fcb6a59fd8d135346f7ee3d648c2f4":[1,0,0,6,1],
-"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga5091437050cc32e29f722a3c50650405":[1,0,0,6,12],
-"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga5d91ade4a1aaf641f9483e840e701446":[1,0,0,6,13],
-"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga5f0873c7c013ba2c5784de3725f2c042":[1,0,0,6,16]
+"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga08189ea113f78c71e3d30055c757604a":[1,0,0,6,14]
 };

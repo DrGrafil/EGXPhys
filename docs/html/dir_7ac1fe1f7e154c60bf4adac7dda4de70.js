@@ -37,5 +37,7 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "StellarRadius.hpp", "_stellar_radius_8hpp.html", null ],
     [ "StellarRadius.inl", "_stellar_radius_8inl.html", null ],
     [ "StellarTemperature.hpp", "_stellar_temperature_8hpp.html", null ],
-    [ "StellarTemperature.inl", "_stellar_temperature_8inl.html", null ]
+    [ "StellarTemperature.inl", "_stellar_temperature_8inl.html", null ],
+    [ "SurfaceGravity.hpp", "_surface_gravity_8hpp.html", "_surface_gravity_8hpp" ],
+    [ "SurfaceGravity.inl", "_surface_gravity_8inl.html", "_surface_gravity_8inl" ]
 ];

@@ -14,4 +14,5 @@
 #include "PlanetaryMassTests.hpp"
 #include "StandardGravitationalParameterTests.hpp"
 #include "StellarMassTests.hpp"
+#include "SurfaceGravityTests.hpp"
 

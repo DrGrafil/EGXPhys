@@ -8,5 +8,7 @@ var searchData=
   ['standardgravitationalparameter',['StandardGravitationalParameter',['../group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html#ga37f4ed78b0fc23603b49ade3e435ea20',1,'EGXPhys']]],
   ['stellarfluxeffectiveselsis',['StellarFluxEffectiveSelsis',['../group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga0eb1003b4cfcbcafde635cefca5ae5c2',1,'EGXPhys']]],
   ['stellarfluxeffectiveunderwood',['StellarFluxEffectiveUnderwood',['../group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gafe02cffcc63c39794feb6f1de5e7a9bb',1,'EGXPhys']]],
-  ['stellarmass',['StellarMass',['../group___e_g_x_phys-_stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61',1,'EGXPhys']]]
+  ['stellarmass',['StellarMass',['../group___e_g_x_phys-_stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61',1,'EGXPhys']]],
+  ['surfacegravitying',['SurfaceGravityIng',['../group___e_g_x_phys-_astrophysics-_surface_gravity.html#gab5bb479758d72608ef6ada063f6c1a1b',1,'EGXPhys']]],
+  ['surfacegravityinmperssquared',['SurfaceGravityInmPersSquared',['../group___e_g_x_phys-_astrophysics-_surface_gravity.html#gaf7e1f42b674fe8bb2211c40882a7d5b6',1,'EGXPhys']]]
 ];

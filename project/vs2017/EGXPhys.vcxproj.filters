@@ -456,6 +456,12 @@
     <ClInclude Include="..\..\tests\Astrophysics\StandardGravitationalParameterTests.hpp">
       <Filter>Tests\Astrophysics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\SurfaceGravity.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Astrophysics\SurfaceGravityTests.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -638,6 +644,9 @@
       <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
     </None>
     <None Include="..\..\EGXPhys\Astrophysics\StandardGravitationalParameter.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\SurfaceGravity.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>
