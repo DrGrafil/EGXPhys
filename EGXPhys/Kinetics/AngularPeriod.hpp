@@ -51,7 +51,7 @@ namespace EGXPhys
 	*	@param forceInN \f$F\ (N)\f$ Force vector applied to object in Newtons.
 	*	@param torqueInNm \f$\tau\ (N\ m)\f$ Torque in Newton meters.
 	*/
-	void Torque(const glm::vec3& positionFromFulcrumInm, const glm::vec3& forceInN, glm::vec3& torqueInNm);
+	//void Torque(const glm::vec3& positionFromFulcrumInm, const glm::vec3& forceInN, glm::vec3& torqueInNm);
 #endif // EGXPHYS_GLM
 
     /// @}

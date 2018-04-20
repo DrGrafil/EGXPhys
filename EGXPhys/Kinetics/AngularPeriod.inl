@@ -18,9 +18,9 @@ namespace EGXPhys{
 	*/
 
 #ifdef EGXPHYS_GLM
-
+	/*
 	void Torque(const glm::vec3& positionFromFulcrumInm, const glm::vec3& forceInN, glm::vec3& torqueInNm) {
 		torqueInNm = glm::cross(positionFromFulcrumInm, forceInN);
-	}
+	}*/
 #endif // EGXPHYS_GLM
 }//namespace EGXPhys

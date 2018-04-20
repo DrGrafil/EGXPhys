@@ -16,16 +16,16 @@ namespace EGXPhys{
 
 	}
 	*/
-
+	/*
 	template<typename T>
 	void Torque(const T& positionFromFulcrumInm, const T& forceInN, T& torqueInNm) {
 		assert(("Torque base template should not be called. Use the specializations", 1 == 0));
-	}
+	}*/
 
 #ifdef EGXPHYS_GLM
 
-	template<>
-	void Torque(const glm::vec3& positionFromFulcrumInm, const glm::vec3& forceInN, glm::vec3& torqueInNm) {
+	
+	inline void Torque(const glm::vec3& positionFromFulcrumInm, const glm::vec3& forceInN, glm::vec3& torqueInNm) {
 		torqueInNm = glm::cross(positionFromFulcrumInm, forceInN);
 	}
 #endif // EGXPHYS_GLM
