@@ -15,6 +15,7 @@ var group___e_g_x_phys__astrophysics =
     [ "Planetary Mass", "group___e_g_x_phys-_planetary_mass.html", "group___e_g_x_phys-_planetary_mass" ],
     [ "Planet Criteria", "group___e_g_x_phys-_planet_criteria.html", "group___e_g_x_phys-_planet_criteria" ],
     [ "Right Ascension", "group___e_g_x_phys-_astrophysics-_right_ascension.html", "group___e_g_x_phys-_astrophysics-_right_ascension" ],
+    [ "Standard Gravitational Parameter", "group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html", "group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter" ],
     [ "Stellar Mass", "group___e_g_x_phys-_stellar_mass.html", "group___e_g_x_phys-_stellar_mass" ],
     [ "Stellar Radius", "group___e_g_x_phys-_stellar_radius.html", null ],
     [ "Stellar Temperature", "group___e_g_x_phys-_stellar_temperature.html", null ]

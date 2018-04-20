@@ -1,6 +1,7 @@
 var searchData=
 [
   ['sign',['Sign',['../group___e_g_x_math-_functions-_sign.html',1,'']]],
+  ['standard_20gravitational_20parameter',['Standard Gravitational Parameter',['../group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html',1,'']]],
   ['separation_20energy',['Separation Energy',['../group___e_g_x_phys-_nuclear_separation_energy.html',1,'']]],
   ['semi_2dempirical_20mass_20formula',['Semi-Empirical Mass Formula',['../group___e_g_x_phys-_semi_empirical_mass_formula.html',1,'']]],
   ['stellar_20mass',['Stellar Mass',['../group___e_g_x_phys-_stellar_mass.html',1,'']]],
@@ -46,6 +47,9 @@ var searchData=
   ['squarewave',['SquareWave',['../group___e_g_x_math-_functions-_periodic.html#ga3bdc6c02d347f48f91bca886448db33a',1,'EGXMath']]],
   ['standardaccelerationofgravity',['standardAccelerationOfGravity',['../group___n_i_s_t_const-_gravity_acceleration.html#gad5bc5f7f030bc2c467a8430e00b42f5e',1,'NISTConst']]],
   ['standardatmosphere',['standardAtmosphere',['../group___n_i_s_t_const-_standard_atmosphere.html#ga260e00232ff2d0d8a24bdbf7f6c87b4e',1,'NISTConst']]],
+  ['standardgravitationalparameter',['StandardGravitationalParameter',['../group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html#ga37f4ed78b0fc23603b49ade3e435ea20',1,'EGXPhys']]],
+  ['standardgravitationalparameter_2ehpp',['StandardGravitationalParameter.hpp',['../_standard_gravitational_parameter_8hpp.html',1,'']]],
+  ['standardgravitationalparameter_2einl',['StandardGravitationalParameter.inl',['../_standard_gravitational_parameter_8inl.html',1,'']]],
   ['standardstatepressure',['standardStatePressure',['../group___n_i_s_t_const-_standard_state_pressure.html#gaede4b63db291cd6a839180595c7a191d',1,'NISTConst']]],
   ['stefanboltzmannconstant',['StefanBoltzmannConstant',['../group___n_i_s_t_const-_stefan_boltzmann_constant.html#ga1094e420290686333202d186399d706d',1,'NISTConst']]],
   ['stellarfluxeffectiveselsis',['StellarFluxEffectiveSelsis',['../group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga0eb1003b4cfcbcafde635cefca5ae5c2',1,'EGXPhys']]],

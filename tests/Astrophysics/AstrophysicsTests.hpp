@@ -12,4 +12,6 @@
 #include "PeriapsisTests.hpp"
 #include "PlanetCriteriaTests.hpp"
 #include "PlanetaryMassTests.hpp"
+#include "StandardGravitationalParameterTests.hpp"
 #include "StellarMassTests.hpp"
+

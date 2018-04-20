@@ -35,14 +35,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_absolute_magnitude_8hpp.html",
-"_declination_8hpp_source.html",
-"_half_life_8hpp.html#ga21d268f154fb91c1c556bbfa7fe83ac1",
-"_n_i_s_t_const_8hpp.html#ga5031f85750fecb545f0353cb05bb7c69",
-"_nuclear_binding_energy_8hpp.html#gae48a95188d9b71b36d02babf227b9449",
-"_relativity_constants_8hpp.html",
-"group___e_g_x_math-_angle_conversions-_hours_minutes_seconds.html#ga8fe72f56eebb44d7e8d7033476bbdd9b",
-"group___e_g_x_phys-_periapsis.html#gaff62669fb364a245cb85f9a91d8ea71f",
-"group___n_i_s_t_const-_hertz.html#ga7b63758ab74cb80c236d4eacd5b89484"
+"_decimal_degree_conversion_8inl.html#ga906ee2c83cdf4caa59eb613dc2d5d52a",
+"_h_m_s_conversion_8inl.html#ga36fcb6a59fd8d135346f7ee3d648c2f4",
+"_n_i_s_t_const_8hpp.html#ga45f55b90a26e2e96f00c2664ddd79f11",
+"_n_i_s_t_const_8hpp.html#gaf4037fe32df08c9c7eccd8487b5eab34",
+"_radioactive_decay_8hpp_source.html",
+"group___e_g_x_math-_angle_conversions-_h_m_s.html#ga6374888f82360747241f6670e1b2048e",
+"group___e_g_x_phys-_optics.html",
+"group___n_i_s_t_const-_hartree.html#gafc823cd4d405fbad0af7abf03a28917d",
+"group___n_i_s_t_const-_x-ray.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

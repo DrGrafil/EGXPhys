@@ -1,0 +1,32 @@
+\hypertarget{_cylinder_8inl}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Cylinder.inl File Reference}
+\label{_cylinder_8inl}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Cylinder.\+inl@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Cylinder.\+inl}}
+
+
+Implimentation of functions related to cylinder shape.  
+
+
+{\ttfamily \#include $<$glm/glm.\+hpp$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-_cylinder_gaf14619f5d525e14150a43b9898adb258}{E\+G\+X\+Math\+::\+Cylinder\+Surface\+Area}} (const T radius, const T height)
+\begin{DoxyCompactList}\small\item\em Finds the surface area, $A_{cyl}$, in meter squared of a cylinder with radius $r$ and height $h$\+: \[ A_{cyl}=2\pi r^2 + 2\pi r h \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-_cylinder_ga9d1aa08f778f9ccbd79953063f11bc9b}{E\+G\+X\+Math\+::\+Cylinder\+Volume}} (const T radius, const T height)
+\begin{DoxyCompactList}\small\item\em Finds the volume, $V_{cyl}$, in meter squared of a cylinder with radius $r$ and height $h$\+: \[ V_{cyl}=\pi r^2 h\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-_cylinder_gae7dca080058b400feb0d69f78af7a850}{E\+G\+X\+Math\+::\+Cylinder\+Inertia}} (const T mass, const T height, const T radius, T2(\&matrix)\mbox{[}9\mbox{]})
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{cyl}$ of a cylinder with radius, $r$, height, $h$ and mass $m$. The circular componet lays in the x,y plane. \[ I_{cyl}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-_cylinder_gac46dd57839cb2157d1bb6dd430d781ec}{E\+G\+X\+Math\+::\+Cylinder\+Inertia}} (const T mass, const T height, const T radius, std\+::vector$<$ T2 $>$ \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{cyl}$ of a cylinder with radius, $r$, height, $h$ and mass $m$. The circular componet lays in the x,y plane. \[ I_{cyl}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-_cylinder_ga5d9256549303e88a49b72e3d4c2c4a6d}{E\+G\+X\+Math\+::\+Cylinder\+Inertia}} (const T mass, const T height, const T radius, glm\+::mat3 \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{cyl}$ of a cylinder with radius, $r$, height, $h$ and mass $m$. The circular componet lays in the x,y plane. \[ I_{cyl}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implimentation of functions related to cylinder shape. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/19/18 
+\end{DoxyDate}
