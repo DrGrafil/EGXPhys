@@ -1,6 +1,7 @@
 var searchData=
 [
   ['absolutemagnitude',['AbsoluteMagnitude',['../group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga2ddb255fa28972334d82f377ce182048',1,'EGXPhys']]],
+  ['angularacceleration',['AngularAcceleration',['../group___e_g_x_phys-_kinetics-_angular_acceleration.html#gaf636e9a30f3db4e170829efbf40efbbe',1,'EGXPhys']]],
   ['apastron',['Apastron',['../group___e_g_x_phys-_apoapsis.html#ga2fc1c406ce10f59b4f325150aecd279a',1,'EGXPhys']]],
   ['aphelion',['Aphelion',['../group___e_g_x_phys-_apoapsis.html#ga77dadb4d082a441c8e85203c983722c7',1,'EGXPhys']]],
   ['apoapsis',['Apoapsis',['../group___e_g_x_phys-_apoapsis.html#gaf962e650bf84a568458e8eb39b1c61ba',1,'EGXPhys']]],

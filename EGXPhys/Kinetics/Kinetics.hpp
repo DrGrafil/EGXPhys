@@ -18,5 +18,11 @@
 
 //=================================
 #include "KineticsConstants.hpp"
-#include "./Torque.hpp"
+#include "AngularAcceleration.hpp"
+#include "AngularFrequency.hpp"
+#include "AngularPeriod.hpp"
+#include "CentripetalAcceleration.hpp"
+#include "CentripetalForce.hpp"
+#include "TangentialVelocity.hpp"
+#include "Torque.hpp"
 

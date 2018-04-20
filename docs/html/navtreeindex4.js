@@ -1,5 +1,14 @@
 var NAVTREEINDEX4 =
 {
+"_nuclear_binding_energy_8hpp.html#gae48a95188d9b71b36d02babf227b9449":[2,0,0,2,13,1],
+"_nuclear_binding_energy_8hpp.html#gaf229d8c0d2aa30ff95aa20e5213df3bd":[2,0,0,2,13,2],
+"_nuclear_binding_energy_8hpp.html#gafeed0fb7220e4900a8da011ed9fca44f":[2,0,0,2,13,4],
+"_nuclear_binding_energy_8hpp_source.html":[2,0,0,2,13],
+"_nuclear_binding_energy_8inl.html":[2,0,0,2,14],
+"_nuclear_binding_energy_8inl.html#ga25f5d2d32fad7e28e278cf8b5ea8ffa8":[2,0,0,2,14,3],
+"_nuclear_binding_energy_8inl.html#gab6832bf15ead7b4e867e759e0a2a078e":[2,0,0,2,14,0],
+"_nuclear_binding_energy_8inl.html#gae48a95188d9b71b36d02babf227b9449":[2,0,0,2,14,1],
+"_nuclear_binding_energy_8inl.html#gaf229d8c0d2aa30ff95aa20e5213df3bd":[2,0,0,2,14,2],
 "_nuclear_binding_energy_8inl.html#gafeed0fb7220e4900a8da011ed9fca44f":[2,0,0,2,14,4],
 "_nuclear_separation_energy_8hpp.html":[2,0,0,2,15],
 "_nuclear_separation_energy_8hpp.html#ga09985fc876eb632695bfbc1f2f325401":[2,0,0,2,15,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX4 =
 "_redshift_8inl.html#ga29300a13e34da35332ca2d447b5ce82d":[2,0,0,7,3,1],
 "_redshift_8inl.html#gacc6d3b2922061214d64b89a4b8e3967a":[2,0,0,7,3,0],
 "_relativity_8hpp.html":[2,0,0,10,2],
-"_relativity_8hpp_source.html":[2,0,0,10,2],
-"_relativity_constants_8hpp.html":[2,0,0,10,3],
-"_relativity_constants_8hpp_source.html":[2,0,0,10,3],
-"_right_ascension_8hpp.html":[2,0,0,1,29],
-"_right_ascension_8hpp.html#ga27ba790eb8358535613d3b32f97d9e3a":[2,0,0,1,29,2],
-"_right_ascension_8hpp.html#ga624dd87144a17d19d0100500c34da978":[2,0,0,1,29,1],
-"_right_ascension_8hpp.html#ga63a3103990c95078443e39a5b487ab0d":[2,0,0,1,29,3],
-"_right_ascension_8hpp.html#ga6fdbd35a030d278f396496899a1c236f":[2,0,0,1,29,0],
-"_right_ascension_8hpp_source.html":[2,0,0,1,29],
-"_right_ascension_8inl.html":[2,0,0,1,30]
+"_relativity_8hpp_source.html":[2,0,0,10,2]
 };

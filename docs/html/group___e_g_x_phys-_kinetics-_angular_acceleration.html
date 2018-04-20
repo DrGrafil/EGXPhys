@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EGXPhys: Torque</title>
+<title>EGXPhys: Angular Acceleration</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('group___e_g_x_phys-_kinetics-_torque.html','');});
+$(document).ready(function(){initNavTree('group___e_g_x_phys-_kinetics-_angular_acceleration.html','');});
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -94,44 +94,44 @@ $(document).ready(function(){initNavTree('group___e_g_x_phys-_kinetics-_torque.h
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Torque<div class="ingroups"><a class="el" href="group___e_g_x_phys.html">EGXPhys Library</a> &raquo; <a class="el" href="group___e_g_x_phys-_kinetics.html">Kinetics</a></div></div>  </div>
+<div class="title">Angular Acceleration<div class="ingroups"><a class="el" href="group___e_g_x_phys.html">EGXPhys Library</a> &raquo; <a class="el" href="group___e_g_x_phys-_kinetics.html">Kinetics</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga12a787853cab88d40412c8290ca41c61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_kinetics-_torque.html#ga12a787853cab88d40412c8290ca41c61">EGXPhys::Torque</a> (const glm::vec3 &amp;positionFromFulcrumInm, const glm::vec3 &amp;forceInN, glm::vec3 &amp;torqueInNm)</td></tr>
-<tr class="memdesc:ga12a787853cab88d40412c8290ca41c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the torque, \(\tau\), in Newton meters. Torque on an object is calculated from the force, \(F\), applied to an object at a position, \(r\), away from the fulcrum (pivot point): </p><p class="formulaDsp">
-\[\tau=r \times F \]
+<tr class="memitem:gaf636e9a30f3db4e170829efbf40efbbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_kinetics-_angular_acceleration.html#gaf636e9a30f3db4e170829efbf40efbbe">EGXPhys::AngularAcceleration</a> (const glm::vec3 &amp;torqueInNm, const glm::mat3 &amp;inertiaTensorInkgmsquared, glm::vec3 &amp;angularAccelerationInradPersSquared)</td></tr>
+<tr class="memdesc:gaf636e9a30f3db4e170829efbf40efbbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the angular acceleration, \(\alpha\), in radians per second squared. Angular acceleration of an object is calculated from the torque, \(\tau\), applied to an object and the object's inertia tensor, \(I\): </p><p class="formulaDsp">
+\[\alpha=I^-1 \tau \]
 </p>
-<p>.  <a href="group___e_g_x_phys-_kinetics-_torque.html#ga12a787853cab88d40412c8290ca41c61">More...</a><br /></td></tr>
-<tr class="separator:ga12a787853cab88d40412c8290ca41c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>.  <a href="group___e_g_x_phys-_kinetics-_angular_acceleration.html#gaf636e9a30f3db4e170829efbf40efbbe">More...</a><br /></td></tr>
+<tr class="separator:gaf636e9a30f3db4e170829efbf40efbbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga12a787853cab88d40412c8290ca41c61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga12a787853cab88d40412c8290ca41c61">&#9670;&nbsp;</a></span>Torque()</h2>
+<a id="gaf636e9a30f3db4e170829efbf40efbbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf636e9a30f3db4e170829efbf40efbbe">&#9670;&nbsp;</a></span>AngularAcceleration()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void EGXPhys::Torque </td>
+          <td class="memname">void EGXPhys::AngularAcceleration </td>
           <td>(</td>
           <td class="paramtype">const glm::vec3 &amp;&#160;</td>
-          <td class="paramname"><em>positionFromFulcrumInm</em>, </td>
+          <td class="paramname"><em>torqueInNm</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const glm::vec3 &amp;&#160;</td>
-          <td class="paramname"><em>forceInN</em>, </td>
+          <td class="paramtype">const glm::mat3 &amp;&#160;</td>
+          <td class="paramname"><em>inertiaTensorInkgmsquared</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">glm::vec3 &amp;&#160;</td>
-          <td class="paramname"><em>torqueInNm</em>&#160;</td>
+          <td class="paramname"><em>angularAccelerationInradPersSquared</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -141,16 +141,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Calculates the torque, \(\tau\), in Newton meters. Torque on an object is calculated from the force, \(F\), applied to an object at a position, \(r\), away from the fulcrum (pivot point): </p><p class="formulaDsp">
-\[\tau=r \times F \]
+<p>Calculates the angular acceleration, \(\alpha\), in radians per second squared. Angular acceleration of an object is calculated from the torque, \(\tau\), applied to an object and the object's inertia tensor, \(I\): </p><p class="formulaDsp">
+\[\alpha=I^-1 \tau \]
 </p>
 <p>. </p>
-<p>See <a href="https://en.wikipedia.org/wiki/Torque">https://en.wikipedia.org/wiki/Torque</a></p>
+<p>See <a href="https://en.wikipedia.org/wiki/Angular_acceleration">https://en.wikipedia.org/wiki/Angular_acceleration</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">positionFromFulcrumInm</td><td>\(r\ (m)\) Position that the force is apply to object away from fulcrum(pivot point) in meters. </td></tr>
-    <tr><td class="paramname">forceInN</td><td>\(F\ (N)\) Force vector applied to object in Newtons. </td></tr>
-    <tr><td class="paramname">torqueInNm</td><td>\(\tau\ (N\ m)\) Torque in Newton meters. </td></tr>
+    <tr><td class="paramname">torqueInNm</td><td>\(\tau\ (N\ m)\) Torque apply to object in Newton meters. </td></tr>
+    <tr><td class="paramname">inertiaTensorInkgmsquared</td><td>\(I\ (kg\ m^2)\) Inertia tensor matrix of object in kilogram meter squared. </td></tr>
+    <tr><td class="paramname">angularAccelerationInradPersSquared</td><td>\(\alpha\ (\frac{rad}{s^2})\) Angular acceleration of an object in radians per second squared. </td></tr>
   </table>
   </dd>
 </dl>

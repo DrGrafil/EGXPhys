@@ -6,6 +6,7 @@ var searchData=
   ['astrophysics',['Astrophysics',['../group___e_g_x_phys-_astrophysics.html',1,'']]],
   ['absolute_20magnitude',['Absolute Magnitude',['../group___e_g_x_phys-_astrophysics-_absolute_magnitude.html',1,'']]],
   ['atomic',['Atomic',['../group___e_g_x_phys-_atomic.html',1,'']]],
+  ['angular_20acceleration',['Angular Acceleration',['../group___e_g_x_phys-_kinetics-_angular_acceleration.html',1,'']]],
   ['alpha_20decay',['Alpha Decay',['../group___e_g_x_phys-_q_value-_alpha.html',1,'']]],
   ['adopted',['Adopted',['../group___n_i_s_t_const-_adopted.html',1,'']]],
   ['alpha_20particle_20_28helium_2d4_20nucleus_29',['Alpha particle (Helium-4 nucleus)',['../group___n_i_s_t_const-_alpha.html',1,'']]],

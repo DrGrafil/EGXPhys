@@ -205,8 +205,14 @@
     <ClInclude Include="..\..\EGXPhys\EGXPhysConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\Kinematics\Kinematics.hpp" />
     <ClInclude Include="..\..\EGXPhys\Kinematics\KinematicsConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Kinetics\AngularAcceleration.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Kinetics\AngularFrequency.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Kinetics\AngularPeriod.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Kinetics\CentripetalAcceleration.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Kinetics\CentripetalForce.hpp" />
     <ClInclude Include="..\..\EGXPhys\Kinetics\Kinetics.hpp" />
     <ClInclude Include="..\..\EGXPhys\Kinetics\KineticsConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Kinetics\TangentialVelocity.hpp" />
     <ClInclude Include="..\..\EGXPhys\Kinetics\Torque.hpp" />
     <ClInclude Include="..\..\EGXPhys\NISTConst\NISTConst.hpp" />
     <ClInclude Include="..\..\EGXPhys\Optics\Optics.hpp" />
@@ -303,6 +309,12 @@
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.inl" />
+    <None Include="..\..\EGXPhys\Kinetics\AngularAcceleration.inl" />
+    <None Include="..\..\EGXPhys\Kinetics\AngularFrequency.inl" />
+    <None Include="..\..\EGXPhys\Kinetics\AngularPeriod.inl" />
+    <None Include="..\..\EGXPhys\Kinetics\CentripetalAcceleration.inl" />
+    <None Include="..\..\EGXPhys\Kinetics\CentripetalForce.inl" />
+    <None Include="..\..\EGXPhys\Kinetics\TangentialVelocity.inl" />
     <None Include="..\..\EGXPhys\Kinetics\Torque.inl" />
     <None Include="..\..\EGXPhys\Optics\Redshift.inl" />
     <None Include="..\..\EGXPhys\Relativity\LorentzTransformations.inl" />

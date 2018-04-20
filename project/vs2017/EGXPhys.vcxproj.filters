@@ -426,6 +426,24 @@
     <ClInclude Include="..\..\tests\Kinetics\TorqueTests.hpp">
       <Filter>Tests\Kinetics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Kinetics\AngularAcceleration.hpp">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Kinetics\AngularFrequency.hpp">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Kinetics\AngularPeriod.hpp">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Kinetics\CentripetalAcceleration.hpp">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Kinetics\TangentialVelocity.hpp">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Kinetics\CentripetalForce.hpp">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -584,6 +602,24 @@
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
     <None Include="..\..\EGXPhys\Kinetics\Torque.inl">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Kinetics\AngularAcceleration.inl">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Kinetics\AngularFrequency.inl">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Kinetics\AngularPeriod.inl">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Kinetics\CentripetalAcceleration.inl">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Kinetics\TangentialVelocity.inl">
+      <Filter>EGXPhys\Kinetics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Kinetics\CentripetalForce.inl">
       <Filter>EGXPhys\Kinetics</Filter>
     </None>
   </ItemGroup>
