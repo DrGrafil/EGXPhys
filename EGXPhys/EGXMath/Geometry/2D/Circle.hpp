@@ -29,11 +29,11 @@ namespace EGXMath
 	/// @{
 
 	/**
-	*   @brief Finds the area, \f$A_{circle}\f$ of a circle with radius, \f$r\f$ 
+	*   @brief Finds the surface area, \f$A_{circle}\f$, in meter squared of a circle with radius, \f$r\f$ 
 	*		\f[ A_{circle}=\pi r^2 \f]
 	*
-	*	@param radius \f$ r\ (m)\f$ is the radius of the circle.
-	*   @return \f$ A_{circle}\ (m)\f$ is the area of the circle.
+	*	@param radius \f$ r\ (m)\f$ Radius of circle in meters.
+	*   @return \f$ A_{circle}\ (m^2)\f$ Surface area of circle in meter squared.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.
@@ -47,8 +47,8 @@ namespace EGXMath
 	*   @brief Finds the circumference, \f$C_{circle}\f$ of a circle with radius, \f$r\f$
 	*		\f[ C_{circle}=2 \pi r \f]
 	*
-	*	@param radius \f$ r\ (m)\f$ is the radius of the circle.
-	*   @return \f$ C_{circle}\ (m)\f$ is the circumference of the circle.
+	*	@param radius \f$ r\ (m)\f$ Radius of circle in meters.
+	*   @return \f$ C_{circle}\ (m)\f$ Circumference of circle in meters.
 	*	@see CircleArea() for area of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.

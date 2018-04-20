@@ -27,5 +27,6 @@
 
 #include "./2D/Circle.hpp"
 
-#include "./3D/Hoop.hpp"
+#include "./3D/Cylinder.hpp"
 #include "./3D/Disk.hpp"
+#include "./3D/Hoop.hpp"

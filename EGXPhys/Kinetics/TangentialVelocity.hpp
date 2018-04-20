@@ -57,4 +57,4 @@ namespace EGXPhys
     /// @}
 } //namespace EGXPhys
 
-#include "Torque.inl"
+#include "TangentialVelocity.inl"

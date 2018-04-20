@@ -39,7 +39,32 @@ namespace EGXPhys
 	//template<typename T>
 	//void Torque(const T(&positionFromFulcrumInm)[3], const T(&forceInN)[3], T(&torqueInNm)[3]);
 
-	
+	/**
+	*   @brief Calculates the torque, \f$\tau\f$, in Newton meters. Torque on an object is calculated from the force, \f$F\f$, applied to an object at a position, \f$r\f$, away from the fulcrum (pivot point):
+	*   		\f[\tau=r \times F \f]
+	*
+	*   See https://en.wikipedia.org/wiki/Torque
+	*
+	*   @param positionFromFulcrumInm \f$r\ (m)\f$ Position that the force is apply to object away from fulcrum(pivot point) in meters.
+	*	@param forceInN \f$F\ (N)\f$ Force vector applied to object in Newtons.
+	*	@param torqueInNm \f$\tau\ (N\ m)\f$ Torque in Newton meters.
+	*/
+	template<typename T>
+	void Torque(const T& positionFromFulcrumInm, const T& forceInN, T& torqueInNm);
+
+	/**<!--
+	*   @brief Calculates the torque, \f$\tau\f$, in Newton meters. Torque on an object is calculated from the force, \f$F\f$, applied to an object at a position, \f$r\f$, away from the fulcrum (pivot point):
+	*   		\f[\tau=r \times F \f]
+	*
+	*   See https://en.wikipedia.org/wiki/Torque
+	*
+	*   @param positionFromFulcrumInm \f$r\ (m)\f$ Position that the force is apply to object away from fulcrum(pivot point) in meters.
+	*	@param forceInN \f$F\ (N)\f$ Force vector applied to object in Newtons.
+	*	@param torqueInNm \f$\tau\ (N\ m)\f$ Torque in Newton meters. -->
+	*/
+	//template<typename T>
+	//void Torque(const T& positionFromFulcrumInm, const T& forceInN, T& torqueInNm);
+
 #ifdef EGXPHYS_GLM
 	/**
 	*   @brief Calculates the torque, \f$\tau\f$, in Newton meters. Torque on an object is calculated from the force, \f$F\f$, applied to an object at a position, \f$r\f$, away from the fulcrum (pivot point):
@@ -51,6 +76,7 @@ namespace EGXPhys
 	*	@param forceInN \f$F\ (N)\f$ Force vector applied to object in Newtons.
 	*	@param torqueInNm \f$\tau\ (N\ m)\f$ Torque in Newton meters.
 	*/
+	template<>
 	void Torque(const glm::vec3& positionFromFulcrumInm, const glm::vec3& forceInN, glm::vec3& torqueInNm);
 #endif // EGXPHYS_GLM
 
