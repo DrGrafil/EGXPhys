@@ -159,6 +159,7 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\RightAscension.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\StandardGravitationalParameter.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarMass.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarRadius.hpp" />
@@ -285,6 +286,7 @@
     <None Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\RightAscension.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\StandardGravitationalParameter.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\StellarMass.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\StellarRadius.inl" />

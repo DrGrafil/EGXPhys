@@ -27,6 +27,7 @@
 #include "PlanetaryMass.hpp"
 #include "PlanetCriteria.hpp"
 #include "RightAscension.hpp"
+#include "RotationalFlattening.hpp"
 #include "StandardGravitationalParameter.hpp"
 #include "StellarMass.hpp"
 #include "SurfaceGravity.hpp"

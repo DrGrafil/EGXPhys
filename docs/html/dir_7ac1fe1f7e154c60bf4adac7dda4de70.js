@@ -31,6 +31,8 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "PlanetCriteria.inl", "_planet_criteria_8inl.html", "_planet_criteria_8inl" ],
     [ "RightAscension.hpp", "_right_ascension_8hpp.html", "_right_ascension_8hpp" ],
     [ "RightAscension.inl", "_right_ascension_8inl.html", "_right_ascension_8inl" ],
+    [ "RotationalFlattening.hpp", "_rotational_flattening_8hpp.html", "_rotational_flattening_8hpp" ],
+    [ "RotationalFlattening.inl", "_rotational_flattening_8inl.html", "_rotational_flattening_8inl" ],
     [ "StandardGravitationalParameter.hpp", "_standard_gravitational_parameter_8hpp.html", "_standard_gravitational_parameter_8hpp" ],
     [ "StandardGravitationalParameter.inl", "_standard_gravitational_parameter_8inl.html", "_standard_gravitational_parameter_8inl" ],
     [ "StellarMass.hpp", "_stellar_mass_8hpp_source.html", null ],

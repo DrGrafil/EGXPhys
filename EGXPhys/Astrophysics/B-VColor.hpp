@@ -5,7 +5,7 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/19/18
 
-/// @defgroup EGXPhys-B-VColor B-V Color
+/// @defgroup EGXPhys-Astrophysic-B-VColor B-V Color
 /// @ingroup EGXPhys-Astrophysics
 
 //=================================
@@ -26,7 +26,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup EGXPhys-B-VColor
+	/// @addtogroup EGXPhys-Astrophysic-B-VColor
 	/// @{
 	
 	/**

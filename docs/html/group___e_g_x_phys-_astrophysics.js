@@ -2,7 +2,7 @@ var group___e_g_x_phys__astrophysics =
 [
     [ "Absolute Magnitude", "group___e_g_x_phys-_astrophysics-_absolute_magnitude.html", "group___e_g_x_phys-_astrophysics-_absolute_magnitude" ],
     [ "Apoapsis", "group___e_g_x_phys-_apoapsis.html", "group___e_g_x_phys-_apoapsis" ],
-    [ "B-V Color", "group___e_g_x_phys-_b-_v_color.html", "group___e_g_x_phys-_b-_v_color" ],
+    [ "B-V Color", "group___e_g_x_phys-_astrophysic-_b-_v_color.html", "group___e_g_x_phys-_astrophysic-_b-_v_color" ],
     [ "Circumstellar Habitable Zone Limit", "group___e_g_x_phys-_circumstellar_habitable_zone_limit.html", "group___e_g_x_phys-_circumstellar_habitable_zone_limit" ],
     [ "Color Temperature", "group___e_g_x_phys-_astrophysics-_color_temperature.html", "group___e_g_x_phys-_astrophysics-_color_temperature" ],
     [ "Declination", "group___e_g_x_phys-_astrophysics-_declination.html", "group___e_g_x_phys-_astrophysics-_declination" ],
@@ -15,6 +15,7 @@ var group___e_g_x_phys__astrophysics =
     [ "Planetary Mass", "group___e_g_x_phys-_planetary_mass.html", "group___e_g_x_phys-_planetary_mass" ],
     [ "Planet Criteria", "group___e_g_x_phys-_planet_criteria.html", "group___e_g_x_phys-_planet_criteria" ],
     [ "Right Ascension", "group___e_g_x_phys-_astrophysics-_right_ascension.html", "group___e_g_x_phys-_astrophysics-_right_ascension" ],
+    [ "Rotational Flattening/Oblateness", "group___e_g_x_phys-_astrophysics-_rotational_flattening.html", "group___e_g_x_phys-_astrophysics-_rotational_flattening" ],
     [ "Standard Gravitational Parameter", "group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html", "group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter" ],
     [ "Stellar Mass", "group___e_g_x_phys-_stellar_mass.html", "group___e_g_x_phys-_stellar_mass" ],
     [ "Stellar Radius", "group___e_g_x_phys-_stellar_radius.html", null ],

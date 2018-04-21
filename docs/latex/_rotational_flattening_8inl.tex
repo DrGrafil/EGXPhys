@@ -1,0 +1,33 @@
+\hypertarget{_rotational_flattening_8inl}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Rotational\+Flattening.inl File Reference}
+\label{_rotational_flattening_8inl}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Rotational\+Flattening.\+inl@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Rotational\+Flattening.\+inl}}
+
+
+Implimentation of rotational flattening functions.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_gaa89a23906fe0f4df85463f301825b466}{E\+G\+X\+Phys\+::\+Rotational\+Flattening}} (const T ellipticity)
+\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a planet with ellipticity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga1840fed2081c35f68c4b8bfa75248977}{E\+G\+X\+Phys\+::\+Rotational\+Flattening}} (const T equatorial\+Radius, const T polar\+Radius)
+\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a planet with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga316b9afb6e1aa940fa96417c6f24ed4d}{E\+G\+X\+Phys\+::\+Rotational\+Flattening}} (const T mass\+Inkg, const T mean\+Radius\+Inm, const T angular\+Velocity\+Inm\+Pers\+Squared)
+\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a planet with mass, $M$, mean radius, $a$, and angular velocity of rotation, $\Omega$. Note that this is a 1st order approximation for a planet that is rotating relatively slowly (small flattening). \[ f = \frac{5}{4} \frac{\Omega^2 a^3}{GM} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga36ebeca0d4a23d1f58ffc28b40c749c3}{E\+G\+X\+Phys\+::\+Rotational\+Oblateness}} (const T ellipticity)
+\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a planet with ellipticity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga0bbe606845430e58be5ed34541835f83}{E\+G\+X\+Phys\+::\+Rotational\+Oblateness}} (const T equatorial\+Radius, const T polar\+Radius)
+\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a planet with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga7d78d01c8b3e1a9b2e4f17cb67969a88}{E\+G\+X\+Phys\+::\+Rotational\+Oblateness}} (const T mass\+Inkg, const T mean\+Radius\+Inm, const T angular\+Velocity\+Inm\+Pers\+Squared)
+\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a planet with mass, $M$, mean radius, $a$, and angular velocity of rotation, $\Omega$. Note that this is a 1st order approximation for a planet that is rotating relatively slowly (small flattening). \[ f = \frac{5}{4} \frac{\Omega^2 a^3}{GM} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implimentation of rotational flattening functions. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/20/18 
+\end{DoxyDate}

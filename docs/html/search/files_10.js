@@ -10,5 +10,7 @@ var searchData=
   ['relativity_2ehpp',['Relativity.hpp',['../_relativity_8hpp.html',1,'']]],
   ['relativityconstants_2ehpp',['RelativityConstants.hpp',['../_relativity_constants_8hpp.html',1,'']]],
   ['rightascension_2ehpp',['RightAscension.hpp',['../_right_ascension_8hpp.html',1,'']]],
-  ['rightascension_2einl',['RightAscension.inl',['../_right_ascension_8inl.html',1,'']]]
+  ['rightascension_2einl',['RightAscension.inl',['../_right_ascension_8inl.html',1,'']]],
+  ['rotationalflattening_2ehpp',['RotationalFlattening.hpp',['../_rotational_flattening_8hpp.html',1,'']]],
+  ['rotationalflattening_2einl',['RotationalFlattening.inl',['../_rotational_flattening_8inl.html',1,'']]]
 ];

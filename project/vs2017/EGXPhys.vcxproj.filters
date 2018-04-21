@@ -471,6 +471,9 @@
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\SpheroidFlatteningTests.hpp">
       <Filter>Tests\EGXMath\Geometry\3D</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -663,6 +666,9 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>
 </Project>
