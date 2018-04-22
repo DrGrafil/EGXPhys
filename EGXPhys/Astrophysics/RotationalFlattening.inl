@@ -8,8 +8,8 @@
 namespace EGXPhys {
 
 	template <typename T>
-	T RotationalFlattening(const T ellipticity) {
-		return EGXMath::SpheroidFlattening(ellipticity);
+	T RotationalFlattening(const T eccentricity) {
+		return EGXMath::SpheroidFlattening(eccentricity);
 	}
 
 	template <typename T>
@@ -24,8 +24,8 @@ namespace EGXPhys {
 	}
 
 	template <typename T>
-	T RotationalOblateness(const T ellipticity) {
-		return EGXMath::SpheroidFlattening(ellipticity);
+	T RotationalOblateness(const T eccentricity) {
+		return EGXMath::SpheroidFlattening(eccentricity);
 	}
 	
 	template <typename T>

@@ -12,9 +12,6 @@
 /// @defgroup EGXMath-Geometry-2D 2D Objects
 /// @ingroup EGXMath-Geometry
 
-/// @defgroup EGXMath-Geometry-3D 3D Objects
-/// @ingroup EGXMath-Geometry
-
 /// @defgroup EGXMath-Geometry-4D 4D Objects
 /// @ingroup EGXMath-Geometry
 //=================================
@@ -25,10 +22,9 @@
 
 //=================================
 
+#include "./2D/2DGeometry.hpp"
 #include "./2D/Circle.hpp"
 
-#include "./3D/Cylinder.hpp"
-#include "./3D/Disk.hpp"
-#include "./3D/Hoop.hpp"
+#include "./3D/3DGeometry.hpp"
 
-#include "./3D/SpheroidFlattening.hpp"
+

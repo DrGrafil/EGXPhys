@@ -28,20 +28,20 @@ namespace EGXPhys
 	/// @{
 
 	/**
-	*   @brief Finds the flattening (oblateness), \f$f\f$, of a planet with ellipticity \f$e\f$:
+	*   @brief Finds the flattening (oblateness), \f$f\f$, of a planet with eccentricity \f$e\f$:
 	*		\f[ f = 1 - \sqrt{1-e^2} \f]
 	*
 	*	Equation taken from "Map Projections-A Working Manual" (Snyder, 1987), p. 13
 	*
 	*	See http://mathworld.wolfram.com/Flattening.html , https://en.wikipedia.org/wiki/Flattening and https://en.wikipedia.org/wiki/Equatorial_bulge
-	*	@param ellipticity \f$ e\ (dimensionless)\f$ Ellipticity of planet.
+	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of planet.
 	*   @return \f$ f\ (dimensionless)\f$ Flattening of planet.
 	*	@see RotationalOblateness() for alias.
 	*	@see SpheroidFlattening() for alias.
-	*	@see SpheroidEllipticity() for ellipticity of a spheroid.
+	*	@see SpheroidEccentricity() for eccentricity of a spheroid.
 	*/
 	template <typename T>
-	T RotationalFlattening(const T ellipticity);
+	T RotationalFlattening(const T eccentricity);
 
 	/**
 	*   @brief Finds the flattening (oblateness), \f$f\f$, of a planet with equatorial radius \f$a\f$ and polar radius, \f$c\f$:
@@ -81,20 +81,20 @@ namespace EGXPhys
 	T RotationalFlattening(const T massInkg, const T meanRadiusInm, const T angularVelocityInmPersSquared);
 
 	/**
-	*   @brief Finds the oblateness (flattening), \f$f\f$, of a planet with ellipticity \f$e\f$:
+	*   @brief Finds the oblateness (flattening), \f$f\f$, of a planet with eccentricity \f$e\f$:
 	*		\f[ f = 1 - \sqrt{1-e^2} \f]
 	*
 	*	Equation taken from "Map Projections-A Working Manual" (Snyder, 1987), p. 13
 	*
 	*	See http://mathworld.wolfram.com/Flattening.html , https://en.wikipedia.org/wiki/Flattening and https://en.wikipedia.org/wiki/Equatorial_bulge
-	*	@param ellipticity \f$ e\ (dimensionless)\f$ Ellipticity of planet.
+	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of planet.
 	*   @return \f$ f\ (dimensionless)\f$ Flattening of planet.
 	*	@see RotationalFlattening() for alias.
 	*	@see SpheroidOblateness() for alias.
-	*	@see SpheroidEllipticity() for ellipticity of a spheroid.
+	*	@see SpheroidEccentricity() for eccentricity of a spheroid.
 	*/
 	template <typename T>
-	T RotationalOblateness(const T ellipticity);
+	T RotationalOblateness(const T eccentricity);
 
 	/**
 	*   @brief Finds the oblateness (flattening), \f$f\f$, of a planet with equatorial radius \f$a\f$ and polar radius, \f$c\f$:

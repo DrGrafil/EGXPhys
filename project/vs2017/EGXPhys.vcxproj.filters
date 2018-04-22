@@ -94,6 +94,12 @@
     <Filter Include="Tests\Kinetics">
       <UniqueIdentifier>{f09e725a-cdb8-4ad8-b3ef-42c5ee817e24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\EGXMath\Geometry\3D\Spheroid">
+      <UniqueIdentifier>{bd8b4364-fade-4da4-b771-a30a481282d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\EGXMath\Geometry\2D\Circle">
+      <UniqueIdentifier>{c28679f2-c24f-44c9-b688-0ae79d2767fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -378,9 +384,6 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.hpp">
       <Filter>EGXPhys\EGXMath\Functions</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry\2D</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Geometry.hpp">
       <Filter>EGXPhys\EGXMath\Geometry</Filter>
     </ClInclude>
@@ -447,9 +450,6 @@
     <ClInclude Include="..\..\tests\Kinetics\AngularAccelerationTests.hpp">
       <Filter>Tests\Kinetics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Cylinder.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\Astrophysics\StandardGravitationalParameter.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
@@ -462,17 +462,32 @@
     <ClInclude Include="..\..\tests\Astrophysics\SurfaceGravityTests.hpp">
       <Filter>Tests\Astrophysics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\SpheroidFlattening.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\SpheroidFlatteningTests.hpp">
       <Filter>Tests\EGXMath\Geometry\3D</Filter>
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Eccentricity.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\Spheroid.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidEccentricity.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidFlattening.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\3DGeometry.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle\Circle.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\2DGeometry.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\2D</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -613,9 +628,6 @@
     <None Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.inl">
       <Filter>EGXPhys\EGXMath\Functions</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle.inl">
-      <Filter>EGXPhys\EGXMath\Geometry\2D</Filter>
-    </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
     </None>
@@ -652,23 +664,29 @@
     <None Include="..\..\EGXPhys\Kinetics\CentripetalForce.inl">
       <Filter>EGXPhys\Kinetics</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Cylinder.inl">
-      <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
-    </None>
     <None Include="..\..\EGXPhys\Astrophysics\StandardGravitationalParameter.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
     <None Include="..\..\EGXPhys\Astrophysics\SurfaceGravity.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\SpheroidFlattening.inl">
-      <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
-    </None>
-    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid.inl">
-      <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
-    </None>
     <None Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\Eccentricity.inl">
+      <Filter>EGXPhys\EGXMath\Geometry</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\Spheroid.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidEccentricity.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidFlattening.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle\Circle.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Circle</Filter>
     </None>
   </ItemGroup>
 </Project>

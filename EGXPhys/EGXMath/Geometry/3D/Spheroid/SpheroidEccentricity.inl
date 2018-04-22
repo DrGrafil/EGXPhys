@@ -19,8 +19,8 @@ namespace EGXMath {
 	}
 
 	template <typename T>
-	T SpheroidFlattening(const T ellipticity) {
-		return (T)1.0 - sqrt((T)1.0 - (ellipticity * ellipticity));
+	T SpheroidFlattening(const T eccentricity) {
+		return (T)1.0 - sqrt((T)1.0 - (eccentricity * eccentricity));
 	}
 
 	
@@ -30,8 +30,8 @@ namespace EGXMath {
 	}
 
 	template <typename T>
-	T SpheroidOblateness(const T ellipticity) {
-		return SpheroidFlattening(ellipticity);
+	T SpheroidOblateness(const T eccentricity) {
+		return SpheroidFlattening(eccentricity);
 	}
 
 }//namespace EGXMath

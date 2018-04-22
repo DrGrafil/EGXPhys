@@ -51,22 +51,22 @@ namespace EGXMath
 	T SpheroidFlattening(const T equatorialRadius, const T polarRadius);
 	
 	/**
-	*   @brief Finds the flattening (oblateness), \f$f\f$, of a spheroid with ellipticity \f$e\f$:
+	*   @brief Finds the flattening (oblateness), \f$f\f$, of a spheroid with eccentricity \f$e\f$:
 	*		\f[ f = 1 - \sqrt{1-e^2} \f]
 	*
 	*	Equation taken from "Map Projections-A Working Manual" (Snyder, 1987), p. 13
 	*
 	*	See http://mathworld.wolfram.com/Flattening.html , https://en.wikipedia.org/wiki/Flattening and https://en.wikipedia.org/wiki/Equatorial_bulge
-	*	@param ellipticity \f$ e\ (dimensionless)\f$ Ellipticity of spheroid.
+	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of spheroid.
 	*   @return \f$ f\ (dimensionless)\f$ Flattening of spheroid.
 	*	@see SpheroidOblateness() for alias.
-	*	@see SpheroidEllipticity() for ellipticity of a spheroid
+	*	@see SpheroidEccentricity() for eccentricity of a spheroid
 	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
 	*	@see SpheroidVolume() for volume of a spheroid.
 	*	@see SpheroidInertia() for inertia tensor of a spheroid.
 	*/
 	template <typename T>
-	T SpheroidFlattening(const T ellipticity);
+	T SpheroidFlattening(const T eccentricity);
 
 	/**
 	*   @brief Finds the oblateness (flattening), \f$f\f$, of a spheroid with equatorial radius \f$a\f$ and polar radius, \f$c\f$:
@@ -92,22 +92,22 @@ namespace EGXMath
 	T SpheroidOblateness(const T equatorialRadius, const T polarRadius);
 
 	/**
-	*   @brief Finds the oblateness (flattening), \f$f\f$, of a spheroid with ellipticity \f$e\f$:
+	*   @brief Finds the oblateness (flattening), \f$f\f$, of a spheroid with eccentricity \f$e\f$:
 	*		\f[ f = 1 - \sqrt{1-e^2} \f]
 	*
 	*	Equation taken from "Map Projections-A Working Manual" (Snyder, 1987), p. 13
 	*
 	*	See http://mathworld.wolfram.com/Flattening.html , https://en.wikipedia.org/wiki/Flattening and https://en.wikipedia.org/wiki/Equatorial_bulge
-	*	@param ellipticity \f$ e\ (dimensionless)\f$ Ellipticity of spheroid.
+	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of spheroid.
 	*   @return \f$ f\ (dimensionless)\f$ Flattening of spheroid.
 	*	@see SpheroidFlattening() for alias.
-	*	@see SpheroidEllipticity() for ellipticity of a spheroid
+	*	@see SpheroidEccentricity() for eccentricity of a spheroid
 	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
 	*	@see SpheroidVolume() for volume of a spheroid.
 	*	@see SpheroidInertia() for inertia tensor of a spheroid.
 	*/
 	template <typename T>
-	T SpheroidOblateness(const T ellipticity);
+	T SpheroidOblateness(const T eccentricity);
 
     /// @}
 } //namespace EGXMath
