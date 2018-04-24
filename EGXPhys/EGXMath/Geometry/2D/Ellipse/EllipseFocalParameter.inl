@@ -33,9 +33,9 @@ namespace EGXMath {
 
 	template <typename T>
 	T EllipseFocalParameterFromEccentricity(const T semiMajorAxisInm, const T eccentricity) {
-		return (semiMajorAxisInm * ((T)1.0 - eccentricity * eccentricity) / eccentricity;
+		return (semiMajorAxisInm * ((T)1.0 - eccentricity * eccentricity)) / eccentricity;
 	}
-	
+
 	template <typename T>
 	T EllipseFocalParameterFromSemiLatusRectum(const T semiLatusRectumInm, const T eccentricity) {
 		return semiLatusRectumInm / eccentricity;

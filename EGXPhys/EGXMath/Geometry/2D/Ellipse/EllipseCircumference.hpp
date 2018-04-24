@@ -45,6 +45,7 @@ namespace EGXMath
 	*	@see EllipseSurfaceArea() for area of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
 	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseSemiLatusRectum() for semi-latus rectum of an ellipse.
 	*	@see EllipseDirectrix() for directrix of an ellipse.
 	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
 	*	@see EllipseFocalLength() for focal length of an ellipse.
@@ -56,7 +57,7 @@ namespace EGXMath
 	T EllipseCircumference(const T semiMajorAxisInm, const T semiMinorAxisInm);
 	
 	/**
-	*   @brief Approximates the circumference (perimeter), \f$C_{ellipse}\f$ in meters of an ellipse with semi-major axis \f$a\f$, and semi-minor axis \f$b\f$. This approximation is done using the Pade 3/3 approximation.
+	*   @brief Approximates the perimeter (circumference), \f$C_{ellipse}\f$ in meters of an ellipse with semi-major axis \f$a\f$, and semi-minor axis \f$b\f$. This approximation is done using the Pade 3/3 approximation.
 	*		\f[ h=\left( \frac{a-b}{a+b} \right)^2 \f]
 	*		\f[ C_{ellipse}=\pi (a + b) \left( \frac{135168-85760 h-5568 h^2+ 3867 h^3}{135168-119552 h+ 22208 h^2 - 345h^3} \right) \f]
 	*
@@ -73,6 +74,7 @@ namespace EGXMath
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
 	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseSemiLatusRectum() for semi-latus rectum of an ellipse.
 	*	@see EllipseDirectrix() for directrix of an ellipse.
 	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
 	*	@see EllipseFocalLength() for focal length of an ellipse.
@@ -99,6 +101,7 @@ namespace EGXMath
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
 	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseSemiLatusRectum() for semi-latus rectum of an ellipse.
 	*	@see EllipseDirectrix() for directrix of an ellipse.
 	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
 	*	@see EllipseFocalLength() for focal length of an ellipse.
@@ -125,6 +128,7 @@ namespace EGXMath
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
 	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseSemiLatusRectum() for semi-latus rectum of an ellipse.
 	*	@see EllipseDirectrix() for directrix of an ellipse.
 	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
 	*	@see EllipseFocalLength() for focal length of an ellipse.

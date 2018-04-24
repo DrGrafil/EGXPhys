@@ -23,6 +23,9 @@
 
 
 #include "EllipseCircumference.hpp"
+#include "EllipseDirectrix.hpp"
 #include "EllipseEccentricity.hpp"
+#include "EllipseFocalParameter.hpp"
 #include "EllipseInertia.hpp"
+#include "EllipseLinearEccentricity.hpp"
 #include "EllipseSurfaceArea.hpp"

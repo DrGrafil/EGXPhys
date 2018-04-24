@@ -28,7 +28,7 @@ namespace EGXMath
 	/// @{
 
 	/**
-	*   @brief Finds the directrix, \f$d\f$, in meters of an ellipse with semi-major axis \f$a\f$, and semi-minor axis \f$b\f$.
+	*   @brief Finds the directrix, \f$d\f$, in meters of an ellipse with semi-major axis, \f$a\f$, and semi-minor axis \f$b\f$.
 	*		\f[ d=\frac{a^2}{\sqrt{a^2-b^2}} \f]
 	*
 	*	See http://mathworld.wolfram.com/Ellipse.html
@@ -40,6 +40,7 @@ namespace EGXMath
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
 	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseSemiLatusRectum() for semi-latus rectum of an ellipse.
 	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
 	*	@see EllipseFocalLength() for focal length of an ellipse.
 	*	@see EllipseLinearEccentricity() for linear eccentricity of an ellipse.
@@ -50,7 +51,7 @@ namespace EGXMath
 	T EllipseDirectrix(const T semiMajorAxisInm, const T semiMinorAxisInm);
 
 	/**
-	*   @brief Finds the directrix, \f$d\f$, in meters of an ellipse with semi-major axis \f$a\f$, and semi-minor axis \f$b\f$.
+	*   @brief Finds the directrix, \f$d\f$, in meters of an ellipse with semi-major axis, \f$a\f$, and semi-minor axis \f$b\f$.
 	*		\f[ d=\frac{a^2}{\sqrt{a^2-b^2}} \f]
 	*
 	*	See http://mathworld.wolfram.com/Ellipse.html
@@ -62,6 +63,7 @@ namespace EGXMath
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
 	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseSemiLatusRectum() for semi-latus rectum of an ellipse.
 	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
 	*	@see EllipseFocalLength() for focal length of an ellipse.
 	*	@see EllipseLinearEccentricity() for linear eccentricity of an ellipse.
@@ -72,7 +74,7 @@ namespace EGXMath
 	T EllipseDirectrixFromSemiMajorAndSemiMinorAxes(const T semiMajorAxisInm, const T semiMinorAxisInm);
 
 	/**
-	*   @brief Finds the directrix, \f$d\f$, in meters of an ellipse with semi-major axis \f$a\f$, and linear eccentricity \f$c\f$.
+	*   @brief Finds the directrix, \f$d\f$, in meters of an ellipse with semi-major axis, \f$a\f$, and linear eccentricity \f$c\f$.
 	*		\f[ d=\frac{a^2}{c} \f]
 	*
 	*	See http://mathworld.wolfram.com/Ellipse.html
@@ -84,6 +86,7 @@ namespace EGXMath
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
 	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseSemiLatusRectum() for semi-latus rectum of an ellipse.
 	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
 	*	@see EllipseFocalLength() for focal length of an ellipse.
 	*	@see EllipseLinearEccentricity() for linear eccentricity of an ellipse.

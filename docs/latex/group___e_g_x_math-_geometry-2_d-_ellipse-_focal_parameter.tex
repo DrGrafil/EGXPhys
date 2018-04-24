@@ -1,0 +1,251 @@
+\hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter}{}\section{Focal Parameter}
+\label{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter}\index{Focal Parameter@{Focal Parameter}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}{E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter}} (const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and semi-\/minor axis $b$. \[ p=\frac{b^2}{\sqrt{a^2-b^2}} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga406c026954d4f5b357e0310461ed4d1d}{E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes}} (const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and semi-\/minor axis $b$. \[ p=\frac{b^2}{\sqrt{a^2-b^2}} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga61d3b31a8a32b43634b2ea89a83bc6a5}{E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Linear\+Eccentricity}} (const T semi\+Major\+Axis\+Inm, const T linear\+Eccentricity\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and linear eccentricity $c$. \[ p=\frac{a^2-c^2}{c} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_gafd838410a3f813315166c64b53e0e25b}{E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Eccentricity}} (const T semi\+Major\+Axis\+Inm, const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and eccentricity $e$. \[ p=\frac{a(1-e^2)}{e} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_gaf957cf9131d3998bfe944f6234a133e6}{E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Semi\+Latus\+Rectum}} (const T semi\+Latus\+Rectum\+Inm, const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the focal parameter, $p$, in meters of an ellipse with semi-\/\+Latus rectum, $\ell$, and eccentricity $e$. \[ p=\frac{\ell}{e} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}} 
+\index{Focal Parameter@{Focal Parameter}!Ellipse\+Focal\+Parameter@{Ellipse\+Focal\+Parameter}}
+\index{Ellipse\+Focal\+Parameter@{Ellipse\+Focal\+Parameter}!Focal Parameter@{Focal Parameter}}
+\subsubsection{\texorpdfstring{Ellipse\+Focal\+Parameter()}{EllipseFocalParameter()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{semi\+Minor\+Axis\+Inm }\end{DoxyParamCaption})}
+
+
+
+Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and semi-\/minor axis $b$. \[ p=\frac{b^2}{\sqrt{a^2-b^2}} \]. 
+
+The focal parameter is the distance from the focus (or one of the two foci) to the directrix.
+
+See \href{http://mathworld.wolfram.com/FocalParameter.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Focal\+Parameter.\+html} and \href{https://en.wikipedia.org/wiki/Conic_section#Conic_parameters}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Conic\+\_\+section\#\+Conic\+\_\+parameters}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the ellipse in meters. \\
+\hline
+{\em semi\+Minor\+Axis\+Inm} & $ b\ (m)$ Semi-\/minor axis of the ellipse in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ p\ (m)$ Focal Parameter of the ellipse in meters. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of an ellipse. 
+
+Ellipse\+Semi\+Major\+Axis() for semi-\/major axis of an ellipse. 
+
+Ellipse\+Semi\+Minor\+Axis() for semi-\/minor axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_directrix_gace8f72a8efbc9c18d3eb689151405106}{Ellipse\+Directrix()}} for directrix of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}{Ellipse\+Focal\+Parameter()}} for focal parameter of an ellipse. 
+
+Ellipse\+Focal\+Length() for focal length of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity_gac70b3010e30aa8b73deb50fe2b9b9a91}{Ellipse\+Linear\+Eccentricity()}} for linear eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}{Ellipse\+Inertia()}} for inertial tensor of an ellipse. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_gafd838410a3f813315166c64b53e0e25b}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_gafd838410a3f813315166c64b53e0e25b}} 
+\index{Focal Parameter@{Focal Parameter}!Ellipse\+Focal\+Parameter\+From\+Eccentricity@{Ellipse\+Focal\+Parameter\+From\+Eccentricity}}
+\index{Ellipse\+Focal\+Parameter\+From\+Eccentricity@{Ellipse\+Focal\+Parameter\+From\+Eccentricity}!Focal Parameter@{Focal Parameter}}
+\subsubsection{\texorpdfstring{Ellipse\+Focal\+Parameter\+From\+Eccentricity()}{EllipseFocalParameterFromEccentricity()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Eccentricity (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{eccentricity }\end{DoxyParamCaption})}
+
+
+
+Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and eccentricity $e$. \[ p=\frac{a(1-e^2)}{e} \]. 
+
+The focal parameter is the distance from the focus (or one of the two foci) to the directrix.
+
+See \href{http://mathworld.wolfram.com/FocalParameter.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Focal\+Parameter.\+html} and \href{https://en.wikipedia.org/wiki/Conic_section#Conic_parameters}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Conic\+\_\+section\#\+Conic\+\_\+parameters}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the ellipse in meters. \\
+\hline
+{\em eccentricity} & $ e\ (dimensionless)$ Eccentricity of the ellipse. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ p\ (m)$ Focal Parameter of the ellipse in meters. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of an ellipse. 
+
+Ellipse\+Semi\+Major\+Axis() for semi-\/major axis of an ellipse. 
+
+Ellipse\+Semi\+Minor\+Axis() for semi-\/minor axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_directrix_gace8f72a8efbc9c18d3eb689151405106}{Ellipse\+Directrix()}} for directrix of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}{Ellipse\+Focal\+Parameter()}} for focal parameter of an ellipse. 
+
+Ellipse\+Focal\+Length() for focal length of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity_gac70b3010e30aa8b73deb50fe2b9b9a91}{Ellipse\+Linear\+Eccentricity()}} for linear eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}{Ellipse\+Inertia()}} for inertial tensor of an ellipse. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga61d3b31a8a32b43634b2ea89a83bc6a5}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga61d3b31a8a32b43634b2ea89a83bc6a5}} 
+\index{Focal Parameter@{Focal Parameter}!Ellipse\+Focal\+Parameter\+From\+Linear\+Eccentricity@{Ellipse\+Focal\+Parameter\+From\+Linear\+Eccentricity}}
+\index{Ellipse\+Focal\+Parameter\+From\+Linear\+Eccentricity@{Ellipse\+Focal\+Parameter\+From\+Linear\+Eccentricity}!Focal Parameter@{Focal Parameter}}
+\subsubsection{\texorpdfstring{Ellipse\+Focal\+Parameter\+From\+Linear\+Eccentricity()}{EllipseFocalParameterFromLinearEccentricity()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Linear\+Eccentricity (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{linear\+Eccentricity\+Inm }\end{DoxyParamCaption})}
+
+
+
+Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and linear eccentricity $c$. \[ p=\frac{a^2-c^2}{c} \]. 
+
+The focal parameter is the distance from the focus (or one of the two foci) to the directrix.
+
+See \href{http://mathworld.wolfram.com/FocalParameter.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Focal\+Parameter.\+html} and \href{https://en.wikipedia.org/wiki/Conic_section#Conic_parameters}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Conic\+\_\+section\#\+Conic\+\_\+parameters}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the ellipse in meters. \\
+\hline
+{\em linear\+Eccentricity\+Inm} & $ c\ (m)$ Linear eccentricity of the ellipse in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ p\ (m)$ Focal Parameter of the ellipse in meters. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of an ellipse. 
+
+Ellipse\+Semi\+Major\+Axis() for semi-\/major axis of an ellipse. 
+
+Ellipse\+Semi\+Minor\+Axis() for semi-\/minor axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_directrix_gace8f72a8efbc9c18d3eb689151405106}{Ellipse\+Directrix()}} for directrix of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}{Ellipse\+Focal\+Parameter()}} for focal parameter of an ellipse. 
+
+Ellipse\+Focal\+Length() for focal length of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity_gac70b3010e30aa8b73deb50fe2b9b9a91}{Ellipse\+Linear\+Eccentricity()}} for linear eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}{Ellipse\+Inertia()}} for inertial tensor of an ellipse. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_gaf957cf9131d3998bfe944f6234a133e6}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_gaf957cf9131d3998bfe944f6234a133e6}} 
+\index{Focal Parameter@{Focal Parameter}!Ellipse\+Focal\+Parameter\+From\+Semi\+Latus\+Rectum@{Ellipse\+Focal\+Parameter\+From\+Semi\+Latus\+Rectum}}
+\index{Ellipse\+Focal\+Parameter\+From\+Semi\+Latus\+Rectum@{Ellipse\+Focal\+Parameter\+From\+Semi\+Latus\+Rectum}!Focal Parameter@{Focal Parameter}}
+\subsubsection{\texorpdfstring{Ellipse\+Focal\+Parameter\+From\+Semi\+Latus\+Rectum()}{EllipseFocalParameterFromSemiLatusRectum()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Semi\+Latus\+Rectum (\begin{DoxyParamCaption}\item[{const T}]{semi\+Latus\+Rectum\+Inm,  }\item[{const T}]{eccentricity }\end{DoxyParamCaption})}
+
+
+
+Finds the focal parameter, $p$, in meters of an ellipse with semi-\/\+Latus rectum, $\ell$, and eccentricity $e$. \[ p=\frac{\ell}{e} \]. 
+
+The focal parameter is the distance from the focus (or one of the two foci) to the directrix.
+
+See \href{http://mathworld.wolfram.com/FocalParameter.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Focal\+Parameter.\+html} and \href{https://en.wikipedia.org/wiki/Conic_section#Conic_parameters}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Conic\+\_\+section\#\+Conic\+\_\+parameters}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Latus\+Rectum\+Inm} & $ a\ (m)$ Semi-\/\+Latus rectum of the ellipse in meters. \\
+\hline
+{\em eccentricity} & $ e\ (dimensionless)$ Eccentricity of the ellipse. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ p\ (m)$ Focal Parameter of the ellipse in meters. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of an ellipse. 
+
+Ellipse\+Semi\+Major\+Axis() for semi-\/major axis of an ellipse. 
+
+Ellipse\+Semi\+Minor\+Axis() for semi-\/minor axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_directrix_gace8f72a8efbc9c18d3eb689151405106}{Ellipse\+Directrix()}} for directrix of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}{Ellipse\+Focal\+Parameter()}} for focal parameter of an ellipse. 
+
+Ellipse\+Focal\+Length() for focal length of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity_gac70b3010e30aa8b73deb50fe2b9b9a91}{Ellipse\+Linear\+Eccentricity()}} for linear eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}{Ellipse\+Inertia()}} for inertial tensor of an ellipse. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga406c026954d4f5b357e0310461ed4d1d}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga406c026954d4f5b357e0310461ed4d1d}} 
+\index{Focal Parameter@{Focal Parameter}!Ellipse\+Focal\+Parameter\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes@{Ellipse\+Focal\+Parameter\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes}}
+\index{Ellipse\+Focal\+Parameter\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes@{Ellipse\+Focal\+Parameter\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes}!Focal Parameter@{Focal Parameter}}
+\subsubsection{\texorpdfstring{Ellipse\+Focal\+Parameter\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes()}{EllipseFocalParameterFromSemiMajorAndSemiMinorAxes()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{semi\+Minor\+Axis\+Inm }\end{DoxyParamCaption})}
+
+
+
+Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and semi-\/minor axis $b$. \[ p=\frac{b^2}{\sqrt{a^2-b^2}} \]. 
+
+The focal parameter is the distance from the focus (or one of the two foci) to the directrix.
+
+See \href{http://mathworld.wolfram.com/FocalParameter.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Focal\+Parameter.\+html} and \href{https://en.wikipedia.org/wiki/Conic_section#Conic_parameters}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Conic\+\_\+section\#\+Conic\+\_\+parameters}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the ellipse in meters. \\
+\hline
+{\em semi\+Minor\+Axis\+Inm} & $ b\ (m)$ Semi-\/minor axis of the ellipse in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ p\ (m)$ Focal Parameter of the ellipse in meters. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of an ellipse. 
+
+Ellipse\+Semi\+Major\+Axis() for semi-\/major axis of an ellipse. 
+
+Ellipse\+Semi\+Minor\+Axis() for semi-\/minor axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_directrix_gace8f72a8efbc9c18d3eb689151405106}{Ellipse\+Directrix()}} for directrix of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}{Ellipse\+Focal\+Parameter()}} for focal parameter of an ellipse. 
+
+Ellipse\+Focal\+Length() for focal length of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity_gac70b3010e30aa8b73deb50fe2b9b9a91}{Ellipse\+Linear\+Eccentricity()}} for linear eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}{Ellipse\+Inertia()}} for inertial tensor of an ellipse. 
+\end{DoxySeeAlso}
