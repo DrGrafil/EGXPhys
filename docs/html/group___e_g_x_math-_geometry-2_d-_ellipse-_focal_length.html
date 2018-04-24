@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EGXPhys: Directrix</title>
+<title>EGXPhys: Focal Length</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html','');});
+$(document).ready(function(){initNavTree('group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html','');});
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -94,38 +94,45 @@ $(document).ready(function(){initNavTree('group___e_g_x_math-_geometry-2_d-_elli
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Directrix<div class="ingroups"><a class="el" href="group___e_g_x_math.html">EGXMath Library</a> &raquo; <a class="el" href="group___e_g_x_math-_geometry.html">Geometry</a> &raquo; <a class="el" href="group___e_g_x_math-_geometry-2_d.html">2D Objects</a> &raquo; <a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse.html">Ellipse</a></div></div>  </div>
+<div class="title">Focal Length<div class="ingroups"><a class="el" href="group___e_g_x_math.html">EGXMath Library</a> &raquo; <a class="el" href="group___e_g_x_math-_geometry.html">Geometry</a> &raquo; <a class="el" href="group___e_g_x_math-_geometry-2_d.html">2D Objects</a> &raquo; <a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse.html">Ellipse</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gace8f72a8efbc9c18d3eb689151405106"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gace8f72a8efbc9c18d3eb689151405106"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html#gace8f72a8efbc9c18d3eb689151405106">EGXMath::EllipseDirectrix</a> (const T semiMajorAxisInm, const T semiMinorAxisInm)</td></tr>
-<tr class="memdesc:gace8f72a8efbc9c18d3eb689151405106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the directrix, \(d\), in meters of an ellipse with semi-major axis, \(a\), and semi-minor axis \(b\). </p><p class="formulaDsp">
-\[ d=\frac{a^2}{\sqrt{a^2-b^2}} \]
+<tr class="memitem:gab8d63de7640c880cfecaeada6f2afdac"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gab8d63de7640c880cfecaeada6f2afdac"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#gab8d63de7640c880cfecaeada6f2afdac">EGXMath::EllipseFocalLength</a> (const T linearEccentricityInm)</td></tr>
+<tr class="memdesc:gab8d63de7640c880cfecaeada6f2afdac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the focal length, \(f\), in meters of an ellipse with linear eccentricity, \(c\). </p><p class="formulaDsp">
+\[ f = 2c \]
 </p>
-<p>.  <a href="group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html#gace8f72a8efbc9c18d3eb689151405106">More...</a><br /></td></tr>
-<tr class="separator:gace8f72a8efbc9c18d3eb689151405106"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5e7a411cd0af17a30bae03613b4a675d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga5e7a411cd0af17a30bae03613b4a675d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html#ga5e7a411cd0af17a30bae03613b4a675d">EGXMath::EllipseDirectrixFromSemiMajorAndSemiMinorAxes</a> (const T semiMajorAxisInm, const T semiMinorAxisInm)</td></tr>
-<tr class="memdesc:ga5e7a411cd0af17a30bae03613b4a675d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the directrix, \(d\), in meters of an ellipse with semi-major axis, \(a\), and semi-minor axis \(b\). </p><p class="formulaDsp">
-\[ d=\frac{a^2}{\sqrt{a^2-b^2}} \]
+<p>.  <a href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#gab8d63de7640c880cfecaeada6f2afdac">More...</a><br /></td></tr>
+<tr class="separator:gab8d63de7640c880cfecaeada6f2afdac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7baefbac49ec6871a8db621ee0591674"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga7baefbac49ec6871a8db621ee0591674"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#ga7baefbac49ec6871a8db621ee0591674">EGXMath::EllipseFocalLength</a> (const T semiMajorAxisInm, const T semiMinorAxisInm)</td></tr>
+<tr class="memdesc:ga7baefbac49ec6871a8db621ee0591674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the focal length, \(f\), in meters of an ellipse with semi-major axis, \(a\), and semi-minor axis \(b\). </p><p class="formulaDsp">
+\[ f=2\sqrt{a^2-b^2} \]
 </p>
-<p>.  <a href="group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html#ga5e7a411cd0af17a30bae03613b4a675d">More...</a><br /></td></tr>
-<tr class="separator:ga5e7a411cd0af17a30bae03613b4a675d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa496c6b5f9717e7ce731dd374f5d0ae8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gaa496c6b5f9717e7ce731dd374f5d0ae8"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html#gaa496c6b5f9717e7ce731dd374f5d0ae8">EGXMath::EllipseDirectrixFromLinearEccentricity</a> (const T semiMajorAxisInm, const T linearEccentricityInm)</td></tr>
-<tr class="memdesc:gaa496c6b5f9717e7ce731dd374f5d0ae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the directrix, \(d\), in meters of an ellipse with semi-major axis, \(a\), and linear eccentricity \(c\). </p><p class="formulaDsp">
-\[ d=\frac{a^2}{c} \]
+<p>.  <a href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#ga7baefbac49ec6871a8db621ee0591674">More...</a><br /></td></tr>
+<tr class="separator:ga7baefbac49ec6871a8db621ee0591674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga87a2be49f9539b12f1a5b546e3c6a643"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga87a2be49f9539b12f1a5b546e3c6a643"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#ga87a2be49f9539b12f1a5b546e3c6a643">EGXMath::EllipseFocalLengthFromSemiMajorAndSemiMinorAxes</a> (const T semiMajorAxisInm, const T semiMinorAxisInm)</td></tr>
+<tr class="memdesc:ga87a2be49f9539b12f1a5b546e3c6a643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the linear eccentricity, \(f\), in meters of an ellipse with semi-major axis \(a\), and semi-minor axis \(b\). </p><p class="formulaDsp">
+\[ f=2\sqrt{a^2-b^2} \]
 </p>
-<p>.  <a href="group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html#gaa496c6b5f9717e7ce731dd374f5d0ae8">More...</a><br /></td></tr>
-<tr class="separator:gaa496c6b5f9717e7ce731dd374f5d0ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>.  <a href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#ga87a2be49f9539b12f1a5b546e3c6a643">More...</a><br /></td></tr>
+<tr class="separator:ga87a2be49f9539b12f1a5b546e3c6a643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga08a781f716a2e14f230fe094ecf5b03c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga08a781f716a2e14f230fe094ecf5b03c"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#ga08a781f716a2e14f230fe094ecf5b03c">EGXMath::EllipseFocalLengthFromEccentricity</a> (const T semiMajorAxisInm, const T eccentricity)</td></tr>
+<tr class="memdesc:ga08a781f716a2e14f230fe094ecf5b03c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the linear eccentricity, \(f\), in meters of an ellipse with semi-major axis \(a\), and eccentricity \(e\). </p><p class="formulaDsp">
+\[ f=2 a e \]
+</p>
+<p>.  <a href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#ga08a781f716a2e14f230fe094ecf5b03c">More...</a><br /></td></tr>
+<tr class="separator:ga08a781f716a2e14f230fe094ecf5b03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gace8f72a8efbc9c18d3eb689151405106"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gace8f72a8efbc9c18d3eb689151405106">&#9670;&nbsp;</a></span>EllipseDirectrix()</h2>
+<a id="gab8d63de7640c880cfecaeada6f2afdac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab8d63de7640c880cfecaeada6f2afdac">&#9670;&nbsp;</a></span>EllipseFocalLength() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -133,101 +140,28 @@ Functions</h2></td></tr>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T EGXMath::EllipseDirectrix </td>
+          <td class="memname">T EGXMath::EllipseFocalLength </td>
           <td>(</td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>semiMajorAxisInm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>linearEccentricityInm</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>semiMinorAxisInm</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Finds the directrix, \(d\), in meters of an ellipse with semi-major axis, \(a\), and semi-minor axis \(b\). </p><p class="formulaDsp">
-\[ d=\frac{a^2}{\sqrt{a^2-b^2}} \]
+<p>Finds the focal length, \(f\), in meters of an ellipse with linear eccentricity, \(c\). </p><p class="formulaDsp">
+\[ f = 2c \]
 </p>
 <p>. </p>
-<p>See <a href="http://mathworld.wolfram.com/Ellipse.html">http://mathworld.wolfram.com/Ellipse.html</a></p>
+<p>The focal length is the distance betweem the two foci.</p>
+<p>See <a href="http://mathworld.wolfram.com/FocalParameter.html">http://mathworld.wolfram.com/FocalParameter.html</a> and <a href="https://en.wikipedia.org/wiki/Conic_section#Conic_parameters">https://en.wikipedia.org/wiki/Conic_section#Conic_parameters</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">semiMajorAxisInm</td><td>\( a\ (m)\) Semi-major axis of the ellipse in meters. </td></tr>
-    <tr><td class="paramname">semiMinorAxisInm</td><td>\( b\ (m)\) Semi-minor axis of the ellipse in meters. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>\( d\ (m)\) Directrix of the ellipse in meters. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area.html#ga4ce8c8323e9718ce5458f4ab7f6d823d" title="Finds the surface area, , in meter squared of an ellipse with semi-major axis , and semi-minor axis ...">EllipseSurfaceArea()</a> for area of an ellipse. </dd>
-<dd>
-<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_circumference.html#ga4172802ac674eb53467b44928ac635c7" title="Approximates the circumference (perimeter),  in meters of an ellipse with semi-major axis ...">EllipseCircumference()</a> for circumference of an ellipse. </dd>
-<dd>
-EllipseSemiMajorAxis() for semi-major axis of an ellipse. </dd>
-<dd>
-EllipseSemiMinorAxis() for semi-minor axis of an ellipse. </dd>
-<dd>
-EllipseSemiLatusRectum() for semi-latus rectum of an ellipse. </dd>
-<dd>
-<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter.html#ga4cd01a38c72c092ef9791351948bf69b" title="Finds the focal parameter, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseFocalParameter()</a> for focal parameter of an ellipse. </dd>
-<dd>
-<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#gab8d63de7640c880cfecaeada6f2afdac" title="Finds the focal length, , in meters of an ellipse with linear eccentricity, . . ">EllipseFocalLength()</a> for focal length of an ellipse. </dd>
-<dd>
-<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity.html#gac70b3010e30aa8b73deb50fe2b9b9a91" title="Finds the linear eccentricity, , in meters of an ellipse with semi-major axis , and semi-minor axis ...">EllipseLinearEccentricity()</a> for linear eccentricity of an ellipse. </dd>
-<dd>
-<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html#ga6a0a7fba17f782616894cfc447628c33" title="Finds the eccentricity, , of an ellipse from flattening, : . ">EllipseEccentricity()</a> for eccentricity of an ellipse. </dd>
-<dd>
-<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_inertia.html#ga10a3049c2f04b50f271fb01dc62e4cf8" title="Finds the moment of inertia tensor,  of an ellipse with semi-major axis , and semi-minor axis  that i...">EllipseInertia()</a> for inertial tensor of an ellipse. </dd></dl>
-
-</div>
-</div>
-<a id="gaa496c6b5f9717e7ce731dd374f5d0ae8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa496c6b5f9717e7ce731dd374f5d0ae8">&#9670;&nbsp;</a></span>EllipseDirectrixFromLinearEccentricity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">T EGXMath::EllipseDirectrixFromLinearEccentricity </td>
-          <td>(</td>
-          <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>semiMajorAxisInm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>linearEccentricityInm</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Finds the directrix, \(d\), in meters of an ellipse with semi-major axis, \(a\), and linear eccentricity \(c\). </p><p class="formulaDsp">
-\[ d=\frac{a^2}{c} \]
-</p>
-<p>. </p>
-<p>See <a href="http://mathworld.wolfram.com/Ellipse.html">http://mathworld.wolfram.com/Ellipse.html</a></p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">semiMajorAxisInm</td><td>\( a\ (m)\) Semi-major axis of the ellipse in meters. </td></tr>
     <tr><td class="paramname">linearEccentricityInm</td><td>\( c\ (m)\) Linear eccentricity of the ellipse in meters. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>\( d\ (m)\) Directrix of the ellipse in meters. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>\( f\ (m)\) focal length of the ellipse in meters. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area.html#ga4ce8c8323e9718ce5458f4ab7f6d823d" title="Finds the surface area, , in meter squared of an ellipse with semi-major axis , and semi-minor axis ...">EllipseSurfaceArea()</a> for area of an ellipse. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_circumference.html#ga4172802ac674eb53467b44928ac635c7" title="Approximates the circumference (perimeter),  in meters of an ellipse with semi-major axis ...">EllipseCircumference()</a> for circumference of an ellipse. </dd>
@@ -238,9 +172,11 @@ EllipseSemiMinorAxis() for semi-minor axis of an ellipse. </dd>
 <dd>
 EllipseSemiLatusRectum() for semi-latus rectum of an ellipse. </dd>
 <dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html#gace8f72a8efbc9c18d3eb689151405106" title="Finds the directrix, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseDirectrix()</a> for directrix of an ellipse. </dd>
+<dd>
 <a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter.html#ga4cd01a38c72c092ef9791351948bf69b" title="Finds the focal parameter, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseFocalParameter()</a> for focal parameter of an ellipse. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#gab8d63de7640c880cfecaeada6f2afdac" title="Finds the focal length, , in meters of an ellipse with linear eccentricity, . . ">EllipseFocalLength()</a> for focal length of an ellipse. </dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#ga7baefbac49ec6871a8db621ee0591674" title="Finds the focal length, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseFocalLength()</a> for focal length of an ellipse. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity.html#gac70b3010e30aa8b73deb50fe2b9b9a91" title="Finds the linear eccentricity, , in meters of an ellipse with semi-major axis , and semi-minor axis ...">EllipseLinearEccentricity()</a> for linear eccentricity of an ellipse. </dd>
 <dd>
@@ -250,8 +186,8 @@ EllipseSemiLatusRectum() for semi-latus rectum of an ellipse. </dd>
 
 </div>
 </div>
-<a id="ga5e7a411cd0af17a30bae03613b4a675d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5e7a411cd0af17a30bae03613b4a675d">&#9670;&nbsp;</a></span>EllipseDirectrixFromSemiMajorAndSemiMinorAxes()</h2>
+<a id="ga7baefbac49ec6871a8db621ee0591674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7baefbac49ec6871a8db621ee0591674">&#9670;&nbsp;</a></span>EllipseFocalLength() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +195,7 @@ EllipseSemiLatusRectum() for semi-latus rectum of an ellipse. </dd>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">T EGXMath::EllipseDirectrixFromSemiMajorAndSemiMinorAxes </td>
+          <td class="memname">T EGXMath::EllipseFocalLength </td>
           <td>(</td>
           <td class="paramtype">const T&#160;</td>
           <td class="paramname"><em>semiMajorAxisInm</em>, </td>
@@ -278,11 +214,12 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Finds the directrix, \(d\), in meters of an ellipse with semi-major axis, \(a\), and semi-minor axis \(b\). </p><p class="formulaDsp">
-\[ d=\frac{a^2}{\sqrt{a^2-b^2}} \]
+<p>Finds the focal length, \(f\), in meters of an ellipse with semi-major axis, \(a\), and semi-minor axis \(b\). </p><p class="formulaDsp">
+\[ f=2\sqrt{a^2-b^2} \]
 </p>
 <p>. </p>
-<p>See <a href="http://mathworld.wolfram.com/Ellipse.html">http://mathworld.wolfram.com/Ellipse.html</a></p>
+<p>The focal length is the distance betweem the two foci.</p>
+<p>See <a href="http://mathworld.wolfram.com/FocalParameter.html">http://mathworld.wolfram.com/FocalParameter.html</a> and <a href="https://en.wikipedia.org/wiki/Conic_section#Conic_parameters">https://en.wikipedia.org/wiki/Conic_section#Conic_parameters</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">semiMajorAxisInm</td><td>\( a\ (m)\) Semi-major axis of the ellipse in meters. </td></tr>
@@ -290,7 +227,7 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>\( d\ (m)\) Directrix of the ellipse in meters. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>\( f\ (m)\) focal length of the ellipse in meters. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area.html#ga4ce8c8323e9718ce5458f4ab7f6d823d" title="Finds the surface area, , in meter squared of an ellipse with semi-major axis , and semi-minor axis ...">EllipseSurfaceArea()</a> for area of an ellipse. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_circumference.html#ga4172802ac674eb53467b44928ac635c7" title="Approximates the circumference (perimeter),  in meters of an ellipse with semi-major axis ...">EllipseCircumference()</a> for circumference of an ellipse. </dd>
@@ -301,9 +238,141 @@ EllipseSemiMinorAxis() for semi-minor axis of an ellipse. </dd>
 <dd>
 EllipseSemiLatusRectum() for semi-latus rectum of an ellipse. </dd>
 <dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html#gace8f72a8efbc9c18d3eb689151405106" title="Finds the directrix, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseDirectrix()</a> for directrix of an ellipse. </dd>
+<dd>
 <a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter.html#ga4cd01a38c72c092ef9791351948bf69b" title="Finds the focal parameter, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseFocalParameter()</a> for focal parameter of an ellipse. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#gab8d63de7640c880cfecaeada6f2afdac" title="Finds the focal length, , in meters of an ellipse with linear eccentricity, . . ">EllipseFocalLength()</a> for focal length of an ellipse. </dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#ga7baefbac49ec6871a8db621ee0591674" title="Finds the focal length, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseFocalLength()</a> for focal length of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity.html#gac70b3010e30aa8b73deb50fe2b9b9a91" title="Finds the linear eccentricity, , in meters of an ellipse with semi-major axis , and semi-minor axis ...">EllipseLinearEccentricity()</a> for linear eccentricity of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html#ga6a0a7fba17f782616894cfc447628c33" title="Finds the eccentricity, , of an ellipse from flattening, : . ">EllipseEccentricity()</a> for eccentricity of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_inertia.html#ga10a3049c2f04b50f271fb01dc62e4cf8" title="Finds the moment of inertia tensor,  of an ellipse with semi-major axis , and semi-minor axis  that i...">EllipseInertia()</a> for inertial tensor of an ellipse. </dd></dl>
+
+</div>
+</div>
+<a id="ga08a781f716a2e14f230fe094ecf5b03c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga08a781f716a2e14f230fe094ecf5b03c">&#9670;&nbsp;</a></span>EllipseFocalLengthFromEccentricity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXMath::EllipseFocalLengthFromEccentricity </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>semiMajorAxisInm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>eccentricity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds the linear eccentricity, \(f\), in meters of an ellipse with semi-major axis \(a\), and eccentricity \(e\). </p><p class="formulaDsp">
+\[ f=2 a e \]
+</p>
+<p>. </p>
+<p>See <a href="http://mathworld.wolfram.com/Ellipse.html">http://mathworld.wolfram.com/Ellipse.html</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">semiMajorAxisInm</td><td>\( a\ (m)\) Semi-major axis of the ellipse in meters. </td></tr>
+    <tr><td class="paramname">eccentricity</td><td>\( e\ ()\) Eccentricity of the ellipse in meters. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\( f\ (m)\) focal length of the ellipse in meters. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area.html#ga4ce8c8323e9718ce5458f4ab7f6d823d" title="Finds the surface area, , in meter squared of an ellipse with semi-major axis , and semi-minor axis ...">EllipseSurfaceArea()</a> for area of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_circumference.html#ga4172802ac674eb53467b44928ac635c7" title="Approximates the circumference (perimeter),  in meters of an ellipse with semi-major axis ...">EllipseCircumference()</a> for circumference of an ellipse. </dd>
+<dd>
+EllipseSemiMajorAxis() for semi-major axis of an ellipse. </dd>
+<dd>
+EllipseSemiMinorAxis() for semi-minor axis of an ellipse. </dd>
+<dd>
+EllipseSemiLatusRectum() for semi-latus rectum of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html#gace8f72a8efbc9c18d3eb689151405106" title="Finds the directrix, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseDirectrix()</a> for directrix of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter.html#ga4cd01a38c72c092ef9791351948bf69b" title="Finds the focal parameter, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseFocalParameter()</a> for focal parameter of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#ga7baefbac49ec6871a8db621ee0591674" title="Finds the focal length, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseFocalLength()</a> for focal length of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity.html#gac70b3010e30aa8b73deb50fe2b9b9a91" title="Finds the linear eccentricity, , in meters of an ellipse with semi-major axis , and semi-minor axis ...">EllipseLinearEccentricity()</a> for linear eccentricity of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html#ga6a0a7fba17f782616894cfc447628c33" title="Finds the eccentricity, , of an ellipse from flattening, : . ">EllipseEccentricity()</a> for eccentricity of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_inertia.html#ga10a3049c2f04b50f271fb01dc62e4cf8" title="Finds the moment of inertia tensor,  of an ellipse with semi-major axis , and semi-minor axis  that i...">EllipseInertia()</a> for inertial tensor of an ellipse. </dd></dl>
+
+</div>
+</div>
+<a id="ga87a2be49f9539b12f1a5b546e3c6a643"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga87a2be49f9539b12f1a5b546e3c6a643">&#9670;&nbsp;</a></span>EllipseFocalLengthFromSemiMajorAndSemiMinorAxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXMath::EllipseFocalLengthFromSemiMajorAndSemiMinorAxes </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>semiMajorAxisInm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>semiMinorAxisInm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds the linear eccentricity, \(f\), in meters of an ellipse with semi-major axis \(a\), and semi-minor axis \(b\). </p><p class="formulaDsp">
+\[ f=2\sqrt{a^2-b^2} \]
+</p>
+<p>. </p>
+<p>See <a href="http://mathworld.wolfram.com/Ellipse.html">http://mathworld.wolfram.com/Ellipse.html</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">semiMajorAxisInm</td><td>\( a\ (m)\) Semi-major axis of the ellipse in meters. </td></tr>
+    <tr><td class="paramname">semiMinorAxisInm</td><td>\( b\ (m)\) Semi-minor axis of the ellipse in meters. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\( f\ (m)\) focal length of the ellipse in meters. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area.html#ga4ce8c8323e9718ce5458f4ab7f6d823d" title="Finds the surface area, , in meter squared of an ellipse with semi-major axis , and semi-minor axis ...">EllipseSurfaceArea()</a> for area of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_circumference.html#ga4172802ac674eb53467b44928ac635c7" title="Approximates the circumference (perimeter),  in meters of an ellipse with semi-major axis ...">EllipseCircumference()</a> for circumference of an ellipse. </dd>
+<dd>
+EllipseSemiMajorAxis() for semi-major axis of an ellipse. </dd>
+<dd>
+EllipseSemiMinorAxis() for semi-minor axis of an ellipse. </dd>
+<dd>
+EllipseSemiLatusRectum() for semi-latus rectum of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html#gace8f72a8efbc9c18d3eb689151405106" title="Finds the directrix, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseDirectrix()</a> for directrix of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter.html#ga4cd01a38c72c092ef9791351948bf69b" title="Finds the focal parameter, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseFocalParameter()</a> for focal parameter of an ellipse. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html#ga7baefbac49ec6871a8db621ee0591674" title="Finds the focal length, , in meters of an ellipse with semi-major axis, , and semi-minor axis ...">EllipseFocalLength()</a> for focal length of an ellipse. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity.html#gac70b3010e30aa8b73deb50fe2b9b9a91" title="Finds the linear eccentricity, , in meters of an ellipse with semi-major axis , and semi-minor axis ...">EllipseLinearEccentricity()</a> for linear eccentricity of an ellipse. </dd>
 <dd>

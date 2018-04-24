@@ -8,6 +8,8 @@ var searchData=
   ['ellipsecircumference_2einl',['EllipseCircumference.inl',['../_ellipse_circumference_8inl.html',1,'']]],
   ['ellipsedirectrix_2ehpp',['EllipseDirectrix.hpp',['../_ellipse_directrix_8hpp.html',1,'']]],
   ['ellipsedirectrix_2einl',['EllipseDirectrix.inl',['../_ellipse_directrix_8inl.html',1,'']]],
+  ['ellipsefocallength_2ehpp',['EllipseFocalLength.hpp',['../_ellipse_focal_length_8hpp.html',1,'']]],
+  ['ellipsefocallength_2einl',['EllipseFocalLength.inl',['../_ellipse_focal_length_8inl.html',1,'']]],
   ['ellipsefocalparameter_2ehpp',['EllipseFocalParameter.hpp',['../_ellipse_focal_parameter_8hpp.html',1,'']]],
   ['ellipsefocalparameter_2einl',['EllipseFocalParameter.inl',['../_ellipse_focal_parameter_8inl.html',1,'']]],
   ['ellipseinertia_2ehpp',['EllipseInertia.hpp',['../_ellipse_inertia_8hpp.html',1,'']]],

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['functions',['Functions',['../group___e_g_x_math-_functions.html',1,'']]],
+  ['focal_20length',['Focal Length',['../group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length.html',1,'']]],
   ['focal_20parameter',['Focal Parameter',['../group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter.html',1,'']]],
   ['flattening_2foblateness',['Flattening/Oblateness',['../group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html',1,'']]],
   ['faraday_20constant',['Faraday constant',['../group___n_i_s_t_const-_faraday_constant.html',1,'']]],
