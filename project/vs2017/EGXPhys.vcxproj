@@ -265,7 +265,16 @@
     <ClInclude Include="..\..\tests\EGXMath\Conversions\AngularConversionsTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Conversions\ConversionsTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\EGXMathTests.hpp" />
-    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\CircleTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\2DGeometryTests.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Circle\CircleTests.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseCircumferenceTests.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseEccentricityTests.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseInertiaTests.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseLinearEccentricityTests.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseSemiMajorAxisTests.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseSemiMinorAxisTests.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseSurfaceAreaTests.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseTests.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\SpheroidFlatteningTests.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\GeometryTest.hpp" />
     <ClInclude Include="..\..\tests\Kinetics\AngularAccelerationTests.hpp" />

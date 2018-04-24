@@ -52,4 +52,4 @@ namespace EGXMath
     /// @}
 } //namespace EGXMath
 
-#include "SpheroidFlattening.inl"
+//#include "SpheroidFlattening.inl"

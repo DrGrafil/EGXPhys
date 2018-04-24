@@ -24,7 +24,7 @@ namespace EGXMath {
 		T a, b;
 		if (semiMajorAxisInm == semiMinorAxisInm)
 		{
-			return pi * semiMajorAxisInm * semiMajorAxisInm;
+			return (T)2.0 * (T)EGXMath::pi * semiMajorAxisInm;
 		}
 		else if (semiMajorAxisInm > semiMinorAxisInm)
 		{
@@ -38,8 +38,8 @@ namespace EGXMath {
 		}
 
 		//Approximation Ramanujan 
-		T h = pow(a - b, 2.0) / pow(a + b, 2.0);
-		return pi * (a + b) * (1.0 + ((3.0 * h) / (10.0 + sqrt(4.0 - 3.0 * h))));
+		T h = pow((a - b)/(a + b), (T)2.0);
+		return (T)EGXMath::pi * (a + b) * ((T)1.0 + (((T)3.0 * h) / ((T)10.0 + sqrt((T)4.0 - (T)3.0 * h))));
 	}
 
 	template <typename T>
@@ -47,7 +47,7 @@ namespace EGXMath {
 		T a, b;
 		if (semiMajorAxisInm == semiMinorAxisInm)
 		{
-			return pi * semiMajorAxisInm * semiMajorAxisInm;
+			return (T)2.0 * (T)EGXMath::pi * semiMajorAxisInm;
 		}
 		else if (semiMajorAxisInm > semiMinorAxisInm)
 		{
@@ -61,9 +61,9 @@ namespace EGXMath {
 		}
 
 		//Approximation Pade 3/3 
-		T h = pow(a - b, 2.0) / pow(a + b, 2.0);
+		T h = pow((a - b) / (a + b), (T)2.0);
 
-		return pi * (a + b) * (135168.0 - 85760.0 * h - 5568.0 * h * h + 3867.0 * h * h * h)/(135168.0 - 119552.0 * h + 22208.0 * h * h - 345.0 * h * h * h);
+		return (T)EGXMath::pi * (a + b) * ((T)135168.0 - (T)85760.0 * h - (T)5568.0 * h * h + (T)3867.0 * h * h * h)/((T)135168.0 - (T)119552.0 * h + (T)22208.0 * h * h - (T)345.0 * h * h * h);
 	}
 
 }//namespace EGXMath

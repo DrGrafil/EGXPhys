@@ -103,6 +103,12 @@
     <Filter Include="EGXPhys\EGXMath\Geometry\2D\Ellipse">
       <UniqueIdentifier>{fee2a43f-3f37-4328-afdc-47def8055b5e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tests\EGXMath\Geometry\2D\Ellipse">
+      <UniqueIdentifier>{8a75fc89-bf55-4273-bb78-1e7aa568acd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\EGXMath\Geometry\2D\Circle">
+      <UniqueIdentifier>{ab2d9ed1-ca42-4855-801b-b8c2024113b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -393,9 +399,6 @@
     <ClInclude Include="..\..\tests\EGXMath\Geometry\GeometryTest.hpp">
       <Filter>Tests\EGXMath\Geometry</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\CircleTest.hpp">
-      <Filter>Tests\EGXMath\Geometry\2D</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\3D</Filter>
     </ClInclude>
@@ -503,6 +506,36 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSurfaceArea.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseCircumferenceTests.hpp">
+      <Filter>Tests\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseEccentricityTests.hpp">
+      <Filter>Tests\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseInertiaTests.hpp">
+      <Filter>Tests\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseLinearEccentricityTests.hpp">
+      <Filter>Tests\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseSemiMajorAxisTests.hpp">
+      <Filter>Tests\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseSemiMinorAxisTests.hpp">
+      <Filter>Tests\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseSurfaceAreaTests.hpp">
+      <Filter>Tests\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseTests.hpp">
+      <Filter>Tests\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\2DGeometryTests.hpp">
+      <Filter>Tests\EGXMath\Geometry\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Circle\CircleTests.hpp">
+      <Filter>Tests\EGXMath\Geometry\2D\Circle</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
