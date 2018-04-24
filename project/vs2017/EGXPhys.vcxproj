@@ -205,7 +205,11 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\Ellipse.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseCircumference.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseEccentricity.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseFocalParameter.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseInertia.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiLatusRectum.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiMajorAxis.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiMinorAxis.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSurfaceArea.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\3DGeometry.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.hpp" />
@@ -338,7 +342,11 @@
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle\Circle.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseCircumference.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseEccentricity.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseFocalParameter.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseInertia.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiLatusRectum.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiMajorAxis.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiMinorAxis.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSurfaceArea.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.inl" />

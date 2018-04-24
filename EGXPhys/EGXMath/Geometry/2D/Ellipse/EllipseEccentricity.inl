@@ -15,10 +15,10 @@ namespace EGXMath {
 	template <typename T>
 	T EllipseEccentricity(const T semiMajorAxisInm, const T semiMinorAxisInm) {
 		if (semiMajorAxisInm  > semiMinorAxisInm) {
-			return std::sqrt(1.0 - ((semiMinorAxisInm * semiMinorAxisInm) / (semiMajorAxisInm * semiMajorAxisInm)));
+			return std::sqrt((T)1.0 - ((semiMinorAxisInm * semiMinorAxisInm) / (semiMajorAxisInm * semiMajorAxisInm)));
 		}
 		else {
-			return std::sqrt(1.0 - ((semiMajorAxisInm * semiMajorAxisInm) / (semiMinorAxisInm * semiMinorAxisInm)));
+			return std::sqrt((T)1.0 - ((semiMajorAxisInm * semiMajorAxisInm) / (semiMinorAxisInm * semiMinorAxisInm)));
 		}
 	}
 
