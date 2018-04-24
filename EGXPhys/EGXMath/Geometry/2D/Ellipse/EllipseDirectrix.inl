@@ -25,7 +25,7 @@ namespace EGXMath {
 			b = semiMajorAxisInm;
 			a = semiMinorAxisInm;
 		}
-		return a * a / std::sqrt{ a*a - b * b };
+		return a * a / std::sqrt( a*a - b * b );
 	}
 
 	template <typename T>
