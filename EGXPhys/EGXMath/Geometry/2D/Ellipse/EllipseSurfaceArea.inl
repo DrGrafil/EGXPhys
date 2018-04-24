@@ -10,7 +10,7 @@ namespace EGXMath {
 	template <typename T>
 	T EllipseSurfaceArea(const T semiMajorAxisInm, const T semiMinorAxisInm)
 	{
-		return pi * semiMajorAxisInm * semiMinorAxisInm;
+		return (T)EGXMath::pi * semiMajorAxisInm * semiMinorAxisInm;
 	}
 
 }//namespace EGXMath
