@@ -1,0 +1,128 @@
+\hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia}{}\section{Inertia}
+\label{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia}\index{Inertia@{Inertia}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}{E\+G\+X\+Math\+::\+Ellipse\+Inertia}} (const T mass\+Inkg, const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm, T2(\&matrix)\mbox{[}9\mbox{]})
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{ellipse}$ of an ellipse with semi-\/major axis $a$, and semi-\/minor axis $b$ that is infinitly thin. It is assumed that the semi-\/major axis lays on the x axis while semi-\/minor axis is on the y axis. \[ I_{ellipse}=\begin{bmatrix} ??? & 0 & 0\\ 0 & ??? & 0\\ 0 & 0 & ??? \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga4d9a8fec47d22c25481db36bf475905a}{E\+G\+X\+Math\+::\+Ellipse\+Inertia}} (const T mass\+Inkg, const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm, std\+::vector$<$ T2 $>$ \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{ellipse}$ of an ellipse with semi-\/major axis $a$, and semi-\/minor axis $b$ that is infinitly thin. It is assumed that the semi-\/major axis lays on the x axis while semi-\/minor axis is on the y axis. \[ I_{ellipse}=\begin{bmatrix} ??? & 0 & 0\\ 0 & ??? & 0\\ 0 & 0 & ??? \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_gad679a65dc7550e27dc69c1d328c94732}{E\+G\+X\+Math\+::\+Ellipse\+Inertia}} (const T mass\+Inkg, const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm, glm\+::mat3 \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{ellipse}$ of an ellipse with semi-\/major axis $a$, and semi-\/minor axis $b$ that is infinitly thin. It is assumed that the semi-\/major axis lays on the x axis while semi-\/minor axis is on the y axis. \[ I_{ellipse}=\begin{bmatrix} ??? & 0 & 0\\ 0 & ??? & 0\\ 0 & 0 & ??? \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}} 
+\index{Inertia@{Inertia}!Ellipse\+Inertia@{Ellipse\+Inertia}}
+\index{Ellipse\+Inertia@{Ellipse\+Inertia}!Inertia@{Inertia}}
+\subsubsection{\texorpdfstring{Ellipse\+Inertia()}{EllipseInertia()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+void E\+G\+X\+Math\+::\+Ellipse\+Inertia (\begin{DoxyParamCaption}\item[{const T}]{mass\+Inkg,  }\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{semi\+Minor\+Axis\+Inm,  }\item[{T2(\&)}]{matrix\mbox{[}9\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Finds the moment of inertia tensor, $I_{ellipse}$ of an ellipse with semi-\/major axis $a$, and semi-\/minor axis $b$ that is infinitly thin. It is assumed that the semi-\/major axis lays on the x axis while semi-\/minor axis is on the y axis. \[ I_{ellipse}=\begin{bmatrix} ??? & 0 & 0\\ 0 & ??? & 0\\ 0 & 0 & ??? \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass\+Inkg} & $ m\ (kg)$ Mass of the ellipse in kilograms. \\
+\hline
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the ellipse in meters. \\
+\hline
+{\em semi\+Minor\+Axis\+Inm} & $ b\ (m)$ Semi-\/minor axis of the ellipse in meters. \\
+\hline
+{\em matrix} & $ I_{ellipse}\ (kg\ m^2)$ Moment of inertia tensor matrix. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of a ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of a ellipse. 
+
+Ellipse\+Semi\+Major\+Axis() for semi-\/major axis of a ellipse. 
+
+Ellipse\+Semi\+Minor\+Axis() for semi-\/minor axis of a ellipse. 
+
+Ellipse\+Focal\+Length() for focal length (linear eccentricity) of a ellipse. 
+
+Ellipse\+Linear\+Eccentricity() for linear eccentricity (focal length) of a ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of a ellipse. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga4d9a8fec47d22c25481db36bf475905a}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga4d9a8fec47d22c25481db36bf475905a}} 
+\index{Inertia@{Inertia}!Ellipse\+Inertia@{Ellipse\+Inertia}}
+\index{Ellipse\+Inertia@{Ellipse\+Inertia}!Inertia@{Inertia}}
+\subsubsection{\texorpdfstring{Ellipse\+Inertia()}{EllipseInertia()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+void E\+G\+X\+Math\+::\+Ellipse\+Inertia (\begin{DoxyParamCaption}\item[{const T}]{mass\+Inkg,  }\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{semi\+Minor\+Axis\+Inm,  }\item[{std\+::vector$<$ T2 $>$ \&}]{matrix }\end{DoxyParamCaption})}
+
+
+
+Finds the moment of inertia tensor, $I_{ellipse}$ of an ellipse with semi-\/major axis $a$, and semi-\/minor axis $b$ that is infinitly thin. It is assumed that the semi-\/major axis lays on the x axis while semi-\/minor axis is on the y axis. \[ I_{ellipse}=\begin{bmatrix} ??? & 0 & 0\\ 0 & ??? & 0\\ 0 & 0 & ??? \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass\+Inkg} & $ m\ (kg)$ Mass of the ellipse in kilograms. \\
+\hline
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the ellipse in meters. \\
+\hline
+{\em semi\+Minor\+Axis\+Inm} & $ b\ (m)$ Semi-\/minor axis of the ellipse in meters. \\
+\hline
+{\em matrix} & $ I_{ellipse}\ (kg\ m^2)$ Moment of inertia tensor matrix. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of a ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of a ellipse. 
+
+Ellipse\+Semi\+Major\+Axis() for semi-\/major axis of a ellipse. 
+
+Ellipse\+Semi\+Minor\+Axis() for semi-\/minor axis of a ellipse. 
+
+Ellipse\+Focal\+Length() for focal length (linear eccentricity) of a ellipse. 
+
+Ellipse\+Linear\+Eccentricity() for linear eccentricity (focal length) of a ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of a ellipse. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_gad679a65dc7550e27dc69c1d328c94732}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_gad679a65dc7550e27dc69c1d328c94732}} 
+\index{Inertia@{Inertia}!Ellipse\+Inertia@{Ellipse\+Inertia}}
+\index{Ellipse\+Inertia@{Ellipse\+Inertia}!Inertia@{Inertia}}
+\subsubsection{\texorpdfstring{Ellipse\+Inertia()}{EllipseInertia()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void E\+G\+X\+Math\+::\+Ellipse\+Inertia (\begin{DoxyParamCaption}\item[{const T}]{mass\+Inkg,  }\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{semi\+Minor\+Axis\+Inm,  }\item[{glm\+::mat3 \&}]{matrix }\end{DoxyParamCaption})}
+
+
+
+Finds the moment of inertia tensor, $I_{ellipse}$ of an ellipse with semi-\/major axis $a$, and semi-\/minor axis $b$ that is infinitly thin. It is assumed that the semi-\/major axis lays on the x axis while semi-\/minor axis is on the y axis. \[ I_{ellipse}=\begin{bmatrix} ??? & 0 & 0\\ 0 & ??? & 0\\ 0 & 0 & ??? \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass\+Inkg} & $ m\ (kg)$ Mass of the ellipse in kilograms. \\
+\hline
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the ellipse in meters. \\
+\hline
+{\em semi\+Minor\+Axis\+Inm} & $ b\ (m)$ Semi-\/minor axis of the ellipse in meters. \\
+\hline
+{\em matrix} & $ I_{ellipse}\ (kg\ m^2)$ Moment of inertia tensor matrix. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of a ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of a ellipse. 
+
+Ellipse\+Semi\+Major\+Axis() for semi-\/major axis of a ellipse. 
+
+Ellipse\+Semi\+Minor\+Axis() for semi-\/minor axis of a ellipse. 
+
+Ellipse\+Focal\+Length() for focal length (linear eccentricity) of a ellipse. 
+
+Ellipse\+Linear\+Eccentricity() for linear eccentricity (focal length) of a ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of a ellipse. 
+\end{DoxySeeAlso}

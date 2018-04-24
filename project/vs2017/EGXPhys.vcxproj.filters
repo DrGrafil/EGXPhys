@@ -495,6 +495,15 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseEccentricity.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseCircumference.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseInertia.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSurfaceArea.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -691,10 +700,16 @@
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle\Circle.inl">
       <Filter>EGXPhys\EGXMath\Geometry\2D\Circle</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\Ellipse.inl">
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseEccentricity.inl">
       <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseEccentricity.inl">
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseCircumference.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseInertia.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSurfaceArea.inl">
       <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
     </None>
   </ItemGroup>

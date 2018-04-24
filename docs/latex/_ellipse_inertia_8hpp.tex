@@ -1,0 +1,31 @@
+\hypertarget{_ellipse_inertia_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Inertia.hpp File Reference}
+\label{_ellipse_inertia_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Inertia.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Inertia.\+hpp}}
+
+
+Defines functions relating to ellipse inertia.  
+
+
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$glm/fwd.\+hpp$>$}\newline
+{\ttfamily \#include \char`\"{}Ellipse\+Inertia.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}{E\+G\+X\+Math\+::\+Ellipse\+Inertia}} (const T mass\+Inkg, const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm, T2(\&matrix)\mbox{[}9\mbox{]})
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{ellipse}$ of an ellipse with semi-\/major axis $a$, and semi-\/minor axis $b$ that is infinitly thin. It is assumed that the semi-\/major axis lays on the x axis while semi-\/minor axis is on the y axis. \[ I_{ellipse}=\begin{bmatrix} ??? & 0 & 0\\ 0 & ??? & 0\\ 0 & 0 & ??? \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga4d9a8fec47d22c25481db36bf475905a}{E\+G\+X\+Math\+::\+Ellipse\+Inertia}} (const T mass\+Inkg, const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm, std\+::vector$<$ T2 $>$ \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{ellipse}$ of an ellipse with semi-\/major axis $a$, and semi-\/minor axis $b$ that is infinitly thin. It is assumed that the semi-\/major axis lays on the x axis while semi-\/minor axis is on the y axis. \[ I_{ellipse}=\begin{bmatrix} ??? & 0 & 0\\ 0 & ??? & 0\\ 0 & 0 & ??? \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_gad679a65dc7550e27dc69c1d328c94732}{E\+G\+X\+Math\+::\+Ellipse\+Inertia}} (const T mass\+Inkg, const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm, glm\+::mat3 \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{ellipse}$ of an ellipse with semi-\/major axis $a$, and semi-\/minor axis $b$ that is infinitly thin. It is assumed that the semi-\/major axis lays on the x axis while semi-\/minor axis is on the y axis. \[ I_{ellipse}=\begin{bmatrix} ??? & 0 & 0\\ 0 & ??? & 0\\ 0 & 0 & ??? \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Hoop.\+html}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines functions relating to ellipse inertia. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/23/18 
+\end{DoxyDate}

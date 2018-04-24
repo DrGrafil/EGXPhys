@@ -203,7 +203,10 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\2DGeometry.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle\Circle.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\Ellipse.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseCircumference.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseEccentricity.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseInertia.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSurfaceArea.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\3DGeometry.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.hpp" />
@@ -324,8 +327,10 @@
     <None Include="..\..\EGXPhys\EGXMath\Functions\PeriodicFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle\Circle.inl" />
-    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\Ellipse.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseCircumference.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseEccentricity.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseInertia.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSurfaceArea.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Disk.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\Spheroid.inl" />
