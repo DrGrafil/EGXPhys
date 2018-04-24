@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['circle_2ehpp',['Circle.hpp',['../_circle_8hpp.html',1,'']]],
-  ['circle_2einl',['Circle.inl',['../_circle_8inl.html',1,'']]],
   ['circlecircumference',['CircleCircumference',['../group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e',1,'EGXMath']]],
+  ['circleperimeter',['CirclePerimeter',['../group___e_g_x_math-_geometry-2_d-_circle.html#gad32d0bded2e74c52a4c41cfffd2a9e77',1,'EGXMath']]],
   ['circlesurfacearea',['CircleSurfaceArea',['../group___e_g_x_math-_geometry-2_d-_circle.html#gaa4486100a643c57bd7a80c1c11ae3f60',1,'EGXMath']]],
   ['circumstellarhabitablezone_2ehpp',['CircumstellarHabitableZone.hpp',['../_circumstellar_habitable_zone_8hpp.html',1,'']]],
   ['circumstellarhabitablezone_2einl',['CircumstellarHabitableZone.inl',['../_circumstellar_habitable_zone_8inl.html',1,'']]],
@@ -21,8 +20,6 @@ var searchData=
   ['conventionalvonklitzingconstant',['conventionalvonKlitzingConstant',['../group___n_i_s_t_const-_conventionalvon_klitzing_constant.html#gabf641ec13f8a8d63762992724dd6d670',1,'NISTConst']]],
   ['conversions_2ehpp',['Conversions.hpp',['../_conversions_8hpp.html',1,'']]],
   ['cuxunit',['CuXUnit',['../group___n_i_s_t_const-_copper.html#gaefed00ac64123e598d5c20abac22f22f',1,'NISTConst']]],
-  ['cylinder_2ehpp',['Cylinder.hpp',['../_cylinder_8hpp.html',1,'']]],
-  ['cylinder_2einl',['Cylinder.inl',['../_cylinder_8inl.html',1,'']]],
   ['cylinderinertia',['CylinderInertia',['../group___e_g_x_math-_geometry-3_d-_cylinder.html#gae7dca080058b400feb0d69f78af7a850',1,'EGXMath::CylinderInertia(const T mass, const T height, const T radius, T2(&amp;matrix)[9])'],['../group___e_g_x_math-_geometry-3_d-_cylinder.html#gac46dd57839cb2157d1bb6dd430d781ec',1,'EGXMath::CylinderInertia(const T mass, const T height, const T radius, std::vector&lt; T2 &gt; &amp;matrix)'],['../group___e_g_x_math-_geometry-3_d-_cylinder.html#ga5d9256549303e88a49b72e3d4c2c4a6d',1,'EGXMath::CylinderInertia(const T mass, const T height, const T radius, glm::mat3 &amp;matrix)'],['../group___e_g_x_math-_geometry-3_d-_cylinder.html#ga5d9256549303e88a49b72e3d4c2c4a6d',1,'EGXMath::CylinderInertia(const T mass, const T height, const T radius, glm::mat3 &amp;matrix)']]],
   ['cylindersurfacearea',['CylinderSurfaceArea',['../group___e_g_x_math-_geometry-3_d-_cylinder.html#gaf14619f5d525e14150a43b9898adb258',1,'EGXMath']]],
   ['cylindervolume',['CylinderVolume',['../group___e_g_x_math-_geometry-3_d-_cylinder.html#ga9d1aa08f778f9ccbd79953063f11bc9b',1,'EGXMath']]],

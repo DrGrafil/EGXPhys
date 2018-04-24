@@ -18,4 +18,5 @@
 
 #include "./Circle/Circle.hpp"
 
-
+#include "./Ellipse/Ellipse.hpp"
+#include "./Ellipse/EllipseEccentricity.hpp"

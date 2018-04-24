@@ -3,14 +3,14 @@
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_gaa89a23906fe0f4df85463f301825b466}{E\+G\+X\+Phys\+::\+Rotational\+Flattening}} (const T ellipticity)
-\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a planet with ellipticity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_gabba90db442c4ec9e12523adb00d66c44}{E\+G\+X\+Phys\+::\+Rotational\+Flattening}} (const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a planet with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga1840fed2081c35f68c4b8bfa75248977}{E\+G\+X\+Phys\+::\+Rotational\+Flattening}} (const T equatorial\+Radius, const T polar\+Radius)
 \begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a planet with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga316b9afb6e1aa940fa96417c6f24ed4d}{E\+G\+X\+Phys\+::\+Rotational\+Flattening}} (const T mass\+Inkg, const T mean\+Radius\+Inm, const T angular\+Velocity\+Inm\+Pers\+Squared)
 \begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a planet with mass, $M$, mean radius, $a$, and angular velocity of rotation, $\Omega$. Note that this is a 1st order approximation for a planet that is rotating relatively slowly (small flattening). \[ f = \frac{5}{4} \frac{\Omega^2 a^3}{GM} \]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga36ebeca0d4a23d1f58ffc28b40c749c3}{E\+G\+X\+Phys\+::\+Rotational\+Oblateness}} (const T ellipticity)
-\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a planet with ellipticity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga494ad3b296185bf65ccf3e2ddebc189a}{E\+G\+X\+Phys\+::\+Rotational\+Oblateness}} (const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a planet with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga0bbe606845430e58be5ed34541835f83}{E\+G\+X\+Phys\+::\+Rotational\+Oblateness}} (const T equatorial\+Radius, const T polar\+Radius)
 \begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a planet with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga7d78d01c8b3e1a9b2e4f17cb67969a88}{E\+G\+X\+Phys\+::\+Rotational\+Oblateness}} (const T mass\+Inkg, const T mean\+Radius\+Inm, const T angular\+Velocity\+Inm\+Pers\+Squared)
@@ -21,22 +21,22 @@
 
 
 \subsection{Function Documentation}
-\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_rotational_flattening_gaa89a23906fe0f4df85463f301825b466}\label{group___e_g_x_phys-_astrophysics-_rotational_flattening_gaa89a23906fe0f4df85463f301825b466}} 
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_rotational_flattening_gabba90db442c4ec9e12523adb00d66c44}\label{group___e_g_x_phys-_astrophysics-_rotational_flattening_gabba90db442c4ec9e12523adb00d66c44}} 
 \index{Rotational Flattening/\+Oblateness@{Rotational Flattening/\+Oblateness}!Rotational\+Flattening@{Rotational\+Flattening}}
 \index{Rotational\+Flattening@{Rotational\+Flattening}!Rotational Flattening/\+Oblateness@{Rotational Flattening/\+Oblateness}}
 \subsubsection{\texorpdfstring{Rotational\+Flattening()}{RotationalFlattening()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Phys\+::\+Rotational\+Flattening (\begin{DoxyParamCaption}\item[{const T}]{ellipticity }\end{DoxyParamCaption})}
+T E\+G\+X\+Phys\+::\+Rotational\+Flattening (\begin{DoxyParamCaption}\item[{const T}]{eccentricity }\end{DoxyParamCaption})}
 
 
 
-Finds the flattening (oblateness), $f$, of a planet with ellipticity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. 
+Finds the flattening (oblateness), $f$, of a planet with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. 
 
 Equation taken from \char`\"{}\+Map Projections-\/\+A Working Manual\char`\"{} (Snyder, 1987), p. 13
 
 See \href{http://mathworld.wolfram.com/Flattening.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Flattening.\+html} , \href{https://en.wikipedia.org/wiki/Flattening}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Flattening} and \href{https://en.wikipedia.org/wiki/Equatorial_bulge}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Equatorial\+\_\+bulge} 
 \begin{DoxyParams}{Parameters}
-{\em ellipticity} & $ e\ (dimensionless)$ Ellipticity of planet. \\
+{\em eccentricity} & $ e\ (dimensionless)$ Eccentricity of planet. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -47,7 +47,7 @@ $ f\ (dimensionless)$ Flattening of planet.
 
 \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga640f4bcd86aa4c378819bffda31c0852}{Spheroid\+Flattening()}} for alias. 
 
-Spheroid\+Ellipticity() for ellipticity of a spheroid. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab45680528a41bb7a5e15ddc0059156dd}{Spheroid\+Eccentricity()}} for eccentricity of a spheroid. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga1840fed2081c35f68c4b8bfa75248977}\label{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga1840fed2081c35f68c4b8bfa75248977}} 
 \index{Rotational Flattening/\+Oblateness@{Rotational Flattening/\+Oblateness}!Rotational\+Flattening@{Rotational\+Flattening}}
@@ -78,8 +78,6 @@ $ f\ (dimensionless)$ Flattening of planet.
 \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga7d78d01c8b3e1a9b2e4f17cb67969a88}{Rotational\+Oblateness()}} for alias. 
 
 \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga640f4bcd86aa4c378819bffda31c0852}{Spheroid\+Flattening()}} for alias. 
-
-Spheroid\+Ellipticity() for ellipticity of a spheroid. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga316b9afb6e1aa940fa96417c6f24ed4d}\label{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga316b9afb6e1aa940fa96417c6f24ed4d}} 
 \index{Rotational Flattening/\+Oblateness@{Rotational Flattening/\+Oblateness}!Rotational\+Flattening@{Rotational\+Flattening}}
@@ -109,22 +107,22 @@ $ f\ (dimensionless)$ Flattening of planet.
 \begin{DoxySeeAlso}{See also}
 \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga7d78d01c8b3e1a9b2e4f17cb67969a88}{Rotational\+Oblateness()}} for alias. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga36ebeca0d4a23d1f58ffc28b40c749c3}\label{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga36ebeca0d4a23d1f58ffc28b40c749c3}} 
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga494ad3b296185bf65ccf3e2ddebc189a}\label{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga494ad3b296185bf65ccf3e2ddebc189a}} 
 \index{Rotational Flattening/\+Oblateness@{Rotational Flattening/\+Oblateness}!Rotational\+Oblateness@{Rotational\+Oblateness}}
 \index{Rotational\+Oblateness@{Rotational\+Oblateness}!Rotational Flattening/\+Oblateness@{Rotational Flattening/\+Oblateness}}
 \subsubsection{\texorpdfstring{Rotational\+Oblateness()}{RotationalOblateness()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Phys\+::\+Rotational\+Oblateness (\begin{DoxyParamCaption}\item[{const T}]{ellipticity }\end{DoxyParamCaption})}
+T E\+G\+X\+Phys\+::\+Rotational\+Oblateness (\begin{DoxyParamCaption}\item[{const T}]{eccentricity }\end{DoxyParamCaption})}
 
 
 
-Finds the oblateness (flattening), $f$, of a planet with ellipticity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. 
+Finds the oblateness (flattening), $f$, of a planet with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. 
 
 Equation taken from \char`\"{}\+Map Projections-\/\+A Working Manual\char`\"{} (Snyder, 1987), p. 13
 
 See \href{http://mathworld.wolfram.com/Flattening.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Flattening.\+html} , \href{https://en.wikipedia.org/wiki/Flattening}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Flattening} and \href{https://en.wikipedia.org/wiki/Equatorial_bulge}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Equatorial\+\_\+bulge} 
 \begin{DoxyParams}{Parameters}
-{\em ellipticity} & $ e\ (dimensionless)$ Ellipticity of planet. \\
+{\em eccentricity} & $ e\ (dimensionless)$ Eccentricity of planet. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -135,7 +133,7 @@ $ f\ (dimensionless)$ Flattening of planet.
 
 \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga8f547f5dd10721862b602c7769eb6116}{Spheroid\+Oblateness()}} for alias. 
 
-Spheroid\+Ellipticity() for ellipticity of a spheroid. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab45680528a41bb7a5e15ddc0059156dd}{Spheroid\+Eccentricity()}} for eccentricity of a spheroid. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga0bbe606845430e58be5ed34541835f83}\label{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga0bbe606845430e58be5ed34541835f83}} 
 \index{Rotational Flattening/\+Oblateness@{Rotational Flattening/\+Oblateness}!Rotational\+Oblateness@{Rotational\+Oblateness}}
@@ -166,8 +164,6 @@ $ f\ (dimensionless)$ Flattening of planet.
 \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga316b9afb6e1aa940fa96417c6f24ed4d}{Rotational\+Flattening()}} for alias. 
 
 \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga8f547f5dd10721862b602c7769eb6116}{Spheroid\+Oblateness()}} for alias. 
-
-Spheroid\+Ellipticity() for ellipticity of a spheroid. 
 \end{DoxySeeAlso}
 \mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga7d78d01c8b3e1a9b2e4f17cb67969a88}\label{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga7d78d01c8b3e1a9b2e4f17cb67969a88}} 
 \index{Rotational Flattening/\+Oblateness@{Rotational Flattening/\+Oblateness}!Rotational\+Oblateness@{Rotational\+Oblateness}}

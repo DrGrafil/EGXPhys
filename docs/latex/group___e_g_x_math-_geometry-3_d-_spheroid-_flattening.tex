@@ -5,12 +5,12 @@
 \item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga640f4bcd86aa4c378819bffda31c0852}{E\+G\+X\+Math\+::\+Spheroid\+Flattening}} (const T equatorial\+Radius, const T polar\+Radius)
 \begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a spheroid with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_gacd0d1ae60af3a7f1a09ed2f65636c132}{E\+G\+X\+Math\+::\+Spheroid\+Flattening}} (const T ellipticity)
-\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a spheroid with ellipticity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga9822b6e1025edbf7d272949547c53511}{E\+G\+X\+Math\+::\+Spheroid\+Flattening}} (const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a spheroid with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga8f547f5dd10721862b602c7769eb6116}{E\+G\+X\+Math\+::\+Spheroid\+Oblateness}} (const T equatorial\+Radius, const T polar\+Radius)
 \begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a spheroid with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_gaf2530de595124e75a7f58482d617cfce}{E\+G\+X\+Math\+::\+Spheroid\+Oblateness}} (const T ellipticity)
-\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a spheroid with ellipticity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga486adfc58b047197daf87f50b2039ca7}{E\+G\+X\+Math\+::\+Spheroid\+Oblateness}} (const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a spheroid with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -43,7 +43,7 @@ See \href{http://mathworld.wolfram.com/Flattening.html}{\tt http\+://mathworld.\
 $ f\ (dimensionless)$ Flattening of spheroid. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_gaf2530de595124e75a7f58482d617cfce}{Spheroid\+Oblateness()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga486adfc58b047197daf87f50b2039ca7}{Spheroid\+Oblateness()}} for alias. 
 
 Spheroid\+Surface\+Area() for surface area of a spheroid. 
 
@@ -51,31 +51,31 @@ Spheroid\+Volume() for volume of a spheroid.
 
 Spheroid\+Inertia() for inertia tensor of a spheroid. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_gacd0d1ae60af3a7f1a09ed2f65636c132}\label{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_gacd0d1ae60af3a7f1a09ed2f65636c132}} 
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga9822b6e1025edbf7d272949547c53511}\label{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga9822b6e1025edbf7d272949547c53511}} 
 \index{Flattening/\+Oblateness@{Flattening/\+Oblateness}!Spheroid\+Flattening@{Spheroid\+Flattening}}
 \index{Spheroid\+Flattening@{Spheroid\+Flattening}!Flattening/\+Oblateness@{Flattening/\+Oblateness}}
 \subsubsection{\texorpdfstring{Spheroid\+Flattening()}{SpheroidFlattening()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Spheroid\+Flattening (\begin{DoxyParamCaption}\item[{const T}]{ellipticity }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Spheroid\+Flattening (\begin{DoxyParamCaption}\item[{const T}]{eccentricity }\end{DoxyParamCaption})}
 
 
 
-Finds the flattening (oblateness), $f$, of a spheroid with ellipticity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. 
+Finds the flattening (oblateness), $f$, of a spheroid with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. 
 
 Equation taken from \char`\"{}\+Map Projections-\/\+A Working Manual\char`\"{} (Snyder, 1987), p. 13
 
 See \href{http://mathworld.wolfram.com/Flattening.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Flattening.\+html} , \href{https://en.wikipedia.org/wiki/Flattening}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Flattening} and \href{https://en.wikipedia.org/wiki/Equatorial_bulge}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Equatorial\+\_\+bulge} 
 \begin{DoxyParams}{Parameters}
-{\em ellipticity} & $ e\ (dimensionless)$ Ellipticity of spheroid. \\
+{\em eccentricity} & $ e\ (dimensionless)$ Eccentricity of spheroid. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 $ f\ (dimensionless)$ Flattening of spheroid. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_gaf2530de595124e75a7f58482d617cfce}{Spheroid\+Oblateness()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga486adfc58b047197daf87f50b2039ca7}{Spheroid\+Oblateness()}} for alias. 
 
-Spheroid\+Ellipticity() for ellipticity of a spheroid 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab45680528a41bb7a5e15ddc0059156dd}{Spheroid\+Eccentricity()}} for eccentricity of a spheroid 
 
 Spheroid\+Surface\+Area() for surface area of a spheroid. 
 
@@ -109,7 +109,7 @@ See \href{http://mathworld.wolfram.com/Flattening.html}{\tt http\+://mathworld.\
 $ f\ (dimensionless)$ Flattening of spheroid. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_gacd0d1ae60af3a7f1a09ed2f65636c132}{Spheroid\+Flattening()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga9822b6e1025edbf7d272949547c53511}{Spheroid\+Flattening()}} for alias. 
 
 Spheroid\+Surface\+Area() for surface area of a spheroid. 
 
@@ -117,31 +117,31 @@ Spheroid\+Volume() for volume of a spheroid.
 
 Spheroid\+Inertia() for inertia tensor of a spheroid. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_gaf2530de595124e75a7f58482d617cfce}\label{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_gaf2530de595124e75a7f58482d617cfce}} 
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga486adfc58b047197daf87f50b2039ca7}\label{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga486adfc58b047197daf87f50b2039ca7}} 
 \index{Flattening/\+Oblateness@{Flattening/\+Oblateness}!Spheroid\+Oblateness@{Spheroid\+Oblateness}}
 \index{Spheroid\+Oblateness@{Spheroid\+Oblateness}!Flattening/\+Oblateness@{Flattening/\+Oblateness}}
 \subsubsection{\texorpdfstring{Spheroid\+Oblateness()}{SpheroidOblateness()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Spheroid\+Oblateness (\begin{DoxyParamCaption}\item[{const T}]{ellipticity }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Spheroid\+Oblateness (\begin{DoxyParamCaption}\item[{const T}]{eccentricity }\end{DoxyParamCaption})}
 
 
 
-Finds the oblateness (flattening), $f$, of a spheroid with ellipticity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. 
+Finds the oblateness (flattening), $f$, of a spheroid with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. 
 
 Equation taken from \char`\"{}\+Map Projections-\/\+A Working Manual\char`\"{} (Snyder, 1987), p. 13
 
 See \href{http://mathworld.wolfram.com/Flattening.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Flattening.\+html} , \href{https://en.wikipedia.org/wiki/Flattening}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Flattening} and \href{https://en.wikipedia.org/wiki/Equatorial_bulge}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Equatorial\+\_\+bulge} 
 \begin{DoxyParams}{Parameters}
-{\em ellipticity} & $ e\ (dimensionless)$ Ellipticity of spheroid. \\
+{\em eccentricity} & $ e\ (dimensionless)$ Eccentricity of spheroid. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 $ f\ (dimensionless)$ Flattening of spheroid. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_gacd0d1ae60af3a7f1a09ed2f65636c132}{Spheroid\+Flattening()}} for alias. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga9822b6e1025edbf7d272949547c53511}{Spheroid\+Flattening()}} for alias. 
 
-Spheroid\+Ellipticity() for ellipticity of a spheroid 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab45680528a41bb7a5e15ddc0059156dd}{Spheroid\+Eccentricity()}} for eccentricity of a spheroid 
 
 Spheroid\+Surface\+Area() for surface area of a spheroid. 
 

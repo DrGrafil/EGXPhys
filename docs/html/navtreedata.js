@@ -34,16 +34,16 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_absolute_magnitude_8hpp.html",
-"_decimal_degree_conversion_8inl.html#ga906ee2c83cdf4caa59eb613dc2d5d52a",
-"_h_m_s_conversion_8inl.html#ga36fcb6a59fd8d135346f7ee3d648c2f4",
-"_n_i_s_t_const_8hpp.html#ga45f55b90a26e2e96f00c2664ddd79f11",
-"_n_i_s_t_const_8hpp.html#gaf4037fe32df08c9c7eccd8487b5eab34",
-"_radioactive_decay_8hpp_source.html",
-"group___e_g_x_math-_angle_conversions-_gon.html#gabd1dfe541d8caf9ee5ed261fe6f08261",
-"group___e_g_x_phys-_decay_width.html",
-"group___n_i_s_t_const-_electron.html#ga81fc83bd665b7b4fb83e9901ed7d6628",
-"group___n_i_s_t_const-_rydberg_constant.html#gaa434f78f9fead2fcf2e129a137853e26"
+"2_d_geometry_8hpp_source.html",
+"_declination_8hpp.html#gaff645fbd9a1de42e9cdbfb37fdac78c9",
+"_h_m_s_conversion_8inl.html#gaf4a94d34cb0629049bbcab8775d2af43",
+"_n_i_s_t_const_8hpp.html#ga4f4d8adf824657420f54680daa6340d5",
+"_nuclear_binding_energy_8hpp.html",
+"_redshift_8inl.html#gacc6d3b2922061214d64b89a4b8e3967a",
+"group___e_g_x_math-_angle_conversions-_gradian.html#ga346f47c519d5261b689cec49f4a8e789",
+"group___e_g_x_phys-_decay_constant.html",
+"group___n_i_s_t_const-_electron.html#ga65a20f263f8ef8f324ea6d1879050a66",
+"group___n_i_s_t_const-_quantum_of_circulation.html#ga86d150a3f178c37f565f6498cf593dbe"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

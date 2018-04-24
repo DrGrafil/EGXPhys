@@ -1,5 +1,10 @@
 var NAVTREEINDEX8 =
 {
+"group___n_i_s_t_const-_electron.html#ga65a20f263f8ef8f324ea6d1879050a66":[1,2,2,4,4],
+"group___n_i_s_t_const-_electron.html#ga67e6ebbd2c2d8043cbdb09979dc7247b":[1,2,2,4,6],
+"group___n_i_s_t_const-_electron.html#ga6a41b7cbd78c00ef17e9b17944ab5f5c":[1,2,2,4,14],
+"group___n_i_s_t_const-_electron.html#ga6b6bb303de5ee3bd95d18e8024880eea":[1,2,2,4,18],
+"group___n_i_s_t_const-_electron.html#ga7c738b9078ca0308ee45d3b8bbafadb6":[1,2,2,4,5],
 "group___n_i_s_t_const-_electron.html#ga81fc83bd665b7b4fb83e9901ed7d6628":[1,2,2,4,8],
 "group___n_i_s_t_const-_electron.html#ga8ea70b9b79c3f8b4f9825c48d1758f44":[1,2,2,4,21],
 "group___n_i_s_t_const-_electron.html#ga921889f482e157189bf19818e428532f":[1,2,2,4,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX8 =
 "group___n_i_s_t_const-_proton.html#gaf2a9916164fce50112bd8bbe8b712e5a":[1,2,2,11,14],
 "group___n_i_s_t_const-_proton.html#gafdc26fffabee1319028bd7f61d561be5":[1,2,2,11,4],
 "group___n_i_s_t_const-_quantum_of_circulation.html":[1,2,2,12],
-"group___n_i_s_t_const-_quantum_of_circulation.html#ga7dbe55704b9a968adfc99d60f5d2dd11":[1,2,2,12,0],
-"group___n_i_s_t_const-_quantum_of_circulation.html#ga86d150a3f178c37f565f6498cf593dbe":[1,2,2,12,1],
-"group___n_i_s_t_const-_rydberg_constant.html":[1,2,2,13],
-"group___n_i_s_t_const-_rydberg_constant.html#ga473e14f2663eccecd987928be1d512ad":[1,2,2,13,1],
-"group___n_i_s_t_const-_rydberg_constant.html#ga77c7dd314342e7f121d9b8775a45d20f":[1,2,2,13,2],
-"group___n_i_s_t_const-_rydberg_constant.html#gaa4164006d51dbf240eb83065e83bddec":[1,2,2,13,3]
+"group___n_i_s_t_const-_quantum_of_circulation.html#ga7dbe55704b9a968adfc99d60f5d2dd11":[1,2,2,12,0]
 };

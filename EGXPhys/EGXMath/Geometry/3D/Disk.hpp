@@ -43,7 +43,7 @@ namespace EGXMath
 	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
 	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
 	*	@see CylinderInertia() for alias.
-	*	@see CircleArea() for area of a circle.
+	*	@see CircleSurfaceArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.
@@ -65,7 +65,7 @@ namespace EGXMath
 	*	@param mass \f$ m\ (kg)\f$ Mass of disk in kilograms.
 	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
 	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
-	*	@see CircleArea() for area of a circle.
+	*	@see CircleSurfaceArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.
@@ -90,7 +90,7 @@ namespace EGXMath
 	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
 	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
 	*	@see CylinderInertia() for alias.
-	*	@see CircleArea() for area of a circle.
+	*	@see CircleSurfaceArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.
@@ -112,7 +112,7 @@ namespace EGXMath
 	*	@param mass \f$ m\ (kg)\f$ Mass of disk in kilograms.
 	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
 	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
-	*	@see CircleArea() for area of a circle.
+	*	@see CircleSurfaceArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.
@@ -139,7 +139,7 @@ namespace EGXMath
 	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
 	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
 	*	@see CylinderInertia() for alias.
-	*	@see CircleArea() for area of a circle.
+	*	@see CircleSurfaceArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.
@@ -161,7 +161,7 @@ namespace EGXMath
 	*	@param mass \f$ m\ (kg)\f$ Mass of disk in kilograms.
 	*	@param radius \f$ r\ (m)\f$ Radius of disk in meters.
 	*	@param matrix \f$ I_{disk}\ (kg\ m^2)\f$ Inertia tensor matrix in kilograms meter squared.
-	*	@see CircleArea() for area of a circle.
+	*	@see CircleSurfaceArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.

@@ -49,7 +49,7 @@ namespace EGXMath
 	*
 	*	@param radius \f$ r\ (m)\f$ Radius of circle in meters.
 	*   @return \f$ C_{circle}\ (m)\f$ Circumference of circle in meters.
-	*	@see CircleArea() for area of a circle.
+	*	@see CircleSurfaceArea() for area of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.
 	*	@see DiskThinInertia() for inertial tensor of a thin disk.

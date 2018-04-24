@@ -20,5 +20,10 @@ namespace EGXMath {
 		return (T)2.0 * (T)pi * radius;
 	}
 
+	template <typename T>
+	T CirclePerimeter(const T radius)
+	{
+		return (T)2.0 * (T)pi * radius;
+	}
 
 }//namespace EGXMath

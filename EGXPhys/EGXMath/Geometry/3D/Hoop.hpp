@@ -41,7 +41,7 @@ namespace EGXMath
 	*	@param mass \f$ m\ (kg)\f$ is the mass of the hoop.
 	*	@param radius \f$ r\ (m)\f$ is the radius of the hoop.
 	*	@param matrix \f$ I_{hoop}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
-	*	@see CircleArea() for area of a circle.
+	*	@see CircleSurfaceArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.
@@ -64,7 +64,7 @@ namespace EGXMath
 	*	@param mass \f$ m\ (kg)\f$ is the mass of the hoop.
 	*	@param radius \f$ r\ (m)\f$ is the radius of the hoop.
 	*	@param matrix \f$ I_{hoop}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
-	*	@see CircleArea() for area of a circle.
+	*	@see CircleSurfaceArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.
@@ -89,7 +89,7 @@ namespace EGXMath
 	*	@param mass \f$ m\ (kg)\f$ is the mass of the hoop.
 	*	@param radius \f$ r\ (m)\f$ is the radius of the hoop.
 	*	@param matrix \f$ I_{hoop}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
-	*	@see CircleArea() for area of a circle.
+	*	@see CircleSurfaceArea() for area of a circle.
 	*	@see CircleCircumference() for circumference of a circle.
 	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
 	*	@see HoopInertia() for inertial tensor of a hoop.

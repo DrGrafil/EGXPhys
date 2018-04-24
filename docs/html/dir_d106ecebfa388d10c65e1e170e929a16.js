@@ -1,24 +1,15 @@
 var dir_d106ecebfa388d10c65e1e170e929a16 =
 [
-    [ "Cone.hpp", "_cone_8hpp_source.html", null ],
-    [ "Cone1.hpp", "_cone1_8hpp_source.html", null ],
-    [ "Cube.hpp", "_cube_8hpp_source.html", null ],
-    [ "Cube1.hpp", "_cube1_8hpp_source.html", null ],
-    [ "Cuboid.hpp", "_cuboid_8hpp_source.html", null ],
-    [ "Cuboid1.hpp", "_cuboid1_8hpp_source.html", null ],
-    [ "Cylinder.hpp", "_cylinder_8hpp.html", "_cylinder_8hpp" ],
-    [ "Cylinder.inl", "_cylinder_8inl.html", "_cylinder_8inl" ],
-    [ "Cylinder1.hpp", "_cylinder1_8hpp_source.html", null ],
+    [ "Cone", "dir_2ff5ab01ee56c6b944c4eb202d3499b5.html", "dir_2ff5ab01ee56c6b944c4eb202d3499b5" ],
+    [ "Cube", "dir_df1d7c40e65ce84aa373b2af4f20faa8.html", "dir_df1d7c40e65ce84aa373b2af4f20faa8" ],
+    [ "Cuboid", "dir_147239a2e806efa5d094fbe1a56e86b6.html", "dir_147239a2e806efa5d094fbe1a56e86b6" ],
+    [ "Cylinder", "dir_a04d279e8df87f16182aa6769fefb046.html", "dir_a04d279e8df87f16182aa6769fefb046" ],
+    [ "Ellipsoid", "dir_16261fdee92cd6dfc54bf7c58c746b4b.html", "dir_16261fdee92cd6dfc54bf7c58c746b4b" ],
+    [ "Sphere", "dir_a0332f85183599189c11f7f2fe46beff.html", "dir_a0332f85183599189c11f7f2fe46beff" ],
+    [ "Spheroid", "dir_55b2b9699b93e8f34de8f49e6faac2b6.html", "dir_55b2b9699b93e8f34de8f49e6faac2b6" ],
+    [ "3DGeometry.hpp", "3_d_geometry_8hpp_source.html", null ],
     [ "Disk.hpp", "_disk_8hpp.html", "_disk_8hpp" ],
     [ "Disk.inl", "_disk_8inl.html", "_disk_8inl" ],
-    [ "Ellipsoid.hpp", "_ellipsoid_8hpp_source.html", null ],
-    [ "Ellipsoid1.hpp", "_ellipsoid1_8hpp_source.html", null ],
     [ "Hoop.hpp", "_hoop_8hpp.html", "_hoop_8hpp" ],
-    [ "Hoop.inl", "_hoop_8inl.html", "_hoop_8inl" ],
-    [ "Sphere.hpp", "_sphere_8hpp_source.html", null ],
-    [ "Sphere1.hpp", "_sphere1_8hpp_source.html", null ],
-    [ "Spheroid.hpp", "_spheroid_8hpp.html", null ],
-    [ "Spheroid.inl", "_spheroid_8inl.html", null ],
-    [ "SpheroidFlattening.hpp", "_spheroid_flattening_8hpp.html", "_spheroid_flattening_8hpp" ],
-    [ "SpheroidFlattening.inl", "_spheroid_flattening_8inl.html", "_spheroid_flattening_8inl" ]
+    [ "Hoop.inl", "_hoop_8inl.html", "_hoop_8inl" ]
 ];

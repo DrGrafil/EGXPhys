@@ -1,12 +1,12 @@
-/// @file EGXMath/Geometry/3D/SpheroidEccentricity.hpp
+/// @file EGXMath/Geometry/2D/EllipseEccentricity.hpp
 /// 
 /// @brief Defines functions relating to eccentricity of a spheroid.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 4/20/18
+/// @date 4/23/18
 
-/// @defgroup EGXMath-Geometry-3D-Spheroid-Eccentricity Eccentricity
-/// @ingroup EGXMath-Geometry-3D-Spheroid
+/// @defgroup EGXMath-Geometry-2D-Ellipse-Eccentricity Eccentricity
+/// @ingroup EGXMath-Geometry-2D-Ellipse
 
 
 //=================================
@@ -24,7 +24,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Geometry-3D-Spheroid-Eccentricity
+	/// @addtogroup EGXMath-Geometry-2D-Ellipse-Eccentricity
 	/// @{
 
 	/**
@@ -42,7 +42,7 @@ namespace EGXMath
 	*	@see SpheroidInertia() for inertia tensor of a spheroid.
 	*/
 	template <typename T>
-	T SpheroidEccentricity(const T flattening);
+	T EllipseEccentricity(const T flattening);
 
 	/**
 	*   @brief Finds the eccentricity, \f$e\f$, of a spheroid with equatorial radius \f$a\f$ and polar radius, \f$c\f$:
@@ -65,11 +65,11 @@ namespace EGXMath
 	*	@see SpheroidInertia() for inertia tensor of a spheroid.
 	*/
 	template <typename T>
-	T SpheroidEccentricity(const T equatorialRadius, const T polarRadius);
+	T EllipseEccentricity(const T equatorialRadius, const T polarRadius);
 	
 
 
     /// @}
 } //namespace EGXMath
 
-#include "SpheroidEccentricity.inl"
+#include "EllipseEccentricity.inl"

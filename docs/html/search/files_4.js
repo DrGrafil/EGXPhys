@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['eccentricity_2ehpp',['Eccentricity.hpp',['../_eccentricity_8hpp.html',1,'']]],
+  ['eccentricity_2ehpp',['Eccentricity.hpp',['../_astrophysics_2_eccentricity_8hpp.html',1,'(Global Namespace)'],['../_e_g_x_math_2_geometry_2_eccentricity_8hpp.html',1,'(Global Namespace)']]],
   ['egxmath_2ehpp',['EGXMath.hpp',['../_e_g_x_math_8hpp.html',1,'']]],
   ['egxphys_2ehpp',['EGXPhys.hpp',['../_e_g_x_phys_8hpp.html',1,'']]],
   ['egxphysconstants_2ehpp',['EGXPhysConstants.hpp',['../_e_g_x_phys_constants_8hpp.html',1,'']]],

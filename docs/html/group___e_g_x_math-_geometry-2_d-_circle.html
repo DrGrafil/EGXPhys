@@ -109,11 +109,18 @@ Functions</h2></td></tr>
 <tr class="separator:gaa4486100a643c57bd7a80c1c11ae3f60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb55695b75a06a3f3534494eb767e18e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gadb55695b75a06a3f3534494eb767e18e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e">EGXMath::CircleCircumference</a> (const T radius)</td></tr>
-<tr class="memdesc:gadb55695b75a06a3f3534494eb767e18e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the circumference, \(C_{circle}\) of a circle with radius, \(r\) </p><p class="formulaDsp">
+<tr class="memdesc:gadb55695b75a06a3f3534494eb767e18e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the circumference (perimeter), \(C_{circle}\) of a circle with radius, \(r\) </p><p class="formulaDsp">
 \[ C_{circle}=2 \pi r \]
 </p>
 <p>.  <a href="group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e">More...</a><br /></td></tr>
 <tr class="separator:gadb55695b75a06a3f3534494eb767e18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad32d0bded2e74c52a4c41cfffd2a9e77"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gad32d0bded2e74c52a4c41cfffd2a9e77"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-2_d-_circle.html#gad32d0bded2e74c52a4c41cfffd2a9e77">EGXMath::CirclePerimeter</a> (const T radius)</td></tr>
+<tr class="memdesc:gad32d0bded2e74c52a4c41cfffd2a9e77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the perimeter (circumference), \(C_{circle}\) of a circle with radius, \(r\) </p><p class="formulaDsp">
+\[ C_{circle}=2 \pi r \]
+</p>
+<p>.  <a href="group___e_g_x_math-_geometry-2_d-_circle.html#gad32d0bded2e74c52a4c41cfffd2a9e77">More...</a><br /></td></tr>
+<tr class="separator:gad32d0bded2e74c52a4c41cfffd2a9e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -135,7 +142,70 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Finds the circumference (perimeter), \(C_{circle}\) of a circle with radius, \(r\) </p><p class="formulaDsp">
+\[ C_{circle}=2 \pi r \]
+</p>
+<p>. </p>
 <p>Finds the circumference, \(C_{circle}\) of a circle with radius, \(r\) </p><p class="formulaDsp">
+\[ C_{circle}=2 \pi r \]
+</p>
+<p>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radius</td><td>\( r\ (m)\) Radius of circle in meters. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\( C_{circle}\ (m)\) Circumference of circle in meters. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-2_d-_circle.html#gad32d0bded2e74c52a4c41cfffd2a9e77" title="Finds the perimeter (circumference),  of a circle with radius,  . ">CirclePerimeter()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_circle.html#gaa4486100a643c57bd7a80c1c11ae3f60" title="Finds the surface area, , in meter squared of a circle with radius,  . ">CircleSurfaceArea()</a> for area of a circle. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_hoop.html#gab3a84dc2aa29ce0db990425747d291c6" title="Finds the moment of inertia tensor,  of a hoop with radius, , and mass  that is infinitly thin...">HoopThinInertia()</a> for inertial tensor of a thin hoop. </dd>
+<dd>
+HoopInertia() for inertial tensor of a hoop. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_disk.html#ga8dcadf6cd5680294a84311c6767e3caf" title="Finds the moment of inertia tensor,  of a disk with radius, , and mass  that is infinitly thin...">DiskThinInertia()</a> for inertial tensor of a thin disk. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_disk.html#ga6ed461694b277e36a641a6550bdea68f" title="Finds the moment of inertia tensor,  of a disk with radius, , height,  and mass . Also known as a cyl...">DiskInertia()</a> for inertial tensor of a disk.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radius</td><td>\( r\ (m)\) Radius of circle in meters. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\( C_{circle}\ (m)\) Circumference of circle in meters. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-2_d-_circle.html#gaa4486100a643c57bd7a80c1c11ae3f60" title="Finds the surface area, , in meter squared of a circle with radius,  . ">CircleSurfaceArea()</a> for area of a circle. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_hoop.html#gab3a84dc2aa29ce0db990425747d291c6" title="Finds the moment of inertia tensor,  of a hoop with radius, , and mass  that is infinitly thin...">HoopThinInertia()</a> for inertial tensor of a thin hoop. </dd>
+<dd>
+HoopInertia() for inertial tensor of a hoop. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_disk.html#ga8dcadf6cd5680294a84311c6767e3caf" title="Finds the moment of inertia tensor,  of a disk with radius, , and mass  that is infinitly thin...">DiskThinInertia()</a> for inertial tensor of a thin disk. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_disk.html#ga6ed461694b277e36a641a6550bdea68f" title="Finds the moment of inertia tensor,  of a disk with radius, , height,  and mass . Also known as a cyl...">DiskInertia()</a> for inertial tensor of a disk. </dd></dl>
+
+</div>
+</div>
+<a id="gad32d0bded2e74c52a4c41cfffd2a9e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad32d0bded2e74c52a4c41cfffd2a9e77">&#9670;&nbsp;</a></span>CirclePerimeter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXMath::CirclePerimeter </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>radius</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds the perimeter (circumference), \(C_{circle}\) of a circle with radius, \(r\) </p><p class="formulaDsp">
 \[ C_{circle}=2 \pi r \]
 </p>
 <p>. </p>
@@ -145,8 +215,10 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>\( C_{circle}\ (m)\) Circumference of circle in meters. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>CircleArea() for area of a circle. </dd>
+<dl class="section return"><dt>Returns</dt><dd>\( C_{circle}\ (m)\) Perimeter of circle in meters. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e" title="Finds the circumference (perimeter),  of a circle with radius,  . ">CircleCircumference()</a> for alias. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-2_d-_circle.html#gaa4486100a643c57bd7a80c1c11ae3f60" title="Finds the surface area, , in meter squared of a circle with radius,  . ">CircleSurfaceArea()</a> for area of a circle. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_geometry-3_d-_hoop.html#gab3a84dc2aa29ce0db990425747d291c6" title="Finds the moment of inertia tensor,  of a hoop with radius, , and mass  that is infinitly thin...">HoopThinInertia()</a> for inertial tensor of a thin hoop. </dd>
 <dd>
@@ -180,6 +252,10 @@ template&lt;typename T &gt; </div>
 \[ A_{circle}=\pi r^2 \]
 </p>
 <p>. </p>
+<p>Finds the eccentricity, \(e\), of a conic section. Eccentricity is a measure of how much a shape deviates from that of a circle., \(r\) </p><p class="formulaDsp">
+\[ A_{circle}=\pi r^2 \]
+</p>
+<p>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">radius</td><td>\( r\ (m)\) Radius of circle in meters. </td></tr>
@@ -187,7 +263,23 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\( A_{circle}\ (m^2)\) Surface area of circle in meter squared. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e" title="Finds the circumference,  of a circle with radius,  . ">CircleCircumference()</a> for circumference of a circle. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e" title="Finds the circumference (perimeter),  of a circle with radius,  . ">CircleCircumference()</a> for ircumference of a circle. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_hoop.html#gab3a84dc2aa29ce0db990425747d291c6" title="Finds the moment of inertia tensor,  of a hoop with radius, , and mass  that is infinitly thin...">HoopThinInertia()</a> for inertial tensor of a thin hoop. </dd>
+<dd>
+HoopInertia() for inertial tensor of a hoop. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_disk.html#ga8dcadf6cd5680294a84311c6767e3caf" title="Finds the moment of inertia tensor,  of a disk with radius, , and mass  that is infinitly thin...">DiskThinInertia()</a> for inertial tensor of a thin disk. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_disk.html#ga6ed461694b277e36a641a6550bdea68f" title="Finds the moment of inertia tensor,  of a disk with radius, , height,  and mass . Also known as a cyl...">DiskInertia()</a> for inertial tensor of a disk.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radius</td><td>\( r\ (m)\) Radius of circle in meters. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\( A_{circle}\ (m^2)\) Surface area of circle in meter squared. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e" title="Finds the circumference (perimeter),  of a circle with radius,  . ">CircleCircumference()</a> for circumference of a circle. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_geometry-3_d-_hoop.html#gab3a84dc2aa29ce0db990425747d291c6" title="Finds the moment of inertia tensor,  of a hoop with radius, , and mass  that is infinitly thin...">HoopThinInertia()</a> for inertial tensor of a thin hoop. </dd>
 <dd>

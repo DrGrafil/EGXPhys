@@ -100,6 +100,9 @@
     <Filter Include="EGXPhys\EGXMath\Geometry\2D\Circle">
       <UniqueIdentifier>{c28679f2-c24f-44c9-b688-0ae79d2767fe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\EGXMath\Geometry\2D\Ellipse">
+      <UniqueIdentifier>{fee2a43f-3f37-4328-afdc-47def8055b5e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -489,6 +492,12 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\2DGeometry.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\2D</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\Ellipse.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseEccentricity.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -687,6 +696,12 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle\Circle.inl">
       <Filter>EGXPhys\EGXMath\Geometry\2D\Circle</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\Ellipse.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseEccentricity.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
     </None>
   </ItemGroup>
 </Project>
