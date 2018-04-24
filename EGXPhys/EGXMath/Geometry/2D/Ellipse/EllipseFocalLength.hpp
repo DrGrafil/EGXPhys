@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/2D/Ellipse/EllipseSurfaceArea.hpp
 ///
 /// @brief Defines functions relating to ellipse surface area.
-///
+/// Focal length is 2c/2linear eccentricity https://www.vitutor.com/geometry/conics/ellipse.html
 /// @author Elliot Grafil (Metex)
 /// @date 4/23/18
 
@@ -41,8 +41,8 @@ namespace EGXMath
 	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
 	*	@see EllipseDirectrix() for directrix of an ellipse.
 	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
-	*	@see EllipseFocalLength() for focal length (linear eccentricity) of an ellipse.
-	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of an ellipse.
+	*	@see EllipseFocalLength() for focal length of an ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity of an ellipse.
 	*	@see EllipseEccentricity() for eccentricity of an ellipse.
 	*	@see EllipseInertia() for inertial tensor of an ellipse.
 	*/

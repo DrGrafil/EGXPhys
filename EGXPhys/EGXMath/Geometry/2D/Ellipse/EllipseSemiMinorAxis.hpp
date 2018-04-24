@@ -42,8 +42,8 @@ namespace EGXMath
 	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
 	*	@see EllipseDirectrix() for directrix of an ellipse.
 	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
-	*	@see EllipseFocalLength() for focal length (linear eccentricity) of an ellipse.
-	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of an ellipse.
+	*	@see EllipseFocalLength() for focal length of an ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity of an ellipse.
 	*	@see EllipseEccentricity() for eccentricity of an ellipse.
 	*	@see EllipseInertia() for inertial tensor of an ellipse.
 	*/
