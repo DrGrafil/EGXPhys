@@ -4,9 +4,9 @@
 \begin{DoxyCompactItemize}
 \item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{E\+G\+X\+Math\+::\+Ellipse\+Eccentricity}} (const T flattening)
-\begin{DoxyCompactList}\small\item\em Finds the eccentricity, $e$, of a spheroid from flattening, $f$\+: \[ e = \sqrt{f (2 - f)} \]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_gaa80b9037b15dd74c138e1a24e10111b4}{E\+G\+X\+Math\+::\+Ellipse\+Eccentricity}} (const T equatorial\+Radius, const T polar\+Radius)
-\begin{DoxyCompactList}\small\item\em Finds the eccentricity, $e$, of a spheroid with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \sqrt{\frac{a^2-c^2}{a^2}} & oblate \\ \sqrt{\frac{c^2-a^2}{a^2}} & prolate \end{cases} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Finds the eccentricity, $e$, of a ellipse from flattening, $f$\+: \[ e = \sqrt{f (2 - f)} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga4e01cf027d303bb4ecb75606e5240d6c}{E\+G\+X\+Math\+::\+Ellipse\+Eccentricity}} (const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the eccentricity, $e$, of a ellipse with semi-\/major axis $a$, and semi-\/minor axis $b$\+: \[ e = \sqrt{1-\frac{b^2}{a^2}}\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -22,58 +22,72 @@ T E\+G\+X\+Math\+::\+Ellipse\+Eccentricity (\begin{DoxyParamCaption}\item[{const
 
 
 
-Finds the eccentricity, $e$, of a spheroid from flattening, $f$\+: \[ e = \sqrt{f (2 - f)} \]. 
+Finds the eccentricity, $e$, of a ellipse from flattening, $f$\+: \[ e = \sqrt{f (2 - f)} \]. 
 
 Equation taken from \char`\"{}\+Map Projections-\/\+A Working Manual\char`\"{} (Snyder, 1987), p. 13
 
 See \href{https://en.wikipedia.org/wiki/Eccentricity_(mathematics)}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Eccentricity\+\_\+(mathematics)} , \href{http://mathworld.wolfram.com/Eccentricity.html,}{\tt http\+://mathworld.\+wolfram.\+com/\+Eccentricity.\+html,} \href{http://mathworld.wolfram.com/Flattening.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Flattening.\+html} 
 \begin{DoxyParams}{Parameters}
-{\em eccentricity} & $ f\ (dimensionless)$ Eccentricity of spheroid. \\
+{\em flattening} & $ f\ (dimensionless)$ Flattening of ellipse. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-$ e\ (dimensionless)$ Flatness of spheroid. 
+$ e\ (dimensionless)$ Eccentricity of ellipse. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga640f4bcd86aa4c378819bffda31c0852}{Spheroid\+Flattening()}} for flattening of a spheroid. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of a ellipse. 
 
-Spheroid\+Surface\+Area() for surface area of a spheroid. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of a ellipse. 
 
-Spheroid\+Volume() for volume of a spheroid. 
+Ellipse\+Semi\+Major\+Axis() for semi-\/major axis of a ellipse. 
 
-Spheroid\+Inertia() for inertia tensor of a spheroid. 
+Ellipse\+Semi\+Minor\+Axis() for semi-\/minor axis of a ellipse. 
+
+Ellipse\+Focal\+Length() for focal length (linear eccentricity) of a ellipse. 
+
+Ellipse\+Linear\+Eccentricity() for linear eccentricity (focal length) of a ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga4e01cf027d303bb4ecb75606e5240d6c}{Ellipse\+Eccentricity()}} for eccentricity of a ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse_ga10a3049c2f04b50f271fb01dc62e4cf8}{Ellipse\+Inertia()}} for inertial tensor of a ellipse. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_gaa80b9037b15dd74c138e1a24e10111b4}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_gaa80b9037b15dd74c138e1a24e10111b4}} 
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga4e01cf027d303bb4ecb75606e5240d6c}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga4e01cf027d303bb4ecb75606e5240d6c}} 
 \index{Eccentricity@{Eccentricity}!Ellipse\+Eccentricity@{Ellipse\+Eccentricity}}
 \index{Ellipse\+Eccentricity@{Ellipse\+Eccentricity}!Eccentricity@{Eccentricity}}
 \subsubsection{\texorpdfstring{Ellipse\+Eccentricity()}{EllipseEccentricity()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Ellipse\+Eccentricity (\begin{DoxyParamCaption}\item[{const T}]{equatorial\+Radius,  }\item[{const T}]{polar\+Radius }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Ellipse\+Eccentricity (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{semi\+Minor\+Axis\+Inm }\end{DoxyParamCaption})}
 
 
 
-Finds the eccentricity, $e$, of a spheroid with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \sqrt{\frac{a^2-c^2}{a^2}} & oblate \\ \sqrt{\frac{c^2-a^2}{a^2}} & prolate \end{cases} \]. 
-
-Spheroid is oblate if the equatorial radius is larger than the polar radius. It is prolate if the polar radius is larger than the equatorial radius.
+Finds the eccentricity, $e$, of a ellipse with semi-\/major axis $a$, and semi-\/minor axis $b$\+: \[ e = \sqrt{1-\frac{b^2}{a^2}}\]. 
 
 Equation taken from \char`\"{}\+Map Projections-\/\+A Working Manual\char`\"{} (Snyder, 1987), p. 13
 
 See \href{https://en.wikipedia.org/wiki/Eccentricity_(mathematics)}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Eccentricity\+\_\+(mathematics)} , \href{http://mathworld.wolfram.com/Eccentricity.html,}{\tt http\+://mathworld.\+wolfram.\+com/\+Eccentricity.\+html,} \href{http://mathworld.wolfram.com/Flattening.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Flattening.\+html} 
 \begin{DoxyParams}{Parameters}
-{\em equatorial\+Radius} & $ a\ (m)$ Equatorial radius in meters. \\
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the ellipse in meters. \\
 \hline
-{\em polar\+Radius} & $ c\ (m)$ Polar radius in meters. \\
+{\em semi\+Minor\+Axis\+Inm} & $ b\ (m)$ Semi-\/minor axis of the ellipse in meters. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-$ e\ (dimensionless)$ Eccentricity of spheroid. 
+$ e\ (dimensionless)$ Eccentricity of ellipse. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga640f4bcd86aa4c378819bffda31c0852}{Spheroid\+Flattening()}} for flattening of a spheroid. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of a ellipse. 
 
-Spheroid\+Surface\+Area() for surface area of a spheroid. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of a ellipse. 
 
-Spheroid\+Volume() for volume of a spheroid. 
+Ellipse\+Semi\+Major\+Axis() for semi-\/major axis of a ellipse. 
 
-Spheroid\+Inertia() for inertia tensor of a spheroid. 
+Ellipse\+Semi\+Minor\+Axis() for semi-\/minor axis of a ellipse. 
+
+Ellipse\+Focal\+Length() for focal length (linear eccentricity) of a ellipse. 
+
+Ellipse\+Linear\+Eccentricity() for linear eccentricity (focal length) of a ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga4e01cf027d303bb4ecb75606e5240d6c}{Ellipse\+Eccentricity()}} for eccentricity of a ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse_ga10a3049c2f04b50f271fb01dc62e4cf8}{Ellipse\+Inertia()}} for inertial tensor of a ellipse. 
 \end{DoxySeeAlso}

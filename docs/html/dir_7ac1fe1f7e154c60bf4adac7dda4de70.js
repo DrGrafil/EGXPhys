@@ -14,7 +14,7 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "ColorTemperature.inl", "_color_temperature_8inl.html", "_color_temperature_8inl" ],
     [ "Declination.hpp", "_declination_8hpp.html", "_declination_8hpp" ],
     [ "Declination.inl", "_declination_8inl.html", "_declination_8inl" ],
-    [ "Eccentricity.hpp", "_astrophysics_2_eccentricity_8hpp.html", null ],
+    [ "Eccentricity.hpp", "_eccentricity_8hpp.html", null ],
     [ "EscapeVelocity.hpp", "_escape_velocity_8hpp.html", "_escape_velocity_8hpp" ],
     [ "EscapeVelocity.inl", "_escape_velocity_8inl.html", "_escape_velocity_8inl" ],
     [ "Luminosity.hpp", "_luminosity_8hpp.html", "_luminosity_8hpp" ],

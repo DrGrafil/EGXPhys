@@ -69,8 +69,6 @@ var NAVTREEINDEX0 =
 "_apoapsis_8inl.html#gacc68b49812c38394611e1ef3a8bf0e3e":[2,0,0,1,3,16],
 "_apoapsis_8inl.html#gae4ea146039e6f32022321f0998e715e8":[2,0,0,1,3,6],
 "_apoapsis_8inl.html#gaf962e650bf84a568458e8eb39b1c61ba":[2,0,0,1,3,2],
-"_astrophysics_2_eccentricity_8hpp.html":[2,0,0,1,14],
-"_astrophysics_2_eccentricity_8hpp_source.html":[2,0,0,1,14],
 "_astrophysics_8hpp.html":[2,0,0,1,4],
 "_astrophysics_8hpp_source.html":[2,0,0,1,4],
 "_astrophysics_constants_8hpp.html":[2,0,0,1,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX0 =
 "_declination_8hpp.html":[2,0,0,1,12],
 "_declination_8hpp.html#ga0c90ea1406801810378d9618553c9a9b":[2,0,0,1,12,0],
 "_declination_8hpp.html#ga384229c66d2ea6249c9609caa1ec9354":[2,0,0,1,12,1],
-"_declination_8hpp.html#gad12d59741171420fc420f3c469df4a82":[2,0,0,1,12,3]
+"_declination_8hpp.html#gad12d59741171420fc420f3c469df4a82":[2,0,0,1,12,3],
+"_declination_8hpp.html#gaff645fbd9a1de42e9cdbfb37fdac78c9":[2,0,0,1,12,2],
+"_declination_8hpp_source.html":[2,0,0,1,12]
 };

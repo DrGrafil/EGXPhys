@@ -28,44 +28,47 @@ namespace EGXMath
 	/// @{
 
 	/**
-	*   @brief Finds the eccentricity, \f$e\f$, of a spheroid from flattening, \f$f\f$:
+	*   @brief Finds the eccentricity, \f$e\f$, of a ellipse from flattening, \f$f\f$:
 	*		\f[ e = \sqrt{f (2 - f)} \f]
 	*
 	*	Equation taken from "Map Projections-A Working Manual" (Snyder, 1987), p. 13
 	*
 	*	See https://en.wikipedia.org/wiki/Eccentricity_(mathematics) , http://mathworld.wolfram.com/Eccentricity.html, http://mathworld.wolfram.com/Flattening.html
-	*	@param eccentricity \f$ f\ (dimensionless)\f$  Eccentricity of spheroid.
-	*   @return \f$ e\ (dimensionless)\f$ Flatness of spheroid.
-	*	@see SpheroidFlattening() for flattening of a spheroid.
-	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
-	*	@see SpheroidVolume() for volume of a spheroid.
-	*	@see SpheroidInertia() for inertia tensor of a spheroid.
+	*	@param flattening \f$ f\ (dimensionless)\f$ Flattening of ellipse.
+	*   @return \f$ e\ (dimensionless)\f$ Eccentricity of ellipse.
+	*	@see EllipseSurfaceArea() for area of a ellipse.
+	*	@see EllipseCircumference() for circumference of a ellipse.
+	*	@see EllipseSemiMajorAxis() for semi-major axis of a ellipse.
+	*	@see EllipseSemiMinorAxis() for semi-minor axis of a ellipse.
+	*	@see EllipseFocalLength() for focal length (linear eccentricity) of a ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of a ellipse.
+	*	@see EllipseEccentricity() for eccentricity of a ellipse.
+	*	@see EllipseInertia() for inertial tensor of a ellipse.
 	*/
 	template <typename T>
 	T EllipseEccentricity(const T flattening);
 
 	/**
-	*   @brief Finds the eccentricity, \f$e\f$, of a spheroid with equatorial radius \f$a\f$ and polar radius, \f$c\f$:
-	*		\f[ f =\begin{cases}
-\sqrt{\frac{a^2-c^2}{a^2}} & oblate \\ 
-\sqrt{\frac{c^2-a^2}{a^2}} & prolate 
-\end{cases} \f]
-	*
-	*	Spheroid is oblate if the equatorial radius is larger than the polar radius. It is prolate if the polar radius is larger than the equatorial radius.
+	*   @brief Finds the eccentricity, \f$e\f$, of a ellipse with semi-major axis \f$a\f$, and semi-minor axis \f$b\f$:
+	*		\f[ e = \sqrt{1-\frac{b^2}{a^2}}\f]
 	*
 	*	Equation taken from "Map Projections-A Working Manual" (Snyder, 1987), p. 13
 	*
 	*	See https://en.wikipedia.org/wiki/Eccentricity_(mathematics) , http://mathworld.wolfram.com/Eccentricity.html, http://mathworld.wolfram.com/Flattening.html
-	*	@param equatorialRadius \f$ a\ (m)\f$ Equatorial radius in meters.
-	*	@param polarRadius \f$ c\ (m)\f$ Polar radius in meters.
-	*   @return \f$ e\ (dimensionless)\f$ Eccentricity of spheroid.
-	*	@see SpheroidFlattening() for flattening of a spheroid.
-	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
-	*	@see SpheroidVolume() for volume of a spheroid.
-	*	@see SpheroidInertia() for inertia tensor of a spheroid.
+	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
+	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
+	*   @return \f$ e\ (dimensionless)\f$ Eccentricity of ellipse.
+	*	@see EllipseSurfaceArea() for area of a ellipse.
+	*	@see EllipseCircumference() for circumference of a ellipse.
+	*	@see EllipseSemiMajorAxis() for semi-major axis of a ellipse.
+	*	@see EllipseSemiMinorAxis() for semi-minor axis of a ellipse.
+	*	@see EllipseFocalLength() for focal length (linear eccentricity) of a ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of a ellipse.
+	*	@see EllipseEccentricity() for eccentricity of a ellipse.
+	*	@see EllipseInertia() for inertial tensor of a ellipse.
 	*/
 	template <typename T>
-	T EllipseEccentricity(const T equatorialRadius, const T polarRadius);
+	T EllipseEccentricity(const T semiMajorAxisInm, const T semiMinorAxisInm);
 	
 
 

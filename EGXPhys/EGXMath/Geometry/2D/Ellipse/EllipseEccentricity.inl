@@ -8,17 +8,17 @@
 namespace EGXMath {
 
 	template <typename T>
-	T SpheroidEccentricity(const T flattening) {
+	T EllipseEccentricity(const T flattening) {
 		return std::sqrt(flattening * ((T)2.0 - flattening) );
 	}
 
 	template <typename T>
-	T SpheroidEccentricity(const T equatorialRadius, const T polarRadius) {
-		if (equatorialRadius > polarRadius) {
-			return ( (equatorialRadius * equatorialRadius) - (polarRadius * polarRadius) ) / (equatorialRadius * equatorialRadius);
+	T EllipseEccentricity(const T semiMajorAxisInm, const T semiMinorAxisInm) {
+		if (semiMajorAxisInm  > semiMinorAxisInm) {
+			return std::sqrt(1.0 - ((semiMinorAxisInm * semiMinorAxisInm) / (semiMajorAxisInm * semiMajorAxisInm)));
 		}
 		else {
-			return ( (polarRadius * polarRadius) - (equatorialRadius * equatorialRadius) ) / (polarRadius * polarRadius);
+			return std::sqrt(1.0 - ((semiMajorAxisInm * semiMajorAxisInm) / (semiMinorAxisInm * semiMinorAxisInm)));
 		}
 	}
 

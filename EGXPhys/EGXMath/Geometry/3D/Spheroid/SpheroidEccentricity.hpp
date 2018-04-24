@@ -34,7 +34,7 @@ namespace EGXMath
 	*	Equation taken from "Map Projections-A Working Manual" (Snyder, 1987), p. 13
 	*
 	*	See https://en.wikipedia.org/wiki/Eccentricity_(mathematics) , http://mathworld.wolfram.com/Eccentricity.html, http://mathworld.wolfram.com/Flattening.html
-	*	@param eccentricity \f$ f\ (dimensionless)\f$  Eccentricity of spheroid.
+	*	@param flattening \f$ f\ (dimensionless)\f$ Flattening of spheroid.
 	*   @return \f$ e\ (dimensionless)\f$ Flatness of spheroid.
 	*	@see SpheroidFlattening() for flattening of a spheroid.
 	*	@see SpheroidSurfaceArea() for surface area of a spheroid.

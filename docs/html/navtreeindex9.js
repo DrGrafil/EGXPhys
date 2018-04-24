@@ -1,10 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"group___n_i_s_t_const-_quantum_of_circulation.html#ga86d150a3f178c37f565f6498cf593dbe":[1,2,2,12,1],
-"group___n_i_s_t_const-_rydberg_constant.html":[1,2,2,13],
-"group___n_i_s_t_const-_rydberg_constant.html#ga473e14f2663eccecd987928be1d512ad":[1,2,2,13,1],
-"group___n_i_s_t_const-_rydberg_constant.html#ga77c7dd314342e7f121d9b8775a45d20f":[1,2,2,13,2],
-"group___n_i_s_t_const-_rydberg_constant.html#gaa4164006d51dbf240eb83065e83bddec":[1,2,2,13,3],
 "group___n_i_s_t_const-_rydberg_constant.html#gaa434f78f9fead2fcf2e129a137853e26":[1,2,2,13,0],
 "group___n_i_s_t_const-_sackur_tetrode_constant.html":[1,2,3,9],
 "group___n_i_s_t_const-_sackur_tetrode_constant.html#ga476418a3565db707ed30de46c3126220":[1,2,3,9,1],

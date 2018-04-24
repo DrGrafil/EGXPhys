@@ -1,9 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"group___e_g_x_math-_angle_conversions-_gradian.html#ga346f47c519d5261b689cec49f4a8e789":[1,0,0,5,5],
-"group___e_g_x_math-_angle_conversions-_gradian.html#ga52ed2e44217e6a57e56829bee36612dc":[1,0,0,5,4],
-"group___e_g_x_math-_angle_conversions-_gradian.html#ga555aae885f8a7d0876a36aa07cbbd816":[1,0,0,5,12],
-"group___e_g_x_math-_angle_conversions-_gradian.html#ga5c81967ddb8f677634d161713174e419":[1,0,0,5,7],
 "group___e_g_x_math-_angle_conversions-_gradian.html#ga6513a992679fbb97d2969cf8bd68306f":[1,0,0,5,10],
 "group___e_g_x_math-_angle_conversions-_gradian.html#ga67ef7daad49b0d73c39c52d426ab46a5":[1,0,0,5,1],
 "group___e_g_x_math-_angle_conversions-_gradian.html#ga6bf31920148bfd61f1f06eb961c3f62b":[1,0,0,5,3],
@@ -139,8 +135,8 @@ var NAVTREEINDEX6 =
 "group___e_g_x_math-_geometry-2_d-_circle.html#gad32d0bded2e74c52a4c41cfffd2a9e77":[1,0,3,0,0,1],
 "group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e":[1,0,3,0,0,0],
 "group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html":[1,0,3,0,1,0],
+"group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html#ga4e01cf027d303bb4ecb75606e5240d6c":[1,0,3,0,1,0,1],
 "group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html#ga6a0a7fba17f782616894cfc447628c33":[1,0,3,0,1,0,0],
-"group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html#gaa80b9037b15dd74c138e1a24e10111b4":[1,0,3,0,1,0,1],
 "group___e_g_x_math-_geometry-2_d-_ellipse.html":[1,0,3,0,1],
 "group___e_g_x_math-_geometry-2_d-_ellipse.html#ga0e0b290f1da2605c16ec13b9e221769d":[1,0,3,0,1,2],
 "group___e_g_x_math-_geometry-2_d-_ellipse.html#ga10a3049c2f04b50f271fb01dc62e4cf8":[1,0,3,0,1,4],
@@ -178,8 +174,7 @@ var NAVTREEINDEX6 =
 "group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga9822b6e1025edbf7d272949547c53511":[1,0,3,2,3,1,1],
 "group___e_g_x_math-_geometry-3_d-_spheroid.html":[1,0,3,2,3],
 "group___e_g_x_math-_geometry-3_d.html":[1,0,3,2],
-"group___e_g_x_math-_geometry-4_d.html":[1,0,3,4],
-"group___e_g_x_math-_geometry-_eccentricity.html":[1,0,3,3],
+"group___e_g_x_math-_geometry-4_d.html":[1,0,3,3],
 "group___e_g_x_math-_geometry.html":[1,0,3],
 "group___e_g_x_math-_random.html":[1,0,4],
 "group___e_g_x_math.html":[1,0],
@@ -249,5 +244,10 @@ var NAVTREEINDEX6 =
 "group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3a6dbbdaddddd071cb1f0a20e40d83bd":[1,1,1,3,3],
 "group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga809f4c557ce6d2fe566a69c2a8a5d41b":[1,1,1,3,2],
 "group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gab31a33d0dbd3ecd00537832b5b836d73":[1,1,1,3,1],
-"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gafe02cffcc63c39794feb6f1de5e7a9bb":[1,1,1,3,5]
+"group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gafe02cffcc63c39794feb6f1de5e7a9bb":[1,1,1,3,5],
+"group___e_g_x_phys-_decay_constant.html":[1,1,2,0],
+"group___e_g_x_phys-_decay_constant.html#ga260cf6dc4f926269ea8966c19dfd269f":[1,1,2,0,3],
+"group___e_g_x_phys-_decay_constant.html#ga89c04a655d9e24f976399cc8f173b7aa":[1,1,2,0,2],
+"group___e_g_x_phys-_decay_constant.html#ga904edce5aad441b4a0873b3b1a83c7f2":[1,1,2,0,0],
+"group___e_g_x_phys-_decay_constant.html#gac0dc5d8a75657eaa2e939dd243fe4ba8":[1,1,2,0,1]
 };

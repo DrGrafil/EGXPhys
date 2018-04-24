@@ -471,9 +471,6 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Eccentricity.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\Spheroid.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
     </ClInclude>
@@ -681,9 +678,6 @@
     </None>
     <None Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
-    </None>
-    <None Include="..\..\EGXPhys\EGXMath\Geometry\Eccentricity.inl">
-      <Filter>EGXPhys\EGXMath\Geometry</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\Spheroid.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>

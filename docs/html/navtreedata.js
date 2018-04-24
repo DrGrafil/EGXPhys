@@ -35,15 +35,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "2_d_geometry_8hpp_source.html",
-"_declination_8hpp.html#gaff645fbd9a1de42e9cdbfb37fdac78c9",
-"_h_m_s_conversion_8inl.html#gaf4a94d34cb0629049bbcab8775d2af43",
-"_n_i_s_t_const_8hpp.html#ga4f4d8adf824657420f54680daa6340d5",
-"_nuclear_binding_energy_8hpp.html",
-"_redshift_8inl.html#gacc6d3b2922061214d64b89a4b8e3967a",
-"group___e_g_x_math-_angle_conversions-_gradian.html#ga346f47c519d5261b689cec49f4a8e789",
-"group___e_g_x_phys-_decay_constant.html",
-"group___n_i_s_t_const-_electron.html#ga65a20f263f8ef8f324ea6d1879050a66",
-"group___n_i_s_t_const-_quantum_of_circulation.html#ga86d150a3f178c37f565f6498cf593dbe"
+"_declination_8inl.html",
+"_half_life_8hpp.html#gaba3fda944d1a68ee1016a1f2f5809359",
+"_n_i_s_t_const_8hpp.html#ga5039598cd8a51d15d9dfbb0463c109d6",
+"_nuclear_binding_energy_8hpp.html#gaf229d8c0d2aa30ff95aa20e5213df3bd",
+"_relativity_constants_8hpp_source.html",
+"group___e_g_x_math-_angle_conversions-_gradian.html#ga6513a992679fbb97d2969cf8bd68306f",
+"group___e_g_x_phys-_decay_width.html",
+"group___n_i_s_t_const-_electron.html#ga81fc83bd665b7b4fb83e9901ed7d6628",
+"group___n_i_s_t_const-_rydberg_constant.html#gaa434f78f9fead2fcf2e129a137853e26"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
