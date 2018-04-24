@@ -28,34 +28,131 @@ namespace EGXMath
 	/// @{
 
 	/**
-	*   @brief Finds the surface area, \f$A_{ellipse}\f$, in meter squared of an ellipse with semi-major axis \f$a\f$, and semi-minor axis \f$b\f$.
-	*		\f[ A_{ellipse}=\pi a b \f]
+	*   @brief Finds the focal parameter, \f$p\f$, in meters of an ellipse with semi-major axis, \f$a\f$, and semi-minor axis \f$b\f$.
+	*		\f[ p=\frac{b^2}{\sqrt{a^2-b^2}} \f]
+	*
+	*	The focal parameter is the distance from the focus (or one of the two foci) to the directrix.
 	*
 	*	See http://mathworld.wolfram.com/FocalParameter.html and https://en.wikipedia.org/wiki/Conic_section#Conic_parameters
 	*
 	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
 	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
-	*   @return \f$ A_{ellipse}\ (m^2)\f$ Surface area of circle in meter squared.
-	*	@see EllipseSurfaceArea() for area of a ellipse.
-	*	@see EllipseCircumference() for circumference of a ellipse.
-	*	@see EllipseSemiMajorAxis() for semi-major axis of a ellipse.
-	*	@see EllipseSemiMinorAxis() for semi-minor axis of a ellipse.
-	*	@see EllipseFocalLength() for focal length (linear eccentricity) of a ellipse.
-	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of a ellipse.
-	*	@see EllipseEccentricity() for eccentricity of a ellipse.
-	*	@see EllipseInertia() for inertial tensor of a ellipse.
+	*   @return \f$ p\ (m)\f$ Focal Parameter of the ellipse in meters.
+	*	@see EllipseSurfaceArea() for area of an ellipse.
+	*	@see EllipseCircumference() for circumference of an ellipse.
+	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
+	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseDirectrix() for directrix of an ellipse.
+	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
+	*	@see EllipseFocalLength() for focal length (linear eccentricity) of an ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of an ellipse.
+	*	@see EllipseEccentricity() for eccentricity of an ellipse.
+	*	@see EllipseInertia() for inertial tensor of an ellipse.
 	*/
 	template <typename T>
 	T EllipseFocalParameter(const T semiMajorAxisInm, const T semiMinorAxisInm);
 
+	/**
+	*   @brief Finds the focal parameter, \f$p\f$, in meters of an ellipse with semi-major axis, \f$a\f$, and semi-minor axis \f$b\f$.
+	*		\f[ p=\frac{b^2}{\sqrt{a^2-b^2}} \f]
+	*
+	*	The focal parameter is the distance from the focus (or one of the two foci) to the directrix.
+	*
+	*	See http://mathworld.wolfram.com/FocalParameter.html and https://en.wikipedia.org/wiki/Conic_section#Conic_parameters
+	*
+	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
+	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
+	*   @return \f$ p\ (m)\f$ Focal Parameter of the ellipse in meters.
+	*	@see EllipseSurfaceArea() for area of an ellipse.
+	*	@see EllipseCircumference() for circumference of an ellipse.
+	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
+	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseDirectrix() for directrix of an ellipse.
+	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
+	*	@see EllipseFocalLength() for focal length (linear eccentricity) of an ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of an ellipse.
+	*	@see EllipseEccentricity() for eccentricity of an ellipse.
+	*	@see EllipseInertia() for inertial tensor of an ellipse.
+	*/
 	template <typename T>
 	T EllipseFocalParameterFromSemiMajorAndSemiMinorAxes(const T semiMajorAxisInm, const T semiMinorAxisInm);
 
+	/**
+	*   @brief Finds the focal parameter, \f$p\f$, in meters of an ellipse with semi-major axis, \f$a\f$, and linear eccentricity \f$c\f$.
+	*		\f[ p=\frac{a^2-c^2}{c} \f]
+	*
+	*	The focal parameter is the distance from the focus (or one of the two foci) to the directrix.
+	*
+	*	See http://mathworld.wolfram.com/FocalParameter.html and https://en.wikipedia.org/wiki/Conic_section#Conic_parameters
+	*
+	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
+	*	@param linearEccentricityInm \f$ c\ (m)\f$ Linear eccentricity (focal length) of the ellipse in meters.
+	*   @return \f$ p\ (m)\f$ Focal Parameter of the ellipse in meters.
+	*	@see EllipseSurfaceArea() for area of an ellipse.
+	*	@see EllipseCircumference() for circumference of an ellipse.
+	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
+	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseDirectrix() for directrix of an ellipse.
+	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
+	*	@see EllipseFocalLength() for focal length (linear eccentricity) of an ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of an ellipse.
+	*	@see EllipseEccentricity() for eccentricity of an ellipse.
+	*	@see EllipseInertia() for inertial tensor of an ellipse.
+	*/
 	template <typename T>
-	T EllipseFocalParameterFromLinearEccentricity(const T semiMajorAxisInm, const T linearEccentricity);
+	T EllipseFocalParameterFromLinearEccentricity(const T semiMajorAxisInm, const T linearEccentricityInm);
 
+	/**
+	*   @brief Finds the focal parameter, \f$p\f$, in meters of an ellipse with semi-major axis, \f$a\f$, and eccentricity \f$e\f$.
+	*		\f[ p=\frac{a(1-e^2)}{e} \f]
+	*
+	*	The focal parameter is the distance from the focus (or one of the two foci) to the directrix.
+	*
+	*	See http://mathworld.wolfram.com/FocalParameter.html and https://en.wikipedia.org/wiki/Conic_section#Conic_parameters
+	*
+	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
+	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the ellipse.
+	*   @return \f$ p\ (m)\f$ Focal Parameter of the ellipse in meters.
+	*	@see EllipseSurfaceArea() for area of an ellipse.
+	*	@see EllipseCircumference() for circumference of an ellipse.
+	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
+	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseDirectrix() for directrix of an ellipse.
+	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
+	*	@see EllipseFocalLength() for focal length (linear eccentricity) of an ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of an ellipse.
+	*	@see EllipseEccentricity() for eccentricity of an ellipse.
+	*	@see EllipseInertia() for inertial tensor of an ellipse.
+	*/
 	template <typename T>
 	T EllipseFocalParameterFromEccentricity(const T semiMajorAxisInm, const T eccentricity);
+
+	/**
+	*   @brief Finds the focal parameter, \f$p\f$, in meters of an ellipse with semi-Latus rectum, \f$\ell\f$, and eccentricity \f$e\f$.
+	*		\f[ p=\frac{\ell}{e} \f]
+	*
+	*	The focal parameter is the distance from the focus (or one of the two foci) to the directrix.
+	*
+	*	See http://mathworld.wolfram.com/FocalParameter.html and https://en.wikipedia.org/wiki/Conic_section#Conic_parameters
+	*
+	*	@param semiLatusRectumInm \f$ a\ (m)\f$ Semi-Latus rectum of the ellipse in meters.
+	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the ellipse.
+	*   @return \f$ p\ (m)\f$ Focal Parameter of the ellipse in meters.
+	*	@see EllipseSurfaceArea() for area of an ellipse.
+	*	@see EllipseCircumference() for circumference of an ellipse.
+	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
+	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseDirectrix() for directrix of an ellipse.
+	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
+	*	@see EllipseFocalLength() for focal length (linear eccentricity) of an ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of an ellipse.
+	*	@see EllipseEccentricity() for eccentricity of an ellipse.
+	*	@see EllipseInertia() for inertial tensor of an ellipse.
+	*/
+	template <typename T>
+	T EllipseFocalParameterFromSemiLatusRectum(const T semiLatusRectumInm, const T eccentricity);
+
+	
     /// @}
 } //namespace EGXMath
 

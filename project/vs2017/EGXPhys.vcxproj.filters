@@ -549,6 +549,15 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiMinorAxis.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseDirectrix.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseFocalLength.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseLinearEccentricity.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -767,6 +776,15 @@
       <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiMinorAxis.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseDirectrix.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseFocalLength.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseLinearEccentricity.inl">
       <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
     </None>
   </ItemGroup>

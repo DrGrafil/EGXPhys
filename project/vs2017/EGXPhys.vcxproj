@@ -204,9 +204,12 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle\Circle.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\Ellipse.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseCircumference.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseDirectrix.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseEccentricity.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseFocalLength.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseFocalParameter.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseInertia.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseLinearEccentricity.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiLatusRectum.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiMajorAxis.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiMinorAxis.hpp" />
@@ -341,9 +344,12 @@
     <None Include="..\..\EGXPhys\EGXMath\Functions\SignFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Circle\Circle.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseCircumference.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseDirectrix.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseEccentricity.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseFocalLength.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseFocalParameter.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseInertia.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseLinearEccentricity.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiLatusRectum.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiMajorAxis.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseSemiMinorAxis.inl" />

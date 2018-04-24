@@ -42,13 +42,16 @@ namespace EGXMath
 	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
 	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
 	*	@param matrix \f$ I_{ellipse}\ (kg\ m^2)\f$ Moment of inertia tensor matrix.
-	*	@see EllipseSurfaceArea() for area of a ellipse.
-	*	@see EllipseCircumference() for circumference of a ellipse.
-	*	@see EllipseSemiMajorAxis() for semi-major axis of a ellipse.
-	*	@see EllipseSemiMinorAxis() for semi-minor axis of a ellipse.
-	*	@see EllipseFocalLength() for focal length (linear eccentricity) of a ellipse.
-	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of a ellipse.
-	*	@see EllipseEccentricity() for eccentricity of a ellipse.
+	*	@see EllipseSurfaceArea() for area of an ellipse.
+	*	@see EllipseCircumference() for circumference of an ellipse.
+	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
+	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseDirectrix() for directrix of an ellipse.
+	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
+	*	@see EllipseFocalLength() for focal length (linear eccentricity) of an ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of an ellipse.
+	*	@see EllipseEccentricity() for eccentricity of an ellipse.
+	*	@see EllipseInertia() for inertial tensor of an ellipse.
 	*/
 	template <typename T, typename T2>
 	void EllipseInertia(const T massInkg, const T semiMajorAxisInm, const T semiMinorAxisInm, T2(&matrix)[9]);
@@ -65,13 +68,16 @@ namespace EGXMath
 	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
 	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
 	*	@param matrix \f$ I_{ellipse}\ (kg\ m^2)\f$ Moment of inertia tensor matrix.
-	*	@see EllipseSurfaceArea() for area of a ellipse.
-	*	@see EllipseCircumference() for circumference of a ellipse.
-	*	@see EllipseSemiMajorAxis() for semi-major axis of a ellipse.
-	*	@see EllipseSemiMinorAxis() for semi-minor axis of a ellipse.
-	*	@see EllipseFocalLength() for focal length (linear eccentricity) of a ellipse.
-	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of a ellipse.
-	*	@see EllipseEccentricity() for eccentricity of a ellipse.
+	*	@see EllipseSurfaceArea() for area of an ellipse.
+	*	@see EllipseCircumference() for circumference of an ellipse.
+	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
+	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseDirectrix() for directrix of an ellipse.
+	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
+	*	@see EllipseFocalLength() for focal length (linear eccentricity) of an ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of an ellipse.
+	*	@see EllipseEccentricity() for eccentricity of an ellipse.
+	*	@see EllipseInertia() for inertial tensor of an ellipse.
 	*/
 	template <typename T, typename T2>
 	void EllipseInertia(const T massInkg, const T semiMajorAxisInm, const T semiMinorAxisInm, std::vector<T2>& matrix);
@@ -90,13 +96,16 @@ namespace EGXMath
 	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
 	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
 	*	@param matrix \f$ I_{ellipse}\ (kg\ m^2)\f$ Moment of inertia tensor matrix.
-	*	@see EllipseSurfaceArea() for area of a ellipse.
-	*	@see EllipseCircumference() for circumference of a ellipse.
-	*	@see EllipseSemiMajorAxis() for semi-major axis of a ellipse.
-	*	@see EllipseSemiMinorAxis() for semi-minor axis of a ellipse.
-	*	@see EllipseFocalLength() for focal length (linear eccentricity) of a ellipse.
-	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of a ellipse.
-	*	@see EllipseEccentricity() for eccentricity of a ellipse.
+	*	@see EllipseSurfaceArea() for area of an ellipse.
+	*	@see EllipseCircumference() for circumference of an ellipse.
+	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
+	*	@see EllipseSemiMinorAxis() for semi-minor axis of an ellipse.
+	*	@see EllipseDirectrix() for directrix of an ellipse.
+	*	@see EllipseFocalParameter() for focal parameter of an ellipse.
+	*	@see EllipseFocalLength() for focal length (linear eccentricity) of an ellipse.
+	*	@see EllipseLinearEccentricity() for linear eccentricity (focal length) of an ellipse.
+	*	@see EllipseEccentricity() for eccentricity of an ellipse.
+	*	@see EllipseInertia() for inertial tensor of an ellipse.
 	*/
 	template <typename T>
 	void EllipseInertia(const T massInkg, const T semiMajorAxisInm, const T semiMinorAxisInm, glm::mat3& matrix);
