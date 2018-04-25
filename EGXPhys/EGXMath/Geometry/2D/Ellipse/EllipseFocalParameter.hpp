@@ -139,7 +139,7 @@ namespace EGXMath
 	*
 	*	See http://mathworld.wolfram.com/FocalParameter.html and https://en.wikipedia.org/wiki/Conic_section#Conic_parameters
 	*
-	*	@param semiLatusRectumInm \f$ a\ (m)\f$ Semi-Latus rectum of the ellipse in meters.
+	*	@param semiLatusRectumInm \f$ \ell\ (m)\f$ Semi-latus rectum of the ellipse in meters.
 	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the ellipse.
 	*   @return \f$ p\ (m)\f$ Focal Parameter of the ellipse in meters.
 	*	@see EllipseSurfaceArea() for area of an ellipse.
