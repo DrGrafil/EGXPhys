@@ -51,7 +51,7 @@ namespace EGXMath
 	*	@see EllipseInertia() for inertial tensor of an ellipse.
 	*/
 	template <typename T>
-	T EllipseSemiMinorAxis(const T semiMinorAxisInm, const T eccentricity);
+	T EllipseSemiMajorAxis(const T semiMinorAxisInm, const T eccentricity);
 
 	/**
 	*	@brief Finds the semi-major axis, \f$a$, in meters of an ellipse with semi-minor axis \f$b\f$, and eccentricity \f$e\f$.
@@ -77,7 +77,7 @@ namespace EGXMath
 	*	@see EllipseInertia() for inertial tensor of an ellipse.
 	*/
 	template <typename T>
-	T EllipseSemiMinorAxisFromEccentricity(const T semiMinorAxisInm, const T eccentricity);
+	T EllipseSemiMajorAxisFromEccentricity(const T semiMinorAxisInm, const T eccentricity);
 
 
 	/**
@@ -104,7 +104,7 @@ namespace EGXMath
 	*	@see EllipseInertia() for inertial tensor of an ellipse.
 	*/
 	template <typename T>
-	T EllipseSemiMinorAxisFromLinearEccentricity(const T semiMinorAxisInm, const T linearEccentricityInm);
+	T EllipseSemiMajorAxisFromLinearEccentricity(const T semiMinorAxisInm, const T linearEccentricityInm);
 
 	/**
 	*   @brief Finds the semi-major axis, \f$a$, in meters of an ellipse with semi-minor axis \f$b\f$, and semi-latus rectum \f$\ell\f$.

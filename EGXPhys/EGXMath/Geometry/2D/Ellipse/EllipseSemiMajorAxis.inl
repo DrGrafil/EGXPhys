@@ -8,7 +8,7 @@
 namespace EGXMath {
 
 	template <typename T>
-	T EllipseSemiMajorAxisAxis(const T semiMinorAxisInm, const T eccentricity) {
+	T EllipseSemiMajorAxis(const T semiMinorAxisInm, const T eccentricity) {
 		return EllipseSemiMinorAxisFromEccentricity(semiMinorAxisInm, eccentricity);
 	}
 
