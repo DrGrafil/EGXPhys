@@ -37,7 +37,7 @@ namespace EGXMath
 	*
 	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
 	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the ellipse.
-	*   @return \f$ b\ (m)\f$ Semi-minor axis of circle in meters.
+	*   @return \f$ b\ (m)\f$ Semi-minor axis of ellipse in meters.
 	*	@see EllipseSurfaceArea() for area of an ellipse.
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
@@ -63,7 +63,7 @@ namespace EGXMath
 	*
 	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
 	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the ellipse.
-	*   @return \f$ b\ (m)\f$ Semi-minor axis of circle in meters.
+	*   @return \f$ b\ (m)\f$ Semi-minor axis of ellipse in meters.
 	*	@see EllipseSurfaceArea() for area of an ellipse.
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
@@ -90,7 +90,7 @@ namespace EGXMath
 	*
 	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
 	*	@param linearEccentricityInm \f$ c\ (m)\f$ Linear eccentricity of the ellipse in meters.
-	*   @return \f$ b\ (m)\f$ Semi-minor axis of circle in meters.
+	*   @return \f$ b\ (m)\f$ Semi-minor axis of ellipse in meters.
 	*	@see EllipseSurfaceArea() for area of an ellipse.
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
@@ -116,7 +116,7 @@ namespace EGXMath
 	*
 	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
 	*	@param semiLatusRectumInm \f$ \ell\ (m)\f$ Semi-latus rectum of the ellipse in meters.
-	*   @return \f$ b\ (m)\f$ Semi-minor axis of circle in meters.
+	*   @return \f$ b\ (m)\f$ Semi-minor axis of ellipse in meters.
 	*	@see EllipseSurfaceArea() for area of an ellipse.
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
@@ -131,6 +131,7 @@ namespace EGXMath
 	*/
 	template <typename T>
 	T EllipseSemiMinorAxisFromSemiLatusRectum(const T semiMajorAxisInm, const T semiLatusRectumInm);
+
     /// @}
 } //namespace EGXMath
 
