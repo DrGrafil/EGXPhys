@@ -1,8 +1,8 @@
-/// @file EGXMath/Geometry/2D/Ellipse/EllipseSurfaceArea.inl
+/// @file EGXMath/Geometry/2D/Ellipse/EllipseSemiLatusRectum.inl
 ///
-/// @brief Implimentation of functions related to ellipse surface area.
+/// @brief Implimentation of functions related to ellipse semi-latus rectum.
 /// @author Elliot Grafil (Metex)
-/// @date 4/23/18
+/// @date 4/25/18
 
 
 namespace EGXMath {

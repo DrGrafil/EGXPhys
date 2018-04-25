@@ -1,11 +1,11 @@
-/// @file EGXMath/Geometry/2D/Ellipse/EllipseSurfaceArea.hpp
+/// @file EGXMath/Geometry/2D/Ellipse/EllipseSemiLatusRectum.hpp
 ///
-/// @brief Defines functions relating to ellipse surface area.
+/// @brief Defines functions relating to ellipse semi-latus rectum.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 4/23/18
+/// @date 4/25/18
 
-/// @defgroup EGXMath-Geometry-2D-Ellipse-SurfaceArea Surface Area
+/// @defgroup EGXMath-Geometry-2D-Ellipse-SemiLatusRectum Semi-Latus Rectum
 /// @ingroup EGXMath-Geometry-2D-Ellipse
 
 
@@ -24,7 +24,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Geometry-2D-Ellipse-SurfaceArea
+	/// @addtogroup EGXMath-Geometry-2D-Ellipse-SemiLatusRectum
 	/// @{
 
 	/**
@@ -49,9 +49,9 @@ namespace EGXMath
 	*	@see EllipseInertia() for inertial tensor of an ellipse.
 	*/
 	template <typename T>
-	T EllipseSurfaceArea(const T semiMajorAxisInm, const T semiMinorAxisInm);
+	T EllipseSemiLatusRectum(const T semiMajorAxisInm, const T semiMinorAxisInm);
 
     /// @}
 } //namespace EGXMath
 
-#include "EllipseSurfaceArea.inl"
+#include "EllipseSemiLatusRectum.inl"
