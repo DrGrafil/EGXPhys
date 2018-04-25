@@ -17,8 +17,6 @@
 //=================================
 
 #include "./Spheroid/Spheroid.hpp"
-#include "./Spheroid/SpheroidEccentricity.hpp"
-#include "./Spheroid/SpheroidFlattening.hpp"
 
 #include "./Cylinder/Cylinder.hpp"
 #include "Disk.hpp"
