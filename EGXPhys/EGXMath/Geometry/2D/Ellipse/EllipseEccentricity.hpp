@@ -34,8 +34,8 @@ namespace EGXMath
 	*	Equation taken from "Map Projections-A Working Manual" (Snyder, 1987), p. 13
 	*
 	*	See https://en.wikipedia.org/wiki/Eccentricity_(mathematics) , http://mathworld.wolfram.com/Eccentricity.html, http://mathworld.wolfram.com/Flattening.html
-	*	@param flattening \f$ f\ (dimensionless)\f$ Flattening of ellipse.
-	*   @return \f$ e\ (dimensionless)\f$ Eccentricity of ellipse.
+	*	@param flattening \f$ f\ (dimensionless)\f$ Flattening of the ellipse.
+	*   @return \f$ e\ (dimensionless)\f$ Eccentricity of the ellipse.
 	*	@see EllipseSurfaceArea() for area of an ellipse.
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
@@ -59,7 +59,7 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Eccentricity_(mathematics) , http://mathworld.wolfram.com/Eccentricity.html, http://mathworld.wolfram.com/Flattening.html
 	*	@param semiMajorAxisInm \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
 	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
-	*   @return \f$ e\ (dimensionless)\f$ Eccentricity of ellipse.
+	*   @return \f$ e\ (dimensionless)\f$ Eccentricity of the ellipse.
 	*	@see EllipseSurfaceArea() for area of an ellipse.
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.

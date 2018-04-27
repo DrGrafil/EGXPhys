@@ -28,16 +28,16 @@ namespace EGXMath
 	/// @{
 
 	/**
-	*   @brief Finds the semi-major axis, \f$a$, in meters of an ellipse with semi-minor axis \f$b\f$, and eccentricity \f$e\f$.
+	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with semi-minor axis \f$b\f$, and eccentricity \f$e\f$.
 	*		\f[ a=\frac{b}{\sqrt{1-e^2}} \f]
 	*
 	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
-	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of ellipse in meters.
+	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
 	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the ellipse.
-	*   @return \f$ b\ (m)\f$ Semi-minor axis of ellipse in meters.
+	*   @return \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
 	*	@see EllipseSurfaceArea() for area of an ellipse.
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
@@ -54,16 +54,16 @@ namespace EGXMath
 	T EllipseSemiMajorAxis(const T semiMinorAxisInm, const T eccentricity);
 
 	/**
-	*	@brief Finds the semi-major axis, \f$a$, in meters of an ellipse with semi-minor axis \f$b\f$, and eccentricity \f$e\f$.
+	*	@brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with semi-minor axis \f$b\f$, and eccentricity \f$e\f$.
 	*		\f[ a=\frac{b}{\sqrt{1-e^2}} \f]
 	*
 	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
-	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of ellipse in meters.
+	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
 	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the ellipse.
-	*   @return \f$ b\ (m)\f$ Semi-minor axis of ellipse in meters.
+	*   @return \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
 	*	@see EllipseSurfaceArea() for area of an ellipse.
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
@@ -81,16 +81,16 @@ namespace EGXMath
 
 
 	/**
-	*   @brief Finds the semi-major axis, \f$a$, in meters of an ellipse with semi-minor axis \f$b\f$, and linear eccentricity \f$c\f$.
+	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with semi-minor axis \f$b\f$, and linear eccentricity \f$c\f$.
 	*		\f[ a=\sqrt{b^2+c^2} \f]
 	*
 	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
-	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of ellipse in meters.
+	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
 	*	@param linearEccentricityInm \f$ c\ (m)\f$ Linear eccentricity of the ellipse in meters.
-	*   @return \f$ b\ (m)\f$ Semi-minor axis of ellipse in meters.
+	*   @return \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
 	*	@see EllipseSurfaceArea() for area of an ellipse.
 	*	@see EllipseCircumference() for circumference of an ellipse.
 	*	@see EllipseSemiMajorAxis() for semi-major axis of an ellipse.
@@ -107,14 +107,14 @@ namespace EGXMath
 	T EllipseSemiMajorAxisFromLinearEccentricity(const T semiMinorAxisInm, const T linearEccentricityInm);
 
 	/**
-	*   @brief Finds the semi-major axis, \f$a$, in meters of an ellipse with semi-minor axis \f$b\f$, and semi-latus rectum \f$\ell\f$.
+	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with semi-minor axis \f$b\f$, and semi-latus rectum \f$\ell\f$.
 	*		\f[ a= \frac{b^2}{\ell} \f]
 	*
 	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
-	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of ellipse in meters.
+	*	@param semiMinorAxisInm \f$ b\ (m)\f$ Semi-minor axis of the ellipse in meters.
 	*	@param semiLatusRectumInm \f$ \ell\ (m)\f$ Semi-latus rectum of the ellipse in meters.
 	*   @return \f$ a\ (m)\f$ Semi-major axis of the ellipse in meters.
 	*	@see EllipseSurfaceArea() for area of an ellipse.
