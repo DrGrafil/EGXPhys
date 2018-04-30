@@ -14,9 +14,12 @@ var dir_8041de7dea6fb00c6795e10a59b1d8f1 =
     [ "EllipseInertia.inl", "_ellipse_inertia_8inl.html", "_ellipse_inertia_8inl" ],
     [ "EllipseLinearEccentricity.hpp", "_ellipse_linear_eccentricity_8hpp.html", "_ellipse_linear_eccentricity_8hpp" ],
     [ "EllipseLinearEccentricity.inl", "_ellipse_linear_eccentricity_8inl.html", "_ellipse_linear_eccentricity_8inl" ],
-    [ "EllipseSemiLatusRectum.hpp", "_ellipse_semi_latus_rectum_8hpp_source.html", null ],
-    [ "EllipseSemiMajorAxis.hpp", "_ellipse_semi_major_axis_8hpp_source.html", null ],
-    [ "EllipseSemiMinorAxis.hpp", "_ellipse_semi_minor_axis_8hpp_source.html", null ],
+    [ "EllipseSemiLatusRectum.hpp", "_ellipse_semi_latus_rectum_8hpp.html", "_ellipse_semi_latus_rectum_8hpp" ],
+    [ "EllipseSemiLatusRectum.inl", "_ellipse_semi_latus_rectum_8inl.html", null ],
+    [ "EllipseSemiMajorAxis.hpp", "_ellipse_semi_major_axis_8hpp.html", "_ellipse_semi_major_axis_8hpp" ],
+    [ "EllipseSemiMajorAxis.inl", "_ellipse_semi_major_axis_8inl.html", "_ellipse_semi_major_axis_8inl" ],
+    [ "EllipseSemiMinorAxis.hpp", "_ellipse_semi_minor_axis_8hpp.html", "_ellipse_semi_minor_axis_8hpp" ],
+    [ "EllipseSemiMinorAxis.inl", "_ellipse_semi_minor_axis_8inl.html", "_ellipse_semi_minor_axis_8inl" ],
     [ "EllipseSurfaceArea.hpp", "_ellipse_surface_area_8hpp.html", "_ellipse_surface_area_8hpp" ],
     [ "EllipseSurfaceArea.inl", "_ellipse_surface_area_8inl.html", "_ellipse_surface_area_8inl" ]
 ];

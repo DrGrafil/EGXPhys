@@ -1,0 +1,30 @@
+\hypertarget{_ellipse_semi_minor_axis_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Semi\+Minor\+Axis.hpp File Reference}
+\label{_ellipse_semi_minor_axis_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Semi\+Minor\+Axis.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Semi\+Minor\+Axis.\+hpp}}
+
+
+Defines functions relating to ellipse semi-\/minor axis.  
+
+
+{\ttfamily \#include \char`\"{}Ellipse\+Semi\+Minor\+Axis.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis_gae461acf3333565d69527dd86e9aa2b32}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Minor\+Axis}} (const T semi\+Major\+Axis\+Inm, const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/minor axis, $b$, in meters of an ellipse with semi-\/major axis $a$, and eccentricity $e$. \[ b=a \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis_ga084ff3f954a39e9cb5c30ef0e99e13e4}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Minor\+Axis\+From\+Eccentricity}} (const T semi\+Major\+Axis\+Inm, const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/minor axis, $b$, in meters of an ellipse with semi-\/major axis $a$, and eccentricity $e$. \[ b=a \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis_gaa4ea6226a5d163ba24fd81fd86693692}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Minor\+Axis\+From\+Linear\+Eccentricity}} (const T semi\+Major\+Axis\+Inm, const T linear\+Eccentricity\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/minor axis, $b$, in meters of an ellipse with semi-\/major axis $a$, and linear eccentricity $c$. \[ b=\sqrt{a^2-c^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis_ga0319f47f355a8246f57c5bb7287d7a5f}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Minor\+Axis\+From\+Semi\+Latus\+Rectum}} (const T semi\+Major\+Axis\+Inm, const T semi\+Latus\+Rectum\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/minor axis, $b$, in meters of an ellipse with semi-\/major axis $a$, and semi-\/latus rectum $\ell$. \[ b= \sqrt{a\ell} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines functions relating to ellipse semi-\/minor axis. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/25/18 
+\end{DoxyDate}
