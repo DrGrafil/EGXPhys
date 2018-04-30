@@ -31,7 +31,8 @@ namespace EGXMath
 	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with semi-minor axis \f$b\f$, and eccentricity \f$e\f$.
 	*		\f[ a=\frac{b}{\sqrt{1-e^2}} \f]
 	*
-	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
+	*	The semi-major axis of an ellipse is a line segment that starts at the center of the ellipse going the farthest point on the curve.
+	*	It is half the length of the major axis and is at right angles with the semi-minor axis. It runs through one of the ellipses foci.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
@@ -57,7 +58,8 @@ namespace EGXMath
 	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with semi-minor axis \f$b\f$, and linear eccentricity \f$c\f$.
 	*		\f[ a=\sqrt{b^2+c^2} \f]
 	*
-	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
+	*	The semi-major axis of an ellipse is a line segment that starts at the center of the ellipse going the farthest point on the curve.
+	*	It is half the length of the major axis and is at right angles with the semi-minor axis. It runs through one of the ellipses foci.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
@@ -83,7 +85,8 @@ namespace EGXMath
 	*	@brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with semi-minor axis \f$b\f$, and eccentricity \f$e\f$.
 	*		\f[ a=\frac{b}{\sqrt{1-e^2}} \f]
 	*
-	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
+	*	The semi-major axis of an ellipse is a line segment that starts at the center of the ellipse going the farthest point on the curve.
+	*	It is half the length of the major axis and is at right angles with the semi-minor axis. It runs through one of the ellipses foci.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
@@ -110,7 +113,8 @@ namespace EGXMath
 	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with semi-minor axis \f$b\f$, and semi-latus rectum \f$\ell\f$.
 	*		\f[ a= \frac{b^2}{\ell} \f]
 	*
-	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
+	*	The semi-major axis of an ellipse is a line segment that starts at the center of the ellipse going the farthest point on the curve.
+	*	It is half the length of the major axis and is at right angles with the semi-minor axis. It runs through one of the ellipses foci.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
@@ -136,7 +140,8 @@ namespace EGXMath
 	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with semi-minor axis \f$b\f$, and focal parameter \f$p\f$.
 	*		\f[ a=b\sqrt{1+\dfrac{b^2}{p^2}} \f]
 	*
-	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
+	*	The semi-major axis of an ellipse is a line segment that starts at the center of the ellipse going the farthest point on the curve.
+	*	It is half the length of the major axis and is at right angles with the semi-minor axis. It runs through one of the ellipses foci.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
@@ -162,7 +167,8 @@ namespace EGXMath
 	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with linear eccentricity \f$c\f$, and eccentricity \f$e\f$.
 	*		\f[ a=\dfrac{c}{e} \f]
 	*
-	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
+	*	The semi-major axis of an ellipse is a line segment that starts at the center of the ellipse going the farthest point on the curve.
+	*	It is half the length of the major axis and is at right angles with the semi-minor axis. It runs through one of the ellipses foci.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
@@ -188,7 +194,8 @@ namespace EGXMath
 	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with linear eccentricity \f$c\f$, and semi-latus rectum \f$\ell\f$.
 	*		\f[ a=\dfrac{\ell+\sqrt{4c^2+\ell^2}}{2} \f]
 	*
-	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
+	*	The semi-major axis of an ellipse is a line segment that starts at the center of the ellipse going the farthest point on the curve.
+	*	It is half the length of the major axis and is at right angles with the semi-minor axis. It runs through one of the ellipses foci.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
@@ -214,7 +221,8 @@ namespace EGXMath
 	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with linear eccentricity \f$c\f$, and focal parameter \f$p\f$.
 	*		\f[ a=\sqrt{cp + c^2} \f]
 	*
-	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
+	*	The semi-major axis of an ellipse is a line segment that starts at the center of the ellipse going the farthest point on the curve.
+	*	It is half the length of the major axis and is at right angles with the semi-minor axis. It runs through one of the ellipses foci.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
@@ -240,7 +248,8 @@ namespace EGXMath
 	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with eccentricity \f$e\f$, and semi-latus rectum \f$\ell\f$.
 	*		\f[ a=\dfrac{\ell}{1 - e^2} \f]
 	*
-	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
+	*	The semi-major axis of an ellipse is a line segment that starts at the center of the ellipse going the farthest point on the curve.
+	*	It is half the length of the major axis and is at right angles with the semi-minor axis. It runs through one of the ellipses foci.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
@@ -266,7 +275,8 @@ namespace EGXMath
 	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with eccentricity \f$e\f$, and focal parameter \f$p\f$.
 	*		\f[ a=\dfrac{ep}{1-e^2} \f]
 	*
-	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
+	*	The semi-major axis of an ellipse is a line segment that starts at the center of the ellipse going the farthest point on the curve.
+	*	It is half the length of the major axis and is at right angles with the semi-minor axis. It runs through one of the ellipses foci.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
@@ -292,7 +302,8 @@ namespace EGXMath
 	*   @brief Finds the semi-major axis, \f$a\f$, in meters of an ellipse with semi-latus rectum \f$\ell\f$, and focal parameter \f$p\f$.
 	*		\f[ a=\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}} \f]
 	*
-	*	The semi-minor axis of an ellipse is half of the major axis that runs from the centre of the ellipse, through both foci to the perimeter.
+	*	The semi-major axis of an ellipse is a line segment that starts at the center of the ellipse going the farthest point on the curve.
+	*	It is half the length of the major axis and is at right angles with the semi-minor axis. It runs through one of the ellipses foci.
 	*
 	*	See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes , http://mathworld.wolfram.com/Ellipse.html
 	*
