@@ -42,8 +42,8 @@ var NAVTREEINDEX =
 "_planetary_mass_8inl.html#ga3d918c2d37a72b42b49aa6c3da08f450",
 "dir_55b2b9699b93e8f34de8f49e6faac2b6.html",
 "group___e_g_x_math-_functions-_sign.html",
-"group___e_g_x_phys-_planet_criteria.html#ga1df772b0ed354ca7f7e4a7a4af072325",
-"group___n_i_s_t_const-_hertz.html#gacda137a5d10ebba59b340d770802678f"
+"group___e_g_x_phys-_periapsis.html#gac4c419a87a5802cf6afc98f50792e99f",
+"group___n_i_s_t_const-_hertz.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

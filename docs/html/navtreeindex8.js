@@ -1,5 +1,12 @@
 var NAVTREEINDEX8 =
 {
+"group___e_g_x_phys-_periapsis.html#gac4c419a87a5802cf6afc98f50792e99f":[1,1,1,11,4],
+"group___e_g_x_phys-_periapsis.html#gada5892309279a3a687c4eb2f88238e4e":[1,1,1,11,3],
+"group___e_g_x_phys-_periapsis.html#gae2d053caf69cb0b4c3207064a2ab143a":[1,1,1,11,10],
+"group___e_g_x_phys-_periapsis.html#gaeeba153b188cd06cbd233eaef12f0a6a":[1,1,1,11,6],
+"group___e_g_x_phys-_periapsis.html#gafb16e46e55078b38604eef0d7c7c40c4":[1,1,1,11,11],
+"group___e_g_x_phys-_periapsis.html#gaff62669fb364a245cb85f9a91d8ea71f":[1,1,1,11,8],
+"group___e_g_x_phys-_planet_criteria.html":[1,1,1,13],
 "group___e_g_x_phys-_planet_criteria.html#ga1df772b0ed354ca7f7e4a7a4af072325":[1,1,1,13,2],
 "group___e_g_x_phys-_planet_criteria.html#ga4b86397b1c839c49ac599d49fda207d4":[1,1,1,13,0],
 "group___e_g_x_phys-_planet_criteria.html#ga62e8b781c301df60bd04af3183a965eb":[1,1,1,13,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX8 =
 "group___n_i_s_t_const-_helion.html#gac7da5201f92f47f4ca2310ae1c9f4fb6":[1,2,2,8,9],
 "group___n_i_s_t_const-_helion.html#gae3bf1eccb33e00a6da688959fd99bbb3":[1,2,2,8,15],
 "group___n_i_s_t_const-_helion.html#gaed43f2ab9c5e89c6dda577a3b5fc265c":[1,2,2,8,12],
-"group___n_i_s_t_const-_helion.html#gaf3b7dabd6de7a263aba710256e793c8e":[1,2,2,8,11],
-"group___n_i_s_t_const-_hertz.html":[1,2,6,3],
-"group___n_i_s_t_const-_hertz.html#ga035f43de5d8ad8208675c53a0057d14d":[1,2,6,3,1],
-"group___n_i_s_t_const-_hertz.html#ga2ededb8b750b44cde6d83c1c07b6a870":[1,2,6,3,2],
-"group___n_i_s_t_const-_hertz.html#ga5e2fd7ea13ae13a34435ff0578082d34":[1,2,6,3,0],
-"group___n_i_s_t_const-_hertz.html#ga6d5ccd7fed8ad7f2abb5c368565a1666":[1,2,6,3,3],
-"group___n_i_s_t_const-_hertz.html#ga7b63758ab74cb80c236d4eacd5b89484":[1,2,6,3,6],
-"group___n_i_s_t_const-_hertz.html#ga827c4e99287fcd5363fabcfe1381cc37":[1,2,6,3,4]
+"group___n_i_s_t_const-_helion.html#gaf3b7dabd6de7a263aba710256e793c8e":[1,2,2,8,11]
 };
