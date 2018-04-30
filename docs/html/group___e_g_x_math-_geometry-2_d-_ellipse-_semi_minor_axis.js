@@ -1,7 +1,7 @@
 var group___e_g_x_math__geometry_2_d__ellipse__semi_minor_axis =
 [
     [ "EllipseSemiMinorAxis", "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis.html#gae461acf3333565d69527dd86e9aa2b32", null ],
-    [ "EllipseSemiMinorAxisFromEccentricity", "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis.html#ga084ff3f954a39e9cb5c30ef0e99e13e4", null ],
-    [ "EllipseSemiMinorAxisFromLinearEccentricity", "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis.html#gaa4ea6226a5d163ba24fd81fd86693692", null ],
-    [ "EllipseSemiMinorAxisFromSemiLatusRectum", "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis.html#ga0319f47f355a8246f57c5bb7287d7a5f", null ]
+    [ "EllipseSemiMinorAxisFromSemiMajorAxisAndEccentricity", "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis.html#gad0febd8680a3952ae50ce6ddea584b34", null ],
+    [ "EllipseSemiMinorAxisFromSemiMajorAxisAndLinearEccentricity", "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis.html#ga001beab4a083da9dd00dace28e749284", null ],
+    [ "EllipseSemiMinorAxisFromSemiMajorAxisAndSemiLatusRectum", "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis.html#gaed84cd29b0768dd8eb2628b69e5c163f", null ]
 ];

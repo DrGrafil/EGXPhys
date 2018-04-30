@@ -36,14 +36,14 @@ var NAVTREEINDEX =
 [
 "2_d_geometry_8hpp_source.html",
 "_declination_8inl.html",
-"_gon_conversion_8hpp.html#gaabbfaeef5b1ae1b3e58c5b4b15c8bdaf",
-"_mass_defect_8inl.html#gab51169bf871d0ea0ee0642fa300228fe",
-"_n_i_s_t_const_8hpp.html#gaab87c757f36a9f281a53f667498af694",
-"_q_value_8hpp.html#ga4b23be4fb0a3a9e7229c95377afc74b5",
-"dir_d601383dbd262e311421bb342d3c1d78.html",
-"group___e_g_x_math-_geometry-2_d-_ellipse-_directrix.html#ga5e7a411cd0af17a30bae03613b4a675d",
-"group___e_g_x_phys-_q_value-_alpha.html#ga015ade04346d0c6dae4dda8e3aab8cbd",
-"group___n_i_s_t_const-_joule.html#ga08ffcdfd701ba898a91b0cbdde4d0e2d"
+"_gaussian_functions_8inl.html#ga3747a7d047293d0e5310ba112bece627",
+"_luminosity_8inl.html#ac5e66686d7910587e3636b7984d466e9",
+"_n_i_s_t_const_8hpp.html#gaa426666c20c9b04efcdcfd05f5a90cd9",
+"_planetary_mass_8inl.html#ga3d918c2d37a72b42b49aa6c3da08f450",
+"dir_55b2b9699b93e8f34de8f49e6faac2b6.html",
+"group___e_g_x_math-_functions-_sign.html",
+"group___e_g_x_phys-_planet_criteria.html#ga1df772b0ed354ca7f7e4a7a4af072325",
+"group___n_i_s_t_const-_hertz.html#gacda137a5d10ebba59b340d770802678f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
