@@ -306,7 +306,7 @@ namespace EGXMath
 
 	/**
 	*   @brief Finds the semi-minor axis, \f$b\f$, in meters of an ellipse with semi-latus rectum \f$\ell\f$, and focal parameter \f$p\f$.
-	*		\f[ b=\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}} \f]
+	*		\f[ b=\dfrac{\ell}{\sqrt{1-\dfrac{\ell^2}{p^2}}} \f]
 	*
 	*	The semi-minor axis of an ellipse is a line segment that starts at the center of the ellipse going the nearest point on the curve.
 	*	It is half the length of the minor axis and is at right angles with the semi-major axis.
