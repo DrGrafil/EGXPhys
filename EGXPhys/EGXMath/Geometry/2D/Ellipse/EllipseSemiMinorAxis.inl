@@ -70,7 +70,7 @@ namespace EGXMath {
 
 	template <typename T>
 	T EllipseSemiMinorAxisFromSemiLatusRectumAndFocalParameter(const T semiLatusRectumInm, const T focalParameterInm) {
-		return semiLatusRectumInm / std::sqrt((T)1.0 - ((semiLatusRectumInm * semiLatusRectumInm) / (focalParameterInm * focalParameterInm));
+		return semiLatusRectumInm / std::sqrt((T)1.0 - ((semiLatusRectumInm * semiLatusRectumInm) / (focalParameterInm * focalParameterInm)));
 	}
 
 
