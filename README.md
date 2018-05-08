@@ -85,10 +85,32 @@ Thermodynamics | | X
 
 Updated 5/8/2018:
 
-| Field									| Section 						| Subsection 					| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
-|:--- 									| :--- 								| :---								| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
-| Acoustics							| 										| 										| 								| 				 				|						| 								| 								|								|
-| Astrophysics					| 										| 										| 								| 				 				|						| 								| 								|								|
+| Field									| Section 																| Subsection 															| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
+|:--- 									| :--- 																		| :---																		| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
+| Acoustics							| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Astrophysics					| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Absolute Magnitude											| 																				| 								| 				 				|						| 								| 								|								|
+|											| Standard Gravitational Parameter					| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
 | Atomic								| 										| 										| 								| 				 				|						| 								| 								|								|
 | Kinematics						| 										| 										| 								| 				 				|						| 								| 								|								|
 | Optics								| 										| 										| 								| 				 				|						| 								| 								|								|
@@ -98,17 +120,6 @@ Updated 5/8/2018:
 | Thermodynamics			| 										| 										| 								| 				 				|						| 								| 								|								|
 |											| 										| 										| 								| 				 				|						| 								| 								|								|
 |											| 										| 										| 								| 				 				|						| 								| 								|								|
-
-Acoustics | | 
-Astrophysics | | X
-Atomic| | X
-Kinematics | | X
-Optics | | X
-Plasma | | X
-Quantum | | X
-Relativity | | X
-Thermodynamics | | X
-
 
 
 ---
