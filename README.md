@@ -90,36 +90,54 @@ Updated 5/8/2018:
 | Acoustics							| 																				| 																				| 								| 				 				|						| 								| 								|								|
 | Astrophysics					| 																				| 																				| 								| 				 				|						| 								| 								|								|
 |											| Absolute Magnitude											| 																				| 								| 				 				|						| 								| 								|								|
+|											| Apoapsis																| 																				| 								| 				 				|						| 								| 								|								|
+|											| B-V Color																| 																				| 								| 				 				|						| 								| 								|								|
+|											| Circumstellar Habitable Zone Limit 				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Color Temperature 											| 																				| 								| 				 				|						| 								| 								|								|
+|											| Declination															| 																				| 								| 				 				|						| 								| 								|								|
+|											| Eccentricity															| 																				| 								| 				 				|						| 								| 								|								|
+|											| Escape Velocity													| 																				| 								| 				 				|						| 								| 								|								|
+|											| Luminosity															| 																				| 								| 				 				|						| 								| 								|								|
+|											| Orbital Charecteristics										| 																				| 								| 				 				|						| 								| 								|								|
+|											| Parallax																| 																				| 								| 				 				|						| 								| 								|								|
+|											| Periapsis																| 																				| 								| 				 				|						| 								| 								|								|
+|											| Planetary Mass													| 																				| 								| 				 				|						| 								| 								|								|
+|											| Planet Criteria													| 																				| 								| 				 				|						| 								| 								|								|
+|											| Right Ascension													| 																				| 								| 				 				|						| 								| 								|								|
+|											| Rotational Flattening/Oblateness					| 																				| 								| 				 				|						| 								| 								|								|
 |											| Standard Gravitational Parameter					| 																				| 								| 				 				|						| 								| 								|								|
+|											| Stellar Mass														| 																				| 								| 				 				|						| 								| 								|								|
+|											| Stellar Radius														| 																				| 								| 				 				|						| 								| 								|								|
+|											| Stellar Temperature											| 																				| 								| 				 				|						| 								| 								|								|
+|											| Surface Gravity													| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Atomic								| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Decay Constant													| 																				| 								| 				 				|						| 								| 								|								|
+|											| Decay Width														| 																				| 								| 				 				|						| 								| 								|								|
+|											| Half Life																| 																				| 								| 				 				|						| 								| 								|								|
+|											| Mass Defect														| 																				| 								| 				 				|						| 								| 								|								|
+|											| Mass Excess														| 																				| 								| 				 				|						| 								| 								|								|
+|											| Mean Lifetime													| 																				| 								| 				 				|						| 								| 								|								|
+|											| Binding Energy													| 																				| 								| 				 				|						| 								| 								|								|
+|											| Separation Energy												| 																				| 								| 				 				|						| 								| 								|								|
+|											| Q-Value																| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| Alpha Decay 														| 	X							| X			 				|	X					| 								| 								|								|
+|											| 																				| Beta Minus Decay 											| 	X							| X			 				|	X					| 								| 								|								|
+|											| 																				| Beta Plus Decay													| 	X							| X			 				|	X					| 								| 								|								|
+|											| 																				| Electron Capture												| 	X							| X			 				|	X					| 								| 								|								|
+|											| 																				| Neutron Emission												| 	X							| X			 				|	X					| 								| 								|								|
+|											| 																				| Proton Emission 												| 	X							| X			 				|	X					| 								| 								|								|
+|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Radioactive Decay												| 																				| 								| 				 				|						| 								| 								|								|
+|											| Semi-Empirical Mass Formula							| 																				| 								| 				 				|						| 								| 								|								|
+| Kinematics						| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Optics								| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Plasma								| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Quantum						| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Relativity							| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Thermodynamics			| 																				| 																				| 								| 				 				|						| 								| 								|								|
 |											| 																				| 																				| 								| 				 				|						| 								| 								|								|
 |											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-| Atomic								| 										| 										| 								| 				 				|						| 								| 								|								|
-| Kinematics						| 										| 										| 								| 				 				|						| 								| 								|								|
-| Optics								| 										| 										| 								| 				 				|						| 								| 								|								|
-| Plasma								| 										| 										| 								| 				 				|						| 								| 								|								|
-| Quantum						| 										| 										| 								| 				 				|						| 								| 								|								|
-| Relativity							| 										| 										| 								| 				 				|						| 								| 								|								|
-| Thermodynamics			| 										| 										| 								| 				 				|						| 								| 								|								|
-|											| 										| 										| 								| 				 				|						| 								| 								|								|
-|											| 										| 										| 								| 				 				|						| 								| 								|								|
 
 
 ---
