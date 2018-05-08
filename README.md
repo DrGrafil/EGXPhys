@@ -38,7 +38,7 @@ NISTConst also includes a list of common aliases to all the constants like `c` f
 
 //Calculates the mass defect, the difference between the mass of the atom 
 //and the sum of the masses of its parts in unified atomic mass units.
-double MassDefectInu(int const atomicNumber, int const massNumber, double massAtom)
+double MassDefectInu(const const atomicNumber, int const massNumber, double massAtom)
 {
 	double protonMass = atomicNumber * NISTConst::protonMassInu;
 	double electronMass = atomicNumber * NISTConst::electronMassInu;
@@ -79,6 +79,28 @@ Plasma | | X
 Quantum | | X
 Relativity | | X
 Thermodynamics | | X
+
+
+## Current Status
+
+Updated 5/8/2018:
+
+Field 							| Section 						| Subsection 					| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
+:--- 								| :--- 								| :---								| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
+									| 										| 										| 								| 				 				|						| 								| 								|								|
+
+
+Acoustics | | 
+Astrophysics | | X
+Atomic| | X
+Kinematics | | X
+Optics | | X
+Plasma | | X
+Quantum | | X
+Relativity | | X
+Thermodynamics | | X
+
+
 
 ---
 ## Release notes
