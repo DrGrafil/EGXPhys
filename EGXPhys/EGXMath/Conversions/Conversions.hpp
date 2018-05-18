@@ -15,8 +15,8 @@
 // Included dependencies
 #include "ConversionsConstants.hpp"
 
-#include "AngleConversions.hpp"
-
+#include "AngleConversions/AngleConversions.hpp"
+#include "CoordinateConversions/CoordinateConversions.hpp"
 
 
 //=================================
