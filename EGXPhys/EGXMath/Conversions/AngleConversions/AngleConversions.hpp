@@ -5,7 +5,7 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/20/18
 
-/// @defgroup EGXMath-AngleConversions Angle Conversions
+/// @defgroup EGXMath-Conversions-AngleConversions Angle Conversions
 /// @ingroup EGXMath-Conversions
 
 
@@ -16,7 +16,7 @@
 // Included dependencies
 #include <math.h>  
 #include <string>
-#include "../EGXMathConstants.hpp"
+#include "../../EGXMathConstants.hpp"
 
 //=================================
 // Forward declared dependencies

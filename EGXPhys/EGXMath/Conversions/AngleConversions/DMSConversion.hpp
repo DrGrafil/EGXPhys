@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/29/18
 
-/// @defgroup EGXMath-AngleConversions-DMS DMS
-/// @ingroup EGXMath-AngleConversions
+/// @defgroup EGXMath-Conversions-AngleConversions-DMS DMS
+/// @ingroup EGXMath-Conversions-AngleConversions
 
 
 //=================================
@@ -27,7 +27,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-AngleConversions-DMS
+	/// @addtogroup EGXMath-Conversions-AngleConversions-DMS
 	/// @{
 
 	/**

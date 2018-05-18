@@ -178,7 +178,7 @@
     <ClInclude Include="..\..\EGXPhys\Atomic\QValue.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\RadioactiveDecay.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\SemiEmpiricalMassFormula.hpp" />
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\AngleConversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\DecimalDegreeConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\DegreeConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\DegreesMinutesSecondsConversion.hpp" />
@@ -192,6 +192,10 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\TurnConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\Conversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\ConversionsConstants.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CartesianCoordinateConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CoordinateConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\PolarCoordinateConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\SphericalCoordinateConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.hpp" />
@@ -337,6 +341,9 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\IntegerDegreeConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\RadianConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\TurnConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CartesianCoordinateConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\PolarCoordinateConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\SphericalCoordinateConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\GaussianFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\LogFunctions.inl" />

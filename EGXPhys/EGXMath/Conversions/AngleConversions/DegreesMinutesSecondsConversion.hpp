@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/29/18
 
-/// @defgroup EGXMath-AngleConversions-DegreesMinutesSeconds Degrees Minutes Seconds
-/// @ingroup EGXMath-AngleConversions
+/// @defgroup EGXMath-Conversions-AngleConversions-DegreesMinutesSeconds Degrees Minutes Seconds
+/// @ingroup EGXMath-Conversions-AngleConversions
 
 //=================================
 // Header guard
@@ -26,7 +26,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-AngleConversions-DegreesMinutesSeconds
+	/// @addtogroup EGXMath-Conversions-AngleConversions-DegreesMinutesSeconds
 	/// @{
 
 	/**

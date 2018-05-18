@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/28/18
 
-/// @defgroup EGXMath-AngleConversions-DecimalDegree Decimal Degree
-/// @ingroup EGXMath-AngleConversions
+/// @defgroup EGXMath-Conversions-AngleConversions-DecimalDegree Decimal Degree
+/// @ingroup EGXMath-Conversions-AngleConversions
 
 //=================================
 // Header guard
@@ -26,7 +26,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-AngleConversions-DecimalDegree
+	/// @addtogroup EGXMath-Conversions-AngleConversions-DecimalDegree
 	/// @{
 
 	/**

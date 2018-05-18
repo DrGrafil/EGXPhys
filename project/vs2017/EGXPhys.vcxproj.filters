@@ -109,6 +109,9 @@
     <Filter Include="Tests\EGXMath\Geometry\2D\Circle">
       <UniqueIdentifier>{ab2d9ed1-ca42-4855-801b-b8c2024113b6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\EGXMath\Conversions\CoordinateConversions">
+      <UniqueIdentifier>{986c33a9-d403-424d-87bd-ee77b6738d11}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -317,9 +320,6 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp">
       <Filter>EGXPhys\EGXMath</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions</Filter>
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\Conversions.hpp">
       <Filter>EGXPhys\EGXMath\Conversions</Filter>
@@ -558,6 +558,21 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseLinearEccentricity.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\AngleConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CartesianCoordinateConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CoordinateConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\PolarCoordinateConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\SphericalCoordinateConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -786,6 +801,15 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseLinearEccentricity.inl">
       <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CartesianCoordinateConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\PolarCoordinateConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\SphericalCoordinateConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -5,8 +5,8 @@
 /// @author Elliot Grafil (Metex)
 /// @date 3/28/18
 
-/// @defgroup EGXMath-AngleConversions-Turn Turn
-/// @ingroup EGXMath-AngleConversions
+/// @defgroup EGXMath-Conversions-AngleConversions-Turn Turn
+/// @ingroup EGXMath-Conversions-AngleConversions
 
 
 //=================================
@@ -27,7 +27,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-AngleConversions-Turn
+	/// @addtogroup EGXMath-Conversions-AngleConversions-Turn
 	/// @{
 
 	/**
