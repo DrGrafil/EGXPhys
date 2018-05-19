@@ -8,10 +8,10 @@
 namespace EGXMath {
 
     template<typename T>
-    void CartesianCoordinateToPolarCoordinate(const T x, const T y, const T z, const T& polarR, const T& polarAzimuthInRadians, const T& polarZ) {
-        polarR = sqrt(x*x + y * y);
-        polarAzimuthInRadians = atan2(x, y);
-        polarZ = z;
+    void CartesianCoordinateToCylindricalCoordinate(const T x, const T y, const T z, const T& cylindricalR, const T& cylindricalAzimuthInRadians, const T& cylindricalZ) {
+        cylindricalR = sqrt(x*x + y * y);
+        cylindricalAzimuthInRadians = atan2(x, y);
+        cylindricalZ = z;
     }
 
 

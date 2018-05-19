@@ -27,7 +27,7 @@ namespace EGXMath
 	/// @{
 	
     /**
-    *   @brief Converts a 2D point represented in the Polar coordiante system (\f$r\f$,\f$\theta\f$) to a representation in the Cartesian coordinate system (\f$x\f$,\f$y\f$).
+    *   @brief Converts a 2D point represented in the Polar coordiante system \f$(r,\theta)\f$ to a representation in the Cartesian coordinate system \f$(x,y)\f$.
     *		\f[ x = r\ cos(\theta) \f]
     *       \f[ y = r\ sin(\theta) \f]
     *
@@ -38,7 +38,7 @@ namespace EGXMath
     *   @param x \f$ x\ (m)\f$ The \f$x\f$ cartesian coordinate in meters.
     *   @param y \f$ y\ (m)\f$ The \f$y\f$ cartesian coordinate in meters.
     *	@see CartesianCoordinateToPolarCoordinate() for reverse coordinate transform.
-    *	@see CylindricalCoordinateToCartesianCoordinate for 3D.
+    *	@see CylindricalCoordinateToCartesianCoordinate() for 3D.
     *	@see DegreeToRadian() for conversion from degrees to radians.
     */
     template<typename T>

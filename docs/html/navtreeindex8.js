@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"group___e_g_x_phys-_nuclear_binding_energy.html":[1,1,2,6],
+"group___e_g_x_phys-_nuclear_binding_energy.html#ga25f5d2d32fad7e28e278cf8b5ea8ffa8":[1,1,2,6,3],
+"group___e_g_x_phys-_nuclear_binding_energy.html#gab6832bf15ead7b4e867e759e0a2a078e":[1,1,2,6,0],
+"group___e_g_x_phys-_nuclear_binding_energy.html#gae48a95188d9b71b36d02babf227b9449":[1,1,2,6,1],
 "group___e_g_x_phys-_nuclear_binding_energy.html#gaf229d8c0d2aa30ff95aa20e5213df3bd":[1,1,2,6,2],
 "group___e_g_x_phys-_nuclear_binding_energy.html#gafeed0fb7220e4900a8da011ed9fca44f":[1,1,2,6,4],
 "group___e_g_x_phys-_nuclear_separation_energy.html":[1,1,2,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "group___n_i_s_t_const-_fine_structure_constant.html":[1,2,2,6],
 "group___n_i_s_t_const-_fine_structure_constant.html#ga67cf20054caf1e81add883470b89db51":[1,2,2,6,0],
 "group___n_i_s_t_const-_fine_structure_constant.html#gab0b66cc7e11797dce82219a024123a12":[1,2,2,6,1],
-"group___n_i_s_t_const-_first_radiation_constant.html":[1,2,3,4],
-"group___n_i_s_t_const-_first_radiation_constant.html#ga350d484e55bd7af5e00f59d5ed64d43b":[1,2,3,4,1],
-"group___n_i_s_t_const-_first_radiation_constant.html#ga53183115e6a2d5cf5afc624f247f3698":[1,2,3,4,0],
-"group___n_i_s_t_const-_gravitational_constant.html":[1,2,0,3],
-"group___n_i_s_t_const-_gravitational_constant.html#gaab8e9e8695add729258bef9e2fc7e9bf":[1,2,0,3,1]
+"group___n_i_s_t_const-_first_radiation_constant.html":[1,2,3,4]
 };

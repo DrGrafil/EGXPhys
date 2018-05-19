@@ -27,7 +27,7 @@ namespace EGXMath
 	/// @{
 	
 	/**
-	*   @brief Converts a 2D point represented in the Cartesian coordinate system (\f$x\f$,\f$y\f$) to a representation in the Polar coordiante system (\f$r\f$,\f$\theta\f$).
+	*   @brief Converts a 2D point represented in the Cartesian coordinate system \f$(x,y)\f$ to a representation in the Polar coordiante system \f$(r,\theta)\f$ .
 	*		\f[ r = \sqrt{x^2+y^2} \f]
     *       \f[ \theta = atan2(y,x) \f]
     *       
@@ -38,7 +38,7 @@ namespace EGXMath
     *   @param polarR \f$ r\ (m)\f$ The \f$r\f$ polar coordinate (polar radius) in meters.
     *   @param polarAzimuthInRadians \f$ \theta\ (rad)\f$ The \f$\theta\f$ polar coordinate (azimuth angle/polar angle) in radians.
 	*	@see PolarCoordinateToCartesianCoordinate() for reverse coordinate transform.
-	*	@see CartesianCoordinateToCylindricalCoordinate for 3D.
+	*	@see CartesianCoordinateToCylindricalCoordinate() for 3D.
 	*	@see DegreeToRadian() for conversion from degrees to radians.
 	*/
 	template<typename T>

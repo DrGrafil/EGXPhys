@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"group___n_i_s_t_const-_first_radiation_constant.html#ga350d484e55bd7af5e00f59d5ed64d43b":[1,2,3,4,1],
+"group___n_i_s_t_const-_first_radiation_constant.html#ga53183115e6a2d5cf5afc624f247f3698":[1,2,3,4,0],
+"group___n_i_s_t_const-_gravitational_constant.html":[1,2,0,3],
+"group___n_i_s_t_const-_gravitational_constant.html#gaab8e9e8695add729258bef9e2fc7e9bf":[1,2,0,3,1],
 "group___n_i_s_t_const-_gravitational_constant.html#gacfed5fae03e441055c1f09406a47f8ce":[1,2,0,3,0],
 "group___n_i_s_t_const-_gravity_acceleration.html":[1,2,4,3],
 "group___n_i_s_t_const-_gravity_acceleration.html#ga22b6c6320ba235b01a0c0a1b3f9fd043":[1,2,4,3,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "group___n_i_s_t_const-_triton.html#ga42de75cc7f68dc31060afe68471d2eba":[1,2,2,16,5],
 "group___n_i_s_t_const-_triton.html#ga84a5453f454af22973152f1be7816ebe":[1,2,2,16,4],
 "group___n_i_s_t_const-_triton.html#ga8d4de7b1320ae20c74556745c418b50d":[1,2,2,16,1],
-"group___n_i_s_t_const-_triton.html#ga96449cb5ba8f6cc6d11e0232891ef790":[1,2,2,16,7],
-"group___n_i_s_t_const-_triton.html#gab00d04d68fed57e67a5b92d04dcdcf93":[1,2,2,16,3],
-"group___n_i_s_t_const-_triton.html#gabc438ce6d1b317f1048dc34433c3854a":[1,2,2,16,9],
-"group___n_i_s_t_const-_triton.html#gac69c06d65c929c8d1f260b4555a1ca1d":[1,2,2,16,2],
-"group___n_i_s_t_const-_triton.html#gaeb92adcaef164332cec64547c842b0ea":[1,2,2,16,10]
+"group___n_i_s_t_const-_triton.html#ga96449cb5ba8f6cc6d11e0232891ef790":[1,2,2,16,7]
 };

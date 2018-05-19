@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['cartesiancoordinatetopolarcoordinate',['CartesianCoordinateToPolarCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian.html#ga01ead70b7b75d7ad0f80776c8c254897',1,'EGXMath::CartesianCoordinateToPolarCoordinate(const T x, const T y, const T &amp;polarR, const T &amp;polarAzimuthInRadians)'],['../group___e_g_x_math-_conversions-_coordinate_conversions-_cartesian.html#gad0cea30328fa60ba74a8faa2f4ebb73f',1,'EGXMath::CartesianCoordinateToPolarCoordinate(const T x, const T y, const T z, const T &amp;polarR, const T &amp;polarAzimuthInRadians, const T &amp;polarZ)']]],
+  ['cartesiancoordinatetocylindricalcoordinate',['CartesianCoordinateToCylindricalCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga256f37d22da9bb58db556ee40dac8d81',1,'EGXMath']]],
+  ['cartesiancoordinatetopolarcoordinate',['CartesianCoordinateToPolarCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian.html#ga01ead70b7b75d7ad0f80776c8c254897',1,'EGXMath']]],
+  ['cartesiancoordinatetosphericalcoordinate',['CartesianCoordinateToSphericalCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga849c93ec135e9c72c5320c48eeacc7c9',1,'EGXMath']]],
   ['circlecircumference',['CircleCircumference',['../group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e',1,'EGXMath']]],
   ['circleperimeter',['CirclePerimeter',['../group___e_g_x_math-_geometry-2_d-_circle.html#gad32d0bded2e74c52a4c41cfffd2a9e77',1,'EGXMath']]],
   ['circlesurfacearea',['CircleSurfaceArea',['../group___e_g_x_math-_geometry-2_d-_circle.html#gaa4486100a643c57bd7a80c1c11ae3f60',1,'EGXMath']]],

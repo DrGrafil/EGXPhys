@@ -1,5 +1,8 @@
 var NAVTREEINDEX6 =
 {
+"_turn_conversion_8inl.html#ga72cda928d9043c7d82097b1a7920769e":[2,0,0,3,0,0,22,1],
+"_turn_conversion_8inl.html#ga72e6d3c46ebfc25f7be5050136d8df16":[2,0,0,3,0,0,22,17],
+"_turn_conversion_8inl.html#ga74efaece2f95aa6671f18382e5f3925f":[2,0,0,3,0,0,22,11],
 "_turn_conversion_8inl.html#ga79231536255e77fb7a158b99a30c1767":[2,0,0,3,0,0,22,5],
 "_turn_conversion_8inl.html#ga7bdc3a81ce316dd47b1a3179489fa195":[2,0,0,3,0,0,22,0],
 "_turn_conversion_8inl.html#ga999085c62490997da870618e20e88ebb":[2,0,0,3,0,0,22,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX6 =
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga74efaece2f95aa6671f18382e5f3925f":[1,0,0,0,10,11],
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga79231536255e77fb7a158b99a30c1767":[1,0,0,0,10,5],
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga7bdc3a81ce316dd47b1a3179489fa195":[1,0,0,0,10,0],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga999085c62490997da870618e20e88ebb":[1,0,0,0,10,13],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gaad072969abc59ef6f5b63ac6a176a11b":[1,0,0,0,10,2],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gad6aa9bdde2cde17cec136b24ee017bba":[1,0,0,0,10,10],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gad81dd0bb1660ef24e28fa15b2403dec7":[1,0,0,0,10,9]
+"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga999085c62490997da870618e20e88ebb":[1,0,0,0,10,13]
 };

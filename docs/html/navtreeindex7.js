@@ -1,5 +1,8 @@
 var NAVTREEINDEX7 =
 {
+"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gaad072969abc59ef6f5b63ac6a176a11b":[1,0,0,0,10,2],
+"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gad6aa9bdde2cde17cec136b24ee017bba":[1,0,0,0,10,10],
+"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gad81dd0bb1660ef24e28fa15b2403dec7":[1,0,0,0,10,9],
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gaea42f973566f770cc3552831717f525e":[1,0,0,0,10,4],
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gaefdee18d878c2e66e7bd737c8900ab30":[1,0,0,0,10,7],
 "group___e_g_x_math-_conversions-_angle_conversions.html":[1,0,0,0],
@@ -8,11 +11,12 @@ var NAVTREEINDEX7 =
 "group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html":[1,0,0,1,0,1],
 "group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html#ga189458efd604828d5825a8e8929845eb":[1,0,0,1,0,1,0],
 "group___e_g_x_math-_conversions-_coordinate_conversions-2_d.html":[1,0,0,1,0],
-"group___e_g_x_math-_conversions-_coordinate_conversions-3_d.html":[1,0,0,1,2],
-"group___e_g_x_math-_conversions-_coordinate_conversions-_cartesian.html":[1,0,0,1,1],
-"group___e_g_x_math-_conversions-_coordinate_conversions-_cartesian.html#gad0cea30328fa60ba74a8faa2f4ebb73f":[1,0,0,1,1,0],
-"group___e_g_x_math-_conversions-_coordinate_conversions-_polar.html":[1,0,0,1,3],
-"group___e_g_x_math-_conversions-_coordinate_conversions-_spherical.html":[1,0,0,1,4],
+"group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html":[1,0,0,1,1,0],
+"group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga256f37d22da9bb58db556ee40dac8d81":[1,0,0,1,1,0,0],
+"group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga849c93ec135e9c72c5320c48eeacc7c9":[1,0,0,1,1,0,1],
+"group___e_g_x_math-_conversions-_coordinate_conversions-3_d.html":[1,0,0,1,1],
+"group___e_g_x_math-_conversions-_coordinate_conversions-_polar.html":[1,0,0,1,2],
+"group___e_g_x_math-_conversions-_coordinate_conversions-_spherical.html":[1,0,0,1,3],
 "group___e_g_x_math-_conversions-_coordinate_conversions.html":[1,0,0,1],
 "group___e_g_x_math-_conversions.html":[1,0,0],
 "group___e_g_x_math-_functions-_e_r_f.html":[1,0,1,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX7 =
 "group___e_g_x_phys-_mean_lifetime.html":[1,1,2,5],
 "group___e_g_x_phys-_mean_lifetime.html#ga2586e148263e1f6c8ff89f269a0930ea":[1,1,2,5,2],
 "group___e_g_x_phys-_mean_lifetime.html#ga8a1dda4168b4b25db93bf1ae7832fd7e":[1,1,2,5,1],
-"group___e_g_x_phys-_mean_lifetime.html#gaa9e3c2deedda4bc7a745568b06fc47eb":[1,1,2,5,0],
-"group___e_g_x_phys-_nuclear_binding_energy.html":[1,1,2,6],
-"group___e_g_x_phys-_nuclear_binding_energy.html#ga25f5d2d32fad7e28e278cf8b5ea8ffa8":[1,1,2,6,3],
-"group___e_g_x_phys-_nuclear_binding_energy.html#gab6832bf15ead7b4e867e759e0a2a078e":[1,1,2,6,0],
-"group___e_g_x_phys-_nuclear_binding_energy.html#gae48a95188d9b71b36d02babf227b9449":[1,1,2,6,1]
+"group___e_g_x_phys-_mean_lifetime.html#gaa9e3c2deedda4bc7a745568b06fc47eb":[1,1,2,5,0]
 };
