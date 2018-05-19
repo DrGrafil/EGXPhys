@@ -1,11 +1,11 @@
-/// @file EGXMath/Conversions/CoordinateConversions/CartesianCoordinateConversion.hpp
+/// @file EGXMath/Conversions/CoordinateConversions/PolarCoordinateConversion.hpp
 ///
-/// @brief Converts a set of coordinates fom Cartesian into Spherical, Polar ect.
+/// @brief Converts a set of coordinates fom Polar into Spherical, Caresian ect.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 5/18/18
 
-/// @defgroup EGXMath-Conversions-CoordinateConversions-Cartesian Cartesian
+/// @defgroup EGXMath-Conversions-CoordinateConversions-Polar Polar
 /// @ingroup EGXMath-Conversions-CoordinateConversions
 
 //=================================
@@ -13,7 +13,7 @@
 #pragma once
 //=================================
 // Included dependencies
-#include <math.h>  
+
 //=================================
 // Forward declared dependencies
 
@@ -23,7 +23,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-CoordinateConversions-Cartesian
+	/// @addtogroup  EGXMath-Conversions-CoordinateConversions-Polar Polar
 	/// @{
 	
 	//// Degrees
@@ -48,13 +48,20 @@ namespace EGXMath
 	*	@see CompassWindToRadian() for conversion from compass wind.
 	*/
 	template<typename T>
-    void CartesianCoordinateToPolarCoordinate(const T x, const T y, const T z, const T& r, const T& azimuthInRadians, const T& polarZ);
+	T DegreeToRadian(const T& decimalDegree);
+
 
 
     template<typename T>
-    void CartesianCoordinateToSphericalCoordinate(const T x, const T y, const T z, const T& r, const T& azimuthInRadians, const T& zenithInRadians);
-    
+    void PolarCoordinateToCartesianCoordinate(      const T polarR, const T polarAzimuthInRadians, const T polarZ,
+                                                    const T& x, const T& y, const T& z);
+
+
+    template<typename T>
+    void PolarCoordinateToSphericalCoordinate(      const T polarR, const T polarAzimuthInRadians, const T polarZ,
+                                                    const T& sphericalR, const T& sphericalAzimuthInRadians, const T& sphericalZenithInRadians);
+
 	/// @}
 } //namespace EGXMath
 
-#include "CartesianCoordinateConversion.inl"
+#include "PolarCoordinateConversion.inl"

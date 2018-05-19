@@ -55,9 +55,15 @@ namespace EGXMath
     void SphericalCordinatesOfPointGivenCenter(const double centerR, const double centerAzimuth, const double centerZenith,
         const double pointR, const double pointAzimuth, const double pointZenith,
         double &R, double &Azimuth, double &Zenith);
-    void SphericalToCartesian(const double R, const double Azimuth, const double Zenith,
-        double &X, double &Y, double &Z);
+ 
 
+    template<typename T>
+    void SphericalCoordinateToCartesianCoordinate(  const T sphericalR, const T sphericalAzimuthInRadians, const T sphericalZenithInRadians,
+                                                    const T& x, const T& y, const T& z);
+
+    template<typename T>
+    void SphericalCoordinateToPolarCoordinate(  const T sphericalR, const T sphericalAzimuthInRadians, const T sphericalZenithInRadians,
+                                                const T& polarR, const T& polarAzimuthInRadians, const T& polarZ);
 
 	/// @}
 } //namespace EGXMath

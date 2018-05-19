@@ -51,6 +51,16 @@ namespace EGXMath
 	T DegreeToRadian(const T& decimalDegree);
 
 
+
+    template<typename T>
+    void PolarCoordinateToCartesianCoordinate(      const T polarR, const T polarAzimuthInRadians, const T polarZ,
+                                                    const T& x, const T& y, const T& z);
+
+
+    template<typename T>
+    void PolarCoordinateToSphericalCoordinate(      const T polarR, const T polarAzimuthInRadians, const T polarZ,
+                                                    const T& sphericalR, const T& sphericalAzimuthInRadians, const T& sphericalZenithInRadians);
+
 	/// @}
 } //namespace EGXMath
 

@@ -21,7 +21,7 @@
 
 //=================================
 //
-#include "CartesianCoordinateConversion.hpp"
-#include "PolarCoordinateConversion.hpp"
-#include "SphericalCoordinateConversion.hpp"
+#include "2D/2DCoordinateConversions.hpp"
+#include "3D/3DCoordinateConversions.hpp"
+
 
