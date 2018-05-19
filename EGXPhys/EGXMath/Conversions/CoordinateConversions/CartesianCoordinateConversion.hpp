@@ -14,7 +14,6 @@
 //=================================
 // Included dependencies
 #include <math.h>  
-
 //=================================
 // Forward declared dependencies
 
@@ -49,9 +48,12 @@ namespace EGXMath
 	*	@see CompassWindToRadian() for conversion from compass wind.
 	*/
 	template<typename T>
-	T DegreeToRadian(const T& decimalDegree);
+    void CartesianCoordinateToPolarCoordinate(const T x, const T y, const T z, const T& r, const T& azimuthInRadians, const T& polarZ);
 
-	
+
+    template<typename T>
+    void CartesianCoordinateToSphericalCoordinate(const T x, const T y, const T z, const T& r, const T& azimuthInRadians, const T& zenithInRadians);
+    
 	/// @}
 } //namespace EGXMath
 
