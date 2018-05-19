@@ -1,0 +1,42 @@
+\hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian}{}\section{Cartesian}
+\label{group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian}\index{Cartesian@{Cartesian}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian_ga01ead70b7b75d7ad0f80776c8c254897}{E\+G\+X\+Math\+::\+Cartesian\+Coordinate\+To\+Polar\+Coordinate}} (const T x, const T y, const T \&polarR, const T \&polar\+Azimuth\+In\+Radians)
+\begin{DoxyCompactList}\small\item\em Converts a 2D point represented in the Cartesian coordinate system ( $x$, $y$) to a representation in the Polar coordiante system ( $r$, $\theta$). \[ r = \sqrt{x^2+y^2} \] \[ \theta = atan2(y,x) \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian_ga01ead70b7b75d7ad0f80776c8c254897}\label{group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian_ga01ead70b7b75d7ad0f80776c8c254897}} 
+\index{Cartesian@{Cartesian}!Cartesian\+Coordinate\+To\+Polar\+Coordinate@{Cartesian\+Coordinate\+To\+Polar\+Coordinate}}
+\index{Cartesian\+Coordinate\+To\+Polar\+Coordinate@{Cartesian\+Coordinate\+To\+Polar\+Coordinate}!Cartesian@{Cartesian}}
+\subsubsection{\texorpdfstring{Cartesian\+Coordinate\+To\+Polar\+Coordinate()}{CartesianCoordinateToPolarCoordinate()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void E\+G\+X\+Math\+::\+Cartesian\+Coordinate\+To\+Polar\+Coordinate (\begin{DoxyParamCaption}\item[{const T}]{x,  }\item[{const T}]{y,  }\item[{const T \&}]{polarR,  }\item[{const T \&}]{polar\+Azimuth\+In\+Radians }\end{DoxyParamCaption})}
+
+
+
+Converts a 2D point represented in the Cartesian coordinate system ( $x$, $y$) to a representation in the Polar coordiante system ( $r$, $\theta$). \[ r = \sqrt{x^2+y^2} \] \[ \theta = atan2(y,x) \]. 
+
+See \href{http://mathworld.wolfram.com/PolarCoordinates.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Polar\+Coordinates.\+html} and \href{https://en.wikipedia.org/wiki/Polar_coordinate_system}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Polar\+\_\+coordinate\+\_\+system} 
+\begin{DoxyParams}{Parameters}
+{\em x} & $ x\ (m)$ The $x$ cartesian coordinate in meters. \\
+\hline
+{\em y} & $ y\ (m)$ The $y$ cartesian coordinate in meters. \\
+\hline
+{\em polarR} & $ r\ (m)$ The $r$ polar coordinate (polar radius) in meters. \\
+\hline
+{\em polar\+Azimuth\+In\+Radians} & $ \theta\ (rad)$ The $\theta$ polar coordinate (azimuth angle/polar angle) in radians. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar_ga189458efd604828d5825a8e8929845eb}{Polar\+Coordinate\+To\+Cartesian\+Coordinate()}} for reverse coordinate transform. 
+
+Cartesian\+Coordinate\+To\+Cylindrical\+Coordinate for 3D. 
+
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_angle_conversions-_degree_ga48585541b228c852c9d08a9eac3682f0}{Degree\+To\+Radian()}} for conversion from degrees to radians. 
+\end{DoxySeeAlso}

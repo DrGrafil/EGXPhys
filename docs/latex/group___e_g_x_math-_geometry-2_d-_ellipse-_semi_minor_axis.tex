@@ -24,7 +24,7 @@
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis_ga7bfc286b245acfcfd6c6bce85d25cdbb}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Minor\+Axis\+From\+Eccentricity\+And\+Focal\+Parameter}} (const T eccentricity, const T focal\+Parameter\+Inm)
 \begin{DoxyCompactList}\small\item\em Finds the semi-\/minor axis, $b$, in meters of an ellipse with eccentricity $e$, and focal parameter $p$. \[ b=\dfrac{ep}{\sqrt{1 - e^2}} \]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis_gafe27ed64ba521ec3cf8557520cbc6a14}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Minor\+Axis\+From\+Semi\+Latus\+Rectum\+And\+Focal\+Parameter}} (const T semi\+Latus\+Rectum\+Inm, const T focal\+Parameter\+Inm)
-\begin{DoxyCompactList}\small\item\em Finds the semi-\/minor axis, $b$, in meters of an ellipse with semi-\/latus rectum $\ell$, and focal parameter $p$. \[ b=\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/minor axis, $b$, in meters of an ellipse with semi-\/latus rectum $\ell$, and focal parameter $p$. \[ b=\dfrac{\ell}{\sqrt{1-\dfrac{\ell^2}{p^2}}} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -328,7 +328,7 @@ T E\+G\+X\+Math\+::\+Ellipse\+Semi\+Minor\+Axis\+From\+Semi\+Latus\+Rectum\+And\
 
 
 
-Finds the semi-\/minor axis, $b$, in meters of an ellipse with semi-\/latus rectum $\ell$, and focal parameter $p$. \[ b=\dfrac{\ell}{1-\dfrac{\ell^2}{p^2}} \]. 
+Finds the semi-\/minor axis, $b$, in meters of an ellipse with semi-\/latus rectum $\ell$, and focal parameter $p$. \[ b=\dfrac{\ell}{\sqrt{1-\dfrac{\ell^2}{p^2}}} \]. 
 
 The semi-\/minor axis of an ellipse is a line segment that starts at the center of the ellipse going the nearest point on the curve. It is half the length of the minor axis and is at right angles with the semi-\/major axis.
 

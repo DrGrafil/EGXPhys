@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['radian',['Radian',['../group___e_g_x_math-_angle_conversions-_radian.html',1,'']]],
+  ['radian',['Radian',['../group___e_g_x_math-_conversions-_angle_conversions-_radian.html',1,'']]],
   ['random',['Random',['../group___e_g_x_math-_random.html',1,'']]],
   ['right_20ascension',['Right Ascension',['../group___e_g_x_phys-_astrophysics-_right_ascension.html',1,'']]],
   ['rotational_20flattening_2foblateness',['Rotational Flattening/Oblateness',['../group___e_g_x_phys-_astrophysics-_rotational_flattening.html',1,'']]],

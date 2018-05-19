@@ -112,6 +112,12 @@
     <Filter Include="EGXPhys\EGXMath\Conversions\CoordinateConversions">
       <UniqueIdentifier>{986c33a9-d403-424d-87bd-ee77b6738d11}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\EGXMath\Conversions\CoordinateConversions\2D">
+      <UniqueIdentifier>{71fce017-5bf5-4bf3-a70f-d5e13e9b9ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\EGXMath\Conversions\CoordinateConversions\3D">
+      <UniqueIdentifier>{3d264045-0648-4454-9ec0-bcdc69416502}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -561,17 +567,29 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\AngleConversions\AngleConversions.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\AngleConversions</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CartesianCoordinateConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CoordinateConversions.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\PolarCoordinateConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\3DCartesianCoordinateConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\3D</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\SphericalCoordinateConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\3DCoordinateConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\2D\2DCoordinateConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\2D\CartesianCoordinateConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\2D\PolarCoordinateConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\2D</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -802,14 +820,20 @@
     <None Include="..\..\EGXPhys\EGXMath\Geometry\2D\Ellipse\EllipseLinearEccentricity.inl">
       <Filter>EGXPhys\EGXMath\Geometry\2D\Ellipse</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CartesianCoordinateConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\3DCartesianCoordinateConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\3D</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\PolarCoordinateConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\3D</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\SphericalCoordinateConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\3D</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\2D\CartesianCoordinateConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\2D</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\2D\PolarCoordinateConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\2D</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -1,5 +1,5 @@
 var group___n_i_s_t_const__faraday_constant =
 [
-    [ "FaradayConstant", "group___n_i_s_t_const-_faraday_constant.html#ga3a2104c5d85a6e687d615ec8004aa4c5", null ],
-    [ "FaradayConstantForConventionalElectricCurrent", "group___n_i_s_t_const-_faraday_constant.html#ga06079db2ebfcb103460b80a977171ac0", null ]
+    [ "FaradayConstant", "group___n_i_s_t_const-_faraday_constant.html#ga4e412067c8c4bf008343b347a434f23a", null ],
+    [ "FaradayConstantForConventionalElectricCurrent", "group___n_i_s_t_const-_faraday_constant.html#gabb6fe7c894f8b742e96391914b960f5b", null ]
 ];

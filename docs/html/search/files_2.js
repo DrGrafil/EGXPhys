@@ -1,8 +1,15 @@
 var searchData=
 [
-  ['circumstellarhabitablezone_2ehpp',['CircumstellarHabitableZone.hpp',['../_circumstellar_habitable_zone_8hpp.html',1,'']]],
-  ['circumstellarhabitablezone_2einl',['CircumstellarHabitableZone.inl',['../_circumstellar_habitable_zone_8inl.html',1,'']]],
-  ['colortemperature_2ehpp',['ColorTemperature.hpp',['../_color_temperature_8hpp.html',1,'']]],
-  ['colortemperature_2einl',['ColorTemperature.inl',['../_color_temperature_8inl.html',1,'']]],
-  ['conversions_2ehpp',['Conversions.hpp',['../_conversions_8hpp.html',1,'']]]
+  ['absolutemagnitude_2ehpp',['AbsoluteMagnitude.hpp',['../_absolute_magnitude_8hpp.html',1,'']]],
+  ['absolutemagnitude_2einl',['AbsoluteMagnitude.inl',['../_absolute_magnitude_8inl.html',1,'']]],
+  ['acoustics_2ehpp',['Acoustics.hpp',['../_acoustics_8hpp.html',1,'']]],
+  ['acousticsconstants_2ehpp',['AcousticsConstants.hpp',['../_acoustics_constants_8hpp.html',1,'']]],
+  ['angularacceleration_2ehpp',['AngularAcceleration.hpp',['../_angular_acceleration_8hpp.html',1,'']]],
+  ['angularacceleration_2einl',['AngularAcceleration.inl',['../_angular_acceleration_8inl.html',1,'']]],
+  ['apoapsis_2ehpp',['Apoapsis.hpp',['../_apoapsis_8hpp.html',1,'']]],
+  ['apoapsis_2einl',['Apoapsis.inl',['../_apoapsis_8inl.html',1,'']]],
+  ['astrophysics_2ehpp',['Astrophysics.hpp',['../_astrophysics_8hpp.html',1,'']]],
+  ['astrophysicsconstants_2ehpp',['AstrophysicsConstants.hpp',['../_astrophysics_constants_8hpp.html',1,'']]],
+  ['atomic_2ehpp',['Atomic.hpp',['../_atomic_8hpp.html',1,'']]],
+  ['atomicconstants_2ehpp',['AtomicConstants.hpp',['../_atomic_constants_8hpp.html',1,'']]]
 ];

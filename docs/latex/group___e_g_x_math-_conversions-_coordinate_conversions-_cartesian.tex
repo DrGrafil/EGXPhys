@@ -1,0 +1,42 @@
+\hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-_cartesian}{}\section{Cartesian}
+\label{group___e_g_x_math-_conversions-_coordinate_conversions-_cartesian}\index{Cartesian@{Cartesian}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-_cartesian_gad0cea30328fa60ba74a8faa2f4ebb73f}{E\+G\+X\+Math\+::\+Cartesian\+Coordinate\+To\+Polar\+Coordinate}} (const T x, const T y, const T z, const T \&polarR, const T \&polar\+Azimuth\+In\+Radians, const T \&polarZ)
+\begin{DoxyCompactList}\small\item\em Converts a point represented in the Cartesian coordinate system to a representation in the Polar/\+Cylindrical coordiante system. \[\alpha_{rad}=\alpha_{deg}\frac{\pi}{180}\]. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-_cartesian_ga849c93ec135e9c72c5320c48eeacc7c9}\label{group___e_g_x_math-_conversions-_coordinate_conversions-_cartesian_ga849c93ec135e9c72c5320c48eeacc7c9}} 
+{\footnotesize template$<$typename T $>$ }\\void {\bfseries E\+G\+X\+Math\+::\+Cartesian\+Coordinate\+To\+Spherical\+Coordinate} (const T x, const T y, const T z, const T \&sphericalR, const T \&spherical\+Azimuth\+In\+Radians, const T \&spherical\+Zenith\+In\+Radians)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-_cartesian_gad0cea30328fa60ba74a8faa2f4ebb73f}\label{group___e_g_x_math-_conversions-_coordinate_conversions-_cartesian_gad0cea30328fa60ba74a8faa2f4ebb73f}} 
+\index{Cartesian@{Cartesian}!Cartesian\+Coordinate\+To\+Polar\+Coordinate@{Cartesian\+Coordinate\+To\+Polar\+Coordinate}}
+\index{Cartesian\+Coordinate\+To\+Polar\+Coordinate@{Cartesian\+Coordinate\+To\+Polar\+Coordinate}!Cartesian@{Cartesian}}
+\subsubsection{\texorpdfstring{Cartesian\+Coordinate\+To\+Polar\+Coordinate()}{CartesianCoordinateToPolarCoordinate()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void E\+G\+X\+Math\+::\+Cartesian\+Coordinate\+To\+Polar\+Coordinate (\begin{DoxyParamCaption}\item[{const T}]{x,  }\item[{const T}]{y,  }\item[{const T}]{z,  }\item[{const T \&}]{polarR,  }\item[{const T \&}]{polar\+Azimuth\+In\+Radians,  }\item[{const T \&}]{polarZ }\end{DoxyParamCaption})}
+
+
+
+Converts a point represented in the Cartesian coordinate system to a representation in the Polar/\+Cylindrical coordiante system. \[\alpha_{rad}=\alpha_{deg}\frac{\pi}{180}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Radian}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Radian} 
+\begin{DoxyParams}{Parameters}
+{\em decimal\+Degree} & $\alpha_{deg}\ (deg)$ is the angle in decimal degrees. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\alpha_{rad}\ (rad)$ is the angle in radians. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_angle_conversions-_decimal_degree_ga906ee2c83cdf4caa59eb613dc2d5d52a}{Decimal\+Degree\+To\+Radian()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_angle_conversions-_degree_gae4fa6c2d3805430760783650cfbfdb11}{Degree\+To\+Milliradian()}} for conversion to milliradians. 
+
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_angle_conversions-_degree_ga48585541b228c852c9d08a9eac3682f0}{Degree\+To\+Radian()}} for conversion from (decimal) degrees. 
+\end{DoxySeeAlso}

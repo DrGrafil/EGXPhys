@@ -1,4 +1,4 @@
 var group___n_i_s_t_const__josephson_constant =
 [
-    [ "JosephsonConstant", "group___n_i_s_t_const-_josephson_constant.html#gae9f3553a6a6c5eed3df61ad33277cab8", null ]
+    [ "JosephsonConstant", "group___n_i_s_t_const-_josephson_constant.html#gacafbc0c823771554a6ae27245b48d134", null ]
 ];

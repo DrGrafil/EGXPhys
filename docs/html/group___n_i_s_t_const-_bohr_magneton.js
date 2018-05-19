@@ -1,8 +1,8 @@
 var group___n_i_s_t_const__bohr_magneton =
 [
-    [ "BohrMagneton", "group___n_i_s_t_const-_bohr_magneton.html#gaace59be8951a23257cedcbef8f320c66", null ],
-    [ "BohrMagnetonIneVPerT", "group___n_i_s_t_const-_bohr_magneton.html#ga8b97d10b13a2c5de4f0d268370bc3c50", null ],
-    [ "BohrMagnetonInHzPerT", "group___n_i_s_t_const-_bohr_magneton.html#ga0c3cc268d0e1abc4703ea8f2c11ccab8", null ],
-    [ "BohrMagnetonInInversemT", "group___n_i_s_t_const-_bohr_magneton.html#ga5d2bdfa6451f3966c0e4ce0d76da7880", null ],
-    [ "BohrMagnetonInKPerT", "group___n_i_s_t_const-_bohr_magneton.html#ga4fcb81eff2823748ae5fced898ecc0ec", null ]
+    [ "BohrMagneton", "group___n_i_s_t_const-_bohr_magneton.html#ga2804e91f010b40a5c11a46506e6c1926", null ],
+    [ "BohrMagnetonIneVPerT", "group___n_i_s_t_const-_bohr_magneton.html#ga5a7384205d0127ffe031897a6b0c3dca", null ],
+    [ "BohrMagnetonInHzPerT", "group___n_i_s_t_const-_bohr_magneton.html#gaa57dcf7dffc991b2b8ab1009687691e8", null ],
+    [ "BohrMagnetonInInversemT", "group___n_i_s_t_const-_bohr_magneton.html#ga4ad979b4ddb4aeebcbff236726fa64ec", null ],
+    [ "BohrMagnetonInKPerT", "group___n_i_s_t_const-_bohr_magneton.html#gab847d7f91c3980277d352fd100d904f2", null ]
 ];

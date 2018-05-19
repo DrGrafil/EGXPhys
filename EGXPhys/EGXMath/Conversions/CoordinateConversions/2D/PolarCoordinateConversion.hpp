@@ -1,12 +1,12 @@
-/// @file EGXMath/Conversions/CoordinateConversions/PolarCoordinateConversion.hpp
+/// @file EGXMath/Conversions/CoordinateConversions/2D/PolarCoordinateConversion.hpp
 ///
-/// @brief Converts a set of coordinates fom Polar into Spherical, Caresian ect.
+/// @brief Converts a set of 2D coordinates fom Polar into Caresian ect.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 5/18/18
 
-/// @defgroup EGXMath-Conversions-CoordinateConversions-Polar Polar
-/// @ingroup EGXMath-Conversions-CoordinateConversions
+/// @defgroup EGXMath-Conversions-CoordinateConversions-2D-Polar Polar
+/// @ingroup EGXMath-Conversions-CoordinateConversions-2D
 
 //=================================
 // Header guard
@@ -23,43 +23,28 @@
 
 namespace EGXMath
 {
-	/// @addtogroup  EGXMath-Conversions-CoordinateConversions-Polar Polar
+	/// @addtogroup  EGXMath-Conversions-CoordinateConversions-2D-Polar
 	/// @{
 	
-	//// Degrees
-	/**
-	*   @brief Converts an angle in (decimal) degrees to radians.
-	*		\f[\alpha_{rad}=\alpha_{deg}\frac{\pi}{180}\f]
-	*
-	*	See https://en.wikipedia.org/wiki/Radian
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
-	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@see DecimalDegreeToRadian() for alias.
-	*	@see DegreeToMilliradian() for conversion to milliradians.
-	*	@see DegreeToRadian() for conversion from (decimal) degrees.
-	*	@see DecimalDegreeToRadian() for conversion from decimal degrees.
-	*	@see RadianToRadian() for conversion from radians.
-	*	@see IntegerDegreeToRadian() for conversion from integer degrees.
-	*	@see BinaryDegreeToRadian() for conversion from binary degrees.
-	*	@see TurnToRadian() for conversion from turns.
-	*	@see GradianToRadian() for conversion from gradians.
-	*	@see HoursMinutesSecondsToRadian() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToRadian() for conversion from degrees minutes seconds.
-	*	@see CompassWindToRadian() for conversion from compass wind.
-	*/
-	template<typename T>
-	T DegreeToRadian(const T& decimalDegree);
-
-
-
+    /**
+    *   @brief Converts a 2D point represented in the Polar coordiante system (\f$r\f$,\f$\theta\f$) to a representation in the Cartesian coordinate system (\f$x\f$,\f$y\f$).
+    *		\f[ x = r\ cos(\theta) \f]
+    *       \f[ y = r\ sin(\theta) \f]
+    *
+    *
+    *	See http://mathworld.wolfram.com/PolarCoordinates.html and https://en.wikipedia.org/wiki/Polar_coordinate_system
+    *   @param polarR \f$ r\ (m)\f$ The \f$r\f$ polar coordinate (polar radius) in meters.
+    *   @param polarAzimuthInRadians \f$ \theta\ (rad)\f$ The \f$\theta\f$ polar coordinate (azimuth angle/polar angle) in radians.
+    *   @param x \f$ x\ (m)\f$ The \f$x\f$ cartesian coordinate in meters.
+    *   @param y \f$ y\ (m)\f$ The \f$y\f$ cartesian coordinate in meters.
+    *	@see CartesianCoordinateToPolarCoordinate() for reverse coordinate transform.
+    *	@see CylindricalCoordinateToCartesianCoordinate for 3D.
+    *	@see DegreeToRadian() for conversion from degrees to radians.
+    */
     template<typename T>
-    void PolarCoordinateToCartesianCoordinate(      const T polarR, const T polarAzimuthInRadians, const T polarZ,
-                                                    const T& x, const T& y, const T& z);
+    void PolarCoordinateToCartesianCoordinate(      const T polarR, const T polarAzimuthInRadians,
+                                                    const T& x, const T& y);
 
-
-    template<typename T>
-    void PolarCoordinateToSphericalCoordinate(      const T polarR, const T polarAzimuthInRadians, const T polarZ,
-                                                    const T& sphericalR, const T& sphericalAzimuthInRadians, const T& sphericalZenithInRadians);
 
 	/// @}
 } //namespace EGXMath

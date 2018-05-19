@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['angle_20conversions',['Angle Conversions',['../group___e_g_x_math-_angle_conversions.html',1,'']]],
+  ['angle_20conversions',['Angle Conversions',['../group___e_g_x_math-_conversions-_angle_conversions.html',1,'']]],
   ['acoustics',['Acoustics',['../group___e_g_x_phys-_acoustics.html',1,'']]],
   ['apoapsis',['Apoapsis',['../group___e_g_x_phys-_apoapsis.html',1,'']]],
   ['astrophysics',['Astrophysics',['../group___e_g_x_phys-_astrophysics.html',1,'']]],

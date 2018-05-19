@@ -1,5 +1,6 @@
 var dir_7f4d8a189b2d5a092159afe84aef016f =
 [
+    [ "AngleConversions.hpp", "_angle_conversions_8hpp_source.html", null ],
     [ "DecimalDegreeConversion.hpp", "_decimal_degree_conversion_8hpp.html", "_decimal_degree_conversion_8hpp" ],
     [ "DecimalDegreeConversion.inl", "_decimal_degree_conversion_8inl.html", "_decimal_degree_conversion_8inl" ],
     [ "DegreeConversion.hpp", "_degree_conversion_8hpp_source.html", null ],

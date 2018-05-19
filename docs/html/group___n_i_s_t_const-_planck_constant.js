@@ -1,8 +1,8 @@
 var group___n_i_s_t_const__planck_constant =
 [
-    [ "PlanckConstant", "group___n_i_s_t_const-_planck_constant.html#ga6caa482b17de2f08f423eff1a521b0d7", null ],
-    [ "PlanckConstantIneVs", "group___n_i_s_t_const-_planck_constant.html#ga4587d736f45c35788453a9509eaee7f2", null ],
-    [ "PlanckConstantOver2Pi", "group___n_i_s_t_const-_planck_constant.html#ga9b3484c3c80e4a97206c7945b0db539b", null ],
-    [ "PlanckConstantOver2PiIneVs", "group___n_i_s_t_const-_planck_constant.html#ga1d45cff7c25d4ebb0639311d5c3ea20d", null ],
-    [ "PlanckConstantOver2PiTimescInMeVfm", "group___n_i_s_t_const-_planck_constant.html#ga76ea84456bc32be18fa15034da108214", null ]
+    [ "PlanckConstant", "group___n_i_s_t_const-_planck_constant.html#ga469d9f8b9dfa5e6b73a460bddd16a0ed", null ],
+    [ "PlanckConstantIneVs", "group___n_i_s_t_const-_planck_constant.html#ga31cde6b55e68a183fd7c8178ac6414cc", null ],
+    [ "PlanckConstantOver2Pi", "group___n_i_s_t_const-_planck_constant.html#ga5a867434631f04938ff7d86ae9107a0b", null ],
+    [ "PlanckConstantOver2PiIneVs", "group___n_i_s_t_const-_planck_constant.html#ga1e4fdaaf00e0741e9627e4feffccd23a", null ],
+    [ "PlanckConstantOver2PiTimescInMeVfm", "group___n_i_s_t_const-_planck_constant.html#ga3c5872da7678ae41641308eab4d41846", null ]
 ];

@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['latticeparameterofsilicon',['latticeParameterOfSilicon',['../group___n_i_s_t_const-_silicon.html#ga8ab64e0d4d7e0ebde43f1dd5f4ff68bf',1,'NISTConst']]],
-  ['latticespacingofsilicon',['latticeSpacingOfSilicon',['../group___n_i_s_t_const-_silicon.html#ga439c53134da8a910d17c996b136da7a8',1,'NISTConst']]],
-  ['loschmidtconstant',['LoschmidtConstant',['../group___n_i_s_t_const-_loschmidt_constant.html#gab4ddc03e855109d251efa0ae9e8fb80d',1,'NISTConst']]],
-  ['loschmidtconstantatm',['LoschmidtConstantatm',['../group___n_i_s_t_const-_loschmidt_constant.html#ga1442f26c5c9f899f74ef7b546a41c461',1,'NISTConst']]],
+  ['latticeparameterofsilicon',['latticeParameterOfSilicon',['../group___n_i_s_t_const-_silicon.html#ga0941ec097c5c66b571eec8c5305f3aac',1,'NISTConst']]],
+  ['latticespacingofsilicon',['latticeSpacingOfSilicon',['../group___n_i_s_t_const-_silicon.html#gadcadfe51b35f339a221e8ba56830b565',1,'NISTConst']]],
+  ['loschmidtconstant',['LoschmidtConstant',['../group___n_i_s_t_const-_loschmidt_constant.html#ga513d27c989dc4f6f91e3aa37ca018d5a',1,'NISTConst']]],
+  ['loschmidtconstantatm',['LoschmidtConstantatm',['../group___n_i_s_t_const-_loschmidt_constant.html#gae68f5d2d04353bd4cf30faa8cb935734',1,'NISTConst']]],
   ['lunarmass',['LunarMass',['../_astrophysics_constants_8hpp.html#a55e13f18ccd52a098969eaa5755c448e',1,'EGXPhys']]]
 ];

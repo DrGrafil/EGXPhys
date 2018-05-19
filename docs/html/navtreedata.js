@@ -34,16 +34,17 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"2_d_geometry_8hpp_source.html",
-"_declination_8inl.html",
-"_gaussian_functions_8inl.html#ga3747a7d047293d0e5310ba112bece627",
-"_luminosity_8inl.html#ac5e66686d7910587e3636b7984d466e9",
-"_n_i_s_t_const_8hpp.html#gaa426666c20c9b04efcdcfd05f5a90cd9",
-"_planetary_mass_8inl.html#ga3d918c2d37a72b42b49aa6c3da08f450",
-"dir_55b2b9699b93e8f34de8f49e6faac2b6.html",
-"group___e_g_x_math-_functions-_sign.html",
-"group___e_g_x_phys-_periapsis.html#gac4c419a87a5802cf6afc98f50792e99f",
-"group___n_i_s_t_const-_hertz.html"
+"2_d_coordinate_conversions_8hpp.html",
+"_decimal_degree_conversion_8inl.html#gab9d5635a6e35127b5245978aba508962",
+"_escape_velocity_8inl.html",
+"_lorentz_transformations_8hpp.html#ga8064f5bce1d2ca5f7bc39d95ba4d2dd9",
+"_n_i_s_t_const_8hpp.html#gaa1f04f49c9fb976f1281221ea5cc7a79",
+"_planet_criteria_8inl.html#ga62e8b781c301df60bd04af3183a965eb",
+"_turn_conversion_8inl.html#ga79231536255e77fb7a158b99a30c1767",
+"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gaea42f973566f770cc3552831717f525e",
+"group___e_g_x_phys-_nuclear_binding_energy.html#gaf229d8c0d2aa30ff95aa20e5213df3bd",
+"group___n_i_s_t_const-_gravitational_constant.html#gacfed5fae03e441055c1f09406a47f8ce",
+"group___n_i_s_t_const-_triton.html#gaf197122d8768d41b57cfbcc23088818a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
