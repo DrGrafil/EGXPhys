@@ -1,20 +1,18 @@
-/// @file EGXMath/Conversions/CoordinateConversions/SphericalCoordinateConversion.hpp
+/// @file EGXMath/Conversions/CoordinateConversions/3D/SphericalCoordinateConversion.hpp
 ///
-/// @brief Converts a set of coordinates fom Spherical into Cartesian, Polar ect.
+/// @brief Converts a set of 3D coordinates fom Spherical into Cartesian, Polar ect.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 5/18/18
 
-/// @defgroup EGXMath-Conversions-CoordinateConversions-Spherical Spherical
-/// @ingroup EGXMath-Conversions-CoordinateConversions
+/// @defgroup EGXMath-Conversions-CoordinateConversions-3D-Spherical Spherical
+/// @ingroup EGXMath-Conversions-CoordinateConversions-3D
 //=================================
 // Header guard
 #pragma once
 //=================================
 // Included dependencies
 #include <math.h>  
-#include <string>
-#include "../../EGXMathConstants.hpp"
 
 //=================================
 // Forward declared dependencies
@@ -25,7 +23,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-CoordinateConversions-Spherical
+	/// @addtogroup EGXMath-Conversions-CoordinateConversions-3D-Spherical
 	/// @{
 	
 	//// Degrees

@@ -1,18 +1,19 @@
-/// @file EGXMath/Conversions/CoordinateConversions/PolarCoordinateConversion.hpp
+/// @file EGXMath/Conversions/CoordinateConversions/3D/CylindricalCoordinateConversion.hpp
 ///
-/// @brief Converts a set of coordinates fom Polar into Spherical, Caresian ect.
+/// @brief Converts a set of 3D coordinates from Cylindrical into Spherical, Caresian ect.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 5/18/18
 
-/// @defgroup EGXMath-Conversions-CoordinateConversions-Polar Polar
-/// @ingroup EGXMath-Conversions-CoordinateConversions
+/// @defgroup EGXMath-Conversions-CoordinateConversions-3D-Cylindrical Cylindrical
+/// @ingroup EGXMath-Conversions-CoordinateConversions-3D
 
 //=================================
 // Header guard
 #pragma once
 //=================================
 // Included dependencies
+#include <math.h> 
 
 //=================================
 // Forward declared dependencies
@@ -23,45 +24,52 @@
 
 namespace EGXMath
 {
-	/// @addtogroup  EGXMath-Conversions-CoordinateConversions-Polar Polar
+	/// @addtogroup  EGXMath-Conversions-CoordinateConversions-3D-Cylindrical
 	/// @{
 	
-	//// Degrees
-	/**
-	*   @brief Converts an angle in (decimal) degrees to radians.
-	*		\f[\alpha_{rad}=\alpha_{deg}\frac{\pi}{180}\f]
-	*
-	*	See https://en.wikipedia.org/wiki/Radian
-	*   @param decimalDegree \f$\alpha_{deg}\ (deg)\f$ is the angle in decimal degrees.
-	*   @return \f$\alpha_{rad}\ (rad)\f$ is the angle in radians.
-	*	@see DecimalDegreeToRadian() for alias.
-	*	@see DegreeToMilliradian() for conversion to milliradians.
-	*	@see DegreeToRadian() for conversion from (decimal) degrees.
-	*	@see DecimalDegreeToRadian() for conversion from decimal degrees.
-	*	@see RadianToRadian() for conversion from radians.
-	*	@see IntegerDegreeToRadian() for conversion from integer degrees.
-	*	@see BinaryDegreeToRadian() for conversion from binary degrees.
-	*	@see TurnToRadian() for conversion from turns.
-	*	@see GradianToRadian() for conversion from gradians.
-	*	@see HoursMinutesSecondsToRadian() for conversion from hours minutes seconds.
-	*	@see DegreesMinutesSecondsToRadian() for conversion from degrees minutes seconds.
-	*	@see CompassWindToRadian() for conversion from compass wind.
-	*/
-	template<typename T>
-	T DegreeToRadian(const T& decimalDegree);
-
-
-
+    /**
+    *   @brief Converts a 3D point represented in the Cylindrical coordiante system \f$(r,\theta,z)\f$ to a representation in the Cartesian coordinate system \f$(x,y,z)\f$.
+    *		\f[ x = r\ cos(\theta) \f]
+    *       \f[ y = r\ sin(\theta) \f]
+    *       \f[ z = z \f]
+    *
+    *
+    *	See http://mathworld.wolfram.com/CylindricalCoordinates.html and https://en.wikipedia.org/wiki/Cylindrical_coordinate_system
+    *   @param cylindricalR \f$ r\ (m)\f$ The \f$r\f$ cylindrical coordinate (cylindrical radius) in meters.
+    *   @param cylindricalAzimuthInRadians \f$ \theta\ (rad)\f$ The \f$\theta\f$ cylindrical coordinate (azimuth angle) in radians.
+    *   @param cylindricalZ \f$ z\ (m)\f$ The \f$z\f$ cylindrical coordinate in meters.
+    *   @param x \f$ x\ (m)\f$ The \f$x\f$ cartesian coordinate in meters.
+    *   @param y \f$ y\ (m)\f$ The \f$y\f$ cartesian coordinate in meters.
+    *   @param z \f$ z\ (m)\f$ The \f$z\f$ cartesian coordinate in meters.
+    *	@see CartesianCoordinateToCylindricalCoordinate() for reverse coordinate transform.
+    *	@see PolarCoordinateToCartesianCoordinate() for 2D.
+    *	@see DegreeToRadian() for conversion from degrees to radians.
+    */
     template<typename T>
-    void PolarCoordinateToCartesianCoordinate(      const T polarR, const T polarAzimuthInRadians, const T polarZ,
-                                                    const T& x, const T& y, const T& z);
+    void CylindricalCoordinateToCartesianCoordinate(    const T cylindricalR, const T cylindricalAzimuthInRadians, const T cylindricalZ,
+                                                        const T& x, const T& y, const T& z);
 
-
+    /**
+    *   @brief Converts a 3D point represented in the Cartesian coordinate system \f$(x,y,z)\f$ to a representation in the Spherical coordiante system \f$(r,\theta,\phi)\f$. Note that \f$\theta\f$ lays in the \f$x\ y\f$ plane.
+    *		\f[ r = \sqrt{x^2+y^2+z^2} \f]
+    *       \f[ \theta = arctan(\frac{y}{x}) \f]
+    *       \f[ \phi = arccos(\frac{z}{r}) \f]
+    *
+    *	See http://mathworld.wolfram.com/SphericalCoordinates.html and https://en.wikipedia.org/wiki/Spherical_coordinate_system
+    *   @param cylindricalR \f$ r\ (m)\f$ The \f$r\f$ cylindrical coordinate (cylindrical radius) in meters.
+    *   @param cylindricalAzimuthInRadians \f$ \theta\ (rad)\f$ The \f$\theta\f$ cylindrical coordinate (azimuth angle) in radians.
+    *   @param cylindricalZ \f$ z\ (m)\f$ The \f$z\f$ cylindrical coordinate in meters.
+    *   @param sphericalR \f$ r\ (m)\f$ The \f$r\f$ spherical coordinate (spherical radius) in meters.
+    *   @param sphericalAzimuthInRadians \f$ \theta\ (rad)\f$ The \f$\theta\f$ spherical coordinate (azimuth angle) in radians. Note that the azimuth angle is in the \f$x\ y\f$ plane.
+    *   @param sphericalZenithInRadians \f$ \phi\ (rad)\f$ The \f$\phi\f$ spherical coordinate (zenith angle) in radians. Note that the zenith angle is measured from the z-axis.
+    *	@see SphericalCoordinateToCylindricalCoordinate() for reverse coordinate transform.
+    *	@see DegreeToRadian() for conversion from degrees to radians.
+    */
     template<typename T>
-    void PolarCoordinateToSphericalCoordinate(      const T polarR, const T polarAzimuthInRadians, const T polarZ,
-                                                    const T& sphericalR, const T& sphericalAzimuthInRadians, const T& sphericalZenithInRadians);
+    void CylindricalCoordinateToSphericalCoordinate(    const T cylindricalR, const T cylindricalAzimuthInRadians, const T cylindricalZ,
+                                                        const T& sphericalR, const T& sphericalAzimuthInRadians, const T& sphericalZenithInRadians);
 
 	/// @}
 } //namespace EGXMath
 
-#include "PolarCoordinateConversion.inl"
+#include "CylindricalCoordinateConversion.inl"

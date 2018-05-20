@@ -10,7 +10,7 @@ namespace EGXMath {
     template<typename T>
     void CartesianCoordinateToCylindricalCoordinate(const T x, const T y, const T z, const T& cylindricalR, const T& cylindricalAzimuthInRadians, const T& cylindricalZ) {
         cylindricalR = sqrt(x*x + y * y);
-        cylindricalAzimuthInRadians = atan2(x, y);
+        cylindricalAzimuthInRadians = atan2(y, x);
         cylindricalZ = z;
     }
 

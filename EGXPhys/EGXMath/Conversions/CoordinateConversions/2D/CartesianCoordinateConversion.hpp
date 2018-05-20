@@ -1,6 +1,6 @@
 /// @file EGXMath/Conversions/CoordinateConversions/2D/CartesianCoordinateConversion.hpp
 ///
-/// @brief Converts a set of 2D coordinates fom Cartesian into  Polar ect.
+/// @brief Converts a set of 2D coordinates from Cartesian into  Polar ect.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 5/18/18

@@ -1,6 +1,6 @@
 /// @file EGXMath/Conversions/CoordinateConversions/3D/3DCartesianCoordinateConversion.hpp
 ///
-/// @brief Converts a set of 3D coordinates fom Cartesian into Spherical, Cylindrical ect.
+/// @brief Converts a set of 3D coordinates from Cartesian into Spherical, Cylindrical ect.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 5/18/18
@@ -42,7 +42,7 @@ namespace EGXMath
     *   @param cylindricalAzimuthInRadians \f$ \theta\ (rad)\f$ The \f$\theta\f$ cylindrical coordinate (azimuth angle) in radians.
     *   @param cylindricalZ \f$ z\ (m)\f$ The \f$z\f$ cylindrical coordinate in meters.
     *	@see CylindricalCoordinateToCartesianCoordinate() for reverse coordinate transform.
-    *	@see PolarCoordinateToCartesianCoordinate() for 2D.
+    *	@see CartesianCoordinateToPolarCoordinate() for 2D.
     *	@see DegreeToRadian() for conversion from degrees to radians.
     */
 	template<typename T>
@@ -63,8 +63,7 @@ namespace EGXMath
     *   @param sphericalR \f$ r\ (m)\f$ The \f$r\f$ spherical coordinate (spherical radius) in meters.
     *   @param sphericalAzimuthInRadians \f$ \theta\ (rad)\f$ The \f$\theta\f$ spherical coordinate (azimuth angle) in radians. Note that the azimuth angle is in the \f$x\ y\f$ plane.
     *   @param sphericalZenithInRadians \f$ \phi\ (rad)\f$ The \f$\phi\f$ spherical coordinate (zenith angle) in radians. Note that the zenith angle is measured from the z-axis.
-    *	@see CylindricalCoordinateToCartesianCoordinate() for reverse coordinate transform.
-    *	@see PolarCoordinateToCartesianCoordinate() for 2D.
+    *	@see SphericalCoordinateToCartesianCoordinate() for reverse coordinate transform.
     *	@see DegreeToRadian() for conversion from degrees to radians.
     */
     template<typename T>
