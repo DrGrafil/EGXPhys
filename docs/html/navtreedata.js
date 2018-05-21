@@ -35,16 +35,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "2_d_coordinate_conversions_8hpp.html",
-"_decimal_degree_conversion_8inl.html#ga981b48f16766590641360ca98dfa7b8c",
-"_escape_velocity_8hpp.html",
-"_lorentz_transformations_8hpp.html#ga1ea24128654ac333dd843afdd5c003b7",
-"_n_i_s_t_const_8hpp.html#ga9e555f96daf2b8abda55581bdeb8f20d",
-"_planet_criteria_8inl.html",
-"_turn_conversion_8inl.html#ga72cda928d9043c7d82097b1a7920769e",
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gaad072969abc59ef6f5b63ac6a176a11b",
-"group___e_g_x_phys-_nuclear_binding_energy.html",
-"group___n_i_s_t_const-_first_radiation_constant.html#ga350d484e55bd7af5e00f59d5ed64d43b",
-"group___n_i_s_t_const-_triton.html#gab00d04d68fed57e67a5b92d04dcdcf93"
+"_decimal_degree_conversion_8inl.html#ga6b6ea6e45d2a13f556824ca419cc9fbd",
+"_erf_functions_8inl.html#ga58f76263d205c47000068176d3116571",
+"_log_functions_8inl.html#ga4cd6a087fb1977d52a321bfad0dae0f6",
+"_n_i_s_t_const_8hpp.html#ga9d0e42d75a0a4230030ba2905f158760",
+"_planet_criteria_8hpp.html#gae0c7dce2779d66b0560ca388a34ddc39",
+"_turn_conversion_8inl.html#ga05d6fea8f8475831e93dd23f6196393f",
+"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga6ca011c0ae55ae079402080d7a1b4010",
+"group___e_g_x_phys-_mass_defect.html#gab51169bf871d0ea0ee0642fa300228fe",
+"group___n_i_s_t_const-_elementary_charge.html",
+"group___n_i_s_t_const-_tau.html#gab3e3d1b44d1154e48473258e66776a98"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

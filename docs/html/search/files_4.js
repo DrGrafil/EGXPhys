@@ -7,5 +7,6 @@ var searchData=
   ['colortemperature_2ehpp',['ColorTemperature.hpp',['../_color_temperature_8hpp.html',1,'']]],
   ['colortemperature_2einl',['ColorTemperature.inl',['../_color_temperature_8inl.html',1,'']]],
   ['conversions_2ehpp',['Conversions.hpp',['../_conversions_8hpp.html',1,'']]],
-  ['coordinateconversions_2ehpp',['CoordinateConversions.hpp',['../_coordinate_conversions_8hpp.html',1,'']]]
+  ['coordinateconversions_2ehpp',['CoordinateConversions.hpp',['../_coordinate_conversions_8hpp.html',1,'']]],
+  ['cylindricalcoordinateconversion_2ehpp',['CylindricalCoordinateConversion.hpp',['../_cylindrical_coordinate_conversion_8hpp.html',1,'']]]
 ];

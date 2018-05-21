@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EGXPhys: D:/GitHub/EGXPhys/EGXPhys/EGXMath/Conversions/CoordinateConversions/2D/CartesianCoordinateConversion.hpp File Reference</title>
+<title>EGXPhys: D:/GitHub/EGXPhys/EGXPhys/EGXMath/Conversions/CoordinateConversions/3D/CylindricalCoordinateConversion.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('_cartesian_coordinate_conversion_8hpp.html','');});
+$(document).ready(function(){initNavTree('_cylindrical_coordinate_conversion_8hpp.html','');});
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -94,32 +94,48 @@ $(document).ready(function(){initNavTree('_cartesian_coordinate_conversion_8hpp.
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">CartesianCoordinateConversion.hpp File Reference</div>  </div>
+<div class="title">CylindricalCoordinateConversion.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Converts a set of 2D coordinates from Cartesian into Polar ect.  
+<p>Converts a set of 3D coordinates from Cylindrical into Spherical, Caresian ect.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;math.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="_cartesian_coordinate_conversion_8inl.html">CartesianCoordinateConversion.inl</a>&quot;</code><br />
+<code>#include &quot;CylindricalCoordinateConversion.inl&quot;</code><br />
 </div>
-<p><a href="_cartesian_coordinate_conversion_8hpp_source.html">Go to the source code of this file.</a></p>
+<p><a href="_cylindrical_coordinate_conversion_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga01ead70b7b75d7ad0f80776c8c254897"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga01ead70b7b75d7ad0f80776c8c254897"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian.html#ga01ead70b7b75d7ad0f80776c8c254897">EGXMath::CartesianCoordinateToPolarCoordinate</a> (const T x, const T y, const T &amp;polarR, const T &amp;polarAzimuthInRadians)</td></tr>
-<tr class="memdesc:ga01ead70b7b75d7ad0f80776c8c254897"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 2D point represented in the Cartesian coordinate system \((x,y)\) to a representation in the Polar coordiante system \((r,\theta)\) . </p><p class="formulaDsp">
-\[ r = \sqrt{x^2+y^2} \]
+<tr class="memitem:gafaf535c9c6d2f0b4cfd9fa975d26ed4f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gafaf535c9c6d2f0b4cfd9fa975d26ed4f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#gafaf535c9c6d2f0b4cfd9fa975d26ed4f">EGXMath::CylindricalCoordinateToCartesianCoordinate</a> (const T cylindricalR, const T cylindricalAzimuthInRadians, const T cylindricalZ, const T &amp;x, const T &amp;y, const T &amp;z)</td></tr>
+<tr class="memdesc:gafaf535c9c6d2f0b4cfd9fa975d26ed4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cylindrical coordiante system \((r_C,\theta_C,z_C)\) to a representation in the Cartesian coordinate system \((x,y,z)\). </p><p class="formulaDsp">
+\[ x = r_C\ cos(\theta_C) \]
 </p>
  <p class="formulaDsp">
-\[ \theta = atan2(y,x) \]
+\[ y = r_C\ sin(\theta_C) \]
 </p>
-<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian.html#ga01ead70b7b75d7ad0f80776c8c254897">More...</a><br /></td></tr>
-<tr class="separator:ga01ead70b7b75d7ad0f80776c8c254897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+ <p class="formulaDsp">
+\[ z = z_C \]
+</p>
+<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#gafaf535c9c6d2f0b4cfd9fa975d26ed4f">More...</a><br /></td></tr>
+<tr class="separator:gafaf535c9c6d2f0b4cfd9fa975d26ed4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga908345274abd7e315373a9eb56f2ba7f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga908345274abd7e315373a9eb56f2ba7f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#ga908345274abd7e315373a9eb56f2ba7f">EGXMath::CylindricalCoordinateToSphericalCoordinate</a> (const T cylindricalR, const T cylindricalAzimuthInRadians, const T cylindricalZ, const T &amp;sphericalR, const T &amp;sphericalAzimuthInRadians, const T &amp;sphericalZenithInRadians)</td></tr>
+<tr class="memdesc:ga908345274abd7e315373a9eb56f2ba7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Spherical coordiante system \((r,\theta,\phi)\). Note that \(\theta\) lays in the \(x\ y\) plane. </p><p class="formulaDsp">
+\[ r_S = \sqrt{x^2+y^2+z^2} \]
+</p>
+ <p class="formulaDsp">
+\[ \theta_S = arctan(\frac{y}{x}) \]
+</p>
+ <p class="formulaDsp">
+\[ \phi_S = arccos(\frac{z}{r}) \]
+</p>
+<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#ga908345274abd7e315373a9eb56f2ba7f">More...</a><br /></td></tr>
+<tr class="separator:ga908345274abd7e315373a9eb56f2ba7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Converts a set of 2D coordinates from Cartesian into Polar ect. </p>
+<div class="textblock"><p>Converts a set of 3D coordinates from Cylindrical into Spherical, Caresian ect. </p>
 <dl class="section author"><dt>Author</dt><dd>Elliot Grafil (Metex) </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>5/18/18 </dd></dl>
 </div></div><!-- contents -->
@@ -127,7 +143,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_ce4ef40a56af8221486bcd78e6a47b62.html">EGXPhys</a></li><li class="navelem"><a class="el" href="dir_4963766db892708a0a4d36c34ec0bfe0.html">EGXMath</a></li><li class="navelem"><a class="el" href="dir_965fe80714871d462976be97a7ed3a75.html">Conversions</a></li><li class="navelem"><a class="el" href="dir_f6e9931e789d17ef13a8b060ec5ffe03.html">CoordinateConversions</a></li><li class="navelem"><a class="el" href="dir_4ffac3eeac18a1bbd4cfd4c5f6252670.html">2D</a></li><li class="navelem"><a class="el" href="_cartesian_coordinate_conversion_8hpp.html">CartesianCoordinateConversion.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_ce4ef40a56af8221486bcd78e6a47b62.html">EGXPhys</a></li><li class="navelem"><a class="el" href="dir_4963766db892708a0a4d36c34ec0bfe0.html">EGXMath</a></li><li class="navelem"><a class="el" href="dir_965fe80714871d462976be97a7ed3a75.html">Conversions</a></li><li class="navelem"><a class="el" href="dir_f6e9931e789d17ef13a8b060ec5ffe03.html">CoordinateConversions</a></li><li class="navelem"><a class="el" href="dir_ecdcf98cd8c93815efd1030e18c3e137.html">3D</a></li><li class="navelem"><a class="el" href="_cylindrical_coordinate_conversion_8hpp.html">CylindricalCoordinateConversion.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>

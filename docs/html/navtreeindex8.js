@@ -1,5 +1,17 @@
 var NAVTREEINDEX8 =
 {
+"group___e_g_x_phys-_mass_defect.html#gab51169bf871d0ea0ee0642fa300228fe":[1,1,2,3,3],
+"group___e_g_x_phys-_mass_defect.html#gad5378933021e13598a76bd8581b1e887":[1,1,2,3,2],
+"group___e_g_x_phys-_mass_defect.html#gae89f2dfa65992c0314adc2440b2f582a":[1,1,2,3,0],
+"group___e_g_x_phys-_mass_excess.html":[1,1,2,4],
+"group___e_g_x_phys-_mass_excess.html#ga3eb487f438543e950b9c5aece4c5b409":[1,1,2,4,0],
+"group___e_g_x_phys-_mass_excess.html#ga61c6f557bd742126c0c76e88cf7740ad":[1,1,2,4,3],
+"group___e_g_x_phys-_mass_excess.html#ga99a93b88df3425b7a153c32c05fa5a88":[1,1,2,4,2],
+"group___e_g_x_phys-_mass_excess.html#gab72a3640886092be8b9c9662020a2306":[1,1,2,4,1],
+"group___e_g_x_phys-_mean_lifetime.html":[1,1,2,5],
+"group___e_g_x_phys-_mean_lifetime.html#ga2586e148263e1f6c8ff89f269a0930ea":[1,1,2,5,2],
+"group___e_g_x_phys-_mean_lifetime.html#ga8a1dda4168b4b25db93bf1ae7832fd7e":[1,1,2,5,1],
+"group___e_g_x_phys-_mean_lifetime.html#gaa9e3c2deedda4bc7a745568b06fc47eb":[1,1,2,5,0],
 "group___e_g_x_phys-_nuclear_binding_energy.html":[1,1,2,6],
 "group___e_g_x_phys-_nuclear_binding_energy.html#ga25f5d2d32fad7e28e278cf8b5ea8ffa8":[1,1,2,6,3],
 "group___e_g_x_phys-_nuclear_binding_energy.html#gab6832bf15ead7b4e867e759e0a2a078e":[1,1,2,6,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX8 =
 "group___n_i_s_t_const-_electron_volt.html#gac875b0f36fd52d70256d4a3d86eebb2e":[1,2,6,1,6],
 "group___n_i_s_t_const-_electron_volt.html#gae9b1b225f20da4725294b95a05ea82e0":[1,2,6,1,2],
 "group___n_i_s_t_const-_electron_volt_unit.html":[1,2,5,1],
-"group___n_i_s_t_const-_electron_volt_unit.html#ga83756881e375cccc1827b15bd46bdae4":[1,2,5,1,0],
-"group___n_i_s_t_const-_elementary_charge.html":[1,2,1,2],
-"group___n_i_s_t_const-_elementary_charge.html#ga8685ffddeaed87687d2ee0539b4625de":[1,2,1,2,0],
-"group___n_i_s_t_const-_elementary_charge.html#gae14d69d686990378677cd8072ce9873b":[1,2,1,2,1],
-"group___n_i_s_t_const-_faraday_constant.html":[1,2,3,3],
-"group___n_i_s_t_const-_faraday_constant.html#ga4e412067c8c4bf008343b347a434f23a":[1,2,3,3,0],
-"group___n_i_s_t_const-_faraday_constant.html#gabb6fe7c894f8b742e96391914b960f5b":[1,2,3,3,1],
-"group___n_i_s_t_const-_fermi_coupling_constant.html":[1,2,2,5],
-"group___n_i_s_t_const-_fermi_coupling_constant.html#ga2bf2a03b5ea1bb506508e9c65b24dd52":[1,2,2,5,0],
-"group___n_i_s_t_const-_fine_structure_constant.html":[1,2,2,6],
-"group___n_i_s_t_const-_fine_structure_constant.html#ga67cf20054caf1e81add883470b89db51":[1,2,2,6,0],
-"group___n_i_s_t_const-_fine_structure_constant.html#gab0b66cc7e11797dce82219a024123a12":[1,2,2,6,1],
-"group___n_i_s_t_const-_first_radiation_constant.html":[1,2,3,4]
+"group___n_i_s_t_const-_electron_volt_unit.html#ga83756881e375cccc1827b15bd46bdae4":[1,2,5,1,0]
 };

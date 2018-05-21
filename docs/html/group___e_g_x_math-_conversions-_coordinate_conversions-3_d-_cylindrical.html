@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EGXPhys: Cartesian</title>
+<title>EGXPhys: Cylindrical</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html','');});
+$(document).ready(function(){initNavTree('group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html','');});
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -94,43 +94,43 @@ $(document).ready(function(){initNavTree('group___e_g_x_math-_conversions-_coord
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Cartesian<div class="ingroups"><a class="el" href="group___e_g_x_math.html">EGXMath Library</a> &raquo; <a class="el" href="group___e_g_x_math-_conversions.html">Conversions</a> &raquo; <a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions.html">Coordinate Conversions</a> &raquo; <a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d.html">3D</a></div></div>  </div>
+<div class="title">Cylindrical<div class="ingroups"><a class="el" href="group___e_g_x_math.html">EGXMath Library</a> &raquo; <a class="el" href="group___e_g_x_math-_conversions.html">Conversions</a> &raquo; <a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions.html">Coordinate Conversions</a> &raquo; <a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d.html">3D</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga256f37d22da9bb58db556ee40dac8d81"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga256f37d22da9bb58db556ee40dac8d81"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga256f37d22da9bb58db556ee40dac8d81">EGXMath::CartesianCoordinateToCylindricalCoordinate</a> (const T x, const T y, const T z, const T &amp;cylindricalR, const T &amp;cylindricalAzimuthInRadians, const T &amp;cylindricalZ)</td></tr>
-<tr class="memdesc:ga256f37d22da9bb58db556ee40dac8d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Cylindrical coordiante system \((r_C,\theta_C,z_C)\). </p><p class="formulaDsp">
-\[ r_C = \sqrt{x^2+y^2} \]
+<tr class="memitem:gafaf535c9c6d2f0b4cfd9fa975d26ed4f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gafaf535c9c6d2f0b4cfd9fa975d26ed4f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#gafaf535c9c6d2f0b4cfd9fa975d26ed4f">EGXMath::CylindricalCoordinateToCartesianCoordinate</a> (const T cylindricalR, const T cylindricalAzimuthInRadians, const T cylindricalZ, const T &amp;x, const T &amp;y, const T &amp;z)</td></tr>
+<tr class="memdesc:gafaf535c9c6d2f0b4cfd9fa975d26ed4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cylindrical coordiante system \((r_C,\theta_C,z_C)\) to a representation in the Cartesian coordinate system \((x,y,z)\). </p><p class="formulaDsp">
+\[ x = r_C\ cos(\theta_C) \]
 </p>
  <p class="formulaDsp">
-\[ \theta_C = atan2(y,x) \]
+\[ y = r_C\ sin(\theta_C) \]
 </p>
  <p class="formulaDsp">
-\[ z_C = z \]
+\[ z = z_C \]
 </p>
-<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga256f37d22da9bb58db556ee40dac8d81">More...</a><br /></td></tr>
-<tr class="separator:ga256f37d22da9bb58db556ee40dac8d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga849c93ec135e9c72c5320c48eeacc7c9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga849c93ec135e9c72c5320c48eeacc7c9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga849c93ec135e9c72c5320c48eeacc7c9">EGXMath::CartesianCoordinateToSphericalCoordinate</a> (const T x, const T y, const T z, const T &amp;sphericalR, const T &amp;sphericalAzimuthInRadians, const T &amp;sphericalZenithInRadians)</td></tr>
-<tr class="memdesc:ga849c93ec135e9c72c5320c48eeacc7c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Spherical coordiante system \((r_S,\theta_S,\phi_S)\). Note that \(\theta_S\) lays in the \(x\ y\) plane. </p><p class="formulaDsp">
-\[ r_S = \sqrt{r_C+z_C^2} \]
-</p>
- <p class="formulaDsp">
-\[ \theta_S = \theta_C \]
+<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#gafaf535c9c6d2f0b4cfd9fa975d26ed4f">More...</a><br /></td></tr>
+<tr class="separator:gafaf535c9c6d2f0b4cfd9fa975d26ed4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga908345274abd7e315373a9eb56f2ba7f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga908345274abd7e315373a9eb56f2ba7f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#ga908345274abd7e315373a9eb56f2ba7f">EGXMath::CylindricalCoordinateToSphericalCoordinate</a> (const T cylindricalR, const T cylindricalAzimuthInRadians, const T cylindricalZ, const T &amp;sphericalR, const T &amp;sphericalAzimuthInRadians, const T &amp;sphericalZenithInRadians)</td></tr>
+<tr class="memdesc:ga908345274abd7e315373a9eb56f2ba7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Spherical coordiante system \((r,\theta,\phi)\). Note that \(\theta\) lays in the \(x\ y\) plane. </p><p class="formulaDsp">
+\[ r_S = \sqrt{x^2+y^2+z^2} \]
 </p>
  <p class="formulaDsp">
-\[ \phi_S = arctan(\frac{r_C}{z_C}) \]
+\[ \theta_S = arctan(\frac{y}{x}) \]
 </p>
-<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga849c93ec135e9c72c5320c48eeacc7c9">More...</a><br /></td></tr>
-<tr class="separator:ga849c93ec135e9c72c5320c48eeacc7c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+ <p class="formulaDsp">
+\[ \phi_S = arccos(\frac{z}{r}) \]
+</p>
+<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#ga908345274abd7e315373a9eb56f2ba7f">More...</a><br /></td></tr>
+<tr class="separator:ga908345274abd7e315373a9eb56f2ba7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga256f37d22da9bb58db556ee40dac8d81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga256f37d22da9bb58db556ee40dac8d81">&#9670;&nbsp;</a></span>CartesianCoordinateToCylindricalCoordinate()</h2>
+<a id="gafaf535c9c6d2f0b4cfd9fa975d26ed4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafaf535c9c6d2f0b4cfd9fa975d26ed4f">&#9670;&nbsp;</a></span>CylindricalCoordinateToCartesianCoordinate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138,40 +138,40 @@ Functions</h2></td></tr>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void EGXMath::CartesianCoordinateToCylindricalCoordinate </td>
+          <td class="memname">void EGXMath::CylindricalCoordinateToCartesianCoordinate </td>
           <td>(</td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>z</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T &amp;&#160;</td>
           <td class="paramname"><em>cylindricalR</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramtype">const T&#160;</td>
           <td class="paramname"><em>cylindricalAzimuthInRadians</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>cylindricalZ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const T &amp;&#160;</td>
-          <td class="paramname"><em>cylindricalZ</em>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -181,37 +181,37 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Cylindrical coordiante system \((r_C,\theta_C,z_C)\). </p><p class="formulaDsp">
-\[ r_C = \sqrt{x^2+y^2} \]
+<p>Converts a 3D point represented in the Cylindrical coordiante system \((r_C,\theta_C,z_C)\) to a representation in the Cartesian coordinate system \((x,y,z)\). </p><p class="formulaDsp">
+\[ x = r_C\ cos(\theta_C) \]
 </p>
  <p class="formulaDsp">
-\[ \theta_C = atan2(y,x) \]
+\[ y = r_C\ sin(\theta_C) \]
 </p>
  <p class="formulaDsp">
-\[ z_C = z \]
+\[ z = z_C \]
 </p>
 <p>. </p>
 <p>See <a href="http://mathworld.wolfram.com/CylindricalCoordinates.html">http://mathworld.wolfram.com/CylindricalCoordinates.html</a> and <a href="https://en.wikipedia.org/wiki/Cylindrical_coordinate_system">https://en.wikipedia.org/wiki/Cylindrical_coordinate_system</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>\( x\ (m)\) The \(x\) cartesian coordinate in meters. </td></tr>
-    <tr><td class="paramname">y</td><td>\( y\ (m)\) The \(y\) cartesian coordinate in meters. </td></tr>
-    <tr><td class="paramname">z</td><td>\( z\ (m)\) The \(z\) cartesian coordinate in meters. </td></tr>
     <tr><td class="paramname">cylindricalR</td><td>\( r_C\ (m)\) The \(r_C\) cylindrical coordinate (cylindrical radius) in meters. </td></tr>
     <tr><td class="paramname">cylindricalAzimuthInRadians</td><td>\( \theta_C\ (rad)\) The \(\theta_C\) cylindrical coordinate (azimuth angle) in radians. </td></tr>
     <tr><td class="paramname">cylindricalZ</td><td>\( z_C\ (m)\) The \(z_C\) cylindrical coordinate in meters. </td></tr>
+    <tr><td class="paramname">x</td><td>\( x\ (m)\) The \(x\) cartesian coordinate in meters. </td></tr>
+    <tr><td class="paramname">y</td><td>\( y\ (m)\) The \(y\) cartesian coordinate in meters. </td></tr>
+    <tr><td class="paramname">z</td><td>\( z\ (m)\) The \(z\) cartesian coordinate in meters. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#gafaf535c9c6d2f0b4cfd9fa975d26ed4f" title="Converts a 3D point represented in the Cylindrical coordiante system  to a representation in the Cart...">CylindricalCoordinateToCartesianCoordinate()</a> for reverse coordinate transform. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga256f37d22da9bb58db556ee40dac8d81" title="Converts a 3D point represented in the Cartesian coordinate system  to a representation in the Cylind...">CartesianCoordinateToCylindricalCoordinate()</a> for reverse coordinate transform. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian.html#ga01ead70b7b75d7ad0f80776c8c254897" title="Converts a 2D point represented in the Cartesian coordinate system  to a representation in the Polar ...">CartesianCoordinateToPolarCoordinate()</a> for 2D. </dd>
+<a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html#ga189458efd604828d5825a8e8929845eb" title="Converts a 2D point represented in the Polar coordiante system  to a representation in the Cartesian ...">PolarCoordinateToCartesianCoordinate()</a> for 2D. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_conversions-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0" title="Converts an angle in (decimal) degrees to radians. . ">DegreeToRadian()</a> for conversion from degrees to radians. </dd></dl>
 
 </div>
 </div>
-<a id="ga849c93ec135e9c72c5320c48eeacc7c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga849c93ec135e9c72c5320c48eeacc7c9">&#9670;&nbsp;</a></span>CartesianCoordinateToSphericalCoordinate()</h2>
+<a id="ga908345274abd7e315373a9eb56f2ba7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga908345274abd7e315373a9eb56f2ba7f">&#9670;&nbsp;</a></span>CylindricalCoordinateToSphericalCoordinate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,22 +219,22 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void EGXMath::CartesianCoordinateToSphericalCoordinate </td>
+          <td class="memname">void EGXMath::CylindricalCoordinateToSphericalCoordinate </td>
           <td>(</td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
+          <td class="paramname"><em>cylindricalR</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
+          <td class="paramname"><em>cylindricalAzimuthInRadians</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>z</em>, </td>
+          <td class="paramname"><em>cylindricalZ</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -262,28 +262,28 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Spherical coordiante system \((r_S,\theta_S,\phi_S)\). Note that \(\theta_S\) lays in the \(x\ y\) plane. </p><p class="formulaDsp">
-\[ r_S = \sqrt{r_C+z_C^2} \]
+<p>Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Spherical coordiante system \((r,\theta,\phi)\). Note that \(\theta\) lays in the \(x\ y\) plane. </p><p class="formulaDsp">
+\[ r_S = \sqrt{x^2+y^2+z^2} \]
 </p>
  <p class="formulaDsp">
-\[ \theta_S = \theta_C \]
+\[ \theta_S = arctan(\frac{y}{x}) \]
 </p>
  <p class="formulaDsp">
-\[ \phi_S = arctan(\frac{r_C}{z_C}) \]
+\[ \phi_S = arccos(\frac{z}{r}) \]
 </p>
 <p>. </p>
 <p>See <a href="http://mathworld.wolfram.com/SphericalCoordinates.html">http://mathworld.wolfram.com/SphericalCoordinates.html</a> and <a href="https://en.wikipedia.org/wiki/Spherical_coordinate_system">https://en.wikipedia.org/wiki/Spherical_coordinate_system</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>\( x\ (m)\) The \(x\) cartesian coordinate in meters. </td></tr>
-    <tr><td class="paramname">y</td><td>\( y\ (m)\) The \(y\) cartesian coordinate in meters. </td></tr>
-    <tr><td class="paramname">z</td><td>\( z\ (m)\) The \(z\) cartesian coordinate in meters. </td></tr>
+    <tr><td class="paramname">cylindricalR</td><td>\( r_C\ (m)\) The \(r_C\) cylindrical coordinate (cylindrical radius) in meters. </td></tr>
+    <tr><td class="paramname">cylindricalAzimuthInRadians</td><td>\( \theta_C\ (rad)\) The \(\theta_C\) cylindrical coordinate (azimuth angle) in radians. </td></tr>
+    <tr><td class="paramname">cylindricalZ</td><td>\( z_C\ (m)\) The \(z_C\) cylindrical coordinate in meters. </td></tr>
     <tr><td class="paramname">sphericalR</td><td>\( r_S\ (m)\) The \(r_S\) spherical coordinate (spherical radius) in meters. </td></tr>
     <tr><td class="paramname">sphericalAzimuthInRadians</td><td>\( \theta_S\ (rad)\) The \(\theta_S\) spherical coordinate (azimuth angle) in radians. Note that the azimuth angle is in the \(x\ y\) plane. </td></tr>
     <tr><td class="paramname">sphericalZenithInRadians</td><td>\( \phi_S\ (rad)\) The \(\phi_S\) spherical coordinate (zenith angle) in radians. Note that the zenith angle is measured from the z-axis. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga6a11867b77c662565471eabac9b4d114" title="Converts a 3D point represented in the Cartesian coordinate system  to a representation in the Spheri...">SphericalCoordinateToCartesianCoordinate()</a> for reverse coordinate transform. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga655e1e596f225dc1692fa1ef744f785d" title="Converts a 3D point represented in the Spherical coordiante system  to a representation in the ...">SphericalCoordinateToCylindricalCoordinate()</a> for reverse coordinate transform. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_conversions-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0" title="Converts an angle in (decimal) degrees to radians. . ">DegreeToRadian()</a> for conversion from degrees to radians. </dd></dl>
 

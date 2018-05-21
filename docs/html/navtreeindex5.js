@@ -1,5 +1,8 @@
 var NAVTREEINDEX5 =
 {
+"_planet_criteria_8hpp.html#gae0c7dce2779d66b0560ca388a34ddc39":[2,0,0,1,27,9],
+"_planet_criteria_8hpp.html#gaeac3ced5104701ee02fc100f7cf4c189":[2,0,0,1,27,5],
+"_planet_criteria_8hpp_source.html":[2,0,0,1,27],
 "_planet_criteria_8inl.html":[2,0,0,1,28],
 "_planet_criteria_8inl.html#ga1df772b0ed354ca7f7e4a7a4af072325":[2,0,0,1,28,2],
 "_planet_criteria_8inl.html#ga4b86397b1c839c49ac599d49fda207d4":[2,0,0,1,28,0],
@@ -187,6 +190,10 @@ var NAVTREEINDEX5 =
 "_sign_functions_8inl.html#ga54232a5bc24caf3833c30c15def764bf":[2,0,0,3,1,10,0],
 "_sphere1_8hpp_source.html":[2,0,0,3,2,1,5,1],
 "_sphere_8hpp_source.html":[2,0,0,3,2,1,5,0],
+"_spherical_coordinate_conversion_8hpp.html":[2,0,0,3,0,1,1,3],
+"_spherical_coordinate_conversion_8hpp.html#ga655e1e596f225dc1692fa1ef744f785d":[2,0,0,3,0,1,1,3,1],
+"_spherical_coordinate_conversion_8hpp.html#ga6a11867b77c662565471eabac9b4d114":[2,0,0,3,0,1,1,3,0],
+"_spherical_coordinate_conversion_8hpp.html#gaa9b50c4837e1cbea569de6f7bc90a3b6":[2,0,0,3,0,1,1,3,2],
 "_spherical_coordinate_conversion_8hpp_source.html":[2,0,0,3,0,1,1,3],
 "_spheroid_8hpp_source.html":[2,0,0,3,2,1,6,0],
 "_spheroid_eccentricity_8hpp_source.html":[2,0,0,3,2,1,6,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX5 =
 "_turn_conversion_8hpp.html#gaea42f973566f770cc3552831717f525e":[2,0,0,3,0,0,21,4],
 "_turn_conversion_8hpp.html#gaefdee18d878c2e66e7bd737c8900ab30":[2,0,0,3,0,0,21,7],
 "_turn_conversion_8hpp_source.html":[2,0,0,3,0,0,21],
-"_turn_conversion_8inl.html":[2,0,0,3,0,0,22],
-"_turn_conversion_8inl.html#ga05d6fea8f8475831e93dd23f6196393f":[2,0,0,3,0,0,22,15],
-"_turn_conversion_8inl.html#ga0bc017b3314253352ddec728d3f6b76a":[2,0,0,3,0,0,22,12],
-"_turn_conversion_8inl.html#ga19eceb6db54a1cf17789639c2a869cb9":[2,0,0,3,0,0,22,6],
-"_turn_conversion_8inl.html#ga2aea2621472294ce4c25ac7e55db51c6":[2,0,0,3,0,0,22,16],
-"_turn_conversion_8inl.html#ga41a861a04d65aab05647b32142e6d80d":[2,0,0,3,0,0,22,14],
-"_turn_conversion_8inl.html#ga678efb8f5c3958351fc3f1dfaf117b28":[2,0,0,3,0,0,22,3],
-"_turn_conversion_8inl.html#ga6ca011c0ae55ae079402080d7a1b4010":[2,0,0,3,0,0,22,8]
+"_turn_conversion_8inl.html":[2,0,0,3,0,0,22]
 };

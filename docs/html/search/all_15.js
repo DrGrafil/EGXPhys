@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['spherical',['Spherical',['../group___e_g_x_math-_conversions-_coordinate_conversions-_spherical.html',1,'']]],
+  ['spherical',['Spherical',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html',1,'']]],
   ['sign',['Sign',['../group___e_g_x_math-_functions-_sign.html',1,'']]],
   ['semi_2dlatus_20rectum',['Semi-Latus Rectum',['../group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum.html',1,'']]],
   ['semi_2dmajor_20axis',['Semi-Major Axis',['../group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html',1,'']]],
@@ -51,6 +51,10 @@ var searchData=
   ['signfunctions_2einl',['SignFunctions.inl',['../_sign_functions_8inl.html',1,'']]],
   ['solarmass',['SolarMass',['../group___e_g_x_phys-_stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514',1,'EGXPhys']]],
   ['speedoflightinvacuum',['speedOfLightInVacuum',['../group___n_i_s_t_const-_speed_of_light.html#ga5b7c240e787216aab4b730470074888e',1,'NISTConst']]],
+  ['sphericalcoordinateconversion_2ehpp',['SphericalCoordinateConversion.hpp',['../_spherical_coordinate_conversion_8hpp.html',1,'']]],
+  ['sphericalcoordinatetocartesiancoordinate',['SphericalCoordinateToCartesianCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga6a11867b77c662565471eabac9b4d114',1,'EGXMath']]],
+  ['sphericalcoordinatetocylindricalcoordinate',['SphericalCoordinateToCylindricalCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga655e1e596f225dc1692fa1ef744f785d',1,'EGXMath']]],
+  ['sphericalcordinatesofpointgivencenter',['SphericalCordinatesOfPointGivenCenter',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#gaa9b50c4837e1cbea569de6f7bc90a3b6',1,'EGXMath']]],
   ['spheroideccentricity',['SpheroidEccentricity',['../group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity.html#gab45680528a41bb7a5e15ddc0059156dd',1,'EGXMath::SpheroidEccentricity(const T flattening)'],['../group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity.html#gab4c867532eef5a52e8e575e2a6b18bf8',1,'EGXMath::SpheroidEccentricity(const T equatorialRadius, const T polarRadius)']]],
   ['spheroidflattening',['SpheroidFlattening',['../group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga640f4bcd86aa4c378819bffda31c0852',1,'EGXMath::SpheroidFlattening(const T equatorialRadius, const T polarRadius)'],['../group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga9822b6e1025edbf7d272949547c53511',1,'EGXMath::SpheroidFlattening(const T eccentricity)']]],
   ['spheroidoblateness',['SpheroidOblateness',['../group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga8f547f5dd10721862b602c7769eb6116',1,'EGXMath::SpheroidOblateness(const T equatorialRadius, const T polarRadius)'],['../group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga486adfc58b047197daf87f50b2039ca7',1,'EGXMath::SpheroidOblateness(const T eccentricity)']]],

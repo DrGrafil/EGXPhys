@@ -1,5 +1,12 @@
 var NAVTREEINDEX6 =
 {
+"_turn_conversion_8inl.html#ga05d6fea8f8475831e93dd23f6196393f":[2,0,0,3,0,0,22,15],
+"_turn_conversion_8inl.html#ga0bc017b3314253352ddec728d3f6b76a":[2,0,0,3,0,0,22,12],
+"_turn_conversion_8inl.html#ga19eceb6db54a1cf17789639c2a869cb9":[2,0,0,3,0,0,22,6],
+"_turn_conversion_8inl.html#ga2aea2621472294ce4c25ac7e55db51c6":[2,0,0,3,0,0,22,16],
+"_turn_conversion_8inl.html#ga41a861a04d65aab05647b32142e6d80d":[2,0,0,3,0,0,22,14],
+"_turn_conversion_8inl.html#ga678efb8f5c3958351fc3f1dfaf117b28":[2,0,0,3,0,0,22,3],
+"_turn_conversion_8inl.html#ga6ca011c0ae55ae079402080d7a1b4010":[2,0,0,3,0,0,22,8],
 "_turn_conversion_8inl.html#ga72cda928d9043c7d82097b1a7920769e":[2,0,0,3,0,0,22,1],
 "_turn_conversion_8inl.html#ga72e6d3c46ebfc25f7be5050136d8df16":[2,0,0,3,0,0,22,17],
 "_turn_conversion_8inl.html#ga74efaece2f95aa6671f18382e5f3925f":[2,0,0,3,0,0,22,11],
@@ -242,12 +249,5 @@ var NAVTREEINDEX6 =
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga19eceb6db54a1cf17789639c2a869cb9":[1,0,0,0,10,6],
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga2aea2621472294ce4c25ac7e55db51c6":[1,0,0,0,10,16],
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga41a861a04d65aab05647b32142e6d80d":[1,0,0,0,10,14],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga678efb8f5c3958351fc3f1dfaf117b28":[1,0,0,0,10,3],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga6ca011c0ae55ae079402080d7a1b4010":[1,0,0,0,10,8],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga72cda928d9043c7d82097b1a7920769e":[1,0,0,0,10,1],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga72e6d3c46ebfc25f7be5050136d8df16":[1,0,0,0,10,17],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga74efaece2f95aa6671f18382e5f3925f":[1,0,0,0,10,11],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga79231536255e77fb7a158b99a30c1767":[1,0,0,0,10,5],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga7bdc3a81ce316dd47b1a3179489fa195":[1,0,0,0,10,0],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga999085c62490997da870618e20e88ebb":[1,0,0,0,10,13]
+"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga678efb8f5c3958351fc3f1dfaf117b28":[1,0,0,0,10,3]
 };
