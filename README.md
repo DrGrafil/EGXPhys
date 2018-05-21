@@ -38,7 +38,7 @@ NISTConst also includes a list of common aliases to all the constants like `c` f
 
 //Calculates the mass defect, the difference between the mass of the atom 
 //and the sum of the masses of its parts in unified atomic mass units.
-double MassDefectInu(const const atomicNumber, int const massNumber, double massAtom)
+double MassDefectInu(const int atomicNumber, const int  massNumber, const double massAtom)
 {
 	double protonMass = atomicNumber * NISTConst::protonMassInu;
 	double electronMass = atomicNumber * NISTConst::electronMassInu;
@@ -70,78 +70,137 @@ double MassDefectInu(const const atomicNumber, int const massNumber, double mass
 
 Field | Equations | Tests Pass 
 ------------ | ------------- | -------------
-Acoustics | | X
-Astrophysics | | X
-Atomic| | X
-Kinematics | | X
-Optics | | X
-Plasma | | X
-Quantum | | X
-Relativity | | X
-Thermodynamics | | X
+Acoustics | 					| 
+Astrophysics | | 
+Atomic| | 
+Kinematics | | 
+Optics | | 
+Plasma | | 
+Quantum | | 
+Relativity | | 
+Thermodynamics | | 
 
 
 ## Current Status
 
-Updated 5/8/2018:
+Updated 5/21/2018:
 
-| Field									| Section 																| Subsection 															| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
-|:--- 									| :--- 																		| :---																		| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
-| Acoustics							| 																				| 																				| 								| 				 				|						| 								| 								|								|
-| Astrophysics					| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| Absolute Magnitude											| 																				| 								| 				 				|						| 								| 								|								|
-|											| Apoapsis																| 																				| 								| 				 				|						| 								| 								|								|
-|											| B-V Color																| 																				| 								| 				 				|						| 								| 								|								|
-|											| Circumstellar Habitable Zone Limit 				| 																				| 								| 				 				|						| 								| 								|								|
-|											| Color Temperature 											| 																				| 								| 				 				|						| 								| 								|								|
-|											| Declination															| 																				| 								| 				 				|						| 								| 								|								|
-|											| Eccentricity															| 																				| 								| 				 				|						| 								| 								|								|
-|											| Escape Velocity													| 																				| 								| 				 				|						| 								| 								|								|
-|											| Luminosity															| 																				| 								| 				 				|						| 								| 								|								|
-|											| Orbital Charecteristics										| 																				| 								| 				 				|						| 								| 								|								|
-|											| Parallax																| 																				| 								| 				 				|						| 								| 								|								|
-|											| Periapsis																| 																				| 								| 				 				|						| 								| 								|								|
-|											| Planetary Mass													| 																				| 								| 				 				|						| 								| 								|								|
-|											| Planet Criteria													| 																				| 								| 				 				|						| 								| 								|								|
-|											| Right Ascension													| 																				| 								| 				 				|						| 								| 								|								|
-|											| Rotational Flattening/Oblateness					| 																				| 								| 				 				|						| 								| 								|								|
-|											| Standard Gravitational Parameter					| 																				| 								| 				 				|						| 								| 								|								|
-|											| Stellar Mass														| 																				| 								| 				 				|						| 								| 								|								|
-|											| Stellar Radius														| 																				| 								| 				 				|						| 								| 								|								|
-|											| Stellar Temperature											| 																				| 								| 				 				|						| 								| 								|								|
-|											| Surface Gravity													| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
-| Atomic								| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| Decay Constant													| 																				| 								| 				 				|						| 								| 								|								|
-|											| Decay Width														| 																				| 								| 				 				|						| 								| 								|								|
-|											| Half Life																| 																				| 								| 				 				|						| 								| 								|								|
-|											| Mass Defect														| 																				| 								| 				 				|						| 								| 								|								|
-|											| Mass Excess														| 																				| 								| 				 				|						| 								| 								|								|
-|											| Mean Lifetime													| 																				| 								| 				 				|						| 								| 								|								|
-|											| Binding Energy													| 																				| 								| 				 				|						| 								| 								|								|
-|											| Separation Energy												| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| Neutron																| 	X							| X			 				|	X					| X							| 								|								|
-|											| 																				| Proton																	| 	X							| X			 				|	X					| X							| 								|								|
-|											| Q-Value																| 																				| 	X							| X			 				|	X					| X							| 								|								|
-|											| 																				| Alpha Decay 														| 	X							| X			 				|	X					| X							| 								|								|
-|											| 																				| Beta-Minus Decay 											| 	X							| X			 				|	X					| X							| 								|								|
-|											| 																				| Beta-Plus Decay													| 	X							| X			 				|	X					| X							| 								|								|
-|											| 																				| Electron Capture												| 	X							| X			 				|	X					| X							| 								|								|
-|											| 																				| Neutron Emission												| 	X							| X			 				|	X					| X							| 								|								|
-|											| 																				| Proton Emission 												| 	X							| X			 				|	X					| X							| 								|								|
-|											| Radioactive Decay												| 																				| 								| 				 				|						| 								| 								|								|
-|											| Semi-Empirical Mass Formula							| 																				| 								| 				 				|						| 								| 								|								|
-| Kinematics						| 																				| 																				| 								| 				 				|						| 								| 								|								|
-| Optics								| 																				| 																				| 								| 				 				|						| 								| 								|								|
-| Plasma								| 																				| 																				| 								| 				 				|						| 								| 								|								|
-| Quantum						| 																				| 																				| 								| 				 				|						| 								| 								|								|
-| Relativity							| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| Lorentz Transformations									| 																				| 	X							| X			 				|						| 								| 								|								|
-| Thermodynamics			| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Field									| Section 																| Subsection 															| Subsection 															|| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
+|:--- 									| :--- 																		| :---																		| 																				| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
+| Acoustics							| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Astrophysics					| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Absolute Magnitude											| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Apoapsis																| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| B-V Color																| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Circumstellar Habitable Zone Limit 				| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Color Temperature 											| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Declination															| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Eccentricity															| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Escape Velocity													| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Luminosity															| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Orbital Charecteristics										| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Parallax																| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Periapsis																| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Planetary Mass													| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Planet Criteria													| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Right Ascension													| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Rotational Flattening/Oblateness					| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Standard Gravitational Parameter					| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Stellar Mass														| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Stellar Radius														| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Stellar Temperature											| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Surface Gravity													| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Atomic								| 																				| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Decay Constant													| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Decay Width														| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Half Life																| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Mass Defect														| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Mass Excess														| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
+|											| Mean Lifetime													| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Binding Energy													| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Separation Energy												| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| 																				| Neutron																| 																				| 	X							| X			 				|	X					| X							| 								|								|
+|											| 																				| Proton																	| 																				| 	X							| X			 				|	X					| X							| 								|								|
+|											| Q-Value																| 																				| 																				| 	X							| X			 				|	X					| X							| 								|								|
+|											| 																				| Alpha Decay 														| 																				| 	X							| X			 				|	X					| X							| 								|								|
+|											| 																				| Beta-Minus Decay 											| 																				| 	X							| X			 				|	X					| X							| 								|								|
+|											| 																				| Beta-Plus Decay													| 																				| 	X							| X			 				|	X					| X							| 								|								|
+|											| 																				| Electron Capture												| 																				| 	X							| X			 				|	X					| X							| 								|								|
+|											| 																				| Neutron Emission												| 																				| 	X							| X			 				|	X					| X							| 								|								|
+|											| 																				| Proton Emission 												| 																				| 	X							| X			 				|	X					| X							| 								|								|
+|											| Radioactive Decay												| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Semi-Empirical Mass Formula							| 																				| 																				| 	X							| X			 				|	X					| X							| 								|								|
+| Kinematics						| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Angular Acceleration										| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Torque																	| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Optics								| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Plasma								| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Quantum						| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Relativity							| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Lorentz Transformations									| 																				| 																				| 	X							| X			 				|						| 								| 								|								|
+| Thermodynamics			| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 
-|											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 
+---
+EGXMath (Will eventually be seperated out):
 
+| Field									| Section 																| Subsection 															| Subsubsection 													|| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
+|:--- 									| :--- 																		| :---																		| :---																		| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
+|	Conversions					| Angle Conversions												| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| Decimal Degree													| 																				| X							| X			 				| X					| X							| 								|								|
+|											| 																				| Degree																	| 																				| X							| X			 				|						| 								| 								|								|
+|											| 																				| Degree Minute Seconds									| 																				| X							| X			 				|						| 								| 								|								|
+|											| 																				| DMS																		| 																				| X							| X			 				|						| 								| 								|								|
+|											| 																				| Gon																		| 																				| X							| X			 				|						| 								| 								|								|
+|											| 																				| Gradians																| 																				| X							| X			 				|						| 								| 								|								|
+|											| 																				| HMS																		| 																				| X							| X			 				|						| 								| 								|								|
+|											| 																				| Hours Minutes Seconds									| 																				| X							| X			 				|						| 								| 								|								|
+|											| 																				| Integer Degree													| 																				| X							| X			 				|						| 								| 								|								|
+|											| 																				| Radian																	| 																				| X							| X			 				|						| 								| 								|								|
+|											| 																				| Turn																		| 																				| X							| X			 				|						| 								| 								|								|
+|											| Coordinate Conversions									| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 2D																		| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Cartesian																| 	X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Polar																	| 	X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 	3D																		| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Cartesian																| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Cylindrical															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Spherical																| X							| X			 				|	X					| X							| 								|								|
+|	Functions						|				 																| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Error Function													| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Normal Distribution											| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Log																		| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Periodic																| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Sign																		| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|	Geometry						| 																				| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| 	2D																		| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| Circle																	| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| Ellipse																	| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Circumference													| X~							| X			 				| X					| X							| 								|								|	
+|											| 																				| 																				| Directrix																| X~							| X			 				| X					| X							| 								|								|
+|											| 																				| 																				| Eccentricity															| X~							| X			 				| X					| X							| 								|								|
+|											| 																				| 																				| Focal Length														| X~							| X			 				| X					| X							| 								|								|
+|											| 																				| 																				| Inertia																	| X~							| 				 				| X					| 								| 								|								|
+|											| 																				| 																				| Linear Eccentricity												| X~							| X			 				| X					| X							| 								|								|
+|											| 																				| 																				| Semi-Latus Rectum											| X~							| X			 				| X					| X							| 								|								|
+|											| 																				| 																				| Semi-Major Axis												| X~							| X			 				| X					| X							| 								|								|
+|											| 																				| 																				| Semi-Minor Axis												| X~							| X			 				| X					| X							| 								|								|
+|											| 																				| 																				| Surface Area														| X~							| X			 				| X					| X							| 								|								|
+|											| 3D																		| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| Cylinder 																| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Inertia 																	| X							| X			 				|						| 								| 								|								|
+|											| 																				| 																				| Surface Area														| X							| X			 				|						| 								| 								|								|
+|											| 																				| 																				| Volume																| X							| X			 				|						| 								| 								|								|
+|											| 																				| Disk																		| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Inertia																	| X							| X			 				|						| 								| 								|								|
+|											| 																				| Hoop																	| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Inertia																	| X							| X			 				|						| 								| 								|								|
+|											| 																				| Spheroid																| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Eccentricity															| X							| X			 				|						| 								| 								|								|
+|											| 																				| 																				| Flattening															| X							| X			 				|						| 								| 								|								|	
+|											| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 ---
 ## Release notes
 

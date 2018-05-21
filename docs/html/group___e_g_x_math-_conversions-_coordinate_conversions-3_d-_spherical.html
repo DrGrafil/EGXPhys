@@ -103,13 +103,13 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa9b50c4837e1cbea569de6f7bc90a3b6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gaa9b50c4837e1cbea569de6f7bc90a3b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#gaa9b50c4837e1cbea569de6f7bc90a3b6">EGXMath::SphericalCordinatesOfPointGivenCenter</a> (const T centerR, const T centerAzimuthInRadians, const T centerZenithInRadians, const T pointR, const T pointAzimuthInRadians, const T poinZenithInRadians, T &amp;shiftedR, T &amp;shiftedAzimuthInRadians, T &amp;shiftedZenithInRadians)</td></tr>
 <tr class="memdesc:gaa9b50c4837e1cbea569de6f7bc90a3b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">In a Spherical coordinate system, given a point, \(p\), and a new origin (center), \(o\), this function gives the shifted spherical coordinates of the point relative to this new center. </p><p class="formulaDsp">
-\[ r_{shift} = \sqrt{r_o^2+r_p^2 - 2 r_o r_p ( cos(\phi_p) cos(\phi_o) + cos(\theta_p-\theta_o) * sin(\phi_p) sin(\phi_o))}\]
+\[ r_{shift} = \sqrt{r_o^2+r_p^2 - 2 r_o r_p ( \cos(\phi_p) \cos(\phi_o) + \cos(\theta_p-\theta_o) * \sin(\phi_p) \sin(\phi_o))}\]
 </p>
  <p class="formulaDsp">
-\[ \theta_{shift} = atan2( r_p sin(\theta_p) sin(\phi_p) - r_o sin(\theta_o) sin(\phi_o) , r_p cos(\theta_p) sin(\phi_p) - r_o cos(\theta_o) sin(\phi_o) )\]
+\[ \theta_{shift} = atan2( r_p sin(\theta_p) \sin(\phi_p) - r_o \sin(\theta_o) \sin(\phi_o) , r_p \cos(\theta_p) \sin(\phi_p) - r_o \cos(\theta_o) \sin(\phi_o) )\]
 </p>
  <p class="formulaDsp">
-\[ \phi_{shift} = \arccos(\frac{r_p cos(\phi_p) - r_o (\phi_o)}{r_{shift}}) \]
+\[ \phi_{shift} = \arccos(\frac{r_p \cos(\phi_p) - r_o (\phi_o)}{r_{shift}}) \]
 </p>
 <p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#gaa9b50c4837e1cbea569de6f7bc90a3b6">More...</a><br /></td></tr>
 <tr class="separator:gaa9b50c4837e1cbea569de6f7bc90a3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,13 +371,13 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>In a Spherical coordinate system, given a point, \(p\), and a new origin (center), \(o\), this function gives the shifted spherical coordinates of the point relative to this new center. </p><p class="formulaDsp">
-\[ r_{shift} = \sqrt{r_o^2+r_p^2 - 2 r_o r_p ( cos(\phi_p) cos(\phi_o) + cos(\theta_p-\theta_o) * sin(\phi_p) sin(\phi_o))}\]
+\[ r_{shift} = \sqrt{r_o^2+r_p^2 - 2 r_o r_p ( \cos(\phi_p) \cos(\phi_o) + \cos(\theta_p-\theta_o) * \sin(\phi_p) \sin(\phi_o))}\]
 </p>
  <p class="formulaDsp">
-\[ \theta_{shift} = atan2( r_p sin(\theta_p) sin(\phi_p) - r_o sin(\theta_o) sin(\phi_o) , r_p cos(\theta_p) sin(\phi_p) - r_o cos(\theta_o) sin(\phi_o) )\]
+\[ \theta_{shift} = atan2( r_p sin(\theta_p) \sin(\phi_p) - r_o \sin(\theta_o) \sin(\phi_o) , r_p \cos(\theta_p) \sin(\phi_p) - r_o \cos(\theta_o) \sin(\phi_o) )\]
 </p>
  <p class="formulaDsp">
-\[ \phi_{shift} = \arccos(\frac{r_p cos(\phi_p) - r_o (\phi_o)}{r_{shift}}) \]
+\[ \phi_{shift} = \arccos(\frac{r_p \cos(\phi_p) - r_o (\phi_o)}{r_{shift}}) \]
 </p>
 <p>. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Move this function to Coordinate transforms </dd></dl>
