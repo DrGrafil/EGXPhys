@@ -70,7 +70,7 @@ var searchData=
   ['plasmaconstants_2ehpp',['PlasmaConstants.hpp',['../_plasma_constants_8hpp.html',1,'']]],
   ['polarcoordinateconversion_2ehpp',['PolarCoordinateConversion.hpp',['../_polar_coordinate_conversion_8hpp.html',1,'']]],
   ['polarcoordinateconversion_2einl',['PolarCoordinateConversion.inl',['../_polar_coordinate_conversion_8inl.html',1,'']]],
-  ['polarcoordinatetocartesiancoordinate',['PolarCoordinateToCartesianCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html#ga189458efd604828d5825a8e8929845eb',1,'EGXMath']]],
+  ['polarcoordinatetocartesiancoordinate',['PolarCoordinateToCartesianCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html#ga842125a118ed7788a5ceeaf796687bf6',1,'EGXMath']]],
   ['protonchargetomassquotient',['protonChargeToMassQuotient',['../group___n_i_s_t_const-_proton.html#ga26ccc1a72576d54629cbd8002c56fb96',1,'NISTConst']]],
   ['protoncomptonwavelength',['protonComptonWavelength',['../group___n_i_s_t_const-_proton.html#ga62c37aacd4c92bd9df12002810a4036b',1,'NISTConst']]],
   ['protoncomptonwavelengthover2pi',['protonComptonWavelengthOver2Pi',['../group___n_i_s_t_const-_proton.html#ga64a9d5ad98f9d0925f46416cf0375fa6',1,'NISTConst']]],

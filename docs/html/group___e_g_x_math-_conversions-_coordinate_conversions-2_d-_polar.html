@@ -100,21 +100,21 @@ $(document).ready(function(){initNavTree('group___e_g_x_math-_conversions-_coord
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga189458efd604828d5825a8e8929845eb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga189458efd604828d5825a8e8929845eb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html#ga189458efd604828d5825a8e8929845eb">EGXMath::PolarCoordinateToCartesianCoordinate</a> (const T polarR, const T polarAzimuthInRadians, const T &amp;x, const T &amp;y)</td></tr>
-<tr class="memdesc:ga189458efd604828d5825a8e8929845eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 2D point represented in the Polar coordiante system \((r,\theta)\) to a representation in the Cartesian coordinate system \((x,y)\). </p><p class="formulaDsp">
-\[ x = r\ cos(\theta) \]
+<tr class="memitem:ga842125a118ed7788a5ceeaf796687bf6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga842125a118ed7788a5ceeaf796687bf6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html#ga842125a118ed7788a5ceeaf796687bf6">EGXMath::PolarCoordinateToCartesianCoordinate</a> (const T polarR, const T polarAzimuthInRadians, T &amp;x, T &amp;y)</td></tr>
+<tr class="memdesc:ga842125a118ed7788a5ceeaf796687bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 2D point represented in the Polar coordiante system \((r,\theta)\) to a representation in the Cartesian coordinate system \((x,y)\). </p><p class="formulaDsp">
+\[ x = r\ \cos(\theta) \]
 </p>
  <p class="formulaDsp">
-\[ y = r\ sin(\theta) \]
+\[ y = r\ \sin(\theta) \]
 </p>
-<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html#ga189458efd604828d5825a8e8929845eb">More...</a><br /></td></tr>
-<tr class="separator:ga189458efd604828d5825a8e8929845eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html#ga842125a118ed7788a5ceeaf796687bf6">More...</a><br /></td></tr>
+<tr class="separator:ga842125a118ed7788a5ceeaf796687bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga189458efd604828d5825a8e8929845eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga189458efd604828d5825a8e8929845eb">&#9670;&nbsp;</a></span>PolarCoordinateToCartesianCoordinate()</h2>
+<a id="ga842125a118ed7788a5ceeaf796687bf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga842125a118ed7788a5ceeaf796687bf6">&#9670;&nbsp;</a></span>PolarCoordinateToCartesianCoordinate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,13 +136,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramtype">T &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramtype">T &amp;&#160;</td>
           <td class="paramname"><em>y</em>&#160;</td>
         </tr>
         <tr>
@@ -154,10 +154,10 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Converts a 2D point represented in the Polar coordiante system \((r,\theta)\) to a representation in the Cartesian coordinate system \((x,y)\). </p><p class="formulaDsp">
-\[ x = r\ cos(\theta) \]
+\[ x = r\ \cos(\theta) \]
 </p>
  <p class="formulaDsp">
-\[ y = r\ sin(\theta) \]
+\[ y = r\ \sin(\theta) \]
 </p>
 <p>. </p>
 <p>See <a href="http://mathworld.wolfram.com/PolarCoordinates.html">http://mathworld.wolfram.com/PolarCoordinates.html</a> and <a href="https://en.wikipedia.org/wiki/Polar_coordinate_system">https://en.wikipedia.org/wiki/Polar_coordinate_system</a> </p><dl class="params"><dt>Parameters</dt><dd>
@@ -169,9 +169,9 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian.html#ga01ead70b7b75d7ad0f80776c8c254897" title="Converts a 2D point represented in the Cartesian coordinate system  to a representation in the Polar ...">CartesianCoordinateToPolarCoordinate()</a> for reverse coordinate transform. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian.html#ga606ec2b97e0000d9b2a511c0e7b74bc9" title="Converts a 2D point represented in the Cartesian coordinate system  to a representation in the Polar ...">CartesianCoordinateToPolarCoordinate()</a> for reverse coordinate transform. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#gafaf535c9c6d2f0b4cfd9fa975d26ed4f" title="Converts a 3D point represented in the Cylindrical coordiante system  to a representation in the Cart...">CylindricalCoordinateToCartesianCoordinate()</a> for 3D. </dd>
+<a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#gafe64821df1452d3ec28206591b123b1a" title="Converts a 3D point represented in the Cylindrical coordiante system  to a representation in the Cart...">CylindricalCoordinateToCartesianCoordinate()</a> for 3D. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_conversions-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0" title="Converts an angle in (decimal) degrees to radians. . ">DegreeToRadian()</a> for conversion from degrees to radians. </dd></dl>
 

@@ -28,8 +28,8 @@ namespace EGXMath
 	
     /**
     *   @brief Converts a 2D point represented in the Polar coordiante system \f$(r,\theta)\f$ to a representation in the Cartesian coordinate system \f$(x,y)\f$.
-    *		\f[ x = r\ cos(\theta) \f]
-    *       \f[ y = r\ sin(\theta) \f]
+    *		\f[ x = r\ \cos(\theta) \f]
+    *       \f[ y = r\ \sin(\theta) \f]
     *
     *
     *	See http://mathworld.wolfram.com/PolarCoordinates.html and https://en.wikipedia.org/wiki/Polar_coordinate_system

@@ -29,8 +29,8 @@ namespace EGXMath
 	
     /**
     *   @brief Converts a 3D point represented in the Cylindrical coordiante system \f$(r_C,\theta_C,z_C)\f$ to a representation in the Cartesian coordinate system \f$(x,y,z)\f$.
-    *		\f[ x = r_C\ cos(\theta_C) \f]
-    *       \f[ y = r_C\ sin(\theta_C) \f]
+    *		\f[ x = r_C\ \cos(\theta_C) \f]
+    *       \f[ y = r_C\ \sin(\theta_C) \f]
     *       \f[ z = z_C \f]
     *
     *
@@ -52,8 +52,8 @@ namespace EGXMath
     /**
     *   @brief Converts a 3D point represented in the Cartesian coordinate system \f$(x,y,z)\f$ to a representation in the Spherical coordiante system \f$(r,\theta,\phi)\f$. Note that \f$\theta\f$ lays in the \f$x\ y\f$ plane.
     *		\f[ r_S = \sqrt{x^2+y^2+z^2} \f]
-    *       \f[ \theta_S = arctan(\frac{y}{x}) \f]
-    *       \f[ \phi_S = arccos(\frac{z}{r}) \f]
+    *       \f[ \theta_S = \arctan(\frac{y}{x}) \f]
+    *       \f[ \phi_S = \arccos(\frac{z}{r}) \f]
     *
     *	See http://mathworld.wolfram.com/SphericalCoordinates.html and https://en.wikipedia.org/wiki/Spherical_coordinate_system
     *   @param cylindricalR \f$ r_C\ (m)\f$ The \f$r_C\f$ cylindrical coordinate (cylindrical radius) in meters.

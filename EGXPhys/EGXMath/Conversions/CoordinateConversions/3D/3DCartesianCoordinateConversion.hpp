@@ -52,9 +52,9 @@ namespace EGXMath
 
     /**
     *   @brief Converts a 3D point represented in the Cartesian coordinate system \f$(x,y,z)\f$ to a representation in the Spherical coordiante system \f$(r_S,\theta_S,\phi_S)\f$. Note that \f$\theta_S\f$ lays in the \f$x\ y\f$ plane. 
-    *		\f[ r_S = \sqrt{r_C+z_C^2} \f]
-    *       \f[ \theta_S = \theta_C \f]
-    *       \f[ \phi_S = arctan(\frac{r_C}{z_C}) \f]
+    *		\f[ r_S = \sqrt{x^2+y^2+z^2} \f]
+    *       \f[ \theta_S = atan2(y,x) \f]
+    *       \f[ \phi_S = atan2(\sqrt{x^2+y^2},z) \f]
     *
     *	See http://mathworld.wolfram.com/SphericalCoordinates.html and https://en.wikipedia.org/wiki/Spherical_coordinate_system
     *   @param x \f$ x\ (m)\f$ The \f$x\f$ cartesian coordinate in meters.

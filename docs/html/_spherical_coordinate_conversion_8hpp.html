@@ -116,36 +116,36 @@ Functions</h2></td></tr>
 \[ \theta_{shift} = atan2( r_p sin(\theta_p) sin(\phi_p) - r_o sin(\theta_o) sin(\phi_o) , r_p cos(\theta_p) sin(\phi_p) - r_o cos(\theta_o) sin(\phi_o) )\]
 </p>
  <p class="formulaDsp">
-\[ \phi_{shift} = arccos(\frac{r_p cos(\phi_p) - r_o (\phi_o)}{r_{shift}}) \]
+\[ \phi_{shift} = \arccos(\frac{r_p cos(\phi_p) - r_o (\phi_o)}{r_{shift}}) \]
 </p>
 <p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#gaa9b50c4837e1cbea569de6f7bc90a3b6">More...</a><br /></td></tr>
 <tr class="separator:gaa9b50c4837e1cbea569de6f7bc90a3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6a11867b77c662565471eabac9b4d114"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga6a11867b77c662565471eabac9b4d114"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga6a11867b77c662565471eabac9b4d114">EGXMath::SphericalCoordinateToCartesianCoordinate</a> (const T sphericalR, const T sphericalAzimuthInRadians, const T sphericalZenithInRadians, const T &amp;x, const T &amp;y, const T &amp;z)</td></tr>
-<tr class="memdesc:ga6a11867b77c662565471eabac9b4d114"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Spherical coordiante system \((r,\theta,\phi)\). Note that \(\theta\) lays in the \(x\ y\) plane. </p><p class="formulaDsp">
+<tr class="memitem:ga3141fcb31751df8a24b5474de768b375"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga3141fcb31751df8a24b5474de768b375"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga3141fcb31751df8a24b5474de768b375">EGXMath::SphericalCoordinateToCartesianCoordinate</a> (const T sphericalR, const T sphericalAzimuthInRadians, const T sphericalZenithInRadians, T &amp;x, T &amp;y, T &amp;z)</td></tr>
+<tr class="memdesc:ga3141fcb31751df8a24b5474de768b375"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Spherical coordiante system \((r,\theta,\phi)\). Note that \(\theta\) lays in the \(x\ y\) plane. </p><p class="formulaDsp">
 \[ x = \sqrt{x^2+y^2+z^2} \]
 </p>
  <p class="formulaDsp">
-\[ y = arctan(\frac{y}{x}) \]
+\[ y = \arctan(\frac{y}{x}) \]
 </p>
  <p class="formulaDsp">
-\[ z = arccos(\frac{z}{r}) \]
+\[ z = \arccos(\frac{z}{r}) \]
 </p>
-<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga6a11867b77c662565471eabac9b4d114">More...</a><br /></td></tr>
-<tr class="separator:ga6a11867b77c662565471eabac9b4d114"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga655e1e596f225dc1692fa1ef744f785d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga655e1e596f225dc1692fa1ef744f785d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga655e1e596f225dc1692fa1ef744f785d">EGXMath::SphericalCoordinateToCylindricalCoordinate</a> (const T sphericalR, const T sphericalAzimuthInRadians, const T sphericalZenithInRadians, const T &amp;cylindricalR, const T &amp;cylindricalAzimuthInRadians, const T &amp;cylindricalZ)</td></tr>
-<tr class="memdesc:ga655e1e596f225dc1692fa1ef744f785d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Spherical coordiante system \((r_S,\theta_S,\phi_S)\) to a representation in the . Note that \(\theta_S\) lays in the \(x\ y\) plane. </p><p class="formulaDsp">
+<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga3141fcb31751df8a24b5474de768b375">More...</a><br /></td></tr>
+<tr class="separator:ga3141fcb31751df8a24b5474de768b375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2a5678de0dda7c875a668f3db3da3418"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga2a5678de0dda7c875a668f3db3da3418"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga2a5678de0dda7c875a668f3db3da3418">EGXMath::SphericalCoordinateToCylindricalCoordinate</a> (const T sphericalR, const T sphericalAzimuthInRadians, const T sphericalZenithInRadians, T &amp;cylindricalR, T &amp;cylindricalAzimuthInRadians, T &amp;cylindricalZ)</td></tr>
+<tr class="memdesc:ga2a5678de0dda7c875a668f3db3da3418"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Spherical coordiante system \((r_S,\theta_S,\phi_S)\) to a representation in the . Note that \(\theta_S\) lays in the \(x\ y\) plane. </p><p class="formulaDsp">
 \[ r_C = \sqrt{x^2+y^2+z^2} \]
 </p>
  <p class="formulaDsp">
 \[ \theta_C = \theta_S \]
 </p>
  <p class="formulaDsp">
-\[ z_C = arccos(\frac{z}{r}) \]
+\[ z_C = \arccos(\frac{z}{r}) \]
 </p>
-<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga655e1e596f225dc1692fa1ef744f785d">More...</a><br /></td></tr>
-<tr class="separator:ga655e1e596f225dc1692fa1ef744f785d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga2a5678de0dda7c875a668f3db3da3418">More...</a><br /></td></tr>
+<tr class="separator:ga2a5678de0dda7c875a668f3db3da3418"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Converts a set of 3D coordinates fom Spherical into Cartesian, Polar ect. </p>

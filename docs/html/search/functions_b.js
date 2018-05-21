@@ -31,7 +31,7 @@ var searchData=
   ['planetsimilarityindex',['PlanetSimilarityIndex',['../group___e_g_x_phys-_planet_criteria.html#ga62e8b781c301df60bd04af3183a965eb',1,'EGXPhys']]],
   ['planetsimilarityindexinterior',['PlanetSimilarityIndexInterior',['../group___e_g_x_phys-_planet_criteria.html#ga6dc06a1a8baf6e132abed51fcf410c7f',1,'EGXPhys']]],
   ['planetsimilarityindexsurface',['PlanetSimilarityIndexSurface',['../group___e_g_x_phys-_planet_criteria.html#gae0c7dce2779d66b0560ca388a34ddc39',1,'EGXPhys']]],
-  ['polarcoordinatetocartesiancoordinate',['PolarCoordinateToCartesianCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html#ga189458efd604828d5825a8e8929845eb',1,'EGXMath']]],
+  ['polarcoordinatetocartesiancoordinate',['PolarCoordinateToCartesianCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html#ga842125a118ed7788a5ceeaf796687bf6',1,'EGXMath']]],
   ['protonseparationenergyinj',['ProtonSeparationEnergyInJ',['../group___e_g_x_phys-_nuclear_separation_energy.html#ga4274d8f5a3860169fd81970707eb582a',1,'EGXPhys']]],
   ['protonseparationenergyinmev',['ProtonSeparationEnergyInMeV',['../group___e_g_x_phys-_nuclear_separation_energy.html#ga6a619ded55c47ed22ea2d8a85202ebeb',1,'EGXPhys']]],
   ['protontwoseparationenergyinj',['ProtonTwoSeparationEnergyInJ',['../group___e_g_x_phys-_nuclear_separation_energy.html#gad7c1d4a32daa8aaa53c5fce37c421f82',1,'EGXPhys']]],

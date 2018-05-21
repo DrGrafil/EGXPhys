@@ -107,9 +107,9 @@ $(document).ready(function(){initNavTree('3_d_cartesian_coordinate_conversion_8h
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga256f37d22da9bb58db556ee40dac8d81"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga256f37d22da9bb58db556ee40dac8d81"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga256f37d22da9bb58db556ee40dac8d81">EGXMath::CartesianCoordinateToCylindricalCoordinate</a> (const T x, const T y, const T z, const T &amp;cylindricalR, const T &amp;cylindricalAzimuthInRadians, const T &amp;cylindricalZ)</td></tr>
-<tr class="memdesc:ga256f37d22da9bb58db556ee40dac8d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Cylindrical coordiante system \((r_C,\theta_C,z_C)\). </p><p class="formulaDsp">
+<tr class="memitem:ga50f1cbdafbe435b13e34c7a3a6ccedc6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga50f1cbdafbe435b13e34c7a3a6ccedc6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga50f1cbdafbe435b13e34c7a3a6ccedc6">EGXMath::CartesianCoordinateToCylindricalCoordinate</a> (const T x, const T y, const T z, T &amp;cylindricalR, T &amp;cylindricalAzimuthInRadians, T &amp;cylindricalZ)</td></tr>
+<tr class="memdesc:ga50f1cbdafbe435b13e34c7a3a6ccedc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Cylindrical coordiante system \((r_C,\theta_C,z_C)\). </p><p class="formulaDsp">
 \[ r_C = \sqrt{x^2+y^2} \]
 </p>
  <p class="formulaDsp">
@@ -118,21 +118,21 @@ Functions</h2></td></tr>
  <p class="formulaDsp">
 \[ z_C = z \]
 </p>
-<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga256f37d22da9bb58db556ee40dac8d81">More...</a><br /></td></tr>
-<tr class="separator:ga256f37d22da9bb58db556ee40dac8d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga849c93ec135e9c72c5320c48eeacc7c9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga849c93ec135e9c72c5320c48eeacc7c9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga849c93ec135e9c72c5320c48eeacc7c9">EGXMath::CartesianCoordinateToSphericalCoordinate</a> (const T x, const T y, const T z, const T &amp;sphericalR, const T &amp;sphericalAzimuthInRadians, const T &amp;sphericalZenithInRadians)</td></tr>
-<tr class="memdesc:ga849c93ec135e9c72c5320c48eeacc7c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Spherical coordiante system \((r_S,\theta_S,\phi_S)\). Note that \(\theta_S\) lays in the \(x\ y\) plane. </p><p class="formulaDsp">
-\[ r_S = \sqrt{r_C+z_C^2} \]
+<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga50f1cbdafbe435b13e34c7a3a6ccedc6">More...</a><br /></td></tr>
+<tr class="separator:ga50f1cbdafbe435b13e34c7a3a6ccedc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga159ac2cb3f9e133e0af002f58b425476"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga159ac2cb3f9e133e0af002f58b425476"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga159ac2cb3f9e133e0af002f58b425476">EGXMath::CartesianCoordinateToSphericalCoordinate</a> (const T x, const T y, const T z, T &amp;sphericalR, T &amp;sphericalAzimuthInRadians, T &amp;sphericalZenithInRadians)</td></tr>
+<tr class="memdesc:ga159ac2cb3f9e133e0af002f58b425476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a 3D point represented in the Cartesian coordinate system \((x,y,z)\) to a representation in the Spherical coordiante system \((r_S,\theta_S,\phi_S)\). Note that \(\theta_S\) lays in the \(x\ y\) plane. </p><p class="formulaDsp">
+\[ r_S = \sqrt{x^2+y^2+z^2} \]
 </p>
  <p class="formulaDsp">
-\[ \theta_S = \theta_C \]
+\[ \theta_S = atan2(y,x) \]
 </p>
  <p class="formulaDsp">
-\[ \phi_S = arctan(\frac{r_C}{z_C}) \]
+\[ \phi_S = atan2(\sqrt{x^2+y^2},z) \]
 </p>
-<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga849c93ec135e9c72c5320c48eeacc7c9">More...</a><br /></td></tr>
-<tr class="separator:ga849c93ec135e9c72c5320c48eeacc7c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>.  <a href="group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga159ac2cb3f9e133e0af002f58b425476">More...</a><br /></td></tr>
+<tr class="separator:ga159ac2cb3f9e133e0af002f58b425476"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Converts a set of 3D coordinates from Cartesian into Spherical, Cylindrical ect. </p>

@@ -3,26 +3,26 @@
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_gafaf535c9c6d2f0b4cfd9fa975d26ed4f}{E\+G\+X\+Math\+::\+Cylindrical\+Coordinate\+To\+Cartesian\+Coordinate}} (const T cylindricalR, const T cylindrical\+Azimuth\+In\+Radians, const T cylindricalZ, const T \&x, const T \&y, const T \&z)
-\begin{DoxyCompactList}\small\item\em Converts a 3D point represented in the Cylindrical coordiante system $(r_C,\theta_C,z_C)$ to a representation in the Cartesian coordinate system $(x,y,z)$. \[ x = r_C\ cos(\theta_C) \] \[ y = r_C\ sin(\theta_C) \] \[ z = z_C \]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_ga908345274abd7e315373a9eb56f2ba7f}{E\+G\+X\+Math\+::\+Cylindrical\+Coordinate\+To\+Spherical\+Coordinate}} (const T cylindricalR, const T cylindrical\+Azimuth\+In\+Radians, const T cylindricalZ, const T \&sphericalR, const T \&spherical\+Azimuth\+In\+Radians, const T \&spherical\+Zenith\+In\+Radians)
-\begin{DoxyCompactList}\small\item\em Converts a 3D point represented in the Cartesian coordinate system $(x,y,z)$ to a representation in the Spherical coordiante system $(r,\theta,\phi)$. Note that $\theta$ lays in the $x\ y$ plane. \[ r_S = \sqrt{x^2+y^2+z^2} \] \[ \theta_S = arctan(\frac{y}{x}) \] \[ \phi_S = arccos(\frac{z}{r}) \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_gafe64821df1452d3ec28206591b123b1a}{E\+G\+X\+Math\+::\+Cylindrical\+Coordinate\+To\+Cartesian\+Coordinate}} (const T cylindricalR, const T cylindrical\+Azimuth\+In\+Radians, const T cylindricalZ, T \&x, T \&y, T \&z)
+\begin{DoxyCompactList}\small\item\em Converts a 3D point represented in the Cylindrical coordiante system $(r_C,\theta_C,z_C)$ to a representation in the Cartesian coordinate system $(x,y,z)$. \[ x = r_C\ \cos(\theta_C) \] \[ y = r_C\ \sin(\theta_C) \] \[ z = z_C \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_ga57a7d61d4baa007867817eb474394226}{E\+G\+X\+Math\+::\+Cylindrical\+Coordinate\+To\+Spherical\+Coordinate}} (const T cylindricalR, const T cylindrical\+Azimuth\+In\+Radians, const T cylindricalZ, T \&sphericalR, T \&spherical\+Azimuth\+In\+Radians, T \&spherical\+Zenith\+In\+Radians)
+\begin{DoxyCompactList}\small\item\em Converts a 3D point represented in the Cartesian coordinate system $(x,y,z)$ to a representation in the Spherical coordiante system $(r,\theta,\phi)$. Note that $\theta$ lays in the $x\ y$ plane. \[ r_S = \sqrt{x^2+y^2+z^2} \] \[ \theta_S = \arctan(\frac{y}{x}) \] \[ \phi_S = \arccos(\frac{z}{r}) \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
 
 
 \subsection{Function Documentation}
-\mbox{\Hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_gafaf535c9c6d2f0b4cfd9fa975d26ed4f}\label{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_gafaf535c9c6d2f0b4cfd9fa975d26ed4f}} 
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_gafe64821df1452d3ec28206591b123b1a}\label{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_gafe64821df1452d3ec28206591b123b1a}} 
 \index{Cylindrical@{Cylindrical}!Cylindrical\+Coordinate\+To\+Cartesian\+Coordinate@{Cylindrical\+Coordinate\+To\+Cartesian\+Coordinate}}
 \index{Cylindrical\+Coordinate\+To\+Cartesian\+Coordinate@{Cylindrical\+Coordinate\+To\+Cartesian\+Coordinate}!Cylindrical@{Cylindrical}}
 \subsubsection{\texorpdfstring{Cylindrical\+Coordinate\+To\+Cartesian\+Coordinate()}{CylindricalCoordinateToCartesianCoordinate()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-void E\+G\+X\+Math\+::\+Cylindrical\+Coordinate\+To\+Cartesian\+Coordinate (\begin{DoxyParamCaption}\item[{const T}]{cylindricalR,  }\item[{const T}]{cylindrical\+Azimuth\+In\+Radians,  }\item[{const T}]{cylindricalZ,  }\item[{const T \&}]{x,  }\item[{const T \&}]{y,  }\item[{const T \&}]{z }\end{DoxyParamCaption})}
+void E\+G\+X\+Math\+::\+Cylindrical\+Coordinate\+To\+Cartesian\+Coordinate (\begin{DoxyParamCaption}\item[{const T}]{cylindricalR,  }\item[{const T}]{cylindrical\+Azimuth\+In\+Radians,  }\item[{const T}]{cylindricalZ,  }\item[{T \&}]{x,  }\item[{T \&}]{y,  }\item[{T \&}]{z }\end{DoxyParamCaption})}
 
 
 
-Converts a 3D point represented in the Cylindrical coordiante system $(r_C,\theta_C,z_C)$ to a representation in the Cartesian coordinate system $(x,y,z)$. \[ x = r_C\ cos(\theta_C) \] \[ y = r_C\ sin(\theta_C) \] \[ z = z_C \]. 
+Converts a 3D point represented in the Cylindrical coordiante system $(r_C,\theta_C,z_C)$ to a representation in the Cartesian coordinate system $(x,y,z)$. \[ x = r_C\ \cos(\theta_C) \] \[ y = r_C\ \sin(\theta_C) \] \[ z = z_C \]. 
 
 See \href{http://mathworld.wolfram.com/CylindricalCoordinates.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Cylindrical\+Coordinates.\+html} and \href{https://en.wikipedia.org/wiki/Cylindrical_coordinate_system}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Cylindrical\+\_\+coordinate\+\_\+system} 
 \begin{DoxyParams}{Parameters}
@@ -40,22 +40,22 @@ See \href{http://mathworld.wolfram.com/CylindricalCoordinates.html}{\tt http\+:/
 \hline
 \end{DoxyParams}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian_ga256f37d22da9bb58db556ee40dac8d81}{Cartesian\+Coordinate\+To\+Cylindrical\+Coordinate()}} for reverse coordinate transform. 
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian_ga50f1cbdafbe435b13e34c7a3a6ccedc6}{Cartesian\+Coordinate\+To\+Cylindrical\+Coordinate()}} for reverse coordinate transform. 
 
-\mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar_ga189458efd604828d5825a8e8929845eb}{Polar\+Coordinate\+To\+Cartesian\+Coordinate()}} for 2D. 
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar_ga842125a118ed7788a5ceeaf796687bf6}{Polar\+Coordinate\+To\+Cartesian\+Coordinate()}} for 2D. 
 
 \mbox{\hyperlink{group___e_g_x_math-_conversions-_angle_conversions-_degree_ga48585541b228c852c9d08a9eac3682f0}{Degree\+To\+Radian()}} for conversion from degrees to radians. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_ga908345274abd7e315373a9eb56f2ba7f}\label{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_ga908345274abd7e315373a9eb56f2ba7f}} 
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_ga57a7d61d4baa007867817eb474394226}\label{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical_ga57a7d61d4baa007867817eb474394226}} 
 \index{Cylindrical@{Cylindrical}!Cylindrical\+Coordinate\+To\+Spherical\+Coordinate@{Cylindrical\+Coordinate\+To\+Spherical\+Coordinate}}
 \index{Cylindrical\+Coordinate\+To\+Spherical\+Coordinate@{Cylindrical\+Coordinate\+To\+Spherical\+Coordinate}!Cylindrical@{Cylindrical}}
 \subsubsection{\texorpdfstring{Cylindrical\+Coordinate\+To\+Spherical\+Coordinate()}{CylindricalCoordinateToSphericalCoordinate()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-void E\+G\+X\+Math\+::\+Cylindrical\+Coordinate\+To\+Spherical\+Coordinate (\begin{DoxyParamCaption}\item[{const T}]{cylindricalR,  }\item[{const T}]{cylindrical\+Azimuth\+In\+Radians,  }\item[{const T}]{cylindricalZ,  }\item[{const T \&}]{sphericalR,  }\item[{const T \&}]{spherical\+Azimuth\+In\+Radians,  }\item[{const T \&}]{spherical\+Zenith\+In\+Radians }\end{DoxyParamCaption})}
+void E\+G\+X\+Math\+::\+Cylindrical\+Coordinate\+To\+Spherical\+Coordinate (\begin{DoxyParamCaption}\item[{const T}]{cylindricalR,  }\item[{const T}]{cylindrical\+Azimuth\+In\+Radians,  }\item[{const T}]{cylindricalZ,  }\item[{T \&}]{sphericalR,  }\item[{T \&}]{spherical\+Azimuth\+In\+Radians,  }\item[{T \&}]{spherical\+Zenith\+In\+Radians }\end{DoxyParamCaption})}
 
 
 
-Converts a 3D point represented in the Cartesian coordinate system $(x,y,z)$ to a representation in the Spherical coordiante system $(r,\theta,\phi)$. Note that $\theta$ lays in the $x\ y$ plane. \[ r_S = \sqrt{x^2+y^2+z^2} \] \[ \theta_S = arctan(\frac{y}{x}) \] \[ \phi_S = arccos(\frac{z}{r}) \]. 
+Converts a 3D point represented in the Cartesian coordinate system $(x,y,z)$ to a representation in the Spherical coordiante system $(r,\theta,\phi)$. Note that $\theta$ lays in the $x\ y$ plane. \[ r_S = \sqrt{x^2+y^2+z^2} \] \[ \theta_S = \arctan(\frac{y}{x}) \] \[ \phi_S = \arccos(\frac{z}{r}) \]. 
 
 See \href{http://mathworld.wolfram.com/SphericalCoordinates.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Spherical\+Coordinates.\+html} and \href{https://en.wikipedia.org/wiki/Spherical_coordinate_system}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Spherical\+\_\+coordinate\+\_\+system} 
 \begin{DoxyParams}{Parameters}
@@ -73,7 +73,7 @@ See \href{http://mathworld.wolfram.com/SphericalCoordinates.html}{\tt http\+://m
 \hline
 \end{DoxyParams}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_ga655e1e596f225dc1692fa1ef744f785d}{Spherical\+Coordinate\+To\+Cylindrical\+Coordinate()}} for reverse coordinate transform. 
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_ga2a5678de0dda7c875a668f3db3da3418}{Spherical\+Coordinate\+To\+Cylindrical\+Coordinate()}} for reverse coordinate transform. 
 
 \mbox{\hyperlink{group___e_g_x_math-_conversions-_angle_conversions-_degree_ga48585541b228c852c9d08a9eac3682f0}{Degree\+To\+Radian()}} for conversion from degrees to radians. 
 \end{DoxySeeAlso}

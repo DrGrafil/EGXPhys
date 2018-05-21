@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['cartesiancoordinatetocylindricalcoordinate',['CartesianCoordinateToCylindricalCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga256f37d22da9bb58db556ee40dac8d81',1,'EGXMath']]],
-  ['cartesiancoordinatetopolarcoordinate',['CartesianCoordinateToPolarCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian.html#ga01ead70b7b75d7ad0f80776c8c254897',1,'EGXMath']]],
-  ['cartesiancoordinatetosphericalcoordinate',['CartesianCoordinateToSphericalCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga849c93ec135e9c72c5320c48eeacc7c9',1,'EGXMath']]],
+  ['cartesiancoordinatetocylindricalcoordinate',['CartesianCoordinateToCylindricalCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga50f1cbdafbe435b13e34c7a3a6ccedc6',1,'EGXMath']]],
+  ['cartesiancoordinatetopolarcoordinate',['CartesianCoordinateToPolarCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian.html#ga606ec2b97e0000d9b2a511c0e7b74bc9',1,'EGXMath']]],
+  ['cartesiancoordinatetosphericalcoordinate',['CartesianCoordinateToSphericalCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html#ga159ac2cb3f9e133e0af002f58b425476',1,'EGXMath']]],
   ['circlecircumference',['CircleCircumference',['../group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e',1,'EGXMath']]],
   ['circleperimeter',['CirclePerimeter',['../group___e_g_x_math-_geometry-2_d-_circle.html#gad32d0bded2e74c52a4c41cfffd2a9e77',1,'EGXMath']]],
   ['circlesurfacearea',['CircleSurfaceArea',['../group___e_g_x_math-_geometry-2_d-_circle.html#gaa4486100a643c57bd7a80c1c11ae3f60',1,'EGXMath']]],
@@ -14,6 +14,6 @@ var searchData=
   ['cylinderinertia',['CylinderInertia',['../group___e_g_x_math-_geometry-3_d-_cylinder.html#gae7dca080058b400feb0d69f78af7a850',1,'EGXMath::CylinderInertia(const T mass, const T height, const T radius, T2(&amp;matrix)[9])'],['../group___e_g_x_math-_geometry-3_d-_cylinder.html#gac46dd57839cb2157d1bb6dd430d781ec',1,'EGXMath::CylinderInertia(const T mass, const T height, const T radius, std::vector&lt; T2 &gt; &amp;matrix)'],['../group___e_g_x_math-_geometry-3_d-_cylinder.html#ga5d9256549303e88a49b72e3d4c2c4a6d',1,'EGXMath::CylinderInertia(const T mass, const T height, const T radius, glm::mat3 &amp;matrix)'],['../group___e_g_x_math-_geometry-3_d-_cylinder.html#ga5d9256549303e88a49b72e3d4c2c4a6d',1,'EGXMath::CylinderInertia(const T mass, const T height, const T radius, glm::mat3 &amp;matrix)']]],
   ['cylindersurfacearea',['CylinderSurfaceArea',['../group___e_g_x_math-_geometry-3_d-_cylinder.html#gaf14619f5d525e14150a43b9898adb258',1,'EGXMath']]],
   ['cylindervolume',['CylinderVolume',['../group___e_g_x_math-_geometry-3_d-_cylinder.html#ga9d1aa08f778f9ccbd79953063f11bc9b',1,'EGXMath']]],
-  ['cylindricalcoordinatetocartesiancoordinate',['CylindricalCoordinateToCartesianCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#gafaf535c9c6d2f0b4cfd9fa975d26ed4f',1,'EGXMath']]],
-  ['cylindricalcoordinatetosphericalcoordinate',['CylindricalCoordinateToSphericalCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#ga908345274abd7e315373a9eb56f2ba7f',1,'EGXMath']]]
+  ['cylindricalcoordinatetocartesiancoordinate',['CylindricalCoordinateToCartesianCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#gafe64821df1452d3ec28206591b123b1a',1,'EGXMath']]],
+  ['cylindricalcoordinatetosphericalcoordinate',['CylindricalCoordinateToSphericalCoordinate',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html#ga57a7d61d4baa007867817eb474394226',1,'EGXMath']]]
 ];

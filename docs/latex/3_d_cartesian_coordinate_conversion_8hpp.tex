@@ -10,10 +10,10 @@ Converts a set of 3D coordinates from Cartesian into Spherical, Cylindrical ect.
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian_ga256f37d22da9bb58db556ee40dac8d81}{E\+G\+X\+Math\+::\+Cartesian\+Coordinate\+To\+Cylindrical\+Coordinate}} (const T x, const T y, const T z, const T \&cylindricalR, const T \&cylindrical\+Azimuth\+In\+Radians, const T \&cylindricalZ)
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian_ga50f1cbdafbe435b13e34c7a3a6ccedc6}{E\+G\+X\+Math\+::\+Cartesian\+Coordinate\+To\+Cylindrical\+Coordinate}} (const T x, const T y, const T z, T \&cylindricalR, T \&cylindrical\+Azimuth\+In\+Radians, T \&cylindricalZ)
 \begin{DoxyCompactList}\small\item\em Converts a 3D point represented in the Cartesian coordinate system $(x,y,z)$ to a representation in the Cylindrical coordiante system $(r_C,\theta_C,z_C)$. \[ r_C = \sqrt{x^2+y^2} \] \[ \theta_C = atan2(y,x) \] \[ z_C = z \]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian_ga849c93ec135e9c72c5320c48eeacc7c9}{E\+G\+X\+Math\+::\+Cartesian\+Coordinate\+To\+Spherical\+Coordinate}} (const T x, const T y, const T z, const T \&sphericalR, const T \&spherical\+Azimuth\+In\+Radians, const T \&spherical\+Zenith\+In\+Radians)
-\begin{DoxyCompactList}\small\item\em Converts a 3D point represented in the Cartesian coordinate system $(x,y,z)$ to a representation in the Spherical coordiante system $(r_S,\theta_S,\phi_S)$. Note that $\theta_S$ lays in the $x\ y$ plane. \[ r_S = \sqrt{r_C+z_C^2} \] \[ \theta_S = \theta_C \] \[ \phi_S = arctan(\frac{r_C}{z_C}) \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian_ga159ac2cb3f9e133e0af002f58b425476}{E\+G\+X\+Math\+::\+Cartesian\+Coordinate\+To\+Spherical\+Coordinate}} (const T x, const T y, const T z, T \&sphericalR, T \&spherical\+Azimuth\+In\+Radians, T \&spherical\+Zenith\+In\+Radians)
+\begin{DoxyCompactList}\small\item\em Converts a 3D point represented in the Cartesian coordinate system $(x,y,z)$ to a representation in the Spherical coordiante system $(r_S,\theta_S,\phi_S)$. Note that $\theta_S$ lays in the $x\ y$ plane. \[ r_S = \sqrt{x^2+y^2+z^2} \] \[ \theta_S = atan2(y,x) \] \[ \phi_S = atan2(\sqrt{x^2+y^2},z) \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}

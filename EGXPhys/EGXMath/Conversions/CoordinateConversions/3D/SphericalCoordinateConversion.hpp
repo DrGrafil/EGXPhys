@@ -29,9 +29,9 @@ namespace EGXMath
     /// @todo Move this function to Coordinate transforms
     /**
     *   @brief In a Spherical coordinate system, given a point, \f$p\f$, and a new origin (center), \f$o\f$, this function gives the shifted spherical coordinates of the point relative to this new center.
-    *		\f[ r_{shift} = \sqrt{r_o^2+r_p^2 - 2 r_o r_p ( cos(\phi_p) cos(\phi_o) + cos(\theta_p-\theta_o) * sin(\phi_p) sin(\phi_o))}\f]
-    *       \f[ \theta_{shift} = atan2( r_p sin(\theta_p) sin(\phi_p) - r_o sin(\theta_o) sin(\phi_o) , r_p cos(\theta_p) sin(\phi_p) - r_o cos(\theta_o) sin(\phi_o) )\f]
-    *       \f[ \phi_{shift} = arccos(\frac{r_p cos(\phi_p) - r_o (\phi_o)}{r_{shift}}) \f]
+    *		\f[ r_{shift} = \sqrt{r_o^2+r_p^2 - 2 r_o r_p ( \cos(\phi_p) \cos(\phi_o) + \cos(\theta_p-\theta_o) * \sin(\phi_p) \sin(\phi_o))}\f]
+    *       \f[ \theta_{shift} = atan2( r_p sin(\theta_p) \sin(\phi_p) - r_o \sin(\theta_o) \sin(\phi_o) , r_p \cos(\theta_p) \sin(\phi_p) - r_o \cos(\theta_o) \sin(\phi_o) )\f]
+    *       \f[ \phi_{shift} = \arccos(\frac{r_p \cos(\phi_p) - r_o (\phi_o)}{r_{shift}}) \f]
     *
     *	See http://mathworld.wolfram.com/SphericalCoordinates.html and https://en.wikipedia.org/wiki/Spherical_coordinate_system and 
     *   @param centerR \f$ r_o\ (m)\f$ The \f$r_o\f$ spherical coordinate (spherical radius) of the new origin in meters.
@@ -54,8 +54,8 @@ namespace EGXMath
     /**
     *   @brief Converts a 3D point represented in the Cartesian coordinate system \f$(x,y,z)\f$ to a representation in the Spherical coordiante system \f$(r,\theta,\phi)\f$. Note that \f$\theta\f$ lays in the \f$x\ y\f$ plane.
     *		\f[ x = \sqrt{x^2+y^2+z^2} \f]
-    *       \f[ y = arctan(\frac{y}{x}) \f]
-    *       \f[ z = arccos(\frac{z}{r}) \f]
+    *       \f[ y = \arctan(\frac{y}{x}) \f]
+    *       \f[ z = \arccos(\frac{z}{r}) \f]
     *
     *	See http://mathworld.wolfram.com/SphericalCoordinates.html and https://en.wikipedia.org/wiki/Spherical_coordinate_system
     *   @param sphericalR \f$ r_S\ (m)\f$ The \f$r_S\f$ spherical coordinate (spherical radius) in meters.
@@ -76,7 +76,7 @@ namespace EGXMath
     *   @brief Converts a 3D point represented in the Spherical coordiante system \f$(r_S,\theta_S,\phi_S)\f$ to a representation in the . Note that \f$\theta_S\f$ lays in the \f$x\ y\f$ plane.
     *		\f[ r_C = \sqrt{x^2+y^2+z^2} \f]
     *       \f[ \theta_C = \theta_S \f]
-    *       \f[ z_C = arccos(\frac{z}{r}) \f]
+    *       \f[ z_C = \arccos(\frac{z}{r}) \f]
     *
     *	See http://mathworld.wolfram.com/SphericalCoordinates.html and https://en.wikipedia.org/wiki/Spherical_coordinate_system
     *   @param sphericalR \f$ r_S\ (m)\f$ The \f$r_S\f$ spherical coordinate (spherical radius) in meters.
