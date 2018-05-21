@@ -280,6 +280,7 @@
     <ClInclude Include="..\..\tests\EGXMath\Conversions\AngularConversionsTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Conversions\ConversionsTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\3D\3DCartesianCoordinateConversionTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversionTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\EGXMathTests.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\2DGeometryTests.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Circle\CircleTests.hpp" />
