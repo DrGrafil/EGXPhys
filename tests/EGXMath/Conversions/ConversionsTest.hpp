@@ -6,3 +6,4 @@
 
 #include "AngularConversionsTest.hpp"
 
+#include "CoordinateConversions\3D\3DCartesianCoordinateConversionTest.hpp"

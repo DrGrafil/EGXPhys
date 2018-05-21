@@ -47,7 +47,7 @@ namespace EGXMath
     */
     template<typename T>
     void CylindricalCoordinateToCartesianCoordinate(    const T cylindricalR, const T cylindricalAzimuthInRadians, const T cylindricalZ,
-                                                        const T& x, const T& y, const T& z);
+                                                        T& x, T& y, T& z);
 
     /**
     *   @brief Converts a 3D point represented in the Cartesian coordinate system \f$(x,y,z)\f$ to a representation in the Spherical coordiante system \f$(r,\theta,\phi)\f$. Note that \f$\theta\f$ lays in the \f$x\ y\f$ plane.
@@ -67,7 +67,7 @@ namespace EGXMath
     */
     template<typename T>
     void CylindricalCoordinateToSphericalCoordinate(    const T cylindricalR, const T cylindricalAzimuthInRadians, const T cylindricalZ,
-                                                        const T& sphericalR, const T& sphericalAzimuthInRadians, const T& sphericalZenithInRadians);
+                                                        T& sphericalR, T& sphericalAzimuthInRadians, T& sphericalZenithInRadians);
 
 	/// @}
 } //namespace EGXMath

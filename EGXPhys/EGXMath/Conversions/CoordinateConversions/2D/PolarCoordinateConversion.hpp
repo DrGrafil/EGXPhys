@@ -43,7 +43,7 @@ namespace EGXMath
     */
     template<typename T>
     void PolarCoordinateToCartesianCoordinate(      const T polarR, const T polarAzimuthInRadians,
-                                                    const T& x, const T& y);
+                                                    T& x, T& y);
 
 
 	/// @}

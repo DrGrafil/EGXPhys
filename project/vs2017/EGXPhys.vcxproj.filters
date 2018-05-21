@@ -118,6 +118,15 @@
     <Filter Include="EGXPhys\EGXMath\Conversions\CoordinateConversions\3D">
       <UniqueIdentifier>{3d264045-0648-4454-9ec0-bcdc69416502}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tests\EGXMath\Conversions\CoordinateConversions">
+      <UniqueIdentifier>{fd16cc61-f38a-4c68-a641-8dac286b4cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\EGXMath\Conversions\CoordinateConversions\3D">
+      <UniqueIdentifier>{c2a3f149-4be6-407b-a903-82cd6a33f056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\EGXMath\Conversions\CoordinateConversions\2D">
+      <UniqueIdentifier>{209a0648-2713-48e7-a282-1b0453bd9050}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -590,6 +599,9 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\2D\PolarCoordinateConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\3D\3DCartesianCoordinateConversionTest.hpp">
+      <Filter>Tests\EGXMath\Conversions\CoordinateConversions\3D</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -8,7 +8,7 @@
 namespace EGXMath {
 
     template<typename T>
-    void CartesianCoordinateToPolarCoordinate(const T x, const T y, const T& polarR, const T& polarAzimuthInRadians) {
+    void CartesianCoordinateToPolarCoordinate(const T x, const T y, T& polarR, T& polarAzimuthInRadians) {
         polarR = sqrt(x*x + y * y);
         polarAzimuthInRadians = atan2(y,x);
     }

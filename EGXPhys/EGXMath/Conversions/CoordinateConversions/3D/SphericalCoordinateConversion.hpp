@@ -69,7 +69,7 @@ namespace EGXMath
     */
     template<typename T>
     void SphericalCoordinateToCartesianCoordinate(  const T sphericalR, const T sphericalAzimuthInRadians, const T sphericalZenithInRadians,
-                                                    const T& x, const T& y, const T& z);
+                                                    T& x, T& y, T& z);
 
 
     /**
@@ -90,7 +90,7 @@ namespace EGXMath
     */
     template<typename T>
     void SphericalCoordinateToCylindricalCoordinate(const T sphericalR, const T sphericalAzimuthInRadians, const T sphericalZenithInRadians,
-                                                    const T& cylindricalR, const T& cylindricalAzimuthInRadians, const T& cylindricalZ);
+                                                    T& cylindricalR, T& cylindricalAzimuthInRadians, T& cylindricalZ);
  
 	/// @}
 } //namespace EGXMath
