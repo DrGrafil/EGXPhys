@@ -81,6 +81,4 @@ TEST_CASE("Spherical Coordinate Conversions"){
     CHECK(tc == 3.0);
     CHECK(zc == rs*cos(ps));
 
-    //CHECK(ps == Approx(atan(rc / zc)).scale(0.0).epsilon(0.001));
-
 }

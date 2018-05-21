@@ -279,6 +279,8 @@
     <ClInclude Include="..\..\tests\catch.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Conversions\AngularConversionsTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Conversions\ConversionsTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\2D\2DCartesianCoordinateConversionTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\2D\PolarCoordinateConversionTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\3D\3DCartesianCoordinateConversionTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversionTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversionTest.hpp" />

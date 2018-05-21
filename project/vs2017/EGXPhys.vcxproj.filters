@@ -609,6 +609,12 @@
     <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversionTest.hpp">
       <Filter>Tests\EGXMath\Conversions\CoordinateConversions\3D</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\2D\2DCartesianCoordinateConversionTest.hpp">
+      <Filter>Tests\EGXMath\Conversions\CoordinateConversions\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\2D\PolarCoordinateConversionTest.hpp">
+      <Filter>Tests\EGXMath\Conversions\CoordinateConversions\2D</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
