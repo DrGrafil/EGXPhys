@@ -24,16 +24,16 @@ namespace EGXMath {
         T sp1 = sin(poinZenithInRadians); T sp2 = sin(centerZenithInRadians);
 
         // \[Sqrt](r1^2+r2^2-2 r1 r2 (Cos[Phi1] Cos[Phi2]+Cos[Theta1-Theta2] Sin[Phi1] Sin[Phi2]))
-        R = sqrt(centerR*centerR + pointR * pointR - 2.0 * centerR * pointR *
+        shiftedR = sqrt(centerR*centerR + pointR * pointR - 2.0 * centerR * pointR *
             (cp1 * cp2 + cos(pointAzimuthInRadians - centerAzimuthInRadians) * sp1 * sp2));
 
         //Azimuth arctan2 y/x	See http://en.wikipedia.org/wiki/Atan2
-        Azimuth = atan2(
+        shiftedAzimuthInRadians = atan2(
             ((pointR * st1 * sp1) - (centerR * st2 * sp2)),
             ((pointR * ct1 * sp1) - (centerR * ct2 * sp2))
         );
 
-        Zenith = acos(
+        shiftedZenithInRadians = acos(
             ((pointR * cp1) - (centerR * cp2)) / R
         );
 
