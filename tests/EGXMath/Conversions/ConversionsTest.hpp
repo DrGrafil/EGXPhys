@@ -8,3 +8,4 @@
 
 #include "CoordinateConversions\3D\3DCartesianCoordinateConversionTest.hpp"
 #include "CoordinateConversions\3D\CylindricalCoordinateConversionTest.hpp"
+#include "CoordinateConversions\3D\SphericalCoordinateConversionTest.hpp"
