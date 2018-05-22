@@ -127,6 +127,9 @@
     <Filter Include="Tests\EGXMath\Conversions\CoordinateConversions\2D">
       <UniqueIdentifier>{209a0648-2713-48e7-a282-1b0453bd9050}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tests\EGXMath\Geometry\3D\Spheroid">
+      <UniqueIdentifier>{f3c00d56-3a2a-4828-9df9-e0634b68304a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -483,9 +486,6 @@
     <ClInclude Include="..\..\tests\Astrophysics\SurfaceGravityTests.hpp">
       <Filter>Tests\Astrophysics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\SpheroidFlatteningTests.hpp">
-      <Filter>Tests\EGXMath\Geometry\3D</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
@@ -614,6 +614,30 @@
     </ClInclude>
     <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\2D\PolarCoordinateConversionTest.hpp">
       <Filter>Tests\EGXMath\Conversions\CoordinateConversions\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidSurfaceArea.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidVolume.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidEccentricityTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidFlatteningTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidSurfaceAreaTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidVolumeTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\3DGeometryTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -799,9 +823,6 @@
     <None Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\Spheroid.inl">
-      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
-    </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidEccentricity.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
     </None>
@@ -858,6 +879,12 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\2D\PolarCoordinateConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\CoordinateConversions\2D</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidSurfaceArea.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidVolume.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
     </None>
   </ItemGroup>
 </Project>

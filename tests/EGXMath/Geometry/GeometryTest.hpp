@@ -8,5 +8,5 @@
 
 
 
-#include "./3D/SpheroidFlatteningTests.hpp"
+#include "./3D/3DGeometryTest.hpp"
 

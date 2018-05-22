@@ -1,5 +1,11 @@
 var NAVTREEINDEX8 =
 {
+"group___e_g_x_phys-_luminosity.html":[1,1,1,8],
+"group___e_g_x_phys-_luminosity.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4":[1,1,1,8,1],
+"group___e_g_x_phys-_luminosity.html#ga909f82edfaed449b44e94788b642ebb8":[1,1,1,8,0],
+"group___e_g_x_phys-_mass_defect.html":[1,1,2,3],
+"group___e_g_x_phys-_mass_defect.html#ga08cff1dfa3259af8f1b67ec741796e91":[1,1,2,3,1],
+"group___e_g_x_phys-_mass_defect.html#ga70400004a5cb622de372ab84670731ef":[1,1,2,3,4],
 "group___e_g_x_phys-_mass_defect.html#gab51169bf871d0ea0ee0642fa300228fe":[1,1,2,3,3],
 "group___e_g_x_phys-_mass_defect.html#gad5378933021e13598a76bd8581b1e887":[1,1,2,3,2],
 "group___e_g_x_phys-_mass_defect.html#gae89f2dfa65992c0314adc2440b2f582a":[1,1,2,3,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX8 =
 "group___n_i_s_t_const-_electron_volt.html":[1,2,6,1],
 "group___n_i_s_t_const-_electron_volt.html#ga214ec0b05df4113393bd1d3e631aebe6":[1,2,6,1,4],
 "group___n_i_s_t_const-_electron_volt.html#ga31b4d719efdddf0a302918557df2ea95":[1,2,6,1,1],
-"group___n_i_s_t_const-_electron_volt.html#ga333e07ed95192173791fcf53673f79ef":[1,2,6,1,3],
-"group___n_i_s_t_const-_electron_volt.html#ga62eaf49fce099edf5f51c125dc4dd927":[1,2,6,1,0],
-"group___n_i_s_t_const-_electron_volt.html#gaaac3cf941012add952f4aee0c72f0a42":[1,2,6,1,5],
-"group___n_i_s_t_const-_electron_volt.html#gac875b0f36fd52d70256d4a3d86eebb2e":[1,2,6,1,6],
-"group___n_i_s_t_const-_electron_volt.html#gae9b1b225f20da4725294b95a05ea82e0":[1,2,6,1,2],
-"group___n_i_s_t_const-_electron_volt_unit.html":[1,2,5,1],
-"group___n_i_s_t_const-_electron_volt_unit.html#ga83756881e375cccc1827b15bd46bdae4":[1,2,5,1,0]
+"group___n_i_s_t_const-_electron_volt.html#ga333e07ed95192173791fcf53673f79ef":[1,2,6,1,3]
 };

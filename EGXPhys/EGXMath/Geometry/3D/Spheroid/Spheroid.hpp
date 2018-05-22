@@ -23,3 +23,5 @@
 
 #include "SpheroidEccentricity.hpp"
 #include "SpheroidFlattening.hpp"
+#include "SpheroidSurfaceArea.hpp"
+#include "SpheroidVolume.hpp"

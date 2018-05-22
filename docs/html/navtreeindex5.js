@@ -198,6 +198,8 @@ var NAVTREEINDEX5 =
 "_spheroid_8hpp_source.html":[2,0,0,3,2,1,6,0],
 "_spheroid_eccentricity_8hpp_source.html":[2,0,0,3,2,1,6,1],
 "_spheroid_flattening_8hpp_source.html":[2,0,0,3,2,1,6,2],
+"_spheroid_surface_area_8hpp_source.html":[2,0,0,3,2,1,6,3],
+"_spheroid_volume_8hpp_source.html":[2,0,0,3,2,1,6,4],
 "_square_8hpp_source.html":[2,0,0,3,2,0,3,0],
 "_standard_gravitational_parameter_8hpp.html":[2,0,0,1,33],
 "_standard_gravitational_parameter_8hpp.html#ga37f4ed78b0fc23603b49ade3e435ea20":[2,0,0,1,33,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "_turn_conversion_8hpp.html#gad6aa9bdde2cde17cec136b24ee017bba":[2,0,0,3,0,0,21,10],
 "_turn_conversion_8hpp.html#gad81dd0bb1660ef24e28fa15b2403dec7":[2,0,0,3,0,0,21,9],
 "_turn_conversion_8hpp.html#gaea42f973566f770cc3552831717f525e":[2,0,0,3,0,0,21,4],
-"_turn_conversion_8hpp.html#gaefdee18d878c2e66e7bd737c8900ab30":[2,0,0,3,0,0,21,7],
-"_turn_conversion_8hpp_source.html":[2,0,0,3,0,0,21],
-"_turn_conversion_8inl.html":[2,0,0,3,0,0,22]
+"_turn_conversion_8hpp.html#gaefdee18d878c2e66e7bd737c8900ab30":[2,0,0,3,0,0,21,7]
 };

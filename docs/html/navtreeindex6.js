@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"_turn_conversion_8hpp_source.html":[2,0,0,3,0,0,21],
+"_turn_conversion_8inl.html":[2,0,0,3,0,0,22],
 "_turn_conversion_8inl.html#ga05d6fea8f8475831e93dd23f6196393f":[2,0,0,3,0,0,22,15],
 "_turn_conversion_8inl.html#ga0bc017b3314253352ddec728d3f6b76a":[2,0,0,3,0,0,22,12],
 "_turn_conversion_8inl.html#ga19eceb6db54a1cf17789639c2a869cb9":[2,0,0,3,0,0,22,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga05d6fea8f8475831e93dd23f6196393f":[1,0,0,0,10,15],
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga0bc017b3314253352ddec728d3f6b76a":[1,0,0,0,10,12],
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga19eceb6db54a1cf17789639c2a869cb9":[1,0,0,0,10,6],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga2aea2621472294ce4c25ac7e55db51c6":[1,0,0,0,10,16],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga41a861a04d65aab05647b32142e6d80d":[1,0,0,0,10,14],
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga678efb8f5c3958351fc3f1dfaf117b28":[1,0,0,0,10,3]
+"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga2aea2621472294ce4c25ac7e55db51c6":[1,0,0,0,10,16]
 };

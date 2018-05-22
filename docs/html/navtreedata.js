@@ -40,11 +40,11 @@ var NAVTREEINDEX =
 "_log_functions_8inl.html#ga4cd6a087fb1977d52a321bfad0dae0f6",
 "_n_i_s_t_const_8hpp.html#ga9d0e42d75a0a4230030ba2905f158760",
 "_planet_criteria_8hpp.html#gae0c7dce2779d66b0560ca388a34ddc39",
-"_turn_conversion_8inl.html#ga05d6fea8f8475831e93dd23f6196393f",
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga6ca011c0ae55ae079402080d7a1b4010",
-"group___e_g_x_phys-_mass_defect.html#gab51169bf871d0ea0ee0642fa300228fe",
-"group___n_i_s_t_const-_elementary_charge.html",
-"group___n_i_s_t_const-_tau.html#gab3e3d1b44d1154e48473258e66776a98"
+"_turn_conversion_8hpp_source.html",
+"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga41a861a04d65aab05647b32142e6d80d",
+"group___e_g_x_phys-_luminosity.html",
+"group___n_i_s_t_const-_electron_volt.html#ga62eaf49fce099edf5f51c125dc4dd927",
+"group___n_i_s_t_const-_tau.html#ga1e7146f26e4cb920f72024f7f00a2ffc"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

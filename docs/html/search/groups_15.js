@@ -7,6 +7,7 @@ var searchData=
   ['semi_2dminor_20axis',['Semi-Minor Axis',['../group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis.html',1,'']]],
   ['surface_20area',['Surface Area',['../group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area.html',1,'']]],
   ['spheroid',['Spheroid',['../group___e_g_x_math-_geometry-3_d-_spheroid.html',1,'']]],
+  ['surface_20area',['Surface Area',['../group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area.html',1,'']]],
   ['standard_20gravitational_20parameter',['Standard Gravitational Parameter',['../group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html',1,'']]],
   ['surface_20gravity',['Surface Gravity',['../group___e_g_x_phys-_astrophysics-_surface_gravity.html',1,'']]],
   ['separation_20energy',['Separation Energy',['../group___e_g_x_phys-_nuclear_separation_energy.html',1,'']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga41a861a04d65aab05647b32142e6d80d":[1,0,0,0,10,14],
+"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga678efb8f5c3958351fc3f1dfaf117b28":[1,0,0,0,10,3],
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga6ca011c0ae55ae079402080d7a1b4010":[1,0,0,0,10,8],
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga72cda928d9043c7d82097b1a7920769e":[1,0,0,0,10,1],
 "group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga72e6d3c46ebfc25f7be5050136d8df16":[1,0,0,0,10,17],
@@ -146,6 +148,10 @@ var NAVTREEINDEX7 =
 "group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga640f4bcd86aa4c378819bffda31c0852":[1,0,2,2,3,1,0],
 "group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga8f547f5dd10721862b602c7769eb6116":[1,0,2,2,3,1,2],
 "group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga9822b6e1025edbf7d272949547c53511":[1,0,2,2,3,1,1],
+"group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area.html":[1,0,2,2,3,2],
+"group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area.html#ga32a21d075102ea9a235a43165675627e":[1,0,2,2,3,2,0],
+"group___e_g_x_math-_geometry-3_d-_spheroid-_volume.html":[1,0,2,2,3,3],
+"group___e_g_x_math-_geometry-3_d-_spheroid-_volume.html#gac89ed1e10e56c724b341591ecc5605dc":[1,0,2,2,3,3,0],
 "group___e_g_x_math-_geometry-3_d-_spheroid.html":[1,0,2,2,3],
 "group___e_g_x_math-_geometry-3_d.html":[1,0,2,2],
 "group___e_g_x_math-_geometry-4_d.html":[1,0,2,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX7 =
 "group___e_g_x_phys-_lorentz_transformations.html#ga1ea24128654ac333dd843afdd5c003b7":[1,1,8,0,2],
 "group___e_g_x_phys-_lorentz_transformations.html#ga5f9b11c1f4c3ae26a7e64f02c22d5a75":[1,1,8,0,0],
 "group___e_g_x_phys-_lorentz_transformations.html#ga601de8c039be89a9abea22bc459436c9":[1,1,8,0,1],
-"group___e_g_x_phys-_lorentz_transformations.html#ga8064f5bce1d2ca5f7bc39d95ba4d2dd9":[1,1,8,0,3],
-"group___e_g_x_phys-_luminosity.html":[1,1,1,8],
-"group___e_g_x_phys-_luminosity.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4":[1,1,1,8,1],
-"group___e_g_x_phys-_luminosity.html#ga909f82edfaed449b44e94788b642ebb8":[1,1,1,8,0],
-"group___e_g_x_phys-_mass_defect.html":[1,1,2,3],
-"group___e_g_x_phys-_mass_defect.html#ga08cff1dfa3259af8f1b67ec741796e91":[1,1,2,3,1],
-"group___e_g_x_phys-_mass_defect.html#ga70400004a5cb622de372ab84670731ef":[1,1,2,3,4]
+"group___e_g_x_phys-_lorentz_transformations.html#ga8064f5bce1d2ca5f7bc39d95ba4d2dd9":[1,1,8,0,3]
 };
