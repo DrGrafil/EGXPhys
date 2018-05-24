@@ -1,4 +1,4 @@
-/// @file EGXMath/Geometry/3D/SpheroidVolume.inl
+/// @file EGXMath/Geometry/3D/Spheroid/SpheroidVolume.inl
 ///
 /// @brief Implimentation of functions relating to the volume of a spheroid.
 /// @author Elliot Grafil (Metex)

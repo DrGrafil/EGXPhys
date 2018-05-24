@@ -1,4 +1,4 @@
-/// @file EGXMath/Geometry/3D/SpheroidFlattening.hpp
+/// @file EGXMath/Geometry/3D/Spheroid/SpheroidFlattening.hpp
 /// 
 /// @brief Defines functions relating to flattening of a spheroid.
 ///

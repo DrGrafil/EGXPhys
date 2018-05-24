@@ -33,9 +33,9 @@ namespace EGXMath
     *
     *	See http://mathworld.wolfram.com/Ellipsoid.html and https://en.wikipedia.org/wiki/Ellipsoid
     *
-    *	@param aSemiPrincipleAxisInm \f$ a\ (m)\f$ One of the semi-principle axis of the ellipsoid in meters.
-    *	@param bSemiPrincipleAxisInm \f$ b\ (m)\f$ One of the semi-principle axis of the ellipsoid in meters.
-    *	@param cSemiPrincipleAxisInm \f$ c\ (m)\f$ One of the semi-principle axis of the ellipsoid in meters.
+    *	@param aSemiPrincipleAxisInm \f$ a\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the x-axis in meters.
+    *	@param bSemiPrincipleAxisInm \f$ b\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the y-axis in meters.
+    *	@param cSemiPrincipleAxisInm \f$ c\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the z-axis in meters.
     *   @return \f$ V_{ellipsoid}\ (m^3)\f$ Volume of ellipsoid in meter cubed.
     */
     template <typename T>

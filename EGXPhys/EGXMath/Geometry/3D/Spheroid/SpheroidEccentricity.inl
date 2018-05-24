@@ -1,4 +1,4 @@
-/// @file EGXMath/Geometry/3D/SpheroidEccentricity.inl
+/// @file EGXMath/Geometry/3D/Spheroid/SpheroidEccentricity.inl
 ///
 /// @brief Implimentation of spheroid eccentricity functions.
 /// @author Elliot Grafil (Metex)

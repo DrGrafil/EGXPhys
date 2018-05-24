@@ -1,8 +1,8 @@
-/// @file EGXMath/Geometry/2D/Ellipse/EllipseSurfaceArea.inl
+/// @file EGXMath/Geometry/3D/Spheroid/SpheroidSurfaceArea.inl
 ///
-/// @brief Implimentation of functions related to ellipse surface area.
+/// @brief Implimentation of functions related to the surface area of an spheroid.
 /// @author Elliot Grafil (Metex)
-/// @date 4/23/18
+/// @date 5/23/18
 
 
 namespace EGXMath {

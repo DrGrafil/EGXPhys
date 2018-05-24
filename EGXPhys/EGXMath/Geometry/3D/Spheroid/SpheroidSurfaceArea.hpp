@@ -1,9 +1,9 @@
-/// @file EGXMath/Geometry/3D/SpheroidSurfaceArea.hpp
+/// @file EGXMath/Geometry/3D/Spheroid/SpheroidSurfaceArea.hpp
 /// 
 /// @brief Defines functions relating to the surface area of a spheroid.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 4/20/18
+/// @date 5/20/18
 
 /// @defgroup EGXMath-Geometry-3D-Spheroid-SurfaceArea Surface Area
 /// @ingroup EGXMath-Geometry-3D-Spheroid

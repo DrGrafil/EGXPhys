@@ -1,4 +1,4 @@
-/// @file EGXMath/Geometry/3D/Spheroid.hpp
+/// @file EGXMath/Geometry/3D/Spheroid/Spheroid.hpp
 /// 
 /// @brief Defines functions relating to spheroid shape.
 ///

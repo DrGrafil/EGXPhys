@@ -1,4 +1,4 @@
-/// @file EGXMath/Geometry/3D/SpheroidEccentricity.hpp
+/// @file EGXMath/Geometry/3D/Spheroid/SpheroidEccentricity.hpp
 /// 
 /// @brief Defines functions relating to eccentricity of a spheroid.
 ///

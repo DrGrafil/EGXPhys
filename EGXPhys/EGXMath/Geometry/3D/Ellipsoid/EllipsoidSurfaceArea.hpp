@@ -35,9 +35,9 @@ namespace EGXMath
     *   See http://www.numericana.com/answer/ellipsoid.htm for formula constant derived by Knud Thomsen.
     *   See Klamkin, Murray S. "Elementary approximations to the area of n-dimensional ellipsoids." The American Mathematical Monthly 78.3 (1971): 280-283. for formula derivation.
 	*
-    *	@param aSemiPrincipleAxisInm \f$ a\ (m)\f$ One of the semi-principle axis of the ellipsoid in meters.
-    *	@param bSemiPrincipleAxisInm \f$ b\ (m)\f$ One of the semi-principle axis of the ellipsoid in meters.
-    *	@param cSemiPrincipleAxisInm \f$ c\ (m)\f$ One of the semi-principle axis of the ellipsoid in meters.
+    *	@param aSemiPrincipleAxisInm \f$ a\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the x-axis in meters.
+    *	@param bSemiPrincipleAxisInm \f$ b\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the y-axis in meters.
+    *	@param cSemiPrincipleAxisInm \f$ c\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the z-axis in meters.
 	*   @return \f$ S_{ellipsoid}\ (m^2)\f$ Surface area of spheroid in meter squared.
 	*/
 	template <typename T>
