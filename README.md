@@ -86,7 +86,7 @@ Thermodynamics | |
 Updated 5/21/2018:
 
 | Field									| Section 																| Subsection 															| Subsection 															| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
-|:--- 									| :--- 																		| :---																		| 																				| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
+|:--- 									| :--- 																		| :---																		|  :---																		| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
 | Acoustics							| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 | Astrophysics					| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 |											| Absolute Magnitude											| 																				| 																				| X							| X			 				|						| 								| 								|								|
