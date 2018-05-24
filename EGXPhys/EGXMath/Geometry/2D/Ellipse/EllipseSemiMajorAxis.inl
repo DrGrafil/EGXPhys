@@ -59,6 +59,6 @@ namespace EGXMath {
 
 	template <typename T>
 	T EllipseSemiMajorAxisFromSemiLatusRectumAndFocalParameter(const T semiLatusRectumInm, const T focalParameterInm) {
-		return semiMinorAxisInm / ( (T)1.0 - ( (semiLatusRectumInm * semiLatusRectumInm) /  (focalParameterInm * focalParameterInm) ) );
+		return semiLatusRectumInm / ( (T)1.0 - ( (semiLatusRectumInm * semiLatusRectumInm) /  (focalParameterInm * focalParameterInm) ) );
 	}
 }//namespace EGXMath

@@ -6,9 +6,9 @@
 
 #include "AngularConversionsTest.hpp"
 
-#include "CoordinateConversions\2D\2DCartesianCoordinateConversionTest.hpp"
-#include "CoordinateConversions\2D\PolarCoordinateConversionTest.hpp"
+#include "CoordinateConversions/2D/2DCartesianCoordinateConversionTest.hpp"
+#include "CoordinateConversions/2D/PolarCoordinateConversionTest.hpp"
 
-#include "CoordinateConversions\3D\3DCartesianCoordinateConversionTest.hpp"
-#include "CoordinateConversions\3D\CylindricalCoordinateConversionTest.hpp"
-#include "CoordinateConversions\3D\SphericalCoordinateConversionTest.hpp"
+#include "CoordinateConversions/3D/3DCartesianCoordinateConversionTest.hpp"
+#include "CoordinateConversions/3D/CylindricalCoordinateConversionTest.hpp"
+#include "CoordinateConversions/3D/SphericalCoordinateConversionTest.hpp"

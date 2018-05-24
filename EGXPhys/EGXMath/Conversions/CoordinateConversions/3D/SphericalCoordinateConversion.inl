@@ -34,7 +34,7 @@ namespace EGXMath {
         );
 
         shiftedZenithInRadians = acos(
-            ((pointR * cp1) - (centerR * cp2)) / R
+            ((pointR * cp1) - (centerR * cp2)) / shiftedR
         );
 
     }
