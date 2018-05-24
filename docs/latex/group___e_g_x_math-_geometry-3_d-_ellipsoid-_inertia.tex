@@ -1,0 +1,116 @@
+\hypertarget{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia}{}\section{Inertia}
+\label{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia}\index{Inertia@{Inertia}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia_ga3b6f641f06037be75b8f51822eaa71bf}{E\+G\+X\+Math\+::\+Ellipsoid\+Inertia}} (const T mass, const T a\+Semi\+Principle\+Axis\+Inm, const T b\+Semi\+Principle\+Axis\+Inm, const T c\+Semi\+Principle\+Axis\+Inm, T2(\&matrix)\mbox{[}9\mbox{]})
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{ellipsoid}$ of an ellipsoid with three distinct semi-\/principle axes, $a$, $b$ and $c$. It is assumed that $a$ lays on the x-\/axis, $b$ on the y-\/axis and $c$ on the z-\/axis. \[ I_{ellipsoid}=\begin{bmatrix} \frac{1}{2}m\ b^2c^2 & 0 & 0\\ 0 & \frac{1}{2}m\ a^2c^2 & 0\\ 0 & 0 & m\ a^2b^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Ellipsoid.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia_ga05dee023c58e7615d16e431bf5a99609}{E\+G\+X\+Math\+::\+Ellipsoid\+Inertia}} (const T mass, const T a\+Semi\+Principle\+Axis\+Inm, const T b\+Semi\+Principle\+Axis\+Inm, const T c\+Semi\+Principle\+Axis\+Inm, std\+::vector$<$ T2 $>$ \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{ellipsoid}$ of an ellipsoid with three distinct semi-\/principle axes, $a$, $b$ and $c$. It is assumed that $a$ lays on the x-\/axis, $b$ on the y-\/axis and $c$ on the z-\/axis. \[ I_{ellipsoid}=\begin{bmatrix} \frac{1}{2}m\ b^2c^2 & 0 & 0\\ 0 & \frac{1}{2}m\ a^2c^2 & 0\\ 0 & 0 & m\ a^2b^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Ellipsoid.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia_gaed602dd93a68fdd7d4bafe883b093153}{E\+G\+X\+Math\+::\+Ellipsoid\+Inertia}} (const T mass, const T a\+Semi\+Principle\+Axis\+Inm, const T b\+Semi\+Principle\+Axis\+Inm, const T c\+Semi\+Principle\+Axis\+Inm, glm\+::mat3 \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{ellipsoid}$ of an ellipsoid with three distinct semi-\/principle axes, $a$, $b$ and $c$. It is assumed that $a$ lays on the x-\/axis, $b$ on the y-\/axis and $c$ on the z-\/axis. \[ I_{ellipsoid}=\begin{bmatrix} \frac{1}{2}m\ b^2c^2 & 0 & 0\\ 0 & \frac{1}{2}m\ a^2c^2 & 0\\ 0 & 0 & m\ a^2b^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Ellipsoid.\+html}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia_ga3b6f641f06037be75b8f51822eaa71bf}\label{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia_ga3b6f641f06037be75b8f51822eaa71bf}} 
+\index{Inertia@{Inertia}!Ellipsoid\+Inertia@{Ellipsoid\+Inertia}}
+\index{Ellipsoid\+Inertia@{Ellipsoid\+Inertia}!Inertia@{Inertia}}
+\subsubsection{\texorpdfstring{Ellipsoid\+Inertia()}{EllipsoidInertia()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+void E\+G\+X\+Math\+::\+Ellipsoid\+Inertia (\begin{DoxyParamCaption}\item[{const T}]{mass,  }\item[{const T}]{a\+Semi\+Principle\+Axis\+Inm,  }\item[{const T}]{b\+Semi\+Principle\+Axis\+Inm,  }\item[{const T}]{c\+Semi\+Principle\+Axis\+Inm,  }\item[{T2(\&)}]{matrix\mbox{[}9\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Finds the moment of inertia tensor, $I_{ellipsoid}$ of an ellipsoid with three distinct semi-\/principle axes, $a$, $b$ and $c$. It is assumed that $a$ lays on the x-\/axis, $b$ on the y-\/axis and $c$ on the z-\/axis. \[ I_{ellipsoid}=\begin{bmatrix} \frac{1}{2}m\ b^2c^2 & 0 & 0\\ 0 & \frac{1}{2}m\ a^2c^2 & 0\\ 0 & 0 & m\ a^2b^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Ellipsoid.\+html}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass} & $ m\ (kg)$ Mass of the ellipsoid. \\
+\hline
+{\em a\+Semi\+Principle\+Axis\+Inm} & $ a\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the x-\/axis in meters. \\
+\hline
+{\em b\+Semi\+Principle\+Axis\+Inm} & $ b\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the y-\/axis in meters. \\
+\hline
+{\em c\+Semi\+Principle\+Axis\+Inm} & $ c\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the z-\/axis in meters. \\
+\hline
+{\em matrix} & $ I_{ellipsoid}\ (kg\ m^2)$ Moment of inertia tensor matrix of the ellipsoid. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_surface_area_gae1dfe0a51a3adc5121de3ced76b4068c}{Ellipsoid\+Surface\+Area()}} for surface area of an ellipsoid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_volume_ga82d69f6cd6f1d4f890d875090924265d}{Ellipsoid\+Volume()}} for volume of an ellipsoid. 
+
+Sphere\+Inertia() for inertial tensor of a sphere. 
+
+Spheroid\+Inertia() for inertial tensor of a spheroid. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia_ga05dee023c58e7615d16e431bf5a99609}\label{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia_ga05dee023c58e7615d16e431bf5a99609}} 
+\index{Inertia@{Inertia}!Ellipsoid\+Inertia@{Ellipsoid\+Inertia}}
+\index{Ellipsoid\+Inertia@{Ellipsoid\+Inertia}!Inertia@{Inertia}}
+\subsubsection{\texorpdfstring{Ellipsoid\+Inertia()}{EllipsoidInertia()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+void E\+G\+X\+Math\+::\+Ellipsoid\+Inertia (\begin{DoxyParamCaption}\item[{const T}]{mass,  }\item[{const T}]{a\+Semi\+Principle\+Axis\+Inm,  }\item[{const T}]{b\+Semi\+Principle\+Axis\+Inm,  }\item[{const T}]{c\+Semi\+Principle\+Axis\+Inm,  }\item[{std\+::vector$<$ T2 $>$ \&}]{matrix }\end{DoxyParamCaption})}
+
+
+
+Finds the moment of inertia tensor, $I_{ellipsoid}$ of an ellipsoid with three distinct semi-\/principle axes, $a$, $b$ and $c$. It is assumed that $a$ lays on the x-\/axis, $b$ on the y-\/axis and $c$ on the z-\/axis. \[ I_{ellipsoid}=\begin{bmatrix} \frac{1}{2}m\ b^2c^2 & 0 & 0\\ 0 & \frac{1}{2}m\ a^2c^2 & 0\\ 0 & 0 & m\ a^2b^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Ellipsoid.\+html}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass} & $ m\ (kg)$ Mass of the ellipsoid. \\
+\hline
+{\em a\+Semi\+Principle\+Axis\+Inm} & $ a\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the x-\/axis in meters. \\
+\hline
+{\em b\+Semi\+Principle\+Axis\+Inm} & $ b\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the y-\/axis in meters. \\
+\hline
+{\em c\+Semi\+Principle\+Axis\+Inm} & $ c\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the z-\/axis in meters. \\
+\hline
+{\em matrix} & $ I_{ellipsoid}\ (kg\ m^2)$ Moment of inertia tensor matrix of the ellipsoid. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_surface_area_gae1dfe0a51a3adc5121de3ced76b4068c}{Ellipsoid\+Surface\+Area()}} for surface area of an ellipsoid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_volume_ga82d69f6cd6f1d4f890d875090924265d}{Ellipsoid\+Volume()}} for volume of an ellipsoid. 
+
+Sphere\+Inertia() for inertial tensor of a sphere. 
+
+Spheroid\+Inertia() for inertial tensor of a spheroid. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia_gaed602dd93a68fdd7d4bafe883b093153}\label{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia_gaed602dd93a68fdd7d4bafe883b093153}} 
+\index{Inertia@{Inertia}!Ellipsoid\+Inertia@{Ellipsoid\+Inertia}}
+\index{Ellipsoid\+Inertia@{Ellipsoid\+Inertia}!Inertia@{Inertia}}
+\subsubsection{\texorpdfstring{Ellipsoid\+Inertia()}{EllipsoidInertia()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void E\+G\+X\+Math\+::\+Ellipsoid\+Inertia (\begin{DoxyParamCaption}\item[{const T}]{mass,  }\item[{const T}]{a\+Semi\+Principle\+Axis\+Inm,  }\item[{const T}]{b\+Semi\+Principle\+Axis\+Inm,  }\item[{const T}]{c\+Semi\+Principle\+Axis\+Inm,  }\item[{glm\+::mat3 \&}]{matrix }\end{DoxyParamCaption})}
+
+
+
+Finds the moment of inertia tensor, $I_{ellipsoid}$ of an ellipsoid with three distinct semi-\/principle axes, $a$, $b$ and $c$. It is assumed that $a$ lays on the x-\/axis, $b$ on the y-\/axis and $c$ on the z-\/axis. \[ I_{ellipsoid}=\begin{bmatrix} \frac{1}{2}m\ b^2c^2 & 0 & 0\\ 0 & \frac{1}{2}m\ a^2c^2 & 0\\ 0 & 0 & m\ a^2b^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Ellipsoid.\+html}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass} & $ m\ (kg)$ Mass of the ellipsoid. \\
+\hline
+{\em a\+Semi\+Principle\+Axis\+Inm} & $ a\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the x-\/axis in meters. \\
+\hline
+{\em b\+Semi\+Principle\+Axis\+Inm} & $ b\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the y-\/axis in meters. \\
+\hline
+{\em c\+Semi\+Principle\+Axis\+Inm} & $ c\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the z-\/axis in meters. \\
+\hline
+{\em matrix} & $ I_{ellipsoid}\ (kg\ m^2)$ Moment of inertia tensor matrix of the ellipsoid. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_surface_area_gae1dfe0a51a3adc5121de3ced76b4068c}{Ellipsoid\+Surface\+Area()}} for surface area of an ellipsoid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_volume_ga82d69f6cd6f1d4f890d875090924265d}{Ellipsoid\+Volume()}} for volume of an ellipsoid. 
+
+Sphere\+Inertia() for inertial tensor of a sphere. 
+
+Spheroid\+Inertia() for inertial tensor of a spheroid. 
+\end{DoxySeeAlso}

@@ -37,6 +37,10 @@ namespace EGXMath
     *	@param bSemiPrincipleAxisInm \f$ b\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the y-axis in meters.
     *	@param cSemiPrincipleAxisInm \f$ c\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the z-axis in meters.
     *   @return \f$ V_{ellipsoid}\ (m^3)\f$ Volume of ellipsoid in meter cubed.
+    *	@see EllipsoidSurfaceArea() for surface area of an ellipsoid.
+    *	@see EllipsoidInertia() for inertial tensor of an ellipsoid.
+    *	@see SphereVolume() for volume of a sphere.
+    *	@see SpheroidVolume() for volume of a spheroid.
     */
     template <typename T>
     T EllipsoidVolume(const T aSemiPrincipleAxisInm, const T bSemiPrincipleAxisInm, const T cSemiPrincipleAxisInm);

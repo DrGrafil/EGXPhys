@@ -1,0 +1,27 @@
+\hypertarget{_spheroid_eccentricity_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Spheroid/\+Spheroid\+Eccentricity.hpp File Reference}
+\label{_spheroid_eccentricity_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Spheroid/\+Spheroid\+Eccentricity.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Spheroid/\+Spheroid\+Eccentricity.\+hpp}}
+
+
+Defines functions relating to eccentricity of a spheroid.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Spheroid\+Eccentricity.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab45680528a41bb7a5e15ddc0059156dd}{E\+G\+X\+Math\+::\+Spheroid\+Eccentricity}} (const T flattening)
+\begin{DoxyCompactList}\small\item\em Finds the eccentricity, $e$, of a spheroid from flattening, $f$\+: \[ e = \sqrt{f (2 - f)} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab4c867532eef5a52e8e575e2a6b18bf8}{E\+G\+X\+Math\+::\+Spheroid\+Eccentricity}} (const T equatorial\+Radius, const T polar\+Radius)
+\begin{DoxyCompactList}\small\item\em Finds the eccentricity, $e$, of a spheroid with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \sqrt{\frac{a^2-c^2}{a^2}} & oblate \\ \sqrt{\frac{c^2-a^2}{a^2}} & prolate \end{cases} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines functions relating to eccentricity of a spheroid. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/20/18 
+\end{DoxyDate}

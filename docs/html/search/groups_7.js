@@ -5,6 +5,7 @@ var searchData=
   ['egxmath_2dgeometry_2d',['EGXMath-Geometry-',['../group___e_g_x_math-_geometry-.html',1,'']]],
   ['ellipse',['Ellipse',['../group___e_g_x_math-_geometry-2_d-_ellipse.html',1,'']]],
   ['eccentricity',['Eccentricity',['../group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html',1,'']]],
+  ['ellipsoid',['Ellipsoid',['../group___e_g_x_math-_geometry-3_d-_ellipsoid.html',1,'']]],
   ['eccentricity',['Eccentricity',['../group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity.html',1,'']]],
   ['egxphys_20library',['EGXPhys Library',['../group___e_g_x_phys.html',1,'']]],
   ['escape_20velocity',['Escape Velocity',['../group___e_g_x_phys-_astrophysics-_escape_velocity.html',1,'']]],

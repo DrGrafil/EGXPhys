@@ -21,8 +21,6 @@
 //=================================
 //
 
-#include "EllipsoidEccentricity.hpp"
-#include "EllipsoidFlattening.hpp"
 #include "EllipsoidInertia.hpp"
 #include "EllipsoidSurfaceArea.hpp"
 #include "EllipsoidVolume.hpp"

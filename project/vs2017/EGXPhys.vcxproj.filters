@@ -645,12 +645,6 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\Ellipsoid.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidEccentricity.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidFlattening.hpp">
-      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidInertia.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
     </ClInclude>
@@ -906,12 +900,6 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidVolume.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
-    </None>
-    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidEccentricity.inl">
-      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
-    </None>
-    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidFlattening.inl">
-      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidInertia.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>

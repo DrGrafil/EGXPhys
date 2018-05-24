@@ -6,7 +6,7 @@
 /// @date 5/23/18
 
 /// @defgroup EGXMath-Geometry-3D-Ellipsoid-Inertia Inertia
-/// @ingroup EGXMath-Geometry-3D-Ellipsoi
+/// @ingroup EGXMath-Geometry-3D-Ellipsoid
 
 
 //=================================
@@ -31,7 +31,7 @@ namespace EGXMath
 	/// @{
 
 	/**
-	*   @brief Finds the moment of inertia tensor, \f$I_{hoop}\f$ of an ellipsoid with three distinct semi-principle axes, \f$a\f$, \f$b\f$ and \f$c\f$. It is assumed that \f$a\f$ lays on the x-axis, \f$b\f$ on the y-axis and \f$c\f$ on the z-axis.
+	*   @brief Finds the moment of inertia tensor, \f$I_{ellipsoid}\f$ of an ellipsoid with three distinct semi-principle axes, \f$a\f$, \f$b\f$ and \f$c\f$. It is assumed that \f$a\f$ lays on the x-axis, \f$b\f$ on the y-axis and \f$c\f$ on the z-axis.
 	*		\f[ I_{ellipsoid}=\begin{bmatrix}
 			\frac{1}{2}m\ b^2c^2 & 0 & 0\\ 
 			0 & \frac{1}{2}m\ a^2c^2 & 0\\ 
@@ -43,20 +43,16 @@ namespace EGXMath
     *	@param bSemiPrincipleAxisInm \f$ b\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the y-axis in meters.
     *	@param cSemiPrincipleAxisInm \f$ c\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the z-axis in meters.
 	*	@param matrix \f$ I_{ellipsoid}\ (kg\ m^2)\f$ Moment of inertia tensor matrix of the ellipsoid.
-	*	@see CircleSurfaceArea() for area of a circle.
-	*	@see CircleCircumference() for circumference of a circle.
-	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
-	*	@see HoopInertia() for inertial tensor of a hoop.
-	*	@see DiskThinInertia() for inertial tensor of a thin disk.
-	*	@see DiskInertia() for inertial tensor of a disk.
-	*	@see CylinderInertia() for inertial tensor of a cylinder.
+	*	@see EllipsoidSurfaceArea() for surface area of an ellipsoid.
+	*	@see EllipsoidVolume() for volume of an ellipsoid.
 	*	@see SphereInertia() for inertial tensor of a sphere.
+	*	@see SpheroidInertia() for inertial tensor of a spheroid.
 	*/
 	template <typename T, typename T2>
 	void EllipsoidInertia(const T mass, const T aSemiPrincipleAxisInm, const T bSemiPrincipleAxisInm, const T cSemiPrincipleAxisInm, T2 (&matrix)[9]);
 
 	/**
-	*   @brief Finds the moment of inertia tensor, \f$I_{hoop}\f$ of an ellipsoid with three distinct semi-principle axes, \f$a\f$, \f$b\f$ and \f$c\f$. It is assumed that \f$a\f$ lays on the x-axis, \f$b\f$ on the y-axis and \f$c\f$ on the z-axis.
+	*   @brief Finds the moment of inertia tensor, \f$I_{ellipsoid}\f$ of an ellipsoid with three distinct semi-principle axes, \f$a\f$, \f$b\f$ and \f$c\f$. It is assumed that \f$a\f$ lays on the x-axis, \f$b\f$ on the y-axis and \f$c\f$ on the z-axis.
 	*		\f[ I_{ellipsoid}=\begin{bmatrix}
 			\frac{1}{2}m\ b^2c^2 & 0 & 0\\ 
 			0 & \frac{1}{2}m\ a^2c^2 & 0\\ 
@@ -68,14 +64,10 @@ namespace EGXMath
     *	@param bSemiPrincipleAxisInm \f$ b\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the y-axis in meters.
     *	@param cSemiPrincipleAxisInm \f$ c\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the z-axis in meters.
 	*	@param matrix \f$ I_{ellipsoid}\ (kg\ m^2)\f$ Moment of inertia tensor matrix of the ellipsoid.
-	*	@see CircleSurfaceArea() for area of a circle.
-	*	@see CircleCircumference() for circumference of a circle.
-	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
-	*	@see HoopInertia() for inertial tensor of a hoop.
-	*	@see DiskThinInertia() for inertial tensor of a thin disk.
-	*	@see DiskInertia() for inertial tensor of a disk.
-	*	@see CylinderInertia() for inertial tensor of a cylinder.
-	*	@see SphereInertia() for inertial tensor of a sphere.
+    *	@see EllipsoidSurfaceArea() for surface area of an ellipsoid.
+    *	@see EllipsoidVolume() for volume of an ellipsoid.
+    *	@see SphereInertia() for inertial tensor of a sphere.
+    *	@see SpheroidInertia() for inertial tensor of a spheroid.
 	*/
 	template <typename T, typename T2>
 	void EllipsoidInertia(const T mass, const T aSemiPrincipleAxisInm, const T bSemiPrincipleAxisInm, const T cSemiPrincipleAxisInm, std::vector<T2>& matrix);
@@ -83,7 +75,7 @@ namespace EGXMath
 #ifdef EGXMATH_GLM
 
 	/**
-	*   @brief Finds the moment of inertia tensor, \f$I_{hoop}\f$ of an ellipsoid with three distinct semi-principle axes, \f$a\f$, \f$b\f$ and \f$c\f$. It is assumed that \f$a\f$ lays on the x-axis, \f$b\f$ on the y-axis and \f$c\f$ on the z-axis.
+	*   @brief Finds the moment of inertia tensor, \f$I_{ellipsoid}\f$ of an ellipsoid with three distinct semi-principle axes, \f$a\f$, \f$b\f$ and \f$c\f$. It is assumed that \f$a\f$ lays on the x-axis, \f$b\f$ on the y-axis and \f$c\f$ on the z-axis.
 	*		\f[ I_{ellipsoid}=\begin{bmatrix}
 			\frac{1}{2}m\ b^2c^2 & 0 & 0\\ 
 			0 & \frac{1}{2}m\ a^2c^2 & 0\\ 
@@ -95,14 +87,10 @@ namespace EGXMath
     *	@param bSemiPrincipleAxisInm \f$ b\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the y-axis in meters.
     *	@param cSemiPrincipleAxisInm \f$ c\ (m)\f$ Semi-principle axis of the ellipsoid that lays along the z-axis in meters.
 	*	@param matrix \f$ I_{ellipsoid}\ (kg\ m^2)\f$ Moment of inertia tensor matrix of the ellipsoid.
-	*	@see CircleSurfaceArea() for area of a circle.
-	*	@see CircleCircumference() for circumference of a circle.
-	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
-	*	@see HoopInertia() for inertial tensor of a hoop.
-	*	@see DiskThinInertia() for inertial tensor of a thin disk.
-	*	@see DiskInertia() for inertial tensor of a disk.
-	*	@see CylinderInertia() for inertial tensor of a cylinder.
+	*	@see EllipsoidSurfaceArea() for surface area of an ellipsoid.
+	*	@see EllipsoidVolume() for volume of an ellipsoid.
 	*	@see SphereInertia() for inertial tensor of a sphere.
+	*	@see SpheroidInertia() for inertial tensor of a spheroid.
 	*/
 	template <typename T>
 	void EllipsoidInertia(const T mass, const T aSemiPrincipleAxisInm, const T bSemiPrincipleAxisInm, const T cSemiPrincipleAxisInm, glm::mat3& matrix);

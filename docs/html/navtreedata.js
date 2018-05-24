@@ -36,15 +36,15 @@ var NAVTREEINDEX =
 [
 "2_d_coordinate_conversions_8hpp.html",
 "_decimal_degree_conversion_8inl.html#ga6b6ea6e45d2a13f556824ca419cc9fbd",
-"_erf_functions_8inl.html#ga58f76263d205c47000068176d3116571",
-"_log_functions_8inl.html#ga4cd6a087fb1977d52a321bfad0dae0f6",
-"_n_i_s_t_const_8hpp.html#ga9d0e42d75a0a4230030ba2905f158760",
-"_planet_criteria_8hpp.html#gae0c7dce2779d66b0560ca388a34ddc39",
-"_turn_conversion_8hpp_source.html",
-"group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga41a861a04d65aab05647b32142e6d80d",
-"group___e_g_x_phys-_luminosity.html",
-"group___n_i_s_t_const-_electron_volt.html#ga62eaf49fce099edf5f51c125dc4dd927",
-"group___n_i_s_t_const-_tau.html#ga1e7146f26e4cb920f72024f7f00a2ffc"
+"_ellipsoid_inertia_8inl.html#gaed602dd93a68fdd7d4bafe883b093153",
+"_integer_degree_conversion_8inl.html#gae6b79bd5a92f8c6942b9fc2c50695e6a",
+"_n_i_s_t_const_8hpp.html#ga914b7e695d256449d84172422995ac55",
+"_periodic_functions_8hpp.html#ga3eab4a0455f64881f9c183987682d85c",
+"_stellar_temperature_8hpp.html",
+"group___e_g_x_math-_conversions-_angle_conversions-_integer_degree.html#ga06ddbdada5a3978105c855d4aae735ae",
+"group___e_g_x_phys-_astrophysics-_right_ascension.html#ga624dd87144a17d19d0100500c34da978",
+"group___n_i_s_t_const-_deuteron.html#ga2597b94684d1894c35c32d39cb6002bf",
+"group___n_i_s_t_const-_proton.html#ga3bcaff76ecd391b08e5dad3ab7c912ff"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

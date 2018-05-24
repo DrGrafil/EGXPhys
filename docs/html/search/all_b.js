@@ -2,6 +2,7 @@ var searchData=
 [
   ['integer_20degree',['Integer Degree',['../group___e_g_x_math-_conversions-_angle_conversions-_integer_degree.html',1,'']]],
   ['inertia',['Inertia',['../group___e_g_x_math-_geometry-2_d-_ellipse-_inertia.html',1,'']]],
+  ['inertia',['Inertia',['../group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia.html',1,'']]],
   ['impedanceofvacuum',['impedanceOfVacuum',['../group___n_i_s_t_const-_impedance_of_vacuum.html#gaed60576e7b6ccd87ca6204e09efd98ee',1,'NISTConst']]],
   ['integerdegreeconversion_2ehpp',['IntegerDegreeConversion.hpp',['../_integer_degree_conversion_8hpp.html',1,'']]],
   ['integerdegreeconversion_2einl',['IntegerDegreeConversion.inl',['../_integer_degree_conversion_8inl.html',1,'']]],
