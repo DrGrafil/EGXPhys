@@ -40,11 +40,11 @@ var NAVTREEINDEX =
 "_integer_degree_conversion_8inl.html#gae6b79bd5a92f8c6942b9fc2c50695e6a",
 "_n_i_s_t_const_8hpp.html#ga914b7e695d256449d84172422995ac55",
 "_periodic_functions_8hpp.html#ga3eab4a0455f64881f9c183987682d85c",
-"_stellar_temperature_8hpp.html",
-"group___e_g_x_math-_conversions-_angle_conversions-_integer_degree.html#ga06ddbdada5a3978105c855d4aae735ae",
-"group___e_g_x_phys-_astrophysics-_right_ascension.html#ga624dd87144a17d19d0100500c34da978",
-"group___n_i_s_t_const-_deuteron.html#ga2597b94684d1894c35c32d39cb6002bf",
-"group___n_i_s_t_const-_proton.html#ga3bcaff76ecd391b08e5dad3ab7c912ff"
+"_standard_gravitational_parameter_8hpp.html#ga37f4ed78b0fc23603b49ade3e435ea20",
+"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gad6662d1113ae8aea6baca6317888b4cd",
+"group___e_g_x_phys-_astrophysics-_color_temperature.html",
+"group___n_i_s_t_const-_conductance_quantum.html#ga134ad3777be531b9ba1313ef94a6885f",
+"group___n_i_s_t_const-_planck_mass.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

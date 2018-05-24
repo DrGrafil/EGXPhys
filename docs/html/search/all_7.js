@@ -13,6 +13,7 @@ var searchData=
   ['eccentricity',['Eccentricity',['../group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html',1,'']]],
   ['ellipsoid',['Ellipsoid',['../group___e_g_x_math-_geometry-3_d-_ellipsoid.html',1,'']]],
   ['eccentricity',['Eccentricity',['../group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity.html',1,'']]],
+  ['equatorial_20radius',['Equatorial Radius',['../group___e_g_x_math-_geometry-3_d-_spheroid-_equatorial_radius.html',1,'']]],
   ['egxmath_2ehpp',['EGXMath.hpp',['../_e_g_x_math_8hpp.html',1,'']]],
   ['egxphys_20library',['EGXPhys Library',['../group___e_g_x_phys.html',1,'']]],
   ['escape_20velocity',['Escape Velocity',['../group___e_g_x_phys-_astrophysics-_escape_velocity.html',1,'']]],

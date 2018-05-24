@@ -3,7 +3,7 @@
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga32a21d075102ea9a235a43165675627e}{E\+G\+X\+Math\+::\+Spheroid\+Surface\+Area}} (const T symmetric\+Semi\+Principle\+Axis\+Inm, const T unique\+Semi\+Principle\+Axis\+Inm)
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga5a3580e7ded82cb678a558905f41ae49}{E\+G\+X\+Math\+::\+Spheroid\+Surface\+Area}} (const T equatorial\+Radius\+Inm, const T polar\+Radius\+Inm)
 \begin{DoxyCompactList}\small\item\em Finds the surface area, $A_{spheroid}$, in meter squared of a spheroid with two equal semi-\/principle axis $a$ and a unique semi-\/princple axis $c$. If $a < c$, the spheroid is prolate, if $a = c$ it is a sphere and if $a>c$ the sphere is oblate. \[ S_{spheroid}=\begin{cases} 2\pi a^2 + 2\pi\dfrac{a c^2}{\sqrt{c^2-a^2}}\arcsin \left ( \dfrac{\sqrt{c^2-a^2}}{c} \right ) & a<c\ prolate \\ 2\pi a^2 +\pi \dfrac{a c^2}{\sqrt{a^2-c^2}}\ln \left(\dfrac{1+\dfrac{\sqrt{a^2-c^2}}{a}}{1-\dfrac{\sqrt{a^2-c^2}}{a}}\right )& a>c\ oblate \end{cases} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -11,12 +11,12 @@
 
 
 \subsection{Function Documentation}
-\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga32a21d075102ea9a235a43165675627e}\label{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga32a21d075102ea9a235a43165675627e}} 
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga5a3580e7ded82cb678a558905f41ae49}\label{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga5a3580e7ded82cb678a558905f41ae49}} 
 \index{Surface Area@{Surface Area}!Spheroid\+Surface\+Area@{Spheroid\+Surface\+Area}}
 \index{Spheroid\+Surface\+Area@{Spheroid\+Surface\+Area}!Surface Area@{Surface Area}}
 \subsubsection{\texorpdfstring{Spheroid\+Surface\+Area()}{SpheroidSurfaceArea()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Spheroid\+Surface\+Area (\begin{DoxyParamCaption}\item[{const T}]{symmetric\+Semi\+Principle\+Axis\+Inm,  }\item[{const T}]{unique\+Semi\+Principle\+Axis\+Inm }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Spheroid\+Surface\+Area (\begin{DoxyParamCaption}\item[{const T}]{equatorial\+Radius\+Inm,  }\item[{const T}]{polar\+Radius\+Inm }\end{DoxyParamCaption})}
 
 
 
@@ -26,11 +26,24 @@ See \href{http://mathworld.wolfram.com/Ellipse.html}{\tt http\+://mathworld.\+wo
 
 
 \begin{DoxyParams}{Parameters}
-{\em symmetric\+Semi\+Principle\+Axis\+Inm} & $ a\ (m)$ Semi-\/principle axis of the spheroid in meters that is equal to another semi-\/principle axis. \\
+{\em equatorial\+Radius\+Inm} & $ a\ (m)$ Equatorial radius in meters. The degenerate semi-\/principle axis of the spheroid. \\
 \hline
-{\em unique\+Semi\+Principle\+Axis\+Inm} & $ c\ (m)$ Semi-\/principle axis of the spheroid in meters that is of diffrent length then the other semi-\/principle axes. \\
+{\em polar\+Radius\+Inm} & $ c\ (m)$ Polar radius in meters. The unique semi-\/principle axis of the spheroid. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 $ S_{spheroid}\ (m^2)$ Surface area of spheroid in meter squared. 
 \end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab45680528a41bb7a5e15ddc0059156dd}{Spheroid\+Eccentricity()}} for eccentricity of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_equatorial_radius_ga1cbe564fee1b509c622d1c6d276158cd}{Spheroid\+Equatorial\+Radius()}} for equatorial radius of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga05e3be91f5f7fbaa9371687aa3834179}{Spheroid\+Flattening()}} for flattening of a spheroid. 
+
+Spheroid\+Inertia() for inertia tensor of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius_gad4791a46a7efe39c63c03d2366fdd3d2}{Spheroid\+Polar\+Radius()}} for polar radius of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_volume_ga12125484235e94b8f2580f3476b05b92}{Spheroid\+Volume()}} for volume of a spheroid. 
+\end{DoxySeeAlso}

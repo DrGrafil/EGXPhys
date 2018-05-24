@@ -1,5 +1,17 @@
 var NAVTREEINDEX8 =
 {
+"group___e_g_x_phys-_astrophysics-_color_temperature.html":[1,1,1,4],
+"group___e_g_x_phys-_astrophysics-_color_temperature.html#ga81db6b5b397c9f788001be73adae032d":[1,1,1,4,0],
+"group___e_g_x_phys-_astrophysics-_color_temperature.html#gaad787485a232976da96c2c785ce21dad":[1,1,1,4,1],
+"group___e_g_x_phys-_astrophysics-_declination.html":[1,1,1,5],
+"group___e_g_x_phys-_astrophysics-_declination.html#ga0c90ea1406801810378d9618553c9a9b":[1,1,1,5,0],
+"group___e_g_x_phys-_astrophysics-_declination.html#ga384229c66d2ea6249c9609caa1ec9354":[1,1,1,5,1],
+"group___e_g_x_phys-_astrophysics-_declination.html#gad12d59741171420fc420f3c469df4a82":[1,1,1,5,3],
+"group___e_g_x_phys-_astrophysics-_declination.html#gaff645fbd9a1de42e9cdbfb37fdac78c9":[1,1,1,5,2],
+"group___e_g_x_phys-_astrophysics-_escape_velocity.html":[1,1,1,7],
+"group___e_g_x_phys-_astrophysics-_escape_velocity.html#gaeb8c0c9e780f883ea33498f076b08cb9":[1,1,1,7,0],
+"group___e_g_x_phys-_astrophysics-_right_ascension.html":[1,1,1,14],
+"group___e_g_x_phys-_astrophysics-_right_ascension.html#ga27ba790eb8358535613d3b32f97d9e3a":[1,1,1,14,2],
 "group___e_g_x_phys-_astrophysics-_right_ascension.html#ga624dd87144a17d19d0100500c34da978":[1,1,1,14,1],
 "group___e_g_x_phys-_astrophysics-_right_ascension.html#ga63a3103990c95078443e39a5b487ab0d":[1,1,1,14,3],
 "group___e_g_x_phys-_astrophysics-_right_ascension.html#ga6fdbd35a030d278f396496899a1c236f":[1,1,1,14,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX8 =
 "group___n_i_s_t_const-_compton_wavelength.html":[1,2,2,2],
 "group___n_i_s_t_const-_compton_wavelength.html#ga9e52f9c08046cc0ec310fdf0137cdcda":[1,2,2,2,0],
 "group___n_i_s_t_const-_compton_wavelength.html#gabba37dafb84b4faabc2d90a8a7d0ce2a":[1,2,2,2,1],
-"group___n_i_s_t_const-_conductance_quantum.html":[1,2,1,1],
-"group___n_i_s_t_const-_conductance_quantum.html#ga134ad3777be531b9ba1313ef94a6885f":[1,2,1,1,0],
-"group___n_i_s_t_const-_conductance_quantum.html#ga629e01b406bd14e35a1de57795ac3a75":[1,2,1,1,1],
-"group___n_i_s_t_const-_conventional_josephson_constant.html":[1,2,4,0],
-"group___n_i_s_t_const-_conventional_josephson_constant.html#gaf7118c5d748d244860cd847487b8aa96":[1,2,4,0,0],
-"group___n_i_s_t_const-_conventionalvon_klitzing_constant.html":[1,2,4,1],
-"group___n_i_s_t_const-_conventionalvon_klitzing_constant.html#ga939418415f337c3a3a375d946199cfb0":[1,2,4,1,0],
-"group___n_i_s_t_const-_conversion_factors.html":[1,2,6],
-"group___n_i_s_t_const-_copper.html":[1,2,7,1],
-"group___n_i_s_t_const-_copper.html#ga22d8010195e8b2c21fc1be6ae608c139":[1,2,7,1,0],
-"group___n_i_s_t_const-_deuteron.html":[1,2,2,3],
-"group___n_i_s_t_const-_deuteron.html#ga0d70f07396f11b0f5375c04ed0717c5c":[1,2,2,3,7],
-"group___n_i_s_t_const-_deuteron.html#ga1ae70a746d42fc99139e5b5bbd166be5":[1,2,2,3,4]
+"group___n_i_s_t_const-_conductance_quantum.html":[1,2,1,1]
 };

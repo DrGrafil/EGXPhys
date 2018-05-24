@@ -100,18 +100,18 @@ $(document).ready(function(){initNavTree('group___e_g_x_math-_geometry-3_d-_sphe
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gac89ed1e10e56c724b341591ecc5605dc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gac89ed1e10e56c724b341591ecc5605dc"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_volume.html#gac89ed1e10e56c724b341591ecc5605dc">EGXMath::SpheroidVolume</a> (const T symmetricSemiPrincipleAxisInm, const T uniqueSemiPrincipleAxisInm)</td></tr>
-<tr class="memdesc:gac89ed1e10e56c724b341591ecc5605dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the volume, \(V_{spheroid}\), in meter cubed of a spheroid with two equal semi-principle axis \(a\) and a unique semi-princple axis \(c\). </p><p class="formulaDsp">
+<tr class="memitem:ga12125484235e94b8f2580f3476b05b92"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga12125484235e94b8f2580f3476b05b92"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_volume.html#ga12125484235e94b8f2580f3476b05b92">EGXMath::SpheroidVolume</a> (const T equatorialRadiusInm, const T polarRadiusInm)</td></tr>
+<tr class="memdesc:ga12125484235e94b8f2580f3476b05b92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the volume, \(V_{spheroid}\), in meter cubed of a spheroid with two equal semi-principle axis \(a\) and a unique semi-princple axis \(c\). </p><p class="formulaDsp">
 \[ V_{spheroid}=\frac{4}{3}\pi a^2 c \]
 </p>
-<p>.  <a href="group___e_g_x_math-_geometry-3_d-_spheroid-_volume.html#gac89ed1e10e56c724b341591ecc5605dc">More...</a><br /></td></tr>
-<tr class="separator:gac89ed1e10e56c724b341591ecc5605dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>.  <a href="group___e_g_x_math-_geometry-3_d-_spheroid-_volume.html#ga12125484235e94b8f2580f3476b05b92">More...</a><br /></td></tr>
+<tr class="separator:ga12125484235e94b8f2580f3476b05b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gac89ed1e10e56c724b341591ecc5605dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac89ed1e10e56c724b341591ecc5605dc">&#9670;&nbsp;</a></span>SpheroidVolume()</h2>
+<a id="ga12125484235e94b8f2580f3476b05b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga12125484235e94b8f2580f3476b05b92">&#9670;&nbsp;</a></span>SpheroidVolume()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -122,13 +122,13 @@ template&lt;typename T &gt; </div>
           <td class="memname">T EGXMath::SpheroidVolume </td>
           <td>(</td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>symmetricSemiPrincipleAxisInm</em>, </td>
+          <td class="paramname"><em>equatorialRadiusInm</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>uniqueSemiPrincipleAxisInm</em>&#160;</td>
+          <td class="paramname"><em>polarRadiusInm</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -145,12 +145,23 @@ template&lt;typename T &gt; </div>
 <p>See <a href="http://mathworld.wolfram.com/Spheroid.html">http://mathworld.wolfram.com/Spheroid.html</a> and <a href="https://en.wikipedia.org/wiki/Spheroid#Volume">https://en.wikipedia.org/wiki/Spheroid#Volume</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">symmetricSemiPrincipleAxisInm</td><td>\( a\ (m)\) Semi-principle axis of the spheroid in meters that is equal to another semi-principle axis. </td></tr>
-    <tr><td class="paramname">uniqueSemiPrincipleAxisInm</td><td>\( c\ (m)\) Semi-principle axis of the spheroid in meters that is of diffrent length then the other semi-principle axes. </td></tr>
+    <tr><td class="paramname">equatorialRadiusInm</td><td>\( a\ (m)\) Equatorial radius in meters. The degenerate semi-principle axis of the spheroid. </td></tr>
+    <tr><td class="paramname">polarRadiusInm</td><td>\( c\ (m)\) Polar radius in meters. The unique semi-principle axis of the spheroid. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\( V_{spheroid}\ (m^3)\) Volume of spheroid in meter cubed. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity.html#gab45680528a41bb7a5e15ddc0059156dd" title="Finds the eccentricity, , of a spheroid from flattening, : . ">SpheroidEccentricity()</a> for eccentricity of a spheroid. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_equatorial_radius.html#ga1cbe564fee1b509c622d1c6d276158cd" title="Finds the equatorial radius, , in meters of a spheroid with mean radius, , and flattening, : . ">SpheroidEquatorialRadius()</a> for equatorial radius of a spheroid. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga05e3be91f5f7fbaa9371687aa3834179" title="Finds the flattening (oblateness), , of a spheroid with equatorial radius, , and polar radius...">SpheroidFlattening()</a> for flattening of a spheroid. </dd>
+<dd>
+SpheroidInertia() for inertia tensor of a spheroid. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius.html#gad4791a46a7efe39c63c03d2366fdd3d2" title="Finds the polar radius, , in meters of a spheroid with mean radius, , and flattening, : . ">SpheroidPolarRadius()</a> for polar radius of a spheroid. </dd>
+<dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area.html#ga5a3580e7ded82cb678a558905f41ae49" title="Finds the surface area, , in meter squared of a spheroid with two equal semi-principle axis  and a un...">SpheroidSurfaceArea()</a> for surface area of a spheroid. </dd></dl>
 
 </div>
 </div>

@@ -28,7 +28,7 @@ namespace EGXMath
 	/// @{
 
 	/**
-	*   @brief Finds the flattening (oblateness), \f$f\f$, of a spheroid with equatorial radius \f$a\f$ and polar radius, \f$c\f$:
+	*   @brief Finds the flattening (oblateness), \f$f\f$, of a spheroid with equatorial radius, \f$a\f$, and polar radius, \f$c\f$:
 	*		\f[ f =\begin{cases}
 \frac{a-c}{a}{} & oblate \\ 
 \frac{c-a}{a} & prolate 
@@ -43,9 +43,12 @@ namespace EGXMath
     *	@param polarRadiusInm \f$ c\ (m)\f$ Polar radius in meters. The unique semi-principle axis of the spheroid.
 	*   @return \f$ f\ (dimensionless)\f$ Flattening of spheroid.
 	*	@see SpheroidOblateness() for alias.
+	*	@see SpheroidEccentricity() for eccentricity of a spheroid.
+    *	@see SpheroidEquatorialRadius() for equatorial radius of a spheroid.
+    *	@see SpheroidInertia() for inertia tensor of a spheroid.
+    *	@see SpheroidPolarRadius() for polar radius of a spheroid.
 	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
 	*	@see SpheroidVolume() for volume of a spheroid.
-	*	@see SpheroidInertia() for inertia tensor of a spheroid.
 	*/
 	template <typename T>
 	T SpheroidFlattening(const T equatorialRadiusInm, const T polarRadiusInm);
@@ -60,16 +63,18 @@ namespace EGXMath
 	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of spheroid.
 	*   @return \f$ f\ (dimensionless)\f$ Flattening of spheroid.
 	*	@see SpheroidOblateness() for alias.
-	*	@see SpheroidEccentricity() for eccentricity of a spheroid
+    *	@see SpheroidEccentricity() for eccentricity of a spheroid.
+    *	@see SpheroidEquatorialRadius() for equatorial radius of a spheroid.
+    *	@see SpheroidInertia() for inertia tensor of a spheroid.
+    *	@see SpheroidPolarRadius() for polar radius of a spheroid.
 	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
 	*	@see SpheroidVolume() for volume of a spheroid.
-	*	@see SpheroidInertia() for inertia tensor of a spheroid.
 	*/
 	template <typename T>
 	T SpheroidFlattening(const T eccentricity);
 
 	/**
-	*   @brief Finds the oblateness (flattening), \f$f\f$, of a spheroid with equatorial radius \f$a\f$ and polar radius, \f$c\f$:
+	*   @brief Finds the oblateness (flattening), \f$f\f$, of a spheroid with equatorial radius, \f$a\f$, and polar radius, \f$c\f$:
 	*		\f[ f =\begin{cases}
 	\frac{a-c}{a}{} & oblate \\
 	\frac{c-a}{a} & prolate
@@ -84,9 +89,12 @@ namespace EGXMath
     *	@param polarRadiusInm \f$ c\ (m)\f$ Polar radius in meters. The unique semi-principle axis of the spheroid.
 	*   @return \f$ f\ (dimensionless)\f$ Flattening of spheroid.
 	*	@see SpheroidFlattening() for alias.
-	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
-	*	@see SpheroidVolume() for volume of a spheroid.
-	*	@see SpheroidInertia() for inertia tensor of a spheroid.
+    *	@see SpheroidEccentricity() for eccentricity of a spheroid.
+    *	@see SpheroidEquatorialRadius() for equatorial radius of a spheroid.
+    *	@see SpheroidInertia() for inertia tensor of a spheroid.
+    *	@see SpheroidPolarRadius() for polar radius of a spheroid.
+    *	@see SpheroidSurfaceArea() for surface area of a spheroid.
+    *	@see SpheroidVolume() for volume of a spheroid.
 	*/
 	template <typename T>
 	T SpheroidOblateness(const T equatorialRadiusInm, const T polarRadiusInm);
@@ -101,10 +109,12 @@ namespace EGXMath
 	*	@param eccentricity \f$ e\ (dimensionless)\f$ Eccentricity of spheroid.
 	*   @return \f$ f\ (dimensionless)\f$ Flattening of spheroid.
 	*	@see SpheroidFlattening() for alias.
-	*	@see SpheroidEccentricity() for eccentricity of a spheroid
-	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
-	*	@see SpheroidVolume() for volume of a spheroid.
-	*	@see SpheroidInertia() for inertia tensor of a spheroid.
+    *	@see SpheroidEccentricity() for eccentricity of a spheroid.
+    *	@see SpheroidEquatorialRadius() for equatorial radius of a spheroid.
+    *	@see SpheroidInertia() for inertia tensor of a spheroid.
+    *	@see SpheroidPolarRadius() for polar radius of a spheroid.
+    *	@see SpheroidSurfaceArea() for surface area of a spheroid.
+    *	@see SpheroidVolume() for volume of a spheroid.
 	*/
 	template <typename T>
 	T SpheroidOblateness(const T eccentricity);

@@ -36,9 +36,16 @@ namespace EGXMath
     *	@param equatorialRadiusInm \f$ a\ (m)\f$ Equatorial radius in meters. The degenerate semi-principle axis of the spheroid.
     *	@param polarRadiusInm \f$ c\ (m)\f$ Polar radius in meters. The unique semi-principle axis of the spheroid.
     *   @return \f$ V_{spheroid}\ (m^3)\f$ Volume of spheroid in meter cubed.
+    *	@see SpheroidEccentricity() for eccentricity of a spheroid.
+    *	@see SpheroidEquatorialRadius() for equatorial radius of a spheroid.
+    *	@see SpheroidFlattening() for flattening of a spheroid.
+    *	@see SpheroidInertia() for inertia tensor of a spheroid.
+    *	@see SpheroidPolarRadius() for polar radius of a spheroid.
+    *	@see SpheroidSurfaceArea() for surface area of a spheroid.
     */
     template <typename T>
     T SpheroidVolume(const T equatorialRadiusInm, const T polarRadiusInm);
+
 
     /// @}
 } //namespace EGXMath

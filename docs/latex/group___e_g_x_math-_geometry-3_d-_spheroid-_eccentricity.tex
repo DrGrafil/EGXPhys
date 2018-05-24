@@ -5,7 +5,7 @@
 \item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab45680528a41bb7a5e15ddc0059156dd}{E\+G\+X\+Math\+::\+Spheroid\+Eccentricity}} (const T flattening)
 \begin{DoxyCompactList}\small\item\em Finds the eccentricity, $e$, of a spheroid from flattening, $f$\+: \[ e = \sqrt{f (2 - f)} \]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab4c867532eef5a52e8e575e2a6b18bf8}{E\+G\+X\+Math\+::\+Spheroid\+Eccentricity}} (const T equatorial\+Radius, const T polar\+Radius)
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_ga0b6ce84e9c4c2fd5bc5a29569c2c2295}{E\+G\+X\+Math\+::\+Spheroid\+Eccentricity}} (const T equatorial\+Radius\+Inm, const T polar\+Radius\+Inm)
 \begin{DoxyCompactList}\small\item\em Finds the eccentricity, $e$, of a spheroid with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \sqrt{\frac{a^2-c^2}{a^2}} & oblate \\ \sqrt{\frac{c^2-a^2}{a^2}} & prolate \end{cases} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -35,20 +35,24 @@ See \href{https://en.wikipedia.org/wiki/Eccentricity_(mathematics)}{\tt https\+:
 $ e\ (dimensionless)$ Flatness of spheroid. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga640f4bcd86aa4c378819bffda31c0852}{Spheroid\+Flattening()}} for flattening of a spheroid. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_equatorial_radius_ga1cbe564fee1b509c622d1c6d276158cd}{Spheroid\+Equatorial\+Radius()}} for equatorial radius of a spheroid. 
 
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga32a21d075102ea9a235a43165675627e}{Spheroid\+Surface\+Area()}} for surface area of a spheroid. 
-
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_volume_gac89ed1e10e56c724b341591ecc5605dc}{Spheroid\+Volume()}} for volume of a spheroid. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga05e3be91f5f7fbaa9371687aa3834179}{Spheroid\+Flattening()}} for flattening of a spheroid. 
 
 Spheroid\+Inertia() for inertia tensor of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius_gad4791a46a7efe39c63c03d2366fdd3d2}{Spheroid\+Polar\+Radius()}} for polar radius of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga5a3580e7ded82cb678a558905f41ae49}{Spheroid\+Surface\+Area()}} for surface area of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_volume_ga12125484235e94b8f2580f3476b05b92}{Spheroid\+Volume()}} for volume of a spheroid. 
 \end{DoxySeeAlso}
-\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab4c867532eef5a52e8e575e2a6b18bf8}\label{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab4c867532eef5a52e8e575e2a6b18bf8}} 
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_ga0b6ce84e9c4c2fd5bc5a29569c2c2295}\label{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_ga0b6ce84e9c4c2fd5bc5a29569c2c2295}} 
 \index{Eccentricity@{Eccentricity}!Spheroid\+Eccentricity@{Spheroid\+Eccentricity}}
 \index{Spheroid\+Eccentricity@{Spheroid\+Eccentricity}!Eccentricity@{Eccentricity}}
 \subsubsection{\texorpdfstring{Spheroid\+Eccentricity()}{SpheroidEccentricity()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Math\+::\+Spheroid\+Eccentricity (\begin{DoxyParamCaption}\item[{const T}]{equatorial\+Radius,  }\item[{const T}]{polar\+Radius }\end{DoxyParamCaption})}
+T E\+G\+X\+Math\+::\+Spheroid\+Eccentricity (\begin{DoxyParamCaption}\item[{const T}]{equatorial\+Radius\+Inm,  }\item[{const T}]{polar\+Radius\+Inm }\end{DoxyParamCaption})}
 
 
 
@@ -60,20 +64,24 @@ Equation taken from \char`\"{}\+Map Projections-\/\+A Working Manual\char`\"{} (
 
 See \href{https://en.wikipedia.org/wiki/Eccentricity_(mathematics)}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Eccentricity\+\_\+(mathematics)} , \href{http://mathworld.wolfram.com/Eccentricity.html,}{\tt http\+://mathworld.\+wolfram.\+com/\+Eccentricity.\+html,} \href{http://mathworld.wolfram.com/Flattening.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Flattening.\+html} 
 \begin{DoxyParams}{Parameters}
-{\em equatorial\+Radius} & $ a\ (m)$ Equatorial radius in meters. \\
+{\em equatorial\+Radius\+Inm} & $ a\ (m)$ Equatorial radius in meters. The degenerate semi-\/principle axis of the spheroid. \\
 \hline
-{\em polar\+Radius} & $ c\ (m)$ Polar radius in meters. \\
+{\em polar\+Radius\+Inm} & $ c\ (m)$ Polar radius in meters. The unique semi-\/principle axis of the spheroid. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 $ e\ (dimensionless)$ Eccentricity of spheroid. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga640f4bcd86aa4c378819bffda31c0852}{Spheroid\+Flattening()}} for flattening of a spheroid. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_equatorial_radius_ga1cbe564fee1b509c622d1c6d276158cd}{Spheroid\+Equatorial\+Radius()}} for equatorial radius of a spheroid. 
 
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga32a21d075102ea9a235a43165675627e}{Spheroid\+Surface\+Area()}} for surface area of a spheroid. 
-
-\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_volume_gac89ed1e10e56c724b341591ecc5605dc}{Spheroid\+Volume()}} for volume of a spheroid. 
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga05e3be91f5f7fbaa9371687aa3834179}{Spheroid\+Flattening()}} for flattening of a spheroid. 
 
 Spheroid\+Inertia() for inertia tensor of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius_gad4791a46a7efe39c63c03d2366fdd3d2}{Spheroid\+Polar\+Radius()}} for polar radius of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga5a3580e7ded82cb678a558905f41ae49}{Spheroid\+Surface\+Area()}} for surface area of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_volume_ga12125484235e94b8f2580f3476b05b92}{Spheroid\+Volume()}} for volume of a spheroid. 
 \end{DoxySeeAlso}

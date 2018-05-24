@@ -36,10 +36,12 @@ namespace EGXMath
 	*	See https://en.wikipedia.org/wiki/Eccentricity_(mathematics) , http://mathworld.wolfram.com/Eccentricity.html, http://mathworld.wolfram.com/Flattening.html
 	*	@param flattening \f$ f\ (dimensionless)\f$ Flattening of spheroid.
 	*   @return \f$ e\ (dimensionless)\f$ Flatness of spheroid.
+    *	@see SpheroidEquatorialRadius() for equatorial radius of a spheroid.
 	*	@see SpheroidFlattening() for flattening of a spheroid.
+    *	@see SpheroidInertia() for inertia tensor of a spheroid.
+    *	@see SpheroidPolarRadius() for polar radius of a spheroid.
 	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
 	*	@see SpheroidVolume() for volume of a spheroid.
-	*	@see SpheroidInertia() for inertia tensor of a spheroid.
 	*/
 	template <typename T>
 	T SpheroidEccentricity(const T flattening);
@@ -59,10 +61,12 @@ namespace EGXMath
     *	@param equatorialRadiusInm \f$ a\ (m)\f$ Equatorial radius in meters. The degenerate semi-principle axis of the spheroid.
     *	@param polarRadiusInm \f$ c\ (m)\f$ Polar radius in meters. The unique semi-principle axis of the spheroid.
 	*   @return \f$ e\ (dimensionless)\f$ Eccentricity of spheroid.
-	*	@see SpheroidFlattening() for flattening of a spheroid.
-	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
-	*	@see SpheroidVolume() for volume of a spheroid.
-	*	@see SpheroidInertia() for inertia tensor of a spheroid.
+    *	@see SpheroidEquatorialRadius() for equatorial radius of a spheroid.
+    *	@see SpheroidFlattening() for flattening of a spheroid.
+    *	@see SpheroidInertia() for inertia tensor of a spheroid.
+    *	@see SpheroidPolarRadius() for polar radius of a spheroid.
+    *	@see SpheroidSurfaceArea() for surface area of a spheroid.
+    *	@see SpheroidVolume() for volume of a spheroid.
 	*/
 	template <typename T>
 	T SpheroidEccentricity(const T equatorialRadiusInm, const T polarRadiusInm);

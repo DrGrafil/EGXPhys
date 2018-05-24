@@ -2,6 +2,7 @@ var searchData=
 [
   ['polar',['Polar',['../group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_polar.html',1,'']]],
   ['periodic',['Periodic',['../group___e_g_x_math-_functions-_periodic.html',1,'']]],
+  ['polar_20radius',['Polar Radius',['../group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius.html',1,'']]],
   ['parallax',['Parallax',['../group___e_g_x_phys-_astrophysic-_parallax.html',1,'']]],
   ['periapsis',['Periapsis',['../group___e_g_x_phys-_periapsis.html',1,'']]],
   ['planetary_20mass',['Planetary Mass',['../group___e_g_x_phys-_planetary_mass.html',1,'']]],

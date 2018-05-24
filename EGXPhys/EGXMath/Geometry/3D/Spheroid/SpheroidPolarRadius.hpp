@@ -28,13 +28,19 @@ namespace EGXMath
 	/// @{
 
     /**
-    *   @brief Finds the polar radius, \f$c\f$, in meters of a spheroid with mean radius, \f$r\f$ and flattening \f$f\f$:
+    *   @brief Finds the polar radius, \f$c\f$, in meters of a spheroid with mean radius, \f$r\f$, and flattening, \f$f\f$:
     *		\f[ c = r \left (1 - \dfrac{2f}{3} \right ) \f]
     *
     *	See http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/node109.html and https://en.wikipedia.org/wiki/Equatorial_bulge
-    *	@param equatorialRadiusInm \f$ r\ (m)\f$ Equatorial radius in meters. The degenerate semi-principle axis of the spheroid.
-    *	@param polarRadiusInm \f$ c\ (m)\f$ Polar radius in meters. The unique semi-principle axis of the spheroid.
+    *	@param meanRadiusInm \f$ r\ (m)\f$ Mean radius of spheroid in meters.
+    *	@param flattening \f$ f\ (dimensionless)\f$ Flattening of spheroid.
     *   @return \f$ c\ (m)\f$ Polar radius in meters. The unique semi-principle axis of the spheroid.
+    *	@see SpheroidEccentricity() for eccentricity of a spheroid.
+    *	@see SpheroidEquatorialRadius() for equatorial radius of a spheroid.
+    *	@see SpheroidFlattening() for flattening of a spheroid.
+    *	@see SpheroidInertia() for inertia tensor of a spheroid.
+    *	@see SpheroidSurfaceArea() for surface area of a spheroid.
+    *	@see SpheroidVolume() for volume of a spheroid.
     *
     */
     template <typename T>

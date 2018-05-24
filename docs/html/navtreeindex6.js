@@ -1,5 +1,13 @@
 var NAVTREEINDEX6 =
 {
+"_standard_gravitational_parameter_8hpp.html#ga37f4ed78b0fc23603b49ade3e435ea20":[2,0,0,1,33,0],
+"_standard_gravitational_parameter_8hpp_source.html":[2,0,0,1,33],
+"_standard_gravitational_parameter_8inl.html":[2,0,0,1,34],
+"_standard_gravitational_parameter_8inl.html#ga37f4ed78b0fc23603b49ade3e435ea20":[2,0,0,1,34,0],
+"_stellar_mass_8hpp_source.html":[2,0,0,1,35],
+"_stellar_radius_8hpp.html":[2,0,0,1,36],
+"_stellar_radius_8hpp_source.html":[2,0,0,1,36],
+"_stellar_radius_8inl.html":[2,0,0,1,37],
 "_stellar_temperature_8hpp.html":[2,0,0,1,38],
 "_stellar_temperature_8hpp_source.html":[2,0,0,1,38],
 "_stellar_temperature_8inl.html":[2,0,0,1,39],
@@ -241,13 +249,5 @@ var NAVTREEINDEX6 =
 "group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga8fe72f56eebb44d7e8d7033476bbdd9b":[1,0,0,0,7,8],
 "group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga962a367fd21f0047eb0a7116a59c2bfc":[1,0,0,0,7,3],
 "group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gaa0b04e9012ec739df1464298971e3be7":[1,0,0,0,7,16],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gacb8fc46aacbc82db6852dfc9c42c77df":[1,0,0,0,7,4],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gad6662d1113ae8aea6baca6317888b4cd":[1,0,0,0,7,5],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gad78a90abaed52ca9d5fe6b4287c4a5f3":[1,0,0,0,7,15],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gadf3829ca1704cfd64886a4de1b3e366f":[1,0,0,0,7,12],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gae9eb0acc65dfe6119936f29ac292afaa":[1,0,0,0,7,7],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gaf63c3ba5f75aacd268db2814575fa3f9":[1,0,0,0,7,14],
-"group___e_g_x_math-_conversions-_angle_conversions-_integer_degree.html":[1,0,0,0,8],
-"group___e_g_x_math-_conversions-_angle_conversions-_integer_degree.html#ga01abeefd29282a3c88d3d3c28fd2c6fa":[1,0,0,0,8,4],
-"group___e_g_x_math-_conversions-_angle_conversions-_integer_degree.html#ga05d3368b00ea27b9895de2ffe5c8df38":[1,0,0,0,8,16]
+"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gacb8fc46aacbc82db6852dfc9c42c77df":[1,0,0,0,7,4]
 };
