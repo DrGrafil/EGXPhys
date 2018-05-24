@@ -33,9 +33,9 @@ namespace EGXMath
 	/**
 	*   @brief Finds the moment of inertia tensor, \f$I_{ellipsoid}\f$ of an ellipsoid with three distinct semi-principle axes, \f$a\f$, \f$b\f$ and \f$c\f$. It is assumed that \f$a\f$ lays on the x-axis, \f$b\f$ on the y-axis and \f$c\f$ on the z-axis.
 	*		\f[ I_{ellipsoid}=\begin{bmatrix}
-			\frac{1}{2}m\ b^2c^2 & 0 & 0\\ 
-			0 & \frac{1}{2}m\ a^2c^2 & 0\\ 
-			0 & 0 & m\ a^2b^2
+			\frac{1}{5}m\ b^2c^2 & 0 & 0\\ 
+			0 & \frac{1}{5}m\ a^2c^2 & 0\\ 
+			0 & 0 & \frac{1}{5}m\ a^2b^2
 			\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html
 	*	@param mass \f$ m\ (kg)\f$ Mass of the ellipsoid.
@@ -54,9 +54,9 @@ namespace EGXMath
 	/**
 	*   @brief Finds the moment of inertia tensor, \f$I_{ellipsoid}\f$ of an ellipsoid with three distinct semi-principle axes, \f$a\f$, \f$b\f$ and \f$c\f$. It is assumed that \f$a\f$ lays on the x-axis, \f$b\f$ on the y-axis and \f$c\f$ on the z-axis.
 	*		\f[ I_{ellipsoid}=\begin{bmatrix}
-			\frac{1}{2}m\ b^2c^2 & 0 & 0\\ 
-			0 & \frac{1}{2}m\ a^2c^2 & 0\\ 
-			0 & 0 & m\ a^2b^2
+			\frac{1}{5}m\ b^2c^2 & 0 & 0\\ 
+			0 & \frac{1}{5}m\ a^2c^2 & 0\\ 
+			0 & 0 & \frac{1}{5}m\ a^2b^2
 			\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html
 	*	@param mass \f$ m\ (kg)\f$ Mass of the ellipsoid.
@@ -77,9 +77,9 @@ namespace EGXMath
 	/**
 	*   @brief Finds the moment of inertia tensor, \f$I_{ellipsoid}\f$ of an ellipsoid with three distinct semi-principle axes, \f$a\f$, \f$b\f$ and \f$c\f$. It is assumed that \f$a\f$ lays on the x-axis, \f$b\f$ on the y-axis and \f$c\f$ on the z-axis.
 	*		\f[ I_{ellipsoid}=\begin{bmatrix}
-			\frac{1}{2}m\ b^2c^2 & 0 & 0\\ 
-			0 & \frac{1}{2}m\ a^2c^2 & 0\\ 
-			0 & 0 & m\ a^2b^2
+			\frac{1}{5}m\ b^2c^2 & 0 & 0\\ 
+			0 & \frac{1}{5}m\ a^2c^2 & 0\\ 
+			0 & 0 & \frac{1}{5}m\ a^2b^2
 			\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html
 	*	@param mass \f$ m\ (kg)\f$ Mass of the ellipsoid.

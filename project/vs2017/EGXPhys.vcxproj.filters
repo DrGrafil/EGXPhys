@@ -660,6 +660,9 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidPolarRadius.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidInertia.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -920,6 +923,9 @@
       <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidPolarRadius.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidInertia.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
     </None>
   </ItemGroup>
