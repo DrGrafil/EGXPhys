@@ -305,6 +305,10 @@
     <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseSurfaceAreaTests.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Ellipse\EllipseTests.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\3DGeometryTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Ellipsoid\EllipsoidInertiaTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Ellipsoid\EllipsoidSurfaceAreaTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Ellipsoid\EllipsoidTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Ellipsoid\EllipsoidVolumeTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidEccentricityTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidFlatteningTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidSurfaceAreaTest.hpp" />

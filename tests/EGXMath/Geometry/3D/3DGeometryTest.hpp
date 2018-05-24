@@ -6,4 +6,6 @@
 
 #pragma once
 
+#include "Ellipsoid/EllipsoidTest.hpp"
 #include "Spheroid/SpheroidTest.hpp"
+

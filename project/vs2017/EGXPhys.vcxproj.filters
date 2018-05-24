@@ -133,6 +133,9 @@
     <Filter Include="EGXPhys\EGXMath\Geometry\3D\Ellipsoid">
       <UniqueIdentifier>{05b694ae-b540-4ed6-9e38-120b29a4e5cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tests\EGXMath\Geometry\3D\Ellipsoid">
+      <UniqueIdentifier>{cd42aafd-0a6f-4ad4-87eb-89dc507c430b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -662,6 +665,18 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidInertia.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Ellipsoid\EllipsoidInertiaTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Ellipsoid\EllipsoidSurfaceAreaTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Ellipsoid\EllipsoidTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Ellipsoid\EllipsoidVolumeTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Ellipsoid</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

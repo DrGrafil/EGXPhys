@@ -16,6 +16,7 @@
 
 //=================================
 
+#include "Ellipsoid/Ellipsoid.hpp"
 #include "./Spheroid/Spheroid.hpp"
 
 #include "./Cylinder/Cylinder.hpp"

@@ -195,11 +195,20 @@ EGXMath (Will eventually be seperated out):
 |											| 																				| 																				| Volume																| X							| X			 				|						| 								| 								|								|
 |											| 																				| Disk																		| 																				| 								| 				 				|						| 								| 								|								|
 |											| 																				| 																				| Inertia																	| X							| X			 				|						| 								| 								|								|
+|											| 																				| 	Ellipsoid																| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| 	Inertia																	| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| 	Surface Area														| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| 	Volume																| X							| X			 				|	X					| X							| 								|								|
 |											| 																				| Hoop																	| 																				| 								| 				 				|						| 								| 								|								|
 |											| 																				| 																				| Inertia																	| X							| X			 				|						| 								| 								|								|
 |											| 																				| Spheroid																| 																				| 								| 				 				|						| 								| 								|								|
 |											| 																				| 																				| Eccentricity															| X							| X			 				|						| 								| 								|								|
+|											| 																				| 																				| Equatorial Radius												| X							| X			 				|						| 								| 								|								|
 |											| 																				| 																				| Flattening															| X							| X			 				|						| 								| 								|								|	
+|											| 																				| 																				| Inertia																	| X							| X			 				|						| 								| 								|								|
+|											| 																				| 																				| Polar Radius														| X							| X			 				|						| 								| 								|								|
+|											| 																				| 																				| Surface Area														| X							| X			 				|						| 								| 								|								|
+|											| 																				| 																				| Volume																| X							| X			 				|						| 								| 								|								|
 |											| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 ---
 ## Release notes
