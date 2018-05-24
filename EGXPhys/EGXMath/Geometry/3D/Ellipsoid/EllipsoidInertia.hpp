@@ -1,0 +1,112 @@
+/// @file EGXMath/Geometry/3D/Ellipsoid/EllipsoidInertia.hpp
+///
+/// @brief Defines functions relating to inertia of an ellipsoid.
+///
+/// @author Elliot Grafil (Metex)
+/// @date 5/23/18
+
+/// @defgroup EGXMath-Geometry-3D-Ellipsoid-Inertia Inertia
+/// @ingroup EGXMath-Geometry-3D-Ellipsoi
+
+
+//=================================
+// Header guard
+#pragma once
+//=================================
+// Included dependencies
+#include <vector>
+#include <algorithm>
+//=================================
+// Forward declared dependencies
+#ifdef EGXMATH_GLM
+#include <glm/fwd.hpp>
+#endif // EGXPHYS_GLM
+//=================================
+//
+
+
+namespace EGXMath
+{
+	/// @addtogroup EGXMath-Geometry-3D-Ellipsoid-Inertia
+	/// @{
+
+	/**
+	*   @brief Finds the moment of inertia tensor, \f$I_{hoop}\f$ of an ellipsoid with three distinct semi-principle axes, \f$a\f$, \f$b\f$ and \f$c\f$. It is assumed that \f$a\f$ lays on the x-axis, \f$b\f$ on the y-axis and \f$c\f$ on the z-axis.
+	*		\f[ I_{ellipsoid}=\begin{bmatrix}
+			\frac{1}{2}m\ b^2c^2 & 0 & 0\\ 
+			0 & \frac{1}{2}m\ a^2c^2 & 0\\ 
+			0 & 0 & m\ a^2b^2
+			\end{bmatrix} \f]
+	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html
+	*	@param mass \f$ m\ (kg)\f$ Mass of the ellipsoid.
+	 *	@param aSemiPrincipleAxisInm \f$ a\ (m)\f$ Semi-principle axis of the ellipsoid in meters.
+    *	@param bSemiPrincipleAxisInm \f$ b\ (m)\f$ Semi-principle axis of the ellipsoid in meters.
+    *	@param cSemiPrincipleAxisInm \f$ c\ (m)\f$ Semi-principle axis of the ellipsoid in meters.
+	*	@param matrix \f$ I_{hoop}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
+	*	@see CircleSurfaceArea() for area of a circle.
+	*	@see CircleCircumference() for circumference of a circle.
+	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
+	*	@see HoopInertia() for inertial tensor of a hoop.
+	*	@see DiskThinInertia() for inertial tensor of a thin disk.
+	*	@see DiskInertia() for inertial tensor of a disk.
+	*	@see CylinderInertia() for inertial tensor of a cylinder.
+	*	@see SphereInertia() for inertial tensor of a sphere.
+	*/
+	template <typename T, typename T2>
+	void EllipsoidInertia(const T mass, const T aSemiPrincipleAxisInm, const T bSemiPrincipleAxisInm, const T cSemiPrincipleAxisInm, T2 (&matrix)[9]);
+
+	/**
+	*   @brief Finds the moment of inertia tensor, \f$I_{hoop}\f$ of a hoop with radius, \f$r\f$, and mass \f$m\f$ that is infinitly thin.
+	*		\f[ I_{hoop}=\begin{bmatrix}
+			\frac{1}{2}m\ r^2 & 0 & 0\\
+			0 & \frac{1}{2}m\ r^2 & 0\\
+			0 & 0 & m\ r^2
+			\end{bmatrix} \f]
+	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html
+	*	@param mass \f$ m\ (kg)\f$ is the mass of the hoop.
+	*	@param radius \f$ r\ (m)\f$ is the radius of the hoop.
+	*	@param matrix \f$ I_{hoop}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
+	*	@see CircleSurfaceArea() for area of a circle.
+	*	@see CircleCircumference() for circumference of a circle.
+	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
+	*	@see HoopInertia() for inertial tensor of a hoop.
+	*	@see DiskThinInertia() for inertial tensor of a thin disk.
+	*	@see DiskInertia() for inertial tensor of a disk.
+	*	@see CylinderInertia() for inertial tensor of a cylinder.
+	*	@see SphereInertia() for inertial tensor of a sphere.
+	*/
+	template <typename T, typename T2>
+	void EllipsoidInertia(const T mass, const T aSemiPrincipleAxisInm, const T bSemiPrincipleAxisInm, const T cSemiPrincipleAxisInm, std::vector<T2>& matrix);
+
+#ifdef EGXMATH_GLM
+
+	/**
+	*   @brief Finds the moment of inertia tensor, \f$I_{hoop}\f$ of a hoop with radius, \f$r\f$, and mass \f$m\f$ that is infinitly thin.
+	*		\f[ I_{hoop}=\begin{bmatrix}
+			\frac{1}{2}m\ r^2 & 0 & 0\\
+			0 & \frac{1}{2}m\ r^2 & 0\\
+			0 & 0 & m\ r^2
+			\end{bmatrix} \f]
+	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaHoop.html
+	*	@param mass \f$ m\ (kg)\f$ is the mass of the hoop.
+	*	@param radius \f$ r\ (m)\f$ is the radius of the hoop.
+	*	@param matrix \f$ I_{hoop}\ (kg\ m^2)\f$ is the moment of inertia tensor matrix.
+	*	@see CircleSurfaceArea() for area of a circle.
+	*	@see CircleCircumference() for circumference of a circle.
+	*	@see HoopThinInertia() for inertial tensor of a thin hoop.
+	*	@see HoopInertia() for inertial tensor of a hoop.
+	*	@see DiskThinInertia() for inertial tensor of a thin disk.
+	*	@see DiskInertia() for inertial tensor of a disk.
+	*	@see CylinderInertia() for inertial tensor of a cylinder.
+	*	@see SphereInertia() for inertial tensor of a sphere.
+	*/
+	template <typename T>
+	void EllipsoidInertia(const T mass, const T aSemiPrincipleAxisInm, const T bSemiPrincipleAxisInm, const T cSemiPrincipleAxisInm, glm::mat3& matrix);
+
+#endif // EGXMATH_GLM
+
+
+    /// @}
+} //namespace EGXMath
+
+#include "EllipsoidInertia.inl"

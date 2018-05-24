@@ -130,6 +130,9 @@
     <Filter Include="Tests\EGXMath\Geometry\3D\Spheroid">
       <UniqueIdentifier>{f3c00d56-3a2a-4828-9df9-e0634b68304a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\EGXMath\Geometry\3D\Ellipsoid">
+      <UniqueIdentifier>{05b694ae-b540-4ed6-9e38-120b29a4e5cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -639,6 +642,24 @@
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\3DGeometryTest.hpp">
       <Filter>Tests\EGXMath\Geometry\3D</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\Ellipsoid.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidEccentricity.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidFlattening.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidInertia.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidSurfaceArea.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidVolume.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -885,6 +906,21 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidVolume.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidEccentricity.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidFlattening.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidInertia.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidSurfaceArea.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidVolume.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
     </None>
   </ItemGroup>
 </Project>
