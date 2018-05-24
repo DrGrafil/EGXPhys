@@ -22,6 +22,8 @@
 //
 
 #include "SpheroidEccentricity.hpp"
+#include "SpheroidEquatorialRadius.hpp"
 #include "SpheroidFlattening.hpp"
+#include "SpheroidPolarRadius.hpp"
 #include "SpheroidSurfaceArea.hpp"
 #include "SpheroidVolume.hpp"

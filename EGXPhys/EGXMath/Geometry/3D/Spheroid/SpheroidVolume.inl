@@ -8,9 +8,9 @@
 namespace EGXMath {
 	
     template <typename T>
-    T SpheroidVolume(const T symmetricSemiPrincipleAxisInm, const T uniqueSemiPrincipleAxisInm)
+    T SpheroidVolume(const T equatorialRadiusInm, const T polarRadiusInm)
     {
-        return (T)4.0 / (T)3.0 * (T)EGXMath::pi * uniqueSemiPrincipleAxisInm * symmetricSemiPrincipleAxisInm * symmetricSemiPrincipleAxisInm;
+        return (T)4.0 / (T)3.0 * (T)EGXMath::pi * polarRadiusInm * equatorialRadiusInm * equatorialRadiusInm;
     }
 
 }//namespace EGXMath

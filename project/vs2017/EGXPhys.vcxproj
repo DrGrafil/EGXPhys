@@ -231,7 +231,9 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\Spheroid.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidEccentricity.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidEquatorialRadius.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidFlattening.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidPolarRadius.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidSurfaceArea.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidVolume.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Geometry.hpp" />
@@ -389,7 +391,9 @@
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidVolume.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Hoop.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidEccentricity.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidEquatorialRadius.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidFlattening.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidPolarRadius.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidSurfaceArea.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidVolume.inl" />
     <None Include="..\..\EGXPhys\Kinetics\AngularAcceleration.inl" />

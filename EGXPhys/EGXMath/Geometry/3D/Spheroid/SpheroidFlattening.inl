@@ -9,12 +9,12 @@ namespace EGXMath {
 
 
 	template <typename T>
-	T SpheroidFlattening(const T equatorialRadius, const T polarRadius) {
-		if (equatorialRadius > polarRadius) {
-			return (equatorialRadius - polarRadius) / equatorialRadius;
+	T SpheroidFlattening(const T equatorialRadiusInm, const T polarRadiusInm) {
+		if (equatorialRadiusInm > polarRadiusInm) {
+			return (equatorialRadiusInm - polarRadiusInm) / equatorialRadiusInm;
 		}
 		else {
-			return (polarRadius - equatorialRadius) / equatorialRadius;
+			return (polarRadiusInm - equatorialRadiusInm) / equatorialRadiusInm;
 		}
 	}
 
@@ -25,8 +25,8 @@ namespace EGXMath {
 
 	
 	template <typename T>
-	T SpheroidOblateness(const T equatorialRadius, const T polarRadius) {
-		return SpheroidFlattening(equatorialRadius, polarRadius);
+	T SpheroidOblateness(const T equatorialRadiusInm, const T polarRadiusInm) {
+		return SpheroidFlattening(equatorialRadiusInm, polarRadiusInm);
 	}
 
 	template <typename T>

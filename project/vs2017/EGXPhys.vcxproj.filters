@@ -654,6 +654,12 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidVolume.hpp">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidEquatorialRadius.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidPolarRadius.hpp">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -909,6 +915,12 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Ellipsoid\EllipsoidVolume.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Ellipsoid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidEquatorialRadius.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidPolarRadius.inl">
+      <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
     </None>
   </ItemGroup>
 </Project>

@@ -56,8 +56,8 @@ namespace EGXMath
 	*	Equation taken from "Map Projections-A Working Manual" (Snyder, 1987), p. 13
 	*
 	*	See https://en.wikipedia.org/wiki/Eccentricity_(mathematics) , http://mathworld.wolfram.com/Eccentricity.html, http://mathworld.wolfram.com/Flattening.html
-	*	@param equatorialRadius \f$ a\ (m)\f$ Equatorial radius in meters.
-	*	@param polarRadius \f$ c\ (m)\f$ Polar radius in meters.
+    *	@param equatorialRadiusInm \f$ a\ (m)\f$ Equatorial radius in meters. The degenerate semi-principle axis of the spheroid.
+    *	@param polarRadiusInm \f$ c\ (m)\f$ Polar radius in meters. The unique semi-principle axis of the spheroid.
 	*   @return \f$ e\ (dimensionless)\f$ Eccentricity of spheroid.
 	*	@see SpheroidFlattening() for flattening of a spheroid.
 	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
@@ -65,7 +65,7 @@ namespace EGXMath
 	*	@see SpheroidInertia() for inertia tensor of a spheroid.
 	*/
 	template <typename T>
-	T SpheroidEccentricity(const T equatorialRadius, const T polarRadius);
+	T SpheroidEccentricity(const T equatorialRadiusInm, const T polarRadiusInm);
 	
 
 

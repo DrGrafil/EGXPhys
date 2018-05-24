@@ -39,8 +39,8 @@ namespace EGXMath
 	*	Equation taken from "Map Projections-A Working Manual" (Snyder, 1987), p. 13
 	*
 	*	See http://mathworld.wolfram.com/Flattening.html , https://en.wikipedia.org/wiki/Flattening and https://en.wikipedia.org/wiki/Equatorial_bulge
-	*	@param equatorialRadius \f$ a\ (m)\f$ Equatorial radius in meters.
-	*	@param polarRadius \f$ c\ (m)\f$ Polar radius in meters.
+    *	@param equatorialRadiusInm \f$ a\ (m)\f$ Equatorial radius in meters. The degenerate semi-principle axis of the spheroid.
+    *	@param polarRadiusInm \f$ c\ (m)\f$ Polar radius in meters. The unique semi-principle axis of the spheroid.
 	*   @return \f$ f\ (dimensionless)\f$ Flattening of spheroid.
 	*	@see SpheroidOblateness() for alias.
 	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
@@ -48,7 +48,7 @@ namespace EGXMath
 	*	@see SpheroidInertia() for inertia tensor of a spheroid.
 	*/
 	template <typename T>
-	T SpheroidFlattening(const T equatorialRadius, const T polarRadius);
+	T SpheroidFlattening(const T equatorialRadiusInm, const T polarRadiusInm);
 	
 	/**
 	*   @brief Finds the flattening (oblateness), \f$f\f$, of a spheroid with eccentricity \f$e\f$:
@@ -80,8 +80,8 @@ namespace EGXMath
 	*	Equation taken from "Map Projections-A Working Manual" (Snyder, 1987), p. 13
 	*
 	*	See http://mathworld.wolfram.com/Flattening.html , https://en.wikipedia.org/wiki/Flattening and https://en.wikipedia.org/wiki/Equatorial_bulge
-	*	@param equatorialRadius \f$ a\ (m)\f$ Equatorial radius in meters.
-	*	@param polarRadius \f$ c\ (m)\f$ Polar radius in meters.
+    *	@param equatorialRadiusInm \f$ a\ (m)\f$ Equatorial radius in meters. The degenerate semi-principle axis of the spheroid.
+    *	@param polarRadiusInm \f$ c\ (m)\f$ Polar radius in meters. The unique semi-principle axis of the spheroid.
 	*   @return \f$ f\ (dimensionless)\f$ Flattening of spheroid.
 	*	@see SpheroidFlattening() for alias.
 	*	@see SpheroidSurfaceArea() for surface area of a spheroid.
@@ -89,7 +89,7 @@ namespace EGXMath
 	*	@see SpheroidInertia() for inertia tensor of a spheroid.
 	*/
 	template <typename T>
-	T SpheroidOblateness(const T equatorialRadius, const T polarRadius);
+	T SpheroidOblateness(const T equatorialRadiusInm, const T polarRadiusInm);
 
 	/**
 	*   @brief Finds the oblateness (flattening), \f$f\f$, of a spheroid with eccentricity \f$e\f$:

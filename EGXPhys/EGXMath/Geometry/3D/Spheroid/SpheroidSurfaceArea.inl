@@ -8,9 +8,9 @@
 namespace EGXMath {
 
     template <typename T>
-    T SpheroidSurfaceArea(const T symmetricSemiPrincipleAxisInm, const T uniqueSemiPrincipleAxisInm) {
-        T a = symmetricSemiPrincipleAxisInm;
-        T c = uniqueSemiPrincipleAxisInm;
+    T SpheroidSurfaceArea(const T equatorialRadiusInm, const T polarRadiusInm) {
+        T a = equatorialRadiusInm;
+        T c = polarRadiusInm;
         
 
         if (c > a) {

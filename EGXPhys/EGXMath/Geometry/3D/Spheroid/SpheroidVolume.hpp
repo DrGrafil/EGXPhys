@@ -33,12 +33,12 @@ namespace EGXMath
     *
     *	See http://mathworld.wolfram.com/Spheroid.html and https://en.wikipedia.org/wiki/Spheroid#Volume
     *
-    *	@param symmetricSemiPrincipleAxisInm \f$ a\ (m)\f$ Semi-principle axis of the spheroid in meters that is equal to another semi-principle axis.
-    *	@param uniqueSemiPrincipleAxisInm \f$ c\ (m)\f$ Semi-principle axis of the spheroid in meters that is of diffrent length then the other semi-principle axes.
+    *	@param equatorialRadiusInm \f$ a\ (m)\f$ Equatorial radius in meters. The degenerate semi-principle axis of the spheroid.
+    *	@param polarRadiusInm \f$ c\ (m)\f$ Polar radius in meters. The unique semi-principle axis of the spheroid.
     *   @return \f$ V_{spheroid}\ (m^3)\f$ Volume of spheroid in meter cubed.
     */
     template <typename T>
-    T SpheroidVolume(const T symmetricSemiPrincipleAxisInm, const T uniqueSemiPrincipleAxisInm);
+    T SpheroidVolume(const T equatorialRadiusInm, const T polarRadiusInm);
 
     /// @}
 } //namespace EGXMath
