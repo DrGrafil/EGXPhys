@@ -85,7 +85,7 @@ Thermodynamics | |
 
 Updated 5/21/2018:
 
-| Field									| Section 																| Subsection 															| Subsection 															|| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
+| Field									| Section 																| Subsection 															| Subsection 															| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
 |:--- 									| :--- 																		| :---																		| 																				| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
 | Acoustics							| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 | Astrophysics					| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
@@ -146,7 +146,7 @@ Updated 5/21/2018:
 ---
 EGXMath (Will eventually be seperated out):
 
-| Field									| Section 																| Subsection 															| Subsubsection 													|| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
+| Field									| Section 																| Subsection 															| Subsubsection 													| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
 |:--- 									| :--- 																		| :---																		| :---																		| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
 |	Conversions					| Angle Conversions												| 																				| 																				| 								| 				 				|						| 								| 								|								|
 |											| 																				| Decimal Degree													| 																				| X							| X			 				| X					| X							| 								|								|
