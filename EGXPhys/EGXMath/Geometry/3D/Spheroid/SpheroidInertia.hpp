@@ -35,7 +35,7 @@ namespace EGXMath
 	*		\f[ I_{spheroid}=\begin{bmatrix}
 			\frac{1}{5}m\ a^2c^2 & 0 & 0\\ 
 			0 & \frac{1}{5}m\ a^2c^2 & 0\\ 
-			0 & 0 & \frac{2}{5}m\m\ a^2
+			0 & 0 & \frac{2}{5}m\ a^2
 			\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html
 	*	@param mass \f$ m\ (kg)\f$ Mass of the ellipsoid.
@@ -59,7 +59,7 @@ namespace EGXMath
 	*		\f[ I_{spheroid}=\begin{bmatrix}
 			\frac{1}{5}m\ a^2c^2 & 0 & 0\\ 
 			0 & \frac{1}{5}m\ a^2c^2 & 0\\ 
-			0 & 0 & \frac{2}{5}m\m\ a^2
+			0 & 0 & \frac{2}{5}m\ a^2
 			\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html
 	*	@param mass \f$ m\ (kg)\f$ Mass of the ellipsoid.
@@ -85,7 +85,7 @@ namespace EGXMath
 	*		\f[ I_{spheroid}=\begin{bmatrix}
 			\frac{1}{5}m\ a^2c^2 & 0 & 0\\ 
 			0 & \frac{1}{5}m\ a^2c^2 & 0\\ 
-			0 & 0 & \frac{2}{5}m\m\ a^2
+			0 & 0 & \frac{2}{5}m\ a^2
 			\end{bmatrix} \f]
 	*	See https://en.wikipedia.org/wiki/List_of_moments_of_inertia and http://scienceworld.wolfram.com/physics/MomentofInertiaEllipsoid.html
 	*	@param mass \f$ m\ (kg)\f$ Mass of the ellipsoid.

@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('group___e_g_x_math-_geometry-3_d-_sphe
 Functions</h2></td></tr>
 <tr class="memitem:ga5a3580e7ded82cb678a558905f41ae49"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga5a3580e7ded82cb678a558905f41ae49"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area.html#ga5a3580e7ded82cb678a558905f41ae49">EGXMath::SpheroidSurfaceArea</a> (const T equatorialRadiusInm, const T polarRadiusInm)</td></tr>
-<tr class="memdesc:ga5a3580e7ded82cb678a558905f41ae49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the surface area, \(A_{spheroid}\), in meter squared of a spheroid with two equal semi-principle axis \(a\) and a unique semi-princple axis \(c\). If \(a &lt; c\), the spheroid is prolate, if \(a = c\) it is a sphere and if \(a&gt;c\) the sphere is oblate. </p><p class="formulaDsp">
+<tr class="memdesc:ga5a3580e7ded82cb678a558905f41ae49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the surface area, \(S_{spheroid}\), in meter squared of a spheroid with equatorial radius \(a\) and polar radius, \(c\). If \(a &lt; c\), the spheroid is prolate, if \(a = c\) it is a sphere and if \(a&gt;c\) the sphere is oblate. </p><p class="formulaDsp">
 \[ S_{spheroid}=\begin{cases} 2\pi a^2 + 2\pi\dfrac{a c^2}{\sqrt{c^2-a^2}}\arcsin \left ( \dfrac{\sqrt{c^2-a^2}}{c} \right ) &amp; a&lt;c\ prolate \\ 2\pi a^2 +\pi \dfrac{a c^2}{\sqrt{a^2-c^2}}\ln \left(\dfrac{1+\dfrac{\sqrt{a^2-c^2}}{a}}{1-\dfrac{\sqrt{a^2-c^2}}{a}}\right )&amp; a&gt;c\ oblate \end{cases} \]
 </p>
 <p>.  <a href="group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area.html#ga5a3580e7ded82cb678a558905f41ae49">More...</a><br /></td></tr>
@@ -138,7 +138,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Finds the surface area, \(A_{spheroid}\), in meter squared of a spheroid with two equal semi-principle axis \(a\) and a unique semi-princple axis \(c\). If \(a &lt; c\), the spheroid is prolate, if \(a = c\) it is a sphere and if \(a&gt;c\) the sphere is oblate. </p><p class="formulaDsp">
+<p>Finds the surface area, \(S_{spheroid}\), in meter squared of a spheroid with equatorial radius \(a\) and polar radius, \(c\). If \(a &lt; c\), the spheroid is prolate, if \(a = c\) it is a sphere and if \(a&gt;c\) the sphere is oblate. </p><p class="formulaDsp">
 \[ S_{spheroid}=\begin{cases} 2\pi a^2 + 2\pi\dfrac{a c^2}{\sqrt{c^2-a^2}}\arcsin \left ( \dfrac{\sqrt{c^2-a^2}}{c} \right ) &amp; a&lt;c\ prolate \\ 2\pi a^2 +\pi \dfrac{a c^2}{\sqrt{a^2-c^2}}\ln \left(\dfrac{1+\dfrac{\sqrt{a^2-c^2}}{a}}{1-\dfrac{\sqrt{a^2-c^2}}{a}}\right )&amp; a&gt;c\ oblate \end{cases} \]
 </p>
 <p>. </p>
@@ -157,11 +157,11 @@ template&lt;typename T &gt; </div>
 <dd>
 <a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga05e3be91f5f7fbaa9371687aa3834179" title="Finds the flattening (oblateness), , of a spheroid with equatorial radius, , and polar radius...">SpheroidFlattening()</a> for flattening of a spheroid. </dd>
 <dd>
-SpheroidInertia() for inertia tensor of a spheroid. </dd>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_inertia.html#ga4a6085f1b3504bd682ee6818542ae09e" title="Finds the moment of inertia tensor,  of a spheroid with equatorial radius  and polar radius...">SpheroidInertia()</a> for inertia tensor of a spheroid. </dd>
 <dd>
 <a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius.html#gad4791a46a7efe39c63c03d2366fdd3d2" title="Finds the polar radius, , in meters of a spheroid with mean radius, , and flattening, : . ">SpheroidPolarRadius()</a> for polar radius of a spheroid. </dd>
 <dd>
-<a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_volume.html#ga12125484235e94b8f2580f3476b05b92" title="Finds the volume, , in meter cubed of a spheroid with two equal semi-principle axis  and a unique sem...">SpheroidVolume()</a> for volume of a spheroid. </dd></dl>
+<a class="el" href="group___e_g_x_math-_geometry-3_d-_spheroid-_volume.html#ga12125484235e94b8f2580f3476b05b92" title="Finds the volume, , in meter cubed of a spheroid with equatorial radius  and polar radius...">SpheroidVolume()</a> for volume of a spheroid. </dd></dl>
 
 </div>
 </div>

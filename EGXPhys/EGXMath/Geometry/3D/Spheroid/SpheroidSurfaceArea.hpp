@@ -28,7 +28,7 @@ namespace EGXMath
 	/// @{
 
 	/**
-	*   @brief Finds the surface area, \f$A_{spheroid}\f$, in meter squared of a spheroid with two equal semi-principle axis \f$a\f$ and a unique semi-princple axis \f$c\f$. If \f$a < c\f$, the spheroid is prolate, if \f$a = c\f$ it is a sphere and if \f$a>c\f$ the sphere is oblate.
+	*   @brief Finds the surface area, \f$S_{spheroid}\f$, in meter squared of a spheroid with equatorial radius \f$a\f$ and polar radius, \f$c\f$. If \f$a < c\f$, the spheroid is prolate, if \f$a = c\f$ it is a sphere and if \f$a>c\f$ the sphere is oblate.
 	*		\f[ 
                 S_{spheroid}=\begin{cases}
                     2\pi a^2 + 2\pi\dfrac{a c^2}{\sqrt{c^2-a^2}}\arcsin \left ( \dfrac{\sqrt{c^2-a^2}}{c} \right ) & a<c\ prolate \\ 

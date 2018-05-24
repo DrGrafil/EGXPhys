@@ -1,5 +1,14 @@
 var NAVTREEINDEX6 =
 {
+"_spheroid_surface_area_8hpp.html#ga5a3580e7ded82cb678a558905f41ae49":[2,0,0,3,2,1,6,11,0],
+"_spheroid_surface_area_8hpp_source.html":[2,0,0,3,2,1,6,11],
+"_spheroid_surface_area_8inl.html":[2,0,0,3,2,1,6,12],
+"_spheroid_surface_area_8inl.html#ga5a3580e7ded82cb678a558905f41ae49":[2,0,0,3,2,1,6,12,0],
+"_spheroid_volume_8hpp_source.html":[2,0,0,3,2,1,6,13],
+"_spheroid_volume_8inl.html":[2,0,0,3,2,1,6,14],
+"_spheroid_volume_8inl.html#ga12125484235e94b8f2580f3476b05b92":[2,0,0,3,2,1,6,14,0],
+"_square_8hpp_source.html":[2,0,0,3,2,0,3,0],
+"_standard_gravitational_parameter_8hpp.html":[2,0,0,1,33],
 "_standard_gravitational_parameter_8hpp.html#ga37f4ed78b0fc23603b49ade3e435ea20":[2,0,0,1,33,0],
 "_standard_gravitational_parameter_8hpp_source.html":[2,0,0,1,33],
 "_standard_gravitational_parameter_8inl.html":[2,0,0,1,34],
@@ -240,14 +249,5 @@ var NAVTREEINDEX6 =
 "group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga061e4fa10d73e459d5f411cfe436bbe3":[1,0,0,0,7,13],
 "group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga14620899c81c1f5e65cde96ef4ee626e":[1,0,0,0,7,2],
 "group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga1731e750f3e5561313ee9d22adff747e":[1,0,0,0,7,10],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga23bfa5abeb014726c2e2ac6303be5dae":[1,0,0,0,7,1],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga356f1e89c3ea35a9d46967644d4ddfd3":[1,0,0,0,7,9],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga3c38143df47da88534ddbd13726748e2":[1,0,0,0,7,0],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga4f66698550a0cf0fd326f25aba2c0d80":[1,0,0,0,7,6],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga5ac65e4e7ed8857151b3f81f5928df3a":[1,0,0,0,7,11],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga68050282994968cd6f80a396f6a539ae":[1,0,0,0,7,17],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga8fe72f56eebb44d7e8d7033476bbdd9b":[1,0,0,0,7,8],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga962a367fd21f0047eb0a7116a59c2bfc":[1,0,0,0,7,3],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gaa0b04e9012ec739df1464298971e3be7":[1,0,0,0,7,16],
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gacb8fc46aacbc82db6852dfc9c42c77df":[1,0,0,0,7,4]
+"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga23bfa5abeb014726c2e2ac6303be5dae":[1,0,0,0,7,1]
 };

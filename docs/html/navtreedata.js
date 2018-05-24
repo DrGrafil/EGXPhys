@@ -40,11 +40,11 @@ var NAVTREEINDEX =
 "_integer_degree_conversion_8inl.html#gae6b79bd5a92f8c6942b9fc2c50695e6a",
 "_n_i_s_t_const_8hpp.html#ga914b7e695d256449d84172422995ac55",
 "_periodic_functions_8hpp.html#ga3eab4a0455f64881f9c183987682d85c",
-"_standard_gravitational_parameter_8hpp.html#ga37f4ed78b0fc23603b49ade3e435ea20",
-"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#gad6662d1113ae8aea6baca6317888b4cd",
-"group___e_g_x_phys-_astrophysics-_color_temperature.html",
-"group___n_i_s_t_const-_conductance_quantum.html#ga134ad3777be531b9ba1313ef94a6885f",
-"group___n_i_s_t_const-_planck_mass.html"
+"_spheroid_surface_area_8hpp.html#ga5a3580e7ded82cb678a558905f41ae49",
+"group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html#ga356f1e89c3ea35a9d46967644d4ddfd3",
+"group___e_g_x_phys-_apoapsis.html#gaa53ac4e15bc6bc0fecf72eadb7a513e0",
+"group___n_i_s_t_const-_bohr_magneton.html#gaa57dcf7dffc991b2b8ab1009687691e8",
+"group___n_i_s_t_const-_nuclear_magneton.html#ga7772e88568bba00c23575dcbe1e8b4da"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

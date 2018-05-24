@@ -28,7 +28,7 @@ namespace EGXMath
 	/// @{
 
     /**
-    *   @brief Finds the volume, \f$V_{spheroid}\f$, in meter cubed of a spheroid with two equal semi-principle axis \f$a\f$ and a unique semi-princple axis \f$c\f$.
+    *   @brief Finds the volume, \f$V_{spheroid}\f$, in meter cubed of a spheroid with equatorial radius \f$a\f$ and polar radius, \f$c\f$.
     *		\f[ V_{spheroid}=\frac{4}{3}\pi a^2 c \f]
     *
     *	See http://mathworld.wolfram.com/Spheroid.html and https://en.wikipedia.org/wiki/Spheroid#Volume

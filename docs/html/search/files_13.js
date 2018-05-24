@@ -11,6 +11,8 @@ var searchData=
   ['spheroidequatorialradius_2einl',['SpheroidEquatorialRadius.inl',['../_spheroid_equatorial_radius_8inl.html',1,'']]],
   ['spheroidflattening_2ehpp',['SpheroidFlattening.hpp',['../_spheroid_flattening_8hpp.html',1,'']]],
   ['spheroidflattening_2einl',['SpheroidFlattening.inl',['../_spheroid_flattening_8inl.html',1,'']]],
+  ['spheroidinertia_2ehpp',['SpheroidInertia.hpp',['../_spheroid_inertia_8hpp.html',1,'']]],
+  ['spheroidinertia_2einl',['SpheroidInertia.inl',['../_spheroid_inertia_8inl.html',1,'']]],
   ['spheroidpolarradius_2ehpp',['SpheroidPolarRadius.hpp',['../_spheroid_polar_radius_8hpp.html',1,'']]],
   ['spheroidpolarradius_2einl',['SpheroidPolarRadius.inl',['../_spheroid_polar_radius_8inl.html',1,'']]],
   ['spheroidsurfacearea_2ehpp',['SpheroidSurfaceArea.hpp',['../_spheroid_surface_area_8hpp.html',1,'']]],
