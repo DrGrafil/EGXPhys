@@ -15,10 +15,10 @@ namespace EGXMath {
 	template <typename T>
 	T SpheroidEccentricity(const T equatorialRadiusInm, const T polarRadiusInm) {
 		if (equatorialRadiusInm > polarRadiusInm) {
-			return ( (equatorialRadiusInm * equatorialRadiusInm) - (polarRadiusInm * polarRadiusInm) ) / (equatorialRadiusInm * equatorialRadiusInm);
+			return std::sqrt( ( (equatorialRadiusInm * equatorialRadiusInm) - (polarRadiusInm * polarRadiusInm) ) / (equatorialRadiusInm * equatorialRadiusInm) );
 		}
 		else {
-			return ( (polarRadiusInm * polarRadiusInm) - (equatorialRadiusInm * equatorialRadiusInm) ) / (polarRadiusInm * polarRadiusInm);
+			return std::sqrt( ( (polarRadiusInm * polarRadiusInm) - (equatorialRadiusInm * equatorialRadiusInm) ) / (polarRadiusInm * polarRadiusInm) );
 		}
 	}
 

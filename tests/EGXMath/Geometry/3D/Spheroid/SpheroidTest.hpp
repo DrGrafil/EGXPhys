@@ -7,6 +7,9 @@
 #pragma once
 
 #include "SpheroidEccentricityTest.hpp"
+#include "SpheroidEquitorialRadius.hpp"
 #include "SpheroidFlatteningTest.hpp"
+#include "SpheroidInertiaTest.hpp"
+#include "SpheroidPolarRadius.hpp"
 #include "SpheroidSurfaceAreaTest.hpp"
 #include "SpheroidVolumeTest.hpp"

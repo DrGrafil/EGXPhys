@@ -310,7 +310,10 @@
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Ellipsoid\EllipsoidTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Ellipsoid\EllipsoidVolumeTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidEccentricityTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidEquitorialRadius.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidFlatteningTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidInertiaTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidPolarRadius.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidSurfaceAreaTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidVolumeTest.hpp" />

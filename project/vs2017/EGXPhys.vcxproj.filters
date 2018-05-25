@@ -678,6 +678,15 @@
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Ellipsoid\EllipsoidVolumeTest.hpp">
       <Filter>Tests\EGXMath\Geometry\3D\Ellipsoid</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidEquitorialRadius.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidInertiaTest.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidPolarRadius.hpp">
+      <Filter>Tests\EGXMath\Geometry\3D\Spheroid</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
