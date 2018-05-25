@@ -136,6 +136,12 @@
     <Filter Include="Tests\EGXMath\Geometry\3D\Ellipsoid">
       <UniqueIdentifier>{cd42aafd-0a6f-4ad4-87eb-89dc507c430b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\Electrodynamics">
+      <UniqueIdentifier>{4e9742b3-678f-46a6-a12a-1f6303e68562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\Electrodynamics\BlackBody">
+      <UniqueIdentifier>{59c2556b-9dfb-4f89-bec6-6d0f91051d99}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -687,6 +693,24 @@
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidPolarRadius.hpp">
       <Filter>Tests\EGXMath\Geometry\3D\Spheroid</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Electrodynamics\Electrodynamics.hpp">
+      <Filter>EGXPhys\Electrodynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Electrodynamics\ElectrodynamicsConstants.hpp">
+      <Filter>EGXPhys\Electrodynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\BlackBody.hpp">
+      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor - Copy.hpp">
+      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor.hpp">
+      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\WiensDisplacementLaw.hpp">
+      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -951,6 +975,15 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidInertia.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor - Copy (2).inl">
+      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor - Copy.inl">
+      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\WiensDisplacementLaw.inl">
+      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
     </None>
   </ItemGroup>
 </Project>
