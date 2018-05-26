@@ -240,8 +240,8 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Geometry\Geometry.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXPhys.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXPhysConstants.hpp" />
-    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor - Copy.hpp" />
-    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\StefanBoltzmannLaw.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\PlancksLaw.hpp" />
     <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\BlackBody.hpp" />
     <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\WiensDisplacementLaw.hpp" />
     <ClInclude Include="..\..\EGXPhys\Electrodynamics\Electrodynamics.hpp" />
@@ -411,8 +411,8 @@
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidPolarRadius.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidSurfaceArea.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidVolume.inl" />
-    <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor - Copy (2).inl" />
-    <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor - Copy.inl" />
+    <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\StefanBoltzmannLaw.inl" />
+    <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\PlancksLaw.inl" />
     <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\WiensDisplacementLaw.inl" />
     <None Include="..\..\EGXPhys\Kinetics\AngularAcceleration.inl" />
     <None Include="..\..\EGXPhys\Kinetics\AngularFrequency.inl" />

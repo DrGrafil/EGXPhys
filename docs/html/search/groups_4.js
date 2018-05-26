@@ -1,6 +1,7 @@
 var searchData=
 [
   ['b_2dv_20color',['B-V Color',['../group___e_g_x_phys-_astrophysic-_b-_v_color.html',1,'']]],
+  ['black_20body',['Black Body',['../group___e_g_x_phys-_electrodynamics-_black_body.html',1,'']]],
   ['binding_20energy',['Binding Energy',['../group___e_g_x_phys-_nuclear_binding_energy.html',1,'']]],
   ['beta_20minus_20decay',['Beta Minus Decay',['../group___e_g_x_phys-_q_value-_beta_minus.html',1,'']]],
   ['beta_20plus_20decay',['Beta Plus Decay',['../group___e_g_x_phys-_q_value-_beta_plus.html',1,'']]],

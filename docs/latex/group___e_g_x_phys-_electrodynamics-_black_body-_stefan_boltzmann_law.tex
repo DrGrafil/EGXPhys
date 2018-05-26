@@ -1,0 +1,37 @@
+\hypertarget{group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law}{}\section{Stefan-\/\+Boltzmann Law}
+\label{group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law}\index{Stefan-\/\+Boltzmann Law@{Stefan-\/\+Boltzmann Law}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law_ga1672439c53b17cdad6cf7b30b94c53d4}{E\+G\+X\+Phys\+::\+Stefan\+Boltzmann\+Law}} (const T surface\+Area\+Inm, const T surface\+Temp\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law_ga1672439c53b17cdad6cf7b30b94c53d4}\label{group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law_ga1672439c53b17cdad6cf7b30b94c53d4}} 
+\index{Stefan-\/\+Boltzmann Law@{Stefan-\/\+Boltzmann Law}!Stefan\+Boltzmann\+Law@{Stefan\+Boltzmann\+Law}}
+\index{Stefan\+Boltzmann\+Law@{Stefan\+Boltzmann\+Law}!Stefan-\/\+Boltzmann Law@{Stefan-\/\+Boltzmann Law}}
+\subsubsection{\texorpdfstring{Stefan\+Boltzmann\+Law()}{StefanBoltzmannLaw()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Stefan\+Boltzmann\+Law (\begin{DoxyParamCaption}\item[{const T}]{surface\+Area\+Inm,  }\item[{const T}]{surface\+Temp\+InK }\end{DoxyParamCaption})}
+
+
+
+Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. 
+
+See \href{https://arxiv.org/pdf/1201.1809.pdf}{\tt https\+://arxiv.\+org/pdf/1201.\+1809.\+pdf} for Ballesteros\textquotesingle{} paper. See \href{http://en.wikipedia.org/wiki/Color_index}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Color\+\_\+index}
+
+
+\begin{DoxyParams}{Parameters}
+{\em BV} & $B-V\ (dimensionless)$ is the B-\/V color index of the star. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$T\ (K)$ Tempreture of the star in Kelvin. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+B\+V\+To\+Tempreture\+Ballesteros() for alias. 
+\end{DoxySeeAlso}

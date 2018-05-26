@@ -17,6 +17,7 @@ var searchData=
   ['spheroidvolume',['SpheroidVolume',['../group___e_g_x_math-_geometry-3_d-_spheroid-_volume.html#ga12125484235e94b8f2580f3476b05b92',1,'EGXMath']]],
   ['squarewave',['SquareWave',['../group___e_g_x_math-_functions-_periodic.html#ga3bdc6c02d347f48f91bca886448db33a',1,'EGXMath']]],
   ['standardgravitationalparameter',['StandardGravitationalParameter',['../group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html#ga37f4ed78b0fc23603b49ade3e435ea20',1,'EGXPhys']]],
+  ['stefanboltzmannlaw',['StefanBoltzmannLaw',['../group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html#ga1672439c53b17cdad6cf7b30b94c53d4',1,'EGXPhys']]],
   ['stellarfluxeffectiveselsis',['StellarFluxEffectiveSelsis',['../group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga0eb1003b4cfcbcafde635cefca5ae5c2',1,'EGXPhys']]],
   ['stellarfluxeffectiveunderwood',['StellarFluxEffectiveUnderwood',['../group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gafe02cffcc63c39794feb6f1de5e7a9bb',1,'EGXPhys']]],
   ['stellarmass',['StellarMass',['../group___e_g_x_phys-_stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61',1,'EGXPhys']]],

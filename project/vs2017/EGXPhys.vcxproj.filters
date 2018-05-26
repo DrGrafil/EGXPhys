@@ -702,13 +702,13 @@
     <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\BlackBody.hpp">
       <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor - Copy.hpp">
-      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor.hpp">
-      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\WiensDisplacementLaw.hpp">
+      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\PlancksLaw.hpp">
+      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\StefanBoltzmannLaw.hpp">
       <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
     </ClInclude>
   </ItemGroup>
@@ -976,13 +976,13 @@
     <None Include="..\..\EGXPhys\EGXMath\Geometry\3D\Spheroid\SpheroidInertia.inl">
       <Filter>EGXPhys\EGXMath\Geometry\3D\Spheroid</Filter>
     </None>
-    <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor - Copy (2).inl">
-      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
-    </None>
-    <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\B-VColor - Copy.inl">
-      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
-    </None>
     <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\WiensDisplacementLaw.inl">
+      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\PlancksLaw.inl">
+      <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\StefanBoltzmannLaw.inl">
       <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
     </None>
   </ItemGroup>

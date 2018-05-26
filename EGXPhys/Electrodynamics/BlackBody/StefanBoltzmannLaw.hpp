@@ -1,12 +1,12 @@
-/// @file EGXPhys/Astrophysics/B-VColor.hpp
+/// @file EGXPhys/Electrodynamics/BlackBody/StefanBoltzmannLaw.hpp
 ///
-/// @brief Calculates B-V Color of stars and related information derived from it.
+/// @brief Calculates B-V Color of stars and related information derived from it StefanBoltzmannLaw.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 3/19/18
+/// @date 5/25/18
 
-/// @defgroup EGXPhys-Astrophysic-B-VColor B-V Color
-/// @ingroup EGXPhys-Astrophysics
+/// @defgroup EGXPhys-Electrodynamics-BlackBody-StefanBoltzmannLaw Stefan-Boltzmann Law
+/// @ingroup EGXPhys-Electrodynamics-BlackBody
 
 //=================================
 // Header guard
@@ -14,8 +14,6 @@
 //=================================
 // Included dependencies
 #include <math.h>  
-
-#include "AstrophysicsConstants.hpp"
 
 //=================================
 // Forward declared dependencies
@@ -26,7 +24,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup EGXPhys-Astrophysic-B-VColor
+	/// @addtogroup EGXPhys-Electrodynamics-BlackBody-StefanBoltzmannLaw
 	/// @{
 	
 	/**
@@ -41,23 +39,10 @@ namespace EGXPhys
 	*	@see BVToTempretureBallesteros() for alias.
 	*/
 	template<typename T>
-	T BVColorToTempreture(const T BV);
+	T StefanBoltzmannLaw(const T surfaceAreaInm, const T surfaceTempInK);
 
-	/**
-	*   @brief Calculates the tempreture, \f$T_{star}\f$, of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies.
-	*   		\f[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\f]
-	*
-	*	See https://arxiv.org/pdf/1201.1809.pdf for Ballesteros' paper.
-	*   See http://en.wikipedia.org/wiki/Color_index
-	*
-	*   @param BV \f$B-V\ (dimensionless)\f$ is the B-V color index of the star.
-	*   @return \f$T\ (K)\f$ Tempreture of the star in Kelvin.
-	*	@see BVToTempreture() for alias.
-	*/
-	template<typename T>
-	T BVColorToTempretureBallesteros(const T BV);
 
     /// @}
 } //namespace EGXPhys
 
-#include "B-VColor.inl"
+#include "StefanBoltzmannLaw.hpp"

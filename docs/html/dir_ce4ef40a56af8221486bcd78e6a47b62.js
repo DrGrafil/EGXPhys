@@ -4,6 +4,7 @@ var dir_ce4ef40a56af8221486bcd78e6a47b62 =
     [ "Astrophysics", "dir_7ac1fe1f7e154c60bf4adac7dda4de70.html", "dir_7ac1fe1f7e154c60bf4adac7dda4de70" ],
     [ "Atomic", "dir_eae06af3aa80ee515a7eda0d5cc9e53d.html", "dir_eae06af3aa80ee515a7eda0d5cc9e53d" ],
     [ "EGXMath", "dir_4963766db892708a0a4d36c34ec0bfe0.html", "dir_4963766db892708a0a4d36c34ec0bfe0" ],
+    [ "Electrodynamics", "dir_6ea4a10c1389161dd996e9216117ad8f.html", "dir_6ea4a10c1389161dd996e9216117ad8f" ],
     [ "Kinematics", "dir_218c68a89c725c0e29acf3cae3e77c64.html", "dir_218c68a89c725c0e29acf3cae3e77c64" ],
     [ "Kinetics", "dir_427e62715cd007fb2428a3c5987df368.html", "dir_427e62715cd007fb2428a3c5987df368" ],
     [ "NISTConst", "dir_df8cd42b4151effe4195cfdf27b64ade.html", "dir_df8cd42b4151effe4195cfdf27b64ade" ],

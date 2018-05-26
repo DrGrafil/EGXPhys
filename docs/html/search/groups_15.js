@@ -11,6 +11,7 @@ var searchData=
   ['surface_20area',['Surface Area',['../group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area.html',1,'']]],
   ['standard_20gravitational_20parameter',['Standard Gravitational Parameter',['../group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html',1,'']]],
   ['surface_20gravity',['Surface Gravity',['../group___e_g_x_phys-_astrophysics-_surface_gravity.html',1,'']]],
+  ['stefan_2dboltzmann_20law',['Stefan-Boltzmann Law',['../group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html',1,'']]],
   ['separation_20energy',['Separation Energy',['../group___e_g_x_phys-_nuclear_separation_energy.html',1,'']]],
   ['semi_2dempirical_20mass_20formula',['Semi-Empirical Mass Formula',['../group___e_g_x_phys-_semi_empirical_mass_formula.html',1,'']]],
   ['stellar_20mass',['Stellar Mass',['../group___e_g_x_phys-_stellar_mass.html',1,'']]],

@@ -1,31 +1,17 @@
-/// @file EGXPhys/Astrophysics/B-VColor.inl
+/// @file EGXPhys/Electrodynamics/BlackBody/StefanBoltzmannLaw.inl
 ///
-/// @brief Implimentation of B-V color calculations
+/// @brief Implimentation of StefanBoltzmannLaw calculations
 /// @author Elliot Grafil (Metex)
-/// @date 4/14/18
+/// @date 5/25/18
 
 
 namespace EGXPhys{
-	//add ramirez
-	//https://www.hs.uni-hamburg.de/DE/Ins/Per/Czesla/PyA/PyA/pyaslDoc/aslDoc/aslExt_1Doc/ramirez2005.html
-	template<typename T>
-	T BVColorToTempreture(const T BV)
-	{
-		return (T)(4600.0* (
-			(1.0 / (0.92*(BV)+1.70)) +
-			(1.0 / (0.92*(BV)+0.62))
-			)
-			);
-	}
 
 	template<typename T>
-	T BVColorToTempretureBallesteros(const T BV)
+	T StefanBoltzmannLaw(const T surfaceAreaInm, const T surfaceTempInK)
 	{
-		return (T)(4600.0* (
-			(1.0 / (0.92*(BV)+1.70)) +
-			(1.0 / (0.92*(BV)+0.62))
-			)
-			);
+        return (NISTConst::sigma * surfaceAreaInm * pow(surfaceTempInK, 4));
 	}
+
 
 }//namespace EGXPhys

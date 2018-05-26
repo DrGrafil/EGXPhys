@@ -2,6 +2,7 @@ var searchData=
 [
   ['b_2dvcolor_2ehpp',['B-VColor.hpp',['../_b-_v_color_8hpp.html',1,'']]],
   ['b_2dvcolor_2einl',['B-VColor.inl',['../_b-_v_color_8inl.html',1,'']]],
+  ['blackbody_2ehpp',['BlackBody.hpp',['../_black_body_8hpp.html',1,'']]],
   ['blackbodyluminosity',['blackbodyLuminosity',['../group___e_g_x_phys-_luminosity.html#ga909f82edfaed449b44e94788b642ebb8',1,'EGXPhys']]],
   ['bohrmagneton',['BohrMagneton',['../group___n_i_s_t_const-_bohr_magneton.html#ga2804e91f010b40a5c11a46506e6c1926',1,'NISTConst']]],
   ['bohrmagnetoninevpert',['BohrMagnetonIneVPerT',['../group___n_i_s_t_const-_bohr_magneton.html#ga5a7384205d0127ffe031897a6b0c3dca',1,'NISTConst']]],
@@ -17,6 +18,7 @@ var searchData=
   ['bvcolortotempreture',['BVColorToTempreture',['../group___e_g_x_phys-_astrophysic-_b-_v_color.html#gad251a8c25285f5817e307c35c3ec971a',1,'EGXPhys']]],
   ['bvcolortotempretureballesteros',['BVColorToTempretureBallesteros',['../group___e_g_x_phys-_astrophysic-_b-_v_color.html#ga0e553143a3bb121c3ae50ca96c502140',1,'EGXPhys']]],
   ['b_2dv_20color',['B-V Color',['../group___e_g_x_phys-_astrophysic-_b-_v_color.html',1,'']]],
+  ['black_20body',['Black Body',['../group___e_g_x_phys-_electrodynamics-_black_body.html',1,'']]],
   ['binding_20energy',['Binding Energy',['../group___e_g_x_phys-_nuclear_binding_energy.html',1,'']]],
   ['beta_20minus_20decay',['Beta Minus Decay',['../group___e_g_x_phys-_q_value-_beta_minus.html',1,'']]],
   ['beta_20plus_20decay',['Beta Plus Decay',['../group___e_g_x_phys-_q_value-_beta_plus.html',1,'']]],

@@ -4,6 +4,7 @@ var searchData=
   ['egxmath_2ehpp',['EGXMath.hpp',['../_e_g_x_math_8hpp.html',1,'']]],
   ['egxphys_2ehpp',['EGXPhys.hpp',['../_e_g_x_phys_8hpp.html',1,'']]],
   ['egxphysconstants_2ehpp',['EGXPhysConstants.hpp',['../_e_g_x_phys_constants_8hpp.html',1,'']]],
+  ['electrodynamics_2ehpp',['Electrodynamics.hpp',['../_electrodynamics_8hpp.html',1,'']]],
   ['ellipsecircumference_2ehpp',['EllipseCircumference.hpp',['../_ellipse_circumference_8hpp.html',1,'']]],
   ['ellipsecircumference_2einl',['EllipseCircumference.inl',['../_ellipse_circumference_8inl.html',1,'']]],
   ['ellipsedirectrix_2ehpp',['EllipseDirectrix.hpp',['../_ellipse_directrix_8hpp.html',1,'']]],
