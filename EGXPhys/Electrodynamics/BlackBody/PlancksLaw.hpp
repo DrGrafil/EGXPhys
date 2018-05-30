@@ -57,8 +57,8 @@ namespace EGXPhys
     *   See https://en.wikipedia.org/wiki/Planck%27s_law
     *
     *   @param surfaceTempretureInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
-    *   @param frequencyInHz \f$\nu\ (Hz)\f$ Frequency at which to find spectral radiance at in meters.
-    *   @return \f$B_{\lambda}\ ( \dfrac{W}{sr\ m^2 Hz})\f$ Spectral radiance of a black body at the frequency, \f$\nu\f$, in watts per steradian meter squared hertz.
+    *   @param frequencyInHz \f$\nu\ (Hz)\f$ Frequency at which to find spectral radiance at in hertz.
+    *   @return \f$B_{\nu}\ ( \dfrac{W}{sr\ m^2 Hz})\f$ Spectral radiance of a black body at the frequency, \f$\nu\f$, in watts per steradian meter squared hertz.
     *   @see SpectralRadianceFromFrequency for alias.
     *   @see PlancksLawFromWavelength for spectral radiance calulations using wavelenght.
     *   @see PlancksLawFromWavenumber for spectral radiance calulations using wavenumber.
@@ -97,7 +97,7 @@ namespace EGXPhys
     *   See https://en.wikipedia.org/wiki/Planck%27s_law
     *
     *   @param surfaceTempretureInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
-    *   @param wavenumberInInversem \f$\tilde {\nu }\ (m)\f$ Wavelength at which to find spectral radiance at in meters.
+    *   @param wavenumberInInversem \f$\tilde {\nu }\ (\frac{1}{m})\f$ Wavemnumber at which to find spectral radiance at in inverse meters.
     *   @return \f$B_{\tilde {\nu }}\ ( \dfrac{W}{sr\ m})\f$ Spectral radiance of a black body at the wavenumber, \f$\tilde {\nu }\f$ in watts per steradian meter.
     *   @see SpectralRadianceFromWavenumber for alias.
     *   @see PlancksLawFromFrequency for spectral radiance calulations using frequency.
@@ -118,7 +118,7 @@ namespace EGXPhys
     *
     *   @param surfaceTempretureInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
     *   @param angularFrequencyInRadiansPers \f$\omega\ (\frac{rad}{Hz})\f$ Angular frequency at which to find spectral radiance at in radians per hertz.
-    *   @return \f$B_{\omega}\ ( \dfrac{W}{sr\ m^3})\f$ Spectral radiance of a black body at the angular frequency, \f$\omega\f$, in watt radians per steradian meter squared hertz.
+    *   @return \f$B_{\omega}\ ( \dfrac{W Hz}{sr\ m^2 rad})\f$ Spectral radiance of a black body at the angular frequency, \f$\omega\f$, in watt hertz per steradian meter squared radian.
     *   @see SpectralRadianceFromAngularFrequency for alias.
     *   @see PlancksLawFromFrequency for spectral radiance calulations using frequency.
     *   @see PlancksLawFromWavelength for spectral radiance calulations using wavelenght.
