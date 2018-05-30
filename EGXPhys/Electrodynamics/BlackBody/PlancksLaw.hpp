@@ -27,20 +27,39 @@ namespace EGXPhys
 	/// @addtogroup EGXPhys-Electrodynamics-BlackBody-PlancksLaw
 	/// @{
 	
-	/**
-	*   @brief Calculates the spectral radiance, \f$B_{\lambda}\f$, in watts per steradien meter cubed of a black body from the surface tempreture, \f$T\f$ of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength for a unit surface area of the black body.
-	*   		\f[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\dfrac{hc}{\lambda k_B T}} - 1} \f]
-	*
-	*   See https://en.wikipedia.org/wiki/Planck%27s_law
-	*
-	*   @param surfaceTempInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
+    /**
+    *   @brief Calculates the spectral radiance, \f$B_{\lambda}\f$, in watts per steradien meter cubed of a black body from the surface tempreture, \f$T\f$ of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength for a unit surface area of the black body.
+    *   		\f[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\dfrac{hc}{\lambda k_B T}} - 1} \f]
+    *
+    *   See https://en.wikipedia.org/wiki/Planck%27s_law
+    *
+    *   @param surfaceTempInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
     *   @param wavelengthInm \f$\lambda\ (m)\f$ Wavelength at which to find spectral radiance at in meters.
-	*   @return \f$B_{\lambda}\ ( \dfrac{W}{sr\ m^3})\f$ Spectral radiance of a black body at the wavelength \f$B_{\lambda}\f$ in watts per steradien meter cubed.
-	*	@see BVToTempretureBallesteros() for alias.
-	*/
-	template<typename T>
-	T PlancksLaw(const T wavelengthInm, const T surfaceTempretureInK);
+    *   @return \f$B_{\lambda}\ ( \dfrac{W}{sr\ m^3})\f$ Spectral radiance of a black body at the wavelength \f$B_{\lambda}\f$ in watts per steradien meter cubed.
+    *	@see BVToTempretureBallesteros() for alias.
+    */
+    template<typename T>
+    T PlancksLaw(const T wavelengthInm, const T surfaceTempretureInK);
 
+    template<typename T>
+    T PlancksLawFromFrequency(const T frequencyInHz, const T surfaceTempretureInK);
+
+    template<typename T>
+    T PlancksLawFromWavelength(const T wavelengthInm, const T surfaceTempretureInK);
+
+    template<typename T>
+    T PlancksLawFromWavenumber(const T wavenumberInWavelengthPerm, const T surfaceTempretureInK);
+
+
+
+    template<typename T>
+    T PlancksLawFromAngularFrequency(const T angularFrequencyInRadiansPers, const T surfaceTempretureInK);
+
+    template<typename T>
+    T PlancksLawFromAngularWavelength(const T angularWavelengthInm, const T surfaceTempretureInK);
+
+    template<typename T>
+    T PlancksLawAngularWavenumber(const T angularWavenumberInRadiansPerm, const T surfaceTempretureInK);
     /// @}
 } //namespace EGXPhys
 
