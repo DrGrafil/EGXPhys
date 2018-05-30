@@ -54,7 +54,7 @@ var searchData=
   ['plancklength',['PlanckLength',['../group___n_i_s_t_const-_planck_length.html#ga2e9817f37b39c109d5a1e69596e467e7',1,'NISTConst']]],
   ['planckmass',['PlanckMass',['../group___n_i_s_t_const-_planck_mass.html#gaa7617a5b3ffb40b1ab6b80ae4017fe47',1,'NISTConst']]],
   ['planckmassingevpercsquared',['PlanckMassInGeVpercSquared',['../group___n_i_s_t_const-_planck_mass.html#ga8d336f9833239f0cce753a1912e0a6df',1,'NISTConst']]],
-  ['planckslaw',['PlancksLaw',['../group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga19d153ee38266e8e4fb2305281762434',1,'EGXPhys']]],
+  ['planckslaw',['PlancksLaw',['../group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga44d8dc3e072ffc7d860cd8f07463f091',1,'EGXPhys']]],
   ['planckslaw_2ehpp',['PlancksLaw.hpp',['../_plancks_law_8hpp.html',1,'']]],
   ['planckslaw_2einl',['PlancksLaw.inl',['../_plancks_law_8inl.html',1,'']]],
   ['plancktemperature',['PlanckTemperature',['../group___n_i_s_t_const-_planck_temperature.html#ga3664ff00d4e3913e2be317c2579dac19',1,'NISTConst']]],

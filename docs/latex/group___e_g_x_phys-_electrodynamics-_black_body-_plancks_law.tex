@@ -3,34 +3,36 @@
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga19d153ee38266e8e4fb2305281762434}{E\+G\+X\+Phys\+::\+Plancks\+Law}} (const T BV)
-\begin{DoxyCompactList}\small\item\em Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga44d8dc3e072ffc7d860cd8f07463f091}{E\+G\+X\+Phys\+::\+Plancks\+Law}} (const T wavelength\+Inm, const T surface\+Tempreture\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the spectral radiance, $B_{\lambda}$, in watts per steradien meter cubed of a black body from the surface tempreture, $T$ of the black body using Plank\textquotesingle{}s Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength for a unit surface area of the black body. \[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\dfrac{hc}{\lambda k_B T}} - 1} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
 
 
 \subsection{Function Documentation}
-\mbox{\Hypertarget{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga19d153ee38266e8e4fb2305281762434}\label{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga19d153ee38266e8e4fb2305281762434}} 
+\mbox{\Hypertarget{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga44d8dc3e072ffc7d860cd8f07463f091}\label{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga44d8dc3e072ffc7d860cd8f07463f091}} 
 \index{Planck\textquotesingle{}s Law@{Planck\textquotesingle{}s Law}!Plancks\+Law@{Plancks\+Law}}
 \index{Plancks\+Law@{Plancks\+Law}!Planck\textquotesingle{}s Law@{Planck\textquotesingle{}s Law}}
 \subsubsection{\texorpdfstring{Plancks\+Law()}{PlancksLaw()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Phys\+::\+Plancks\+Law (\begin{DoxyParamCaption}\item[{const T}]{BV }\end{DoxyParamCaption})}
+T E\+G\+X\+Phys\+::\+Plancks\+Law (\begin{DoxyParamCaption}\item[{const T}]{wavelength\+Inm,  }\item[{const T}]{surface\+Tempreture\+InK }\end{DoxyParamCaption})}
 
 
 
-Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. 
+Calculates the spectral radiance, $B_{\lambda}$, in watts per steradien meter cubed of a black body from the surface tempreture, $T$ of the black body using Plank\textquotesingle{}s Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength for a unit surface area of the black body. \[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\dfrac{hc}{\lambda k_B T}} - 1} \]. 
 
-See \href{https://arxiv.org/pdf/1201.1809.pdf}{\tt https\+://arxiv.\+org/pdf/1201.\+1809.\+pdf} for Ballesteros\textquotesingle{} paper. See \href{http://en.wikipedia.org/wiki/Color_index}{\tt http\+://en.\+wikipedia.\+org/wiki/\+Color\+\_\+index}
+See \href{https://en.wikipedia.org/wiki/Planck%27s_law}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Planck\%27s\+\_\+law}
 
 
 \begin{DoxyParams}{Parameters}
-{\em BV} & $B-V\ (dimensionless)$ is the B-\/V color index of the star. \\
+{\em surface\+Temp\+InK} & $T\ (K)$ Surface tempreture of the black body in Kelvin. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-$T\ (K)$ Tempreture of the star in Kelvin. 
+$\lambda\ (m)$ Wavelength at which to find spectral radiance at in meters. 
+
+$B_{\lambda}\ ( \dfrac{W}{sr\ m^3})$ Spectral radiance of a black body at the wavelength $B_{\lambda}$ in watts per steradien meter cubed. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
 B\+V\+To\+Tempreture\+Ballesteros() for alias. 

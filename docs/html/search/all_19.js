@@ -8,5 +8,7 @@ var searchData=
   ['wiensdisplacementlaw',['WiensDisplacementLaw',['../group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html#ga8f89ce1baac45a1717f604255d04af44',1,'EGXPhys']]],
   ['wiensdisplacementlaw_2ehpp',['WiensDisplacementLaw.hpp',['../_wiens_displacement_law_8hpp.html',1,'']]],
   ['wiensdisplacementlaw_2einl',['WiensDisplacementLaw.inl',['../_wiens_displacement_law_8inl.html',1,'']]],
+  ['wiensdisplacementlawinhz',['WiensDisplacementLawInHz',['../group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html#gaf09ffbc9b7133c16da786c1609ecf689',1,'EGXPhys']]],
+  ['wiensdisplacementlawinm',['WiensDisplacementLawInm',['../group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html#ga126ebb146c31a2371f1d1d001d11c62f',1,'EGXPhys']]],
   ['wienwavelengthdisplacementlawconstant',['WienWavelengthDisplacementLawConstant',['../group___n_i_s_t_const-_wien_displacement.html#gaad844adb8bf7d8300587cb2892b430d8',1,'NISTConst']]]
 ];

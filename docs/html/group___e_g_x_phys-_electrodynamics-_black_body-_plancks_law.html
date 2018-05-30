@@ -100,18 +100,18 @@ $(document).ready(function(){initNavTree('group___e_g_x_phys-_electrodynamics-_b
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga19d153ee38266e8e4fb2305281762434"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga19d153ee38266e8e4fb2305281762434"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga19d153ee38266e8e4fb2305281762434">EGXPhys::PlancksLaw</a> (const T BV)</td></tr>
-<tr class="memdesc:ga19d153ee38266e8e4fb2305281762434"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the tempreture, \(T_{star}\), of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies. </p><p class="formulaDsp">
-\[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]
+<tr class="memitem:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga44d8dc3e072ffc7d860cd8f07463f091">EGXPhys::PlancksLaw</a> (const T wavelengthInm, const T surfaceTempretureInK)</td></tr>
+<tr class="memdesc:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the spectral radiance, \(B_{\lambda}\), in watts per steradien meter cubed of a black body from the surface tempreture, \(T\) of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength for a unit surface area of the black body. </p><p class="formulaDsp">
+\[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\dfrac{hc}{\lambda k_B T}} - 1} \]
 </p>
-<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga19d153ee38266e8e4fb2305281762434">More...</a><br /></td></tr>
-<tr class="separator:ga19d153ee38266e8e4fb2305281762434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga44d8dc3e072ffc7d860cd8f07463f091">More...</a><br /></td></tr>
+<tr class="separator:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga19d153ee38266e8e4fb2305281762434"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga19d153ee38266e8e4fb2305281762434">&#9670;&nbsp;</a></span>PlancksLaw()</h2>
+<a id="ga44d8dc3e072ffc7d860cd8f07463f091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44d8dc3e072ffc7d860cd8f07463f091">&#9670;&nbsp;</a></span>PlancksLaw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -122,24 +122,36 @@ template&lt;typename T &gt; </div>
           <td class="memname">T EGXPhys::PlancksLaw </td>
           <td>(</td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>BV</em></td><td>)</td>
+          <td class="paramname"><em>wavelengthInm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>surfaceTempretureInK</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Calculates the tempreture, \(T_{star}\), of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies. </p><p class="formulaDsp">
-\[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]
+<p>Calculates the spectral radiance, \(B_{\lambda}\), in watts per steradien meter cubed of a black body from the surface tempreture, \(T\) of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength for a unit surface area of the black body. </p><p class="formulaDsp">
+\[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\dfrac{hc}{\lambda k_B T}} - 1} \]
 </p>
 <p>. </p>
-<p>See <a href="https://arxiv.org/pdf/1201.1809.pdf">https://arxiv.org/pdf/1201.1809.pdf</a> for Ballesteros' paper. See <a href="http://en.wikipedia.org/wiki/Color_index">http://en.wikipedia.org/wiki/Color_index</a></p>
+<p>See <a href="https://en.wikipedia.org/wiki/Planck%27s_law">https://en.wikipedia.org/wiki/Planck%27s_law</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">BV</td><td>\(B-V\ (dimensionless)\) is the B-V color index of the star. </td></tr>
+    <tr><td class="paramname">surfaceTempInK</td><td>\(T\ (K)\) Surface tempreture of the black body in Kelvin. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>\(T\ (K)\) Tempreture of the star in Kelvin. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>\(\lambda\ (m)\) Wavelength at which to find spectral radiance at in meters. </dd>
+<dd>
+\(B_{\lambda}\ ( \dfrac{W}{sr\ m^3})\) Spectral radiance of a black body at the wavelength \(B_{\lambda}\) in watts per steradien meter cubed. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>BVToTempretureBallesteros() for alias. </dd></dl>
 
 </div>

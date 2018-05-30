@@ -28,20 +28,20 @@ namespace EGXPhys
 	/// @{
 	
 	/**
-	*   @brief Calculates the tempreture, \f$T_{star}\f$, of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies.
-	*   		\f[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\f]
+	*   @brief Calculates the spectral radiance, \f$B_{\lambda}\f$, in watts per steradien meter cubed of a black body from the surface tempreture, \f$T\f$ of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength for a unit surface area of the black body.
+	*   		\f[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\dfrac{hc}{\lambda k_B T}} - 1} \f]
 	*
-	*	See https://arxiv.org/pdf/1201.1809.pdf for Ballesteros' paper.
-	*   See http://en.wikipedia.org/wiki/Color_index
+	*   See https://en.wikipedia.org/wiki/Planck%27s_law
 	*
-	*   @param BV \f$B-V\ (dimensionless)\f$ is the B-V color index of the star.
-	*   @return \f$T\ (K)\f$ Tempreture of the star in Kelvin.
+	*   @param surfaceTempInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
+    *   @param wavelengthInm \f$\lambda\ (m)\f$ Wavelength at which to find spectral radiance at in meters.
+	*   @return \f$B_{\lambda}\ ( \dfrac{W}{sr\ m^3})\f$ Spectral radiance of a black body at the wavelength \f$B_{\lambda}\f$ in watts per steradien meter cubed.
 	*	@see BVToTempretureBallesteros() for alias.
 	*/
 	template<typename T>
-	T PlancksLaw(const T BV);
+	T PlancksLaw(const T wavelengthInm, const T surfaceTempretureInK);
 
     /// @}
 } //namespace EGXPhys
 
-#include "PlancksLaw.hpp"
+#include "PlancksLaw.inl"

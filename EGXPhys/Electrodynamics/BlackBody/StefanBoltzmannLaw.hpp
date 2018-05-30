@@ -45,4 +45,4 @@ namespace EGXPhys
     /// @}
 } //namespace EGXPhys
 
-#include "StefanBoltzmannLaw.hpp"
+#include "StefanBoltzmannLaw.inl"

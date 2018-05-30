@@ -6,12 +6,12 @@ Calculates B-\/V Color of stars and related information derived from it Plancks\
 
 
 {\ttfamily \#include $<$math.\+h$>$}\newline
-{\ttfamily \#include \char`\"{}Plancks\+Law.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Plancks\+Law.\+inl\char`\"{}}\newline
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga19d153ee38266e8e4fb2305281762434}{E\+G\+X\+Phys\+::\+Plancks\+Law}} (const T BV)
-\begin{DoxyCompactList}\small\item\em Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga44d8dc3e072ffc7d860cd8f07463f091}{E\+G\+X\+Phys\+::\+Plancks\+Law}} (const T wavelength\+Inm, const T surface\+Tempreture\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the spectral radiance, $B_{\lambda}$, in watts per steradien meter cubed of a black body from the surface tempreture, $T$ of the black body using Plank\textquotesingle{}s Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength for a unit surface area of the black body. \[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\dfrac{hc}{\lambda k_B T}} - 1} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}

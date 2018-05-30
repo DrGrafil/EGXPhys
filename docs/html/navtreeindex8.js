@@ -87,11 +87,13 @@ var NAVTREEINDEX8 =
 "group___e_g_x_phys-_decay_width.html#gae232ec8bb39710131be898c057a25620":[1,1,2,1,0],
 "group___e_g_x_phys-_eccentricity.html":[1,1,1,6],
 "group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html":[1,1,3,0,0],
-"group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga19d153ee38266e8e4fb2305281762434":[1,1,3,0,0,0],
+"group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga44d8dc3e072ffc7d860cd8f07463f091":[1,1,3,0,0,0],
 "group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html":[1,1,3,0,1],
 "group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html#ga1672439c53b17cdad6cf7b30b94c53d4":[1,1,3,0,1,0],
 "group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html":[1,1,3,0,2],
+"group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html#ga126ebb146c31a2371f1d1d001d11c62f":[1,1,3,0,2,2],
 "group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html#ga8f89ce1baac45a1717f604255d04af44":[1,1,3,0,2,0],
+"group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html#gaf09ffbc9b7133c16da786c1609ecf689":[1,1,3,0,2,1],
 "group___e_g_x_phys-_electrodynamics-_black_body.html":[1,1,3,0],
 "group___e_g_x_phys-_electrodynamics.html":[1,1,3],
 "group___e_g_x_phys-_half_life.html":[1,1,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "group___n_i_s_t_const-_atomic_mass_constant.html#ga050dd5d7f3c4ee37a9ff7456ce82f8d2":[1,2,3,0,2],
 "group___n_i_s_t_const-_atomic_mass_constant.html#ga2e051baa0d89927080288e2289ac0346":[1,2,3,0,1],
 "group___n_i_s_t_const-_atomic_mass_unit.html":[1,2,6,0],
-"group___n_i_s_t_const-_atomic_mass_unit.html#ga202ebb9eeb0f916c91b074d07ba403d5":[1,2,6,0,2],
-"group___n_i_s_t_const-_atomic_mass_unit.html#ga25c8b97ae8d15ad0a827672a167161fc":[1,2,6,0,0],
-"group___n_i_s_t_const-_atomic_mass_unit.html#ga72ba2b08855b26ea2477c3e8104bbc16":[1,2,6,0,6]
+"group___n_i_s_t_const-_atomic_mass_unit.html#ga202ebb9eeb0f916c91b074d07ba403d5":[1,2,6,0,2]
 };

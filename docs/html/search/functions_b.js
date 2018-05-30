@@ -23,7 +23,7 @@ var searchData=
   ['periselene',['Periselene',['../group___e_g_x_phys-_periapsis.html#ga255874374dde571531e443cdbef9ef0c',1,'EGXPhys']]],
   ['periuranion',['Periuranion',['../group___e_g_x_phys-_periapsis.html#gab8b8131a617dd2d2a4de1d48accd7442',1,'EGXPhys']]],
   ['perizene',['Perizene',['../group___e_g_x_phys-_periapsis.html#ga0523c65b7fc26e675388b2c3d38aa00b',1,'EGXPhys']]],
-  ['planckslaw',['PlancksLaw',['../group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga19d153ee38266e8e4fb2305281762434',1,'EGXPhys']]],
+  ['planckslaw',['PlancksLaw',['../group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga44d8dc3e072ffc7d860cd8f07463f091',1,'EGXPhys']]],
   ['planetaryearthmass',['PlanetaryEarthMass',['../group___e_g_x_phys-_planetary_mass.html#ga3d918c2d37a72b42b49aa6c3da08f450',1,'EGXPhys']]],
   ['planetaryjovianmass',['PlanetaryJovianMass',['../group___e_g_x_phys-_planetary_mass.html#ga4663e9388a3bd1a20f94beb52021f293',1,'EGXPhys']]],
   ['planetaryjupitermass',['PlanetaryJupiterMass',['../group___e_g_x_phys-_planetary_mass.html#gaadff5ffa04bb55a572c1403ab9500c06',1,'EGXPhys']]],

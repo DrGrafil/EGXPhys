@@ -101,19 +101,19 @@ $(document).ready(function(){initNavTree('_plancks_law_8hpp.html','');});
 <p>Calculates B-V Color of stars and related information derived from it PlancksLaw.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;math.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="_plancks_law_8hpp_source.html">PlancksLaw.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_plancks_law_8inl.html">PlancksLaw.inl</a>&quot;</code><br />
 </div>
 <p><a href="_plancks_law_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga19d153ee38266e8e4fb2305281762434"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga19d153ee38266e8e4fb2305281762434"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga19d153ee38266e8e4fb2305281762434">EGXPhys::PlancksLaw</a> (const T BV)</td></tr>
-<tr class="memdesc:ga19d153ee38266e8e4fb2305281762434"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the tempreture, \(T_{star}\), of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies. </p><p class="formulaDsp">
-\[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]
+<tr class="memitem:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga44d8dc3e072ffc7d860cd8f07463f091">EGXPhys::PlancksLaw</a> (const T wavelengthInm, const T surfaceTempretureInK)</td></tr>
+<tr class="memdesc:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the spectral radiance, \(B_{\lambda}\), in watts per steradien meter cubed of a black body from the surface tempreture, \(T\) of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength for a unit surface area of the black body. </p><p class="formulaDsp">
+\[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\dfrac{hc}{\lambda k_B T}} - 1} \]
 </p>
-<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga19d153ee38266e8e4fb2305281762434">More...</a><br /></td></tr>
-<tr class="separator:ga19d153ee38266e8e4fb2305281762434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga44d8dc3e072ffc7d860cd8f07463f091">More...</a><br /></td></tr>
+<tr class="separator:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Calculates B-V Color of stars and related information derived from it PlancksLaw. </p>
