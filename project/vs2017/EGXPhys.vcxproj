@@ -324,6 +324,11 @@
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\3D\Spheroid\SpheroidVolumeTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\GeometryTest.hpp" />
+    <ClInclude Include="..\..\tests\Electrodynamics\Blackbody\BlackBodyTest.hpp" />
+    <ClInclude Include="..\..\tests\Electrodynamics\Blackbody\PlanksLawTest.hpp" />
+    <ClInclude Include="..\..\tests\Electrodynamics\Blackbody\StefanBoltzmannLawTest.hpp" />
+    <ClInclude Include="..\..\tests\Electrodynamics\Blackbody\WiensDisplacementLawTest.hpp" />
+    <ClInclude Include="..\..\tests\Electrodynamics\ElectrodynamicTest.hpp" />
     <ClInclude Include="..\..\tests\Kinetics\AngularAccelerationTests.hpp" />
     <ClInclude Include="..\..\tests\Kinetics\KineticsTests.hpp" />
     <ClInclude Include="..\..\tests\Kinetics\TorqueTests.hpp" />

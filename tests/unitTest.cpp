@@ -25,7 +25,7 @@ using namespace EGXPhys;
 #include "Atomic/AtomicTests.hpp"
 #include "Kinetics/KineticsTests.hpp"
 #include "Optics/OpticsTests.hpp"
-
+#include "Electrodynamics/ElectrodynamicTest.hpp"
 
 using namespace EGXMath;
 #include "EGXMath/EGXMathTests.hpp"

@@ -29,7 +29,7 @@ namespace EGXPhys
 	
 	/**
 	*   @brief Calculates the peak wavelength, \f$\lambda_{max}\f$, in meters emmited by a black body using Wien's displacement law from the surface tempreture, \f$T\f$ of the black body. \f$b\f$ is a measured constant called Wien's displacement constant.
-	*   		\f[\lambda_{max} = \dfrac{b}{T} \f]
+	*   		\f[\lambda_{max} = \dfrac{b_\lambda}{T} \f]
 	*      
 	*	See http://hyperphysics.phy-astr.gsu.edu/hbase/wien.html and https://en.wikipedia.org/wiki/Wien%27s_displacement_law
 	*
@@ -43,7 +43,7 @@ namespace EGXPhys
 
     /**
     *   @brief Calculates the peak wavelength, \f$\lambda_{max}\f$, in meters emmited by a black body using Wien's displacement law from the surface tempreture, \f$T\f$ of the black body. \f$b\f$ is a measured constant called Wien's displacement constant.
-    *   		\f[\lambda_{max} = \dfrac{b}{T} \f]
+    *   		\f[\lambda_{max} = \dfrac{b_\lambda}{T} \f]
     *
     *	See http://hyperphysics.phy-astr.gsu.edu/hbase/wien.html and https://en.wikipedia.org/wiki/Wien%27s_displacement_law
     *
@@ -57,12 +57,12 @@ namespace EGXPhys
 
     /**
     *   @brief Calculates the peak frequency, \f$\nu_{max}\f$, in Hz emmited by a black body using Wien's displacement law from the surface tempreture, \f$T\f$ of the black body. \f$b\f$ is a measured constant called Wien's displacement constant.
-    *   		\f[\nu_{max} = \dfrac{b}{T} \f]
+    *   		\f[\nu_{max} = b_\nu\ T \f]
     *
     *	See http://hyperphysics.phy-astr.gsu.edu/hbase/wien.html and https://en.wikipedia.org/wiki/Wien%27s_displacement_law
     *
     *   @param surfaceTempInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
-    *   @return \f$\nu_{max}\ (m)\f$ Peak frequency emmited by black body in Hz.
+    *   @return \f$\nu_{max}\ (Hz)\f$ Peak frequency emmited by black body in Hz.
     *	@see WiensDisplacementLaw() for peak wavelength of the black body.
     *	@see WiensDisplacementLawInm() for peak wavelength of the black body.
     */

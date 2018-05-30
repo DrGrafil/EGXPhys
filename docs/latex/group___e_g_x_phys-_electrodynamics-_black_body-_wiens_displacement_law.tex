@@ -4,11 +4,11 @@
 \begin{DoxyCompactItemize}
 \item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law_ga8f89ce1baac45a1717f604255d04af44}{E\+G\+X\+Phys\+::\+Wiens\+Displacement\+Law}} (const T surface\+Temp\+InK)
-\begin{DoxyCompactList}\small\item\em Calculates the peak wavelength, $\lambda_{max}$, in meters emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\lambda_{max} = \dfrac{b}{T} \]. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the peak wavelength, $\lambda_{max}$, in meters emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\lambda_{max} = \dfrac{b_\lambda}{T} \]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law_ga126ebb146c31a2371f1d1d001d11c62f}{E\+G\+X\+Phys\+::\+Wiens\+Displacement\+Law\+Inm}} (const T surface\+Temp\+InK)
-\begin{DoxyCompactList}\small\item\em Calculates the peak wavelength, $\lambda_{max}$, in meters emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\lambda_{max} = \dfrac{b}{T} \]. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the peak wavelength, $\lambda_{max}$, in meters emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\lambda_{max} = \dfrac{b_\lambda}{T} \]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law_gaf09ffbc9b7133c16da786c1609ecf689}{E\+G\+X\+Phys\+::\+Wiens\+Displacement\+Law\+In\+Hz}} (const T surface\+Temp\+InK)
-\begin{DoxyCompactList}\small\item\em Calculates the peak frequency, $\nu_{max}$, in Hz emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\nu_{max} = \dfrac{b}{T} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Calculates the peak frequency, $\nu_{max}$, in Hz emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\nu_{max} = b_\nu\ T \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -24,7 +24,7 @@ T E\+G\+X\+Phys\+::\+Wiens\+Displacement\+Law (\begin{DoxyParamCaption}\item[{co
 
 
 
-Calculates the peak wavelength, $\lambda_{max}$, in meters emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\lambda_{max} = \dfrac{b}{T} \]. 
+Calculates the peak wavelength, $\lambda_{max}$, in meters emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\lambda_{max} = \dfrac{b_\lambda}{T} \]. 
 
 See \href{http://hyperphysics.phy-astr.gsu.edu/hbase/wien.html}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/wien.\+html} and \href{https://en.wikipedia.org/wiki/Wien%27s_displacement_law}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Wien\%27s\+\_\+displacement\+\_\+law}
 
@@ -50,7 +50,7 @@ T E\+G\+X\+Phys\+::\+Wiens\+Displacement\+Law\+In\+Hz (\begin{DoxyParamCaption}\
 
 
 
-Calculates the peak frequency, $\nu_{max}$, in Hz emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\nu_{max} = \dfrac{b}{T} \]. 
+Calculates the peak frequency, $\nu_{max}$, in Hz emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\nu_{max} = b_\nu\ T \]. 
 
 See \href{http://hyperphysics.phy-astr.gsu.edu/hbase/wien.html}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/wien.\+html} and \href{https://en.wikipedia.org/wiki/Wien%27s_displacement_law}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Wien\%27s\+\_\+displacement\+\_\+law}
 
@@ -60,7 +60,7 @@ See \href{http://hyperphysics.phy-astr.gsu.edu/hbase/wien.html}{\tt http\+://hyp
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
-$\nu_{max}\ (m)$ Peak frequency emmited by black body in Hz. 
+$\nu_{max}\ (Hz)$ Peak frequency emmited by black body in Hz. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
 \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law_ga8f89ce1baac45a1717f604255d04af44}{Wiens\+Displacement\+Law()}} for peak wavelength of the black body. 
@@ -76,7 +76,7 @@ T E\+G\+X\+Phys\+::\+Wiens\+Displacement\+Law\+Inm (\begin{DoxyParamCaption}\ite
 
 
 
-Calculates the peak wavelength, $\lambda_{max}$, in meters emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\lambda_{max} = \dfrac{b}{T} \]. 
+Calculates the peak wavelength, $\lambda_{max}$, in meters emmited by a black body using Wien\textquotesingle{}s displacement law from the surface tempreture, $T$ of the black body. $b$ is a measured constant called Wien\textquotesingle{}s displacement constant. \[\lambda_{max} = \dfrac{b_\lambda}{T} \]. 
 
 See \href{http://hyperphysics.phy-astr.gsu.edu/hbase/wien.html}{\tt http\+://hyperphysics.\+phy-\/astr.\+gsu.\+edu/hbase/wien.\+html} and \href{https://en.wikipedia.org/wiki/Wien%27s_displacement_law}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Wien\%27s\+\_\+displacement\+\_\+law}
 

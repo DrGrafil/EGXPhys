@@ -10,7 +10,7 @@ namespace EGXPhys{
 	template<typename T>
 	T PlancksLaw(const T wavelengthInm, const T surfaceTempretureInK)
 	{
-        return PlancksLawFromWavelength(wavelengthInm, surfaceTempretureInK;
+        return PlancksLawFromWavelength(wavelengthInm, surfaceTempretureInK);
 	}
 
 
@@ -56,7 +56,7 @@ namespace EGXPhys{
     template<typename T>
     T PlancksLawFromAngularWavelength(const T angularWavelengthInm, const T surfaceTempretureInK) {
         T csq = (T)NISTConst::c * (T)NISTConst::c;
-        T C = ((T)NISTConst::hbar * csq) / ((T)4.0 * (T)pi * (T)pi * (T)pi * (pow(angularWavelengthInm, 5));
+        T C = ((T)NISTConst::hbar * csq) / ((T)4.0 * (T)pi * (T)pi * (T)pi * (pow(angularWavelengthInm, 5)));
         T ex = ((T)NISTConst::hbar * (T)NISTConst::c) / (angularWavelengthInm * (T)NISTConst::kB * surfaceTempretureInK);
 
         return C * (T)1.0 / (exp(ex) - (T)1.0);

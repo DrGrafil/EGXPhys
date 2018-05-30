@@ -9,17 +9,17 @@ namespace EGXPhys{
 
 	template<typename T>
 	T WiensDisplacementLaw(const T surfaceTempInK) {
-        return WiensDisplacementLawInm(dSurfaceTemp);
+        return WiensDisplacementLawInm(surfaceTempInK);
     }
 
     template<typename T>
     T WiensDisplacementLawInm(const T surfaceTempInK) {
-        return (NISTConst::WienWavelengthDisplacementLawConstant / dSurfaceTemp);
+        return (NISTConst::WienWavelengthDisplacementLawConstant / surfaceTempInK);
     }
 
     template<typename T>
     T WiensDisplacementLawInHz(const T surfaceTempInK) {
-        return (NISTConst::WienFrequencyDisplacementLawConstant / dSurfaceTemp);
+        return (NISTConst::WienFrequencyDisplacementLawConstant * surfaceTempInK);
     }
 
 }//namespace EGXPhys

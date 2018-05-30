@@ -142,6 +142,12 @@
     <Filter Include="EGXPhys\Electrodynamics\BlackBody">
       <UniqueIdentifier>{59c2556b-9dfb-4f89-bec6-6d0f91051d99}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tests\Electrodynamics">
+      <UniqueIdentifier>{5a170abf-82f1-4e08-9889-6e7cdb09c55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Electrodynamics\BlackBody">
+      <UniqueIdentifier>{86bd1201-ccce-4ebb-ac98-f5cc2877a66d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -710,6 +716,21 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\Electrodynamics\BlackBody\StefanBoltzmannLaw.hpp">
       <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Electrodynamics\ElectrodynamicTest.hpp">
+      <Filter>Tests\Electrodynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Electrodynamics\Blackbody\PlanksLawTest.hpp">
+      <Filter>Tests\Electrodynamics\BlackBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Electrodynamics\Blackbody\StefanBoltzmannLawTest.hpp">
+      <Filter>Tests\Electrodynamics\BlackBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Electrodynamics\Blackbody\WiensDisplacementLawTest.hpp">
+      <Filter>Tests\Electrodynamics\BlackBody</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\Electrodynamics\Blackbody\BlackBodyTest.hpp">
+      <Filter>Tests\Electrodynamics\BlackBody</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
