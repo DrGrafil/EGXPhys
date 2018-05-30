@@ -10,5 +10,5 @@ var searchData=
   ['boltzmannconstantinevperk',['BoltzmannConstantIneVPerK',['../group___n_i_s_t_const-_boltzmann_constant.html#ga8c0cb1b4b0d54e1a5bf735efaef8d349',1,'NISTConst']]],
   ['boltzmannconstantinhzperk',['BoltzmannConstantInHzPerK',['../group___n_i_s_t_const-_boltzmann_constant.html#gae7c3bd9c33c056465e2fe1e8e6f5bbd2',1,'NISTConst']]],
   ['boltzmannconstantininversemk',['BoltzmannConstantInInversemK',['../group___n_i_s_t_const-_boltzmann_constant.html#ga03a6526c1016d67e765abded43b37f36',1,'NISTConst']]],
-  ['bondalbedoofearth',['BondAlbedoOfEarth',['../_astrophysics_constants_8hpp.html#a932fff28fce4321fdbf9abc5c1783dc9',1,'EGXPhys']]]
+  ['bondalbedoofearth',['BondAlbedoOfEarth',['../namespace_e_g_x_phys.html#a932fff28fce4321fdbf9abc5c1783dc9',1,'EGXPhys']]]
 ];

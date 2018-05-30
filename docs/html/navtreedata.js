@@ -26,6 +26,14 @@ var NAVTREE =
   [ "EGXPhys", "index.html", [
     [ "Todo List", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ]
+      ] ]
+    ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ]
     ] ]
@@ -40,11 +48,11 @@ var NAVTREEINDEX =
 "_integer_degree_conversion_8inl.html#gaa04058a2fea3dc3678264a05fac6e1ae",
 "_n_i_s_t_const_8hpp.html#ga8c1405e0299d1388f1452bf4e04778f9",
 "_periapsis_8inl.html#gafb16e46e55078b38604eef0d7c7c40c4",
-"_spheroid_inertia_8inl.html",
-"group___e_g_x_math-_conversions-_angle_conversions-_gradian.html#gaf174cf5b716d5a490b3744ffe9ff3b97",
-"group___e_g_x_math-_geometry-3_d-_spheroid-_volume.html",
-"group___n_i_s_t_const-_atomic_mass_unit.html#ga25c8b97ae8d15ad0a827672a167161fc",
-"group___n_i_s_t_const-_natural_unit.html#ga52ce10be6f28a0403e43f42445dd5bdb"
+"_spheroid_flattening_8hpp.html#ga9822b6e1025edbf7d272949547c53511",
+"group___e_g_x_math-_conversions-_angle_conversions-_gradian.html#ga52ed2e44217e6a57e56829bee36612dc",
+"group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga05e3be91f5f7fbaa9371687aa3834179",
+"group___n_i_s_t_const-_adopted.html",
+"group___n_i_s_t_const-_muon.html#ga2429d4c7a129833cea3e1f94959c541c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

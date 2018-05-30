@@ -8,7 +8,7 @@ var searchData=
   ['jouletoinversemeter',['jouleToInverseMeter',['../group___n_i_s_t_const-_joule.html#gaf31dbc48b766c4fe5d70ddb485253be8',1,'NISTConst']]],
   ['jouletokelvin',['jouleToKelvin',['../group___n_i_s_t_const-_joule.html#gabba35f3a458ac8488e06a1ec82b98a06',1,'NISTConst']]],
   ['jouletokilogram',['jouleToKilogram',['../group___n_i_s_t_const-_joule.html#ga94f11f25f1efe95fef2594b97366c81e',1,'NISTConst']]],
-  ['jupitermass',['JupiterMass',['../_astrophysics_constants_8hpp.html#ad790be322eb318e95b4ea609b4954da9',1,'EGXPhys']]],
+  ['jupitermass',['JupiterMass',['../namespace_e_g_x_phys.html#ad790be322eb318e95b4ea609b4954da9',1,'EGXPhys']]],
   ['josephson_20constant',['Josephson constant',['../group___n_i_s_t_const-_josephson_constant.html',1,'']]],
   ['joule',['Joule',['../group___n_i_s_t_const-_joule.html',1,'']]]
 ];

@@ -77,7 +77,7 @@ var searchData=
   ['degreetoradian',['DegreeToRadian',['../group___e_g_x_math-_conversions-_angle_conversions-_degree.html#ga48585541b228c852c9d08a9eac3682f0',1,'EGXMath']]],
   ['degreetorightascension',['DegreeToRightAscension',['../group___e_g_x_phys-_astrophysics-_right_ascension.html#ga6fdbd35a030d278f396496899a1c236f',1,'EGXPhys']]],
   ['degreetoturn',['DegreeToTurn',['../group___e_g_x_math-_conversions-_angle_conversions-_degree.html#gafb4ce930493a7d6202ede3ee1630ef5d',1,'EGXMath']]],
-  ['densityofearth',['DensityOfEarth',['../_astrophysics_constants_8hpp.html#a2a671e37351b9b7e334385a26a7f7102',1,'EGXPhys']]],
+  ['densityofearth',['DensityOfEarth',['../namespace_e_g_x_phys.html#a2a671e37351b9b7e334385a26a7f7102',1,'EGXPhys']]],
   ['deuteronelectronmagneticmomentratio',['deuteronElectronMagneticMomentRatio',['../group___n_i_s_t_const-_deuteron.html#ga62672422feb4a89e727a7973fad91a46',1,'NISTConst']]],
   ['deuteronelectronmassratio',['deuteronElectronMassRatio',['../group___n_i_s_t_const-_deuteron.html#ga9931de0eebdf1b6a4f61dfce2a83326a',1,'NISTConst']]],
   ['deuterongfactor',['deuterongFactor',['../group___n_i_s_t_const-_deuteron.html#ga51d5fd1f5022a7357bd1f810f07a65ac',1,'NISTConst']]],

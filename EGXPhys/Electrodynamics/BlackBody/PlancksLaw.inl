@@ -34,10 +34,10 @@ namespace EGXPhys{
     }
 
     template<typename T>
-    T PlancksLawFromWavenumber(const T wavenumberInWavelengthPerm, const T surfaceTempretureInK) {
+    T PlancksLawFromWavenumber(const T wavenumberInInversem, const T surfaceTempretureInK) {
         T csq = (T)NISTConst::c * (T)NISTConst::c;
-        T C = ((T)2.0 * (T)NISTConst::h * csq * wavenumberInWavelengthPerm * wavenumberInWavelengthPerm * wavenumberInWavelengthPerm);
-        T ex = ((T)NISTConst::h * (T)NISTConst::c * wavenumberInWavelengthPerm) / ((T)NISTConst::kB * surfaceTempretureInK);
+        T C = ((T)2.0 * (T)NISTConst::h * csq * wavenumberInInversem * wavenumberInInversem * wavenumberInInversem);
+        T ex = ((T)NISTConst::h * (T)NISTConst::c * wavenumberInInversem) / ((T)NISTConst::kB * surfaceTempretureInK);
 
         return C * (T)1.0 / (exp(ex) - (T)1.0);
     }
@@ -63,10 +63,10 @@ namespace EGXPhys{
     }
 
     template<typename T>
-    T PlancksLawAngularWavenumber(const T angularWavenumberInRadiansPerm, const T surfaceTempretureInK) {
+    T PlancksLawFromAngularWavenumber(const T angularWavenumberInRadianPerm, const T surfaceTempretureInK) {
         T csq = (T)NISTConst::c * (T)NISTConst::c;
-        T C = ((T)NISTConst::hbar * csq * angularWavenumberInRadiansPerm * angularWavenumberInRadiansPerm * angularWavenumberInRadiansPerm) / ((T)4.0 * (T)pi * (T)pi * (T)pi );
-        T ex = ((T)NISTConst::hbar * (T)NISTConst::c * angularWavenumberInRadiansPerm) / ((T)NISTConst::kB * surfaceTempretureInK);
+        T C = ((T)NISTConst::hbar * csq * angularWavenumberInRadianPerm * angularWavenumberInRadianPerm * angularWavenumberInRadianPerm) / ((T)4.0 * (T)pi * (T)pi * (T)pi );
+        T ex = ((T)NISTConst::hbar * (T)NISTConst::c * angularWavenumberInRadianPerm) / ((T)NISTConst::kB * surfaceTempretureInK);
 
         return C * (T)1.0 / (exp(ex) - (T)1.0);
     }

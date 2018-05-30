@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('_plancks_law_8inl.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">PlancksLaw.inl File Reference</div>  </div>
@@ -101,15 +102,62 @@ $(document).ready(function(){initNavTree('_plancks_law_8inl.html','');});
 <p>Implimentation of Planck's Law calculations.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespace_e_g_x_phys"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_e_g_x_phys.html">EGXPhys</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga44d8dc3e072ffc7d860cd8f07463f091">EGXPhys::PlancksLaw</a> (const T wavelengthInm, const T surfaceTempretureInK)</td></tr>
-<tr class="memdesc:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the spectral radiance, \(B_{\lambda}\), in watts per steradien meter cubed of a black body from the surface tempreture, \(T\) of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength for a unit surface area of the black body. </p><p class="formulaDsp">
-\[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\dfrac{hc}{\lambda k_B T}} - 1} \]
+<tr class="memdesc:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the spectral radiance, \(B_{\lambda}\), in watts per steradien meter cubed of a black body from the surface tempreture, \(T\) of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength, \(\lambda\), for a unit surface area of the black body. </p><p class="formulaDsp">
+\[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\frac{hc}{\lambda k_B T}} - 1} \]
 </p>
 <p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga44d8dc3e072ffc7d860cd8f07463f091">More...</a><br /></td></tr>
 <tr class="separator:ga44d8dc3e072ffc7d860cd8f07463f091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga68aae82f8a086831358c4a61c8c80ba4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga68aae82f8a086831358c4a61c8c80ba4"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga68aae82f8a086831358c4a61c8c80ba4">EGXPhys::PlancksLawFromFrequency</a> (const T frequencyInHz, const T surfaceTempretureInK)</td></tr>
+<tr class="memdesc:ga68aae82f8a086831358c4a61c8c80ba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the spectral radiance, \(B_{\nu}\), in watts per steradien meter squared hertz of a black body from the surface tempreture, \(T\) of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific frequency, \(\nu\), for a unit surface area of the black body. </p><p class="formulaDsp">
+\[ B_{\nu} = \dfrac{2 h \nu^3}{c^2} \dfrac{1}{e^{\frac{h\nu}{k_B T}} - 1} \]
+</p>
+<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga68aae82f8a086831358c4a61c8c80ba4">More...</a><br /></td></tr>
+<tr class="separator:ga68aae82f8a086831358c4a61c8c80ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga54639bc031ded51ef78aa82b0457a4dd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga54639bc031ded51ef78aa82b0457a4dd"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga54639bc031ded51ef78aa82b0457a4dd">EGXPhys::PlancksLawFromWavelength</a> (const T wavelengthInm, const T surfaceTempretureInK)</td></tr>
+<tr class="memdesc:ga54639bc031ded51ef78aa82b0457a4dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the spectral radiance, \(B_{\lambda}\), in watts per steradien meter cubed of a black body from the surface tempreture, \(T\) of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific wavelength, \(\lambda\), for a unit surface area of the black body. </p><p class="formulaDsp">
+\[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\frac{hc}{\lambda k_B T}} - 1} \]
+</p>
+<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga54639bc031ded51ef78aa82b0457a4dd">More...</a><br /></td></tr>
+<tr class="separator:ga54639bc031ded51ef78aa82b0457a4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6648ae2a0fbff6735c1e1a04c7cac746"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga6648ae2a0fbff6735c1e1a04c7cac746"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga6648ae2a0fbff6735c1e1a04c7cac746">EGXPhys::PlancksLawFromWavenumber</a> (const T wavenumberInInversem, const T surfaceTempretureInK)</td></tr>
+<tr class="memdesc:ga6648ae2a0fbff6735c1e1a04c7cac746"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the spectral radiance, \(B_{\tilde {\nu }}\), in watts per steradien meter cubed of a black body from the surface tempreture, \(T\) of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific wavenumber, \(\tilde {\nu }\), for a unit surface area of the black body. </p><p class="formulaDsp">
+\[ B_{\tilde {\nu }} = 2 h c^2 \tilde {\nu }^3 \dfrac{1}{e^{\frac{hc \tilde {\nu }}{k_B T}} - 1} \]
+</p>
+<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga6648ae2a0fbff6735c1e1a04c7cac746">More...</a><br /></td></tr>
+<tr class="separator:ga6648ae2a0fbff6735c1e1a04c7cac746"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac540560c71e30c02b91d22e417b5863"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaac540560c71e30c02b91d22e417b5863"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#gaac540560c71e30c02b91d22e417b5863">EGXPhys::PlancksLawFromAngularFrequency</a> (const T angularFrequencyInRadiansPers, const T surfaceTempretureInK)</td></tr>
+<tr class="memdesc:gaac540560c71e30c02b91d22e417b5863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the spectral radiance, \(B_{\omega}\), in watt radians per steradien meter squared hertz of a black body from the surface tempreture, \(T\) of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific angular frequency, \(\omega\), for a unit surface area of the black body. </p><p class="formulaDsp">
+\[ B_{\omega} = \dfrac{\hbar \omega^3}{4\pi^3c^2} \dfrac{1}{e^{\frac{\hbar\omega}{k_B T}} - 1} \]
+</p>
+<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#gaac540560c71e30c02b91d22e417b5863">More...</a><br /></td></tr>
+<tr class="separator:gaac540560c71e30c02b91d22e417b5863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7322124727f968d28807e918c5eeb23f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga7322124727f968d28807e918c5eeb23f"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga7322124727f968d28807e918c5eeb23f">EGXPhys::PlancksLawFromAngularWavelength</a> (const T angularWavelengthInm, const T surfaceTempretureInK)</td></tr>
+<tr class="memdesc:ga7322124727f968d28807e918c5eeb23f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the spectral radiance, \(B_{y}\), in watts per steradien meter cubed of a black body from the surface tempreture, \(T\) of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific angular wavelength, /f$y/f$, for a unit surface area of the black body. </p><p class="formulaDsp">
+\[ B_{y} = \dfrac{\hbar c^2}{4\pi^3y^5} \dfrac{1}{e^{\frac{\hbar c}{y k_B T}} - 1} \]
+</p>
+<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga7322124727f968d28807e918c5eeb23f">More...</a><br /></td></tr>
+<tr class="separator:ga7322124727f968d28807e918c5eeb23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3d3e0fdb77d25bdd40523f9975de902"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaa3d3e0fdb77d25bdd40523f9975de902"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#gaa3d3e0fdb77d25bdd40523f9975de902">EGXPhys::PlancksLawFromAngularWavenumber</a> (const T angularWavenumberInRadianPerm, const T surfaceTempretureInK)</td></tr>
+<tr class="memdesc:gaa3d3e0fdb77d25bdd40523f9975de902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the spectral radiance, \(B_{k}\), in watts per steradien meter of a black body from the surface tempreture, \(T\) of the black body using Plank's Law. The spectral radience is the amount of power emmited per steradien at a specific angular wavenumber, \(k\), for a unit surface area of the black body. </p><p class="formulaDsp">
+\[ B_{k} = \dfrac{\hbar c^2 k^3}{4\pi^3} \dfrac{1}{e^{\frac{\hbar c k}{k_B T}} - 1} \]
+</p>
+<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#gaa3d3e0fdb77d25bdd40523f9975de902">More...</a><br /></td></tr>
+<tr class="separator:gaa3d3e0fdb77d25bdd40523f9975de902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implimentation of Planck's Law calculations. </p>

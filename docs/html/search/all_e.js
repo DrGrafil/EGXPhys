@@ -18,6 +18,6 @@ var searchData=
   ['loschmidtconstantatm',['LoschmidtConstantatm',['../group___n_i_s_t_const-_loschmidt_constant.html#gae68f5d2d04353bd4cf30faa8cb935734',1,'NISTConst']]],
   ['luminosity_2ehpp',['Luminosity.hpp',['../_luminosity_8hpp.html',1,'']]],
   ['luminosity_2einl',['Luminosity.inl',['../_luminosity_8inl.html',1,'']]],
-  ['lunarmass',['LunarMass',['../_astrophysics_constants_8hpp.html#a55e13f18ccd52a098969eaa5755c448e',1,'EGXPhys']]],
+  ['lunarmass',['LunarMass',['../namespace_e_g_x_phys.html#a55e13f18ccd52a098969eaa5755c448e',1,'EGXPhys']]],
   ['loschmidt_20constant',['Loschmidt constant',['../group___n_i_s_t_const-_loschmidt_constant.html',1,'']]]
 ];

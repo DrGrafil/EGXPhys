@@ -8,7 +8,7 @@ var searchData=
   ['gaussianfunctions_2ehpp',['GaussianFunctions.hpp',['../_gaussian_functions_8hpp.html',1,'']]],
   ['gaussianfunctions_2einl',['GaussianFunctions.inl',['../_gaussian_functions_8inl.html',1,'']]],
   ['gaussianfwhm',['GaussianFWHM',['../group___e_g_x_math-_functions-_gaussian.html#ga0b8be7b82cb82e871a2613e6a7180431',1,'EGXMath']]],
-  ['geometricalbedoofearth',['GeometricAlbedoOfEarth',['../_astrophysics_constants_8hpp.html#aae01fb8ed365fc5de7acebeef34b7351',1,'EGXPhys']]],
+  ['geometricalbedoofearth',['GeometricAlbedoOfEarth',['../namespace_e_g_x_phys.html#aae01fb8ed365fc5de7acebeef34b7351',1,'EGXPhys']]],
   ['geometry_2ehpp',['Geometry.hpp',['../_geometry_8hpp.html',1,'']]],
   ['gonconversion_2ehpp',['GonConversion.hpp',['../_gon_conversion_8hpp.html',1,'']]],
   ['gonconversion_2einl',['GonConversion.inl',['../_gon_conversion_8inl.html',1,'']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['earthmass',['EarthMass',['../_astrophysics_constants_8hpp.html#a9f866a7985fe2676a1e50a3dd175f5b6',1,'EGXPhys']]],
-  ['eccentricityofearth',['EccentricityOfEarth',['../_astrophysics_constants_8hpp.html#a327bbaf59d546f8524d6fb9da919d939',1,'EGXPhys']]],
+  ['earthmass',['EarthMass',['../namespace_e_g_x_phys.html#a9f866a7985fe2676a1e50a3dd175f5b6',1,'EGXPhys']]],
+  ['eccentricityofearth',['EccentricityOfEarth',['../namespace_e_g_x_phys.html#a327bbaf59d546f8524d6fb9da919d939',1,'EGXPhys']]],
   ['electricconstant',['electricConstant',['../group___n_i_s_t_const-_electric_constant.html#ga8c31e3e43f4ddbc5e9d499a58a8b9de1',1,'NISTConst']]],
   ['electronchargetomass',['electronChargeToMass',['../group___n_i_s_t_const-_electron.html#ga09927db665d49bed80a79bc63560ebef',1,'NISTConst']]],
   ['electrondeuteronmagneticmomentratio',['electronDeuteronMagneticMomentRatio',['../group___n_i_s_t_const-_electron.html#ga0c7a7ac37b4270254e8f321e64ac67cc',1,'NISTConst']]],
@@ -40,5 +40,5 @@ var searchData=
   ['electronvolttokilogram',['electronVoltToKilogram',['../group___n_i_s_t_const-_electron_volt.html#gac875b0f36fd52d70256d4a3d86eebb2e',1,'NISTConst']]],
   ['elementarycharge',['elementaryCharge',['../group___n_i_s_t_const-_elementary_charge.html#ga8685ffddeaed87687d2ee0539b4625de',1,'NISTConst']]],
   ['elementarychargeoverh',['elementaryChargeOverh',['../group___n_i_s_t_const-_elementary_charge.html#gae14d69d686990378677cd8072ce9873b',1,'NISTConst']]],
-  ['escapevelocityofearth',['EscapeVelocityOfEarth',['../_astrophysics_constants_8hpp.html#a6a8cb7abae15a2f1bbcfd6623f72316c',1,'EGXPhys']]]
+  ['escapevelocityofearth',['EscapeVelocityOfEarth',['../namespace_e_g_x_phys.html#a6a8cb7abae15a2f1bbcfd6623f72316c',1,'EGXPhys']]]
 ];
