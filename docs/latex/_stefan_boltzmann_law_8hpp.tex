@@ -2,7 +2,7 @@
 \label{_stefan_boltzmann_law_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Electrodynamics/\+Black\+Body/\+Stefan\+Boltzmann\+Law.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Electrodynamics/\+Black\+Body/\+Stefan\+Boltzmann\+Law.\+hpp}}
 
 
-Calculates B-\/V Color of stars and related information derived from it Stefan\+Boltzmann\+Law.  
+Calculates B-\/V Color of stars and related information derived from it Stefan-\/\+Boltzmann Law.  
 
 
 {\ttfamily \#include $<$math.\+h$>$}\newline
@@ -15,16 +15,16 @@ Calculates B-\/V Color of stars and related information derived from it Stefan\+
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law_ga1672439c53b17cdad6cf7b30b94c53d4}{E\+G\+X\+Phys\+::\+Stefan\+Boltzmann\+Law}} (const T surface\+Area\+Inm, const T surface\+Temp\+InK)
-\begin{DoxyCompactList}\small\item\em Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law_gadfc1c4242b5364a747169569ae5c84ef}{E\+G\+X\+Phys\+::\+Stefan\+Boltzmann\+Law}} (const T surface\+Tempreture\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the radiant emittance, $j^*$, of a black body in watts per meter squared using Stefan-\/\+Boltzmann Law from the surface tempreture, $T$ of the black body. \[j^*=\sigma T^4\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
-Calculates B-\/V Color of stars and related information derived from it Stefan\+Boltzmann\+Law. 
+Calculates B-\/V Color of stars and related information derived from it Stefan-\/\+Boltzmann Law. 
 
 \begin{DoxyAuthor}{Author}
 Elliot Grafil (Metex) 
 \end{DoxyAuthor}
 \begin{DoxyDate}{Date}
-5/25/18 
+5/30/18 
 \end{DoxyDate}

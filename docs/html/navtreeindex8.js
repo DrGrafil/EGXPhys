@@ -107,7 +107,7 @@ var NAVTREEINDEX8 =
 "group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#gaa3d3e0fdb77d25bdd40523f9975de902":[1,1,3,0,0,3],
 "group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#gaac540560c71e30c02b91d22e417b5863":[1,1,3,0,0,1],
 "group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html":[1,1,3,0,1],
-"group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html#ga1672439c53b17cdad6cf7b30b94c53d4":[1,1,3,0,1,0],
+"group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html#gadfc1c4242b5364a747169569ae5c84ef":[1,1,3,0,1,0],
 "group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html":[1,1,3,0,2],
 "group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html#ga126ebb146c31a2371f1d1d001d11c62f":[1,1,3,0,2,2],
 "group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html#ga8f89ce1baac45a1717f604255d04af44":[1,1,3,0,2,0],

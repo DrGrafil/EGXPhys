@@ -1,9 +1,9 @@
 /// @file EGXPhys/Electrodynamics/BlackBody/StefanBoltzmannLaw.hpp
 ///
-/// @brief Calculates B-V Color of stars and related information derived from it StefanBoltzmannLaw.
+/// @brief Calculates B-V Color of stars and related information derived from it Stefan-Boltzmann Law.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 5/25/18
+/// @date 5/30/18
 
 /// @defgroup EGXPhys-Electrodynamics-BlackBody-StefanBoltzmannLaw Stefan-Boltzmann Law
 /// @ingroup EGXPhys-Electrodynamics-BlackBody
@@ -28,18 +28,18 @@ namespace EGXPhys
 	/// @{
 	
 	/**
-	*   @brief Calculates the tempreture, \f$T_{star}\f$, of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies.
-	*   		\f[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\f]
+	*   @brief Calculates the radiant emittance, \f$j^*\f$, of a black body in watts per meter squared using Stefan-Boltzmann Law from the surface tempreture, \f$T\f$ of the black body.
+	*   		\f[j^*=\sigma T^4\f]
 	*
-	*	See https://arxiv.org/pdf/1201.1809.pdf for Ballesteros' paper.
-	*   See http://en.wikipedia.org/wiki/Color_index
+	*	See https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law and https://en.wikipedia.org/wiki/Radiant_exitance and http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/stefan.html
 	*
-	*   @param BV \f$B-V\ (dimensionless)\f$ is the B-V color index of the star.
-	*   @return \f$T\ (K)\f$ Tempreture of the star in Kelvin.
-	*	@see BVToTempretureBallesteros() for alias.
+	*   @param surfaceTempretureInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
+	*   @return \f$j^*\ (\frac{W}{m^2})\f$ Radiant emittance of a black body in watts per meter squared.
+	*	@see RadiantEmittance() for alias.
+    *   @see RadiantExitance() for alias.
 	*/
 	template<typename T>
-	T StefanBoltzmannLaw(const T surfaceAreaInm, const T surfaceTempInK);
+	T StefanBoltzmannLaw(const T surfaceTempretureInK);
 
 
     /// @}

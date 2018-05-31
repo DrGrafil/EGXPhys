@@ -1,16 +1,16 @@
 /// @file EGXPhys/Electrodynamics/BlackBody/StefanBoltzmannLaw.inl
 ///
-/// @brief Implimentation of StefanBoltzmannLaw calculations
+/// @brief Implimentation of Stefan-Boltzmann Law calculations
 /// @author Elliot Grafil (Metex)
-/// @date 5/25/18
+/// @date 5/30/18
 
 
 namespace EGXPhys{
 
 	template<typename T>
-	T StefanBoltzmannLaw(const T surfaceAreaInm, const T surfaceTempInK)
+	T StefanBoltzmannLaw(const T surfaceTempretureInK)
 	{
-        return (NISTConst::sigma * surfaceAreaInm * pow(surfaceTempInK, 4));
+        return NISTConst::sigma * pow(surfaceTempretureInK, 4);
 	}
 
 

@@ -136,7 +136,7 @@ Updated 5/21/2018:
 |											| Torque																	| 																				| 																				| 								| 				 				|						| 								| 								|								|
 | Electrodynamics			| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 |											|Black Body															| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| 																				| Stefan-Boltzmann Law										| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| Stefan-Boltzmann Law										| 																				| X							| X			 				| X					| X							| 								|								|
 |											| 																				| Plank's Law															| 																				| X							| X			 				| X					| X							| 								|								|
 |											| 																				| Wien's Displacement Law								| 																				| X							| X			 				| X					| X							| 								|								|
 | Optics								| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|

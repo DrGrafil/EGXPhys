@@ -87,7 +87,7 @@ var searchData=
   ['standardgravitationalparameter_2einl',['StandardGravitationalParameter.inl',['../_standard_gravitational_parameter_8inl.html',1,'']]],
   ['standardstatepressure',['standardStatePressure',['../group___n_i_s_t_const-_standard_state_pressure.html#gaf350fe751c6d2280b7712dcad3ac025f',1,'NISTConst']]],
   ['stefanboltzmannconstant',['StefanBoltzmannConstant',['../group___n_i_s_t_const-_stefan_boltzmann_constant.html#ga7a87fa5e9ed3db503ee24f828d1dc700',1,'NISTConst']]],
-  ['stefanboltzmannlaw',['StefanBoltzmannLaw',['../group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html#ga1672439c53b17cdad6cf7b30b94c53d4',1,'EGXPhys']]],
+  ['stefanboltzmannlaw',['StefanBoltzmannLaw',['../group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html#gadfc1c4242b5364a747169569ae5c84ef',1,'EGXPhys']]],
   ['stefanboltzmannlaw_2ehpp',['StefanBoltzmannLaw.hpp',['../_stefan_boltzmann_law_8hpp.html',1,'']]],
   ['stefanboltzmannlaw_2einl',['StefanBoltzmannLaw.inl',['../_stefan_boltzmann_law_8inl.html',1,'']]],
   ['stellarfluxeffectiveselsis',['StellarFluxEffectiveSelsis',['../group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga0eb1003b4cfcbcafde635cefca5ae5c2',1,'EGXPhys']]],

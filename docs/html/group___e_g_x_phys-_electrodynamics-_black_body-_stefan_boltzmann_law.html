@@ -100,18 +100,18 @@ $(document).ready(function(){initNavTree('group___e_g_x_phys-_electrodynamics-_b
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga1672439c53b17cdad6cf7b30b94c53d4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga1672439c53b17cdad6cf7b30b94c53d4"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html#ga1672439c53b17cdad6cf7b30b94c53d4">EGXPhys::StefanBoltzmannLaw</a> (const T surfaceAreaInm, const T surfaceTempInK)</td></tr>
-<tr class="memdesc:ga1672439c53b17cdad6cf7b30b94c53d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the tempreture, \(T_{star}\), of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies. </p><p class="formulaDsp">
-\[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]
+<tr class="memitem:gadfc1c4242b5364a747169569ae5c84ef"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gadfc1c4242b5364a747169569ae5c84ef"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html#gadfc1c4242b5364a747169569ae5c84ef">EGXPhys::StefanBoltzmannLaw</a> (const T surfaceTempretureInK)</td></tr>
+<tr class="memdesc:gadfc1c4242b5364a747169569ae5c84ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the radiant emittance, \(j^*\), of a black body in watts per meter squared using Stefan-Boltzmann Law from the surface tempreture, \(T\) of the black body. </p><p class="formulaDsp">
+\[j^*=\sigma T^4\]
 </p>
-<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html#ga1672439c53b17cdad6cf7b30b94c53d4">More...</a><br /></td></tr>
-<tr class="separator:ga1672439c53b17cdad6cf7b30b94c53d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>.  <a href="group___e_g_x_phys-_electrodynamics-_black_body-_stefan_boltzmann_law.html#gadfc1c4242b5364a747169569ae5c84ef">More...</a><br /></td></tr>
+<tr class="separator:gadfc1c4242b5364a747169569ae5c84ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga1672439c53b17cdad6cf7b30b94c53d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1672439c53b17cdad6cf7b30b94c53d4">&#9670;&nbsp;</a></span>StefanBoltzmannLaw()</h2>
+<a id="gadfc1c4242b5364a747169569ae5c84ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadfc1c4242b5364a747169569ae5c84ef">&#9670;&nbsp;</a></span>StefanBoltzmannLaw()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -122,35 +122,27 @@ template&lt;typename T &gt; </div>
           <td class="memname">T EGXPhys::StefanBoltzmannLaw </td>
           <td>(</td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>surfaceAreaInm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>surfaceTempretureInK</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>surfaceTempInK</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Calculates the tempreture, \(T_{star}\), of a star in Kelvin from the B-V color index using Ballesteros' formula. This approximation assumes that stars are black bodies. </p><p class="formulaDsp">
-\[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]
+<p>Calculates the radiant emittance, \(j^*\), of a black body in watts per meter squared using Stefan-Boltzmann Law from the surface tempreture, \(T\) of the black body. </p><p class="formulaDsp">
+\[j^*=\sigma T^4\]
 </p>
 <p>. </p>
-<p>See <a href="https://arxiv.org/pdf/1201.1809.pdf">https://arxiv.org/pdf/1201.1809.pdf</a> for Ballesteros' paper. See <a href="http://en.wikipedia.org/wiki/Color_index">http://en.wikipedia.org/wiki/Color_index</a></p>
+<p>See <a href="https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law">https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law</a> and <a href="https://en.wikipedia.org/wiki/Radiant_exitance">https://en.wikipedia.org/wiki/Radiant_exitance</a> and <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/stefan.html">http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/stefan.html</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">BV</td><td>\(B-V\ (dimensionless)\) is the B-V color index of the star. </td></tr>
+    <tr><td class="paramname">surfaceTempretureInK</td><td>\(T\ (K)\) Surface tempreture of the black body in Kelvin. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>\(T\ (K)\) Tempreture of the star in Kelvin. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>BVToTempretureBallesteros() for alias. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>\(j^*\ (\frac{W}{m^2})\) Radiant emittance of a black body in watts per meter squared. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>RadiantEmittance() for alias. </dd>
+<dd>
+RadiantExitance() for alias. </dd></dl>
 
 </div>
 </div>
