@@ -1,0 +1,1002 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     33971,        994]
+NotebookOptionsPosition[     30356,        861]
+NotebookOutlinePosition[     30699,        876]
+CellTagsIndexPosition[     30656,        873]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.736729771951804*^9, 3.7367297792232122`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Constants", "Section",
+ CellChangeTimes->{{3.7367309377592554`*^9, 3.7367309430558414`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"c", "=", 
+   RowBox[{"UnitConvert", "[", 
+    RowBox[{
+     RowBox[{"Quantity", "[", "\"\<SpeedOfLight\>\"", "]"}], ",", 
+     RowBox[{"\"\<Meters\>\"", "/", "\"\<Seconds\>\""}]}], "]"}]}], ";", " ", 
+  RowBox[{"h", " ", "=", " ", 
+   RowBox[{"UnitConvert", "[", 
+    RowBox[{
+     RowBox[{"Quantity", "[", "\"\<PlanckConstant\>\"", "]"}], ",", 
+     RowBox[{"\"\<Joules\>\"", " ", "\"\<Seconds\>\""}]}], "]"}]}], ";", " ", 
+  RowBox[{"\[HBar]", " ", "=", " ", 
+   RowBox[{"UnitConvert", "[", 
+    RowBox[{
+     RowBox[{"Quantity", "[", "\"\<ReducedPlanckConstant\>\"", "]"}], ",", 
+     RowBox[{"\"\<Joules\>\"", " ", "\"\<Seconds\>\""}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"kb", " ", "=", 
+   RowBox[{"UnitConvert", "[", 
+    RowBox[{
+     RowBox[{"Quantity", "[", "\"\<BoltzmannConstant\>\"", "]"}], ",", 
+     RowBox[{"\"\<Joules\>\"", "/", "\"\<Kelvins\>\""}]}], "]"}]}], 
+  ";"}]}], "Input",
+ CellChangeTimes->{{3.736730222379805*^9, 3.7367302247626443`*^9}, {
+   3.7367302934278865`*^9, 3.736730294950506*^9}, 3.736730352192543*^9, {
+   3.7367304009202967`*^9, 3.7367304024609013`*^9}, {3.7367304504822893`*^9, 
+   3.736730483828061*^9}, {3.7367305303359013`*^9, 3.7367305970964556`*^9}, {
+   3.73673106467772*^9, 3.736731088414464*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Equations", "Section",
+ CellChangeTimes->{{3.736730933983122*^9, 3.7367309443646555`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"B\[Nu]", "[", 
+    RowBox[{"\[Nu]_", ",", "T_"}], " ", "]"}], ":=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{" ", 
+      RowBox[{"2", " ", "h", " ", 
+       SuperscriptBox["\[Nu]", "3"], " "}]}], 
+     SuperscriptBox["c", "2"]], 
+    FractionBox["1", 
+     RowBox[{
+      RowBox[{"Exp", "[", 
+       FractionBox[
+        RowBox[{"h", " ", "\[Nu]"}], 
+        RowBox[{"kb", " ", "T"}]], "]"}], " ", "-", " ", "1"}]]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"B\[Lambda]", "[", 
+    RowBox[{"\[Lambda]_", ",", "T_"}], " ", "]"}], ":=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{" ", 
+      RowBox[{"2", " ", "h", " ", 
+       SuperscriptBox["c", "2"], " "}]}], 
+     SuperscriptBox["\[Lambda]", "5"]], 
+    FractionBox["1", 
+     RowBox[{
+      RowBox[{"Exp", "[", 
+       FractionBox[
+        RowBox[{"h", " ", "c"}], 
+        RowBox[{"\[Lambda]", " ", "kb", " ", "T"}]], "]"}], " ", "-", " ", 
+      "1"}]]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"B\[Nu]w", "[", 
+    RowBox[{"\[Nu]w_", ",", "T_"}], " ", "]"}], ":=", " ", 
+   RowBox[{"2", " ", "h", " ", 
+    SuperscriptBox["c", "2"], 
+    SuperscriptBox["\[Nu]w", "3"], " ", 
+    FractionBox["1", 
+     RowBox[{
+      RowBox[{"Exp", "[", 
+       FractionBox[
+        RowBox[{"h", " ", "c", " ", "\[Nu]w"}], 
+        RowBox[{"kb", " ", "T"}]], "]"}], " ", "-", " ", "1"}]]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"B\[Omega]", "[", 
+   RowBox[{"\[Omega]_", ",", "T_"}], " ", "]"}], ":=", 
+  RowBox[{
+   FractionBox[
+    RowBox[{" ", 
+     RowBox[{"\[HBar]", " ", 
+      SuperscriptBox["\[Omega]", "3"], " "}]}], 
+    RowBox[{"4", " ", 
+     SuperscriptBox["\[Pi]", "3"], 
+     SuperscriptBox["c", "2"]}]], 
+   FractionBox["1", 
+    RowBox[{
+     RowBox[{"Exp", "[", 
+      FractionBox[
+       RowBox[{"\[HBar]", " ", "\[Omega]"}], 
+       RowBox[{"kb", " ", "T"}]], "]"}], " ", "-", " ", 
+     "1"}]]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"By", "[", 
+   RowBox[{"y_", ",", "T_"}], " ", "]"}], ":=", 
+  RowBox[{
+   FractionBox[
+    RowBox[{" ", 
+     RowBox[{"\[HBar]", " ", 
+      SuperscriptBox["c", "2"]}]}], 
+    RowBox[{"4", " ", 
+     SuperscriptBox["\[Pi]", "3"], " ", 
+     SuperscriptBox["y", "5"]}]], 
+   FractionBox["1", 
+    RowBox[{
+     RowBox[{"Exp", "[", 
+      FractionBox[
+       RowBox[{"\[HBar]", " ", "c"}], 
+       RowBox[{"y", " ", "kb", " ", "T"}]], "]"}], " ", "-", " ", 
+     "1"}]]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Bk", "[", 
+   RowBox[{"k_", ",", "T_"}], " ", "]"}], ":=", 
+  RowBox[{
+   FractionBox[
+    RowBox[{" ", 
+     RowBox[{"\[HBar]", " ", 
+      SuperscriptBox["c", "2"], 
+      SuperscriptBox["k", "3"], " "}]}], 
+    RowBox[{"4", " ", 
+     SuperscriptBox["\[Pi]", "3"]}]], 
+   FractionBox["1", 
+    RowBox[{
+     RowBox[{"Exp", "[", 
+      FractionBox[
+       RowBox[{"\[HBar]", " ", "c", " ", "k"}], 
+       RowBox[{"kb", " ", "T"}]], "]"}], " ", "-", " ", "1"}]]}]}]}], "Input",
+ CellChangeTimes->{{3.7367307129062233`*^9, 3.7367310502455688`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["T 300  w 10 um", "Section",
+ CellChangeTimes->{{3.7367306028412476`*^9, 3.7367306167880898`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Temp", " ", "=", " ", 
+   RowBox[{"Quantity", "[", 
+    RowBox[{"300.0", " ", ",", "\"\<Kelvins\>\""}], "]"}]}], ";", " ", 
+  RowBox[{"\[Lambda]1", " ", "=", " ", 
+   RowBox[{"Quantity", "[", 
+    RowBox[{
+     RowBox[{"10", "*", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "6"}]]}], ",", "\"\<Meters\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Nu]1", "=", " ", 
+   RowBox[{"c", "/", "\[Lambda]1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Nu]w1", "=", 
+   FractionBox["1", "\[Lambda]1"]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Omega]1", " ", "=", " ", 
+   RowBox[{"2", " ", "\[Pi]", " ", "\[Nu]1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"y1", " ", "=", 
+   FractionBox["\[Lambda]1", 
+    RowBox[{"2", " ", "\[Pi]", " "}]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"k1", " ", "=", " ", 
+   FractionBox[
+    RowBox[{"2", " ", "\[Pi]"}], "\[Lambda]1"]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{" "}]}], "Input",
+ CellChangeTimes->{{3.7367301525994663`*^9, 3.736730212850444*^9}, 
+   3.736730286537115*^9, {3.7367304890533237`*^9, 3.736730498485773*^9}, {
+   3.736730557978873*^9, 3.7367305587281933`*^9}, {3.7367305897520733`*^9, 
+   3.736730593559668*^9}, {3.7367307405331774`*^9, 3.736730741367421*^9}, {
+   3.7367311493151693`*^9, 3.7367311941061153`*^9}, {3.736731230231472*^9, 
+   3.7367312309797916`*^9}, {3.736731261646205*^9, 3.736731301163664*^9}, {
+   3.7367313813239717`*^9, 3.736731489787241*^9}, {3.7367318393255672`*^9, 
+   3.736731842163994*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Lambda]", "[", 
+  RowBox[{"\[Lambda]1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367311050219707`*^9, 3.736731132164648*^9}, 
+   3.7367312556136613`*^9, 3.736731313660971*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "9.92401727720071`*^6",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "3"], "\[InvisibleSpace]", "\"s\"", 
+     "\[InvisibleSpace]", "\")\""}],"joules per meter cubed second",
+   FractionBox["\"Joules\"", 
+    RowBox[{
+      SuperscriptBox["\"Meters\"", "3"], " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367312462586956`*^9, 3.736731264663498*^9}, {
+   3.7367314668160925`*^9, 3.73673147482386*^9}, 3.736731845670827*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Nu]", "[", 
+  RowBox[{"\[Nu]1", ",", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.736731302546415*^9, 3.73673130685139*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "3.3102958438002807`*^-12",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "2"]}],"joules per meter squared",FractionBox[
+   "\"Joules\"", 
+    SuperscriptBox["\"Meters\"", "2"]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.7367313108853874`*^9, {3.7367314667291718`*^9, 3.7367314747739067`*^9}, 
+   3.7367318457137775`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Nu]w", "[", 
+  RowBox[{"\[Nu]w1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313309521894`*^9, 3.7367313353711834`*^9}, {
+  3.736731375578601*^9, 3.7367313787037687`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "0.0009924017277200704`",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     "\"m\"", "\[ThinSpace]", "\"s\"", "\[InvisibleSpace]", "\")\""}],
+   "joules per meter second",FractionBox["\"Joules\"", 
+    RowBox[{"\"Meters\"", " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314668820333`*^9, 3.7367314748778124`*^9}, 
+   3.7367318457607346`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Omega]", "[", 
+  RowBox[{"\[Omega]1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313594997888`*^9, 3.7367313656380453`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "5.268500887143859`*^-13",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "2"]}],"joules per meter squared",FractionBox[
+   "\"Joules\"", 
+    SuperscriptBox["\"Meters\"", "2"]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314669489717`*^9, 3.736731474921773*^9}, 
+   3.7367318458046937`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"By", "[", 
+  RowBox[{"y1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313477781*^9, 3.7367313547475595`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "6.235445635958998`*^7",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "3"], "\[InvisibleSpace]", "\"s\"", 
+     "\[InvisibleSpace]", "\")\""}],"joules per meter cubed second",
+   FractionBox["\"Joules\"", 
+    RowBox[{
+      SuperscriptBox["\"Meters\"", "3"], " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314670338945`*^9, 3.736731474972725*^9}, 
+   3.736731845874631*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Bk", "[", 
+  RowBox[{"k1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313465631895`*^9, 3.7367313577843437`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "0.00015794568309320369`",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     "\"m\"", "\[ThinSpace]", "\"s\"", "\[InvisibleSpace]", "\")\""}],
+   "joules per meter second",FractionBox["\"Joules\"", 
+    RowBox[{"\"Meters\"", " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.736731467092843*^9, 3.7367314750216813`*^9}, 
+   3.736731845922587*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["T 300  w 500 um", "Section",
+ CellChangeTimes->{{3.7367306028412476`*^9, 3.7367306167880898`*^9}, {
+  3.736731917760127*^9, 3.7367319387779856`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Temp", " ", "=", " ", 
+   RowBox[{"Quantity", "[", 
+    RowBox[{"300.0", " ", ",", "\"\<Kelvins\>\""}], "]"}]}], ";", " ", 
+  RowBox[{"\[Lambda]1", " ", "=", " ", 
+   RowBox[{"Quantity", "[", 
+    RowBox[{
+     RowBox[{"500", "*", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "6"}]]}], ",", "\"\<Meters\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Nu]1", "=", " ", 
+   RowBox[{"c", "/", "\[Lambda]1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Nu]w1", "=", 
+   FractionBox["1", "\[Lambda]1"]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Omega]1", " ", "=", " ", 
+   RowBox[{"2", " ", "\[Pi]", " ", "\[Nu]1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"y1", " ", "=", 
+   FractionBox["\[Lambda]1", 
+    RowBox[{"2", " ", "\[Pi]", " "}]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"k1", " ", "=", " ", 
+   FractionBox[
+    RowBox[{"2", " ", "\[Pi]"}], "\[Lambda]1"]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{" "}]}], "Input",
+ CellChangeTimes->{{3.7367301525994663`*^9, 3.736730212850444*^9}, 
+   3.736730286537115*^9, {3.7367304890533237`*^9, 3.736730498485773*^9}, {
+   3.736730557978873*^9, 3.7367305587281933`*^9}, {3.7367305897520733`*^9, 
+   3.736730593559668*^9}, {3.7367307405331774`*^9, 3.736730741367421*^9}, {
+   3.7367311493151693`*^9, 3.7367311941061153`*^9}, {3.736731230231472*^9, 
+   3.7367312309797916`*^9}, {3.736731261646205*^9, 3.736731301163664*^9}, {
+   3.7367313813239717`*^9, 3.736731489787241*^9}, {3.7367318393255672`*^9, 
+   3.736731842163994*^9}, {3.736731922639703*^9, 3.7367319230213575`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Lambda]", "[", 
+  RowBox[{"\[Lambda]1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367311050219707`*^9, 3.736731132164648*^9}, 
+   3.7367312556136613`*^9, 3.736731313660971*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "37.859960707236965`",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "3"], "\[InvisibleSpace]", "\"s\"", 
+     "\[InvisibleSpace]", "\")\""}],"joules per meter cubed second",
+   FractionBox["\"Joules\"", 
+    RowBox[{
+      SuperscriptBox["\"Meters\"", "3"], " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367312462586956`*^9, 3.736731264663498*^9}, {
+   3.7367314668160925`*^9, 3.73673147482386*^9}, 3.736731845670827*^9, 
+   3.7367319253712263`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Nu]", "[", 
+  RowBox[{"\[Nu]1", ",", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.736731302546415*^9, 3.73673130685139*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "3.1571808843867716`*^-14",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "2"]}],"joules per meter squared",FractionBox[
+   "\"Joules\"", 
+    SuperscriptBox["\"Meters\"", "2"]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.7367313108853874`*^9, {3.7367314667291718`*^9, 3.7367314747739067`*^9}, 
+   3.7367318457137775`*^9, 3.7367319254301724`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Nu]w", "[", 
+  RowBox[{"\[Nu]w1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313309521894`*^9, 3.7367313353711834`*^9}, {
+  3.736731375578601*^9, 3.7367313787037687`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "9.464990176809242`*^-6",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     "\"m\"", "\[ThinSpace]", "\"s\"", "\[InvisibleSpace]", "\")\""}],
+   "joules per meter second",FractionBox["\"Joules\"", 
+    RowBox[{"\"Meters\"", " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314668820333`*^9, 3.7367314748778124`*^9}, 
+   3.7367318457607346`*^9, 3.7367319254901204`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Omega]", "[", 
+  RowBox[{"\[Omega]1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313594997888`*^9, 3.7367313656380453`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "5.024809457066701`*^-15",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "2"]}],"joules per meter squared",FractionBox[
+   "\"Joules\"", 
+    SuperscriptBox["\"Meters\"", "2"]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314669489717`*^9, 3.736731474921773*^9}, 
+   3.7367318458046937`*^9, 3.7367319255550594`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"By", "[", 
+  RowBox[{"y1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313477781*^9, 3.7367313547475595`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "237.88114966098155`",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "3"], "\[InvisibleSpace]", "\"s\"", 
+     "\[InvisibleSpace]", "\")\""}],"joules per meter cubed second",
+   FractionBox["\"Joules\"", 
+    RowBox[{
+      SuperscriptBox["\"Meters\"", "3"], " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314670338945`*^9, 3.736731474972725*^9}, 
+   3.736731845874631*^9, 3.736731925638984*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Bk", "[", 
+  RowBox[{"k1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313465631895`*^9, 3.7367313577843437`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "1.5063999781156715`*^-6",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     "\"m\"", "\[ThinSpace]", "\"s\"", "\[InvisibleSpace]", "\")\""}],
+   "joules per meter second",FractionBox["\"Joules\"", 
+    RowBox[{"\"Meters\"", " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.736731467092843*^9, 3.7367314750216813`*^9}, 
+   3.736731845922587*^9, 3.7367319257019267`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["T 5000  w 10 um", "Section",
+ CellChangeTimes->{{3.7367306028412476`*^9, 3.7367306167880898`*^9}, {
+  3.736731917760127*^9, 3.7367319387779856`*^9}, {3.7367320972761674`*^9, 
+  3.7367321009518356`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Temp", " ", "=", " ", 
+   RowBox[{"Quantity", "[", 
+    RowBox[{"5000.0", " ", ",", "\"\<Kelvins\>\""}], "]"}]}], ";", " ", 
+  RowBox[{"\[Lambda]1", " ", "=", " ", 
+   RowBox[{"Quantity", "[", 
+    RowBox[{
+     RowBox[{"10", "*", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "6"}]]}], ",", "\"\<Meters\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Nu]1", "=", " ", 
+   RowBox[{"c", "/", "\[Lambda]1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Nu]w1", "=", 
+   FractionBox["1", "\[Lambda]1"]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Omega]1", " ", "=", " ", 
+   RowBox[{"2", " ", "\[Pi]", " ", "\[Nu]1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"y1", " ", "=", 
+   FractionBox["\[Lambda]1", 
+    RowBox[{"2", " ", "\[Pi]", " "}]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"k1", " ", "=", " ", 
+   FractionBox[
+    RowBox[{"2", " ", "\[Pi]"}], "\[Lambda]1"]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{" "}]}], "Input",
+ CellChangeTimes->{{3.7367301525994663`*^9, 3.736730212850444*^9}, 
+   3.736730286537115*^9, {3.7367304890533237`*^9, 3.736730498485773*^9}, {
+   3.736730557978873*^9, 3.7367305587281933`*^9}, {3.7367305897520733`*^9, 
+   3.736730593559668*^9}, {3.7367307405331774`*^9, 3.736730741367421*^9}, {
+   3.7367311493151693`*^9, 3.7367311941061153`*^9}, {3.736731230231472*^9, 
+   3.7367312309797916`*^9}, {3.736731261646205*^9, 3.736731301163664*^9}, {
+   3.7367313813239717`*^9, 3.736731489787241*^9}, {3.7367318393255672`*^9, 
+   3.736731842163994*^9}, {3.736731922639703*^9, 3.7367319230213575`*^9}, {
+   3.7367321044586563`*^9, 3.736732107250125*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Lambda]", "[", 
+  RowBox[{"\[Lambda]1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367311050219707`*^9, 3.736731132164648*^9}, 
+   3.7367312556136613`*^9, 3.736731313660971*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "3.5720800807667384`*^9",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "3"], "\[InvisibleSpace]", "\"s\"", 
+     "\[InvisibleSpace]", "\")\""}],"joules per meter cubed second",
+   FractionBox["\"Joules\"", 
+    RowBox[{
+      SuperscriptBox["\"Meters\"", "3"], " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367312462586956`*^9, 3.736731264663498*^9}, {
+   3.7367314668160925`*^9, 3.73673147482386*^9}, 3.736731845670827*^9, 
+   3.7367319253712263`*^9, 3.7367321097308764`*^9, 3.7367369304083033`*^9, 
+   3.736736965950609*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Nu]", "[", 
+  RowBox[{"\[Nu]1", ",", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.736731302546415*^9, 3.73673130685139*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "1.191517660116299`*^-9",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "2"]}],"joules per meter squared",FractionBox[
+   "\"Joules\"", 
+    SuperscriptBox["\"Meters\"", "2"]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.7367313108853874`*^9, {3.7367314667291718`*^9, 3.7367314747739067`*^9}, 
+   3.7367318457137775`*^9, 3.7367319254301724`*^9, 3.736732109782831*^9, 
+   3.7367369304692483`*^9, 3.7367369659925714`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Nu]w", "[", 
+  RowBox[{"\[Nu]w1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313309521894`*^9, 3.7367313353711834`*^9}, {
+  3.736731375578601*^9, 3.7367313787037687`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "0.35720800807667386`",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     "\"m\"", "\[ThinSpace]", "\"s\"", "\[InvisibleSpace]", "\")\""}],
+   "joules per meter second",FractionBox["\"Joules\"", 
+    RowBox[{"\"Meters\"", " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314668820333`*^9, 3.7367314748778124`*^9}, 
+   3.7367318457607346`*^9, 3.7367319254901204`*^9, 3.7367321098407764`*^9, 
+   3.7367369305222006`*^9, 3.736736966040529*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Omega]", "[", 
+  RowBox[{"\[Omega]1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313594997888`*^9, 3.7367313656380453`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "1.8963592739882742`*^-10",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "2"]}],"joules per meter squared",FractionBox[
+   "\"Joules\"", 
+    SuperscriptBox["\"Meters\"", "2"]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314669489717`*^9, 3.736731474921773*^9}, 
+   3.7367318458046937`*^9, 3.7367319255550594`*^9, 3.736732109906717*^9, 
+   3.7367369305801477`*^9, 3.736736966086488*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"By", "[", 
+  RowBox[{"y1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313477781*^9, 3.7367313547475595`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "2.2444041317436127`*^10",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "3"], "\[InvisibleSpace]", "\"s\"", 
+     "\[InvisibleSpace]", "\")\""}],"joules per meter cubed second",
+   FractionBox["\"Joules\"", 
+    RowBox[{
+      SuperscriptBox["\"Meters\"", "3"], " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314670338945`*^9, 3.736731474972725*^9}, 
+   3.736731845874631*^9, 3.736731925638984*^9, 3.7367321099856453`*^9, 
+   3.736736930633102*^9, 3.736736966146432*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Bk", "[", 
+  RowBox[{"k1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313465631895`*^9, 3.7367313577843437`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "0.05685142080000401`",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     "\"m\"", "\[ThinSpace]", "\"s\"", "\[InvisibleSpace]", "\")\""}],
+   "joules per meter second",FractionBox["\"Joules\"", 
+    RowBox[{"\"Meters\"", " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.736731467092843*^9, 3.7367314750216813`*^9}, 
+   3.736731845922587*^9, 3.7367319257019267`*^9, 3.7367321100465903`*^9, 
+   3.736736930682056*^9, 3.7367369662013836`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["T 5000  w 500 um", "Section",
+ CellChangeTimes->{{3.7367306028412476`*^9, 3.7367306167880898`*^9}, {
+  3.736731917760127*^9, 3.7367319387779856`*^9}, {3.7367320972761674`*^9, 
+  3.7367321009518356`*^9}, {3.736737003285433*^9, 3.7367370037649975`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Temp", " ", "=", " ", 
+   RowBox[{"Quantity", "[", 
+    RowBox[{"5000.0", " ", ",", "\"\<Kelvins\>\""}], "]"}]}], ";", " ", 
+  RowBox[{"\[Lambda]1", " ", "=", " ", 
+   RowBox[{"Quantity", "[", 
+    RowBox[{
+     RowBox[{"500", "*", 
+      SuperscriptBox["10", 
+       RowBox[{"-", "6"}]]}], ",", "\"\<Meters\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Nu]1", "=", " ", 
+   RowBox[{"c", "/", "\[Lambda]1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Nu]w1", "=", 
+   FractionBox["1", "\[Lambda]1"]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Omega]1", " ", "=", " ", 
+   RowBox[{"2", " ", "\[Pi]", " ", "\[Nu]1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"y1", " ", "=", 
+   FractionBox["\[Lambda]1", 
+    RowBox[{"2", " ", "\[Pi]", " "}]]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"k1", " ", "=", " ", 
+   FractionBox[
+    RowBox[{"2", " ", "\[Pi]"}], "\[Lambda]1"]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{" "}]}], "Input",
+ CellChangeTimes->{{3.7367301525994663`*^9, 3.736730212850444*^9}, 
+   3.736730286537115*^9, {3.7367304890533237`*^9, 3.736730498485773*^9}, {
+   3.736730557978873*^9, 3.7367305587281933`*^9}, {3.7367305897520733`*^9, 
+   3.736730593559668*^9}, {3.7367307405331774`*^9, 3.736730741367421*^9}, {
+   3.7367311493151693`*^9, 3.7367311941061153`*^9}, {3.736731230231472*^9, 
+   3.7367312309797916`*^9}, {3.736731261646205*^9, 3.736731301163664*^9}, {
+   3.7367313813239717`*^9, 3.736731489787241*^9}, {3.7367318393255672`*^9, 
+   3.736731842163994*^9}, {3.736731922639703*^9, 3.7367319230213575`*^9}, {
+   3.7367321044586563`*^9, 3.736732107250125*^9}, {3.7367370083898077`*^9, 
+   3.7367370086545663`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Lambda]", "[", 
+  RowBox[{"\[Lambda]1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367311050219707`*^9, 3.736731132164648*^9}, 
+   3.7367312556136613`*^9, 3.736731313660971*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "660.3489806752422`",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "3"], "\[InvisibleSpace]", "\"s\"", 
+     "\[InvisibleSpace]", "\")\""}],"joules per meter cubed second",
+   FractionBox["\"Joules\"", 
+    RowBox[{
+      SuperscriptBox["\"Meters\"", "3"], " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367312462586956`*^9, 3.736731264663498*^9}, {
+   3.7367314668160925`*^9, 3.73673147482386*^9}, 3.736731845670827*^9, 
+   3.7367319253712263`*^9, 3.7367321097308764`*^9, 3.7367369304083033`*^9, 
+   3.736736965950609*^9, 3.736737011466017*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Nu]", "[", 
+  RowBox[{"\[Nu]1", ",", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.736731302546415*^9, 3.73673130685139*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "5.506717756348979`*^-13",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "2"]}],"joules per meter squared",FractionBox[
+   "\"Joules\"", 
+    SuperscriptBox["\"Meters\"", "2"]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{
+  3.7367313108853874`*^9, {3.7367314667291718`*^9, 3.7367314747739067`*^9}, 
+   3.7367318457137775`*^9, 3.7367319254301724`*^9, 3.736732109782831*^9, 
+   3.7367369304692483`*^9, 3.7367369659925714`*^9, 3.736737011515972*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Nu]w", "[", 
+  RowBox[{"\[Nu]w1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313309521894`*^9, 3.7367313353711834`*^9}, {
+  3.736731375578601*^9, 3.7367313787037687`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "0.00016508724516881053`",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     "\"m\"", "\[ThinSpace]", "\"s\"", "\[InvisibleSpace]", "\")\""}],
+   "joules per meter second",FractionBox["\"Joules\"", 
+    RowBox[{"\"Meters\"", " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314668820333`*^9, 3.7367314748778124`*^9}, 
+   3.7367318457607346`*^9, 3.7367319254901204`*^9, 3.7367321098407764`*^9, 
+   3.7367369305222006`*^9, 3.736736966040529*^9, 3.736737011568925*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"B\[Omega]", "[", 
+  RowBox[{"\[Omega]1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313594997888`*^9, 3.7367313656380453`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "8.764213513123255`*^-14",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "2"]}],"joules per meter squared",FractionBox[
+   "\"Joules\"", 
+    SuperscriptBox["\"Meters\"", "2"]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314669489717`*^9, 3.736731474921773*^9}, 
+   3.7367318458046937`*^9, 3.7367319255550594`*^9, 3.736732109906717*^9, 
+   3.7367369305801477`*^9, 3.736736966086488*^9, 3.7367370116298685`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"By", "[", 
+  RowBox[{"y1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313477781*^9, 3.7367313547475595`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "4149.095013829885`",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     SuperscriptBox["\"m\"", "3"], "\[InvisibleSpace]", "\"s\"", 
+     "\[InvisibleSpace]", "\")\""}],"joules per meter cubed second",
+   FractionBox["\"Joules\"", 
+    RowBox[{
+      SuperscriptBox["\"Meters\"", "3"], " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.7367314670338945`*^9, 3.736731474972725*^9}, 
+   3.736731845874631*^9, 3.736731925638984*^9, 3.7367321099856453`*^9, 
+   3.736736930633102*^9, 3.736736966146432*^9, 3.7367370117107944`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Bk", "[", 
+  RowBox[{"k1", ",", " ", "Temp"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7367313465631895`*^9, 3.7367313577843437`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "0.000026274451115360358`",
+   RowBox[{"\"J\"", "\[InvisibleSpace]", "\"/(\"", "\[InvisibleSpace]", 
+     "\"m\"", "\[ThinSpace]", "\"s\"", "\[InvisibleSpace]", "\")\""}],
+   "joules per meter second",FractionBox["\"Joules\"", 
+    RowBox[{"\"Meters\"", " ", "\"Seconds\""}]]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{{3.736731467092843*^9, 3.7367314750216813`*^9}, 
+   3.736731845922587*^9, 3.7367319257019267`*^9, 3.7367321100465903`*^9, 
+   3.736736930682056*^9, 3.7367369662013836`*^9, 3.736737011769742*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{759, 833},
+WindowMargins->{{Automatic, 321}, {56, Automatic}},
+FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (July 28, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 94, 1, 30, "Input"],
+Cell[CellGroupData[{
+Cell[677, 25, 98, 1, 70, "Section"],
+Cell[778, 28, 1310, 29, 88, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2125, 62, 96, 1, 70, "Section"],
+Cell[2224, 65, 3094, 102, 405, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5355, 172, 103, 1, 70, "Section"],
+Cell[5461, 175, 1595, 38, 229, "Input"],
+Cell[CellGroupData[{
+Cell[7081, 217, 221, 4, 30, "Input"],
+Cell[7305, 223, 537, 11, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7879, 239, 155, 3, 30, "Input"],
+Cell[8037, 244, 416, 10, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8490, 259, 218, 4, 30, "Input"],
+Cell[8711, 265, 430, 9, 41, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9178, 279, 171, 3, 30, "Input"],
+Cell[9352, 284, 386, 9, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9775, 298, 153, 3, 30, "Input"],
+Cell[9931, 303, 491, 11, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10459, 319, 157, 3, 30, "Input"],
+Cell[10619, 324, 427, 9, 41, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11095, 339, 155, 2, 70, "Section"],
+Cell[11253, 343, 1644, 38, 229, "Input"],
+Cell[CellGroupData[{
+Cell[12922, 385, 221, 4, 30, "Input"],
+Cell[13146, 391, 564, 12, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13747, 408, 155, 3, 30, "Input"],
+Cell[13905, 413, 440, 10, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14382, 428, 218, 4, 30, "Input"],
+Cell[14603, 434, 454, 9, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15094, 448, 171, 3, 30, "Input"],
+Cell[15268, 453, 410, 9, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15715, 467, 153, 3, 30, "Input"],
+Cell[15871, 472, 511, 11, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16419, 488, 157, 3, 30, "Input"],
+Cell[16579, 493, 451, 9, 44, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17079, 508, 208, 3, 70, "Section"],
+Cell[17290, 513, 1696, 39, 229, "Input"],
+Cell[CellGroupData[{
+Cell[19011, 556, 221, 4, 30, "Input"],
+Cell[19235, 562, 641, 13, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19913, 580, 155, 3, 30, "Input"],
+Cell[20071, 585, 512, 11, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20620, 601, 218, 4, 30, "Input"],
+Cell[20841, 607, 526, 10, 41, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21404, 622, 171, 3, 30, "Input"],
+Cell[21578, 627, 483, 10, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22098, 642, 153, 3, 30, "Input"],
+Cell[22254, 647, 587, 12, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22878, 664, 157, 3, 30, "Input"],
+Cell[23038, 669, 522, 10, 41, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23609, 685, 257, 3, 70, "Section"],
+Cell[23869, 690, 1751, 40, 229, "Input"],
+Cell[CellGroupData[{
+Cell[25645, 734, 221, 4, 30, "Input"],
+Cell[25869, 740, 659, 13, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26565, 758, 155, 3, 30, "Input"],
+Cell[26723, 763, 535, 11, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27295, 779, 218, 4, 30, "Input"],
+Cell[27516, 785, 551, 10, 41, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28104, 800, 171, 3, 30, "Input"],
+Cell[28278, 805, 506, 10, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28821, 820, 153, 3, 30, "Input"],
+Cell[28977, 825, 606, 12, 44, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29620, 842, 157, 3, 30, "Input"],
+Cell[29780, 847, 548, 10, 74, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

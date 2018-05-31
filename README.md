@@ -134,6 +134,11 @@ Updated 5/21/2018:
 | Kinematics						| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 |											| Angular Acceleration										| 																				| 																				| 								| 				 				|						| 								| 								|								|
 |											| Torque																	| 																				| 																				| 								| 				 				|						| 								| 								|								|
+| Electrodynamics			| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											|Black Body															| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| Stefan-Boltzmann Law										| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| Plank's Law															| 																				| X							| X			 				| X					| X							| 								|								|
+|											| 																				| Wien's Displacement Law								| 																				| X							| X			 				| X					| X							| 								|								|
 | Optics								| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 | Plasma								| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 | Quantum						| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
