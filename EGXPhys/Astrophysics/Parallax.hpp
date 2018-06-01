@@ -28,7 +28,11 @@ namespace EGXPhys
 {
 	/// @addtogroup EGXPhys-Astrophysic-Parallax
 	/// @{
-	
+
+    ParallaxToParsec(parallaxInArcseconds);
+    ParallaxToAU(parallaxInArcseconds);
+    ParallaxToLightYear(parallaxInArcseconds);
+    ParallaxToMeters(parallaxInArcseconds);
     /// @}
 } //namespace EGXPhys
 

@@ -200,6 +200,12 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CoordinateConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\TemplateConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\DistanceConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\LightYearConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\MeterConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\MileConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\ParsecConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.hpp" />
@@ -387,6 +393,11 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\3DCartesianCoordinateConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\TemplateConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\LightYearConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\MeterConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\MileConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\ParsecConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\GaussianFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\LogFunctions.inl" />
