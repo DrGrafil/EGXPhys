@@ -17,7 +17,7 @@
 
 #include "AngleConversions/AngleConversions.hpp"
 #include "CoordinateConversions/CoordinateConversions.hpp"
-#include "DistanceConversions/DistanceConversions.hpp"
+#include "LengthConversions/LengthConversions.hpp"
 
 //=================================
 

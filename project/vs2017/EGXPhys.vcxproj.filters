@@ -151,8 +151,8 @@
     <Filter Include="Tests\EGXMath\Conversions\Distance">
       <UniqueIdentifier>{07b5da09-a4f8-41bd-b68c-c8a9601998c3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="EGXPhys\EGXMath\Conversions\DistanceConversions">
-      <UniqueIdentifier>{9b3dfa57-a5bf-4fc4-9e91-d2cf9caab0df}</UniqueIdentifier>
+    <Filter Include="EGXPhys\EGXMath\Conversions\LengthConversions">
+      <UniqueIdentifier>{579c70a8-5bde-4636-97aa-8845d9fbb089}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -738,23 +738,11 @@
     <ClInclude Include="..\..\tests\Electrodynamics\Blackbody\BlackBodyTest.hpp">
       <Filter>Tests\Electrodynamics\BlackBody</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\DistanceConversions.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\DistanceConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\LengthConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\LightYearConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\DistanceConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\MeterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\DistanceConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\ParsecConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\DistanceConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\MileConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\DistanceConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\TemplateConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\DistanceConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -1030,20 +1018,8 @@
     <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\StefanBoltzmannLaw.inl">
       <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\LightYearConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\DistanceConversions</Filter>
-    </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\MeterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\DistanceConversions</Filter>
-    </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\ParsecConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\DistanceConversions</Filter>
-    </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\MileConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\DistanceConversions</Filter>
-    </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\DistanceConversions\TemplateConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\DistanceConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
   </ItemGroup>
 </Project>
