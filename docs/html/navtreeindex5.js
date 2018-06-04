@@ -1,5 +1,11 @@
 var NAVTREEINDEX5 =
 {
+"_periapsis_8inl.html#gaa56f74c44a3583b8f0d13b821c1d7422":[3,0,0,1,24,15],
+"_periapsis_8inl.html#gab8b8131a617dd2d2a4de1d48accd7442":[3,0,0,1,24,21],
+"_periapsis_8inl.html#gac4c419a87a5802cf6afc98f50792e99f":[3,0,0,1,24,4],
+"_periapsis_8inl.html#gada5892309279a3a687c4eb2f88238e4e":[3,0,0,1,24,3],
+"_periapsis_8inl.html#gae2d053caf69cb0b4c3207064a2ab143a":[3,0,0,1,24,10],
+"_periapsis_8inl.html#gaeeba153b188cd06cbd233eaef12f0a6a":[3,0,0,1,24,6],
 "_periapsis_8inl.html#gafb16e46e55078b38604eef0d7c7c40c4":[3,0,0,1,24,11],
 "_periapsis_8inl.html#gaff62669fb364a245cb85f9a91d8ea71f":[3,0,0,1,24,8],
 "_periodic_functions_8hpp.html":[3,0,0,3,1,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX5 =
 "_spheroid_eccentricity_8inl.html":[3,0,0,3,2,1,6,2],
 "_spheroid_eccentricity_8inl.html#ga0b6ce84e9c4c2fd5bc5a29569c2c2295":[3,0,0,3,2,1,6,2,1],
 "_spheroid_eccentricity_8inl.html#gab45680528a41bb7a5e15ddc0059156dd":[3,0,0,3,2,1,6,2,0],
-"_spheroid_equatorial_radius_8hpp_source.html":[3,0,0,3,2,1,6,3],
-"_spheroid_equatorial_radius_8inl.html":[3,0,0,3,2,1,6,4],
-"_spheroid_equatorial_radius_8inl.html#ga1cbe564fee1b509c622d1c6d276158cd":[3,0,0,3,2,1,6,4,0],
-"_spheroid_flattening_8hpp.html":[3,0,0,3,2,1,6,5],
-"_spheroid_flattening_8hpp.html#ga05e3be91f5f7fbaa9371687aa3834179":[3,0,0,3,2,1,6,5,0],
-"_spheroid_flattening_8hpp.html#ga486adfc58b047197daf87f50b2039ca7":[3,0,0,3,2,1,6,5,3],
-"_spheroid_flattening_8hpp.html#ga9769747e144e2209b7927632b854c31f":[3,0,0,3,2,1,6,5,2]
+"_spheroid_equatorial_radius_8hpp_source.html":[3,0,0,3,2,1,6,3]
 };

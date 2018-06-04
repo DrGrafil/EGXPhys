@@ -21,7 +21,7 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "Luminosity.inl", "_luminosity_8inl.html", "_luminosity_8inl" ],
     [ "OrbitalCharecteristics.hpp", "_orbital_charecteristics_8hpp.html", null ],
     [ "OrbitalCharecteristics.inl", "_orbital_charecteristics_8inl.html", null ],
-    [ "Parallax.hpp", "_parallax_8hpp.html", null ],
+    [ "Parallax.hpp", "_parallax_8hpp.html", "_parallax_8hpp" ],
     [ "Parallax.inl", "_parallax_8inl.html", null ],
     [ "Periapsis.hpp", "_periapsis_8hpp.html", "_periapsis_8hpp" ],
     [ "Periapsis.inl", "_periapsis_8inl.html", "_periapsis_8inl" ],

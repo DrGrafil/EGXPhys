@@ -19,7 +19,14 @@
 
 namespace EGXMath
 {
-  
+    const double lightYearInMeters = 9460730472580800.0;
+    const double auInMeters = 149597870700.0;
+    const double parsecInMeters = auInMeters * 648000.0 / pi;
+
+
+    const double CuXUnit = 1.00207697e-13;
+    const double MoXUnit = 1.00209952e-13;
+
 } //namespace EGXMath
 
 

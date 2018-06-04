@@ -1,5 +1,11 @@
 var NAVTREEINDEX6 =
 {
+"_spheroid_equatorial_radius_8inl.html":[3,0,0,3,2,1,6,4],
+"_spheroid_equatorial_radius_8inl.html#ga1cbe564fee1b509c622d1c6d276158cd":[3,0,0,3,2,1,6,4,0],
+"_spheroid_flattening_8hpp.html":[3,0,0,3,2,1,6,5],
+"_spheroid_flattening_8hpp.html#ga05e3be91f5f7fbaa9371687aa3834179":[3,0,0,3,2,1,6,5,0],
+"_spheroid_flattening_8hpp.html#ga486adfc58b047197daf87f50b2039ca7":[3,0,0,3,2,1,6,5,3],
+"_spheroid_flattening_8hpp.html#ga9769747e144e2209b7927632b854c31f":[3,0,0,3,2,1,6,5,2],
 "_spheroid_flattening_8hpp.html#ga9822b6e1025edbf7d272949547c53511":[3,0,0,3,2,1,6,5,1],
 "_spheroid_flattening_8hpp_source.html":[3,0,0,3,2,1,6,5],
 "_spheroid_flattening_8inl.html":[3,0,0,3,2,1,6,6],
@@ -55,6 +61,7 @@ var NAVTREEINDEX6 =
 "_surface_gravity_8inl.html#gab5bb479758d72608ef6ada063f6c1a1b":[3,0,0,1,41,0],
 "_surface_gravity_8inl.html#gaf7e1f42b674fe8bb2211c40882a7d5b6":[3,0,0,1,41,1],
 "_tangential_velocity_8hpp_source.html":[3,0,0,6,8],
+"_template_conversion_8hpp_source.html":[3,0,0,3,0,2,1],
 "_thermodynamics_8hpp.html":[3,0,0,12,0],
 "_thermodynamics_8hpp_source.html":[3,0,0,12,0],
 "_thermodynamics_constants_8hpp.html":[3,0,0,12,1],
@@ -141,6 +148,7 @@ var NAVTREEINDEX6 =
 "dir_ca2c9bc27286557ea113e630ca819aa2.html":[3,0,0,3,2,0,3],
 "dir_ce4ef40a56af8221486bcd78e6a47b62.html":[3,0,0],
 "dir_d106ecebfa388d10c65e1e170e929a16.html":[3,0,0,3,2,1],
+"dir_d42aa0d882c4429fca6bd77c026ed02f.html":[3,0,0,3,0,2],
 "dir_d601383dbd262e311421bb342d3c1d78.html":[3,0,0,3,1],
 "dir_df1d7c40e65ce84aa373b2af4f20faa8.html":[3,0,0,3,2,1,1],
 "dir_df8cd42b4151effe4195cfdf27b64ade.html":[3,0,0,7],
@@ -241,13 +249,5 @@ var NAVTREEINDEX6 =
 "group___e_g_x_math-_conversions-_angle_conversions-_gon.html#gac7263c178052895c8b1a71190b62aabc":[1,0,0,0,4,10],
 "group___e_g_x_math-_conversions-_angle_conversions-_gon.html#gad4f34877c74cc444e7b741b99cd20d5a":[1,0,0,0,4,2],
 "group___e_g_x_math-_conversions-_angle_conversions-_gon.html#gae3f14ff3441def6d88fed69f2466cf82":[1,0,0,0,4,13],
-"group___e_g_x_math-_conversions-_angle_conversions-_gon.html#gae55acf3fc27d34374b5ec10e0a471b3b":[1,0,0,0,4,17],
-"group___e_g_x_math-_conversions-_angle_conversions-_gon.html#gae5956f7e80b143f3cc22eb8122c1b745":[1,0,0,0,4,15],
-"group___e_g_x_math-_conversions-_angle_conversions-_gon.html#gaf1c40076eaf3be4e070ff34045db55d1":[1,0,0,0,4,6],
-"group___e_g_x_math-_conversions-_angle_conversions-_gon.html#gafdf7d525a98427da55b86ff420a5ec86":[1,0,0,0,4,16],
-"group___e_g_x_math-_conversions-_angle_conversions-_gradian.html":[1,0,0,0,5],
-"group___e_g_x_math-_conversions-_angle_conversions-_gradian.html#ga0b6700b55ab4a24fa581bf2af0dafdaa":[1,0,0,0,5,8],
-"group___e_g_x_math-_conversions-_angle_conversions-_gradian.html#ga11b42138910d26474f47c0a2043911c9":[1,0,0,0,5,17],
-"group___e_g_x_math-_conversions-_angle_conversions-_gradian.html#ga144f1019dc760268a163d81fcb3ce482":[1,0,0,0,5,15],
-"group___e_g_x_math-_conversions-_angle_conversions-_gradian.html#ga346f47c519d5261b689cec49f4a8e789":[1,0,0,0,5,5]
+"group___e_g_x_math-_conversions-_angle_conversions-_gon.html#gae55acf3fc27d34374b5ec10e0a471b3b":[1,0,0,0,4,17]
 };

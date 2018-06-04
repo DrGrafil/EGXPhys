@@ -1,11 +1,13 @@
 var searchData=
 [
+  ['length_20conversions',['Length Conversions',['../group___e_g_x_math-_conversions-_length_conversions.html',1,'']]],
   ['log',['Log',['../group___e_g_x_math-_functions-_log.html',1,'']]],
   ['linear_20eccentricity',['Linear Eccentricity',['../group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity.html',1,'']]],
   ['lorentz_20transformations',['Lorentz Transformations',['../group___e_g_x_phys-_lorentz_transformations.html',1,'']]],
   ['luminosity',['Luminosity',['../group___e_g_x_phys-_luminosity.html',1,'']]],
   ['latticeparameterofsilicon',['latticeParameterOfSilicon',['../group___n_i_s_t_const-_silicon.html#ga0941ec097c5c66b571eec8c5305f3aac',1,'NISTConst']]],
   ['latticespacingofsilicon',['latticeSpacingOfSilicon',['../group___n_i_s_t_const-_silicon.html#gadcadfe51b35f339a221e8ba56830b565',1,'NISTConst']]],
+  ['lengthconversions_2ehpp',['LengthConversions.hpp',['../_length_conversions_8hpp.html',1,'']]],
   ['logfunctions_2ehpp',['LogFunctions.hpp',['../_log_functions_8hpp.html',1,'']]],
   ['logfunctions_2einl',['LogFunctions.inl',['../_log_functions_8inl.html',1,'']]],
   ['lorentzfactor',['LorentzFactor',['../group___e_g_x_phys-_lorentz_transformations.html#ga5f9b11c1f4c3ae26a7e64f02c22d5a75',1,'EGXPhys']]],

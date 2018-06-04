@@ -46,13 +46,13 @@ var NAVTREEINDEX =
 "_decimal_degree_conversion_8inl.html#ga415a94651a2b2397b7f2bda90a19ee2c",
 "_ellipsoid_inertia_8hpp.html#gaed602dd93a68fdd7d4bafe883b093153",
 "_integer_degree_conversion_8inl.html#gaa04058a2fea3dc3678264a05fac6e1ae",
-"_n_i_s_t_const_8hpp.html#ga8c1405e0299d1388f1452bf4e04778f9",
-"_periapsis_8inl.html#gafb16e46e55078b38604eef0d7c7c40c4",
-"_spheroid_flattening_8hpp.html#ga9822b6e1025edbf7d272949547c53511",
-"group___e_g_x_math-_conversions-_angle_conversions-_gradian.html#ga52ed2e44217e6a57e56829bee36612dc",
-"group___e_g_x_math-_geometry-3_d-_spheroid-_flattening.html#ga05e3be91f5f7fbaa9371687aa3834179",
-"group___n_i_s_t_const-_adopted.html",
-"group___n_i_s_t_const-_muon.html#ga2429d4c7a129833cea3e1f94959c541c"
+"_n_i_s_t_const_8hpp.html#ga8a25948c1c135438783f418f669a9af6",
+"_periapsis_8inl.html#gaa56f74c44a3583b8f0d13b821c1d7422",
+"_spheroid_equatorial_radius_8inl.html",
+"group___e_g_x_math-_conversions-_angle_conversions-_gon.html#gae5956f7e80b143f3cc22eb8122c1b745",
+"group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga646a2ca065f4ac3f666a9ea22f3bb527",
+"group___e_g_x_phys-_planet_criteria.html#ga6dc06a1a8baf6e132abed51fcf410c7f",
+"group___n_i_s_t_const-_inverse_meter.html#ga0f2df9b1aa4e70e96cec81157c3763be"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

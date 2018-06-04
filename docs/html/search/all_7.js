@@ -7,6 +7,7 @@ var searchData=
   ['eccentricity_2ehpp',['Eccentricity.hpp',['../_eccentricity_8hpp.html',1,'']]],
   ['eccentricityofearth',['EccentricityOfEarth',['../namespace_e_g_x_phys.html#a327bbaf59d546f8524d6fb9da919d939',1,'EGXPhys']]],
   ['egxmath_20library',['EGXMath Library',['../group___e_g_x_math.html',1,'']]],
+  ['egxmath_2dconversions_2dlengthconversions_2duzitzs_2dsurveyors',['EGXMath-Conversions-LengthConversions-uzitzs-Surveyors',['../group___e_g_x_math-_conversions-_length_conversions-uzitzs-_surveyors.html',1,'']]],
   ['error_20function_20_28erf_29',['Error Function (Erf)',['../group___e_g_x_math-_functions-_e_r_f.html',1,'']]],
   ['egxmath_2dgeometry_2d',['EGXMath-Geometry-',['../group___e_g_x_math-_geometry-.html',1,'']]],
   ['ellipse',['Ellipse',['../group___e_g_x_math-_geometry-2_d-_ellipse.html',1,'']]],
