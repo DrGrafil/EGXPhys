@@ -135,7 +135,6 @@ var NAVTREEINDEX7 =
 "group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#gaa9b50c4837e1cbea569de6f7bc90a3b6":[1,0,0,1,1,2,2],
 "group___e_g_x_math-_conversions-_coordinate_conversions-3_d.html":[1,0,0,1,1],
 "group___e_g_x_math-_conversions-_coordinate_conversions.html":[1,0,0,1],
-"group___e_g_x_math-_conversions-_length_conversions-_surveyors.html":[1,0,0,2,0,5],
 "group___e_g_x_math-_conversions-_length_conversions-uzitzs-_astronomical.html":[1,0,0,2,0,0],
 "group___e_g_x_math-_conversions-_length_conversions-uzitzs-_astronomical.html#ga028a17a589e3f3d0c09daa6fbe664989":[1,0,0,2,0,0,2],
 "group___e_g_x_math-_conversions-_length_conversions-uzitzs-_astronomical.html#ga5b92a4634ad3e80173c05bc3ff39f079":[1,0,0,2,0,0,0],
@@ -178,9 +177,9 @@ var NAVTREEINDEX7 =
 "group___e_g_x_math-_conversions-_length_conversions-uzitzs-_s_i.html#gaed1a457a06ea3b69a4c63414b08b03a3":[1,0,0,2,0,1,15],
 "group___e_g_x_math-_conversions-_length_conversions-uzitzs-_s_i.html#gaf507dd646327861da523586b417d132e":[1,0,0,2,0,1,12],
 "group___e_g_x_math-_conversions-_length_conversions-uzitzs-_s_i.html#gafe93d0226789fd78c2ffa4223eb6af7b":[1,0,0,2,0,1,14],
-"group___e_g_x_math-_conversions-_length_conversions-uzitzs-_surveyors.html":[1,3],
-"group___e_g_x_math-_conversions-_length_conversions-uzitzs-_surveyors.html#ga34cbd9480a12684fe4138ba45a56692b":[1,3,0],
-"group___e_g_x_math-_conversions-_length_conversions-uzitzs-_surveyors.html#gaf6062ab067930d296074de9e8301871d":[1,3,1],
+"group___e_g_x_math-_conversions-_length_conversions-uzitzs-_surveyors.html":[1,0,0,2,0,5],
+"group___e_g_x_math-_conversions-_length_conversions-uzitzs-_surveyors.html#ga34cbd9480a12684fe4138ba45a56692b":[1,0,0,2,0,5,0],
+"group___e_g_x_math-_conversions-_length_conversions-uzitzs-_surveyors.html#gaf6062ab067930d296074de9e8301871d":[1,0,0,2,0,5,1],
 "group___e_g_x_math-_conversions-_length_conversions-uzitzs.html":[1,0,0,2,0],
 "group___e_g_x_math-_conversions-_length_conversions.html":[1,0,0,2],
 "group___e_g_x_math-_conversions.html":[1,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX7 =
 "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html":[1,0,2,0,1,8],
 "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga00e19efce15b74c6556cbd5650d7f699":[1,0,2,0,1,8,2],
 "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga1352fb9ee77a05d6b5d733c0fa048479":[1,0,2,0,1,8,10],
-"group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga505f404b0c1f4f73853c97e0a9ee2ef1":[1,0,2,0,1,8,7]
+"group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga505f404b0c1f4f73853c97e0a9ee2ef1":[1,0,2,0,1,8,7],
+"group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga646a2ca065f4ac3f666a9ea22f3bb527":[1,0,2,0,1,8,0]
 };

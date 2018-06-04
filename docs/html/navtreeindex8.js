@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga646a2ca065f4ac3f666a9ea22f3bb527":[1,0,2,0,1,8,0],
 "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga77845ca288672da90567f533679e7024":[1,0,2,0,1,8,1],
 "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga8d8abd93ee6cdf43ba490874218f925f":[1,0,2,0,1,8,8],
 "group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#gad5fde13ad96aede92a1c476d373bc295":[1,0,2,0,1,8,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "group___e_g_x_phys-_planet_criteria.html#ga1df772b0ed354ca7f7e4a7a4af072325":[1,1,1,13,2],
 "group___e_g_x_phys-_planet_criteria.html#ga4b86397b1c839c49ac599d49fda207d4":[1,1,1,13,0],
 "group___e_g_x_phys-_planet_criteria.html#ga62e8b781c301df60bd04af3183a965eb":[1,1,1,13,3],
-"group___e_g_x_phys-_planet_criteria.html#ga699bcc2f17b8855eaa856595d8032f61":[1,1,1,13,1]
+"group___e_g_x_phys-_planet_criteria.html#ga699bcc2f17b8855eaa856595d8032f61":[1,1,1,13,1],
+"group___e_g_x_phys-_planet_criteria.html#ga6dc06a1a8baf6e132abed51fcf410c7f":[1,1,1,13,4]
 };

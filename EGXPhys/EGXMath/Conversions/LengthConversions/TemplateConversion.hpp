@@ -23,7 +23,7 @@
 /// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Nautical Nautical
 /// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors Surveyors
+/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Surveyors Surveyors
 /// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
 
 //=================================
@@ -330,11 +330,11 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to angstroms.
-    *		\f[ d_{\AA}=d_{uxxits} * 10^{10} \f]
+    *		\f[ d_{\unicode{x212B}}=d_{uxxits} * 10^{10} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
-    *   @return \f$ d_{\AA}\ (\AA)\f$ Length in angstroms.
+    *   @return \f$ d_{\unicode{x212B}}\ (\unicode{x212B})\f$ Length in angstroms.
     *   @see uzitzsToPicometer() for picometer conversion.
     *   @see uzitzsToCuXUnit() for copper x unit conversion.
     *   @see uzitzsToMoXUnit() for molybdenum  x unit conversion.

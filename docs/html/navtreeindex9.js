@@ -1,6 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"group___e_g_x_phys-_planet_criteria.html#ga6dc06a1a8baf6e132abed51fcf410c7f":[1,1,1,13,4],
 "group___e_g_x_phys-_planet_criteria.html#gae0c7dce2779d66b0560ca388a34ddc39":[1,1,1,13,5],
 "group___e_g_x_phys-_planetary_mass.html":[1,1,1,12],
 "group___e_g_x_phys-_planetary_mass.html#ga225bcf56fb37468f6d4d46493d403503":[1,1,1,12,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX9 =
 "group___n_i_s_t_const-_hertz.html#gadd5a8126aa55d959d52de9d86d9fe1d4":[1,2,6,3,2],
 "group___n_i_s_t_const-_impedance_of_vacuum.html":[1,2,0,0],
 "group___n_i_s_t_const-_impedance_of_vacuum.html#gaed60576e7b6ccd87ca6204e09efd98ee":[1,2,0,0,0],
-"group___n_i_s_t_const-_inverse_meter.html":[1,2,6,4]
+"group___n_i_s_t_const-_inverse_meter.html":[1,2,6,4],
+"group___n_i_s_t_const-_inverse_meter.html#ga0f2df9b1aa4e70e96cec81157c3763be":[1,2,6,4,4]
 };

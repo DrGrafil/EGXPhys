@@ -50,9 +50,9 @@ var NAVTREEINDEX =
 "_periapsis_8inl.html#gaa56f74c44a3583b8f0d13b821c1d7422",
 "_spheroid_equatorial_radius_8inl.html",
 "group___e_g_x_math-_conversions-_angle_conversions-_gon.html#gae5956f7e80b143f3cc22eb8122c1b745",
-"group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga646a2ca065f4ac3f666a9ea22f3bb527",
-"group___e_g_x_phys-_planet_criteria.html#ga6dc06a1a8baf6e132abed51fcf410c7f",
-"group___n_i_s_t_const-_inverse_meter.html#ga0f2df9b1aa4e70e96cec81157c3763be"
+"group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga77845ca288672da90567f533679e7024",
+"group___e_g_x_phys-_planet_criteria.html#gae0c7dce2779d66b0560ca388a34ddc39",
+"group___n_i_s_t_const-_inverse_meter.html#ga1af6b6d7784fde9e08c81c3e801a2f9d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
