@@ -48,33 +48,33 @@ namespace EGXMath
     // No hubble length due to ill defined.
     /**
     *   @brief Converts a length in meters to astronomical units.
-    *		\f[ d_{au}=  \frac{1}{149597870700} d_{m} \f]
+    *		\f[ l_{au}=  \frac{1}{149597870700} l_{m} \f]
     *
     *   See https://en.wikipedia.org/wiki/Astronomical_unit
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{au}\ (au)\f$ Length in astronomical units.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{au}\ (au)\f$ Length in astronomical units.
     */
     template<typename T>
     T MeterToAstronomicalUnit(const T lengthInMeter);
 
     /**
     *   @brief Converts a length meters in to light-years.
-    *		\f[ d_{ly}= \frac{1}{9460730472580800} d_{m} \f]
+    *		\f[ l_{ly}= \frac{1}{9460730472580800} l_{m} \f]
     *
     *   See https://en.wikipedia.org/wiki/Light-year
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{ly}\ (ly)\f$ Length in light-years.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{ly}\ (ly)\f$ Length in light-years.
     */
     template<typename T>
     T MeterToLightYear(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to parsecs.
-    *		\f[ d_{pc}=\frac{\pi}{149597870700 * 648000} d_{m}  \f]
+    *		\f[ l_{pc}=\frac{\pi}{149597870700 * 648000} l_{m}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Parsec
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{pc}\ (pc)\f$ Length in parsecs.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{pc}\ (pc)\f$ Length in parsecs.
     */
     template<typename T>
     T MeterToParsec(const T lengthInMeter);
@@ -88,154 +88,154 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to yottameters.
-    *		\f[ d_{Ym}=d_{m} * 10^{-24} \f]
+    *		\f[ l_{Ym}=l_{m} * 10^{-24} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{Ym}\ (Ym)\f$ Length in yottameters.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{Ym}\ (Ym)\f$ Length in yottameters.
     */
     template<typename T>
     T MeterToYottameter(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to zettameters.
-    *		\f[ d_{Zm}=d_{m} * 10^{-21} \f]
+    *		\f[ l_{Zm}=l_{m} * 10^{-21} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{Zm}\ (Zm)\f$ Length in zettameters.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{Zm}\ (Zm)\f$ Length in zettameters.
     */
     template<typename T>
     T MeterToZettameter(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to exameters.
-    *		\f[ d_{Em}=d_{m} * 10^{-18} \f]
+    *		\f[ l_{Em}=l_{m} * 10^{-18} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{Em}\ (Em)\f$ Length in exameters.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{Em}\ (Em)\f$ Length in exameters.
     */
     template<typename T>
     T MeterToExameter(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to petameters.
-    *		\f[ d_{Pm}=d_{m} * 10^{-15} \f]
+    *		\f[ l_{Pm}=l_{m} * 10^{-15} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{Pm}\ (Pm)\f$ Length in petameters.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{Pm}\ (Pm)\f$ Length in petameters.
     */
     template<typename T>
     T MeterToPetameter(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to terameters.
-    *		\f[ d_{Tm}=d_{m} * 10^{-12} \f]
+    *		\f[ l_{Tm}=l_{m} * 10^{-12} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{Tm}\ (Tm)\f$ Length in terameters.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{Tm}\ (Tm)\f$ Length in terameters.
     */
     template<typename T>
     T MeterToTerameter(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to gigameters.
-    *		\f[ d_{Gm}=d_{m} * 10^{-9} \f]
+    *		\f[ l_{Gm}=l_{m} * 10^{-9} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{Gm}\ (m)\f$ Length in gigameters.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{Gm}\ (m)\f$ Length in gigameters.
     */
     template<typename T>
     T MeterToGigameter(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to megameters.
-    *		\f[ d_{Mm}=d_{m} * 10^{-6} \f]
+    *		\f[ l_{Mm}=l_{m} * 10^{-6} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{Mm}\ (Mm)\f$ Length in megameters.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{Mm}\ (Mm)\f$ Length in megameters.
     */
     template<typename T>
     T MeterToMegameter(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to kilometers.
-    *		\f[ d_{km}=d_{m} * 10^{-3} \f]
+    *		\f[ l_{km}=l_{m} * 10^{-3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{km}\ (km)\f$ Length in kilometers.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{km}\ (km)\f$ Length in kilometers.
     */
     template<typename T>
     T MeterToKilometer(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to hectometers.
-    *		\f[ d_{hm}=d_{m} * 10^{-2} \f]
+    *		\f[ l_{hm}=l_{m} * 10^{-2} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{hm}\ (hm)\f$ Length in hectometers.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{hm}\ (hm)\f$ Length in hectometers.
     */
     template<typename T>
     T MeterToHectometer(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to decameters.
-    *		\f[ d_{dam}=d_{m} * 10^{-1} \f]
+    *		\f[ l_{dam}=l_{m} * 10^{-1} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{dam}\ (dam)\f$ Length in decameters.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{dam}\ (dam)\f$ Length in decameters.
     */
     template<typename T>
     T MeterToDecameter(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to decimeters.
-    *		\f[ d_{dm}=d_{m} * 10^{1} \f]
+    *		\f[ l_{dm}=l_{m} * 10^{1} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{dm}\ (dm)\f$ Length in decimeters.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{dm}\ (dm)\f$ Length in decimeters.
     */
     template<typename T>
     T MeterToDecimeter(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to centimeters.
-    *		\f[ d_{cm}=d_{m} * 10^{2} \f]
+    *		\f[ l_{cm}=l_{m} * 10^{2} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{cm}\ (cm)\f$ Length in centimeters.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{cm}\ (cm)\f$ Length in centimeters.
     */
     template<typename T>
     T MeterToCentimeter(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to millimeters.
-    *		\f[ d_{m}=d_{m} * 10^{3} \f]
+    *		\f[ l_{m}=l_{m} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{mm}\ (mm)\f$ Length in millimeters.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{mm}\ (mm)\f$ Length in millimeters.
     */
     template<typename T>
     T MeterToMillimeter(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to micrometers.
-    *		\f[ d_{\mu m}=d_{m} * 10^{6} \f]
+    *		\f[ l_{\mu m}=l_{m} * 10^{6} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{\mu m}\ (\mu m)\f$ Length in micrometers.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{\mu m}\ (\mu m)\f$ Length in micrometers.
     *   @see MeterToMicron() for alias.
     */
     template<typename T>
@@ -243,11 +243,11 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to nanometers.
-    *		\f[ d_{nm}=d_{m} * 10^{9} \f]
+    *		\f[ l_{nm}=l_{m} * 10^{9} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{nm}\ (nm)\f$ Length in nanometers.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{nm}\ (nm)\f$ Length in nanometers.
     *   @see MeterToMicron() for alias.
     */
     template<typename T>
@@ -255,11 +255,11 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to picometers.
-    *		\f[ d_{pm}=d_{m} * 10^{12} \f]
+    *		\f[ l_{pm}=l_{m} * 10^{12} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{pm}\ (pm)\f$ Length in picometers.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{pm}\ (pm)\f$ Length in picometers.
     *   @see MeterToAngstrom() for angstrom conversion.
     *   @see MeterToCuXUnit() for copper x unit conversion.
     *   @see MeterToMoXUnit() for molybdenum  x unit conversion.
@@ -269,11 +269,11 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to femtometers.
-    *		\f[ d_{fm}=d_{m} * 10^{15} \f]
+    *		\f[ l_{fm}=l_{m} * 10^{15} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{fm}\ (fm)\f$ Length in femtometers.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{fm}\ (fm)\f$ Length in femtometers.
     *   @see MeterToFermi() for alias.
     */
     template<typename T>
@@ -281,33 +281,33 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to attometers.
-    *		\f[ d_{am}=d_{m} * 10^{18} \f]
+    *		\f[ l_{am}=l_{m} * 10^{18} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{am}\ (am)\f$ Length in attometers.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{am}\ (am)\f$ Length in attometers.
     */
     template<typename T>
     T MeterToAttometer(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to zeptometers.
-    *		\f[ d_{zm}=d_{m} * 10^{21} \f]
+    *		\f[ l_{zm}=l_{m} * 10^{21} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{zm}\ (zm)\f$ Length in zeptometers.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{zm}\ (zm)\f$ Length in zeptometers.
     */
     template<typename T>
     T MeterToZeptometer(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to Yoctometers.
-    *		\f[ d_{ym}=d_{m} * 10^{24} \f]
+    *		\f[ l_{ym}=l_{m} * 10^{24} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{ym}\ (ym)\f$ Length in yoctometers.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{ym}\ (ym)\f$ Length in yoctometers.
     */
     template<typename T>
     T MeterToYoctometer(const T lengthInMeter);
@@ -321,11 +321,11 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to angstroms.
-    *		\f[ d_{\unicode{x212B}}=d_{m} * 10^{10} \f]
+    *		\f[ l_{\unicode{x212B}}=l_{m} * 10^{10} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{\unicode{x212B}}\ (\unicode{x212B})\f$ Length in angstroms.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{\unicode{x212B}}\ (\unicode{x212B})\f$ Length in angstroms.
     *   @see MeterToPicometer() for picometer conversion.
     *   @see MeterToCuXUnit() for copper x unit conversion.
     *   @see MeterToMoXUnit() for molybdenum  x unit conversion.
@@ -335,20 +335,20 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to fermis.
-    *		\f[ d_{fm}=d_{m} * 10^{15} \f]
+    *		\f[ l_{fm}=l_{m} * 10^{15} \f]
     *
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{fm}\ (fm)\f$ Length in fermis.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{fm}\ (fm)\f$ Length in fermis.
     */
     template<typename T>
     T MeterToFermi(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to microns.
-    *		\f[ d_{\mu m}=d_{m} * 10^{6} \f]
+    *		\f[ l_{\mu m}=l_{m} * 10^{6} \f]
     *
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{\mu m}\ (\mu m)\f$ Length in microns.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{\mu m}\ (\mu m)\f$ Length in microns.
     *   @see MeterToMicrometer() for alias.
     */
     template<typename T>
@@ -356,10 +356,10 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to copper x units.
-    *		\f[ d_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} d_{m} \f]
+    *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{m} \f]
     *
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
     *   @see MeterToAngstrom() for angstrom conversion.
     *   @see MeterToPicometer() for picometer conversion.
     *   @see MeterToMoXUnit() for molybdenum  x unit conversion.
@@ -369,10 +369,10 @@ namespace EGXMath
    
     /**
     *   @brief Converts a length in meters to molybdenum x units.
-    *		\f[ d_{xu(Mo\ K\alpha_1)}=\frac{1}{1.00209952*10^{-13}} d_{m} /  \f]
+    *		\f[ l_{xu(Mo\ K\alpha_1)}=\frac{1}{1.00209952*10^{-13}} l_{m} /  \f]
     *
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{xu(Mo\ K\alpha_1)}\ (xu)\f$ Length in molybdenum x units.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{xu(Mo\ K\alpha_1)}\ (xu)\f$ Length in molybdenum x units.
     *   @see MeterToAngstrom() for angstrom conversion.
     *   @see MeterToPicometer() for picometer conversion.
     *   @see MeterToCuXUnit() for copper x unit conversion.
@@ -389,55 +389,55 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to miles.
-    *		\f[ d_{mi}=\frac{1}{0.0254 * 63360} d_{m} \f]
+    *		\f[ l_{mi}=\frac{1}{0.0254 * 63360} l_{m} \f]
     *
     *   See https://en.wikipedia.org/wiki/Mile
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{mi}\ (mi)\f$ Length in miles.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{mi}\ (mi)\f$ Length in miles.
     */
     template<typename T>
     T MeterToMile(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to yards.
-    *		\f[ d_{yd}= \frac{1}{0.0254 * 36} d_{m}  \f]
+    *		\f[ l_{yd}= \frac{1}{0.0254 * 36} l_{m}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{yd}\ (yd)\f$ Length in yards.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{yd}\ (yd)\f$ Length in yards.
     */
     template<typename T>
     T MeterToYard(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to feet.
-    *		\f[ d_{ft}= \frac{1}{0.0254 * 12} d_{m} \f]
+    *		\f[ l_{ft}= \frac{1}{0.0254 * 12} l_{m} \f]
     *
     *   See https://en.wikipedia.org/wiki/Foot_(unit)
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{ft}\ (ft)\f$ Length in feet.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{ft}\ (ft)\f$ Length in feet.
     */
     template<typename T>
     T MeterToFoot(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to inches.
-    *		\f[ d_{in}=\frac{1}{0.0254} d_{m} \f]
+    *		\f[ l_{in}=\frac{1}{0.0254} l_{m} \f]
     *
     *   See https://en.wikipedia.org/wiki/Inch
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{in}\ (in)\f$ Length in inches.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{in}\ (in)\f$ Length in inches.
     */
     template<typename T>
     T MeterToInch(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to mils (thousandth of an inch).
-    *		\f[ d_{mil}= \frac{1}{0.0254} d_{m} * 10^{3} \f]
+    *		\f[ l_{mil}= \frac{1}{0.0254} l_{m} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Thousandth_of_an_inch
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{mil}\ (mil)\f$ Length in mils (thousandth of an inch).
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{mil}\ (mil)\f$ Length in mils (thousandth of an inch).
     *   @see MeterToThou() for alias.
     */
     template<typename T>
@@ -445,11 +445,11 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to thous (thousandth of an inch).
-    *		\f[ d_{mil}= \frac{1}{0.0254} d_{m} * 10^{3} \f]
+    *		\f[ l_{mil}= \frac{1}{0.0254} l_{m} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Thousandth_of_an_inch
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{mil}\ (mil)\f$ Length in thous (thousandth of an inch).
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{mil}\ (mil)\f$ Length in thous (thousandth of an inch).
     *   @see MeterToMil() for alias.
     */
     template<typename T>
@@ -464,21 +464,21 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to nautical mile.
-    *		\f[ d_{NM}= \frac{1}{0.0254 * 1852} d_{m}  \f]
+    *		\f[ l_{NM}= \frac{1}{0.0254 * 1852} l_{m}  \f]
     *
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{NM}\ (NM)\f$ Length in nautical mile.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.
     */
     template<typename T>
     T MeterToNauticalMile(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to fathoms.
-    *		\f[ d_{fathom}= \frac{1}{0.0254 * 72} d_{m}  \f]
+    *		\f[ l_{fathom}= \frac{1}{0.0254 * 72} l_{m}  \f]
     *
     *   See https://simple.wikipedia.org/wiki/Fathom
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{fathom}\ (fathom)\f$ Length in fathoms.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{fathom}\ (fathom)\f$ Length in fathoms.
     */
     template<typename T>
     T MeterToFathom(const T lengthInMeter);
@@ -492,22 +492,22 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to rods.
-    *		\f[ d_{rod}= \frac{1}{0.0254 * 198} d_{m} \f]
+    *		\f[ l_{rod}= \frac{1}{0.0254 * 198} l_{m} \f]
     *
     *   See https://simple.wikipedia.org/wiki/Rod_(unit)
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{rod}\ (rod)\f$ Length in rods.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{rod}\ (rod)\f$ Length in rods.
     */
     template<typename T>
     T MeterToRod(const T lengthInMeter);
 
     /**
     *   @brief Converts a length in meters to chains.
-    *		\f[ d_{ch}= \frac{1}{0.0254 * 792} d_{m} \f]
+    *		\f[ l_{ch}= \frac{1}{0.0254 * 792} l_{m} \f]
     *
     *   See https://simple.wikipedia.org/wiki/Chain_(unit)
-    *   @param lengthInMeter \f$ d_{m}\ (m)\f$ Length in meters.
-    *   @return \f$ d_{ch}\ (ch)\f$ Length in chains.
+    *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
+    *   @return \f$ l_{ch}\ (ch)\f$ Length in chains.
     */
     template<typename T>
     T MeterToChain(const T lengthInMeter);

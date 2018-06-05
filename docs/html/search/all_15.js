@@ -1,6 +1,8 @@
 var searchData=
 [
   ['spherical',['Spherical',['../group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html',1,'']]],
+  ['si',['SI',['../group___e_g_x_math-_conversions-_length_conversions-_meter-_s_i.html',1,'']]],
+  ['surveyors',['Surveyors',['../group___e_g_x_math-_conversions-_length_conversions-_meter-_surveyors.html',1,'']]],
   ['si',['SI',['../group___e_g_x_math-_conversions-_length_conversions-uzitzs-_s_i.html',1,'']]],
   ['surveyors',['Surveyors',['../group___e_g_x_math-_conversions-_length_conversions-uzitzs-_surveyors.html',1,'']]],
   ['sign',['Sign',['../group___e_g_x_math-_functions-_sign.html',1,'']]],

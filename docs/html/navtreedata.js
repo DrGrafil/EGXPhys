@@ -46,13 +46,14 @@ var NAVTREEINDEX =
 "_decimal_degree_conversion_8inl.html#ga415a94651a2b2397b7f2bda90a19ee2c",
 "_ellipsoid_inertia_8hpp.html#gaed602dd93a68fdd7d4bafe883b093153",
 "_integer_degree_conversion_8inl.html#gaa04058a2fea3dc3678264a05fac6e1ae",
-"_n_i_s_t_const_8hpp.html#ga8a25948c1c135438783f418f669a9af6",
-"_periapsis_8inl.html#gaa56f74c44a3583b8f0d13b821c1d7422",
-"_spheroid_equatorial_radius_8inl.html",
-"group___e_g_x_math-_conversions-_angle_conversions-_gon.html#gae5956f7e80b143f3cc22eb8122c1b745",
-"group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga77845ca288672da90567f533679e7024",
-"group___e_g_x_phys-_planet_criteria.html#gae0c7dce2779d66b0560ca388a34ddc39",
-"group___n_i_s_t_const-_inverse_meter.html#ga1af6b6d7784fde9e08c81c3e801a2f9d"
+"_n_i_s_t_const_8hpp.html#ga6b5951b0dbdf131bb3138565e0828e79",
+"_periapsis_8hpp.html#ga0523c65b7fc26e675388b2c3d38aa00b",
+"_rotational_flattening_8hpp.html#ga7d78d01c8b3e1a9b2e4f17cb67969a88",
+"group___e_g_x_math-_conversions-_angle_conversions-_degree.html#gac1b5f3b68f66c77a6df4ceef842c9b19",
+"group___e_g_x_math-_conversions-_length_conversions-uzitzs-_s_i.html#ga4c102f14f5804c46db22137411ceb3be",
+"group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html#ga8f89ce1baac45a1717f604255d04af44",
+"group___n_i_s_t_const-_electron.html#ga96cd4ffa65395eb9cfeb99fb8e7c0719",
+"group___n_i_s_t_const-_sackur_tetrode_constant.html#ga7f3efde326ea5cfe5e2d85d81a92fb3b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

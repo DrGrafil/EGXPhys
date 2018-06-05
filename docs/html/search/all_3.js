@@ -81,6 +81,7 @@ var searchData=
   ['au',['AU',['../namespace_e_g_x_phys.html#a999332303a2214425184fbe23dbae0c5',1,'EGXPhys']]],
   ['avogadroconstant',['AvogadroConstant',['../group___n_i_s_t_const-_avogadro_constant.html#ga6bfa56f26d113ff9445c87ab17462e8a',1,'NISTConst']]],
   ['angle_20conversions',['Angle Conversions',['../group___e_g_x_math-_conversions-_angle_conversions.html',1,'']]],
+  ['astronomical',['Astronomical',['../group___e_g_x_math-_conversions-_length_conversions-_meter-_astronomical.html',1,'']]],
   ['astronomical',['Astronomical',['../group___e_g_x_math-_conversions-_length_conversions-uzitzs-_astronomical.html',1,'']]],
   ['acoustics',['Acoustics',['../group___e_g_x_phys-_acoustics.html',1,'']]],
   ['apoapsis',['Apoapsis',['../group___e_g_x_phys-_apoapsis.html',1,'']]],
