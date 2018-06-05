@@ -48,7 +48,7 @@ namespace EGXMath
     // No hubble length due to ill defined.
     /**
     *   @brief Converts a length in ulongxxits to astronomical units.
-    *		\f[ d_{au}=d_{uxxits} \f]
+    *		\f[ d_{au}=  \frac{1}{149597870700} d_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Astronomical_unit
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -59,7 +59,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length ulongxxits in to light-years.
-    *		\f[ d_{ly}=d_{uxxits} \f]
+    *		\f[ d_{ly}= \frac{1}{9460730472580800} d_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Light-year
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -70,7 +70,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to parsecs.
-    *		\f[ d_{pc}=d_{uxxits} \f]
+    *		\f[ d_{pc}=\frac{\pi}{149597870700 * 648000} d_{uxxits}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Parsec
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -274,7 +274,7 @@ namespace EGXMath
     *   @see uzitzsToMoXUnit() for molybdenum  x unit conversion.
     */
     template<typename T>
-    T uzitzsTPicometer(const T lengthInuzitzs);
+    T uzitzsToPicometer(const T lengthInuzitzs);
 
     /**
     *   @brief Converts a length in ulongxxits to femtometers.
@@ -365,7 +365,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to copper x units.
-    *		\f[ d_{xu(Cu\ K\alpha_1)}=d_{uxxits} / 1.00207697e-13 \f]
+    *		\f[ d_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} d_{uxxits} \f]
     *
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ d_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
@@ -378,7 +378,7 @@ namespace EGXMath
    
     /**
     *   @brief Converts a length in ulongxxits to molybdenum x units.
-    *		\f[ d_{xu(Mo\ K\alpha_1)}=d_{uxxits} / 1.00209952e-13 \f]
+    *		\f[ d_{xu(Mo\ K\alpha_1)}=\frac{1}{1.00209952*10^{-13}} d_{uxxits} /  \f]
     *
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ d_{xu(Mo\ K\alpha_1)}\ (xu)\f$ Length in molybdenum x units.
@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to miles.
-    *		\f[ d_{mi}=d_{uxxits} \f]
+    *		\f[ d_{mi}=\frac{1}{63360} d_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Mile
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -409,7 +409,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to yards.
-    *		\f[ d_{yd}=d_{uxxits} \f]
+    *		\f[ d_{yd}= \frac{1}{36} d_{uxxits}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -420,7 +420,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to feet.
-    *		\f[ d_{ft}=d_{uxxits} \f]
+    *		\f[ d_{ft}= \frac{1}{12} d_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Foot_(unit)
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -442,7 +442,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to mils (thousandth of an inch).
-    *		\f[ d_{mil}=d_{uxxits} \f]
+    *		\f[ d_{mil}=d_{uxxits} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Thousandth_of_an_inch
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -454,7 +454,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to thous (thousandth of an inch).
-    *		\f[ d_{mil}=d_{uxxits} \f]
+    *		\f[ d_{mil}=d_{uxxits} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Thousandth_of_an_inch
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -473,7 +473,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to nautical mile.
-    *		\f[ d_{NM}=d_{uxxits} \f]
+    *		\f[ d_{NM}= \frac{1}{1852} d_{uxxits}  \f]
     *
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ d_{NM}\ (NM)\f$ Length in nautical mile.
@@ -483,7 +483,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to fathoms.
-    *		\f[ d_{fathom}=d_{uxxits} \f]
+    *		\f[ d_{fathom}= \frac{1}{72} d_{uxxits}  \f]
     *
     *   See https://simple.wikipedia.org/wiki/Fathom
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -501,7 +501,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to rods.
-    *		\f[ d_{rod}=d_{uxxits} \f]
+    *		\f[ d_{rod}= \frac{1}{198} d_{uxxits} \f]
     *
     *   See https://simple.wikipedia.org/wiki/Rod_(unit)
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -512,7 +512,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to chains.
-    *		\f[ d_{ch}=d_{uxxits} \f]
+    *		\f[ d_{ch}= \frac{1}{792} d_{uxxits} \f]
     *
     *   See https://simple.wikipedia.org/wiki/Chain_(unit)
     *   @param lengthInuzitzs \f$ d_{uxxits}\ (uxxits)\f$ Length in ulongxxits.

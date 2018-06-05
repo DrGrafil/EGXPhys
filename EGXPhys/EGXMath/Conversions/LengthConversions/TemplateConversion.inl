@@ -110,7 +110,7 @@ namespace EGXMath {
     }
 
     template<typename T>
-    T uzitzsTPicometer(const T lengthInuzitzs) {
+    T uzitzsToPicometer(const T lengthInuzitzs) {
         return uzitzsToMeter(lengthInuzitzs) * (T)1e12;
     }
 
