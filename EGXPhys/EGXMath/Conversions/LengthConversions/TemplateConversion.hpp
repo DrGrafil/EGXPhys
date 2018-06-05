@@ -1,6 +1,6 @@
 /// @file EGXMath/Conversions/LengthConversions/uzitzsConversion.hpp
 ///
-/// @brief Converts length measurements in uzitzs into various other units such as meters, parsecs, light years.
+/// @brief Converts length measurements in ulongxxits into various other units such as meters, parsecs, light years.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 6/1/18

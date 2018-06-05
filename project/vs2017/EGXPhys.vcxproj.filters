@@ -741,7 +741,7 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\LengthConversions.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversion.hpp">
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1018,7 +1018,7 @@
     <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\StefanBoltzmannLaw.inl">
       <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversion.inl">
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
   </ItemGroup>
