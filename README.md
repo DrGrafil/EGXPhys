@@ -67,9 +67,12 @@ double MassDefectInu(const int atomicNumber, const int  massNumber, const double
 ## Current Development
 
 [![Build Status](https://travis-ci.org/Metex/EGXPhys.svg?branch=master)](https://travis-ci.org/Metex/EGXPhys)
+[![](https://tokei.rs/b1/github/Metex/EGXPhys?category=files)](https://github.com/Aaronepower/tokei)
+[![](https://tokei.rs/b1/github/Metex/EGXPhys?category=lines)](https://github.com/Aaronepower/tokei)
 [![](https://tokei.rs/b1/github/Metex/EGXPhys?category=code)](https://github.com/Aaronepower/tokei)
-Field | Equations | Tests Pass 
------------- | ------------- | -------------
+[![](https://tokei.rs/b1/github/Metex/EGXPhys?category=comments)](https://github.com/Aaronepower/tokei)
+Field | Equations | Tests Pass |
+------------ | ------------- | ------------- |
 Acoustics | 					| 
 Astrophysics | | 
 Atomic| | 
