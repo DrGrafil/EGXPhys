@@ -1,6 +1,7 @@
 var searchData=
 [
   ['egxmath_20library',['EGXMath Library',['../group___e_g_x_math.html',1,'']]],
+  ['exameter',['Exameter',['../group___e_g_x_math-_conversions-_length_conversions-_exameter.html',1,'']]],
   ['error_20function_20_28erf_29',['Error Function (Erf)',['../group___e_g_x_math-_functions-_e_r_f.html',1,'']]],
   ['egxmath_2dgeometry_2d',['EGXMath-Geometry-',['../group___e_g_x_math-_geometry-.html',1,'']]],
   ['ellipse',['Ellipse',['../group___e_g_x_math-_geometry-2_d-_ellipse.html',1,'']]],
