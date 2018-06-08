@@ -29,7 +29,7 @@ namespace EGXMath {
 
     template<typename T>
     T FemtometerToMeter(const T lengthInFemtometer) {
-        return;
+        return lengthInFemtometer * (T)1e-15;
     }
 
     template<typename T>
