@@ -200,8 +200,11 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CoordinateConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\CentimeterConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\LengthConversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\AttometerConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.hpp" />
@@ -389,7 +392,10 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\3DCartesianCoordinateConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\CentimeterConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\AttometerConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\GaussianFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\LogFunctions.inl" />

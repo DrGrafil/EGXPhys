@@ -43,17 +43,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "2_d_coordinate_conversions_8hpp.html",
-"_decimal_degree_conversion_8inl.html#ga415a94651a2b2397b7f2bda90a19ee2c",
-"_ellipsoid_inertia_8hpp.html#gaed602dd93a68fdd7d4bafe883b093153",
-"_integer_degree_conversion_8inl.html#gaa04058a2fea3dc3678264a05fac6e1ae",
-"_n_i_s_t_const_8hpp.html#ga6b5951b0dbdf131bb3138565e0828e79",
-"_periapsis_8hpp.html#ga0523c65b7fc26e675388b2c3d38aa00b",
-"_rotational_flattening_8hpp.html#ga7d78d01c8b3e1a9b2e4f17cb67969a88",
-"group___e_g_x_math-_conversions-_angle_conversions-_degree.html#gac1b5f3b68f66c77a6df4ceef842c9b19",
-"group___e_g_x_math-_conversions-_length_conversions-uzitzs-_s_i.html#ga4c102f14f5804c46db22137411ceb3be",
-"group___e_g_x_phys-_electrodynamics-_black_body-_wiens_displacement_law.html#ga8f89ce1baac45a1717f604255d04af44",
-"group___n_i_s_t_const-_electron.html#ga96cd4ffa65395eb9cfeb99fb8e7c0719",
-"group___n_i_s_t_const-_sackur_tetrode_constant.html#ga7f3efde326ea5cfe5e2d85d81a92fb3b"
+"_d_m_s_conversion_8hpp.html#ga47fe1b9127ec6b73ee759eef038a8eb6",
+"_ellipse_inertia_8inl.html",
+"_half_life_8inl.html#gacddef16b62e98b214ec8dd8af7da7dce",
+"_n_i_s_t_const_8hpp.html#ga255ca695fbfd1d03317d8934cef8b659",
+"_n_i_s_t_const_8hpp.html#gae9b1b225f20da4725294b95a05ea82e0",
+"_q_value_8inl.html#gaeafae8a98e46b701517c1a2b8bfc241d",
+"dir_427e62715cd007fb2428a3c5987df368.html",
+"group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html",
+"group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum.html#gacfd1844eb4ef3d1ee3c0b460a6442ae6",
+"group___e_g_x_phys-_planet_criteria.html",
+"group___n_i_s_t_const-_hertz.html#ga9e555f96daf2b8abda55581bdeb8f20d",
+"pages.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

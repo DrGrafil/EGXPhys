@@ -744,6 +744,15 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\AttometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\CentimeterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1019,6 +1028,15 @@
       <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\AttometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\CentimeterConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
   </ItemGroup>

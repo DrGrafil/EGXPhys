@@ -378,7 +378,7 @@ namespace EGXMath
    
     /**
     *   @brief Converts a length in ulongxxits to molybdenum x units.
-    *		\f[ l_{xu(Mo\ K\alpha_1)}=\frac{1}{1.00209952*10^{-13}} l_{uxxits} /  \f]
+    *		\f[ l_{xu(Mo\ K\alpha_1)}=\frac{1}{1.00209952*10^{-13}} l_{uxxits} \f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ l_{xu(Mo\ K\alpha_1)}\ (xu)\f$ Length in molybdenum x units.

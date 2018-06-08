@@ -369,7 +369,7 @@ namespace EGXMath
    
     /**
     *   @brief Converts a length in meters to molybdenum x units.
-    *		\f[ l_{xu(Mo\ K\alpha_1)}=\frac{1}{1.00209952*10^{-13}} l_{m} /  \f]
+    *		\f[ l_{xu(Mo\ K\alpha_1)}=\frac{1}{1.00209952*10^{-13}} l_{m} \f]
     *
     *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.
     *   @return \f$ l_{xu(Mo\ K\alpha_1)}\ (xu)\f$ Length in molybdenum x units.
