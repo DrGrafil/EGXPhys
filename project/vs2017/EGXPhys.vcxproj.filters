@@ -753,6 +753,9 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\CentimeterConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\DecameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1037,6 +1040,9 @@
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\CentimeterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\DecameterConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
   </ItemGroup>

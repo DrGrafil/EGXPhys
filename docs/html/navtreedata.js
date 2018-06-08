@@ -44,17 +44,17 @@ var NAVTREEINDEX =
 [
 "2_d_coordinate_conversions_8hpp.html",
 "_d_m_s_conversion_8hpp.html#ga47fe1b9127ec6b73ee759eef038a8eb6",
-"_ellipse_inertia_8inl.html",
-"_half_life_8inl.html#gacddef16b62e98b214ec8dd8af7da7dce",
-"_n_i_s_t_const_8hpp.html#ga255ca695fbfd1d03317d8934cef8b659",
-"_n_i_s_t_const_8hpp.html#gae9b1b225f20da4725294b95a05ea82e0",
-"_q_value_8inl.html#gaeafae8a98e46b701517c1a2b8bfc241d",
-"dir_427e62715cd007fb2428a3c5987df368.html",
-"group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html",
-"group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum.html#gacfd1844eb4ef3d1ee3c0b460a6442ae6",
-"group___e_g_x_phys-_planet_criteria.html",
-"group___n_i_s_t_const-_hertz.html#ga9e555f96daf2b8abda55581bdeb8f20d",
-"pages.html"
+"_ellipse_circumference_8inl.html#gaa908406db81fadc7c2d73e4e113d24d7",
+"_h_m_s_conversion_8hpp.html#ga5d91ade4a1aaf641f9483e840e701446",
+"_n_i_s_t_const_8hpp.html#ga094718adb489915f76f46d2b8526ddad",
+"_n_i_s_t_const_8hpp.html#gac728faac7d754d8ddca4a4bd7565ec0e",
+"_q_value_8hpp.html#ga9cd8502b6101614c17114e9710cdcf6c",
+"_turn_conversion_8hpp.html#gaea42f973566f770cc3552831717f525e",
+"group___e_g_x_math-_conversions-_angle_conversions-_radian.html#ga55b5fba9307f34ab8db57391789a90cc",
+"group___e_g_x_math-_conversions-_length_conversions-uzitzs-_s_i.html#ga1fb15b72a000d43348190004a49ed7bc",
+"group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#gaa3d3e0fdb77d25bdd40523f9975de902",
+"group___n_i_s_t_const-_electron.html#ga46fbc815b02b7d0f51d9e5ea74cf2c9d",
+"group___n_i_s_t_const-_rydberg_constant.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

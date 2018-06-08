@@ -90,11 +90,6 @@ namespace EGXMath {
     }
 
     template<typename T>
-    T CentimeterToCentimeter(const T lengthInCentimeter) {
-        return CentimeterToMeter(lengthInCentimeter) * (T)1e2;
-    }
-
-    template<typename T>
     T CentimeterToMillimeter(const T lengthInCentimeter) {
         return CentimeterToMeter(lengthInCentimeter) * (T)1e3;
     }
