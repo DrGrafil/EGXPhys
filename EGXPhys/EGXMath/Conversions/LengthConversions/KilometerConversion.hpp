@@ -514,4 +514,4 @@ namespace EGXMath
 	/// @}
 } //namespace EGXMath
 
-#include "TemplateConversion.inl"
+#include "KilometerConversion.inl"

@@ -44,6 +44,11 @@ namespace EGXMath {
     }
 
     template<typename T>
+    T GigameterToExameter(const T lengthInGigameter) {
+        return GigameterToMeter(lengthInGigameter) * (T)1e-18;
+    }
+
+    template<typename T>
     T GigameterToPetameter(const T lengthInGigameter) {
         return GigameterToMeter(lengthInGigameter) * (T)1e-15;
     }
@@ -54,6 +59,7 @@ namespace EGXMath {
         return GigameterToMeter(lengthInGigameter) * (T)1e-12;
     }
 
+ 
     template<typename T>
     T GigameterToMegameter(const T lengthInGigameter) {
         return GigameterToMeter(lengthInGigameter) * (T)1e-6;

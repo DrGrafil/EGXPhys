@@ -774,6 +774,9 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\KilometerConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MegameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1079,6 +1082,9 @@
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\KilometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MegameterConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
   </ItemGroup>

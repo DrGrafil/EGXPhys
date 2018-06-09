@@ -209,6 +209,7 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\HectometerConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\KilometerConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\LengthConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MegameterConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\AttometerConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.hpp" />
@@ -407,6 +408,7 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\GigameterConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\HectometerConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\KilometerConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MegameterConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\AttometerConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.inl" />
