@@ -5,6 +5,10 @@ var group___e_g_x_math__conversions__length_conversions =
     [ "Decameter", "group___e_g_x_math-_conversions-_length_conversions-_decameter.html", "group___e_g_x_math-_conversions-_length_conversions-_decameter" ],
     [ "Decimeter", "group___e_g_x_math-_conversions-_length_conversions-_decimeter.html", "group___e_g_x_math-_conversions-_length_conversions-_decimeter" ],
     [ "Exameter", "group___e_g_x_math-_conversions-_length_conversions-_exameter.html", "group___e_g_x_math-_conversions-_length_conversions-_exameter" ],
+    [ "Femtometer", "group___e_g_x_math-_conversions-_length_conversions-_femtometer.html", "group___e_g_x_math-_conversions-_length_conversions-_femtometer" ],
+    [ "Gigameter", "group___e_g_x_math-_conversions-_length_conversions-_gigameter.html", "group___e_g_x_math-_conversions-_length_conversions-_gigameter" ],
+    [ "Hectometer", "group___e_g_x_math-_conversions-_length_conversions-_hectometer.html", "group___e_g_x_math-_conversions-_length_conversions-_hectometer" ],
+    [ "Kilometer", "group___e_g_x_math-_conversions-_length_conversions-_kilometer.html", "group___e_g_x_math-_conversions-_length_conversions-_kilometer" ],
     [ "Meter", "group___e_g_x_math-_conversions-_length_conversions-_meter.html", "group___e_g_x_math-_conversions-_length_conversions-_meter" ],
     [ "uzitzs", "group___e_g_x_math-_conversions-_length_conversions-uzitzs.html", "group___e_g_x_math-_conversions-_length_conversions-uzitzs" ]
 ];

@@ -20,4 +20,27 @@
 
 //=================================
 //
+
+//SI
+#include "AttometerConversion.hpp"
+#include "CentimeterConversion.hpp"
+#include "DecameterConversion.hpp"
+#include "DecameterConversion.hpp"
+#include "ExameterConversion.hpp"
+#include "FemtometerConversion.hpp"
+#include "GigameterConversion.hpp"
+#include "HectometerConversion.hpp"
+#include "KilometerConversion.hpp"
+/*
+#include 
+#include 
+#include 
+#include 
+#include 
+#include 
+#include 
+#include 
+#include 
+#include 
+*/
 #include "MeterConversion.hpp"
