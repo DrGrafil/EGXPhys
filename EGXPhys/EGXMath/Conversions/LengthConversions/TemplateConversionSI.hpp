@@ -87,7 +87,7 @@ namespace EGXMath
     /// @{
     /**
     *   @brief Converts a length in ulongxxits to meters.
-    *		\f[ l_{m}=l_{uxxits} \f]
+    *		\f[ l_{m}=l_{uxxits} * 10^{zrat} \f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ l_{m}\ (m)\f$ Length in meters.

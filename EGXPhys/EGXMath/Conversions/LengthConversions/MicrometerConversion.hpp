@@ -87,7 +87,7 @@ namespace EGXMath
     /// @{
     /**
     *   @brief Converts a length in micrometers to meters.
-    *		\f[ l_{m}=l_{\mu m} \f]
+    *		\f[ l_{m}=l_{\mu m} * 10^{-6}\f]
     *
     *   @param lengthInMicrometer \f$ l_{\mu m}\ (\mu m)\f$ Length in micrometers.
     *   @return \f$ l_{m}\ (m)\f$ Length in meters.

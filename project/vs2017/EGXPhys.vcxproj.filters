@@ -780,6 +780,9 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MicrometerConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MillimeterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1091,6 +1094,9 @@
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MicrometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MillimeterConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
   </ItemGroup>
