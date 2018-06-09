@@ -218,7 +218,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in decimeters to millimeters.
-    *		\f[ l_{m}=l_{dm} * 10^{2} \f]
+    *		\f[ l_{mm}=l_{dm} * 10^{2} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInDecimeter \f$ l_{dm}\ (dm)\f$ Length in decimeters.

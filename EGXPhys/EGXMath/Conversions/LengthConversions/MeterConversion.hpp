@@ -220,7 +220,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in meters to millimeters.
-    *		\f[ l_{m}=l_{m} * 10^{3} \f]
+    *		\f[ l_{mm}=l_{m} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInMeter \f$ l_{m}\ (m)\f$ Length in meters.

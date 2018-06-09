@@ -229,7 +229,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in femtometers to millimeters.
-    *		\f[ l_{m}=l_{fm} * 10^{-12} \f]
+    *		\f[ l_{mm}=l_{fm} * 10^{-12} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInFemtometer \f$ l_{fm}\ (fm)\f$ Length in femtometers.

@@ -218,7 +218,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in megameters to millimeters.
-    *		\f[ l_{m}=l_{Mm} * 10^{9} \f]
+    *		\f[ l_{mm}=l_{Mm} * 10^{9} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInMegameter \f$ l_{Mm}\ (Mm)\f$ Length in megameters.

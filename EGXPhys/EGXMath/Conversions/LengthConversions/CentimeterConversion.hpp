@@ -219,7 +219,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in centimeters to millimeters.
-    *		\f[ l_{m}=l_{cm} * 10^{1} \f]
+    *		\f[ l_{mm}=l_{cm} * 10^{1} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInCentimeter \f$ l_{cm}\ (cm)\f$ Length in centimeters.

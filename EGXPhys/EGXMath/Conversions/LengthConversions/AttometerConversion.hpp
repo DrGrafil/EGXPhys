@@ -229,7 +229,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in attometers to millimeters.
-    *		\f[ l_{m}=l_{am} * 10^{-15} \f]
+    *		\f[ l_{mm}=l_{am} * 10^{-15} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInAttometer \f$ l_{am}\ (am)\f$ Length in attometers.

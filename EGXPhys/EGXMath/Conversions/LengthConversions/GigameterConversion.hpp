@@ -218,7 +218,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in gigameters to millimeters.
-    *		\f[ l_{m}=l_{Gm} * 10^{12} \f]
+    *		\f[ l_{mm}=l_{Gm} * 10^{12} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInGigameter \f$ l_{Gm}\ (Gm)\f$ Length in gigameters.

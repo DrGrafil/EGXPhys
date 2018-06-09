@@ -219,7 +219,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in exameters to millimeters.
-    *		\f[ l_{m}=l_{Em} * 10^{21} \f]
+    *		\f[ l_{mm}=l_{Em} * 10^{21} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInExameter \f$ l_{Em}\ (Em)\f$ Length in exameters.

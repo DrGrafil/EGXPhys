@@ -229,7 +229,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in micrometers to millimeters.
-    *		\f[ l_{m}=l_{\mu m} * 10^{-3} \f]
+    *		\f[ l_{mm}=l_{\mu m} * 10^{-3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInMicrometer \f$ l_{\mu m}\ (\mu m)\f$ Length in micrometers.

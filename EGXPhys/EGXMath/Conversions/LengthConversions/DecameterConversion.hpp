@@ -218,7 +218,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in decameters to millimeters.
-    *		\f[ l_{m}=l_{dam} * 10^{4} \f]
+    *		\f[ l_{mm}=l_{dam} * 10^{4} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInDecameter \f$ l_{dam}\ (dam)\f$ Length in decameters.

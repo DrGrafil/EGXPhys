@@ -219,7 +219,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in kilometers to millimeters.
-    *		\f[ l_{m}=l_{km} * 10^{6} \f]
+    *		\f[ l_{mm}=l_{km} * 10^{6} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInKilometer \f$ l_{km}\ (km)\f$ Length in kilometers.

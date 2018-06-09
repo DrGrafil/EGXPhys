@@ -229,7 +229,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to millimeters.
-    *		\f[ l_{m}=l_{uxxits} * 10^{3} \f]
+    *		\f[ l_{mm}=l_{uxxits} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
