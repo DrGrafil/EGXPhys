@@ -1,0 +1,98 @@
+\hypertarget{_yottameter_conversion_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Yottameter\+Conversion.hpp File Reference}
+\label{_yottameter_conversion_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Yottameter\+Conversion.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Yottameter\+Conversion.\+hpp}}
+
+
+Converts length measurements in yottameters into various other units such as meters, parsecs, light years.  
+
+
+{\ttfamily \#include \char`\"{}Yottameter\+Conversion.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_astronomical_gab75681ecd108900ae547e58495a62dd3}{E\+G\+X\+Math\+::\+Yottameter\+To\+Astronomical\+Unit}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to astronomical units. \[ l_{au}= \frac{1}{149597870700} l_{Ym} * 10^{24} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_astronomical_ga0ab87688c8dea9fb838a3bca34cba82c}{E\+G\+X\+Math\+::\+Yottameter\+To\+Light\+Year}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length yottameters in to light-\/years. \[ l_{ly}= \frac{1}{9460730472580800} l_{Ym} * 10^{24} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_astronomical_gadcada2ea03efbd6c010a780b87daf01f}{E\+G\+X\+Math\+::\+Yottameter\+To\+Parsec}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to parsecs. \[ l_{pc}=\frac{\pi}{149597870700 * 648000} l_{Ym} * 10^{24} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga01c4f2e699cc2b062bdd2e81073a7ef2}{E\+G\+X\+Math\+::\+Yottameter\+To\+Meter}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to meters. \[ l_{m}=l_{Ym} * 10^{24} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_gaec75915fd3b267aeff37cc104cfb3e9a}{E\+G\+X\+Math\+::\+Yottameter\+To\+Zettameter}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to zettameters. \[ l_{Zm}=l_{Ym} * 10^{3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga596bb0befe41a04cc5e193786ccc8de7}{E\+G\+X\+Math\+::\+Yottameter\+To\+Exameter}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to exameters. \[ l_{Em}=l_{Ym} * 10^{6} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_gaf4b5d397ea5debc0bd5195ad3a5c23d5}{E\+G\+X\+Math\+::\+Yottameter\+To\+Petameter}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to petameters. \[ l_{Pm}=l_{Ym} * 10^{9} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga24c70c7a3a5081e794d7cf4a37264b6c}{E\+G\+X\+Math\+::\+Yottameter\+To\+Terameter}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to terameters. \[ l_{Tm}=l_{Ym} * 10^{12} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga206834b7977e8b15c0fe06e279655c2b}{E\+G\+X\+Math\+::\+Yottameter\+To\+Gigameter}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to gigameters. \[ l_{Gm}=l_{Ym} * 10^{15} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga6c00035c9e60ba95c4670d34aef3ec2a}{E\+G\+X\+Math\+::\+Yottameter\+To\+Megameter}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to megameters. \[ l_{Mm}=l_{Ym} * 10^{18} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga3de441b3e33fe175b75425711d1b92e1}{E\+G\+X\+Math\+::\+Yottameter\+To\+Kilometer}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to kilometers. \[ l_{km}=l_{Ym} * 10^{21} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga3c7aed6e299bc4f0288d0672a7262320}{E\+G\+X\+Math\+::\+Yottameter\+To\+Hectometer}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to hectometers. \[ l_{hm}=l_{Ym} * 10^{22} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_gadb4ab7fb7c1091124160d66ace6439a3}{E\+G\+X\+Math\+::\+Yottameter\+To\+Decameter}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to decameters. \[ l_{dam}=l_{Ym} * 10^{23} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga8d80b66500f1ccc85839ec50b0ca8b0d}{E\+G\+X\+Math\+::\+Yottameter\+To\+Decimeter}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to decimeters. \[ l_{dm}=l_{Ym} * 10^{25} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga29b512ac5c39f960b5f705cfb9bfe226}{E\+G\+X\+Math\+::\+Yottameter\+To\+Centimeter}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to centimeters. \[ l_{cm}=l_{Ym} * 10^{26} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga0e68b787003f09883a6b15b92b003a07}{E\+G\+X\+Math\+::\+Yottameter\+To\+Millimeter}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to millimeters. \[ l_{mm}=l_{Ym} * 10^{27} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga25310d8ba2830f305680927ac3c13c38}{E\+G\+X\+Math\+::\+Yottameter\+To\+Micrometer}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to micrometers. \[ l_{\mu m}=l_{Ym} * 10^{30} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga9e117a640ecd0bea911edac05c685c31}{E\+G\+X\+Math\+::\+Yottameter\+To\+Nanometer}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to nanometers. \[ l_{nm}=l_{Ym} * 10^{33} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga7af9d1314de06921546f079641c033b2}{E\+G\+X\+Math\+::\+Yottameter\+To\+Picometer}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to picometers. \[ l_{pm}=l_{Ym} * 10^{36} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga02dbecce4d520a89139e6de0e2fec6d9}{E\+G\+X\+Math\+::\+Yottameter\+To\+Femtometer}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to femtometers. \[ l_{fm}=l_{Ym} * 10^{39} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_gad04f66f8ca146161e2a36525bb887a5b}{E\+G\+X\+Math\+::\+Yottameter\+To\+Attometer}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to attometers. \[ l_{am}=l_{Ym} * 10^{42} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga976c591d436c20684f2d55461a05da3e}{E\+G\+X\+Math\+::\+Yottameter\+To\+Zeptometer}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to zeptometers. \[ l_{zm}=l_{Ym} * 10^{45} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_s_i_ga946a366f9c912aaa81ab052567f86bc2}{E\+G\+X\+Math\+::\+Yottameter\+To\+Yoctometer}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to yoctometers. \[ l_{ym}=l_{Ym} * 10^{48} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_non-_s_i_ga0129b788ceb2d7d4ce86c155ee9d4675}{E\+G\+X\+Math\+::\+Yottameter\+To\+Angstrom}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to angstroms. \[ l_{\unicode{x212B}}=l_{Ym} * 10^{34} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_non-_s_i_gabf900c05975691fab8c5df7de16a467c}{E\+G\+X\+Math\+::\+Yottameter\+To\+Fermi}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to fermis. \[ l_{fm}=l_{Ym} * 10^{39} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_non-_s_i_gaad96d515763b1dfbcd968020e1b97de4}{E\+G\+X\+Math\+::\+Yottameter\+To\+Micron}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to microns. \[ l_{\mu m}=l_{Ym} * 10^{30} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_non-_s_i_ga5c8a9868ad238225dbf8ebdbfad13930}{E\+G\+X\+Math\+::\+Yottameter\+To\+Cu\+X\+Unit}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to copper x units. \[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{Ym} * 10^{24}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_non-_s_i_ga545da9526f7a62f5ca7d1800faf17d1d}{E\+G\+X\+Math\+::\+Yottameter\+To\+Mo\+X\+Unit}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to molybdenum x units. \[ l_{xu(Mo\ K\alpha_1)}=\frac{1}{1.00209952*10^{-13}} l_{Ym} * 10^{24}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_imperial_ga4ca41b9b222f31926417df30e0539b50}{E\+G\+X\+Math\+::\+Yottameter\+To\+Mile}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to miles. \[ l_{mi}=\frac{10^{24}}{0.0254 * 63360} l_{Ym} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_imperial_ga87f19dee341e81a7bb72bf4a5134935f}{E\+G\+X\+Math\+::\+Yottameter\+To\+Yard}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to yards. \[ l_{yd}= \frac{10^{24}}{0.0254 * 36} \frac{1}{36} l_{Ym} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_imperial_gae693078fe8f9b2ca717732916dcf28d7}{E\+G\+X\+Math\+::\+Yottameter\+To\+Foot}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to feet. \[ l_{ft}= \frac{10^{24}}{0.0254 * 12} l_{Ym} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_imperial_ga6de8b1bd4812d6814328cb5d54adf08c}{E\+G\+X\+Math\+::\+Yottameter\+To\+Inch}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to inches. \[ l_{in}= \frac{10^{24}}{0.0254} l_{Ym} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_imperial_ga71ee7b2256fffaec2663bd2eafc30a9d}{E\+G\+X\+Math\+::\+Yottameter\+To\+Mil}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to mils (thousandth of an inch). \[ l_{mil}= \frac{10^{24}}{0.0254} l_{Ym} * 10^{3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_imperial_ga9bf8eeca799b8246932d4aeaac425d87}{E\+G\+X\+Math\+::\+Yottameter\+To\+Thou}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to thous (thousandth of an inch). \[ l_{mil}= \frac{10^{24}}{0.0254} l_{Ym} * 10^{3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_nautical_ga455b7f16dd9ff68f759f366def111300}{E\+G\+X\+Math\+::\+Yottameter\+To\+Nautical\+Mile}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to nautical mile. \[ l_{NM}= \frac{10^{24}}{0.0254 * 1852} l_{Ym} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_nautical_ga602afc490045a91db8931798e6ee4bbd}{E\+G\+X\+Math\+::\+Yottameter\+To\+Fathom}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to fathoms. \[ l_{fathom}= \frac{10^{24}}{0.0254 * 72} l_{Ym} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_surveyors_ga877c3000c23a08dc1bcd3c4359482356}{E\+G\+X\+Math\+::\+Yottameter\+To\+Rod}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to rods. \[ l_{rod}= \frac{10^{24}}{0.0254 * 198} l_{Ym} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_yottameter-_surveyors_gaac21de73406e1f0b39f48edd2bed4e4f}{E\+G\+X\+Math\+::\+Yottameter\+To\+Chain}} (const T length\+In\+Yottameter)
+\begin{DoxyCompactList}\small\item\em Converts a length in yottameters to chains. \[ l_{ch}= \frac{10^{24}}{0.0254 * 792} l_{Ym} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Converts length measurements in yottameters into various other units such as meters, parsecs, light years. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+6/8/18 
+\end{DoxyDate}

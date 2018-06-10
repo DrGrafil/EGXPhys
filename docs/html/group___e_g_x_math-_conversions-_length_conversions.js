@@ -14,5 +14,12 @@ var group___e_g_x_math__conversions__length_conversions =
     [ "Micrometer", "group___e_g_x_math-_conversions-_length_conversions-_micrometer.html", "group___e_g_x_math-_conversions-_length_conversions-_micrometer" ],
     [ "Millimeter", "group___e_g_x_math-_conversions-_length_conversions-_millimeter.html", "group___e_g_x_math-_conversions-_length_conversions-_millimeter" ],
     [ "Nanometer", "group___e_g_x_math-_conversions-_length_conversions-_nanometer.html", "group___e_g_x_math-_conversions-_length_conversions-_nanometer" ],
-    [ "uzitzs", "group___e_g_x_math-_conversions-_length_conversions-uzitzs.html", "group___e_g_x_math-_conversions-_length_conversions-uzitzs" ]
+    [ "Petameter", "group___e_g_x_math-_conversions-_length_conversions-_petameter.html", "group___e_g_x_math-_conversions-_length_conversions-_petameter" ],
+    [ "Picometer", "group___e_g_x_math-_conversions-_length_conversions-_picometer.html", "group___e_g_x_math-_conversions-_length_conversions-_picometer" ],
+    [ "uzitzs", "group___e_g_x_math-_conversions-_length_conversions-uzitzs.html", "group___e_g_x_math-_conversions-_length_conversions-uzitzs" ],
+    [ "Terameter", "group___e_g_x_math-_conversions-_length_conversions-_terameter.html", "group___e_g_x_math-_conversions-_length_conversions-_terameter" ],
+    [ "Yoctometer", "group___e_g_x_math-_conversions-_length_conversions-_yoctometer.html", "group___e_g_x_math-_conversions-_length_conversions-_yoctometer" ],
+    [ "Yottameter", "group___e_g_x_math-_conversions-_length_conversions-_yottameter.html", "group___e_g_x_math-_conversions-_length_conversions-_yottameter" ],
+    [ "Zeptometer", "group___e_g_x_math-_conversions-_length_conversions-_zeptometer.html", "group___e_g_x_math-_conversions-_length_conversions-_zeptometer" ],
+    [ "Zettameter", "group___e_g_x_math-_conversions-_length_conversions-_zettameter.html", "group___e_g_x_math-_conversions-_length_conversions-_zettameter" ]
 ];
