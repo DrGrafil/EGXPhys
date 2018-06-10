@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/LengthConversions/uzitzsConversion.hpp
+/// @file EGXMath/Conversions/LengthConversions/SI/uzitzsConversion.hpp
 ///
 /// @brief Converts length measurements in ulongxxits into various other units such as meters, parsecs, light years.
 ///
