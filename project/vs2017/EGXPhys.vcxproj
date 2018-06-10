@@ -201,6 +201,12 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CoordinateConversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\LengthConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\AngstromConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\CuXUnitConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\FermiConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\MicronConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\MoXUnitConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\Non-SIConversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\AttometerConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\CentimeterConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\DecameterConversion.hpp" />
@@ -410,6 +416,11 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\3DCartesianCoordinateConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\AngstromConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\CuXUnitConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\FermiConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\MicronConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\MoXUnitConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\AttometerConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\CentimeterConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\DecameterConversion.inl" />

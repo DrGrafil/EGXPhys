@@ -825,6 +825,24 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZettameterConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\AngstromConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\CuXUnitConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\FermiConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\MicronConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\MoXUnitConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\Non-SIConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1161,6 +1179,21 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZettameterConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\AngstromConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\CuXUnitConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\FermiConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\MicronConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\MoXUnitConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
     </None>
   </ItemGroup>
 </Project>
