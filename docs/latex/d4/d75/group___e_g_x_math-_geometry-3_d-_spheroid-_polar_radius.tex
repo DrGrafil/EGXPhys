@@ -1,0 +1,47 @@
+\hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius}{}\section{Polar Radius}
+\label{group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius}\index{Polar Radius@{Polar Radius}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius_gad4791a46a7efe39c63c03d2366fdd3d2}{E\+G\+X\+Math\+::\+Spheroid\+Polar\+Radius}} (const T mean\+Radius\+Inm, const T flattening)
+\begin{DoxyCompactList}\small\item\em Finds the polar radius, $c$, in meters of a spheroid with mean radius, $r$, and flattening, $f$\+: \[ c = r \left (1 - \dfrac{2f}{3} \right ) \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius_gad4791a46a7efe39c63c03d2366fdd3d2}\label{group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius_gad4791a46a7efe39c63c03d2366fdd3d2}} 
+\index{Polar Radius@{Polar Radius}!Spheroid\+Polar\+Radius@{Spheroid\+Polar\+Radius}}
+\index{Spheroid\+Polar\+Radius@{Spheroid\+Polar\+Radius}!Polar Radius@{Polar Radius}}
+\subsubsection{\texorpdfstring{Spheroid\+Polar\+Radius()}{SpheroidPolarRadius()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Spheroid\+Polar\+Radius (\begin{DoxyParamCaption}\item[{const T}]{mean\+Radius\+Inm,  }\item[{const T}]{flattening }\end{DoxyParamCaption})}
+
+
+
+Finds the polar radius, $c$, in meters of a spheroid with mean radius, $r$, and flattening, $f$\+: \[ c = r \left (1 - \dfrac{2f}{3} \right ) \]. 
+
+See \href{http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/node109.html}{\tt http\+://farside.\+ph.\+utexas.\+edu/teaching/336k/\+Newtonhtml/node109.\+html} and \href{https://en.wikipedia.org/wiki/Equatorial_bulge}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Equatorial\+\_\+bulge} 
+\begin{DoxyParams}{Parameters}
+{\em mean\+Radius\+Inm} & $ r\ (m)$ Mean radius of spheroid in meters. \\
+\hline
+{\em flattening} & $ f\ (dimensionless)$ Flattening of spheroid. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ c\ (m)$ Polar radius in meters. The unique semi-\/principle axis of the spheroid. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_eccentricity_gab45680528a41bb7a5e15ddc0059156dd}{Spheroid\+Eccentricity()}} for eccentricity of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_equatorial_radius_ga1cbe564fee1b509c622d1c6d276158cd}{Spheroid\+Equatorial\+Radius()}} for equatorial radius of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga05e3be91f5f7fbaa9371687aa3834179}{Spheroid\+Flattening()}} for flattening of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_inertia_ga4a6085f1b3504bd682ee6818542ae09e}{Spheroid\+Inertia()}} for inertia tensor of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga5a3580e7ded82cb678a558905f41ae49}{Spheroid\+Surface\+Area()}} for surface area of a spheroid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_volume_ga12125484235e94b8f2580f3476b05b92}{Spheroid\+Volume()}} for volume of a spheroid. 
+\end{DoxySeeAlso}

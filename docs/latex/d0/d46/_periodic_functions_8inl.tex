@@ -1,0 +1,29 @@
+\hypertarget{_periodic_functions_8inl}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Functions/\+Periodic\+Functions.inl File Reference}
+\label{_periodic_functions_8inl}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Functions/\+Periodic\+Functions.\+inl@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Functions/\+Periodic\+Functions.\+inl}}
+
+
+Implimentation of functions related to the log function.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga3eab4a0455f64881f9c183987682d85c}{E\+G\+X\+Math\+::\+Sawtooth\+Wave}} (const T \&x, const T \&period)
+\begin{DoxyCompactList}\small\item\em Sawtooth wave function. Periodic function with a perodicity of $T$. Values range from -\/1 to 1. \[sawtooth(x)=2(\frac{x}{T} - floor(\frac{x}{T} + \frac{1}{2}))\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga3bdc6c02d347f48f91bca886448db33a}{E\+G\+X\+Math\+::\+Square\+Wave}} (const T \&x, const T \&period)
+\begin{DoxyCompactList}\small\item\em Square wave function. Periodic function with a perodicity of $T$. Values range from -\/1 to 1. \[square(x)= sign( sin (\frac{2 \pi x}{T})) \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_gafa81ebd66ef7cd080370fad972d6ac50}{E\+G\+X\+Math\+::\+Triangle\+Wave}} (const T \&x, const T \&period)
+\begin{DoxyCompactList}\small\item\em Triangle wave function. Periodic function with a perodicity of $T$. Values range from -\/1 to 1. \[triangle(x)= \frac{4}{T}(x-\frac{T}{2} floor(\frac{2 x}{T}+\frac{1}{2}) )(-1)^{floor(\frac{2 x}{T}+\frac{1}{2})} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_periodic_ga0fb325d5423606e9c222e1ebd6a65833}{E\+G\+X\+Math\+::\+Heaviside\+Step}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Heaviside step function. Values range from 0 to 1. \[H(x)=\begin{cases} 0, & x < 0, \\ 1, & x \ge 0, \end{cases} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implimentation of functions related to the log function. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/9/18 
+\end{DoxyDate}

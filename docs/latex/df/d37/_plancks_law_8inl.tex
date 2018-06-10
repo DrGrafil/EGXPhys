@@ -1,0 +1,40 @@
+\hypertarget{_plancks_law_8inl}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Electrodynamics/\+Black\+Body/\+Plancks\+Law.inl File Reference}
+\label{_plancks_law_8inl}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Electrodynamics/\+Black\+Body/\+Plancks\+Law.\+inl@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Electrodynamics/\+Black\+Body/\+Plancks\+Law.\+inl}}
+
+
+Implimentation of Planck\textquotesingle{}s Law calculations.  
+
+
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_e_g_x_phys}{E\+G\+X\+Phys}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga44d8dc3e072ffc7d860cd8f07463f091}{E\+G\+X\+Phys\+::\+Plancks\+Law}} (const T wavelength\+Inm, const T surface\+Tempreture\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the spectral radiance, $B_{\lambda}$, in watts per steradian meter cubed of a black body from the surface tempreture, $T$ of the black body using Plank\textquotesingle{}s Law. The spectral radience is the amount of power emmited per steradian at a specific wavelength, $\lambda$, for a unit surface area of the black body. \[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\frac{hc}{\lambda k_B T}} - 1} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga68aae82f8a086831358c4a61c8c80ba4}{E\+G\+X\+Phys\+::\+Plancks\+Law\+From\+Frequency}} (const T frequency\+In\+Hz, const T surface\+Tempreture\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the spectral radiance, $B_{\nu}$, in watts per steradian meter squared hertz of a black body from the surface tempreture, $T$ of the black body using Plank\textquotesingle{}s Law. The spectral radience is the amount of power emmited per steradian at a specific frequency, $\nu$, for a unit surface area of the black body. \[ B_{\nu} = \dfrac{2 h \nu^3}{c^2} \dfrac{1}{e^{\frac{h\nu}{k_B T}} - 1} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga54639bc031ded51ef78aa82b0457a4dd}{E\+G\+X\+Phys\+::\+Plancks\+Law\+From\+Wavelength}} (const T wavelength\+Inm, const T surface\+Tempreture\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the spectral radiance, $B_{\lambda}$, in watts per steradian meter cubed of a black body from the surface tempreture, $T$ of the black body using Plank\textquotesingle{}s Law. The spectral radience is the amount of power emmited per steradian at a specific wavelength, $\lambda$, for a unit surface area of the black body. \[ B_{\lambda} = \dfrac{2 h c^2}{\lambda^5} \dfrac{1}{e^{\frac{hc}{\lambda k_B T}} - 1} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga6648ae2a0fbff6735c1e1a04c7cac746}{E\+G\+X\+Phys\+::\+Plancks\+Law\+From\+Wavenumber}} (const T wavenumber\+In\+Inversem, const T surface\+Tempreture\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the spectral radiance, $B_{\tilde {\nu }}$, in watts per steradian meter cubed of a black body from the surface tempreture, $T$ of the black body using Plank\textquotesingle{}s Law. The spectral radience is the amount of power emmited per steradian at a specific wavenumber, $\tilde {\nu }$, for a unit surface area of the black body. \[ B_{\tilde {\nu }} = 2 h c^2 \tilde {\nu }^3 \dfrac{1}{e^{\frac{hc \tilde {\nu }}{k_B T}} - 1} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_gaac540560c71e30c02b91d22e417b5863}{E\+G\+X\+Phys\+::\+Plancks\+Law\+From\+Angular\+Frequency}} (const T angular\+Frequency\+In\+Radians\+Pers, const T surface\+Tempreture\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the spectral radiance, $B_{\omega}$, in watt radians per steradian meter squared hertz of a black body from the surface tempreture, $T$ of the black body using Plank\textquotesingle{}s Law. The spectral radience is the amount of power emmited per steradian at a specific angular frequency, $\omega$, for a unit surface area of the black body. \[ B_{\omega} = \dfrac{\hbar \omega^3}{4\pi^3c^2} \dfrac{1}{e^{\frac{\hbar\omega}{k_B T}} - 1} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_ga7322124727f968d28807e918c5eeb23f}{E\+G\+X\+Phys\+::\+Plancks\+Law\+From\+Angular\+Wavelength}} (const T angular\+Wavelength\+Inm, const T surface\+Tempreture\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the spectral radiance, $B_{y}$, in watts per steradian meter cubed of a black body from the surface tempreture, $T$ of the black body using Plank\textquotesingle{}s Law. The spectral radience is the amount of power emmited per steradian at a specific angular wavelength, /f\$y/f\$, for a unit surface area of the black body. \[ B_{y} = \dfrac{\hbar c^2}{4\pi^3y^5} \dfrac{1}{e^{\frac{\hbar c}{y k_B T}} - 1} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law_gaa3d3e0fdb77d25bdd40523f9975de902}{E\+G\+X\+Phys\+::\+Plancks\+Law\+From\+Angular\+Wavenumber}} (const T angular\+Wavenumber\+In\+Radian\+Perm, const T surface\+Tempreture\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the spectral radiance, $B_{k}$, in watts per steradian meter of a black body from the surface tempreture, $T$ of the black body using Plank\textquotesingle{}s Law. The spectral radience is the amount of power emmited per steradian at a specific angular wavenumber, $k$, for a unit surface area of the black body. \[ B_{k} = \dfrac{\hbar c^2 k^3}{4\pi^3} \dfrac{1}{e^{\frac{\hbar c k}{k_B T}} - 1} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implimentation of Planck\textquotesingle{}s Law calculations. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+5/25/18 
+\end{DoxyDate}

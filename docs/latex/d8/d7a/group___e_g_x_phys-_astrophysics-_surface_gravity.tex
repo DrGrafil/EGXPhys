@@ -1,0 +1,71 @@
+\hypertarget{group___e_g_x_phys-_astrophysics-_surface_gravity}{}\section{Surface Gravity}
+\label{group___e_g_x_phys-_astrophysics-_surface_gravity}\index{Surface Gravity@{Surface Gravity}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gaf7e1f42b674fe8bb2211c40882a7d5b6}{E\+G\+X\+Phys\+::\+Surface\+Gravity\+Inm\+Pers\+Squared}} (const T mass\+Inkg, const T mean\+Radius\+Inm)
+\begin{DoxyCompactList}\small\item\em Calculates the surface gravity, $g$, of a celestial body in meters per second squared. The surface gravity is a product of the gravitational constant, $G$, as well as the mass, $M$, and mean radius, $r$, of the celestial body\+: \[g = \frac{GM}{r^2}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gab5bb479758d72608ef6ada063f6c1a1b}{E\+G\+X\+Phys\+::\+Surface\+Gravity\+Ing}} (const T mass\+Inkg, const T mean\+Radius\+Inm)
+\begin{DoxyCompactList}\small\item\em Calculates the surface gravity, $g$, of a celestial body in gs (Earth\textquotesingle{}s gravity). The surface gravity is a product of the gravitational constant, $G$, as well as the mass, $M$, and mean radius, $r$, of the celestial body\+: \[g = \frac{GM}{g_{Earth}r^2}\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_surface_gravity_gab5bb479758d72608ef6ada063f6c1a1b}\label{group___e_g_x_phys-_astrophysics-_surface_gravity_gab5bb479758d72608ef6ada063f6c1a1b}} 
+\index{Surface Gravity@{Surface Gravity}!Surface\+Gravity\+Ing@{Surface\+Gravity\+Ing}}
+\index{Surface\+Gravity\+Ing@{Surface\+Gravity\+Ing}!Surface Gravity@{Surface Gravity}}
+\subsubsection{\texorpdfstring{Surface\+Gravity\+Ing()}{SurfaceGravityIng()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Surface\+Gravity\+Ing (\begin{DoxyParamCaption}\item[{const T}]{mass\+Inkg,  }\item[{const T}]{mean\+Radius\+Inm }\end{DoxyParamCaption})}
+
+
+
+Calculates the surface gravity, $g$, of a celestial body in gs (Earth\textquotesingle{}s gravity). The surface gravity is a product of the gravitational constant, $G$, as well as the mass, $M$, and mean radius, $r$, of the celestial body\+: \[g = \frac{GM}{g_{Earth}r^2}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Surface_gravity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Surface\+\_\+gravity} and \href{https://en.wikipedia.org/wiki/Gravity_of_Earth}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Gravity\+\_\+of\+\_\+\+Earth}
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass\+Inkg} & $M\ (kg)$ Mass of celestial body in kilograms. \\
+\hline
+{\em mean\+Radius\+Inm} & $r\ (m)$ Mean radius of celestial body in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$g\ (g)$ Surface gravity of celestial body in gs. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gaf7e1f42b674fe8bb2211c40882a7d5b6}{Surface\+Gravity\+Inm\+Pers\+Squared()}} for surface gravity in meter per second squared. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter_ga37f4ed78b0fc23603b49ade3e435ea20}{Standard\+Gravitational\+Parameter()}} for calulations of the standard gravitational parameter. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_surface_gravity_gaf7e1f42b674fe8bb2211c40882a7d5b6}\label{group___e_g_x_phys-_astrophysics-_surface_gravity_gaf7e1f42b674fe8bb2211c40882a7d5b6}} 
+\index{Surface Gravity@{Surface Gravity}!Surface\+Gravity\+Inm\+Pers\+Squared@{Surface\+Gravity\+Inm\+Pers\+Squared}}
+\index{Surface\+Gravity\+Inm\+Pers\+Squared@{Surface\+Gravity\+Inm\+Pers\+Squared}!Surface Gravity@{Surface Gravity}}
+\subsubsection{\texorpdfstring{Surface\+Gravity\+Inm\+Pers\+Squared()}{SurfaceGravityInmPersSquared()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Surface\+Gravity\+Inm\+Pers\+Squared (\begin{DoxyParamCaption}\item[{const T}]{mass\+Inkg,  }\item[{const T}]{mean\+Radius\+Inm }\end{DoxyParamCaption})}
+
+
+
+Calculates the surface gravity, $g$, of a celestial body in meters per second squared. The surface gravity is a product of the gravitational constant, $G$, as well as the mass, $M$, and mean radius, $r$, of the celestial body\+: \[g = \frac{GM}{r^2}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Surface_gravity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Surface\+\_\+gravity} and \href{https://en.wikipedia.org/wiki/Gravity_of_Earth}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Gravity\+\_\+of\+\_\+\+Earth}
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass\+Inkg} & $M\ (kg)$ Mass of celestial body in kilograms. \\
+\hline
+{\em mean\+Radius\+Inm} & $r\ (m)$ Mean radius of celestial body in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$g\ (\frac{m}{s^2})$ Surface gravity of celestial body in meters per second squared. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gab5bb479758d72608ef6ada063f6c1a1b}{Surface\+Gravity\+Ing()}} for surface gravity in gs. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter_ga37f4ed78b0fc23603b49ade3e435ea20}{Standard\+Gravitational\+Parameter()}} for calulations of the standard gravitational parameter. 
+\end{DoxySeeAlso}

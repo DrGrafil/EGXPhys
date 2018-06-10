@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/4/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Meter Meter
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Meter Meter
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Meter-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Meter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Meter-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Meter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Meter-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Meter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Meter-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Meter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Meter-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Meter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Meter-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Meter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Meter-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Meter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Meter-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Meter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Meter-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Meter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Meter-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Meter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Meter-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Meter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Meter-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Meter
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Meter-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Meter-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Meter-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Meter-SI
     /// @{
 
     /**
@@ -316,7 +316,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Meter-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Meter-Non-SI
     /// @{
 
     /**
@@ -384,7 +384,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Meter-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Meter-Imperial
     /// @{
 
     /**
@@ -459,7 +459,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Meter-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Meter-Nautical
     /// @{
 
     /**
@@ -487,7 +487,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Meter-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Meter-Surveyors
     /// @{
 
     /**

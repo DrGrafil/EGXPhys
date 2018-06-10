@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Yottameter Yottameter
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Yottameter Yottameter
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Yottameter-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Yottameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Yottameter-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Yottameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Yottameter-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Yottameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Yottameter-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Yottameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Yottameter-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Yottameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Yottameter-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Yottameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Yottameter-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Yottameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Yottameter-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Yottameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Yottameter-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Yottameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Yottameter-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Yottameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Yottameter-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Yottameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Yottameter-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Yottameter
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Yottameter-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Yottameter-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Yottameter-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Yottameter-SI
     /// @{
     /**
     *   @brief Converts a length in yottameters to meters.
@@ -314,7 +314,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Yottameter-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Yottameter-Non-SI
     /// @{
 
     /**
@@ -382,7 +382,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Yottameter-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Yottameter-Imperial
     /// @{
 
     /**
@@ -457,7 +457,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Yottameter-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Yottameter-Nautical
     /// @{
 
     /**
@@ -485,7 +485,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Yottameter-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Yottameter-Surveyors
     /// @{
 
     /**

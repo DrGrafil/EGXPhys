@@ -1,0 +1,37 @@
+\hypertarget{_disk_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Disk.hpp File Reference}
+\label{_disk_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Disk.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Disk.\+hpp}}
+
+
+Defines functions relating to disk shape.  
+
+
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$glm/fwd.\+hpp$>$}\newline
+{\ttfamily \#include \char`\"{}Disk.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_ga6ed461694b277e36a641a6550bdea68f}{E\+G\+X\+Math\+::\+Disk\+Inertia}} (const T mass, const T height, const T radius, T2(\&matrix)\mbox{[}9\mbox{]})
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{disk}$ of a disk with radius, $r$, height, $h$ and mass $m$. Also known as a cylinder. The circular componet lays in the x,y plane. \[ I_{disk}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_ga8dcadf6cd5680294a84311c6767e3caf}{E\+G\+X\+Math\+::\+Disk\+Thin\+Inertia}} (const T mass, const T radius, T2(\&matrix)\mbox{[}9\mbox{]})
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{disk}$ of a disk with radius, $r$, and mass $m$ that is infinitly thin. \[ I_{disk}=\begin{bmatrix} \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_gad888da52f8bb940380d318a3cac1c048}{E\+G\+X\+Math\+::\+Disk\+Inertia}} (const T mass, const T height, const T radius, std\+::vector$<$ T2 $>$ \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{disk}$ of a disk with radius, $r$, height, $h$ and mass $m$. Also known as a cylinder. The circular componet lays in the x,y plane. \[ I_{disk}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_ga99e3f61c70ecd4c99c6f3c59d5ad6a4f}{E\+G\+X\+Math\+::\+Disk\+Thin\+Inertia}} (const T mass, const T radius, std\+::vector$<$ T2 $>$ \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{disk}$ of a disk with radius, $r$, and mass $m$ that is infinitly thin. \[ I_{disk}=\begin{bmatrix} \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_ga72f4af6da7f192c5edb789ee2ec955f3}{E\+G\+X\+Math\+::\+Disk\+Inertia}} (const T mass, const T height, const T radius, glm\+::mat3 \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{disk}$ of a disk with radius, $r$, height, $h$ and mass $m$. Also known as a cylinder. The circular componet lays in the x,y plane. \[ I_{disk}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_gace6b474777a879fb16de3e480f6776ee}{E\+G\+X\+Math\+::\+Disk\+Thin\+Inertia}} (const T mass, const T radius, glm\+::mat3 \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{disk}$ of a disk with radius, $r$, and mass $m$ that is infinitly thin. \[ I_{disk}=\begin{bmatrix} \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines functions relating to disk shape. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/11/18 
+\end{DoxyDate}

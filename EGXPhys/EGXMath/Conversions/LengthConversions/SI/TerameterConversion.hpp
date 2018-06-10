@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Terameter Terameter
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Terameter Terameter
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Terameter-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Terameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Terameter-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Terameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Terameter-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Terameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Terameter-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Terameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Terameter-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Terameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Terameter-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Terameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Terameter-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Terameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Terameter-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Terameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Terameter-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Terameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Terameter-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Terameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Terameter-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Terameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Terameter-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Terameter
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Terameter-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Terameter-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Terameter-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Terameter-SI
     /// @{
     /**
     *   @brief Converts a length in terameters to meters.
@@ -314,7 +314,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Terameter-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Terameter-Non-SI
     /// @{
 
     /**
@@ -382,7 +382,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Terameter-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Terameter-Imperial
     /// @{
 
     /**
@@ -457,7 +457,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Terameter-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Terameter-Nautical
     /// @{
 
     /**
@@ -485,7 +485,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Terameter-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Terameter-Surveyors
     /// @{
 
     /**

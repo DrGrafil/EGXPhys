@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Kilometer Kilometer
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Kilometer Kilometer
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Kilometer-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Kilometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Kilometer-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Kilometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Kilometer-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Kilometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Kilometer-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Kilometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Kilometer-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Kilometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Kilometer-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Kilometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Kilometer-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Kilometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Kilometer-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Kilometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Kilometer-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Kilometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Kilometer-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Kilometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Kilometer-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Kilometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Kilometer-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Kilometer
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Kilometer-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Kilometer-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Kilometer-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Kilometer-SI
     /// @{
     /**
     *   @brief Converts a length in kilometers to meters.
@@ -315,7 +315,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Kilometer-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Kilometer-Non-SI
     /// @{
 
     /**
@@ -383,7 +383,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Kilometer-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Kilometer-Imperial
     /// @{
 
     /**
@@ -458,7 +458,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Kilometer-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Kilometer-Nautical
     /// @{
 
     /**
@@ -486,7 +486,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Kilometer-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Kilometer-Surveyors
     /// @{
 
     /**

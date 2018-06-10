@@ -1,0 +1,31 @@
+\hypertarget{_erf_functions_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Functions/\+Erf\+Functions.hpp File Reference}
+\label{_erf_functions_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Functions/\+Erf\+Functions.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Functions/\+Erf\+Functions.\+hpp}}
+
+
+Defines functions relating to the error function.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Erf\+Functions.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_ga167bde890986906e6cd3b32adaa8e6a8}{E\+G\+X\+Math\+::\+Erf}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Error function. The cummlitive distribution function for a guassian/normal distribution. \[ erf(x)\equiv \frac{2}{\sqrt{\pi}}\int_0^x e^{-t^2}dt \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_gab7cacb258ac31ab3929204dc1ed93400}{E\+G\+X\+Math\+::\+Inverse\+Erf}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Inverese error function. The inverse of the error function. \[ erf^{-1}(erf(x)) = x \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_ga58f76263d205c47000068176d3116571}{E\+G\+X\+Math\+::\+Erfc}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Complementary error function. \[ erfc(x)\equiv 1-erf(x) \] \[ erfc(x)=\frac{2}{\sqrt{\pi}}\int_x^\infty e^{-t^2}dt \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_functions-_e_r_f_gad1f81a581f9f2d66a1a4bad2578c3368}{E\+G\+X\+Math\+::\+Inverse\+Erfc}} (const T \&x)
+\begin{DoxyCompactList}\small\item\em Inverse complementary error function. The inverse of the complementary error function. \[erfc^{-1}(erfc(x)) = x\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines functions relating to the error function. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/9/18 
+\end{DoxyDate}

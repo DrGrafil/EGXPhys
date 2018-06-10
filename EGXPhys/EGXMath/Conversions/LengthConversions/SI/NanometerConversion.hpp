@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/9/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Nanometer Nanometer
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Nanometer Nanometer
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Nanometer-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Nanometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Nanometer-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Nanometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Nanometer-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Nanometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Nanometer-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Nanometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Nanometer-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Nanometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Nanometer-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Nanometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Nanometer-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Nanometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Nanometer-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Nanometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Nanometer-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Nanometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Nanometer-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Nanometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Nanometer-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Nanometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Nanometer-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Nanometer
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Nanometer-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Nanometer-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Nanometer-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Nanometer-SI
     /// @{
     /**
     *   @brief Converts a length in nanometers to meters.
@@ -314,7 +314,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Nanometer-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Nanometer-Non-SI
     /// @{
 
     /**
@@ -382,7 +382,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Nanometer-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Nanometer-Imperial
     /// @{
 
     /**
@@ -457,7 +457,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Nanometer-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Nanometer-Nautical
     /// @{
 
     /**
@@ -485,7 +485,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Nanometer-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Nanometer-Surveyors
     /// @{
 
     /**

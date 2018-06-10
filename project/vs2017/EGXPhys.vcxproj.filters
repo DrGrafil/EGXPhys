@@ -154,6 +154,21 @@
     <Filter Include="EGXPhys\EGXMath\Conversions\LengthConversions">
       <UniqueIdentifier>{579c70a8-5bde-4636-97aa-8845d9fbb089}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\EGXMath\Conversions\LengthConversions\SI">
+      <UniqueIdentifier>{16bb2aa4-ef21-467e-a49e-355a2ad268cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical">
+      <UniqueIdentifier>{d1aac0ac-a88f-4eb7-adb7-5ac5d2581428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\EGXMath\Conversions\LengthConversions\Imperial">
+      <UniqueIdentifier>{bac5ab23-5d1e-444f-b2de-120b0a6fd57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\EGXMath\Conversions\LengthConversions\Nautical">
+      <UniqueIdentifier>{400c86fc-20a9-4e27-8274-9367b0104c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EGXPhys\EGXMath\Conversions\LengthConversions\Survyors">
+      <UniqueIdentifier>{6a433289-e369-497a-af7e-ab4dfe1fce06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
@@ -741,71 +756,74 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\AttometerConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\CentimeterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\DecameterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\DecimeterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\ExameterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\FemtometerConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\GigameterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\HectometerConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\KilometerConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\LengthConversions.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MegameterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\AttometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\CentimeterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MicrometerConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\DecameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MillimeterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\DecimeterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\NanometerConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ExameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\PetameterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\FemtometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\PicometerConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\GigameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TerameterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\HectometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\YoctometerConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\KilometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\ZeptometerConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\MegameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\ZettameterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\MeterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\YottameterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\MicrometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\MillimeterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\NanometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\PetameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\PicometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\SIConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\TerameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\YoctometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\YottameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZeptometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZettameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -1084,68 +1102,68 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\AttometerConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\AttometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\CentimeterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\CentimeterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\DecameterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\DecameterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\DecimeterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\DecimeterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\ExameterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ExameterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\FemtometerConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\FemtometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\GigameterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\GigameterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\HectometerConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\HectometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\KilometerConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\KilometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MegameterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\MegameterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\MeterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MicrometerConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\MicrometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MillimeterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\MillimeterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\NanometerConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\NanometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\PetameterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\PetameterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\PicometerConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\PicometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TerameterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\TerameterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\YoctometerConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\YoctometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\YottameterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\YottameterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\ZeptometerConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZeptometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\ZettameterConversion.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZettameterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
     </None>
   </ItemGroup>
 </Project>

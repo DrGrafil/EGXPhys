@@ -1,0 +1,211 @@
+\hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum}{}\section{Semi-\/\+Latus Rectum}
+\label{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum}\index{Semi-\/\+Latus Rectum@{Semi-\/\+Latus Rectum}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_gacfd1844eb4ef3d1ee3c0b460a6442ae6}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum}} (const T semi\+Major\+Axis\+Inm, const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/latus rectum, $\ell$, in meters of an ellipse with semi-\/major axis $a$, and eccentricity $e$. \[ \ell=a(1-e^2) \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga06c95ba97ceac8e0abea5a7611a5812f}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum\+From\+Eccentricity}} (const T semi\+Major\+Axis\+Inm, const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/latus rectum, $\ell$, in meters of an ellipse with semi-\/major axis $a$, and eccentricity $e$. \[ \ell=a(1-e^2) \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga41f9f0fcd4b1169a4e908496cdab158d}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum\+From\+Linear\+Eccentricity}} (const T semi\+Minor\+Axis\+Inm, const T linear\+Eccentricity\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/major axis, $a$, in meters of an ellipse with semi-\/minor axis $b$, and linear eccentricity $c$. \[ a=\sqrt{b^2+c^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga8bb9235fdb20e3257489049022f4aeba}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes}} (const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/major axis, $a$, in meters of an ellipse with semi-\/minor axis $b$, and semi-\/latus rectum $\ell$. \[ \ell= \frac{b^2}{a} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_gacfd1844eb4ef3d1ee3c0b460a6442ae6}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_gacfd1844eb4ef3d1ee3c0b460a6442ae6}} 
+\index{Semi-\/\+Latus Rectum@{Semi-\/\+Latus Rectum}!Ellipse\+Semi\+Latus\+Rectum@{Ellipse\+Semi\+Latus\+Rectum}}
+\index{Ellipse\+Semi\+Latus\+Rectum@{Ellipse\+Semi\+Latus\+Rectum}!Semi-\/\+Latus Rectum@{Semi-\/\+Latus Rectum}}
+\subsubsection{\texorpdfstring{Ellipse\+Semi\+Latus\+Rectum()}{EllipseSemiLatusRectum()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{eccentricity }\end{DoxyParamCaption})}
+
+
+
+Finds the semi-\/latus rectum, $\ell$, in meters of an ellipse with semi-\/major axis $a$, and eccentricity $e$. \[ \ell=a(1-e^2) \]. 
+
+The latus rectum of an elipse is the chord parallel to the directrix and passing through one of the foci. The semi-\/latus rectum is one half the length of said chord.
+
+See \href{https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Semi-\/major\+\_\+and\+\_\+semi-\/minor\+\_\+axes} , \href{http://mathworld.wolfram.com/Ellipse.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Ellipse.\+html} and \href{https://en.wikipedia.org/wiki/Conic_section#Conic_parameters}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Conic\+\_\+section\#\+Conic\+\_\+parameters}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the ellipse in meters. \\
+\hline
+{\em eccentricity} & $ e\ (dimensionless)$ Eccentricity of the ellipse. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ \ell\ (m)$ Semi-\/latus rectum of the ellipse in meters. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis_ga646a2ca065f4ac3f666a9ea22f3bb527}{Ellipse\+Semi\+Major\+Axis()}} for semi-\/major axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis_gae461acf3333565d69527dd86e9aa2b32}{Ellipse\+Semi\+Minor\+Axis()}} for semi-\/minor axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_gacfd1844eb4ef3d1ee3c0b460a6442ae6}{Ellipse\+Semi\+Latus\+Rectum()}} for semi-\/latus rectum of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_directrix_gace8f72a8efbc9c18d3eb689151405106}{Ellipse\+Directrix()}} for directrix of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}{Ellipse\+Focal\+Parameter()}} for focal parameter of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length_gab8d63de7640c880cfecaeada6f2afdac}{Ellipse\+Focal\+Length()}} for focal length of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity_gac70b3010e30aa8b73deb50fe2b9b9a91}{Ellipse\+Linear\+Eccentricity()}} for linear eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}{Ellipse\+Inertia()}} for inertial tensor of an ellipse. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga06c95ba97ceac8e0abea5a7611a5812f}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga06c95ba97ceac8e0abea5a7611a5812f}} 
+\index{Semi-\/\+Latus Rectum@{Semi-\/\+Latus Rectum}!Ellipse\+Semi\+Latus\+Rectum\+From\+Eccentricity@{Ellipse\+Semi\+Latus\+Rectum\+From\+Eccentricity}}
+\index{Ellipse\+Semi\+Latus\+Rectum\+From\+Eccentricity@{Ellipse\+Semi\+Latus\+Rectum\+From\+Eccentricity}!Semi-\/\+Latus Rectum@{Semi-\/\+Latus Rectum}}
+\subsubsection{\texorpdfstring{Ellipse\+Semi\+Latus\+Rectum\+From\+Eccentricity()}{EllipseSemiLatusRectumFromEccentricity()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum\+From\+Eccentricity (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{eccentricity }\end{DoxyParamCaption})}
+
+
+
+Finds the semi-\/latus rectum, $\ell$, in meters of an ellipse with semi-\/major axis $a$, and eccentricity $e$. \[ \ell=a(1-e^2) \]. 
+
+The latus rectum of an elipse is the chord parallel to the directrix and passing through one of the foci. The semi-\/latus rectum is one half the length of said chord.
+
+See \href{https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Semi-\/major\+\_\+and\+\_\+semi-\/minor\+\_\+axes} , \href{http://mathworld.wolfram.com/Ellipse.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Ellipse.\+html} and \href{https://en.wikipedia.org/wiki/Conic_section#Conic_parameters}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Conic\+\_\+section\#\+Conic\+\_\+parameters}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the ellipse in meters. \\
+\hline
+{\em eccentricity} & $ e\ (dimensionless)$ Eccentricity of the ellipse. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ b\ (m)$ Semi-\/minor axis of the ellipse in meters. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis_ga646a2ca065f4ac3f666a9ea22f3bb527}{Ellipse\+Semi\+Major\+Axis()}} for semi-\/major axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis_gae461acf3333565d69527dd86e9aa2b32}{Ellipse\+Semi\+Minor\+Axis()}} for semi-\/minor axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_gacfd1844eb4ef3d1ee3c0b460a6442ae6}{Ellipse\+Semi\+Latus\+Rectum()}} for semi-\/latus rectum of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_directrix_gace8f72a8efbc9c18d3eb689151405106}{Ellipse\+Directrix()}} for directrix of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}{Ellipse\+Focal\+Parameter()}} for focal parameter of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length_gab8d63de7640c880cfecaeada6f2afdac}{Ellipse\+Focal\+Length()}} for focal length of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity_gac70b3010e30aa8b73deb50fe2b9b9a91}{Ellipse\+Linear\+Eccentricity()}} for linear eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}{Ellipse\+Inertia()}} for inertial tensor of an ellipse. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga41f9f0fcd4b1169a4e908496cdab158d}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga41f9f0fcd4b1169a4e908496cdab158d}} 
+\index{Semi-\/\+Latus Rectum@{Semi-\/\+Latus Rectum}!Ellipse\+Semi\+Latus\+Rectum\+From\+Linear\+Eccentricity@{Ellipse\+Semi\+Latus\+Rectum\+From\+Linear\+Eccentricity}}
+\index{Ellipse\+Semi\+Latus\+Rectum\+From\+Linear\+Eccentricity@{Ellipse\+Semi\+Latus\+Rectum\+From\+Linear\+Eccentricity}!Semi-\/\+Latus Rectum@{Semi-\/\+Latus Rectum}}
+\subsubsection{\texorpdfstring{Ellipse\+Semi\+Latus\+Rectum\+From\+Linear\+Eccentricity()}{EllipseSemiLatusRectumFromLinearEccentricity()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum\+From\+Linear\+Eccentricity (\begin{DoxyParamCaption}\item[{const T}]{semi\+Minor\+Axis\+Inm,  }\item[{const T}]{linear\+Eccentricity\+Inm }\end{DoxyParamCaption})}
+
+
+
+Finds the semi-\/major axis, $a$, in meters of an ellipse with semi-\/minor axis $b$, and linear eccentricity $c$. \[ a=\sqrt{b^2+c^2} \]. 
+
+The latus rectum of an elipse is the chord parallel to the directrix and passing through one of the foci. The semi-\/latus rectum is one half the length of said chord.
+
+See \href{https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Semi-\/major\+\_\+and\+\_\+semi-\/minor\+\_\+axes} , \href{http://mathworld.wolfram.com/Ellipse.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Ellipse.\+html} and \href{https://en.wikipedia.org/wiki/Conic_section#Conic_parameters}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Conic\+\_\+section\#\+Conic\+\_\+parameters}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Minor\+Axis\+Inm} & $ b\ (m)$ Semi-\/minor axis of the ellipse in meters. \\
+\hline
+{\em linear\+Eccentricity\+Inm} & $ c\ (m)$ Linear eccentricity of the ellipse in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ b\ (m)$ Semi-\/minor axis of the ellipse in meters. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis_ga646a2ca065f4ac3f666a9ea22f3bb527}{Ellipse\+Semi\+Major\+Axis()}} for semi-\/major axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis_gae461acf3333565d69527dd86e9aa2b32}{Ellipse\+Semi\+Minor\+Axis()}} for semi-\/minor axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_gacfd1844eb4ef3d1ee3c0b460a6442ae6}{Ellipse\+Semi\+Latus\+Rectum()}} for semi-\/latus rectum of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_directrix_gace8f72a8efbc9c18d3eb689151405106}{Ellipse\+Directrix()}} for directrix of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}{Ellipse\+Focal\+Parameter()}} for focal parameter of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length_gab8d63de7640c880cfecaeada6f2afdac}{Ellipse\+Focal\+Length()}} for focal length of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity_gac70b3010e30aa8b73deb50fe2b9b9a91}{Ellipse\+Linear\+Eccentricity()}} for linear eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}{Ellipse\+Inertia()}} for inertial tensor of an ellipse. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga8bb9235fdb20e3257489049022f4aeba}\label{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga8bb9235fdb20e3257489049022f4aeba}} 
+\index{Semi-\/\+Latus Rectum@{Semi-\/\+Latus Rectum}!Ellipse\+Semi\+Latus\+Rectum\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes@{Ellipse\+Semi\+Latus\+Rectum\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes}}
+\index{Ellipse\+Semi\+Latus\+Rectum\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes@{Ellipse\+Semi\+Latus\+Rectum\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes}!Semi-\/\+Latus Rectum@{Semi-\/\+Latus Rectum}}
+\subsubsection{\texorpdfstring{Ellipse\+Semi\+Latus\+Rectum\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes()}{EllipseSemiLatusRectumFromSemiMajorAndSemiMinorAxes()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{semi\+Minor\+Axis\+Inm }\end{DoxyParamCaption})}
+
+
+
+Finds the semi-\/major axis, $a$, in meters of an ellipse with semi-\/minor axis $b$, and semi-\/latus rectum $\ell$. \[ \ell= \frac{b^2}{a} \]. 
+
+The latus rectum of an elipse is the chord parallel to the directrix and passing through one of the foci. The semi-\/latus rectum is one half the length of said chord.
+
+See \href{https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Semi-\/major\+\_\+and\+\_\+semi-\/minor\+\_\+axes} , \href{http://mathworld.wolfram.com/Ellipse.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Ellipse.\+html} and \href{https://en.wikipedia.org/wiki/Conic_section#Conic_parameters}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Conic\+\_\+section\#\+Conic\+\_\+parameters}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the ellipse in meters. \\
+\hline
+{\em semi\+Minor\+Axis\+Inm} & $ b\ (m)$ Semi-\/minor axis of the ellipse in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ a\ (m)$ Semi-\/major axis of the ellipse in meters. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_surface_area_ga4ce8c8323e9718ce5458f4ab7f6d823d}{Ellipse\+Surface\+Area()}} for area of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_circumference_ga4172802ac674eb53467b44928ac635c7}{Ellipse\+Circumference()}} for circumference of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis_ga646a2ca065f4ac3f666a9ea22f3bb527}{Ellipse\+Semi\+Major\+Axis()}} for semi-\/major axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis_gae461acf3333565d69527dd86e9aa2b32}{Ellipse\+Semi\+Minor\+Axis()}} for semi-\/minor axis of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_gacfd1844eb4ef3d1ee3c0b460a6442ae6}{Ellipse\+Semi\+Latus\+Rectum()}} for semi-\/latus rectum of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_directrix_gace8f72a8efbc9c18d3eb689151405106}{Ellipse\+Directrix()}} for directrix of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}{Ellipse\+Focal\+Parameter()}} for focal parameter of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_length_gab8d63de7640c880cfecaeada6f2afdac}{Ellipse\+Focal\+Length()}} for focal length of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_linear_eccentricity_gac70b3010e30aa8b73deb50fe2b9b9a91}{Ellipse\+Linear\+Eccentricity()}} for linear eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity_ga6a0a7fba17f782616894cfc447628c33}{Ellipse\+Eccentricity()}} for eccentricity of an ellipse. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_inertia_ga10a3049c2f04b50f271fb01dc62e4cf8}{Ellipse\+Inertia()}} for inertial tensor of an ellipse. 
+\end{DoxySeeAlso}

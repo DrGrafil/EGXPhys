@@ -1,0 +1,40 @@
+\hypertarget{_rotational_flattening_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Rotational\+Flattening.hpp File Reference}
+\label{_rotational_flattening_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Rotational\+Flattening.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Rotational\+Flattening.\+hpp}}
+
+
+Defines functions relating to flattening of a planet due to rotation.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Rotational\+Flattening.\+inl\char`\"{}}\newline
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_e_g_x_phys}{E\+G\+X\+Phys}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_gabba90db442c4ec9e12523adb00d66c44}{E\+G\+X\+Phys\+::\+Rotational\+Flattening}} (const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a planet with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga1840fed2081c35f68c4b8bfa75248977}{E\+G\+X\+Phys\+::\+Rotational\+Flattening}} (const T equatorial\+Radius, const T polar\+Radius)
+\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a planet with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga316b9afb6e1aa940fa96417c6f24ed4d}{E\+G\+X\+Phys\+::\+Rotational\+Flattening}} (const T mass\+Inkg, const T mean\+Radius\+Inm, const T angular\+Velocity\+Inm\+Pers\+Squared)
+\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a planet with mass, $M$, mean radius, $a$, and angular velocity of rotation, $\Omega$. Note that this is a 1st order approximation for a planet that is rotating relatively slowly (small flattening). \[ f = \frac{5}{4} \frac{\Omega^2 a^3}{GM} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga494ad3b296185bf65ccf3e2ddebc189a}{E\+G\+X\+Phys\+::\+Rotational\+Oblateness}} (const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a planet with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga0bbe606845430e58be5ed34541835f83}{E\+G\+X\+Phys\+::\+Rotational\+Oblateness}} (const T equatorial\+Radius, const T polar\+Radius)
+\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a planet with equatorial radius $a$ and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga7d78d01c8b3e1a9b2e4f17cb67969a88}{E\+G\+X\+Phys\+::\+Rotational\+Oblateness}} (const T mass\+Inkg, const T mean\+Radius\+Inm, const T angular\+Velocity\+Inm\+Pers\+Squared)
+\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a planet with mass, $M$, mean radius, $a$, and angular velocity of rotation, $\Omega$. Note that this is a 1st order approximation for a planet that is rotating relatively slowly (small flattening). \[ f = \frac{5}{4} \frac{\Omega^2 a^3}{GM} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines functions relating to flattening of a planet due to rotation. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/20/18 
+\end{DoxyDate}

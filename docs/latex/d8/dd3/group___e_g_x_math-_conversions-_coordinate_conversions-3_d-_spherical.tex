@@ -1,0 +1,116 @@
+\hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical}{}\section{Spherical}
+\label{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical}\index{Spherical@{Spherical}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_gaa9b50c4837e1cbea569de6f7bc90a3b6}{E\+G\+X\+Math\+::\+Spherical\+Cordinates\+Of\+Point\+Given\+Center}} (const T centerR, const T center\+Azimuth\+In\+Radians, const T center\+Zenith\+In\+Radians, const T pointR, const T point\+Azimuth\+In\+Radians, const T poin\+Zenith\+In\+Radians, T \&shiftedR, T \&shifted\+Azimuth\+In\+Radians, T \&shifted\+Zenith\+In\+Radians)
+\begin{DoxyCompactList}\small\item\em In a Spherical coordinate system, given a point, $p$, and a new origin (center), $o$, this function gives the shifted spherical coordinates of the point relative to this new center. \[ r_{shift} = \sqrt{r_o^2+r_p^2 - 2 r_o r_p ( \cos(\phi_p) \cos(\phi_o) + \cos(\theta_p-\theta_o) * \sin(\phi_p) \sin(\phi_o))}\] \[ \theta_{shift} = atan2( r_p sin(\theta_p) \sin(\phi_p) - r_o \sin(\theta_o) \sin(\phi_o) , r_p \cos(\theta_p) \sin(\phi_p) - r_o \cos(\theta_o) \sin(\phi_o) )\] \[ \phi_{shift} = \arccos(\frac{r_p \cos(\phi_p) - r_o (\phi_o)}{r_{shift}}) \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_ga3141fcb31751df8a24b5474de768b375}{E\+G\+X\+Math\+::\+Spherical\+Coordinate\+To\+Cartesian\+Coordinate}} (const T sphericalR, const T spherical\+Azimuth\+In\+Radians, const T spherical\+Zenith\+In\+Radians, T \&x, T \&y, T \&z)
+\begin{DoxyCompactList}\small\item\em Converts a 3D point represented in the Cartesian coordinate system $(x,y,z)$ to a representation in the Spherical coordiante system $(r,\theta,\phi)$. Note that $\theta$ lays in the $x\ y$ plane. \[ x = \sqrt{x^2+y^2+z^2} \] \[ y = \arctan(\frac{y}{x}) \] \[ z = \arccos(\frac{z}{r}) \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_ga2a5678de0dda7c875a668f3db3da3418}{E\+G\+X\+Math\+::\+Spherical\+Coordinate\+To\+Cylindrical\+Coordinate}} (const T sphericalR, const T spherical\+Azimuth\+In\+Radians, const T spherical\+Zenith\+In\+Radians, T \&cylindricalR, T \&cylindrical\+Azimuth\+In\+Radians, T \&cylindricalZ)
+\begin{DoxyCompactList}\small\item\em Converts a 3D point represented in the Spherical coordiante system $(r_S,\theta_S,\phi_S)$ to a representation in the . Note that $\theta_S$ lays in the $x\ y$ plane. \[ r_C = \sqrt{x^2+y^2+z^2} \] \[ \theta_C = \theta_S \] \[ z_C = \arccos(\frac{z}{r}) \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_ga3141fcb31751df8a24b5474de768b375}\label{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_ga3141fcb31751df8a24b5474de768b375}} 
+\index{Spherical@{Spherical}!Spherical\+Coordinate\+To\+Cartesian\+Coordinate@{Spherical\+Coordinate\+To\+Cartesian\+Coordinate}}
+\index{Spherical\+Coordinate\+To\+Cartesian\+Coordinate@{Spherical\+Coordinate\+To\+Cartesian\+Coordinate}!Spherical@{Spherical}}
+\subsubsection{\texorpdfstring{Spherical\+Coordinate\+To\+Cartesian\+Coordinate()}{SphericalCoordinateToCartesianCoordinate()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void E\+G\+X\+Math\+::\+Spherical\+Coordinate\+To\+Cartesian\+Coordinate (\begin{DoxyParamCaption}\item[{const T}]{sphericalR,  }\item[{const T}]{spherical\+Azimuth\+In\+Radians,  }\item[{const T}]{spherical\+Zenith\+In\+Radians,  }\item[{T \&}]{x,  }\item[{T \&}]{y,  }\item[{T \&}]{z }\end{DoxyParamCaption})}
+
+
+
+Converts a 3D point represented in the Cartesian coordinate system $(x,y,z)$ to a representation in the Spherical coordiante system $(r,\theta,\phi)$. Note that $\theta$ lays in the $x\ y$ plane. \[ x = \sqrt{x^2+y^2+z^2} \] \[ y = \arctan(\frac{y}{x}) \] \[ z = \arccos(\frac{z}{r}) \]. 
+
+See \href{http://mathworld.wolfram.com/SphericalCoordinates.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Spherical\+Coordinates.\+html} and \href{https://en.wikipedia.org/wiki/Spherical_coordinate_system}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Spherical\+\_\+coordinate\+\_\+system} 
+\begin{DoxyParams}{Parameters}
+{\em sphericalR} & $ r_S\ (m)$ The $r_S$ spherical coordinate (spherical radius) in meters. \\
+\hline
+{\em spherical\+Azimuth\+In\+Radians} & $ \theta_S\ (rad)$ The $\theta_S$ spherical coordinate (azimuth angle) in radians. Note that the azimuth angle is in the $x\ y$ plane. \\
+\hline
+{\em spherical\+Zenith\+In\+Radians} & $ \phi_S\ (rad)$ The $\phi_S$ spherical coordinate (zenith angle) in radians. Note that the zenith angle is measured from the z-\/axis. \\
+\hline
+{\em x} & $ x\ (m)$ The $x$ cartesian coordinate in meters. \\
+\hline
+{\em y} & $ y\ (m)$ The $y$ cartesian coordinate in meters. \\
+\hline
+{\em z} & $ z\ (m)$ The $z$ cartesian coordinate in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_ga2a5678de0dda7c875a668f3db3da3418}{Spherical\+Coordinate\+To\+Cylindrical\+Coordinate()}} for reverse coordinate transform. 
+
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_angle_conversions-_degree_ga48585541b228c852c9d08a9eac3682f0}{Degree\+To\+Radian()}} for conversion from degrees to radians. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_ga2a5678de0dda7c875a668f3db3da3418}\label{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_ga2a5678de0dda7c875a668f3db3da3418}} 
+\index{Spherical@{Spherical}!Spherical\+Coordinate\+To\+Cylindrical\+Coordinate@{Spherical\+Coordinate\+To\+Cylindrical\+Coordinate}}
+\index{Spherical\+Coordinate\+To\+Cylindrical\+Coordinate@{Spherical\+Coordinate\+To\+Cylindrical\+Coordinate}!Spherical@{Spherical}}
+\subsubsection{\texorpdfstring{Spherical\+Coordinate\+To\+Cylindrical\+Coordinate()}{SphericalCoordinateToCylindricalCoordinate()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void E\+G\+X\+Math\+::\+Spherical\+Coordinate\+To\+Cylindrical\+Coordinate (\begin{DoxyParamCaption}\item[{const T}]{sphericalR,  }\item[{const T}]{spherical\+Azimuth\+In\+Radians,  }\item[{const T}]{spherical\+Zenith\+In\+Radians,  }\item[{T \&}]{cylindricalR,  }\item[{T \&}]{cylindrical\+Azimuth\+In\+Radians,  }\item[{T \&}]{cylindricalZ }\end{DoxyParamCaption})}
+
+
+
+Converts a 3D point represented in the Spherical coordiante system $(r_S,\theta_S,\phi_S)$ to a representation in the . Note that $\theta_S$ lays in the $x\ y$ plane. \[ r_C = \sqrt{x^2+y^2+z^2} \] \[ \theta_C = \theta_S \] \[ z_C = \arccos(\frac{z}{r}) \]. 
+
+See \href{http://mathworld.wolfram.com/SphericalCoordinates.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Spherical\+Coordinates.\+html} and \href{https://en.wikipedia.org/wiki/Spherical_coordinate_system}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Spherical\+\_\+coordinate\+\_\+system} 
+\begin{DoxyParams}{Parameters}
+{\em sphericalR} & $ r_S\ (m)$ The $r_S$ spherical coordinate (spherical radius) in meters. \\
+\hline
+{\em spherical\+Azimuth\+In\+Radians} & $ \theta_S\ (rad)$ The $\theta_S$ spherical coordinate (azimuth angle) in radians. Note that the azimuth angle is in the $x\ y$ plane. \\
+\hline
+{\em spherical\+Zenith\+In\+Radians} & $ \phi_S\ (rad)$ The $\phi_S$ spherical coordinate (zenith angle) in radians. Note that the zenith angle is measured from the z-\/axis. \\
+\hline
+{\em cylindricalR} & $ r_C\ (m)$ The $r_C$ cylindrical coordinate (cylindrical radius) in meters. \\
+\hline
+{\em cylindrical\+Azimuth\+In\+Radians} & $ \theta_C\ (rad)$ The $\theta_C$ cylindrical coordinate (azimuth angle) in radians. \\
+\hline
+{\em cylindricalZ} & $ z_C\ (m)$ The $z_C$ cylindrical coordinate in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_ga2a5678de0dda7c875a668f3db3da3418}{Spherical\+Coordinate\+To\+Cylindrical\+Coordinate()}} for reverse coordinate transform. 
+
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_angle_conversions-_degree_ga48585541b228c852c9d08a9eac3682f0}{Degree\+To\+Radian()}} for conversion from degrees to radians. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_gaa9b50c4837e1cbea569de6f7bc90a3b6}\label{group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical_gaa9b50c4837e1cbea569de6f7bc90a3b6}} 
+\index{Spherical@{Spherical}!Spherical\+Cordinates\+Of\+Point\+Given\+Center@{Spherical\+Cordinates\+Of\+Point\+Given\+Center}}
+\index{Spherical\+Cordinates\+Of\+Point\+Given\+Center@{Spherical\+Cordinates\+Of\+Point\+Given\+Center}!Spherical@{Spherical}}
+\subsubsection{\texorpdfstring{Spherical\+Cordinates\+Of\+Point\+Given\+Center()}{SphericalCordinatesOfPointGivenCenter()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void E\+G\+X\+Math\+::\+Spherical\+Cordinates\+Of\+Point\+Given\+Center (\begin{DoxyParamCaption}\item[{const T}]{centerR,  }\item[{const T}]{center\+Azimuth\+In\+Radians,  }\item[{const T}]{center\+Zenith\+In\+Radians,  }\item[{const T}]{pointR,  }\item[{const T}]{point\+Azimuth\+In\+Radians,  }\item[{const T}]{poin\+Zenith\+In\+Radians,  }\item[{T \&}]{shiftedR,  }\item[{T \&}]{shifted\+Azimuth\+In\+Radians,  }\item[{T \&}]{shifted\+Zenith\+In\+Radians }\end{DoxyParamCaption})}
+
+
+
+In a Spherical coordinate system, given a point, $p$, and a new origin (center), $o$, this function gives the shifted spherical coordinates of the point relative to this new center. \[ r_{shift} = \sqrt{r_o^2+r_p^2 - 2 r_o r_p ( \cos(\phi_p) \cos(\phi_o) + \cos(\theta_p-\theta_o) * \sin(\phi_p) \sin(\phi_o))}\] \[ \theta_{shift} = atan2( r_p sin(\theta_p) \sin(\phi_p) - r_o \sin(\theta_o) \sin(\phi_o) , r_p \cos(\theta_p) \sin(\phi_p) - r_o \cos(\theta_o) \sin(\phi_o) )\] \[ \phi_{shift} = \arccos(\frac{r_p \cos(\phi_p) - r_o (\phi_o)}{r_{shift}}) \]. 
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000007}{Todo}}]Move this function to Coordinate transforms \end{DoxyRefDesc}
+See \href{http://mathworld.wolfram.com/SphericalCoordinates.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Spherical\+Coordinates.\+html} and \href{https://en.wikipedia.org/wiki/Spherical_coordinate_system}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Spherical\+\_\+coordinate\+\_\+system} and 
+\begin{DoxyParams}{Parameters}
+{\em centerR} & $ r_o\ (m)$ The $r_o$ spherical coordinate (spherical radius) of the new origin in meters. \\
+\hline
+{\em center\+Azimuth\+In\+Radians} & $ \theta_o\ (rad)$ The $\theta_o$ spherical coordinate (azimuth angle) of the new origin in radians. Note that the azimuth angle is in the $x\ y$ plane. \\
+\hline
+{\em center\+Zenith\+In\+Radians} & $ \phi_o\ (rad)$ The $\phi_o$ spherical coordinate (zenith angle) of the new origin in radians. Note that the zenith angle is measured from the z-\/axis. \\
+\hline
+{\em pointR} & $ r_p\ (m)$ The $r_p$ spherical coordinate (spherical radius) of the point in meters. \\
+\hline
+{\em point\+Azimuth\+In\+Radians} & $ \theta_p\ (rad)$ The $\theta_p$ spherical coordinate (azimuth angle) of the point in radians. Note that the azimuth angle is in the $x\ y$ plane. \\
+\hline
+{\em poin\+Zenith\+In\+Radians} & $ \phi_p\ (rad)$ The $\phi_p$ spherical coordinate (zenith angle) of the point in radians. Note that the zenith angle is measured from the z-\/axis. \\
+\hline
+{\em shiftedR} & $ r_{shift}\ (m)$ The $r_{shift}$ spherical coordinate (spherical radius) of the point using the new origin in meters. \\
+\hline
+{\em shifted\+Azimuth\+In\+Radians} & $ \theta_{shift}\ (rad)$ The $\theta_{shift}$ spherical coordinate (azimuth angle) of the point using the new origin in radians. Note that the azimuth angle is in the $x\ y$ plane. \\
+\hline
+{\em shifted\+Zenith\+In\+Radians} & $ \phi_{shift}\ (rad)$ The $\phi_{shift}$ spherical coordinate (zenith angle) of the point using the new origin in radians. Note that the zenith angle is measured from the z-\/axis. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_angle_conversions-_degree_ga48585541b228c852c9d08a9eac3682f0}{Degree\+To\+Radian()}} for conversion from degrees to radians. 
+\end{DoxySeeAlso}

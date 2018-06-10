@@ -1,0 +1,51 @@
+\hypertarget{group___e_g_x_math-_geometry-3_d-_ellipsoid-_surface_area}{}\section{Surface Area}
+\label{group___e_g_x_math-_geometry-3_d-_ellipsoid-_surface_area}\index{Surface Area@{Surface Area}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_surface_area_gae1dfe0a51a3adc5121de3ced76b4068c}{E\+G\+X\+Math\+::\+Ellipsoid\+Surface\+Area}} (const T a\+Semi\+Principle\+Axis\+Inm, const T b\+Semi\+Principle\+Axis\+Inm, const T c\+Semi\+Principle\+Axis\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the surface area, $S_{ellipsoid}$, in meter squared of an ellipsoid with three distinct semi-\/principle axes, $a$, $b$ and $c$. \[ S_{ellipsoid} \approx 4 \pi \left ( \dfrac{(ab)^{1.605}+(ac)^{1.605}+(bc)^{1.605}}{3} \right )^{\dfrac{1}{1.605}} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_ellipsoid-_surface_area_gae1dfe0a51a3adc5121de3ced76b4068c}\label{group___e_g_x_math-_geometry-3_d-_ellipsoid-_surface_area_gae1dfe0a51a3adc5121de3ced76b4068c}} 
+\index{Surface Area@{Surface Area}!Ellipsoid\+Surface\+Area@{Ellipsoid\+Surface\+Area}}
+\index{Ellipsoid\+Surface\+Area@{Ellipsoid\+Surface\+Area}!Surface Area@{Surface Area}}
+\subsubsection{\texorpdfstring{Ellipsoid\+Surface\+Area()}{EllipsoidSurfaceArea()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Ellipsoid\+Surface\+Area (\begin{DoxyParamCaption}\item[{const T}]{a\+Semi\+Principle\+Axis\+Inm,  }\item[{const T}]{b\+Semi\+Principle\+Axis\+Inm,  }\item[{const T}]{c\+Semi\+Principle\+Axis\+Inm }\end{DoxyParamCaption})}
+
+
+
+Finds the surface area, $S_{ellipsoid}$, in meter squared of an ellipsoid with three distinct semi-\/principle axes, $a$, $b$ and $c$. \[ S_{ellipsoid} \approx 4 \pi \left ( \dfrac{(ab)^{1.605}+(ac)^{1.605}+(bc)^{1.605}}{3} \right )^{\dfrac{1}{1.605}} \]. 
+
+See \href{http://mathworld.wolfram.com/Ellipsoid.html}{\tt http\+://mathworld.\+wolfram.\+com/\+Ellipsoid.\+html} and \href{https://en.wikipedia.org/wiki/Ellipsoid}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Ellipsoid}
+
+See \href{http://www.numericana.com/answer/ellipsoid.htm}{\tt http\+://www.\+numericana.\+com/answer/ellipsoid.\+htm} for formula constant derived by Knud Thomsen.
+
+See Klamkin, Murray S. \char`\"{}\+Elementary approximations to the area of n-\/dimensional ellipsoids.\char`\"{} The American Mathematical Monthly 78.\+3 (1971)\+: 280-\/283. for formula derivation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em a\+Semi\+Principle\+Axis\+Inm} & $ a\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the x-\/axis in meters. \\
+\hline
+{\em b\+Semi\+Principle\+Axis\+Inm} & $ b\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the y-\/axis in meters. \\
+\hline
+{\em c\+Semi\+Principle\+Axis\+Inm} & $ c\ (m)$ Semi-\/principle axis of the ellipsoid that lays along the z-\/axis in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ S_{ellipsoid}\ (m^2)$ Surface area of spheroid in meter squared. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_volume_ga82d69f6cd6f1d4f890d875090924265d}{Ellipsoid\+Volume()}} for volume of an ellipsoid. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia_ga3b6f641f06037be75b8f51822eaa71bf}{Ellipsoid\+Inertia()}} for inertial tensor of an ellipsoid. 
+
+Sphere\+Surface\+Area() for surface area of a sphere. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga5a3580e7ded82cb678a558905f41ae49}{Spheroid\+Surface\+Area()}} for surface area of a spheroid. 
+\end{DoxySeeAlso}

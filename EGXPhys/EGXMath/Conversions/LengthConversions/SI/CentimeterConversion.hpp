@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Centimeter Centimeter
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Centimeter Centimeter
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Centimeter-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Centimeter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Centimeter-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Centimeter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Centimeter-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Centimeter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Centimeter-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Centimeter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Centimeter-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Centimeter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Centimeter-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Centimeter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Centimeter-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Centimeter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Centimeter-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Centimeter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Centimeter-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Centimeter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Centimeter-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Centimeter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Centimeter-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Centimeter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Centimeter-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Centimeter
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Centimeter-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Centimeter-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Centimeter-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Centimeter-SI
     /// @{
     /**
     *   @brief Converts a length in centimeters to meters.
@@ -315,7 +315,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Centimeter-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Centimeter-Non-SI
     /// @{
 
     /**
@@ -383,7 +383,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Centimeter-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Centimeter-Imperial
     /// @{
 
     /**
@@ -458,7 +458,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Centimeter-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Centimeter-Nautical
     /// @{
 
     /**
@@ -486,7 +486,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Centimeter-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Centimeter-Surveyors
     /// @{
 
     /**

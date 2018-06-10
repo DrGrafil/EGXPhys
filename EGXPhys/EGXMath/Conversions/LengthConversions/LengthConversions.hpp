@@ -22,27 +22,6 @@
 //
 
 //SI
-#include "MeterConversion.hpp"
-
-#include "AttometerConversion.hpp"
-#include "CentimeterConversion.hpp"
-#include "DecameterConversion.hpp"
-#include "DecameterConversion.hpp"
-#include "ExameterConversion.hpp"
-#include "FemtometerConversion.hpp"
-#include "GigameterConversion.hpp"
-#include "HectometerConversion.hpp"
-#include "KilometerConversion.hpp"
-#include "MegameterConversion.hpp"
-#include "MicrometerConversion.hpp"
-#include "MillimeterConversion.hpp"
-#include "NanometerConversion.hpp"
-#include "PetameterConversion.hpp"
-#include "PicometerConversion.hpp"
-#include "TerameterConversion.hpp"
-#include "YoctometerConversion.hpp"
-#include "YottameterConversion.hpp"
-#include "ZeptometerConversion.hpp"
-#include "ZettameterConversion.hpp"
+#include "SI/SIConversions.hpp"
 
 

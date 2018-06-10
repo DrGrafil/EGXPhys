@@ -1,0 +1,23 @@
+\hypertarget{_spheroid_surface_area_8inl}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Spheroid/\+Spheroid\+Surface\+Area.inl File Reference}
+\label{_spheroid_surface_area_8inl}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Spheroid/\+Spheroid\+Surface\+Area.\+inl@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Spheroid/\+Spheroid\+Surface\+Area.\+inl}}
+
+
+Implimentation of functions related to the surface area of an spheroid.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_surface_area_ga5a3580e7ded82cb678a558905f41ae49}{E\+G\+X\+Math\+::\+Spheroid\+Surface\+Area}} (const T equatorial\+Radius\+Inm, const T polar\+Radius\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the surface area, $S_{spheroid}$, in meter squared of a spheroid with equatorial radius $a$ and polar radius, $c$. If $a < c$, the spheroid is prolate, if $a = c$ it is a sphere and if $a>c$ the sphere is oblate. \[ S_{spheroid}=\begin{cases} 2\pi a^2 + 2\pi\dfrac{a c^2}{\sqrt{c^2-a^2}}\arcsin \left ( \dfrac{\sqrt{c^2-a^2}}{c} \right ) & a<c\ prolate \\ 2\pi a^2 +\pi \dfrac{a c^2}{\sqrt{a^2-c^2}}\ln \left(\dfrac{1+\dfrac{\sqrt{a^2-c^2}}{a}}{1-\dfrac{\sqrt{a^2-c^2}}{a}}\right )& a>c\ oblate \end{cases} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implimentation of functions related to the surface area of an spheroid. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+5/23/18 
+\end{DoxyDate}

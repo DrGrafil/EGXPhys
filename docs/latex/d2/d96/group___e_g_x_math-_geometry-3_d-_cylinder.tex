@@ -1,0 +1,188 @@
+\hypertarget{group___e_g_x_math-_geometry-3_d-_cylinder}{}\section{Cylinder}
+\label{group___e_g_x_math-_geometry-3_d-_cylinder}\index{Cylinder@{Cylinder}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_gaf14619f5d525e14150a43b9898adb258}{E\+G\+X\+Math\+::\+Cylinder\+Surface\+Area}} (const T radius, const T height)
+\begin{DoxyCompactList}\small\item\em Finds the surface area, $A_{cyl}$, in meter squared of a cylinder with radius $r$ and height $h$\+: \[ A_{cyl}=2\pi r^2 + 2\pi r h \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_ga9d1aa08f778f9ccbd79953063f11bc9b}{E\+G\+X\+Math\+::\+Cylinder\+Volume}} (const T radius, const T height)
+\begin{DoxyCompactList}\small\item\em Finds the volume, $V_{cyl}$, in meter squared of a cylinder with radius $r$ and height $h$\+: \[ V_{cyl}=\pi r^2 h\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_gae7dca080058b400feb0d69f78af7a850}{E\+G\+X\+Math\+::\+Cylinder\+Inertia}} (const T mass, const T height, const T radius, T2(\&matrix)\mbox{[}9\mbox{]})
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{cyl}$ of a cylinder with radius, $r$, height, $h$ and mass $m$. The circular componet lays in the x,y plane. \[ I_{cyl}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_gac46dd57839cb2157d1bb6dd430d781ec}{E\+G\+X\+Math\+::\+Cylinder\+Inertia}} (const T mass, const T height, const T radius, std\+::vector$<$ T2 $>$ \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{cyl}$ of a cylinder with radius, $r$, height, $h$ and mass $m$. The circular componet lays in the x,y plane. \[ I_{cyl}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_ga5d9256549303e88a49b72e3d4c2c4a6d}{E\+G\+X\+Math\+::\+Cylinder\+Inertia}} (const T mass, const T height, const T radius, glm\+::mat3 \&matrix)
+\begin{DoxyCompactList}\small\item\em Finds the moment of inertia tensor, $I_{cyl}$ of a cylinder with radius, $r$, height, $h$ and mass $m$. The circular componet lays in the x,y plane. \[ I_{cyl}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_cylinder_gae7dca080058b400feb0d69f78af7a850}\label{group___e_g_x_math-_geometry-3_d-_cylinder_gae7dca080058b400feb0d69f78af7a850}} 
+\index{Cylinder@{Cylinder}!Cylinder\+Inertia@{Cylinder\+Inertia}}
+\index{Cylinder\+Inertia@{Cylinder\+Inertia}!Cylinder@{Cylinder}}
+\subsubsection{\texorpdfstring{Cylinder\+Inertia()}{CylinderInertia()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+void E\+G\+X\+Math\+::\+Cylinder\+Inertia (\begin{DoxyParamCaption}\item[{const T}]{mass,  }\item[{const T}]{height,  }\item[{const T}]{radius,  }\item[{T2(\&)}]{matrix\mbox{[}9\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Finds the moment of inertia tensor, $I_{cyl}$ of a cylinder with radius, $r$, height, $h$ and mass $m$. The circular componet lays in the x,y plane. \[ I_{cyl}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass} & $ m\ (kg)$ Mass of cylinder in kilograms. \\
+\hline
+{\em height} & $ r\ (m)$ Height of cylinder in meters. \\
+\hline
+{\em radius} & $ r\ (m)$ Radius of cylinder in meters. \\
+\hline
+{\em matrix} & $ I_{cyl}\ (kg\ m^2)$ Inertia tensor matrix in kilograms meter squared. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_ga6ed461694b277e36a641a6550bdea68f}{Disk\+Inertia()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_gaf14619f5d525e14150a43b9898adb258}{Cylinder\+Surface\+Area()}} for surface area of a cylinder. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_ga9d1aa08f778f9ccbd79953063f11bc9b}{Cylinder\+Volume()}} for volume of a cylinder. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_hoop_gab3a84dc2aa29ce0db990425747d291c6}{Hoop\+Thin\+Inertia()}} for inertial tensor of a thin hoop. 
+
+Hoop\+Inertia() for inertial tensor of a hoop. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_ga8dcadf6cd5680294a84311c6767e3caf}{Disk\+Thin\+Inertia()}} for inertial tensor of a thin disk. 
+
+Sphere\+Inertia() for inertial tensor of a sphere. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_cylinder_gac46dd57839cb2157d1bb6dd430d781ec}\label{group___e_g_x_math-_geometry-3_d-_cylinder_gac46dd57839cb2157d1bb6dd430d781ec}} 
+\index{Cylinder@{Cylinder}!Cylinder\+Inertia@{Cylinder\+Inertia}}
+\index{Cylinder\+Inertia@{Cylinder\+Inertia}!Cylinder@{Cylinder}}
+\subsubsection{\texorpdfstring{Cylinder\+Inertia()}{CylinderInertia()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+void E\+G\+X\+Math\+::\+Cylinder\+Inertia (\begin{DoxyParamCaption}\item[{const T}]{mass,  }\item[{const T}]{height,  }\item[{const T}]{radius,  }\item[{std\+::vector$<$ T2 $>$ \&}]{matrix }\end{DoxyParamCaption})}
+
+
+
+Finds the moment of inertia tensor, $I_{cyl}$ of a cylinder with radius, $r$, height, $h$ and mass $m$. The circular componet lays in the x,y plane. \[ I_{cyl}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass} & $ m\ (kg)$ Mass of cylinder in kilograms. \\
+\hline
+{\em height} & $ r\ (m)$ Height of cylinder in meters. \\
+\hline
+{\em radius} & $ r\ (m)$ Radius of cylinder in meters. \\
+\hline
+{\em matrix} & $ I_{disk}\ (kg\ m^2)$ Inertia tensor matrix in kilograms meter squared. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_ga6ed461694b277e36a641a6550bdea68f}{Disk\+Inertia()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_gaf14619f5d525e14150a43b9898adb258}{Cylinder\+Surface\+Area()}} for surface area of a cylinder. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_ga9d1aa08f778f9ccbd79953063f11bc9b}{Cylinder\+Volume()}} for volume of a cylinder. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_hoop_gab3a84dc2aa29ce0db990425747d291c6}{Hoop\+Thin\+Inertia()}} for inertial tensor of a thin hoop. 
+
+Hoop\+Inertia() for inertial tensor of a hoop. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_ga8dcadf6cd5680294a84311c6767e3caf}{Disk\+Thin\+Inertia()}} for inertial tensor of a thin disk. 
+
+Sphere\+Inertia() for inertial tensor of a sphere. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_cylinder_ga5d9256549303e88a49b72e3d4c2c4a6d}\label{group___e_g_x_math-_geometry-3_d-_cylinder_ga5d9256549303e88a49b72e3d4c2c4a6d}} 
+\index{Cylinder@{Cylinder}!Cylinder\+Inertia@{Cylinder\+Inertia}}
+\index{Cylinder\+Inertia@{Cylinder\+Inertia}!Cylinder@{Cylinder}}
+\subsubsection{\texorpdfstring{Cylinder\+Inertia()}{CylinderInertia()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$typename T , typename T2 $>$ \\
+void E\+G\+X\+Math\+::\+Cylinder\+Inertia (\begin{DoxyParamCaption}\item[{const T}]{mass,  }\item[{const T}]{height,  }\item[{const T}]{radius,  }\item[{glm\+::mat3 \&}]{matrix }\end{DoxyParamCaption})}
+
+
+
+Finds the moment of inertia tensor, $I_{cyl}$ of a cylinder with radius, $r$, height, $h$ and mass $m$. The circular componet lays in the x,y plane. \[ I_{cyl}=\begin{bmatrix} \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0 & 0\\ 0 & \frac{1}{12}m\ h^2 + \frac{1}{4}m\ r^2 & 0\\ 0 & 0 & \frac{1}{2}m\ r^2 \end{bmatrix} \] See \href{https://en.wikipedia.org/wiki/List_of_moments_of_inertia}{\tt https\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+moments\+\_\+of\+\_\+inertia} and \href{http://scienceworld.wolfram.com/physics/MomentofInertiaCylinder.html}{\tt http\+://scienceworld.\+wolfram.\+com/physics/\+Momentof\+Inertia\+Cylinder.\+html}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mass} & $ m\ (kg)$ Mass of cylinder in kilograms. \\
+\hline
+{\em height} & $ r\ (m)$ Height of cylinder in meters. \\
+\hline
+{\em radius} & $ r\ (m)$ Radius of cylinder in meters. \\
+\hline
+{\em matrix} & $ I_{cyl}\ (kg\ m^2)$ Inertia tensor matrix in kilograms meter squared. \\
+\hline
+\end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_ga6ed461694b277e36a641a6550bdea68f}{Disk\+Inertia()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_gaf14619f5d525e14150a43b9898adb258}{Cylinder\+Surface\+Area()}} for surface area of a cylinder. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_ga9d1aa08f778f9ccbd79953063f11bc9b}{Cylinder\+Volume()}} for volume of a cylinder. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_hoop_gab3a84dc2aa29ce0db990425747d291c6}{Hoop\+Thin\+Inertia()}} for inertial tensor of a thin hoop. 
+
+Hoop\+Inertia() for inertial tensor of a hoop. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_disk_ga8dcadf6cd5680294a84311c6767e3caf}{Disk\+Thin\+Inertia()}} for inertial tensor of a thin disk. 
+
+Sphere\+Inertia() for inertial tensor of a sphere. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_cylinder_gaf14619f5d525e14150a43b9898adb258}\label{group___e_g_x_math-_geometry-3_d-_cylinder_gaf14619f5d525e14150a43b9898adb258}} 
+\index{Cylinder@{Cylinder}!Cylinder\+Surface\+Area@{Cylinder\+Surface\+Area}}
+\index{Cylinder\+Surface\+Area@{Cylinder\+Surface\+Area}!Cylinder@{Cylinder}}
+\subsubsection{\texorpdfstring{Cylinder\+Surface\+Area()}{CylinderSurfaceArea()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Cylinder\+Surface\+Area (\begin{DoxyParamCaption}\item[{const T}]{radius,  }\item[{const T}]{height }\end{DoxyParamCaption})}
+
+
+
+Finds the surface area, $A_{cyl}$, in meter squared of a cylinder with radius $r$ and height $h$\+: \[ A_{cyl}=2\pi r^2 + 2\pi r h \]. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em radius} & $ r\ (m)$ Radius of cylinder in meters. \\
+\hline
+{\em height} & $ r\ (m)$ Height of cylinder in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ A_{cyl}\ (m^2)$ Surface area of cylinder in meter squared. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_gaf14619f5d525e14150a43b9898adb258}{Cylinder\+Surface\+Area()}} for surface area of a cylinder. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_ga9d1aa08f778f9ccbd79953063f11bc9b}{Cylinder\+Volume()}} for volume of a cylinder. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_ga5d9256549303e88a49b72e3d4c2c4a6d}{Cylinder\+Inertia()}} for inertial tensor of cylinder. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_geometry-3_d-_cylinder_ga9d1aa08f778f9ccbd79953063f11bc9b}\label{group___e_g_x_math-_geometry-3_d-_cylinder_ga9d1aa08f778f9ccbd79953063f11bc9b}} 
+\index{Cylinder@{Cylinder}!Cylinder\+Volume@{Cylinder\+Volume}}
+\index{Cylinder\+Volume@{Cylinder\+Volume}!Cylinder@{Cylinder}}
+\subsubsection{\texorpdfstring{Cylinder\+Volume()}{CylinderVolume()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Cylinder\+Volume (\begin{DoxyParamCaption}\item[{const T}]{radius,  }\item[{const T}]{height }\end{DoxyParamCaption})}
+
+
+
+Finds the volume, $V_{cyl}$, in meter squared of a cylinder with radius $r$ and height $h$\+: \[ V_{cyl}=\pi r^2 h\]. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em radius} & $ r\ (m)$ Radius of cylinder in meters. \\
+\hline
+{\em height} & $ r\ (m)$ Height of cylinder in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ V_{cyl}\ (m^3)$ Volume of cylinder in meter cubed. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_gaf14619f5d525e14150a43b9898adb258}{Cylinder\+Surface\+Area()}} for surface area of a cylinder. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_ga9d1aa08f778f9ccbd79953063f11bc9b}{Cylinder\+Volume()}} for volume of a cylinder. 
+
+\mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_cylinder_ga5d9256549303e88a49b72e3d4c2c4a6d}{Cylinder\+Inertia()}} for inertial tensor of cylinder. 
+\end{DoxySeeAlso}

@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/1/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Attometer Attometer
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Attometer Attometer
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Attometer-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Attometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Attometer-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Attometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Attometer-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Attometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Attometer-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Attometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Attometer-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Attometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Attometer-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Attometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Attometer-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Attometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Attometer-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Attometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Attometer-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Attometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Attometer-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Attometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Attometer-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Attometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Attometer-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Attometer
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Attometer-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Attometer-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Attometer-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Attometer-SI
     /// @{
     /**
     *   @brief Converts a length in attometers to meters.
@@ -314,7 +314,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Attometer-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Attometer-Non-SI
     /// @{
     
     /**
@@ -382,7 +382,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Attometer-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Attometer-Imperial
     /// @{
     
     /**
@@ -457,7 +457,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Attometer-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Attometer-Nautical
     /// @{
 
     /**
@@ -485,7 +485,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Attometer-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Attometer-Surveyors
     /// @{
 
     /**

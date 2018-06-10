@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Gigameter Gigameter
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Gigameter Gigameter
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Gigameter-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Gigameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Gigameter-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Gigameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Gigameter-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Gigameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Gigameter-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Gigameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Gigameter-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Gigameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Gigameter-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Gigameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Gigameter-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Gigameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Gigameter-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Gigameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Gigameter-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Gigameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Gigameter-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Gigameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Gigameter-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Gigameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Gigameter-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Gigameter
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Gigameter-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Gigameter-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Gigameter-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Gigameter-SI
     /// @{
     /**
     *   @brief Converts a length in gigameters to meters.
@@ -314,7 +314,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Gigameter-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Gigameter-Non-SI
     /// @{
 
     /**
@@ -382,7 +382,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Gigameter-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Gigameter-Imperial
     /// @{
 
     /**
@@ -457,7 +457,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Gigameter-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Gigameter-Nautical
     /// @{
 
     /**
@@ -485,7 +485,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Gigameter-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Gigameter-Surveyors
     /// @{
 
     /**

@@ -1,0 +1,173 @@
+\hypertarget{group___e_g_x_phys-_planetary_mass}{}\section{Planetary Mass}
+\label{group___e_g_x_phys-_planetary_mass}\index{Planetary Mass@{Planetary Mass}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga225bcf56fb37468f6d4d46493d403503}{E\+G\+X\+Phys\+::\+Planetary\+Mass}} (const T \&planet\+Mass, const T \&reference\+Mass)
+\begin{DoxyCompactList}\small\item\em Calculates the planetary mass $(M)$ of a planet when comparing it to the mass of a reference planet $(m_{ref})$. \[M=\frac{m_{planet}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Planetary_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Planetary\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga3d918c2d37a72b42b49aa6c3da08f450}{E\+G\+X\+Phys\+::\+Planetary\+Earth\+Mass}} (const T \&planet\+Mass)
+\begin{DoxyCompactList}\small\item\em Calculates the planetary mass $(M)$ of a planet when comparing it to the mass of Earth $(M_\oplus)$. Also known as Earth Mass. \[M=\frac{m_{planet}}{M_\oplus}\] See \href{https://en.wikipedia.org/wiki/Earth_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Earth\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_gaaea9675ef409d141d269d970f2f5e9dd}{E\+G\+X\+Phys\+::\+Planetary\+Lunar\+Mass}} (const T \&planet\+Mass)
+\begin{DoxyCompactList}\small\item\em Calculates the planetary mass $(M)$ of a planet when comparing it to the mass of the Moon $(M_L)$. Also known as Lunar Mass. \[M=\frac{m_{planet}}{M_L}\] See \href{https://en.wikipedia.org/wiki/Planetary_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Planetary\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_gaadff5ffa04bb55a572c1403ab9500c06}{E\+G\+X\+Phys\+::\+Planetary\+Jupiter\+Mass}} (const T \&planet\+Mass)
+\begin{DoxyCompactList}\small\item\em Calculates the planetary mass $(M)$ of a planet when comparing it to the mass of Jupiter $(M_J)$. Also known as Jupiter Mass. \[M=\frac{m_{planet}}{M_J}\] See \href{https://en.wikipedia.org/wiki/Jupiter_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Jupiter\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga4663e9388a3bd1a20f94beb52021f293}{E\+G\+X\+Phys\+::\+Planetary\+Jovian\+Mass}} (const T \&planet\+Mass)
+\begin{DoxyCompactList}\small\item\em Calculates the planetary mass $(M)$ of a planet when comparing it to the mass of Jupiter $(M_J)$. Also known as Jovian Mass. \[M=\frac{m_{planet}}{M_J}\] See \href{https://en.wikipedia.org/wiki/Jupiter_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Jupiter\+\_\+mass}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_planetary_mass_ga3d918c2d37a72b42b49aa6c3da08f450}\label{group___e_g_x_phys-_planetary_mass_ga3d918c2d37a72b42b49aa6c3da08f450}} 
+\index{Planetary Mass@{Planetary Mass}!Planetary\+Earth\+Mass@{Planetary\+Earth\+Mass}}
+\index{Planetary\+Earth\+Mass@{Planetary\+Earth\+Mass}!Planetary Mass@{Planetary Mass}}
+\subsubsection{\texorpdfstring{Planetary\+Earth\+Mass()}{PlanetaryEarthMass()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Planetary\+Earth\+Mass (\begin{DoxyParamCaption}\item[{const T \&}]{planet\+Mass }\end{DoxyParamCaption})}
+
+
+
+Calculates the planetary mass $(M)$ of a planet when comparing it to the mass of Earth $(M_\oplus)$. Also known as Earth Mass. \[M=\frac{m_{planet}}{M_\oplus}\] See \href{https://en.wikipedia.org/wiki/Earth_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Earth\+\_\+mass}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em planet\+Mass} & $m_{planet}\ (kg)$ is the mass of the planet. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$M$(dimensionless) Planetary mass. Mass ratio of a planet compared to Earth. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga225bcf56fb37468f6d4d46493d403503}{Planetary\+Mass()}} for $M$ equation using any planet as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_gaaea9675ef409d141d269d970f2f5e9dd}{Planetary\+Lunar\+Mass()}} for $M$ equation using moon as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_gaadff5ffa04bb55a572c1403ab9500c06}{Planetary\+Jupiter\+Mass()}} for $M$ equation using Jupiter as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga4663e9388a3bd1a20f94beb52021f293}{Planetary\+Jovian\+Mass()}} for $M$ equation using Jupiter as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gabbd6081cd3bfb0153d7470d58f733a61}{Stellar\+Mass()}} for $M$ equation used for star like objects. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_planetary_mass_ga4663e9388a3bd1a20f94beb52021f293}\label{group___e_g_x_phys-_planetary_mass_ga4663e9388a3bd1a20f94beb52021f293}} 
+\index{Planetary Mass@{Planetary Mass}!Planetary\+Jovian\+Mass@{Planetary\+Jovian\+Mass}}
+\index{Planetary\+Jovian\+Mass@{Planetary\+Jovian\+Mass}!Planetary Mass@{Planetary Mass}}
+\subsubsection{\texorpdfstring{Planetary\+Jovian\+Mass()}{PlanetaryJovianMass()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Planetary\+Jovian\+Mass (\begin{DoxyParamCaption}\item[{const T \&}]{planet\+Mass }\end{DoxyParamCaption})}
+
+
+
+Calculates the planetary mass $(M)$ of a planet when comparing it to the mass of Jupiter $(M_J)$. Also known as Jovian Mass. \[M=\frac{m_{planet}}{M_J}\] See \href{https://en.wikipedia.org/wiki/Jupiter_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Jupiter\+\_\+mass}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em planet\+Mass} & $m_{planet}\ (kg)$ is the mass of the planet. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$M$(dimensionless) Planetary mass. Mass ratio of a planet compared to Jupiter. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga225bcf56fb37468f6d4d46493d403503}{Planetary\+Mass()}} for $M$ equation using any planet as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga3d918c2d37a72b42b49aa6c3da08f450}{Planetary\+Earth\+Mass()}} for $M$ equation using earth as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_gaaea9675ef409d141d269d970f2f5e9dd}{Planetary\+Lunar\+Mass()}} for $M$ equation using moon as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_gaadff5ffa04bb55a572c1403ab9500c06}{Planetary\+Jupiter\+Mass()}} for $M$ equation using Jupiter as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gabbd6081cd3bfb0153d7470d58f733a61}{Stellar\+Mass()}} for $M$ equation used for star like objects. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_planetary_mass_gaadff5ffa04bb55a572c1403ab9500c06}\label{group___e_g_x_phys-_planetary_mass_gaadff5ffa04bb55a572c1403ab9500c06}} 
+\index{Planetary Mass@{Planetary Mass}!Planetary\+Jupiter\+Mass@{Planetary\+Jupiter\+Mass}}
+\index{Planetary\+Jupiter\+Mass@{Planetary\+Jupiter\+Mass}!Planetary Mass@{Planetary Mass}}
+\subsubsection{\texorpdfstring{Planetary\+Jupiter\+Mass()}{PlanetaryJupiterMass()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Planetary\+Jupiter\+Mass (\begin{DoxyParamCaption}\item[{const T \&}]{planet\+Mass }\end{DoxyParamCaption})}
+
+
+
+Calculates the planetary mass $(M)$ of a planet when comparing it to the mass of Jupiter $(M_J)$. Also known as Jupiter Mass. \[M=\frac{m_{planet}}{M_J}\] See \href{https://en.wikipedia.org/wiki/Jupiter_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Jupiter\+\_\+mass}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em planet\+Mass} & $m_{planet}\ (kg)$ is the mass of the planet. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$M$(dimensionless) Planetary mass. Mass ratio of a planet compared to Jupiter. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga225bcf56fb37468f6d4d46493d403503}{Planetary\+Mass()}} for $M$ equation using any planet as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga3d918c2d37a72b42b49aa6c3da08f450}{Planetary\+Earth\+Mass()}} for $M$ equation using earth as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_gaaea9675ef409d141d269d970f2f5e9dd}{Planetary\+Lunar\+Mass()}} for $M$ equation using moon as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga4663e9388a3bd1a20f94beb52021f293}{Planetary\+Jovian\+Mass()}} for $M$ equation using Jupiter as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gabbd6081cd3bfb0153d7470d58f733a61}{Stellar\+Mass()}} for $M$ equation used for star like objects. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_planetary_mass_gaaea9675ef409d141d269d970f2f5e9dd}\label{group___e_g_x_phys-_planetary_mass_gaaea9675ef409d141d269d970f2f5e9dd}} 
+\index{Planetary Mass@{Planetary Mass}!Planetary\+Lunar\+Mass@{Planetary\+Lunar\+Mass}}
+\index{Planetary\+Lunar\+Mass@{Planetary\+Lunar\+Mass}!Planetary Mass@{Planetary Mass}}
+\subsubsection{\texorpdfstring{Planetary\+Lunar\+Mass()}{PlanetaryLunarMass()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Planetary\+Lunar\+Mass (\begin{DoxyParamCaption}\item[{const T \&}]{planet\+Mass }\end{DoxyParamCaption})}
+
+
+
+Calculates the planetary mass $(M)$ of a planet when comparing it to the mass of the Moon $(M_L)$. Also known as Lunar Mass. \[M=\frac{m_{planet}}{M_L}\] See \href{https://en.wikipedia.org/wiki/Planetary_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Planetary\+\_\+mass}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em planet\+Mass} & $m_{planet}\ (kg)$ is the mass of the planet. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$M$(dimensionless) Planetary mass. Mass ratio of a planet compared to the Moon. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga225bcf56fb37468f6d4d46493d403503}{Planetary\+Mass()}} for $M$ equation using any planet as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga3d918c2d37a72b42b49aa6c3da08f450}{Planetary\+Earth\+Mass()}} for $M$ equation using earth as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_gaadff5ffa04bb55a572c1403ab9500c06}{Planetary\+Jupiter\+Mass()}} for $M$ equation using Jupiter as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga4663e9388a3bd1a20f94beb52021f293}{Planetary\+Jovian\+Mass()}} for $M$ equation using Jupiter as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gabbd6081cd3bfb0153d7470d58f733a61}{Stellar\+Mass()}} for $M$ equation used for star like objects. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_planetary_mass_ga225bcf56fb37468f6d4d46493d403503}\label{group___e_g_x_phys-_planetary_mass_ga225bcf56fb37468f6d4d46493d403503}} 
+\index{Planetary Mass@{Planetary Mass}!Planetary\+Mass@{Planetary\+Mass}}
+\index{Planetary\+Mass@{Planetary\+Mass}!Planetary Mass@{Planetary Mass}}
+\subsubsection{\texorpdfstring{Planetary\+Mass()}{PlanetaryMass()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Planetary\+Mass (\begin{DoxyParamCaption}\item[{const T \&}]{planet\+Mass,  }\item[{const T \&}]{reference\+Mass }\end{DoxyParamCaption})}
+
+
+
+Calculates the planetary mass $(M)$ of a planet when comparing it to the mass of a reference planet $(m_{ref})$. \[M=\frac{m_{planet}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Planetary_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Planetary\+\_\+mass}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em planet\+Mass} & $m_{planet}\ (kg)$ is the mass of the planet. \\
+\hline
+{\em reference\+Mass} & $m_{ref}\ (kg)$ is the mass of the reference planet. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$M$(dimensionless) Planetary mass. Mass ratio of a planet compared to a reference planet. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga3d918c2d37a72b42b49aa6c3da08f450}{Planetary\+Earth\+Mass()}} for $M$ equation using earth as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_gaaea9675ef409d141d269d970f2f5e9dd}{Planetary\+Lunar\+Mass()}} for $M$ equation using moon as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_gaadff5ffa04bb55a572c1403ab9500c06}{Planetary\+Jupiter\+Mass()}} for $M$ equation using Jupiter as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_planetary_mass_ga4663e9388a3bd1a20f94beb52021f293}{Planetary\+Jovian\+Mass()}} for $M$ equation using Jupiter as a reference. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gabbd6081cd3bfb0153d7470d58f733a61}{Stellar\+Mass()}} for $M$ equation used for star like objects. 
+\end{DoxySeeAlso}

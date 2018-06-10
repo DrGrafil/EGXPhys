@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Hectometer Hectometer
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Hectometer Hectometer
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Hectometer-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Hectometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Hectometer-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Hectometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Hectometer-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Hectometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Hectometer-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Hectometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Hectometer-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Hectometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Hectometer-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Hectometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Hectometer-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Hectometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Hectometer-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Hectometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Hectometer-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Hectometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Hectometer-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Hectometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Hectometer-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Hectometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Hectometer-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Hectometer
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Hectometer-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Hectometer-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Hectometer-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Hectometer-SI
     /// @{
     /**
     *   @brief Converts a length in hectometers to meters.
@@ -314,7 +314,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Hectometer-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Hectometer-Non-SI
     /// @{
 
     /**
@@ -382,7 +382,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Hectometer-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Hectometer-Imperial
     /// @{
 
     /**
@@ -457,7 +457,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Hectometer-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Hectometer-Nautical
     /// @{
 
     /**
@@ -485,7 +485,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Hectometer-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Hectometer-Surveyors
     /// @{
 
     /**

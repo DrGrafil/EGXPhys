@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Petameter Petameter
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Petameter Petameter
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Petameter-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Petameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Petameter-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Petameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Petameter-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Petameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Petameter-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Petameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Petameter-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Petameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Petameter-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Petameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Petameter-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Petameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Petameter-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Petameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Petameter-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Petameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Petameter-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Petameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Petameter-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Petameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Petameter-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Petameter
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Petameter-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Petameter-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Petameter-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Petameter-SI
     /// @{
     /**
     *   @brief Converts a length in petameters to meters.
@@ -314,7 +314,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Petameter-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Petameter-Non-SI
     /// @{
 
     /**
@@ -382,7 +382,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Petameter-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Petameter-Imperial
     /// @{
 
     /**
@@ -457,7 +457,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Petameter-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Petameter-Nautical
     /// @{
 
     /**
@@ -485,7 +485,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Petameter-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Petameter-Surveyors
     /// @{
 
     /**

@@ -1,0 +1,32 @@
+\hypertarget{_ellipse_focal_parameter_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Focal\+Parameter.hpp File Reference}
+\label{_ellipse_focal_parameter_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Focal\+Parameter.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Focal\+Parameter.\+hpp}}
+
+
+Defines functions relating to ellipse focal parameter.  
+
+
+{\ttfamily \#include \char`\"{}Ellipse\+Focal\+Parameter.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga4cd01a38c72c092ef9791351948bf69b}{E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter}} (const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and semi-\/minor axis $b$. \[ p=\frac{b^2}{\sqrt{a^2-b^2}} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga406c026954d4f5b357e0310461ed4d1d}{E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes}} (const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and semi-\/minor axis $b$. \[ p=\frac{b^2}{\sqrt{a^2-b^2}} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_ga61d3b31a8a32b43634b2ea89a83bc6a5}{E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Linear\+Eccentricity}} (const T semi\+Major\+Axis\+Inm, const T linear\+Eccentricity\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and linear eccentricity $c$. \[ p=\frac{a^2-c^2}{c} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_gafd838410a3f813315166c64b53e0e25b}{E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Eccentricity}} (const T semi\+Major\+Axis\+Inm, const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the focal parameter, $p$, in meters of an ellipse with semi-\/major axis, $a$, and eccentricity $e$. \[ p=\frac{a(1-e^2)}{e} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_focal_parameter_gaf957cf9131d3998bfe944f6234a133e6}{E\+G\+X\+Math\+::\+Ellipse\+Focal\+Parameter\+From\+Semi\+Latus\+Rectum}} (const T semi\+Latus\+Rectum\+Inm, const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the focal parameter, $p$, in meters of an ellipse with semi-\/\+Latus rectum, $\ell$, and eccentricity $e$. \[ p=\frac{\ell}{e} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines functions relating to ellipse focal parameter. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/23/18 
+\end{DoxyDate}

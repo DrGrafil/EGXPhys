@@ -1,0 +1,30 @@
+\hypertarget{_ellipse_semi_latus_rectum_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Semi\+Latus\+Rectum.hpp File Reference}
+\label{_ellipse_semi_latus_rectum_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Semi\+Latus\+Rectum.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/2\+D/\+Ellipse/\+Ellipse\+Semi\+Latus\+Rectum.\+hpp}}
+
+
+Defines functions relating to ellipse semi-\/latus rectum.  
+
+
+{\ttfamily \#include \char`\"{}Ellipse\+Semi\+Latus\+Rectum.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_gacfd1844eb4ef3d1ee3c0b460a6442ae6}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum}} (const T semi\+Major\+Axis\+Inm, const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/latus rectum, $\ell$, in meters of an ellipse with semi-\/major axis $a$, and eccentricity $e$. \[ \ell=a(1-e^2) \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga06c95ba97ceac8e0abea5a7611a5812f}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum\+From\+Eccentricity}} (const T semi\+Major\+Axis\+Inm, const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/latus rectum, $\ell$, in meters of an ellipse with semi-\/major axis $a$, and eccentricity $e$. \[ \ell=a(1-e^2) \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga41f9f0fcd4b1169a4e908496cdab158d}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum\+From\+Linear\+Eccentricity}} (const T semi\+Minor\+Axis\+Inm, const T linear\+Eccentricity\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/major axis, $a$, in meters of an ellipse with semi-\/minor axis $b$, and linear eccentricity $c$. \[ a=\sqrt{b^2+c^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-2_d-_ellipse-_semi_latus_rectum_ga8bb9235fdb20e3257489049022f4aeba}{E\+G\+X\+Math\+::\+Ellipse\+Semi\+Latus\+Rectum\+From\+Semi\+Major\+And\+Semi\+Minor\+Axes}} (const T semi\+Major\+Axis\+Inm, const T semi\+Minor\+Axis\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the semi-\/major axis, $a$, in meters of an ellipse with semi-\/minor axis $b$, and semi-\/latus rectum $\ell$. \[ \ell= \frac{b^2}{a} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines functions relating to ellipse semi-\/latus rectum. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/25/18 
+\end{DoxyDate}

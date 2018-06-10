@@ -1,0 +1,32 @@
+\hypertarget{_surface_gravity_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Surface\+Gravity.hpp File Reference}
+\label{_surface_gravity_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Surface\+Gravity.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Surface\+Gravity.\+hpp}}
+
+
+Calculates surface gravity of celestial bodies.  
+
+
+{\ttfamily \#include \char`\"{}Astrophysics\+Constants.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Surface\+Gravity.\+inl\char`\"{}}\newline
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_e_g_x_phys}{E\+G\+X\+Phys}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gaf7e1f42b674fe8bb2211c40882a7d5b6}{E\+G\+X\+Phys\+::\+Surface\+Gravity\+Inm\+Pers\+Squared}} (const T mass\+Inkg, const T mean\+Radius\+Inm)
+\begin{DoxyCompactList}\small\item\em Calculates the surface gravity, $g$, of a celestial body in meters per second squared. The surface gravity is a product of the gravitational constant, $G$, as well as the mass, $M$, and mean radius, $r$, of the celestial body\+: \[g = \frac{GM}{r^2}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gab5bb479758d72608ef6ada063f6c1a1b}{E\+G\+X\+Phys\+::\+Surface\+Gravity\+Ing}} (const T mass\+Inkg, const T mean\+Radius\+Inm)
+\begin{DoxyCompactList}\small\item\em Calculates the surface gravity, $g$, of a celestial body in gs (Earth\textquotesingle{}s gravity). The surface gravity is a product of the gravitational constant, $G$, as well as the mass, $M$, and mean radius, $r$, of the celestial body\+: \[g = \frac{GM}{g_{Earth}r^2}\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calculates surface gravity of celestial bodies. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/19/18 
+\end{DoxyDate}

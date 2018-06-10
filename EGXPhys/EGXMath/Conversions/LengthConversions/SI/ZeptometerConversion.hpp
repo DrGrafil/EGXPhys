@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Zeptometer Zeptometer
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Zeptometer Zeptometer
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Zeptometer-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Zeptometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Zeptometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Zeptometer-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Zeptometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Zeptometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Zeptometer-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Zeptometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Zeptometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Zeptometer-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Zeptometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Zeptometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Zeptometer-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Zeptometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Zeptometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Zeptometer-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Zeptometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Zeptometer
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Zeptometer-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Zeptometer-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-SI
     /// @{
     /**
     *   @brief Converts a length in zeptometers to meters.
@@ -315,7 +315,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Zeptometer-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-Non-SI
     /// @{
 
     /**
@@ -383,7 +383,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Zeptometer-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-Imperial
     /// @{
 
     /**
@@ -458,7 +458,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Zeptometer-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-Nautical
     /// @{
 
     /**
@@ -486,7 +486,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Zeptometer-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Zeptometer-Surveyors
     /// @{
 
     /**

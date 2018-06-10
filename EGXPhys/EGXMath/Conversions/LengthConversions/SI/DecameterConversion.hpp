@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Decameter Decameter
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Decameter Decameter
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Decameter-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Decameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Decameter-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Decameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Decameter-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Decameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Decameter-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Decameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Decameter-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Decameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Decameter-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Decameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Decameter-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Decameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Decameter-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Decameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Decameter-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Decameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Decameter-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Decameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Decameter-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Decameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Decameter-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Decameter
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Decameter-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Decameter-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Decameter-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Decameter-SI
     /// @{
     /**
     *   @brief Converts a length in decameters to meters.
@@ -314,7 +314,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Decameter-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Decameter-Non-SI
     /// @{
 
     /**
@@ -382,7 +382,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Decameter-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Decameter-Imperial
     /// @{
 
     /**
@@ -457,7 +457,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Decameter-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Decameter-Nautical
     /// @{
 
     /**
@@ -485,7 +485,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Decameter-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Decameter-Surveyors
     /// @{
 
     /**

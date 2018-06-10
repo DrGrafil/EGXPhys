@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs uzitzs
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-uzitzs uzitzs
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-uzitzs-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-uzitzs
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-uzitzs-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-uzitzs
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-uzitzs-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-uzitzs
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-uzitzs-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-uzitzs
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-uzitzs-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-uzitzs
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-uzitzs-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-uzitzs
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-uzitzs-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-uzitzs-SI
     /// @{
     /**
     *   @brief Converts a length in ulongxxits to meters.
@@ -325,7 +325,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-uzitzs-Non-SI
     /// @{
 
     /**
@@ -393,7 +393,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-uzitzs-Imperial
     /// @{
 
     /**
@@ -468,7 +468,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-uzitzs-Nautical
     /// @{
 
     /**
@@ -496,7 +496,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-uzitzs-Surveyors
     /// @{
 
     /**

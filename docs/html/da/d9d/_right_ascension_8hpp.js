@@ -1,0 +1,7 @@
+var _right_ascension_8hpp =
+[
+    [ "DegreeToRightAscension", "da/d9d/_right_ascension_8hpp.html#ga6fdbd35a030d278f396496899a1c236f", null ],
+    [ "RadianToRightAscension", "da/d9d/_right_ascension_8hpp.html#ga624dd87144a17d19d0100500c34da978", null ],
+    [ "RightAscensionToDegree", "da/d9d/_right_ascension_8hpp.html#ga27ba790eb8358535613d3b32f97d9e3a", null ],
+    [ "RightAscensionToRadian", "da/d9d/_right_ascension_8hpp.html#ga63a3103990c95078443e39a5b487ab0d", null ]
+];

@@ -1,0 +1,34 @@
+\hypertarget{_declination_8inl}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Declination.inl File Reference}
+\label{_declination_8inl}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Declination.\+inl@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Declination.\+inl}}
+
+
+declination calculations  
+
+
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_e_g_x_phys}{E\+G\+X\+Phys}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_declination_ga0c90ea1406801810378d9618553c9a9b}{E\+G\+X\+Phys\+::\+Declination\+To\+Degree}} (const T integer\+Degree, const T arcminute, const T arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts declination $(\alpha_{DE})$ from degrees $(DE_{deg})$, arcminutes $(DE_{arcmin})$ and arcseconds $(DE_{arcsec})$ to (decimal) degrees. \[\alpha_{deg}=DE_{deg} + \frac{DE_{arcmin}}{60} + \frac{DE_{arcsec}}{3600} \] See \href{https://en.wikipedia.org/wiki/Declination,}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Declination,} \href{https://en.wikipedia.org/wiki/Geographic_coordinate_conversion}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Geographic\+\_\+coordinate\+\_\+conversion} and \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_declination_ga384229c66d2ea6249c9609caa1ec9354}{E\+G\+X\+Phys\+::\+Declination\+To\+Radian}} (const T integer\+Degree, const T arcminute, const T arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts declination $(\alpha_{DE})$ from degrees $(DE_{deg})$, arcminutes $(DE_{arcmin})$ and arcseconds $(DE_{arcsec})$ to radians. \[\alpha_{rad}=\frac{\pi}{180}(DE_{deg} + \frac{DE_{arcmin}}{60} + \frac{DE_{arcsec}}{3600})\] See \href{https://en.wikipedia.org/wiki/Declination,}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Declination,} \href{https://en.wikipedia.org/wiki/Geographic_coordinate_conversion}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Geographic\+\_\+coordinate\+\_\+conversion} and \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_declination_gaff645fbd9a1de42e9cdbfb37fdac78c9}{E\+G\+X\+Phys\+::\+Degree\+To\+Declination}} (const T decimal\+Degree, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to declination in degrees $(DE_{deg})$, arcminutes $(DE_{arcmin})$ and arcseconds $(DE_{arcsec})$ (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \[DE_{deg}=trun(\alpha_{deg})\] \[DE_{arcmin}=trun(60 * |\alpha_{deg} - degree|)\] \[DE_{arcsec}=60 * ((60 * |\alpha_{deg} - degree|)-arcminute)\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_declination_gad12d59741171420fc420f3c469df4a82}{E\+G\+X\+Phys\+::\+Radian\+To\+Declination}} (const T radian, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
+\begin{DoxyCompactList}\small\item\em Converts an angle in radian to declination in degrees $(DE_{deg})$, arcminutes $(DE_{arcmin})$ and arcseconds $(DE_{arcsec})$ (D\+MS). ${DD}^{\circ}{MM}'{SS.SS}''$ format. \[DE_{deg}=trun(\frac{180}{\pi}\alpha_{rad})\] \[DE_{arcmin}=trun(60 * |\frac{180}{\pi}\alpha_{rad} - degree|)\] \[DE_{arcsec}=60 * ((60 * |\frac{180}{\pi}\alpha_{rad} - degree|)-arcminute)\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+declination calculations 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+3/29/18 
+\end{DoxyDate}

@@ -1,0 +1,31 @@
+\hypertarget{_spheroid_flattening_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Spheroid/\+Spheroid\+Flattening.hpp File Reference}
+\label{_spheroid_flattening_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Spheroid/\+Spheroid\+Flattening.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Geometry/3\+D/\+Spheroid/\+Spheroid\+Flattening.\+hpp}}
+
+
+Defines functions relating to flattening of a spheroid.  
+
+
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Spheroid\+Flattening.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga05e3be91f5f7fbaa9371687aa3834179}{E\+G\+X\+Math\+::\+Spheroid\+Flattening}} (const T equatorial\+Radius\+Inm, const T polar\+Radius\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a spheroid with equatorial radius, $a$, and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga9822b6e1025edbf7d272949547c53511}{E\+G\+X\+Math\+::\+Spheroid\+Flattening}} (const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a spheroid with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga9769747e144e2209b7927632b854c31f}{E\+G\+X\+Math\+::\+Spheroid\+Oblateness}} (const T equatorial\+Radius\+Inm, const T polar\+Radius\+Inm)
+\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a spheroid with equatorial radius, $a$, and polar radius, $c$\+: \[ f =\begin{cases} \frac{a-c}{a}{} & oblate \\ \frac{c-a}{a} & prolate \end{cases} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_geometry-3_d-_spheroid-_flattening_ga486adfc58b047197daf87f50b2039ca7}{E\+G\+X\+Math\+::\+Spheroid\+Oblateness}} (const T eccentricity)
+\begin{DoxyCompactList}\small\item\em Finds the oblateness (flattening), $f$, of a spheroid with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Defines functions relating to flattening of a spheroid. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4/20/18 
+\end{DoxyDate}

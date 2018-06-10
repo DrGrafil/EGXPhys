@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Exameter Exameter
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Exameter Exameter
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Exameter-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Exameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Exameter-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Exameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Exameter-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Exameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Exameter-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Exameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Exameter-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Exameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Exameter-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Exameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Exameter-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Exameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Exameter-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Exameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Exameter-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Exameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Exameter-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Exameter
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Exameter-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Exameter
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Exameter-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Exameter
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Exameter-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Exameter-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Exameter-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Exameter-SI
     /// @{
     /**
     *   @brief Converts a length in exameters to meters.
@@ -315,7 +315,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Exameter-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Exameter-Non-SI
     /// @{
 
     /**
@@ -383,7 +383,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Exameter-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Exameter-Imperial
     /// @{
 
     /**
@@ -458,7 +458,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Exameter-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Exameter-Nautical
     /// @{
 
     /**
@@ -486,7 +486,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Exameter-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Exameter-Surveyors
     /// @{
 
     /**

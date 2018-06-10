@@ -1,13 +1,12 @@
-/// @file EGXMath/Conversions/LengthConversions/SI/LengthConversions.hpp
+/// @file EGXMath/Conversions/LengthConversions/SI/SIConversions.hpp
 ///
-/// @brief Converts length measurements from one unit into various other units such as meters, parsecs, light years.
+/// @brief Converts length measurements from SI units into various other units such as meters, parsecs, light years.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 5/31/18
+/// @date 6/10/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions Length Conversions
-/// @ingroup EGXMath-Conversions
-
+/// @defgroup EGXMath-Conversions-LengthConversions-SI From SI Unit
+/// @ingroup EGXMath-Conversions-LengthConversions
 
 //=================================
 // Header guard

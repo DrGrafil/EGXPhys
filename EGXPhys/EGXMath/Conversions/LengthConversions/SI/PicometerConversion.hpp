@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Picometer Picometer
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Picometer Picometer
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Picometer-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Picometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Picometer-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Picometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Picometer-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Picometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Picometer-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Picometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Picometer-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Picometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Picometer-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Picometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Picometer-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Picometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Picometer-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Picometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Picometer-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Picometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Picometer-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Picometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Picometer-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Picometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Picometer-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Picometer
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Picometer-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Picometer-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Picometer-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Picometer-SI
     /// @{
     /**
     *   @brief Converts a length in picometers to meters.
@@ -312,7 +312,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Picometer-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Picometer-Non-SI
     /// @{
 
     /**
@@ -377,7 +377,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Picometer-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Picometer-Imperial
     /// @{
 
     /**
@@ -452,7 +452,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Picometer-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Picometer-Nautical
     /// @{
 
     /**
@@ -480,7 +480,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Picometer-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Picometer-Surveyors
     /// @{
 
     /**

@@ -5,26 +5,26 @@
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Micrometer Micrometer
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Micrometer Micrometer
+/// @ingroup EGXMath-Conversions-LengthConversions-SI
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Micrometer-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Micrometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Micrometer-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Micrometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Micrometer-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Micrometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Micrometer-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Micrometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Micrometer-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Micrometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Micrometer-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Micrometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Micrometer-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Micrometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Micrometer-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Micrometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Micrometer-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Micrometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Micrometer-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Micrometer
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Micrometer-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Micrometer
+/// @defgroup EGXMath-Conversions-LengthConversions-SI-Micrometer-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-SI-Micrometer
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Micrometer-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-SI-Micrometer-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Micrometer-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Micrometer-SI
     /// @{
     /**
     *   @brief Converts a length in micrometers to meters.
@@ -313,7 +313,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Micrometer-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Micrometer-Non-SI
     /// @{
 
     /**
@@ -381,7 +381,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Micrometer-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Micrometer-Imperial
     /// @{
 
     /**
@@ -456,7 +456,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Micrometer-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Micrometer-Nautical
     /// @{
 
     /**
@@ -484,7 +484,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Micrometer-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-SI-Micrometer-Surveyors
     /// @{
 
     /**
