@@ -298,7 +298,7 @@ namespace EGXMath
     T PicometerToZeptometer(const T lengthInPicometer);
 
     /**
-    *   @brief Converts a length in picometers to Yoctometers.
+    *   @brief Converts a length in picometers to yoctometers.
     *		\f[ l_{ym}=l_{pm} * 10^{12} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
@@ -508,4 +508,4 @@ namespace EGXMath
 	/// @}
 } //namespace EGXMath
 
-#include "TemplateConversion.inl"
+#include "PicometerConversion.inl"

@@ -300,7 +300,7 @@ namespace EGXMath
     T NanometerToZeptometer(const T lengthInNanometer);
 
     /**
-    *   @brief Converts a length in nanometers to Yoctometers.
+    *   @brief Converts a length in nanometers to yoctometers.
     *		\f[ l_{ym}=l_{nm} * 10^{15} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length

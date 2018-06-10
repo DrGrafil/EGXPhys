@@ -300,7 +300,7 @@ namespace EGXMath
     T AttometerToZeptometer(const T lengthInAttometer);
 
     /**
-    *   @brief Converts a length in attometers to Yoctometers.
+    *   @brief Converts a length in attometers to yoctometers.
     *		\f[ l_{ym}=l_{am} * 10^{6} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length

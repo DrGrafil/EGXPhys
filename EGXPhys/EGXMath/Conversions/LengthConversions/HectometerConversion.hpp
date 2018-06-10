@@ -300,7 +300,7 @@ namespace EGXMath
     T HectometerToZeptometer(const T lengthInHectometer);
 
     /**
-    *   @brief Converts a length in hectometers to Yoctometers.
+    *   @brief Converts a length in hectometers to yoctometers.
     *		\f[ l_{ym}=l_{hm} * 10^{26} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length

@@ -301,7 +301,7 @@ namespace EGXMath
     T CentimeterToZeptometer(const T lengthInCentimeter);
 
     /**
-    *   @brief Converts a length in centimeters to Yoctometers.
+    *   @brief Converts a length in centimeters to yoctometers.
     *		\f[ l_{ym}=l_{cm} * 10^{22} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length

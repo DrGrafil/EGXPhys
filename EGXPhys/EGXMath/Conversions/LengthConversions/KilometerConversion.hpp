@@ -301,7 +301,7 @@ namespace EGXMath
     T KilometerToZeptometer(const T lengthInKilometer);
 
     /**
-    *   @brief Converts a length in kilometers to Yoctometers.
+    *   @brief Converts a length in kilometers to yoctometers.
     *		\f[ l_{ym}=l_{km} * 10^{27} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length

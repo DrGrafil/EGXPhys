@@ -299,7 +299,7 @@ namespace EGXMath
     T MicrometerToZeptometer(const T lengthInMicrometer);
 
     /**
-    *   @brief Converts a length in micrometers to Yoctometers.
+    *   @brief Converts a length in micrometers to yoctometers.
     *		\f[ l_{ym}=l_{\mu m} * 10^{18} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length

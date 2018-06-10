@@ -798,9 +798,6 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\YoctometerConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\YottameterConversion.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\ZeptometerConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>

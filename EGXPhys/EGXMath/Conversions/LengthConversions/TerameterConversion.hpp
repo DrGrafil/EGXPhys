@@ -300,7 +300,7 @@ namespace EGXMath
     T TerameterToZeptometer(const T lengthInTerameter);
 
     /**
-    *   @brief Converts a length in terameters to Yoctometers.
+    *   @brief Converts a length in terameters to yoctometers.
     *		\f[ l_{ym}=l_{Tm} * 10^{36} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
@@ -513,4 +513,4 @@ namespace EGXMath
 	/// @}
 } //namespace EGXMath
 
-#include "TemplateConversion.inl"
+#include "TerameterConversion.inl"

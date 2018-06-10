@@ -300,7 +300,7 @@ namespace EGXMath
     T FemtometerToZeptometer(const T lengthInFemtometer);
 
     /**
-    *   @brief Converts a length in femtometers to Yoctometers.
+    *   @brief Converts a length in femtometers to yoctometers.
     *		\f[ l_{ym}=l_{fm} * 10^{9} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length

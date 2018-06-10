@@ -300,7 +300,7 @@ namespace EGXMath
     T DecameterToZeptometer(const T lengthInDecameter);
 
     /**
-    *   @brief Converts a length in decameters to Yoctometers.
+    *   @brief Converts a length in decameters to yoctometers.
     *		\f[ l_{ym}=l_{dam} * 10^{25} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
