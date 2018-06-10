@@ -513,4 +513,4 @@ namespace EGXMath
 	/// @}
 } //namespace EGXMath
 
-#include "TemplateConversion.inl"
+#include "MegameterConversion.inl"
