@@ -786,6 +786,27 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\NanometerConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\PetameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\PicometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TerameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\YoctometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\YottameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\ZeptometerConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\ZettameterConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1103,6 +1124,27 @@
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\NanometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\PetameterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\PicometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TerameterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\YoctometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\YottameterConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\ZeptometerConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\ZettameterConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
   </ItemGroup>
