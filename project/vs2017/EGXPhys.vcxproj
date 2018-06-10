@@ -223,7 +223,6 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\YottameterConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZeptometerConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZettameterConversion.hpp" />
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.hpp" />
@@ -432,7 +431,6 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\YottameterConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZeptometerConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZettameterConversion.inl" />
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\GaussianFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\LogFunctions.inl" />

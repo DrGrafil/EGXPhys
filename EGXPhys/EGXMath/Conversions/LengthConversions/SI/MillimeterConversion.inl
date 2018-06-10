@@ -95,11 +95,6 @@ namespace EGXMath {
     }
 
     template<typename T>
-    T MillimeterToMillimeter(const T lengthInMillimeter) {
-        return MillimeterToMeter(lengthInMillimeter) * (T)1e3;
-    }
-
-    template<typename T>
     T MillimeterToMicrometer(const T lengthInMillimeter) {
         return MillimeterToMeter(lengthInMillimeter) * (T)1e6;
     }

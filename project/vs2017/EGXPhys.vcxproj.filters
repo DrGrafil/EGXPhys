@@ -753,9 +753,6 @@
     <ClInclude Include="..\..\tests\Electrodynamics\Blackbody\BlackBodyTest.hpp">
       <Filter>Tests\Electrodynamics\BlackBody</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\LengthConversions.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </ClInclude>
@@ -1098,9 +1095,6 @@
     </None>
     <None Include="..\..\EGXPhys\Electrodynamics\BlackBody\StefanBoltzmannLaw.inl">
       <Filter>EGXPhys\Electrodynamics\BlackBody</Filter>
-    </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\AttometerConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\SI</Filter>
