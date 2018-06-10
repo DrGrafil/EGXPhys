@@ -1,6 +1,6 @@
-/// @file EGXMath/Conversions/DistanceConversions/uzitzsConversion.inl
+/// @file EGXMath/Conversions/DistanceConversions/ZeptometerConversion.inl
 ///
-/// @brief Implimentation of uzitzs conversions
+/// @brief Implimentation of Zeptometer conversions
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
@@ -10,213 +10,208 @@ namespace EGXMath {
     //Astronomical
 
     template<typename T>
-    T uzitzsToAstronomicalUnit(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)auInMeters;
+    T ZeptometerToAstronomicalUnit(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) / (T)auInMeters;
     }
 
     template<typename T>
-    T uzitzsToLightYear(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)lightYearInMeters;
+    T ZeptometerToLightYear(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) / (T)lightYearInMeters;
     }
 
     template<typename T>
-    T uzitzsToParsec(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)parsecInMeters;
+    T ZeptometerToParsec(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) / (T)parsecInMeters;
     }
 
 
     //SI
 
     template<typename T>
-    T uzitzsToMeter(const T lengthInuzitzs) {
-        return;
+    T ZeptometerToMeter(const T lengthInZeptometer) {
+        return lengthInZeptometer * (T)1e-21;
     }
 
     template<typename T>
-    T uzitzsToYottameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-24;
-    }
-
-
-    template<typename T>
-    T uzitzsToZettameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-21;
-    }
-
-    template<typename T>
-    T uzitzsToExameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-18;
-    }
-
-    template<typename T>
-    T uzitzsToPetameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-15;
+    T ZeptometerToYottameter(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e-24;
     }
 
 
     template<typename T>
-    T uzitzsToTerameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-12;
+    T ZeptometerToZettameter(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e-21;
     }
 
     template<typename T>
-    T uzitzsToGigameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-9;
+    T ZeptometerToExameter(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e-18;
     }
 
     template<typename T>
-    T uzitzsToMegameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-6;
+    T ZeptometerToPetameter(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e-15;
+    }
+
+
+    template<typename T>
+    T ZeptometerToTerameter(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e-12;
     }
 
     template<typename T>
-    T uzitzsToKilometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-3;
+    T ZeptometerToGigameter(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e-9;
     }
 
     template<typename T>
-    T uzitzsToHectometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-2;
+    T ZeptometerToMegameter(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e-6;
     }
 
     template<typename T>
-    T uzitzsToDecameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-1;
+    T ZeptometerToKilometer(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e-3;
     }
 
     template<typename T>
-    T uzitzsToDecimeter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e1;
+    T ZeptometerToHectometer(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e-2;
     }
 
     template<typename T>
-    T uzitzsToCentimeter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e2;
+    T ZeptometerToDecameter(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e-1;
     }
 
     template<typename T>
-    T uzitzsToMillimeter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e3;
+    T ZeptometerToDecimeter(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e1;
     }
 
     template<typename T>
-    T uzitzsToMicrometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e6;
+    T ZeptometerToCentimeter(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e2;
     }
 
     template<typename T>
-    T uzitzsToNanometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e9;
+    T ZeptometerToMillimeter(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e3;
     }
 
     template<typename T>
-    T uzitzsToPicometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e12;
+    T ZeptometerToMicrometer(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e6;
     }
 
     template<typename T>
-    T uzitzsToFemtometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e15;
+    T ZeptometerToNanometer(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e9;
     }
 
     template<typename T>
-    T uzitzsToAttometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e18;
+    T ZeptometerToPicometer(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e12;
     }
 
     template<typename T>
-    T uzitzsToZeptometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e21;
+    T ZeptometerToFemtometer(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e15;
     }
 
     template<typename T>
-    T uzitzsToYoctometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e24;
+    T ZeptometerToAttometer(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e18;
+    }
+
+    template<typename T>
+    T ZeptometerToYoctometer(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) * (T)1e24;
     }
 
 
 
 
     template<typename T>
-    T uzitzsToAngstrom(const T lengthInuzitzs) {
-        return uzitzsToPicometer(lengthInuzitzs) * (T)1e-2;
+    T ZeptometerToAngstrom(const T lengthInZeptometer) {
+        return ZeptometerToPicometer(lengthInZeptometer) * (T)1e-2;
     }
 
     template<typename T>
-    T uzitzsToFermi(const T lengthInuzitzs) {
-        return uzitzsTofemtometer(lengthInuzitzs);
+    T ZeptometerToFermi(const T lengthInZeptometer) {
+        return ZeptometerTofemtometer(lengthInZeptometer);
     }
 
     template<typename T>
-    T uzitzsToMicron(const T lengthInuzitzs) {
-        return uzitzsToMicrometer(lengthInuzitzs);
+    T ZeptometerToMicron(const T lengthInZeptometer) {
+        return ZeptometerToMicrometer(lengthInZeptometer);
     }
 
     template<typename T>
-    T uzitzsToCuXUnit(const T lengthInuzitzs) {
+    T ZeptometerToCuXUnit(const T lengthInZeptometer) {
         
-        return uzitzsToMeter(lengthInuzitzs) / (T)CuXUnit;
+        return ZeptometerToMeter(lengthInZeptometer) / (T)CuXUnit;
     }
 
     template<typename T>
-    T uzitzsToMoXUnit(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)MoXUnit;
+    T ZeptometerToMoXUnit(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) / (T)MoXUnit;
     }
 
 
     //Imperial
 
     template<typename T>
-    T uzitzsToMile(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)63360.0;
+    T ZeptometerToMile(const T lengthInZeptometer) {
+        return ZeptometerToInch(lengthInZeptometer) / (T)63360.0;
     }
 
     template<typename T>
-    T uzitzsToYard(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)36.0;
+    T ZeptometerToYard(const T lengthInZeptometer) {
+        return ZeptometerToInch(lengthInZeptometer) / (T)36.0;
     }
 
     template<typename T>
-    T uzitzsToFoot(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)12.0;
+    T ZeptometerToFoot(const T lengthInZeptometer) {
+        return ZeptometerToInch(lengthInZeptometer) / (T)12.0;
     }
 
     template<typename T>
-    T uzitzsToInch(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)0.0254;
+    T ZeptometerToInch(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) / (T)0.0254;
     }
 
     template<typename T>
-    T uzitzsToMil(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) * (T)1000.0;
+    T ZeptometerToMil(const T lengthInZeptometer) {
+        return ZeptometerToInch(lengthInZeptometer) * (T)1000.0;
     }
 
     template<typename T>
-    T uzitzsToThou(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) * (T)1000.0;
+    T ZeptometerToThou(const T lengthInZeptometer) {
+        return ZeptometerToInch(lengthInZeptometer) * (T)1000.0;
     }
 
     //Nautical
 
     template<typename T>
-    T uzitzsToNauticalMile(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)1852.0;
+    T ZeptometerToNauticalMile(const T lengthInZeptometer) {
+        return ZeptometerToMeter(lengthInZeptometer) / (T)1852.0;
     }
 
     template<typename T>
-    T uzitzsToFathom(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)72.0;
+    T ZeptometerToFathom(const T lengthInZeptometer) {
+        return ZeptometerToInch(lengthInZeptometer) / (T)72.0;
     }
 
     //Survyors
     template<typename T>
-    T uzitzsToRod(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)198.0;
+    T ZeptometerToRod(const T lengthInZeptometer) {
+        return ZeptometerToInch(lengthInZeptometer) / (T)198.0;
     }
 
     template<typename T>
-    T uzitzsToChain(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)792.0;
+    T ZeptometerToChain(const T lengthInZeptometer) {
+        return ZeptometerToInch(lengthInZeptometer) / (T)792.0;
     }
 
 }//namespace EGXPhys
