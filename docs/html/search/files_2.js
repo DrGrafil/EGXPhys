@@ -4,6 +4,8 @@ var searchData=
   ['absolutemagnitude_2einl',['AbsoluteMagnitude.inl',['../d3/d9c/_absolute_magnitude_8inl.html',1,'']]],
   ['acoustics_2ehpp',['Acoustics.hpp',['../dc/db7/_acoustics_8hpp.html',1,'']]],
   ['acousticsconstants_2ehpp',['AcousticsConstants.hpp',['../d4/ddd/_acoustics_constants_8hpp.html',1,'']]],
+  ['angstromconversion_2ehpp',['AngstromConversion.hpp',['../d6/d3b/_angstrom_conversion_8hpp.html',1,'']]],
+  ['angstromconversion_2einl',['AngstromConversion.inl',['../d9/d32/_angstrom_conversion_8inl.html',1,'']]],
   ['angularacceleration_2ehpp',['AngularAcceleration.hpp',['../d3/dd0/_angular_acceleration_8hpp.html',1,'']]],
   ['angularacceleration_2einl',['AngularAcceleration.inl',['../d6/d15/_angular_acceleration_8inl.html',1,'']]],
   ['apoapsis_2ehpp',['Apoapsis.hpp',['../dc/db4/_apoapsis_8hpp.html',1,'']]],

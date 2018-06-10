@@ -24,7 +24,6 @@ var _millimeter_conversion_8inl =
     [ "MillimeterToMicron", "d2/d10/_millimeter_conversion_8inl.html#ga47eac74d2eeec20afc801e61d53f67a0", null ],
     [ "MillimeterToMil", "d2/d10/_millimeter_conversion_8inl.html#gaf811317f4ce575df4ff0329491e92fac", null ],
     [ "MillimeterToMile", "d2/d10/_millimeter_conversion_8inl.html#ga8a11dcd8f7866189b30e01d65e003e2d", null ],
-    [ "MillimeterToMillimeter", "d2/d10/_millimeter_conversion_8inl.html#a369bc419dd23961cccbf8327490b8542", null ],
     [ "MillimeterToMoXUnit", "d2/d10/_millimeter_conversion_8inl.html#ga1f0be98bc702f46a69579b27e05a2439", null ],
     [ "MillimeterToNanometer", "d2/d10/_millimeter_conversion_8inl.html#ga4ed79a00a348e87b09e55e34d852841c", null ],
     [ "MillimeterToNauticalMile", "d2/d10/_millimeter_conversion_8inl.html#ga05ed5fb1300287763d8927ee90315808", null ],

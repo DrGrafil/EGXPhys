@@ -26,7 +26,6 @@ var _nanometer_conversion_8inl =
     [ "NanometerToMile", "d3/d08/_nanometer_conversion_8inl.html#gadbf1e269e14b8afcd128aa5534f28a5e", null ],
     [ "NanometerToMillimeter", "d3/d08/_nanometer_conversion_8inl.html#gac8b870837f9a0213c8383079437e8cc6", null ],
     [ "NanometerToMoXUnit", "d3/d08/_nanometer_conversion_8inl.html#gacc6d7fa95c35687718c816df3c95c7b5", null ],
-    [ "NanometerToNanometer", "d3/d08/_nanometer_conversion_8inl.html#a94938f6502431e4f71960a224890ce1a", null ],
     [ "NanometerToNauticalMile", "d3/d08/_nanometer_conversion_8inl.html#gac428c495bff87ba53c856395a7410fc3", null ],
     [ "NanometerToParsec", "d3/d08/_nanometer_conversion_8inl.html#ga20e55ba8ac39aaf9b27c4092266cdcee", null ],
     [ "NanometerToPetameter", "d3/d08/_nanometer_conversion_8inl.html#ga61c4ec1200cb2e909920c108d676d6e6", null ],

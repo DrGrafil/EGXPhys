@@ -1,6 +1,8 @@
 var searchData=
 [
   ['integer_20degree',['Integer Degree',['../dd/ddb/group___e_g_x_math-_conversions-_angle_conversions-_integer_degree.html',1,'']]],
+  ['imperial',['Imperial',['../d5/dcd/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_imperial.html',1,'']]],
+  ['imperial',['Imperial',['../d9/d4f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-uzitzs-_imperial.html',1,'']]],
   ['imperial',['Imperial',['../d6/d3d/group___e_g_x_math-_conversions-_length_conversions-_s_i-_attometer-_imperial.html',1,'']]],
   ['imperial',['Imperial',['../df/da1/group___e_g_x_math-_conversions-_length_conversions-_s_i-_centimeter-_imperial.html',1,'']]],
   ['imperial',['Imperial',['../d0/da7/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decameter-_imperial.html',1,'']]],
