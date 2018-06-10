@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/CentimeterConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/CentimeterConversion.inl
 ///
 /// @brief Implimentation of Centimeter conversions
 /// @author Elliot Grafil (Metex)

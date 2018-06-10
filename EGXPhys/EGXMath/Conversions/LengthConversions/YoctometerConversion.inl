@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/YoctometerConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/YoctometerConversion.inl
 ///
 /// @brief Implimentation of Yoctometer conversions
 /// @author Elliot Grafil (Metex)

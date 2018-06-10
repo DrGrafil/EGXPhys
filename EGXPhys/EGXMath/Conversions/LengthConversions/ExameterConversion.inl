@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/ExameterConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/ExameterConversion.inl
 ///
 /// @brief Implimentation of Exameter conversions
 /// @author Elliot Grafil (Metex)

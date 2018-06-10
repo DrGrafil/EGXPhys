@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/ZeptometerConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/ZeptometerConversion.inl
 ///
 /// @brief Implimentation of Zeptometer conversions
 /// @author Elliot Grafil (Metex)

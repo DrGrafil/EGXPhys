@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/AttometerConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/AttometerConversion.inl
 ///
 /// @brief Implimentation of Attometer conversions
 /// @author Elliot Grafil (Metex)

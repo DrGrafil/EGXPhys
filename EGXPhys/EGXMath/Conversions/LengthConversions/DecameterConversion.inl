@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/DecameterConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/DecameterConversion.inl
 ///
 /// @brief Implimentation of Decameter conversions
 /// @author Elliot Grafil (Metex)

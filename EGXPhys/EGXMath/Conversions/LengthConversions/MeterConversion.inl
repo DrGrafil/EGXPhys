@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/MeterConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/MeterConversion.inl
 ///
 /// @brief Implimentation of meters conversions
 /// @author Elliot Grafil (Metex)

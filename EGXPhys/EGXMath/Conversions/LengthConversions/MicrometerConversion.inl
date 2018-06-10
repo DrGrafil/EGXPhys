@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/MicrometerConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/MicrometerConversion.inl
 ///
 /// @brief Implimentation of Micrometer conversions
 /// @author Elliot Grafil (Metex)

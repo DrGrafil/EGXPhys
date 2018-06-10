@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/PetameterConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/PetameterConversion.inl
 ///
 /// @brief Implimentation of Petameter conversions
 /// @author Elliot Grafil (Metex)

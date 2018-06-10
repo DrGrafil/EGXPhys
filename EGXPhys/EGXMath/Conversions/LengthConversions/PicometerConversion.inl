@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/PicometerConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/PicometerConversion.inl
 ///
 /// @brief Implimentation of Picometer conversions
 /// @author Elliot Grafil (Metex)

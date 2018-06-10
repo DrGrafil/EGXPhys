@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/uzitzsConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/uzitzsConversion.inl
 ///
 /// @brief Implimentation of uzitzs conversions
 /// @author Elliot Grafil (Metex)

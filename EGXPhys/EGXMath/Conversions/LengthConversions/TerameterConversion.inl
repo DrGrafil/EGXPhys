@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/TerameterConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/TerameterConversion.inl
 ///
 /// @brief Implimentation of Terameter conversions
 /// @author Elliot Grafil (Metex)

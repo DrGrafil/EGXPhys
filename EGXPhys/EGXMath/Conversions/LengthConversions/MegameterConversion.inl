@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/MegameterConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/MegameterConversion.inl
 ///
 /// @brief Implimentation of Megameter conversions
 /// @author Elliot Grafil (Metex)

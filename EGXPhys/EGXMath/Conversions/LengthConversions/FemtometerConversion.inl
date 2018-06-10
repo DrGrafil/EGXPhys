@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/FemtometerConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/FemtometerConversion.inl
 ///
 /// @brief Implimentation of Femtometer conversions
 /// @author Elliot Grafil (Metex)

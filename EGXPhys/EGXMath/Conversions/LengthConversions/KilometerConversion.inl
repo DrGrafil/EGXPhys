@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/KilometerConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/KilometerConversion.inl
 ///
 /// @brief Implimentation of Kilometer conversions
 /// @author Elliot Grafil (Metex)

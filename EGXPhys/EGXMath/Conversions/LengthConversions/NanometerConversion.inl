@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/NanometerConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/NanometerConversion.inl
 ///
 /// @brief Implimentation of Nanometer conversions
 /// @author Elliot Grafil (Metex)

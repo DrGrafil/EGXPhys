@@ -1,4 +1,4 @@
-/// @file EGXMath/Conversions/DistanceConversions/HectometerConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/HectometerConversion.inl
 ///
 /// @brief Implimentation of Hectometer conversions
 /// @author Elliot Grafil (Metex)
