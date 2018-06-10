@@ -14,6 +14,7 @@ var searchData=
   ['imperial',['Imperial',['../group___e_g_x_math-_conversions-_length_conversions-_meter-_imperial.html',1,'']]],
   ['imperial',['Imperial',['../group___e_g_x_math-_conversions-_length_conversions-_micrometer-_imperial.html',1,'']]],
   ['imperial',['Imperial',['../group___e_g_x_math-_conversions-_length_conversions-_millimeter-_imperial.html',1,'']]],
+  ['imperial',['Imperial',['../group___e_g_x_math-_conversions-_length_conversions-_nanometer-_imperial.html',1,'']]],
   ['imperial',['Imperial',['../group___e_g_x_math-_conversions-_length_conversions-uzitzs-_imperial.html',1,'']]],
   ['inertia',['Inertia',['../group___e_g_x_math-_geometry-2_d-_ellipse-_inertia.html',1,'']]],
   ['inertia',['Inertia',['../group___e_g_x_math-_geometry-3_d-_ellipsoid-_inertia.html',1,'']]],

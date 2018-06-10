@@ -214,6 +214,7 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MicrometerConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MillimeterConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\NanometerConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp" />
@@ -415,6 +416,7 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MeterConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MicrometerConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\MillimeterConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\NanometerConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\TemplateConversionSI.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\GaussianFunctions.inl" />
