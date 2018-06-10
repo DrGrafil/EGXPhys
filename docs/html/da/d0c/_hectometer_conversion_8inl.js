@@ -14,7 +14,6 @@ var _hectometer_conversion_8inl =
     [ "HectometerToFermi", "da/d0c/_hectometer_conversion_8inl.html#gabd26977f3d5ad9d0560afb10be63a598", null ],
     [ "HectometerToFoot", "da/d0c/_hectometer_conversion_8inl.html#ga8b57e6e5bef662cc96b8b7dde68659a6", null ],
     [ "HectometerToGigameter", "da/d0c/_hectometer_conversion_8inl.html#ga506846099a8b61bcc3d1cf761dc4cfc5", null ],
-    [ "HectometerToHectometer", "da/d0c/_hectometer_conversion_8inl.html#a171e991a2a6cc5dbc6cf542416bede87", null ],
     [ "HectometerToInch", "da/d0c/_hectometer_conversion_8inl.html#ga21fd4a7228c229b0b229fd0fab224998", null ],
     [ "HectometerToKilometer", "da/d0c/_hectometer_conversion_8inl.html#ga38aeefced1e25e531c306bae511786bb", null ],
     [ "HectometerToLightYear", "da/d0c/_hectometer_conversion_8inl.html#ga71004aaba27ec49989b80e41e2075376", null ],

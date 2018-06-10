@@ -100,11 +100,6 @@ namespace EGXMath {
     }
 
     template<typename T>
-    T MicrometerToMicrometer(const T lengthInMicrometer) {
-        return MicrometerToMeter(lengthInMicrometer) * (T)1e6;
-    }
-
-    template<typename T>
     T MicrometerToNanometer(const T lengthInMicrometer) {
         return MicrometerToMeter(lengthInMicrometer) * (T)1e9;
     }

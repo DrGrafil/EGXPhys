@@ -16,7 +16,6 @@ var _kilometer_conversion_8inl =
     [ "KilometerToGigameter", "d3/d89/_kilometer_conversion_8inl.html#gafab6496ea68973d69b855d445c8a62a8", null ],
     [ "KilometerToHectometer", "d3/d89/_kilometer_conversion_8inl.html#ga43aeeda4346af2ec10e749d076d38bc3", null ],
     [ "KilometerToInch", "d3/d89/_kilometer_conversion_8inl.html#ga6f1d41be3b2039495abff4f256148aa7", null ],
-    [ "KilometerToKilometer", "d3/d89/_kilometer_conversion_8inl.html#a44269182ca8565a216ba948b01846c30", null ],
     [ "KilometerToLightYear", "d3/d89/_kilometer_conversion_8inl.html#ga265181afd822c061f51a157da711c0c5", null ],
     [ "KilometerToMegameter", "d3/d89/_kilometer_conversion_8inl.html#gacfeaef9cf345a9907addb7989eb11034", null ],
     [ "KilometerToMeter", "d3/d89/_kilometer_conversion_8inl.html#ga0c3c04124b670e73baa39fb7c9ed5846", null ],

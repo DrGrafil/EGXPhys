@@ -85,11 +85,6 @@ namespace EGXMath {
     }
 
     template<typename T>
-    T DecimeterToDecimeter(const T lengthInDecimeter) {
-        return DecimeterToMeter(lengthInDecimeter) * (T)1e1;
-    }
-
-    template<typename T>
     T DecimeterToCentimeter(const T lengthInDecimeter) {
         return DecimeterToMeter(lengthInDecimeter) * (T)1e2;
     }

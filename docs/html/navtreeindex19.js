@@ -1,9 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"dc/d23/group___n_i_s_t_const-_fine_structure_constant.html#ga67cf20054caf1e81add883470b89db51":[1,2,2,6,0],
-"dc/d23/group___n_i_s_t_const-_fine_structure_constant.html#gab0b66cc7e11797dce82219a024123a12":[1,2,2,6,1],
-"dc/d34/group___e_g_x_math-_conversions-_length_conversions-_s_i-_exameter-_astronomical.html":[1,0,0,2,1,4,0],
-"dc/d34/group___e_g_x_math-_conversions-_length_conversions-_s_i-_exameter-_astronomical.html#ga3867a3c149542e86e92d12147fd6d34e":[1,0,0,2,1,4,0,1],
 "dc/d34/group___e_g_x_math-_conversions-_length_conversions-_s_i-_exameter-_astronomical.html#ga807fef0b23d3c3c9b4a11c26bcd36b6e":[1,0,0,2,1,4,0,2],
 "dc/d34/group___e_g_x_math-_conversions-_length_conversions-_s_i-_exameter-_astronomical.html#gafe75957564bfe2508c37089fece97c41":[1,0,0,2,1,4,0,0],
 "dc/d34/group___n_i_s_t_const-_nuclear_magneton.html":[1,2,1,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX19 =
 "dc/db4/_apoapsis_8hpp.html#ga83e866e2f887ff8eafbc3971d4cab8be":[3,0,0,1,2,17],
 "dc/db4/_apoapsis_8hpp.html#ga89679654fff13176e989536163a27f9d":[3,0,0,1,2,18],
 "dc/db4/_apoapsis_8hpp.html#ga8d8ac5814f653e229e1d463b432ffca5":[3,0,0,1,2,3],
-"dc/db4/_apoapsis_8hpp.html#ga98557a8d49aa129c29e652c4758334d1":[3,0,0,1,2,15]
+"dc/db4/_apoapsis_8hpp.html#ga98557a8d49aa129c29e652c4758334d1":[3,0,0,1,2,15],
+"dc/db4/_apoapsis_8hpp.html#gaa16847ddc5763c327067075dcb6a3353":[3,0,0,1,2,12],
+"dc/db4/_apoapsis_8hpp.html#gaa53ac4e15bc6bc0fecf72eadb7a513e0":[3,0,0,1,2,9],
+"dc/db4/_apoapsis_8hpp.html#gab002349e578241b3514f2212da9a7d48":[3,0,0,1,2,13],
+"dc/db4/_apoapsis_8hpp.html#gab61f3b2d6a5be3f62f5fb6dfdf802014":[3,0,0,1,2,20]
 };

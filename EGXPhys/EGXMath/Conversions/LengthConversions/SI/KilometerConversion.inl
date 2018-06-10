@@ -69,10 +69,6 @@ namespace EGXMath {
         return KilometerToMeter(lengthInKilometer) * (T)1e-6;
     }
 
-    template<typename T>
-    T KilometerToKilometer(const T lengthInKilometer) {
-        return KilometerToMeter(lengthInKilometer) * (T)1e-3;
-    }
 
     template<typename T>
     T KilometerToHectometer(const T lengthInKilometer) {

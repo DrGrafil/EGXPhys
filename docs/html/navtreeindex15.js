@@ -1,8 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"d9/d95/_n_i_s_t_const_8hpp.html#ga62c37aacd4c92bd9df12002810a4036b":[3,0,0,7,0,262],
-"d9/d95/_n_i_s_t_const_8hpp.html#ga62eaf49fce099edf5f51c125dc4dd927":[3,0,0,7,0,104],
-"d9/d95/_n_i_s_t_const_8hpp.html#ga635fe4831055d2787293d19a8134c0c7":[3,0,0,7,0,28],
 "d9/d95/_n_i_s_t_const_8hpp.html#ga6391993dd3564c84df74dd3e9e245f4b":[3,0,0,7,0,224],
 "d9/d95/_n_i_s_t_const_8hpp.html#ga642741fc0aa8b2966b78b252304d521c":[3,0,0,7,0,291],
 "d9/d95/_n_i_s_t_const_8hpp.html#ga6446f567d081069cd3445c5291486891":[3,0,0,7,0,311],
@@ -249,5 +246,8 @@ var NAVTREEINDEX15 =
 "d9/ddc/_relativity_8hpp.html":[3,0,0,11,2],
 "d9/ddc/_relativity_8hpp_source.html":[3,0,0,11,2],
 "d9/ddc/group___e_g_x_phys-_kinetics-_angular_acceleration.html":[1,1,5,0],
-"d9/ddc/group___e_g_x_phys-_kinetics-_angular_acceleration.html#gaf636e9a30f3db4e170829efbf40efbbe":[1,1,5,0,0]
+"d9/ddc/group___e_g_x_phys-_kinetics-_angular_acceleration.html#gaf636e9a30f3db4e170829efbf40efbbe":[1,1,5,0,0],
+"d9/ddd/_decimal_degree_conversion_8inl.html":[3,0,0,3,0,0,2],
+"d9/ddd/_decimal_degree_conversion_8inl.html#afccf9cd779903872887978ab9d79661f":[3,0,0,3,0,0,2,5],
+"d9/ddd/_decimal_degree_conversion_8inl.html#ga0aa7f2f5dbb00cf4ab303421c6e33ccf":[3,0,0,3,0,0,2,6]
 };

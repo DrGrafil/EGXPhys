@@ -1,8 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"d7/d1c/_cartesian_coordinate_conversion_8hpp.html":[3,0,0,3,0,1,0,1],
-"d7/d1c/_cartesian_coordinate_conversion_8hpp.html#ga606ec2b97e0000d9b2a511c0e7b74bc9":[3,0,0,3,0,1,0,1,0],
-"d7/d1c/_cartesian_coordinate_conversion_8hpp_source.html":[3,0,0,3,0,1,0,1],
 "d7/d1c/_yoctometer_conversion_8inl.html":[3,0,0,3,0,2,1,36],
 "d7/d1c/_yoctometer_conversion_8inl.html#ga0266faf325ea86fef13391fb6e792ff8":[3,0,0,3,0,2,1,36,5],
 "d7/d1c/_yoctometer_conversion_8inl.html#ga1189896c419175e90e23cea9d8f6b52a":[3,0,0,3,0,2,1,36,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX11 =
 "d8/d1e/_disk_8inl.html#gad888da52f8bb940380d318a3cac1c048":[3,0,0,3,2,1,9,2],
 "d8/d22/_cube_8hpp_source.html":[3,0,0,3,2,1,1,0],
 "d8/d2a/_q_value_8hpp.html":[3,0,0,2,17],
-"d8/d2a/_q_value_8hpp.html#ga015ade04346d0c6dae4dda8e3aab8cbd":[3,0,0,2,17,6]
+"d8/d2a/_q_value_8hpp.html#ga015ade04346d0c6dae4dda8e3aab8cbd":[3,0,0,2,17,6],
+"d8/d2a/_q_value_8hpp.html#ga2678563115405a056c6bdccc9f2a9232":[3,0,0,2,17,9],
+"d8/d2a/_q_value_8hpp.html#ga3531ffda0c561a601a61f54f5c7780df":[3,0,0,2,17,10],
+"d8/d2a/_q_value_8hpp.html#ga3c4f7ec8e7c44d01d3aee6447a5ab443":[3,0,0,2,17,5]
 };

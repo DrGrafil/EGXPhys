@@ -75,11 +75,6 @@ namespace EGXMath {
     }
 
     template<typename T>
-    T HectometerToHectometer(const T lengthInHectometer) {
-        return HectometerToMeter(lengthInHectometer) * (T)1e-2;
-    }
-
-    template<typename T>
     T HectometerToDecameter(const T lengthInHectometer) {
         return HectometerToMeter(lengthInHectometer) * (T)1e-1;
     }
