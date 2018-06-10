@@ -169,6 +169,9 @@
     <Filter Include="EGXPhys\EGXMath\Conversions\LengthConversions\Survyors">
       <UniqueIdentifier>{6a433289-e369-497a-af7e-ab4dfe1fce06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI">
+      <UniqueIdentifier>{e1fc7faa-0695-42ae-b04b-529cac8a90fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\tests\Optics\OpticsTests.hpp">
