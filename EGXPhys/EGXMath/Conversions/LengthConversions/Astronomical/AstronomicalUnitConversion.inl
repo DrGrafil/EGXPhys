@@ -1,6 +1,6 @@
-/// @file EGXMath/Conversions/LengthConversions/Astronomical/uzitzsConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/Astronomical/AstronomicalUnitConversion.inl
 ///
-/// @brief Implimentation of uzitzs conversions
+/// @brief Implimentation of AstronomicalUnit conversions
 /// @author Elliot Grafil (Metex)
 /// @date 6/11/18
 
@@ -10,213 +10,208 @@ namespace EGXMath {
     //Astronomical
 
     template<typename T>
-    T uzitzsToAstronomicalUnit(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)auInMeters;
+    T AstronomicalUnitToLightYear(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) / (T)lightYearInMeters;
     }
 
     template<typename T>
-    T uzitzsToLightYear(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)lightYearInMeters;
-    }
-
-    template<typename T>
-    T uzitzsToParsec(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)parsecInMeters;
+    T AstronomicalUnitToParsec(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) / (T)parsecInMeters;
     }
 
 
     //SI
 
     template<typename T>
-    T uzitzsToMeter(const T lengthInuzitzs) {
-        return;
+    T AstronomicalUnitToMeter(const T lengthInAstronomicalUnit) {
+        return lengthInAstronomicalUnit * (T)auInMeters;
     }
 
     template<typename T>
-    T uzitzsToYottameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-24;
-    }
-
-
-    template<typename T>
-    T uzitzsToZettameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-21;
-    }
-
-    template<typename T>
-    T uzitzsToExameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-18;
-    }
-
-    template<typename T>
-    T uzitzsToPetameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-15;
+    T AstronomicalUnitToYottameter(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e-24;
     }
 
 
     template<typename T>
-    T uzitzsToTerameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-12;
+    T AstronomicalUnitToZettameter(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e-21;
     }
 
     template<typename T>
-    T uzitzsToGigameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-9;
+    T AstronomicalUnitToExameter(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e-18;
     }
 
     template<typename T>
-    T uzitzsToMegameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-6;
-    }
-
-    template<typename T>
-    T uzitzsToKilometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-3;
-    }
-
-    template<typename T>
-    T uzitzsToHectometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-2;
-    }
-
-    template<typename T>
-    T uzitzsToDecameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-1;
-    }
-
-    template<typename T>
-    T uzitzsToDecimeter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e1;
-    }
-
-    template<typename T>
-    T uzitzsToCentimeter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e2;
-    }
-
-    template<typename T>
-    T uzitzsToMillimeter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e3;
-    }
-
-    template<typename T>
-    T uzitzsToMicrometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e6;
-    }
-
-    template<typename T>
-    T uzitzsToNanometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e9;
-    }
-
-    template<typename T>
-    T uzitzsToPicometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e12;
-    }
-
-    template<typename T>
-    T uzitzsToFemtometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e15;
-    }
-
-    template<typename T>
-    T uzitzsToAttometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e18;
-    }
-
-    template<typename T>
-    T uzitzsToZeptometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e21;
-    }
-
-    template<typename T>
-    T uzitzsToYoctometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e24;
+    T AstronomicalUnitToPetameter(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e-15;
     }
 
 
-
-
     template<typename T>
-    T uzitzsToAngstrom(const T lengthInuzitzs) {
-        return uzitzsToPicometer(lengthInuzitzs) * (T)1e-2;
+    T AstronomicalUnitToTerameter(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e-12;
     }
 
     template<typename T>
-    T uzitzsToFermi(const T lengthInuzitzs) {
-        return uzitzsTofemtometer(lengthInuzitzs);
+    T AstronomicalUnitToGigameter(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e-9;
     }
 
     template<typename T>
-    T uzitzsToMicron(const T lengthInuzitzs) {
-        return uzitzsToMicrometer(lengthInuzitzs);
+    T AstronomicalUnitToMegameter(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e-6;
     }
 
     template<typename T>
-    T uzitzsToCuXUnit(const T lengthInuzitzs) {
+    T AstronomicalUnitToKilometer(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e-3;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToHectometer(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e-2;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToDecameter(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e-1;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToDecimeter(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e1;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToCentimeter(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e2;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToMillimeter(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e3;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToMicrometer(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e6;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToNanometer(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e9;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToPicometer(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e12;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToFemtometer(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e15;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToAttometer(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e18;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToZeptometer(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e21;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToYoctometer(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) * (T)1e24;
+    }
+
+
+
+
+    template<typename T>
+    T AstronomicalUnitToAngstrom(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToPicometer(lengthInAstronomicalUnit) * (T)1e-2;
+    }
+
+    template<typename T>
+    T AstronomicalUnitToFermi(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitTofemtometer(lengthInAstronomicalUnit);
+    }
+
+    template<typename T>
+    T AstronomicalUnitToMicron(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMicrometer(lengthInAstronomicalUnit);
+    }
+
+    template<typename T>
+    T AstronomicalUnitToCuXUnit(const T lengthInAstronomicalUnit) {
         
-        return uzitzsToMeter(lengthInuzitzs) / (T)CuXUnit;
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) / (T)CuXUnit;
     }
 
     template<typename T>
-    T uzitzsToMoXUnit(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)MoXUnit;
+    T AstronomicalUnitToMoXUnit(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) / (T)MoXUnit;
     }
 
 
     //Imperial
 
     template<typename T>
-    T uzitzsToMile(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)63360.0;
+    T AstronomicalUnitToMile(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToInch(lengthInAstronomicalUnit) / (T)63360.0;
     }
 
     template<typename T>
-    T uzitzsToYard(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)36.0;
+    T AstronomicalUnitToYard(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToInch(lengthInAstronomicalUnit) / (T)36.0;
     }
 
     template<typename T>
-    T uzitzsToFoot(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)12.0;
+    T AstronomicalUnitToFoot(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToInch(lengthInAstronomicalUnit) / (T)12.0;
     }
 
     template<typename T>
-    T uzitzsToInch(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)0.0254;
+    T AstronomicalUnitToInch(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) / (T)0.0254;
     }
 
     template<typename T>
-    T uzitzsToMil(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) * (T)1000.0;
+    T AstronomicalUnitToMil(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToInch(lengthInAstronomicalUnit) * (T)1000.0;
     }
 
     template<typename T>
-    T uzitzsToThou(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) * (T)1000.0;
+    T AstronomicalUnitToThou(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToInch(lengthInAstronomicalUnit) * (T)1000.0;
     }
 
     //Nautical
 
     template<typename T>
-    T uzitzsToNauticalMile(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)1852.0;
+    T AstronomicalUnitToNauticalMile(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToMeter(lengthInAstronomicalUnit) / (T)1852.0;
     }
 
     template<typename T>
-    T uzitzsToFathom(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)72.0;
+    T AstronomicalUnitToFathom(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToInch(lengthInAstronomicalUnit) / (T)72.0;
     }
 
     //Survyors
     template<typename T>
-    T uzitzsToRod(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)198.0;
+    T AstronomicalUnitToRod(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToInch(lengthInAstronomicalUnit) / (T)198.0;
     }
 
     template<typename T>
-    T uzitzsToChain(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)792.0;
+    T AstronomicalUnitToChain(const T lengthInAstronomicalUnit) {
+        return AstronomicalUnitToInch(lengthInAstronomicalUnit) / (T)792.0;
     }
 
 }//namespace EGXPhys
