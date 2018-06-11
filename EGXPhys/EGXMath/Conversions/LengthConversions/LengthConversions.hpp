@@ -24,6 +24,9 @@
 #include "Astronomical/AstronomicalConversions.hpp"
 #include "SI/SIConversions.hpp"
 #include "Non-SI/Non-SIConversions.hpp"
+#include "Imperial/ImperialConversions.hpp"
+#include "Nautical/NauticalConversions.hpp"
+#include "Surveyors/SurveyorsConversions.hpp"
 
 
 

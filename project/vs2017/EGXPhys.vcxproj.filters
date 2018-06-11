@@ -855,6 +855,18 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\ParsecConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\ImperialConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\TemplateConversionImperial.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\NauticalConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Nautical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\SurveyorsConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Survyors</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1215,6 +1227,9 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\ParsecConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\TemplateConversionImperial.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
     </None>
   </ItemGroup>
 </Project>
