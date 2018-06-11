@@ -1,8 +1,8 @@
-/// @file EGXMath/Conversions/LengthConversions/SI/uzitzsConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/Imperial/uzitzsConversion.inl
 ///
 /// @brief Implimentation of uzitzs conversions
 /// @author Elliot Grafil (Metex)
-/// @date 6/8/18
+/// @date 6/11/18
 
 
 namespace EGXMath {

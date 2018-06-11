@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in light years to nautical mile.
-    *		\f[ l_{NM}= \frac{9460730472580800}{0.0254 * 1852} l_{ly}  \f]
+    *		\f[ l_{NM}= \frac{9460730472580800}{1852} l_{ly}  \f]
     *
     *   @param lengthInLightYear \f$ l_{ly}\ (ly)\f$ Length in light years.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

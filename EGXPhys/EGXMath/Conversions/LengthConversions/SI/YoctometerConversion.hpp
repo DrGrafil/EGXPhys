@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in yoctometers to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{-24}}{0.0254 * 1852} l_{ym}  \f]
+    *		\f[ l_{NM}= \frac{10^{-24}}{1852} l_{ym}  \f]
     *
     *   @param lengthInYoctometer \f$ l_{ym}\ (ym)\f$ Length in yoctometers.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

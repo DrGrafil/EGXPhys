@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in gigameters to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{9}}{0.0254 * 1852} l_{Gm}  \f]
+    *		\f[ l_{NM}= \frac{10^{9}}{1852} l_{Gm}  \f]
     *
     *   @param lengthInGigameter \f$ l_{Gm}\ (Gm)\f$ Length in gigameters.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

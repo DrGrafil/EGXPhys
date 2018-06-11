@@ -463,7 +463,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in centimeters to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{-2}}{0.0254 * 1852} l_{cm}  \f]
+    *		\f[ l_{NM}= \frac{10^{-2}}{1852} l_{cm}  \f]
     *
     *   @param lengthInCentimeter \f$ l_{cm}\ (cm)\f$ Length in centimeters.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

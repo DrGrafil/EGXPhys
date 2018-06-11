@@ -460,7 +460,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in Cu x units to nautical mile.
-    *		\f[ l_{NM}= \frac{1.00207697*10^{-13}}{0.0254 * 1852} l_{xu(Cu\ K\alpha_1)}  \f]
+    *		\f[ l_{NM}= \frac{1.00207697*10^{-13}}{1852} l_{xu(Cu\ K\alpha_1)}  \f]
     *
     *   @param lengthInCuXUnit \f$ l_{xu(Cu\ K\alpha_1)}\ (xu(Cu\ K\alpha_1))\f$ Length in Cu x units.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

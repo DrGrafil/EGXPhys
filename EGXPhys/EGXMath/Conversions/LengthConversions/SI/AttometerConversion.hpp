@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in attometers to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{-18}}{0.0254 * 1852} l_{am}  \f]
+    *		\f[ l_{NM}= \frac{10^{-18}}{1852} l_{am}  \f]
     *
     *   @param lengthInAttometer \f$ l_{am}\ (am)\f$ Length in attometers.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

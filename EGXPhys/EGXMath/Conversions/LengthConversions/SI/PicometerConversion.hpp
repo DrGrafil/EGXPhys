@@ -457,7 +457,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in picometers to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{-12}}{0.0254 * 1852} l_{pm}  \f]
+    *		\f[ l_{NM}= \frac{10^{-12}}{1852} l_{pm}  \f]
     *
     *   @param lengthInPicometer \f$ l_{pm}\ (pm)\f$ Length in picometers.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

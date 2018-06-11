@@ -28,5 +28,6 @@ var searchData=
   ['stellartemperature_2ehpp',['StellarTemperature.hpp',['../d1/d25/_stellar_temperature_8hpp.html',1,'']]],
   ['stellartemperature_2einl',['StellarTemperature.inl',['../df/dc5/_stellar_temperature_8inl.html',1,'']]],
   ['surfacegravity_2ehpp',['SurfaceGravity.hpp',['../dd/d32/_surface_gravity_8hpp.html',1,'']]],
-  ['surfacegravity_2einl',['SurfaceGravity.inl',['../db/d59/_surface_gravity_8inl.html',1,'']]]
+  ['surfacegravity_2einl',['SurfaceGravity.inl',['../db/d59/_surface_gravity_8inl.html',1,'']]],
+  ['surveyorsconversions_2ehpp',['SurveyorsConversions.hpp',['../d0/d2f/_surveyors_conversions_8hpp.html',1,'']]]
 ];

@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in femtometers to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{-15}}{0.0254 * 1852} l_{fm}  \f]
+    *		\f[ l_{NM}= \frac{10^{-15}}{1852} l_{fm}  \f]
     *
     *   @param lengthInFemtometer \f$ l_{fm}\ (fm)\f$ Length in femtometers.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

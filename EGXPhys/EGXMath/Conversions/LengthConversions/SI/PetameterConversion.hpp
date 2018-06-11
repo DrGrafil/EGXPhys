@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in petameters to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{15}}{0.0254 * 1852} l_{Pm}  \f]
+    *		\f[ l_{NM}= \frac{10^{15}}{1852} l_{Pm}  \f]
     *
     *   @param lengthInPetameter \f$ l_{Pm}\ (Pm)\f$ Length in petameters.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

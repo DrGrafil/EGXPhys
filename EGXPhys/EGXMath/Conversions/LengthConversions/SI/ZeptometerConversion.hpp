@@ -463,7 +463,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in zeptometers to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{-21}}{0.0254 * 1852} l_{zm}  \f]
+    *		\f[ l_{NM}= \frac{10^{-21}}{1852} l_{zm}  \f]
     *
     *   @param lengthInZeptometer \f$ l_{zm}\ (zm)\f$ Length in zeptometers.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

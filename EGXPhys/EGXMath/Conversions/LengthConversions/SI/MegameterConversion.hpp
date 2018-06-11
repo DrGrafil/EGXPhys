@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in megameters to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{6}}{0.0254 * 1852} l_{Mm}  \f]
+    *		\f[ l_{NM}= \frac{10^{6}}{1852} l_{Mm}  \f]
     *
     *   @param lengthInMegameter \f$ l_{Mm}\ (Mm)\f$ Length in megameters.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

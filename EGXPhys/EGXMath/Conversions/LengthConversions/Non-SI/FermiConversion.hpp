@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in fermis to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{-15}}{0.0254 * 1852} l_{fm}  \f]
+    *		\f[ l_{NM}= \frac{10^{-15}}{1852} l_{fm}  \f]
     *
     *   @param lengthInFermi \f$ l_{fm}\ (fm)\f$ Length in fermis.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

@@ -459,7 +459,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in angstroms to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{-10}}{0.0254 * 1852} l_{\unicode{x212B}}  \f]
+    *		\f[ l_{NM}= \frac{10^{-10}}{1852} l_{\unicode{x212B}}  \f]
     *
     *   @param lengthInAngstrom \f$ l_{\unicode{x212B}}\ (\unicode{x212B})\f$ Length in angstroms.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

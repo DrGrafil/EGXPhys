@@ -463,7 +463,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in exameters to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{18}}{0.0254 * 1852} l_{Em}  \f]
+    *		\f[ l_{NM}= \frac{10^{18}}{1852} l_{Em}  \f]
     *
     *   @param lengthInExameter \f$ l_{Em}\ (Em)\f$ Length in exameters.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in terameters to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{12}}{0.0254 * 1852} l_{Tm}  \f]
+    *		\f[ l_{NM}= \frac{10^{12}}{1852} l_{Tm}  \f]
     *
     *   @param lengthInTerameter \f$ l_{Tm}\ (Tm)\f$ Length in terameters.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

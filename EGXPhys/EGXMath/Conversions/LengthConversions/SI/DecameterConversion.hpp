@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in decameters to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{1}}{0.0254 * 1852} l_{dam}  \f]
+    *		\f[ l_{NM}= \frac{10^{1}}{1852} l_{dam}  \f]
     *
     *   @param lengthInDecameter \f$ l_{dam}\ (dam)\f$ Length in decameters.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

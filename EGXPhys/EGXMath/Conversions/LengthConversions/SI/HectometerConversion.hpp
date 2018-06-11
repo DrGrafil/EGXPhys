@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in hectometers to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{2}}{0.0254 * 1852} l_{hm}  \f]
+    *		\f[ l_{NM}= \frac{10^{2}}{1852} l_{hm}  \f]
     *
     *   @param lengthInHectometer \f$ l_{hm}\ (hm)\f$ Length in hectometers.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

@@ -462,7 +462,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in nanometers to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{-9}}{0.0254 * 1852} l_{nm}  \f]
+    *		\f[ l_{NM}= \frac{10^{-9}}{1852} l_{nm}  \f]
     *
     *   @param lengthInNanometer \f$ l_{nm}\ (nm)\f$ Length in nanometers.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

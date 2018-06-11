@@ -473,7 +473,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in parsecs to nautical mile.
-    *		\f[ l_{NM}= \frac{149597870700 * 648000}{0.0254 * 1852 * \pi} l_{pc}  \f]
+    *		\f[ l_{NM}= \frac{149597870700 * 648000}{1852 * \pi} l_{pc}  \f]
     *
     *   @param lengthInParsec \f$ l_{pc}\ (pc)\f$ Length in parsecs.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.

@@ -460,7 +460,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in astronomical units to nautical mile.
-    *		\f[ l_{NM}= \frac{149597870700}{0.0254 * 1852} l_{au}  \f]
+    *		\f[ l_{NM}= \frac{149597870700}{1852} l_{au}  \f]
     *
     *   @param lengthInAstronomicalUnit \f$ l_{au}\ (au)\f$ Length in astronomical units.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.
