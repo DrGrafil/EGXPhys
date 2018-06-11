@@ -1,6 +1,9 @@
 var searchData=
 [
   ['integer_20degree',['Integer Degree',['../dd/ddb/group___e_g_x_math-_conversions-_angle_conversions-_integer_degree.html',1,'']]],
+  ['imperial',['Imperial',['../d0/d13/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_astronomical_unit-_imperial.html',1,'']]],
+  ['imperial',['Imperial',['../d1/d0f/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_light_year-_imperial.html',1,'']]],
+  ['imperial',['Imperial',['../d2/dc7/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_imperial.html',1,'']]],
   ['imperial',['Imperial',['../d5/dcd/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_imperial.html',1,'']]],
   ['imperial',['Imperial',['../d3/ddb/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_cu_x_unit-_imperial.html',1,'']]],
   ['imperial',['Imperial',['../d1/d08/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_fermi-_imperial.html',1,'']]],

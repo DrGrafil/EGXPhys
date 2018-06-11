@@ -68,7 +68,7 @@ OUTPUT_DIRECTORY       = .
 # performance problems for the file system.
 # The default value is: NO.
 
-CREATE_SUBDIRS         = NO
+CREATE_SUBDIRS         = YES
 
 # If the ALLOW_UNICODE_NAMES tag is set to YES, doxygen will allow non-ASCII
 # characters to appear in the names of generated files. If set to NO, non-ASCII
@@ -756,7 +756,7 @@ WARN_IF_DOC_ERROR      = YES
 # parameter documentation, but not about the absence of documentation.
 # The default value is: NO.
 
-WARN_NO_PARAMDOC       = NO
+WARN_NO_PARAMDOC       = YES
 
 # If the WARN_AS_ERROR tag is set to YES then doxygen will immediately stop when
 # a warning is encountered.
@@ -874,7 +874,11 @@ RECURSIVE              = YES
 # run.
 
 EXCLUDE                = ../EGXPhys/EGXMath/Conversions/AngleConversions/template.hpp \
-                         ../EGXPhys/EGXMath/Conversions/AngleConversions/template.inl
+                         ../EGXPhys/EGXMath/Conversions/AngleConversions/template.inl \
+                         ../EGXPhys/EGXMath/Conversions/LengthConversions/TemplateConversion.hpp \
+                         ../EGXPhys/EGXMath/Conversions/LengthConversions/TemplateConversion.inl \
+                         ../EGXPhys/EGXMath/Conversions/LengthConversions/TemplateConversionSI.hpp \
+                         ../EGXPhys/EGXMath/Conversions/LengthConversions/TemplateConversionSI.inl
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
