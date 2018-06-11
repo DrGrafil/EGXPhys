@@ -867,6 +867,9 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\SurveyorsConversions.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Survyors</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\InchConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1229,6 +1232,9 @@
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\TemplateConversionImperial.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\InchConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
     </None>
   </ItemGroup>

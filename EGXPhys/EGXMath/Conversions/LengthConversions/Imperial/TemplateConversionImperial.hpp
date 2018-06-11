@@ -48,7 +48,7 @@ namespace EGXMath
     // No hubble length due to ill defined.
     /**
     *   @brief Converts a length in ulongxxits to astronomical units.
-    *		\f[ l_{au}=  \frac{0.0254}{149597870700} l_{uxxits} \f]
+    *		\f[ l_{au}=\frac{0.0254}{149597870700} l_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Astronomical_unit
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -59,7 +59,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length ulongxxits in to light-years.
-    *		\f[ l_{ly}= \frac{0.0254}{9460730472580800} l_{uxxits} \f]
+    *		\f[ l_{ly}=\frac{0.0254}{9460730472580800} l_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Light-year
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to miles.
-    *		\f[ l_{mi}=\frac{10^{zrat}}{63360} l_{uxxits} \f]
+    *		\f[ l_{mi}=\frac{1}{63360} l_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Mile
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -409,7 +409,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to yards.
-    *		\f[ l_{yd}=  \frac{10^{zrat}}{36} \frac{1}{36} l_{uxxits}  \f]
+    *		\f[ l_{yd}=  \frac{1}{36} \frac{1}{36} l_{uxxits}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -420,7 +420,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to feet.
-    *		\f[ l_{ft}= \frac{10^{zrat}}{12} l_{uxxits} \f]
+    *		\f[ l_{ft}= \frac{1}{12} l_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Foot_(unit)
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -431,7 +431,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to inches.
-    *		\f[ l_{in}=  \frac{10^{zrat}}{0.0254} l_{uxxits} \f]
+    *		\f[ l_{in}= l_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Inch
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -442,7 +442,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to mils (thousandth of an inch).
-    *		\f[ l_{mil}= \frac{10^{zrat}}{0.0254} l_{uxxits} * 10^{3} \f]
+    *		\f[ l_{mil}=l_{uxxits} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Thousandth_of_an_inch
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -454,7 +454,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to thous (thousandth of an inch).
-    *		\f[ l_{mil}= \frac{10^{zrat}}{0.0254} l_{uxxits} * 10^{3} \f]
+    *		\f[ l_{mil}= l_{uxxits} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Thousandth_of_an_inch
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -473,7 +473,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{zrat}}{1852} l_{uxxits}  \f]
+    *		\f[ l_{NM}= \frac{0.0254}{1852} l_{uxxits}  \f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.
@@ -483,7 +483,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to fathoms.
-    *		\f[ l_{fathom}= \frac{10^{zrat}}{72} l_{uxxits}  \f]
+    *		\f[ l_{fathom}= \frac{1}{72} l_{uxxits}  \f]
     *
     *   See https://simple.wikipedia.org/wiki/Fathom
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -501,7 +501,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to rods.
-    *		\f[ l_{rod}= \frac{10^{zrat}}{198} l_{uxxits} \f]
+    *		\f[ l_{rod}= \frac{1}{198} l_{uxxits} \f]
     *
     *   See https://simple.wikipedia.org/wiki/Rod_(unit)
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -512,7 +512,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to chains.
-    *		\f[ l_{ch}= \frac{10^{zrat}}{792}  l_{uxxits} \f]
+    *		\f[ l_{ch}= \frac{1}{792}  l_{uxxits} \f]
     *
     *   See https://simple.wikipedia.org/wiki/Chain_(unit)
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
