@@ -843,6 +843,18 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\Non-SIConversions.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\AstronomicalConversions.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\AstronomicalUnitConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\LightYearConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\ParsecConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1194,6 +1206,15 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\MoXUnitConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\AstronomicalUnitConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\LightYearConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\ParsecConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical</Filter>
     </None>
   </ItemGroup>
 </Project>

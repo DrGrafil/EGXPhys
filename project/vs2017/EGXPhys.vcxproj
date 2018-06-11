@@ -200,6 +200,10 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\CoordinateConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\AstronomicalConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\AstronomicalUnitConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\LightYearConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\ParsecConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\LengthConversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\AngstromConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\CuXUnitConversion.hpp" />
@@ -416,6 +420,9 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\3DCartesianCoordinateConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\AstronomicalUnitConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\LightYearConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\ParsecConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\AngstromConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\CuXUnitConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\FermiConversion.inl" />
