@@ -45,9 +45,9 @@ namespace EGXPhys
 	*
 	*	Equation taken from http://mathworld.wolfram.com/Apoapsis.html
     * 
-	*   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-	*   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-	*   @return Apoapsis \f$ r\ (m)\f$ Apoapsis for an orbiting body.
+	*   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+	*   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+	*   @return Apoapsis \f$ r\ (m)\f$ Apoapsis for the orbiting body.
     *   @see Apocenter() alternative name.
     *   @see Apofocus() alternative name.
     *   @see Apogalacticon() apoapsis around a galaxy.
@@ -76,9 +76,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis of an orbiting body. 
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apocenter for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apocenter for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Apofocus() alternative name.
      */
@@ -87,9 +87,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis of an orbiting body.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apofocus for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apofocus for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Apocenter() alternative name.
      */
@@ -99,9 +99,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around a galaxy.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apogalacticon for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apogalacticon for the orbiting body.
      *   @see Apoapsis() for more info.
      */
     template<typename T>
@@ -110,9 +110,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around a black hole.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apobothron for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apobothron for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Aponigricon() alternative name.
      */
@@ -121,9 +121,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around a black hole.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Aponigricon for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Aponigricon for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Apobothron() alternative name.
      */
@@ -133,9 +133,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around a star.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apastron for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apastron for the orbiting body.
      *   @see Apoapsis() for more info.
      */
     template<typename T>
@@ -145,9 +145,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around the Sun.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Aphelion for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Aphelion for the orbiting body.
      *   @see Apoapsis() for more info.
      */
     template<typename T>
@@ -157,9 +157,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Mercury.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apohermion for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apohermion for the orbiting body.
      *   @see Apoapsis() for more info.
      */
     template<typename T>
@@ -168,9 +168,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Venus.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apocytherion for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apocytherion for the orbiting body.
      *   @see Apoapsis() for more info.
      */
     template<typename T>
@@ -179,9 +179,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Earth.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apogee for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apogee for the orbiting body.
      *   @see Apoapsis() for more info.
      */
     template<typename T>
@@ -190,9 +190,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Moon.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apolune for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apolune for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Apocynthion() alternative name.
      *   @see Aposelene() alternative name.
@@ -202,9 +202,9 @@ namespace EGXPhys
    
     /**
      *   @brief Calculates apoapsis around Moon.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apocynthion for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apocynthion for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Apolune() alternative name.
      *   @see Aposelene() alternative name.
@@ -214,9 +214,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Moon.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Aposelene for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Aposelene for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Apolune() alternative name.
      *   @see Apocynthion() alternative name.
@@ -227,9 +227,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Mars.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apoareion for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apoareion for the orbiting body.
      *   @see Apoapsis() for more info.
      */
     template<typename T>
@@ -238,9 +238,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Jupiter.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apozene for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apozene for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Apojove() alternative name.
      */
@@ -249,9 +249,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Jupiter.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apojove for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apojove for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Apozene() alternative name.
      */
@@ -261,9 +261,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Saturn.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apochron for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apochron for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Apochron() alternative name.
      *   @see Aposaturnium() alternative name.
@@ -273,9 +273,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Saturn.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apokrone for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apokrone for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Apochron() alternative name.
      *   @see Aposaturnium() alternative name.
@@ -285,9 +285,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Saturn.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Aposaturnium for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Aposaturnium for the orbiting body.
      *   @see Apoapsis() for more info.
      *   @see Apochron() alternative name.
      *   @see Apokrone() alternative name.
@@ -298,9 +298,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Uranus.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apouranion for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apouranion for the orbiting body.
      *   @see Apoapsis() for more info.
      */
     template<typename T>
@@ -309,9 +309,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Neptune.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apoposeidon for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apoposeidon for the orbiting body.
      *   @see Apoapsis() for more info.
      */
     template<typename T>
@@ -320,9 +320,9 @@ namespace EGXPhys
     
     /**
      *   @brief Calculates apoapsis around Pluto.
-     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
-     *   @param  semimajorAxis \f$ a\ (m)\f$ Line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
-     *   @return Apoapsis \f$ r\ (m)\f$ Apohadion for an orbiting body.
+     *   @param  orbitalEccentricity \f$ e\ (dimensionless)\f$ Eccentricity of the orbit. Eccentricity is the amount by which an objects orbit around another body deviates from a perfect circle. e=0 is circular, 0<e<1 is elliptical and e>1 is hyperbola. See https://en.wikipedia.org/wiki/Orbital_eccentricity.
+     *   @param  semimajorAxis \f$ a\ (m)\f$ Semi-major axis of the orbit in meters. This is the line segment from the center of the orbit to the widest point in the perimiter. See https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes.
+     *   @return Apoapsis \f$ r\ (m)\f$ Apohadion for the orbiting body.
      *   @see Apoapsis() for more info.
      */
     template<typename T>
