@@ -1,5 +1,15 @@
 var NAVTREEINDEX11 =
 {
+"d6/dd9/group___e_g_x_phys-_kinetics-_torque.html":[1,1,5,1],
+"d6/dd9/group___e_g_x_phys-_kinetics-_torque.html#ga12a787853cab88d40412c8290ca41c61":[1,1,5,1,0],
+"d6/dda/_b-_v_color_8hpp.html":[3,0,0,1,6],
+"d6/dda/_b-_v_color_8hpp.html#ga0e553143a3bb121c3ae50ca96c502140":[3,0,0,1,6,1],
+"d6/dda/_b-_v_color_8hpp.html#gad251a8c25285f5817e307c35c3ec971a":[3,0,0,1,6,0],
+"d6/dda/_b-_v_color_8hpp_source.html":[3,0,0,1,6],
+"d6/de3/_ellipse_directrix_8inl.html":[3,0,0,3,2,0,1,4],
+"d6/de3/_ellipse_directrix_8inl.html#ga5e7a411cd0af17a30bae03613b4a675d":[3,0,0,3,2,0,1,4,2],
+"d6/de3/_ellipse_directrix_8inl.html#gaa496c6b5f9717e7ce731dd374f5d0ae8":[3,0,0,3,2,0,1,4,1],
+"d6/de3/_ellipse_directrix_8inl.html#gace8f72a8efbc9c18d3eb689151405106":[3,0,0,3,2,0,1,4,0],
 "d6/de6/_fermi_conversion_8inl.html":[3,0,0,3,0,2,1,5],
 "d6/de6/_fermi_conversion_8inl.html#ga0412e30a3ebf380fdde7f67793d35ebd":[3,0,0,3,0,2,1,5,13],
 "d6/de6/_fermi_conversion_8inl.html#ga0c8f626fae443871df52f72a4b361a60":[3,0,0,3,0,2,1,5,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX11 =
 "d7/d1f/_exameter_conversion_8hpp.html#gafe75957564bfe2508c37089fece97c41":[3,0,0,3,0,2,2,8,1],
 "d7/d1f/_exameter_conversion_8hpp.html#gafee1930a425fcae4f9a3d8631aa62b05":[3,0,0,3,0,2,2,8,32],
 "d7/d1f/_exameter_conversion_8hpp_source.html":[3,0,0,3,0,2,2,8],
-"d7/d20/group___n_i_s_t_const-_speed_of_light.html":[1,2,0,9],
-"d7/d20/group___n_i_s_t_const-_speed_of_light.html#ga5b7c240e787216aab4b730470074888e":[1,2,0,9,0],
-"d7/d24/group___n_i_s_t_const-_gravitational_constant.html":[1,2,0,3],
-"d7/d24/group___n_i_s_t_const-_gravitational_constant.html#gaab8e9e8695add729258bef9e2fc7e9bf":[1,2,0,3,1],
-"d7/d24/group___n_i_s_t_const-_gravitational_constant.html#gacfed5fae03e441055c1f09406a47f8ce":[1,2,0,3,0],
-"d7/d27/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_astronomical_unit.html":[1,0,0,2,0,0],
-"d7/d38/_spheroid_inertia_8hpp.html":[3,0,0,3,2,1,6,7],
-"d7/d38/_spheroid_inertia_8hpp.html#ga0d621d59c21aeddf2ed5e9050aa2eeb8":[3,0,0,3,2,1,6,7,2],
-"d7/d38/_spheroid_inertia_8hpp.html#ga116b896696bbcc8d65d60ec5fc0210a0":[3,0,0,3,2,1,6,7,1],
-"d7/d38/_spheroid_inertia_8hpp.html#ga4a6085f1b3504bd682ee6818542ae09e":[3,0,0,3,2,1,6,7,0],
-"d7/d38/_spheroid_inertia_8hpp_source.html":[3,0,0,3,2,1,6,7]
+"d7/d20/group___n_i_s_t_const-_speed_of_light.html":[1,2,0,9]
 };

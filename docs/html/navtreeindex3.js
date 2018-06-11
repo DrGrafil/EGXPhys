@@ -1,5 +1,14 @@
 var NAVTREEINDEX3 =
 {
+"d1/dc3/_ellipse_semi_minor_axis_8inl.html#ga7d19bfb56b8d9678c8ff7c843e1ae3b6":[3,0,0,3,2,0,1,19,3],
+"d1/dc3/_ellipse_semi_minor_axis_8inl.html#gac4b0e45f43bee20fc64bbdd421ebc956":[3,0,0,3,2,0,1,19,5],
+"d1/dc3/_ellipse_semi_minor_axis_8inl.html#gad0febd8680a3952ae50ce6ddea584b34":[3,0,0,3,2,0,1,19,7],
+"d1/dc3/_ellipse_semi_minor_axis_8inl.html#gae461acf3333565d69527dd86e9aa2b32":[3,0,0,3,2,0,1,19,0],
+"d1/dc3/_ellipse_semi_minor_axis_8inl.html#gaed84cd29b0768dd8eb2628b69e5c163f":[3,0,0,3,2,0,1,19,10],
+"d1/dc3/_ellipse_semi_minor_axis_8inl.html#gafe27ed64ba521ec3cf8557520cbc6a14":[3,0,0,3,2,0,1,19,6],
+"d1/dc6/_right_ascension_8inl.html":[3,0,0,1,30],
+"d1/dc6/_right_ascension_8inl.html#ga27ba790eb8358535613d3b32f97d9e3a":[3,0,0,1,30,2],
+"d1/dc6/_right_ascension_8inl.html#ga624dd87144a17d19d0100500c34da978":[3,0,0,1,30,1],
 "d1/dc6/_right_ascension_8inl.html#ga63a3103990c95078443e39a5b487ab0d":[3,0,0,1,30,3],
 "d1/dc6/_right_ascension_8inl.html#ga6fdbd35a030d278f396496899a1c236f":[3,0,0,1,30,0],
 "d1/dce/_sphere1_8hpp_source.html":[3,0,0,3,2,1,5,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX3 =
 "d2/d40/group___e_g_x_phys-_periapsis.html#gae1daec11bd7b479853ba92ca6368a23c":[1,1,1,11,14],
 "d2/d40/group___e_g_x_phys-_periapsis.html#gae8dfb0b7ebcd117ba94f2d1a7b2e13ad":[1,1,1,11,5],
 "d2/d40/group___e_g_x_phys-_periapsis.html#gaf3c623561998f107496fb7341698ae9d":[1,1,1,11,2],
-"d2/d44/_decay_width_8inl.html":[3,0,0,2,5],
-"d2/d44/_decay_width_8inl.html#ga0b65d991f3f3d72cf09a4a7b343a01ca":[3,0,0,2,5,3],
-"d2/d44/_decay_width_8inl.html#ga1113224b24790a2e34032f9e90ad55c6":[3,0,0,2,5,2],
-"d2/d44/_decay_width_8inl.html#ga143a666966efecc535a59bb4f36a79c6":[3,0,0,2,5,1],
-"d2/d44/_decay_width_8inl.html#gae232ec8bb39710131be898c057a25620":[3,0,0,2,5,0],
-"d2/d45/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_astronomical.html":[1,0,0,2,1,4,0],
-"d2/d45/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_astronomical.html#ga257eaf0a2f8f74aca2917964524d486d":[1,0,0,2,1,4,0,2],
-"d2/d45/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_astronomical.html#ga5b2db9c0d1b2663190463aaf3203a27f":[1,0,0,2,1,4,0,1],
-"d2/d45/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_astronomical.html#ga7a72c84200a6ae279a9fe7499db6e7f1":[1,0,0,2,1,4,0,0],
-"d2/d48/_spheroid_polar_radius_8inl.html":[3,0,0,3,2,1,6,10]
+"d2/d44/_decay_width_8inl.html":[3,0,0,2,5]
 };

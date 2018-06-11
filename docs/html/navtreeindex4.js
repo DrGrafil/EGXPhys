@@ -1,5 +1,14 @@
 var NAVTREEINDEX4 =
 {
+"d2/d44/_decay_width_8inl.html#ga0b65d991f3f3d72cf09a4a7b343a01ca":[3,0,0,2,5,3],
+"d2/d44/_decay_width_8inl.html#ga1113224b24790a2e34032f9e90ad55c6":[3,0,0,2,5,2],
+"d2/d44/_decay_width_8inl.html#ga143a666966efecc535a59bb4f36a79c6":[3,0,0,2,5,1],
+"d2/d44/_decay_width_8inl.html#gae232ec8bb39710131be898c057a25620":[3,0,0,2,5,0],
+"d2/d45/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_astronomical.html":[1,0,0,2,1,4,0],
+"d2/d45/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_astronomical.html#ga257eaf0a2f8f74aca2917964524d486d":[1,0,0,2,1,4,0,2],
+"d2/d45/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_astronomical.html#ga5b2db9c0d1b2663190463aaf3203a27f":[1,0,0,2,1,4,0,1],
+"d2/d45/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_astronomical.html#ga7a72c84200a6ae279a9fe7499db6e7f1":[1,0,0,2,1,4,0,0],
+"d2/d48/_spheroid_polar_radius_8inl.html":[3,0,0,3,2,1,6,10],
 "d2/d48/_spheroid_polar_radius_8inl.html#gad4791a46a7efe39c63c03d2366fdd3d2":[3,0,0,3,2,1,6,10,0],
 "d2/d52/group___e_g_x_math-_conversions-_length_conversions-_s_i-_millimeter.html":[1,0,0,2,2,12],
 "d2/d58/group___e_g_x_math-_conversions-_length_conversions-_s_i-_yoctometer-_surveyors.html":[1,0,0,2,2,17,5],
@@ -159,6 +168,7 @@ var NAVTREEINDEX4 =
 "d2/d9e/group___n_i_s_t_const-_impedance_of_vacuum.html#gaed60576e7b6ccd87ca6204e09efd98ee":[1,2,0,0,0],
 "d2/da1/_e_g_x_phys_8hpp.html":[3,0,0,13],
 "d2/da1/_e_g_x_phys_8hpp.html#a554478c1a29c5f8e0bee9b94ae3c13c5":[3,0,0,13,0],
+"d2/da1/_e_g_x_phys_8hpp.html#ab42ba0c0e1e16be114b35864944215ae":[3,0,0,13,1],
 "d2/da1/_e_g_x_phys_8hpp_source.html":[3,0,0,13],
 "d2/da3/group___e_g_x_phys-_nuclear_separation_energy.html":[1,1,2,7],
 "d2/da3/group___e_g_x_phys-_nuclear_separation_energy.html#ga09985fc876eb632695bfbc1f2f325401":[1,1,2,7,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX4 =
 "d2/dc7/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_imperial.html#gae9ae73b70979fb012736516147854cf4":[1,0,0,2,0,2,3,5],
 "d2/dc7/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_imperial.html#gaebc7c4ce22fe7ae0ae26420284598c29":[1,0,0,2,0,2,3,1],
 "d2/dc7/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_imperial.html#gaff2c298a0830dd20dc3acce2d9d789f8":[1,0,0,2,0,2,3,3],
-"d2/dcb/group___e_g_x_math-_conversions-_length_conversions-_s_i-_meter.html":[1,0,0,2,2,10],
-"d2/dcf/group___e_g_x_math-_geometry-2_d-_ellipse-_inertia.html":[1,0,2,0,1,5],
-"d2/dcf/group___e_g_x_math-_geometry-2_d-_ellipse-_inertia.html#ga10a3049c2f04b50f271fb01dc62e4cf8":[1,0,2,0,1,5,0],
-"d2/dcf/group___e_g_x_math-_geometry-2_d-_ellipse-_inertia.html#ga4d9a8fec47d22c25481db36bf475905a":[1,0,2,0,1,5,1],
-"d2/dcf/group___e_g_x_math-_geometry-2_d-_ellipse-_inertia.html#gad679a65dc7550e27dc69c1d328c94732":[1,0,2,0,1,5,2],
-"d2/dd2/group___e_g_x_math-_conversions-_length_conversions-_s_i-_micrometer-_non-_s_i.html":[1,0,0,2,2,11,2],
-"d2/dd2/group___e_g_x_math-_conversions-_length_conversions-_s_i-_micrometer-_non-_s_i.html#ga23f5f429bc4df952e3d874fb944bd1ce":[1,0,0,2,2,11,2,2],
-"d2/dd2/group___e_g_x_math-_conversions-_length_conversions-_s_i-_micrometer-_non-_s_i.html#ga2ed475ce56e23d7783d6925f5b409f44":[1,0,0,2,2,11,2,4],
-"d2/dd2/group___e_g_x_math-_conversions-_length_conversions-_s_i-_micrometer-_non-_s_i.html#ga4b7df35169682046455e9a6f99447777":[1,0,0,2,2,11,2,0],
-"d2/dd2/group___e_g_x_math-_conversions-_length_conversions-_s_i-_micrometer-_non-_s_i.html#ga5dc2a5dba0313f6a71db082aff501329":[1,0,0,2,2,11,2,3],
-"d2/dd2/group___e_g_x_math-_conversions-_length_conversions-_s_i-_micrometer-_non-_s_i.html#ga9ec609bbfdde5144c9f40d9093a5b8a7":[1,0,0,2,2,11,2,1]
+"d2/dcb/group___e_g_x_math-_conversions-_length_conversions-_s_i-_meter.html":[1,0,0,2,2,10]
 };

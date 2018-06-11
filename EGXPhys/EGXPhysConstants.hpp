@@ -11,8 +11,6 @@
 #pragma once
 //=================================
 // Included dependencies
-#define NISTCONST_COMMON_SYMBOLS_NAMES
-#include "NISTConst/NISTConst.hpp"
 
 #include "EGXMath/EGXMath.hpp"
 

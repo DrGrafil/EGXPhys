@@ -15,6 +15,9 @@
 // Included dependencies
 #include <math.h>
 
+#define NISTCONST_COMMON_SYMBOLS_NAMES
+#include "NISTConst/NISTConst.hpp"
+
 #ifdef EGXPHYS_GLM
 #define EGXMATH_GLM // Useing GLM
 #endif // EGXPHYS_GLM

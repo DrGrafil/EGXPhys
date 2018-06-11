@@ -1,5 +1,14 @@
 var NAVTREEINDEX2 =
 {
+"d1/d20/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_imperial.html#gacff04b5343e94d6e31e601578d190fb8":[1,0,0,2,2,6,3,1],
+"d1/d20/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_imperial.html#gadc687ba83985120ec09d825adace01d6":[1,0,0,2,2,6,3,5],
+"d1/d20/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_imperial.html#gaeabf3c29bcb3076a8b41986debbf046b":[1,0,0,2,2,6,3,0],
+"d1/d21/_mass_defect_8hpp.html":[3,0,0,2,8],
+"d1/d21/_mass_defect_8hpp.html#ga08cff1dfa3259af8f1b67ec741796e91":[3,0,0,2,8,1],
+"d1/d21/_mass_defect_8hpp.html#ga70400004a5cb622de372ab84670731ef":[3,0,0,2,8,4],
+"d1/d21/_mass_defect_8hpp.html#gab51169bf871d0ea0ee0642fa300228fe":[3,0,0,2,8,3],
+"d1/d21/_mass_defect_8hpp.html#gad5378933021e13598a76bd8581b1e887":[3,0,0,2,8,2],
+"d1/d21/_mass_defect_8hpp.html#gae89f2dfa65992c0314adc2440b2f582a":[3,0,0,2,8,0],
 "d1/d21/_mass_defect_8hpp_source.html":[3,0,0,2,8],
 "d1/d25/_stellar_temperature_8hpp.html":[3,0,0,1,38],
 "d1/d25/_stellar_temperature_8hpp_source.html":[3,0,0,1,38],
@@ -240,14 +249,5 @@ var NAVTREEINDEX2 =
 "d1/dc3/_ellipse_semi_minor_axis_8inl.html#ga03cbc96729f84c9691bf1c5bfcc6b083":[3,0,0,3,2,0,1,19,4],
 "d1/dc3/_ellipse_semi_minor_axis_8inl.html#ga1194f5481c66c492147a27b9e167df4f":[3,0,0,3,2,0,1,19,2],
 "d1/dc3/_ellipse_semi_minor_axis_8inl.html#ga49cd1c9a110ae740e606d1f012edf037":[3,0,0,3,2,0,1,19,8],
-"d1/dc3/_ellipse_semi_minor_axis_8inl.html#ga7bfc286b245acfcfd6c6bce85d25cdbb":[3,0,0,3,2,0,1,19,1],
-"d1/dc3/_ellipse_semi_minor_axis_8inl.html#ga7d19bfb56b8d9678c8ff7c843e1ae3b6":[3,0,0,3,2,0,1,19,3],
-"d1/dc3/_ellipse_semi_minor_axis_8inl.html#gac4b0e45f43bee20fc64bbdd421ebc956":[3,0,0,3,2,0,1,19,5],
-"d1/dc3/_ellipse_semi_minor_axis_8inl.html#gad0febd8680a3952ae50ce6ddea584b34":[3,0,0,3,2,0,1,19,7],
-"d1/dc3/_ellipse_semi_minor_axis_8inl.html#gae461acf3333565d69527dd86e9aa2b32":[3,0,0,3,2,0,1,19,0],
-"d1/dc3/_ellipse_semi_minor_axis_8inl.html#gaed84cd29b0768dd8eb2628b69e5c163f":[3,0,0,3,2,0,1,19,10],
-"d1/dc3/_ellipse_semi_minor_axis_8inl.html#gafe27ed64ba521ec3cf8557520cbc6a14":[3,0,0,3,2,0,1,19,6],
-"d1/dc6/_right_ascension_8inl.html":[3,0,0,1,30],
-"d1/dc6/_right_ascension_8inl.html#ga27ba790eb8358535613d3b32f97d9e3a":[3,0,0,1,30,2],
-"d1/dc6/_right_ascension_8inl.html#ga624dd87144a17d19d0100500c34da978":[3,0,0,1,30,1]
+"d1/dc3/_ellipse_semi_minor_axis_8inl.html#ga7bfc286b245acfcfd6c6bce85d25cdbb":[3,0,0,3,2,0,1,19,1]
 };
