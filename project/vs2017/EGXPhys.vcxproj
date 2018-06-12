@@ -207,7 +207,9 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\FootConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\ImperialConversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\InchConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\MilConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\MileConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\ThouConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\YardConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\LengthConversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\NauticalConversions.hpp" />
@@ -432,7 +434,9 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\ParsecConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\FootConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\InchConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\MilConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\MileConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\ThouConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\YardConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\AngstromConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\CuXUnitConversion.inl" />

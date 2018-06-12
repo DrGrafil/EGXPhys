@@ -365,7 +365,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in miles to copper x units.
-    *		\f[ l_{xu(Cu\ K\alpha_1)}=0.0254 * 63360 * \frac{1}{1.00207697*10^{-13}} l_{mi}\f]
+    *		\f[ l_{xu(Cu\ K\alpha_1)}=\frac{0.0254 * 63360}{1.00207697*10^{-13}} l_{mi}\f]
     *
     *   @param lengthInMile \f$ l_{mi}\ (mi)\f$ Length in miles.
     *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
@@ -378,7 +378,7 @@ namespace EGXMath
    
     /**
     *   @brief Converts a length in miles to molybdenum x units.
-    *		\f[ l_{xu(Mo\ K\alpha_1)}=0.0254 * 63360 * \frac{1}{1.00209952*10^{-13}} l_{mi}\f]
+    *		\f[ l_{xu(Mo\ K\alpha_1)}=\frac{0.0254 * 63360}{1.00209952*10^{-13}} l_{mi}\f]
     *
     *   @param lengthInMile \f$ l_{mi}\ (mi)\f$ Length in miles.
     *   @return \f$ l_{xu(Mo\ K\alpha_1)}\ (xu)\f$ Length in molybdenum x units.

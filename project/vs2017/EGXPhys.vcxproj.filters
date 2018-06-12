@@ -876,6 +876,12 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\YardConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\MilConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\ThouConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1247,6 +1253,12 @@
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\YardConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\MilConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\ThouConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
     </None>
   </ItemGroup>
