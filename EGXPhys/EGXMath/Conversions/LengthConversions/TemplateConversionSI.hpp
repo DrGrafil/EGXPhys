@@ -409,7 +409,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to yards.
-    *		\f[ l_{yd}=  \frac{10^{zrat}}{0.0254 * 36} \frac{1}{36} l_{uxxits}  \f]
+    *		\f[ l_{yd}=  \frac{10^{zrat}}{0.0254 * 36}l_{uxxits}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -473,7 +473,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to nautical mile.
-    *		\f[ l_{NM}= \frac{10^{zrat}}{0.0254 * 1852} l_{uxxits}  \f]
+    *		\f[ l_{NM}= \frac{10^{zrat}}{1852} l_{uxxits}  \f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.
