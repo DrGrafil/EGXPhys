@@ -1,8 +1,8 @@
-/// @file EGXMath/Conversions/DistanceConversions/uzitzsConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/Imperial/uzitzsConversion.inl
 ///
 /// @brief Implimentation of uzitzs conversions
 /// @author Elliot Grafil (Metex)
-/// @date 6/1/18
+/// @date 6/11/18
 
 
 namespace EGXMath {
@@ -29,7 +29,7 @@ namespace EGXMath {
 
     template<typename T>
     T uzitzsToMeter(const T lengthInuzitzs) {
-        return;
+        return uzitzsToInch(lengthInuzitzs) * (T)0.0254;
     }
 
     template<typename T>
@@ -183,7 +183,7 @@ namespace EGXMath {
 
     template<typename T>
     T uzitzsToInch(const T lengthInuzitzs) {
-        return ;
+        return lengthInuzitzs;
     }
 
     template<typename T>

@@ -875,10 +875,8 @@ RECURSIVE              = YES
 
 EXCLUDE                = ../EGXPhys/EGXMath/Conversions/AngleConversions/template.hpp \
                          ../EGXPhys/EGXMath/Conversions/AngleConversions/template.inl \
-                         ../EGXPhys/EGXMath/Conversions/LengthConversions/TemplateConversion.hpp \
-                         ../EGXPhys/EGXMath/Conversions/LengthConversions/TemplateConversion.inl \
-                         ../EGXPhys/EGXMath/Conversions/LengthConversions/TemplateConversionSI.hpp \
-                         ../EGXPhys/EGXMath/Conversions/LengthConversions/TemplateConversionSI.inl
+                         ../EGXPhys/EGXMath/Conversions/LengthConversions/Templates \
+                         ../tests
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded

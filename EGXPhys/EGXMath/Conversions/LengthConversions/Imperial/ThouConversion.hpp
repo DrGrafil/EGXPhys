@@ -1,30 +1,30 @@
-/// @file EGXMath/Conversions/LengthConversions/uzitzsConversion.hpp
+/// @file EGXMath/Conversions/LengthConversions/Imperial/uzitzsConversion.hpp
 ///
 /// @brief Converts length measurements in ulongxxits into various other units such as meters, parsecs, light years.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 6/1/18
+/// @date 6/11/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs uzitzs
-/// @ingroup EGXMath-Conversions-LengthConversions
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs uzitzs
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
 
-/// @defgroup EGXMath-Conversions-LengthConversions-uzitzs-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
 
 //=================================
 // Header guard
@@ -41,14 +41,14 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Astronomical
 	/// @{
 
     //Astronomical
     // No hubble length due to ill defined.
     /**
     *   @brief Converts a length in ulongxxits to astronomical units.
-    *		\f[ l_{au}=  \frac{1}{149597870700} l_{uxxits} \f]
+    *		\f[ l_{au}=\frac{0.0254}{149597870700} l_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Astronomical_unit
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -59,7 +59,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length ulongxxits in to light-years.
-    *		\f[ l_{ly}= \frac{1}{9460730472580800} l_{uxxits} \f]
+    *		\f[ l_{ly}=\frac{0.0254}{9460730472580800} l_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Light-year
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -70,7 +70,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to parsecs.
-    *		\f[ l_{pc}=\frac{\pi}{149597870700 * 648000} l_{uxxits}  \f]
+    *		\f[ l_{pc}=\frac{0.0254 * \pi}{149597870700 * 648000} l_{uxxits}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Parsec
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -83,11 +83,11 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-SI
     /// @{
     /**
     *   @brief Converts a length in ulongxxits to meters.
-    *		\f[ l_{m}=l_{uxxits} \f]
+    *		\f[ l_{m}=0.0254 * l_{uxxits} \f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ l_{m}\ (m)\f$ Length in meters.
@@ -97,7 +97,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to yottameters.
-    *		\f[ l_{Ym}=l_{uxxits} * 10^{-24} \f]
+    *		\f[ l_{Ym}=0.0254 * l_{uxxits} * 10^{-24} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -108,7 +108,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to zettameters.
-    *		\f[ l_{Zm}=l_{uxxits} * 10^{-21} \f]
+    *		\f[ l_{Zm}=0.0254 * l_{uxxits} * 10^{-21} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -119,7 +119,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to exameters.
-    *		\f[ l_{Em}=l_{uxxits} * 10^{-18} \f]
+    *		\f[ l_{Em}=0.0254 * l_{uxxits} * 10^{-18} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -130,7 +130,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to petameters.
-    *		\f[ l_{Pm}=l_{uxxits} * 10^{-15} \f]
+    *		\f[ l_{Pm}=0.0254 * l_{uxxits} * 10^{-15} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -141,7 +141,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to terameters.
-    *		\f[ l_{Tm}=l_{uxxits} * 10^{-12} \f]
+    *		\f[ l_{Tm}=0.0254 * l_{uxxits} * 10^{-12} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -152,7 +152,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to gigameters.
-    *		\f[ l_{Gm}=l_{uxxits} * 10^{-9} \f]
+    *		\f[ l_{Gm}=0.0254 * l_{uxxits} * 10^{-9} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -163,7 +163,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to megameters.
-    *		\f[ l_{Mm}=l_{uxxits} * 10^{-6} \f]
+    *		\f[ l_{Mm}=0.0254 * l_{uxxits} * 10^{-6} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -174,7 +174,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to kilometers.
-    *		\f[ l_{km}=l_{uxxits} * 10^{-3} \f]
+    *		\f[ l_{km}=0.0254 * l_{uxxits} * 10^{-3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -185,7 +185,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to hectometers.
-    *		\f[ l_{hm}=l_{uxxits} * 10^{-2} \f]
+    *		\f[ l_{hm}=0.0254 * l_{uxxits} * 10^{-2} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -196,7 +196,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to decameters.
-    *		\f[ l_{dam}=l_{uxxits} * 10^{-1} \f]
+    *		\f[ l_{dam}=0.0254 * l_{uxxits} * 10^{-1} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -207,7 +207,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to decimeters.
-    *		\f[ l_{dm}=l_{uxxits} * 10^{1} \f]
+    *		\f[ l_{dm}=0.0254 * l_{uxxits} * 10^{1} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -218,7 +218,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to centimeters.
-    *		\f[ l_{cm}=l_{uxxits} * 10^{2} \f]
+    *		\f[ l_{cm}=0.0254 * l_{uxxits} * 10^{2} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -229,7 +229,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to millimeters.
-    *		\f[ l_{m}=l_{uxxits} * 10^{3} \f]
+    *		\f[ l_{mm}=0.0254 * l_{uxxits} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -240,7 +240,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to micrometers.
-    *		\f[ l_{\mu m}=l_{uxxits} * 10^{6} \f]
+    *		\f[ l_{\mu m}=0.0254 * l_{uxxits} * 10^{6} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -252,7 +252,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to nanometers.
-    *		\f[ l_{nm}=l_{uxxits} * 10^{9} \f]
+    *		\f[ l_{nm}=0.0254 * l_{uxxits} * 10^{9} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -264,7 +264,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to picometers.
-    *		\f[ l_{pm}=l_{uxxits} * 10^{12} \f]
+    *		\f[ l_{pm}=0.0254 * l_{uxxits} * 10^{12} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -278,7 +278,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to femtometers.
-    *		\f[ l_{fm}=l_{uxxits} * 10^{15} \f]
+    *		\f[ l_{fm}=0.0254 * l_{uxxits} * 10^{15} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -290,7 +290,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to attometers.
-    *		\f[ l_{am}=l_{uxxits} * 10^{18} \f]
+    *		\f[ l_{am}=0.0254 * l_{uxxits} * 10^{18} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -301,7 +301,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to zeptometers.
-    *		\f[ l_{zm}=l_{uxxits} * 10^{21} \f]
+    *		\f[ l_{zm}=0.0254 * l_{uxxits} * 10^{21} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -311,8 +311,8 @@ namespace EGXMath
     T uzitzsToZeptometer(const T lengthInuzitzs);
 
     /**
-    *   @brief Converts a length in ulongxxits to Yoctometers.
-    *		\f[ l_{ym}=l_{uxxits} * 10^{24} \f]
+    *   @brief Converts a length in ulongxxits to yoctometers.
+    *		\f[ l_{ym}=0.0254 * l_{uxxits} * 10^{24} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -325,12 +325,12 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Non-SI
     /// @{
 
     /**
     *   @brief Converts a length in ulongxxits to angstroms.
-    *		\f[ l_{\unicode{x212B}}=l_{uxxits} * 10^{10} \f]
+    *		\f[ l_{\unicode{x212B}}=0.0254 * l_{uxxits} * 10^{10} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -344,7 +344,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to fermis.
-    *		\f[ l_{fm}=l_{uxxits} * 10^{15} \f]
+    *		\f[ l_{fm}=0.0254 * l_{uxxits} * 10^{15} \f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ l_{fm}\ (fm)\f$ Length in fermis.
@@ -354,7 +354,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to microns.
-    *		\f[ l_{\mu m}=l_{uxxits} * 10^{6} \f]
+    *		\f[ l_{\mu m}=0.0254 * l_{uxxits} * 10^{6} \f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ l_{\mu m}\ (\mu m)\f$ Length in microns.
@@ -365,7 +365,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to copper x units.
-    *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{uxxits} \f]
+    *		\f[ l_{xu(Cu\ K\alpha_1)}=0.0254 * \frac{1}{1.00207697*10^{-13}} l_{uxxits}\f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
@@ -378,7 +378,7 @@ namespace EGXMath
    
     /**
     *   @brief Converts a length in ulongxxits to molybdenum x units.
-    *		\f[ l_{xu(Mo\ K\alpha_1)}=\frac{1}{1.00209952*10^{-13}} l_{uxxits} \f]
+    *		\f[ l_{xu(Mo\ K\alpha_1)}=0.0254 * \frac{1}{1.00209952*10^{-13}} l_{uxxits}\f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ l_{xu(Mo\ K\alpha_1)}\ (xu)\f$ Length in molybdenum x units.
@@ -393,7 +393,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Imperial
     /// @{
 
     /**
@@ -409,7 +409,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to yards.
-    *		\f[ l_{yd}= \frac{1}{36} l_{uxxits}  \f]
+    *		\f[ l_{yd}=  \frac{1}{36} l_{uxxits}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -431,7 +431,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to inches.
-    *		\f[ l_{in}=l_{uxxits} \f]
+    *		\f[ l_{in}= l_{uxxits} \f]
     *
     *   See https://en.wikipedia.org/wiki/Inch
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -454,7 +454,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to thous (thousandth of an inch).
-    *		\f[ l_{mil}=l_{uxxits} * 10^{3} \f]
+    *		\f[ l_{mil}= l_{uxxits} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Thousandth_of_an_inch
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -468,12 +468,12 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Nautical
     /// @{
 
     /**
     *   @brief Converts a length in ulongxxits to nautical mile.
-    *		\f[ l_{NM}= \frac{1}{1852} l_{uxxits}  \f]
+    *		\f[ l_{NM}= \frac{0.0254}{1852} l_{uxxits}  \f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.
@@ -496,7 +496,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-uzitzs-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Surveyors
     /// @{
 
     /**
@@ -512,7 +512,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to chains.
-    *		\f[ l_{ch}= \frac{1}{792} l_{uxxits} \f]
+    *		\f[ l_{ch}= \frac{1}{792}  l_{uxxits} \f]
     *
     *   See https://simple.wikipedia.org/wiki/Chain_(unit)
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
@@ -524,4 +524,4 @@ namespace EGXMath
 	/// @}
 } //namespace EGXMath
 
-#include "TemplateConversion.inl"
+#include "uzitzsConversion.inl"
