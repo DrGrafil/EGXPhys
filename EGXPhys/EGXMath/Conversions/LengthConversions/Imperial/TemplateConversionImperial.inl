@@ -29,7 +29,7 @@ namespace EGXMath {
 
     template<typename T>
     T uzitzsToMeter(const T lengthInuzitzs) {
-        return;
+        return; //lengthInInch * (T)0.0254;
     }
 
     template<typename T>
@@ -183,7 +183,7 @@ namespace EGXMath {
 
     template<typename T>
     T uzitzsToInch(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)0.0254;
+        return lengthInuzitzs;
     }
 
     template<typename T>

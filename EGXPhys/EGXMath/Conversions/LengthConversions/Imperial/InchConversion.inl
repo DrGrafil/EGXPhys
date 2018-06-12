@@ -29,7 +29,7 @@ namespace EGXMath {
 
     template<typename T>
     T InchToMeter(const T lengthInInch) {
-        return;
+        return lengthInInch * (T)0.0254;
     }
 
     template<typename T>

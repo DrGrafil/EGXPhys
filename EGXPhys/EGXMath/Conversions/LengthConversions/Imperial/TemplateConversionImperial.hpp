@@ -3,7 +3,7 @@
 /// @brief Converts length measurements in ulongxxits into various other units such as meters, parsecs, light years.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 6/8/18
+/// @date 6/11/18
 
 /// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs uzitzs
 /// @ingroup EGXMath-Conversions-LengthConversions-Imperial
