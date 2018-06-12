@@ -178,7 +178,7 @@ namespace EGXMath {
 
     template<typename T>
     T MileToInch(const T lengthInMile) {
-        return (T)63360.0 * lengthInMile;
+        return lengthInMile * (T)63360.0;
     }
 
     template<typename T>

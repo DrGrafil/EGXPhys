@@ -858,9 +858,6 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\ImperialConversions.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\TemplateConversionImperial.hpp">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\NauticalConversions.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Nautical</Filter>
     </ClInclude>
@@ -871,6 +868,12 @@
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\MileConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\FootConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\YardConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1234,13 +1237,16 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical\ParsecConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Astronomical</Filter>
     </None>
-    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\TemplateConversionImperial.inl">
-      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
-    </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\InchConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\MileConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\FootConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\YardConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
     </None>
   </ItemGroup>
