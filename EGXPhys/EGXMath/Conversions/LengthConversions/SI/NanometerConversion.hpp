@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in nanometers to yards.
-    *		\f[ l_{yd}=  \frac{10^{-9}}{0.0254 * 36} \frac{1}{36} l_{nm}  \f]
+    *		\f[ l_{yd}=  \frac{10^{-9}}{0.0254 * 36} l_{nm}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInNanometer \f$ l_{nm}\ (nm)\f$ Length in nanometers.

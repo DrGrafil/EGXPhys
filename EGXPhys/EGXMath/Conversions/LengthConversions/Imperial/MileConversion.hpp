@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in miles to yards.
-    *		\f[ l_{yd}=  \frac{63360}{36} \frac{1}{36} l_{mi}  \f]
+    *		\f[ l_{yd}=  \frac{63360}{36} l_{mi}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInMile \f$ l_{mi}\ (mi)\f$ Length in miles.

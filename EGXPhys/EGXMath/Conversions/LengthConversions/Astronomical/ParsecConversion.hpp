@@ -409,7 +409,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in parsecs to yards.
-    *		\f[ l_{yd}=  \frac{149597870700 * 648000}{0.0254 * 36 * \pi} \frac{1}{36} l_{pc}  \f]
+    *		\f[ l_{yd}=  \frac{149597870700 * 648000}{0.0254 * 36 * \pi} l_{pc}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInParsec \f$ l_{pc}\ (pc)\f$ Length in parsecs.

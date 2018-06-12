@@ -397,7 +397,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in microns to yards.
-    *		\f[ l_{yd}=  \frac{10^{-6}}{0.0254 * 36} \frac{1}{36} l_{\mu m}  \f]
+    *		\f[ l_{yd}=  \frac{10^{-6}}{0.0254 * 36} l_{\mu m}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInMicron \f$ l_{\mu m}\ (\mu m)\f$ Length in microns.

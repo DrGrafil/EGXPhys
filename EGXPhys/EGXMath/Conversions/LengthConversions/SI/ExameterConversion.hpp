@@ -399,7 +399,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in exameters to yards.
-    *		\f[ l_{yd}=  \frac{10^{18}}{0.0254 * 36} \frac{1}{36} l_{Em}  \f]
+    *		\f[ l_{yd}=  \frac{10^{18}}{0.0254 * 36} l_{Em}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInExameter \f$ l_{Em}\ (Em)\f$ Length in exameters.

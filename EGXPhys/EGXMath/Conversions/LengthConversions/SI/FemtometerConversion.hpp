@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in femtometers to yards.
-    *		\f[ l_{yd}=  \frac{10^{-15}}{0.0254 * 36} \frac{1}{36} l_{fm}  \f]
+    *		\f[ l_{yd}=  \frac{10^{-15}}{0.0254 * 36} l_{fm}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInFemtometer \f$ l_{fm}\ (fm)\f$ Length in femtometers.

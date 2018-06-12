@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in light years to yards.
-    *		\f[ l_{yd}=  \frac{9460730472580800}{0.0254 * 36} \frac{1}{36} l_{ly}  \f]
+    *		\f[ l_{yd}=  \frac{9460730472580800}{0.0254 * 36} l_{ly}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInLightYear \f$ l_{ly}\ (ly)\f$ Length in light years.

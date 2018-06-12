@@ -399,7 +399,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in zeptometers to yards.
-    *		\f[ l_{yd}=  \frac{10^{-21}}{0.0254 * 36} \frac{1}{36} l_{zm}  \f]
+    *		\f[ l_{yd}=  \frac{10^{-21}}{0.0254 * 36} l_{zm}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInZeptometer \f$ l_{zm}\ (zm)\f$ Length in zeptometers.

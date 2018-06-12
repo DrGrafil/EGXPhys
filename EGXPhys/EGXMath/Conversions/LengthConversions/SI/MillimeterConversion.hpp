@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in millimeters to yards.
-    *		\f[ l_{yd}=  \frac{10^{-3}}{0.0254 * 36} \frac{1}{36} l_{mm}  \f]
+    *		\f[ l_{yd}=  \frac{10^{-3}}{0.0254 * 36} l_{mm}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInMillimeter \f$ l_{mm}\ (mm)\f$ Length in millimeters.

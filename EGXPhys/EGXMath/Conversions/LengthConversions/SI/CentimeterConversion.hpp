@@ -399,7 +399,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in centimeters to yards.
-    *		\f[ l_{yd}=  \frac{10^{-2}}{0.0254 * 36} \frac{1}{36} l_{cm}  \f]
+    *		\f[ l_{yd}=  \frac{10^{-2}}{0.0254 * 36} l_{cm}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInCentimeter \f$ l_{cm}\ (cm)\f$ Length in centimeters.

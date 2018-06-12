@@ -399,7 +399,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in kilometers to yards.
-    *		\f[ l_{yd}=  \frac{10^{3}}{0.0254 * 36} \frac{1}{36} l_{km}  \f]
+    *		\f[ l_{yd}=  \frac{10^{3}}{0.0254 * 36} l_{km}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInKilometer \f$ l_{km}\ (km)\f$ Length in kilometers.

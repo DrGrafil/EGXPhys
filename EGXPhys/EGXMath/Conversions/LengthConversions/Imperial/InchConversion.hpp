@@ -409,7 +409,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in inchs to yards.
-    *		\f[ l_{yd}=  \frac{1}{36} \frac{1}{36} l_{in}  \f]
+    *		\f[ l_{yd}= \frac{1}{36} l_{in}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInInch \f$ l_{in}\ (in)\f$ Length in inchs.

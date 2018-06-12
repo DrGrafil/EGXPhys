@@ -396,7 +396,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in Mo x units to yards.
-    *		\f[ l_{yd}=  \frac{1.00209952*10^{-13}}{0.0254 * 36} \frac{1}{36} l_{xu(Mo\ K\alpha_1)}  \f]
+    *		\f[ l_{yd}=  \frac{1.00209952*10^{-13}}{0.0254 * 36} l_{xu(Mo\ K\alpha_1)}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInMoXUnit \f$ l_{xu(Mo\ K\alpha_1)}\ (xu(Mo\ K\alpha_1))\f$ Length in Mo x units.

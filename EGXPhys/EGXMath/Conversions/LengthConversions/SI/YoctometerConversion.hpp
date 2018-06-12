@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in yoctometers to yards.
-    *		\f[ l_{yd}=  \frac{10^{-24}}{0.0254 * 36} \frac{1}{36} l_{ym}  \f]
+    *		\f[ l_{yd}=  \frac{10^{-24}}{0.0254 * 36} l_{ym}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInYoctometer \f$ l_{ym}\ (ym)\f$ Length in yoctometers.

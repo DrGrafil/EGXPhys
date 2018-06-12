@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in decameters to yards.
-    *		\f[ l_{yd}=  \frac{10^{1}}{0.0254 * 36} \frac{1}{36} l_{dam}  \f]
+    *		\f[ l_{yd}=  \frac{10^{1}}{0.0254 * 36} l_{dam}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInDecameter \f$ l_{dam}\ (dam)\f$ Length in decameters.

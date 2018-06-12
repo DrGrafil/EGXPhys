@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in zettameters to yards.
-    *		\f[ l_{yd}=  \frac{10^{21}}{0.0254 * 36} \frac{1}{36} l_{Zm}  \f]
+    *		\f[ l_{yd}=  \frac{10^{21}}{0.0254 * 36} l_{Zm}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInZettameter \f$ l_{Zm}\ (Zm)\f$ Length in zettameters.

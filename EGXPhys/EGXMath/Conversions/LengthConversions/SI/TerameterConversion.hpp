@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in terameters to yards.
-    *		\f[ l_{yd}=  \frac{10^{12}}{0.0254 * 36} \frac{1}{36} l_{Tm}  \f]
+    *		\f[ l_{yd}=  \frac{10^{12}}{0.0254 * 36} l_{Tm}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInTerameter \f$ l_{Tm}\ (Tm)\f$ Length in terameters.

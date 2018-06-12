@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in petameters to yards.
-    *		\f[ l_{yd}=  \frac{10^{15}}{0.0254 * 36} \frac{1}{36} l_{Pm}  \f]
+    *		\f[ l_{yd}=  \frac{10^{15}}{0.0254 * 36} l_{Pm}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInPetameter \f$ l_{Pm}\ (Pm)\f$ Length in petameters.

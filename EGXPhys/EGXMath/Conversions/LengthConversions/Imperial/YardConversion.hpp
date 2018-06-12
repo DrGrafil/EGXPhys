@@ -409,7 +409,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to yards.
-    *		\f[ l_{yd}=  \frac{1}{36} \frac{1}{36} l_{uxxits}  \f]
+    *		\f[ l_{yd}=  \frac{1}{36} l_{uxxits}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.

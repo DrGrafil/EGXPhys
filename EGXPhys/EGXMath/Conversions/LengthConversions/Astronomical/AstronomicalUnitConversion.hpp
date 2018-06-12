@@ -396,7 +396,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in astronomical units to yards.
-    *		\f[ l_{yd}=  \frac{149597870700}{0.0254 * 36} \frac{1}{36} l_{au}  \f]
+    *		\f[ l_{yd}=  \frac{149597870700}{0.0254 * 36} l_{au}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInAstronomicalUnit \f$ l_{au}\ (au)\f$ Length in astronomical units.

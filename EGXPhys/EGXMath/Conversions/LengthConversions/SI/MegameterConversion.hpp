@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in megameters to yards.
-    *		\f[ l_{yd}=  \frac{10^{6}}{0.0254 * 36} \frac{1}{36} l_{Mm}  \f]
+    *		\f[ l_{yd}=  \frac{10^{6}}{0.0254 * 36} l_{Mm}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInMegameter \f$ l_{Mm}\ (Mm)\f$ Length in megameters.

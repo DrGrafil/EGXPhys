@@ -398,7 +398,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in gigameters to yards.
-    *		\f[ l_{yd}=  \frac{10^{9}}{0.0254 * 36} \frac{1}{36} l_{Gm}  \f]
+    *		\f[ l_{yd}=  \frac{10^{9}}{0.0254 * 36} l_{Gm}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInGigameter \f$ l_{Gm}\ (Gm)\f$ Length in gigameters.

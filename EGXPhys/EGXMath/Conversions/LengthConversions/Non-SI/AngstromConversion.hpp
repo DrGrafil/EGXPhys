@@ -395,7 +395,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in angstroms to yards.
-    *		\f[ l_{yd}=  \frac{10^{-10}}{0.0254 * 36} \frac{1}{36} l_{\unicode{x212B}}  \f]
+    *		\f[ l_{yd}=  \frac{10^{-10}}{0.0254 * 36} l_{\unicode{x212B}}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInAngstrom \f$ l_{\unicode{x212B}}\ (\unicode{x212B})\f$ Length in angstroms.

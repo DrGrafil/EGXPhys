@@ -393,7 +393,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in picometers to yards.
-    *		\f[ l_{yd}=  \frac{10^{-12}}{0.0254 * 36} \frac{1}{36} l_{pm}  \f]
+    *		\f[ l_{yd}=  \frac{10^{-12}}{0.0254 * 36} l_{pm}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInPicometer \f$ l_{pm}\ (pm)\f$ Length in picometers.

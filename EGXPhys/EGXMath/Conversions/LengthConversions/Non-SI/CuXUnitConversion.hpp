@@ -396,7 +396,7 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in Cu x units to yards.
-    *		\f[ l_{yd}=  \frac{1.00207697*10^{-13}}{0.0254 * 36} \frac{1}{36} l_{xu(Cu\ K\alpha_1)}  \f]
+    *		\f[ l_{yd}=  \frac{1.00207697*10^{-13}}{0.0254 * 36} l_{xu(Cu\ K\alpha_1)}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
     *   @param lengthInCuXUnit \f$ l_{xu(Cu\ K\alpha_1)}\ (xu(Cu\ K\alpha_1))\f$ Length in Cu x units.
