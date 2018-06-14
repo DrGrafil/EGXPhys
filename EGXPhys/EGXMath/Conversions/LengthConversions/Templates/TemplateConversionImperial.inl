@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T uzitzsToFermi(const T lengthInuzitzs) {
-        return uzitzsTofemtometer(lengthInuzitzs);
+        return uzitzsToFemtometer(lengthInuzitzs);
     }
 
     template<typename T>

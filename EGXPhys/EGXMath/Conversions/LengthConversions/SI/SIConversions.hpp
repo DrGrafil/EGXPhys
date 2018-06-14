@@ -26,7 +26,7 @@
 #include "AttometerConversion.hpp"
 #include "CentimeterConversion.hpp"
 #include "DecameterConversion.hpp"
-#include "DecameterConversion.hpp"
+#include "DecimeterConversion.hpp"
 #include "ExameterConversion.hpp"
 #include "FemtometerConversion.hpp"
 #include "GigameterConversion.hpp"

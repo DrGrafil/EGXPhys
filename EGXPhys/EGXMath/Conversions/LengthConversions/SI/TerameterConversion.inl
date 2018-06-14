@@ -29,7 +29,7 @@ namespace EGXMath {
 
     template<typename T>
     T TerameterToMeter(const T lengthInTerameter) {
-        return lengthInTerameter * (T)1e-12;
+        return lengthInTerameter * (T)1e12;
     }
 
     template<typename T>

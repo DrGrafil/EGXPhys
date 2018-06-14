@@ -29,7 +29,7 @@ namespace EGXMath {
 
     template<typename T>
     T MillimeterToMeter(const T lengthInMillimeter) {
-        return lengthInMillimeter * (T)1e3;
+        return lengthInMillimeter / (T)1e3;
     }
 
     template<typename T>
