@@ -183,7 +183,7 @@ namespace EGXMath {
 
     template<typename T>
     T ChainToInch(const T lengthInChain) {
-        return lengthInChain;
+        return lengthInChain * (T)792.0;
     }
 
     template<typename T>
@@ -212,11 +212,6 @@ namespace EGXMath {
     template<typename T>
     T ChainToRod(const T lengthInChain) {
         return ChainToInch(lengthInChain) / (T)198.0;
-    }
-
-    template<typename T>
-    T ChainToChain(const T lengthInChain) {
-        return ChainToInch(lengthInChain) / (T)792.0;
     }
 
 }//namespace EGXPhys
