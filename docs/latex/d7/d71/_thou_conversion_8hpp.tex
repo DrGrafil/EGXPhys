@@ -1,0 +1,98 @@
+\hypertarget{_thou_conversion_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Imperial/\+Thou\+Conversion.hpp File Reference}
+\label{_thou_conversion_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Imperial/\+Thou\+Conversion.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Imperial/\+Thou\+Conversion.\+hpp}}
+
+
+Converts length measurements in thous into various other units such as meters, parsecs, light years.  
+
+
+{\ttfamily \#include \char`\"{}Thou\+Conversion.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_astronomical_gaf6e57bc733c3644d4ca1a6c0bb836b42}{E\+G\+X\+Math\+::\+Thou\+To\+Astronomical\+Unit}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to astronomical units. \[ l_{au}=\frac{0.0254 * 10^{-3}}{149597870700} l_{mil} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_astronomical_gab36cdfc79de8c7cde7dedb7b08a6323e}{E\+G\+X\+Math\+::\+Thou\+To\+Light\+Year}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length thous in to light-\/years. \[ l_{ly}=\frac{0.0254 * 10^{-3}}{9460730472580800} l_{mil} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_astronomical_gaa2a5b00bb5a83ba8f22f9c2f15ecc112}{E\+G\+X\+Math\+::\+Thou\+To\+Parsec}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to parsecs. \[ l_{pc}=\frac{0.0254 * 10^{-3} * \pi}{149597870700 * 648000} l_{mil} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga0d5d19b317eee7fc8c2a4c24195e8ed5}{E\+G\+X\+Math\+::\+Thou\+To\+Meter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to meters. \[ l_{m}=0.0254 * l_{mil} * 10^{-3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga289b200bab4328ce7bcde4464d91c62a}{E\+G\+X\+Math\+::\+Thou\+To\+Yottameter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to yottameters. \[ l_{Ym}=0.0254 * l_{mil} * 10^{-27} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga388e6005a2fec0fb3e52db46841eacef}{E\+G\+X\+Math\+::\+Thou\+To\+Zettameter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to zettameters. \[ l_{Zm}=0.0254 * l_{mil} * 10^{-24} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga727138bc2a5fb18f959a675df44b6306}{E\+G\+X\+Math\+::\+Thou\+To\+Exameter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to exameters. \[ l_{Em}=0.0254 * l_{mil} * 10^{-21} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga14912eb2003dcac47d530dfb90b90761}{E\+G\+X\+Math\+::\+Thou\+To\+Petameter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to petameters. \[ l_{Pm}=0.0254 * l_{mil} * 10^{-18} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga166a46a29a2a25eab620f82c43240878}{E\+G\+X\+Math\+::\+Thou\+To\+Terameter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to terameters. \[ l_{Tm}=0.0254 * l_{mil} * 10^{-15} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga53354dce1cb2e9b136520fa3cf836305}{E\+G\+X\+Math\+::\+Thou\+To\+Gigameter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to gigameters. \[ l_{Gm}=0.0254 * l_{mil} * 10^{-12} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga774f8033626b121ccaf369950df3dd1e}{E\+G\+X\+Math\+::\+Thou\+To\+Megameter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to megameters. \[ l_{Mm}=0.0254 * l_{mil} * 10^{-9} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga659ca5f57bc87f49d568df8a3abb5ed3}{E\+G\+X\+Math\+::\+Thou\+To\+Kilometer}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to kilometers. \[ l_{km}=0.0254 * l_{mil} * 10^{-6} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga6493263a0400fe1dfa4ef0ab50be59de}{E\+G\+X\+Math\+::\+Thou\+To\+Hectometer}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to hectometers. \[ l_{hm}=0.0254 * l_{mil} * 10^{-5} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_gab03dfc8772a388c93d1504f2b1c5717a}{E\+G\+X\+Math\+::\+Thou\+To\+Decameter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to decameters. \[ l_{dam}=0.0254 * l_{mil} * 10^{-4} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga9eb7f14e77defb2c5008314b9c92e6dd}{E\+G\+X\+Math\+::\+Thou\+To\+Decimeter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to decimeters. \[ l_{dm}=0.0254 * l_{mil} * 10^{-2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga8c02f5046eede6e801c206cbd02d1055}{E\+G\+X\+Math\+::\+Thou\+To\+Centimeter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to centimeters. \[ l_{cm}=0.0254 * l_{mil} * 10^{-1} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga0fc7339abd95e8c5abaed9fee95bafbb}{E\+G\+X\+Math\+::\+Thou\+To\+Millimeter}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to millimeters. \[ l_{mm}=0.0254 * l_{mil} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_gaa3207ca1334f385f584132c109345a6d}{E\+G\+X\+Math\+::\+Thou\+To\+Micrometer}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to micrometers. \[ l_{\mu m}=0.0254 * l_{mil} * 10^{3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_gadc6f45eeae7d4fe8bb993419c96e1860}{E\+G\+X\+Math\+::\+Thou\+To\+Nanometer}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to nanometers. \[ l_{nm}=0.0254 * l_{mil} * 10^{6} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_gabc7a92b07f617bdf0ac0249d34c4aa4c}{E\+G\+X\+Math\+::\+Thou\+To\+Picometer}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to picometers. \[ l_{pm}=0.0254 * l_{mil} * 10^{9} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_gaecb2f2011c7b1c81a6b94cf3111cc107}{E\+G\+X\+Math\+::\+Thou\+To\+Femtometer}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to femtometers. \[ l_{fm}=0.0254 * l_{mil} * 10^{12} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga6e15cb5df637254290eebc91c3e2867d}{E\+G\+X\+Math\+::\+Thou\+To\+Attometer}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to attometers. \[ l_{am}=0.0254 * l_{mil} * 10^{15} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga496bafe1152fe3ede3021fd49289b6e5}{E\+G\+X\+Math\+::\+Thou\+To\+Zeptometer}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to zeptometers. \[ l_{zm}=0.0254 * l_{mil} * 10^{18} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_s_i_ga9d6f9fc2ae199f7d67e0eff86cc17caf}{E\+G\+X\+Math\+::\+Thou\+To\+Yoctometer}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to yoctometers. \[ l_{ym}=0.0254 * l_{mil} * 10^{21} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_non-_s_i_ga5d852bdec8556e4b6bde1445f5f74a20}{E\+G\+X\+Math\+::\+Thou\+To\+Angstrom}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to angstroms. \[ l_{\unicode{x212B}}=0.0254 * l_{mil} * 10^{7} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_non-_s_i_ga4a134cf9b956cd51e579dc65b4fd7774}{E\+G\+X\+Math\+::\+Thou\+To\+Fermi}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to fermis. \[ l_{fm}=0.0254 * l_{mil} * 10^{12} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_non-_s_i_ga7f43c9a1cbb845911bdcbbbe388347a1}{E\+G\+X\+Math\+::\+Thou\+To\+Micron}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to microns. \[ l_{\mu m}=0.0254 * l_{mil} * 10^{3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_non-_s_i_ga5614deb555c0360dfdaa94d01ad35b17}{E\+G\+X\+Math\+::\+Thou\+To\+Cu\+X\+Unit}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to copper x units. \[ l_{xu(Cu\ K\alpha_1)}=\frac{0.0254 * 10^{-3}}{1.00207697*10^{-13}} l_{mil}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_non-_s_i_ga3eb765800fa51e529878bdae4e997763}{E\+G\+X\+Math\+::\+Thou\+To\+Mo\+X\+Unit}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to molybdenum x units. \[ l_{xu(Mo\ K\alpha_1)}=\frac{0.0254 * 10^{-3}}{1.00209952*10^{-13}} l_{mil}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_imperial_ga1a3d3b11a614cf1e7086506cc0dc1430}{E\+G\+X\+Math\+::\+Thou\+To\+Mile}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to miles. \[ l_{mi}=\frac{10^{-3}}{63360} l_{mil} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_imperial_ga15eba45029ba30529fbd0038af9de3a2}{E\+G\+X\+Math\+::\+Thou\+To\+Yard}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to yards. \[ l_{yd}= \frac{10^{-3}}{36} l_{mil} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_imperial_ga10138630a7c3b1f80dfb4a34552e0af5}{E\+G\+X\+Math\+::\+Thou\+To\+Foot}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to feet. \[ l_{ft}= \frac{10^{-3}}{12} l_{mil} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_imperial_gad8bbba80b7d752a5edd4453fef6c0772}{E\+G\+X\+Math\+::\+Thou\+To\+Inch}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to inches. \[ l_{in}= l_{mil} * 10^{-3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_imperial_ga3e51ce22cf63efe45874ca707dbc1506}{E\+G\+X\+Math\+::\+Thou\+To\+Mil}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to mils (thousandth of an inch). \[ l_{mil}=l_{mil} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_nautical_gadd6e063edb182d6461d6c35f4070072d}{E\+G\+X\+Math\+::\+Thou\+To\+Nautical\+Mile}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to nautical mile. \[ l_{NM}= \frac{0.0254 * 10^{-3}}{1852} l_{mil} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_nautical_ga00618d821c88aa01407d6770bcb1c5de}{E\+G\+X\+Math\+::\+Thou\+To\+Fathom}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to fathoms. \[ l_{fathom}= \frac{10^{-3}}{72} l_{mil} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_surveyors_ga904d9983041eecd1dbcc92d29e21d5f3}{E\+G\+X\+Math\+::\+Thou\+To\+Rod}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to rods. \[ l_{rod}= \frac{10^{-3}}{198} l_{mil} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_surveyors_gafe0134eff7a5cc259ee143f60a4aeec7}{E\+G\+X\+Math\+::\+Thou\+To\+Chain}} (const T length\+In\+Thou)
+\begin{DoxyCompactList}\small\item\em Converts a length in thous to chains. \[ l_{ch}= \frac{10^{-3}}{792} l_{mil} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Converts length measurements in thous into various other units such as meters, parsecs, light years. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+6/13/18 
+\end{DoxyDate}

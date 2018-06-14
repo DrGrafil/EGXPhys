@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"d2/d38/_ellipse_focal_parameter_8hpp.html#gafd838410a3f813315166c64b53e0e25b":[3,0,0,3,2,0,1,8,1],
 "d2/d38/_ellipse_focal_parameter_8hpp_source.html":[3,0,0,3,2,0,1,8],
 "d2/d40/group___e_g_x_math-_geometry-.html":[1,0,2,1],
 "d2/d40/group___e_g_x_phys-_periapsis.html":[1,1,1,11],
@@ -42,7 +41,6 @@ var NAVTREEINDEX4 =
 "d2/d58/group___e_g_x_math-_conversions-_length_conversions-_s_i-_yoctometer-_surveyors.html":[1,0,0,2,4,17,5],
 "d2/d58/group___e_g_x_math-_conversions-_length_conversions-_s_i-_yoctometer-_surveyors.html#ga982ac95d1a3ac5e02e983e355af983d0":[1,0,0,2,4,17,5,0],
 "d2/d58/group___e_g_x_math-_conversions-_length_conversions-_s_i-_yoctometer-_surveyors.html#gaabe3a5aaa7081b0489d25f0b2117c11b":[1,0,0,2,4,17,5,1],
-"d2/d5c/_imperial_2_template_conversion_imperial_8hpp_source.html":[3,0,0,3,0,2,1,1],
 "d2/d5e/_kinetics_constants_8hpp.html":[3,0,0,6,7],
 "d2/d5e/_kinetics_constants_8hpp_source.html":[3,0,0,6,7],
 "d2/d6c/group___n_i_s_t_const-_fermi_coupling_constant.html":[1,2,2,5],
@@ -182,6 +180,10 @@ var NAVTREEINDEX4 =
 "d2/d8f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_surveyors.html":[1,0,0,2,3,3,5],
 "d2/d8f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_surveyors.html#ga35d9a4c6d414802981ea103491e458bd":[1,0,0,2,3,3,5,0],
 "d2/d8f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_surveyors.html#gae81e23a6186148740d3b610089ba3c2e":[1,0,0,2,3,3,5,1],
+"d2/d90/group___e_g_x_math-_conversions-_length_conversions-_imperial-_foot-_astronomical.html":[1,0,0,2,1,0,0],
+"d2/d90/group___e_g_x_math-_conversions-_length_conversions-_imperial-_foot-_astronomical.html#ga18d4fb64ab846e864256de77e664033a":[1,0,0,2,1,0,0,0],
+"d2/d90/group___e_g_x_math-_conversions-_length_conversions-_imperial-_foot-_astronomical.html#gabfbad3d88e53552b7d0ed791c7d75dc7":[1,0,0,2,1,0,0,1],
+"d2/d90/group___e_g_x_math-_conversions-_length_conversions-_imperial-_foot-_astronomical.html#gac6684ac6570b6ec9a0e30237bbb33f16":[1,0,0,2,1,0,0,2],
 "d2/d90/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_surveyors.html":[1,0,0,2,4,6,5],
 "d2/d90/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_surveyors.html#ga1ed5bf3c72c4a51beebcddf4f7e87631":[1,0,0,2,4,6,5,0],
 "d2/d90/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_surveyors.html#ga73a408111b846e3cb97aa1990135ec46":[1,0,0,2,4,6,5,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "d2/dbb/_femtometer_conversion_8inl.html#ga59bde341fe80506851e39cd2ceb3747b":[3,0,0,3,0,2,4,11,5],
 "d2/dbb/_femtometer_conversion_8inl.html#ga5c277d07215ad164ba2ad94e25b02ff1":[3,0,0,3,0,2,4,11,32],
 "d2/dbb/_femtometer_conversion_8inl.html#ga61aa82ad734717567c959f0d4e840076":[3,0,0,3,0,2,4,11,25],
-"d2/dbb/_femtometer_conversion_8inl.html#ga62157df6cfd3d6b801c521105b7f4f71":[3,0,0,3,0,2,4,11,2],
-"d2/dbb/_femtometer_conversion_8inl.html#ga6406395140da34327a85098a7dd9e4f0":[3,0,0,3,0,2,4,11,34],
-"d2/dbb/_femtometer_conversion_8inl.html#ga72862654ebe3812db0fbf8d11d7059ff":[3,0,0,3,0,2,4,11,0]
+"d2/dbb/_femtometer_conversion_8inl.html#ga62157df6cfd3d6b801c521105b7f4f71":[3,0,0,3,0,2,4,11,2]
 };

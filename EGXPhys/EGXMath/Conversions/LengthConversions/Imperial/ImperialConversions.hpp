@@ -19,3 +19,11 @@
 
 //=================================
 //
+
+
+#include "MilConversion.hpp"
+#include "YardConversion.hpp"
+#include "FootConversion.hpp"
+#include "InchConversion.hpp"
+#include "MilConversion.hpp"
+#include "ThouConversion.hpp"
