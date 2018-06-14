@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T FathomToFermi(const T lengthInFathom) {
-        return FathomTofemtometer(lengthInFathom);
+        return FathomToFemtometer(lengthInFathom);
     }
 
     template<typename T>

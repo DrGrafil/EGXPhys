@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T ChainToFermi(const T lengthInChain) {
-        return ChainTofemtometer(lengthInChain);
+        return ChainToFemtometer(lengthInChain);
     }
 
     template<typename T>

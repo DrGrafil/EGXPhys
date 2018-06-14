@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T NauticalMileToFermi(const T lengthInNauticalMile) {
-        return NauticalMileTofemtometer(lengthInNauticalMile);
+        return NauticalMileToFemtometer(lengthInNauticalMile);
     }
 
     template<typename T>

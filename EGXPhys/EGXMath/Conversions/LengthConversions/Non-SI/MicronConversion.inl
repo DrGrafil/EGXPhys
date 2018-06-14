@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T MicronToFermi(const T lengthInMicron) {
-        return MicronTofemtometer(lengthInMicron);
+        return MicronToFemtometer(lengthInMicron);
     }
 
     template<typename T>

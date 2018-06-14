@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T MileToFermi(const T lengthInMile) {
-        return MileTofemtometer(lengthInMile);
+        return MileToFemtometer(lengthInMile);
     }
 
     template<typename T>

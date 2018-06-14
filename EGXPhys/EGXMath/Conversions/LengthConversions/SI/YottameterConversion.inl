@@ -138,7 +138,7 @@ namespace EGXMath {
 
     template<typename T>
     T YottameterToFermi(const T lengthInYottameter) {
-        return YottameterTofemtometer(lengthInYottameter);
+        return YottameterToFemtometer(lengthInYottameter);
     }
 
     template<typename T>

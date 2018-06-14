@@ -139,7 +139,7 @@ namespace EGXMath {
 
     template<typename T>
     T LightYearToFermi(const T lengthInLightYear) {
-        return LightYearTofemtometer(lengthInLightYear);
+        return LightYearToFemtometer(lengthInLightYear);
     }
 
     template<typename T>

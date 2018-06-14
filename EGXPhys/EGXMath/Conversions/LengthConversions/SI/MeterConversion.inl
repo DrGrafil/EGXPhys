@@ -139,7 +139,7 @@ namespace EGXMath {
 
     template<typename T>
     T MeterToFermi(const T lengthInMeter) {
-        return MeterTofemtometer(lengthInMeter);
+        return MeterToFemtometer(lengthInMeter);
     }
 
     template<typename T>

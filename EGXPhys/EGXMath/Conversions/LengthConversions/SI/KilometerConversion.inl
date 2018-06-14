@@ -140,7 +140,7 @@ namespace EGXMath {
 
     template<typename T>
     T KilometerToFermi(const T lengthInKilometer) {
-        return KilometerTofemtometer(lengthInKilometer);
+        return KilometerToFemtometer(lengthInKilometer);
     }
 
     template<typename T>

@@ -138,7 +138,7 @@ namespace EGXMath {
 
     template<typename T>
     T PetameterToFermi(const T lengthInPetameter) {
-        return PetameterTofemtometer(lengthInPetameter);
+        return PetameterToFemtometer(lengthInPetameter);
     }
 
     template<typename T>

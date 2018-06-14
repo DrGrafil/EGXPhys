@@ -139,7 +139,7 @@ namespace EGXMath {
 
     template<typename T>
     T AstronomicalUnitToFermi(const T lengthInAstronomicalUnit) {
-        return AstronomicalUnitTofemtometer(lengthInAstronomicalUnit);
+        return AstronomicalUnitToFemtometer(lengthInAstronomicalUnit);
     }
 
     template<typename T>

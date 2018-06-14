@@ -345,6 +345,8 @@
     <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\3D\3DCartesianCoordinateConversionTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\3D\CylindricalCoordinateConversionTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Conversions\CoordinateConversions\3D\SphericalCoordinateConversionTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\LengthConversions\LengthConversionsTest.hpp" />
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\LengthConversions\SI\MeterConversionTest.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\EGXMathTests.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\2DGeometryTests.hpp" />
     <ClInclude Include="..\..\tests\EGXMath\Geometry\2D\Circle\CircleTests.hpp" />

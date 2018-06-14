@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T ThouToFermi(const T lengthInThou) {
-        return ThouTofemtometer(lengthInThou);
+        return ThouToFemtometer(lengthInThou);
     }
 
     template<typename T>

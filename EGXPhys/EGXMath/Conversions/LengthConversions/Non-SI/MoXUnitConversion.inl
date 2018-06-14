@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T MoXUnitToFermi(const T lengthInMoXUnit) {
-        return MoXUnitTofemtometer(lengthInMoXUnit);
+        return MoXUnitToFemtometer(lengthInMoXUnit);
     }
 
     template<typename T>

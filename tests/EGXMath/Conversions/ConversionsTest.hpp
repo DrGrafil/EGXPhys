@@ -5,6 +5,7 @@
 //
 
 #include "AngularConversionsTest.hpp"
+#include "LengthConversions/LengthConversionsTest.hpp"
 
 #include "CoordinateConversions/2D/2DCartesianCoordinateConversionTest.hpp"
 #include "CoordinateConversions/2D/PolarCoordinateConversionTest.hpp"

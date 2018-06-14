@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T RodToFermi(const T lengthInRod) {
-        return RodTofemtometer(lengthInRod);
+        return RodToFemtometer(lengthInRod);
     }
 
     template<typename T>

@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T ParsecToFermi(const T lengthInParsec) {
-        return ParsecTofemtometer(lengthInParsec);
+        return ParsecToFemtometer(lengthInParsec);
     }
 
     template<typename T>

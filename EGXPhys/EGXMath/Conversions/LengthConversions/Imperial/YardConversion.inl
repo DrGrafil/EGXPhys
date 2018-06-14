@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T YardToFermi(const T lengthInYard) {
-        return YardTofemtometer(lengthInYard);
+        return YardToFemtometer(lengthInYard);
     }
 
     template<typename T>

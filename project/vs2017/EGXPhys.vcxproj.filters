@@ -148,9 +148,6 @@
     <Filter Include="Tests\Electrodynamics\BlackBody">
       <UniqueIdentifier>{86bd1201-ccce-4ebb-ac98-f5cc2877a66d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Tests\EGXMath\Conversions\Distance">
-      <UniqueIdentifier>{07b5da09-a4f8-41bd-b68c-c8a9601998c3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="EGXPhys\EGXMath\Conversions\LengthConversions">
       <UniqueIdentifier>{579c70a8-5bde-4636-97aa-8845d9fbb089}</UniqueIdentifier>
     </Filter>
@@ -171,6 +168,12 @@
     </Filter>
     <Filter Include="EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI">
       <UniqueIdentifier>{e1fc7faa-0695-42ae-b04b-529cac8a90fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\EGXMath\Conversions\Length">
+      <UniqueIdentifier>{07b5da09-a4f8-41bd-b68c-c8a9601998c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\EGXMath\Conversions\Length\SI">
+      <UniqueIdentifier>{8e4e4050-80dd-4ac1-b62f-4a90c8a23ddb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -893,6 +896,12 @@
     </ClInclude>
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\RodConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Survyors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\LengthConversions\LengthConversionsTest.hpp">
+      <Filter>Tests\EGXMath\Conversions\Length</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\EGXMath\Conversions\LengthConversions\SI\MeterConversionTest.hpp">
+      <Filter>Tests\EGXMath\Conversions\Length\SI</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
