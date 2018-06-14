@@ -1,8 +1,8 @@
-/// @file EGXMath/Conversions/LengthConversions/Imperial/uzitzsConversion.inl
+/// @file EGXMath/Conversions/LengthConversions/Imperial/ThouConversion.inl
 ///
-/// @brief Implimentation of uzitzs conversions
+/// @brief Implimentation of Thou conversions
 /// @author Elliot Grafil (Metex)
-/// @date 6/11/18
+/// @date 6/13/18
 
 
 namespace EGXMath {
@@ -10,213 +10,208 @@ namespace EGXMath {
     //Astronomical
 
     template<typename T>
-    T uzitzsToAstronomicalUnit(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)auInMeters;
+    T ThouToAstronomicalUnit(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) / (T)auInMeters;
     }
 
     template<typename T>
-    T uzitzsToLightYear(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)lightYearInMeters;
+    T ThouToLightYear(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) / (T)lightYearInMeters;
     }
 
     template<typename T>
-    T uzitzsToParsec(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)parsecInMeters;
+    T ThouToParsec(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) / (T)parsecInMeters;
     }
 
 
     //SI
 
     template<typename T>
-    T uzitzsToMeter(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) * (T)0.0254;
+    T ThouToMeter(const T lengthInThou) {
+        return ThouToInch(lengthInThou) * (T)0.0254;
     }
 
     template<typename T>
-    T uzitzsToYottameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-24;
-    }
-
-
-    template<typename T>
-    T uzitzsToZettameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-21;
-    }
-
-    template<typename T>
-    T uzitzsToExameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-18;
-    }
-
-    template<typename T>
-    T uzitzsToPetameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-15;
+    T ThouToYottameter(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e-24;
     }
 
 
     template<typename T>
-    T uzitzsToTerameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-12;
+    T ThouToZettameter(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e-21;
     }
 
     template<typename T>
-    T uzitzsToGigameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-9;
+    T ThouToExameter(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e-18;
     }
 
     template<typename T>
-    T uzitzsToMegameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-6;
-    }
-
-    template<typename T>
-    T uzitzsToKilometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-3;
-    }
-
-    template<typename T>
-    T uzitzsToHectometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-2;
-    }
-
-    template<typename T>
-    T uzitzsToDecameter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e-1;
-    }
-
-    template<typename T>
-    T uzitzsToDecimeter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e1;
-    }
-
-    template<typename T>
-    T uzitzsToCentimeter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e2;
-    }
-
-    template<typename T>
-    T uzitzsToMillimeter(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e3;
-    }
-
-    template<typename T>
-    T uzitzsToMicrometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e6;
-    }
-
-    template<typename T>
-    T uzitzsToNanometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e9;
-    }
-
-    template<typename T>
-    T uzitzsToPicometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e12;
-    }
-
-    template<typename T>
-    T uzitzsToFemtometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e15;
-    }
-
-    template<typename T>
-    T uzitzsToAttometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e18;
-    }
-
-    template<typename T>
-    T uzitzsToZeptometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e21;
-    }
-
-    template<typename T>
-    T uzitzsToYoctometer(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) * (T)1e24;
+    T ThouToPetameter(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e-15;
     }
 
 
-
-
     template<typename T>
-    T uzitzsToAngstrom(const T lengthInuzitzs) {
-        return uzitzsToPicometer(lengthInuzitzs) * (T)1e-2;
+    T ThouToTerameter(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e-12;
     }
 
     template<typename T>
-    T uzitzsToFermi(const T lengthInuzitzs) {
-        return uzitzsTofemtometer(lengthInuzitzs);
+    T ThouToGigameter(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e-9;
     }
 
     template<typename T>
-    T uzitzsToMicron(const T lengthInuzitzs) {
-        return uzitzsToMicrometer(lengthInuzitzs);
+    T ThouToMegameter(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e-6;
     }
 
     template<typename T>
-    T uzitzsToCuXUnit(const T lengthInuzitzs) {
+    T ThouToKilometer(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e-3;
+    }
+
+    template<typename T>
+    T ThouToHectometer(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e-2;
+    }
+
+    template<typename T>
+    T ThouToDecameter(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e-1;
+    }
+
+    template<typename T>
+    T ThouToDecimeter(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e1;
+    }
+
+    template<typename T>
+    T ThouToCentimeter(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e2;
+    }
+
+    template<typename T>
+    T ThouToMillimeter(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e3;
+    }
+
+    template<typename T>
+    T ThouToMicrometer(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e6;
+    }
+
+    template<typename T>
+    T ThouToNanometer(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e9;
+    }
+
+    template<typename T>
+    T ThouToPicometer(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e12;
+    }
+
+    template<typename T>
+    T ThouToFemtometer(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e15;
+    }
+
+    template<typename T>
+    T ThouToAttometer(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e18;
+    }
+
+    template<typename T>
+    T ThouToZeptometer(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e21;
+    }
+
+    template<typename T>
+    T ThouToYoctometer(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) * (T)1e24;
+    }
+
+
+
+
+    template<typename T>
+    T ThouToAngstrom(const T lengthInThou) {
+        return ThouToPicometer(lengthInThou) * (T)1e-2;
+    }
+
+    template<typename T>
+    T ThouToFermi(const T lengthInThou) {
+        return ThouTofemtometer(lengthInThou);
+    }
+
+    template<typename T>
+    T ThouToMicron(const T lengthInThou) {
+        return ThouToMicrometer(lengthInThou);
+    }
+
+    template<typename T>
+    T ThouToCuXUnit(const T lengthInThou) {
         
-        return uzitzsToMeter(lengthInuzitzs) / (T)CuXUnit;
+        return ThouToMeter(lengthInThou) / (T)CuXUnit;
     }
 
     template<typename T>
-    T uzitzsToMoXUnit(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)MoXUnit;
+    T ThouToMoXUnit(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) / (T)MoXUnit;
     }
 
 
     //Imperial
 
     template<typename T>
-    T uzitzsToMile(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)63360.0;
+    T ThouToMile(const T lengthInThou) {
+        return ThouToInch(lengthInThou) / (T)63360.0;
     }
 
     template<typename T>
-    T uzitzsToYard(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)36.0;
+    T ThouToYard(const T lengthInThou) {
+        return ThouToInch(lengthInThou) / (T)36.0;
     }
 
     template<typename T>
-    T uzitzsToFoot(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)12.0;
+    T ThouToFoot(const T lengthInThou) {
+        return ThouToInch(lengthInThou) / (T)12.0;
     }
 
     template<typename T>
-    T uzitzsToInch(const T lengthInuzitzs) {
-        return lengthInuzitzs;
+    T ThouToInch(const T lengthInThou) {
+        return lengthInThou;
     }
 
     template<typename T>
-    T uzitzsToMil(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) * (T)1000.0;
-    }
-
-    template<typename T>
-    T uzitzsToThou(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) * (T)1000.0;
+    T ThouToMil(const T lengthInThou) {
+        return ThouToInch(lengthInThou) * (T)1000.0;
     }
 
     //Nautical
 
     template<typename T>
-    T uzitzsToNauticalMile(const T lengthInuzitzs) {
-        return uzitzsToMeter(lengthInuzitzs) / (T)1852.0;
+    T ThouToNauticalMile(const T lengthInThou) {
+        return ThouToMeter(lengthInThou) / (T)1852.0;
     }
 
     template<typename T>
-    T uzitzsToFathom(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)72.0;
+    T ThouToFathom(const T lengthInThou) {
+        return ThouToInch(lengthInThou) / (T)72.0;
     }
 
     //Survyors
     template<typename T>
-    T uzitzsToRod(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)198.0;
+    T ThouToRod(const T lengthInThou) {
+        return ThouToInch(lengthInThou) / (T)198.0;
     }
 
     template<typename T>
-    T uzitzsToChain(const T lengthInuzitzs) {
-        return uzitzsToInch(lengthInuzitzs) / (T)792.0;
+    T ThouToChain(const T lengthInThou) {
+        return ThouToInch(lengthInThou) / (T)792.0;
     }
 
 }//namespace EGXPhys

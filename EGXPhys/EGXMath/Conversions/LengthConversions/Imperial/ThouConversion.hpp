@@ -1,30 +1,30 @@
-/// @file EGXMath/Conversions/LengthConversions/Imperial/uzitzsConversion.hpp
+/// @file EGXMath/Conversions/LengthConversions/Imperial/ThouConversion.hpp
 ///
-/// @brief Converts length measurements in ulongxxits into various other units such as meters, parsecs, light years.
+/// @brief Converts length measurements in thous into various other units such as meters, parsecs, light years.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 6/11/18
+/// @date 6/13/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Thou Thou
 /// @ingroup EGXMath-Conversions-LengthConversions-Imperial
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Thou-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Thou
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Thou-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Thou
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Thou-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Thou
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Thou-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Thou
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Thou-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Thou
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs
+/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Thou-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Thou
 
 //=================================
 // Header guard
@@ -41,487 +41,475 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Thou-Astronomical
 	/// @{
 
     //Astronomical
     // No hubble length due to ill defined.
     /**
-    *   @brief Converts a length in ulongxxits to astronomical units.
-    *		\f[ l_{au}=\frac{0.0254}{149597870700} l_{uxxits} \f]
+    *   @brief Converts a length in thous to astronomical units.
+    *		\f[ l_{au}=\frac{0.0254 * 10^{-3}}{149597870700} l_{mil} \f]
     *
     *   See https://en.wikipedia.org/wiki/Astronomical_unit
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{au}\ (au)\f$ Length in astronomical units.
     */
     template<typename T>
-    T uzitzsToAstronomicalUnit(const T lengthInuzitzs);
+    T ThouToAstronomicalUnit(const T lengthInThou);
 
     /**
-    *   @brief Converts a length ulongxxits in to light-years.
-    *		\f[ l_{ly}=\frac{0.0254}{9460730472580800} l_{uxxits} \f]
+    *   @brief Converts a length thous in to light-years.
+    *		\f[ l_{ly}=\frac{0.0254 * 10^{-3}}{9460730472580800} l_{mil} \f]
     *
     *   See https://en.wikipedia.org/wiki/Light-year
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{ly}\ (ly)\f$ Length in light-years.
     */
     template<typename T>
-    T uzitzsToLightYear(const T lengthInuzitzs);
+    T ThouToLightYear(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to parsecs.
-    *		\f[ l_{pc}=\frac{0.0254 * \pi}{149597870700 * 648000} l_{uxxits}  \f]
+    *   @brief Converts a length in thous to parsecs.
+    *		\f[ l_{pc}=\frac{0.0254 * 10^{-3} * \pi}{149597870700 * 648000} l_{mil}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Parsec
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{pc}\ (pc)\f$ Length in parsecs.
     */
     template<typename T>
-    T uzitzsToParsec(const T lengthInuzitzs);
+    T ThouToParsec(const T lengthInThou);
 
     /// @}
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Thou-SI
     /// @{
     /**
-    *   @brief Converts a length in ulongxxits to meters.
-    *		\f[ l_{m}=0.0254 * l_{uxxits} \f]
+    *   @brief Converts a length in thous to meters.
+    *		\f[ l_{m}=0.0254 * l_{mil} * 10^{-3} \f]
     *
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{m}\ (m)\f$ Length in meters.
     */
     template<typename T>
-    T uzitzsToMeter(const T lengthInuzitzs);
+    T ThouToMeter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to yottameters.
-    *		\f[ l_{Ym}=0.0254 * l_{uxxits} * 10^{-24} \f]
+    *   @brief Converts a length in thous to yottameters.
+    *		\f[ l_{Ym}=0.0254 * l_{mil} * 10^{-27} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{Ym}\ (Ym)\f$ Length in yottameters.
     */
     template<typename T>
-    T uzitzsToYottameter(const T lengthInuzitzs);
+    T ThouToYottameter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to zettameters.
-    *		\f[ l_{Zm}=0.0254 * l_{uxxits} * 10^{-21} \f]
+    *   @brief Converts a length in thous to zettameters.
+    *		\f[ l_{Zm}=0.0254 * l_{mil} * 10^{-24} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{Zm}\ (Zm)\f$ Length in zettameters.
     */
     template<typename T>
-    T uzitzsToZettameter(const T lengthInuzitzs);
+    T ThouToZettameter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to exameters.
-    *		\f[ l_{Em}=0.0254 * l_{uxxits} * 10^{-18} \f]
+    *   @brief Converts a length in thous to exameters.
+    *		\f[ l_{Em}=0.0254 * l_{mil} * 10^{-21} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{Em}\ (Em)\f$ Length in exameters.
     */
     template<typename T>
-    T uzitzsToExameter(const T lengthInuzitzs);
+    T ThouToExameter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to petameters.
-    *		\f[ l_{Pm}=0.0254 * l_{uxxits} * 10^{-15} \f]
+    *   @brief Converts a length in thous to petameters.
+    *		\f[ l_{Pm}=0.0254 * l_{mil} * 10^{-18} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{Pm}\ (Pm)\f$ Length in petameters.
     */
     template<typename T>
-    T uzitzsToPetameter(const T lengthInuzitzs);
+    T ThouToPetameter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to terameters.
-    *		\f[ l_{Tm}=0.0254 * l_{uxxits} * 10^{-12} \f]
+    *   @brief Converts a length in thous to terameters.
+    *		\f[ l_{Tm}=0.0254 * l_{mil} * 10^{-15} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{Tm}\ (Tm)\f$ Length in terameters.
     */
     template<typename T>
-    T uzitzsToTerameter(const T lengthInuzitzs);
+    T ThouToTerameter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to gigameters.
-    *		\f[ l_{Gm}=0.0254 * l_{uxxits} * 10^{-9} \f]
+    *   @brief Converts a length in thous to gigameters.
+    *		\f[ l_{Gm}=0.0254 * l_{mil} * 10^{-12} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{Gm}\ (m)\f$ Length in gigameters.
     */
     template<typename T>
-    T uzitzsToGigameter(const T lengthInuzitzs);
+    T ThouToGigameter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to megameters.
-    *		\f[ l_{Mm}=0.0254 * l_{uxxits} * 10^{-6} \f]
+    *   @brief Converts a length in thous to megameters.
+    *		\f[ l_{Mm}=0.0254 * l_{mil} * 10^{-9} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{Mm}\ (Mm)\f$ Length in megameters.
     */
     template<typename T>
-    T uzitzsToMegameter(const T lengthInuzitzs);
+    T ThouToMegameter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to kilometers.
-    *		\f[ l_{km}=0.0254 * l_{uxxits} * 10^{-3} \f]
+    *   @brief Converts a length in thous to kilometers.
+    *		\f[ l_{km}=0.0254 * l_{mil} * 10^{-6} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{km}\ (km)\f$ Length in kilometers.
     */
     template<typename T>
-    T uzitzsToKilometer(const T lengthInuzitzs);
+    T ThouToKilometer(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to hectometers.
-    *		\f[ l_{hm}=0.0254 * l_{uxxits} * 10^{-2} \f]
+    *   @brief Converts a length in thous to hectometers.
+    *		\f[ l_{hm}=0.0254 * l_{mil} * 10^{-5} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{hm}\ (hm)\f$ Length in hectometers.
     */
     template<typename T>
-    T uzitzsToHectometer(const T lengthInuzitzs);
+    T ThouToHectometer(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to decameters.
-    *		\f[ l_{dam}=0.0254 * l_{uxxits} * 10^{-1} \f]
+    *   @brief Converts a length in thous to decameters.
+    *		\f[ l_{dam}=0.0254 * l_{mil} * 10^{-4} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{dam}\ (dam)\f$ Length in decameters.
     */
     template<typename T>
-    T uzitzsToDecameter(const T lengthInuzitzs);
+    T ThouToDecameter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to decimeters.
-    *		\f[ l_{dm}=0.0254 * l_{uxxits} * 10^{1} \f]
+    *   @brief Converts a length in thous to decimeters.
+    *		\f[ l_{dm}=0.0254 * l_{mil} * 10^{-2} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{dm}\ (dm)\f$ Length in decimeters.
     */
     template<typename T>
-    T uzitzsToDecimeter(const T lengthInuzitzs);
+    T ThouToDecimeter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to centimeters.
-    *		\f[ l_{cm}=0.0254 * l_{uxxits} * 10^{2} \f]
+    *   @brief Converts a length in thous to centimeters.
+    *		\f[ l_{cm}=0.0254 * l_{mil} * 10^{-1} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{cm}\ (cm)\f$ Length in centimeters.
     */
     template<typename T>
-    T uzitzsToCentimeter(const T lengthInuzitzs);
+    T ThouToCentimeter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to millimeters.
-    *		\f[ l_{mm}=0.0254 * l_{uxxits} * 10^{3} \f]
+    *   @brief Converts a length in thous to millimeters.
+    *		\f[ l_{mm}=0.0254 * l_{mil} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{mm}\ (mm)\f$ Length in millimeters.
     */
     template<typename T>
-    T uzitzsToMillimeter(const T lengthInuzitzs);
+    T ThouToMillimeter(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to micrometers.
-    *		\f[ l_{\mu m}=0.0254 * l_{uxxits} * 10^{6} \f]
+    *   @brief Converts a length in thous to micrometers.
+    *		\f[ l_{\mu m}=0.0254 * l_{mil} * 10^{3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{\mu m}\ (\mu m)\f$ Length in micrometers.
-    *   @see uzitzsToMicron() for alias.
+    *   @see ThouToMicron() for alias.
     */
     template<typename T>
-    T uzitzsToMicrometer(const T lengthInuzitzs);
+    T ThouToMicrometer(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to nanometers.
-    *		\f[ l_{nm}=0.0254 * l_{uxxits} * 10^{9} \f]
+    *   @brief Converts a length in thous to nanometers.
+    *		\f[ l_{nm}=0.0254 * l_{mil} * 10^{6} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{nm}\ (nm)\f$ Length in nanometers.
-    *   @see uzitzsToMicron() for alias.
+    *   @see ThouToMicron() for alias.
     */
     template<typename T>
-    T uzitzsToNanometer(const T lengthInuzitzs);
+    T ThouToNanometer(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to picometers.
-    *		\f[ l_{pm}=0.0254 * l_{uxxits} * 10^{12} \f]
+    *   @brief Converts a length in thous to picometers.
+    *		\f[ l_{pm}=0.0254 * l_{mil} * 10^{9} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{pm}\ (pm)\f$ Length in picometers.
-    *   @see uzitzsToAngstrom() for angstrom conversion.
-    *   @see uzitzsToCuXUnit() for copper x unit conversion.
-    *   @see uzitzsToMoXUnit() for molybdenum  x unit conversion.
+    *   @see ThouToAngstrom() for angstrom conversion.
+    *   @see ThouToCuXUnit() for copper x unit conversion.
+    *   @see ThouToMoXUnit() for molybdenum  x unit conversion.
     */
     template<typename T>
-    T uzitzsToPicometer(const T lengthInuzitzs);
+    T ThouToPicometer(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to femtometers.
-    *		\f[ l_{fm}=0.0254 * l_{uxxits} * 10^{15} \f]
+    *   @brief Converts a length in thous to femtometers.
+    *		\f[ l_{fm}=0.0254 * l_{mil} * 10^{12} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{fm}\ (fm)\f$ Length in femtometers.
-    *   @see uzitzsToFermi() for alias.
+    *   @see ThouToFermi() for alias.
     */
     template<typename T>
-    T uzitzsToFemtometer(const T lengthInuzitzs);
+    T ThouToFemtometer(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to attometers.
-    *		\f[ l_{am}=0.0254 * l_{uxxits} * 10^{18} \f]
+    *   @brief Converts a length in thous to attometers.
+    *		\f[ l_{am}=0.0254 * l_{mil} * 10^{15} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{am}\ (am)\f$ Length in attometers.
     */
     template<typename T>
-    T uzitzsToAttometer(const T lengthInuzitzs);
+    T ThouToAttometer(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to zeptometers.
-    *		\f[ l_{zm}=0.0254 * l_{uxxits} * 10^{21} \f]
+    *   @brief Converts a length in thous to zeptometers.
+    *		\f[ l_{zm}=0.0254 * l_{mil} * 10^{18} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{zm}\ (zm)\f$ Length in zeptometers.
     */
     template<typename T>
-    T uzitzsToZeptometer(const T lengthInuzitzs);
+    T ThouToZeptometer(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to yoctometers.
-    *		\f[ l_{ym}=0.0254 * l_{uxxits} * 10^{24} \f]
+    *   @brief Converts a length in thous to yoctometers.
+    *		\f[ l_{ym}=0.0254 * l_{mil} * 10^{21} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{ym}\ (ym)\f$ Length in yoctometers.
     */
     template<typename T>
-    T uzitzsToYoctometer(const T lengthInuzitzs);
+    T ThouToYoctometer(const T lengthInThou);
 
     /// @}
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Thou-Non-SI
     /// @{
 
     /**
-    *   @brief Converts a length in ulongxxits to angstroms.
-    *		\f[ l_{\unicode{x212B}}=0.0254 * l_{uxxits} * 10^{10} \f]
+    *   @brief Converts a length in thous to angstroms.
+    *		\f[ l_{\unicode{x212B}}=0.0254 * l_{mil} * 10^{7} \f]
     *
     *   See https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes and https://en.wikipedia.org/wiki/Unit_of_length
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{\unicode{x212B}}\ (\unicode{x212B})\f$ Length in angstroms.
-    *   @see uzitzsToPicometer() for picometer conversion.
-    *   @see uzitzsToCuXUnit() for copper x unit conversion.
-    *   @see uzitzsToMoXUnit() for molybdenum  x unit conversion.
+    *   @see ThouToPicometer() for picometer conversion.
+    *   @see ThouToCuXUnit() for copper x unit conversion.
+    *   @see ThouToMoXUnit() for molybdenum  x unit conversion.
     */
     template<typename T>
-    T uzitzsToAngstrom(const T lengthInuzitzs);
+    T ThouToAngstrom(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to fermis.
-    *		\f[ l_{fm}=0.0254 * l_{uxxits} * 10^{15} \f]
+    *   @brief Converts a length in thous to fermis.
+    *		\f[ l_{fm}=0.0254 * l_{mil} * 10^{12} \f]
     *
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{fm}\ (fm)\f$ Length in fermis.
     */
     template<typename T>
-    T uzitzsToFermi(const T lengthInuzitzs);
+    T ThouToFermi(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to microns.
-    *		\f[ l_{\mu m}=0.0254 * l_{uxxits} * 10^{6} \f]
+    *   @brief Converts a length in thous to microns.
+    *		\f[ l_{\mu m}=0.0254 * l_{mil} * 10^{3} \f]
     *
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{\mu m}\ (\mu m)\f$ Length in microns.
-    *   @see uzitzsToMicrometer() for alias.
+    *   @see ThouToMicrometer() for alias.
     */
     template<typename T>
-    T uzitzsToMicron(const T lengthInuzitzs);
+    T ThouToMicron(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to copper x units.
-    *		\f[ l_{xu(Cu\ K\alpha_1)}=0.0254 * \frac{1}{1.00207697*10^{-13}} l_{uxxits}\f]
+    *   @brief Converts a length in thous to copper x units.
+    *		\f[ l_{xu(Cu\ K\alpha_1)}=\frac{0.0254 * 10^{-3}}{1.00207697*10^{-13}} l_{mil}\f]
     *
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
-    *   @see uzitzsToAngstrom() for angstrom conversion.
-    *   @see uzitzsToPicometer() for picometer conversion.
-    *   @see uzitzsToMoXUnit() for molybdenum  x unit conversion.
+    *   @see ThouToAngstrom() for angstrom conversion.
+    *   @see ThouToPicometer() for picometer conversion.
+    *   @see ThouToMoXUnit() for molybdenum  x unit conversion.
     */
     template<typename T>
-    T uzitzsToCuXUnit(const T lengthInuzitzs);
+    T ThouToCuXUnit(const T lengthInThou);
    
     /**
-    *   @brief Converts a length in ulongxxits to molybdenum x units.
-    *		\f[ l_{xu(Mo\ K\alpha_1)}=0.0254 * \frac{1}{1.00209952*10^{-13}} l_{uxxits}\f]
+    *   @brief Converts a length in thous to molybdenum x units.
+    *		\f[ l_{xu(Mo\ K\alpha_1)}=\frac{0.0254 * 10^{-3}}{1.00209952*10^{-13}} l_{mil}\f]
     *
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{xu(Mo\ K\alpha_1)}\ (xu)\f$ Length in molybdenum x units.
-    *   @see uzitzsToAngstrom() for angstrom conversion.
-    *   @see uzitzsToPicometer() for picometer conversion.
-    *   @see uzitzsToCuXUnit() for copper x unit conversion.
+    *   @see ThouToAngstrom() for angstrom conversion.
+    *   @see ThouToPicometer() for picometer conversion.
+    *   @see ThouToCuXUnit() for copper x unit conversion.
     */
     template<typename T>
-    T uzitzsToMoXUnit(const T lengthInuzitzs);
+    T ThouToMoXUnit(const T lengthInThou);
 
     /// @}
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Thou-Imperial
     /// @{
 
     /**
-    *   @brief Converts a length in ulongxxits to miles.
-    *		\f[ l_{mi}=\frac{1}{63360} l_{uxxits} \f]
+    *   @brief Converts a length in thous to miles.
+    *		\f[ l_{mi}=\frac{10^{-3}}{63360} l_{mil} \f]
     *
     *   See https://en.wikipedia.org/wiki/Mile
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{mi}\ (mi)\f$ Length in miles.
     */
     template<typename T>
-    T uzitzsToMile(const T lengthInuzitzs);
+    T ThouToMile(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to yards.
-    *		\f[ l_{yd}=  \frac{1}{36} l_{uxxits}  \f]
+    *   @brief Converts a length in thous to yards.
+    *		\f[ l_{yd}=  \frac{10^{-3}}{36} l_{mil}  \f]
     *
     *   See https://en.wikipedia.org/wiki/Yard
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{yd}\ (yd)\f$ Length in yards.
     */
     template<typename T>
-    T uzitzsToYard(const T lengthInuzitzs);
+    T ThouToYard(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to feet.
-    *		\f[ l_{ft}= \frac{1}{12} l_{uxxits} \f]
+    *   @brief Converts a length in thous to feet.
+    *		\f[ l_{ft}= \frac{10^{-3}}{12} l_{mil} \f]
     *
     *   See https://en.wikipedia.org/wiki/Foot_(unit)
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{ft}\ (ft)\f$ Length in feet.
     */
     template<typename T>
-    T uzitzsToFoot(const T lengthInuzitzs);
+    T ThouToFoot(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to inches.
-    *		\f[ l_{in}= l_{uxxits} \f]
+    *   @brief Converts a length in thous to inches.
+    *		\f[ l_{in}= l_{mil} * 10^{-3} \f]
     *
     *   See https://en.wikipedia.org/wiki/Inch
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{in}\ (in)\f$ Length in inches.
     */
     template<typename T>
-    T uzitzsToInch(const T lengthInuzitzs);
+    T ThouToInch(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to mils (thousandth of an inch).
-    *		\f[ l_{mil}=l_{uxxits} * 10^{3} \f]
+    *   @brief Converts a length in thous to mils (thousandth of an inch).
+    *		\f[ l_{mil}=l_{mil} \f]
     *
     *   See https://en.wikipedia.org/wiki/Thousandth_of_an_inch
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{mil}\ (mil)\f$ Length in mils (thousandth of an inch).
-    *   @see uzitzsToThou() for alias.
+    *   @see ThouToThou() for alias.
     */
     template<typename T>
-    T uzitzsToMil(const T lengthInuzitzs);
-
-    /**
-    *   @brief Converts a length in ulongxxits to thous (thousandth of an inch).
-    *		\f[ l_{mil}= l_{uxxits} * 10^{3} \f]
-    *
-    *   See https://en.wikipedia.org/wiki/Thousandth_of_an_inch
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
-    *   @return \f$ l_{mil}\ (mil)\f$ Length in thous (thousandth of an inch).
-    *   @see uzitzsToMil() for alias.
-    */
-    template<typename T>
-    T uzitzsToThou(const T lengthInuzitzs);
+    T ThouToMil(const T lengthInThou);
 
     /// @}
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Thou-Nautical
     /// @{
 
     /**
-    *   @brief Converts a length in ulongxxits to nautical mile.
-    *		\f[ l_{NM}= \frac{0.0254}{1852} l_{uxxits}  \f]
+    *   @brief Converts a length in thous to nautical mile.
+    *		\f[ l_{NM}= \frac{0.0254 * 10^{-3}}{1852} l_{mil}  \f]
     *
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{NM}\ (NM)\f$ Length in nautical mile.
     */
     template<typename T>
-    T uzitzsToNauticalMile(const T lengthInuzitzs);
+    T ThouToNauticalMile(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to fathoms.
-    *		\f[ l_{fathom}= \frac{1}{72} l_{uxxits}  \f]
+    *   @brief Converts a length in thous to fathoms.
+    *		\f[ l_{fathom}= \frac{10^{-3}}{72} l_{mil}  \f]
     *
     *   See https://simple.wikipedia.org/wiki/Fathom
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{fathom}\ (fathom)\f$ Length in fathoms.
     */
     template<typename T>
-    T uzitzsToFathom(const T lengthInuzitzs);
+    T ThouToFathom(const T lengthInThou);
 
     /// @}
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Thou-Surveyors
     /// @{
 
     /**
-    *   @brief Converts a length in ulongxxits to rods.
-    *		\f[ l_{rod}= \frac{1}{198} l_{uxxits} \f]
+    *   @brief Converts a length in thous to rods.
+    *		\f[ l_{rod}= \frac{10^{-3}}{198} l_{mil} \f]
     *
     *   See https://simple.wikipedia.org/wiki/Rod_(unit)
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{rod}\ (rod)\f$ Length in rods.
     */
     template<typename T>
-    T uzitzsToRod(const T lengthInuzitzs);
+    T ThouToRod(const T lengthInThou);
 
     /**
-    *   @brief Converts a length in ulongxxits to chains.
-    *		\f[ l_{ch}= \frac{1}{792}  l_{uxxits} \f]
+    *   @brief Converts a length in thous to chains.
+    *		\f[ l_{ch}= \frac{10^{-3}}{792}  l_{mil} \f]
     *
     *   See https://simple.wikipedia.org/wiki/Chain_(unit)
-    *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
+    *   @param lengthInThou \f$ l_{mil}\ (mil)\f$ Length in thous.
     *   @return \f$ l_{ch}\ (ch)\f$ Length in chains.
     */
     template<typename T>
-    T uzitzsToChain(const T lengthInuzitzs);
+    T ThouToChain(const T lengthInThou);
 
 	/// @}
 } //namespace EGXMath
 
-#include "uzitzsConversion.inl"
+#include "ThouConversion.inl"
