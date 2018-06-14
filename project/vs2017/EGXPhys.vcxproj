@@ -212,7 +212,9 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\ThouConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\YardConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\LengthConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\FathomConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\NauticalConversions.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\NauticalMileConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\AngstromConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\CuXUnitConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\FermiConversion.hpp" />
@@ -241,6 +243,8 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\YottameterConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZeptometerConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZettameterConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\ChainConversion.hpp" />
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\RodConversion.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\SurveyorsConversions.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMath.hpp" />
     <ClInclude Include="..\..\EGXPhys\EGXMath\EGXMathConstants.hpp" />
@@ -438,6 +442,8 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\MileConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\ThouConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\YardConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\FathomConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\NauticalMileConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\AngstromConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\CuXUnitConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Non-SI\FermiConversion.inl" />
@@ -464,6 +470,8 @@
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\YottameterConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZeptometerConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\SI\ZettameterConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\ChainConversion.inl" />
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\RodConversion.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\ErfFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\GaussianFunctions.inl" />
     <None Include="..\..\EGXPhys\EGXMath\Functions\LogFunctions.inl" />

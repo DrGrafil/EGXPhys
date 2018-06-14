@@ -882,6 +882,18 @@
     <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\ThouConversion.hpp">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\FathomConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Nautical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\NauticalMileConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Nautical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\ChainConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Survyors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\RodConversion.hpp">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Survyors</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1260,6 +1272,18 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Imperial\ThouConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Imperial</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\FathomConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Nautical</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Nautical\NauticalMileConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Nautical</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\ChainConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Survyors</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\RodConversion.inl">
+      <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Survyors</Filter>
     </None>
   </ItemGroup>
 </Project>
