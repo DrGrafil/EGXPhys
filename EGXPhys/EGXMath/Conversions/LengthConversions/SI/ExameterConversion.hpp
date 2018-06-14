@@ -358,7 +358,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{Em} * 10^{18}\f]
     *
     *   @param lengthInExameter \f$ l_{Em}\ (Em)\f$ Length in exameters.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see ExameterToAngstrom() for angstrom conversion.
     *   @see ExameterToPicometer() for picometer conversion.
     *   @see ExameterToMoXUnit() for molybdenum  x unit conversion.

@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{Tm} * 10^{12}\f]
     *
     *   @param lengthInTerameter \f$ l_{Tm}\ (Tm)\f$ Length in terameters.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see TerameterToAngstrom() for angstrom conversion.
     *   @see TerameterToPicometer() for picometer conversion.
     *   @see TerameterToMoXUnit() for molybdenum  x unit conversion.

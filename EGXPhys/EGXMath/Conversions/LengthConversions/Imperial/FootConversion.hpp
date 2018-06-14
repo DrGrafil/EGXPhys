@@ -368,7 +368,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}=\frac{0.0254 * 12}{1.00207697*10^{-13}} l_{ft}\f]
     *
     *   @param lengthInFoot \f$ l_{ft}\ (ft)\f$ Length in ulongxxits.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see FootToAngstrom() for angstrom conversion.
     *   @see FootToPicometer() for picometer conversion.
     *   @see FootToMoXUnit() for molybdenum  x unit conversion.

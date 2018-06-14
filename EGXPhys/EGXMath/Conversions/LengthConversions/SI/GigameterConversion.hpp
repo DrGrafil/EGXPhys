@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{Gm} * 10^{9}\f]
     *
     *   @param lengthInGigameter \f$ l_{Gm}\ (Gm)\f$ Length in gigameters.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see GigameterToAngstrom() for angstrom conversion.
     *   @see GigameterToPicometer() for picometer conversion.
     *   @see GigameterToMoXUnit() for molybdenum  x unit conversion.

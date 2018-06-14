@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{hm} * 10^{2}\f]
     *
     *   @param lengthInHectometer \f$ l_{hm}\ (hm)\f$ Length in hectometers.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see HectometerToAngstrom() for angstrom conversion.
     *   @see HectometerToPicometer() for picometer conversion.
     *   @see HectometerToMoXUnit() for molybdenum  x unit conversion.

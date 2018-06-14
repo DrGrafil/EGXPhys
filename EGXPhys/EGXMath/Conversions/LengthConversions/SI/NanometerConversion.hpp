@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{nm} * 10^{-9}\f]
     *
     *   @param lengthInNanometer \f$ l_{nm}\ (nm)\f$ Length in nanometers.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see NanometerToAngstrom() for angstrom conversion.
     *   @see NanometerToPicometer() for picometer conversion.
     *   @see NanometerToMoXUnit() for molybdenum  x unit conversion.

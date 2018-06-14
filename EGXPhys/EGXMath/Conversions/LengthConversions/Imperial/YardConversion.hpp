@@ -368,7 +368,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}=\frac{0.0254 * 36}{1.00207697*10^{-13}} l_{yd}\f]
     *
     *   @param lengthInYard \f$ l_{yd}\ (yd)\f$ Length in yards.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see YardToAngstrom() for angstrom conversion.
     *   @see YardToPicometer() for picometer conversion.
     *   @see YardToMoXUnit() for molybdenum  x unit conversion.

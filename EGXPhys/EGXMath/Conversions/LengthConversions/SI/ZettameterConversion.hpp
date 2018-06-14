@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{Zm} * 10^{21}\f]
     *
     *   @param lengthInZettameter \f$ l_{Zm}\ (Zm)\f$ Length in zettameters.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see ZettameterToAngstrom() for angstrom conversion.
     *   @see ZettameterToPicometer() for picometer conversion.
     *   @see ZettameterToMoXUnit() for molybdenum  x unit conversion.

@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{9460730472580800}{1.00207697*10^{-13}} l_{ly}\f]
     *
     *   @param lengthInLightYear \f$ l_{ly}\ (ly)\f$ Length in light years.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see LightYearToAngstrom() for angstrom conversion.
     *   @see LightYearToPicometer() for picometer conversion.
     *   @see LightYearToMoXUnit() for molybdenum  x unit conversion.

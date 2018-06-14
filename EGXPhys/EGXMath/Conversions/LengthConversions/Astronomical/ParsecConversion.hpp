@@ -368,7 +368,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{149597870700 * 648000}{1.00207697*10^{-13} * \pi} l_{pc}\f]
     *
     *   @param lengthInParsec \f$ l_{pc}\ (pc)\f$ Length in parsecs.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see ParsecToAngstrom() for angstrom conversion.
     *   @see ParsecToPicometer() for picometer conversion.
     *   @see ParsecToMoXUnit() for molybdenum  x unit conversion.

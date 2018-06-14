@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{fm} * 10^{-15}\f]
     *
     *   @param lengthInFemtometer \f$ l_{fm}\ (fm)\f$ Length in femtometers.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see FemtometerToAngstrom() for angstrom conversion.
     *   @see FemtometerToPicometer() for picometer conversion.
     *   @see FemtometerToMoXUnit() for molybdenum  x unit conversion.

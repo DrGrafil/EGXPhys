@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{am} * 10^{-18} \f]
     *
     *   @param lengthInAttometer \f$ l_{am}\ (am)\f$ Length in attometers.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see AttometerToAngstrom() for angstrom conversion.
     *   @see AttometerToPicometer() for picometer conversion.
     *   @see AttometerToMoXUnit() for molybdenum  x unit conversion.

@@ -354,7 +354,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{\unicode{x212B}} * 10^{-10}\f]
     *
     *   @param lengthInAngstrom \f$ l_{\unicode{x212B}}\ (\unicode{x212B})\f$ Length in angstroms.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see AngstromToAngstrom() for angstrom conversion.
     *   @see AngstromToPicometer() for picometer conversion.
     *   @see AngstromToMoXUnit() for molybdenum  x unit conversion.

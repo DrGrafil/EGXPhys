@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{mm} * 10^{-3}\f]
     *
     *   @param lengthInMillimeter \f$ l_{mm}\ (mm)\f$ Length in millimeters.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see MillimeterToAngstrom() for angstrom conversion.
     *   @see MillimeterToPicometer() for picometer conversion.
     *   @see MillimeterToMoXUnit() for molybdenum  x unit conversion.

@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{Ym} * 10^{24}\f]
     *
     *   @param lengthInYottameter \f$ l_{Ym}\ (Ym)\f$ Length in yottameters.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see YottameterToAngstrom() for angstrom conversion.
     *   @see YottameterToPicometer() for picometer conversion.
     *   @see YottameterToMoXUnit() for molybdenum  x unit conversion.

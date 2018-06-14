@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{Pm} * 10^{15}\f]
     *
     *   @param lengthInPetameter \f$ l_{Pm}\ (Pm)\f$ Length in petameters.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see PetameterToAngstrom() for angstrom conversion.
     *   @see PetameterToPicometer() for picometer conversion.
     *   @see PetameterToMoXUnit() for molybdenum  x unit conversion.

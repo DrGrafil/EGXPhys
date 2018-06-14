@@ -355,7 +355,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{149597870700}{1.00207697*10^{-13}} l_{au} \f]
     *
     *   @param lengthInAstronomicalUnit \f$ l_{au}\ (au)\f$ Length in astronomical units.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see AstronomicalUnitToAngstrom() for angstrom conversion.
     *   @see AstronomicalUnitToPicometer() for picometer conversion.
     *   @see AstronomicalUnitToMoXUnit() for molybdenum  x unit conversion.

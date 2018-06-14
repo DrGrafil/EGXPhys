@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{dam} * 10^{1}\f]
     *
     *   @param lengthInDecameter \f$ l_{dam}\ (dam)\f$ Length in decameters.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see DecameterToAngstrom() for angstrom conversion.
     *   @see DecameterToPicometer() for picometer conversion.
     *   @see DecameterToMoXUnit() for molybdenum  x unit conversion.

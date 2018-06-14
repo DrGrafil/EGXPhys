@@ -357,7 +357,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1}{1.00207697*10^{-13}} l_{fm} * 10^{-15}\f]
     *
     *   @param lengthInFermi \f$ l_{fm}\ (fm)\f$ Length in fermis.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see FermiToAngstrom() for angstrom conversion.
     *   @see FermiToPicometer() for picometer conversion.
     *   @see FermiToMoXUnit() for molybdenum  x unit conversion.

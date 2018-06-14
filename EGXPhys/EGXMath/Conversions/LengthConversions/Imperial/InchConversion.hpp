@@ -368,7 +368,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}=\frac{0.0254}{1.00207697*10^{-13}} l_{in}\f]
     *
     *   @param lengthInInch \f$ l_{in}\ (in)\f$ Length in inchs.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see InchToAngstrom() for angstrom conversion.
     *   @see InchToPicometer() for picometer conversion.
     *   @see InchToMoXUnit() for molybdenum  x unit conversion.

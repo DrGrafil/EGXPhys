@@ -368,7 +368,7 @@ namespace EGXMath
     *		\f[ l_{xu(Cu\ K\alpha_1)}= \frac{1.00209952*10^{-13}}{1.00207697*10^{-13}} l_{xu(Mo\ K\alpha_1)}\f]
     *
     *   @param lengthInMoXUnit \f$ l_{xu(Mo\ K\alpha_1)}\ (xu(Mo\ K\alpha_1))\f$ Length in Mo x units.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see MoXUnitToAngstrom() for angstrom conversion.
     *   @see MoXUnitToPicometer() for picometer conversion.
     *   @see MoXUnitToMoXUnit() for molybdenum  x unit conversion.
