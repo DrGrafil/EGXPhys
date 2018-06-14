@@ -5,6 +5,7 @@ var searchData=
   ['cartesian',['Cartesian',['../dd/d32/group___e_g_x_math-_conversions-_coordinate_conversions-2_d-_cartesian.html',1,'']]],
   ['cartesian',['Cartesian',['../dd/dad/group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cartesian.html',1,'']]],
   ['cylindrical',['Cylindrical',['../df/d86/group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_cylindrical.html',1,'']]],
+  ['chain',['Chain',['../d2/d29/group___e_g_x_math-_conversions-_length_conversions-_imperial-_chain.html',1,'']]],
   ['cuxunit',['CuXUnit',['../d3/de4/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_cu_x_unit.html',1,'']]],
   ['centimeter',['Centimeter',['../db/d10/group___e_g_x_math-_conversions-_length_conversions-_s_i-_centimeter.html',1,'']]],
   ['circle',['Circle',['../d1/da1/group___e_g_x_math-_geometry-2_d-_circle.html',1,'']]],

@@ -19,3 +19,6 @@
 
 //=================================
 //
+
+#include "FathomConversion.hpp"
+#include "NauticalMileConversion.hpp"

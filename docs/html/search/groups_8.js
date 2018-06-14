@@ -2,6 +2,7 @@ var searchData=
 [
   ['from_20astronomical_20unit',['From Astronomical Unit',['../da/d02/group___e_g_x_math-_conversions-_length_conversions-_astronomical.html',1,'']]],
   ['from_20imperial_20unit',['From Imperial Unit',['../d1/de5/group___e_g_x_math-_conversions-_length_conversions-_imperial.html',1,'']]],
+  ['fathom',['Fathom',['../de/d38/group___e_g_x_math-_conversions-_length_conversions-_imperial-_fathom.html',1,'']]],
   ['foot',['Foot',['../db/d04/group___e_g_x_math-_conversions-_length_conversions-_imperial-_foot.html',1,'']]],
   ['from_20nautical_20unit',['From Nautical Unit',['../dd/d84/group___e_g_x_math-_conversions-_length_conversions-_nautical.html',1,'']]],
   ['from_20non_2dsi_20unit',['From Non-SI Unit',['../d5/db6/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i.html',1,'']]],

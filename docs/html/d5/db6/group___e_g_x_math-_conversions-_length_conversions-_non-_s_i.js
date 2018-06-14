@@ -1,5 +1,6 @@
 var group___e_g_x_math__conversions__length_conversions__non__s_i =
 [
+    [ "NauticalMile", "de/dae/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_nautical_mile.html", "de/dae/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_nautical_mile" ],
     [ "Angstrom", "d8/dd4/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom.html", "d8/dd4/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom" ],
     [ "CuXUnit", "d3/de4/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_cu_x_unit.html", "d3/de4/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_cu_x_unit" ],
     [ "Fermi", "db/d80/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_fermi.html", "db/d80/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_fermi" ],
