@@ -2,7 +2,7 @@
 ///
 /// @brief Implimentation of uzitzs conversions
 /// @author Elliot Grafil (Metex)
-/// @date 6/11/18
+/// @date 6/13/18
 
 
 namespace EGXMath {

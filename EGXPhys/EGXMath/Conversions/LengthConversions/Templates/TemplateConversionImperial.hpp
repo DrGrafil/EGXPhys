@@ -3,7 +3,7 @@
 /// @brief Converts length measurements in ulongxxits into various other units such as meters, parsecs, light years.
 ///
 /// @author Elliot Grafil (Metex)
-/// @date 6/11/18
+/// @date 6/13/18
 
 /// @defgroup EGXMath-Conversions-LengthConversions-Imperial-uzitzs uzitzs
 /// @ingroup EGXMath-Conversions-LengthConversions-Imperial
@@ -365,10 +365,10 @@ namespace EGXMath
 
     /**
     *   @brief Converts a length in ulongxxits to copper x units.
-    *		\f[ l_{xu(Cu\ K\alpha_1)}=0.0254 * \frac{1}{1.00207697*10^{-13}} l_{uxxits}\f]
+    *		\f[ l_{xu(Cu\ K\alpha_1)}=\frac{0.0254}{1.00207697*10^{-13}} l_{uxxits}\f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
-    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ ()\f$ Length in copper x units.
+    *   @return \f$ l_{xu(Cu\ K\alpha_1)}\ (xu)\f$ Length in copper x units.
     *   @see uzitzsToAngstrom() for angstrom conversion.
     *   @see uzitzsToPicometer() for picometer conversion.
     *   @see uzitzsToMoXUnit() for molybdenum  x unit conversion.
@@ -378,7 +378,7 @@ namespace EGXMath
    
     /**
     *   @brief Converts a length in ulongxxits to molybdenum x units.
-    *		\f[ l_{xu(Mo\ K\alpha_1)}=0.0254 * \frac{1}{1.00209952*10^{-13}} l_{uxxits}\f]
+    *		\f[ l_{xu(Mo\ K\alpha_1)}=\frac{0.0254}{1.00209952*10^{-13}} l_{uxxits}\f]
     *
     *   @param lengthInuzitzs \f$ l_{uxxits}\ (uxxits)\f$ Length in ulongxxits.
     *   @return \f$ l_{xu(Mo\ K\alpha_1)}\ (xu)\f$ Length in molybdenum x units.
