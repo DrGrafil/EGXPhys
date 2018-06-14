@@ -114,57 +114,58 @@ TEST_CASE("Meter Length Conversion"){
 
     //Inverted test
 
-    double testValue = 3.0;
+    double testValue = 7.985;
+    //Going from huge number to small and back results in some inpercision. Hence Approximation.
 
     //AU
-    CHECK(AstronomicalUnitToMeter(MeterToAstronomicalUnit(testValue)) == testValue);
-    CHECK(LightYearToMeter(MeterToLightYear(testValue)) == testValue);
-    CHECK(ParsecToMeter(MeterToParsec(testValue)) == testValue);
+    CHECK(AstronomicalUnitToMeter(MeterToAstronomicalUnit(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(LightYearToMeter(MeterToLightYear(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(ParsecToMeter(MeterToParsec(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
 
     //SI
-    //CHECK(YottameterTouzitzs(uzitzsToYottameter(testValue) )== testValue);
-    CHECK(YottameterToMeter(MeterToYottameter(testValue)) == testValue);
-    CHECK(ZettameterToMeter(MeterToZettameter(testValue)) == testValue);
-    CHECK(ExameterToMeter(MeterToExameter(testValue)) == testValue);
-    CHECK(PetameterToMeter(MeterToPetameter(testValue)) == testValue);
-    CHECK(TerameterToMeter(MeterToTerameter(testValue)) == testValue);
-    CHECK(GigameterToMeter(MeterToGigameter(testValue)) == testValue);
-    CHECK(MegameterToMeter(MeterToMegameter(testValue)) == testValue);
-    CHECK(KilometerToMeter(MeterToKilometer(testValue)) == testValue);
-    CHECK(HectometerToMeter(MeterToHectometer(testValue)) == testValue);
-    CHECK(DecameterToMeter(MeterToDecameter(testValue)) == testValue);
-    CHECK(DecimeterToMeter(MeterToDecimeter(testValue)) == testValue);
-    CHECK(CentimeterToMeter(MeterToCentimeter(testValue)) == testValue);
-    CHECK(MillimeterToMeter(MeterToMillimeter(testValue)) == testValue);
-    CHECK(MicrometerToMeter(MeterToMicrometer(testValue)) == testValue);
-    CHECK(NanometerToMeter(MeterToNanometer(testValue)) == testValue);
-    CHECK(PicometerToMeter(MeterToPicometer(testValue)) == testValue);
-    CHECK(FemtometerToMeter(MeterToFemtometer(testValue)) == testValue);
-    CHECK(AttometerToMeter(MeterToAttometer(testValue)) == testValue);
-    CHECK(ZeptometerToMeter(MeterToZeptometer(testValue)) == testValue);
-    CHECK(YoctometerToMeter(MeterToYoctometer(testValue)) == testValue);
+    //CHECK(YottameterTouzitzs(uzitzsToYottameter(testValue) )== Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(YottameterToMeter(MeterToYottameter(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(ZettameterToMeter(MeterToZettameter(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(ExameterToMeter(MeterToExameter(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(PetameterToMeter(MeterToPetameter(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(TerameterToMeter(MeterToTerameter(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(GigameterToMeter(MeterToGigameter(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(MegameterToMeter(MeterToMegameter(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(KilometerToMeter(MeterToKilometer(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(HectometerToMeter(MeterToHectometer(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(DecameterToMeter(MeterToDecameter(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(DecimeterToMeter(MeterToDecimeter(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(CentimeterToMeter(MeterToCentimeter(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(MillimeterToMeter(MeterToMillimeter(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(MicrometerToMeter(MeterToMicrometer(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(NanometerToMeter(MeterToNanometer(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(PicometerToMeter(MeterToPicometer(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(FemtometerToMeter(MeterToFemtometer(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(AttometerToMeter(MeterToAttometer(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(ZeptometerToMeter(MeterToZeptometer(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(YoctometerToMeter(MeterToYoctometer(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
 
 
     //Non-SI
-    CHECK(AngstromToMeter(MeterToAngstrom(testValue)) == testValue);
-    CHECK(FermiToMeter(MeterToFermi(testValue)) == testValue);
-    CHECK(MicronToMeter(MeterToMicron(testValue)) == testValue);
-    CHECK(CuXUnitToMeter(MeterToCuXUnit(testValue)) == testValue);
-    CHECK(MoXUnitToMeter(MeterToMoXUnit(testValue)) == testValue);
+    CHECK(AngstromToMeter(MeterToAngstrom(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(FermiToMeter(MeterToFermi(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(MicronToMeter(MeterToMicron(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(CuXUnitToMeter(MeterToCuXUnit(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(MoXUnitToMeter(MeterToMoXUnit(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
 
     //Imperial
-    CHECK(MileToMeter(MeterToMile(testValue)) == testValue);
-    CHECK(YardToMeter(MeterToYard(testValue)) == testValue);
-    CHECK(FootToMeter(MeterToFoot(testValue)) == testValue);
-    CHECK(InchToMeter(MeterToInch(testValue)) == testValue);
-    CHECK(MilToMeter(MeterToMil(testValue)) == testValue);
-    CHECK(ThouToMeter(MeterToThou(testValue)) == testValue);
+    CHECK(MileToMeter(MeterToMile(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(YardToMeter(MeterToYard(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(FootToMeter(MeterToFoot(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(InchToMeter(MeterToInch(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(MilToMeter(MeterToMil(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(ThouToMeter(MeterToThou(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
 
     //Nautical
-    CHECK(NauticalMileToMeter(MeterToNauticalMile(testValue)) == testValue);
-    CHECK(FathomToMeter(MeterToFathom(testValue)) == testValue);
+    CHECK(NauticalMileToMeter(MeterToNauticalMile(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(FathomToMeter(MeterToFathom(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
 
     //Surveyors
-    CHECK(RodToMeter(MeterToRod(testValue)) == testValue);
-    CHECK(ChainToMeter(MeterToChain(testValue)) == testValue);
+    CHECK(RodToMeter(MeterToRod(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
+    CHECK(ChainToMeter(MeterToChain(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
 }

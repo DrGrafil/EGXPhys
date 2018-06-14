@@ -183,7 +183,7 @@ namespace EGXMath {
 
     template<typename T>
     T ThouToInch(const T lengthInThou) {
-        return lengthInThou;
+        return lengthInThou / (T)1000.0;
     }
 
     template<typename T>
