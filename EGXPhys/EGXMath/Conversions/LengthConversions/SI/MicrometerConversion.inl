@@ -144,7 +144,7 @@ namespace EGXMath {
 
     template<typename T>
     T MicrometerToMicron(const T lengthInMicrometer) {
-        return MicrometerToMicrometer(lengthInMicrometer);
+        return lengthInMicrometer;
     }
 
     template<typename T>

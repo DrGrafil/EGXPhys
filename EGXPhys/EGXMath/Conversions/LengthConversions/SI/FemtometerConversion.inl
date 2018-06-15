@@ -130,9 +130,6 @@ namespace EGXMath {
         return FemtometerToMeter(lengthInFemtometer) * (T)1e24;
     }
 
-
-
-
     template<typename T>
     T FemtometerToAngstrom(const T lengthInFemtometer) {
         return FemtometerToPicometer(lengthInFemtometer) * (T)1e-2;
@@ -140,7 +137,7 @@ namespace EGXMath {
 
     template<typename T>
     T FemtometerToFermi(const T lengthInFemtometer) {
-        return FemtometerToFemtometer(lengthInFemtometer);
+        return lengthInFemtometer;
     }
 
     template<typename T>
