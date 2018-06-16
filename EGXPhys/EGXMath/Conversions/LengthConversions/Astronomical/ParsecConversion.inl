@@ -19,12 +19,6 @@ namespace EGXMath {
         return ParsecToMeter(lengthInParsec) / (T)lightYearInMeters;
     }
 
-    template<typename T>
-    T ParsecToParsec(const T lengthInParsec) {
-        return ParsecToMeter(lengthInParsec) / (T)parsecInMeters;
-    }
-
-
     //SI
 
     template<typename T>

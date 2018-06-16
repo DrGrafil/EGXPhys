@@ -68,17 +68,6 @@ namespace EGXMath
     template<typename T>
     T ParsecToLightYear(const T lengthInParsec);
 
-    /**
-    *   @brief Converts a length in parsecs to parsecs.
-    *		\f[ l_{pc}=\frac{\pi}{149597870700 * 648000} l_{pc}  \f]
-    *
-    *   See https://en.wikipedia.org/wiki/Parsec
-    *   @param lengthInParsec \f$ l_{pc}\ (pc)\f$ Length in parsecs.
-    *   @return \f$ l_{pc}\ (pc)\f$ Length in parsecs.
-    */
-    template<typename T>
-    T ParsecToParsec(const T lengthInParsec);
-
     /// @}
 
     //SI

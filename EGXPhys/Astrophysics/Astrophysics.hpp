@@ -23,6 +23,7 @@
 #include "EscapeVelocity.hpp"
 #include "Luminosity.hpp"
 #include "OrbitalCharecteristics.hpp"
+#include "Parallax.hpp"
 #include "Periapsis.hpp"
 #include "PlanetaryMass.hpp"
 #include "PlanetCriteria.hpp"
