@@ -22,7 +22,7 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "OrbitalCharecteristics.hpp", "dc/dee/_orbital_charecteristics_8hpp.html", null ],
     [ "OrbitalCharecteristics.inl", "d3/d79/_orbital_charecteristics_8inl.html", null ],
     [ "Parallax.hpp", "db/db9/_parallax_8hpp.html", "db/db9/_parallax_8hpp" ],
-    [ "Parallax.inl", "df/d9b/_parallax_8inl.html", null ],
+    [ "Parallax.inl", "df/d9b/_parallax_8inl.html", "df/d9b/_parallax_8inl" ],
     [ "Periapsis.hpp", "d9/d1e/_periapsis_8hpp.html", "d9/d1e/_periapsis_8hpp" ],
     [ "Periapsis.inl", "dd/d2d/_periapsis_8inl.html", "dd/d2d/_periapsis_8inl" ],
     [ "PlanetaryMass.hpp", "de/dcb/_planetary_mass_8hpp.html", "de/dcb/_planetary_mass_8hpp" ],

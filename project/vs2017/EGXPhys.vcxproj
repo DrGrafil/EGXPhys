@@ -321,6 +321,7 @@
     <ClInclude Include="..\..\tests\Astrophysics\B-VColorTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\EscapeVelocityTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\LuminosityTests.hpp" />
+    <ClInclude Include="..\..\tests\Astrophysics\ParallaxTest.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\PeriapsisTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\PlanetaryMassTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\PlanetCriteriaTests.hpp" />

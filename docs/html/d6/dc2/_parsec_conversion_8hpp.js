@@ -28,7 +28,6 @@ var _parsec_conversion_8hpp =
     [ "ParsecToMoXUnit", "d6/dc2/_parsec_conversion_8hpp.html#gaf076c4eb125bbc9fbabc040300961b6d", null ],
     [ "ParsecToNanometer", "d6/dc2/_parsec_conversion_8hpp.html#gab2226196e39edbba8fe0862d0fd75870", null ],
     [ "ParsecToNauticalMile", "d6/dc2/_parsec_conversion_8hpp.html#ga34adb714e6f4da104b25e2b5a2ab114e", null ],
-    [ "ParsecToParsec", "d6/dc2/_parsec_conversion_8hpp.html#gaf26b93b0097631545621d26c5a1366fc", null ],
     [ "ParsecToPetameter", "d6/dc2/_parsec_conversion_8hpp.html#ga9902983ed9563d247c8701370a95eb55", null ],
     [ "ParsecToPicometer", "d6/dc2/_parsec_conversion_8hpp.html#ga2d56b414320940d42a8956239e54c8b0", null ],
     [ "ParsecToRod", "d6/dc2/_parsec_conversion_8hpp.html#gae1b8ed339937e1c769e4617dbe1e70e1", null ],

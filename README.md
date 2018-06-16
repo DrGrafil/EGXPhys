@@ -102,7 +102,7 @@ Updated 6/16/2018:
 |											| Escape Velocity													| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
 |											| Luminosity															| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
 |											| Orbital Charecteristics										| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| Parallax																| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| Parallax																| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
 |											| Periapsis																| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
 |											| Planetary Mass													| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
 |											| Planet Criteria													| 																				| 																				| X							| X			 				|						| 								| 								|								|

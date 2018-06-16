@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"df/d15/_optics_constants_8hpp_source.html":[3,0,0,8,1],
 "df/d19/_ellipsoid_surface_area_8inl.html":[3,0,0,3,2,1,4,4],
 "df/d19/_ellipsoid_surface_area_8inl.html#gae1dfe0a51a3adc5121de3ced76b4068c":[3,0,0,3,2,1,4,4,0],
 "df/d1a/group___n_i_s_t_const-_non-_s_i.html":[1,2,5],
@@ -222,6 +223,10 @@ var NAVTREEINDEX28 =
 "df/d95/group___e_g_x_math-_conversions-_length_conversions-_s_i-_megameter-_surveyors.html#ga46cf50c3f1310663facf0befbf3d71fb":[1,0,0,2,4,9,5,1],
 "df/d95/group___e_g_x_math-_conversions-_length_conversions-_s_i-_megameter-_surveyors.html#ga7328b29fbeec6b35bf3b74f58d8bdfc0":[1,0,0,2,4,9,5,0],
 "df/d9b/_parallax_8inl.html":[3,0,0,1,22],
+"df/d9b/_parallax_8inl.html#ga2085f91170baba79a7fcc8a0ba77d1eb":[3,0,0,1,22,0],
+"df/d9b/_parallax_8inl.html#ga94912bf8b98a04cccab8ef19eaa89b6a":[3,0,0,1,22,2],
+"df/d9b/_parallax_8inl.html#gab42dbec142e1a47925fc45e899845861":[3,0,0,1,22,3],
+"df/d9b/_parallax_8inl.html#gacaec31498f264e2a1dc285062a394de2":[3,0,0,1,22,1],
 "df/d9f/group___n_i_s_t_const-_compton_wavelength.html":[1,2,2,2],
 "df/d9f/group___n_i_s_t_const-_compton_wavelength.html#ga9e52f9c08046cc0ec310fdf0137cdcda":[1,2,2,2,0],
 "df/d9f/group___n_i_s_t_const-_compton_wavelength.html#gabba37dafb84b4faabc2d90a8a7d0ce2a":[1,2,2,2,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX28 =
 "df/dd5/_gradian_conversion_8inl.html":[3,0,0,3,0,0,12],
 "df/dd5/_gradian_conversion_8inl.html#ga0b6700b55ab4a24fa581bf2af0dafdaa":[3,0,0,3,0,0,12,8],
 "df/dd5/_gradian_conversion_8inl.html#ga11b42138910d26474f47c0a2043911c9":[3,0,0,3,0,0,12,17],
-"df/dd5/_gradian_conversion_8inl.html#ga144f1019dc760268a163d81fcb3ce482":[3,0,0,3,0,0,12,15],
-"df/dd5/_gradian_conversion_8inl.html#ga346f47c519d5261b689cec49f4a8e789":[3,0,0,3,0,0,12,5],
-"df/dd5/_gradian_conversion_8inl.html#ga52ed2e44217e6a57e56829bee36612dc":[3,0,0,3,0,0,12,4],
-"df/dd5/_gradian_conversion_8inl.html#ga555aae885f8a7d0876a36aa07cbbd816":[3,0,0,3,0,0,12,12],
-"df/dd5/_gradian_conversion_8inl.html#ga5c81967ddb8f677634d161713174e419":[3,0,0,3,0,0,12,7],
-"df/dd5/_gradian_conversion_8inl.html#ga6513a992679fbb97d2969cf8bd68306f":[3,0,0,3,0,0,12,10]
+"df/dd5/_gradian_conversion_8inl.html#ga144f1019dc760268a163d81fcb3ce482":[3,0,0,3,0,0,12,15]
 };

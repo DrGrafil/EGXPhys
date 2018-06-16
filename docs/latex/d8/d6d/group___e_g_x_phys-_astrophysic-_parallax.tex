@@ -3,18 +3,141 @@
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_parallax_ga48ae10af38eaeb84ac1e234fbef1cd7f}\label{group___e_g_x_phys-_astrophysic-_parallax_ga48ae10af38eaeb84ac1e234fbef1cd7f}} 
-{\bfseries E\+G\+X\+Phys\+::\+Parallax\+To\+Parsec} (parallax\+In\+Arcseconds)
-\item 
-\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_parallax_ga45c5b4322b40ec25558098800aa84113}\label{group___e_g_x_phys-_astrophysic-_parallax_ga45c5b4322b40ec25558098800aa84113}} 
-{\bfseries E\+G\+X\+Phys\+::\+Parallax\+To\+AU} (parallax\+In\+Arcseconds)
-\item 
-\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_parallax_ga96c8a28674c6087955a6e102d6d28dd2}\label{group___e_g_x_phys-_astrophysic-_parallax_ga96c8a28674c6087955a6e102d6d28dd2}} 
-{\bfseries E\+G\+X\+Phys\+::\+Parallax\+To\+Light\+Year} (parallax\+In\+Arcseconds)
-\item 
-\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_parallax_ga744e8b930780f5513da988242f6705ec}\label{group___e_g_x_phys-_astrophysic-_parallax_ga744e8b930780f5513da988242f6705ec}} 
-{\bfseries E\+G\+X\+Phys\+::\+Parallax\+To\+Meters} (parallax\+In\+Arcseconds)
-\end{DoxyCompactItemize}
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_gab42dbec142e1a47925fc45e899845861}{E\+G\+X\+Phys\+::\+Parallax\+To\+Parsec}} (const T parallax\+In\+Arcseconds)
+\begin{DoxyCompactList}\small\item\em Calculates the distance, $D$, of an object in parsecs from its observed parallax, $p$, in arcseconds. \[ D=\dfrac{1}{p}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_ga2085f91170baba79a7fcc8a0ba77d1eb}{E\+G\+X\+Phys\+::\+Parallax\+To\+AU}} (const T parallax\+In\+Arcseconds)
+\begin{DoxyCompactList}\small\item\em Calculates the distance, $D$, of an object in astronomical units from its observed parallax, $p$, in arcseconds. \[ D=\dfrac{648000}{\pi}\dfrac{1}{p}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_gacaec31498f264e2a1dc285062a394de2}{E\+G\+X\+Phys\+::\+Parallax\+To\+Light\+Year}} (const T parallax\+In\+Arcseconds)
+\begin{DoxyCompactList}\small\item\em Calculates the distance, $D$, of an object in light years from its observed parallax, $p$, in arcseconds. \[ D=\dfrac{149597870700 * 648000}{9460730472580800 \pi} \dfrac{1}{p}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_ga94912bf8b98a04cccab8ef19eaa89b6a}{E\+G\+X\+Phys\+::\+Parallax\+To\+Meter}} (const T parallax\+In\+Arcseconds)
+\begin{DoxyCompactList}\small\item\em Calculates the distance, $D$, of an object in meters from its observed parallax, $p$, in arcseconds. \[ D=\dfrac{149597870700 * 648000}{\pi}\dfrac{1}{p}\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_parallax_ga2085f91170baba79a7fcc8a0ba77d1eb}\label{group___e_g_x_phys-_astrophysic-_parallax_ga2085f91170baba79a7fcc8a0ba77d1eb}} 
+\index{Parallax@{Parallax}!Parallax\+To\+AU@{Parallax\+To\+AU}}
+\index{Parallax\+To\+AU@{Parallax\+To\+AU}!Parallax@{Parallax}}
+\subsubsection{\texorpdfstring{Parallax\+To\+A\+U()}{ParallaxToAU()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Parallax\+To\+AU (\begin{DoxyParamCaption}\item[{const T}]{parallax\+In\+Arcseconds }\end{DoxyParamCaption})}
+
+
+
+Calculates the distance, $D$, of an object in astronomical units from its observed parallax, $p$, in arcseconds. \[ D=\dfrac{648000}{\pi}\dfrac{1}{p}\]. 
+
+See \href{http://astro.physics.uiowa.edu/ITU/glossary/stellar-parallax/}{\tt http\+://astro.\+physics.\+uiowa.\+edu/\+I\+T\+U/glossary/stellar-\/parallax/} and \href{https://en.wikipedia.org/wiki/Stellar_parallax}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+parallax}
+
+Equation taken from \href{http://astronomyonline.org/Science/Parallax.asp}{\tt http\+://astronomyonline.\+org/\+Science/\+Parallax.\+asp}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parallax\+In\+Arcseconds} & $ p\ (")$ Parallax of object in arcseconds. See \href{http://coolcosmos.ipac.caltech.edu/cosmic_classroom/cosmic_reference/angular.html}{\tt http\+://coolcosmos.\+ipac.\+caltech.\+edu/cosmic\+\_\+classroom/cosmic\+\_\+reference/angular.\+html} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ D\ (au)$ Distance in astronomical units. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_gab42dbec142e1a47925fc45e899845861}{Parallax\+To\+Parsec()}} for conversion into parsecs. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_gacaec31498f264e2a1dc285062a394de2}{Parallax\+To\+Light\+Year()}} for conversion into light years. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_ga94912bf8b98a04cccab8ef19eaa89b6a}{Parallax\+To\+Meter()}} for conversion into meters. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_parallax_gacaec31498f264e2a1dc285062a394de2}\label{group___e_g_x_phys-_astrophysic-_parallax_gacaec31498f264e2a1dc285062a394de2}} 
+\index{Parallax@{Parallax}!Parallax\+To\+Light\+Year@{Parallax\+To\+Light\+Year}}
+\index{Parallax\+To\+Light\+Year@{Parallax\+To\+Light\+Year}!Parallax@{Parallax}}
+\subsubsection{\texorpdfstring{Parallax\+To\+Light\+Year()}{ParallaxToLightYear()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Parallax\+To\+Light\+Year (\begin{DoxyParamCaption}\item[{const T}]{parallax\+In\+Arcseconds }\end{DoxyParamCaption})}
+
+
+
+Calculates the distance, $D$, of an object in light years from its observed parallax, $p$, in arcseconds. \[ D=\dfrac{149597870700 * 648000}{9460730472580800 \pi} \dfrac{1}{p}\]. 
+
+See \href{http://astro.physics.uiowa.edu/ITU/glossary/stellar-parallax/}{\tt http\+://astro.\+physics.\+uiowa.\+edu/\+I\+T\+U/glossary/stellar-\/parallax/} and \href{https://en.wikipedia.org/wiki/Stellar_parallax}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+parallax}
+
+Equation taken from \href{http://astronomyonline.org/Science/Parallax.asp}{\tt http\+://astronomyonline.\+org/\+Science/\+Parallax.\+asp}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parallax\+In\+Arcseconds} & $ p\ (")$ Parallax of object in arcseconds. See \href{http://coolcosmos.ipac.caltech.edu/cosmic_classroom/cosmic_reference/angular.html}{\tt http\+://coolcosmos.\+ipac.\+caltech.\+edu/cosmic\+\_\+classroom/cosmic\+\_\+reference/angular.\+html} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ D\ (ly)$ Distance in light years. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_gab42dbec142e1a47925fc45e899845861}{Parallax\+To\+Parsec()}} for conversion into parsecs. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_ga2085f91170baba79a7fcc8a0ba77d1eb}{Parallax\+To\+A\+U()}} for conversion into astronomical units. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_gacaec31498f264e2a1dc285062a394de2}{Parallax\+To\+Light\+Year()}} for conversion into light years. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_ga94912bf8b98a04cccab8ef19eaa89b6a}{Parallax\+To\+Meter()}} for conversion into meters. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_parallax_ga94912bf8b98a04cccab8ef19eaa89b6a}\label{group___e_g_x_phys-_astrophysic-_parallax_ga94912bf8b98a04cccab8ef19eaa89b6a}} 
+\index{Parallax@{Parallax}!Parallax\+To\+Meter@{Parallax\+To\+Meter}}
+\index{Parallax\+To\+Meter@{Parallax\+To\+Meter}!Parallax@{Parallax}}
+\subsubsection{\texorpdfstring{Parallax\+To\+Meter()}{ParallaxToMeter()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Parallax\+To\+Meter (\begin{DoxyParamCaption}\item[{const T}]{parallax\+In\+Arcseconds }\end{DoxyParamCaption})}
+
+
+
+Calculates the distance, $D$, of an object in meters from its observed parallax, $p$, in arcseconds. \[ D=\dfrac{149597870700 * 648000}{\pi}\dfrac{1}{p}\]. 
+
+See \href{http://astro.physics.uiowa.edu/ITU/glossary/stellar-parallax/}{\tt http\+://astro.\+physics.\+uiowa.\+edu/\+I\+T\+U/glossary/stellar-\/parallax/} and \href{https://en.wikipedia.org/wiki/Stellar_parallax}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+parallax}
+
+Equation taken from \href{http://astronomyonline.org/Science/Parallax.asp}{\tt http\+://astronomyonline.\+org/\+Science/\+Parallax.\+asp}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parallax\+In\+Arcseconds} & $ p\ (")$ Parallax of object in arcseconds. See \href{http://coolcosmos.ipac.caltech.edu/cosmic_classroom/cosmic_reference/angular.html}{\tt http\+://coolcosmos.\+ipac.\+caltech.\+edu/cosmic\+\_\+classroom/cosmic\+\_\+reference/angular.\+html} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ D\ (m)$ Distance in meters. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_gab42dbec142e1a47925fc45e899845861}{Parallax\+To\+Parsec()}} for conversion into parsecs. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_ga2085f91170baba79a7fcc8a0ba77d1eb}{Parallax\+To\+A\+U()}} for conversion into astronomical units. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_gacaec31498f264e2a1dc285062a394de2}{Parallax\+To\+Light\+Year()}} for conversion into light years. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_ga94912bf8b98a04cccab8ef19eaa89b6a}{Parallax\+To\+Meter()}} for conversion into meters. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_parallax_gab42dbec142e1a47925fc45e899845861}\label{group___e_g_x_phys-_astrophysic-_parallax_gab42dbec142e1a47925fc45e899845861}} 
+\index{Parallax@{Parallax}!Parallax\+To\+Parsec@{Parallax\+To\+Parsec}}
+\index{Parallax\+To\+Parsec@{Parallax\+To\+Parsec}!Parallax@{Parallax}}
+\subsubsection{\texorpdfstring{Parallax\+To\+Parsec()}{ParallaxToParsec()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Parallax\+To\+Parsec (\begin{DoxyParamCaption}\item[{const T}]{parallax\+In\+Arcseconds }\end{DoxyParamCaption})}
+
+
+
+Calculates the distance, $D$, of an object in parsecs from its observed parallax, $p$, in arcseconds. \[ D=\dfrac{1}{p}\]. 
+
+See \href{http://astro.physics.uiowa.edu/ITU/glossary/stellar-parallax/}{\tt http\+://astro.\+physics.\+uiowa.\+edu/\+I\+T\+U/glossary/stellar-\/parallax/} and \href{https://en.wikipedia.org/wiki/Stellar_parallax}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+parallax}
+
+Equation taken from \href{http://astronomyonline.org/Science/Parallax.asp}{\tt http\+://astronomyonline.\+org/\+Science/\+Parallax.\+asp}
+
+
+\begin{DoxyParams}{Parameters}
+{\em parallax\+In\+Arcseconds} & $ p\ (")$ Parallax of object in arcseconds. See \href{http://coolcosmos.ipac.caltech.edu/cosmic_classroom/cosmic_reference/angular.html}{\tt http\+://coolcosmos.\+ipac.\+caltech.\+edu/cosmic\+\_\+classroom/cosmic\+\_\+reference/angular.\+html} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ d\ (pc)$ Distance in parsecs. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_ga2085f91170baba79a7fcc8a0ba77d1eb}{Parallax\+To\+A\+U()}} for conversion into astronomical units. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_gacaec31498f264e2a1dc285062a394de2}{Parallax\+To\+Light\+Year()}} for conversion into light years. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_parallax_ga94912bf8b98a04cccab8ef19eaa89b6a}{Parallax\+To\+Meter()}} for conversion into meters. 
+\end{DoxySeeAlso}

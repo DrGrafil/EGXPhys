@@ -9,6 +9,7 @@
 #include "B-VColorTests.hpp"
 #include "EscapeVelocityTests.hpp"
 #include "LuminosityTests.hpp"
+#include "ParallaxTest.hpp"
 #include "PeriapsisTests.hpp"
 #include "PlanetCriteriaTests.hpp"
 #include "PlanetaryMassTests.hpp"

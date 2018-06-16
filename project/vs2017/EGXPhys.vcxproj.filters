@@ -1032,6 +1032,9 @@
     <ClInclude Include="..\..\tests\EGXMath\Conversions\LengthConversions\SI\YoctometerConversionTest.hpp">
       <Filter>Tests\EGXMath\Conversions\Length\SI</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\tests\Astrophysics\ParallaxTest.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">

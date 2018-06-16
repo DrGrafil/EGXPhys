@@ -10,7 +10,7 @@ var group___e_g_x_phys__astrophysics =
     [ "Escape Velocity", "de/d53/group___e_g_x_phys-_astrophysics-_escape_velocity.html", "de/d53/group___e_g_x_phys-_astrophysics-_escape_velocity" ],
     [ "Luminosity", "d7/d41/group___e_g_x_phys-_luminosity.html", "d7/d41/group___e_g_x_phys-_luminosity" ],
     [ "Orbital Charecteristics", "d2/df0/group___e_g_x_phys-_orbital_charecteristics.html", null ],
-    [ "Parallax", "d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html", null ],
+    [ "Parallax", "d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html", "d8/d6d/group___e_g_x_phys-_astrophysic-_parallax" ],
     [ "Periapsis", "d2/d40/group___e_g_x_phys-_periapsis.html", "d2/d40/group___e_g_x_phys-_periapsis" ],
     [ "Planetary Mass", "de/d24/group___e_g_x_phys-_planetary_mass.html", "de/d24/group___e_g_x_phys-_planetary_mass" ],
     [ "Planet Criteria", "d7/d83/group___e_g_x_phys-_planet_criteria.html", "d7/d83/group___e_g_x_phys-_planet_criteria" ],
