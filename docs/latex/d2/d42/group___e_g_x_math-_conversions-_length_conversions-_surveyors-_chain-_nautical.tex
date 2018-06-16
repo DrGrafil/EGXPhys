@@ -1,0 +1,53 @@
+\hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_nautical}{}\section{Nautical}
+\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_nautical}\index{Nautical@{Nautical}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_nautical_gad4c03e3aae08135e79dd4b6becc65d47}{E\+G\+X\+Math\+::\+Chain\+To\+Nautical\+Mile}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to nautical mile. \[ l_{NM}= \frac{0.0254 * 792}{1852} l_{ch} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_nautical_ga39e7643cd4567eba7c466c440e7992d6}{E\+G\+X\+Math\+::\+Chain\+To\+Fathom}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to fathoms. \[ l_{fathom}= \frac{792}{72} l_{ch} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_nautical_ga39e7643cd4567eba7c466c440e7992d6}\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_nautical_ga39e7643cd4567eba7c466c440e7992d6}} 
+\index{Nautical@{Nautical}!Chain\+To\+Fathom@{Chain\+To\+Fathom}}
+\index{Chain\+To\+Fathom@{Chain\+To\+Fathom}!Nautical@{Nautical}}
+\subsubsection{\texorpdfstring{Chain\+To\+Fathom()}{ChainToFathom()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Chain\+To\+Fathom (\begin{DoxyParamCaption}\item[{const T}]{length\+In\+Chain }\end{DoxyParamCaption})}
+
+
+
+Converts a length in chains to fathoms. \[ l_{fathom}= \frac{792}{72} l_{ch} \]. 
+
+See \href{https://simple.wikipedia.org/wiki/Fathom}{\tt https\+://simple.\+wikipedia.\+org/wiki/\+Fathom} 
+\begin{DoxyParams}{Parameters}
+{\em length\+In\+Chain} & $ l_{ch}\ (ch)$ Length in chains. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ l_{fathom}\ (fathom)$ Length in fathoms. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_nautical_gad4c03e3aae08135e79dd4b6becc65d47}\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_nautical_gad4c03e3aae08135e79dd4b6becc65d47}} 
+\index{Nautical@{Nautical}!Chain\+To\+Nautical\+Mile@{Chain\+To\+Nautical\+Mile}}
+\index{Chain\+To\+Nautical\+Mile@{Chain\+To\+Nautical\+Mile}!Nautical@{Nautical}}
+\subsubsection{\texorpdfstring{Chain\+To\+Nautical\+Mile()}{ChainToNauticalMile()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Chain\+To\+Nautical\+Mile (\begin{DoxyParamCaption}\item[{const T}]{length\+In\+Chain }\end{DoxyParamCaption})}
+
+
+
+Converts a length in chains to nautical mile. \[ l_{NM}= \frac{0.0254 * 792}{1852} l_{ch} \]. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em length\+In\+Chain} & $ l_{ch}\ (ch)$ Length in chains. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ l_{NM}\ (NM)$ Length in nautical mile. 
+\end{DoxyReturn}

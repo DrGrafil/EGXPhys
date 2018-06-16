@@ -1,0 +1,98 @@
+\hypertarget{_chain_conversion_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Surveyors/\+Chain\+Conversion.hpp File Reference}
+\label{_chain_conversion_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Surveyors/\+Chain\+Conversion.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Surveyors/\+Chain\+Conversion.\+hpp}}
+
+
+Converts length measurements in chains into various other units such as meters, parsecs, light years.  
+
+
+{\ttfamily \#include \char`\"{}Chain\+Conversion.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_astronomical_ga5fd3b01f376172581a8847b593d33466}{E\+G\+X\+Math\+::\+Chain\+To\+Astronomical\+Unit}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to astronomical units. \[ l_{au}=\frac{0.0254 * 792}{149597870700} l_{ch} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_astronomical_ga0414df8660b7f8fd74f32b0d88c3476f}{E\+G\+X\+Math\+::\+Chain\+To\+Light\+Year}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length chains in to light-\/years. \[ l_{ly}=\frac{0.0254 * 792}{9460730472580800} l_{ch} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_astronomical_gad5475701b576e1f8609e04610024dda2}{E\+G\+X\+Math\+::\+Chain\+To\+Parsec}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to parsecs. \[ l_{pc}=\frac{0.0254 * 792 * \pi}{149597870700 * 648000} l_{ch} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga94f1a1b0e10796717226224d825e0490}{E\+G\+X\+Math\+::\+Chain\+To\+Meter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to meters. \[ l_{m}=0.0254 * 792 * l_{ch} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga033ed288c43416b74a897a3902cc49b2}{E\+G\+X\+Math\+::\+Chain\+To\+Yottameter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to yottameters. \[ l_{Ym}=0.0254 * 792 * l_{ch} * 10^{-24} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga8fe1fdac139b7f842766aedd772527eb}{E\+G\+X\+Math\+::\+Chain\+To\+Zettameter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to zettameters. \[ l_{Zm}=0.0254 * 792 * l_{ch} * 10^{-21} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga82f07f687e804faabd25839c5066792a}{E\+G\+X\+Math\+::\+Chain\+To\+Exameter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to exameters. \[ l_{Em}=0.0254 * 792 * l_{ch} * 10^{-18} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga4a40c43d2437af26f04a678f438451ce}{E\+G\+X\+Math\+::\+Chain\+To\+Petameter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to petameters. \[ l_{Pm}=0.0254 * 792 * l_{ch} * 10^{-15} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga8940f5211af58a3bf708412ad2d7ba96}{E\+G\+X\+Math\+::\+Chain\+To\+Terameter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to terameters. \[ l_{Tm}=0.0254 * 792 * l_{ch} * 10^{-12} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga4e3a17428c28a61c1aaf1de8c094f31d}{E\+G\+X\+Math\+::\+Chain\+To\+Gigameter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to gigameters. \[ l_{Gm}=0.0254 * 792 * l_{ch} * 10^{-9} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_gad564a80fe3ce7cb8c129758004256a12}{E\+G\+X\+Math\+::\+Chain\+To\+Megameter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to megameters. \[ l_{Mm}=0.0254 * 792 * l_{ch} * 10^{-6} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga4fd4349867e45ce387c01403b8dcf426}{E\+G\+X\+Math\+::\+Chain\+To\+Kilometer}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to kilometers. \[ l_{km}=0.0254 * 792 * l_{ch} * 10^{-3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga306a29ba8425ed22c19171e718d42f20}{E\+G\+X\+Math\+::\+Chain\+To\+Hectometer}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to hectometers. \[ l_{hm}=0.0254 * 792 * l_{ch} * 10^{-2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_gaabde0350f3af15795de0adeac2ec9e28}{E\+G\+X\+Math\+::\+Chain\+To\+Decameter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to decameters. \[ l_{dam}=0.0254 * 792 * l_{ch} * 10^{-1} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga9311e5452f0bd1f79f95e43085ad6412}{E\+G\+X\+Math\+::\+Chain\+To\+Decimeter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to decimeters. \[ l_{dm}=0.0254 * 792 * l_{ch} * 10^{1} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga33a053c1566c1371a9ac3a5ce66340bf}{E\+G\+X\+Math\+::\+Chain\+To\+Centimeter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to centimeters. \[ l_{cm}=0.0254 * 792 * l_{ch} * 10^{2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_gab2a17c49dbe6d8ec546e8819de2df33b}{E\+G\+X\+Math\+::\+Chain\+To\+Millimeter}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to millimeters. \[ l_{mm}=0.0254 * 792 * l_{ch} * 10^{3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_gab6d1ab0738e0a31f328352569fa00767}{E\+G\+X\+Math\+::\+Chain\+To\+Micrometer}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to micrometers. \[ l_{\mu m}=0.0254 * 792 * l_{ch} * 10^{6} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga6120f342646451a0aa544d3fc3699f81}{E\+G\+X\+Math\+::\+Chain\+To\+Nanometer}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to nanometers. \[ l_{nm}=0.0254 * 792 * l_{ch} * 10^{9} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga27f06f3f63727a16e02afaf8f01f4b45}{E\+G\+X\+Math\+::\+Chain\+To\+Picometer}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to picometers. \[ l_{pm}=0.0254 * 792 * l_{ch} * 10^{12} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga21bde6f9a920aced344185d4ed645183}{E\+G\+X\+Math\+::\+Chain\+To\+Femtometer}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to femtometers. \[ l_{fm}=0.0254 * 792 * l_{ch} * 10^{15} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga1e983c3063080200438c09bdafa20e02}{E\+G\+X\+Math\+::\+Chain\+To\+Attometer}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to attometers. \[ l_{am}=0.0254 * 792 * l_{ch} * 10^{18} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga5c9f25b27d059b6b458111270a20209a}{E\+G\+X\+Math\+::\+Chain\+To\+Zeptometer}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to zeptometers. \[ l_{zm}=0.0254 * 792 * l_{ch} * 10^{21} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_gafcc220586dd2018bb921f109efa11d06}{E\+G\+X\+Math\+::\+Chain\+To\+Yoctometer}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to yoctometers. \[ l_{ym}=0.0254 * 792 * l_{ch} * 10^{24} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga89e870762310908510aad80d26dc1942}{E\+G\+X\+Math\+::\+Chain\+To\+Angstrom}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to angstroms. \[ l_{\unicode{x212B}}=0.0254 * 792 * l_{ch} * 10^{10} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga88b0e20b062ca36346a6daeb5052c40a}{E\+G\+X\+Math\+::\+Chain\+To\+Fermi}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to fermis. \[ l_{fm}=0.0254 * 792 * l_{ch} * 10^{15} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga9efe9ceb0ab30639026cbb4158bb0148}{E\+G\+X\+Math\+::\+Chain\+To\+Micron}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to microns. \[ l_{\mu m}=0.0254 * 792 * l_{ch} * 10^{6} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga4d49e29ef32b64b7a433ffe76447cf5f}{E\+G\+X\+Math\+::\+Chain\+To\+Cu\+X\+Unit}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to copper x units. \[ l_{xu(Cu\ K\alpha_1)}=\frac{0.0254 * 792}{1.00207697*10^{-13}} l_{ch}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_gae4a2b99d846db53416e9fc5d6f9e957c}{E\+G\+X\+Math\+::\+Chain\+To\+Mo\+X\+Unit}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to molybdenum x units. \[ l_{xu(Mo\ K\alpha_1)}=\frac{0.0254 * 792}{1.00209952*10^{-13}} l_{ch}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial_ga260b1e534400c8ee9ec5001641b2a451}{E\+G\+X\+Math\+::\+Chain\+To\+Mile}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to miles. \[ l_{mi}=\frac{792}{63360} l_{ch} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial_ga9d6b8e5d2dfaf555b923e8ba2d324ae4}{E\+G\+X\+Math\+::\+Chain\+To\+Yard}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to yards. \[ l_{yd}= \frac{792}{36} l_{ch} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial_gab1249a8d1535d07fcb4844d687133a49}{E\+G\+X\+Math\+::\+Chain\+To\+Foot}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to feet. \[ l_{ft}= \frac{792}{12} l_{ch} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial_gabbb970d9c4833232722a01a846c30bc8}{E\+G\+X\+Math\+::\+Chain\+To\+Inch}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to inches. \[ l_{in}= 792 * l_{ch} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial_gae1276611dce26e23deae1b0379b4394d}{E\+G\+X\+Math\+::\+Chain\+To\+Mil}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to mils (thousandth of an inch). \[ l_{mil}=792 * l_{ch} * 10^{3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial_ga64cd46f80e3af5d7ca664456080ef6a3}{E\+G\+X\+Math\+::\+Chain\+To\+Thou}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to thous (thousandth of an inch). \[ l_{mil}= 792 * l_{ch} * 10^{3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_nautical_gad4c03e3aae08135e79dd4b6becc65d47}{E\+G\+X\+Math\+::\+Chain\+To\+Nautical\+Mile}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to nautical mile. \[ l_{NM}= \frac{0.0254 * 792}{1852} l_{ch} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_nautical_ga39e7643cd4567eba7c466c440e7992d6}{E\+G\+X\+Math\+::\+Chain\+To\+Fathom}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to fathoms. \[ l_{fathom}= \frac{792}{72} l_{ch} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_surveyors_ga9c10d6a6603fe3761923d01523c33eea}{E\+G\+X\+Math\+::\+Chain\+To\+Rod}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to rods. \[ l_{rod}= \frac{792}{198} l_{ch} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Converts length measurements in chains into various other units such as meters, parsecs, light years. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+6/13/18 
+\end{DoxyDate}

@@ -1,30 +1,30 @@
-/// @file EGXMath/Conversions/LengthConversions/Imperial/ChainConversion.hpp
+/// @file EGXMath/Conversions/LengthConversions/Surveyors/ChainConversion.hpp
 ///
 /// @brief Converts length measurements in chains into various other units such as meters, parsecs, light years.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 6/13/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Chain Chain
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Chain Chain
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Chain-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Chain
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Chain
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Chain-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Chain
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Chain
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Chain-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Chain
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Chain
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Chain-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Chain
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Chain
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Chain-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Chain
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Chain
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Chain-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Chain
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Chain
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Chain-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Chain-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-SI
     /// @{
     /**
     *   @brief Converts a length in chains to meters.
@@ -325,7 +325,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Chain-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-Non-SI
     /// @{
 
     /**
@@ -393,7 +393,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Chain-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-Imperial
     /// @{
 
     /**
@@ -468,7 +468,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Chain-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-Nautical
     /// @{
 
     /**
@@ -496,7 +496,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Chain-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Chain-Surveyors
     /// @{
 
     /**

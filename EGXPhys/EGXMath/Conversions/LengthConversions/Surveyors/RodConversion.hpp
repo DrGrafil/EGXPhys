@@ -1,30 +1,30 @@
-/// @file EGXMath/Conversions/LengthConversions/Imperial/RodConversion.hpp
+/// @file EGXMath/Conversions/LengthConversions/Surveyors/RodConversion.hpp
 ///
 /// @brief Converts length measurements in rods into various other units such as meters, parsecs, light years.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 6/13/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Rod Rod
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Rod Rod
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Rod-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Rod
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Rod
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Rod-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Rod
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Rod
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Rod-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Rod
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Rod
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Rod-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Rod
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Rod
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Rod-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Rod
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Rod
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Rod-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Rod
+/// @defgroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-Surveyors-Rod
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Rod-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Rod-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-SI
     /// @{
     /**
     *   @brief Converts a length in rods to meters.
@@ -325,7 +325,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Rod-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-Non-SI
     /// @{
 
     /**
@@ -393,7 +393,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Rod-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-Imperial
     /// @{
 
     /**
@@ -468,7 +468,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Rod-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-Nautical
     /// @{
 
     /**
@@ -496,7 +496,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Rod-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Surveyors-Rod-Surveyors
     /// @{
 
 

@@ -1,0 +1,53 @@
+\hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_nautical}{}\section{Nautical}
+\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_nautical}\index{Nautical@{Nautical}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_nautical_ga68825640131c61e55490acfcb616aa78}{E\+G\+X\+Math\+::\+Rod\+To\+Nautical\+Mile}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to nautical mile. \[ l_{NM}= \frac{0.0254 * 198}{1852} l_{rod} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_nautical_gaf0e4a1c1d7f8d23f57c1c2df8a617c7c}{E\+G\+X\+Math\+::\+Rod\+To\+Fathom}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to fathoms. \[ l_{fathom}= \frac{198}{72} l_{rod} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_nautical_gaf0e4a1c1d7f8d23f57c1c2df8a617c7c}\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_nautical_gaf0e4a1c1d7f8d23f57c1c2df8a617c7c}} 
+\index{Nautical@{Nautical}!Rod\+To\+Fathom@{Rod\+To\+Fathom}}
+\index{Rod\+To\+Fathom@{Rod\+To\+Fathom}!Nautical@{Nautical}}
+\subsubsection{\texorpdfstring{Rod\+To\+Fathom()}{RodToFathom()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Rod\+To\+Fathom (\begin{DoxyParamCaption}\item[{const T}]{length\+In\+Rod }\end{DoxyParamCaption})}
+
+
+
+Converts a length in rods to fathoms. \[ l_{fathom}= \frac{198}{72} l_{rod} \]. 
+
+See \href{https://simple.wikipedia.org/wiki/Fathom}{\tt https\+://simple.\+wikipedia.\+org/wiki/\+Fathom} 
+\begin{DoxyParams}{Parameters}
+{\em length\+In\+Rod} & $ l_{rod}\ (rod)$ Length in rods. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ l_{fathom}\ (fathom)$ Length in fathoms. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_nautical_ga68825640131c61e55490acfcb616aa78}\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_nautical_ga68825640131c61e55490acfcb616aa78}} 
+\index{Nautical@{Nautical}!Rod\+To\+Nautical\+Mile@{Rod\+To\+Nautical\+Mile}}
+\index{Rod\+To\+Nautical\+Mile@{Rod\+To\+Nautical\+Mile}!Nautical@{Nautical}}
+\subsubsection{\texorpdfstring{Rod\+To\+Nautical\+Mile()}{RodToNauticalMile()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Rod\+To\+Nautical\+Mile (\begin{DoxyParamCaption}\item[{const T}]{length\+In\+Rod }\end{DoxyParamCaption})}
+
+
+
+Converts a length in rods to nautical mile. \[ l_{NM}= \frac{0.0254 * 198}{1852} l_{rod} \]. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em length\+In\+Rod} & $ l_{rod}\ (rod)$ Length in rods. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ l_{NM}\ (NM)$ Length in nautical mile. 
+\end{DoxyReturn}

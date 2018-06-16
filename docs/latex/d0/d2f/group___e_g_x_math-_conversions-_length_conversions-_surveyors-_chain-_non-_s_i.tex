@@ -1,0 +1,140 @@
+\hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i}{}\section{Non-\/\+SI}
+\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i}\index{Non-\/\+SI@{Non-\/\+SI}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga89e870762310908510aad80d26dc1942}{E\+G\+X\+Math\+::\+Chain\+To\+Angstrom}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to angstroms. \[ l_{\unicode{x212B}}=0.0254 * 792 * l_{ch} * 10^{10} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga88b0e20b062ca36346a6daeb5052c40a}{E\+G\+X\+Math\+::\+Chain\+To\+Fermi}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to fermis. \[ l_{fm}=0.0254 * 792 * l_{ch} * 10^{15} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga9efe9ceb0ab30639026cbb4158bb0148}{E\+G\+X\+Math\+::\+Chain\+To\+Micron}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to microns. \[ l_{\mu m}=0.0254 * 792 * l_{ch} * 10^{6} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga4d49e29ef32b64b7a433ffe76447cf5f}{E\+G\+X\+Math\+::\+Chain\+To\+Cu\+X\+Unit}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to copper x units. \[ l_{xu(Cu\ K\alpha_1)}=\frac{0.0254 * 792}{1.00207697*10^{-13}} l_{ch}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_gae4a2b99d846db53416e9fc5d6f9e957c}{E\+G\+X\+Math\+::\+Chain\+To\+Mo\+X\+Unit}} (const T length\+In\+Chain)
+\begin{DoxyCompactList}\small\item\em Converts a length in chains to molybdenum x units. \[ l_{xu(Mo\ K\alpha_1)}=\frac{0.0254 * 792}{1.00209952*10^{-13}} l_{ch}\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga89e870762310908510aad80d26dc1942}\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga89e870762310908510aad80d26dc1942}} 
+\index{Non-\/\+SI@{Non-\/\+SI}!Chain\+To\+Angstrom@{Chain\+To\+Angstrom}}
+\index{Chain\+To\+Angstrom@{Chain\+To\+Angstrom}!Non-\/\+SI@{Non-\/\+SI}}
+\subsubsection{\texorpdfstring{Chain\+To\+Angstrom()}{ChainToAngstrom()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Chain\+To\+Angstrom (\begin{DoxyParamCaption}\item[{const T}]{length\+In\+Chain }\end{DoxyParamCaption})}
+
+
+
+Converts a length in chains to angstroms. \[ l_{\unicode{x212B}}=0.0254 * 792 * l_{ch} * 10^{10} \]. 
+
+See \href{https://en.wikipedia.org/wiki/Metric_prefix#List_of_SI_prefixes}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Metric\+\_\+prefix\#\+List\+\_\+of\+\_\+\+S\+I\+\_\+prefixes} and \href{https://en.wikipedia.org/wiki/Unit_of_length}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Unit\+\_\+of\+\_\+length} 
+\begin{DoxyParams}{Parameters}
+{\em length\+In\+Chain} & $ l_{ch}\ (ch)$ Length in chains. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ l_{\unicode{x212B}}\ (\unicode{x212B})$ Length in angstroms. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga27f06f3f63727a16e02afaf8f01f4b45}{Chain\+To\+Picometer()}} for picometer conversion. 
+
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga4d49e29ef32b64b7a433ffe76447cf5f}{Chain\+To\+Cu\+X\+Unit()}} for copper x unit conversion. 
+
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_gae4a2b99d846db53416e9fc5d6f9e957c}{Chain\+To\+Mo\+X\+Unit()}} for molybdenum x unit conversion. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga4d49e29ef32b64b7a433ffe76447cf5f}\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga4d49e29ef32b64b7a433ffe76447cf5f}} 
+\index{Non-\/\+SI@{Non-\/\+SI}!Chain\+To\+Cu\+X\+Unit@{Chain\+To\+Cu\+X\+Unit}}
+\index{Chain\+To\+Cu\+X\+Unit@{Chain\+To\+Cu\+X\+Unit}!Non-\/\+SI@{Non-\/\+SI}}
+\subsubsection{\texorpdfstring{Chain\+To\+Cu\+X\+Unit()}{ChainToCuXUnit()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Chain\+To\+Cu\+X\+Unit (\begin{DoxyParamCaption}\item[{const T}]{length\+In\+Chain }\end{DoxyParamCaption})}
+
+
+
+Converts a length in chains to copper x units. \[ l_{xu(Cu\ K\alpha_1)}=\frac{0.0254 * 792}{1.00207697*10^{-13}} l_{ch}\]. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em length\+In\+Chain} & $ l_{ch}\ (ch)$ Length in chains. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ l_{xu(Cu\ K\alpha_1)}\ (xu)$ Length in copper x units. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga89e870762310908510aad80d26dc1942}{Chain\+To\+Angstrom()}} for angstrom conversion. 
+
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga27f06f3f63727a16e02afaf8f01f4b45}{Chain\+To\+Picometer()}} for picometer conversion. 
+
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_gae4a2b99d846db53416e9fc5d6f9e957c}{Chain\+To\+Mo\+X\+Unit()}} for molybdenum x unit conversion. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga88b0e20b062ca36346a6daeb5052c40a}\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga88b0e20b062ca36346a6daeb5052c40a}} 
+\index{Non-\/\+SI@{Non-\/\+SI}!Chain\+To\+Fermi@{Chain\+To\+Fermi}}
+\index{Chain\+To\+Fermi@{Chain\+To\+Fermi}!Non-\/\+SI@{Non-\/\+SI}}
+\subsubsection{\texorpdfstring{Chain\+To\+Fermi()}{ChainToFermi()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Chain\+To\+Fermi (\begin{DoxyParamCaption}\item[{const T}]{length\+In\+Chain }\end{DoxyParamCaption})}
+
+
+
+Converts a length in chains to fermis. \[ l_{fm}=0.0254 * 792 * l_{ch} * 10^{15} \]. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em length\+In\+Chain} & $ l_{ch}\ (ch)$ Length in chains. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ l_{fm}\ (fm)$ Length in fermis. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga9efe9ceb0ab30639026cbb4158bb0148}\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga9efe9ceb0ab30639026cbb4158bb0148}} 
+\index{Non-\/\+SI@{Non-\/\+SI}!Chain\+To\+Micron@{Chain\+To\+Micron}}
+\index{Chain\+To\+Micron@{Chain\+To\+Micron}!Non-\/\+SI@{Non-\/\+SI}}
+\subsubsection{\texorpdfstring{Chain\+To\+Micron()}{ChainToMicron()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Chain\+To\+Micron (\begin{DoxyParamCaption}\item[{const T}]{length\+In\+Chain }\end{DoxyParamCaption})}
+
+
+
+Converts a length in chains to microns. \[ l_{\mu m}=0.0254 * 792 * l_{ch} * 10^{6} \]. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em length\+In\+Chain} & $ l_{ch}\ (ch)$ Length in chains. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ l_{\mu m}\ (\mu m)$ Length in microns. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_gab6d1ab0738e0a31f328352569fa00767}{Chain\+To\+Micrometer()}} for alias. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_gae4a2b99d846db53416e9fc5d6f9e957c}\label{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_gae4a2b99d846db53416e9fc5d6f9e957c}} 
+\index{Non-\/\+SI@{Non-\/\+SI}!Chain\+To\+Mo\+X\+Unit@{Chain\+To\+Mo\+X\+Unit}}
+\index{Chain\+To\+Mo\+X\+Unit@{Chain\+To\+Mo\+X\+Unit}!Non-\/\+SI@{Non-\/\+SI}}
+\subsubsection{\texorpdfstring{Chain\+To\+Mo\+X\+Unit()}{ChainToMoXUnit()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Math\+::\+Chain\+To\+Mo\+X\+Unit (\begin{DoxyParamCaption}\item[{const T}]{length\+In\+Chain }\end{DoxyParamCaption})}
+
+
+
+Converts a length in chains to molybdenum x units. \[ l_{xu(Mo\ K\alpha_1)}=\frac{0.0254 * 792}{1.00209952*10^{-13}} l_{ch}\]. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em length\+In\+Chain} & $ l_{ch}\ (ch)$ Length in chains. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ l_{xu(Mo\ K\alpha_1)}\ (xu)$ Length in molybdenum x units. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga89e870762310908510aad80d26dc1942}{Chain\+To\+Angstrom()}} for angstrom conversion. 
+
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_s_i_ga27f06f3f63727a16e02afaf8f01f4b45}{Chain\+To\+Picometer()}} for picometer conversion. 
+
+\mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_non-_s_i_ga4d49e29ef32b64b7a433ffe76447cf5f}{Chain\+To\+Cu\+X\+Unit()}} for copper x unit conversion. 
+\end{DoxySeeAlso}

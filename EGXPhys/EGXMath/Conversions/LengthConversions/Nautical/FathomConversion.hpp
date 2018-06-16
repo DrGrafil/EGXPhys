@@ -1,30 +1,30 @@
-/// @file EGXMath/Conversions/LengthConversions/Imperial/FathomConversion.hpp
+/// @file EGXMath/Conversions/LengthConversions/Nautical/FathomConversion.hpp
 ///
 /// @brief Converts length measurements in fathoms into various other units such as meters, parsecs, light years.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 6/13/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Fathom Fathom
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-Fathom Fathom
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Fathom
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-Fathom
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Fathom
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-Fathom
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Fathom
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-Fathom
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Fathom
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-Fathom
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Fathom
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-Fathom
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Imperial-Fathom
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-Fathom
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-SI
     /// @{
     /**
     *   @brief Converts a length in fathoms to meters.
@@ -325,7 +325,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-Non-SI
     /// @{
 
     /**
@@ -393,7 +393,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-Imperial
     /// @{
 
     /**
@@ -468,7 +468,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-Nautical
     /// @{
 
     /**
@@ -485,7 +485,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Imperial-Fathom-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-Fathom-Surveyors
     /// @{
 
     /**

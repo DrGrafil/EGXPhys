@@ -1,0 +1,98 @@
+\hypertarget{_rod_conversion_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Surveyors/\+Rod\+Conversion.hpp File Reference}
+\label{_rod_conversion_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Surveyors/\+Rod\+Conversion.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+E\+G\+X\+Math/\+Conversions/\+Length\+Conversions/\+Surveyors/\+Rod\+Conversion.\+hpp}}
+
+
+Converts length measurements in rods into various other units such as meters, parsecs, light years.  
+
+
+{\ttfamily \#include \char`\"{}Rod\+Conversion.\+inl\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_astronomical_ga320c74af81e2f062967e5c767d089a87}{E\+G\+X\+Math\+::\+Rod\+To\+Astronomical\+Unit}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to astronomical units. \[ l_{au}=\frac{0.0254 * 198}{149597870700} l_{rod} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_astronomical_gae5824aa8a60a3fe280de82b165cc0ed7}{E\+G\+X\+Math\+::\+Rod\+To\+Light\+Year}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length rods in to light-\/years. \[ l_{ly}=\frac{0.0254 * 198}{9460730472580800} l_{rod} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_astronomical_ga720b170a8c3243d0f7d5be0c70381cb2}{E\+G\+X\+Math\+::\+Rod\+To\+Parsec}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to parsecs. \[ l_{pc}=\frac{0.0254 * 198 * \pi}{149597870700 * 648000} l_{rod} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_gabe33821aac19a508109735df98a1e74c}{E\+G\+X\+Math\+::\+Rod\+To\+Meter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to meters. \[ l_{m}=0.0254 * 198 * l_{rod} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga0e3f1a816c8a67c7825b3b82ecf54b26}{E\+G\+X\+Math\+::\+Rod\+To\+Yottameter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to yottameters. \[ l_{Ym}=0.0254 * 198 * l_{rod} * 10^{-24} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_gaccf39081a4e69ba4b9384ef6f9c354d7}{E\+G\+X\+Math\+::\+Rod\+To\+Zettameter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to zettameters. \[ l_{Zm}=0.0254 * 198 * l_{rod} * 10^{-21} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga2e5ab24819c55373287494675f74f3a9}{E\+G\+X\+Math\+::\+Rod\+To\+Exameter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to exameters. \[ l_{Em}=0.0254 * 198 * l_{rod} * 10^{-18} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga058c851a5a43a832b21eb2b077683b17}{E\+G\+X\+Math\+::\+Rod\+To\+Petameter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to petameters. \[ l_{Pm}=0.0254 * 198 * l_{rod} * 10^{-15} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga3a9ef9cdcea7b3d53cf5020bce58d117}{E\+G\+X\+Math\+::\+Rod\+To\+Terameter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to terameters. \[ l_{Tm}=0.0254 * 198 * l_{rod} * 10^{-12} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga01d170f936da7b474a5ef3d7b8628d11}{E\+G\+X\+Math\+::\+Rod\+To\+Gigameter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to gigameters. \[ l_{Gm}=0.0254 * 198 * l_{rod} * 10^{-9} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga9d9fb3fa0628bdf3b9fb60f719f8010e}{E\+G\+X\+Math\+::\+Rod\+To\+Megameter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to megameters. \[ l_{Mm}=0.0254 * 198 * l_{rod} * 10^{-6} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga074418cb0c673bef5eed361a610866a0}{E\+G\+X\+Math\+::\+Rod\+To\+Kilometer}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to kilometers. \[ l_{km}=0.0254 * 198 * l_{rod} * 10^{-3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga9a5cefa380459848ac99b3f9784817ce}{E\+G\+X\+Math\+::\+Rod\+To\+Hectometer}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to hectometers. \[ l_{hm}=0.0254 * 198 * l_{rod} * 10^{-2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_gaecb39eb3cc482aa4586ecbce219b6f34}{E\+G\+X\+Math\+::\+Rod\+To\+Decameter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to decameters. \[ l_{dam}=0.0254 * 198 * l_{rod} * 10^{-1} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_gafaf133f63aeedbfc19093745bd005dca}{E\+G\+X\+Math\+::\+Rod\+To\+Decimeter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to decimeters. \[ l_{dm}=0.0254 * 198 * l_{rod} * 10^{1} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga606f24d4f57fa79ea29cd16903899849}{E\+G\+X\+Math\+::\+Rod\+To\+Centimeter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to centimeters. \[ l_{cm}=0.0254 * 198 * l_{rod} * 10^{2} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_gac99fbcf597375add3d57bcf16d64a890}{E\+G\+X\+Math\+::\+Rod\+To\+Millimeter}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to millimeters. \[ l_{mm}=0.0254 * 198 * l_{rod} * 10^{3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga8821e67ddd408e4b4b9c4d1512b6a9d8}{E\+G\+X\+Math\+::\+Rod\+To\+Micrometer}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to micrometers. \[ l_{\mu m}=0.0254 * 198 * l_{rod} * 10^{6} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_gaa41557dd8cc5aa5ff83312665e8a4331}{E\+G\+X\+Math\+::\+Rod\+To\+Nanometer}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to nanometers. \[ l_{nm}=0.0254 * 198 * l_{rod} * 10^{9} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga212e66c6922a0df85714ec8559af8790}{E\+G\+X\+Math\+::\+Rod\+To\+Picometer}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to picometers. \[ l_{pm}=0.0254 * 198 * l_{rod} * 10^{12} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga93c5626ebf87e3f15901731a1e2e9cb3}{E\+G\+X\+Math\+::\+Rod\+To\+Femtometer}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to femtometers. \[ l_{fm}=0.0254 * 198 * l_{rod} * 10^{15} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga8ea230e8e68a945a135edff4ba01a449}{E\+G\+X\+Math\+::\+Rod\+To\+Attometer}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to attometers. \[ l_{am}=0.0254 * 198 * l_{rod} * 10^{18} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_gae5ab77b04e6ee5bfdce5aaa3917b92a5}{E\+G\+X\+Math\+::\+Rod\+To\+Zeptometer}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to zeptometers. \[ l_{zm}=0.0254 * 198 * l_{rod} * 10^{21} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_s_i_ga8ed4c9bfa230e77380ff81ff9ed59a6e}{E\+G\+X\+Math\+::\+Rod\+To\+Yoctometer}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to yoctometers. \[ l_{ym}=0.0254 * 198 * l_{rod} * 10^{24} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_non-_s_i_ga079b9122c8747685d7057ec05fefdb7f}{E\+G\+X\+Math\+::\+Rod\+To\+Angstrom}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to angstroms. \[ l_{\unicode{x212B}}=0.0254 * 198 * l_{rod} * 10^{10} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_non-_s_i_ga8397c0761e32cb6cfa632854d26023a5}{E\+G\+X\+Math\+::\+Rod\+To\+Fermi}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to fermis. \[ l_{fm}=0.0254 * 198 * l_{rod} * 10^{15} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_non-_s_i_ga91daf7bb89d486f6c8523a5436e5599d}{E\+G\+X\+Math\+::\+Rod\+To\+Micron}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to microns. \[ l_{\mu m}=0.0254 * 198 * l_{rod} * 10^{6} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_non-_s_i_gac344dc1fbafaa0451704947bf33a8594}{E\+G\+X\+Math\+::\+Rod\+To\+Cu\+X\+Unit}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to copper x units. \[ l_{xu(Cu\ K\alpha_1)}=\frac{0.0254 * 198}{1.00207697*10^{-13}} l_{rod}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_non-_s_i_gac5c3c27eea891ef32353d16c6b8c57ab}{E\+G\+X\+Math\+::\+Rod\+To\+Mo\+X\+Unit}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to molybdenum x units. \[ l_{xu(Mo\ K\alpha_1)}=\frac{0.0254 * 198}{1.00209952*10^{-13}} l_{rod}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_imperial_ga0ef0f9142bc6954af0961dabcf231abe}{E\+G\+X\+Math\+::\+Rod\+To\+Mile}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to miles. \[ l_{mi}=\frac{198}{63360} l_{rod} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_imperial_gaf9c279c2819bf2c950dcde7a67849bf6}{E\+G\+X\+Math\+::\+Rod\+To\+Yard}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to yards. \[ l_{yd}= \frac{198}{36} l_{rod} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_imperial_ga5d9948f5cfc97d94698be96955a9df7f}{E\+G\+X\+Math\+::\+Rod\+To\+Foot}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to feet. \[ l_{ft}= \frac{198}{12} l_{rod} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_imperial_gaa49be09f9d06ac2d8a5e0c3079a8ce5d}{E\+G\+X\+Math\+::\+Rod\+To\+Inch}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to inches. \[ l_{in}= 198 * l_{rod} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_imperial_ga8458f45f5b02b4127d0d5626422b17c3}{E\+G\+X\+Math\+::\+Rod\+To\+Mil}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to mils (thousandth of an inch). \[ l_{mil}=198 * l_{rod} * 10^{3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_imperial_ga1bd077740ba076ebf1e9e99cbeddf6cf}{E\+G\+X\+Math\+::\+Rod\+To\+Thou}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to thous (thousandth of an inch). \[ l_{mil}= 198 * l_{rod} * 10^{3} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_nautical_ga68825640131c61e55490acfcb616aa78}{E\+G\+X\+Math\+::\+Rod\+To\+Nautical\+Mile}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to nautical mile. \[ l_{NM}= \frac{0.0254 * 198}{1852} l_{rod} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_nautical_gaf0e4a1c1d7f8d23f57c1c2df8a617c7c}{E\+G\+X\+Math\+::\+Rod\+To\+Fathom}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to fathoms. \[ l_{fathom}= \frac{198}{72} l_{rod} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_surveyors_gaac83cacda4ed47a99bd5c2a04d33df49}{E\+G\+X\+Math\+::\+Rod\+To\+Chain}} (const T length\+In\+Rod)
+\begin{DoxyCompactList}\small\item\em Converts a length in rods to chains. \[ l_{ch}= \frac{198}{792} l_{rod} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Converts length measurements in rods into various other units such as meters, parsecs, light years. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+6/13/18 
+\end{DoxyDate}

@@ -1,10 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"d4/d78/_luminosity_8inl.html#ga909f82edfaed449b44e94788b642ebb8":[3,0,0,1,18,0],
-"d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html":[1,0,0,2,0,2,1],
-"d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga1eea34f6cb4b5a7b5dec1cd75863f191":[1,0,0,2,0,2,1,11],
-"d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga235c67c3c7b55d4ec553df3e1f435fbd":[1,0,0,2,0,2,1,0],
-"d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga2b7c62d851d25cb2041e3bc339110790":[1,0,0,2,0,2,1,9],
 "d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga2c745c68a73ead9c11af6bc86ce3e3f6":[1,0,0,2,0,2,1,17],
 "d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga2d56b414320940d42a8956239e54c8b0":[1,0,0,2,0,2,1,15],
 "d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga3334cc4dbcddb1ae43e821f518bb56cb":[1,0,0,2,0,2,1,19],
@@ -70,6 +65,13 @@ var NAVTREEINDEX8 =
 "d4/d8f/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_non-_s_i.html#gab38b772b1b070729756dcdc87826f5d0":[1,0,0,2,1,2,2,3],
 "d4/d8f/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_non-_s_i.html#gad209d1b047ce810b8879b9ea1ff4a5a5":[1,0,0,2,1,2,2,0],
 "d4/d93/_quick_rand_8hpp_source.html":[3,0,0,3,3,0],
+"d4/d94/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_imperial.html":[1,0,0,2,2,0,4],
+"d4/d94/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_imperial.html#ga1bdfdd0f208b878241772cc584fa4d1d":[1,0,0,2,2,0,4,2],
+"d4/d94/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_imperial.html#ga1f8085825612168639f1db2cd20432cb":[1,0,0,2,2,0,4,5],
+"d4/d94/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_imperial.html#ga4922ca5fe88bedc7aaa78d15e64a5534":[1,0,0,2,2,0,4,3],
+"d4/d94/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_imperial.html#ga71995f5dd30211dc6c7c601d26a5fec8":[1,0,0,2,2,0,4,0],
+"d4/d94/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_imperial.html#ga869f851e88866f34c0dca73f1b69bb21":[1,0,0,2,2,0,4,4],
+"d4/d94/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_imperial.html#ga92c156dbffb555541217b319e8cafb72":[1,0,0,2,2,0,4,1],
 "d4/d9d/_micrometer_conversion_8inl.html":[3,0,0,3,0,2,4,23],
 "d4/d9d/_micrometer_conversion_8inl.html#ga0419c861d5edc78538ff023c12b9b6d9":[3,0,0,3,0,2,4,23,22],
 "d4/d9d/_micrometer_conversion_8inl.html#ga0462dc1021b3979ea0d83113aedbbc4c":[3,0,0,3,0,2,4,23,4],
@@ -114,7 +116,7 @@ var NAVTREEINDEX8 =
 "d4/da4/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_nautical.html":[1,0,0,2,4,3,4],
 "d4/da4/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_nautical.html#ga1b0035d719274942290afe80600a2b27":[1,0,0,2,4,3,4,0],
 "d4/da4/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_nautical.html#ga6cc0e9987da30da6a30ddba50971ba2d":[1,0,0,2,4,3,4,1],
-"d4/dab/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron.html":[1,0,0,2,3,4],
+"d4/dab/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron.html":[1,0,0,2,3,3],
 "d4/db5/group___n_i_s_t_const-_stefan_boltzmann_constant.html":[1,2,3,11],
 "d4/db5/group___n_i_s_t_const-_stefan_boltzmann_constant.html#ga7a87fa5e9ed3db503ee24f828d1dc700":[1,2,3,11,0],
 "d4/dba/group___n_i_s_t_const-_conventionalvon_klitzing_constant.html":[1,2,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga74efaece2f95aa6671f18382e5f3925f":[1,0,0,0,10,11],
 "d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga79231536255e77fb7a158b99a30c1767":[1,0,0,0,10,5],
 "d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga7bdc3a81ce316dd47b1a3179489fa195":[1,0,0,0,10,0],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga999085c62490997da870618e20e88ebb":[1,0,0,0,10,13],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gaad072969abc59ef6f5b63ac6a176a11b":[1,0,0,0,10,2],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#gad6aa9bdde2cde17cec136b24ee017bba":[1,0,0,0,10,10]
+"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga999085c62490997da870618e20e88ebb":[1,0,0,0,10,13]
 };

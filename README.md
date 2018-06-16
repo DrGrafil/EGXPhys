@@ -86,7 +86,7 @@ Thermodynamics | |
 
 ## Current Status
 
-Updated 5/21/2018:
+Updated 6/16/2018:
 
 | Field									| Section 																| Subsection 															| Subsection 															| Implemented 	| Documented		| Unit Test 		| Test Passed 		| Imp Review 		| Doc Review			|
 |:--- 									| :--- 																		| :---																		|  :---																		| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
@@ -176,6 +176,52 @@ EGXMath (Will eventually be seperated out):
 |											| 																				| 																				| Cartesian																| X							| X			 				|	X					| X							| 								|								|
 |											| 																				| 																				| Cylindrical															| X							| X			 				|	X					| X							| 								|								|
 |											| 																				| 																				| Spherical																| X							| X			 				|	X					| X							| 								|								|
+|											| Length Conversions											| 																				| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| Astronomical														| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Astronmical Unit												| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| LightYear																| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Parsec																	| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| Imperial																| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Foot																		| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Inch																		| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Mil																		| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Mile																		| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Thou																	| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Yard																		| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| Nautical																| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Fathom																| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Nautical Mile														| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| Non-SI																	| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Angstrom															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| CuXUnit																| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Fermi																	| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Micron																	| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| MoXUnit																| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| SI																			| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Attometer															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Centimeter															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Decameter															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Decimeter															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Exameter															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Femtometer														| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Gigameter															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Hectometer														| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Kilometer															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Megameter														| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Meter 																	| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Micrometer														| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Millimeter															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Nanometer															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Petameter															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Picometer															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Terameter															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Yoctometer															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Yottameter															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Zeptometer														| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Zettameter															| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| Surveyors															| 																				| 								| 				 				|						| 								| 								|								|
+|											| 																				| 																				| Chain 																	| X							| X			 				|	X					| X							| 								|								|
+|											| 																				| 																				| Rod																		| X							| X			 				|	X					| X							| 								|								|
 |	Functions						|				 																| 																				| 																				| 								| 				 				|						| 								| 								|								|
 |											| Error Function													| 																				| 																				| X							| X			 				|						| 								| 								|								|
 |											| Normal Distribution											| 																				| 																				| X							| X			 				|						| 								| 								|								|

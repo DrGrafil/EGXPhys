@@ -1,30 +1,30 @@
-/// @file EGXMath/Conversions/LengthConversions/Non-SI/NauticalMileConversion.hpp
+/// @file EGXMath/Conversions/LengthConversions/Nautical/NauticalMileConversion.hpp
 ///
 /// @brief Converts length measurements in nautical miles into various other units such as meters, parsecs, light years.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 6/8/18
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile NauticalMile
-/// @ingroup EGXMath-Conversions-LengthConversions-Non-SI
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile Nautical Mile
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-Astronomical Astronomical
-/// @ingroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-Astronomical Astronomical
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-SI SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-SI SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-Non-SI Non-SI
-/// @ingroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-Non-SI Non-SI
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-Imperial Imperial
-/// @ingroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-Imperial Imperial
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-Nautical Nautical
-/// @ingroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-Nautical Nautical
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile
 
-/// @defgroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-Surveyors Surveyors
-/// @ingroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile
+/// @defgroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-Surveyors Surveyors
+/// @ingroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile
 
 //=================================
 // Header guard
@@ -41,7 +41,7 @@
 
 namespace EGXMath
 {
-	/// @addtogroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-Astronomical
+	/// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-Astronomical
 	/// @{
 
     //Astronomical
@@ -83,7 +83,7 @@ namespace EGXMath
 
     //SI
     
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-SI
     /// @{
     /**
     *   @brief Converts a length in nautical miles to meters.
@@ -325,7 +325,7 @@ namespace EGXMath
 
     //Non-SI
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-Non-SI
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-Non-SI
     /// @{
 
     /**
@@ -393,7 +393,7 @@ namespace EGXMath
 
     //Imperial
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-Imperial
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-Imperial
     /// @{
 
     /**
@@ -468,7 +468,7 @@ namespace EGXMath
 
     //Nautical
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-Nautical
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-Nautical
     /// @{
 
     /**
@@ -486,7 +486,7 @@ namespace EGXMath
 
     //Surveyors
 
-    /// @addtogroup EGXMath-Conversions-LengthConversions-Non-SI-NauticalMile-Surveyors
+    /// @addtogroup EGXMath-Conversions-LengthConversions-Nautical-NauticalMile-Surveyors
     /// @{
 
     /**
