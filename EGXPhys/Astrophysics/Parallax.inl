@@ -14,7 +14,7 @@ namespace EGXPhys {
 
     template<typename T>
     T ParallaxToAU(const T parallaxInArcseconds) {
-        return EGXMath::ParsecToAU((T)1.0 / parallaxInArcseconds));
+        return EGXMath::ParsecToAU( (T)1.0 / parallaxInArcseconds);
     }
 
     template<typename T>

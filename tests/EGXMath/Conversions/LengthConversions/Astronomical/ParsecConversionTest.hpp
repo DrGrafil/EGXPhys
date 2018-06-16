@@ -6,7 +6,6 @@ TEST_CASE("Parsec Length Conversion"){
         //AU
     CHECK(ParsecToAstronomicalUnit(0.0) == 0.0);
     CHECK(ParsecToLightYear(0.0) == 0.0);
-    CHECK(ParsecToParsec(0.0) == 0.0);
 
         //SI
     CHECK(ParsecToMeter(0.0) == 0.0);
@@ -60,7 +59,6 @@ TEST_CASE("Parsec Length Conversion"){
         //AU
     CHECK(AstronomicalUnitToParsec(ParsecToAstronomicalUnit(0.0) )== 0.0);
     CHECK(LightYearToParsec(ParsecToLightYear(0.0) )== 0.0);
-    CHECK(ParsecToParsec(ParsecToParsec(0.0) )== 0.0);
 
         //SI
     CHECK(MeterToParsec(ParsecToMeter(0.0) )== 0.0);
@@ -121,7 +119,6 @@ TEST_CASE("Parsec Length Conversion"){
         //AU
     CHECK(AstronomicalUnitToParsec(ParsecToAstronomicalUnit(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
     CHECK(LightYearToParsec(ParsecToLightYear(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
-    CHECK(ParsecToParsec(ParsecToParsec(testValue)) == Approx(testValue).scale(0.0).epsilon(0.00001));
 
         //SI
     CHECK(MeterToParsec(ParsecToMeter(testValue) )== Approx(testValue).scale(0.0).epsilon(0.00001));
