@@ -18,6 +18,11 @@ namespace EGXPhys {
     }
 
     template<typename T>
+    T ParallaxToAstronomicalUnit(const T parallaxInArcseconds) {
+        return EGXMath::ParsecToAstronomicalUnit((T)1.0 / parallaxInArcseconds);
+    }
+    
+    template<typename T>
     T ParallaxToLightYear(const T parallaxInArcseconds) {
         return EGXMath::ParsecToLightYear((T)1.0 / parallaxInArcseconds);
     }

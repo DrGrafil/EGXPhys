@@ -54,12 +54,31 @@ namespace EGXPhys
     *
     *  @param  parallaxInArcseconds \f$ p\ (")\f$ Parallax of object in arcseconds. See http://coolcosmos.ipac.caltech.edu/cosmic_classroom/cosmic_reference/angular.html
     *  @return \f$ D\ (au)\f$ Distance in astronomical units.
+    *  @see ParallaxToAU() for alias.
     *  @see ParallaxToParsec() for conversion into parsecs.
     *  @see ParallaxToLightYear() for conversion into light years.
     *  @see ParallaxToMeter() for conversion into meters.
     */
     template<typename T>
-    T ParallaxToAU(const T parallaxInArcseconds);
+    T ParallaxToAstronomicalUnit(const T parallaxInArcseconds);
+
+    /**
+    *  @brief Calculates the distance, \f$D\f$, of an object in astronomical units from its observed parallax, \f$p\f$, in arcseconds.
+    *			\f[ D=\dfrac{648000}{\pi}\dfrac{1}{p}\f]
+    *
+    *  See http://astro.physics.uiowa.edu/ITU/glossary/stellar-parallax/ and https://en.wikipedia.org/wiki/Stellar_parallax
+    *
+    *	Equation taken from http://astronomyonline.org/Science/Parallax.asp
+    *
+    *  @param  parallaxInArcseconds \f$ p\ (")\f$ Parallax of object in arcseconds. See http://coolcosmos.ipac.caltech.edu/cosmic_classroom/cosmic_reference/angular.html
+    *  @return \f$ D\ (au)\f$ Distance in astronomical units.
+    *  @see ParallaxToAU() for alias.
+    *  @see ParallaxToParsec() for conversion into parsecs.
+    *  @see ParallaxToLightYear() for conversion into light years.
+    *  @see ParallaxToMeter() for conversion into meters.
+    */
+    template<typename T>
+    T ParallaxToAstronomicalUnit(const T parallaxInArcseconds);
 
     /**
     *  @brief Calculates the distance, \f$D\f$, of an object in light years from its observed parallax, \f$p\f$, in arcseconds.
