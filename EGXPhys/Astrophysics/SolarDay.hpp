@@ -1,6 +1,6 @@
 /// @file EGXPhys/Astrophysics/SolarDay.hpp
 ///
-/// @brief Calculates solar day of a planet.
+/// @brief Calculates solar day of a celestial body.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 7/1/18

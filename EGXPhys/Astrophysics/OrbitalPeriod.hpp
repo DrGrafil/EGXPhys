@@ -1,6 +1,6 @@
-/// @file EGXPhys/Astrophysics/SiderealDay.hpp
+/// @file EGXPhys/Astrophysics/OrbitalPeriod.hpp
 ///
-/// @brief Calculates sidereal day (a rotation of 360 degrees) of a planet.
+/// @brief Calculates orbital period of a celestial body.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 7/1/18
