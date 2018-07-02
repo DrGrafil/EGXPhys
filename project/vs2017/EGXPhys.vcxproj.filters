@@ -1035,6 +1035,15 @@
     <ClInclude Include="..\..\tests\Astrophysics\ParallaxTest.hpp">
       <Filter>Tests\Astrophysics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\OrbitalPeriod.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\SolarDay.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\SiderealDay.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1425,6 +1434,15 @@
     </None>
     <None Include="..\..\EGXPhys\EGXMath\Conversions\LengthConversions\Surveyors\RodConversion.inl">
       <Filter>EGXPhys\EGXMath\Conversions\LengthConversions\Survyors</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\OrbitalPeriod.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\SolarDay.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\SiderealDay.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>
 </Project>
