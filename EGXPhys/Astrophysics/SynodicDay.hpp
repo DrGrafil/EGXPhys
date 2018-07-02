@@ -1,6 +1,6 @@
 /// @file EGXPhys/Astrophysics/SynodicDay.hpp
 ///
-/// @brief Calculates synodic day of a celestial body.
+/// @brief Calculates synodic day of a celestial object.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 7/1/18

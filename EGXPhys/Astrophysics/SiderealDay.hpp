@@ -1,6 +1,6 @@
 /// @file EGXPhys/Astrophysics/SiderealDay.hpp
 ///
-/// @brief Calculates sidereal day (a rotation of 360 degrees) of a celestial body.
+/// @brief Calculates sidereal day (a rotation of 360 degrees) of a celestial object.
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 7/1/18
