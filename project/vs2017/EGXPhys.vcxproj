@@ -168,6 +168,7 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarRadius.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarTemperature.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\SurfaceGravity.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\SynodicDay.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\Atomic.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\AtomicConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\Atomic\DecayConstant.hpp" />
@@ -453,6 +454,7 @@
     <None Include="..\..\EGXPhys\Astrophysics\StellarRadius.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\StellarTemperature.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\SurfaceGravity.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\SynodicDay.inl" />
     <None Include="..\..\EGXPhys\Atomic\DecayConstant.inl" />
     <None Include="..\..\EGXPhys\Atomic\DecayWidth.inl" />
     <None Include="..\..\EGXPhys\Atomic\HalfLife.inl" />
