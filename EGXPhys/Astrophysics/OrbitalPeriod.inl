@@ -20,7 +20,7 @@ namespace EGXPhys {
 
     template<typename T>
     T OrbitalPeriodSmallBodyFromMass(const T semiMajorAxisInm, const T centralBodyMassInKg) {
-        return (T)2.0 * pi * sqrt((semiMajorAxisInm * semiMajorAxisInm * semiMajorAxisInm) / (g * centralBodyMassInKg));
+        return (T)2.0 * pi * sqrt((semiMajorAxisInm * semiMajorAxisInm * semiMajorAxisInm) / (NISTConst::G * centralBodyMassInKg));
     }
 
     template<typename T>
@@ -30,17 +30,17 @@ namespace EGXPhys {
 
 
     template<typename T>
-    T OrbitalPeriodTwoBody(const T semiMajorAxisInm, const T firstBodyMassInKg, , const T secondBodyMassInKg) {
+    T OrbitalPeriodTwoBody(const T semiMajorAxisInm, const T firstBodyMassInKg, const T secondBodyMassInKg) {
         return OrbitalPeriodTwoBodyFromMass(semiMajorAxisInm, firstBodyMassInKg, secondBodyMassInKg);
     }
 
     template<typename T>
-    T OrbitalPeriodTwoBodyFromMass(const T semiMajorAxisInm, const T firstBodyMassInKg, , const T secondBodyMassInKg) {
-        return (T)2.0 * pi * sqrt((semiMajorAxisInm * semiMajorAxisInm * semiMajorAxisInm) / (g * (firstBodyMassInKg + secondBodyMassInKg)) );
+    T OrbitalPeriodTwoBodyFromMass(const T semiMajorAxisInm, const T firstBodyMassInKg, const T secondBodyMassInKg) {
+        return (T)2.0 * pi * sqrt((semiMajorAxisInm * semiMajorAxisInm * semiMajorAxisInm) / (NISTConst::G * (firstBodyMassInKg + secondBodyMassInKg)) );
     }
 
     template<typename T>
-    T OrbitalPeriodTwoBodyFromSGP(const T semiMajorAxisInm, const T firstBodyStandardGravitationalParameter, , const T secondBodyStandardGravitationalParameter) {
+    T OrbitalPeriodTwoBodyFromSGP(const T semiMajorAxisInm, const T firstBodyStandardGravitationalParameter, const T secondBodyStandardGravitationalParameter) {
         return (T)2.0 * pi * sqrt((semiMajorAxisInm * semiMajorAxisInm * semiMajorAxisInm) / (firstBodyStandardGravitationalParameter + secondBodyStandardGravitationalParameter) );
     }
 

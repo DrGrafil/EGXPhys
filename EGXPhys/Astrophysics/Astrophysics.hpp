@@ -23,15 +23,19 @@
 #include "EscapeVelocity.hpp"
 #include "Luminosity.hpp"
 #include "OrbitalCharecteristics.hpp"
+#include "OrbitalPeriod.hpp"
 #include "Parallax.hpp"
 #include "Periapsis.hpp"
 #include "PlanetaryMass.hpp"
 #include "PlanetCriteria.hpp"
 #include "RightAscension.hpp"
 #include "RotationalFlattening.hpp"
+#include "SiderealDay.hpp"
+#include "SolarDay.hpp"
 #include "StandardGravitationalParameter.hpp"
 #include "StellarMass.hpp"
 #include "SurfaceGravity.hpp"
+#include "SynodicDay.hpp"
 
 
 //=================================

@@ -115,7 +115,7 @@ namespace EGXPhys
     *  @see SynodicDay() for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit.
     */
     template<typename T>
-    T OrbitalPeriodTwoBody(const T semiMajorAxisInm, const T firstBodyMassInKg, , const T secondBodyMassInKg);
+    T OrbitalPeriodTwoBody(const T semiMajorAxisInm, const T firstBodyMassInKg, const T secondBodyMassInKg);
 
     /**
     *  @brief Calculates the orbital period, \f$T_{Orbit}\f$, of a celestial object in seconds from the semi-major axis of its orbit, \f$a\f$, its mass, \f$M_1\f$, and the mass of the second celestial object, \f$M_2\f$. The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object.
@@ -134,7 +134,7 @@ namespace EGXPhys
     *  @see SynodicDay() for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit.
     */
     template<typename T>
-    T OrbitalPeriodTwoBodyFromMass(const T semiMajorAxisInm, const T firstBodyMassInKg, , const T secondBodyMassInKg);
+    T OrbitalPeriodTwoBodyFromMass(const T semiMajorAxisInm, const T firstBodyMassInKg, const T secondBodyMassInKg);
 
     /**
     *  @brief Calculates the orbital period, \f$T_{Orbit}\f$, of a celestial object in seconds from the semi-major axis of its orbit, \f$a\f$, its standard gravitational parameter, \f$\mu_1\f$, and the standard gravitational parameter of the second celestial object, \f$\mu_2\f$. The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object.
@@ -152,7 +152,7 @@ namespace EGXPhys
     *  @see SynodicDay() for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit.
     */
     template<typename T>
-    T OrbitalPeriodTwoBodyFromSGP(const T semiMajorAxisInm, const T firstBodyStandardGravitationalParameter, , const T secondBodyStandardGravitationalParameter);
+    T OrbitalPeriodTwoBodyFromSGP(const T semiMajorAxisInm, const T firstBodyStandardGravitationalParameter, const T secondBodyStandardGravitationalParameter);
             
 
     /// @}
