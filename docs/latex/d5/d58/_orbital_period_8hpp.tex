@@ -1,0 +1,41 @@
+\hypertarget{_orbital_period_8hpp}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Orbital\+Period.hpp File Reference}
+\label{_orbital_period_8hpp}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Orbital\+Period.\+hpp@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Orbital\+Period.\+hpp}}
+
+
+Calculates orbital period of a celestial object.  
+
+
+{\ttfamily \#include \char`\"{}Orbital\+Period.\+inl\char`\"{}}\newline
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_e_g_x_phys}{E\+G\+X\+Phys}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga76aac7afe3b7a30a785259e9eeb0c139}{E\+G\+X\+Phys\+::\+Orbital\+Period}} (const T sidereal\+Day\+Ins, const T synodic\+Day\+Ins)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the length of the celestial object\textquotesingle{}s sidereal day, $T_{Sidereal}$, and synodic day, $T_{Synodic}$. The orbital period is the time needed for a celestial object to complete one orbit around another object. \[ T_{Orbit}=\dfrac{T_{Synodic} * T_{Sidereal}}{T_{Synodic} + T_{Sidereal}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga5d4cc706d875fd82a83e566ade16546d}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Small\+Body}} (const T semi\+Major\+Axis\+Inm, const T central\+Body\+Mass\+In\+Kg)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, and the central object\textquotesingle{}s mass that the celestial object is orbiting around, $M$. It is assumed that the central object\textquotesingle{}s mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{GM}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_gadfd6fdd5cb1861d8204c3c5cd32a65b5}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Small\+Body\+From\+Mass}} (const T semi\+Major\+Axis\+Inm, const T central\+Body\+Mass\+In\+Kg)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, and the central object\textquotesingle{}s mass that the celestial object is orbiting around, $M$. It is assumed that the central object\textquotesingle{}s mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{GM}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_gab3773d2109aef45ef4649b56e36d13f3}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Small\+Body\+From\+S\+GP}} (const T semi\+Major\+Axis\+Inm, const T central\+Body\+Standard\+Gravitational\+Parameter)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, and the central object\textquotesingle{}s standard gravitational parameter, $\mu$. It is assumed that the central object\textquotesingle{}s mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{\mu}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga60d2541fdf2108542e52879ae907d81c}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Two\+Body}} (const T semi\+Major\+Axis\+Inm, const T first\+Body\+Mass\+In\+Kg, const T second\+Body\+Mass\+In\+Kg)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, its mass, $M_1$, and the mass of the second celestial object, $M_2$. The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{G(M_1 + M_2)}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga6ec6ae4e31d99bf4d1a27f708dd3247d}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Two\+Body\+From\+Mass}} (const T semi\+Major\+Axis\+Inm, const T first\+Body\+Mass\+In\+Kg, const T second\+Body\+Mass\+In\+Kg)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, its mass, $M_1$, and the mass of the second celestial object, $M_2$. The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{G(M_1 + M_2)}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga53ff53aea547ddedfc69119c4830daea}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Two\+Body\+From\+S\+GP}} (const T semi\+Major\+Axis\+Inm, const T first\+Body\+Standard\+Gravitational\+Parameter, const T second\+Body\+Standard\+Gravitational\+Parameter)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, its standard gravitational parameter, $\mu_1$, and the standard gravitational parameter of the second celestial object, $\mu_2$. The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{\mu_1 + \mu_2}}\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Calculates orbital period of a celestial object. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+7/1/18 
+\end{DoxyDate}

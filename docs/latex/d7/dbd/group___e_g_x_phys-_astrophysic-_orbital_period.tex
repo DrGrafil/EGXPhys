@@ -1,0 +1,265 @@
+\hypertarget{group___e_g_x_phys-_astrophysic-_orbital_period}{}\section{Orbital Period}
+\label{group___e_g_x_phys-_astrophysic-_orbital_period}\index{Orbital Period@{Orbital Period}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga76aac7afe3b7a30a785259e9eeb0c139}{E\+G\+X\+Phys\+::\+Orbital\+Period}} (const T sidereal\+Day\+Ins, const T synodic\+Day\+Ins)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the length of the celestial object\textquotesingle{}s sidereal day, $T_{Sidereal}$, and synodic day, $T_{Synodic}$. The orbital period is the time needed for a celestial object to complete one orbit around another object. \[ T_{Orbit}=\dfrac{T_{Synodic} * T_{Sidereal}}{T_{Synodic} + T_{Sidereal}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga5d4cc706d875fd82a83e566ade16546d}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Small\+Body}} (const T semi\+Major\+Axis\+Inm, const T central\+Body\+Mass\+In\+Kg)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, and the central object\textquotesingle{}s mass that the celestial object is orbiting around, $M$. It is assumed that the central object\textquotesingle{}s mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{GM}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_gadfd6fdd5cb1861d8204c3c5cd32a65b5}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Small\+Body\+From\+Mass}} (const T semi\+Major\+Axis\+Inm, const T central\+Body\+Mass\+In\+Kg)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, and the central object\textquotesingle{}s mass that the celestial object is orbiting around, $M$. It is assumed that the central object\textquotesingle{}s mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{GM}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_gab3773d2109aef45ef4649b56e36d13f3}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Small\+Body\+From\+S\+GP}} (const T semi\+Major\+Axis\+Inm, const T central\+Body\+Standard\+Gravitational\+Parameter)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, and the central object\textquotesingle{}s standard gravitational parameter, $\mu$. It is assumed that the central object\textquotesingle{}s mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{\mu}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga60d2541fdf2108542e52879ae907d81c}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Two\+Body}} (const T semi\+Major\+Axis\+Inm, const T first\+Body\+Mass\+In\+Kg, const T second\+Body\+Mass\+In\+Kg)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, its mass, $M_1$, and the mass of the second celestial object, $M_2$. The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{G(M_1 + M_2)}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga6ec6ae4e31d99bf4d1a27f708dd3247d}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Two\+Body\+From\+Mass}} (const T semi\+Major\+Axis\+Inm, const T first\+Body\+Mass\+In\+Kg, const T second\+Body\+Mass\+In\+Kg)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, its mass, $M_1$, and the mass of the second celestial object, $M_2$. The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{G(M_1 + M_2)}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga53ff53aea547ddedfc69119c4830daea}{E\+G\+X\+Phys\+::\+Orbital\+Period\+Two\+Body\+From\+S\+GP}} (const T semi\+Major\+Axis\+Inm, const T first\+Body\+Standard\+Gravitational\+Parameter, const T second\+Body\+Standard\+Gravitational\+Parameter)
+\begin{DoxyCompactList}\small\item\em Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, its standard gravitational parameter, $\mu_1$, and the standard gravitational parameter of the second celestial object, $\mu_2$. The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{\mu_1 + \mu_2}}\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_orbital_period_ga76aac7afe3b7a30a785259e9eeb0c139}\label{group___e_g_x_phys-_astrophysic-_orbital_period_ga76aac7afe3b7a30a785259e9eeb0c139}} 
+\index{Orbital Period@{Orbital Period}!Orbital\+Period@{Orbital\+Period}}
+\index{Orbital\+Period@{Orbital\+Period}!Orbital Period@{Orbital Period}}
+\subsubsection{\texorpdfstring{Orbital\+Period()}{OrbitalPeriod()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Orbital\+Period (\begin{DoxyParamCaption}\item[{const T}]{sidereal\+Day\+Ins,  }\item[{const T}]{synodic\+Day\+Ins }\end{DoxyParamCaption})}
+
+
+
+Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the length of the celestial object\textquotesingle{}s sidereal day, $T_{Sidereal}$, and synodic day, $T_{Synodic}$. The orbital period is the time needed for a celestial object to complete one orbit around another object. \[ T_{Orbit}=\dfrac{T_{Synodic} * T_{Sidereal}}{T_{Synodic} + T_{Sidereal}}\]. 
+
+See \href{http://www.celestialnorth.org/FAQtoids/dazed_about_days_(solar_and_sidereal).htm}{\tt http\+://www.\+celestialnorth.\+org/\+F\+A\+Qtoids/dazed\+\_\+about\+\_\+days\+\_\+(solar\+\_\+and\+\_\+sidereal).\+htm} and \href{https://en.wikipedia.org/wiki/Orbital_period}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+period}
+
+
+\begin{DoxyParams}{Parameters}
+{\em sidereal\+Day\+Ins} & $ T_{Sidereal}\ (s)$ Sidereal day of the celestial object in seconds. \\
+\hline
+{\em synodic\+Day\+Ins} & $ T_{Synodic}\ (s)$ Synodic day (solar day) of the celestial object in seconds. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ T_{Orbit}\ (s)$ Orbital period of the celestial object in seconds. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_sidereal_day_ga587900d5fc755228c1bb5121cd7965c6}{Sidereal\+Day()}} for period it takes for a celestial body to rotate once in relation to the distant stars. It is a 360 degree rotation. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_solar_day_gae321e0dd0c031a57c45b15dc819635e0}{Solar\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_synodic_day_ga637140842bc008c87d90e65b551cbac7}{Synodic\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_orbital_period_ga5d4cc706d875fd82a83e566ade16546d}\label{group___e_g_x_phys-_astrophysic-_orbital_period_ga5d4cc706d875fd82a83e566ade16546d}} 
+\index{Orbital Period@{Orbital Period}!Orbital\+Period\+Small\+Body@{Orbital\+Period\+Small\+Body}}
+\index{Orbital\+Period\+Small\+Body@{Orbital\+Period\+Small\+Body}!Orbital Period@{Orbital Period}}
+\subsubsection{\texorpdfstring{Orbital\+Period\+Small\+Body()}{OrbitalPeriodSmallBody()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Orbital\+Period\+Small\+Body (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{central\+Body\+Mass\+In\+Kg }\end{DoxyParamCaption})}
+
+
+
+Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, and the central object\textquotesingle{}s mass that the celestial object is orbiting around, $M$. It is assumed that the central object\textquotesingle{}s mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{GM}}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Orbital_period}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+period}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the celestial object\textquotesingle{}s rotation in meters. \\
+\hline
+{\em central\+Body\+Mass\+In\+Kg} & $ M\ (kg)$ Mass of the central object that the celestial object is orbiting around in kilograms. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ T_{Orbit}\ (s)$ Orbital period of the celestial object in seconds. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_gadfd6fdd5cb1861d8204c3c5cd32a65b5}{Orbital\+Period\+Small\+Body\+From\+Mass()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_gab3773d2109aef45ef4649b56e36d13f3}{Orbital\+Period\+Small\+Body\+From\+S\+G\+P()}} for calculation using standard gravitational parameter. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_sidereal_day_ga587900d5fc755228c1bb5121cd7965c6}{Sidereal\+Day()}} for period it takes for a celestial body to rotate once in relation to the distant stars. It is a 360 degree rotation. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_solar_day_gae321e0dd0c031a57c45b15dc819635e0}{Solar\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_synodic_day_ga637140842bc008c87d90e65b551cbac7}{Synodic\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_orbital_period_gadfd6fdd5cb1861d8204c3c5cd32a65b5}\label{group___e_g_x_phys-_astrophysic-_orbital_period_gadfd6fdd5cb1861d8204c3c5cd32a65b5}} 
+\index{Orbital Period@{Orbital Period}!Orbital\+Period\+Small\+Body\+From\+Mass@{Orbital\+Period\+Small\+Body\+From\+Mass}}
+\index{Orbital\+Period\+Small\+Body\+From\+Mass@{Orbital\+Period\+Small\+Body\+From\+Mass}!Orbital Period@{Orbital Period}}
+\subsubsection{\texorpdfstring{Orbital\+Period\+Small\+Body\+From\+Mass()}{OrbitalPeriodSmallBodyFromMass()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Orbital\+Period\+Small\+Body\+From\+Mass (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{central\+Body\+Mass\+In\+Kg }\end{DoxyParamCaption})}
+
+
+
+Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, and the central object\textquotesingle{}s mass that the celestial object is orbiting around, $M$. It is assumed that the central object\textquotesingle{}s mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{GM}}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Orbital_period}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+period}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the celestial object\textquotesingle{}s rotation in meters. \\
+\hline
+{\em central\+Body\+Mass\+In\+Kg} & $ M\ (kg)$ Mass of the central object that the celestial object is orbiting around in kilograms. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ T_{Orbit}\ (s)$ Orbital period of the celestial object in seconds. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga5d4cc706d875fd82a83e566ade16546d}{Orbital\+Period\+Small\+Body()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_gab3773d2109aef45ef4649b56e36d13f3}{Orbital\+Period\+Small\+Body\+From\+S\+G\+P()}} for calculation using standard gravitational parameter. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_sidereal_day_ga587900d5fc755228c1bb5121cd7965c6}{Sidereal\+Day()}} for period it takes for a celestial body to rotate once in relation to the distant stars. It is a 360 degree rotation. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_solar_day_gae321e0dd0c031a57c45b15dc819635e0}{Solar\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_synodic_day_ga637140842bc008c87d90e65b551cbac7}{Synodic\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_orbital_period_gab3773d2109aef45ef4649b56e36d13f3}\label{group___e_g_x_phys-_astrophysic-_orbital_period_gab3773d2109aef45ef4649b56e36d13f3}} 
+\index{Orbital Period@{Orbital Period}!Orbital\+Period\+Small\+Body\+From\+S\+GP@{Orbital\+Period\+Small\+Body\+From\+S\+GP}}
+\index{Orbital\+Period\+Small\+Body\+From\+S\+GP@{Orbital\+Period\+Small\+Body\+From\+S\+GP}!Orbital Period@{Orbital Period}}
+\subsubsection{\texorpdfstring{Orbital\+Period\+Small\+Body\+From\+S\+G\+P()}{OrbitalPeriodSmallBodyFromSGP()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Orbital\+Period\+Small\+Body\+From\+S\+GP (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{central\+Body\+Standard\+Gravitational\+Parameter }\end{DoxyParamCaption})}
+
+
+
+Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, and the central object\textquotesingle{}s standard gravitational parameter, $\mu$. It is assumed that the central object\textquotesingle{}s mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{\mu}}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Orbital_period}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+period}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the celestial object\textquotesingle{}s rotation in meters. \\
+\hline
+{\em central\+Body\+Standard\+Gravitational\+Parameter} & $ \mu\ (\frac{m^3}{s^2})$ Standard gravitational parameter of the central object that the celestial object is orbiting around in meter cubed per seconds squared. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ T_{Orbit}\ (s)$ Orbital period of the celestial object in seconds. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga5d4cc706d875fd82a83e566ade16546d}{Orbital\+Period\+Small\+Body()}} for calculation using mass. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_sidereal_day_ga587900d5fc755228c1bb5121cd7965c6}{Sidereal\+Day()}} for period it takes for a celestial body to rotate once in relation to the distant stars. It is a 360 degree rotation. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_solar_day_gae321e0dd0c031a57c45b15dc819635e0}{Solar\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_synodic_day_ga637140842bc008c87d90e65b551cbac7}{Synodic\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter_ga37f4ed78b0fc23603b49ade3e435ea20}{Standard\+Gravitational\+Parameter()}} for calculating standard gravitational parameter. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_orbital_period_ga60d2541fdf2108542e52879ae907d81c}\label{group___e_g_x_phys-_astrophysic-_orbital_period_ga60d2541fdf2108542e52879ae907d81c}} 
+\index{Orbital Period@{Orbital Period}!Orbital\+Period\+Two\+Body@{Orbital\+Period\+Two\+Body}}
+\index{Orbital\+Period\+Two\+Body@{Orbital\+Period\+Two\+Body}!Orbital Period@{Orbital Period}}
+\subsubsection{\texorpdfstring{Orbital\+Period\+Two\+Body()}{OrbitalPeriodTwoBody()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Orbital\+Period\+Two\+Body (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{first\+Body\+Mass\+In\+Kg,  }\item[{const T}]{second\+Body\+Mass\+In\+Kg }\end{DoxyParamCaption})}
+
+
+
+Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, its mass, $M_1$, and the mass of the second celestial object, $M_2$. The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{G(M_1 + M_2)}}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Orbital_period}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+period}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the celestial object\textquotesingle{}s rotation in meters. \\
+\hline
+{\em first\+Body\+Mass\+In\+Kg} & $ M\ (kg)$ Mass of the celestial object in kilograms. \\
+\hline
+{\em second\+Body\+Mass\+In\+Kg} & $ M\ (kg)$ Mass of the second celestial object in kilograms. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ T_{Orbit}\ (s)$ Orbital period of the celestial object in seconds. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga6ec6ae4e31d99bf4d1a27f708dd3247d}{Orbital\+Period\+Two\+Body\+From\+Mass()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga53ff53aea547ddedfc69119c4830daea}{Orbital\+Period\+Two\+Body\+From\+S\+G\+P()}} for calculation using standard gravitational parameter. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_sidereal_day_ga587900d5fc755228c1bb5121cd7965c6}{Sidereal\+Day()}} for period it takes for a celestial body to rotate once in relation to the distant stars. It is a 360 degree rotation. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_solar_day_gae321e0dd0c031a57c45b15dc819635e0}{Solar\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_synodic_day_ga637140842bc008c87d90e65b551cbac7}{Synodic\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_orbital_period_ga6ec6ae4e31d99bf4d1a27f708dd3247d}\label{group___e_g_x_phys-_astrophysic-_orbital_period_ga6ec6ae4e31d99bf4d1a27f708dd3247d}} 
+\index{Orbital Period@{Orbital Period}!Orbital\+Period\+Two\+Body\+From\+Mass@{Orbital\+Period\+Two\+Body\+From\+Mass}}
+\index{Orbital\+Period\+Two\+Body\+From\+Mass@{Orbital\+Period\+Two\+Body\+From\+Mass}!Orbital Period@{Orbital Period}}
+\subsubsection{\texorpdfstring{Orbital\+Period\+Two\+Body\+From\+Mass()}{OrbitalPeriodTwoBodyFromMass()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Orbital\+Period\+Two\+Body\+From\+Mass (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{first\+Body\+Mass\+In\+Kg,  }\item[{const T}]{second\+Body\+Mass\+In\+Kg }\end{DoxyParamCaption})}
+
+
+
+Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, its mass, $M_1$, and the mass of the second celestial object, $M_2$. The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{G(M_1 + M_2)}}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Orbital_period}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+period}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the celestial object\textquotesingle{}s rotation in meters. \\
+\hline
+{\em first\+Body\+Mass\+In\+Kg} & $ M\ (kg)$ Mass of the celestial object in kilograms. \\
+\hline
+{\em second\+Body\+Mass\+In\+Kg} & $ M\ (kg)$ Mass of the second celestial object in kilograms. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ T_{Orbit}\ (s)$ Orbital period of the celestial object in seconds. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga60d2541fdf2108542e52879ae907d81c}{Orbital\+Period\+Two\+Body()}} for alias. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga53ff53aea547ddedfc69119c4830daea}{Orbital\+Period\+Two\+Body\+From\+S\+G\+P()}} for calculation using standard gravitational parameter. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_sidereal_day_ga587900d5fc755228c1bb5121cd7965c6}{Sidereal\+Day()}} for period it takes for a celestial body to rotate once in relation to the distant stars. It is a 360 degree rotation. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_solar_day_gae321e0dd0c031a57c45b15dc819635e0}{Solar\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_synodic_day_ga637140842bc008c87d90e65b551cbac7}{Synodic\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_orbital_period_ga53ff53aea547ddedfc69119c4830daea}\label{group___e_g_x_phys-_astrophysic-_orbital_period_ga53ff53aea547ddedfc69119c4830daea}} 
+\index{Orbital Period@{Orbital Period}!Orbital\+Period\+Two\+Body\+From\+S\+GP@{Orbital\+Period\+Two\+Body\+From\+S\+GP}}
+\index{Orbital\+Period\+Two\+Body\+From\+S\+GP@{Orbital\+Period\+Two\+Body\+From\+S\+GP}!Orbital Period@{Orbital Period}}
+\subsubsection{\texorpdfstring{Orbital\+Period\+Two\+Body\+From\+S\+G\+P()}{OrbitalPeriodTwoBodyFromSGP()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Orbital\+Period\+Two\+Body\+From\+S\+GP (\begin{DoxyParamCaption}\item[{const T}]{semi\+Major\+Axis\+Inm,  }\item[{const T}]{first\+Body\+Standard\+Gravitational\+Parameter,  }\item[{const T}]{second\+Body\+Standard\+Gravitational\+Parameter }\end{DoxyParamCaption})}
+
+
+
+Calculates the orbital period, $T_{Orbit}$, of a celestial object in seconds from the semi-\/major axis of its orbit, $a$, its standard gravitational parameter, $\mu_1$, and the standard gravitational parameter of the second celestial object, $\mu_2$. The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. \[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{\mu_1 + \mu_2}}\]. 
+
+See \href{https://en.wikipedia.org/wiki/Orbital_period}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Orbital\+\_\+period}
+
+
+\begin{DoxyParams}{Parameters}
+{\em semi\+Major\+Axis\+Inm} & $ a\ (m)$ Semi-\/major axis of the celestial object\textquotesingle{}s rotation in meters. \\
+\hline
+{\em first\+Body\+Standard\+Gravitational\+Parameter} & $ \mu_1\ (\frac{m^3}{s^2})$ Standard gravitational parameter of the celestial object in meter cubed per seconds squared. \\
+\hline
+{\em second\+Body\+Standard\+Gravitational\+Parameter} & $ \mu_1\ (\frac{m^3}{s^2})$ Standard gravitational parameter of the second celestial object in meter cubed per seconds squared. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ T_{Orbit}\ (s)$ Orbital period of the celestial object in seconds. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga60d2541fdf2108542e52879ae907d81c}{Orbital\+Period\+Two\+Body()}} for calculation using mass. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_sidereal_day_ga587900d5fc755228c1bb5121cd7965c6}{Sidereal\+Day()}} for period it takes for a celestial body to rotate once in relation to the distant stars. It is a 360 degree rotation. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_solar_day_gae321e0dd0c031a57c45b15dc819635e0}{Solar\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_synodic_day_ga637140842bc008c87d90e65b551cbac7}{Synodic\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. It is a 360 + angle degree rotation to account for movement in orbit. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter_ga37f4ed78b0fc23603b49ade3e435ea20}{Standard\+Gravitational\+Parameter()}} for calculating standard gravitational parameter. 
+\end{DoxySeeAlso}

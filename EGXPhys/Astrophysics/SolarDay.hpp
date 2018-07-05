@@ -23,7 +23,7 @@
 
 namespace EGXPhys
 {
-	/// @addtogroup EGXPhys-Astrophysic-SiderealDay
+	/// @addtogroup EGXPhys-Astrophysic-SolarDay
 	/// @{
 
 

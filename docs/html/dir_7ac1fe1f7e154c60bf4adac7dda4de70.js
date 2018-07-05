@@ -21,6 +21,8 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "Luminosity.inl", "d4/d78/_luminosity_8inl.html", "d4/d78/_luminosity_8inl" ],
     [ "OrbitalCharecteristics.hpp", "dc/dee/_orbital_charecteristics_8hpp.html", null ],
     [ "OrbitalCharecteristics.inl", "d3/d79/_orbital_charecteristics_8inl.html", null ],
+    [ "OrbitalPeriod.hpp", "d5/d58/_orbital_period_8hpp.html", "d5/d58/_orbital_period_8hpp" ],
+    [ "OrbitalPeriod.inl", "d9/db7/_orbital_period_8inl.html", "d9/db7/_orbital_period_8inl" ],
     [ "Parallax.hpp", "db/db9/_parallax_8hpp.html", "db/db9/_parallax_8hpp" ],
     [ "Parallax.inl", "df/d9b/_parallax_8inl.html", "df/d9b/_parallax_8inl" ],
     [ "Periapsis.hpp", "d9/d1e/_periapsis_8hpp.html", "d9/d1e/_periapsis_8hpp" ],
@@ -33,6 +35,10 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "RightAscension.inl", "d1/dc6/_right_ascension_8inl.html", "d1/dc6/_right_ascension_8inl" ],
     [ "RotationalFlattening.hpp", "df/d07/_rotational_flattening_8hpp.html", "df/d07/_rotational_flattening_8hpp" ],
     [ "RotationalFlattening.inl", "d8/db5/_rotational_flattening_8inl.html", "d8/db5/_rotational_flattening_8inl" ],
+    [ "SiderealDay.hpp", "df/d29/_sidereal_day_8hpp.html", "df/d29/_sidereal_day_8hpp" ],
+    [ "SiderealDay.inl", "d6/dea/_sidereal_day_8inl.html", "d6/dea/_sidereal_day_8inl" ],
+    [ "SolarDay.hpp", "d3/da3/_solar_day_8hpp.html", "d3/da3/_solar_day_8hpp" ],
+    [ "SolarDay.inl", "db/d04/_solar_day_8inl.html", "db/d04/_solar_day_8inl" ],
     [ "StandardGravitationalParameter.hpp", "db/d09/_standard_gravitational_parameter_8hpp.html", "db/d09/_standard_gravitational_parameter_8hpp" ],
     [ "StandardGravitationalParameter.inl", "d1/d83/_standard_gravitational_parameter_8inl.html", "d1/d83/_standard_gravitational_parameter_8inl" ],
     [ "StellarMass.hpp", "da/db7/_stellar_mass_8hpp_source.html", null ],
@@ -41,5 +47,7 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "StellarTemperature.hpp", "d1/d25/_stellar_temperature_8hpp.html", null ],
     [ "StellarTemperature.inl", "df/dc5/_stellar_temperature_8inl.html", null ],
     [ "SurfaceGravity.hpp", "dd/d32/_surface_gravity_8hpp.html", "dd/d32/_surface_gravity_8hpp" ],
-    [ "SurfaceGravity.inl", "db/d59/_surface_gravity_8inl.html", "db/d59/_surface_gravity_8inl" ]
+    [ "SurfaceGravity.inl", "db/d59/_surface_gravity_8inl.html", "db/d59/_surface_gravity_8inl" ],
+    [ "SynodicDay.hpp", "d6/d9f/_synodic_day_8hpp.html", "d6/d9f/_synodic_day_8hpp" ],
+    [ "SynodicDay.inl", "dd/d3d/_synodic_day_8inl.html", "dd/d3d/_synodic_day_8inl" ]
 ];

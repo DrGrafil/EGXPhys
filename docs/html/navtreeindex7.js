@@ -1,5 +1,8 @@
 var NAVTREEINDEX7 =
 {
+"d3/db8/group___e_g_x_phys-_astrophysics-_declination.html#gaff645fbd9a1de42e9cdbfb37fdac78c9":[1,1,1,5,2],
+"d3/dbb/group___e_g_x_math-_conversions-_angle_conversions-_degree.html":[1,0,0,0,1],
+"d3/dbb/group___e_g_x_math-_conversions-_angle_conversions-_degree.html#ga0bb223ca6e77b00439a6d910ab32d82e":[1,0,0,0,1,10],
 "d3/dbb/group___e_g_x_math-_conversions-_angle_conversions-_degree.html#ga1096d04647918e20f61fb184ba2a7dce":[1,0,0,0,1,7],
 "d3/dbb/group___e_g_x_math-_conversions-_angle_conversions-_degree.html#ga25bb5506b3f66fff7a1b85bf7bd795b3":[1,0,0,0,1,9],
 "d3/dbb/group___e_g_x_math-_conversions-_angle_conversions-_degree.html#ga2c218e286b2ef72a00734dbc5a7f5ab6":[1,0,0,0,1,14],
@@ -188,7 +191,7 @@ var NAVTREEINDEX7 =
 "d4/d2c/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_surveyors.html":[1,0,0,2,4,3,5],
 "d4/d2c/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_surveyors.html#gaae746f9b34bc92e17f9117f5b139fdc4":[1,0,0,2,4,3,5,0],
 "d4/d2c/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_surveyors.html#gaf34122272f5724db35f8400d284e2ec8":[1,0,0,2,4,3,5,1],
-"d4/d2e/group___e_g_x_phys-_stellar_radius.html":[1,1,1,18],
+"d4/d2e/group___e_g_x_phys-_stellar_radius.html":[1,1,1,21],
 "d4/d32/_rectangle_8hpp_source.html":[3,0,0,3,2,0,2,0],
 "d4/d32/group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial.html":[1,0,0,2,5,0,3],
 "d4/d32/group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial.html#ga260b1e534400c8ee9ec5001641b2a451":[1,0,0,2,5,0,3,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX7 =
 "d4/d78/_luminosity_8inl.html#ade3d05c9dcd810cb5290375d11587b6a":[3,0,0,1,18,2],
 "d4/d78/_luminosity_8inl.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4":[3,0,0,1,18,1],
 "d4/d78/_luminosity_8inl.html#ga909f82edfaed449b44e94788b642ebb8":[3,0,0,1,18,0],
-"d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html":[1,0,0,2,0,2,1],
-"d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga1eea34f6cb4b5a7b5dec1cd75863f191":[1,0,0,2,0,2,1,11],
-"d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga235c67c3c7b55d4ec553df3e1f435fbd":[1,0,0,2,0,2,1,0],
-"d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga2b7c62d851d25cb2041e3bc339110790":[1,0,0,2,0,2,1,9]
+"d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html":[1,0,0,2,0,2,1]
 };

@@ -10,15 +10,19 @@ var group___e_g_x_phys__astrophysics =
     [ "Escape Velocity", "de/d53/group___e_g_x_phys-_astrophysics-_escape_velocity.html", "de/d53/group___e_g_x_phys-_astrophysics-_escape_velocity" ],
     [ "Luminosity", "d7/d41/group___e_g_x_phys-_luminosity.html", "d7/d41/group___e_g_x_phys-_luminosity" ],
     [ "Orbital Charecteristics", "d2/df0/group___e_g_x_phys-_orbital_charecteristics.html", null ],
+    [ "Orbital Period", "d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html", "d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period" ],
     [ "Parallax", "d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html", "d8/d6d/group___e_g_x_phys-_astrophysic-_parallax" ],
     [ "Periapsis", "d2/d40/group___e_g_x_phys-_periapsis.html", "d2/d40/group___e_g_x_phys-_periapsis" ],
     [ "Planetary Mass", "de/d24/group___e_g_x_phys-_planetary_mass.html", "de/d24/group___e_g_x_phys-_planetary_mass" ],
     [ "Planet Criteria", "d7/d83/group___e_g_x_phys-_planet_criteria.html", "d7/d83/group___e_g_x_phys-_planet_criteria" ],
     [ "Right Ascension", "de/d12/group___e_g_x_phys-_astrophysics-_right_ascension.html", "de/d12/group___e_g_x_phys-_astrophysics-_right_ascension" ],
     [ "Rotational Flattening/Oblateness", "d1/d79/group___e_g_x_phys-_astrophysics-_rotational_flattening.html", "d1/d79/group___e_g_x_phys-_astrophysics-_rotational_flattening" ],
+    [ "Sidereal Day", "d9/df4/group___e_g_x_phys-_astrophysic-_sidereal_day.html", "d9/df4/group___e_g_x_phys-_astrophysic-_sidereal_day" ],
+    [ "Solar Day", "d9/daa/group___e_g_x_phys-_astrophysic-_solar_day.html", "d9/daa/group___e_g_x_phys-_astrophysic-_solar_day" ],
     [ "Standard Gravitational Parameter", "d5/d56/group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html", "d5/d56/group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter" ],
     [ "Stellar Mass", "d5/d8b/group___e_g_x_phys-_stellar_mass.html", "d5/d8b/group___e_g_x_phys-_stellar_mass" ],
     [ "Stellar Radius", "d4/d2e/group___e_g_x_phys-_stellar_radius.html", null ],
     [ "Stellar Temperature", "dc/d07/group___e_g_x_phys-_stellar_temperature.html", null ],
-    [ "Surface Gravity", "d8/d7a/group___e_g_x_phys-_astrophysics-_surface_gravity.html", "d8/d7a/group___e_g_x_phys-_astrophysics-_surface_gravity" ]
+    [ "Surface Gravity", "d8/d7a/group___e_g_x_phys-_astrophysics-_surface_gravity.html", "d8/d7a/group___e_g_x_phys-_astrophysics-_surface_gravity" ],
+    [ "Synodic Day", "d5/d93/group___e_g_x_phys-_astrophysic-_synodic_day.html", "d5/d93/group___e_g_x_phys-_astrophysic-_synodic_day" ]
 ];

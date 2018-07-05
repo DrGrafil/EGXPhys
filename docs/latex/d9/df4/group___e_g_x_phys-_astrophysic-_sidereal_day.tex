@@ -1,0 +1,43 @@
+\hypertarget{group___e_g_x_phys-_astrophysic-_sidereal_day}{}\section{Sidereal Day}
+\label{group___e_g_x_phys-_astrophysic-_sidereal_day}\index{Sidereal Day@{Sidereal Day}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_sidereal_day_ga587900d5fc755228c1bb5121cd7965c6}{E\+G\+X\+Phys\+::\+Sidereal\+Day}} (const T orbital\+Period\+Ins, const T synodic\+Day\+Ins)
+\begin{DoxyCompactList}\small\item\em Calculates the sidereal day, $T_{Sidereal}$, of a celestial object in seconds from the length of the celestial object\textquotesingle{}s orbital period, $T_{Orbit}$, and synodic day (solar day), $T_{Solar}$. A sidereal day is the time it takes for a full 360 degree rotation resulting in a distant star appears in the same position in the sky overhead. \[ T_{Sidereal}=\dfrac{T_{Orbit} * T_{Synodic}}{T_{Orbit} + T_{Synodic}}\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_sidereal_day_ga587900d5fc755228c1bb5121cd7965c6}\label{group___e_g_x_phys-_astrophysic-_sidereal_day_ga587900d5fc755228c1bb5121cd7965c6}} 
+\index{Sidereal Day@{Sidereal Day}!Sidereal\+Day@{Sidereal\+Day}}
+\index{Sidereal\+Day@{Sidereal\+Day}!Sidereal Day@{Sidereal Day}}
+\subsubsection{\texorpdfstring{Sidereal\+Day()}{SiderealDay()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Sidereal\+Day (\begin{DoxyParamCaption}\item[{const T}]{orbital\+Period\+Ins,  }\item[{const T}]{synodic\+Day\+Ins }\end{DoxyParamCaption})}
+
+
+
+Calculates the sidereal day, $T_{Sidereal}$, of a celestial object in seconds from the length of the celestial object\textquotesingle{}s orbital period, $T_{Orbit}$, and synodic day (solar day), $T_{Solar}$. A sidereal day is the time it takes for a full 360 degree rotation resulting in a distant star appears in the same position in the sky overhead. \[ T_{Sidereal}=\dfrac{T_{Orbit} * T_{Synodic}}{T_{Orbit} + T_{Synodic}}\]. 
+
+See \href{http://www.celestialnorth.org/FAQtoids/dazed_about_days_(solar_and_sidereal).htm}{\tt http\+://www.\+celestialnorth.\+org/\+F\+A\+Qtoids/dazed\+\_\+about\+\_\+days\+\_\+(solar\+\_\+and\+\_\+sidereal).\+htm} and \href{http://astronomy.swin.edu.au/cosmos/S/Sidereal+Day}{\tt http\+://astronomy.\+swin.\+edu.\+au/cosmos/\+S/\+Sidereal+\+Day}
+
+
+\begin{DoxyParams}{Parameters}
+{\em orbital\+Period\+Ins} & $ T_{Orbit}\ (s)$ Orbital period of the celestial object in seconds. \\
+\hline
+{\em synodic\+Day\+Ins} & $ T_{Synodic}\ (s)$ Synodic day (solar day) of the celestial object in seconds. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$ T_{Sidereal}\ (s)$ Sidereal day of the celestial object in seconds. 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga76aac7afe3b7a30a785259e9eeb0c139}{Orbital\+Period()}} for period it takes for a celestial body to complete one orbit around another object. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_solar_day_gae321e0dd0c031a57c45b15dc819635e0}{Solar\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_synodic_day_ga637140842bc008c87d90e65b551cbac7}{Synodic\+Day()}} for period it takes for a celestial body to rotate once in relation to the body it is orbiting. 
+\end{DoxySeeAlso}

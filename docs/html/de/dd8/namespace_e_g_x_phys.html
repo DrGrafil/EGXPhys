@@ -313,6 +313,55 @@ template&lt;typename T &gt; </td></tr>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ac5e66686d7910587e3636b7984d466e9"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>solarLuminosityRatio</b> (const T &amp;area, const T &amp;tempreture)</td></tr>
 <tr class="separator:ac5e66686d7910587e3636b7984d466e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga76aac7afe3b7a30a785259e9eeb0c139"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga76aac7afe3b7a30a785259e9eeb0c139"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#ga76aac7afe3b7a30a785259e9eeb0c139">OrbitalPeriod</a> (const T siderealDayIns, const T synodicDayIns)</td></tr>
+<tr class="memdesc:ga76aac7afe3b7a30a785259e9eeb0c139"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the orbital period, \(T_{Orbit}\), of a celestial object in seconds from the length of the celestial object's sidereal day, \(T_{Sidereal}\), and synodic day, \(T_{Synodic}\). The orbital period is the time needed for a celestial object to complete one orbit around another object. </p><p class="formulaDsp">
+\[ T_{Orbit}=\dfrac{T_{Synodic} * T_{Sidereal}}{T_{Synodic} + T_{Sidereal}}\]
+</p>
+<p>.  <a href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#ga76aac7afe3b7a30a785259e9eeb0c139">More...</a><br /></td></tr>
+<tr class="separator:ga76aac7afe3b7a30a785259e9eeb0c139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5d4cc706d875fd82a83e566ade16546d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga5d4cc706d875fd82a83e566ade16546d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#ga5d4cc706d875fd82a83e566ade16546d">OrbitalPeriodSmallBody</a> (const T semiMajorAxisInm, const T centralBodyMassInKg)</td></tr>
+<tr class="memdesc:ga5d4cc706d875fd82a83e566ade16546d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the orbital period, \(T_{Orbit}\), of a celestial object in seconds from the semi-major axis of its orbit, \(a\), and the central object's mass that the celestial object is orbiting around, \(M\). It is assumed that the central object's mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. </p><p class="formulaDsp">
+\[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{GM}}\]
+</p>
+<p>.  <a href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#ga5d4cc706d875fd82a83e566ade16546d">More...</a><br /></td></tr>
+<tr class="separator:ga5d4cc706d875fd82a83e566ade16546d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadfd6fdd5cb1861d8204c3c5cd32a65b5"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gadfd6fdd5cb1861d8204c3c5cd32a65b5"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#gadfd6fdd5cb1861d8204c3c5cd32a65b5">OrbitalPeriodSmallBodyFromMass</a> (const T semiMajorAxisInm, const T centralBodyMassInKg)</td></tr>
+<tr class="memdesc:gadfd6fdd5cb1861d8204c3c5cd32a65b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the orbital period, \(T_{Orbit}\), of a celestial object in seconds from the semi-major axis of its orbit, \(a\), and the central object's mass that the celestial object is orbiting around, \(M\). It is assumed that the central object's mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. </p><p class="formulaDsp">
+\[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{GM}}\]
+</p>
+<p>.  <a href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#gadfd6fdd5cb1861d8204c3c5cd32a65b5">More...</a><br /></td></tr>
+<tr class="separator:gadfd6fdd5cb1861d8204c3c5cd32a65b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab3773d2109aef45ef4649b56e36d13f3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gab3773d2109aef45ef4649b56e36d13f3"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#gab3773d2109aef45ef4649b56e36d13f3">OrbitalPeriodSmallBodyFromSGP</a> (const T semiMajorAxisInm, const T centralBodyStandardGravitationalParameter)</td></tr>
+<tr class="memdesc:gab3773d2109aef45ef4649b56e36d13f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the orbital period, \(T_{Orbit}\), of a celestial object in seconds from the semi-major axis of its orbit, \(a\), and the central object's standard gravitational parameter, \(\mu\). It is assumed that the central object's mass is much larger then the celestial objects mass. The orbital period is the time needed for a celestial object to complete one orbit around the central object. </p><p class="formulaDsp">
+\[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{\mu}}\]
+</p>
+<p>.  <a href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#gab3773d2109aef45ef4649b56e36d13f3">More...</a><br /></td></tr>
+<tr class="separator:gab3773d2109aef45ef4649b56e36d13f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga60d2541fdf2108542e52879ae907d81c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga60d2541fdf2108542e52879ae907d81c"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#ga60d2541fdf2108542e52879ae907d81c">OrbitalPeriodTwoBody</a> (const T semiMajorAxisInm, const T firstBodyMassInKg, const T secondBodyMassInKg)</td></tr>
+<tr class="memdesc:ga60d2541fdf2108542e52879ae907d81c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the orbital period, \(T_{Orbit}\), of a celestial object in seconds from the semi-major axis of its orbit, \(a\), its mass, \(M_1\), and the mass of the second celestial object, \(M_2\). The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. </p><p class="formulaDsp">
+\[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{G(M_1 + M_2)}}\]
+</p>
+<p>.  <a href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#ga60d2541fdf2108542e52879ae907d81c">More...</a><br /></td></tr>
+<tr class="separator:ga60d2541fdf2108542e52879ae907d81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6ec6ae4e31d99bf4d1a27f708dd3247d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga6ec6ae4e31d99bf4d1a27f708dd3247d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#ga6ec6ae4e31d99bf4d1a27f708dd3247d">OrbitalPeriodTwoBodyFromMass</a> (const T semiMajorAxisInm, const T firstBodyMassInKg, const T secondBodyMassInKg)</td></tr>
+<tr class="memdesc:ga6ec6ae4e31d99bf4d1a27f708dd3247d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the orbital period, \(T_{Orbit}\), of a celestial object in seconds from the semi-major axis of its orbit, \(a\), its mass, \(M_1\), and the mass of the second celestial object, \(M_2\). The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. </p><p class="formulaDsp">
+\[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{G(M_1 + M_2)}}\]
+</p>
+<p>.  <a href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#ga6ec6ae4e31d99bf4d1a27f708dd3247d">More...</a><br /></td></tr>
+<tr class="separator:ga6ec6ae4e31d99bf4d1a27f708dd3247d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga53ff53aea547ddedfc69119c4830daea"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga53ff53aea547ddedfc69119c4830daea"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#ga53ff53aea547ddedfc69119c4830daea">OrbitalPeriodTwoBodyFromSGP</a> (const T semiMajorAxisInm, const T firstBodyStandardGravitationalParameter, const T secondBodyStandardGravitationalParameter)</td></tr>
+<tr class="memdesc:ga53ff53aea547ddedfc69119c4830daea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the orbital period, \(T_{Orbit}\), of a celestial object in seconds from the semi-major axis of its orbit, \(a\), its standard gravitational parameter, \(\mu_1\), and the standard gravitational parameter of the second celestial object, \(\mu_2\). The orbital period is the time needed for a celestial object to complete one orbit around the second celestial object. </p><p class="formulaDsp">
+\[ T_{Orbit}=2\pi\sqrt{\dfrac{a^3}{\mu_1 + \mu_2}}\]
+</p>
+<p>.  <a href="../../d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html#ga53ff53aea547ddedfc69119c4830daea">More...</a><br /></td></tr>
+<tr class="separator:ga53ff53aea547ddedfc69119c4830daea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab42dbec142e1a47925fc45e899845861"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gab42dbec142e1a47925fc45e899845861"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#gab42dbec142e1a47925fc45e899845861">ParallaxToParsec</a> (const T parallaxInArcseconds)</td></tr>
 <tr class="memdesc:gab42dbec142e1a47925fc45e899845861"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the distance, \(D\), of an object in parsecs from its observed parallax, \(p\), in arcseconds. </p><p class="formulaDsp">
@@ -320,13 +369,13 @@ template&lt;typename T &gt; </td></tr>
 </p>
 <p>.  <a href="../../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#gab42dbec142e1a47925fc45e899845861">More...</a><br /></td></tr>
 <tr class="separator:gab42dbec142e1a47925fc45e899845861"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2085f91170baba79a7fcc8a0ba77d1eb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga2085f91170baba79a7fcc8a0ba77d1eb"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#ga2085f91170baba79a7fcc8a0ba77d1eb">ParallaxToAU</a> (const T parallaxInArcseconds)</td></tr>
-<tr class="memdesc:ga2085f91170baba79a7fcc8a0ba77d1eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the distance, \(D\), of an object in astronomical units from its observed parallax, \(p\), in arcseconds. </p><p class="formulaDsp">
+<tr class="memitem:gaee6df9899f30baa3d659597abe89066a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaee6df9899f30baa3d659597abe89066a"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#gaee6df9899f30baa3d659597abe89066a">ParallaxToAstronomicalUnit</a> (const T parallaxInArcseconds)</td></tr>
+<tr class="memdesc:gaee6df9899f30baa3d659597abe89066a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the distance, \(D\), of an object in astronomical units from its observed parallax, \(p\), in arcseconds. </p><p class="formulaDsp">
 \[ D=\dfrac{648000}{\pi}\dfrac{1}{p}\]
 </p>
-<p>.  <a href="../../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#ga2085f91170baba79a7fcc8a0ba77d1eb">More...</a><br /></td></tr>
-<tr class="separator:ga2085f91170baba79a7fcc8a0ba77d1eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<p>.  <a href="../../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#gaee6df9899f30baa3d659597abe89066a">More...</a><br /></td></tr>
+<tr class="separator:gaee6df9899f30baa3d659597abe89066a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gacaec31498f264e2a1dc285062a394de2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gacaec31498f264e2a1dc285062a394de2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#gacaec31498f264e2a1dc285062a394de2">ParallaxToLightYear</a> (const T parallaxInArcseconds)</td></tr>
 <tr class="memdesc:gacaec31498f264e2a1dc285062a394de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the distance, \(D\), of an object in light years from its observed parallax, \(p\), in arcseconds. </p><p class="formulaDsp">
@@ -341,6 +390,10 @@ template&lt;typename T &gt; </td></tr>
 </p>
 <p>.  <a href="../../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#ga94912bf8b98a04cccab8ef19eaa89b6a">More...</a><br /></td></tr>
 <tr class="separator:ga94912bf8b98a04cccab8ef19eaa89b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2085f91170baba79a7fcc8a0ba77d1eb"><td class="memTemplParams" colspan="2"><a id="a2085f91170baba79a7fcc8a0ba77d1eb"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a2085f91170baba79a7fcc8a0ba77d1eb"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>ParallaxToAU</b> (const T parallaxInArcseconds)</td></tr>
+<tr class="separator:a2085f91170baba79a7fcc8a0ba77d1eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad487212733711bc2ce73c8137c9309c3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gad487212733711bc2ce73c8137c9309c3"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d40/group___e_g_x_phys-_periapsis.html#gad487212733711bc2ce73c8137c9309c3">Periapsis</a> (const T &amp;orbitalEccentricity, const T &amp;semiMajorAxisInm)</td></tr>
 <tr class="memdesc:gad487212733711bc2ce73c8137c9309c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates periapsis of an orbiting body.  <a href="../../d2/d40/group___e_g_x_phys-_periapsis.html#gad487212733711bc2ce73c8137c9309c3">More...</a><br /></td></tr>
@@ -581,6 +634,20 @@ template&lt;typename T &gt; </td></tr>
 </p>
 <p>.  <a href="../../d1/d79/group___e_g_x_phys-_astrophysics-_rotational_flattening.html#ga7d78d01c8b3e1a9b2e4f17cb67969a88">More...</a><br /></td></tr>
 <tr class="separator:ga7d78d01c8b3e1a9b2e4f17cb67969a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga587900d5fc755228c1bb5121cd7965c6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga587900d5fc755228c1bb5121cd7965c6"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/df4/group___e_g_x_phys-_astrophysic-_sidereal_day.html#ga587900d5fc755228c1bb5121cd7965c6">SiderealDay</a> (const T orbitalPeriodIns, const T synodicDayIns)</td></tr>
+<tr class="memdesc:ga587900d5fc755228c1bb5121cd7965c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the sidereal day, \(T_{Sidereal}\), of a celestial object in seconds from the length of the celestial object's orbital period, \(T_{Orbit}\), and synodic day (solar day), \(T_{Solar}\). A sidereal day is the time it takes for a full 360 degree rotation resulting in a distant star appears in the same position in the sky overhead. </p><p class="formulaDsp">
+\[ T_{Sidereal}=\dfrac{T_{Orbit} * T_{Synodic}}{T_{Orbit} + T_{Synodic}}\]
+</p>
+<p>.  <a href="../../d9/df4/group___e_g_x_phys-_astrophysic-_sidereal_day.html#ga587900d5fc755228c1bb5121cd7965c6">More...</a><br /></td></tr>
+<tr class="separator:ga587900d5fc755228c1bb5121cd7965c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae321e0dd0c031a57c45b15dc819635e0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gae321e0dd0c031a57c45b15dc819635e0"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/daa/group___e_g_x_phys-_astrophysic-_solar_day.html#gae321e0dd0c031a57c45b15dc819635e0">SolarDay</a> (const T orbitalPeriodIns, const T siderealDayIns)</td></tr>
+<tr class="memdesc:gae321e0dd0c031a57c45b15dc819635e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the solar day, \(T_{Solar}\), of a celestial object in seconds from the length of the celestial object's orbital period, \(T_{Orbit}\), and sidereal day, \(T_{Sidereal}\). A solar day is the time it takes for the celestial object to rotate so the body (sun) it is orbiting appears in the same position in the sky overhead. </p><p class="formulaDsp">
+\[ T_{Solar}=\dfrac{T_{Orbit} * T_{Sidereal}}{T_{Orbit} - T_{Sidereal}}\]
+</p>
+<p>.  <a href="../../d9/daa/group___e_g_x_phys-_astrophysic-_solar_day.html#gae321e0dd0c031a57c45b15dc819635e0">More...</a><br /></td></tr>
+<tr class="separator:gae321e0dd0c031a57c45b15dc819635e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga37f4ed78b0fc23603b49ade3e435ea20"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga37f4ed78b0fc23603b49ade3e435ea20"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d56/group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html#ga37f4ed78b0fc23603b49ade3e435ea20">StandardGravitationalParameter</a> (const T massInkg)</td></tr>
 <tr class="memdesc:ga37f4ed78b0fc23603b49ade3e435ea20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the standard gravitational parameter, \(\mu\), of a celestial body in meter cubed per second squared. The standard gravitational parameter is a product of the gravitational constant, \(G\), and the mass, \(M\), of the celestial body: </p><p class="formulaDsp">
@@ -616,6 +683,13 @@ template&lt;typename T &gt; </td></tr>
 </p>
 <p>.  <a href="../../d8/d7a/group___e_g_x_phys-_astrophysics-_surface_gravity.html#gab5bb479758d72608ef6ada063f6c1a1b">More...</a><br /></td></tr>
 <tr class="separator:gab5bb479758d72608ef6ada063f6c1a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga637140842bc008c87d90e65b551cbac7"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga637140842bc008c87d90e65b551cbac7"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d93/group___e_g_x_phys-_astrophysic-_synodic_day.html#ga637140842bc008c87d90e65b551cbac7">SynodicDay</a> (const T orbitalPeriodIns, const T siderealDayIns)</td></tr>
+<tr class="memdesc:ga637140842bc008c87d90e65b551cbac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the synodic day, \(T_{Synodic}\), of a celestial object in seconds from the length of the celestial object's orbital period, \(T_{Orbit}\), and sidereal day, \(T_{Sidereal}\). A synodic day is the time it takes for the celestial object to rotate so the body it is orbiting appears in the same position in the sky overhead. </p><p class="formulaDsp">
+\[ T_{Synodic}=\dfrac{T_{Orbit} * T_{Sidereal}}{T_{Orbit} - T_{Sidereal}}\]
+</p>
+<p>.  <a href="../../d5/d93/group___e_g_x_phys-_astrophysic-_synodic_day.html#ga637140842bc008c87d90e65b551cbac7">More...</a><br /></td></tr>
+<tr class="separator:ga637140842bc008c87d90e65b551cbac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga904edce5aad441b4a0873b3b1a83c7f2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga904edce5aad441b4a0873b3b1a83c7f2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/db4/group___e_g_x_phys-_decay_constant.html#ga904edce5aad441b4a0873b3b1a83c7f2">DecayConstant</a> (const T &amp;countInitial, const T &amp;countFinal, const T &amp;time)</td></tr>
 <tr class="memdesc:ga904edce5aad441b4a0873b3b1a83c7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the decay constant, \(\lambda\), of a radioactive substance via the uncertainty in energy, \(\Delta E\).  <a href="../../de/db4/group___e_g_x_phys-_decay_constant.html#ga904edce5aad441b4a0873b3b1a83c7f2">More...</a><br /></td></tr>

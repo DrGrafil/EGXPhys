@@ -22,7 +22,7 @@ var searchData=
   ['proton_20particle',['Proton particle',['../d6/d56/group___n_i_s_t_const-_proton.html',1,'']]],
   ['parallax_2ehpp',['Parallax.hpp',['../db/db9/_parallax_8hpp.html',1,'']]],
   ['parallax_2einl',['Parallax.inl',['../df/d9b/_parallax_8inl.html',1,'']]],
-  ['parallaxtoau',['ParallaxToAU',['../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#ga2085f91170baba79a7fcc8a0ba77d1eb',1,'EGXPhys']]],
+  ['parallaxtoastronomicalunit',['ParallaxToAstronomicalUnit',['../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#gaee6df9899f30baa3d659597abe89066a',1,'EGXPhys']]],
   ['parallaxtolightyear',['ParallaxToLightYear',['../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#gacaec31498f264e2a1dc285062a394de2',1,'EGXPhys']]],
   ['parallaxtometer',['ParallaxToMeter',['../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#ga94912bf8b98a04cccab8ef19eaa89b6a',1,'EGXPhys']]],
   ['parallaxtoparsec',['ParallaxToParsec',['../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html#gab42dbec142e1a47925fc45e899845861',1,'EGXPhys']]],
