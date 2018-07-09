@@ -15,6 +15,7 @@
 // Included dependencies
 #include "AstrophysicsConstants.hpp"
 
+#include "AbsoluteMagnitude.hpp"
 #include "Apoapsis.hpp"
 #include "B-VColor.hpp"
 #include "CircumstellarHabitableZone.hpp"
