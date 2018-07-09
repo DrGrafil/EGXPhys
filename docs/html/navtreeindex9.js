@@ -1,5 +1,11 @@
 var NAVTREEINDEX9 =
 {
+"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga41a861a04d65aab05647b32142e6d80d":[1,0,0,0,10,14],
+"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga678efb8f5c3958351fc3f1dfaf117b28":[1,0,0,0,10,3],
+"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga6ca011c0ae55ae079402080d7a1b4010":[1,0,0,0,10,8],
+"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga72cda928d9043c7d82097b1a7920769e":[1,0,0,0,10,1],
+"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga72e6d3c46ebfc25f7be5050136d8df16":[1,0,0,0,10,17],
+"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga74efaece2f95aa6671f18382e5f3925f":[1,0,0,0,10,11],
 "d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga79231536255e77fb7a158b99a30c1767":[1,0,0,0,10,5],
 "d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga7bdc3a81ce316dd47b1a3179489fa195":[1,0,0,0,10,0],
 "d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga999085c62490997da870618e20e88ebb":[1,0,0,0,10,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX9 =
 "d5/d7f/group___e_g_x_math-_conversions-_length_conversions-_s_i-_petameter-_astronomical.html":[1,0,0,2,4,14,0],
 "d5/d7f/group___e_g_x_math-_conversions-_length_conversions-_s_i-_petameter-_astronomical.html#ga6579583b24214c285978b0e08e163a9d":[1,0,0,2,4,14,0,2],
 "d5/d7f/group___e_g_x_math-_conversions-_length_conversions-_s_i-_petameter-_astronomical.html#ga8d28d4fb81bdbac19c416be69973fcf9":[1,0,0,2,4,14,0,0],
-"d5/d7f/group___e_g_x_math-_conversions-_length_conversions-_s_i-_petameter-_astronomical.html#gaea87071d89d0f8dbb3b4df023587b82f":[1,0,0,2,4,14,0,1],
-"d5/d86/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter.html":[1,0,0,2,4,3],
-"d5/d86/group___e_g_x_phys-_astrophysic-_b-_v_color.html":[1,1,1,2],
-"d5/d86/group___e_g_x_phys-_astrophysic-_b-_v_color.html#ga0e553143a3bb121c3ae50ca96c502140":[1,1,1,2,1],
-"d5/d86/group___e_g_x_phys-_astrophysic-_b-_v_color.html#gad251a8c25285f5817e307c35c3ec971a":[1,1,1,2,0],
-"d5/d89/_degrees_minutes_seconds_conversion_8inl.html":[3,0,0,3,0,0,6],
-"d5/d89/_degrees_minutes_seconds_conversion_8inl.html#ga1e6b1b889f6914942b12623934341fc6":[3,0,0,3,0,0,6,17]
+"d5/d7f/group___e_g_x_math-_conversions-_length_conversions-_s_i-_petameter-_astronomical.html#gaea87071d89d0f8dbb3b4df023587b82f":[1,0,0,2,4,14,0,1]
 };

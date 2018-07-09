@@ -125,7 +125,10 @@ var NAVTREEINDEX1 =
 "d0/def/_yottameter_conversion_8hpp.html#gaf4b5d397ea5debc0bd5195ad3a5c23d5":[3,0,0,3,0,2,4,37,29],
 "d0/def/_yottameter_conversion_8hpp_source.html":[3,0,0,3,0,2,4,37],
 "d0/df3/_absolute_magnitude_8hpp.html":[3,0,0,1,0],
+"d0/df3/_absolute_magnitude_8hpp.html#ga057faec7c22e76e31ad65bf2f98e0d58":[3,0,0,1,0,2],
 "d0/df3/_absolute_magnitude_8hpp.html#ga2ddb255fa28972334d82f377ce182048":[3,0,0,1,0,0],
+"d0/df3/_absolute_magnitude_8hpp.html#ga6eb3d93ce8d6ff1e0cc288059225ff9a":[3,0,0,1,0,3],
+"d0/df3/_absolute_magnitude_8hpp.html#gab25029a422f98bc7f8cea59abce3860e":[3,0,0,1,0,1],
 "d0/df3/_absolute_magnitude_8hpp_source.html":[3,0,0,1,0],
 "d0/dfd/_gon_conversion_8hpp.html":[3,0,0,3,0,0,9],
 "d0/dfd/_gon_conversion_8hpp.html#ga00757282768841abe48ac3c8452627cb":[3,0,0,3,0,0,9,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "d1/d1d/group___n_i_s_t_const-_electron.html#gab29722947ff92b9919f1112c2c217bdd":[1,2,2,4,7],
 "d1/d1d/group___n_i_s_t_const-_electron.html#gab29efd06fa05aa9b9a6def23a8c95b5b":[1,2,2,4,5],
 "d1/d1d/group___n_i_s_t_const-_electron.html#gab4fd760fece96e235c3accad243ea20b":[1,2,2,4,6],
-"d1/d1d/group___n_i_s_t_const-_electron.html#gac58ff45f1227bc710cf031d2387665cb":[1,2,2,4,17],
-"d1/d1d/group___n_i_s_t_const-_electron.html#gacbb02cac3189f19eb491a05a4ab0a4f8":[1,2,2,4,9],
-"d1/d1d/group___n_i_s_t_const-_electron.html#gacf6bc998fc1189c7caf69c2ef118ff67":[1,2,2,4,10],
-"d1/d1d/group___n_i_s_t_const-_electron.html#gadb01b986f2f422f93f73927c16ee5932":[1,2,2,4,3]
+"d1/d1d/group___n_i_s_t_const-_electron.html#gac58ff45f1227bc710cf031d2387665cb":[1,2,2,4,17]
 };

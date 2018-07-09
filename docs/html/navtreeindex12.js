@@ -1,5 +1,11 @@
 var NAVTREEINDEX12 =
 {
+"d6/d56/group___n_i_s_t_const-_proton.html#gaaae1b2c1bddefa30f211be12109df4c3":[1,2,2,11,23],
+"d6/d56/group___n_i_s_t_const-_proton.html#gab86342babbcfcc25696578ba09f2bf7d":[1,2,2,11,6],
+"d6/d56/group___n_i_s_t_const-_proton.html#gac03d8511146936619b38484d8499bb31":[1,2,2,11,5],
+"d6/d56/group___n_i_s_t_const-_proton.html#gacd1429faf2ff3d6827949ae0fa479834":[1,2,2,11,3],
+"d6/d56/group___n_i_s_t_const-_proton.html#gaf5ba0ecd59d4c064cfeb6f7e30f7194a":[1,2,2,11,25],
+"d6/d56/group___n_i_s_t_const-_proton.html#gaf708eef50a531d88adb6f9fa58fccc5b":[1,2,2,11,14],
 "d6/d56/group___n_i_s_t_const-_proton.html#gaf8331121ed8ca8580544d8569246e4fa":[1,2,2,11,20],
 "d6/d57/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_imperial.html":[1,0,0,2,3,4,3],
 "d6/d57/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_imperial.html#ga1b769f8b903e65e8d7027a9c427762ab":[1,0,0,2,3,4,3,5],
@@ -24,7 +30,10 @@ var NAVTREEINDEX12 =
 "d6/d77/group___n_i_s_t_const-_molar_gas_constant.html":[1,2,3,6],
 "d6/d77/group___n_i_s_t_const-_molar_gas_constant.html#gac728faac7d754d8ddca4a4bd7565ec0e":[1,2,3,6,0],
 "d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html":[1,1,1,0],
+"d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga057faec7c22e76e31ad65bf2f98e0d58":[1,1,1,0,2],
 "d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga2ddb255fa28972334d82f377ce182048":[1,1,1,0,0],
+"d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga6eb3d93ce8d6ff1e0cc288059225ff9a":[1,1,1,0,3],
+"d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#gab25029a422f98bc7f8cea59abce3860e":[1,1,1,0,1],
 "d6/d84/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_s_i.html":[1,0,0,2,1,2,1],
 "d6/d84/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_s_i.html#ga04eab639339270142a55aa2655fc0db8":[1,0,0,2,1,2,1,2],
 "d6/d84/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_s_i.html#ga1420821a520a74457ec9d8dfe7ce1678":[1,0,0,2,1,2,1,17],
@@ -240,14 +249,5 @@ var NAVTREEINDEX12 =
 "d6/dff/_femtometer_conversion_8hpp.html#gaa2e838ef76ce47a3375291d76990b865":[3,0,0,3,0,2,4,10,10],
 "d6/dff/_femtometer_conversion_8hpp.html#gaa33efbf3b5cee0874ad44736c0ac6fd2":[3,0,0,3,0,2,4,10,11],
 "d6/dff/_femtometer_conversion_8hpp.html#gaae002ed0894f79e0fa6889732d52e01d":[3,0,0,3,0,2,4,10,16],
-"d6/dff/_femtometer_conversion_8hpp.html#gabee380e1753dab5aa9aa433b8f3ce4d4":[3,0,0,3,0,2,4,10,35],
-"d6/dff/_femtometer_conversion_8hpp.html#gac1a358bdb9bf33dec3cb847cafe1bc71":[3,0,0,3,0,2,4,10,20],
-"d6/dff/_femtometer_conversion_8hpp.html#gac3220ddaefa889db44eb85690203f345":[3,0,0,3,0,2,4,10,4],
-"d6/dff/_femtometer_conversion_8hpp.html#gac6c32f00b8dbf147521bdcfeb39b57f2":[3,0,0,3,0,2,4,10,17],
-"d6/dff/_femtometer_conversion_8hpp.html#gac965667884f7a3449072effb83260fe8":[3,0,0,3,0,2,4,10,19],
-"d6/dff/_femtometer_conversion_8hpp.html#gaccd849112d6d7fed98d4c4d737ec8872":[3,0,0,3,0,2,4,10,12],
-"d6/dff/_femtometer_conversion_8hpp.html#gacfcd599a1c2c834f3bbb5f3f991d55df":[3,0,0,3,0,2,4,10,21],
-"d6/dff/_femtometer_conversion_8hpp.html#gad0ac4ef551ee703c8952fe04fbd90f78":[3,0,0,3,0,2,4,10,18],
-"d6/dff/_femtometer_conversion_8hpp.html#gad0f3dba7d53c7f17223b7f7b0f4db523":[3,0,0,3,0,2,4,10,7],
-"d6/dff/_femtometer_conversion_8hpp.html#gadfcd6b374d4134cad0ac1ce7a8e50509":[3,0,0,3,0,2,4,10,29]
+"d6/dff/_femtometer_conversion_8hpp.html#gabee380e1753dab5aa9aa433b8f3ce4d4":[3,0,0,3,0,2,4,10,35]
 };

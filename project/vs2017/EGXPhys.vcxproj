@@ -320,6 +320,7 @@
     <ClInclude Include="..\..\EGXPhys\Relativity\RelativityConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\Thermodynamics\Thermodynamics.hpp" />
     <ClInclude Include="..\..\EGXPhys\Thermodynamics\ThermodynamicsConstants.hpp" />
+    <ClInclude Include="..\..\tests\Astrophysics\AbsoluteMagnitudeTest.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\ApoapsisTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\AstrophysicsTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\B-VColorTests.hpp" />

@@ -1,5 +1,11 @@
 var NAVTREEINDEX7 =
 {
+"d3/db0/group___n_i_s_t_const-_thomson.html":[1,2,2,15],
+"d3/db0/group___n_i_s_t_const-_thomson.html#gab8adbacb38cef2b9b883e8bbe6a4b524":[1,2,2,15,0],
+"d3/db8/group___e_g_x_phys-_astrophysics-_declination.html":[1,1,1,5],
+"d3/db8/group___e_g_x_phys-_astrophysics-_declination.html#ga0c90ea1406801810378d9618553c9a9b":[1,1,1,5,0],
+"d3/db8/group___e_g_x_phys-_astrophysics-_declination.html#ga384229c66d2ea6249c9609caa1ec9354":[1,1,1,5,1],
+"d3/db8/group___e_g_x_phys-_astrophysics-_declination.html#gad12d59741171420fc420f3c469df4a82":[1,1,1,5,3],
 "d3/db8/group___e_g_x_phys-_astrophysics-_declination.html#gaff645fbd9a1de42e9cdbfb37fdac78c9":[1,1,1,5,2],
 "d3/dbb/group___e_g_x_math-_conversions-_angle_conversions-_degree.html":[1,0,0,0,1],
 "d3/dbb/group___e_g_x_math-_conversions-_angle_conversions-_degree.html#ga0bb223ca6e77b00439a6d910ab32d82e":[1,0,0,0,1,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX7 =
 "d4/d75/_sign_functions_8hpp.html#ga54232a5bc24caf3833c30c15def764bf":[3,0,0,3,1,9,0],
 "d4/d75/_sign_functions_8hpp_source.html":[3,0,0,3,1,9],
 "d4/d75/group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius.html":[1,0,2,2,4,4],
-"d4/d75/group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius.html#gad4791a46a7efe39c63c03d2366fdd3d2":[1,0,2,2,4,4,0],
-"d4/d78/_luminosity_8inl.html":[3,0,0,1,18],
-"d4/d78/_luminosity_8inl.html#ac5e66686d7910587e3636b7984d466e9":[3,0,0,1,18,3],
-"d4/d78/_luminosity_8inl.html#ade3d05c9dcd810cb5290375d11587b6a":[3,0,0,1,18,2],
-"d4/d78/_luminosity_8inl.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4":[3,0,0,1,18,1],
-"d4/d78/_luminosity_8inl.html#ga909f82edfaed449b44e94788b642ebb8":[3,0,0,1,18,0],
-"d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html":[1,0,0,2,0,2,1]
+"d4/d75/group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius.html#gad4791a46a7efe39c63c03d2366fdd3d2":[1,0,2,2,4,4,0]
 };

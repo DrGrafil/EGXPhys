@@ -1,5 +1,11 @@
 var NAVTREEINDEX8 =
 {
+"d4/d78/_luminosity_8inl.html":[3,0,0,1,18],
+"d4/d78/_luminosity_8inl.html#ac5e66686d7910587e3636b7984d466e9":[3,0,0,1,18,3],
+"d4/d78/_luminosity_8inl.html#ade3d05c9dcd810cb5290375d11587b6a":[3,0,0,1,18,2],
+"d4/d78/_luminosity_8inl.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4":[3,0,0,1,18,1],
+"d4/d78/_luminosity_8inl.html#ga909f82edfaed449b44e94788b642ebb8":[3,0,0,1,18,0],
+"d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html":[1,0,0,2,0,2,1],
 "d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga1eea34f6cb4b5a7b5dec1cd75863f191":[1,0,0,2,0,2,1,11],
 "d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga235c67c3c7b55d4ec553df3e1f435fbd":[1,0,0,2,0,2,1,0],
 "d4/d7e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_s_i.html#ga2b7c62d851d25cb2041e3bc339110790":[1,0,0,2,0,2,1,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX8 =
 "d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga05d6fea8f8475831e93dd23f6196393f":[1,0,0,0,10,15],
 "d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga0bc017b3314253352ddec728d3f6b76a":[1,0,0,0,10,12],
 "d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga19eceb6db54a1cf17789639c2a869cb9":[1,0,0,0,10,6],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga2aea2621472294ce4c25ac7e55db51c6":[1,0,0,0,10,16],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga41a861a04d65aab05647b32142e6d80d":[1,0,0,0,10,14],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga678efb8f5c3958351fc3f1dfaf117b28":[1,0,0,0,10,3],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga6ca011c0ae55ae079402080d7a1b4010":[1,0,0,0,10,8],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga72cda928d9043c7d82097b1a7920769e":[1,0,0,0,10,1],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga72e6d3c46ebfc25f7be5050136d8df16":[1,0,0,0,10,17],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga74efaece2f95aa6671f18382e5f3925f":[1,0,0,0,10,11]
+"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga2aea2621472294ce4c25ac7e55db51c6":[1,0,0,0,10,16]
 };

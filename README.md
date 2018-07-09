@@ -92,7 +92,7 @@ Updated 6/16/2018:
 |:--- 									| :--- 																		| :---																		|  :---																		| :---:						| :---:				 		| :---:				| :---:						| :---:						| :---:						|
 | Acoustics							| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
 | Astrophysics					| 																				| 																				| 																				| 								| 				 				|						| 								| 								|								|
-|											| Absolute Magnitude											| 																				| 																				| X							| X			 				|						| 								| 								|								|
+|											| Absolute Magnitude											| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
 |											| Apoapsis																| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
 |											| B-V Color																| 																				| 																				| X							| X			 				|	X					| X							| 								|								|
 |											| Circumstellar Habitable Zone Limit 				| 																				| 																				| X							| X			 				|						| 								| 								|								|

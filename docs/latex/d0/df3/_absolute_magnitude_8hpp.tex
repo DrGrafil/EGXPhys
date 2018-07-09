@@ -17,7 +17,13 @@ Calculates the absolute magnitude of a star.
 \begin{DoxyCompactItemize}
 \item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_absolute_magnitude_ga2ddb255fa28972334d82f377ce182048}{E\+G\+X\+Phys\+::\+Absolute\+Magnitude}} (const T apparent\+Magnitude, const T distance\+Inparsecs)
-\begin{DoxyCompactList}\small\item\em Calculates the absolute magnitude, $M$, of a star from its apparent magnitude, $m$, and the distance, $d$, in parsecs it is away. \[M= m - 5 \left ( log_{10}(d_{pc}) - 1 \right )\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Calculates the absolute magnitude, $M$, of a star from its apparent magnitude, $m$, and the distance, $d_{pc}$, in parsecs it is away. \[M= m - 5 \left ( log_{10}(d_{pc}) - 1 \right )\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_absolute_magnitude_ga6eb3d93ce8d6ff1e0cc288059225ff9a}{E\+G\+X\+Phys\+::\+Absolute\+Magnitude\+From\+Parsecs}} (const T apparent\+Magnitude, const T distance\+Inparsecs)
+\begin{DoxyCompactList}\small\item\em Calculates the absolute magnitude, $M$, of a star from its apparent magnitude, $m$, and the distance, $d_{pc}$, in parsecs it is away. \[M= m - 5 \left ( log_{10}(d_{pc}) - 1 \right )\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_absolute_magnitude_ga057faec7c22e76e31ad65bf2f98e0d58}{E\+G\+X\+Phys\+::\+Absolute\+Magnitude\+From\+Parallax}} (const T apparent\+Magnitude, const T parallax\+In\+Arc\+Sec)
+\begin{DoxyCompactList}\small\item\em Calculates the absolute magnitude, $M$, of a star from its apparent magnitude, $m$, and the parallax, $p$, in arc seconds. \[M= m - 5 \left ( log_{10} \left ( \dfrac{1}{p} \right ) - 1 \right )\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_absolute_magnitude_gab25029a422f98bc7f8cea59abce3860e}{E\+G\+X\+Phys\+::\+Absolute\+Magnitude\+From\+AU}} (const T apparent\+Magnitude, const T distance\+In\+Astronomical\+Units)
+\begin{DoxyCompactList}\small\item\em Calculates the absolute magnitude, $M$, of a star from its apparent magnitude, $m$, and the distance, $d_{AU}$, in astronomical units it is away. \[M= m - 5 \left ( log_{10} \left ( \dfrac{\pi}{648000}d_{AU} \right ) - 1 \right )\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}

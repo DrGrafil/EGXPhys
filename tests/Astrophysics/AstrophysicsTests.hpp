@@ -5,6 +5,7 @@
 //
 #pragma once
 
+#include "AbsoluteMagnitudeTest.hpp"
 #include "ApoapsisTests.hpp"
 #include "B-VColorTests.hpp"
 #include "EscapeVelocityTests.hpp"

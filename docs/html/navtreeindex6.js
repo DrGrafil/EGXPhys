@@ -1,5 +1,8 @@
 var NAVTREEINDEX6 =
 {
+"d3/d08/_nanometer_conversion_8inl.html#ga2ceddcda2954e4bb6cf1216ce4edc160":[3,0,0,3,0,2,4,27,19],
+"d3/d08/_nanometer_conversion_8inl.html#ga3104d856008f94fc14378e95cfbe771f":[3,0,0,3,0,2,4,27,36],
+"d3/d08/_nanometer_conversion_8inl.html#ga3306731dd581f22ad9203923e4a03d2a":[3,0,0,3,0,2,4,27,37],
 "d3/d08/_nanometer_conversion_8inl.html#ga35ac002514f0d8cda8b1fe100b21f54b":[3,0,0,3,0,2,4,27,10],
 "d3/d08/_nanometer_conversion_8inl.html#ga3be41b7dc346f2f5745d761c9f6c743d":[3,0,0,3,0,2,4,27,7],
 "d3/d08/_nanometer_conversion_8inl.html#ga4677e0e0b8662f3786f43cea2f76e8d9":[3,0,0,3,0,2,4,27,30],
@@ -231,7 +234,10 @@ var NAVTREEINDEX6 =
 "d3/d91/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter.html":[1,0,0,2,4,6],
 "d3/d99/group___e_g_x_math-_conversions-_length_conversions-_s_i-_micrometer.html":[1,0,0,2,4,11],
 "d3/d9c/_absolute_magnitude_8inl.html":[3,0,0,1,1],
+"d3/d9c/_absolute_magnitude_8inl.html#ga057faec7c22e76e31ad65bf2f98e0d58":[3,0,0,1,1,2],
 "d3/d9c/_absolute_magnitude_8inl.html#ga2ddb255fa28972334d82f377ce182048":[3,0,0,1,1,0],
+"d3/d9c/_absolute_magnitude_8inl.html#ga6eb3d93ce8d6ff1e0cc288059225ff9a":[3,0,0,1,1,3],
+"d3/d9c/_absolute_magnitude_8inl.html#gab25029a422f98bc7f8cea59abce3860e":[3,0,0,1,1,1],
 "d3/da1/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_surveyors.html":[1,0,0,2,1,2,5],
 "d3/da1/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_surveyors.html#gac2207a6f05f3d2e7dfec2eade3fdf431":[1,0,0,2,1,2,5,0],
 "d3/da1/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_surveyors.html#gae5721b0cf84304ecfade5a7808814329":[1,0,0,2,1,2,5,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX6 =
 "d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html":[1,0,0,2,4,19,0],
 "d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html#ga01bceda59fbfc5414c72ccba254b365c":[1,0,0,2,4,19,0,0],
 "d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html#gaadccc6ef68b9d71b37be40ffbb845843":[1,0,0,2,4,19,0,1],
-"d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html#gac8c853b247f3b577cee5510bd43fcd65":[1,0,0,2,4,19,0,2],
-"d3/db0/group___n_i_s_t_const-_thomson.html":[1,2,2,15],
-"d3/db0/group___n_i_s_t_const-_thomson.html#gab8adbacb38cef2b9b883e8bbe6a4b524":[1,2,2,15,0],
-"d3/db8/group___e_g_x_phys-_astrophysics-_declination.html":[1,1,1,5],
-"d3/db8/group___e_g_x_phys-_astrophysics-_declination.html#ga0c90ea1406801810378d9618553c9a9b":[1,1,1,5,0],
-"d3/db8/group___e_g_x_phys-_astrophysics-_declination.html#ga384229c66d2ea6249c9609caa1ec9354":[1,1,1,5,1],
-"d3/db8/group___e_g_x_phys-_astrophysics-_declination.html#gad12d59741171420fc420f3c469df4a82":[1,1,1,5,3]
+"d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html#gac8c853b247f3b577cee5510bd43fcd65":[1,0,0,2,4,19,0,2]
 };

@@ -102,11 +102,32 @@ $(document).ready(function(){initNavTree('d6/d7b/group___e_g_x_phys-_astrophysic
 Functions</h2></td></tr>
 <tr class="memitem:ga2ddb255fa28972334d82f377ce182048"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga2ddb255fa28972334d82f377ce182048"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga2ddb255fa28972334d82f377ce182048">EGXPhys::AbsoluteMagnitude</a> (const T apparentMagnitude, const T distanceInparsecs)</td></tr>
-<tr class="memdesc:ga2ddb255fa28972334d82f377ce182048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the absolute magnitude, \(M\), of a star from its apparent magnitude, \(m\), and the distance, \(d\), in parsecs it is away. </p><p class="formulaDsp">
+<tr class="memdesc:ga2ddb255fa28972334d82f377ce182048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the absolute magnitude, \(M\), of a star from its apparent magnitude, \(m\), and the distance, \(d_{pc}\), in parsecs it is away. </p><p class="formulaDsp">
 \[M= m - 5 \left ( log_{10}(d_{pc}) - 1 \right )\]
 </p>
 <p>.  <a href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga2ddb255fa28972334d82f377ce182048">More...</a><br /></td></tr>
 <tr class="separator:ga2ddb255fa28972334d82f377ce182048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6eb3d93ce8d6ff1e0cc288059225ff9a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga6eb3d93ce8d6ff1e0cc288059225ff9a"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga6eb3d93ce8d6ff1e0cc288059225ff9a">EGXPhys::AbsoluteMagnitudeFromParsecs</a> (const T apparentMagnitude, const T distanceInparsecs)</td></tr>
+<tr class="memdesc:ga6eb3d93ce8d6ff1e0cc288059225ff9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the absolute magnitude, \(M\), of a star from its apparent magnitude, \(m\), and the distance, \(d_{pc}\), in parsecs it is away. </p><p class="formulaDsp">
+\[M= m - 5 \left ( log_{10}(d_{pc}) - 1 \right )\]
+</p>
+<p>.  <a href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga6eb3d93ce8d6ff1e0cc288059225ff9a">More...</a><br /></td></tr>
+<tr class="separator:ga6eb3d93ce8d6ff1e0cc288059225ff9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga057faec7c22e76e31ad65bf2f98e0d58"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga057faec7c22e76e31ad65bf2f98e0d58"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga057faec7c22e76e31ad65bf2f98e0d58">EGXPhys::AbsoluteMagnitudeFromParallax</a> (const T apparentMagnitude, const T parallaxInArcSec)</td></tr>
+<tr class="memdesc:ga057faec7c22e76e31ad65bf2f98e0d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the absolute magnitude, \(M\), of a star from its apparent magnitude, \(m\), and the parallax, \(p\), in arc seconds. </p><p class="formulaDsp">
+\[M= m - 5 \left ( log_{10} \left ( \dfrac{1}{p} \right ) - 1 \right )\]
+</p>
+<p>.  <a href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga057faec7c22e76e31ad65bf2f98e0d58">More...</a><br /></td></tr>
+<tr class="separator:ga057faec7c22e76e31ad65bf2f98e0d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab25029a422f98bc7f8cea59abce3860e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gab25029a422f98bc7f8cea59abce3860e"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#gab25029a422f98bc7f8cea59abce3860e">EGXPhys::AbsoluteMagnitudeFromAU</a> (const T apparentMagnitude, const T distanceInAstronomicalUnits)</td></tr>
+<tr class="memdesc:gab25029a422f98bc7f8cea59abce3860e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the absolute magnitude, \(M\), of a star from its apparent magnitude, \(m\), and the distance, \(d_{AU}\), in astronomical units it is away. </p><p class="formulaDsp">
+\[M= m - 5 \left ( log_{10} \left ( \dfrac{\pi}{648000}d_{AU} \right ) - 1 \right )\]
+</p>
+<p>.  <a href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#gab25029a422f98bc7f8cea59abce3860e">More...</a><br /></td></tr>
+<tr class="separator:gab25029a422f98bc7f8cea59abce3860e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -138,7 +159,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Calculates the absolute magnitude, \(M\), of a star from its apparent magnitude, \(m\), and the distance, \(d\), in parsecs it is away. </p><p class="formulaDsp">
+<p>Calculates the absolute magnitude, \(M\), of a star from its apparent magnitude, \(m\), and the distance, \(d_{pc}\), in parsecs it is away. </p><p class="formulaDsp">
 \[M= m - 5 \left ( log_{10}(d_{pc}) - 1 \right )\]
 </p>
 <p>. </p>
@@ -151,6 +172,154 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(M\ (dimensionless)\) Absolute magnitude of a star. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga6eb3d93ce8d6ff1e0cc288059225ff9a" title="Calculates the absolute magnitude, , of a star from its apparent magnitude, , and the distance...">AbsoluteMagnitudeFromParsecs()</a> for alias. </dd>
+<dd>
+<a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga057faec7c22e76e31ad65bf2f98e0d58" title="Calculates the absolute magnitude, , of a star from its apparent magnitude, , and the parallax...">AbsoluteMagnitudeFromParallax()</a> for calculation using parallax. </dd>
+<dd>
+<a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#gab25029a422f98bc7f8cea59abce3860e" title="Calculates the absolute magnitude, , of a star from its apparent magnitude, , and the distance...">AbsoluteMagnitudeFromAU()</a> for calculation using astronomical units. </dd></dl>
+
+</div>
+</div>
+<a id="gab25029a422f98bc7f8cea59abce3860e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab25029a422f98bc7f8cea59abce3860e">&#9670;&nbsp;</a></span>AbsoluteMagnitudeFromAU()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::AbsoluteMagnitudeFromAU </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>apparentMagnitude</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>distanceInAstronomicalUnits</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the absolute magnitude, \(M\), of a star from its apparent magnitude, \(m\), and the distance, \(d_{AU}\), in astronomical units it is away. </p><p class="formulaDsp">
+\[M= m - 5 \left ( log_{10} \left ( \dfrac{\pi}{648000}d_{AU} \right ) - 1 \right )\]
+</p>
+<p>. </p>
+<p>See <a href="https://en.wikipedia.org/wiki/Absolute_magnitude">https://en.wikipedia.org/wiki/Absolute_magnitude</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">apparentMagnitude</td><td>\(M\ (dimensionless)\) Apparent magnitude of a star (almost allways as seen from earth). </td></tr>
+    <tr><td class="paramname">distanceInAstronomicalUnits</td><td>\(d_{AU}\ (AU)\) Distance in astronomical units between a star and the measurement of apparent magnitude. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(M\ (dimensionless)\) Absolute magnitude of a star. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga6eb3d93ce8d6ff1e0cc288059225ff9a" title="Calculates the absolute magnitude, , of a star from its apparent magnitude, , and the distance...">AbsoluteMagnitudeFromParsecs()</a> for calculation using parsecs. </dd>
+<dd>
+<a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga057faec7c22e76e31ad65bf2f98e0d58" title="Calculates the absolute magnitude, , of a star from its apparent magnitude, , and the parallax...">AbsoluteMagnitudeFromParallax()</a> for calculation using parallax. </dd></dl>
+
+</div>
+</div>
+<a id="ga057faec7c22e76e31ad65bf2f98e0d58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga057faec7c22e76e31ad65bf2f98e0d58">&#9670;&nbsp;</a></span>AbsoluteMagnitudeFromParallax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::AbsoluteMagnitudeFromParallax </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>apparentMagnitude</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>parallaxInArcSec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the absolute magnitude, \(M\), of a star from its apparent magnitude, \(m\), and the parallax, \(p\), in arc seconds. </p><p class="formulaDsp">
+\[M= m - 5 \left ( log_{10} \left ( \dfrac{1}{p} \right ) - 1 \right )\]
+</p>
+<p>. </p>
+<p>See <a href="https://en.wikipedia.org/wiki/Absolute_magnitude">https://en.wikipedia.org/wiki/Absolute_magnitude</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">apparentMagnitude</td><td>\(M\ (dimensionless)\) Apparent magnitude of a star (almost allways as seen from earth). </td></tr>
+    <tr><td class="paramname">parallaxInArcSec</td><td>\(p\ (arc seconds)\) Parallax of the star in arc seconds. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(M\ (dimensionless)\) Absolute magnitude of a star. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga6eb3d93ce8d6ff1e0cc288059225ff9a" title="Calculates the absolute magnitude, , of a star from its apparent magnitude, , and the distance...">AbsoluteMagnitudeFromParsecs()</a> for calculation using parsecs. </dd>
+<dd>
+<a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#gab25029a422f98bc7f8cea59abce3860e" title="Calculates the absolute magnitude, , of a star from its apparent magnitude, , and the distance...">AbsoluteMagnitudeFromAU()</a> for calculation using astronomical units. </dd></dl>
+
+</div>
+</div>
+<a id="ga6eb3d93ce8d6ff1e0cc288059225ff9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6eb3d93ce8d6ff1e0cc288059225ff9a">&#9670;&nbsp;</a></span>AbsoluteMagnitudeFromParsecs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::AbsoluteMagnitudeFromParsecs </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>apparentMagnitude</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>distanceInparsecs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the absolute magnitude, \(M\), of a star from its apparent magnitude, \(m\), and the distance, \(d_{pc}\), in parsecs it is away. </p><p class="formulaDsp">
+\[M= m - 5 \left ( log_{10}(d_{pc}) - 1 \right )\]
+</p>
+<p>. </p>
+<p>See <a href="https://en.wikipedia.org/wiki/Absolute_magnitude">https://en.wikipedia.org/wiki/Absolute_magnitude</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">apparentMagnitude</td><td>\(M\ (dimensionless)\) Apparent magnitude of a star (almost allways as seen from earth). </td></tr>
+    <tr><td class="paramname">distanceInparsecs</td><td>\(d_{pc}\ (pc)\) Distance in parsecs between a star and the measurement of apparent magnitude. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(M\ (dimensionless)\) Absolute magnitude of a star. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga2ddb255fa28972334d82f377ce182048" title="Calculates the absolute magnitude, , of a star from its apparent magnitude, , and the distance...">AbsoluteMagnitude()</a> for alias. </dd>
+<dd>
+<a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga057faec7c22e76e31ad65bf2f98e0d58" title="Calculates the absolute magnitude, , of a star from its apparent magnitude, , and the parallax...">AbsoluteMagnitudeFromParallax()</a> for calculation using parallax. </dd>
+<dd>
+<a class="el" href="../../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#gab25029a422f98bc7f8cea59abce3860e" title="Calculates the absolute magnitude, , of a star from its apparent magnitude, , and the distance...">AbsoluteMagnitudeFromAU()</a> for calculation using astronomical units. </dd></dl>
 
 </div>
 </div>

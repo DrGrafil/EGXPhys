@@ -1,6 +1,9 @@
 var searchData=
 [
   ['absolutemagnitude',['AbsoluteMagnitude',['../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga2ddb255fa28972334d82f377ce182048',1,'EGXPhys']]],
+  ['absolutemagnitudefromau',['AbsoluteMagnitudeFromAU',['../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#gab25029a422f98bc7f8cea59abce3860e',1,'EGXPhys']]],
+  ['absolutemagnitudefromparallax',['AbsoluteMagnitudeFromParallax',['../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga057faec7c22e76e31ad65bf2f98e0d58',1,'EGXPhys']]],
+  ['absolutemagnitudefromparsecs',['AbsoluteMagnitudeFromParsecs',['../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html#ga6eb3d93ce8d6ff1e0cc288059225ff9a',1,'EGXPhys']]],
   ['angstromtoastronomicalunit',['AngstromToAstronomicalUnit',['../dd/d18/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_astronomical.html#ga3e524fe9f8c68c596264d4745b993be8',1,'EGXMath']]],
   ['angstromtoattometer',['AngstromToAttometer',['../dc/d59/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_s_i.html#ga9bb7edf645cb82492a8792132dbb74e6',1,'EGXMath']]],
   ['angstromtocentimeter',['AngstromToCentimeter',['../dc/d59/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_s_i.html#gac4071068c7a0cfddbf572aab3be97f7b',1,'EGXMath']]],
