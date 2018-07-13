@@ -35,7 +35,7 @@ namespace EGXPhys{
 	
 
 	template<typename T>
-	T CircumstellarHabitableZoneDistance(const T distanceFromStar, const T CHZOuterBoundary, const T CHZInnerBoundary){
+	T CircumstellarHabitableZoneDistance(const T distanceFromStar, const T CHZInnerBoundary, const T CHZOuterBoundary){
 		return (2.0 * distanceFromStar - CHZOuterBoundary - CHZInnerBoundary )/(CHZOuterBoundary - CHZInnerBoundary);
 	}
     
