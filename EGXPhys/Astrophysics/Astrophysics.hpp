@@ -35,6 +35,7 @@
 #include "SolarDay.hpp"
 #include "StandardGravitationalParameter.hpp"
 #include "StellarMass.hpp"
+#include "StellarRadius.hpp"
 #include "SurfaceGravity.hpp"
 #include "SynodicDay.hpp"
 

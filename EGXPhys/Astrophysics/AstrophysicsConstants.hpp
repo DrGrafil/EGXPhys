@@ -33,6 +33,7 @@ namespace EGXPhys
 	const double SunAbsVMagnitude = 4.862;									/**< Absolute V Magnitude (??) of Sun. */
 	const double SunLuminocity = 3.8270e26;									/**< \f$L_\odot\f$(W) Luminocity of Sun. */
 	const double SunAge = 4572.0;											/**< Age(Myr) of Sun. */
+    const double SurfaceTempretureOfSun = 5778.0;							/**< \f$T_\odot\f$(K) Tempreture of Sun surface. */
 		//Earth
 	const double SemimajorAxisOfEarth = 149598261000;						/**< Semimajor Axis(m) Of Earth. */
 	const double EccentricityOfEarth = 0.01671123;                     	 	/**< Eccentricity(dimensionless) of Earth. */

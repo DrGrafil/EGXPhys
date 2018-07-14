@@ -164,16 +164,16 @@ The HZ of an exoplanet is generally defined as the area
 	*	See http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets and https://en.wikipedia.org/wiki/Circumstellar_habitable_zone
 	*
 	*	Equation from 
-	*   @param distanceFromStar
-	*   @param CHZOuterBoundary
-	*   @param CHZInnerBoundary
+	*   @param distanceFromStar \f$d\ (m)\f$ Distance of celestial object from the star in meters.
+	*   @param CHZOuterBoundary \f$r_{CHZ,Outer}\ (m)\f$ Radius of the outer boundary of the circumstellar habitable zone of the star in meters.
+	*   @param CHZInnerBoundary \f$r_{CHZ,Inner}\ (m)\f$ Radius of the inner boundary of the circumstellar habitable zone of the star in meters.
 	*   @return \f$CHZD\f$(HZU) circumstellar habitable zone distance, a habitability metric for planets. Between -1 and +1 HZU correspond to planets within the habitable zone.
-	*	@see CircumstellarHabitableZoneOuterBoundary() for outer boundary of the circumstellar habitable zone.
 	*	@see CircumstellarHabitableZoneInnerBoundary() for inner boundary of the circumstellar habitable zone. 
+    *	@see CircumstellarHabitableZoneOuterBoundary() for outer boundary of the circumstellar habitable zone.
 	*	@see CircumstellarHabitableZoneLimit() to calculate outer and inner boundary using diffrent models.
 	*/  
 	template<typename T>
-	T CircumstellarHabitableZoneDistance(const T distanceFromStar, const T CHZOuterBoundary, const T CHZInnerBoundary);
+	T CircumstellarHabitableZoneDistance(const T distanceFromStar, const T CHZInnerBoundary, const T CHZOuterBoundary);
 	
 	
     /// @}
