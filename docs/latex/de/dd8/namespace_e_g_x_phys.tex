@@ -71,7 +71,7 @@
 \begin{DoxyCompactList}\small\item\em Calculates the inner boundary of the Habitable Zone of a solar system. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3a6dbbdaddddd071cb1f0a20e40d83bd}{Circumstellar\+Habitable\+Zone\+Outer\+Boundary}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+InW)
 \begin{DoxyCompactList}\small\item\em Calculates Circumstellar Habitable Zone Outer Boundary $(r_o)$ of a star. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3247e5fe14db39121ce622207af172fd}{Circumstellar\+Habitable\+Zone\+Distance}} (const T distance\+From\+Star, const T C\+H\+Z\+Outer\+Boundary, const T C\+H\+Z\+Inner\+Boundary)
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gaf289fb8f037ece66d850f7d827f83752}{Circumstellar\+Habitable\+Zone\+Distance}} (const T distance\+From\+Star, const T C\+H\+Z\+Inner\+Boundary, const T C\+H\+Z\+Outer\+Boundary)
 \begin{DoxyCompactList}\small\item\em Calculates Circumstellar Habitable Zone Distance $(CHZD)$ of a planet. Also known as Habitable Zone Distance. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_color_temperature_ga81db6b5b397c9f788001be73adae032d}{Color\+Temperature\+To\+R\+GB}} (const T temperature\+InK, T \&R, T \&G, T \&B)
 \begin{DoxyCompactList}\small\item\em Calculates the color R\+GB values from the color tempreture, $T_{black}$, assuming the color was emitted via black body radiation. \end{DoxyCompactList}\item 
@@ -230,6 +230,12 @@
 \begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gac393d64d586be3dc76ac7a98ac336514}{Solar\+Mass}} (const T \&star\+Mass)
 \begin{DoxyCompactList}\small\item\em Calculates the solar mass $(M)$ of a star when comparing it to the mass of the sun $(m_\odot)$. \[M=\frac{m_{star}}{m_\odot}\] See \href{https://en.wikipedia.org/wiki/Solar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Solar\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_radius_ga612cd22c37341a1864cd2fc5c858e18e}{Stellar\+Radius}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+InW)
+\begin{DoxyCompactList}\small\item\em Calculates the radius, $R$, of a star in meters using its luminosity, $L$, and its surface tempreture $T$. \[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_radius_ga59f0d5d89a857d30bff4c93713ee5bd9}{Stellar\+Radius\+From\+Luminosity\+In\+Watts}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+InW)
+\begin{DoxyCompactList}\small\item\em Calculates the radius, $R$, of a star in meters using its luminosity, $L$, and its surface tempreture $T$. \[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_radius_ga49f0848777ba12cdfc78d112d82036ce}{Stellar\+Radius\+From\+Luminosity\+In\+Solar\+Luminosity}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+In\+Solar\+Luminosity)
+\begin{DoxyCompactList}\small\item\em Calculates the radius, $R$, of a star in meters using its luminosity, $L$, and its surface tempreture $T$. \[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gaf7e1f42b674fe8bb2211c40882a7d5b6}{Surface\+Gravity\+Inm\+Pers\+Squared}} (const T mass\+Inkg, const T mean\+Radius\+Inm)
 \begin{DoxyCompactList}\small\item\em Calculates the surface gravity, $g$, of a celestial body in meters per second squared. The surface gravity is a product of the gravitational constant, $G$, as well as the mass, $M$, and mean radius, $r$, of the celestial body\+: \[g = \frac{GM}{r^2}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gab5bb479758d72608ef6ada063f6c1a1b}{Surface\+Gravity\+Ing}} (const T mass\+Inkg, const T mean\+Radius\+Inm)
@@ -416,6 +422,8 @@ const double \mbox{\hyperlink{namespace_e_g_x_phys_a61266dc1aaacdd9a9bd0f2fa92aa
 const double \mbox{\hyperlink{namespace_e_g_x_phys_a3987543f6972eb72eb2c07d39520b43e}{Sun\+Luminocity}} = 3.\+8270e26
 \item 
 const double \mbox{\hyperlink{namespace_e_g_x_phys_a173216c099d7915fb16e6416902fcbb8}{Sun\+Age}} = 4572.\+0
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a2e7bb27d65efea2fad0a879a36011ef2}{Surface\+Tempreture\+Of\+Sun}} = 5778.\+0
 \item 
 const double \mbox{\hyperlink{namespace_e_g_x_phys_ad1bdca5cec4a0f4a4b8a18ead61de6d9}{Semimajor\+Axis\+Of\+Earth}} = 149598261000
 \item 
@@ -631,7 +639,13 @@ $T_\odot$(K) Tempreture of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_a942ce2a
 \subsubsection{\texorpdfstring{Surface\+Tempreture\+Of\+Earth}{SurfaceTempretureOfEarth}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Surface\+Tempreture\+Of\+Earth = 287.\+0}
 
-$T_{\oplus,Surface}\ (K)$ Surface tempreture of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a73aaaddeacf5d59643ec5e4a53a1a251}\label{namespace_e_g_x_phys_a73aaaddeacf5d59643ec5e4a53a1a251}} 
+$T_{\oplus,Surface}\ (K)$ Surface tempreture of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a2e7bb27d65efea2fad0a879a36011ef2}\label{namespace_e_g_x_phys_a2e7bb27d65efea2fad0a879a36011ef2}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Surface\+Tempreture\+Of\+Sun@{Surface\+Tempreture\+Of\+Sun}}
+\index{Surface\+Tempreture\+Of\+Sun@{Surface\+Tempreture\+Of\+Sun}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{Surface\+Tempreture\+Of\+Sun}{SurfaceTempretureOfSun}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Surface\+Tempreture\+Of\+Sun = 5778.\+0}
+
+$T_\odot$(K) Tempreture of Sun surface. \mbox{\Hypertarget{namespace_e_g_x_phys_a73aaaddeacf5d59643ec5e4a53a1a251}\label{namespace_e_g_x_phys_a73aaaddeacf5d59643ec5e4a53a1a251}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Volume\+Of\+Earth@{Volume\+Of\+Earth}}
 \index{Volume\+Of\+Earth@{Volume\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Volume\+Of\+Earth}{VolumeOfEarth}}

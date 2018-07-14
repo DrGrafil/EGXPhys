@@ -9,6 +9,9 @@ var NAVTREEINDEX2 =
 "d1/d1d/group___n_i_s_t_const-_electron.html#gaf02d250c87e2c81e6a4233fda2fe9371":[1,2,2,4,14],
 "d1/d1d/group___n_i_s_t_const-_electron.html#gaf57610c7ce613fb1969ba5228ea26a86":[1,2,2,4,26],
 "d1/d1f/_stellar_radius_8inl.html":[3,0,0,1,43],
+"d1/d1f/_stellar_radius_8inl.html#ga49f0848777ba12cdfc78d112d82036ce":[3,0,0,1,43,1],
+"d1/d1f/_stellar_radius_8inl.html#ga59f0d5d89a857d30bff4c93713ee5bd9":[3,0,0,1,43,2],
+"d1/d1f/_stellar_radius_8inl.html#ga612cd22c37341a1864cd2fc5c858e18e":[3,0,0,1,43,0],
 "d1/d1f/group___e_g_x_math-_conversions-_length_conversions-_s_i-_femtometer-_nautical.html":[1,0,0,2,4,5,4],
 "d1/d1f/group___e_g_x_math-_conversions-_length_conversions-_s_i-_femtometer-_nautical.html#ga2a7aadfe2325db467434f8bc9b2d9ed9":[1,0,0,2,4,5,4,0],
 "d1/d1f/group___e_g_x_math-_conversions-_length_conversions-_s_i-_femtometer-_nautical.html#gae44357e3e44868120d603cff76cefd77":[1,0,0,2,4,5,4,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "d1/d7c/_gigameter_conversion_8hpp.html#gadc687ba83985120ec09d825adace01d6":[3,0,0,3,0,2,4,12,33],
 "d1/d7c/_gigameter_conversion_8hpp.html#gadf6d730ad6e47bc8be214f3ef59b48ca":[3,0,0,3,0,2,4,12,11],
 "d1/d7c/_gigameter_conversion_8hpp.html#gae0dceabe14b5e84394285441be46bb8d":[3,0,0,3,0,2,4,12,28],
-"d1/d7c/_gigameter_conversion_8hpp.html#gae9cea35a0ce747d02ec8b6cf7bfeaa7e":[3,0,0,3,0,2,4,12,29],
-"d1/d7c/_gigameter_conversion_8hpp.html#gaeabf3c29bcb3076a8b41986debbf046b":[3,0,0,3,0,2,4,12,12],
-"d1/d7c/_gigameter_conversion_8hpp_source.html":[3,0,0,3,0,2,4,12],
-"d1/d82/group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_nautical.html":[1,0,0,2,5,1,4]
+"d1/d7c/_gigameter_conversion_8hpp.html#gae9cea35a0ce747d02ec8b6cf7bfeaa7e":[3,0,0,3,0,2,4,12,29]
 };

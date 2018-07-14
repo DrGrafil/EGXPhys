@@ -14,7 +14,7 @@ namespace EGXPhys{
 
     template<typename T>
     T StellarRadiusFromLuminosityInWatts(const T starEffectiveSurfaceTemperatureInK, const T starLuminosityInW) {
-        return std::sqrt(starLuminosityInW / ((T)4.0 * EGXMath::pi * NISTConst::sigma * starLuminosityInW * starLuminosityInW * starLuminosityInW * starLuminosityInW));
+        return std::sqrt(starLuminosityInW / ((T)4.0 * (T)EGXMath::pi * (T)NISTConst::sigma * starEffectiveSurfaceTemperatureInK * starEffectiveSurfaceTemperatureInK * starEffectiveSurfaceTemperatureInK * starEffectiveSurfaceTemperatureInK));
     }
 
     template<typename T>

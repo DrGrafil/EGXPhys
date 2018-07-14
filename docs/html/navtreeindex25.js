@@ -1,5 +1,12 @@
 var NAVTREEINDEX25 =
 {
+"dc/dd5/3_d_cartesian_coordinate_conversion_8hpp_source.html":[3,0,0,3,0,1,1,0],
+"dc/dd5/group___e_g_x_math-_geometry-3_d-_ellipsoid-_volume.html":[1,0,2,2,2,2],
+"dc/dd5/group___e_g_x_math-_geometry-3_d-_ellipsoid-_volume.html#ga82d69f6cd6f1d4f890d875090924265d":[1,0,2,2,2,2,0],
+"dc/dd8/group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html":[1,0,2,0,1,2],
+"dc/dd8/group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html#ga4e01cf027d303bb4ecb75606e5240d6c":[1,0,2,0,1,2,1],
+"dc/dd8/group___e_g_x_math-_geometry-2_d-_ellipse-_eccentricity.html#ga6a0a7fba17f782616894cfc447628c33":[1,0,2,0,1,2,0],
+"dc/ddc/_angular_frequency_8hpp_source.html":[3,0,0,6,2],
 "dc/ddd/group___n_i_s_t_const-_angstrom_star.html":[1,2,7,0],
 "dc/ddd/group___n_i_s_t_const-_angstrom_star.html#gaa47cd1d17183280540df63d68ceb8aac":[1,2,7,0,0],
 "dc/de8/group___e_g_x_math-_conversions-_length_conversions-_s_i-_femtometer-_non-_s_i.html":[1,0,0,2,4,5,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX25 =
 "dd/d8b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_centimeter-_non-_s_i.html#ga4e94aa6f1cc6aaeb751384a8472b01fd":[1,0,0,2,4,1,2,4],
 "dd/d8b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_centimeter-_non-_s_i.html#ga98d44269c80a1c5ab7c38d27aba39517":[1,0,0,2,4,1,2,1],
 "dd/d8b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_centimeter-_non-_s_i.html#gacabf2b01cd8676ffb5ec8c70ecd621b6":[1,0,0,2,4,1,2,0],
-"dd/d8b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_centimeter-_non-_s_i.html#gaee509ac676e86ed54994792f82dab9f7":[1,0,0,2,4,1,2,3],
-"dd/d96/_spheroid_volume_8hpp_source.html":[3,0,0,3,2,1,6,13],
-"dd/d98/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_astronomical.html":[1,0,0,2,1,2,0],
-"dd/d98/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_astronomical.html#ga5f6040b0b1a9aca71dbdfe79fc257b35":[1,0,0,2,1,2,0,1],
-"dd/d98/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_astronomical.html#gaa7f4d37736c3265b5eb5ee9a16d91914":[1,0,0,2,1,2,0,0],
-"dd/d98/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_astronomical.html#gac188be8dcd6efe85bf8d39fe1f98c622":[1,0,0,2,1,2,0,2],
-"dd/d9d/_light_year_conversion_8hpp.html":[3,0,0,3,0,2,0,3],
-"dd/d9d/_light_year_conversion_8hpp.html#ga0195b6c7d9efe06bed6d571046d485b4":[3,0,0,3,0,2,0,3,26]
+"dd/d8b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_centimeter-_non-_s_i.html#gaee509ac676e86ed54994792f82dab9f7":[1,0,0,2,4,1,2,3]
 };

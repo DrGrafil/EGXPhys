@@ -22,5 +22,6 @@ var _astrophysics_constants_8hpp =
     [ "SunMass", "d3/d5c/_astrophysics_constants_8hpp.html#a15b2187a46d73ac35fa7467b8fa6cb19", null ],
     [ "SunTempreture", "d3/d5c/_astrophysics_constants_8hpp.html#a97be71e7f8ca4f7813362bc1dca66db5", null ],
     [ "SurfaceTempretureOfEarth", "d3/d5c/_astrophysics_constants_8hpp.html#a942ce2ac76b5df8b08ec7827d3e20b76", null ],
+    [ "SurfaceTempretureOfSun", "d3/d5c/_astrophysics_constants_8hpp.html#a2e7bb27d65efea2fad0a879a36011ef2", null ],
     [ "VolumeOfEarth", "d3/d5c/_astrophysics_constants_8hpp.html#a73aaaddeacf5d59643ec5e4a53a1a251", null ]
 ];

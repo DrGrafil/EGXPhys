@@ -1,5 +1,9 @@
 var NAVTREEINDEX7 =
 {
+"d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html":[1,0,0,2,4,19,0],
+"d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html#ga01bceda59fbfc5414c72ccba254b365c":[1,0,0,2,4,19,0,0],
+"d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html#gaadccc6ef68b9d71b37be40ffbb845843":[1,0,0,2,4,19,0,1],
+"d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html#gac8c853b247f3b577cee5510bd43fcd65":[1,0,0,2,4,19,0,2],
 "d3/db0/group___n_i_s_t_const-_thomson.html":[1,2,2,15],
 "d3/db0/group___n_i_s_t_const-_thomson.html#gab8adbacb38cef2b9b883e8bbe6a4b524":[1,2,2,15,0],
 "d3/db8/group___e_g_x_phys-_astrophysics-_declination.html":[1,1,1,5],
@@ -198,6 +202,9 @@ var NAVTREEINDEX7 =
 "d4/d2c/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_surveyors.html#gaae746f9b34bc92e17f9117f5b139fdc4":[1,0,0,2,4,3,5,0],
 "d4/d2c/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_surveyors.html#gaf34122272f5724db35f8400d284e2ec8":[1,0,0,2,4,3,5,1],
 "d4/d2e/group___e_g_x_phys-_stellar_radius.html":[1,1,1,21],
+"d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga49f0848777ba12cdfc78d112d82036ce":[1,1,1,21,1],
+"d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga59f0d5d89a857d30bff4c93713ee5bd9":[1,1,1,21,2],
+"d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga612cd22c37341a1864cd2fc5c858e18e":[1,1,1,21,0],
 "d4/d32/_rectangle_8hpp_source.html":[3,0,0,3,2,0,2,0],
 "d4/d32/group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial.html":[1,0,0,2,5,0,3],
 "d4/d32/group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial.html#ga260b1e534400c8ee9ec5001641b2a451":[1,0,0,2,5,0,3,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX7 =
 "d4/d6f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_imperial.html#ga12a0ceda3109e1f972dd62a797c78503":[1,0,0,2,3,3,3,1],
 "d4/d6f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_imperial.html#ga4a6e2d3df67af4008be36f3899c1ca19":[1,0,0,2,3,3,3,3],
 "d4/d6f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_imperial.html#ga691931fc46e3fd33d4e2d83e09fa3db4":[1,0,0,2,3,3,3,2],
-"d4/d6f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_imperial.html#gab90a87773543173f5b774b6ccb646b5f":[1,0,0,2,3,3,3,0],
-"d4/d6f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_imperial.html#gae986c2e4dc5b38e249a8ec2fa2a3a0ea":[1,0,0,2,3,3,3,5],
-"d4/d6f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_imperial.html#gaf75a5aad3349d690e8b1bea619fc8706":[1,0,0,2,3,3,3,4],
-"d4/d75/_sign_functions_8hpp.html":[3,0,0,3,1,9],
-"d4/d75/_sign_functions_8hpp.html#ga54232a5bc24caf3833c30c15def764bf":[3,0,0,3,1,9,0],
-"d4/d75/_sign_functions_8hpp_source.html":[3,0,0,3,1,9],
-"d4/d75/group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius.html":[1,0,2,2,4,4],
-"d4/d75/group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius.html#gad4791a46a7efe39c63c03d2366fdd3d2":[1,0,2,2,4,4,0]
+"d4/d6f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_imperial.html#gab90a87773543173f5b774b6ccb646b5f":[1,0,0,2,3,3,3,0]
 };

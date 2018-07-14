@@ -32,5 +32,6 @@ var searchData=
   ['sunluminocity',['SunLuminocity',['../de/dd8/namespace_e_g_x_phys.html#a3987543f6972eb72eb2c07d39520b43e',1,'EGXPhys']]],
   ['sunmass',['SunMass',['../de/dd8/namespace_e_g_x_phys.html#a15b2187a46d73ac35fa7467b8fa6cb19',1,'EGXPhys']]],
   ['suntempreture',['SunTempreture',['../de/dd8/namespace_e_g_x_phys.html#a97be71e7f8ca4f7813362bc1dca66db5',1,'EGXPhys']]],
-  ['surfacetempretureofearth',['SurfaceTempretureOfEarth',['../de/dd8/namespace_e_g_x_phys.html#a942ce2ac76b5df8b08ec7827d3e20b76',1,'EGXPhys']]]
+  ['surfacetempretureofearth',['SurfaceTempretureOfEarth',['../de/dd8/namespace_e_g_x_phys.html#a942ce2ac76b5df8b08ec7827d3e20b76',1,'EGXPhys']]],
+  ['surfacetempretureofsun',['SurfaceTempretureOfSun',['../de/dd8/namespace_e_g_x_phys.html#a2e7bb27d65efea2fad0a879a36011ef2',1,'EGXPhys']]]
 ];

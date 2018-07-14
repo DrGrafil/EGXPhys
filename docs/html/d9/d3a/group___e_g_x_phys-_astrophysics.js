@@ -21,7 +21,7 @@ var group___e_g_x_phys__astrophysics =
     [ "Solar Day", "d9/daa/group___e_g_x_phys-_astrophysic-_solar_day.html", "d9/daa/group___e_g_x_phys-_astrophysic-_solar_day" ],
     [ "Standard Gravitational Parameter", "d5/d56/group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html", "d5/d56/group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter" ],
     [ "Stellar Mass", "d5/d8b/group___e_g_x_phys-_stellar_mass.html", "d5/d8b/group___e_g_x_phys-_stellar_mass" ],
-    [ "Stellar Radius", "d4/d2e/group___e_g_x_phys-_stellar_radius.html", null ],
+    [ "Stellar Radius", "d4/d2e/group___e_g_x_phys-_stellar_radius.html", "d4/d2e/group___e_g_x_phys-_stellar_radius" ],
     [ "Stellar Temperature", "dc/d07/group___e_g_x_phys-_stellar_temperature.html", null ],
     [ "Surface Gravity", "d8/d7a/group___e_g_x_phys-_astrophysics-_surface_gravity.html", "d8/d7a/group___e_g_x_phys-_astrophysics-_surface_gravity" ],
     [ "Synodic Day", "d5/d93/group___e_g_x_phys-_astrophysic-_synodic_day.html", "d5/d93/group___e_g_x_phys-_astrophysic-_synodic_day" ]

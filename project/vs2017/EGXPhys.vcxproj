@@ -332,6 +332,7 @@
     <ClInclude Include="..\..\tests\Astrophysics\PlanetCriteriaTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\StandardGravitationalParameterTests.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\StellarMassTests.hpp" />
+    <ClInclude Include="..\..\tests\Astrophysics\StellarRadiusTest.hpp" />
     <ClInclude Include="..\..\tests\Astrophysics\SurfaceGravityTests.hpp" />
     <ClInclude Include="..\..\tests\Atomic\AtomicTests.hpp" />
     <ClInclude Include="..\..\tests\Atomic\DecayConstantTests.hpp" />

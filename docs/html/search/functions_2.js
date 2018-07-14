@@ -82,7 +82,7 @@ var searchData=
   ['circlecircumference',['CircleCircumference',['../d1/da1/group___e_g_x_math-_geometry-2_d-_circle.html#gadb55695b75a06a3f3534494eb767e18e',1,'EGXMath']]],
   ['circleperimeter',['CirclePerimeter',['../d1/da1/group___e_g_x_math-_geometry-2_d-_circle.html#gad32d0bded2e74c52a4c41cfffd2a9e77',1,'EGXMath']]],
   ['circlesurfacearea',['CircleSurfaceArea',['../d1/da1/group___e_g_x_math-_geometry-2_d-_circle.html#gaa4486100a643c57bd7a80c1c11ae3f60',1,'EGXMath']]],
-  ['circumstellarhabitablezonedistance',['CircumstellarHabitableZoneDistance',['../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3247e5fe14db39121ce622207af172fd',1,'EGXPhys']]],
+  ['circumstellarhabitablezonedistance',['CircumstellarHabitableZoneDistance',['../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gaf289fb8f037ece66d850f7d827f83752',1,'EGXPhys']]],
   ['circumstellarhabitablezoneinnerboundary',['CircumstellarHabitableZoneInnerBoundary',['../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gab31a33d0dbd3ecd00537832b5b836d73',1,'EGXPhys']]],
   ['circumstellarhabitablezonelimit',['CircumstellarHabitableZoneLimit',['../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga809f4c557ce6d2fe566a69c2a8a5d41b',1,'EGXPhys']]],
   ['circumstellarhabitablezoneouterboundary',['CircumstellarHabitableZoneOuterBoundary',['../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3a6dbbdaddddd071cb1f0a20e40d83bd',1,'EGXPhys']]],

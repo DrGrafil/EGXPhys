@@ -120,16 +120,16 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3a6dbbdaddddd071cb1f0a20e40d83bd"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3a6dbbdaddddd071cb1f0a20e40d83bd">EGXPhys::CircumstellarHabitableZoneOuterBoundary</a> (const T starEffectiveSurfaceTemperatureInK, const T starLuminosityInW)</td></tr>
 <tr class="memdesc:ga3a6dbbdaddddd071cb1f0a20e40d83bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Circumstellar Habitable Zone Outer Boundary \((r_o)\) of a star.  <a href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3a6dbbdaddddd071cb1f0a20e40d83bd">More...</a><br /></td></tr>
 <tr class="separator:ga3a6dbbdaddddd071cb1f0a20e40d83bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3247e5fe14db39121ce622207af172fd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga3247e5fe14db39121ce622207af172fd"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3247e5fe14db39121ce622207af172fd">EGXPhys::CircumstellarHabitableZoneDistance</a> (const T distanceFromStar, const T CHZOuterBoundary, const T CHZInnerBoundary)</td></tr>
-<tr class="memdesc:ga3247e5fe14db39121ce622207af172fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Circumstellar Habitable Zone Distance \((CHZD)\) of a planet. Also known as Habitable Zone Distance.  <a href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3247e5fe14db39121ce622207af172fd">More...</a><br /></td></tr>
-<tr class="separator:ga3247e5fe14db39121ce622207af172fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf289fb8f037ece66d850f7d827f83752"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaf289fb8f037ece66d850f7d827f83752"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gaf289fb8f037ece66d850f7d827f83752">EGXPhys::CircumstellarHabitableZoneDistance</a> (const T distanceFromStar, const T CHZInnerBoundary, const T CHZOuterBoundary)</td></tr>
+<tr class="memdesc:gaf289fb8f037ece66d850f7d827f83752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Circumstellar Habitable Zone Distance \((CHZD)\) of a planet. Also known as Habitable Zone Distance.  <a href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gaf289fb8f037ece66d850f7d827f83752">More...</a><br /></td></tr>
+<tr class="separator:gaf289fb8f037ece66d850f7d827f83752"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000001">Todo:</a></b></dt><dd>Add more models for Seff. <a href="https://en.wikipedia.org/wiki/Circumstellar_habitable_zone">https://en.wikipedia.org/wiki/Circumstellar_habitable_zone</a> lists way more models </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga3247e5fe14db39121ce622207af172fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3247e5fe14db39121ce622207af172fd">&#9670;&nbsp;</a></span>CircumstellarHabitableZoneDistance()</h2>
+<a id="gaf289fb8f037ece66d850f7d827f83752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf289fb8f037ece66d850f7d827f83752">&#9670;&nbsp;</a></span>CircumstellarHabitableZoneDistance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -146,13 +146,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>CHZOuterBoundary</em>, </td>
+          <td class="paramname"><em>CHZInnerBoundary</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>CHZInnerBoundary</em>&#160;</td>
+          <td class="paramname"><em>CHZOuterBoundary</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -166,16 +166,16 @@ template&lt;typename T &gt; </div>
 <p>Circumstellar Habitable Zone is the orbital area around a star where in which a rocky planet, with the right atmosphere, can maintain liquid water at the surface of the planet. The HZ of an exoplanet is generally defined as the area (in terms of distance from its central star) See <a href="http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets">http://phl.upr.edu/library/notes/habitablezonesdistancehzdahabitabilitymetricforexoplanets</a> and <a href="https://en.wikipedia.org/wiki/Circumstellar_habitable_zone">https://en.wikipedia.org/wiki/Circumstellar_habitable_zone</a></p>
 <p>Equation from </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">distanceFromStar</td><td></td></tr>
-    <tr><td class="paramname">CHZOuterBoundary</td><td></td></tr>
-    <tr><td class="paramname">CHZInnerBoundary</td><td></td></tr>
+    <tr><td class="paramname">distanceFromStar</td><td>\(d\ (m)\) Distance of celestial object from the star in meters. </td></tr>
+    <tr><td class="paramname">CHZOuterBoundary</td><td>\(r_{CHZ,Outer}\ (m)\) Radius of the outer boundary of the circumstellar habitable zone of the star in meters. </td></tr>
+    <tr><td class="paramname">CHZInnerBoundary</td><td>\(r_{CHZ,Inner}\ (m)\) Radius of the inner boundary of the circumstellar habitable zone of the star in meters. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(CHZD\)(HZU) circumstellar habitable zone distance, a habitability metric for planets. Between -1 and +1 HZU correspond to planets within the habitable zone. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3a6dbbdaddddd071cb1f0a20e40d83bd" title="Calculates Circumstellar Habitable Zone Outer Boundary  of a star. ">CircumstellarHabitableZoneOuterBoundary()</a> for outer boundary of the circumstellar habitable zone. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gab31a33d0dbd3ecd00537832b5b836d73" title="Calculates the inner boundary of the Habitable Zone of a solar system. ">CircumstellarHabitableZoneInnerBoundary()</a> for inner boundary of the circumstellar habitable zone. </dd>
 <dd>
-<a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gab31a33d0dbd3ecd00537832b5b836d73" title="Calculates the inner boundary of the Habitable Zone of a solar system. ">CircumstellarHabitableZoneInnerBoundary()</a> for inner boundary of the circumstellar habitable zone. </dd>
+<a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3a6dbbdaddddd071cb1f0a20e40d83bd" title="Calculates Circumstellar Habitable Zone Outer Boundary  of a star. ">CircumstellarHabitableZoneOuterBoundary()</a> for outer boundary of the circumstellar habitable zone. </dd>
 <dd>
 <a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga809f4c557ce6d2fe566a69c2a8a5d41b" title="Calculates the Circumstellar Habitable Zone Limits,  of a star. Also known as Habitable Zone Limits...">CircumstellarHabitableZoneLimit()</a> to calculate outer and inner boundary using diffrent models. </dd></dl>
 
@@ -218,7 +218,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(r_{inner}\ (AU)\) the inner boundary of the Habitable Zone. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3247e5fe14db39121ce622207af172fd" title="Calculates Circumstellar Habitable Zone Distance  of a planet. Also known as Habitable Zone Distance...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gaf289fb8f037ece66d850f7d827f83752" title="Calculates Circumstellar Habitable Zone Distance  of a planet. Also known as Habitable Zone Distance...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
 <dd>
 <a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3a6dbbdaddddd071cb1f0a20e40d83bd" title="Calculates Circumstellar Habitable Zone Outer Boundary  of a star. ">CircumstellarHabitableZoneOuterBoundary()</a> for outer boundary of the circumstellar habitable zone. </dd>
 <dd>
@@ -268,7 +268,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(d_{CHZL}\)(AU) Circumstellar Habitable Zone Limit. Either the inner or outer radius of the circumstellar habitable zone. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3247e5fe14db39121ce622207af172fd" title="Calculates Circumstellar Habitable Zone Distance  of a planet. Also known as Habitable Zone Distance...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gaf289fb8f037ece66d850f7d827f83752" title="Calculates Circumstellar Habitable Zone Distance  of a planet. Also known as Habitable Zone Distance...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
 <dd>
 <a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gab31a33d0dbd3ecd00537832b5b836d73" title="Calculates the inner boundary of the Habitable Zone of a solar system. ">CircumstellarHabitableZoneInnerBoundary()</a> for inner boundary of the circumstellar habitable zone. </dd>
 <dd>
@@ -319,7 +319,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(ESI_S\)(dimensionless) Surface Earth Similarity Index for a planet. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3247e5fe14db39121ce622207af172fd" title="Calculates Circumstellar Habitable Zone Distance  of a planet. Also known as Habitable Zone Distance...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gaf289fb8f037ece66d850f7d827f83752" title="Calculates Circumstellar Habitable Zone Distance  of a planet. Also known as Habitable Zone Distance...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
 <dd>
 <a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gab31a33d0dbd3ecd00537832b5b836d73" title="Calculates the inner boundary of the Habitable Zone of a solar system. ">CircumstellarHabitableZoneInnerBoundary()</a> for inner boundary of the circumstellar habitable zone. </dd>
 <dd>
@@ -386,7 +386,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(S_{eff}\)(dimensionless) Effective Stellar Flux. Approximation used in circumstellar habitable zone calculations. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3247e5fe14db39121ce622207af172fd" title="Calculates Circumstellar Habitable Zone Distance  of a planet. Also known as Habitable Zone Distance...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gaf289fb8f037ece66d850f7d827f83752" title="Calculates Circumstellar Habitable Zone Distance  of a planet. Also known as Habitable Zone Distance...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
 <dd>
 <a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gab31a33d0dbd3ecd00537832b5b836d73" title="Calculates the inner boundary of the Habitable Zone of a solar system. ">CircumstellarHabitableZoneInnerBoundary()</a> for inner boundary of the circumstellar habitable zone. </dd>
 <dd>
@@ -453,7 +453,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(S_{eff}\)(dimensionless) Effective Stellar Flux. Approximation used in circumstellar habitable zone calculations. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga3247e5fe14db39121ce622207af172fd" title="Calculates Circumstellar Habitable Zone Distance  of a planet. Also known as Habitable Zone Distance...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gaf289fb8f037ece66d850f7d827f83752" title="Calculates Circumstellar Habitable Zone Distance  of a planet. Also known as Habitable Zone Distance...">CircumstellarHabitableZoneDistance()</a> for circumstellar habitable zone distance, a habitability metric for planets. </dd>
 <dd>
 <a class="el" href="../../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gab31a33d0dbd3ecd00537832b5b836d73" title="Calculates the inner boundary of the Habitable Zone of a solar system. ">CircumstellarHabitableZoneInnerBoundary()</a> for inner boundary of the circumstellar habitable zone. </dd>
 <dd>

@@ -1,6 +1,6 @@
 var _circumstellar_habitable_zone_8hpp =
 [
-    [ "CircumstellarHabitableZoneDistance", "d5/d18/_circumstellar_habitable_zone_8hpp.html#ga3247e5fe14db39121ce622207af172fd", null ],
+    [ "CircumstellarHabitableZoneDistance", "d5/d18/_circumstellar_habitable_zone_8hpp.html#gaf289fb8f037ece66d850f7d827f83752", null ],
     [ "CircumstellarHabitableZoneInnerBoundary", "d5/d18/_circumstellar_habitable_zone_8hpp.html#gab31a33d0dbd3ecd00537832b5b836d73", null ],
     [ "CircumstellarHabitableZoneLimit", "d5/d18/_circumstellar_habitable_zone_8hpp.html#ga809f4c557ce6d2fe566a69c2a8a5d41b", null ],
     [ "CircumstellarHabitableZoneOuterBoundary", "d5/d18/_circumstellar_habitable_zone_8hpp.html#ga3a6dbbdaddddd071cb1f0a20e40d83bd", null ],

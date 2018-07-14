@@ -1,5 +1,12 @@
 var NAVTREEINDEX26 =
 {
+"dd/d96/_spheroid_volume_8hpp_source.html":[3,0,0,3,2,1,6,13],
+"dd/d98/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_astronomical.html":[1,0,0,2,1,2,0],
+"dd/d98/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_astronomical.html#ga5f6040b0b1a9aca71dbdfe79fc257b35":[1,0,0,2,1,2,0,1],
+"dd/d98/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_astronomical.html#gaa7f4d37736c3265b5eb5ee9a16d91914":[1,0,0,2,1,2,0,0],
+"dd/d98/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_astronomical.html#gac188be8dcd6efe85bf8d39fe1f98c622":[1,0,0,2,1,2,0,2],
+"dd/d9d/_light_year_conversion_8hpp.html":[3,0,0,3,0,2,0,3],
+"dd/d9d/_light_year_conversion_8hpp.html#ga0195b6c7d9efe06bed6d571046d485b4":[3,0,0,3,0,2,0,3,26],
 "dd/d9d/_light_year_conversion_8hpp.html#ga0813df48068b4379915d32afbb142d28":[3,0,0,3,0,2,0,3,31],
 "dd/d9d/_light_year_conversion_8hpp.html#ga09634a7c514e3a0f573e7c171a791f78":[3,0,0,3,0,2,0,3,0],
 "dd/d9d/_light_year_conversion_8hpp.html#ga1e2666960159c36972f39a0630389b4e":[3,0,0,3,0,2,0,3,25],
@@ -162,6 +169,9 @@ var NAVTREEINDEX26 =
 "de/d12/group___e_g_x_phys-_astrophysics-_right_ascension.html#ga63a3103990c95078443e39a5b487ab0d":[1,1,1,15,3],
 "de/d12/group___e_g_x_phys-_astrophysics-_right_ascension.html#ga6fdbd35a030d278f396496899a1c236f":[1,1,1,15,0],
 "de/d23/_stellar_radius_8hpp.html":[3,0,0,1,42],
+"de/d23/_stellar_radius_8hpp.html#ga49f0848777ba12cdfc78d112d82036ce":[3,0,0,1,42,1],
+"de/d23/_stellar_radius_8hpp.html#ga59f0d5d89a857d30bff4c93713ee5bd9":[3,0,0,1,42,2],
+"de/d23/_stellar_radius_8hpp.html#ga612cd22c37341a1864cd2fc5c858e18e":[3,0,0,1,42,0],
 "de/d23/_stellar_radius_8hpp_source.html":[3,0,0,1,42],
 "de/d24/group___e_g_x_phys-_planetary_mass.html":[1,1,1,13],
 "de/d24/group___e_g_x_phys-_planetary_mass.html#ga225bcf56fb37468f6d4d46493d403503":[1,1,1,13,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX26 =
 "de/d4b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_nanometer-_s_i.html#gaa539df5d709bface86429c8a25d7f6e1":[1,0,0,2,4,13,1,11],
 "de/d4b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_nanometer-_s_i.html#gaadb5b2460069bb749412818e7aa6ee3b":[1,0,0,2,4,13,1,8],
 "de/d4b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_nanometer-_s_i.html#gab447c3aa3d215a1030a63e28f9aca1c1":[1,0,0,2,4,13,1,16],
-"de/d4b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_nanometer-_s_i.html#gaba1e9bf91f6e065f8ba8be8dd039b499":[1,0,0,2,4,13,1,14],
-"de/d4b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_nanometer-_s_i.html#gabd4fa6935aab15cac606410d0da3b22d":[1,0,0,2,4,13,1,2],
-"de/d4b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_nanometer-_s_i.html#gabe3584b4139cea97ebc372abf99fc63e":[1,0,0,2,4,13,1,9],
-"de/d4b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_nanometer-_s_i.html#gac8b870837f9a0213c8383079437e8cc6":[1,0,0,2,4,13,1,12],
-"de/d4b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_nanometer-_s_i.html#gacca577403e34659fd6bccf40885704fc":[1,0,0,2,4,13,1,15],
-"de/d4f/group___n_i_s_t_const-_elementary_charge.html":[1,2,1,2],
-"de/d4f/group___n_i_s_t_const-_elementary_charge.html#ga8685ffddeaed87687d2ee0539b4625de":[1,2,1,2,0],
-"de/d4f/group___n_i_s_t_const-_elementary_charge.html#gae14d69d686990378677cd8072ce9873b":[1,2,1,2,1],
-"de/d53/group___e_g_x_phys-_astrophysics-_escape_velocity.html":[1,1,1,7],
-"de/d53/group___e_g_x_phys-_astrophysics-_escape_velocity.html#gaeb8c0c9e780f883ea33498f076b08cb9":[1,1,1,7,0],
-"de/d55/2_d_coordinate_conversions_8hpp.html":[3,0,0,3,0,1,0,0]
+"de/d4b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_nanometer-_s_i.html#gaba1e9bf91f6e065f8ba8be8dd039b499":[1,0,0,2,4,13,1,14]
 };

@@ -13,7 +13,7 @@
 \begin{DoxyCompactList}\small\item\em Calculates the inner boundary of the Habitable Zone of a solar system. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3a6dbbdaddddd071cb1f0a20e40d83bd}{E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Outer\+Boundary}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+InW)
 \begin{DoxyCompactList}\small\item\em Calculates Circumstellar Habitable Zone Outer Boundary $(r_o)$ of a star. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3247e5fe14db39121ce622207af172fd}{E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Distance}} (const T distance\+From\+Star, const T C\+H\+Z\+Outer\+Boundary, const T C\+H\+Z\+Inner\+Boundary)
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gaf289fb8f037ece66d850f7d827f83752}{E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Distance}} (const T distance\+From\+Star, const T C\+H\+Z\+Inner\+Boundary, const T C\+H\+Z\+Outer\+Boundary)
 \begin{DoxyCompactList}\small\item\em Calculates Circumstellar Habitable Zone Distance $(CHZD)$ of a planet. Also known as Habitable Zone Distance. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -23,12 +23,12 @@
 
 
 \subsection{Function Documentation}
-\mbox{\Hypertarget{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3247e5fe14db39121ce622207af172fd}\label{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3247e5fe14db39121ce622207af172fd}} 
+\mbox{\Hypertarget{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gaf289fb8f037ece66d850f7d827f83752}\label{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gaf289fb8f037ece66d850f7d827f83752}} 
 \index{Circumstellar Habitable Zone Limit@{Circumstellar Habitable Zone Limit}!Circumstellar\+Habitable\+Zone\+Distance@{Circumstellar\+Habitable\+Zone\+Distance}}
 \index{Circumstellar\+Habitable\+Zone\+Distance@{Circumstellar\+Habitable\+Zone\+Distance}!Circumstellar Habitable Zone Limit@{Circumstellar Habitable Zone Limit}}
 \subsubsection{\texorpdfstring{Circumstellar\+Habitable\+Zone\+Distance()}{CircumstellarHabitableZoneDistance()}}
 {\footnotesize\ttfamily template$<$typename T $>$ \\
-T E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Distance (\begin{DoxyParamCaption}\item[{const T}]{distance\+From\+Star,  }\item[{const T}]{C\+H\+Z\+Outer\+Boundary,  }\item[{const T}]{C\+H\+Z\+Inner\+Boundary }\end{DoxyParamCaption})}
+T E\+G\+X\+Phys\+::\+Circumstellar\+Habitable\+Zone\+Distance (\begin{DoxyParamCaption}\item[{const T}]{distance\+From\+Star,  }\item[{const T}]{C\+H\+Z\+Inner\+Boundary,  }\item[{const T}]{C\+H\+Z\+Outer\+Boundary }\end{DoxyParamCaption})}
 
 
 
@@ -38,20 +38,20 @@ Circumstellar Habitable Zone is the orbital area around a star where in which a 
 
 Equation from 
 \begin{DoxyParams}{Parameters}
-{\em distance\+From\+Star} & \\
+{\em distance\+From\+Star} & $d\ (m)$ Distance of celestial object from the star in meters. \\
 \hline
-{\em C\+H\+Z\+Outer\+Boundary} & \\
+{\em C\+H\+Z\+Outer\+Boundary} & $r_{CHZ,Outer}\ (m)$ Radius of the outer boundary of the circumstellar habitable zone of the star in meters. \\
 \hline
-{\em C\+H\+Z\+Inner\+Boundary} & \\
+{\em C\+H\+Z\+Inner\+Boundary} & $r_{CHZ,Inner}\ (m)$ Radius of the inner boundary of the circumstellar habitable zone of the star in meters. \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 $CHZD$(H\+ZU) circumstellar habitable zone distance, a habitability metric for planets. Between -\/1 and +1 H\+ZU correspond to planets within the habitable zone. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3a6dbbdaddddd071cb1f0a20e40d83bd}{Circumstellar\+Habitable\+Zone\+Outer\+Boundary()}} for outer boundary of the circumstellar habitable zone. 
-
 \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gab31a33d0dbd3ecd00537832b5b836d73}{Circumstellar\+Habitable\+Zone\+Inner\+Boundary()}} for inner boundary of the circumstellar habitable zone. 
+
+\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3a6dbbdaddddd071cb1f0a20e40d83bd}{Circumstellar\+Habitable\+Zone\+Outer\+Boundary()}} for outer boundary of the circumstellar habitable zone. 
 
 \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga809f4c557ce6d2fe566a69c2a8a5d41b}{Circumstellar\+Habitable\+Zone\+Limit()}} to calculate outer and inner boundary using diffrent models. 
 \end{DoxySeeAlso}
@@ -77,7 +77,7 @@ Habitable Zone is defined in astrophysics as the orbital area around a star wher
 $r_{inner}\ (AU)$ the inner boundary of the Habitable Zone. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3247e5fe14db39121ce622207af172fd}{Circumstellar\+Habitable\+Zone\+Distance()}} for circumstellar habitable zone distance, a habitability metric for planets. 
+\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gaf289fb8f037ece66d850f7d827f83752}{Circumstellar\+Habitable\+Zone\+Distance()}} for circumstellar habitable zone distance, a habitability metric for planets. 
 
 \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3a6dbbdaddddd071cb1f0a20e40d83bd}{Circumstellar\+Habitable\+Zone\+Outer\+Boundary()}} for outer boundary of the circumstellar habitable zone. 
 
@@ -111,7 +111,7 @@ Equation taken from \char`\"{}\+Habitable Zones around Main Sequence Stars\char`
 $d_{CHZL}$(AU) Circumstellar Habitable Zone Limit. Either the inner or outer radius of the circumstellar habitable zone. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3247e5fe14db39121ce622207af172fd}{Circumstellar\+Habitable\+Zone\+Distance()}} for circumstellar habitable zone distance, a habitability metric for planets. 
+\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gaf289fb8f037ece66d850f7d827f83752}{Circumstellar\+Habitable\+Zone\+Distance()}} for circumstellar habitable zone distance, a habitability metric for planets. 
 
 \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gab31a33d0dbd3ecd00537832b5b836d73}{Circumstellar\+Habitable\+Zone\+Inner\+Boundary()}} for inner boundary of the circumstellar habitable zone. 
 
@@ -145,7 +145,7 @@ Calculates Circumstellar Habitable Zone Outer Boundary $(r_o)$ of a star.
 $ESI_S$(dimensionless) Surface Earth Similarity Index for a planet. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3247e5fe14db39121ce622207af172fd}{Circumstellar\+Habitable\+Zone\+Distance()}} for circumstellar habitable zone distance, a habitability metric for planets. 
+\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gaf289fb8f037ece66d850f7d827f83752}{Circumstellar\+Habitable\+Zone\+Distance()}} for circumstellar habitable zone distance, a habitability metric for planets. 
 
 \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gab31a33d0dbd3ecd00537832b5b836d73}{Circumstellar\+Habitable\+Zone\+Inner\+Boundary()}} for inner boundary of the circumstellar habitable zone. 
 
@@ -189,7 +189,7 @@ $S_{eff\odot,outer} = 1.77$, $a_{outer} = 1.3786 \times 10^{-4}$, $b_{outer} = 1
 $S_{eff}$(dimensionless) Effective Stellar Flux. Approximation used in circumstellar habitable zone calculations. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3247e5fe14db39121ce622207af172fd}{Circumstellar\+Habitable\+Zone\+Distance()}} for circumstellar habitable zone distance, a habitability metric for planets. 
+\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gaf289fb8f037ece66d850f7d827f83752}{Circumstellar\+Habitable\+Zone\+Distance()}} for circumstellar habitable zone distance, a habitability metric for planets. 
 
 \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gab31a33d0dbd3ecd00537832b5b836d73}{Circumstellar\+Habitable\+Zone\+Inner\+Boundary()}} for inner boundary of the circumstellar habitable zone. 
 
@@ -233,7 +233,7 @@ $S_{eff\odot,outer} = 0.2125$, $a_{outer} = 1.371 \times 10^{-5}$, $b_{outer} = 
 $S_{eff}$(dimensionless) Effective Stellar Flux. Approximation used in circumstellar habitable zone calculations. 
 \end{DoxyReturn}
 \begin{DoxySeeAlso}{See also}
-\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga3247e5fe14db39121ce622207af172fd}{Circumstellar\+Habitable\+Zone\+Distance()}} for circumstellar habitable zone distance, a habitability metric for planets. 
+\mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gaf289fb8f037ece66d850f7d827f83752}{Circumstellar\+Habitable\+Zone\+Distance()}} for circumstellar habitable zone distance, a habitability metric for planets. 
 
 \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_gab31a33d0dbd3ecd00537832b5b836d73}{Circumstellar\+Habitable\+Zone\+Inner\+Boundary()}} for inner boundary of the circumstellar habitable zone. 
 

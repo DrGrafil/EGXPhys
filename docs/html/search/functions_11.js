@@ -23,6 +23,9 @@ var searchData=
   ['stellarfluxeffectiveselsis',['StellarFluxEffectiveSelsis',['../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#ga0eb1003b4cfcbcafde635cefca5ae5c2',1,'EGXPhys']]],
   ['stellarfluxeffectiveunderwood',['StellarFluxEffectiveUnderwood',['../db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html#gafe02cffcc63c39794feb6f1de5e7a9bb',1,'EGXPhys']]],
   ['stellarmass',['StellarMass',['../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61',1,'EGXPhys']]],
+  ['stellarradius',['StellarRadius',['../d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga612cd22c37341a1864cd2fc5c858e18e',1,'EGXPhys']]],
+  ['stellarradiusfromluminosityinsolarluminosity',['StellarRadiusFromLuminosityInSolarLuminosity',['../d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga49f0848777ba12cdfc78d112d82036ce',1,'EGXPhys']]],
+  ['stellarradiusfromluminosityinwatts',['StellarRadiusFromLuminosityInWatts',['../d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga59f0d5d89a857d30bff4c93713ee5bd9',1,'EGXPhys']]],
   ['surfacegravitying',['SurfaceGravityIng',['../d8/d7a/group___e_g_x_phys-_astrophysics-_surface_gravity.html#gab5bb479758d72608ef6ada063f6c1a1b',1,'EGXPhys']]],
   ['surfacegravityinmperssquared',['SurfaceGravityInmPersSquared',['../d8/d7a/group___e_g_x_phys-_astrophysics-_surface_gravity.html#gaf7e1f42b674fe8bb2211c40882a7d5b6',1,'EGXPhys']]],
   ['synodicday',['SynodicDay',['../d5/d93/group___e_g_x_phys-_astrophysic-_synodic_day.html#ga637140842bc008c87d90e65b551cbac7',1,'EGXPhys']]]

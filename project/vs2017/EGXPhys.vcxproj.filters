@@ -1050,6 +1050,9 @@
     <ClInclude Include="..\..\tests\Astrophysics\AbsoluteMagnitudeTest.hpp">
       <Filter>Tests\Astrophysics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\tests\Astrophysics\StellarRadiusTest.hpp">
+      <Filter>Tests\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">

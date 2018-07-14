@@ -1,5 +1,12 @@
 var NAVTREEINDEX8 =
 {
+"d4/d6f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_imperial.html#gae986c2e4dc5b38e249a8ec2fa2a3a0ea":[1,0,0,2,3,3,3,5],
+"d4/d6f/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_imperial.html#gaf75a5aad3349d690e8b1bea619fc8706":[1,0,0,2,3,3,3,4],
+"d4/d75/_sign_functions_8hpp.html":[3,0,0,3,1,9],
+"d4/d75/_sign_functions_8hpp.html#ga54232a5bc24caf3833c30c15def764bf":[3,0,0,3,1,9,0],
+"d4/d75/_sign_functions_8hpp_source.html":[3,0,0,3,1,9],
+"d4/d75/group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius.html":[1,0,2,2,4,4],
+"d4/d75/group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius.html#gad4791a46a7efe39c63c03d2366fdd3d2":[1,0,2,2,4,4,0],
 "d4/d78/_luminosity_8inl.html":[3,0,0,1,18],
 "d4/d78/_luminosity_8inl.html#ac5e66686d7910587e3636b7984d466e9":[3,0,0,1,18,3],
 "d4/d78/_luminosity_8inl.html#ade3d05c9dcd810cb5290375d11587b6a":[3,0,0,1,18,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX8 =
 "d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html":[1,0,0,2,4,16,2],
 "d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html#ga391bcf9b529c2e20f2773c699bb0197a":[1,0,0,2,4,16,2,4],
 "d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html#ga5bf639553e4b6e8520f9345def06e492":[1,0,0,2,4,16,2,2],
-"d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html#ga5eab9d29867c570350691cca342c9472":[1,0,0,2,4,16,2,1],
-"d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html#gaa5fdc4aaf15e6428cf443e3d808403a3":[1,0,0,2,4,16,2,3],
-"d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html#gaab75399e224bea4ea7ddb8bf5f557ee0":[1,0,0,2,4,16,2,0],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html":[1,0,0,0,10],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga05d6fea8f8475831e93dd23f6196393f":[1,0,0,0,10,15],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga0bc017b3314253352ddec728d3f6b76a":[1,0,0,0,10,12],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga19eceb6db54a1cf17789639c2a869cb9":[1,0,0,0,10,6],
-"d4/ded/group___e_g_x_math-_conversions-_angle_conversions-_turn.html#ga2aea2621472294ce4c25ac7e55db51c6":[1,0,0,0,10,16]
+"d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html#ga5eab9d29867c570350691cca342c9472":[1,0,0,2,4,16,2,1]
 };

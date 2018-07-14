@@ -29,11 +29,11 @@ namespace EGXPhys
 	const double MassOfSun = 1.9891e30;										/**< \f$m_\odot\f$ (kg) Mass of Sun. */
 	//const double SolarMass = MassOfSun;                                 	/**< \f$m_\odot\f$ (kg) Mass of Sun. */
 	const double SunMass = MassOfSun;                                 		/**< \f$m_\odot\f$ (kg) Mass of Sun. */
-	const double SunTempreture = 5778.0;									/**< \f$T_\odot\f$(K) Tempreture of Sun. */
+	const double SunTempreture = 5772.0;									/**< \f$T_\odot\f$(K) Tempreture of Sun. 5778K was a value from 1955*/
 	const double SunAbsVMagnitude = 4.862;									/**< Absolute V Magnitude (??) of Sun. */
 	const double SunLuminocity = 3.8270e26;									/**< \f$L_\odot\f$(W) Luminocity of Sun. */
 	const double SunAge = 4572.0;											/**< Age(Myr) of Sun. */
-    const double SurfaceTempretureOfSun = 5778.0;							/**< \f$T_\odot\f$(K) Tempreture of Sun surface. */
+    const double SurfaceTempretureOfSun = 5772.0;							/**< \f$T_\odot\f$(K) Tempreture of Sun surface. */
 		//Earth
 	const double SemimajorAxisOfEarth = 149598261000;						/**< Semimajor Axis(m) Of Earth. */
 	const double EccentricityOfEarth = 0.01671123;                     	 	/**< Eccentricity(dimensionless) of Earth. */
