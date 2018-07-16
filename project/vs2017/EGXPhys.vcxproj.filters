@@ -1053,6 +1053,9 @@
     <ClInclude Include="..\..\tests\Astrophysics\StellarRadiusTest.hpp">
       <Filter>Tests\Astrophysics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\BolometricCorrection.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1454,6 +1457,9 @@
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
     <None Include="..\..\EGXPhys\Astrophysics\SynodicDay.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\BolometricCorrection.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>

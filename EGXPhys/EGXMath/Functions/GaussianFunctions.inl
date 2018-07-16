@@ -22,7 +22,7 @@ namespace EGXMath {
 	template <typename T>
 	T GaussianFWHM(const T&  sigma)
 	{
-		return (2.0 * sqrt(2.0*log(2.0)) * sigma);
+		return (2.0 * sqrt(2.0*log(2.0)) * sigma); //Note log is ln and it is suppose to be ln
 	}
 
 	template <typename T>

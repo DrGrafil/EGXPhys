@@ -121,6 +121,13 @@ Functions</h2></td></tr>
 </p>
 <p>.  <a href="../../d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga49f0848777ba12cdfc78d112d82036ce">More...</a><br /></td></tr>
 <tr class="separator:ga49f0848777ba12cdfc78d112d82036ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5c476c4ebcb0ad3e93a21393788d3dc2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga5c476c4ebcb0ad3e93a21393788d3dc2"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga5c476c4ebcb0ad3e93a21393788d3dc2">EGXPhys::StellarRadiusFromAbsoluteMagnitude</a> (const T starEffectiveSurfaceTemperatureInK, const T starLuminosityInW)</td></tr>
+<tr class="memdesc:ga5c476c4ebcb0ad3e93a21393788d3dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the radius, \(R\), of a star in meters using its absolute magnitude, \(M\), and its surface tempreture \(T\). </p><p class="formulaDsp">
+\[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]
+</p>
+<p>.  <a href="../../d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga5c476c4ebcb0ad3e93a21393788d3dc2">More...</a><br /></td></tr>
+<tr class="separator:ga5c476c4ebcb0ad3e93a21393788d3dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -166,6 +173,53 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>\(R\ (m)\) Radius of star in meters. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga59f0d5d89a857d30bff4c93713ee5bd9" title="Calculates the radius, , of a star in meters using its luminosity, , and its surface tempreture ...">StellarRadiusFromLuminosityInWatts()</a> for alias. </dd>
+<dd>
+<a class="el" href="../../d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga49f0848777ba12cdfc78d112d82036ce" title="Calculates the radius, , of a star in meters using its luminosity, , and its surface tempreture ...">StellarRadiusFromLuminosityInSolarLuminosity()</a> to calculate using luminosity in solar luminosity. </dd></dl>
+
+</div>
+</div>
+<a id="ga5c476c4ebcb0ad3e93a21393788d3dc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5c476c4ebcb0ad3e93a21393788d3dc2">&#9670;&nbsp;</a></span>StellarRadiusFromAbsoluteMagnitude()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::StellarRadiusFromAbsoluteMagnitude </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>starEffectiveSurfaceTemperatureInK</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>starLuminosityInW</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the radius, \(R\), of a star in meters using its absolute magnitude, \(M\), and its surface tempreture \(T\). </p><p class="formulaDsp">
+\[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]
+</p>
+<p>. </p>
+<p>See <a href="https://en.wikipedia.org/wiki/Luminosity">https://en.wikipedia.org/wiki/Luminosity</a> See <a href="https://www.astro.princeton.edu/~gk/A403/constants.pdf">https://www.astro.princeton.edu/~gk/A403/constants.pdf</a> for equation. Note that one should not use the Luminosity along with apparent magnitude formula to get stellar radius. It is an approximation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">starEffectiveSurfaceTemperatureInK</td><td>\(T_{eff}\ (K)\) Effective surface temperature of the star (black body) in kelvin. See <a href="https://en.wikipedia.org/wiki/Effective_temperature">https://en.wikipedia.org/wiki/Effective_temperature</a>. </td></tr>
+    <tr><td class="paramname">starLuminosityInW</td><td>\(L\ (W)\) Luminosity of the star in watts. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(R\ (m)\) Radius of star in meters. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga612cd22c37341a1864cd2fc5c858e18e" title="Calculates the radius, , of a star in meters using its luminosity, , and its surface tempreture ...">StellarRadius()</a> for alias. </dd>
 <dd>
 <a class="el" href="../../d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga49f0848777ba12cdfc78d112d82036ce" title="Calculates the radius, , of a star in meters using its luminosity, , and its surface tempreture ...">StellarRadiusFromLuminosityInSolarLuminosity()</a> to calculate using luminosity in solar luminosity. </dd></dl>
 

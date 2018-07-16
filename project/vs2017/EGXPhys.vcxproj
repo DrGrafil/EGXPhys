@@ -147,6 +147,7 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Astrophysics.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\AstrophysicsConstants.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\B-VColor.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\BolometricCorrection.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\CircumstellarHabitableZone.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\ColorTemperature.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Declination.hpp" />
@@ -435,6 +436,7 @@
     <None Include="..\..\EGXPhys\Astrophysics\AbsoluteMagnitude.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Apoapsis.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\B-VColor.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\BolometricCorrection.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\CircumstellarHabitableZone.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\ColorTemperature.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Declination.inl" />

@@ -114,6 +114,27 @@ Functions</h2></td></tr>
 </p>
 <p> See <a href="https://en.wikipedia.org/wiki/Solar_mass">https://en.wikipedia.org/wiki/Solar_mass</a>.  <a href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514">More...</a><br /></td></tr>
 <tr class="separator:gac393d64d586be3dc76ac7a98ac336514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4da54e02d03fe56e7da736f7d12b42c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gad4da54e02d03fe56e7da736f7d12b42c"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gad4da54e02d03fe56e7da736f7d12b42c">EGXPhys::StellarMassApproximation</a> (const T &amp;starLuminosityInW)</td></tr>
+<tr class="memdesc:gad4da54e02d03fe56e7da736f7d12b42c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the stellar mass \((M)\) of a star when comparing it to the mass of a reference star \((m_{ref})\). </p><p class="formulaDsp">
+\[M=\frac{m_{star}}{m_{ref}}\]
+</p>
+<p> See <a href="https://en.wikipedia.org/wiki/Stellar_mass">https://en.wikipedia.org/wiki/Stellar_mass</a>.  <a href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gad4da54e02d03fe56e7da736f7d12b42c">More...</a><br /></td></tr>
+<tr class="separator:gad4da54e02d03fe56e7da736f7d12b42c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga21d4a1964c4fada8367804113d9f3123"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga21d4a1964c4fada8367804113d9f3123"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#ga21d4a1964c4fada8367804113d9f3123">EGXPhys::StellarMassApproximationInkg</a> (const T &amp;starLuminosityInW)</td></tr>
+<tr class="memdesc:ga21d4a1964c4fada8367804113d9f3123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the stellar mass \((M)\) of a star when comparing it to the mass of a reference star \((m_{ref})\). </p><p class="formulaDsp">
+\[M=\frac{m_{star}}{m_{ref}}\]
+</p>
+<p> See <a href="https://en.wikipedia.org/wiki/Stellar_mass">https://en.wikipedia.org/wiki/Stellar_mass</a>.  <a href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#ga21d4a1964c4fada8367804113d9f3123">More...</a><br /></td></tr>
+<tr class="separator:ga21d4a1964c4fada8367804113d9f3123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa00fb881be48df4eba9838ada6bffa33"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaa00fb881be48df4eba9838ada6bffa33"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gaa00fb881be48df4eba9838ada6bffa33">EGXPhys::StellarMassApproximationInSolarMass</a> (const T &amp;starLuminosityInSolarLuminosity)</td></tr>
+<tr class="memdesc:gaa00fb881be48df4eba9838ada6bffa33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the stellar mass \((M)\) of a star when comparing it to the mass of a reference star \((m_{ref})\). </p><p class="formulaDsp">
+\[M=\frac{m_{star}}{m_{ref}}\]
+</p>
+<p> See <a href="https://en.wikipedia.org/wiki/Stellar_mass">https://en.wikipedia.org/wiki/Stellar_mass</a>.  <a href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gaa00fb881be48df4eba9838ada6bffa33">More...</a><br /></td></tr>
+<tr class="separator:gaa00fb881be48df4eba9838ada6bffa33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <h2 class="groupheader">Function Documentation</h2>
@@ -178,6 +199,120 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the stellar mass \((M)\) of a star when comparing it to the mass of a reference star \((m_{ref})\). </p><p class="formulaDsp">
+\[M=\frac{m_{star}}{m_{ref}}\]
+</p>
+<p> See <a href="https://en.wikipedia.org/wiki/Stellar_mass">https://en.wikipedia.org/wiki/Stellar_mass</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">starMass</td><td>\(m_{star}\ (kg)\) is the mass of the star. </td></tr>
+    <tr><td class="paramname">referenceMass</td><td>\(m_{ref}\ (kg)\) is the mass of the reference star. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(M\)(dimensionless) Stellar mass. Mass ratio of a star compared to a reference star. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../de/d24/group___e_g_x_phys-_planetary_mass.html#ga225bcf56fb37468f6d4d46493d403503" title="Calculates the planetary mass  of a planet when comparing it to the mass of a reference planet ...">PlanetaryMass()</a> for \(M\) equation used for planets size objects. </dd>
+<dd>
+<a class="el" href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61" title="Calculates the stellar mass  of a star when comparing it to the mass of a reference star ...">StellarMass()</a> for \(M\) equation using a star as a reference. </dd>
+<dd>
+<a class="el" href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514" title="Calculates the solar mass  of a star when comparing it to the mass of the sun .  See https://en...">SolarMass()</a> for \(M\) equation using the Sun as a reference. </dd></dl>
+
+</div>
+</div>
+<a id="gad4da54e02d03fe56e7da736f7d12b42c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad4da54e02d03fe56e7da736f7d12b42c">&#9670;&nbsp;</a></span>StellarMassApproximation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::StellarMassApproximation </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>starLuminosityInW</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the stellar mass \((M)\) of a star when comparing it to the mass of a reference star \((m_{ref})\). </p><p class="formulaDsp">
+\[M=\frac{m_{star}}{m_{ref}}\]
+</p>
+<p> See <a href="https://en.wikipedia.org/wiki/Stellar_mass">https://en.wikipedia.org/wiki/Stellar_mass</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">starMass</td><td>\(m_{star}\ (kg)\) is the mass of the star. </td></tr>
+    <tr><td class="paramname">referenceMass</td><td>\(m_{ref}\ (kg)\) is the mass of the reference star. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(M\)(dimensionless) Stellar mass. Mass ratio of a star compared to a reference star. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../de/d24/group___e_g_x_phys-_planetary_mass.html#ga225bcf56fb37468f6d4d46493d403503" title="Calculates the planetary mass  of a planet when comparing it to the mass of a reference planet ...">PlanetaryMass()</a> for \(M\) equation used for planets size objects. </dd>
+<dd>
+<a class="el" href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61" title="Calculates the stellar mass  of a star when comparing it to the mass of a reference star ...">StellarMass()</a> for \(M\) equation using a star as a reference. </dd>
+<dd>
+<a class="el" href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514" title="Calculates the solar mass  of a star when comparing it to the mass of the sun .  See https://en...">SolarMass()</a> for \(M\) equation using the Sun as a reference. </dd></dl>
+
+</div>
+</div>
+<a id="ga21d4a1964c4fada8367804113d9f3123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga21d4a1964c4fada8367804113d9f3123">&#9670;&nbsp;</a></span>StellarMassApproximationInkg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::StellarMassApproximationInkg </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>starLuminosityInW</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the stellar mass \((M)\) of a star when comparing it to the mass of a reference star \((m_{ref})\). </p><p class="formulaDsp">
+\[M=\frac{m_{star}}{m_{ref}}\]
+</p>
+<p> See <a href="https://en.wikipedia.org/wiki/Stellar_mass">https://en.wikipedia.org/wiki/Stellar_mass</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">starMass</td><td>\(m_{star}\ (kg)\) is the mass of the star. </td></tr>
+    <tr><td class="paramname">referenceMass</td><td>\(m_{ref}\ (kg)\) is the mass of the reference star. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>\(M\)(dimensionless) Stellar mass. Mass ratio of a star compared to a reference star. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../de/d24/group___e_g_x_phys-_planetary_mass.html#ga225bcf56fb37468f6d4d46493d403503" title="Calculates the planetary mass  of a planet when comparing it to the mass of a reference planet ...">PlanetaryMass()</a> for \(M\) equation used for planets size objects. </dd>
+<dd>
+<a class="el" href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gabbd6081cd3bfb0153d7470d58f733a61" title="Calculates the stellar mass  of a star when comparing it to the mass of a reference star ...">StellarMass()</a> for \(M\) equation using a star as a reference. </dd>
+<dd>
+<a class="el" href="../../d5/d8b/group___e_g_x_phys-_stellar_mass.html#gac393d64d586be3dc76ac7a98ac336514" title="Calculates the solar mass  of a star when comparing it to the mass of the sun .  See https://en...">SolarMass()</a> for \(M\) equation using the Sun as a reference. </dd></dl>
+
+</div>
+</div>
+<a id="gaa00fb881be48df4eba9838ada6bffa33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa00fb881be48df4eba9838ada6bffa33">&#9670;&nbsp;</a></span>StellarMassApproximationInSolarMass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T EGXPhys::StellarMassApproximationInSolarMass </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>starLuminosityInSolarLuminosity</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

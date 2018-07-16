@@ -8,6 +8,8 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "AstrophysicsConstants.hpp", "d3/d5c/_astrophysics_constants_8hpp.html", "d3/d5c/_astrophysics_constants_8hpp" ],
     [ "B-VColor.hpp", "d6/dda/_b-_v_color_8hpp.html", "d6/dda/_b-_v_color_8hpp" ],
     [ "B-VColor.inl", "d6/dd9/_b-_v_color_8inl.html", "d6/dd9/_b-_v_color_8inl" ],
+    [ "BolometricCorrection.hpp", "da/d91/_bolometric_correction_8hpp.html", "da/d91/_bolometric_correction_8hpp" ],
+    [ "BolometricCorrection.inl", "d7/dd8/_bolometric_correction_8inl.html", "d7/dd8/_bolometric_correction_8inl" ],
     [ "CircumstellarHabitableZone.hpp", "d5/d18/_circumstellar_habitable_zone_8hpp.html", "d5/d18/_circumstellar_habitable_zone_8hpp" ],
     [ "CircumstellarHabitableZone.inl", "d1/da3/_circumstellar_habitable_zone_8inl.html", "d1/da3/_circumstellar_habitable_zone_8inl" ],
     [ "ColorTemperature.hpp", "d4/d5b/_color_temperature_8hpp.html", "d4/d5b/_color_temperature_8hpp" ],

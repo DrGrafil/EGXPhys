@@ -61,6 +61,8 @@
 \begin{DoxyCompactList}\small\item\em Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_b-_v_color_ga0e553143a3bb121c3ae50ca96c502140}{B\+V\+Color\+To\+Tempreture\+Ballesteros}} (const T BV)
 \begin{DoxyCompactList}\small\item\em Calculates the tempreture, $T_{star}$, of a star in Kelvin from the B-\/V color index using Ballesteros\textquotesingle{} formula. This approximation assumes that stars are black bodies. \[T_{star}=4600 \left ( \frac{1}{0.92 (B-V)+ 1.7} + \frac{1}{0.92 (B-V) + 0.62} \right )\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_bolometric_correction_ga31e794be67c861c4eb84d58e8e88883c}{Bolometric\+Correction\+Visual}} (const T star\+Effective\+Surface\+Temperature\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the visual band bolometric correction, $BC_{V}$, of a star using emperical data. The bolometric conversion is used to convert the absolute visual magnitude to the absolute bolometric magnitude. \[ BC_{V}=a + b ( \log T_{eff}) + c ( \log T_{eff})^2 + ...\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga809f4c557ce6d2fe566a69c2a8a5d41b}{Circumstellar\+Habitable\+Zone\+Limit}} (const T star\+Luminosity\+InW, const T stellar\+Flux\+Effective)
 \begin{DoxyCompactList}\small\item\em Calculates the Circumstellar Habitable Zone Limits, $d_{CHZL}$ of a star. Also known as Habitable Zone Limits. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_circumstellar_habitable_zone_limit_ga0eb1003b4cfcbcafde635cefca5ae5c2}{Stellar\+Flux\+Effective\+Selsis}} (const T star\+Effective\+Surface\+Temperature\+InK, const T sun\+Effective\+Stellar\+Flux, const T a\+Model\+Parameter, const T b\+Model\+Parameter)
@@ -230,12 +232,26 @@
 \begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gac393d64d586be3dc76ac7a98ac336514}{Solar\+Mass}} (const T \&star\+Mass)
 \begin{DoxyCompactList}\small\item\em Calculates the solar mass $(M)$ of a star when comparing it to the mass of the sun $(m_\odot)$. \[M=\frac{m_{star}}{m_\odot}\] See \href{https://en.wikipedia.org/wiki/Solar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Solar\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gad4da54e02d03fe56e7da736f7d12b42c}{Stellar\+Mass\+Approximation}} (const T \&star\+Luminosity\+InW)
+\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_ga21d4a1964c4fada8367804113d9f3123}{Stellar\+Mass\+Approximation\+Inkg}} (const T \&star\+Luminosity\+InW)
+\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_gaa00fb881be48df4eba9838ada6bffa33}{Stellar\+Mass\+Approximation\+In\+Solar\+Mass}} (const T \&star\+Luminosity\+In\+Solar\+Luminosity)
+\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{namespace_e_g_x_phys_a479def48dd2b5ab72c189b1345426aca}\label{namespace_e_g_x_phys_a479def48dd2b5ab72c189b1345426aca}} 
+{\bfseries if} (Mass\+Ratio $>$ 20.\+0)
+\item 
+\mbox{\Hypertarget{namespace_e_g_x_phys_a137d35538778455b2bad69dbbe3f8049}\label{namespace_e_g_x_phys_a137d35538778455b2bad69dbbe3f8049}} 
+else {\bfseries if} (Mass\+Ratio$<$ 2.\+0)
+\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_radius_ga612cd22c37341a1864cd2fc5c858e18e}{Stellar\+Radius}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+InW)
 \begin{DoxyCompactList}\small\item\em Calculates the radius, $R$, of a star in meters using its luminosity, $L$, and its surface tempreture $T$. \[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_radius_ga59f0d5d89a857d30bff4c93713ee5bd9}{Stellar\+Radius\+From\+Luminosity\+In\+Watts}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+InW)
 \begin{DoxyCompactList}\small\item\em Calculates the radius, $R$, of a star in meters using its luminosity, $L$, and its surface tempreture $T$. \[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_radius_ga49f0848777ba12cdfc78d112d82036ce}{Stellar\+Radius\+From\+Luminosity\+In\+Solar\+Luminosity}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+In\+Solar\+Luminosity)
 \begin{DoxyCompactList}\small\item\em Calculates the radius, $R$, of a star in meters using its luminosity, $L$, and its surface tempreture $T$. \[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_radius_ga5c476c4ebcb0ad3e93a21393788d3dc2}{Stellar\+Radius\+From\+Absolute\+Magnitude}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+InW)
+\begin{DoxyCompactList}\small\item\em Calculates the radius, $R$, of a star in meters using its absolute magnitude, $M$, and its surface tempreture $T$. \[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gaf7e1f42b674fe8bb2211c40882a7d5b6}{Surface\+Gravity\+Inm\+Pers\+Squared}} (const T mass\+Inkg, const T mean\+Radius\+Inm)
 \begin{DoxyCompactList}\small\item\em Calculates the surface gravity, $g$, of a celestial body in meters per second squared. The surface gravity is a product of the gravitational constant, $G$, as well as the mass, $M$, and mean radius, $r$, of the celestial body\+: \[g = \frac{GM}{r^2}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gab5bb479758d72608ef6ada063f6c1a1b}{Surface\+Gravity\+Ing}} (const T mass\+Inkg, const T mean\+Radius\+Inm)
@@ -411,11 +427,45 @@ void \mbox{\hyperlink{group___e_g_x_phys-_kinetics-_torque_ga12a787853cab88d4041
 \subsection*{Variables}
 \begin{DoxyCompactItemize}
 \item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a18031fe471e11fca968a34ecea8aafdb}{zero\+Point\+Luminosity}} = 3.\+0128e28
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a7255d70600ab43d9a7b2544400e6da79}{sun\+Bolometric\+Luminosity}} = 3.\+0128e28
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a955fc5381e15741484ffe146d8eccdd8}{sun\+Apparent\+Bolometric\+Magnitude}} = -\/26.\+832
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a4ac32f61eb3abee399574dc1acc51b4b}{sun\+Absolute\+Bolometric\+Magnitude}} = 4.\+74
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_ab0b29a904521663fd0452458f3e06891}{jupiter\+Mass}} = 1898.\+13e24
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_ab16070b1d99b54cfb6f2f9ee9250fb14}{jupiter\+Mass\+Uncertainty}} = 0.\+19e24
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a75f9f5d512c3c8c64755daa1cfb433c7}{jupiter\+Density}} = 1.\+326
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_ade1d97dbbb33f1c2345c24ebea67e21f}{jupiter\+Radius\+Equatorial}} = 71492000
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a8438593703b79e6685c954b478947faf}{jupiter\+Radius\+Equatorial\+Uncertainty}} = 4000
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_ab803b5a7ef7f6dd4a925ebcbc6af61a1}{jupiter\+Radius\+Polar}} = 66854000
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a0340e326f1ae054e922ba82da4ee4b25}{jupiter\+Radius\+Polar\+Uncertainty}} = 10000
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a2854b5f809f290c9d1cfa786cd614e86}{jupiter\+Volumetric\+Mean\+Radius}} = 69911000
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a8e16665678753a048bc6bdfbffe514bd}{jupiter\+Volumetric\+Mean\+Radius\+Uncertainty}} = 6000
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a6aa6094f390c1057f98af6d049a0f853}{jupiter\+Flattening}} = 0.\+06487
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a21da3427de7c5f14c0c92f18d309ee21}{jupiter\+Rotation\+Period}} = 35729.\+685
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a29c07eaf609dbad71821837ed2660543}{jupiter\+Rotation\+Rate}} = 1.\+63785e-\/4
+\item 
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a82f61dffeb74af80a52a3bf5ed43eed0}{jupiter}} =
+\item 
 const double \mbox{\hyperlink{namespace_e_g_x_phys_a6e84ae13f1dbcecb215af787bbc12cd6}{Mass\+Of\+Sun}} = 1.\+9891e30
 \item 
 const double \mbox{\hyperlink{namespace_e_g_x_phys_a15b2187a46d73ac35fa7467b8fa6cb19}{Sun\+Mass}} = \mbox{\hyperlink{namespace_e_g_x_phys_a6e84ae13f1dbcecb215af787bbc12cd6}{Mass\+Of\+Sun}}
 \item 
-const double \mbox{\hyperlink{namespace_e_g_x_phys_a97be71e7f8ca4f7813362bc1dca66db5}{Sun\+Tempreture}} = 5778.\+0
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a97be71e7f8ca4f7813362bc1dca66db5}{Sun\+Tempreture}} = 5772.\+0
 \item 
 const double \mbox{\hyperlink{namespace_e_g_x_phys_a61266dc1aaacdd9a9bd0f2fa92aa21c9}{Sun\+Abs\+V\+Magnitude}} = 4.\+862
 \item 
@@ -423,7 +473,7 @@ const double \mbox{\hyperlink{namespace_e_g_x_phys_a3987543f6972eb72eb2c07d39520
 \item 
 const double \mbox{\hyperlink{namespace_e_g_x_phys_a173216c099d7915fb16e6416902fcbb8}{Sun\+Age}} = 4572.\+0
 \item 
-const double \mbox{\hyperlink{namespace_e_g_x_phys_a2e7bb27d65efea2fad0a879a36011ef2}{Surface\+Tempreture\+Of\+Sun}} = 5778.\+0
+const double \mbox{\hyperlink{namespace_e_g_x_phys_a2e7bb27d65efea2fad0a879a36011ef2}{Surface\+Tempreture\+Of\+Sun}} = 5772.\+0
 \item 
 const double \mbox{\hyperlink{namespace_e_g_x_phys_ad1bdca5cec4a0f4a4b8a18ead61de6d9}{Semimajor\+Axis\+Of\+Earth}} = 149598261000
 \item 
@@ -458,6 +508,9 @@ const double \mbox{\hyperlink{namespace_e_g_x_phys_ad790be322eb318e95b4ea609b495
 const double \mbox{\hyperlink{namespace_e_g_x_phys_a55e13f18ccd52a098969eaa5755c448e}{Lunar\+Mass}} = 7.\+342e22
 \item 
 const double \mbox{\hyperlink{namespace_e_g_x_phys_ad6c3d6fda98ef1efd005dd096890e981}{sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day}} = N\+I\+S\+T\+Const\+::gravitational\+Constant $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a6e84ae13f1dbcecb215af787bbc12cd6}{Mass\+Of\+Sun}} $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_ab4f86327f64403b843077ecc189ce52b}{seconds\+In\+Day}} $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_ab4f86327f64403b843077ecc189ce52b}{seconds\+In\+Day}} / (\mbox{\hyperlink{namespace_e_g_x_phys_a999332303a2214425184fbe23dbae0c5}{AU}}$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a999332303a2214425184fbe23dbae0c5}{AU}}$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a999332303a2214425184fbe23dbae0c5}{AU}})
+\item 
+\mbox{\Hypertarget{namespace_e_g_x_phys_acc77a9f1a840501ce0b646123a8ae2ae}\label{namespace_e_g_x_phys_acc77a9f1a840501ce0b646123a8ae2ae}} 
+double {\bfseries Mass\+Ratio} = pow(Lratio / 1.\+5, 1.\+0 / 3.\+5)
 \item 
 const double \mbox{\hyperlink{namespace_e_g_x_phys_a999332303a2214425184fbe23dbae0c5}{AU}} = 149597870700.\+0
 \item 
@@ -519,13 +572,91 @@ $v_e\ (\frac{m}{s})$ Escape velocity of Earth. \mbox{\Hypertarget{namespace_e_g_
 \subsubsection{\texorpdfstring{Geometric\+Albedo\+Of\+Earth}{GeometricAlbedoOfEarth}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Geometric\+Albedo\+Of\+Earth = 0.\+367}
 
-Geometric Albedo(dimensionless) of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_ad790be322eb318e95b4ea609b4954da9}\label{namespace_e_g_x_phys_ad790be322eb318e95b4ea609b4954da9}} 
+Geometric Albedo(dimensionless) of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a82f61dffeb74af80a52a3bf5ed43eed0}\label{namespace_e_g_x_phys_a82f61dffeb74af80a52a3bf5ed43eed0}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter@{jupiter}}
+\index{jupiter@{jupiter}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter}{jupiter}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter =}
+
+$ _{J} \ ( )$ of Jupiter in. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_a75f9f5d512c3c8c64755daa1cfb433c7}\label{namespace_e_g_x_phys_a75f9f5d512c3c8c64755daa1cfb433c7}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Density@{jupiter\+Density}}
+\index{jupiter\+Density@{jupiter\+Density}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Density}{jupiterDensity}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Density = 1.\+326}
+
+$\rho_{J} \ (\dfrafc{g}{cm^3})$ Density of Jupiter in grams per centimeter cubed. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_a6aa6094f390c1057f98af6d049a0f853}\label{namespace_e_g_x_phys_a6aa6094f390c1057f98af6d049a0f853}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Flattening@{jupiter\+Flattening}}
+\index{jupiter\+Flattening@{jupiter\+Flattening}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Flattening}{jupiterFlattening}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Flattening = 0.\+06487}
+
+$f_{J} \ (dimensionless)$ Flattening of Jupiter. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_ab0b29a904521663fd0452458f3e06891}\label{namespace_e_g_x_phys_ab0b29a904521663fd0452458f3e06891}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Mass@{jupiter\+Mass}}
+\index{jupiter\+Mass@{jupiter\+Mass}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Mass}{jupiterMass}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Mass = 1898.\+13e24}
+
+$M_{J} \ (kg)$ Mass of Jupiter in kilograms. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_ad790be322eb318e95b4ea609b4954da9}\label{namespace_e_g_x_phys_ad790be322eb318e95b4ea609b4954da9}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Jupiter\+Mass@{Jupiter\+Mass}}
 \index{Jupiter\+Mass@{Jupiter\+Mass}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Jupiter\+Mass}{JupiterMass}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Jupiter\+Mass = 1.\+89813e27}
 
-Mass(kg) Of Jupiter. $M_J$ \mbox{\Hypertarget{namespace_e_g_x_phys_a55e13f18ccd52a098969eaa5755c448e}\label{namespace_e_g_x_phys_a55e13f18ccd52a098969eaa5755c448e}} 
+Mass(kg) Of Jupiter. $M_J$ \mbox{\Hypertarget{namespace_e_g_x_phys_ab16070b1d99b54cfb6f2f9ee9250fb14}\label{namespace_e_g_x_phys_ab16070b1d99b54cfb6f2f9ee9250fb14}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Mass\+Uncertainty@{jupiter\+Mass\+Uncertainty}}
+\index{jupiter\+Mass\+Uncertainty@{jupiter\+Mass\+Uncertainty}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Mass\+Uncertainty}{jupiterMassUncertainty}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Mass\+Uncertainty = 0.\+19e24}
+
+$M_{J} \ (kg)$ Uncertainty in mass of Jupiter in kilograms. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_ade1d97dbbb33f1c2345c24ebea67e21f}\label{namespace_e_g_x_phys_ade1d97dbbb33f1c2345c24ebea67e21f}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Radius\+Equatorial@{jupiter\+Radius\+Equatorial}}
+\index{jupiter\+Radius\+Equatorial@{jupiter\+Radius\+Equatorial}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Radius\+Equatorial}{jupiterRadiusEquatorial}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Radius\+Equatorial = 71492000}
+
+$R_{J,Equat} \ (m)$ Equatorial radius of Jupiter in meters. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_a8438593703b79e6685c954b478947faf}\label{namespace_e_g_x_phys_a8438593703b79e6685c954b478947faf}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Radius\+Equatorial\+Uncertainty@{jupiter\+Radius\+Equatorial\+Uncertainty}}
+\index{jupiter\+Radius\+Equatorial\+Uncertainty@{jupiter\+Radius\+Equatorial\+Uncertainty}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Radius\+Equatorial\+Uncertainty}{jupiterRadiusEquatorialUncertainty}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Radius\+Equatorial\+Uncertainty = 4000}
+
+$R_{J,Equat} \ (m)$ Uncertainty in equatorial radius of Jupiter in meters. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_ab803b5a7ef7f6dd4a925ebcbc6af61a1}\label{namespace_e_g_x_phys_ab803b5a7ef7f6dd4a925ebcbc6af61a1}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Radius\+Polar@{jupiter\+Radius\+Polar}}
+\index{jupiter\+Radius\+Polar@{jupiter\+Radius\+Polar}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Radius\+Polar}{jupiterRadiusPolar}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Radius\+Polar = 66854000}
+
+$R_{J,Polar} \ (m)$ Polar radius of Jupiter in meters. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_a0340e326f1ae054e922ba82da4ee4b25}\label{namespace_e_g_x_phys_a0340e326f1ae054e922ba82da4ee4b25}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Radius\+Polar\+Uncertainty@{jupiter\+Radius\+Polar\+Uncertainty}}
+\index{jupiter\+Radius\+Polar\+Uncertainty@{jupiter\+Radius\+Polar\+Uncertainty}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Radius\+Polar\+Uncertainty}{jupiterRadiusPolarUncertainty}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Radius\+Polar\+Uncertainty = 10000}
+
+$R_{J,Polar} \ (m)$ Uncertainty in polar radius of Jupiter in meters. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_a21da3427de7c5f14c0c92f18d309ee21}\label{namespace_e_g_x_phys_a21da3427de7c5f14c0c92f18d309ee21}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Rotation\+Period@{jupiter\+Rotation\+Period}}
+\index{jupiter\+Rotation\+Period@{jupiter\+Rotation\+Period}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Rotation\+Period}{jupiterRotationPeriod}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Rotation\+Period = 35729.\+685}
+
+$ P_{J} \ (s)$ Rotation Period of Jupiter in seconds. Total time is 9h 55m 29.\+685s. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_a29c07eaf609dbad71821837ed2660543}\label{namespace_e_g_x_phys_a29c07eaf609dbad71821837ed2660543}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Rotation\+Rate@{jupiter\+Rotation\+Rate}}
+\index{jupiter\+Rotation\+Rate@{jupiter\+Rotation\+Rate}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Rotation\+Rate}{jupiterRotationRate}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Rotation\+Rate = 1.\+63785e-\/4}
+
+$ \omega_{J} \ (\dfrac{rad}{s})$ Rotation rate of Jupiter in radians per second. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_a2854b5f809f290c9d1cfa786cd614e86}\label{namespace_e_g_x_phys_a2854b5f809f290c9d1cfa786cd614e86}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Volumetric\+Mean\+Radius@{jupiter\+Volumetric\+Mean\+Radius}}
+\index{jupiter\+Volumetric\+Mean\+Radius@{jupiter\+Volumetric\+Mean\+Radius}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Volumetric\+Mean\+Radius}{jupiterVolumetricMeanRadius}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Volumetric\+Mean\+Radius = 69911000}
+
+$M_{J} \ (kg)$ Volumetric mean radius of Jupiter in meters. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_a8e16665678753a048bc6bdfbffe514bd}\label{namespace_e_g_x_phys_a8e16665678753a048bc6bdfbffe514bd}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!jupiter\+Volumetric\+Mean\+Radius\+Uncertainty@{jupiter\+Volumetric\+Mean\+Radius\+Uncertainty}}
+\index{jupiter\+Volumetric\+Mean\+Radius\+Uncertainty@{jupiter\+Volumetric\+Mean\+Radius\+Uncertainty}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{jupiter\+Volumetric\+Mean\+Radius\+Uncertainty}{jupiterVolumetricMeanRadiusUncertainty}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::jupiter\+Volumetric\+Mean\+Radius\+Uncertainty = 6000}
+
+$M_{J} \ (kg)$ Uncertainty in volumetric mean radius of Jupiter in meters. See N\+A\+SA, Jet Propulsion Laboratory, Horizon for data \href{https://ssd.jpl.nasa.gov/horizons.cgi}{\tt https\+://ssd.\+jpl.\+nasa.\+gov/horizons.\+cgi} . Accessed 7/16/18. \mbox{\Hypertarget{namespace_e_g_x_phys_a55e13f18ccd52a098969eaa5755c448e}\label{namespace_e_g_x_phys_a55e13f18ccd52a098969eaa5755c448e}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Lunar\+Mass@{Lunar\+Mass}}
 \index{Lunar\+Mass@{Lunar\+Mass}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Lunar\+Mass}{LunarMass}}
@@ -585,7 +716,7 @@ $min\ (s)$ Amount of seconds inside a minute. \mbox{\Hypertarget{namespace_e_g_x
 \subsubsection{\texorpdfstring{seconds\+In\+Year}{secondsInYear}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::seconds\+In\+Year = 365.\+25$\ast$day}
 
-$min\ (s)$ Amount of seconds inside a year (365.\+25 days). \mbox{\Hypertarget{namespace_e_g_x_phys_ad1bdca5cec4a0f4a4b8a18ead61de6d9}\label{namespace_e_g_x_phys_ad1bdca5cec4a0f4a4b8a18ead61de6d9}} 
+$min\ (s)$ Amount of seconds inside a year (365.\+25 days). See \href{https://www.iau.org/static/publications/stylemanual1989.pdf}{\tt https\+://www.\+iau.\+org/static/publications/stylemanual1989.\+pdf} \mbox{\Hypertarget{namespace_e_g_x_phys_ad1bdca5cec4a0f4a4b8a18ead61de6d9}\label{namespace_e_g_x_phys_ad1bdca5cec4a0f4a4b8a18ead61de6d9}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Semimajor\+Axis\+Of\+Earth@{Semimajor\+Axis\+Of\+Earth}}
 \index{Semimajor\+Axis\+Of\+Earth@{Semimajor\+Axis\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Semimajor\+Axis\+Of\+Earth}{SemimajorAxisOfEarth}}
@@ -597,7 +728,13 @@ Semimajor Axis(m) Of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a34a388ac3f9
 \subsubsection{\texorpdfstring{Sidereal\+Rotation\+Period\+Of\+Earth}{SiderealRotationPeriodOfEarth}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Sidereal\+Rotation\+Period\+Of\+Earth = 0.\+99726968$\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_ab4f86327f64403b843077ecc189ce52b}{seconds\+In\+Day}}}
 
-Sidereal Rotation Period(s) Of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a61266dc1aaacdd9a9bd0f2fa92aa21c9}\label{namespace_e_g_x_phys_a61266dc1aaacdd9a9bd0f2fa92aa21c9}} 
+Sidereal Rotation Period(s) Of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a4ac32f61eb3abee399574dc1acc51b4b}\label{namespace_e_g_x_phys_a4ac32f61eb3abee399574dc1acc51b4b}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!sun\+Absolute\+Bolometric\+Magnitude@{sun\+Absolute\+Bolometric\+Magnitude}}
+\index{sun\+Absolute\+Bolometric\+Magnitude@{sun\+Absolute\+Bolometric\+Magnitude}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{sun\+Absolute\+Bolometric\+Magnitude}{sunAbsoluteBolometricMagnitude}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::sun\+Absolute\+Bolometric\+Magnitude = 4.\+74}
+
+$M_{Bol,\odot} \ (mag)$ Sun absolute bolometric magnitude. It is a \char`\"{}defined\char`\"{} number. L\+\_\+\{0\} was set to make the absolute bolometric magnitude was 4.\+74. See the International Astronomical Union, \href{https://www.iau.org/news/announcements/detail/ann15023/}{\tt https\+://www.\+iau.\+org/news/announcements/detail/ann15023/} resolution B2. \mbox{\Hypertarget{namespace_e_g_x_phys_a61266dc1aaacdd9a9bd0f2fa92aa21c9}\label{namespace_e_g_x_phys_a61266dc1aaacdd9a9bd0f2fa92aa21c9}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Sun\+Abs\+V\+Magnitude@{Sun\+Abs\+V\+Magnitude}}
 \index{Sun\+Abs\+V\+Magnitude@{Sun\+Abs\+V\+Magnitude}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Sun\+Abs\+V\+Magnitude}{SunAbsVMagnitude}}
@@ -609,7 +746,19 @@ Absolute V Magnitude (??) of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_a17321
 \subsubsection{\texorpdfstring{Sun\+Age}{SunAge}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Sun\+Age = 4572.\+0}
 
-Age(\+Myr) of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_ad6c3d6fda98ef1efd005dd096890e981}\label{namespace_e_g_x_phys_ad6c3d6fda98ef1efd005dd096890e981}} 
+Age(\+Myr) of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_a955fc5381e15741484ffe146d8eccdd8}\label{namespace_e_g_x_phys_a955fc5381e15741484ffe146d8eccdd8}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!sun\+Apparent\+Bolometric\+Magnitude@{sun\+Apparent\+Bolometric\+Magnitude}}
+\index{sun\+Apparent\+Bolometric\+Magnitude@{sun\+Apparent\+Bolometric\+Magnitude}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{sun\+Apparent\+Bolometric\+Magnitude}{sunApparentBolometricMagnitude}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::sun\+Apparent\+Bolometric\+Magnitude = -\/26.\+832}
+
+$m_{Bol,\odot} \ (mag)$ Sun apparent bolometric magnitude. It is a \char`\"{}defined\char`\"{} number. See the International Astronomical Union, \href{https://www.iau.org/news/announcements/detail/ann15023/}{\tt https\+://www.\+iau.\+org/news/announcements/detail/ann15023/} resolution B2. \mbox{\Hypertarget{namespace_e_g_x_phys_a7255d70600ab43d9a7b2544400e6da79}\label{namespace_e_g_x_phys_a7255d70600ab43d9a7b2544400e6da79}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!sun\+Bolometric\+Luminosity@{sun\+Bolometric\+Luminosity}}
+\index{sun\+Bolometric\+Luminosity@{sun\+Bolometric\+Luminosity}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{sun\+Bolometric\+Luminosity}{sunBolometricLuminosity}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::sun\+Bolometric\+Luminosity = 3.\+0128e28}
+
+$L_{Bol,\odot} \ (W)$ Sun bolometric luminosity. It is a defined number used in bolometric magnitude stellar calculations. See the International Astronomical Union, \href{https://www.iau.org/news/announcements/detail/ann15023/}{\tt https\+://www.\+iau.\+org/news/announcements/detail/ann15023/} resolution B2. \mbox{\Hypertarget{namespace_e_g_x_phys_ad6c3d6fda98ef1efd005dd096890e981}\label{namespace_e_g_x_phys_ad6c3d6fda98ef1efd005dd096890e981}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day@{sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day}}
 \index{sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day@{sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day}{sunGravConstInAuCubedperSolarMassDay}}
@@ -631,9 +780,9 @@ $m_\odot$ (kg) Mass of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_a97be71e7f8c
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Sun\+Tempreture@{Sun\+Tempreture}}
 \index{Sun\+Tempreture@{Sun\+Tempreture}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Sun\+Tempreture}{SunTempreture}}
-{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Sun\+Tempreture = 5778.\+0}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Sun\+Tempreture = 5772.\+0}
 
-$T_\odot$(K) Tempreture of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_a942ce2ac76b5df8b08ec7827d3e20b76}\label{namespace_e_g_x_phys_a942ce2ac76b5df8b08ec7827d3e20b76}} 
+$T_\odot$(K) Tempreture of Sun. 5778K was a value from 1955 \mbox{\Hypertarget{namespace_e_g_x_phys_a942ce2ac76b5df8b08ec7827d3e20b76}\label{namespace_e_g_x_phys_a942ce2ac76b5df8b08ec7827d3e20b76}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Surface\+Tempreture\+Of\+Earth@{Surface\+Tempreture\+Of\+Earth}}
 \index{Surface\+Tempreture\+Of\+Earth@{Surface\+Tempreture\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Surface\+Tempreture\+Of\+Earth}{SurfaceTempretureOfEarth}}
@@ -643,7 +792,7 @@ $T_{\oplus,Surface}\ (K)$ Surface tempreture of Earth. \mbox{\Hypertarget{namesp
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Surface\+Tempreture\+Of\+Sun@{Surface\+Tempreture\+Of\+Sun}}
 \index{Surface\+Tempreture\+Of\+Sun@{Surface\+Tempreture\+Of\+Sun}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{Surface\+Tempreture\+Of\+Sun}{SurfaceTempretureOfSun}}
-{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Surface\+Tempreture\+Of\+Sun = 5778.\+0}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Surface\+Tempreture\+Of\+Sun = 5772.\+0}
 
 $T_\odot$(K) Tempreture of Sun surface. \mbox{\Hypertarget{namespace_e_g_x_phys_a73aaaddeacf5d59643ec5e4a53a1a251}\label{namespace_e_g_x_phys_a73aaaddeacf5d59643ec5e4a53a1a251}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Volume\+Of\+Earth@{Volume\+Of\+Earth}}
@@ -651,4 +800,10 @@ $T_\odot$(K) Tempreture of Sun surface. \mbox{\Hypertarget{namespace_e_g_x_phys_
 \subsubsection{\texorpdfstring{Volume\+Of\+Earth}{VolumeOfEarth}}
 {\footnotesize\ttfamily const double E\+G\+X\+Phys\+::\+Volume\+Of\+Earth = 4.\+0/3.\+0 $\ast$ 3.\+14 $\ast$ pow(\mbox{\hyperlink{namespace_e_g_x_phys_a11a2d4a914eb43c4095e225358293a45}{Radius\+Of\+Earth}}, 3)}
 
-$V_\oplus\ (m^3)$ Volume of Earth. 
+$V_\oplus\ (m^3)$ Volume of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a18031fe471e11fca968a34ecea8aafdb}\label{namespace_e_g_x_phys_a18031fe471e11fca968a34ecea8aafdb}} 
+\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!zero\+Point\+Luminosity@{zero\+Point\+Luminosity}}
+\index{zero\+Point\+Luminosity@{zero\+Point\+Luminosity}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
+\subsubsection{\texorpdfstring{zero\+Point\+Luminosity}{zeroPointLuminosity}}
+{\footnotesize\ttfamily const double E\+G\+X\+Phys\+::zero\+Point\+Luminosity = 3.\+0128e28}
+
+$L_{0} \ (W)$ Zero point luminosity. It is a defined number used in bolometric magnitude stellar calculations. See the International Astronomical Union, \href{https://www.iau.org/news/announcements/detail/ann15023/}{\tt https\+://www.\+iau.\+org/news/announcements/detail/ann15023/} resolution B2. 

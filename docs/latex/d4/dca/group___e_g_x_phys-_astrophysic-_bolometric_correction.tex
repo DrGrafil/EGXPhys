@@ -1,0 +1,36 @@
+\hypertarget{group___e_g_x_phys-_astrophysic-_bolometric_correction}{}\section{Bolometric Correction}
+\label{group___e_g_x_phys-_astrophysic-_bolometric_correction}\index{Bolometric Correction@{Bolometric Correction}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_bolometric_correction_ga31e794be67c861c4eb84d58e8e88883c}{E\+G\+X\+Phys\+::\+Bolometric\+Correction\+Visual}} (const T star\+Effective\+Surface\+Temperature\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the visual band bolometric correction, $BC_{V}$, of a star using emperical data. The bolometric conversion is used to convert the absolute visual magnitude to the absolute bolometric magnitude. \[ BC_{V}=a + b ( \log T_{eff}) + c ( \log T_{eff})^2 + ...\]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysic-_bolometric_correction_ga31e794be67c861c4eb84d58e8e88883c}\label{group___e_g_x_phys-_astrophysic-_bolometric_correction_ga31e794be67c861c4eb84d58e8e88883c}} 
+\index{Bolometric Correction@{Bolometric Correction}!Bolometric\+Correction\+Visual@{Bolometric\+Correction\+Visual}}
+\index{Bolometric\+Correction\+Visual@{Bolometric\+Correction\+Visual}!Bolometric Correction@{Bolometric Correction}}
+\subsubsection{\texorpdfstring{Bolometric\+Correction\+Visual()}{BolometricCorrectionVisual()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Bolometric\+Correction\+Visual (\begin{DoxyParamCaption}\item[{const T}]{star\+Effective\+Surface\+Temperature\+InK }\end{DoxyParamCaption})}
+
+
+
+Calculates the visual band bolometric correction, $BC_{V}$, of a star using emperical data. The bolometric conversion is used to convert the absolute visual magnitude to the absolute bolometric magnitude. \[ BC_{V}=a + b ( \log T_{eff}) + c ( \log T_{eff})^2 + ...\]. 
+
+\[\begin{array}{|c|c|c|c|} \hline Coeff. & \log T_{eff} < 3.70 & 3.70 < \log T_{eff} < 3.90 & \log T_{eff} > 3.90 \\ \hline a & -0.190537291496456e5 & -0.370510203809015e5 & -0.118115450538963e6 \\ b & 0.155144866764412e5 & 0.385672629965804e5 & 0.137145973583929e6 \\ c & -0.421278819301717e4 & -0.150651486316025e5 & -0.636233812100225e5 \\ d & 0.381476328422343e3 & 0.261724637119416e4 & 0.147412923562646e5 \\ e & - & -0.170623810323864e3 & -0.170587278406872e4 \\ f & - & - & 0.788731721804990e2 \\ \hline \end{array}\]
+
+See \href{https://arxiv.org/pdf/1008.3913.pdf}{\tt https\+://arxiv.\+org/pdf/1008.\+3913.\+pdf} for ON T\+HE U\+SE OF E\+M\+P\+I\+R\+I\+C\+AL B\+O\+L\+O\+M\+E\+T\+R\+IC C\+O\+R\+R\+E\+C\+T\+I\+O\+NS F\+OR S\+T\+A\+RS by Guillermo Torres where equations and numbers are taken from.
+
+
+\begin{DoxyParams}{Parameters}
+{\em star\+Effective\+Surface\+Temperature\+InK} & $T_{eff}\ (K)$ Effective surface temperature of the star (black body) in kelvin. See \href{https://en.wikipedia.org/wiki/Effective_temperature}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Effective\+\_\+temperature}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$BC_{V}\ (mag)$ Visual Bolometric Correction. 
+\end{DoxyReturn}

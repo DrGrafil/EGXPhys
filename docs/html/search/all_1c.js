@@ -42,6 +42,7 @@ var searchData=
   ['zeptometertoyoctometer',['ZeptometerToYoctometer',['../db/d65/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_s_i.html#ga0477d1a8cb246721ce00cfd7b73d5c9e',1,'EGXMath']]],
   ['zeptometertoyottameter',['ZeptometerToYottameter',['../db/d65/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_s_i.html#gaac70660b1e189b20afff8dcd02dfb105',1,'EGXMath']]],
   ['zeptometertozettameter',['ZeptometerToZettameter',['../db/d65/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_s_i.html#ga73c5c0469d7d2aa9947293128c7aed73',1,'EGXMath']]],
+  ['zeropointluminosity',['zeroPointLuminosity',['../de/dd8/namespace_e_g_x_phys.html#a18031fe471e11fca968a34ecea8aafdb',1,'EGXPhys']]],
   ['zettameterconversion_2ehpp',['ZettameterConversion.hpp',['../d0/dee/_zettameter_conversion_8hpp.html',1,'']]],
   ['zettameterconversion_2einl',['ZettameterConversion.inl',['../d8/d9d/_zettameter_conversion_8inl.html',1,'']]],
   ['zettametertoangstrom',['ZettameterToAngstrom',['../dd/dbe/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zettameter-_non-_s_i.html#ga49d813ff9592fc1fc9a184436d0849fc',1,'EGXMath']]],

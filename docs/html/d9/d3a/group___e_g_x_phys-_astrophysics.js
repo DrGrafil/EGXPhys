@@ -3,6 +3,7 @@ var group___e_g_x_phys__astrophysics =
     [ "Absolute Magnitude", "d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html", "d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude" ],
     [ "Apoapsis", "df/d12/group___e_g_x_phys-_apoapsis.html", "df/d12/group___e_g_x_phys-_apoapsis" ],
     [ "B-V Color", "d5/d86/group___e_g_x_phys-_astrophysic-_b-_v_color.html", "d5/d86/group___e_g_x_phys-_astrophysic-_b-_v_color" ],
+    [ "Bolometric Correction", "d4/dca/group___e_g_x_phys-_astrophysic-_bolometric_correction.html", "d4/dca/group___e_g_x_phys-_astrophysic-_bolometric_correction" ],
     [ "Circumstellar Habitable Zone Limit", "db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit.html", "db/dc2/group___e_g_x_phys-_circumstellar_habitable_zone_limit" ],
     [ "Color Temperature", "dd/d27/group___e_g_x_phys-_astrophysics-_color_temperature.html", "dd/d27/group___e_g_x_phys-_astrophysics-_color_temperature" ],
     [ "Declination", "d3/db8/group___e_g_x_phys-_astrophysics-_declination.html", "d3/db8/group___e_g_x_phys-_astrophysics-_declination" ],
