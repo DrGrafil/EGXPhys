@@ -17,7 +17,7 @@ var NAVTREEINDEX0 =
 "d0/d13/group___e_g_x_math-_functions-_gaussian.html#ga3747a7d047293d0e5310ba112bece627":[1,0,1,1,2],
 "d0/d13/group___e_g_x_math-_functions-_gaussian.html#ga647b46315081e299edc16a1c7f4e4032":[1,0,1,1,0],
 "d0/d13/group___e_g_x_math-_functions-_gaussian.html#gac537b8c525932979b28101cf432bcc0f":[1,0,1,1,3],
-"d0/d1e/group___e_g_x_phys-_thermodynamics.html":[1,1,10],
+"d0/d1e/group___e_g_x_phys-_thermodynamics.html":[1,1,11],
 "d0/d20/_half_life_8hpp.html":[3,0,0,2,6],
 "d0/d20/_half_life_8hpp.html#ga21d268f154fb91c1c556bbfa7fe83ac1":[3,0,0,2,6,0],
 "d0/d20/_half_life_8hpp.html#gaba3fda944d1a68ee1016a1f2f5809359":[3,0,0,2,6,1],
@@ -171,6 +171,7 @@ var NAVTREEINDEX0 =
 "d0/d84/group___e_g_x_phys-_nuclear_binding_energy.html#gae48a95188d9b71b36d02babf227b9449":[1,1,2,6,1],
 "d0/d84/group___e_g_x_phys-_nuclear_binding_energy.html#gaf229d8c0d2aa30ff95aa20e5213df3bd":[1,1,2,6,2],
 "d0/d84/group___e_g_x_phys-_nuclear_binding_energy.html#gafeed0fb7220e4900a8da011ed9fca44f":[1,1,2,6,4],
+"d0/d97/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_orbit.html":[1,1,3,0,0,2,1],
 "d0/d99/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_cu_x_unit-_astronomical.html":[1,0,0,2,3,1,0],
 "d0/d99/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_cu_x_unit-_astronomical.html#ga4e500b2f41ef6b9da3270da104a5b6fa":[1,0,0,2,3,1,0,0],
 "d0/d99/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_cu_x_unit-_astronomical.html#ga53035d7a668e8d79bdfa0dac5322e554":[1,0,0,2,3,1,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "d0/dc6/_micron_conversion_8inl.html#ga2d3ebedddec3a5a3a84405f466a6b6d6":[3,0,0,3,0,2,3,7,1],
 "d0/dc6/_micron_conversion_8inl.html#ga32266166f54e31b9dde1c47155dcb4ad":[3,0,0,3,0,2,3,7,16],
 "d0/dc6/_micron_conversion_8inl.html#ga34ef31b495ba7e34c7b92f43e0cd41a6":[3,0,0,3,0,2,3,7,17],
-"d0/dc6/_micron_conversion_8inl.html#ga34f8c07bfb65b584298dd7be114b85ad":[3,0,0,3,0,2,3,7,0],
-"d0/dc6/_micron_conversion_8inl.html#ga3510e5db7988e1fcaece5215a08eb485":[3,0,0,3,0,2,3,7,35]
+"d0/dc6/_micron_conversion_8inl.html#ga34f8c07bfb65b584298dd7be114b85ad":[3,0,0,3,0,2,3,7,0]
 };

@@ -7,6 +7,7 @@ var searchData=
   ['periodic',['Periodic',['../d0/d02/group___e_g_x_math-_functions-_periodic.html',1,'']]],
   ['polar_20radius',['Polar Radius',['../d4/d75/group___e_g_x_math-_geometry-3_d-_spheroid-_polar_radius.html',1,'']]],
   ['parallax',['Parallax',['../d8/d6d/group___e_g_x_phys-_astrophysic-_parallax.html',1,'']]],
+  ['pluto',['Pluto',['../d9/d0c/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_pluto.html',1,'']]],
   ['planck_27s_20law',['Planck&apos;s Law',['../d9/df7/group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html',1,'']]],
   ['periapsis',['Periapsis',['../d2/d40/group___e_g_x_phys-_periapsis.html',1,'']]],
   ['planetary_20mass',['Planetary Mass',['../de/d24/group___e_g_x_phys-_planetary_mass.html',1,'']]],

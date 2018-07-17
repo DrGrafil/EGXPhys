@@ -1,5 +1,8 @@
 var NAVTREEINDEX4 =
 {
+"d2/d17/group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_nautical.html#gadd6e063edb182d6461d6c35f4070072d":[1,0,0,2,1,4,4,1],
+"d2/d20/_terameter_conversion_8inl.html":[3,0,0,3,0,2,4,34],
+"d2/d20/_terameter_conversion_8inl.html#ga01da3f80c1d7cf73956140fa84ad615c":[3,0,0,3,0,2,4,34,26],
 "d2/d20/_terameter_conversion_8inl.html#ga0e5474db8b07f9fd87fa6539a02af527":[3,0,0,3,0,2,4,34,29],
 "d2/d20/_terameter_conversion_8inl.html#ga131f3ccf4db05a31f5bd5c9487da9a4e":[3,0,0,3,0,2,4,34,30],
 "d2/d20/_terameter_conversion_8inl.html#ga2347b883d209d99cd37a4f273a1c6920":[3,0,0,3,0,2,4,34,36],
@@ -47,9 +50,9 @@ var NAVTREEINDEX4 =
 "d2/d27/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_astronomical_unit-_surveyors.html#gab8120fd6b46c2eb849317bb948254c92":[1,0,0,2,0,0,5,1],
 "d2/d35/group___n_i_s_t_const-_electric_constant.html":[1,2,0,1],
 "d2/d35/group___n_i_s_t_const-_electric_constant.html#ga8c31e3e43f4ddbc5e9d499a58a8b9de1":[1,2,0,1,0],
-"d2/d36/group___e_g_x_phys-_optics.html":[1,1,6],
-"d2/d36/group___e_g_x_phys-_optics.html#ga29300a13e34da35332ca2d447b5ce82d":[1,1,6,2],
-"d2/d36/group___e_g_x_phys-_optics.html#gacc6d3b2922061214d64b89a4b8e3967a":[1,1,6,1],
+"d2/d36/group___e_g_x_phys-_optics.html":[1,1,7],
+"d2/d36/group___e_g_x_phys-_optics.html#ga29300a13e34da35332ca2d447b5ce82d":[1,1,7,2],
+"d2/d36/group___e_g_x_phys-_optics.html#gacc6d3b2922061214d64b89a4b8e3967a":[1,1,7,1],
 "d2/d38/_ellipse_focal_parameter_8hpp.html":[3,0,0,3,2,0,1,8],
 "d2/d38/_ellipse_focal_parameter_8hpp.html#ga406c026954d4f5b357e0310461ed4d1d":[3,0,0,3,2,0,1,8,4],
 "d2/d38/_ellipse_focal_parameter_8hpp.html#ga4cd01a38c72c092ef9791351948bf69b":[3,0,0,3,2,0,1,8,0],
@@ -96,6 +99,7 @@ var NAVTREEINDEX4 =
 "d2/d45/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_astronomical.html#ga7a72c84200a6ae279a9fe7499db6e7f1":[1,0,0,2,3,4,0,0],
 "d2/d48/_spheroid_polar_radius_8inl.html":[3,0,0,3,2,1,6,10],
 "d2/d48/_spheroid_polar_radius_8inl.html#gad4791a46a7efe39c63c03d2366fdd3d2":[3,0,0,3,2,1,6,10,0],
+"d2/d4c/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_neptune-_orbit.html":[1,1,3,0,0,9,1],
 "d2/d52/group___e_g_x_math-_conversions-_length_conversions-_s_i-_millimeter.html":[1,0,0,2,4,12],
 "d2/d58/group___e_g_x_math-_conversions-_length_conversions-_s_i-_yoctometer-_surveyors.html":[1,0,0,2,4,17,5],
 "d2/d58/group___e_g_x_math-_conversions-_length_conversions-_s_i-_yoctometer-_surveyors.html#ga982ac95d1a3ac5e02e983e355af983d0":[1,0,0,2,4,17,5,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX4 =
 "d2/d90/group___e_g_x_math-_conversions-_length_conversions-_imperial-_foot-_astronomical.html#gac6684ac6570b6ec9a0e30237bbb33f16":[1,0,0,2,1,0,0,2],
 "d2/d90/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_surveyors.html":[1,0,0,2,4,6,5],
 "d2/d90/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_surveyors.html#ga1ed5bf3c72c4a51beebcddf4f7e87631":[1,0,0,2,4,6,5,0],
-"d2/d90/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_surveyors.html#ga73a408111b846e3cb97aa1990135ec46":[1,0,0,2,4,6,5,1],
-"d2/d90/group___e_g_x_math-_geometry-3_d-_ellipsoid-_surface_area.html":[1,0,2,2,2,1],
-"d2/d90/group___e_g_x_math-_geometry-3_d-_ellipsoid-_surface_area.html#gae1dfe0a51a3adc5121de3ced76b4068c":[1,0,2,2,2,1,0],
-"d2/d96/group___e_g_x_math-_geometry-3_d-_cylinder.html":[1,0,2,2,0],
-"d2/d96/group___e_g_x_math-_geometry-3_d-_cylinder.html#ga5d9256549303e88a49b72e3d4c2c4a6d":[1,0,2,2,0,2]
+"d2/d90/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_surveyors.html#ga73a408111b846e3cb97aa1990135ec46":[1,0,0,2,4,6,5,1]
 };

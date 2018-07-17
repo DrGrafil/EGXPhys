@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['jupiter',['Jupiter',['../d8/df8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter.html',1,'']]],
   ['josephsonconstant',['JosephsonConstant',['../d7/d5c/group___n_i_s_t_const-_josephson_constant.html#gacafbc0c823771554a6ae27245b48d134',1,'NISTConst']]],
   ['jouletoatomicmassunit',['jouleToAtomicMassUnit',['../de/d9a/group___n_i_s_t_const-_joule.html#ga7e8cccc6b8aca9292bdaba28d92d0cc3',1,'NISTConst']]],
   ['jouletoelectronvolt',['jouleToElectronVolt',['../de/d9a/group___n_i_s_t_const-_joule.html#ga8a25948c1c135438783f418f669a9af6',1,'NISTConst']]],
@@ -11,6 +12,7 @@ var searchData=
   ['jupiter',['jupiter',['../de/dd8/namespace_e_g_x_phys.html#a82f61dffeb74af80a52a3bf5ed43eed0',1,'EGXPhys']]],
   ['jupiterdensity',['jupiterDensity',['../de/dd8/namespace_e_g_x_phys.html#a75f9f5d512c3c8c64755daa1cfb433c7',1,'EGXPhys']]],
   ['jupiterflattening',['jupiterFlattening',['../de/dd8/namespace_e_g_x_phys.html#a6aa6094f390c1057f98af6d049a0f853',1,'EGXPhys']]],
+  ['jupiterhydrostaticflattening',['jupiterHydrostaticFlattening',['../de/dd8/namespace_e_g_x_phys.html#a7c18622d09bcb8cc8a7998ec1a453968',1,'EGXPhys']]],
   ['jupitermass',['jupiterMass',['../de/dd8/namespace_e_g_x_phys.html#ab0b29a904521663fd0452458f3e06891',1,'EGXPhys::jupiterMass()'],['../de/dd8/namespace_e_g_x_phys.html#ad790be322eb318e95b4ea609b4954da9',1,'EGXPhys::JupiterMass()']]],
   ['jupitermassuncertainty',['jupiterMassUncertainty',['../de/dd8/namespace_e_g_x_phys.html#ab16070b1d99b54cfb6f2f9ee9250fb14',1,'EGXPhys']]],
   ['jupiterradiusequatorial',['jupiterRadiusEquatorial',['../de/dd8/namespace_e_g_x_phys.html#ade1d97dbbb33f1c2345c24ebea67e21f',1,'EGXPhys']]],

@@ -19,6 +19,126 @@
 
 // Note about astronomy symbols https://space.meta.stackexchange.com/questions/700/feature-request-add-marvosym-package-to-our-mathjax-set-for-celestial-body-sym
 
+
+///     @defgroup EGXPhys-Constants-Astrophysics Astrophysics Constants
+///     @ingroup EGXPhys-Constants
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem Solar System
+///     @ingroup EGXPhys-Constants-Astrophysics
+
+
+///     Planets and stars
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Sun Sun
+///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Sun-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Sun
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Sun-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Sun
+
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Mercury Mercury
+///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Mercury-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Mercury
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Mercury-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Mercury
+
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Venus Venus
+///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Venus-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Venus
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Venus-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Venus
+
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Earth Earth
+///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Earth-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Earth
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Earth-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Earth
+
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Moon Moon
+///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Moon-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Moon
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Moon-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Moon
+
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Mars Mars
+///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Mars-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Mars
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Mars-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Mars
+
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Jupiter Jupiter
+///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Jupiter-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Jupiter
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Jupiter-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Jupiter
+
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Saturn Saturn
+///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Saturn-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Saturn
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Saturn-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Saturn
+
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Uruanus Uruanus
+///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Uruanus-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Uruanus
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Uruanus-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Uruanus
+
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Neptune Neptune
+///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Neptune-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Neptune
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Neptune-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Neptune
+
+
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Pluto Pluto
+///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Pluto-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Pluto
+
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Pluto-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Pluto
+
+
 namespace EGXPhys
 {
     //Stellar Constants
@@ -50,56 +170,59 @@ namespace EGXPhys
 
     //Jupiter
 
-    const double jupiterMass = 1898.13e24;                                  /**< \f$M_{J} \ (kg)\f$ Mass of Jupiter in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiterMassUncertainty = 0.19e24;                          /**< \f$M_{J} \ (kg)\f$ Uncertainty in mass of Jupiter in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
+    const double jupiterMass = 1898.13e24;                                  /**< \f$M_{J} \ (kg)\f$ Mass of Jupiter in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiterMassUncertainty = 0.19e24;                          /**< \f$M_{J} \ (kg)\f$ Uncertainty in mass of Jupiter in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
 
-    const double jupiterDensity = 1.326;                                    /**< \f$\rho_{J} \ (\dfrafc{g}{cm^3})\f$ Density of Jupiter in grams per centimeter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
+    const double jupiterDensity = 1326.0;                                    /**< \f$\rho_{J} \ (\dfrafc{kg}{m^3})\f$ Density of Jupiter in kg per meter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
 
-    const double jupiterRadiusEquatorial = 71492000;                        /**< \f$R_{J,Equat} \ (m)\f$ Equatorial radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiterRadiusEquatorialUncertainty = 4000;                 /**< \f$R_{J,Equat} \ (m)\f$ Uncertainty in equatorial radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
+    const double jupiterRadiusEquatorial = 71492000;                        /**< \f$R_{J,Equat} \ (m)\f$ Equatorial radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiterRadiusEquatorialUncertainty = 4000;                 /**< \f$R_{J,Equat} \ (m)\f$ Uncertainty in equatorial radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
 
-    const double jupiterRadiusPolar = 66854000;                             /**< \f$R_{J,Polar} \ (m)\f$ Polar radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiterRadiusPolarUncertainty = 10000;                     /**< \f$R_{J,Polar} \ (m)\f$ Uncertainty in polar radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
+    const double jupiterRadiusPolar = 66854000;                             /**< \f$R_{J,Polar} \ (m)\f$ Polar radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiterRadiusPolarUncertainty = 10000;                     /**< \f$R_{J,Polar} \ (m)\f$ Uncertainty in polar radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
 
-    const double jupiterVolumetricMeanRadius = 69911000;                    /**< \f$M_{J} \ (kg)\f$ Volumetric mean radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiterVolumetricMeanRadiusUncertainty = 6000;             /**< \f$M_{J} \ (kg)\f$ Uncertainty in volumetric mean radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
+    const double jupiterVolumetricMeanRadius = 69911000;                    /**< \f$M_{J} \ (kg)\f$ Volumetric mean radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiterVolumetricMeanRadiusUncertainty = 6000;             /**< \f$M_{J} \ (kg)\f$ Uncertainty in volumetric mean radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
 
-    const double jupiterFlattening = 0.06487;                               /**< \f$f_{J} \ (dimensionless)\f$ Flattening of Jupiter. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-
-    const double jupiterRotationPeriod = 35729.685;                         /**< \f$ P_{J} \ (s)\f$ Rotation Period of Jupiter in seconds. Total time is 9h 55m 29.685s. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiterRotationRate = 1.63785e-4;                          /**< \f$ \omega_{J} \ (\dfrac{rad}{s})\f$ Rotation rate of Jupiter in radians per second. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    //const double jupiterm=w^2a^3/GM = 0.15481;                              /**< \f$ _{J} \ (dimensionless )\f$  of Jupiter. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
+    const double jupiterFlattening = 0.06487;                               /**< \f$f_{J} \ (dimensionless)\f$ Flattening of Jupiter. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
 
 
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
 
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
-    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. */
+    const double jupiterRotationPeriod = 35729.685;                         /**< \f$ P_{J} \ (s)\f$ Rotation Period of Jupiter in seconds. Total time is 9h 55m 29.685s. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiterRotationRate = 1.63785e-4;                          /**< \f$ \omega_{J} \ (\dfrac{rad}{s})\f$ Rotation rate of Jupiter in radians per second. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    //const double jupiterm=w^2a^3/GM = 0.15481;                            /**< \f$ _{J} \ (dimensionless)\f$  of Jupiter. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+   
+    const double jupiterHydrostaticFlattening = 0.06509;                    /**< \f$ fh_{J} \ (dimensionless)\f$ Hydrostatic flattening of Jupiter. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+
+
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    const double jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
 
 
 

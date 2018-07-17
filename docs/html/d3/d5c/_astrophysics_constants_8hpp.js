@@ -9,6 +9,7 @@ var _astrophysics_constants_8hpp =
     [ "jupiter", "d3/d5c/_astrophysics_constants_8hpp.html#a82f61dffeb74af80a52a3bf5ed43eed0", null ],
     [ "jupiterDensity", "d3/d5c/_astrophysics_constants_8hpp.html#a75f9f5d512c3c8c64755daa1cfb433c7", null ],
     [ "jupiterFlattening", "d3/d5c/_astrophysics_constants_8hpp.html#a6aa6094f390c1057f98af6d049a0f853", null ],
+    [ "jupiterHydrostaticFlattening", "d3/d5c/_astrophysics_constants_8hpp.html#a7c18622d09bcb8cc8a7998ec1a453968", null ],
     [ "jupiterMass", "d3/d5c/_astrophysics_constants_8hpp.html#ab0b29a904521663fd0452458f3e06891", null ],
     [ "JupiterMass", "d3/d5c/_astrophysics_constants_8hpp.html#ad790be322eb318e95b4ea609b4954da9", null ],
     [ "jupiterMassUncertainty", "d3/d5c/_astrophysics_constants_8hpp.html#ab16070b1d99b54cfb6f2f9ee9250fb14", null ],

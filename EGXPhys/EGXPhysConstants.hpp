@@ -20,6 +20,8 @@
 //=================================
 //
 
+///     @defgroup EGXPhys-Constants Constants
+///     @ingroup EGXPhys
 
 namespace EGXPhys
 {

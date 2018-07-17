@@ -252,6 +252,7 @@ var searchData=
   ['astrophysics',['Astrophysics',['../d9/d3a/group___e_g_x_phys-_astrophysics.html',1,'']]],
   ['absolute_20magnitude',['Absolute Magnitude',['../d6/d7b/group___e_g_x_phys-_astrophysics-_absolute_magnitude.html',1,'']]],
   ['atomic',['Atomic',['../df/d5f/group___e_g_x_phys-_atomic.html',1,'']]],
+  ['astrophysics_20constants',['Astrophysics Constants',['../d7/d8b/group___e_g_x_phys-_constants-_astrophysics.html',1,'']]],
   ['angular_20acceleration',['Angular Acceleration',['../d9/ddc/group___e_g_x_phys-_kinetics-_angular_acceleration.html',1,'']]],
   ['alpha_20decay',['Alpha Decay',['../d9/de2/group___e_g_x_phys-_q_value-_alpha.html',1,'']]],
   ['adopted',['Adopted',['../db/db9/group___n_i_s_t_const-_adopted.html',1,'']]],
