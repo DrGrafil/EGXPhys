@@ -12,6 +12,8 @@ var searchData=
   ['egxphys_20library',['EGXPhys Library',['../da/ddd/group___e_g_x_phys.html',1,'']]],
   ['escape_20velocity',['Escape Velocity',['../de/d53/group___e_g_x_phys-_astrophysics-_escape_velocity.html',1,'']]],
   ['earth',['Earth',['../de/db1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth.html',1,'']]],
+  ['egxphys_2dconstants_2dastrophysics_2dsolarsystem_2dzxz_2dbulk',['EGXPhys-Constants-Astrophysics-SolarSystem-ZXZ-Bulk',['../d0/d48/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_z_x_z-_bulk.html',1,'']]],
+  ['egxphys_2dconstants_2dastrophysics_2dsolarsystem_2dzxz_2dorbit',['EGXPhys-Constants-Astrophysics-SolarSystem-ZXZ-Orbit',['../de/df7/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_z_x_z-_orbit.html',1,'']]],
   ['eccentricity',['Eccentricity',['../d9/de5/group___e_g_x_phys-_eccentricity.html',1,'']]],
   ['electrodynamics',['Electrodynamics',['../d7/d7b/group___e_g_x_phys-_electrodynamics.html',1,'']]],
   ['electron_20capture',['Electron Capture',['../db/dfb/group___e_g_x_phys-_q_value-_electron_capture.html',1,'']]],

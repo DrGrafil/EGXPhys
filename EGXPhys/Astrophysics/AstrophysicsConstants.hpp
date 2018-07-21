@@ -176,11 +176,11 @@ namespace EGXPhys
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Mercury-Bulk
     /// @{
     EGXPHYS_CONSTANT mercuryMass = 0.33011e24;                                  /**< \f$M_{Me} \ (kg)\f$ Mass of Mercury in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
-    EGXPHYS_CONSTANT mercuryDensity = 5427;                                     /**< \f$\rho_{Me} \ (\dfrafc{kg}{m^3})\f$ Density of Mercury in kg per meter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
+    EGXPHYS_CONSTANT mercuryDensity = 5427;                                     /**< \f$\rho_{Me} \ (\dfrac{kg}{m^3})\f$ Density of Mercury in kg per meter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
     
-    EGXPHYS_CONSTANT mercuryRadiusEquatorial = 2439.7;                          /**< \f$R_{Me,Equat} \ (m)\f$ Equatorial radius of Mercury in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
-    EGXPHYS_CONSTANT mercuryRadiusPolar = 2439.7;                               /**< \f$R_{Me,Polar} \ (m)\f$ Polar radius of Mercury in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
-    EGXPHYS_CONSTANT mercuryVolumetricMeanRadius = 2439.7;                      /**< \f$M_{Me} \ (kg)\f$ Volumetric mean radius of Mercury in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
+    EGXPHYS_CONSTANT mercuryRadiusEquatorial = 2439.7e3;                          /**< \f$R_{Me,Equat} \ (m)\f$ Equatorial radius of Mercury in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
+    EGXPHYS_CONSTANT mercuryRadiusPolar = 2439.7e3;                               /**< \f$R_{Me,Polar} \ (m)\f$ Polar radius of Mercury in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
+    EGXPHYS_CONSTANT mercuryVolumetricMeanRadius = 2439.7e3;                      /**< \f$M_{Me} \ (kg)\f$ Volumetric mean radius of Mercury in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
 
     EGXPHYS_CONSTANT mercuryFlattening = 0.0;                                   /**< \f$f_{Me} \ (dimensionless)\f$ Flattening of Mercury. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
 
@@ -194,7 +194,7 @@ namespace EGXPhys
     EGXPHYS_CONSTANT mercurySolarIrradiance = 9082.7;                           /**< \f$ Q_{Me} \ (\dfrac{W}{m^2})\f$ Solar irradiance of Mercury in watts per meter squared. The solar energy landing on mercury per unit area. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
     
     EGXPHYS_CONSTANT mercuryMomentOfInertia = 0.35;                             /**< \f$ I_{Me} \ (dimensionless)\f$ The moment of inertia of Mercury. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
-    EGXPHYS_CONSTANT mercuryJ2 = 50.3;                                          /**< \f$ J_2_{Me} \ (dimensionless)\f$ J_2 perterbation of Mercury. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
+    EGXPHYS_CONSTANT mercuryJ2 = 50.3;                                          /**< \f$ J_{2,Me} \ (dimensionless)\f$ J_2 perterbation of Mercury. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html */
     /// @}
 
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Mercury-Orbit
@@ -218,7 +218,7 @@ namespace EGXPhys
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Venus-Bulk
     /// @{
     EGXPHYS_CONSTANT venusMass = 4.8675e24;                                     /**< \f$M_{V} \ (kg)\f$ Mass of Venus in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html */
-    EGXPHYS_CONSTANT venusDensity = 5243.0;                                     /**< \f$\rho_{V} \ (\dfrafc{kg}{m^3})\f$ Density of Venus in kg per meter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html */
+    EGXPHYS_CONSTANT venusDensity = 5243.0;                                     /**< \f$\rho_{V} \ (\dfrac{kg}{m^3})\f$ Density of Venus in kg per meter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html */
 
     EGXPHYS_CONSTANT venusRadiusEquatorial = 6051.8e3;                          /**< \f$R_{V,Equat} \ (m)\f$ Equatorial radius of Venus in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html */
     EGXPHYS_CONSTANT venusRadiusPolar = 6051.8e3;                               /**< \f$R_{V,Polar} \ (m)\f$ Polar radius of Venus in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html */
@@ -236,7 +236,7 @@ namespace EGXPhys
     EGXPHYS_CONSTANT venusSolarIrradiance = 2601.3;                             /**< \f$ Q_{V} \ (\dfrac{W}{m^2})\f$ Solar irradiance of Venus in watts per meter squared. The solar energy landing on venus per unit area. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html */
     
     EGXPHYS_CONSTANT venusMomentOfInertia = 0.33;                               /**< \f$ I_{V} \ (dimensionless)\f$ The moment of inertia of Venus. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html */
-    EGXPHYS_CONSTANT venusJ2 = 4.458e-6;                                        /**< \f$ J_2_{V} \ (dimensionless)\f$ J_2 perterbation of Venus. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html */
+    EGXPHYS_CONSTANT venusJ2 = 4.458e-6;                                        /**< \f$ J_{2,V} \ (dimensionless)\f$ J_2 perterbation of Venus. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html */
     /// @}
 
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Venus-Orbit
@@ -260,7 +260,7 @@ namespace EGXPhys
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Earth-Bulk
     /// @{
     EGXPHYS_CONSTANT earthMass = 5.9723e24;                                     /**< \f$M_{\oplus} \ (kg)\f$ Mass of Earth in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
-    EGXPHYS_CONSTANT earthDensity = 5514.0;                                     /**< \f$\rho_{\oplus} \ (\dfrafc{kg}{m^3})\f$ Density of Earth in kg per meter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthDensity = 5514.0;                                     /**< \f$\rho_{\oplus} \ (\dfrac{kg}{m^3})\f$ Density of Earth in kg per meter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
 
     EGXPHYS_CONSTANT earthRadiusEquatorial = 6378.137e3;                        /**< \f$R_{\oplus,Equat} \ (m)\f$ Equatorial radius of Earth in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
     EGXPHYS_CONSTANT earthRadiusPolar = 6356.752e3;                             /**< \f$R_{\oplus,Polar} \ (m)\f$ Polar radius of Earth in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
@@ -278,28 +278,65 @@ namespace EGXPhys
     EGXPHYS_CONSTANT earthSolarIrradiance = 1361.0;                             /**< \f$ Q_{\oplus} \ (\dfrac{W}{m^2})\f$ Solar irradiance of Earth in watts per meter squared. The solar energy landing on earth per unit area. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
 
     EGXPHYS_CONSTANT earthMomentOfInertia = 0.3308;                             /**< \f$ I_{\oplus} \ (dimensionless)\f$ The moment of inertia of Earth. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
-    EGXPHYS_CONSTANT earthJ2 = 1082.63e-6;                                      /**< \f$ J_2_{\oplus} \ (dimensionless)\f$ J_2 perterbation of Earth. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthJ2 = 1082.63e-6;                                      /**< \f$ J_{2,\oplus} \ (dimensionless)\f$ J_2 perterbation of Earth. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
     /// @}
 
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Earth-Orbit
     /// @{
-    EGXPHYS_CONSTANT earthSemimajorAxis = 149.60e9;                           /**< \f$ a_{\oplus} \ (m)\f$ Semi-major axis of Earth in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
-    EGXPHYS_CONSTANT earthSiderealOrbitPeriod = 365.256 * secondsInDay;      /**< \f$ T_{\oplus,sidereal} \ (s)\f$ Sidereal orbit period of Earth in seconds. The time it takes the body to make one revolution about the Sun relative to the fixed stars. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
-    EGXPHYS_CONSTANT earthTropicalOrbitPeriod = 365.242 * secondsInDay;      /**< \f$ T_{\oplus,trop} \ (s)\f$ Tropical orbit period of Earth in seconds. The average time for the body to make one revolution about the Sun from one point in its seasonal orbit to the equivalent point. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthSemimajorAxis = 149.60e9;                             /**< \f$ a_{\oplus} \ (m)\f$ Semi-major axis of Earth in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthSiderealOrbitPeriod = 365.256 * secondsInDay;         /**< \f$ T_{\oplus,sidereal} \ (s)\f$ Sidereal orbit period of Earth in seconds. The time it takes the body to make one revolution about the Sun relative to the fixed stars. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthTropicalOrbitPeriod = 365.242 * secondsInDay;         /**< \f$ T_{\oplus,trop} \ (s)\f$ Tropical orbit period of Earth in seconds. The average time for the body to make one revolution about the Sun from one point in its seasonal orbit to the equivalent point. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
     // none for earth EGXPHYS_CONSTANT earthSynodicOrbitPeriod = * secondsInDay;         /**< \f$ T_{\oplus,syn} \ (s)\f$ Synodic period of Earth in seconds. The time between similar configurations in the orbit of the planet and Earth. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
-    EGXPHYS_CONSTANT earthPerihelion = 147.09e9;                              /**< \f$ r_{\oplus,peri} \ (m)\f$ Perihelion of Earth in meters. Distance when it is closets to the Sun. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
-    EGXPHYS_CONSTANT earthAphelion = 152.10e9;                                /**< \f$ r_{\oplus,aphe} \ (m)\f$ Aphelion of Earth in meters. Distance when it is furthest from the Sun. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
-    EGXPHYS_CONSTANT earthOrbitInclination = 0.0;                           /**< \f$ \theta_{\oplus,orbit} \ (deg)\f$ Orbit inclination of Earth in degrees. The inclination of the orbit to the ecliptic. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
-    EGXPHYS_CONSTANT earthOrbitEccentricity = 0.0167;                         /**< \f$ e_{\oplus} \ (dimensionless)\f$ Orbit eccentricity of Earth. A measure of the circularity of the orbit. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthPerihelion = 147.09e9;                                /**< \f$ r_{\oplus,peri} \ (m)\f$ Perihelion of Earth in meters. Distance when it is closets to the Sun. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthAphelion = 152.10e9;                                  /**< \f$ r_{\oplus,aphe} \ (m)\f$ Aphelion of Earth in meters. Distance when it is furthest from the Sun. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthOrbitInclination = 0.0;                               /**< \f$ \theta_{\oplus,orbit} \ (deg)\f$ Orbit inclination of Earth in degrees. The inclination of the orbit to the ecliptic. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthOrbitEccentricity = 0.0167;                           /**< \f$ e_{\oplus} \ (dimensionless)\f$ Orbit eccentricity of Earth. A measure of the circularity of the orbit. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
 
-    EGXPHYS_CONSTANT earthSiderealRotationPeriod = 23.9345 * secondsInHour;                 /**< \f$ P_{\oplus} \ (s)\f$ Sidereal rotation period of Earth in seconds. Total time is 9h 55m 29.685s. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthSiderealRotationPeriod = 23.9345 * secondsInHour;     /**< \f$ P_{\oplus} \ (s)\f$ Sidereal rotation period of Earth in seconds. Total time is 9h 55m 29.685s. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
     // Weirdness with the rates reported EGXPHYS_CONSTANT earthRotationRate = ;                          /**< \f$ \omega_{\oplus} \ (\dfrac{rad}{s})\f$ Rotation rate of Earth in radians per second. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
-    EGXPHYS_CONSTANT earthDayLength = 24.0000 * secondsInHour;                 /**< \f$ Day_{\oplus} \ (s)\f$ Length of a day in Earth in second. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
-    EGXPHYS_CONSTANT earthObliquityToOrbit = 23.44;                            /**< \f$ \theta_{\oplus,obliq} \ (deg)\f$ Obliquity to orbit of Earth in degrees. The angle between Earth's equator and the it's orbital plane, with north defined by the right-hand rule. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
-    EGXPHYS_CONSTANT earthInclinationOfEquator = 23.44;                        /**< \f$ \theta_{\oplus,incli} \ (deg)\f$ Inclination of equator of Earth in degrees. The angle between Earth's equator and orbital plane with north defined as pole axis above (north of) the plane of the solar system. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthDayLength = 24.0000 * secondsInHour;                  /**< \f$ Day_{\oplus} \ (s)\f$ Length of a day in Earth in second. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthObliquityToOrbit = 23.44;                             /**< \f$ \theta_{\oplus,obliq} \ (deg)\f$ Obliquity to orbit of Earth in degrees. The angle between Earth's equator and the it's orbital plane, with north defined by the right-hand rule. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    EGXPHYS_CONSTANT earthInclinationOfEquator = 23.44;                         /**< \f$ \theta_{\oplus,incli} \ (deg)\f$ Inclination of equator of Earth in degrees. The angle between Earth's equator and orbital plane with north defined as pole axis above (north of) the plane of the solar system. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
     /// @}
 
 
+    /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Moon-Bulk
+    /// @{
+    EGXPHYS_CONSTANT moonMass = 0.07346e24;                                     /**< \f$M_{\circ} \ (kg)\f$ Mass of Moon in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonDensity = 3344.0;                                      /**< \f$\rho_{\circ} \ (\dfrac{kg}{m^3})\f$ Density of Moon in kg per meter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+
+    EGXPHYS_CONSTANT moonRadiusEquatorial = 1738.1e3;                           /**< \f$R_{\circ,Equat} \ (m)\f$ Equatorial radius of Moon in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonRadiusPolar = 1736.0e3;                                /**< \f$R_{\circ,Polar} \ (m)\f$ Polar radius of Moon in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonVolumetricMeanRadius = 1737.4e3;                       /**< \f$M_{\circ} \ (kg)\f$ Volumetric mean radius of Moon in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+
+    EGXPHYS_CONSTANT moonFlattening = 0.0012;                                   /**< \f$f_{\circ} \ (dimensionless)\f$ Flattening of Moon. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+
+    EGXPHYS_CONSTANT moonGravitationalMass = 0.00490e15;                        /**< \f$ GM_{\circ} \ (\dfrac{m^3}{s^2})\f$ Gravitational constant times the mass of Moon in meter cubed per second squared. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonSurfaceGravityEquator = 1.62;                          /**< \f$ G_{\circ,Equat.} \ (\dfrac{m}{s^2})\f$ Equatorial gravitational acceleration at the surface of Moon in meters per second squared. Does not including the effects of rotation. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonSurfaceGravityPolar = 1.62;                            /**< \f$ G_{\circ,Polar} \ (\dfrac{m}{s^2})\f$ Equatorial gravitational acceleration at the surface of Moon in meters per second squared. Does not including the effects of rotation. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+
+    EGXPHYS_CONSTANT moonGeometricAlbedo = 0.12;                                /**< \f$ p_{\circ} \ (dimensionless)\f$ Geometric albedo of Moon. The ratio of the body's brightness at a phase angle of zero to the brightness of a perfectly diffusing disk with the same position and apparent size. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonBondAlbedo = 0.11;                                     /**< \f$ A_{\circ} \ (dimensionless)\f$ Bond albedo of Moon. The fraction of incident solar radiation reflected back into space without absorption. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonVBandMagnitude = -0.08;                                /**< \f$ V(1,0)_{\circ} \ (dimensionless)\f$ Visual magnitude of Moon if it were one AU from the Earth at a phase angle of zero . See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonSolarIrradiance = 1361.0;                              /**< \f$ Q_{\circ} \ (\dfrac{W}{m^2})\f$ Solar irradiance of Moon in watts per meter squared. The solar energy landing on moon per unit area. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+
+    EGXPHYS_CONSTANT moonMomentOfInertia = 0.394;                               /**< \f$ I_{\circ} \ (dimensionless)\f$ The moment of inertia of Moon. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonJ2 = 202.7e-6;                                         /**< \f$ J_{2,\circ} \ (dimensionless)\f$ J_2 perterbation of Moon. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    /// @}
+
+    /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Moon-Orbit
+    /// @{
+    EGXPHYS_CONSTANT moonSemimajorAxis = 0.3844e6;                           /**< \f$ a_{\circ} \ (m)\f$ Semi-major axis of Moon in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonSynodicOrbitPeriod = 29.53 * secondsInDay;         /**< \f$ T_{\circ,syn} \ (s)\f$ Synodic period of Moon in seconds. The time between similar configurations in the orbit of the planet and Earth. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonPerigee = 0.3633e6;                              /**< \f$ r_{\circ,peri} \ (m)\f$ Perigee of Moon in meters. Distance when it is closets to the Earth. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonApogee = 0.4055e6;                                /**< \f$ r_{\circ,apog} \ (m)\f$ Apogee of Moon in meters. Distance when it is furthest from the Earth. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonOrbitInclination = 5.145;                           /**< \f$ \theta_{\circ,orbit} \ (deg)\f$ Orbit inclination of Moon in degrees. The inclination of the orbit to the ecliptic. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonOrbitEccentricity = 0.0549;                         /**< \f$ e_{\circ} \ (dimensionless)\f$ Orbit eccentricity of Moon. A measure of the circularity of the orbit. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+
+    EGXPHYS_CONSTANT moonSiderealRotationPeriod = 655.728 * secondsInHour;                 /**< \f$ P_{\circ} \ (s)\f$ Sidereal rotation period of Moon in seconds. Total time is 9h 55m 29.685s. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    // Weirdness with the rates reported EGXPHYS_CONSTANT moonRotationRate = ;                          /**< \f$ \omega_{\circ} \ (\dfrac{rad}{s})\f$ Rotation rate of Moon in radians per second. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    EGXPHYS_CONSTANT moonObliquityToOrbit = 6.68;                     /**< \f$ \theta_{\circ,obliq} \ (deg)\f$ Obliquity to orbit of Moon in degrees. The angle between Moon's equator and the it's orbital plane, with north defined by the right-hand rule. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html */
+    /// @}
 
 
 
@@ -322,7 +359,7 @@ namespace EGXPhys
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Jupiter-Bulk
     /// @{
     EGXPHYS_CONSTANT jupiterMass = 1898.13e24;                                  /**< \f$M_{J} \ (kg)\f$ Mass of Jupiter in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-    EGXPHYS_CONSTANT jupiterDensity = 1326.0;                                    /**< \f$\rho_{J} \ (\dfrafc{kg}{m^3})\f$ Density of Jupiter in kg per meter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterDensity = 1326.0;                                    /**< \f$\rho_{J} \ (\dfrac{kg}{m^3})\f$ Density of Jupiter in kg per meter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
 
     EGXPHYS_CONSTANT jupiterRadiusEquatorial = 71492000;                        /**< \f$R_{J,Equat} \ (m)\f$ Equatorial radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
     EGXPHYS_CONSTANT jupiterRadiusPolar = 66854000;                             /**< \f$R_{J,Polar} \ (m)\f$ Polar radius of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
@@ -340,7 +377,7 @@ namespace EGXPhys
     EGXPHYS_CONSTANT jupiterSolarIrradiance = 50.26;                            /**< \f$ Q_{J} \ (\dfrac{W}{m^2})\f$ Solar irradiance of Jupiter in watts per meter squared. The solar energy landing on jupiter per unit area. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
     
     EGXPHYS_CONSTANT jupiterMomentOfInertia = 0.254;                            /**< \f$ I_{J} \ (dimensionless)\f$ The moment of inertia of Jupiter. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-    EGXPHYS_CONSTANT jupiterJ2 = 3343.43e-6;                                    /**< \f$ J_2_{J} \ (dimensionless)\f$ J_2 perterbation of Jupiter. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterJ2 = 3343.43e-6;                                    /**< \f$ J_{2,J} \ (dimensionless)\f$ J_2 perterbation of Jupiter. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
     /// @}
 
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Mercury-Orbit
@@ -381,6 +418,7 @@ namespace EGXPhys
 
 
 
+        
 
 
 
@@ -393,10 +431,7 @@ namespace EGXPhys
 
 
 
-
-
-
-
+    
 
 
 		//Sun
@@ -410,6 +445,7 @@ namespace EGXPhys
 	EGXPHYS_CONSTANT SunAge = 4572.0;											/**< Age(Myr) of Sun. */
     EGXPHYS_CONSTANT SurfaceTempretureOfSun = 5772.0;							/**< \f$T_\odot\f$(K) Tempreture of Sun surface. */
 		//Earth
+    
 	EGXPHYS_CONSTANT SemimajorAxisOfEarth = 149598261000;						/**< Semimajor Axis(m) Of Earth. */
 	EGXPHYS_CONSTANT EccentricityOfEarth = 0.01671123;                     	 	/**< Eccentricity(dimensionless) of Earth. */
 	EGXPHYS_CONSTANT BondAlbedoOfEarth = 0.306;									/**< Bond Albedo(dimensionless) of Earth. */
