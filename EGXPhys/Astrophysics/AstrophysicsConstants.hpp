@@ -172,7 +172,60 @@ namespace EGXPhys
     *       Planets           *
     ***************************/
 
-    /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Jupiter-Orbit
+    
+    /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-ZXZ-Bulk
+    /// @{
+    EGXPHYS_CONSTANT zZzXzZzMass = ;                                  /**< \f$M_{ZSZ} \ (kg)\f$ Mass of ZXZ in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzMassUncertainty = ;                          /**< \f$M_{ZSZ} \ (kg)\f$ Uncertainty in mass of ZXZ in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+
+    EGXPHYS_CONSTANT zZzXzZzDensity = ;                                    /**< \f$\rho_{ZSZ} \ (\dfrafc{kg}{m^3})\f$ Density of ZXZ in kg per meter cubed. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+
+    EGXPHYS_CONSTANT zZzXzZzRadiusEquatorial = ;                        /**< \f$R_{ZSZ,Equat/} \ (m)\f$ Equatorial radius of ZXZ in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzRadiusEquatorialUncertainty = ;                 /**< \f$R_{ZSZ,Equat.} \ (m)\f$ Uncertainty in equatorial radius of ZXZ in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+
+    EGXPHYS_CONSTANT zZzXzZzRadiusPolar = ;                             /**< \f$R_{ZSZ,Polar} \ (m)\f$ Polar radius of ZXZ in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzRadiusPolarUncertainty = ;                     /**< \f$R_{ZSZ,Polar} \ (m)\f$ Uncertainty in polar radius of ZXZ in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+
+    EGXPHYS_CONSTANT zZzXzZzVolumetricMeanRadius = ;                    /**< \f$M_{ZSZ} \ (kg)\f$ Volumetric mean radius of ZXZ in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzVolumetricMeanRadiusUncertainty = ;             /**< \f$M_{ZSZ} \ (kg)\f$ Uncertainty in volumetric mean radius of ZXZ in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+
+    EGXPHYS_CONSTANT zZzXzZzFlattening = ;                               /**< \f$f_{ZSZ} \ (dimensionless)\f$ Flattening of ZXZ. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+
+    EGXPHYS_CONSTANT zZzXzZzGravitationalMass = ;                  /**< \f$ GM_{ZSZ} \ (\dfrac{m^3}{s^2})\f$ Gravitational constant times the mass of ZXZ in meter cubed per second squared. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzSurfaceGravityEquator = ;                      /**< \f$ G_{ZSZ,Equat.} \ (\dfrac{m}{s^2})\f$ Equatorial gravitational acceleration at the surface of ZXZ in meters per second squared. Does not including the effects of rotation. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzSurfaceGravityPolar = ;                        /**< \f$ G_{ZSZ,Polar} \ (\dfrac{m}{s^2})\f$ Equatorial gravitational acceleration at the surface of ZXZ in meters per second squared. Does not including the effects of rotation. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+
+    EGXPHYS_CONSTANT zZzXzZzGeometricAlbedo = ;                            /**< \f$ p_{ZSZ} \ (dimensionless)\f$ Geometric albedo of ZXZ. The ratio of the body's brightness at a phase angle of zero to the brightness of a perfectly diffusing disk with the same position and apparent size. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzBondAlbedo = ;                                 /**< \f$ A_{ZSZ} \ (dimensionless)\f$ Bond albedo of ZXZ. The fraction of incident solar radiation reflected back into space without absorption. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzVBandMagnitude = ;                             /**< \f$ V(1,0)_{ZSZ} \ (dimensionless)\f$ Visual magnitude of ZXZ if it were one AU from the Earth at a phase angle of zero . See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    
+    EGXPHYS_CONSTANT zZzXzZzSolarIrradiance = ;                            /**< \f$ Q_{ZSZ} \ (\dfrac{W}{m^2})\f$ Solar irradiance of ZXZ in watts per meter squared. The solar energy landing on zZzXzZz per unit area. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    
+    EGXPHYS_CONSTANT zZzXzZzMomentOfInertia = ;                            /**< \f$ I_{ZSZ} \ (dimensionless)\f$ The moment of inertia of ZXZ. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzJ2 = ;                                    /**< \f$ J_2_{ZSZ} \ (dimensionless)\f$ J_2 perterbation of ZXZ. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    /// @}
+
+    /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-ZXZ-Orbit
+    /// @{
+    EGXPHYS_CONSTANT zZzXzZzSemimajorAxis = ;                           /**< \f$ a_{ZSZ} \ (m)\f$ Semi-major axis of ZXZ in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzSiderealOrbitPeriod =  * secondsInDay;      /**< \f$ T_{ZSZ,sidereal} \ (s)\f$ Sidereal orbit period of ZXZ in seconds. The time it takes the body to make one revolution about the Sun relative to the fixed stars. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzTropicalOrbitPeriod =  * secondsInDay;      /**< \f$ T_{ZSZ,trop} \ (s)\f$ Tropical orbit period of ZXZ in seconds. The average time for the body to make one revolution about the Sun from one point in its seasonal orbit to the equivalent point. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzSynodicOrbitPeriod =  * secondsInDay;         /**< \f$ T_{ZSZ,syn} \ (s)\f$ Synodic period of ZXZ in seconds. The time between similar configurations in the orbit of the planet and Earth. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzPerihelion = ;                              /**< \f$ r_{ZSZ,peri} \ (m)\f$ Perihelion of ZXZ in meters. Distance when it is closets to the Sun. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzAphelion = ;                                /**< \f$ r_{ZSZ,aphe} \ (m)\f$ Aphelion of ZXZ in meters. Distance when it is furthest from the Sun. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzOrbitInclination = ;                           /**< \f$ \theta_{ZSZ,orbit} \ (deg)\f$ Orbit inclination of ZXZ in degrees. The inclination of the orbit to the ecliptic. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzOrbitEccentricity = ;                         /**< \f$ e_{ZSZ} \ (dimensionless)\f$ Orbit eccentricity of ZXZ. A measure of the circularity of the orbit. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+
+    EGXPHYS_CONSTANT zZzXzZzSiderealRotationPeriod = ;                 /**< \f$ P_{ZSZ} \ (s)\f$ Sidereal rotation period of ZXZ in seconds. Total time is 9h 55m 29.685s. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzRotationRate = ;                          /**< \f$ \omega_{ZSZ} \ (\dfrac{rad}{s})\f$ Rotation rate of ZXZ in radians per second. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzDayLength =  * secondsInHour;                 /**< \f$ Day_{ZSZ} \ (s)\f$ Length of a day in ZXZ in second. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzObliquityToOrbit = ;                            /**< \f$ \theta_{ZSZ,obliq} \ (deg)\f$ Obliquity to orbit of ZXZ in degrees. The angle between ZXZ's equator and the it's orbital plane, with north defined by the right-hand rule. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    EGXPHYS_CONSTANT zZzXzZzInclinationOfEquator = ;                        /**< \f$ \theta_{ZSZ,incli} \ (deg)\f$ Inclination of equator of ZXZ in degrees. The angle between ZXZ's equator and orbital plane with north defined as pole axis above (north of) the plane of the solar system. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/zZzXzZzfact.html */
+    /// @}
+
+
+
+    /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Jupiter-Bulk
     /// @{
     EGXPHYS_CONSTANT jupiterMass = 1898.13e24;                                  /**< \f$M_{J} \ (kg)\f$ Mass of Jupiter in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
     EGXPHYS_CONSTANT jupiterMassUncertainty = 0.19e24;                          /**< \f$M_{J} \ (kg)\f$ Uncertainty in mass of Jupiter in kilograms. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
@@ -201,25 +254,60 @@ namespace EGXPhys
     EGXPHYS_CONSTANT jupiterSolarIrradiance = 50.26;                            /**< \f$ Q_{J} \ (\dfrac{W}{m^2})\f$ Solar irradiance of Jupiter in watts per meter squared. The solar energy landing on jupiter per unit area. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
     
     EGXPHYS_CONSTANT jupiterMomentOfInertia = 0.254;                            /**< \f$ I_{J} \ (dimensionless)\f$ The moment of inertia of Jupiter. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-   
+    EGXPHYS_CONSTANT jupiterJ2 = 3343.43e-6;                                    /**< \f$ J_2_{J} \ (dimensionless)\f$ J_2 perterbation of Jupiter. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
     /// @}
 
-    /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Jupiter-Bulk
+    /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-ZXZ-Orbit
     /// @{
+    EGXPHYS_CONSTANT jupiterSemimajorAxis = 778.57e9;                           /**< \f$ a_{J} \ (m)\f$ Semi-major axis of ZXZ in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterSiderealOrbitPeriod = 4332.589 * secondsInDay;      /**< \f$ T_{J,sidereal} \ (s)\f$ Sidereal orbit period of ZXZ in seconds. The time it takes the body to make one revolution about the Sun relative to the fixed stars. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterTropicalOrbitPeriod = 4330.595 * secondsInDay;      /**< \f$ T_{J,trop} \ (s)\f$ Tropical orbit period of ZXZ in seconds. The average time for the body to make one revolution about the Sun from one point in its seasonal orbit to the equivalent point. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterSynodicOrbitPeriod = 398.88 * secondsInDay;         /**< \f$ T_{J,syn} \ (s)\f$ Synodic period of ZXZ in seconds. The time between similar configurations in the orbit of the planet and Earth. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterPerihelion = 740.52e6;                              /**< \f$ r_{J,peri} \ (m)\f$ Perihelion of ZXZ in meters. Distance when it is closets to the Sun. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterAphelion = 816.62e6;                                /**< \f$ r_{J,aphe} \ (m)\f$ Aphelion of ZXZ in meters. Distance when it is furthest from the Sun. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterOrbitInclination = 1.304;                           /**< \f$ \theta_{J,orbit} \ (deg)\f$ Orbit inclination of ZXZ in degrees. The inclination of the orbit to the ecliptic. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterOrbitEccentricity = 0.0489;                         /**< \f$ e_{J} \ (dimensionless)\f$ Orbit eccentricity of ZXZ. A measure of the circularity of the orbit. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
 
-    EGXPHYS_CONSTANT jupiterRotationPeriod = 35729.685;                         /**< \f$ P_{J} \ (s)\f$ Rotation Period of Jupiter in seconds. Total time is 9h 55m 29.685s. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-    EGXPHYS_CONSTANT jupiterRotationRate = 1.63785e-4;                          /**< \f$ \omega_{J} \ (\dfrac{rad}{s})\f$ Rotation rate of Jupiter in radians per second. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-   
-    EGXPHYS_CONSTANT jupiterSemimajorAxis = 778.57e9;                           /**< \f$ a_{J} \ (m)\f$ Semi-major axis of Jupiter in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-    EGXPHYS_CONSTANT jupiterSiderealOrbitPeriod = 4332.589 * secondsInDay;      /**< \f$ T_{J,sidereal} \ (s)\f$ Sidereal orbit period of Jupiter in seconds. The time it takes the body to make one revolution about the Sun relative to the fixed stars. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-    EGXPHYS_CONSTANT jupiterTropicalOrbitPeriod = 4330.595 * secondsInDay;      /**< \f$ T_{J,trop} \ (s)\f$ Tropical orbit period of Jupiter in seconds. The average time for the body to make one revolution about the Sun from one point in its seasonal orbit to the equivalent point. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-    EGXPHYS_CONSTANT jupiterSynodicPeriod = 398.88 * secondsInDay;              /**< \f$ T_{J,syn} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-    EGXPHYS_CONSTANT jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-    EGXPHYS_CONSTANT jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-    EGXPHYS_CONSTANT jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-    EGXPHYS_CONSTANT jupiter = ;                               /**< \f$ _{J} \ ( )\f$  of Jupiter in. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
-
+    EGXPHYS_CONSTANT jupiterSiderealRotationPeriod = 35729.685;                 /**< \f$ P_{J} \ (s)\f$ Sidereal rotation period of ZXZ in seconds. Total time is 9h 55m 29.685s. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterRotationRate = 1.63785e-4;                          /**< \f$ \omega_{J} \ (\dfrac{rad}{s})\f$ Rotation rate of ZXZ in radians per second. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterDayLength = 9.9259 * secondsInHour;                 /**< \f$ Day_{J} \ (s)\f$ Length of a day in ZXZ in second. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterObliquityToOrbit = 3.13;                            /**< \f$ \theta_{J,obliq} \ (deg)\f$ Obliquity to orbit of ZXZ in degrees. The angle between ZXZ's equator and the it's orbital plane, with north defined by the right-hand rule. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
+    EGXPHYS_CONSTANT jupiterInclinationOfEquator = 3.13;                        /**< \f$ \theta_{J,incli} \ (deg)\f$ Inclination of equator of ZXZ in degrees. The angle between ZXZ's equator and orbital plane with north defined as pole axis above (north of) the plane of the solar system. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html */
     /// @}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -246,7 +334,7 @@ namespace EGXPhys
 	EGXPHYS_CONSTANT MassOfSunInEarthMass = MassOfSun/MassOfEarth;				/**< Mass(\f$M_\oplus\f$) Of Sun. */
 	
 								// m
-	EGXPHYS_CONSTANT VolumeOfEarth = 4.0/3.0 * 3.14 * pow(RadiusOfEarth, 3);	/**< \f$V_\oplus\ (m^3)\f$ Volume of Earth. */
+	EGXPHYS_CONSTANT VolumeOfEarth = 4.0/3.0 * pi * RadiusOfEarth* RadiusOfEarth* RadiusOfEarth;	/**< \f$V_\oplus\ (m^3)\f$ Volume of Earth. */
 	EGXPHYS_CONSTANT DensityOfEarth =  MassOfEarth/VolumeOfEarth;				/**< \f$\rho_\oplus\ (\frac{kg}{m^3})\f$ Density of Earth. */
 	EGXPHYS_CONSTANT EscapeVelocityOfEarth = 11186.0; 							/**< \f$v_e\ (\frac{m}{s})\f$ Escape velocity of Earth. */
 	EGXPHYS_CONSTANT SurfaceTempretureOfEarth = 287.0;							/**< \f$T_{\oplus,Surface}\ (K)\f$ Surface tempreture of Earth. */
