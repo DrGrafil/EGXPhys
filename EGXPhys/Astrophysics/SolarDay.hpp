@@ -34,7 +34,7 @@ namespace EGXPhys
     *  See http://www.celestialnorth.org/FAQtoids/dazed_about_days_(solar_and_sidereal).htm and http://astronomy.swin.edu.au/cosmos/S/Sidereal+Day
     *
     *  @param  orbitalPeriodIns \f$ T_{Orbit}\ (s)\f$ Orbital period of the celestial object in seconds.
-    *  @param  siderealDayIns \f$ T_{Sidereal}\ (s)\f$ Sidereal day of the celestial object in seconds.
+    *  @param  siderealDayIns \f$ T_{Sidereal}\ (s)\f$ Sidereal day of the celestial object in seconds. Negative number indicates the planet has retrograde rotation.
     *  @return \f$ T_{Solar}\ (s)\f$ Solar day of the celestial object in seconds.
     *  @see SynodicDay() for alias.
     *  @see SiderealDay() for period it takes for a celestial body to rotate once in relation to the distant stars. It is a 360 degree rotation.
