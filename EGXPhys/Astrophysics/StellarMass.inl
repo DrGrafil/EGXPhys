@@ -33,49 +33,31 @@ namespace EGXPhys{
         T sL = starLuminosityInSolarLuminosity;
         T sM = 0.0;
 
-        sM = std::pow(sL / (T)0.23, (T)-2.3);
-        if (sm > (T)0.43) {
+        sM = std::pow(sL / (T)0.23, (T)-2.3); // M < 0.43 Mdot
+        if (sM > (T)0.43) {
+            sM = std::pow(sL, (T)-4.0);         // 0.43 Mdot <= M < 2 Mdot
+            if (sM > (T)2.0) {
 
-            if ( sm > (T)2.0) {
-                
-            }
-            else {
-                return 0;
+                sM = std::pow(sL / (T)1.4, (T)3.5); // 2 Mdot <= M < 20 Mdot
+                if (sM > (T)20.0) {
+
+                    sM = sL / (T)32000.0; // M > 50 Mdot
+                    if (sM < (T)50.0) {
+                        //Need to put warning here of some sort.
+                        std::cout << "THERE IS SOMETHING WRONG WITH STELLAR MASS " << sM << std::endl;
+                    }
+                }
+                else if (sM < (T)2.0) {
+                    //Need to put warning here of some sort.
+                    std::cout << "THERE IS SOMETHING WRONG WITH STELLAR MASS " << sM << std::endl;
+                }
+            } else if (sM < (T)0.43) {
+                //Need to put warning here of some sort.
+                std::cout << "THERE IS SOMETHING WRONG WITH STELLAR MASS " << sM << std::endl;
             }
         }
 
         return sM;
     }
-    {
-        // See http://en.wikipedia.org/wiki/Mass%E2%80%93luminosity_relation
-        //L/LSun = 2.51^(MagSun-MagStar)
-
-        /* TODO (#3#): Check Stellar Mass calculations */
-
-        double Lratio = pow(2.512, (PhysConst::SunAbsVMagnitude - absMagnitude));
-
-        double MassRatio = pow(Lratio / 1.5, 1.0 / 3.5);
-
-        if (MassRatio > 20.0)
-        {
-            MassRatio = Lratio / 3200;
-
-            if (MassRatio < 20.0)
-                std::cout << "THERE IS SOMETHING WRONG WITH STELLAR MASS " << MassRatio << std::endl;
-        }
-        else if (MassRatio < 2.0)
-        {
-            if (MassRatio < 0.43)
-            {
-                MassRatio = pow(Lratio / 0.23, 1.0 / 2.3);
-            }
-            else
-            {
-                MassRatio = pow(Lratio, 1.0 / 4.0);
-            }
-        }
-        return MassRatio;
-    }
-    
-
+   
 }//namespace EGXPhys
