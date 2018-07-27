@@ -1,4 +1,31 @@
 var searchData=
 [
-  ['unifiedatomicmassunit',['unifiedAtomicMassUnit',['../da/df5/group___n_i_s_t_const-_unified_atomic_mass_unit.html#ga71274ecfb5b197a764bab758ed6840c9',1,'NISTConst']]]
+  ['unifiedatomicmassunit',['unifiedAtomicMassUnit',['../da/df5/group___n_i_s_t_const-_unified_atomic_mass_unit.html#ga71274ecfb5b197a764bab758ed6840c9',1,'NISTConst']]],
+  ['uranusaphelion',['uranusAphelion',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#ga84192253ce5270f031af0d81e04556d8',1,'EGXPhys']]],
+  ['uranusbondalbedo',['uranusBondAlbedo',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga0efbea809d5a024652044e18ac4bf0c5',1,'EGXPhys']]],
+  ['uranusdaylength',['uranusDayLength',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#ga1423b9fa4a1d206050effb23df605ff5',1,'EGXPhys']]],
+  ['uranusdensity',['uranusDensity',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#gaffdc8522dc72ce6a2c81fbae2720794f',1,'EGXPhys']]],
+  ['uranusflattening',['uranusFlattening',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#gae10777496d6d1804e98530f68dcbe150',1,'EGXPhys']]],
+  ['uranusgeometricalbedo',['uranusGeometricAlbedo',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga9a1cfdab26c38a850508aa9b1e2409a1',1,'EGXPhys']]],
+  ['uranusinclinationofequator',['uranusInclinationOfEquator',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#gaf67afd76c304a2c07c4f9aafc26ace8b',1,'EGXPhys']]],
+  ['uranusj2',['uranusJ2',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga2b1d23bfe148337be5275b1abd51f97a',1,'EGXPhys']]],
+  ['uranusmass',['uranusMass',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#gaccabd738d57e4f5b6dc7b88d67b2cace',1,'EGXPhys']]],
+  ['uranusmomentofinertia',['uranusMomentOfInertia',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga26cda1990ca0ac98e925a80c26ee88f5',1,'EGXPhys']]],
+  ['uranusobliquitytoorbit',['uranusObliquityToOrbit',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#ga6e5df4b76797d267673db179028f8da8',1,'EGXPhys']]],
+  ['uranusorbiteccentricity',['uranusOrbitEccentricity',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#ga449e9b71817fed811304a12e2356c1b8',1,'EGXPhys']]],
+  ['uranusorbitinclination',['uranusOrbitInclination',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#ga52ecbdab9b82b86f84905cbd0048f75b',1,'EGXPhys']]],
+  ['uranusperihelion',['uranusPerihelion',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#ga74776252e25eeb9c02bc5a69087888b5',1,'EGXPhys']]],
+  ['uranusradiusequatorial',['uranusRadiusEquatorial',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga8610758fe64ac622528c0b951dd90e23',1,'EGXPhys']]],
+  ['uranusradiuspolar',['uranusRadiusPolar',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga91b85385fee1afe5a4df54e4b4cbe7ad',1,'EGXPhys']]],
+  ['uranussemimajoraxis',['uranusSemimajorAxis',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#ga34dc0986eab0b7450cf80dc5b17cd892',1,'EGXPhys']]],
+  ['uranussiderealorbitperiod',['uranusSiderealOrbitPeriod',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#gaf2077b1c1b606d34f14b5d23ca2c160a',1,'EGXPhys']]],
+  ['uranussiderealrotationperiod',['uranusSiderealRotationPeriod',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#ga69a761e11c43df2e68ad5865561bd40a',1,'EGXPhys']]],
+  ['uranussolarirradiance',['uranusSolarIrradiance',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#gab404609141c0f15c982dd80012e9dbcd',1,'EGXPhys']]],
+  ['uranusstandardgravitationalparameter',['uranusStandardGravitationalParameter',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga2638d351b4c8647d718febed6c4d6aa3',1,'EGXPhys']]],
+  ['uranussurfacegravityequator',['uranusSurfaceGravityEquator',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#gaf69b423e76cf2feda0f1ea87eedc698b',1,'EGXPhys']]],
+  ['uranussurfacegravitypolar',['uranusSurfaceGravityPolar',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#gaac7f0c911f8e118ff773010111851360',1,'EGXPhys']]],
+  ['uranussynodicorbitperiod',['uranusSynodicOrbitPeriod',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#gaddf14c8c085286e28628dbdd11378081',1,'EGXPhys']]],
+  ['uranustropicalorbitperiod',['uranusTropicalOrbitPeriod',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html#gaafe74005ae724e813166abbefc7a4458',1,'EGXPhys']]],
+  ['uranusvbandmagnitude',['uranusVBandMagnitude',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga781508a60603feae345f1941de8204fa',1,'EGXPhys']]],
+  ['uranusvolumetricmeanradius',['uranusVolumetricMeanRadius',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#gae20d0e7177a2cc5b86297f1ab2cf8400',1,'EGXPhys']]]
 ];

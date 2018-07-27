@@ -41,6 +41,8 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "SiderealDay.inl", "d6/dea/_sidereal_day_8inl.html", "d6/dea/_sidereal_day_8inl" ],
     [ "SolarDay.hpp", "d3/da3/_solar_day_8hpp.html", "d3/da3/_solar_day_8hpp" ],
     [ "SolarDay.inl", "db/d04/_solar_day_8inl.html", "db/d04/_solar_day_8inl" ],
+    [ "SolarLuminosity.hpp", "d0/de6/_solar_luminosity_8hpp.html", "d0/de6/_solar_luminosity_8hpp" ],
+    [ "SolarLuminosity.inl", "d6/d5e/_solar_luminosity_8inl.html", "d6/d5e/_solar_luminosity_8inl" ],
     [ "StandardGravitationalParameter.hpp", "db/d09/_standard_gravitational_parameter_8hpp.html", "db/d09/_standard_gravitational_parameter_8hpp" ],
     [ "StandardGravitationalParameter.inl", "d1/d83/_standard_gravitational_parameter_8inl.html", "d1/d83/_standard_gravitational_parameter_8inl" ],
     [ "StellarMass.hpp", "da/db7/_stellar_mass_8hpp_source.html", null ],

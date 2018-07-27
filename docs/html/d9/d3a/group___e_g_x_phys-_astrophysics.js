@@ -20,6 +20,7 @@ var group___e_g_x_phys__astrophysics =
     [ "Rotational Flattening/Oblateness", "d1/d79/group___e_g_x_phys-_astrophysics-_rotational_flattening.html", "d1/d79/group___e_g_x_phys-_astrophysics-_rotational_flattening" ],
     [ "Sidereal Day", "d9/df4/group___e_g_x_phys-_astrophysic-_sidereal_day.html", "d9/df4/group___e_g_x_phys-_astrophysic-_sidereal_day" ],
     [ "Solar Day", "d9/daa/group___e_g_x_phys-_astrophysic-_solar_day.html", "d9/daa/group___e_g_x_phys-_astrophysic-_solar_day" ],
+    [ "Solar Luminosity", "d9/dd3/group___e_g_x_phys-_astrophysics-_solar_luminosity.html", null ],
     [ "Standard Gravitational Parameter", "d5/d56/group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html", "d5/d56/group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter" ],
     [ "Stellar Mass", "d5/d8b/group___e_g_x_phys-_stellar_mass.html", "d5/d8b/group___e_g_x_phys-_stellar_mass" ],
     [ "Stellar Radius", "d4/d2e/group___e_g_x_phys-_stellar_radius.html", "d4/d2e/group___e_g_x_phys-_stellar_radius" ],

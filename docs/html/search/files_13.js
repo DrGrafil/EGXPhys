@@ -9,6 +9,8 @@ var searchData=
   ['signfunctions_2einl',['SignFunctions.inl',['../da/d72/_sign_functions_8inl.html',1,'']]],
   ['solarday_2ehpp',['SolarDay.hpp',['../d3/da3/_solar_day_8hpp.html',1,'']]],
   ['solarday_2einl',['SolarDay.inl',['../db/d04/_solar_day_8inl.html',1,'']]],
+  ['solarluminosity_2ehpp',['SolarLuminosity.hpp',['../d0/de6/_solar_luminosity_8hpp.html',1,'']]],
+  ['solarluminosity_2einl',['SolarLuminosity.inl',['../d6/d5e/_solar_luminosity_8inl.html',1,'']]],
   ['sphericalcoordinateconversion_2ehpp',['SphericalCoordinateConversion.hpp',['../d0/dbc/_spherical_coordinate_conversion_8hpp.html',1,'']]],
   ['spheroid_2ehpp',['Spheroid.hpp',['../d2/df3/_spheroid_8hpp.html',1,'']]],
   ['spheroideccentricity_2ehpp',['SpheroidEccentricity.hpp',['../d0/d51/_spheroid_eccentricity_8hpp.html',1,'']]],
