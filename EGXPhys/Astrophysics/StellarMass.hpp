@@ -42,7 +42,7 @@ namespace EGXPhys
 	*	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
 	*/
 	template<typename T>
-	T StellarMass(const T& starMass, const T& referenceMass);
+	T StellarMass(const T starMass, const T referenceMass);
 	  
 	/**
 	*   @brief Calculates the solar mass \f$(M)\f$ of a star when comparing it to the mass of the sun \f$(m_\odot)\f$.
@@ -56,7 +56,7 @@ namespace EGXPhys
 	*	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
 	*/
 	template<typename T>
-	T SolarMass(const T& starMass);
+	T SolarMass(const T starMass);
 
 
     /**
@@ -72,7 +72,7 @@ namespace EGXPhys
     *	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
     */
     template<typename T>
-    T StellarMassApproximation(const T& starLuminosityInW);
+    T StellarMassApproximation(const T starLuminosityInW);
 
     /**
     *   @brief Calculates the stellar mass \f$(M)\f$ of a star when comparing it to the mass of a reference star \f$(m_{ref})\f$.
@@ -87,7 +87,7 @@ namespace EGXPhys
     *	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
     */
     template<typename T>
-    T StellarMassApproximationInkg(const T& starLuminosityInW);
+    T StellarMassApproximationInkg(const T starLuminosityInW);
 
     /**
     *   @brief Calculates the stellar mass \f$(M)\f$ of a star when comparing it to the mass of a reference star \f$(m_{ref})\f$.
@@ -102,7 +102,7 @@ namespace EGXPhys
     *	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
     */
     template<typename T>
-    T StellarMassApproximationInSolarMass(const T& starLuminosityInSolarLuminosity);
+    T StellarMassApproximationInSolarMass(const T starLuminosityInSolarLuminosity);
     /// @}
 } //namespace EGXPhys
 

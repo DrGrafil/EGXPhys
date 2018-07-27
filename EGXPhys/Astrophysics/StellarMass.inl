@@ -8,28 +8,28 @@
 namespace EGXPhys{
 	
 	template<typename T>
-	T StellarMass(const T& starMass, const T& referenceMass) {
+	T StellarMass(const T starMass, const T referenceMass) {
 		return starMass / referenceMass;
 	}
 
 	template<typename T>
-	T SolarMass(const T& starMass) {
+	T SolarMass(const T starMass) {
 		return starMass / SunMass;
 	}
     
     
     template<typename T>
-    T StellarMassApproximation(const T& starLuminosityInW) {
-
+    T StellarMassApproximation(const T starLuminosityInW) {
+        return StellarMassApproximationInSolarMass(solarLuminosityRatio(starLuminosityInW)) * solarMass;
     }
 
     template<typename T>
-    T StellarMassApproximationInkg(const T& starLuminosityInW) {
-
+    T StellarMassApproximationInkg(const T starLuminosityInW) {
+        return StellarMassApproximationInSolarMass(solarLuminosityRatio(starLuminosityInW)) * solarMass
     }
 
     template<typename T>
-    T StellarMassApproximationInSolarMass(const T& starLuminosityInSolarLuminosity) {
+    T StellarMassApproximationInSolarMass(const T starLuminosityInSolarLuminosity) {
         //See https://en.wikipedia.org/wiki/Mass%E2%80%93luminosity_relation
         T sL = starLuminosityInSolarLuminosity;
         T sM = 0.0;
