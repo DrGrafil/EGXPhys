@@ -30,6 +30,7 @@ namespace EGXPhys{
 
     template<typename T>
     T StellarMassApproximationInSolarMass(const T& starLuminosityInSolarLuminosity) {
+        //See https://en.wikipedia.org/wiki/Mass%E2%80%93luminosity_relation
         T sL = starLuminosityInSolarLuminosity;
         T sM = 0.0;
 

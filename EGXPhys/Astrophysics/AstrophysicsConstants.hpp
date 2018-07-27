@@ -148,8 +148,7 @@ namespace EGXPhys
     EGXPHYS_CONSTANT zeroPointLuminosity = 3.0128e28;                           /**< \f$L_{0} \ (W)\f$ Zero point luminosity. It is a defined number used in bolometric magnitude stellar calculations. See the International Astronomical Union, https://www.iau.org/news/announcements/detail/ann15023/ resolution B2.*/
     
             //Bolometic Luminosity
-    EGXPHYS_CONSTANT sunBolometricLuminosity = 3.0128e28;                       /**< \f$L_{Bol,\odot} \ (W)\f$ Sun bolometric luminosity. It is a defined number used in bolometric magnitude stellar calculations. See the International Astronomical Union, https://www.iau.org/news/announcements/detail/ann15023/ resolution B2.*/
-
+    
    
 
     // See https://ssd.jpl.nasa.gov/horizons.cgi data
@@ -160,23 +159,49 @@ namespace EGXPhys
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Sun-Bulk
     /// @{
     EGXPHYS_CONSTANT sunMass = 1.98855e30;                                      /**< \f$M_{\odot} \ (kg)\f$ Mass of Sun in kilograms. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
-    EGXPHYS_CONSTANT sunDensity = 1411.1;                                       /**< \f$\rho_{\odot} \ (\dfrac{kg}{m^3})\f$ Density of Sun in kg per meter cubed. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT solarMass = 1.98855e30;                                    /**< \f$M_{\odot} \ (kg)\f$ Mass of Sun in kilograms. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
 
-    EGXPHYS_CONSTANT sunPhotosphericRadius = 695700e3;                          /**< \f$ R_{\odot} \ (m)\f$ Photospheric of Sun in meters. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT sunDensity = 1411.1;                                       /**< \f$\rho_{\odot} \ (\dfrac{kg}{m^3})\f$ Density of Sun in kg per meter cubed. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT solarDensity = 1411.1;                                     /**< \f$\rho_{\odot} \ (\dfrac{kg}{m^3})\f$ Density of Sun in kg per meter cubed. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+
+    EGXPHYS_CONSTANT sunPhotosphericRadius = 695700e3;                          /**< \f$ R_{\odot} \ (m)\f$ Photospheric radius of Sun in meters. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT solarRadius = sunPhotosphericRadius;                       /**< \f$ R_{\odot} \ (m)\f$ Photospheric radius of Sun in meters. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
     EGXPHYS_CONSTANT sunNominalSolarRadius = sunPhotosphericRadius;             /**< \f$ R_{\odot} \ (m)\f$ Nominal solar radius of Sun in meters. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
  
     EGXPHYS_CONSTANT sunFlattening = 8e-6;                                      /**< \f$f_{\odot} \ (dimensionless)\f$ Flattening of Sun. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
 
     EGXPHYS_CONSTANT sunStandardGravitationalParameter = 1.3271244e20;          /**< \f$ \mu_{\odot} \ (\dfrac{m^3}{s^2})\f$ Standard gravitational parameter of Sun in meter cubed per second squared. It is the Gravitational constant times the mass of the planet. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
-    EGXPHYS_CONSTANT sunNominalSolarMass = sunStandardGravitationalParameter;   /**< \f$ \mu_{\odot} \ (\dfrac{m^3}{s^2})\f$ Nominal Solar Mass of Sun in meter cubed per second squared. It is the Gravitational constant times the mass of the planet. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
-    EGXPHYS_CONSTANT sunSurfaceGravityEquator = 274.0;                      /**< \f$ G_{\odot,Equat.} \ (\dfrac{m}{s^2})\f$ Equatorial gravitational acceleration at the surface of Sun in meters per second squared. Does not including the effects of rotation. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
-    EGXPHYS_CONSTANT sunSurfaceGravityPolar = 274.0;                        /**< \f$ G_{\odot,Polar} \ (\dfrac{m}{s^2})\f$ Equatorial gravitational acceleration at the surface of Sun in meters per second squared. Does not including the effects of rotation. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */  
-    EGXPHYS_CONSTANT sunMomentOfInertia = 0.062;                            /**< \f$ I_{\odot} \ (dimensionless)\f$ The moment of inertia of Sun. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT solarStandardGravitationalParameter = sunStandardGravitationalParameter;   /**< \f$ \mu_{\odot} \ (\dfrac{m^3}{s^2})\f$ Standard gravitational parameter of Sun in meter cubed per second squared. It is the Gravitational constant times the mass of the planet. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT sunNominalSolarMassParameter = sunStandardGravitationalParameter;   /**< \f$ \mu_{\odot} \ (\dfrac{m^3}{s^2})\f$ Nominal solar mass parameter of Sun in meter cubed per second squared. It is the Gravitational constant times the mass of the planet. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+
+    EGXPHYS_CONSTANT sunSurfaceGravityEquator = 274.0;                          /**< \f$ G_{\odot,Equat.} \ (\dfrac{m}{s^2})\f$ Equatorial gravitational acceleration at the surface of Sun in meters per second squared. Does not including the effects of rotation. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT sunSurfaceGravityPolar = 274.0;                            /**< \f$ G_{\odot,Polar} \ (\dfrac{m}{s^2})\f$ Equatorial gravitational acceleration at the surface of Sun in meters per second squared. Does not including the effects of rotation. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */  
+    EGXPHYS_CONSTANT sunMomentOfInertia = 0.062;                                /**< \f$ I_{\odot} \ (dimensionless)\f$ The moment of inertia of Sun. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
   
     
     EGXPHYS_CONSTANT sunSurfaceEffectiveTemperature = 5772.0;                   /**< \f$ T_{eff,\odot} \ (K)\f$ Effective surface temperature of Sun in Kelvin. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
     EGXPHYS_CONSTANT sunNominalSolarEffectiveTemperature = 5772.0;              /**< \f$ T_{eff,\odot} \ (K)\f$ Effective surface temperature of Sun in Kelvin. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT solarEffectiveTemperature = 5772.0;                        /**< \f$ T_{eff,\odot} \ (K)\f$ Effective surface temperature of Sun in Kelvin. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
 
+
+    EGXPHYS_CONSTANT sunIrradianceAt1Au = 1361.0;                               /**< \f$ S_{1Au,\odot} \ (\dfrac{W}{m^2})\f$ Total solar irradiance of Sun at a distance of 1 Au in Watts per meter squared. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT solarIrradianceAt1Au = sunIrradianceAt1Au;                 /**< \f$ S_{1Au,\odot} \ (\dfrac{W}{m^2})\f$ Total solar irradiance of Sun at a distance of 1 Au in Watts per meter squared. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+
+    EGXPHYS_CONSTANT sunLuminosity = 3.828e26;                                  /**< \f$ L_{\odot} \ (W)\f$ Luminosity of Sun in Watts. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT solarLuminosity = sunLuminosity;                           /**< \f$ L_{\odot} \ (W)\f$ Luminosity of Sun in Watts. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+
+    EGXPHYS_CONSTANT sunBolometricLuminosity = 3.0128e28;                       /**< \f$L_{Bol,\odot} \ (W)\f$ Bolometric luminosity of Sun in Watts. It is a defined number used in bolometric magnitude stellar calculations. See the International Astronomical Union, https://www.iau.org/news/announcements/detail/ann15023/ resolution B2.*/
+    EGXPHYS_CONSTANT solarBolometricLuminosity = 3.0128e28;                     /**< \f$L_{Bol,\odot} \ (W)\f$ Bolometric luminosity of Sun in Watts. It is a defined number used in bolometric magnitude stellar calculations. See the International Astronomical Union, https://www.iau.org/news/announcements/detail/ann15023/ resolution B2.*/
+
+    EGXPHYS_CONSTANT sunXRayLuminosity = 2.24e20;                               /**< \f$L_{x-ray,\odot} \ (W)\f$ X-Ray luminosity (0.1-2.4keV; ROSAT PSPC band) of Sun in Watts. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT solarXRayLuminosity = 2.24e20;                             /**< \f$L_{x-ray,\odot} \ (W)\f$ X-Ray luminosity (0.1-2.4keV; ROSAT PSPC band) of Sun in Watts. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+
+    EGXPHYS_CONSTANT sunAgeInYears = 4567.30e6;                                 /**< \f$t_{\odot} \ (yrs)\f$ Age of Sun in years. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT solarAgeInYears = sunAgeInYears;                           /**< \f$t_{\odot} \ (yrs)\f$ Age of Sun in years. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+
+    EGXPHYS_CONSTANT sunSiderealRotationPeriod = 24.47 * secondsInDay;          /**< \f$P_{\odot} \ (s)\f$ Sidereal (Equatorial) rotation period of Sun in seconds. Note that the rotation is dependant on latitude. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+
+    
     /// @}
 
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Sun-Magnitude

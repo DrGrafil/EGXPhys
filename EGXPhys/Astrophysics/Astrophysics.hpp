@@ -33,6 +33,7 @@
 #include "RotationalFlattening.hpp"
 #include "SiderealDay.hpp"
 #include "SolarDay.hpp"
+#include "SolarLuminosity.hpp"
 #include "StandardGravitationalParameter.hpp"
 #include "StellarMass.hpp"
 #include "StellarRadius.hpp"

@@ -164,6 +164,7 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\SiderealDay.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\SolarDay.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\SolarLuminosity.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\StandardGravitationalParameter.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarMass.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\StellarRadius.hpp" />
@@ -453,6 +454,7 @@
     <None Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\SiderealDay.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\SolarDay.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\SolarLuminosity.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\StandardGravitationalParameter.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\StellarMass.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\StellarRadius.inl" />

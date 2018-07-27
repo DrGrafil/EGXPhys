@@ -19,16 +19,5 @@ namespace EGXPhys{
 				/
 				pow(1.0 + redshift, 1.0+spectralIndex) );
 	}
-    
-    template<typename T>
-    T solarLuminosity(const T& area, const T& tempreture){
-    	
-    	return 1;
-	}
-    
-    template<typename T>
-    T solarLuminosityRatio(const T& area, const T& tempreture){
-    	return 1;
-	}
-    
+        
 }//namespace EGXPhys
