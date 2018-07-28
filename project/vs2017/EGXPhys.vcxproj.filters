@@ -1059,6 +1059,9 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\SolarLuminosityRatio.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\SolarLuminosity.hpp">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\tests\unitTest.cpp">
@@ -1466,6 +1469,9 @@
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
     <None Include="..\..\EGXPhys\Astrophysics\SolarLuminosityRatio.inl">
+      <Filter>EGXPhys\Astrophysics</Filter>
+    </None>
+    <None Include="..\..\EGXPhys\Astrophysics\SolarLuminosity.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>
