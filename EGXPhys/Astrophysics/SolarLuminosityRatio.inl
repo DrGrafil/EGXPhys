@@ -10,12 +10,12 @@ namespace EGXPhys{
 
     
     template<typename T>
-    T solarLuminosityRatio(const T starLuminosityInW){
+    T SolarLuminosityRatio(const T starLuminosityInW){
     	return starLuminosityInW / solarLuminosity;
 	}
     
     template<typename T>
-    T solarBolometricLuminosityRatio(const T starBolometricLuminosityInW) {
+    T SolarBolometricLuminosityRatio(const T starBolometricLuminosityInW) {
         return starBolometricLuminosityInW / solarBolometricLuminosity;
     }
 }//namespace EGXPhys

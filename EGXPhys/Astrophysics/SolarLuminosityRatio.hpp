@@ -29,22 +29,28 @@ namespace EGXPhys
 	/// @{
     
     /**
-    *   @brief Calculates the solar luminosity (visual) ratio \f$\dfrac{L}{L_{\odot}\f$ of a star. It is the ratio of a star's luminosity to that of the sun.
-    *   		\f[M=\frac{m_{star}}{m_{ref}}\f]
-    *   See https://en.wikipedia.org/wiki/Stellar_mass
+    *   @brief Calculates the solar luminosity (visual) ratio \f$\dfrac{L}{L_{\odot}\f$ of a star from the stars luminosity, \f$L\f$, in watts. It is the ratio of a star's luminosity to that of the sun.
+    *   		\f[\dfrac{L}{L_{\odot}=\dfrac{L}{L_{\odot}\f]
+    *   See https://en.wikipedia.org/wiki/Solar_luminosity and https://en.wikipedia.org/wiki/Mass–luminosity_relation
     *
-    *   @param starMass \f$m_{star}\ (kg)\f$ is the mass of the star.
-    *	@param referenceMass \f$m_{ref}\ (kg)\f$ is the mass of the reference star.
-    *   @return \f$M\f$(dimensionless) Stellar mass. Mass ratio of a star compared to a reference star.
-    *	@see PlanetaryMass() for \f$M\f$ equation used for planets size objects.
-    *	@see StellarMass() for \f$M\f$ equation using a star as a reference.
-    *	@see SolarMass() for \f$M\f$ equation using the Sun as a reference.
+    *   @param starLuminosityInW \f$L\ (W)\f$ Luminosity (visual) of the star in watts.
+    *   @return \f$\dfrac{L}{L_{\odot}\f$(dimensionless) Solar luminosity ratio. Ratio of a star's luminosity to the luminosity of the Sun.
+    *	@see solarBolometricLuminosityRatio() for calculations using the bolometric (all wavelengths) luminosity.
     */
-      template<typename T>
-    T solarLuminosityRatio(const T starLuminosityInW);
-
     template<typename T>
-    T solarBolometricLuminosityRatio(const T starBolometricLuminosityInW);
+    T SolarLuminosityRatio(const T starLuminosityInW);
+
+    /**
+    *   @brief Calculates the solar luminosity (visual) ratio \f$\dfrac{L}{L_{\odot}\f$ of a star from the stars luminosity, \f$L\f$, in watts. It is the ratio of a star's luminosity to that of the sun.
+    *   		\f[\dfrac{L}{L_{\odot}=\dfrac{L}{L_{\odot}\f]
+    *   See https://en.wikipedia.org/wiki/Solar_luminosity and https://en.wikipedia.org/wiki/Mass–luminosity_relation
+    *
+    *   @param starBolometricLuminosityInW \f$L\ (W)\f$ Bolometric luminosity (all wavelengths) of the star in watts.
+    *   @return \f$\dfrac{L}{L_{\odot}\f$(dimensionless) Bolometric solar luminosity ratio. Ratio of a star's bolometric luminosity to the bolometric luminosity of the Sun.
+    *	@see SolarLuminosityRatio() for calculations using visual luminosity.
+    */
+    template<typename T>
+    T SolarBolometricLuminosityRatio(const T starBolometricLuminosityInW);
 
     /// @}
 } //namespace EGXPhys

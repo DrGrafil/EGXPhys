@@ -31,7 +31,7 @@ namespace EGXPhys
 	/// @{
 
 	/** 
-	*   @brief  Calculates the luminosity in Watts of a black body.
+	*   @brief  Calculates the luminosity in watts of a black body.
     *
 	*			\f[L=\sigma*A*T^4\f]   
 	*   See https://en.wikipedia.org/wiki/Luminosity

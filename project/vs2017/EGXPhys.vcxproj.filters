@@ -1056,7 +1056,7 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\BolometricCorrection.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\EGXPhys\Astrophysics\SolarLuminosity.hpp">
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\SolarLuminosityRatio.hpp">
       <Filter>EGXPhys\Astrophysics</Filter>
     </ClInclude>
   </ItemGroup>
@@ -1465,7 +1465,7 @@
     <None Include="..\..\EGXPhys\Astrophysics\BolometricCorrection.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
-    <None Include="..\..\EGXPhys\Astrophysics\SolarLuminosity.inl">
+    <None Include="..\..\EGXPhys\Astrophysics\SolarLuminosityRatio.inl">
       <Filter>EGXPhys\Astrophysics</Filter>
     </None>
   </ItemGroup>
