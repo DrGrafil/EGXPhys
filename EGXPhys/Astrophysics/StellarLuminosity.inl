@@ -8,8 +8,9 @@
 namespace EGXPhys{
 	    
     template<typename T>
-    T SolarLuminosityRatio(const T starLuminosityInW){
-    	return starLuminosityInW / solarLuminosity;
+    T StellarLuminosity(const T starAbsoluteBolometricMagnitude){
+        
+    	return zeroPointLuminosity * std::pow((T)10.0, (T)-0.4 *starAbsoluteBolometricMagnitude);
 	}
     
 }//namespace EGXPhys
