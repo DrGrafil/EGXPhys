@@ -351,6 +351,9 @@ namespace EGXPhys
 
     EGXPHYS_CONSTANT earthMomentOfInertia = 0.3308;                             /**< \f$ I_{\oplus} \ (dimensionless)\f$ The moment of inertia of Earth. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
     EGXPHYS_CONSTANT earthJ2 = 1082.63e-6;                                      /**< \f$ J_{2,\oplus} \ (dimensionless)\f$ J_2 perterbation of Earth. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html */
+    
+    EGXPHYS_CONSTANT earthAverageSurfaceTempreture = 287.0;					    /**< \f$T_{\oplus,Ave. Surface}\ (K)\f$ Average surface tempreture of Earth in kelvin. */ /** @todo Need a source*/
+                                                                                
     /// @}
 
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Earth-Orbit
@@ -734,7 +737,7 @@ namespace EGXPhys
 	//EGXPHYS_CONSTANT LunarMass = 7.342e22;										/**< Mass(kg) Of Moon. \f$M_L\f$ */ //Is this right for symbol?
 
 
-//	EGXPHYS_CONSTANT sunGravConstInAuCubedperSolarMassDay = NISTConst::gravitationalConstant * MassOfSun * secondsInDay * secondsInDay / (AU*AU*AU); /**< \f$G_{Sun}\ (\frac{AU^3}{SolarMass\ day)\f$  Gravitational constant around sun per day. */
+	EGXPHYS_CONSTANT sunGravConstInAuCubedperSolarMassDay = NISTConst::gravitationalConstant * sunMass * secondsInDay * secondsInDay / (AU*AU*AU); /**< \f$G_{Sun}\ (\frac{AU^3}{SolarMass\ day)\f$  Gravitational constant around sun per day. */
 
 	/*
 	EGXPHYS_CONSTANT SemimajorAxisOf =;
