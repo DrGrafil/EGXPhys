@@ -18,6 +18,7 @@
 #include "AbsoluteMagnitude.hpp"
 #include "Apoapsis.hpp"
 #include "B-VColor.hpp"
+#include "BolometricCorrection.hpp"
 #include "CircumstellarHabitableZone.hpp"
 #include "ColorTemperature.hpp"
 #include "Declination.hpp"

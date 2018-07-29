@@ -82,24 +82,6 @@ namespace EGXPhys
     template<typename T>
     T StellarRadiusFromLuminosityInSolarLuminosity(const T starEffectiveSurfaceTemperatureInK, const T starLuminosityInSolarLuminosity);
 
-
-    /**
-    *   @brief Calculates the radius, \f$R\f$, of a star in meters using its absolute magnitude, \f$M\f$, and its surface tempreture \f$T\f$.
-    *   \f[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\f]
-    *
-    *   See https://en.wikipedia.org/wiki/Luminosity
-    *   See https://www.astro.princeton.edu/~gk/A403/constants.pdf for equation.
-    *   Note that one should not use the Luminosity along with apparent magnitude formula to get stellar radius. It is an approximation.
-    *
-    *   @param starEffectiveSurfaceTemperatureInK \f$T_{eff}\ (K)\f$ Effective surface temperature of the star (black body) in kelvin. See https://en.wikipedia.org/wiki/Effective_temperature.
-    *   @param starLuminosityInW \f$L\ (W)\f$ Luminosity of the star in watts.
-    *   @return \f$R\ (m)\f$ Radius of star in meters.
-    *	@see StellarRadius() for alias.
-    *	@see StellarRadiusFromLuminosityInSolarLuminosity() to calculate using luminosity in solar luminosity.
-    */
-    template<typename T>
-    T StellarRadiusFromAbsoluteMagnitude(const T starEffectiveSurfaceTemperatureInK, const T starLuminosityInW);
-
     /// @}
 } //namespace EGXPhys
 
