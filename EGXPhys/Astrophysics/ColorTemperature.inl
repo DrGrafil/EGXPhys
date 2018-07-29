@@ -7,10 +7,10 @@
 
 namespace EGXPhys {
 
-template<typename T>
-void ColorTemperatureToRGB(const T temperatureInK, T& R, T& G, T& B) {
+template<typename T1,typename T2>
+void ColorTemperatureToRGB(const T1 temperatureInK, T2& R, T2& G, T2& B) {
 	// see http://www.tannerhelland.com/4435/convert-temperature-rgb-algorithm-code/
-	T temp = temperatureInK / 100.0;
+	T2 temp = temperatureInK / 100.0;
 	if (temp <= 66.0)
 	{
 		R = 1.0;
