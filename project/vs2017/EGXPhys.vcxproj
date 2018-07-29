@@ -161,6 +161,7 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\RightAscension.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\RotationalAngularVelocity.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\SiderealDay.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\SolarDay.hpp" />
@@ -452,6 +453,7 @@
     <None Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\RightAscension.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\RotationalAngularVelocity.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\RotationalFlattening.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\SiderealDay.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\SolarDay.inl" />

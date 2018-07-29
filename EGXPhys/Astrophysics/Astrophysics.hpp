@@ -32,6 +32,7 @@
 #include "PlanetCriteria.hpp"
 #include "RightAscension.hpp"
 #include "RotationalFlattening.hpp"
+#include "RotationalAngularVelocity.hpp"
 #include "SiderealDay.hpp"
 #include "SolarDay.hpp"
 #include "SolarLuminosityRatio.hpp"
