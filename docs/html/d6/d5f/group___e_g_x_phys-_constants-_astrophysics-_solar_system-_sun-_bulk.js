@@ -1,17 +1,15 @@
 var group___e_g_x_phys__constants__astrophysics__solar_system__sun__bulk =
 [
     [ "solarAgeInYears", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga51282485762d0d1f23a15ac028bbdc47", null ],
-    [ "solarBolometricLuminosity", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga8191a2e8a7ea11325ec2eaec4ad7de4d", null ],
     [ "solarDensity", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#gad529e58b7a92599270e10726d55b72c2", null ],
     [ "solarEffectiveTemperature", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#gaa1a1a67eb8247ed92dc7869afbcfbdc3", null ],
     [ "solarIrradianceAt1Au", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga4ed5c970359ffccba0d45fc95541b332", null ],
-    [ "solarLuminosity", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#gaa7771a36e39ea74d3c320ec03fc4ae13", null ],
+    [ "solarLuminosity", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga1fa4f167b9b8f594d35d879fdfdde7b4", null ],
     [ "solarMass", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#gac1786f38c6e150937d1c83e4aa499a58", null ],
     [ "solarRadius", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#gaa98fc533653b96e0ae42262027723d6c", null ],
     [ "solarStandardGravitationalParameter", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#gaa3846a73b10df493a64f08114333d67c", null ],
     [ "solarXRayLuminosity", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga6d7d3e1d14eb0b8aaba38805a0200ee3", null ],
     [ "sunAgeInYears", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga940159140fc0eb1f661748d424b26b51", null ],
-    [ "sunBolometricLuminosity", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#gac72086892d2addbbec944a632c064c95", null ],
     [ "sunDensity", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#gacee8979e95c926008206cc47c4cdc809", null ],
     [ "sunFlattening", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga4487692a8eaf3f3eec0aae769eefcabb", null ],
     [ "sunIrradianceAt1Au", "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga7632e3eda212f81ae257daab783a1a3f", null ],

@@ -31,6 +31,5 @@ var searchData=
   ['venustropicalorbitperiod',['venusTropicalOrbitPeriod',['../d0/d97/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_orbit.html#ga9a39ee94fd79a4ded9c874b9a5a9bfd1',1,'EGXPhys']]],
   ['venusvbandmagnitude',['venusVBandMagnitude',['../d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html#ga7c5dfac5db073d6f546b2aa30e4c6566',1,'EGXPhys']]],
   ['venusvolumetricmeanradius',['venusVolumetricMeanRadius',['../d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html#gabd7816eaaceacd8631dffbbc1fdfcb06',1,'EGXPhys']]],
-  ['volumeofearth',['VolumeOfEarth',['../de/dd8/namespace_e_g_x_phys.html#ac8baf83b25bd9de63587551c69237b56',1,'EGXPhys']]],
   ['vonklitzingconstant',['vonKlitzingConstant',['../d7/d5b/group___n_i_s_t_const-von_klitzing_constant.html#ga1807b35d7b414619c32937c946fe16ed',1,'NISTConst']]]
 ];

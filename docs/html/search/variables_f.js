@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['quantumofcirculation',['quantumOfCirculation',['../da/d5c/group___n_i_s_t_const-_quantum_of_circulation.html#ga094718adb489915f76f46d2b8526ddad',1,'NISTConst']]],
-  ['quantumofcirculationtimes2',['quantumOfCirculationTimes2',['../da/d5c/group___n_i_s_t_const-_quantum_of_circulation.html#ga4d7993b701441cde35cd27b7175874c3',1,'NISTConst']]]
+  ['rydbergconstant',['RydbergConstant',['../dc/d56/group___n_i_s_t_const-_rydberg_constant.html#ga5b5309c2cd540e1257add5555ea6b183',1,'NISTConst']]],
+  ['rydbergconstanttimescinhz',['RydbergConstantTimescInHz',['../dc/d56/group___n_i_s_t_const-_rydberg_constant.html#gab36d2408665aafbb07042e7d1c945bb0',1,'NISTConst']]],
+  ['rydbergconstanttimeshcinev',['RydbergConstantTimeshcIneV',['../dc/d56/group___n_i_s_t_const-_rydberg_constant.html#ga25e0178ecaed69f077409ab82c45272d',1,'NISTConst']]],
+  ['rydbergconstanttimeshcinj',['RydbergConstantTimeshcInJ',['../dc/d56/group___n_i_s_t_const-_rydberg_constant.html#gaff757f4254c8c0db92b9aab166cfbeaf',1,'NISTConst']]]
 ];

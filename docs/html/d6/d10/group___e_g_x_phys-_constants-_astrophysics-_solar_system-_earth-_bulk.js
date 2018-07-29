@@ -1,7 +1,9 @@
 var group___e_g_x_phys__constants__astrophysics__solar_system__earth__bulk =
 [
+    [ "earthAverageSurfaceTempreture", "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga850a2031af18dbe83cafae87542b588d", null ],
     [ "earthBondAlbedo", "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#gad71c87a7e90df69eed292f9a54376fff", null ],
     [ "earthDensity", "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga7ff84de93ff11190d3b84d8ff8525c04", null ],
+    [ "earthEscapeVelocity", "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#gada6c6733f79e984d42cf37210b4ad18f", null ],
     [ "earthFlattening", "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#gaabbf1158b0f8e2f9545c8e4dc9b2e2bd", null ],
     [ "earthGeometricAlbedo", "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga4838765a5ca40d2cdde9691edd4ea45b", null ],
     [ "earthJ2", "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga8d661a52948229a59e9eabf97af51faf", null ],

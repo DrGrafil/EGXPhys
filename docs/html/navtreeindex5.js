@@ -1,11 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d2/d86/_terameter_conversion_8hpp.html#ga3e00f52eb5c96d53031f36d7003a0e5e":[3,0,0,3,0,2,4,33,32],
-"d2/d86/_terameter_conversion_8hpp.html#ga4f3bcac82e02fddb21fedf80ec01275b":[3,0,0,3,0,2,4,33,33],
-"d2/d86/_terameter_conversion_8hpp.html#ga4f6fb943e4c16178f4060c01a9c00a02":[3,0,0,3,0,2,4,33,20],
-"d2/d86/_terameter_conversion_8hpp.html#ga51468f3ffd5925fb2cbb188d49b6aa60":[3,0,0,3,0,2,4,33,23],
-"d2/d86/_terameter_conversion_8hpp.html#ga5bf639553e4b6e8520f9345def06e492":[3,0,0,3,0,2,4,33,11],
-"d2/d86/_terameter_conversion_8hpp.html#ga5eab9d29867c570350691cca342c9472":[3,0,0,3,0,2,4,33,5],
 "d2/d86/_terameter_conversion_8hpp.html#ga6a799ea329334a189c2ed5a898a238af":[3,0,0,3,0,2,4,33,27],
 "d2/d86/_terameter_conversion_8hpp.html#ga85c9ddc82ba02c1fea0b22b896fed936":[3,0,0,3,0,2,4,33,15],
 "d2/d86/_terameter_conversion_8hpp.html#ga8cdb09d983691434d45c52808465c92f":[3,0,0,3,0,2,4,33,34],
@@ -225,6 +219,8 @@ var NAVTREEINDEX5 =
 "d2/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_attometer-_s_i.html#gafbaa622bc31794c382e244942fa1d445":[1,0,0,2,4,0,1,4],
 "d2/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_attometer-_s_i.html#gafc247d0f5b16a1e83c2f210812ee41e8":[1,0,0,2,4,0,1,7],
 "d2/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_attometer-_s_i.html#gaff6439c15e3bb4a90595864e814960a7":[1,0,0,2,4,0,1,0],
+"d2/de2/_solar_luminosity_ratio_8inl.html":[3,0,0,1,44],
+"d2/de2/_solar_luminosity_ratio_8inl.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b":[3,0,0,1,44,0],
 "d2/def/group___n_i_s_t_const-_conventional_josephson_constant.html":[1,2,4,0],
 "d2/def/group___n_i_s_t_const-_conventional_josephson_constant.html#gaf7118c5d748d244860cd847487b8aa96":[1,2,4,0,0],
 "d2/df0/group___e_g_x_phys-_orbital_charecteristics.html":[1,1,1,10],
@@ -240,7 +236,7 @@ var NAVTREEINDEX5 =
 "d2/dfb/_plasma_constants_8hpp_source.html":[3,0,0,9,1],
 "d2/dfb/group___e_g_x_math.html":[1,0],
 "d2/dfd/_color_temperature_8inl.html":[3,0,0,1,13],
-"d2/dfd/_color_temperature_8inl.html#ga81db6b5b397c9f788001be73adae032d":[3,0,0,1,13,0],
+"d2/dfd/_color_temperature_8inl.html#a53633ad397d0ee34ff0b5869f41c7c83":[3,0,0,1,13,0],
 "d2/dfd/_color_temperature_8inl.html#gaad787485a232976da96c2c785ce21dad":[3,0,0,1,13,1],
 "d2/dfd/group___e_g_x_math-_conversions-_length_conversions-_imperial-_yard-_astronomical.html":[1,0,0,2,1,5,0],
 "d2/dfd/group___e_g_x_math-_conversions-_length_conversions-_imperial-_yard-_astronomical.html#ga23f43ac2cd611de8ead9af1772607dd8":[1,0,0,2,1,5,0,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX5 =
 "d2/dff/_gigameter_conversion_8inl.html":[3,0,0,3,0,2,4,13],
 "d2/dff/_gigameter_conversion_8inl.html#ga02f73d15581b1cd69a79b843186211f5":[3,0,0,3,0,2,4,13,19],
 "d2/dff/_gigameter_conversion_8inl.html#ga048b5af6ec2f33e28435823ffa238d17":[3,0,0,3,0,2,4,13,1],
-"d2/dff/_gigameter_conversion_8inl.html#ga13984c61b3aaa41953de2415c6981f37":[3,0,0,3,0,2,4,13,17]
+"d2/dff/_gigameter_conversion_8inl.html#ga13984c61b3aaa41953de2415c6981f37":[3,0,0,3,0,2,4,13,17],
+"d2/dff/_gigameter_conversion_8inl.html#ga1ed5bf3c72c4a51beebcddf4f7e87631":[3,0,0,3,0,2,4,13,4],
+"d2/dff/_gigameter_conversion_8inl.html#ga25121199c511ed43c20fa9c9bdefc0ca":[3,0,0,3,0,2,4,13,13],
+"d2/dff/_gigameter_conversion_8inl.html#ga2eff69e0a00032c24617fde4ac30bd49":[3,0,0,3,0,2,4,13,34],
+"d2/dff/_gigameter_conversion_8inl.html#ga311d6ae40f97487de660c9fb0310ec5e":[3,0,0,3,0,2,4,13,35]
 };

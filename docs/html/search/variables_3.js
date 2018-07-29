@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['densityofearth',['DensityOfEarth',['../de/dd8/namespace_e_g_x_phys.html#ab40bd1315ac492165076625451b694f0',1,'EGXPhys']]],
   ['deuteronelectronmagneticmomentratio',['deuteronElectronMagneticMomentRatio',['../d2/da9/group___n_i_s_t_const-_deuteron.html#ga62672422feb4a89e727a7973fad91a46',1,'NISTConst']]],
   ['deuteronelectronmassratio',['deuteronElectronMassRatio',['../d2/da9/group___n_i_s_t_const-_deuteron.html#ga9931de0eebdf1b6a4f61dfce2a83326a',1,'NISTConst']]],
   ['deuterongfactor',['deuterongFactor',['../d2/da9/group___n_i_s_t_const-_deuteron.html#ga51d5fd1f5022a7357bd1f810f07a65ac',1,'NISTConst']]],

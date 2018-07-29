@@ -17,7 +17,6 @@ var searchData=
   ['boltzmannconstantinevperk',['BoltzmannConstantIneVPerK',['../d7/d63/group___n_i_s_t_const-_boltzmann_constant.html#ga8c0cb1b4b0d54e1a5bf735efaef8d349',1,'NISTConst']]],
   ['boltzmannconstantinhzperk',['BoltzmannConstantInHzPerK',['../d7/d63/group___n_i_s_t_const-_boltzmann_constant.html#gae7c3bd9c33c056465e2fe1e8e6f5bbd2',1,'NISTConst']]],
   ['boltzmannconstantininversemk',['BoltzmannConstantInInversemK',['../d7/d63/group___n_i_s_t_const-_boltzmann_constant.html#ga03a6526c1016d67e765abded43b37f36',1,'NISTConst']]],
-  ['bondalbedoofearth',['BondAlbedoOfEarth',['../de/dd8/namespace_e_g_x_phys.html#a6ef0ec604a76eb6c49ce035473196e39',1,'EGXPhys']]],
   ['bvcolortotempreture',['BVColorToTempreture',['../d5/d86/group___e_g_x_phys-_astrophysic-_b-_v_color.html#gad251a8c25285f5817e307c35c3ec971a',1,'EGXPhys']]],
   ['bvcolortotempretureballesteros',['BVColorToTempretureBallesteros',['../d5/d86/group___e_g_x_phys-_astrophysic-_b-_v_color.html#ga0e553143a3bb121c3ae50ca96c502140',1,'EGXPhys']]],
   ['b_2dv_20color',['B-V Color',['../d5/d86/group___e_g_x_phys-_astrophysic-_b-_v_color.html',1,'']]],

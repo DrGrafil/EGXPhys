@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['weakmixingangle',['weakMixingAngle',['../df/da2/group___n_i_s_t_const-_weak_mixing_angle.html#ga0dc8fe82146df3a503a0120dc478588a',1,'NISTConst']]],
-  ['wienfrequencydisplacementlawconstant',['WienFrequencyDisplacementLawConstant',['../d5/d97/group___n_i_s_t_const-_wien_displacement.html#gaa436196a2e227da87e5138210d00ca3c',1,'NISTConst']]],
-  ['wienwavelengthdisplacementlawconstant',['WienWavelengthDisplacementLawConstant',['../d5/d97/group___n_i_s_t_const-_wien_displacement.html#gaad844adb8bf7d8300587cb2892b430d8',1,'NISTConst']]]
+  ['zeropointluminosity',['zeroPointLuminosity',['../de/dd8/namespace_e_g_x_phys.html#a7cdba0f4a3a3f7deb756d952ee619190',1,'EGXPhys']]]
 ];

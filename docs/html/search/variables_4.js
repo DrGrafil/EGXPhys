@@ -1,14 +1,16 @@
 var searchData=
 [
   ['earthaphelion',['earthAphelion',['../df/d05/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_orbit.html#ga603b731138cdd2501278fde244e35180',1,'EGXPhys']]],
+  ['earthaveragesurfacetempreture',['earthAverageSurfaceTempreture',['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga850a2031af18dbe83cafae87542b588d',1,'EGXPhys']]],
   ['earthbondalbedo',['earthBondAlbedo',['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#gad71c87a7e90df69eed292f9a54376fff',1,'EGXPhys']]],
   ['earthdaylength',['earthDayLength',['../df/d05/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_orbit.html#ga224cdc14815d33b6a21b0f2988648cf9',1,'EGXPhys']]],
   ['earthdensity',['earthDensity',['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga7ff84de93ff11190d3b84d8ff8525c04',1,'EGXPhys']]],
+  ['earthescapevelocity',['earthEscapeVelocity',['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#gada6c6733f79e984d42cf37210b4ad18f',1,'EGXPhys']]],
   ['earthflattening',['earthFlattening',['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#gaabbf1158b0f8e2f9545c8e4dc9b2e2bd',1,'EGXPhys']]],
   ['earthgeometricalbedo',['earthGeometricAlbedo',['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga4838765a5ca40d2cdde9691edd4ea45b',1,'EGXPhys']]],
   ['earthinclinationofequator',['earthInclinationOfEquator',['../df/d05/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_orbit.html#gad9b56019b866d3d6c7f030f37e2cca6b',1,'EGXPhys']]],
   ['earthj2',['earthJ2',['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga8d661a52948229a59e9eabf97af51faf',1,'EGXPhys']]],
-  ['earthmass',['EarthMass',['../de/dd8/namespace_e_g_x_phys.html#a709fd4ba60035d0ec5d7987fcaa06c52',1,'EGXPhys::EarthMass()'],['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga7d335a700fce4dda5baa19d2b2ed14ba',1,'EGXPhys::earthMass()']]],
+  ['earthmass',['earthMass',['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga7d335a700fce4dda5baa19d2b2ed14ba',1,'EGXPhys']]],
   ['earthmomentofinertia',['earthMomentOfInertia',['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga4b3a512e9d562530710100f65695ab13',1,'EGXPhys']]],
   ['earthobliquitytoorbit',['earthObliquityToOrbit',['../df/d05/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_orbit.html#gacb42020ec6e5cf996fa8a81f753efbb2',1,'EGXPhys']]],
   ['earthorbiteccentricity',['earthOrbitEccentricity',['../df/d05/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_orbit.html#ga09b479dff54ecdc92386453498b86904',1,'EGXPhys']]],
@@ -26,7 +28,6 @@ var searchData=
   ['earthtropicalorbitperiod',['earthTropicalOrbitPeriod',['../df/d05/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_orbit.html#ga8bfaa9c23b81c32f1576a1fa9ee042df',1,'EGXPhys']]],
   ['earthvbandmagnitude',['earthVBandMagnitude',['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga184e55af75c87cafba30c63d054cb189',1,'EGXPhys']]],
   ['earthvolumetricmeanradius',['earthVolumetricMeanRadius',['../d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga403e9a295cb108232c7a041dde01d02b',1,'EGXPhys']]],
-  ['eccentricityofearth',['EccentricityOfEarth',['../de/dd8/namespace_e_g_x_phys.html#a1069d85e5fee1fbaee40fd5df39b404d',1,'EGXPhys']]],
   ['electricconstant',['electricConstant',['../d2/d35/group___n_i_s_t_const-_electric_constant.html#ga8c31e3e43f4ddbc5e9d499a58a8b9de1',1,'NISTConst']]],
   ['electronchargetomass',['electronChargeToMass',['../d1/d1d/group___n_i_s_t_const-_electron.html#ga09927db665d49bed80a79bc63560ebef',1,'NISTConst']]],
   ['electrondeuteronmagneticmomentratio',['electronDeuteronMagneticMomentRatio',['../d1/d1d/group___n_i_s_t_const-_electron.html#ga0c7a7ac37b4270254e8f321e64ac67cc',1,'NISTConst']]],
@@ -64,6 +65,5 @@ var searchData=
   ['electronvolttokelvin',['electronVoltToKelvin',['../d8/d09/group___n_i_s_t_const-_electron_volt.html#gaaac3cf941012add952f4aee0c72f0a42',1,'NISTConst']]],
   ['electronvolttokilogram',['electronVoltToKilogram',['../d8/d09/group___n_i_s_t_const-_electron_volt.html#gac875b0f36fd52d70256d4a3d86eebb2e',1,'NISTConst']]],
   ['elementarycharge',['elementaryCharge',['../de/d4f/group___n_i_s_t_const-_elementary_charge.html#ga8685ffddeaed87687d2ee0539b4625de',1,'NISTConst']]],
-  ['elementarychargeoverh',['elementaryChargeOverh',['../de/d4f/group___n_i_s_t_const-_elementary_charge.html#gae14d69d686990378677cd8072ce9873b',1,'NISTConst']]],
-  ['escapevelocityofearth',['EscapeVelocityOfEarth',['../de/dd8/namespace_e_g_x_phys.html#af5df74cfa62155cf4afc737406b4b191',1,'EGXPhys']]]
+  ['elementarychargeoverh',['elementaryChargeOverh',['../de/d4f/group___n_i_s_t_const-_elementary_charge.html#gae14d69d686990378677cd8072ce9873b',1,'NISTConst']]]
 ];

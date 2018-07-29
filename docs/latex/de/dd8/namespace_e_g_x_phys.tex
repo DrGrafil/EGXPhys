@@ -79,8 +79,9 @@
 \begin{DoxyCompactList}\small\item\em Calculates the color R\+GB values from the color tempreture, $T_{black}$, assuming the color was emitted via black body radiation. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\glm\+::vec3 \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_color_temperature_gaad787485a232976da96c2c785ce21dad}{Color\+Temperature\+To\+R\+GB}} (const T temperature\+InK)
 \begin{DoxyCompactList}\small\item\em Calculates the color R\+GB values from the color tempreture, $T_{black}$, assuming the color was emitted via black body radiation. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_color_temperature_ga81db6b5b397c9f788001be73adae032d}{Color\+Temperature\+To\+R\+GB}} (const T temperature\+InK, T \&R, T \&G, T \&B)
-\begin{DoxyCompactList}\small\item\em Calculates the color R\+GB values from the color tempreture, $T_{black}$, assuming the color was emitted via black body radiation. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{namespace_e_g_x_phys_a53633ad397d0ee34ff0b5869f41c7c83}\label{namespace_e_g_x_phys_a53633ad397d0ee34ff0b5869f41c7c83}} 
+{\footnotesize template$<$typename T1 , typename T2 $>$ }\\void {\bfseries Color\+Temperature\+To\+R\+GB} (const T1 temperature\+InK, T2 \&R, T2 \&G, T2 \&B)
+\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_declination_ga0c90ea1406801810378d9618553c9a9b}{Declination\+To\+Degree}} (const T integer\+Degree, const T arcminute, const T arcsecond)
 \begin{DoxyCompactList}\small\item\em Converts declination $(\alpha_{DE})$ from degrees $(DE_{deg})$, arcminutes $(DE_{arcmin})$ and arcseconds $(DE_{arcsec})$ to (decimal) degrees. \[\alpha_{deg}=DE_{deg} + \frac{DE_{arcmin}}{60} + \frac{DE_{arcsec}}{3600} \] See \href{https://en.wikipedia.org/wiki/Declination,}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Declination,} \href{https://en.wikipedia.org/wiki/Geographic_coordinate_conversion}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Geographic\+\_\+coordinate\+\_\+conversion} and \href{https://en.wikipedia.org/wiki/Minute_and_second_of_arc}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Minute\+\_\+and\+\_\+second\+\_\+of\+\_\+arc}. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_declination_gaff645fbd9a1de42e9cdbfb37fdac78c9}{Degree\+To\+Declination}} (const T decimal\+Degree, T \&integer\+Degree, T \&arcminute, T \&arcsecond)
@@ -92,7 +93,7 @@
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_escape_velocity_gaeb8c0c9e780f883ea33498f076b08cb9}{Escape\+Velocity}} (const T distance\+From\+Center\+Of\+Mass\+Inm, const T mass\+Of\+Body\+Inkg)
 \begin{DoxyCompactList}\small\item\em Calculates the escape velocity, $v_{e}$, the minimum speed needed for an object to escape from the gravitational influence of a massive body. \[v_{e}=\sqrt{\frac{2 G M}{r}}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_luminosity_ga909f82edfaed449b44e94788b642ebb8}{blackbody\+Luminosity}} (const T \&area, const T \&tempreture)
-\begin{DoxyCompactList}\small\item\em Calculates the luminosity in Watts of a black body. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the luminosity in watts of a black body. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_luminosity_ga6d6865b2aac1bc7c7f06b7c4ac2444e4}{radio\+Luminosity}} (const T \&flux\+Density, const T \&luminosity\+Distance, const T \&redshift, const T \&spectral\+Index)
 \begin{DoxyCompactList}\small\item\em Calculates the radio luminosity in W/\+Hz of a radio source. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_orbital_period_ga76aac7afe3b7a30a785259e9eeb0c139}{Orbital\+Period}} (const T sidereal\+Day\+Ins, const T synodic\+Day\+Ins)
@@ -204,6 +205,8 @@
 \begin{DoxyCompactList}\small\item\em Converts an angle in (decimal) degree to hours minutes seconds (H\+MS). ${HH}^{h}{MM}^{m}{SS.SS}^{s}$ format. \[hour=trun(\frac{\alpha_{deg}}{15})\] \[minute=trun(60 * |\frac{\alpha_{deg}}{15} - hour|)\] \[second=60 * ((60 * |\frac{\alpha_{deg}}{15} - hour|)-minute)\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\void \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_right_ascension_ga624dd87144a17d19d0100500c34da978}{Radian\+To\+Right\+Ascension}} (const T radian, T \&hour, T \&minute, T \&second)
 \begin{DoxyCompactList}\small\item\em Converts an angle in radian to hours minutes seconds (H\+MS). ${HH}^h{MM}^m{SS.SS}^s$ format. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_angular_velocity_gad8966c9d42ff617677152fa014f7d1db}{Rotational\+Angular\+Velocity}} (const T sidereal\+Day\+Ins)
+\begin{DoxyCompactList}\small\item\em Finds the rotational angular velocity, $\omega$, in radians per second of a celestial object from its sidereal rotation period $T_{Sidereal}$\+: \[ \omega = \dfrac{2\pi}{T} \]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_gabba90db442c4ec9e12523adb00d66c44}{Rotational\+Flattening}} (const T eccentricity)
 \begin{DoxyCompactList}\small\item\em Finds the flattening (oblateness), $f$, of a planet with eccentricity $e$\+: \[ f = 1 - \sqrt{1-e^2} \]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_rotational_flattening_ga1840fed2081c35f68c4b8bfa75248977}{Rotational\+Flattening}} (const T equatorial\+Radius, const T polar\+Radius)
@@ -220,34 +223,28 @@
 \begin{DoxyCompactList}\small\item\em Calculates the sidereal day, $T_{Sidereal}$, of a celestial object in seconds from the length of the celestial object\textquotesingle{}s orbital period, $T_{Orbit}$, and synodic day (solar day), $T_{Solar}$. A sidereal day is the time it takes for a full 360 degree rotation resulting in a distant star appears in the same position in the sky overhead. \[ T_{Sidereal}=\dfrac{T_{Orbit} * T_{Synodic}}{T_{Orbit} + T_{Synodic}}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysic-_solar_day_gae321e0dd0c031a57c45b15dc819635e0}{Solar\+Day}} (const T orbital\+Period\+Ins, const T sidereal\+Day\+Ins)
 \begin{DoxyCompactList}\small\item\em Calculates the solar day, $T_{Solar}$, of a celestial object in seconds from the length of the celestial object\textquotesingle{}s orbital period, $T_{Orbit}$, and sidereal day, $T_{Sidereal}$. A solar day is the time it takes for the celestial object to rotate so the body (sun) it is orbiting appears in the same position in the sky overhead. \[ T_{Solar}=\dfrac{T_{Orbit} * T_{Sidereal}}{T_{Orbit} - T_{Sidereal}}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries solar\+Luminosity} (const T star\+Luminosity\+InW)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries solar\+Luminosity\+Ratio} (const T star\+Luminosity\+InW)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries solar\+Bolometric\+Luminosity} (const T star\+Bolometric\+Luminosity\+InW)
-\item 
-{\footnotesize template$<$typename T $>$ }\\T {\bfseries solar\+Bolometric\+Luminosity\+Ratio} (const T star\+Bolometric\+Luminosity\+InW)
-\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_solar_luminosity_ga6be0ccfc1c7bc3c7c9eb7032cdd5541b}{Solar\+Luminosity\+Ratio}} (const T star\+Luminosity\+InW)
+\begin{DoxyCompactList}\small\item\em Calculates the solar luminosity (all wavelengths) ratio $\dfrac{L}{L_{\odot}$ of a star from the stars luminosity, $L$, in watts. It is the ratio of a star\textquotesingle{}s luminosity to that of the sun. \[\dfrac{L}{L_{\odot}=\dfrac{L}{L_{\odot}\] See \href{https://en.wikipedia.org/wiki/Solar_luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Solar\+\_\+luminosity} and \href{https://en.wikipedia.org/wiki/Mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Mass}–luminosity\+\_\+relation. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter_ga37f4ed78b0fc23603b49ade3e435ea20}{Standard\+Gravitational\+Parameter}} (const T mass\+Inkg)
 \begin{DoxyCompactList}\small\item\em Calculates the standard gravitational parameter, $\mu$, of a celestial body in meter cubed per second squared. The standard gravitational parameter is a product of the gravitational constant, $G$, and the mass, $M$, of the celestial body\+: \[\mu = GM\]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_stellar_luminosity_ga3b820d52268e63258c4ff42cbe0df980}{Stellar\+Luminosity}} (const T star\+Absolute\+Bolometric\+Magnitude)
+\begin{DoxyCompactList}\small\item\em Calculates the stellar luminosity, $L$, in watts of a star from a stars absolute bolometric magnitude, $M_{bol}$. \[ L=L_{0}10^{-0.4 M_{bol}}\] See \href{https://en.wikipedia.org/wiki/Solar_luminosity}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Solar\+\_\+luminosity} and \href{https://en.wikipedia.org/wiki/Mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Mass}–luminosity\+\_\+relation. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_ga6c1b42cfd62e3174709ddbf15a87b460}{Stellar\+Mass}} (const T star\+Mass, const T reference\+Mass)
 \begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_ga4988f903a27ec9cfa63f72b003d876fd}{Solar\+Mass}} (const T star\+Mass)
 \begin{DoxyCompactList}\small\item\em Calculates the solar mass $(M)$ of a star when comparing it to the mass of the sun $(m_\odot)$. \[M=\frac{m_{star}}{m_\odot}\] See \href{https://en.wikipedia.org/wiki/Solar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Solar\+\_\+mass}. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_ga5eeb9652876859bff3afdd352dd7925e}{Stellar\+Mass\+Approximation}} (const T star\+Luminosity\+InW)
-\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=??\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_ga1863cc210a7e0aa0c681774e719fcd21}{Stellar\+Mass\+Approximation\+Inkg}} (const T star\+Luminosity\+InW)
-\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=??\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_mass_ga8d4792aff66d53698461f73b1d25e3cc}{Stellar\+Mass\+Approximation\+In\+Solar\+Mass}} (const T star\+Luminosity\+In\+Solar\+Luminosity)
-\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=\frac{m_{star}}{m_{ref}}\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Calculates the stellar mass $(M)$ of a star when comparing it to the mass of a reference star $(m_{ref})$. \[M=??\] See \href{https://en.wikipedia.org/wiki/Stellar_mass}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Stellar\+\_\+mass}. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_radius_ga612cd22c37341a1864cd2fc5c858e18e}{Stellar\+Radius}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+InW)
 \begin{DoxyCompactList}\small\item\em Calculates the radius, $R$, of a star in meters using its luminosity, $L$, and its surface tempreture $T$. \[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_radius_ga59f0d5d89a857d30bff4c93713ee5bd9}{Stellar\+Radius\+From\+Luminosity\+In\+Watts}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+InW)
 \begin{DoxyCompactList}\small\item\em Calculates the radius, $R$, of a star in meters using its luminosity, $L$, and its surface tempreture $T$. \[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_radius_ga49f0848777ba12cdfc78d112d82036ce}{Stellar\+Radius\+From\+Luminosity\+In\+Solar\+Luminosity}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+In\+Solar\+Luminosity)
 \begin{DoxyCompactList}\small\item\em Calculates the radius, $R$, of a star in meters using its luminosity, $L$, and its surface tempreture $T$. \[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]. \end{DoxyCompactList}\item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_stellar_radius_ga5c476c4ebcb0ad3e93a21393788d3dc2}{Stellar\+Radius\+From\+Absolute\+Magnitude}} (const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Luminosity\+InW)
-\begin{DoxyCompactList}\small\item\em Calculates the radius, $R$, of a star in meters using its absolute magnitude, $M$, and its surface tempreture $T$. \[R=\sqrt{\dfrac{L}{4\pi \sigma T_{eff}^4}}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gaf7e1f42b674fe8bb2211c40882a7d5b6}{Surface\+Gravity\+Inm\+Pers\+Squared}} (const T mass\+Inkg, const T mean\+Radius\+Inm)
 \begin{DoxyCompactList}\small\item\em Calculates the surface gravity, $g$, of a celestial body in meters per second squared. The surface gravity is a product of the gravitational constant, $G$, as well as the mass, $M$, and mean radius, $r$, of the celestial body\+: \[g = \frac{GM}{r^2}\]. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_surface_gravity_gab5bb479758d72608ef6ada063f6c1a1b}{Surface\+Gravity\+Ing}} (const T mass\+Inkg, const T mean\+Radius\+Inm)
@@ -465,11 +462,7 @@ void \mbox{\hyperlink{group___e_g_x_phys-_kinetics-_torque_ga12a787853cab88d4041
 \item 
 \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk_gaac188526cc9b051a26372e1a3b5b66b7}{sun\+Luminosity}} = 3.\+828e26
 \item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk_gaa7771a36e39ea74d3c320ec03fc4ae13}{solar\+Luminosity}} = \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk_gaac188526cc9b051a26372e1a3b5b66b7}{sun\+Luminosity}}
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk_gac72086892d2addbbec944a632c064c95}{sun\+Bolometric\+Luminosity}} = 3.\+0128e28
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk_ga8191a2e8a7ea11325ec2eaec4ad7de4d}{solar\+Bolometric\+Luminosity}} = 3.\+0128e28
+\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk_ga1fa4f167b9b8f594d35d879fdfdde7b4}{solar\+Luminosity}} = \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk_gaac188526cc9b051a26372e1a3b5b66b7}{sun\+Luminosity}}
 \item 
 \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk_ga088d6c6b1f9cc7098af2da77e94a386a}{sun\+X\+Ray\+Luminosity}} = 2.\+24e20
 \item 
@@ -666,6 +659,10 @@ void \mbox{\hyperlink{group___e_g_x_phys-_kinetics-_torque_ga12a787853cab88d4041
 \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk_ga4b3a512e9d562530710100f65695ab13}{earth\+Moment\+Of\+Inertia}} = 0.\+3308
 \item 
 \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk_ga8d661a52948229a59e9eabf97af51faf}{earth\+J2}} = 1082.\+63e-\/6
+\item 
+\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk_gada6c6733f79e984d42cf37210b4ad18f}{earth\+Escape\+Velocity}} = 11186.\+0
+\item 
+\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk_ga850a2031af18dbe83cafae87542b588d}{earth\+Average\+Surface\+Tempreture}} = 287.\+0
 \item 
 \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_orbit_ga639f4ec7fb96c7750f22bfa1bc3a91f9}{earth\+Semimajor\+Axis}} = 149.\+60e9
 \item 
@@ -1051,53 +1048,7 @@ void \mbox{\hyperlink{group___e_g_x_phys-_kinetics-_torque_ga12a787853cab88d4041
 \item 
 \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_pluto-_orbit_ga2d8172ce3f1ca01e0db019dfde383a08}{pluto\+Inclination\+Of\+Equator}} = 57.\+47
 \item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a8c8cd4c8ab61cba4b6a398ddd9522fd8}{Mass\+Of\+Sun}} = 1.\+9891e30
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_ad95227315873b631f6e89c6286bd47da}{Sun\+Mass}} = \mbox{\hyperlink{namespace_e_g_x_phys_a8c8cd4c8ab61cba4b6a398ddd9522fd8}{Mass\+Of\+Sun}}
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a2ea9c3def39d5344dfdfc9c2cf7ce361}{Sun\+Tempreture}} = 5772.\+0
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_ae5de01f499e2a3a800c64923c0529403}{Sun\+Abs\+V\+Magnitude}} = 4.\+862
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a02112e66bcab4d4fbf5e257da587d53a}{Sun\+Luminocity}} = 3.\+8270e26
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_aba759295efbf59e0d55511275a5405a6}{Sun\+Age}} = 4572.\+0
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a57fdcaa15ddb1053b3919756918dfc87}{Surface\+Tempreture\+Of\+Sun}} = 5772.\+0
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a977f0d7f4feace443206a7bef5f284e3}{Semimajor\+Axis\+Of\+Earth}} = 149598261000
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a1069d85e5fee1fbaee40fd5df39b404d}{Eccentricity\+Of\+Earth}} = 0.\+01671123
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a6ef0ec604a76eb6c49ce035473196e39}{Bond\+Albedo\+Of\+Earth}} = 0.\+306
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_aaf1c2cc99c4dd27974baa986e55f5624}{Geometric\+Albedo\+Of\+Earth}} = 0.\+367
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_ab084d977c93d27ca51b8073e11f53047}{Mass\+Of\+Earth}} = 5.\+97219e24
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a9ecbaa71ac59a48f27bd67027e2c5e38}{Radius\+Of\+Earth}} = 6371000
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_acae3453c4766feffb52c046fb53508c8}{Sidereal\+Rotation\+Period\+Of\+Earth}} = 0.\+99726968$\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}{seconds\+In\+Day}}
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a1e98821c958ecddc9c4dfd58fc5d444b}{Mass\+Of\+Sun\+In\+Earth\+Mass}} = \mbox{\hyperlink{namespace_e_g_x_phys_a8c8cd4c8ab61cba4b6a398ddd9522fd8}{Mass\+Of\+Sun}}/\mbox{\hyperlink{namespace_e_g_x_phys_ab084d977c93d27ca51b8073e11f53047}{Mass\+Of\+Earth}}
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_ac8baf83b25bd9de63587551c69237b56}{Volume\+Of\+Earth}} = 4.\+0/3.\+0 $\ast$ pi $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a9ecbaa71ac59a48f27bd67027e2c5e38}{Radius\+Of\+Earth}}$\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a9ecbaa71ac59a48f27bd67027e2c5e38}{Radius\+Of\+Earth}}$\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a9ecbaa71ac59a48f27bd67027e2c5e38}{Radius\+Of\+Earth}}
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_ab40bd1315ac492165076625451b694f0}{Density\+Of\+Earth}} = \mbox{\hyperlink{namespace_e_g_x_phys_ab084d977c93d27ca51b8073e11f53047}{Mass\+Of\+Earth}}/\mbox{\hyperlink{namespace_e_g_x_phys_ac8baf83b25bd9de63587551c69237b56}{Volume\+Of\+Earth}}
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_af5df74cfa62155cf4afc737406b4b191}{Escape\+Velocity\+Of\+Earth}} = 11186.\+0
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a3b028810b566a9c21ccaad409e826c82}{Surface\+Tempreture\+Of\+Earth}} = 287.\+0
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a0889eb6a03c4a9b921effef10722c37e}{Radius\+Of\+Sun}} = 6.\+955e8
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a709fd4ba60035d0ec5d7987fcaa06c52}{Earth\+Mass}} = 5.\+97219e24
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a85767e0ed1e1c986a4cc78d528d0a32f}{Jupiter\+Mass}} = 1.\+89813e27
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_af7e17d4f0abfe57aa93fc1b863b92806}{Lunar\+Mass}} = 7.\+342e22
-\item 
-\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_ab612d6bb03de19c93a30608a77c05114}{sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day}} = N\+I\+S\+T\+Const\+::gravitational\+Constant $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a8c8cd4c8ab61cba4b6a398ddd9522fd8}{Mass\+Of\+Sun}} $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}{seconds\+In\+Day}} $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}{seconds\+In\+Day}} / (\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}}$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}}$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}})
+\mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_ab612d6bb03de19c93a30608a77c05114}{sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day}} = N\+I\+S\+T\+Const\+::gravitational\+Constant $\ast$ \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk_ga4b0d14718fcf75def83eec7f17d86268}{sun\+Mass}} $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}{seconds\+In\+Day}} $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}{seconds\+In\+Day}} / (\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}}$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}}$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}})
 \item 
 \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} \mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}} = 149597870700.\+0
 \item 
@@ -1113,7 +1064,7 @@ void \mbox{\hyperlink{group___e_g_x_phys-_kinetics-_torque_ga12a787853cab88d4041
 
 \subsection{Detailed Description}
 \begin{DoxyRefDesc}{Todo}
-\item[\mbox{\hyperlink{todo__todo000009}{Todo}}]add Spectral\+Radiance alias \end{DoxyRefDesc}
+\item[\mbox{\hyperlink{todo__todo000011}{Todo}}]add Spectral\+Radiance alias \end{DoxyRefDesc}
 
 
 \subsection{Variable Documentation}
@@ -1123,85 +1074,7 @@ void \mbox{\hyperlink{group___e_g_x_phys-_kinetics-_torque_ga12a787853cab88d4041
 \subsubsection{\texorpdfstring{AU}{AU}}
 {\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+AU = 149597870700.\+0}
 
-$au\ (au)$ Astronomical units in meters. \mbox{\Hypertarget{namespace_e_g_x_phys_a6ef0ec604a76eb6c49ce035473196e39}\label{namespace_e_g_x_phys_a6ef0ec604a76eb6c49ce035473196e39}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Bond\+Albedo\+Of\+Earth@{Bond\+Albedo\+Of\+Earth}}
-\index{Bond\+Albedo\+Of\+Earth@{Bond\+Albedo\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Bond\+Albedo\+Of\+Earth}{BondAlbedoOfEarth}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Bond\+Albedo\+Of\+Earth = 0.\+306}
-
-Bond Albedo(dimensionless) of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_ab40bd1315ac492165076625451b694f0}\label{namespace_e_g_x_phys_ab40bd1315ac492165076625451b694f0}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Density\+Of\+Earth@{Density\+Of\+Earth}}
-\index{Density\+Of\+Earth@{Density\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Density\+Of\+Earth}{DensityOfEarth}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Density\+Of\+Earth = \mbox{\hyperlink{namespace_e_g_x_phys_ab084d977c93d27ca51b8073e11f53047}{Mass\+Of\+Earth}}/\mbox{\hyperlink{namespace_e_g_x_phys_ac8baf83b25bd9de63587551c69237b56}{Volume\+Of\+Earth}}}
-
-$\rho_\oplus\ (\frac{kg}{m^3})$ Density of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a709fd4ba60035d0ec5d7987fcaa06c52}\label{namespace_e_g_x_phys_a709fd4ba60035d0ec5d7987fcaa06c52}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Earth\+Mass@{Earth\+Mass}}
-\index{Earth\+Mass@{Earth\+Mass}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Earth\+Mass}{EarthMass}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Earth\+Mass = 5.\+97219e24}
-
-Mass(kg) Of Earth. $M_\oplus$ \mbox{\Hypertarget{namespace_e_g_x_phys_a1069d85e5fee1fbaee40fd5df39b404d}\label{namespace_e_g_x_phys_a1069d85e5fee1fbaee40fd5df39b404d}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Eccentricity\+Of\+Earth@{Eccentricity\+Of\+Earth}}
-\index{Eccentricity\+Of\+Earth@{Eccentricity\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Eccentricity\+Of\+Earth}{EccentricityOfEarth}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Eccentricity\+Of\+Earth = 0.\+01671123}
-
-Eccentricity(dimensionless) of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_af5df74cfa62155cf4afc737406b4b191}\label{namespace_e_g_x_phys_af5df74cfa62155cf4afc737406b4b191}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Escape\+Velocity\+Of\+Earth@{Escape\+Velocity\+Of\+Earth}}
-\index{Escape\+Velocity\+Of\+Earth@{Escape\+Velocity\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Escape\+Velocity\+Of\+Earth}{EscapeVelocityOfEarth}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Escape\+Velocity\+Of\+Earth = 11186.\+0}
-
-$v_e\ (\frac{m}{s})$ Escape velocity of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_aaf1c2cc99c4dd27974baa986e55f5624}\label{namespace_e_g_x_phys_aaf1c2cc99c4dd27974baa986e55f5624}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Geometric\+Albedo\+Of\+Earth@{Geometric\+Albedo\+Of\+Earth}}
-\index{Geometric\+Albedo\+Of\+Earth@{Geometric\+Albedo\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Geometric\+Albedo\+Of\+Earth}{GeometricAlbedoOfEarth}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Geometric\+Albedo\+Of\+Earth = 0.\+367}
-
-Geometric Albedo(dimensionless) of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a85767e0ed1e1c986a4cc78d528d0a32f}\label{namespace_e_g_x_phys_a85767e0ed1e1c986a4cc78d528d0a32f}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Jupiter\+Mass@{Jupiter\+Mass}}
-\index{Jupiter\+Mass@{Jupiter\+Mass}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Jupiter\+Mass}{JupiterMass}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Jupiter\+Mass = 1.\+89813e27}
-
-Mass(kg) Of Jupiter. $M_J$ \mbox{\Hypertarget{namespace_e_g_x_phys_af7e17d4f0abfe57aa93fc1b863b92806}\label{namespace_e_g_x_phys_af7e17d4f0abfe57aa93fc1b863b92806}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Lunar\+Mass@{Lunar\+Mass}}
-\index{Lunar\+Mass@{Lunar\+Mass}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Lunar\+Mass}{LunarMass}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Lunar\+Mass = 7.\+342e22}
-
-Mass(kg) Of Moon. $M_L$ \mbox{\Hypertarget{namespace_e_g_x_phys_ab084d977c93d27ca51b8073e11f53047}\label{namespace_e_g_x_phys_ab084d977c93d27ca51b8073e11f53047}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Mass\+Of\+Earth@{Mass\+Of\+Earth}}
-\index{Mass\+Of\+Earth@{Mass\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Mass\+Of\+Earth}{MassOfEarth}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Mass\+Of\+Earth = 5.\+97219e24}
-
-Mass(kg) Of Earth. $M_\oplus$ \mbox{\Hypertarget{namespace_e_g_x_phys_a8c8cd4c8ab61cba4b6a398ddd9522fd8}\label{namespace_e_g_x_phys_a8c8cd4c8ab61cba4b6a398ddd9522fd8}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Mass\+Of\+Sun@{Mass\+Of\+Sun}}
-\index{Mass\+Of\+Sun@{Mass\+Of\+Sun}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Mass\+Of\+Sun}{MassOfSun}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Mass\+Of\+Sun = 1.\+9891e30}
-
-$m_\odot$ (kg) Mass of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_a1e98821c958ecddc9c4dfd58fc5d444b}\label{namespace_e_g_x_phys_a1e98821c958ecddc9c4dfd58fc5d444b}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Mass\+Of\+Sun\+In\+Earth\+Mass@{Mass\+Of\+Sun\+In\+Earth\+Mass}}
-\index{Mass\+Of\+Sun\+In\+Earth\+Mass@{Mass\+Of\+Sun\+In\+Earth\+Mass}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Mass\+Of\+Sun\+In\+Earth\+Mass}{MassOfSunInEarthMass}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Mass\+Of\+Sun\+In\+Earth\+Mass = \mbox{\hyperlink{namespace_e_g_x_phys_a8c8cd4c8ab61cba4b6a398ddd9522fd8}{Mass\+Of\+Sun}}/\mbox{\hyperlink{namespace_e_g_x_phys_ab084d977c93d27ca51b8073e11f53047}{Mass\+Of\+Earth}}}
-
-Mass( $M_\oplus$) Of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_a9ecbaa71ac59a48f27bd67027e2c5e38}\label{namespace_e_g_x_phys_a9ecbaa71ac59a48f27bd67027e2c5e38}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Radius\+Of\+Earth@{Radius\+Of\+Earth}}
-\index{Radius\+Of\+Earth@{Radius\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Radius\+Of\+Earth}{RadiusOfEarth}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Radius\+Of\+Earth = 6371000}
-
-Radius(m) Of Earth. $R_\oplus$ \mbox{\Hypertarget{namespace_e_g_x_phys_a0889eb6a03c4a9b921effef10722c37e}\label{namespace_e_g_x_phys_a0889eb6a03c4a9b921effef10722c37e}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Radius\+Of\+Sun@{Radius\+Of\+Sun}}
-\index{Radius\+Of\+Sun@{Radius\+Of\+Sun}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Radius\+Of\+Sun}{RadiusOfSun}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Radius\+Of\+Sun = 6.\+955e8}
-
-$R_\odot\ (m)$ Radius of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}\label{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}} 
+$au\ (au)$ Astronomical units in meters. \mbox{\Hypertarget{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}\label{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!seconds\+In\+Day@{seconds\+In\+Day}}
 \index{seconds\+In\+Day@{seconds\+In\+Day}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{seconds\+In\+Day}{secondsInDay}}
@@ -1225,73 +1098,13 @@ $min\ (s)$ Amount of seconds inside a minute. \mbox{\Hypertarget{namespace_e_g_x
 \subsubsection{\texorpdfstring{seconds\+In\+Year}{secondsInYear}}
 {\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::seconds\+In\+Year = 365.\+25$\ast$day}
 
-$min\ (s)$ Amount of seconds inside a year (365.\+25 days). See \href{https://www.iau.org/static/publications/stylemanual1989.pdf}{\tt https\+://www.\+iau.\+org/static/publications/stylemanual1989.\+pdf} \mbox{\Hypertarget{namespace_e_g_x_phys_a977f0d7f4feace443206a7bef5f284e3}\label{namespace_e_g_x_phys_a977f0d7f4feace443206a7bef5f284e3}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Semimajor\+Axis\+Of\+Earth@{Semimajor\+Axis\+Of\+Earth}}
-\index{Semimajor\+Axis\+Of\+Earth@{Semimajor\+Axis\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Semimajor\+Axis\+Of\+Earth}{SemimajorAxisOfEarth}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Semimajor\+Axis\+Of\+Earth = 149598261000}
-
-Semimajor Axis(m) Of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_acae3453c4766feffb52c046fb53508c8}\label{namespace_e_g_x_phys_acae3453c4766feffb52c046fb53508c8}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Sidereal\+Rotation\+Period\+Of\+Earth@{Sidereal\+Rotation\+Period\+Of\+Earth}}
-\index{Sidereal\+Rotation\+Period\+Of\+Earth@{Sidereal\+Rotation\+Period\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Sidereal\+Rotation\+Period\+Of\+Earth}{SiderealRotationPeriodOfEarth}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Sidereal\+Rotation\+Period\+Of\+Earth = 0.\+99726968$\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}{seconds\+In\+Day}}}
-
-Sidereal Rotation Period(s) Of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_ae5de01f499e2a3a800c64923c0529403}\label{namespace_e_g_x_phys_ae5de01f499e2a3a800c64923c0529403}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Sun\+Abs\+V\+Magnitude@{Sun\+Abs\+V\+Magnitude}}
-\index{Sun\+Abs\+V\+Magnitude@{Sun\+Abs\+V\+Magnitude}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Sun\+Abs\+V\+Magnitude}{SunAbsVMagnitude}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Sun\+Abs\+V\+Magnitude = 4.\+862}
-
-Absolute V Magnitude (??) of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_aba759295efbf59e0d55511275a5405a6}\label{namespace_e_g_x_phys_aba759295efbf59e0d55511275a5405a6}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Sun\+Age@{Sun\+Age}}
-\index{Sun\+Age@{Sun\+Age}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Sun\+Age}{SunAge}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Sun\+Age = 4572.\+0}
-
-Age(\+Myr) of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_ab612d6bb03de19c93a30608a77c05114}\label{namespace_e_g_x_phys_ab612d6bb03de19c93a30608a77c05114}} 
+$min\ (s)$ Amount of seconds inside a year (365.\+25 days). See \href{https://www.iau.org/static/publications/stylemanual1989.pdf}{\tt https\+://www.\+iau.\+org/static/publications/stylemanual1989.\+pdf} \mbox{\Hypertarget{namespace_e_g_x_phys_ab612d6bb03de19c93a30608a77c05114}\label{namespace_e_g_x_phys_ab612d6bb03de19c93a30608a77c05114}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day@{sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day}}
 \index{sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day@{sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day}{sunGravConstInAuCubedperSolarMassDay}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day = N\+I\+S\+T\+Const\+::gravitational\+Constant $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a8c8cd4c8ab61cba4b6a398ddd9522fd8}{Mass\+Of\+Sun}} $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}{seconds\+In\+Day}} $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}{seconds\+In\+Day}} / (\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}}$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}}$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}})}
+{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::sun\+Grav\+Const\+In\+Au\+Cubedper\+Solar\+Mass\+Day = N\+I\+S\+T\+Const\+::gravitational\+Constant $\ast$ \mbox{\hyperlink{group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk_ga4b0d14718fcf75def83eec7f17d86268}{sun\+Mass}} $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}{seconds\+In\+Day}} $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a93d2a00d75411b58cbf63ab3fd1f8bc2}{seconds\+In\+Day}} / (\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}}$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}}$\ast$\mbox{\hyperlink{namespace_e_g_x_phys_a9fd3e76b0182d48b26fb884bf87dcadb}{AU}})}
 
-$G_{Sun}\ (\frac{AU^3}{SolarMass\ day)$ Gravitational constant around sun per day. \mbox{\Hypertarget{namespace_e_g_x_phys_a02112e66bcab4d4fbf5e257da587d53a}\label{namespace_e_g_x_phys_a02112e66bcab4d4fbf5e257da587d53a}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Sun\+Luminocity@{Sun\+Luminocity}}
-\index{Sun\+Luminocity@{Sun\+Luminocity}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Sun\+Luminocity}{SunLuminocity}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Sun\+Luminocity = 3.\+8270e26}
-
-$L_\odot$(W) Luminocity of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_ad95227315873b631f6e89c6286bd47da}\label{namespace_e_g_x_phys_ad95227315873b631f6e89c6286bd47da}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Sun\+Mass@{Sun\+Mass}}
-\index{Sun\+Mass@{Sun\+Mass}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Sun\+Mass}{SunMass}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Sun\+Mass = \mbox{\hyperlink{namespace_e_g_x_phys_a8c8cd4c8ab61cba4b6a398ddd9522fd8}{Mass\+Of\+Sun}}}
-
-$m_\odot$ (kg) Mass of Sun. \mbox{\Hypertarget{namespace_e_g_x_phys_a2ea9c3def39d5344dfdfc9c2cf7ce361}\label{namespace_e_g_x_phys_a2ea9c3def39d5344dfdfc9c2cf7ce361}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Sun\+Tempreture@{Sun\+Tempreture}}
-\index{Sun\+Tempreture@{Sun\+Tempreture}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Sun\+Tempreture}{SunTempreture}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Sun\+Tempreture = 5772.\+0}
-
-$T_\odot$(K) Tempreture of Sun. 5778K was a value from 1955 \mbox{\Hypertarget{namespace_e_g_x_phys_a3b028810b566a9c21ccaad409e826c82}\label{namespace_e_g_x_phys_a3b028810b566a9c21ccaad409e826c82}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Surface\+Tempreture\+Of\+Earth@{Surface\+Tempreture\+Of\+Earth}}
-\index{Surface\+Tempreture\+Of\+Earth@{Surface\+Tempreture\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Surface\+Tempreture\+Of\+Earth}{SurfaceTempretureOfEarth}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Surface\+Tempreture\+Of\+Earth = 287.\+0}
-
-$T_{\oplus,Surface}\ (K)$ Surface tempreture of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a57fdcaa15ddb1053b3919756918dfc87}\label{namespace_e_g_x_phys_a57fdcaa15ddb1053b3919756918dfc87}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Surface\+Tempreture\+Of\+Sun@{Surface\+Tempreture\+Of\+Sun}}
-\index{Surface\+Tempreture\+Of\+Sun@{Surface\+Tempreture\+Of\+Sun}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Surface\+Tempreture\+Of\+Sun}{SurfaceTempretureOfSun}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Surface\+Tempreture\+Of\+Sun = 5772.\+0}
-
-$T_\odot$(K) Tempreture of Sun surface. \mbox{\Hypertarget{namespace_e_g_x_phys_ac8baf83b25bd9de63587551c69237b56}\label{namespace_e_g_x_phys_ac8baf83b25bd9de63587551c69237b56}} 
-\index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!Volume\+Of\+Earth@{Volume\+Of\+Earth}}
-\index{Volume\+Of\+Earth@{Volume\+Of\+Earth}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
-\subsubsection{\texorpdfstring{Volume\+Of\+Earth}{VolumeOfEarth}}
-{\footnotesize\ttfamily \mbox{\hyperlink{group___e_g_x_phys-_constants-_macros_ga76980d288494ce1714c9ac68a95ba702}{E\+G\+X\+P\+H\+Y\+S\+\_\+\+C\+O\+N\+S\+T\+A\+NT}} E\+G\+X\+Phys\+::\+Volume\+Of\+Earth = 4.\+0/3.\+0 $\ast$ pi $\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a9ecbaa71ac59a48f27bd67027e2c5e38}{Radius\+Of\+Earth}}$\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a9ecbaa71ac59a48f27bd67027e2c5e38}{Radius\+Of\+Earth}}$\ast$ \mbox{\hyperlink{namespace_e_g_x_phys_a9ecbaa71ac59a48f27bd67027e2c5e38}{Radius\+Of\+Earth}}}
-
-$V_\oplus\ (m^3)$ Volume of Earth. \mbox{\Hypertarget{namespace_e_g_x_phys_a7cdba0f4a3a3f7deb756d952ee619190}\label{namespace_e_g_x_phys_a7cdba0f4a3a3f7deb756d952ee619190}} 
+$G_{Sun}\ (\frac{AU^3}{SolarMass\ day)$ Gravitational constant around sun per day. \mbox{\Hypertarget{namespace_e_g_x_phys_a7cdba0f4a3a3f7deb756d952ee619190}\label{namespace_e_g_x_phys_a7cdba0f4a3a3f7deb756d952ee619190}} 
 \index{E\+G\+X\+Phys@{E\+G\+X\+Phys}!zero\+Point\+Luminosity@{zero\+Point\+Luminosity}}
 \index{zero\+Point\+Luminosity@{zero\+Point\+Luminosity}!E\+G\+X\+Phys@{E\+G\+X\+Phys}}
 \subsubsection{\texorpdfstring{zero\+Point\+Luminosity}{zeroPointLuminosity}}

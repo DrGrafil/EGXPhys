@@ -17,7 +17,7 @@ var searchData=
   ['jupitergeometricalbedo',['jupiterGeometricAlbedo',['../da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#ga8ca933493ff89584bc50b7e5bcbb64b2',1,'EGXPhys']]],
   ['jupiterinclinationofequator',['jupiterInclinationOfEquator',['../da/d46/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_orbit.html#ga9d8885ca3f314c675788ceec89e3a933',1,'EGXPhys']]],
   ['jupiterj2',['jupiterJ2',['../da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#ga846f4c33b3e4089181cf11106c1a1441',1,'EGXPhys']]],
-  ['jupitermass',['JupiterMass',['../de/dd8/namespace_e_g_x_phys.html#a85767e0ed1e1c986a4cc78d528d0a32f',1,'EGXPhys::JupiterMass()'],['../da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#ga8a78b1db0a9c538857855b43a3bc47e6',1,'EGXPhys::jupiterMass()']]],
+  ['jupitermass',['jupiterMass',['../da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#ga8a78b1db0a9c538857855b43a3bc47e6',1,'EGXPhys']]],
   ['jupitermomentofinertia',['jupiterMomentOfInertia',['../da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#ga50587ad8262cc8af606d31ba2cc00e37',1,'EGXPhys']]],
   ['jupiterobliquitytoorbit',['jupiterObliquityToOrbit',['../da/d46/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_orbit.html#ga80cd2231e9fa0fb10ecf5ea62fdc0ddb',1,'EGXPhys']]],
   ['jupiterorbiteccentricity',['jupiterOrbitEccentricity',['../da/d46/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_orbit.html#gac92e819ec6b74b0db751948b503ae776',1,'EGXPhys']]],

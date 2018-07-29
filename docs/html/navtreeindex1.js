@@ -57,12 +57,6 @@ var NAVTREEINDEX1 =
 "d0/ddd/_mass_defect_8inl.html#gad5378933021e13598a76bd8581b1e887":[3,0,0,2,9,2],
 "d0/ddd/_mass_defect_8inl.html#gae89f2dfa65992c0314adc2440b2f582a":[3,0,0,2,9,0],
 "d0/de5/group___e_g_x_math-_conversions-_length_conversions-_imperial-_yard.html":[1,0,0,2,1,5],
-"d0/de6/_solar_luminosity_8hpp.html":[3,0,0,1,41],
-"d0/de6/_solar_luminosity_8hpp.html#ga5829dd9d9bb423b36c25d697335cedb3":[3,0,0,1,41,0],
-"d0/de6/_solar_luminosity_8hpp.html#ga776982acc6d10dd23f5eddf0481ef341":[3,0,0,1,41,1],
-"d0/de6/_solar_luminosity_8hpp.html#ga91ffd6af02a4cd165e56b3891bafbece":[3,0,0,1,41,2],
-"d0/de6/_solar_luminosity_8hpp.html#gad9e8790d480f4ac8fcf37d2180fec626":[3,0,0,1,41,3],
-"d0/de6/_solar_luminosity_8hpp_source.html":[3,0,0,1,41],
 "d0/dee/_zettameter_conversion_8hpp.html":[3,0,0,3,0,2,4,41],
 "d0/dee/_zettameter_conversion_8hpp.html#ga027661828604c5467325eb50e084d96d":[3,0,0,3,0,2,4,41,35],
 "d0/dee/_zettameter_conversion_8hpp.html#ga07934308bcd823e960e1c4be504e5afd":[3,0,0,3,0,2,4,41,26],
@@ -249,5 +243,11 @@ var NAVTREEINDEX1 =
 "d1/d13/_d_m_s_conversion_8hpp.html#gaf87ebf95727895ba81084a2246e93211":[3,0,0,3,0,0,7,16],
 "d1/d13/_d_m_s_conversion_8hpp_source.html":[3,0,0,3,0,0,7],
 "d1/d1d/group___n_i_s_t_const-_electron.html":[1,2,2,4],
-"d1/d1d/group___n_i_s_t_const-_electron.html#ga092d2fd5301e0af1ac698aaf3a5425bc":[1,2,2,4,11]
+"d1/d1d/group___n_i_s_t_const-_electron.html#ga092d2fd5301e0af1ac698aaf3a5425bc":[1,2,2,4,11],
+"d1/d1d/group___n_i_s_t_const-_electron.html#ga09927db665d49bed80a79bc63560ebef":[1,2,2,4,1],
+"d1/d1d/group___n_i_s_t_const-_electron.html#ga0c7a7ac37b4270254e8f321e64ac67cc":[1,2,2,4,2],
+"d1/d1d/group___n_i_s_t_const-_electron.html#ga0c9b4920e17b633b803690de4d91148f":[1,2,2,4,15],
+"d1/d1d/group___n_i_s_t_const-_electron.html#ga1109541565a324555c1c507b9582ce81":[1,2,2,4,12],
+"d1/d1d/group___n_i_s_t_const-_electron.html#ga13aee678a36c5d1c6ef95e9e4c939dcc":[1,2,2,4,24],
+"d1/d1d/group___n_i_s_t_const-_electron.html#ga255ca695fbfd1d03317d8934cef8b659":[1,2,2,4,4]
 };
