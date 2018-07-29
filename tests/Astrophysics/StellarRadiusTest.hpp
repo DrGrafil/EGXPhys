@@ -13,7 +13,7 @@ TEST_CASE("Stellar Radius"){
     //https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html
     CHECK(StellarRadius(5772.0, 382.8e24) == Approx(695700000.0).scale(0.0).epsilon(0.001));
 
-    CHECK(StellarRadius(SunTempreture, SunLuminocity) == Approx(RadiusOfSun).scale(0.0).epsilon(0.001));
-    CHECK(StellarRadiusFromLuminosityInWatts(SunTempreture, SunLuminocity) == Approx(RadiusOfSun).scale(0.0).epsilon(0.001));
-    CHECK(StellarRadiusFromLuminosityInSolarLuminosity(SunTempreture, 1.0) == Approx(RadiusOfSun).scale(0.0).epsilon(0.001));
+    CHECK(StellarRadius(sunSurfaceEffectiveTemperature, sunLuminosity) == Approx(sunNominalSolarRadius).scale(0.0).epsilon(0.001));
+    CHECK(StellarRadiusFromLuminosityInWatts(sunSurfaceEffectiveTemperature, sunLuminosity) == Approx(sunNominalSolarRadius).scale(0.0).epsilon(0.001));
+    CHECK(StellarRadiusFromLuminosityInSolarLuminosity(sunSurfaceEffectiveTemperature, 1.0) == Approx(sunNominalSolarRadius).scale(0.0).epsilon(0.001));
 }

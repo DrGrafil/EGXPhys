@@ -19,7 +19,7 @@ namespace EGXPhys{
 
     template<typename T>
     T StellarRadiusFromLuminosityInSolarLuminosity(const T starEffectiveSurfaceTemperatureInK, const T starLuminosityInSolarLuminosity) {
-        return StellarRadiusFromLuminosityInWatts(starEffectiveSurfaceTemperatureInK, starLuminosityInSolarLuminosity * (T)SunLuminocity);
+        return StellarRadiusFromLuminosityInWatts(starEffectiveSurfaceTemperatureInK, starLuminosityInSolarLuminosity * (T)solarLuminosity);
     }
 
 

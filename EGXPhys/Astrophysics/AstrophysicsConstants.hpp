@@ -697,44 +697,44 @@ namespace EGXPhys
 
 		//Sun
         //https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun
-	EGXPHYS_CONSTANT MassOfSun = 1.9891e30;										/**< \f$m_\odot\f$ (kg) Mass of Sun. */
+	//EGXPHYS_CONSTANT MassOfSun = 1.9891e30;										/**< \f$m_\odot\f$ (kg) Mass of Sun. */
 	//EGXPHYS_CONSTANT SolarMass = MassOfSun;                                 	/**< \f$m_\odot\f$ (kg) Mass of Sun. */
-	EGXPHYS_CONSTANT SunMass = MassOfSun;                                 		/**< \f$m_\odot\f$ (kg) Mass of Sun. */
-	EGXPHYS_CONSTANT SunTempreture = 5772.0;									/**< \f$T_\odot\f$(K) Tempreture of Sun. 5778K was a value from 1955*/
-	EGXPHYS_CONSTANT SunAbsVMagnitude = 4.862;									/**< Absolute V Magnitude (??) of Sun. */
-	EGXPHYS_CONSTANT SunLuminocity = 3.8270e26;									/**< \f$L_\odot\f$(W) Luminocity of Sun. */
-	EGXPHYS_CONSTANT SunAge = 4572.0;											/**< Age(Myr) of Sun. */
-    EGXPHYS_CONSTANT SurfaceTempretureOfSun = 5772.0;							/**< \f$T_\odot\f$(K) Tempreture of Sun surface. */
+	//EGXPHYS_CONSTANT SunMass = MassOfSun;                                 		/**< \f$m_\odot\f$ (kg) Mass of Sun. */
+	//EGXPHYS_CONSTANT SunTempreture = 5772.0;									/**< \f$T_\odot\f$(K) Tempreture of Sun. 5778K was a value from 1955*/
+	//EGXPHYS_CONSTANT SunAbsVMagnitude = 4.862;									/**< Absolute V Magnitude (??) of Sun. */
+	//EGXPHYS_CONSTANT SunLuminocity = 3.8270e26;									/**< \f$L_\odot\f$(W) Luminocity of Sun. */
+	//EGXPHYS_CONSTANT SunAge = 4572.0;											/**< Age(Myr) of Sun. */
+    //EGXPHYS_CONSTANT SurfaceTempretureOfSun = 5772.0;							/**< \f$T_\odot\f$(K) Tempreture of Sun surface. */
 		//Earth
     
-	EGXPHYS_CONSTANT SemimajorAxisOfEarth = 149598261000;						/**< Semimajor Axis(m) Of Earth. */
-	EGXPHYS_CONSTANT EccentricityOfEarth = 0.01671123;                     	 	/**< Eccentricity(dimensionless) of Earth. */
-	EGXPHYS_CONSTANT BondAlbedoOfEarth = 0.306;									/**< Bond Albedo(dimensionless) of Earth. */
-	EGXPHYS_CONSTANT GeometricAlbedoOfEarth = 0.367;							/**< Geometric Albedo(dimensionless) of Earth. */
-	EGXPHYS_CONSTANT MassOfEarth = 5.97219e24;									/**< Mass(kg) Of Earth. \f$M_\oplus\f$ */
-	EGXPHYS_CONSTANT RadiusOfEarth= 6371000;									/**< Radius(m) Of Earth. \f$R_\oplus\f$ */
-	EGXPHYS_CONSTANT SiderealRotationPeriodOfEarth = 0.99726968* secondsInDay;	/**< Sidereal Rotation Period(s) Of Earth. */
-	EGXPHYS_CONSTANT MassOfSunInEarthMass = MassOfSun/MassOfEarth;				/**< Mass(\f$M_\oplus\f$) Of Sun. */
+//	EGXPHYS_CONSTANT SemimajorAxisOfEarth = 149598261000;						/**< Semimajor Axis(m) Of Earth. */
+//	EGXPHYS_CONSTANT EccentricityOfEarth = 0.01671123;                     	 	/**< Eccentricity(dimensionless) of Earth. */
+//	EGXPHYS_CONSTANT BondAlbedoOfEarth = 0.306;									/**< Bond Albedo(dimensionless) of Earth. */
+//	EGXPHYS_CONSTANT GeometricAlbedoOfEarth = 0.367;							/**< Geometric Albedo(dimensionless) of Earth. */
+//	EGXPHYS_CONSTANT MassOfEarth = 5.97219e24;									/**< Mass(kg) Of Earth. \f$M_\oplus\f$ */
+//	EGXPHYS_CONSTANT RadiusOfEarth= 6371000;									/**< Radius(m) Of Earth. \f$R_\oplus\f$ */
+//	EGXPHYS_CONSTANT SiderealRotationPeriodOfEarth = 0.99726968* secondsInDay;	/**< Sidereal Rotation Period(s) Of Earth. */
+//	EGXPHYS_CONSTANT MassOfSunInEarthMass = MassOfSun/MassOfEarth;				/**< Mass(\f$M_\oplus\f$) Of Sun. */
 	
 								// m
-	EGXPHYS_CONSTANT VolumeOfEarth = 4.0/3.0 * pi * RadiusOfEarth* RadiusOfEarth* RadiusOfEarth;	/**< \f$V_\oplus\ (m^3)\f$ Volume of Earth. */
-	EGXPHYS_CONSTANT DensityOfEarth =  MassOfEarth/VolumeOfEarth;				/**< \f$\rho_\oplus\ (\frac{kg}{m^3})\f$ Density of Earth. */
-	EGXPHYS_CONSTANT EscapeVelocityOfEarth = 11186.0; 							/**< \f$v_e\ (\frac{m}{s})\f$ Escape velocity of Earth. */
-	EGXPHYS_CONSTANT SurfaceTempretureOfEarth = 287.0;							/**< \f$T_{\oplus,Surface}\ (K)\f$ Surface tempreture of Earth. */
+//	EGXPHYS_CONSTANT VolumeOfEarth = 4.0/3.0 * pi * RadiusOfEarth* RadiusOfEarth* RadiusOfEarth;	/**< \f$V_\oplus\ (m^3)\f$ Volume of Earth. */
+//	EGXPHYS_CONSTANT DensityOfEarth =  MassOfEarth/VolumeOfEarth;				/**< \f$\rho_\oplus\ (\frac{kg}{m^3})\f$ Density of Earth. */
+//	EGXPHYS_CONSTANT EscapeVelocityOfEarth = 11186.0; 							/**< \f$v_e\ (\frac{m}{s})\f$ Escape velocity of Earth. */
+//	EGXPHYS_CONSTANT SurfaceTempretureOfEarth = 287.0;							/**< \f$T_{\oplus,Surface}\ (K)\f$ Surface tempreture of Earth. */
 	 
 	 
-	EGXPHYS_CONSTANT RadiusOfSun =  6.955e8;									/**< \f$R_\odot\ (m)\f$ Radius of Sun. */
+//	EGXPHYS_CONSTANT RadiusOfSun =  6.955e8;									/**< \f$R_\odot\ (m)\f$ Radius of Sun. */
 
 		//Mars
 	
 
 
-	EGXPHYS_CONSTANT EarthMass = 5.97219e24;									/**< Mass(kg) Of Earth. \f$M_\oplus\f$ */
-	EGXPHYS_CONSTANT JupiterMass = 1.89813e27;									/**< Mass(kg) Of Jupiter. \f$M_J\f$ */
-	EGXPHYS_CONSTANT LunarMass = 7.342e22;										/**< Mass(kg) Of Moon. \f$M_L\f$ */ //Is this right for symbol?
+	//EGXPHYS_CONSTANT EarthMass = 5.97219e24;									/**< Mass(kg) Of Earth. \f$M_\oplus\f$ */
+	//EGXPHYS_CONSTANT JupiterMass = 1.89813e27;									/**< Mass(kg) Of Jupiter. \f$M_J\f$ */
+	//EGXPHYS_CONSTANT LunarMass = 7.342e22;										/**< Mass(kg) Of Moon. \f$M_L\f$ */ //Is this right for symbol?
 
 
-	EGXPHYS_CONSTANT sunGravConstInAuCubedperSolarMassDay = NISTConst::gravitationalConstant * MassOfSun * secondsInDay * secondsInDay / (AU*AU*AU); /**< \f$G_{Sun}\ (\frac{AU^3}{SolarMass\ day)\f$  Gravitational constant around sun per day. */
+//	EGXPHYS_CONSTANT sunGravConstInAuCubedperSolarMassDay = NISTConst::gravitationalConstant * MassOfSun * secondsInDay * secondsInDay / (AU*AU*AU); /**< \f$G_{Sun}\ (\frac{AU^3}{SolarMass\ day)\f$  Gravitational constant around sun per day. */
 
 	/*
 	EGXPHYS_CONSTANT SemimajorAxisOf =;

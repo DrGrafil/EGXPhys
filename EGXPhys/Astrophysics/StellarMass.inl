@@ -14,7 +14,7 @@ namespace EGXPhys{
 
 	template<typename T>
 	T SolarMass(const T starMass) {
-		return starMass / SunMass;
+		return starMass / solarMass;
 	}
     
     
