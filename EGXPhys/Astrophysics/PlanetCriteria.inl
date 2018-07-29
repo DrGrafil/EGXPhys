@@ -19,7 +19,7 @@ namespace EGXPhys{
 	
 	template<typename T>
     T EarthSimilarityIndex( const T& planetMeanRadius, const T& planetBulkDensity, const T& planetEscapeVelocity, const T& planetSurfaceTemperature){
-    	return PlanetSimilarityIndex( planetMeanRadius, RadiusOfEarth, planetBulkDensity, DensityOfEarth, planetEscapeVelocity, EscapeVelocityOfEarth, planetSurfaceTemperature, SurfaceTempretureOfEarth);
+    	return PlanetSimilarityIndex( planetMeanRadius, earthVolumetricMeanRadius, planetBulkDensity, earthDensity, planetEscapeVelocity, earthEscapeVelocity, planetSurfaceTemperature, earthAverageSurfaceTempreture);
 	}
 	
 	template<typename T>
@@ -33,7 +33,7 @@ namespace EGXPhys{
 	
 	template<typename T>
     T EarthSimilarityIndexInterior( const T& planetMeanRadius, const T& planetBulkDensity){
-    	return PlanetSimilarityIndexInterior(planetMeanRadius, RadiusOfEarth, planetBulkDensity, DensityOfEarth);
+    	return PlanetSimilarityIndexInterior(planetMeanRadius, earthVolumetricMeanRadius, planetBulkDensity, earthDensity);
 	}
 	
 	
@@ -48,7 +48,7 @@ namespace EGXPhys{
 	
 	template<typename T>
     T EarthSimilarityIndexSurface(const T& planetEscapeVelocity, const T& planetSurfaceTemperature){
-    	return PlanetSimilarityIndexSurface(planetEscapeVelocity, EscapeVelocityOfEarth, planetSurfaceTemperature, SurfaceTempretureOfEarth);
+    	return PlanetSimilarityIndexSurface(planetEscapeVelocity, earthEscapeVelocity, planetSurfaceTemperature, earthAverageSurfaceTempreture);
 	}
     
     
