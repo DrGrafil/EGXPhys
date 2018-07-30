@@ -30,7 +30,7 @@ var searchData=
   ['bulk',['Bulk',['../d9/d82/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_pluto-_bulk.html',1,'']]],
   ['bulk',['Bulk',['../d5/dd2/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_saturn-_bulk.html',1,'']]],
   ['bulk',['Bulk',['../d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html',1,'']]],
-  ['bulk',['Bulk',['../d3/d4d/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uruanus-_bulk.html',1,'']]],
+  ['bulk',['Bulk',['../dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html',1,'']]],
   ['bulk',['Bulk',['../d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html',1,'']]],
   ['black_20body',['Black Body',['../dc/d99/group___e_g_x_phys-_electrodynamics-_black_body.html',1,'']]],
   ['binding_20energy',['Binding Energy',['../d0/d84/group___e_g_x_phys-_nuclear_binding_energy.html',1,'']]],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"d0/dc2/_ellipse_directrix_8hpp.html#gaa496c6b5f9717e7ce731dd374f5d0ae8":[3,0,0,3,2,0,1,3,1],
+"d0/dc2/_ellipse_directrix_8hpp.html#gace8f72a8efbc9c18d3eb689151405106":[3,0,0,3,2,0,1,3,0],
+"d0/dc2/_ellipse_directrix_8hpp_source.html":[3,0,0,3,2,0,1,3],
 "d0/dc4/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer-_nautical.html":[1,0,0,2,4,7,4],
 "d0/dc4/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer-_nautical.html#ga487d637d16d2468a9969ab3a4f50eeb1":[1,0,0,2,4,7,4,0],
 "d0/dc4/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer-_nautical.html#ga74e84be72b4e2272d547b5d7e21211dc":[1,0,0,2,4,7,4,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "d1/d1d/group___n_i_s_t_const-_electron.html#ga092d2fd5301e0af1ac698aaf3a5425bc":[1,2,2,4,11],
 "d1/d1d/group___n_i_s_t_const-_electron.html#ga09927db665d49bed80a79bc63560ebef":[1,2,2,4,1],
 "d1/d1d/group___n_i_s_t_const-_electron.html#ga0c7a7ac37b4270254e8f321e64ac67cc":[1,2,2,4,2],
-"d1/d1d/group___n_i_s_t_const-_electron.html#ga0c9b4920e17b633b803690de4d91148f":[1,2,2,4,15],
-"d1/d1d/group___n_i_s_t_const-_electron.html#ga1109541565a324555c1c507b9582ce81":[1,2,2,4,12],
-"d1/d1d/group___n_i_s_t_const-_electron.html#ga13aee678a36c5d1c6ef95e9e4c939dcc":[1,2,2,4,24],
-"d1/d1d/group___n_i_s_t_const-_electron.html#ga255ca695fbfd1d03317d8934cef8b659":[1,2,2,4,4]
+"d1/d1d/group___n_i_s_t_const-_electron.html#ga0c9b4920e17b633b803690de4d91148f":[1,2,2,4,15]
 };

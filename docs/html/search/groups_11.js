@@ -9,7 +9,7 @@ var searchData=
   ['orbit',['Orbit',['../d2/d4c/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_neptune-_orbit.html',1,'']]],
   ['orbit',['Orbit',['../d3/d4f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_pluto-_orbit.html',1,'']]],
   ['orbit',['Orbit',['../d1/dbb/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_saturn-_orbit.html',1,'']]],
-  ['orbit',['Orbit',['../d8/df4/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uruanus-_orbit.html',1,'']]],
+  ['orbit',['Orbit',['../d6/dfd/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_orbit.html',1,'']]],
   ['orbit',['Orbit',['../d0/d97/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_orbit.html',1,'']]],
   ['optics',['Optics',['../d2/d36/group___e_g_x_phys-_optics.html',1,'']]],
   ['orbital_20charecteristics',['Orbital Charecteristics',['../d2/df0/group___e_g_x_phys-_orbital_charecteristics.html',1,'']]]

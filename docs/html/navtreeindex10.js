@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html":[1,1,3,0,0,2,0],
+"d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html#ga1fa2321d7cd6c55bc48dc191719d580d":[1,1,3,0,0,2,0,2],
 "d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html#ga5331daa7cd2abe77e1fa8ad9e3534f7d":[1,1,3,0,0,2,0,5],
 "d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html#ga7c5dfac5db073d6f546b2aa30e4c6566":[1,1,3,0,0,2,0,13],
 "d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html#ga7cb8b494f46eb7bdf8bbe4a4d61bb53e":[1,1,3,0,0,2,0,4],
@@ -140,9 +142,9 @@ var NAVTREEINDEX10 =
 "d4/ddd/_acoustics_constants_8hpp_source.html":[3,0,0,0,1],
 "d4/ddf/_kinematics_8hpp.html":[3,0,0,5,0],
 "d4/ddf/_kinematics_8hpp_source.html":[3,0,0,5,0],
-"d4/ddf/_rotational_angular_velocity_8hpp.html":[3,0,0,1,35],
-"d4/ddf/_rotational_angular_velocity_8hpp.html#gad8966c9d42ff617677152fa014f7d1db":[3,0,0,1,35,0],
-"d4/ddf/_rotational_angular_velocity_8hpp_source.html":[3,0,0,1,35],
+"d4/ddf/_rotational_angular_velocity_8hpp.html":[3,0,0,1,37],
+"d4/ddf/_rotational_angular_velocity_8hpp.html#gad8966c9d42ff617677152fa014f7d1db":[3,0,0,1,37,0],
+"d4/ddf/_rotational_angular_velocity_8hpp_source.html":[3,0,0,1,37],
 "d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html":[1,0,0,2,4,16,2],
 "d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html#ga391bcf9b529c2e20f2773c699bb0197a":[1,0,0,2,4,16,2,4],
 "d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html#ga5bf639553e4b6e8520f9345def06e492":[1,0,0,2,4,16,2,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "d5/d26/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec.html":[1,0,0,2,0,2],
 "d5/d28/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html":[1,0,2,0,1,8],
 "d5/d28/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga00e19efce15b74c6556cbd5650d7f699":[1,0,2,0,1,8,2],
-"d5/d28/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga1352fb9ee77a05d6b5d733c0fa048479":[1,0,2,0,1,8,10],
-"d5/d28/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga505f404b0c1f4f73853c97e0a9ee2ef1":[1,0,2,0,1,8,7],
-"d5/d28/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga646a2ca065f4ac3f666a9ea22f3bb527":[1,0,2,0,1,8,0]
+"d5/d28/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga1352fb9ee77a05d6b5d733c0fa048479":[1,0,2,0,1,8,10]
 };

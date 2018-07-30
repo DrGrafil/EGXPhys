@@ -1,0 +1,71 @@
+\hypertarget{group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture}{}\section{Planetary Equilibrium Tempreture}
+\label{group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture}\index{Planetary Equilibrium Tempreture@{Planetary Equilibrium Tempreture}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture_ga48b1c3c35c18036586685da25085d05b}{E\+G\+X\+Phys\+::\+Planetary\+Equilibrium\+Tempreture}} (const T planet\+Bond\+Albedo, const T planet\+Distance\+From\+Star\+Inm, const T star\+Luminosity\+InW, const T planet\+Emissivity=(T) 1.\+0)
+\begin{DoxyCompactList}\small\item\em Calculates the planetary equilibrium tempreture, $T_{eq}$ of a planet in kelvin. The planetary equilibrium tempreture is the theoretical temperature of a planet assuming it is a black body being heated only by its parent star. \[ T_{eq}=\left ( \dfrac{L (1-A)}{16 \epsilon \sigma \pi D^2} \right )^{\dfrac{1}{4}} \]. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture_ga4a6704ad5d483e07453bcd01ba5f66c3}{E\+G\+X\+Phys\+::\+Planetary\+Equilibrium\+Tempreture}} (const T planet\+Bond\+Albedo, const T planet\+Distance\+From\+Star\+Inm, const T star\+Effective\+Surface\+Temperature\+InK, const T star\+Radius\+Inm, const T planet\+Emissivity=(T) 1.\+0)
+\begin{DoxyCompactList}\small\item\em Calculates the planetary equilibrium tempreture, $T_{eq}$ of a planet in kelvin. The planetary equilibrium tempreture is the theoretical temperature of a planet assuming it is a black body being heated only by its parent star. \[ T_{eq}=T_{eff} \left ( \dfrac{(1-A)}{\epsilon} \right )^{\dfrac{1}{4}} \sqrt{\dfrac{R}{2 D} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture_ga48b1c3c35c18036586685da25085d05b}\label{group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture_ga48b1c3c35c18036586685da25085d05b}} 
+\index{Planetary Equilibrium Tempreture@{Planetary Equilibrium Tempreture}!Planetary\+Equilibrium\+Tempreture@{Planetary\+Equilibrium\+Tempreture}}
+\index{Planetary\+Equilibrium\+Tempreture@{Planetary\+Equilibrium\+Tempreture}!Planetary Equilibrium Tempreture@{Planetary Equilibrium Tempreture}}
+\subsubsection{\texorpdfstring{Planetary\+Equilibrium\+Tempreture()}{PlanetaryEquilibriumTempreture()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Planetary\+Equilibrium\+Tempreture (\begin{DoxyParamCaption}\item[{const T}]{planet\+Bond\+Albedo,  }\item[{const T}]{planet\+Distance\+From\+Star\+Inm,  }\item[{const T}]{star\+Luminosity\+InW,  }\item[{const T}]{planet\+Emissivity = {\ttfamily (T)1.0} }\end{DoxyParamCaption})}
+
+
+
+Calculates the planetary equilibrium tempreture, $T_{eq}$ of a planet in kelvin. The planetary equilibrium tempreture is the theoretical temperature of a planet assuming it is a black body being heated only by its parent star. \[ T_{eq}=\left ( \dfrac{L (1-A)}{16 \epsilon \sigma \pi D^2} \right )^{\dfrac{1}{4}} \]. 
+
+See \href{https://en.wikipedia.org/wiki/Planetary_equilibrium_temperature}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Planetary\+\_\+equilibrium\+\_\+temperature} and \href{https://www.astro.princeton.edu/~strauss/FRS113/writeup3/}{\tt https\+://www.\+astro.\+princeton.\+edu/$\sim$strauss/\+F\+R\+S113/writeup3/}
+
+
+\begin{DoxyParams}{Parameters}
+{\em planet\+Bond\+Albedo} & $A\ (dimensionless)$ Planet\textquotesingle{}s bond albedo. Varies between 0-\/1. Earth\textquotesingle{}s bond albedo is at 0.\+30. \\
+\hline
+{\em planet\+Distance\+From\+Star\+Inm} & $D\ (m)$ Distant planet is from parent star in meters. \\
+\hline
+{\em star\+Luminosity\+InW} & $L\ (W)$ Luminosity of the parent star in watts. \\
+\hline
+{\em planet\+Emissivity} & $\epsilon\ (dimensionless)$ Planet\textquotesingle{}s emissivity. Varies between 0-\/1 but is 0.\+9-\/1.\+0 for a planet. Earth\textquotesingle{}s emissivity is at 0.\+96. Defaults to 1.\+0. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$T_{eq}\ (K)$ Planetary equilibrium tempreture of a planet in kelvin. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture_ga4a6704ad5d483e07453bcd01ba5f66c3}\label{group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture_ga4a6704ad5d483e07453bcd01ba5f66c3}} 
+\index{Planetary Equilibrium Tempreture@{Planetary Equilibrium Tempreture}!Planetary\+Equilibrium\+Tempreture@{Planetary\+Equilibrium\+Tempreture}}
+\index{Planetary\+Equilibrium\+Tempreture@{Planetary\+Equilibrium\+Tempreture}!Planetary Equilibrium Tempreture@{Planetary Equilibrium Tempreture}}
+\subsubsection{\texorpdfstring{Planetary\+Equilibrium\+Tempreture()}{PlanetaryEquilibriumTempreture()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Planetary\+Equilibrium\+Tempreture (\begin{DoxyParamCaption}\item[{const T}]{planet\+Bond\+Albedo,  }\item[{const T}]{planet\+Distance\+From\+Star\+Inm,  }\item[{const T}]{star\+Effective\+Surface\+Temperature\+InK,  }\item[{const T}]{star\+Radius\+Inm,  }\item[{const T}]{planet\+Emissivity = {\ttfamily (T)1.0} }\end{DoxyParamCaption})}
+
+
+
+Calculates the planetary equilibrium tempreture, $T_{eq}$ of a planet in kelvin. The planetary equilibrium tempreture is the theoretical temperature of a planet assuming it is a black body being heated only by its parent star. \[ T_{eq}=T_{eff} \left ( \dfrac{(1-A)}{\epsilon} \right )^{\dfrac{1}{4}} \sqrt{\dfrac{R}{2 D} \]. 
+
+See \href{https://en.wikipedia.org/wiki/Planetary_equilibrium_temperature}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Planetary\+\_\+equilibrium\+\_\+temperature} and \href{https://www.astro.princeton.edu/~strauss/FRS113/writeup3/}{\tt https\+://www.\+astro.\+princeton.\+edu/$\sim$strauss/\+F\+R\+S113/writeup3/}
+
+
+\begin{DoxyParams}{Parameters}
+{\em planet\+Bond\+Albedo} & $A\ (dimensionless)$ Planet\textquotesingle{}s bond albedo. Varies between 0-\/1. Earth\textquotesingle{}s bond albedo is at 0.\+30. \\
+\hline
+{\em planet\+Distance\+From\+Star\+Inm} & $D\ (m)$ Distant planet is from parent star in meters. \\
+\hline
+{\em star\+Effective\+Surface\+Temperature\+InK} & $T_{eff}\ (K)$ Effective surface temperature of the star (black body) in kelvin. See \href{https://en.wikipedia.org/wiki/Effective_temperature}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Effective\+\_\+temperature}. \\
+\hline
+{\em star\+Radius\+Inm} & $R\ (m)$ Radius of parent star in meters. \\
+\hline
+{\em planet\+Emissivity} & $\epsilon\ (dimensionless)$ Planet\textquotesingle{}s emissivity. Varies between 0-\/1 but is 0.\+9-\/1.\+0 for a planet. Earth\textquotesingle{}s emissivity is at 0.\+96. Defaults to 1.\+0. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$T_{eq}\ (K)$ Planetary equilibrium tempreture of a planet in kelvin. 
+\end{DoxyReturn}

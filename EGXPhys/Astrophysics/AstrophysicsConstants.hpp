@@ -109,14 +109,14 @@
 ///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Saturn
 
 
-///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Uruanus Uruanus
+///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Uranus Uranus
 ///     @ingroup EGXPhys-Constants-Astrophysics-SolarSystem
 
-///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Uruanus-Bulk Bulk
-///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Uruanus
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Uranus-Bulk Bulk
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Uranus
 
-///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Uruanus-Orbit Orbit
-///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Uruanus
+///         @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Uranus-Orbit Orbit
+///         @ingroup EGXPhys-Constants-Astrophysics-SolarSystem-Uranus
 
 
 ///     @defgroup EGXPhys-Constants-Astrophysics-SolarSystem-Neptune Neptune
@@ -564,7 +564,7 @@ namespace EGXPhys
     EGXPHYS_CONSTANT uranusMomentOfInertia = 0.225;                             /**< \f$ I_{U} \ (dimensionless)\f$ The moment of inertia of Uranus. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html */
     EGXPHYS_CONSTANT uranusJ2 = 3343.43e-6;                                     /**< \f$ J_{2,U} \ (dimensionless)\f$ J_2 perterbation of Uranus. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html */
     /// @}
-
+    
     /// @addtogroup EGXPhys-Constants-Astrophysics-SolarSystem-Uranus-Orbit
     /// @{
     EGXPHYS_CONSTANT uranusSemimajorAxis = 2872.46e9;                           /**< \f$ a_{U} \ (m)\f$ Semi-major axis of Uranus in meters. See NASA, Jet Propulsion Laboratory, Horizon for data https://ssd.jpl.nasa.gov/horizons.cgi . Accessed 7/16/18. Also see https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html */

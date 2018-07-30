@@ -506,6 +506,20 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga1b844386674d15f7dc768f81b5770b93"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d40/group___e_g_x_phys-_periapsis.html#ga1b844386674d15f7dc768f81b5770b93">Perihadion</a> (const T &amp;orbitalEccentricity, const T &amp;semiMajorAxisInm)</td></tr>
 <tr class="memdesc:ga1b844386674d15f7dc768f81b5770b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates periapsis around Pluto.  <a href="../../d2/d40/group___e_g_x_phys-_periapsis.html#ga1b844386674d15f7dc768f81b5770b93">More...</a><br /></td></tr>
 <tr class="separator:ga1b844386674d15f7dc768f81b5770b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga48b1c3c35c18036586685da25085d05b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga48b1c3c35c18036586685da25085d05b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d74/group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture.html#ga48b1c3c35c18036586685da25085d05b">PlanetaryEquilibriumTempreture</a> (const T planetBondAlbedo, const T planetDistanceFromStarInm, const T starLuminosityInW, const T planetEmissivity=(T) 1.0)</td></tr>
+<tr class="memdesc:ga48b1c3c35c18036586685da25085d05b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the planetary equilibrium tempreture, \(T_{eq}\) of a planet in kelvin. The planetary equilibrium tempreture is the theoretical temperature of a planet assuming it is a black body being heated only by its parent star. </p><p class="formulaDsp">
+\[ T_{eq}=\left ( \dfrac{L (1-A)}{16 \epsilon \sigma \pi D^2} \right )^{\dfrac{1}{4}} \]
+</p>
+<p>.  <a href="../../d0/d74/group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture.html#ga48b1c3c35c18036586685da25085d05b">More...</a><br /></td></tr>
+<tr class="separator:ga48b1c3c35c18036586685da25085d05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a6704ad5d483e07453bcd01ba5f66c3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga4a6704ad5d483e07453bcd01ba5f66c3"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d74/group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture.html#ga4a6704ad5d483e07453bcd01ba5f66c3">PlanetaryEquilibriumTempreture</a> (const T planetBondAlbedo, const T planetDistanceFromStarInm, const T starEffectiveSurfaceTemperatureInK, const T starRadiusInm, const T planetEmissivity=(T) 1.0)</td></tr>
+<tr class="memdesc:ga4a6704ad5d483e07453bcd01ba5f66c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the planetary equilibrium tempreture, \(T_{eq}\) of a planet in kelvin. The planetary equilibrium tempreture is the theoretical temperature of a planet assuming it is a black body being heated only by its parent star. </p><p class="formulaDsp">
+\[ T_{eq}=T_{eff} \left ( \dfrac{(1-A)}{\epsilon} \right )^{\dfrac{1}{4}} \sqrt{\dfrac{R}{2 D} \]
+</p>
+<p>.  <a href="../../d0/d74/group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture.html#ga4a6704ad5d483e07453bcd01ba5f66c3">More...</a><br /></td></tr>
+<tr class="separator:ga4a6704ad5d483e07453bcd01ba5f66c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga225bcf56fb37468f6d4d46493d403503"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga225bcf56fb37468f6d4d46493d403503"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d24/group___e_g_x_phys-_planetary_mass.html#ga225bcf56fb37468f6d4d46493d403503">PlanetaryMass</a> (const T &amp;planetMass, const T &amp;referenceMass)</td></tr>
 <tr class="memdesc:ga225bcf56fb37468f6d4d46493d403503"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the planetary mass \((M)\) of a planet when comparing it to the mass of a reference planet \((m_{ref})\). </p><p class="formulaDsp">
@@ -565,14 +579,6 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d83/group___e_g_x_phys-_planet_criteria.html#ga1df772b0ed354ca7f7e4a7a4af072325">EarthSimilarityIndexSurface</a> (const T &amp;planetEscapeVelocity, const T &amp;planetSurfaceTemperature)</td></tr>
 <tr class="memdesc:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Surface Earth Similarity Index \((ESI_S)\) of a planet.  <a href="../../d7/d83/group___e_g_x_phys-_planet_criteria.html#ga1df772b0ed354ca7f7e4a7a4af072325">More...</a><br /></td></tr>
 <tr class="separator:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeac3ced5104701ee02fc100f7cf4c189"><td class="memTemplParams" colspan="2">
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:gaeac3ced5104701ee02fc100f7cf4c189"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>PlanetaryEquilibriumTempreture</b> (const T planetAlbedo, const T planetDistance, const T starLuminosity)</td></tr>
-<tr class="separator:gaeac3ced5104701ee02fc100f7cf4c189"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga099c12876fba6deb13ae2cf0e92644fe"><td class="memTemplParams" colspan="2">
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga099c12876fba6deb13ae2cf0e92644fe"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>PlanetaryEquilibriumTempreture</b> (const T planetAlbedo, const T planetDistance, const T starSurfaceTemp, const T starRadius)</td></tr>
-<tr class="separator:ga099c12876fba6deb13ae2cf0e92644fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0814237dccfe3c968b97fa6c93aeca27"><td class="memTemplParams" colspan="2">
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga0814237dccfe3c968b97fa6c93aeca27"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>HabitableZoneAtmosphere</b> (const T planetMass, const T planetRadius, const T planetEquilibriumTemp)</td></tr>
@@ -676,11 +682,11 @@ template&lt;typename T &gt; </td></tr>
 <p>.  <a href="../../d9/daa/group___e_g_x_phys-_astrophysic-_solar_day.html#gae321e0dd0c031a57c45b15dc819635e0">More...</a><br /></td></tr>
 <tr class="separator:gae321e0dd0c031a57c45b15dc819635e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6be0ccfc1c7bc3c7c9eb7032cdd5541b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga6be0ccfc1c7bc3c7c9eb7032cdd5541b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dd3/group___e_g_x_phys-_astrophysics-_solar_luminosity.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b">SolarLuminosityRatio</a> (const T starLuminosityInW)</td></tr>
-<tr class="memdesc:ga6be0ccfc1c7bc3c7c9eb7032cdd5541b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the solar luminosity (all wavelengths) ratio \(\dfrac{L}{L_{\odot}\) of a star from the stars luminosity, \(L\), in watts. It is the ratio of a star's luminosity to that of the sun. </p><p class="formulaDsp">
-\[\dfrac{L}{L_{\odot}=\dfrac{L}{L_{\odot}\]
+<tr class="memitem:ga6be0ccfc1c7bc3c7c9eb7032cdd5541b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d46/group___e_g_x_phys-_astrophysics-_solar_luminosity_ratio.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b">SolarLuminosityRatio</a> (const T starLuminosityInW)</td></tr>
+<tr class="memdesc:ga6be0ccfc1c7bc3c7c9eb7032cdd5541b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the solar luminosity (all wavelengths) ratio \(\dfrac{L}{L_{\odot}}\) of a star from the stars luminosity, \(L\), in watts. It is the ratio of a star's luminosity to that of the sun. </p><p class="formulaDsp">
+\[\dfrac{L}{L_{\odot}=\dfrac{L}{L_{\odot}}\]
 </p>
-<p> See <a href="https://en.wikipedia.org/wiki/Solar_luminosity">https://en.wikipedia.org/wiki/Solar_luminosity</a> and <a href="https://en.wikipedia.org/wiki/Mass">https://en.wikipedia.org/wiki/Mass</a>–luminosity_relation.  <a href="../../d9/dd3/group___e_g_x_phys-_astrophysics-_solar_luminosity.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b">More...</a><br /></td></tr>
+<p> See <a href="https://en.wikipedia.org/wiki/Solar_luminosity">https://en.wikipedia.org/wiki/Solar_luminosity</a> and <a href="https://en.wikipedia.org/wiki/Mass">https://en.wikipedia.org/wiki/Mass</a>–luminosity_relation.  <a href="../../d5/d46/group___e_g_x_phys-_astrophysics-_solar_luminosity_ratio.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b">More...</a><br /></td></tr>
 <tr class="separator:ga6be0ccfc1c7bc3c7c9eb7032cdd5541b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga37f4ed78b0fc23603b49ade3e435ea20"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga37f4ed78b0fc23603b49ade3e435ea20"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d56/group___e_g_x_phys-_astrophysics-_standard_gravitational_parameter.html#ga37f4ed78b0fc23603b49ade3e435ea20">StandardGravitationalParameter</a> (const T massInkg)</td></tr>

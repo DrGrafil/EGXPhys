@@ -175,7 +175,7 @@ var searchData=
   ['solareffectivetemperature',['solarEffectiveTemperature',['../d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#gaa1a1a67eb8247ed92dc7869afbcfbdc3',1,'EGXPhys']]],
   ['solarirradianceat1au',['solarIrradianceAt1Au',['../d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga4ed5c970359ffccba0d45fc95541b332',1,'EGXPhys']]],
   ['solarluminosity',['solarLuminosity',['../d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga1fa4f167b9b8f594d35d879fdfdde7b4',1,'EGXPhys']]],
-  ['solarluminosityratio',['SolarLuminosityRatio',['../d9/dd3/group___e_g_x_phys-_astrophysics-_solar_luminosity.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b',1,'EGXPhys']]],
+  ['solarluminosityratio',['SolarLuminosityRatio',['../d5/d46/group___e_g_x_phys-_astrophysics-_solar_luminosity_ratio.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b',1,'EGXPhys']]],
   ['solarluminosityratio_2ehpp',['SolarLuminosityRatio.hpp',['../db/dfa/_solar_luminosity_ratio_8hpp.html',1,'']]],
   ['solarluminosityratio_2einl',['SolarLuminosityRatio.inl',['../d2/de2/_solar_luminosity_ratio_8inl.html',1,'']]],
   ['solarmass',['solarMass',['../d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#gac1786f38c6e150937d1c83e4aa499a58',1,'EGXPhys::solarMass()'],['../d5/d8b/group___e_g_x_phys-_stellar_mass.html#ga4988f903a27ec9cfa63f72b003d876fd',1,'EGXPhys::SolarMass(const T starMass)']]],

@@ -5,7 +5,7 @@ var searchData=
   ['siderealday',['SiderealDay',['../d9/df4/group___e_g_x_phys-_astrophysic-_sidereal_day.html#ga587900d5fc755228c1bb5121cd7965c6',1,'EGXPhys']]],
   ['signedlog',['SignedLog',['../d2/d8c/group___e_g_x_math-_functions-_log.html#gac87b6832572195929967808d98d502d5',1,'EGXMath::SignedLog(const T &amp;x)'],['../d2/d8c/group___e_g_x_math-_functions-_log.html#ga4cd6a087fb1977d52a321bfad0dae0f6',1,'EGXMath::SignedLog(const T &amp;x, const T &amp;base)']]],
   ['solarday',['SolarDay',['../d9/daa/group___e_g_x_phys-_astrophysic-_solar_day.html#gae321e0dd0c031a57c45b15dc819635e0',1,'EGXPhys']]],
-  ['solarluminosityratio',['SolarLuminosityRatio',['../d9/dd3/group___e_g_x_phys-_astrophysics-_solar_luminosity.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b',1,'EGXPhys']]],
+  ['solarluminosityratio',['SolarLuminosityRatio',['../d5/d46/group___e_g_x_phys-_astrophysics-_solar_luminosity_ratio.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b',1,'EGXPhys']]],
   ['solarmass',['SolarMass',['../d5/d8b/group___e_g_x_phys-_stellar_mass.html#ga4988f903a27ec9cfa63f72b003d876fd',1,'EGXPhys']]],
   ['sphericalcoordinatetocartesiancoordinate',['SphericalCoordinateToCartesianCoordinate',['../d8/dd3/group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga3141fcb31751df8a24b5474de768b375',1,'EGXMath']]],
   ['sphericalcoordinatetocylindricalcoordinate',['SphericalCoordinateToCylindricalCoordinate',['../d8/dd3/group___e_g_x_math-_conversions-_coordinate_conversions-3_d-_spherical.html#ga2a5678de0dda7c875a668f3db3da3418',1,'EGXMath']]],

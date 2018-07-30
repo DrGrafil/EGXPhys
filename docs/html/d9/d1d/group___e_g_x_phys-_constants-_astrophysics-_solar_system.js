@@ -8,7 +8,7 @@ var group___e_g_x_phys__constants__astrophysics__solar_system =
     [ "Mars", "df/d94/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_mars.html", "df/d94/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_mars" ],
     [ "Jupiter", "d8/df8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter.html", "d8/df8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter" ],
     [ "Saturn", "db/d97/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_saturn.html", "db/d97/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_saturn" ],
-    [ "Uruanus", "db/daf/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uruanus.html", "db/daf/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uruanus" ],
+    [ "Uranus", "d7/d3b/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus.html", "d7/d3b/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus" ],
     [ "Neptune", "d6/d2f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_neptune.html", "d6/d2f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_neptune" ],
     [ "Pluto", "d9/d0c/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_pluto.html", "d9/d0c/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_pluto" ]
 ];

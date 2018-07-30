@@ -140,6 +140,9 @@ var NAVTREEINDEX0 =
 "d0/d73/group___e_g_x_math-_conversions-_length_conversions-_s_i-_picometer-_astronomical.html#ga3248f6de04d23f6568866a8cd80188b6":[1,0,0,2,4,15,0,2],
 "d0/d73/group___e_g_x_math-_conversions-_length_conversions-_s_i-_picometer-_astronomical.html#ga4d8abbec265ae9e35ac109356db5b89a":[1,0,0,2,4,15,0,1],
 "d0/d73/group___e_g_x_math-_conversions-_length_conversions-_s_i-_picometer-_astronomical.html#gae051f7eb0eb85b99c614183acc6b8ea6":[1,0,0,2,4,15,0,0],
+"d0/d74/group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture.html":[1,1,1,14],
+"d0/d74/group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture.html#ga48b1c3c35c18036586685da25085d05b":[1,1,1,14,0],
+"d0/d74/group___e_g_x_phys-_astrophysics-_planetary_equilibrium_tempreture.html#ga4a6704ad5d483e07453bcd01ba5f66c3":[1,1,1,14,1],
 "d0/d7b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_centimeter-_nautical.html":[1,0,0,2,4,1,4],
 "d0/d7b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_centimeter-_nautical.html#ga65cf4453e28b375ee5c52389620939c6":[1,0,0,2,4,1,4,1],
 "d0/d7b/group___e_g_x_math-_conversions-_length_conversions-_s_i-_centimeter-_nautical.html#ga9a46ae39f9cc70947d27a297c1c3f113":[1,0,0,2,4,1,4,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX0 =
 "d0/dc0/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_nautical.html#ga4be465819cdcbfd7da046440844f5d82":[1,0,0,2,3,0,4,1],
 "d0/dc0/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_nautical.html#gab7a96e419622057d8fcce5af11ae0a9a":[1,0,0,2,3,0,4,0],
 "d0/dc2/_ellipse_directrix_8hpp.html":[3,0,0,3,2,0,1,3],
-"d0/dc2/_ellipse_directrix_8hpp.html#ga5e7a411cd0af17a30bae03613b4a675d":[3,0,0,3,2,0,1,3,2],
-"d0/dc2/_ellipse_directrix_8hpp.html#gaa496c6b5f9717e7ce731dd374f5d0ae8":[3,0,0,3,2,0,1,3,1],
-"d0/dc2/_ellipse_directrix_8hpp.html#gace8f72a8efbc9c18d3eb689151405106":[3,0,0,3,2,0,1,3,0],
-"d0/dc2/_ellipse_directrix_8hpp_source.html":[3,0,0,3,2,0,1,3]
+"d0/dc2/_ellipse_directrix_8hpp.html#ga5e7a411cd0af17a30bae03613b4a675d":[3,0,0,3,2,0,1,3,2]
 };

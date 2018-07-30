@@ -1,5 +1,10 @@
 var NAVTREEINDEX21 =
 {
+"d9/d95/_n_i_s_t_const_8hpp.html#gac11cf134e94f91150434d6a03a615586":[3,0,0,7,0,200],
+"d9/d95/_n_i_s_t_const_8hpp.html#gac30744595d38ad98b32d53785d7c7b82":[3,0,0,7,0,154],
+"d9/d95/_n_i_s_t_const_8hpp.html#gac35fe5b30f09c6d7601b1435c6ceafdd":[3,0,0,7,0,201],
+"d9/d95/_n_i_s_t_const_8hpp.html#gac58ff45f1227bc710cf031d2387665cb":[3,0,0,7,0,95],
+"d9/d95/_n_i_s_t_const_8hpp.html#gac69c06d65c929c8d1f260b4555a1ca1d":[3,0,0,7,0,325],
 "d9/d95/_n_i_s_t_const_8hpp.html#gac728faac7d754d8ddca4a4bd7565ec0e":[3,0,0,7,0,187],
 "d9/d95/_n_i_s_t_const_8hpp.html#gac808a9994102899511fafae56e842376":[3,0,0,7,0,243],
 "d9/d95/_n_i_s_t_const_8hpp.html#gac875b0f36fd52d70256d4a3d86eebb2e":[3,0,0,7,0,113],
@@ -76,8 +81,8 @@ var NAVTREEINDEX21 =
 "d9/da8/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer-_surveyors.html":[1,0,0,2,4,7,5],
 "d9/da8/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer-_surveyors.html#ga02973091150445cfe5798389ecccdceb":[1,0,0,2,4,7,5,0],
 "d9/da8/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer-_surveyors.html#gafdf1df626e4b3c88f88bd3d6d3545e7d":[1,0,0,2,4,7,5,1],
-"d9/daa/group___e_g_x_phys-_astrophysic-_solar_day.html":[1,1,1,20],
-"d9/daa/group___e_g_x_phys-_astrophysic-_solar_day.html#gae321e0dd0c031a57c45b15dc819635e0":[1,1,1,20,0],
+"d9/daa/group___e_g_x_phys-_astrophysic-_solar_day.html":[1,1,1,21],
+"d9/daa/group___e_g_x_phys-_astrophysic-_solar_day.html#gae321e0dd0c031a57c45b15dc819635e0":[1,1,1,21,0],
 "d9/db7/_orbital_period_8inl.html":[3,0,0,1,24],
 "d9/db7/_orbital_period_8inl.html#ga53ff53aea547ddedfc69119c4830daea":[3,0,0,1,24,6],
 "d9/db7/_orbital_period_8inl.html#ga5d4cc706d875fd82a83e566ade16546d":[3,0,0,1,24,1],
@@ -146,8 +151,6 @@ var NAVTREEINDEX21 =
 "d9/dd2/group___n_i_s_t_const-_atomic_mass_unit.html#ga8c1405e0299d1388f1452bf4e04778f9":[1,2,6,0,4],
 "d9/dd2/group___n_i_s_t_const-_atomic_mass_unit.html#gaa66e75563e7a7c28bc3c4b5c4ab482a1":[1,2,6,0,3],
 "d9/dd2/group___n_i_s_t_const-_atomic_mass_unit.html#gabc1d9560508c08af70cd236ca08dfbff":[1,2,6,0,1],
-"d9/dd3/group___e_g_x_phys-_astrophysics-_solar_luminosity.html":[1,5],
-"d9/dd3/group___e_g_x_phys-_astrophysics-_solar_luminosity.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b":[1,5,0],
 "d9/dd7/group___e_g_x_math-_conversions-_length_conversions-_s_i.html":[1,0,0,2,4],
 "d9/dd9/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_imperial.html":[1,0,0,2,4,16,3],
 "d9/dd9/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_imperial.html#ga3e00f52eb5c96d53031f36d7003a0e5e":[1,0,0,2,4,16,3,4],
@@ -211,8 +214,8 @@ var NAVTREEINDEX21 =
 "d9/ded/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_astronomical_unit-_s_i.html#gad8745fa5ccc5e8170717b4fd70c66623":[1,0,0,2,0,0,1,14],
 "d9/ded/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_astronomical_unit-_s_i.html#gaf512b8f1ace4be83fbeb252b447405d6":[1,0,0,2,0,0,1,15],
 "d9/ded/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_astronomical_unit-_s_i.html#gafa85cf1b3dc583681c13501fa9d923ff":[1,0,0,2,0,0,1,10],
-"d9/df4/group___e_g_x_phys-_astrophysic-_sidereal_day.html":[1,1,1,19],
-"d9/df4/group___e_g_x_phys-_astrophysic-_sidereal_day.html#ga587900d5fc755228c1bb5121cd7965c6":[1,1,1,19,0],
+"d9/df4/group___e_g_x_phys-_astrophysic-_sidereal_day.html":[1,1,1,20],
+"d9/df4/group___e_g_x_phys-_astrophysic-_sidereal_day.html#ga587900d5fc755228c1bb5121cd7965c6":[1,1,1,20,0],
 "d9/df7/group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html":[1,1,4,0,0],
 "d9/df7/group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga44d8dc3e072ffc7d860cd8f07463f091":[1,1,4,0,0,0],
 "d9/df7/group___e_g_x_phys-_electrodynamics-_black_body-_plancks_law.html#ga54639bc031ded51ef78aa82b0457a4dd":[1,1,4,0,0,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX21 =
 "d9/df8/_hectometer_conversion_8hpp.html#ga8b57e6e5bef662cc96b8b7dde68659a6":[3,0,0,3,0,2,4,14,12],
 "d9/df8/_hectometer_conversion_8hpp.html#ga997feaaeb91fc61c1d87c5d77fb7a665":[3,0,0,3,0,2,4,14,20],
 "d9/df8/_hectometer_conversion_8hpp.html#gaa4255093ded6f7cb739f3c519881c294":[3,0,0,3,0,2,4,14,23],
-"d9/df8/_hectometer_conversion_8hpp.html#gaa45a09cd750ee4e48680332f0ce39f07":[3,0,0,3,0,2,4,14,29],
-"d9/df8/_hectometer_conversion_8hpp.html#gab1a836041f9b5851f1b51fa4a09c6791":[3,0,0,3,0,2,4,14,17],
-"d9/df8/_hectometer_conversion_8hpp.html#gabb3930dfb3335dc53303ec8ce9145d71":[3,0,0,3,0,2,4,14,22],
-"d9/df8/_hectometer_conversion_8hpp.html#gabd26977f3d5ad9d0560afb10be63a598":[3,0,0,3,0,2,4,14,11]
+"d9/df8/_hectometer_conversion_8hpp.html#gaa45a09cd750ee4e48680332f0ce39f07":[3,0,0,3,0,2,4,14,29]
 };

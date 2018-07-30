@@ -29,6 +29,8 @@ var dir_7ac1fe1f7e154c60bf4adac7dda4de70 =
     [ "Parallax.inl", "df/d9b/_parallax_8inl.html", "df/d9b/_parallax_8inl" ],
     [ "Periapsis.hpp", "d9/d1e/_periapsis_8hpp.html", "d9/d1e/_periapsis_8hpp" ],
     [ "Periapsis.inl", "dd/d2d/_periapsis_8inl.html", "dd/d2d/_periapsis_8inl" ],
+    [ "PlanetaryEquilibriumTempreture.hpp", "d8/da5/_planetary_equilibrium_tempreture_8hpp.html", "d8/da5/_planetary_equilibrium_tempreture_8hpp" ],
+    [ "PlanetaryEquilibriumTempreture.inl", "dc/db9/_planetary_equilibrium_tempreture_8inl.html", "dc/db9/_planetary_equilibrium_tempreture_8inl" ],
     [ "PlanetaryMass.hpp", "de/dcb/_planetary_mass_8hpp.html", "de/dcb/_planetary_mass_8hpp" ],
     [ "PlanetaryMass.inl", "d5/dad/_planetary_mass_8inl.html", "d5/dad/_planetary_mass_8inl" ],
     [ "PlanetCriteria.hpp", "d5/d3c/_planet_criteria_8hpp.html", "d5/d3c/_planet_criteria_8hpp" ],

@@ -164,14 +164,6 @@ namespace EGXPhys
 	*/  
     template<typename T>
     T EarthSimilarityIndexSurface(const T& planetEscapeVelocity, const T& planetSurfaceTemperature);
-
- 
-	
-	template<typename T>
-	T PlanetaryEquilibriumTempreture( const T planetAlbedo, const T planetDistance, const T starLuminosity );
-	
-	template<typename T>
-	T PlanetaryEquilibriumTempreture( const T planetAlbedo,  const T planetDistance, const T starSurfaceTemp, const T starRadius );
 	
 	template<typename T>
 	T HabitableZoneAtmosphere( const T planetMass, const T planetRadius, const T planetEquilibriumTemp );

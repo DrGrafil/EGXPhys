@@ -1,5 +1,8 @@
 var NAVTREEINDEX25 =
 {
+"db/d97/group___e_g_x_math-_geometry-4_d.html":[1,0,2,3],
+"db/d97/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_saturn.html":[1,1,3,0,0,7],
+"db/da2/group___e_g_x_phys-_constants.html":[1,1,3],
 "db/da5/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer-_astronomical.html":[1,0,0,2,4,7,0],
 "db/da5/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer-_astronomical.html#ga71004aaba27ec49989b80e41e2075376":[1,0,0,2,4,7,0,1],
 "db/da5/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer-_astronomical.html#gae327abefa3e19b130dfde5d8e1f4a4ab":[1,0,0,2,4,7,0,2],
@@ -8,7 +11,6 @@ var NAVTREEINDEX25 =
 "db/da9/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_nautical.html":[1,0,0,2,4,6,4],
 "db/da9/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_nautical.html#ga52d7a5290f284cdfec247ba606967867":[1,0,0,2,4,6,4,1],
 "db/da9/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_nautical.html#gac09c5a61b554d3c3c2df3e414aca0e73":[1,0,0,2,4,6,4,0],
-"db/daf/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uruanus.html":[1,1,3,0,0,8],
 "db/db9/_parallax_8hpp.html":[3,0,0,1,25],
 "db/db9/_parallax_8hpp.html#ga94912bf8b98a04cccab8ef19eaa89b6a":[3,0,0,1,25,2],
 "db/db9/_parallax_8hpp.html#gab42dbec142e1a47925fc45e899845861":[3,0,0,1,25,3],
@@ -122,9 +124,9 @@ var NAVTREEINDEX25 =
 "db/def/_erf_functions_8inl.html#ga58f76263d205c47000068176d3116571":[3,0,0,3,1,1,1],
 "db/def/_erf_functions_8inl.html#gab7cacb258ac31ab3929204dc1ed93400":[3,0,0,3,1,1,2],
 "db/def/_erf_functions_8inl.html#gad1f81a581f9f2d66a1a4bad2578c3368":[3,0,0,3,1,1,3],
-"db/dfa/_solar_luminosity_ratio_8hpp.html":[3,0,0,1,43],
-"db/dfa/_solar_luminosity_ratio_8hpp.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b":[3,0,0,1,43,0],
-"db/dfa/_solar_luminosity_ratio_8hpp_source.html":[3,0,0,1,43],
+"db/dfa/_solar_luminosity_ratio_8hpp.html":[3,0,0,1,45],
+"db/dfa/_solar_luminosity_ratio_8hpp.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b":[3,0,0,1,45,0],
+"db/dfa/_solar_luminosity_ratio_8hpp_source.html":[3,0,0,1,45],
 "db/dfb/group___e_g_x_phys-_q_value-_electron_capture.html":[1,1,2,8,3],
 "db/dfb/group___e_g_x_phys-_q_value-_electron_capture.html#ga9cd8502b6101614c17114e9710cdcf6c":[1,1,2,8,3,3],
 "db/dfb/group___e_g_x_phys-_q_value-_electron_capture.html#gab16ac92ae27b2c0c96c7abc35f949cb8":[1,1,2,8,3,1],
@@ -192,7 +194,7 @@ var NAVTREEINDEX25 =
 "dc/d03/group___n_i_s_t_const-_sackur_tetrode_constant.html":[1,2,3,9],
 "dc/d03/group___n_i_s_t_const-_sackur_tetrode_constant.html#ga7f3efde326ea5cfe5e2d85d81a92fb3b":[1,2,3,9,1],
 "dc/d03/group___n_i_s_t_const-_sackur_tetrode_constant.html#ga855d127fef012cffe2ffe38cdb1b61fa":[1,2,3,9,0],
-"dc/d07/group___e_g_x_phys-_stellar_temperature.html":[1,1,1,26],
+"dc/d07/group___e_g_x_phys-_stellar_temperature.html":[1,1,1,27],
 "dc/d0d/group___e_g_x_math-_conversions-_length_conversions-_imperial-_yard-_imperial.html":[1,0,0,2,1,5,3],
 "dc/d0d/group___e_g_x_math-_conversions-_length_conversions-_imperial-_yard-_imperial.html#ga081865589d8e67f705080fcc6a7dabe3":[1,0,0,2,1,5,3,1],
 "dc/d0d/group___e_g_x_math-_conversions-_length_conversions-_imperial-_yard-_imperial.html#ga396e348746bc01bce2844579b2b3d90f":[1,0,0,2,1,5,3,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "dc/d3c/_mile_conversion_8inl.html#ga34d371b17e63e2ed83787eab65b8dab9":[3,0,0,3,0,2,1,8,14],
 "dc/d3c/_mile_conversion_8inl.html#ga39ebb5e23ea39eb97487dfcd5454c062":[3,0,0,3,0,2,1,8,19],
 "dc/d3c/_mile_conversion_8inl.html#ga3b369ccb3f0fc38098abdba01110910b":[3,0,0,3,0,2,1,8,18],
-"dc/d3c/_mile_conversion_8inl.html#ga426c0a7ef1e87648941729c5447f0b07":[3,0,0,3,0,2,1,8,16],
-"dc/d3c/_mile_conversion_8inl.html#ga45c1f0177f23bf7b798344319fb86909":[3,0,0,3,0,2,1,8,17],
-"dc/d3c/_mile_conversion_8inl.html#ga470a1271de988c28cb4851e5930d99da":[3,0,0,3,0,2,1,8,29]
+"dc/d3c/_mile_conversion_8inl.html#ga426c0a7ef1e87648941729c5447f0b07":[3,0,0,3,0,2,1,8,16]
 };

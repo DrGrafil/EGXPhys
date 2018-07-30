@@ -1,5 +1,8 @@
 var NAVTREEINDEX23 =
 {
+"da/d69/_spheroid_eccentricity_8inl.html#ga0b6ce84e9c4c2fd5bc5a29569c2c2295":[3,0,0,3,2,1,6,2,1],
+"da/d69/_spheroid_eccentricity_8inl.html#gab45680528a41bb7a5e15ddc0059156dd":[3,0,0,3,2,1,6,2,0],
+"da/d72/_sign_functions_8inl.html":[3,0,0,3,1,10],
 "da/d72/_sign_functions_8inl.html#ga54232a5bc24caf3833c30c15def764bf":[3,0,0,3,1,10,0],
 "da/d73/_q_value_8inl.html":[3,0,0,2,18],
 "da/d73/_q_value_8inl.html#ga015ade04346d0c6dae4dda8e3aab8cbd":[3,0,0,2,18,6],
@@ -39,12 +42,12 @@ var NAVTREEINDEX23 =
 "da/d91/_hoop_8hpp.html#ga810ed1548ab8825b8830b97cfcbcfe11":[3,0,0,3,2,1,10,2],
 "da/d91/_hoop_8hpp.html#gab3a84dc2aa29ce0db990425747d291c6":[3,0,0,3,2,1,10,0],
 "da/d91/_hoop_8hpp_source.html":[3,0,0,3,2,1,10],
-"da/d9d/_right_ascension_8hpp.html":[3,0,0,1,33],
-"da/d9d/_right_ascension_8hpp.html#ga27ba790eb8358535613d3b32f97d9e3a":[3,0,0,1,33,2],
-"da/d9d/_right_ascension_8hpp.html#ga624dd87144a17d19d0100500c34da978":[3,0,0,1,33,1],
-"da/d9d/_right_ascension_8hpp.html#ga63a3103990c95078443e39a5b487ab0d":[3,0,0,1,33,3],
-"da/d9d/_right_ascension_8hpp.html#ga6fdbd35a030d278f396496899a1c236f":[3,0,0,1,33,0],
-"da/d9d/_right_ascension_8hpp_source.html":[3,0,0,1,33],
+"da/d9d/_right_ascension_8hpp.html":[3,0,0,1,35],
+"da/d9d/_right_ascension_8hpp.html#ga27ba790eb8358535613d3b32f97d9e3a":[3,0,0,1,35,2],
+"da/d9d/_right_ascension_8hpp.html#ga624dd87144a17d19d0100500c34da978":[3,0,0,1,35,1],
+"da/d9d/_right_ascension_8hpp.html#ga63a3103990c95078443e39a5b487ab0d":[3,0,0,1,35,3],
+"da/d9d/_right_ascension_8hpp.html#ga6fdbd35a030d278f396496899a1c236f":[3,0,0,1,35,0],
+"da/d9d/_right_ascension_8hpp_source.html":[3,0,0,1,35],
 "da/d9f/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mile-_surveyors.html":[1,0,0,2,1,3,5],
 "da/d9f/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mile-_surveyors.html#gae3b09627ed639defe81e025bf827c8d7":[1,0,0,2,1,3,5,0],
 "da/d9f/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mile-_surveyors.html#gae7e968004f761942f7d296ef66f1f93a":[1,0,0,2,1,3,5,1],
@@ -142,7 +145,7 @@ var NAVTREEINDEX23 =
 "da/dab/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer-_imperial.html#gabb3930dfb3335dc53303ec8ce9145d71":[1,0,0,2,4,7,3,3],
 "da/dab/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer-_imperial.html#gabfd81bd5bb9e8293005c23794f541a1c":[1,0,0,2,4,7,3,4],
 "da/db3/3_d_geometry_8hpp_source.html":[3,0,0,3,2,1,7],
-"da/db7/_stellar_mass_8hpp_source.html":[3,0,0,1,48],
+"da/db7/_stellar_mass_8hpp_source.html":[3,0,0,1,50],
 "da/dba/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mile-_astronomical.html":[1,0,0,2,1,3,0],
 "da/dba/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mile-_astronomical.html#ga0f9493a3ad61ed0ddfa411b3f8edf6dc":[1,0,0,2,1,3,0,2],
 "da/dba/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mile-_astronomical.html#ga45c1f0177f23bf7b798344319fb86909":[1,0,0,2,1,3,0,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX23 =
 "da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#ga874898a1cbfefdbef696c7043cfc722e":[1,1,3,0,0,6,0,0],
 "da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#ga8a78b1db0a9c538857855b43a3bc47e6":[1,1,3,0,0,6,0,5],
 "da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#ga8ca933493ff89584bc50b7e5bcbb64b2":[1,1,3,0,0,6,0,3],
-"da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#gab96ee9108c321647b7ae0c490e797b6f":[1,1,3,0,0,6,0,14],
-"da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#gaba342d5906a24c551ea5c3328b536b29":[1,1,3,0,0,6,0,9],
-"da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#gad468e6d4f1654ea8065a49a39302b039":[1,1,3,0,0,6,0,2],
-"da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#gae10498fbbb0666a828130575ffc28d6e":[1,1,3,0,0,6,0,7]
+"da/df9/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_jupiter-_bulk.html#gab96ee9108c321647b7ae0c490e797b6f":[1,1,3,0,0,6,0,14]
 };

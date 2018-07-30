@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga91b617f8bf6330f1379d3372e4968254":[1,0,0,2,4,6,1,11],
+"d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga9333dddd3642cf160b026516dd760576":[1,0,0,2,4,6,1,3],
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga9573f9c296bf9043de80f6f6b13c0aa9":[1,0,0,2,4,6,1,9],
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#gaaaefaf67b876bfdeccd8176508e765e3":[1,0,0,2,4,6,1,19],
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#gab0233167d63c136801ae42faabe64263":[1,0,0,2,4,6,1,2],
@@ -94,9 +96,9 @@ var NAVTREEINDEX8 =
 "d3/da1/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_surveyors.html#gac2207a6f05f3d2e7dfec2eade3fdf431":[1,0,0,2,1,2,5,0],
 "d3/da1/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_surveyors.html#gae5721b0cf84304ecfade5a7808814329":[1,0,0,2,1,2,5,1],
 "d3/da2/_cylinder_8hpp_source.html":[3,0,0,3,2,1,3,0],
-"d3/da3/_solar_day_8hpp.html":[3,0,0,1,41],
-"d3/da3/_solar_day_8hpp.html#gae321e0dd0c031a57c45b15dc819635e0":[3,0,0,1,41,0],
-"d3/da3/_solar_day_8hpp_source.html":[3,0,0,1,41],
+"d3/da3/_solar_day_8hpp.html":[3,0,0,1,43],
+"d3/da3/_solar_day_8hpp.html#gae321e0dd0c031a57c45b15dc819635e0":[3,0,0,1,43,0],
+"d3/da3/_solar_day_8hpp_source.html":[3,0,0,1,43],
 "d3/da9/_square_8hpp_source.html":[3,0,0,3,2,0,3,0],
 "d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html":[1,0,0,2,4,19,0],
 "d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html#ga01bceda59fbfc5414c72ccba254b365c":[1,0,0,2,4,19,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "d3/de4/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_cu_x_unit.html":[1,0,0,2,3,1],
 "d3/de5/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_surveyors.html":[1,0,0,2,0,2,5],
 "d3/de5/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_surveyors.html#gae1b8ed339937e1c769e4617dbe1e70e1":[1,0,0,2,0,2,5,1],
-"d3/de5/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_surveyors.html#gafe4318e1971a50fd899558ca0e9cf7c6":[1,0,0,2,0,2,5,0],
-"d3/dee/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mile.html":[1,0,0,2,1,3],
-"d3/df0/group___e_g_x_phys-_q_value-_beta_minus.html":[1,1,2,8,1]
+"d3/de5/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_surveyors.html#gafe4318e1971a50fd899558ca0e9cf7c6":[1,0,0,2,0,2,5,0]
 };

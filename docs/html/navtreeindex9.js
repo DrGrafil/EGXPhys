@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"d3/dee/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mile.html":[1,0,0,2,1,3],
+"d3/df0/group___e_g_x_phys-_q_value-_beta_minus.html":[1,1,2,8,1],
 "d3/df0/group___e_g_x_phys-_q_value-_beta_minus.html#ga2678563115405a056c6bdccc9f2a9232":[1,1,2,8,1,3],
 "d3/df0/group___e_g_x_phys-_q_value-_beta_minus.html#ga5be6923812a1a701ed38965329dd6297":[1,1,2,8,1,2],
 "d3/df0/group___e_g_x_phys-_q_value-_beta_minus.html#gaac1374ce9ba39bef416f34298708bda9":[1,1,2,8,1,1],
@@ -49,10 +51,10 @@ var NAVTREEINDEX9 =
 "d4/d2c/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_surveyors.html":[1,0,0,2,4,3,5],
 "d4/d2c/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_surveyors.html#gaae746f9b34bc92e17f9117f5b139fdc4":[1,0,0,2,4,3,5,0],
 "d4/d2c/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_surveyors.html#gaf34122272f5724db35f8400d284e2ec8":[1,0,0,2,4,3,5,1],
-"d4/d2e/group___e_g_x_phys-_stellar_radius.html":[1,1,1,25],
-"d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga49f0848777ba12cdfc78d112d82036ce":[1,1,1,25,1],
-"d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga59f0d5d89a857d30bff4c93713ee5bd9":[1,1,1,25,2],
-"d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga612cd22c37341a1864cd2fc5c858e18e":[1,1,1,25,0],
+"d4/d2e/group___e_g_x_phys-_stellar_radius.html":[1,1,1,26],
+"d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga49f0848777ba12cdfc78d112d82036ce":[1,1,1,26,1],
+"d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga59f0d5d89a857d30bff4c93713ee5bd9":[1,1,1,26,2],
+"d4/d2e/group___e_g_x_phys-_stellar_radius.html#ga612cd22c37341a1864cd2fc5c858e18e":[1,1,1,26,0],
 "d4/d32/_rectangle_8hpp_source.html":[3,0,0,3,2,0,2,0],
 "d4/d32/group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial.html":[1,0,0,2,5,0,3],
 "d4/d32/group___e_g_x_math-_conversions-_length_conversions-_surveyors-_chain-_imperial.html#ga260b1e534400c8ee9ec5001641b2a451":[1,0,0,2,5,0,3,3],
@@ -65,8 +67,8 @@ var NAVTREEINDEX9 =
 "d4/d34/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_fermi-_surveyors.html":[1,0,0,2,3,2,5],
 "d4/d34/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_fermi-_surveyors.html#ga0c8f626fae443871df52f72a4b361a60":[1,0,0,2,3,2,5,0],
 "d4/d34/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_fermi-_surveyors.html#ga45d5bb796dd61d3b2f81d45dafbc682d":[1,0,0,2,3,2,5,1],
-"d4/d35/_rotational_angular_velocity_8inl.html":[3,0,0,1,36],
-"d4/d35/_rotational_angular_velocity_8inl.html#gad8966c9d42ff617677152fa014f7d1db":[3,0,0,1,36,0],
+"d4/d35/_rotational_angular_velocity_8inl.html":[3,0,0,1,38],
+"d4/d35/_rotational_angular_velocity_8inl.html#gad8966c9d42ff617677152fa014f7d1db":[3,0,0,1,38,0],
 "d4/d3b/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis.html":[1,0,2,0,1,9],
 "d4/d3b/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis.html#ga001beab4a083da9dd00dace28e749284":[1,0,2,0,1,9,9],
 "d4/d3b/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_minor_axis.html#ga03cbc96729f84c9691bf1c5bfcc6b083":[1,0,2,0,1,9,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "d4/da4/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_nautical.html#ga6cc0e9987da30da6a30ddba50971ba2d":[1,0,0,2,4,3,4,1],
 "d4/dab/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron.html":[1,0,0,2,3,3],
 "d4/db5/group___n_i_s_t_const-_stefan_boltzmann_constant.html":[1,2,3,11],
-"d4/db5/group___n_i_s_t_const-_stefan_boltzmann_constant.html#ga7a87fa5e9ed3db503ee24f828d1dc700":[1,2,3,11,0],
-"d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html":[1,1,3,0,0,2,0],
-"d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html#ga1fa2321d7cd6c55bc48dc191719d580d":[1,1,3,0,0,2,0,2]
+"d4/db5/group___n_i_s_t_const-_stefan_boltzmann_constant.html#ga7a87fa5e9ed3db503ee24f828d1dc700":[1,2,3,11,0]
 };

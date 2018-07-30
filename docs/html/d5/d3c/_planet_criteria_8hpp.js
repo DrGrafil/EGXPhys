@@ -5,8 +5,6 @@ var _planet_criteria_8hpp =
     [ "EarthSimilarityIndexSurface", "d5/d3c/_planet_criteria_8hpp.html#ga1df772b0ed354ca7f7e4a7a4af072325", null ],
     [ "HabitableZoneAtmosphere", "d5/d3c/_planet_criteria_8hpp.html#ga0814237dccfe3c968b97fa6c93aeca27", null ],
     [ "HabitableZoneComposition", "d5/d3c/_planet_criteria_8hpp.html#ga14ab036f8c617512236522c8e31dd072", null ],
-    [ "PlanetaryEquilibriumTempreture", "d5/d3c/_planet_criteria_8hpp.html#gaeac3ced5104701ee02fc100f7cf4c189", null ],
-    [ "PlanetaryEquilibriumTempreture", "d5/d3c/_planet_criteria_8hpp.html#ga099c12876fba6deb13ae2cf0e92644fe", null ],
     [ "PlanetSimilarityIndex", "d5/d3c/_planet_criteria_8hpp.html#ga62e8b781c301df60bd04af3183a965eb", null ],
     [ "PlanetSimilarityIndexInterior", "d5/d3c/_planet_criteria_8hpp.html#ga6dc06a1a8baf6e132abed51fcf410c7f", null ],
     [ "PlanetSimilarityIndexSurface", "d5/d3c/_planet_criteria_8hpp.html#gae0c7dce2779d66b0560ca388a34ddc39", null ]
