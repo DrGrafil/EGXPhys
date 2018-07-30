@@ -33,7 +33,7 @@ namespace EGXPhys
 	*
 	*	See https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law and https://en.wikipedia.org/wiki/Radiant_exitance and http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/stefan.html
 	*
-	*   @param surfaceTempretureInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
+	*   @param surfaceTempretureInK \f$T\ (K)\f$ Surface tempreture of the black body in kelvin.
 	*   @return \f$j^*\ (\frac{W}{m^2})\f$ Radiant emittance of a black body in watts per meter squared.
 	*	@see RadiantEmittance() for alias.
     *   @see RadiantExitance() for alias.

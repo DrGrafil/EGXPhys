@@ -37,7 +37,7 @@ namespace EGXPhys
 	*   See http://en.wikipedia.org/wiki/Color_index
 	*
 	*   @param BV \f$B-V\ (dimensionless)\f$ is the B-V color index of the star.
-	*   @return \f$T\ (K)\f$ Tempreture of the star in Kelvin.
+	*   @return \f$T\ (K)\f$ Tempreture of the star in kelvin.
 	*	@see BVToTempretureBallesteros() for alias.
 	*/
 	template<typename T>
@@ -51,7 +51,7 @@ namespace EGXPhys
 	*   See http://en.wikipedia.org/wiki/Color_index
 	*
 	*   @param BV \f$B-V\ (dimensionless)\f$ is the B-V color index of the star.
-	*   @return \f$T\ (K)\f$ Tempreture of the star in Kelvin.
+	*   @return \f$T\ (K)\f$ Tempreture of the star in kelvin.
 	*	@see BVToTempreture() for alias.
 	*/
 	template<typename T>

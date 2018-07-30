@@ -179,9 +179,9 @@ namespace EGXPhys
     EGXPHYS_CONSTANT sunMomentOfInertia = 0.062;                                /**< \f$ I_{\odot} \ (dimensionless)\f$ The moment of inertia of Sun. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
   
     
-    EGXPHYS_CONSTANT sunSurfaceEffectiveTemperature = 5772.0;                   /**< \f$ T_{eff,\odot} \ (K)\f$ Effective surface temperature of Sun in Kelvin. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
-    EGXPHYS_CONSTANT sunNominalSolarEffectiveTemperature = 5772.0;              /**< \f$ T_{eff,\odot} \ (K)\f$ Effective surface temperature of Sun in Kelvin. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
-    EGXPHYS_CONSTANT solarEffectiveTemperature = 5772.0;                        /**< \f$ T_{eff,\odot} \ (K)\f$ Effective surface temperature of Sun in Kelvin. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT sunSurfaceEffectiveTemperature = 5772.0;                   /**< \f$ T_{eff,\odot} \ (K)\f$ Effective surface temperature of Sun in kelvin. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT sunNominalSolarEffectiveTemperature = 5772.0;              /**< \f$ T_{eff,\odot} \ (K)\f$ Effective surface temperature of Sun in kelvin. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
+    EGXPHYS_CONSTANT solarEffectiveTemperature = 5772.0;                        /**< \f$ T_{eff,\odot} \ (K)\f$ Effective surface temperature of Sun in kelvin. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */
 
 
     EGXPHYS_CONSTANT sunIrradianceAt1Au = 1361.0;                               /**< \f$ S_{1Au,\odot} \ (\dfrac{W}{m^2})\f$ Total solar irradiance of Sun at a distance of 1 Au in watts per meter squared. Defined by IAU. See https://sites.google.com/site/mamajeksstarnotes/basic-astronomical-data-for-the-sun */

@@ -33,7 +33,7 @@ namespace EGXPhys
 	*      
 	*	See http://hyperphysics.phy-astr.gsu.edu/hbase/wien.html and https://en.wikipedia.org/wiki/Wien%27s_displacement_law
 	*
-	*   @param surfaceTempInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
+	*   @param surfaceTempInK \f$T\ (K)\f$ Surface tempreture of the black body in kelvin.
 	*   @return \f$\lambda_{max}\ (m)\f$ Peak wavelength emmited by black body in meters.
     *	@see WiensDisplacementLawInm() for alias.
     *	@see WiensDisplacementLawInHz() for peak frequency of the black body.
@@ -47,7 +47,7 @@ namespace EGXPhys
     *
     *	See http://hyperphysics.phy-astr.gsu.edu/hbase/wien.html and https://en.wikipedia.org/wiki/Wien%27s_displacement_law
     *
-    *   @param surfaceTempInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
+    *   @param surfaceTempInK \f$T\ (K)\f$ Surface tempreture of the black body in kelvin.
     *   @return \f$\lambda_{max}\ (m)\f$ Peak wavelength emmited by black body in meters.
     *	@see WiensDisplacementLawInm() for alias.
     *	@see WiensDisplacementLawInHz() for peak frequency of the black body.
@@ -61,7 +61,7 @@ namespace EGXPhys
     *
     *	See http://hyperphysics.phy-astr.gsu.edu/hbase/wien.html and https://en.wikipedia.org/wiki/Wien%27s_displacement_law
     *
-    *   @param surfaceTempInK \f$T\ (K)\f$ Surface tempreture of the black body in Kelvin.
+    *   @param surfaceTempInK \f$T\ (K)\f$ Surface tempreture of the black body in kelvin.
     *   @return \f$\nu_{max}\ (Hz)\f$ Peak frequency emmited by black body in Hz.
     *	@see WiensDisplacementLaw() for peak wavelength of the black body.
     *	@see WiensDisplacementLawInm() for peak wavelength of the black body.
