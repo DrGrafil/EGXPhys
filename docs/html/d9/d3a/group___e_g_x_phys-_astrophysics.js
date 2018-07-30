@@ -9,6 +9,8 @@ var group___e_g_x_phys__astrophysics =
     [ "Declination", "d3/db8/group___e_g_x_phys-_astrophysics-_declination.html", "d3/db8/group___e_g_x_phys-_astrophysics-_declination" ],
     [ "Eccentricity", "d9/de5/group___e_g_x_phys-_eccentricity.html", null ],
     [ "Escape Velocity", "de/d53/group___e_g_x_phys-_astrophysics-_escape_velocity.html", "de/d53/group___e_g_x_phys-_astrophysics-_escape_velocity" ],
+    [ "Habitable Zone Atmosphere", "dd/d27/group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere.html", "dd/d27/group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere" ],
+    [ "Habitable Zone Composition", "d3/d8c/group___e_g_x_phys-_astrophysics-_habitable_zone_composition.html", "d3/d8c/group___e_g_x_phys-_astrophysics-_habitable_zone_composition" ],
     [ "Luminosity", "d7/d41/group___e_g_x_phys-_luminosity.html", "d7/d41/group___e_g_x_phys-_luminosity" ],
     [ "Orbital Charecteristics", "d2/df0/group___e_g_x_phys-_orbital_charecteristics.html", null ],
     [ "Orbital Period", "d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period.html", "d7/dbd/group___e_g_x_phys-_astrophysic-_orbital_period" ],

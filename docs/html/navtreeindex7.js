@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"d3/d5c/_astrophysics_constants_8hpp.html#ga4b3976f0046f85f1c24cc816d9a6995f":[3,0,0,1,5,138],
+"d3/d5c/_astrophysics_constants_8hpp.html#ga4b3a512e9d562530710100f65695ab13":[3,0,0,1,5,11],
 "d3/d5c/_astrophysics_constants_8hpp.html#ga4c42f3baa2194f4c57c975114089e5ac":[3,0,0,1,5,174],
 "d3/d5c/_astrophysics_constants_8hpp.html#ga4e94bf7176747a4bcb1c29f3fcb0aa04":[3,0,0,1,5,305],
 "d3/d5c/_astrophysics_constants_8hpp.html#ga4eb2e68e46cc2bf0ca16133656e982f1":[3,0,0,1,5,250],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga43e0ac7c59e4df08c27ed864c64e6008":[1,0,0,2,4,6,1,0],
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga5013069156df55018bc5a7f57f236f08":[1,0,0,2,4,6,1,18],
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga6538a7007f104833aa7ad690156342b5":[1,0,0,2,4,6,1,12],
-"d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga6701fe7aa809ca67fef5d4f9bf7b241c":[1,0,0,2,4,6,1,5],
-"d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga6f5a65da868d2c40485588dff765836e":[1,0,0,2,4,6,1,7],
-"d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga7cab1971a673d663a4eadd070afedf7e":[1,0,0,2,4,6,1,15]
+"d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga6701fe7aa809ca67fef5d4f9bf7b241c":[1,0,0,2,4,6,1,5]
 };

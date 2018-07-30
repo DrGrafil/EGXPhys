@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['habitablezoneatmosphere',['HabitableZoneAtmosphere',['../dd/d27/group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere.html#ga8cbf49b9a19cfe7a430f1528bb603950',1,'EGXPhys']]],
+  ['habitablezonecomposition',['HabitableZoneComposition',['../d3/d8c/group___e_g_x_phys-_astrophysics-_habitable_zone_composition.html#ga9fe32e7d12b68d2596a0a8409681acdc',1,'EGXPhys']]],
   ['halflife',['HalfLife',['../d2/d6d/group___e_g_x_phys-_half_life.html#ga21d268f154fb91c1c556bbfa7fe83ac1',1,'EGXPhys']]],
   ['halflifeviadecaywidth',['HalfLifeViaDecayWidth',['../d2/d6d/group___e_g_x_phys-_half_life.html#gaba3fda944d1a68ee1016a1f2f5809359',1,'EGXPhys']]],
   ['halflifeviameanlifetime',['HalfLifeViaMeanLifetime',['../d2/d6d/group___e_g_x_phys-_half_life.html#gacddef16b62e98b214ec8dd8af7da7dce',1,'EGXPhys']]],

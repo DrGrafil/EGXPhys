@@ -1,5 +1,10 @@
 var NAVTREEINDEX19 =
 {
+"d9/d2c/_meter_conversion_8hpp.html#ga501f0dd53cb3c21d377eac2a18fabdf8":[3,0,0,3,0,2,4,20,26],
+"d9/d2c/_meter_conversion_8hpp.html#ga53fdb093b4572363a0ae9be4ced2ecb4":[3,0,0,3,0,2,4,20,35],
+"d9/d2c/_meter_conversion_8hpp.html#ga5e136454c20254062d6e8637cfbfb8ee":[3,0,0,3,0,2,4,20,29],
+"d9/d2c/_meter_conversion_8hpp.html#ga67b4e6d6a387e3da5f93fd32b5d17764":[3,0,0,3,0,2,4,20,4],
+"d9/d2c/_meter_conversion_8hpp.html#ga67cec26b74704753fc51a8f4db27a4b4":[3,0,0,3,0,2,4,20,5],
 "d9/d2c/_meter_conversion_8hpp.html#ga6a58893d0f7e17e425c7bd0b3235320d":[3,0,0,3,0,2,4,20,21],
 "d9/d2c/_meter_conversion_8hpp.html#ga738fd2590049b1c2ae6ef2ecad9ed7f9":[3,0,0,3,0,2,4,20,18],
 "d9/d2c/_meter_conversion_8hpp.html#ga7c27a5231b96b904786f519e8bad257c":[3,0,0,3,0,2,4,20,2],
@@ -103,8 +108,8 @@ var NAVTREEINDEX19 =
 "d9/d39/_zeptometer_conversion_8hpp.html#gaf51d88eb55e387d6ee07a02f2229be97":[3,0,0,3,0,2,4,39,19],
 "d9/d39/_zeptometer_conversion_8hpp.html#gaf9fce38080eb9c090004c9df2a5dead1":[3,0,0,3,0,2,4,39,4],
 "d9/d39/_zeptometer_conversion_8hpp_source.html":[3,0,0,3,0,2,4,39],
-"d9/d3a/group___e_g_x_phys-_astrophysics-_stellar_luminosity.html":[1,1,1,24],
-"d9/d3a/group___e_g_x_phys-_astrophysics-_stellar_luminosity.html#ga3b820d52268e63258c4ff42cbe0df980":[1,1,1,24,0],
+"d9/d3a/group___e_g_x_phys-_astrophysics-_stellar_luminosity.html":[1,1,1,26],
+"d9/d3a/group___e_g_x_phys-_astrophysics-_stellar_luminosity.html#ga3b820d52268e63258c4ff42cbe0df980":[1,1,1,26,0],
 "d9/d3a/group___e_g_x_phys-_astrophysics.html":[1,1,1],
 "d9/d47/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_s_i.html":[1,0,0,2,2,0,1],
 "d9/d47/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_s_i.html#ga0b22b9db2c224dadfd62934797f14090":[1,0,0,2,2,0,1,17],
@@ -244,10 +249,5 @@ var NAVTREEINDEX19 =
 "d9/d95/_n_i_s_t_const_8hpp.html":[3,0,0,7,0],
 "d9/d95/_n_i_s_t_const_8hpp.html#ga020a191050aee0f8de449b86901efcab":[3,0,0,7,0,219],
 "d9/d95/_n_i_s_t_const_8hpp.html#ga020f8bcfb39741d79ca59735c9b75e8e":[3,0,0,7,0,252],
-"d9/d95/_n_i_s_t_const_8hpp.html#ga02c36e91d6f95d818656270669d20926":[3,0,0,7,0,30],
-"d9/d95/_n_i_s_t_const_8hpp.html#ga03a6526c1016d67e765abded43b37f36":[3,0,0,7,0,55],
-"d9/d95/_n_i_s_t_const_8hpp.html#ga03b2c9197858fda742b8be5a1dda771e":[3,0,0,7,0,275],
-"d9/d95/_n_i_s_t_const_8hpp.html#ga0425d000ba96e26f28e4728444142010":[3,0,0,7,0,12],
-"d9/d95/_n_i_s_t_const_8hpp.html#ga050dd5d7f3c4ee37a9ff7456ce82f8d2":[3,0,0,7,0,14],
-"d9/d95/_n_i_s_t_const_8hpp.html#ga0694ef4af94520ba68040847c26b8f7f":[3,0,0,7,0,245]
+"d9/d95/_n_i_s_t_const_8hpp.html#ga02c36e91d6f95d818656270669d20926":[3,0,0,7,0,30]
 };

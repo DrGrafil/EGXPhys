@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga6f5a65da868d2c40485588dff765836e":[1,0,0,2,4,6,1,7],
+"d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga7cab1971a673d663a4eadd070afedf7e":[1,0,0,2,4,6,1,15],
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga91b617f8bf6330f1379d3372e4968254":[1,0,0,2,4,6,1,11],
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga9333dddd3642cf160b026516dd760576":[1,0,0,2,4,6,1,3],
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#ga9573f9c296bf9043de80f6f6b13c0aa9":[1,0,0,2,4,6,1,9],
@@ -8,7 +10,7 @@ var NAVTREEINDEX8 =
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#gac0fc033ff4b887e157a333cde344b824":[1,0,0,2,4,6,1,1],
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#gae0dceabe14b5e84394285441be46bb8d":[1,0,0,2,4,6,1,13],
 "d3/d76/group___e_g_x_math-_conversions-_length_conversions-_s_i-_gigameter-_s_i.html#gae9cea35a0ce747d02ec8b6cf7bfeaa7e":[1,0,0,2,4,6,1,14],
-"d3/d79/_orbital_charecteristics_8inl.html":[3,0,0,1,22],
+"d3/d79/_orbital_charecteristics_8inl.html":[3,0,0,1,26],
 "d3/d7a/_cube1_8hpp_source.html":[3,0,0,3,2,1,1,1],
 "d3/d7b/_apoapsis_8inl.html":[3,0,0,1,3],
 "d3/d7b/_apoapsis_8inl.html#ga2de1f63be8e4e22f219c4e947588a207":[3,0,0,1,3,22],
@@ -79,6 +81,8 @@ var NAVTREEINDEX8 =
 "d3/d89/_kilometer_conversion_8inl.html#gaf03c100edda155de40290d8c3e155a27":[3,0,0,3,0,2,4,17,34],
 "d3/d89/_kilometer_conversion_8inl.html#gaf29070fac412b7a92466866b2ae32337":[3,0,0,3,0,2,4,17,35],
 "d3/d89/_kilometer_conversion_8inl.html#gafab6496ea68973d69b855d445c8a62a8":[3,0,0,3,0,2,4,17,13],
+"d3/d8c/group___e_g_x_phys-_astrophysics-_habitable_zone_composition.html":[1,1,1,10],
+"d3/d8c/group___e_g_x_phys-_astrophysics-_habitable_zone_composition.html#ga9fe32e7d12b68d2596a0a8409681acdc":[1,1,1,10,0],
 "d3/d8e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_non-_s_i.html":[1,0,0,2,0,2,2],
 "d3/d8e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_non-_s_i.html#ga9460305baf1a39635da24198d888a91b":[1,0,0,2,0,2,2,3],
 "d3/d8e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_non-_s_i.html#gac157e45cbd0a0ef15a52dcc59a7b40ad":[1,0,0,2,0,2,2,2],
@@ -96,9 +100,9 @@ var NAVTREEINDEX8 =
 "d3/da1/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_surveyors.html#gac2207a6f05f3d2e7dfec2eade3fdf431":[1,0,0,2,1,2,5,0],
 "d3/da1/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mil-_surveyors.html#gae5721b0cf84304ecfade5a7808814329":[1,0,0,2,1,2,5,1],
 "d3/da2/_cylinder_8hpp_source.html":[3,0,0,3,2,1,3,0],
-"d3/da3/_solar_day_8hpp.html":[3,0,0,1,43],
-"d3/da3/_solar_day_8hpp.html#gae321e0dd0c031a57c45b15dc819635e0":[3,0,0,1,43,0],
-"d3/da3/_solar_day_8hpp_source.html":[3,0,0,1,43],
+"d3/da3/_solar_day_8hpp.html":[3,0,0,1,47],
+"d3/da3/_solar_day_8hpp.html#gae321e0dd0c031a57c45b15dc819635e0":[3,0,0,1,47,0],
+"d3/da3/_solar_day_8hpp_source.html":[3,0,0,1,47],
 "d3/da9/_square_8hpp_source.html":[3,0,0,3,2,0,3,0],
 "d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html":[1,0,0,2,4,19,0],
 "d3/db0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_zeptometer-_astronomical.html#ga01bceda59fbfc5414c72ccba254b365c":[1,0,0,2,4,19,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "d3/ddb/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_cu_x_unit-_imperial.html#gaa1fe76010dc4559641c3bd31bd0f2c3e":[1,0,0,2,3,1,3,3],
 "d3/ddf/_spheroid_surface_area_8hpp.html":[3,0,0,3,2,1,6,11],
 "d3/ddf/_spheroid_surface_area_8hpp.html#ga5a3580e7ded82cb678a558905f41ae49":[3,0,0,3,2,1,6,11,0],
-"d3/ddf/_spheroid_surface_area_8hpp_source.html":[3,0,0,3,2,1,6,11],
-"d3/de4/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_cu_x_unit.html":[1,0,0,2,3,1],
-"d3/de5/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_surveyors.html":[1,0,0,2,0,2,5],
-"d3/de5/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_surveyors.html#gae1b8ed339937e1c769e4617dbe1e70e1":[1,0,0,2,0,2,5,1],
-"d3/de5/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_surveyors.html#gafe4318e1971a50fd899558ca0e9cf7c6":[1,0,0,2,0,2,5,0]
+"d3/ddf/_spheroid_surface_area_8hpp_source.html":[3,0,0,3,2,1,6,11]
 };

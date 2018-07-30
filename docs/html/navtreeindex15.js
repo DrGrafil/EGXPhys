@@ -1,5 +1,10 @@
 var NAVTREEINDEX15 =
 {
+"d6/dff/_femtometer_conversion_8hpp.html#ga2e6d6c0aad4502554b05f677ff248bc8":[3,0,0,3,0,2,4,10,23],
+"d6/dff/_femtometer_conversion_8hpp.html#ga40144bb4cb7d474b9a22394a0f321faa":[3,0,0,3,0,2,4,10,27],
+"d6/dff/_femtometer_conversion_8hpp.html#ga4416c9d0cb07df4b86f23afe6b7f6e91":[3,0,0,3,0,2,4,10,33],
+"d6/dff/_femtometer_conversion_8hpp.html#ga44f78ba3f928c765acf6330b47ab3827":[3,0,0,3,0,2,4,10,8],
+"d6/dff/_femtometer_conversion_8hpp.html#ga4906b22484dc1005dd962a943a967b50":[3,0,0,3,0,2,4,10,37],
 "d6/dff/_femtometer_conversion_8hpp.html#ga51c3107a7cfac96232eb0b040c3192a1":[3,0,0,3,0,2,4,10,14],
 "d6/dff/_femtometer_conversion_8hpp.html#ga539d33a130ba1069fe9dfaea944cd4ed":[3,0,0,3,0,2,4,10,15],
 "d6/dff/_femtometer_conversion_8hpp.html#ga57801d7c681362c1a11053233e31c415":[3,0,0,3,0,2,4,10,24],
@@ -232,9 +237,9 @@ var NAVTREEINDEX15 =
 "d7/d3f/group___n_i_s_t_const-_atomic_mass_constant.html#ga0425d000ba96e26f28e4728444142010":[1,2,3,0,0],
 "d7/d3f/group___n_i_s_t_const-_atomic_mass_constant.html#ga050dd5d7f3c4ee37a9ff7456ce82f8d2":[1,2,3,0,2],
 "d7/d3f/group___n_i_s_t_const-_atomic_mass_constant.html#ga2e051baa0d89927080288e2289ac0346":[1,2,3,0,1],
-"d7/d41/group___e_g_x_phys-_luminosity.html":[1,1,1,9],
-"d7/d41/group___e_g_x_phys-_luminosity.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4":[1,1,1,9,1],
-"d7/d41/group___e_g_x_phys-_luminosity.html#ga909f82edfaed449b44e94788b642ebb8":[1,1,1,9,0],
+"d7/d41/group___e_g_x_phys-_luminosity.html":[1,1,1,11],
+"d7/d41/group___e_g_x_phys-_luminosity.html#ga6d6865b2aac1bc7c7f06b7c4ac2444e4":[1,1,1,11,1],
+"d7/d41/group___e_g_x_phys-_luminosity.html#ga909f82edfaed449b44e94788b642ebb8":[1,1,1,11,0],
 "d7/d41/group___n_i_s_t_const-_molar_planck_constant.html":[1,2,3,7],
 "d7/d41/group___n_i_s_t_const-_molar_planck_constant.html#ga5fc2f65abda1ed9e9431157c44da077a":[1,2,3,7,0],
 "d7/d41/group___n_i_s_t_const-_molar_planck_constant.html#ga79708a6d196bdd250c5e965eb857a786":[1,2,3,7,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX15 =
 "d7/d4e/group___e_g_x_math-_conversions-_angle_conversions-_h_m_s.html#ga0eb401fd061fcc28ed22ddc869938bea":[1,0,0,0,6,2],
 "d7/d4e/group___e_g_x_math-_conversions-_angle_conversions-_h_m_s.html#ga175cead130e511e2c61545d71e3dc2f3":[1,0,0,0,6,15],
 "d7/d4e/group___e_g_x_math-_conversions-_angle_conversions-_h_m_s.html#ga281ee88be0cb04f58bdf19efcef58146":[1,0,0,0,6,6],
-"d7/d4e/group___e_g_x_math-_conversions-_angle_conversions-_h_m_s.html#ga36fcb6a59fd8d135346f7ee3d648c2f4":[1,0,0,0,6,1],
-"d7/d4e/group___e_g_x_math-_conversions-_angle_conversions-_h_m_s.html#ga5091437050cc32e29f722a3c50650405":[1,0,0,0,6,12],
-"d7/d4e/group___e_g_x_math-_conversions-_angle_conversions-_h_m_s.html#ga5d91ade4a1aaf641f9483e840e701446":[1,0,0,0,6,13],
-"d7/d4e/group___e_g_x_math-_conversions-_angle_conversions-_h_m_s.html#ga5f0873c7c013ba2c5784de3725f2c042":[1,0,0,0,6,16],
-"d7/d4e/group___e_g_x_math-_conversions-_angle_conversions-_h_m_s.html#ga6374888f82360747241f6670e1b2048e":[1,0,0,0,6,4],
-"d7/d4e/group___e_g_x_math-_conversions-_angle_conversions-_h_m_s.html#ga7751b1ea9b1874096023286240a91068":[1,0,0,0,6,9]
+"d7/d4e/group___e_g_x_math-_conversions-_angle_conversions-_h_m_s.html#ga36fcb6a59fd8d135346f7ee3d648c2f4":[1,0,0,0,6,1]
 };

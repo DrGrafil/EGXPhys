@@ -165,12 +165,6 @@ namespace EGXPhys
     template<typename T>
     T EarthSimilarityIndexSurface(const T& planetEscapeVelocity, const T& planetSurfaceTemperature);
 	
-	template<typename T>
-	T HabitableZoneAtmosphere( const T planetMass, const T planetRadius, const T planetEquilibriumTemp );
-	
-	template<typename T>
-	T HabitableZoneComposition( const T planetMass, const T planetRadius );
-    
     /// @}
 } //namespace EGXPhys
 

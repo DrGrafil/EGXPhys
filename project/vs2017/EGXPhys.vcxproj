@@ -153,6 +153,8 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Declination.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Eccentricity.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\EscapeVelocity.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\HabitableZoneAtmosphere.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\HabitableZoneComposition.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Luminosity.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\OrbitalCharecteristics.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\OrbitalPeriod.hpp" />
@@ -446,6 +448,8 @@
     <None Include="..\..\EGXPhys\Astrophysics\Declination.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Eccentricity.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\EscapeVelocity.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\HabitableZoneAtmosphere.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\HabitableZoneComposition.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Luminosity.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\OrbitalCharecteristics.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\OrbitalPeriod.inl" />

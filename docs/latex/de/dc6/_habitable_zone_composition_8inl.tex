@@ -1,0 +1,28 @@
+\hypertarget{_habitable_zone_composition_8inl}{}\section{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Habitable\+Zone\+Composition.inl File Reference}
+\label{_habitable_zone_composition_8inl}\index{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Habitable\+Zone\+Composition.\+inl@{D\+:/\+Git\+Hub/\+E\+G\+X\+Phys/\+E\+G\+X\+Phys/\+Astrophysics/\+Habitable\+Zone\+Composition.\+inl}}
+
+
+Implimentation of habitable zone composition calculations.  
+
+
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespace_e_g_x_phys}{E\+G\+X\+Phys}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_habitable_zone_composition_ga9fe32e7d12b68d2596a0a8409681acdc}{E\+G\+X\+Phys\+::\+Habitable\+Zone\+Composition}} (const T planet\+Mass\+Inkg, const T planet\+Mean\+Radius\+Inm)
+\begin{DoxyCompactList}\small\item\em Calculates the Habitable Zone Composition metric, $HZC$, of a planet. The Habitable Zone Composition(\+H\+Z\+C) measures how compatible for life is the bulk composition of an exoplanet within the habitable zone. It estimates both the iron and water content of the planet. \[ HZC= \dfrac{ 2\dfrac{m_p}{m_{\oplus}} - r_w - r_i } { r_w - r_i } \] \[ r_w= 4.43\ 10^{ -0.209396 + \dfrac{1}{3}\log \left ( \dfrac{m_p}{5.52 m_\oplus} \right ) - 0.0807 \left ( \dfrac{m_p}{5.52 m_\oplus} \right )^{0.375}} \] \[ r_i= 2.52\ 10^{ -0.209490 + \dfrac{1}{3}\log \left ( \dfrac{m_p}{5.80 m_\oplus} \right ) - 0.0804 \left ( \dfrac{m_p}{5.80 m_\oplus} \right )^{0.394}} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implimentation of habitable zone composition calculations. 
+
+\begin{DoxyAuthor}{Author}
+Elliot Grafil (Metex) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+7/30/18 
+\end{DoxyDate}

@@ -1,0 +1,36 @@
+\hypertarget{group___e_g_x_phys-_astrophysics-_habitable_zone_composition}{}\section{Habitable Zone Composition}
+\label{group___e_g_x_phys-_astrophysics-_habitable_zone_composition}\index{Habitable Zone Composition@{Habitable Zone Composition}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_habitable_zone_composition_ga9fe32e7d12b68d2596a0a8409681acdc}{E\+G\+X\+Phys\+::\+Habitable\+Zone\+Composition}} (const T planet\+Mass\+Inkg, const T planet\+Mean\+Radius\+Inm)
+\begin{DoxyCompactList}\small\item\em Calculates the Habitable Zone Composition metric, $HZC$, of a planet. The Habitable Zone Composition(\+H\+Z\+C) measures how compatible for life is the bulk composition of an exoplanet within the habitable zone. It estimates both the iron and water content of the planet. \[ HZC= \dfrac{ 2\dfrac{m_p}{m_{\oplus}} - r_w - r_i } { r_w - r_i } \] \[ r_w= 4.43\ 10^{ -0.209396 + \dfrac{1}{3}\log \left ( \dfrac{m_p}{5.52 m_\oplus} \right ) - 0.0807 \left ( \dfrac{m_p}{5.52 m_\oplus} \right )^{0.375}} \] \[ r_i= 2.52\ 10^{ -0.209490 + \dfrac{1}{3}\log \left ( \dfrac{m_p}{5.80 m_\oplus} \right ) - 0.0804 \left ( \dfrac{m_p}{5.80 m_\oplus} \right )^{0.394}} \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_habitable_zone_composition_ga9fe32e7d12b68d2596a0a8409681acdc}\label{group___e_g_x_phys-_astrophysics-_habitable_zone_composition_ga9fe32e7d12b68d2596a0a8409681acdc}} 
+\index{Habitable Zone Composition@{Habitable Zone Composition}!Habitable\+Zone\+Composition@{Habitable\+Zone\+Composition}}
+\index{Habitable\+Zone\+Composition@{Habitable\+Zone\+Composition}!Habitable Zone Composition@{Habitable Zone Composition}}
+\subsubsection{\texorpdfstring{Habitable\+Zone\+Composition()}{HabitableZoneComposition()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Habitable\+Zone\+Composition (\begin{DoxyParamCaption}\item[{const T}]{planet\+Mass\+Inkg,  }\item[{const T}]{planet\+Mean\+Radius\+Inm }\end{DoxyParamCaption})}
+
+
+
+Calculates the Habitable Zone Composition metric, $HZC$, of a planet. The Habitable Zone Composition(\+H\+Z\+C) measures how compatible for life is the bulk composition of an exoplanet within the habitable zone. It estimates both the iron and water content of the planet. \[ HZC= \dfrac{ 2\dfrac{m_p}{m_{\oplus}} - r_w - r_i } { r_w - r_i } \] \[ r_w= 4.43\ 10^{ -0.209396 + \dfrac{1}{3}\log \left ( \dfrac{m_p}{5.52 m_\oplus} \right ) - 0.0807 \left ( \dfrac{m_p}{5.52 m_\oplus} \right )^{0.375}} \] \[ r_i= 2.52\ 10^{ -0.209490 + \dfrac{1}{3}\log \left ( \dfrac{m_p}{5.80 m_\oplus} \right ) - 0.0804 \left ( \dfrac{m_p}{5.80 m_\oplus} \right )^{0.394}} \]. 
+
+See \href{http://phl.upr.edu/library/notes/habitablezonecompositionhzcahabitabilitymetricforexoplanets}{\tt http\+://phl.\+upr.\+edu/library/notes/habitablezonecompositionhzcahabitabilitymetricforexoplanets}
+
+
+\begin{DoxyParams}{Parameters}
+{\em planet\+Mass\+Inkg} & $m_{p}\ (kg)$ Mass of the planet in kilograms. \\
+\hline
+{\em planet\+Mean\+Radius\+Inm} & $r_{p}\ (m)$ Mean radius of the planet in meters. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$HZC\ (dimensionless)$ Habitable Zone Composition metric of a planet. Results between -\/1 and 1 means that the planet has the potential for a habitable bulk material composition. 
+\end{DoxyReturn}

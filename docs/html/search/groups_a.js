@@ -4,6 +4,8 @@ var searchData=
   ['hours_20minutes_20seconds',['Hours Minutes Seconds',['../d0/dac/group___e_g_x_math-_conversions-_angle_conversions-_hours_minutes_seconds.html',1,'']]],
   ['hectometer',['Hectometer',['../d4/d5d/group___e_g_x_math-_conversions-_length_conversions-_s_i-_hectometer.html',1,'']]],
   ['hoop',['Hoop',['../da/d02/group___e_g_x_math-_geometry-3_d-_hoop.html',1,'']]],
+  ['habitable_20zone_20atmosphere',['Habitable Zone Atmosphere',['../dd/d27/group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere.html',1,'']]],
+  ['habitable_20zone_20composition',['Habitable Zone Composition',['../d3/d8c/group___e_g_x_phys-_astrophysics-_habitable_zone_composition.html',1,'']]],
   ['half_20life',['Half Life',['../d2/d6d/group___e_g_x_phys-_half_life.html',1,'']]],
   ['hartree',['Hartree',['../dc/d77/group___n_i_s_t_const-_hartree.html',1,'']]],
   ['hartree_20energy',['Hartree energy',['../d3/d35/group___n_i_s_t_const-_hartree_energy.html',1,'']]],

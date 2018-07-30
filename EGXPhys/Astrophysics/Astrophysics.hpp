@@ -23,6 +23,8 @@
 #include "ColorTemperature.hpp"
 #include "Declination.hpp"
 #include "EscapeVelocity.hpp"
+#include "HabitableZoneAtmosphere.hpp"
+#include "HabitableZoneComposition.hpp"
 #include "Luminosity.hpp"
 #include "OrbitalCharecteristics.hpp"
 #include "OrbitalPeriod.hpp"

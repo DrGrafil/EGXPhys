@@ -1,5 +1,10 @@
 var NAVTREEINDEX14 =
 {
+"d6/d5e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_astronomical.html#gaf6681b9c24d89c83c48bf6dabb9a433d":[1,0,0,2,0,2,0,1],
+"d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html":[1,1,3,0,0,0,0],
+"d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga02d8f3c8e91bba017bcc609a4c743ae5":[1,1,3,0,0,0,0,16],
+"d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga041c4c2f7860c1b1fa4435b2be962c50":[1,1,3,0,0,0,0,23],
+"d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga088d6c6b1f9cc7098af2da77e94a386a":[1,1,3,0,0,0,0,25],
 "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga17d411dceb8d2ff98b8a270eaa72117d":[1,1,3,0,0,0,0,21],
 "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga1fa4f167b9b8f594d35d879fdfdde7b4":[1,1,3,0,0,0,0,4],
 "d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga4487692a8eaf3f3eec0aae769eefcabb":[1,1,3,0,0,0,0,11],
@@ -65,9 +70,9 @@ var NAVTREEINDEX14 =
 "d6/d8c/group___n_i_s_t_const-_first_radiation_constant.html":[1,2,3,4],
 "d6/d8c/group___n_i_s_t_const-_first_radiation_constant.html#ga350d484e55bd7af5e00f59d5ed64d43b":[1,2,3,4,1],
 "d6/d8c/group___n_i_s_t_const-_first_radiation_constant.html#ga53183115e6a2d5cf5afc624f247f3698":[1,2,3,4,0],
-"d6/d9f/_synodic_day_8hpp.html":[3,0,0,1,57],
-"d6/d9f/_synodic_day_8hpp.html#ga637140842bc008c87d90e65b551cbac7":[3,0,0,1,57,0],
-"d6/d9f/_synodic_day_8hpp_source.html":[3,0,0,1,57],
+"d6/d9f/_synodic_day_8hpp.html":[3,0,0,1,61],
+"d6/d9f/_synodic_day_8hpp.html#ga637140842bc008c87d90e65b551cbac7":[3,0,0,1,61,0],
+"d6/d9f/_synodic_day_8hpp_source.html":[3,0,0,1,61],
 "d6/da1/group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_non-_s_i.html":[1,0,0,2,1,4,2],
 "d6/da1/group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_non-_s_i.html#ga3eb765800fa51e529878bdae4e997763":[1,0,0,2,1,4,2,4],
 "d6/da1/group___e_g_x_math-_conversions-_length_conversions-_imperial-_thou-_non-_s_i.html#ga4a134cf9b956cd51e579dc65b4fd7774":[1,0,0,2,1,4,2,2],
@@ -209,8 +214,8 @@ var NAVTREEINDEX14 =
 "d6/de7/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_astronomical.html#ga2dedea5304a0dbcba4efa1128eda42d2":[1,0,0,2,4,3,0,1],
 "d6/de7/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_astronomical.html#ga9cf39545f022d3a541668e644347b2f8":[1,0,0,2,4,3,0,0],
 "d6/de7/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_astronomical.html#gad84954082a6648312ce4fc52d1e4d8eb":[1,0,0,2,4,3,0,2],
-"d6/dea/_sidereal_day_8inl.html":[3,0,0,1,42],
-"d6/dea/_sidereal_day_8inl.html#ga587900d5fc755228c1bb5121cd7965c6":[3,0,0,1,42,0],
+"d6/dea/_sidereal_day_8inl.html":[3,0,0,1,46],
+"d6/dea/_sidereal_day_8inl.html#ga587900d5fc755228c1bb5121cd7965c6":[3,0,0,1,46,0],
 "d6/df2/group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_astronomical.html":[1,0,0,2,5,1,0],
 "d6/df2/group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_astronomical.html#ga320c74af81e2f062967e5c767d089a87":[1,0,0,2,5,1,0,0],
 "d6/df2/group___e_g_x_math-_conversions-_length_conversions-_surveyors-_rod-_astronomical.html#ga720b170a8c3243d0f7d5be0c70381cb2":[1,0,0,2,5,1,0,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX14 =
 "d6/dff/_femtometer_conversion_8hpp.html":[3,0,0,3,0,2,4,10],
 "d6/dff/_femtometer_conversion_8hpp.html#ga2145008022cfedfb81e40ceea426cda5":[3,0,0,3,0,2,4,10,28],
 "d6/dff/_femtometer_conversion_8hpp.html#ga29f133c21de5eca2aa12f88caf6da86f":[3,0,0,3,0,2,4,10,30],
-"d6/dff/_femtometer_conversion_8hpp.html#ga2a7aadfe2325db467434f8bc9b2d9ed9":[3,0,0,3,0,2,4,10,9],
-"d6/dff/_femtometer_conversion_8hpp.html#ga2e6d6c0aad4502554b05f677ff248bc8":[3,0,0,3,0,2,4,10,23],
-"d6/dff/_femtometer_conversion_8hpp.html#ga40144bb4cb7d474b9a22394a0f321faa":[3,0,0,3,0,2,4,10,27],
-"d6/dff/_femtometer_conversion_8hpp.html#ga4416c9d0cb07df4b86f23afe6b7f6e91":[3,0,0,3,0,2,4,10,33],
-"d6/dff/_femtometer_conversion_8hpp.html#ga44f78ba3f928c765acf6330b47ab3827":[3,0,0,3,0,2,4,10,8],
-"d6/dff/_femtometer_conversion_8hpp.html#ga4906b22484dc1005dd962a943a967b50":[3,0,0,3,0,2,4,10,37]
+"d6/dff/_femtometer_conversion_8hpp.html#ga2a7aadfe2325db467434f8bc9b2d9ed9":[3,0,0,3,0,2,4,10,9]
 };

@@ -325,6 +325,32 @@ template&lt;typename T1 , typename T2 &gt; </td></tr>
 </p>
 <p>.  <a href="../../de/d53/group___e_g_x_phys-_astrophysics-_escape_velocity.html#gaeb8c0c9e780f883ea33498f076b08cb9">More...</a><br /></td></tr>
 <tr class="separator:gaeb8c0c9e780f883ea33498f076b08cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8cbf49b9a19cfe7a430f1528bb603950"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga8cbf49b9a19cfe7a430f1528bb603950"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d27/group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere.html#ga8cbf49b9a19cfe7a430f1528bb603950">HabitableZoneAtmosphere</a> (const T planetMassInkg, const T planetMeanRadiusInm, const T planetEquilibriumTemperatureInK)</td></tr>
+<tr class="memdesc:ga8cbf49b9a19cfe7a430f1528bb603950"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Habitable Zone Atmosphere metric, \(HZA\), of a planet. The Habitable Zone Atmosphere is a measure of the potential of an exoplanet to hold a habitable atmosphere. </p><p class="formulaDsp">
+\[ HZA= \dfrac{ 2\sqrt{ \dfrac{m_p}{m_{\oplus}} / \dfrac{r_p}{r_{\oplus}} } -v_{eH} - v_{eN} }{v_{eH} - v_{eN}} \]
+</p>
+ <p class="formulaDsp">
+\[ v_{eH}=\sqrt{ \dfrac{z T_{eq}}{ M_wN } } \]
+</p>
+ <p class="formulaDsp">
+\[ T_{eq}=\sqrt{ \dfrac{z T_{eq}}{ M_wH } } \]
+</p>
+<p>.  <a href="../../dd/d27/group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere.html#ga8cbf49b9a19cfe7a430f1528bb603950">More...</a><br /></td></tr>
+<tr class="separator:ga8cbf49b9a19cfe7a430f1528bb603950"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9fe32e7d12b68d2596a0a8409681acdc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga9fe32e7d12b68d2596a0a8409681acdc"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/d8c/group___e_g_x_phys-_astrophysics-_habitable_zone_composition.html#ga9fe32e7d12b68d2596a0a8409681acdc">HabitableZoneComposition</a> (const T planetMassInkg, const T planetMeanRadiusInm)</td></tr>
+<tr class="memdesc:ga9fe32e7d12b68d2596a0a8409681acdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the Habitable Zone Composition metric, \(HZC\), of a planet. The Habitable Zone Composition(HZC) measures how compatible for life is the bulk composition of an exoplanet within the habitable zone. It estimates both the iron and water content of the planet. </p><p class="formulaDsp">
+\[ HZC= \dfrac{ 2\dfrac{m_p}{m_{\oplus}} - r_w - r_i } { r_w - r_i } \]
+</p>
+ <p class="formulaDsp">
+\[ r_w= 4.43\ 10^{ -0.209396 + \dfrac{1}{3}\log \left ( \dfrac{m_p}{5.52 m_\oplus} \right ) - 0.0807 \left ( \dfrac{m_p}{5.52 m_\oplus} \right )^{0.375}} \]
+</p>
+ <p class="formulaDsp">
+\[ r_i= 2.52\ 10^{ -0.209490 + \dfrac{1}{3}\log \left ( \dfrac{m_p}{5.80 m_\oplus} \right ) - 0.0804 \left ( \dfrac{m_p}{5.80 m_\oplus} \right )^{0.394}} \]
+</p>
+<p>.  <a href="../../d3/d8c/group___e_g_x_phys-_astrophysics-_habitable_zone_composition.html#ga9fe32e7d12b68d2596a0a8409681acdc">More...</a><br /></td></tr>
+<tr class="separator:ga9fe32e7d12b68d2596a0a8409681acdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga909f82edfaed449b44e94788b642ebb8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga909f82edfaed449b44e94788b642ebb8"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d41/group___e_g_x_phys-_luminosity.html#ga909f82edfaed449b44e94788b642ebb8">blackbodyLuminosity</a> (const T &amp;area, const T &amp;tempreture)</td></tr>
 <tr class="memdesc:ga909f82edfaed449b44e94788b642ebb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the luminosity in watts of a black body.  <a href="../../d7/d41/group___e_g_x_phys-_luminosity.html#ga909f82edfaed449b44e94788b642ebb8">More...</a><br /></td></tr>
@@ -579,14 +605,6 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d83/group___e_g_x_phys-_planet_criteria.html#ga1df772b0ed354ca7f7e4a7a4af072325">EarthSimilarityIndexSurface</a> (const T &amp;planetEscapeVelocity, const T &amp;planetSurfaceTemperature)</td></tr>
 <tr class="memdesc:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates Surface Earth Similarity Index \((ESI_S)\) of a planet.  <a href="../../d7/d83/group___e_g_x_phys-_planet_criteria.html#ga1df772b0ed354ca7f7e4a7a4af072325">More...</a><br /></td></tr>
 <tr class="separator:ga1df772b0ed354ca7f7e4a7a4af072325"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0814237dccfe3c968b97fa6c93aeca27"><td class="memTemplParams" colspan="2">
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga0814237dccfe3c968b97fa6c93aeca27"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>HabitableZoneAtmosphere</b> (const T planetMass, const T planetRadius, const T planetEquilibriumTemp)</td></tr>
-<tr class="separator:ga0814237dccfe3c968b97fa6c93aeca27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga14ab036f8c617512236522c8e31dd072"><td class="memTemplParams" colspan="2">
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ga14ab036f8c617512236522c8e31dd072"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>HabitableZoneComposition</b> (const T planetMass, const T planetRadius)</td></tr>
-<tr class="separator:ga14ab036f8c617512236522c8e31dd072"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga27ba790eb8358535613d3b32f97d9e3a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga27ba790eb8358535613d3b32f97d9e3a"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/d12/group___e_g_x_phys-_astrophysics-_right_ascension.html#ga27ba790eb8358535613d3b32f97d9e3a">RightAscensionToDegree</a> (const T hour, const T minute, const T second)</td></tr>
 <tr class="memdesc:ga27ba790eb8358535613d3b32f97d9e3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts right ascensions \((\alpha_{RA})\) from hours \((RA_h)\), minutes \((RA_m)\) and seconds \((RA_s)\) to degrees. </p><p class="formulaDsp">

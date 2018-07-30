@@ -1,5 +1,12 @@
 var NAVTREEINDEX10 =
 {
+"d4/da4/group___e_g_x_math-_conversions-_length_conversions-_s_i-_decimeter-_nautical.html#ga6cc0e9987da30da6a30ddba50971ba2d":[1,0,0,2,4,3,4,1],
+"d4/dab/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron.html":[1,0,0,2,3,3],
+"d4/db5/_habitable_zone_atmosphere_8hpp.html":[3,0,0,1,19],
+"d4/db5/_habitable_zone_atmosphere_8hpp.html#ga8cbf49b9a19cfe7a430f1528bb603950":[3,0,0,1,19,0],
+"d4/db5/_habitable_zone_atmosphere_8hpp_source.html":[3,0,0,1,19],
+"d4/db5/group___n_i_s_t_const-_stefan_boltzmann_constant.html":[1,2,3,11],
+"d4/db5/group___n_i_s_t_const-_stefan_boltzmann_constant.html#ga7a87fa5e9ed3db503ee24f828d1dc700":[1,2,3,11,0],
 "d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html":[1,1,3,0,0,2,0],
 "d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html#ga1fa2321d7cd6c55bc48dc191719d580d":[1,1,3,0,0,2,0,2],
 "d4/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_venus-_bulk.html#ga5331daa7cd2abe77e1fa8ad9e3534f7d":[1,1,3,0,0,2,0,5],
@@ -142,9 +149,9 @@ var NAVTREEINDEX10 =
 "d4/ddd/_acoustics_constants_8hpp_source.html":[3,0,0,0,1],
 "d4/ddf/_kinematics_8hpp.html":[3,0,0,5,0],
 "d4/ddf/_kinematics_8hpp_source.html":[3,0,0,5,0],
-"d4/ddf/_rotational_angular_velocity_8hpp.html":[3,0,0,1,37],
-"d4/ddf/_rotational_angular_velocity_8hpp.html#gad8966c9d42ff617677152fa014f7d1db":[3,0,0,1,37,0],
-"d4/ddf/_rotational_angular_velocity_8hpp_source.html":[3,0,0,1,37],
+"d4/ddf/_rotational_angular_velocity_8hpp.html":[3,0,0,1,41],
+"d4/ddf/_rotational_angular_velocity_8hpp.html#gad8966c9d42ff617677152fa014f7d1db":[3,0,0,1,41,0],
+"d4/ddf/_rotational_angular_velocity_8hpp_source.html":[3,0,0,1,41],
 "d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html":[1,0,0,2,4,16,2],
 "d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html#ga391bcf9b529c2e20f2773c699bb0197a":[1,0,0,2,4,16,2,4],
 "d4/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_terameter-_non-_s_i.html#ga5bf639553e4b6e8520f9345def06e492":[1,0,0,2,4,16,2,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX10 =
 "d5/d18/_circumstellar_habitable_zone_8hpp.html#ga0eb1003b4cfcbcafde635cefca5ae5c2":[3,0,0,1,10,4],
 "d5/d18/_circumstellar_habitable_zone_8hpp.html#ga3a6dbbdaddddd071cb1f0a20e40d83bd":[3,0,0,1,10,3],
 "d5/d18/_circumstellar_habitable_zone_8hpp.html#ga809f4c557ce6d2fe566a69c2a8a5d41b":[3,0,0,1,10,2],
-"d5/d18/_circumstellar_habitable_zone_8hpp.html#gab31a33d0dbd3ecd00537832b5b836d73":[3,0,0,1,10,1],
-"d5/d18/_circumstellar_habitable_zone_8hpp.html#gaf289fb8f037ece66d850f7d827f83752":[3,0,0,1,10,0],
-"d5/d18/_circumstellar_habitable_zone_8hpp.html#gafe02cffcc63c39794feb6f1de5e7a9bb":[3,0,0,1,10,5],
-"d5/d18/_circumstellar_habitable_zone_8hpp_source.html":[3,0,0,1,10],
-"d5/d26/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec.html":[1,0,0,2,0,2],
-"d5/d28/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html":[1,0,2,0,1,8],
-"d5/d28/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga00e19efce15b74c6556cbd5650d7f699":[1,0,2,0,1,8,2],
-"d5/d28/group___e_g_x_math-_geometry-2_d-_ellipse-_semi_major_axis.html#ga1352fb9ee77a05d6b5d733c0fa048479":[1,0,2,0,1,8,10]
+"d5/d18/_circumstellar_habitable_zone_8hpp.html#gab31a33d0dbd3ecd00537832b5b836d73":[3,0,0,1,10,1]
 };

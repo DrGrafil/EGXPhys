@@ -1,0 +1,38 @@
+\hypertarget{group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere}{}\section{Habitable Zone Atmosphere}
+\label{group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere}\index{Habitable Zone Atmosphere@{Habitable Zone Atmosphere}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere_ga8cbf49b9a19cfe7a430f1528bb603950}{E\+G\+X\+Phys\+::\+Habitable\+Zone\+Atmosphere}} (const T planet\+Mass\+Inkg, const T planet\+Mean\+Radius\+Inm, const T planet\+Equilibrium\+Temperature\+InK)
+\begin{DoxyCompactList}\small\item\em Calculates the Habitable Zone Atmosphere metric, $HZA$, of a planet. The Habitable Zone Atmosphere is a measure of the potential of an exoplanet to hold a habitable atmosphere. \[ HZA= \dfrac{ 2\sqrt{ \dfrac{m_p}{m_{\oplus}} / \dfrac{r_p}{r_{\oplus}} } -v_{eH} - v_{eN} }{v_{eH} - v_{eN}} \] \[ v_{eH}=\sqrt{ \dfrac{z T_{eq}}{ M_wN } } \] \[ T_{eq}=\sqrt{ \dfrac{z T_{eq}}{ M_wH } } \]. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere_ga8cbf49b9a19cfe7a430f1528bb603950}\label{group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere_ga8cbf49b9a19cfe7a430f1528bb603950}} 
+\index{Habitable Zone Atmosphere@{Habitable Zone Atmosphere}!Habitable\+Zone\+Atmosphere@{Habitable\+Zone\+Atmosphere}}
+\index{Habitable\+Zone\+Atmosphere@{Habitable\+Zone\+Atmosphere}!Habitable Zone Atmosphere@{Habitable Zone Atmosphere}}
+\subsubsection{\texorpdfstring{Habitable\+Zone\+Atmosphere()}{HabitableZoneAtmosphere()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T E\+G\+X\+Phys\+::\+Habitable\+Zone\+Atmosphere (\begin{DoxyParamCaption}\item[{const T}]{planet\+Mass\+Inkg,  }\item[{const T}]{planet\+Mean\+Radius\+Inm,  }\item[{const T}]{planet\+Equilibrium\+Temperature\+InK }\end{DoxyParamCaption})}
+
+
+
+Calculates the Habitable Zone Atmosphere metric, $HZA$, of a planet. The Habitable Zone Atmosphere is a measure of the potential of an exoplanet to hold a habitable atmosphere. \[ HZA= \dfrac{ 2\sqrt{ \dfrac{m_p}{m_{\oplus}} / \dfrac{r_p}{r_{\oplus}} } -v_{eH} - v_{eN} }{v_{eH} - v_{eN}} \] \[ v_{eH}=\sqrt{ \dfrac{z T_{eq}}{ M_wN } } \] \[ T_{eq}=\sqrt{ \dfrac{z T_{eq}}{ M_wH } } \]. 
+
+Equations from \href{http://phl.upr.edu/library/notes/habitablezoneatmospherehzaahabitabilitymetricforexoplanets}{\tt http\+://phl.\+upr.\+edu/library/notes/habitablezoneatmospherehzaahabitabilitymetricforexoplanets}
+
+
+\begin{DoxyParams}{Parameters}
+{\em planet\+Mass\+Inkg} & $m_{p}\ (kg)$ Mass of the planet in kilograms. \\
+\hline
+{\em planet\+Mean\+Radius\+Inm} & $r_{p}\ (m)$ Mean radius of the planet in meters. \\
+\hline
+{\em planet\+Equilibrium\+Temperature\+InK} & $T_{eq}\ (K)$ Planetary equilibrium tempreture of a planet in kelvin. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$HZA\ (dimensionless)$ Habitable Zone Atmosphere of a planet. Results between -\/1 and 1 means that the planet has the potential for a habitable atmospheric composition. 
+\end{DoxyReturn}

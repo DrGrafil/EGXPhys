@@ -1,5 +1,10 @@
 var NAVTREEINDEX27 =
 {
+"dc/daf/_mile_conversion_8hpp.html#ga45c1f0177f23bf7b798344319fb86909":[3,0,0,3,0,2,1,7,17],
+"dc/daf/_mile_conversion_8hpp.html#ga470a1271de988c28cb4851e5930d99da":[3,0,0,3,0,2,1,7,29],
+"dc/daf/_mile_conversion_8hpp.html#ga59355064bc6419c5dc24f89bb13ec070":[3,0,0,3,0,2,1,7,20],
+"dc/daf/_mile_conversion_8hpp.html#ga63bec635d857da530046d1c5a165b1d8":[3,0,0,3,0,2,1,7,5],
+"dc/daf/_mile_conversion_8hpp.html#ga678ca464b305b9425fbec0b1f53fb983":[3,0,0,3,0,2,1,7,7],
 "dc/daf/_mile_conversion_8hpp.html#ga760e3af0fd7e18bf8ece567008891e42":[3,0,0,3,0,2,1,7,10],
 "dc/daf/_mile_conversion_8hpp.html#ga7c25082c389858e2dacd450005dc78c7":[3,0,0,3,0,2,1,7,25],
 "dc/daf/_mile_conversion_8hpp.html#ga828eb49720729eca76e81999b0565959":[3,0,0,3,0,2,1,7,34],
@@ -71,9 +76,9 @@ var NAVTREEINDEX27 =
 "dc/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_mercury-_bulk.html#gaa8b80e89b6cce05310b9651b527c465b":[1,1,3,0,0,1,0,1],
 "dc/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_mercury-_bulk.html#gab49932a46762c50bdbad579ea1b891bd":[1,1,3,0,0,1,0,2],
 "dc/db8/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_mercury-_bulk.html#gab4b0edd36ba34de13b19370f854a8f2c":[1,1,3,0,0,1,0,13],
-"dc/db9/_planetary_equilibrium_tempreture_8inl.html":[3,0,0,1,30],
-"dc/db9/_planetary_equilibrium_tempreture_8inl.html#ga48b1c3c35c18036586685da25085d05b":[3,0,0,1,30,0],
-"dc/db9/_planetary_equilibrium_tempreture_8inl.html#ga4a6704ad5d483e07453bcd01ba5f66c3":[3,0,0,1,30,1],
+"dc/db9/_planetary_equilibrium_tempreture_8inl.html":[3,0,0,1,34],
+"dc/db9/_planetary_equilibrium_tempreture_8inl.html#ga48b1c3c35c18036586685da25085d05b":[3,0,0,1,34,0],
+"dc/db9/_planetary_equilibrium_tempreture_8inl.html#ga4a6704ad5d483e07453bcd01ba5f66c3":[3,0,0,1,34,1],
 "dc/dc7/_turn_conversion_8hpp.html":[3,0,0,3,0,0,21],
 "dc/dc7/_turn_conversion_8hpp.html#ga05d6fea8f8475831e93dd23f6196393f":[3,0,0,3,0,0,21,15],
 "dc/dc7/_turn_conversion_8hpp.html#ga0bc017b3314253352ddec728d3f6b76a":[3,0,0,3,0,0,21,12],
@@ -164,8 +169,8 @@ var NAVTREEINDEX27 =
 "dc/deb/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_light_year-_astronomical.html":[1,0,0,2,0,1,0],
 "dc/deb/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_light_year-_astronomical.html#ga7e08f2da47a7b84833be76f30fe3840f":[1,0,0,2,0,1,0,0],
 "dc/deb/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_light_year-_astronomical.html#ga7fbe95808f04d03719e53d868b0cac45":[1,0,0,2,0,1,0,1],
-"dc/dee/_orbital_charecteristics_8hpp.html":[3,0,0,1,21],
-"dc/dee/_orbital_charecteristics_8hpp_source.html":[3,0,0,1,21],
+"dc/dee/_orbital_charecteristics_8hpp.html":[3,0,0,1,25],
+"dc/dee/_orbital_charecteristics_8hpp_source.html":[3,0,0,1,25],
 "dc/df0/_spheroid_inertia_8inl.html":[3,0,0,3,2,1,6,8],
 "dc/df0/_spheroid_inertia_8inl.html#ga0d621d59c21aeddf2ed5e9050aa2eeb8":[3,0,0,3,2,1,6,8,2],
 "dc/df0/_spheroid_inertia_8inl.html#ga116b896696bbcc8d65d60ec5fc0210a0":[3,0,0,3,2,1,6,8,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX27 =
 "dd/d10/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_non-_s_i.html#ga4bdfec28657cb037fc0830a95ceb79ca":[1,0,0,2,3,3,2,3],
 "dd/d10/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_micron-_non-_s_i.html#gaa582745d86b8b016faa9ad442b18ce8f":[1,0,0,2,3,3,2,1],
 "dd/d13/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_surveyors.html":[1,0,0,2,3,0,5],
-"dd/d13/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_surveyors.html#ga76c09fcaebaf5049097b7d555c3f2f49":[1,0,0,2,3,0,5,0],
-"dd/d13/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_surveyors.html#gaf6080801cd8901dc21f80eed4ec3e421":[1,0,0,2,3,0,5,1],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html":[3,0,0,3,0,0,15],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga061e4fa10d73e459d5f411cfe436bbe3":[3,0,0,3,0,0,15,13],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga14620899c81c1f5e65cde96ef4ee626e":[3,0,0,3,0,0,15,2],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga1731e750f3e5561313ee9d22adff747e":[3,0,0,3,0,0,15,10]
+"dd/d13/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_surveyors.html#ga76c09fcaebaf5049097b7d555c3f2f49":[1,0,0,2,3,0,5,0]
 };

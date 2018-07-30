@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"d2/d86/_terameter_conversion_8hpp.html#ga4f3bcac82e02fddb21fedf80ec01275b":[3,0,0,3,0,2,4,33,33],
+"d2/d86/_terameter_conversion_8hpp.html#ga4f6fb943e4c16178f4060c01a9c00a02":[3,0,0,3,0,2,4,33,20],
 "d2/d86/_terameter_conversion_8hpp.html#ga51468f3ffd5925fb2cbb188d49b6aa60":[3,0,0,3,0,2,4,33,23],
 "d2/d86/_terameter_conversion_8hpp.html#ga5bf639553e4b6e8520f9345def06e492":[3,0,0,3,0,2,4,33,11],
 "d2/d86/_terameter_conversion_8hpp.html#ga5eab9d29867c570350691cca342c9472":[3,0,0,3,0,2,4,33,5],
@@ -222,11 +224,11 @@ var NAVTREEINDEX5 =
 "d2/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_attometer-_s_i.html#gafbaa622bc31794c382e244942fa1d445":[1,0,0,2,4,0,1,4],
 "d2/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_attometer-_s_i.html#gafc247d0f5b16a1e83c2f210812ee41e8":[1,0,0,2,4,0,1,7],
 "d2/de0/group___e_g_x_math-_conversions-_length_conversions-_s_i-_attometer-_s_i.html#gaff6439c15e3bb4a90595864e814960a7":[1,0,0,2,4,0,1,0],
-"d2/de2/_solar_luminosity_ratio_8inl.html":[3,0,0,1,46],
-"d2/de2/_solar_luminosity_ratio_8inl.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b":[3,0,0,1,46,0],
+"d2/de2/_solar_luminosity_ratio_8inl.html":[3,0,0,1,50],
+"d2/de2/_solar_luminosity_ratio_8inl.html#ga6be0ccfc1c7bc3c7c9eb7032cdd5541b":[3,0,0,1,50,0],
 "d2/def/group___n_i_s_t_const-_conventional_josephson_constant.html":[1,2,4,0],
 "d2/def/group___n_i_s_t_const-_conventional_josephson_constant.html#gaf7118c5d748d244860cd847487b8aa96":[1,2,4,0,0],
-"d2/df0/group___e_g_x_phys-_orbital_charecteristics.html":[1,1,1,10],
+"d2/df0/group___e_g_x_phys-_orbital_charecteristics.html":[1,1,1,12],
 "d2/df2/group___e_g_x_math-_conversions-_length_conversions-_s_i-_petameter-_surveyors.html":[1,0,0,2,4,14,5],
 "d2/df2/group___e_g_x_math-_conversions-_length_conversions-_s_i-_petameter-_surveyors.html#ga2d17d0bd003489d3d72d4ed1a2bd2f97":[1,0,0,2,4,14,5,0],
 "d2/df2/group___e_g_x_math-_conversions-_length_conversions-_s_i-_petameter-_surveyors.html#gae7cef029bdb3e7ace9aa08e0183cc202":[1,0,0,2,4,14,5,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "d2/dfd/group___e_g_x_math-_conversions-_length_conversions-_imperial-_yard-_astronomical.html#gae62795f30f07c62e0082725518bc0369":[1,0,0,2,1,5,0,0],
 "d2/dff/_gigameter_conversion_8inl.html":[3,0,0,3,0,2,4,13],
 "d2/dff/_gigameter_conversion_8inl.html#ga02f73d15581b1cd69a79b843186211f5":[3,0,0,3,0,2,4,13,19],
-"d2/dff/_gigameter_conversion_8inl.html#ga048b5af6ec2f33e28435823ffa238d17":[3,0,0,3,0,2,4,13,1],
-"d2/dff/_gigameter_conversion_8inl.html#ga13984c61b3aaa41953de2415c6981f37":[3,0,0,3,0,2,4,13,17],
-"d2/dff/_gigameter_conversion_8inl.html#ga1ed5bf3c72c4a51beebcddf4f7e87631":[3,0,0,3,0,2,4,13,4]
+"d2/dff/_gigameter_conversion_8inl.html#ga048b5af6ec2f33e28435823ffa238d17":[3,0,0,3,0,2,4,13,1]
 };
