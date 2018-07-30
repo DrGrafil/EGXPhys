@@ -44,7 +44,7 @@ namespace EGXPhys
 	
     /** 
 	*   @brief Calculates the planetary equilibrium tempreture, \f$T_{eq}\f$ of a planet in kelvin. The planetary equilibrium tempreture is the theoretical temperature of a planet assuming it is a black body being heated only by its parent star. 
-	*	\f[ T_{eq}=T_{eff} \left ( \dfrac{(1-A)}{\epsilon} \right )^{\dfrac{1}{4}} \sqrt{\dfrac{R}{2 D} \f]
+	*	\f[ T_{eq}=T_{eff} \left ( \dfrac{(1-A)}{\epsilon} \right )^{\dfrac{1}{4}} \sqrt{\dfrac{R}{2 D}} \f]
 	*	
 	*	See https://en.wikipedia.org/wiki/Planetary_equilibrium_temperature and https://www.astro.princeton.edu/~strauss/FRS113/writeup3/
 	*
