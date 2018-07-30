@@ -18,10 +18,12 @@ namespace EGXPhys{
 	*/
 
 #ifdef EGXPHYS_GLM
-
+    /*
+    template<>
 	void AngularAcceleration(const glm::vec3& torqueInNm, const glm::mat3& inertiaTensorInkgmsquared, glm::vec3& angularAccelerationInradPersSquared) {
 		angularAccelerationInradPersSquared = torqueInNm * glm::inverse(inertiaTensorInkgmsquared);
 	}
+    */
 
 #endif // EGXPHYS_GLM
 }//namespace EGXPhys
