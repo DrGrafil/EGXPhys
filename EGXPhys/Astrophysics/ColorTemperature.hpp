@@ -41,9 +41,8 @@ namespace EGXPhys
 	*   @param G \f$G\ (dimensionless)\f$ Green color in an RGB color. Values varies from 0-1.
 	*   @param B \f$B\ (dimensionless)\f$ Blue color in an RGB color. Values varies from 0-1.
 	*/
-	template<typename T>
-	T ColorTemperatureToRGB(const T temperatureInK, T& R, T& G, T& B);
-
+    template<typename T1, typename T2>
+	void ColorTemperatureToRGB(const T1 temperatureInK, T2& R, T2& G, T2& B);
 #ifdef EGXPHYS_GLM
 
 	/**
