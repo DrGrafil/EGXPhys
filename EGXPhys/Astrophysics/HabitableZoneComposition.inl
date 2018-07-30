@@ -8,7 +8,7 @@
 namespace EGXPhys{
 	
     template<typename T>
-    T HabitableZoneComposition(const T planetMass, const T planetRadius){
+    T HabitableZoneComposition(const T planetMassInkg, const T planetMeanRadiusInm){
         
         //Iron Constants
         double mi1 = 5.80;
@@ -23,8 +23,8 @@ namespace EGXPhys{
         double kw2 = 0.0807;
         double kw3 = 0.375;
 
-        double mass = planetMass / earthMass;
-        double radius = planetRadius / ;
+        double mass = planetMassInkg / earthMass;
+        double radius = planetMeanRadiusInm / earthVolumetricMeanRadius;
 
         double rIron = ri1 * std::pow(10.0, ki1 + 1.0 / 3.0 * std::log10(mass / mi1) - ki2 * std::pow(mass / mi1, ki3));
         double rWater = rw1 * std::pow(10.0, kw1 + 1.0 / 3.0 * std::log10(mass / mw1) - kw2 * std::pow(mass / mw1, kw3));
