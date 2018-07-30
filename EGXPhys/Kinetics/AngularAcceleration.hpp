@@ -10,6 +10,8 @@
 
 //=================================
 // Header guard
+#ifndef __EGXPHYS_KINETICS_ANGULARACCELERATION_HPP__
+#define __EGXPHYS_KINETICS_ANGULARACCELERATION_HPP__
 #pragma once
 //=================================
 // Included dependencies
@@ -58,3 +60,5 @@ namespace EGXPhys
 } //namespace EGXPhys
 
 #include "AngularAcceleration.inl"
+
+#endif

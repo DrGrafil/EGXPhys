@@ -18,7 +18,7 @@ namespace EGXPhys{
 
     template<typename T>
     T PlanetaryEquilibriumTempreture(const T planetBondAlbedo, const T planetDistanceFromStarInm, const T starEffectiveSurfaceTemperatureInK, const T starRadiusInm, const T planetEmissivity) {
-        return starEffectiveSurfaceTemperatureInK * std::pow( ((T)1.0 - planetBondAlbedo)/ planetEmissivity, 1.0 / 4.0) * std::sqrt(starRadiusInm / ((T)2.0 * planetDistanceFromStarInm))
+        return starEffectiveSurfaceTemperatureInK * std::pow(((T)1.0 - planetBondAlbedo) / planetEmissivity, 1.0 / 4.0) * std::sqrt(starRadiusInm / ((T)2.0 * planetDistanceFromStarInm));
     }
     
 }//namespace EGXPhys
