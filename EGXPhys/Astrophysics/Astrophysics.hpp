@@ -28,6 +28,7 @@
 #include "OrbitalPeriod.hpp"
 #include "Parallax.hpp"
 #include "Periapsis.hpp"
+#include "PlanetaryEquilibriumTempreture.hpp"
 #include "PlanetaryMass.hpp"
 #include "PlanetCriteria.hpp"
 #include "RightAscension.hpp"

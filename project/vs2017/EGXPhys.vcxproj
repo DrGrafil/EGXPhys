@@ -158,6 +158,7 @@
     <ClInclude Include="..\..\EGXPhys\Astrophysics\OrbitalPeriod.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Parallax.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\Periapsis.hpp" />
+    <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetaryEquilibriumTempreture.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.hpp" />
     <ClInclude Include="..\..\EGXPhys\Astrophysics\RightAscension.hpp" />
@@ -450,6 +451,7 @@
     <None Include="..\..\EGXPhys\Astrophysics\OrbitalPeriod.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Parallax.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\Periapsis.inl" />
+    <None Include="..\..\EGXPhys\Astrophysics\PlanetaryEquilibriumTempreture.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\PlanetaryMass.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\PlanetCriteria.inl" />
     <None Include="..\..\EGXPhys\Astrophysics\RightAscension.inl" />
