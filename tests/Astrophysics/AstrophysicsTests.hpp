@@ -15,6 +15,7 @@
 #include "PlanetCriteriaTests.hpp"
 #include "PlanetaryMassTests.hpp"
 #include "StandardGravitationalParameterTests.hpp"
+#include "StellarLuminosityTest.hpp"
 #include "StellarMassTests.hpp"
 #include "StellarRadiusTest.hpp"
 #include "SurfaceGravityTests.hpp"

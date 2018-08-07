@@ -34,12 +34,12 @@ namespace EGXPhys{
         T sL = starLuminosityInSolarLuminosity;
         T sM = 0.0;
 
-        sM = std::pow(sL / (T)0.23, (T)-2.3); // M < 0.43 Mdot
+        sM = std::pow(sL / (T)0.23, (T)1.0/(T)2.3); // M < 0.43 Mdot
         if (sM > (T)0.43) {
-            sM = std::pow(sL, (T)-4.0);         // 0.43 Mdot <= M < 2 Mdot
+            sM = std::pow(sL, (T)1.0 / (T)4.0);         // 0.43 Mdot <= M < 2 Mdot
             if (sM > (T)2.0) {
 
-                sM = std::pow(sL / (T)1.4, (T)3.5); // 2 Mdot <= M < 20 Mdot
+                sM = std::pow(sL / (T)1.4, (T)1.0 / (T)3.5); // 2 Mdot <= M < 20 Mdot
                 if (sM > (T)20.0) {
 
                     sM = sL / (T)32000.0; // M > 50 Mdot
