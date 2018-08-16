@@ -20,12 +20,12 @@ namespace EGXPhys{
     
     template<typename T>
     T StellarMassApproximation(const T starLuminosityInW) {
-        return StellarMassApproximationInSolarMass(SolarLuminosityRatio(starLuminosityInW)) * solarMass;
+        return StellarMassApproximationInkg(starLuminosityInW);
     }
 
     template<typename T>
     T StellarMassApproximationInkg(const T starLuminosityInW) {
-        return StellarMassApproximationInSolarMass(SolarLuminosityRatio(starLuminosityInW)) * solarMass;
+        return StellarMassApproximationInSolarMass(SolarLuminosityRatio(starLuminosityInW)) * (T)solarMass;
     }
 
     template<typename T>
