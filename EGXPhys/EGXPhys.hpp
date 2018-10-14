@@ -13,7 +13,7 @@
 #pragma once
 //=================================
 // Included dependencies
-#include <math.h>
+#include <cmath>
 
 #define NISTCONST_COMMON_SYMBOLS_NAMES
 #include "NISTConst/NISTConst.hpp"

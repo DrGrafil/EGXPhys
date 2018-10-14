@@ -15,7 +15,7 @@
 #pragma once
 //=================================
 // Included dependencies
-#include <math.h>  
+#include <cmath>  
 
 #include "AstrophysicsConstants.hpp"
 

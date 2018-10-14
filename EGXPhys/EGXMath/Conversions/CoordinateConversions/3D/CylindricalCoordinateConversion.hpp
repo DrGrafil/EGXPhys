@@ -13,7 +13,7 @@
 #pragma once
 //=================================
 // Included dependencies
-#include <math.h> 
+#include <cmath> 
 
 //=================================
 // Forward declared dependencies
