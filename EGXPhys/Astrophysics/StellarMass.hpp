@@ -14,7 +14,7 @@
 //=================================
 // Included dependencies
 #include <cmath>  
-
+#include <iostream>
 #include "AstrophysicsConstants.hpp"
 
 //=================================

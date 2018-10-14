@@ -15,6 +15,7 @@
 // Included dependencies
 #include <cmath>  
 #include <string>
+#include <vector>
 #include "../../EGXMathConstants.hpp"
 
 //=================================

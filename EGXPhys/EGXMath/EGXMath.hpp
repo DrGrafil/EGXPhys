@@ -14,6 +14,11 @@
 //=================================
 // Included dependencies
 #include <cmath>
+
+#ifdef EGXMATH_GLM // Useing GLM
+#include <glm/glm.hpp>
+#endif // EGXMATH_GLM
+
 //=================================
 // Forward declared dependencies
 
