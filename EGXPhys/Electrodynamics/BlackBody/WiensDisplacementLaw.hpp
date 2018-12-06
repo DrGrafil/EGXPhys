@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates the peak wavelength/frequency of a black body using Wien's Displacement Law.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/25/18
 
 /// @defgroup EGXPhys-Electrodynamics-BlackBody-WiensDisplacementLaw Wien's Displacement Law

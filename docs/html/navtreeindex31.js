@@ -1,14 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"df/d19/_ellipsoid_surface_area_8inl.html#gae1dfe0a51a3adc5121de3ced76b4068c":[3,0,0,3,2,1,4,4,0],
-"df/d1a/group___n_i_s_t_const-_non-_s_i.html":[1,2,5],
-"df/d22/group___n_i_s_t_const-_standard_state_pressure.html":[1,2,4,5],
-"df/d22/group___n_i_s_t_const-_standard_state_pressure.html#gaf350fe751c6d2280b7712dcad3ac025f":[1,2,4,5,0],
-"df/d29/_sidereal_day_8hpp.html":[3,0,0,1,45],
-"df/d29/_sidereal_day_8hpp.html#ga587900d5fc755228c1bb5121cd7965c6":[3,0,0,1,45,0],
-"df/d29/_sidereal_day_8hpp_source.html":[3,0,0,1,45],
-"df/d2a/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_non-_s_i.html":[1,0,0,2,2,0,2],
-"df/d2a/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_non-_s_i.html#ga1e69cf778d1b7f72cd015b6cc81fc71c":[1,0,0,2,2,0,2,4],
 "df/d2a/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_non-_s_i.html#ga4590b655273e874c79a47de291226548":[1,0,0,2,2,0,2,2],
 "df/d2a/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_non-_s_i.html#ga491b6bb1b4db49ba22471e9ca9855198":[1,0,0,2,2,0,2,3],
 "df/d2a/group___e_g_x_math-_conversions-_length_conversions-_nautical-_fathom-_non-_s_i.html#ga6692d3fad4af03d78145e34bf0a6c2ac":[1,0,0,2,2,0,2,1],
@@ -249,5 +240,14 @@ var NAVTREEINDEX31 =
 "df/db5/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mile-_nautical.html#ga1f50d3e2d321bf020c3027501a2a5421":[1,0,0,2,1,3,4,1],
 "df/db5/group___e_g_x_math-_conversions-_length_conversions-_imperial-_mile-_nautical.html#gad8ee69c20f52894de8e71dd8c1eff9e7":[1,0,0,2,1,3,4,0],
 "df/dbd/group___e_g_x_math-_conversions-_length_conversions-_s_i-_exameter-_nautical.html":[1,0,0,2,4,4,4],
-"df/dbd/group___e_g_x_math-_conversions-_length_conversions-_s_i-_exameter-_nautical.html#gab6f73111fd59a46fb28473d73ddb6033":[1,0,0,2,4,4,4,0]
+"df/dbd/group___e_g_x_math-_conversions-_length_conversions-_s_i-_exameter-_nautical.html#gab6f73111fd59a46fb28473d73ddb6033":[1,0,0,2,4,4,4,0],
+"df/dbd/group___e_g_x_math-_conversions-_length_conversions-_s_i-_exameter-_nautical.html#gaf593ae9d78bd889caca4e9249be1464a":[1,0,0,2,4,4,4,1],
+"df/dc5/_stellar_temperature_8inl.html":[3,0,0,1,58],
+"df/dd5/_gradian_conversion_8inl.html":[3,0,0,3,0,0,12],
+"df/dd5/_gradian_conversion_8inl.html#ga0b6700b55ab4a24fa581bf2af0dafdaa":[3,0,0,3,0,0,12,8],
+"df/dd5/_gradian_conversion_8inl.html#ga11b42138910d26474f47c0a2043911c9":[3,0,0,3,0,0,12,17],
+"df/dd5/_gradian_conversion_8inl.html#ga144f1019dc760268a163d81fcb3ce482":[3,0,0,3,0,0,12,15],
+"df/dd5/_gradian_conversion_8inl.html#ga346f47c519d5261b689cec49f4a8e789":[3,0,0,3,0,0,12,5],
+"df/dd5/_gradian_conversion_8inl.html#ga52ed2e44217e6a57e56829bee36612dc":[3,0,0,3,0,0,12,4],
+"df/dd5/_gradian_conversion_8inl.html#ga555aae885f8a7d0876a36aa07cbbd816":[3,0,0,3,0,0,12,12]
 };

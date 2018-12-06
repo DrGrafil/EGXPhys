@@ -2,7 +2,7 @@
 ///
 /// @brief Includes all header files that are related to geometry.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/9/18
 
 

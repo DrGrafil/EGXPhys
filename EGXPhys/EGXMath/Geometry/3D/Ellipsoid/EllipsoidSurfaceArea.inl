@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/3D/Ellipsoid/EllipsoidSurfaceArea.inl
 ///
 /// @brief Implimentation of functions related to the surface area of an ellipsoid.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/23/18
 
 

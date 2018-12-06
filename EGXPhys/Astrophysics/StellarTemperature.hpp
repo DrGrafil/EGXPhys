@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates temperature for stars.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/31/17
 
 /// @defgroup EGXPhys-StellarTemperature Stellar Temperature

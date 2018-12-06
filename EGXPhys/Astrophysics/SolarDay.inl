@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/SolarDay.inl
 ///
 /// @brief Implimentation of solar day calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/1/18
 
 

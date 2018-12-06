@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/B-VColor.inl
 ///
 /// @brief Implimentation of B-V color calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/14/18
 
 

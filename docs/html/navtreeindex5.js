@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d2/d86/_terameter_conversion_8hpp.html#ga4f3bcac82e02fddb21fedf80ec01275b":[3,0,0,3,0,2,4,33,33],
 "d2/d86/_terameter_conversion_8hpp.html#ga4f6fb943e4c16178f4060c01a9c00a02":[3,0,0,3,0,2,4,33,20],
 "d2/d86/_terameter_conversion_8hpp.html#ga51468f3ffd5925fb2cbb188d49b6aa60":[3,0,0,3,0,2,4,33,23],
 "d2/d86/_terameter_conversion_8hpp.html#ga5bf639553e4b6e8520f9345def06e492":[3,0,0,3,0,2,4,33,11],
@@ -241,7 +240,7 @@ var NAVTREEINDEX5 =
 "d2/dfb/_plasma_constants_8hpp_source.html":[3,0,0,9,1],
 "d2/dfb/group___e_g_x_math.html":[1,0],
 "d2/dfd/_color_temperature_8inl.html":[3,0,0,1,13],
-"d2/dfd/_color_temperature_8inl.html#a53633ad397d0ee34ff0b5869f41c7c83":[3,0,0,1,13,0],
+"d2/dfd/_color_temperature_8inl.html#ga53633ad397d0ee34ff0b5869f41c7c83":[3,0,0,1,13,0],
 "d2/dfd/_color_temperature_8inl.html#gaad787485a232976da96c2c785ce21dad":[3,0,0,1,13,1],
 "d2/dfd/group___e_g_x_math-_conversions-_length_conversions-_imperial-_yard-_astronomical.html":[1,0,0,2,1,5,0],
 "d2/dfd/group___e_g_x_math-_conversions-_length_conversions-_imperial-_yard-_astronomical.html#ga23f43ac2cd611de8ead9af1772607dd8":[1,0,0,2,1,5,0,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "d2/dfd/group___e_g_x_math-_conversions-_length_conversions-_imperial-_yard-_astronomical.html#gae62795f30f07c62e0082725518bc0369":[1,0,0,2,1,5,0,0],
 "d2/dff/_gigameter_conversion_8inl.html":[3,0,0,3,0,2,4,13],
 "d2/dff/_gigameter_conversion_8inl.html#ga02f73d15581b1cd69a79b843186211f5":[3,0,0,3,0,2,4,13,19],
-"d2/dff/_gigameter_conversion_8inl.html#ga048b5af6ec2f33e28435823ffa238d17":[3,0,0,3,0,2,4,13,1]
+"d2/dff/_gigameter_conversion_8inl.html#ga048b5af6ec2f33e28435823ffa238d17":[3,0,0,3,0,2,4,13,1],
+"d2/dff/_gigameter_conversion_8inl.html#ga13984c61b3aaa41953de2415c6981f37":[3,0,0,3,0,2,4,13,17]
 };

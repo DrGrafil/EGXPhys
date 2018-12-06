@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates parallax and distance based on parallax.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/16/18
 
 /// @defgroup EGXPhys-Astrophysic-Parallax Parallax

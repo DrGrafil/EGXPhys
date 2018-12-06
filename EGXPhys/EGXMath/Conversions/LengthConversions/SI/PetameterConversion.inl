@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/PetameterConversion.inl
 ///
 /// @brief Implimentation of Petameter conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

@@ -2,7 +2,7 @@
 ///
 /// @brief Converts angle measurements in degreesMinutesSecondss into various styles such as radians, degrees, DMS, HMS.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/29/18
 
 /// @defgroup EGXMath-Conversions-AngleConversions-DegreesMinutesSeconds Degrees Minutes Seconds

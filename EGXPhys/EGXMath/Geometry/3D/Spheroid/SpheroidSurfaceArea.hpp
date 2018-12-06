@@ -2,7 +2,7 @@
 /// 
 /// @brief Defines functions relating to the surface area of a spheroid.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/20/18
 
 /// @defgroup EGXMath-Geometry-3D-Spheroid-SurfaceArea Surface Area

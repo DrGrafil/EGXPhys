@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates various criteria for planets including habitability.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/31/17
 
 /// @defgroup EGXPhys-PlanetCriteria Planet Criteria

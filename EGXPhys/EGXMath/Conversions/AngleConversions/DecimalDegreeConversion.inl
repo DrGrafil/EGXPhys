@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/AngleConversions/DecimalDegreeConversion.inl
 ///
 /// @brief Implimentation of decimal degree conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/28/18
 
 

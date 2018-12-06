@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/Declination.inl
 ///
 /// @brief declination calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/29/18
 
 

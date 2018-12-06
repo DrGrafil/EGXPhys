@@ -2,7 +2,7 @@
 ///
 /// @brief Includes all header files that are related to the field of Astrophysics.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/25/17
 
 

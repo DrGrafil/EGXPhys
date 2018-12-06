@@ -2,7 +2,7 @@
 ///
 /// @brief Converts length measurements in nanometers into various other units such as meters, parsecs, light years.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/9/18
 
 /// @defgroup EGXMath-Conversions-LengthConversions-SI-Nanometer Nanometer

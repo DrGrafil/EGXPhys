@@ -2,7 +2,7 @@
 ///
 /// @brief Includes all header files that are related to the field of Atomic Physics.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/28/17
 
 

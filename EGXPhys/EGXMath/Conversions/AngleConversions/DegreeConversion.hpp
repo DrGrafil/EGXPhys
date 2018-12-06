@@ -2,7 +2,7 @@
 ///
 /// @brief Converts angle measurements fom degrees into various styles such as radians, degrees, DMS, HMS.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/28/18
 
 /// @defgroup EGXMath-Conversions-AngleConversions-Degree Degree

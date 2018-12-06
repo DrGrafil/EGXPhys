@@ -1,16 +1,11 @@
 var NAVTREEINDEX13 =
 {
-"d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga7ff84de93ff11190d3b84d8ff8525c04":[1,1,3,0,0,3,0,2],
-"d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga850a2031af18dbe83cafae87542b588d":[1,1,3,0,0,3,0,0],
-"d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga874fc1db4f316a31102432881fd60ab3":[1,1,3,0,0,3,0,14],
-"d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#ga8d661a52948229a59e9eabf97af51faf":[1,1,3,0,0,3,0,6],
 "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#gaa5213443d0c8577a2bfef89193346764":[1,1,3,0,0,3,0,10],
 "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#gaaabe1a1d2cea41e00fb1646a25d9eafe":[1,1,3,0,0,3,0,12],
 "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#gaabbf1158b0f8e2f9545c8e4dc9b2e2bd":[1,1,3,0,0,3,0,4],
 "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#gad71c87a7e90df69eed292f9a54376fff":[1,1,3,0,0,3,0,1],
 "d6/d10/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_earth-_bulk.html#gada6c6733f79e984d42cf37210b4ad18f":[1,1,3,0,0,3,0,3],
 "d6/d15/_angular_acceleration_8inl.html":[3,0,0,6,1],
-"d6/d15/_angular_acceleration_8inl.html#gaf636e9a30f3db4e170829efbf40efbbe":[3,0,0,6,1,0],
 "d6/d17/group___e_g_x_math-_conversions-_length_conversions-_s_i-_femtometer-_imperial.html":[1,0,0,2,4,5,3],
 "d6/d17/group___e_g_x_math-_conversions-_length_conversions-_s_i-_femtometer-_imperial.html#ga4416c9d0cb07df4b86f23afe6b7f6e91":[1,0,0,2,4,5,3,5],
 "d6/d17/group___e_g_x_math-_conversions-_length_conversions-_s_i-_femtometer-_imperial.html#ga51c3107a7cfac96232eb0b040c3192a1":[1,0,0,2,4,5,3,1],
@@ -45,7 +40,6 @@ var NAVTREEINDEX13 =
 "d6/d19/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_magnitude.html#gafed7fac94b45769da99c9e002a12e8c2":[1,1,3,0,0,0,1,9],
 "d6/d1c/_kinematics_constants_8hpp.html":[3,0,0,5,1],
 "d6/d1c/_kinematics_constants_8hpp_source.html":[3,0,0,5,1],
-"d6/d1f/_cuboid1_8hpp_source.html":[3,0,0,3,2,1,2,1],
 "d6/d2a/group___n_i_s_t_const-_avogadro_constant.html":[1,2,3,1],
 "d6/d2a/group___n_i_s_t_const-_avogadro_constant.html#ga6bfa56f26d113ff9445c87ab17462e8a":[1,2,3,1,0],
 "d6/d2c/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_s_i.html":[1,0,0,2,3,4,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX13 =
 "d6/d57/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_imperial.html#gabfdb228f43e8988c62daac3d6e71d7fa":[1,0,0,2,3,4,3,3],
 "d6/d57/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_mo_x_unit-_imperial.html#gae18fc1fb7d5238fe185b85084b95b2b0":[1,0,0,2,3,4,3,4],
 "d6/d5e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_astronomical.html":[1,0,0,2,0,2,0],
-"d6/d5e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_astronomical.html#ga635dd871156c8bdd5e27198ba323380c":[1,0,0,2,0,2,0,0]
+"d6/d5e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_astronomical.html#ga635dd871156c8bdd5e27198ba323380c":[1,0,0,2,0,2,0,0],
+"d6/d5e/group___e_g_x_math-_conversions-_length_conversions-_astronomical-_parsec-_astronomical.html#gaf6681b9c24d89c83c48bf6dabb9a433d":[1,0,0,2,0,2,0,1],
+"d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html":[1,1,3,0,0,0,0],
+"d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga02d8f3c8e91bba017bcc609a4c743ae5":[1,1,3,0,0,0,0,16],
+"d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga041c4c2f7860c1b1fa4435b2be962c50":[1,1,3,0,0,0,0,23],
+"d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga088d6c6b1f9cc7098af2da77e94a386a":[1,1,3,0,0,0,0,25],
+"d6/d5f/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_sun-_bulk.html#ga17d411dceb8d2ff98b8a270eaa72117d":[1,1,3,0,0,0,0,21]
 };

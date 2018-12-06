@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Imperial/ChainConversion.inl
 ///
 /// @brief Implimentation of Chain conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/13/18
 
 

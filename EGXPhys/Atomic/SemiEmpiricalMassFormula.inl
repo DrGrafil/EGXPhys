@@ -1,7 +1,7 @@
 /// @file EGXPhys/Atomic/SemiEmpiricalMassFormula.inl
 ///
 /// @brief Implimentation of the semi empirical mass formula calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/4/17
 
 namespace EGXPhys{

@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/YottameterConversion.inl
 ///
 /// @brief Implimentation of Yottameter conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

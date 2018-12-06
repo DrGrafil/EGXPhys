@@ -2,7 +2,7 @@
 /// 
 /// @brief Defines functions relating to rotational angular velocity of a planet.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/29/18
 
 /// @defgroup EGXPhys-Astrophysics-RotationalAngularVelocity Rotational Angular Velocity

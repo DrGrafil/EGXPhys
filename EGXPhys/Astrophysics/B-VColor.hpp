@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates B-V Color of stars and related information derived from it.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/19/18
 
 /// @defgroup EGXPhys-Astrophysic-B-VColor B-V Color

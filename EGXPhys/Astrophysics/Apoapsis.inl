@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/Apoapsis.inl
 ///
 /// @brief Implimentation of apoapsis calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/29/17
 
 

@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/CentimeterConversion.inl
 ///
 /// @brief Implimentation of Centimeter conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

@@ -1,7 +1,7 @@
 /// @file EGXPhys/Kinetics/Torque.inl
 ///
 /// @brief Implimentation of torque calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/19/17
 #include <assert.h>
 #ifdef EGXPHYS_GLM

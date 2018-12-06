@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Astronomical/AstronomicalUnitConversion.inl
 ///
 /// @brief Implimentation of AstronomicalUnit conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/11/18
 
 

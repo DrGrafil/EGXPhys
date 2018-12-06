@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/SiderealDay.inl
 ///
 /// @brief Implimentation of sidereal day calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/1/18
 
 

@@ -1,7 +1,7 @@
 /// @file EGXMath/Functions/GaussianFunctions.inl
 ///
 /// @brief Implimentation of functions related to the Gaussian (normal distribution) function.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/9/18
 
 

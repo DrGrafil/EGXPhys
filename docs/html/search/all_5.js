@@ -96,7 +96,7 @@ var searchData=
   ['classicalelectronradius',['classicalElectronRadius',['../d1/d1d/group___n_i_s_t_const-_electron.html#gae69791c36b4353121206f104942fdf4a',1,'NISTConst']]],
   ['colortemperature_2ehpp',['ColorTemperature.hpp',['../d4/d5b/_color_temperature_8hpp.html',1,'']]],
   ['colortemperature_2einl',['ColorTemperature.inl',['../d2/dfd/_color_temperature_8inl.html',1,'']]],
-  ['colortemperaturetorgb',['ColorTemperatureToRGB',['../dd/d27/group___e_g_x_phys-_astrophysics-_color_temperature.html#ga81db6b5b397c9f788001be73adae032d',1,'EGXPhys::ColorTemperatureToRGB(const T temperatureInK, T &amp;R, T &amp;G, T &amp;B)'],['../dd/d27/group___e_g_x_phys-_astrophysics-_color_temperature.html#gaad787485a232976da96c2c785ce21dad',1,'EGXPhys::ColorTemperatureToRGB(const T temperatureInK)']]],
+  ['colortemperaturetorgb',['ColorTemperatureToRGB',['../dd/d27/group___e_g_x_phys-_astrophysics-_color_temperature.html#ga53633ad397d0ee34ff0b5869f41c7c83',1,'EGXPhys::ColorTemperatureToRGB(const T1 temperatureInK, T2 &amp;R, T2 &amp;G, T2 &amp;B)'],['../dd/d27/group___e_g_x_phys-_astrophysics-_color_temperature.html#gaad787485a232976da96c2c785ce21dad',1,'EGXPhys::ColorTemperatureToRGB(const T temperatureInK)']]],
   ['comptonwavelength',['ComptonWavelength',['../df/d9f/group___n_i_s_t_const-_compton_wavelength.html#ga9e52f9c08046cc0ec310fdf0137cdcda',1,'NISTConst']]],
   ['comptonwavelengthover2pi',['ComptonWavelengthOver2Pi',['../df/d9f/group___n_i_s_t_const-_compton_wavelength.html#gabba37dafb84b4faabc2d90a8a7d0ce2a',1,'NISTConst']]],
   ['conductancequantum',['conductanceQuantum',['../da/dc9/group___n_i_s_t_const-_conductance_quantum.html#ga134ad3777be531b9ba1313ef94a6885f',1,'NISTConst']]],

@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Non-SI/CuXUnitConversion.inl
 ///
 /// @brief Implimentation of CuXUnit conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

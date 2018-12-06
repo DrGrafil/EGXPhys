@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/AstrophysicsConstants.hpp
 ///
 /// @brief Constants pertaining to astrophysics.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/28/17
 
 

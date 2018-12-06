@@ -2,7 +2,7 @@
 ///
 /// @brief Defines functions relating to disk shape.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/11/18
 
 /// @defgroup EGXMath-Geometry-3D-Disk Disk

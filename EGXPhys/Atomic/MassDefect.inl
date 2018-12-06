@@ -1,7 +1,7 @@
 /// @file EGXPhys/Atomic/MassDefect.inl
 ///
 /// @brief Implimentation of mass defect calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/12/17
 
 namespace EGXPhys{

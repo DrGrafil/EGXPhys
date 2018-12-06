@@ -1,7 +1,7 @@
 /// @file EGXPhys/Kinetics/AngularAcceleration.inl
 ///
 /// @brief Implimentation of angular acceleration calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/19/17
 
 #ifdef EGXPHYS_GLM

@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Imperial/MilConversion.inl
 ///
 /// @brief Implimentation of Mil conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/11/18
 
 

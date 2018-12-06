@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates decay constant of radioactive substance.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/4/17
 
 /// @todo decay constant in terms of dN/dt

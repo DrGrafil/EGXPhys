@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates synodic day of a celestial object.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/1/18
 
 /// @defgroup EGXPhys-Astrophysic-SynodicDay Synodic Day

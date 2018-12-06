@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/GigameterConversion.inl
 ///
 /// @brief Implimentation of Gigameter conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

@@ -1,7 +1,7 @@
 /// @file EGXPhys/Atomic/QValue.inl
 ///
 /// @brief Implimentation of Q-value calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/18/17
 
 

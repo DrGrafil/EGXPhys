@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Imperial/RodConversion.inl
 ///
 /// @brief Implimentation of Rod conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/13/18
 
 

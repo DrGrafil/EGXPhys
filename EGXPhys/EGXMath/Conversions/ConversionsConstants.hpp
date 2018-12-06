@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/Conversions.hpp
 ///
 /// @brief Constants pertaining to unit conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/21/18
 
 

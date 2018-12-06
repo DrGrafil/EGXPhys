@@ -7,7 +7,7 @@
 /// Documentation: Complete
 /// Unit-Test: Complete
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/29/17
 
 

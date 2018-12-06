@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/Parallax.inl
 ///
 /// @brief Implimentation of parallax calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/19/18
 
 

@@ -2,7 +2,7 @@
 ///
 /// @brief Converts angle measurements in hours minutes seconds into various styles such as radians, degrees, DMS, HMS.const T& hour, const T& minute, const T& second
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/29/18
 
 /// @defgroup EGXMath-Conversions-AngleConversions-HoursMinutesSeconds Hours Minutes Seconds

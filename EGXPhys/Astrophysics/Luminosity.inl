@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/Luminosity.inl
 ///
 /// @brief Implimentation of luminosity calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/25/17
 
 

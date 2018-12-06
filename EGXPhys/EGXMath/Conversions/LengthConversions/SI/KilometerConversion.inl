@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/KilometerConversion.inl
 ///
 /// @brief Implimentation of Kilometer conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

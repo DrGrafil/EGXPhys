@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Non-SI/AngstromConversion.inl
 ///
 /// @brief Implimentation of Angstrom conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/10/18
 
 

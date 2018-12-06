@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Imperial/FootConversion.inl
 ///
 /// @brief Implimentation of Foot conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/11/18
 
 

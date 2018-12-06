@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/MeterConversion.inl
 ///
 /// @brief Implimentation of meters conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/4/18
 
 

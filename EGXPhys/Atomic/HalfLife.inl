@@ -1,7 +1,7 @@
 /// @file EGXPhys/Atomic/HalfLife.inl
 ///
 /// @brief Implimentation of half life calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/4/17
 
 

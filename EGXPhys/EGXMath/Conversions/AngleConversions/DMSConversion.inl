@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/AngleConversions/DMSConversion.inl
 ///
 /// @brief Implimentation of degrees minutes seconds conversions.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/29/18
 
 

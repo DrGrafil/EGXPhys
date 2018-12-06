@@ -1,7 +1,7 @@
 /// @file EGXPhys/Relativity/RelativityConstants.hpp
 ///
 /// @brief Holds all constants related to the field of Relativity.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/28/17
 
 

@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates the mass of a planet
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/19/18
 
 /// @defgroup EGXPhys-PlanetaryMass Planetary Mass

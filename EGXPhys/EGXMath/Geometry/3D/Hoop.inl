@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/3D/Hoop.inl
 ///
 /// @brief Implimentation of functions related to shape.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/10/18
 
 

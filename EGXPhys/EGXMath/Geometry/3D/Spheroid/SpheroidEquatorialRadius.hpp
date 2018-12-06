@@ -2,7 +2,7 @@
 /// 
 /// @brief Defines functions relating to the equatorial radius of a spheroid.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/24/18
 
 /// @defgroup EGXMath-Geometry-3D-Spheroid-EquatorialRadius Equatorial Radius

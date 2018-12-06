@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/3D/Spheroid/SpheroidPolarRadius.inl
 ///
 /// @brief Implimentation of functions related to the polar radius of an spheroid.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/20/18
 
 

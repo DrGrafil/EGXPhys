@@ -2,7 +2,7 @@
 ///
 /// @brief Defines functions relating to inertia of an ellipsoid.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/24/18
 
 /// @defgroup EGXMath-Geometry-3D-Spheroid-Inertia Inertia

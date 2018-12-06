@@ -2,7 +2,7 @@
 ///
 /// @brief Includes all header files that are related to unit conversions.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/21/18
 
 

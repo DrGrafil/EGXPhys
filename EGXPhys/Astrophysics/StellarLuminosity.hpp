@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates stellar luminosity of a star.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/27/18
 
 

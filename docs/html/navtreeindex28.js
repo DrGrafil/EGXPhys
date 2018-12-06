@@ -1,14 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"dd/d13/group___e_g_x_math-_conversions-_length_conversions-_non-_s_i-_angstrom-_surveyors.html#gaf6080801cd8901dc21f80eed4ec3e421":[1,0,0,2,3,0,5,1],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html":[3,0,0,3,0,0,15],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga061e4fa10d73e459d5f411cfe436bbe3":[3,0,0,3,0,0,15,13],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga14620899c81c1f5e65cde96ef4ee626e":[3,0,0,3,0,0,15,2],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga1731e750f3e5561313ee9d22adff747e":[3,0,0,3,0,0,15,10],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga23bfa5abeb014726c2e2ac6303be5dae":[3,0,0,3,0,0,15,1],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga356f1e89c3ea35a9d46967644d4ddfd3":[3,0,0,3,0,0,15,9],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga3c38143df47da88534ddbd13726748e2":[3,0,0,3,0,0,15,0],
-"dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga4f66698550a0cf0fd326f25aba2c0d80":[3,0,0,3,0,0,15,6],
 "dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga5ac65e4e7ed8857151b3f81f5928df3a":[3,0,0,3,0,0,15,11],
 "dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga68050282994968cd6f80a396f6a539ae":[3,0,0,3,0,0,15,17],
 "dd/d15/_hours_minutes_seconds_conversion_8hpp.html#ga8fe72f56eebb44d7e8d7033476bbdd9b":[3,0,0,3,0,0,15,8],
@@ -70,7 +61,7 @@ var NAVTREEINDEX28 =
 "dd/d26/group___n_i_s_t_const-_molar_volume.html#ga3175d5facd09d9633cd05eca4d9246fa":[1,2,3,8,0],
 "dd/d26/group___n_i_s_t_const-_molar_volume.html#gabc17d301cfbbfc12ffc1caa75c4a4602":[1,2,3,8,1],
 "dd/d27/group___e_g_x_phys-_astrophysics-_color_temperature.html":[1,1,1,5],
-"dd/d27/group___e_g_x_phys-_astrophysics-_color_temperature.html#ga81db6b5b397c9f788001be73adae032d":[1,1,1,5,0],
+"dd/d27/group___e_g_x_phys-_astrophysics-_color_temperature.html#ga53633ad397d0ee34ff0b5869f41c7c83":[1,1,1,5,0],
 "dd/d27/group___e_g_x_phys-_astrophysics-_color_temperature.html#gaad787485a232976da96c2c785ce21dad":[1,1,1,5,1],
 "dd/d27/group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere.html":[1,1,1,9],
 "dd/d27/group___e_g_x_phys-_astrophysics-_habitable_zone_atmosphere.html#ga8cbf49b9a19cfe7a430f1528bb603950":[1,1,1,9,0],
@@ -249,5 +240,14 @@ var NAVTREEINDEX28 =
 "dd/de1/_radian_conversion_8inl.html#ga84fbb494a455cfeb30be62776f96c9a9":[3,0,0,3,0,0,20,15],
 "dd/de1/_radian_conversion_8inl.html#gac84796dfdeb56235e1e338522a5f9350":[3,0,0,3,0,0,20,13],
 "dd/de1/_radian_conversion_8inl.html#gadae98c255924fdc8b232b6539eae81a9":[3,0,0,3,0,0,20,7],
-"dd/de1/_radian_conversion_8inl.html#gaea391f0cca39b05e298dd1cae162e7f1":[3,0,0,3,0,0,20,16]
+"dd/de1/_radian_conversion_8inl.html#gaea391f0cca39b05e298dd1cae162e7f1":[3,0,0,3,0,0,20,16],
+"dd/de1/_radian_conversion_8inl.html#gaf80be0c5c65ccaa5544a08a7754f3575":[3,0,0,3,0,0,20,8],
+"dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html":[1,1,3,0,0,8,0],
+"dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga0efbea809d5a024652044e18ac4bf0c5":[1,1,3,0,0,8,0,0],
+"dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga2638d351b4c8647d718febed6c4d6aa3":[1,1,3,0,0,8,0,10],
+"dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga26cda1990ca0ac98e925a80c26ee88f5":[1,1,3,0,0,8,0,6],
+"dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga2b1d23bfe148337be5275b1abd51f97a":[1,1,3,0,0,8,0,4],
+"dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga781508a60603feae345f1941de8204fa":[1,1,3,0,0,8,0,13],
+"dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga8610758fe64ac622528c0b951dd90e23":[1,1,3,0,0,8,0,7],
+"dd/de1/group___e_g_x_phys-_constants-_astrophysics-_solar_system-_uranus-_bulk.html#ga91b85385fee1afe5a4df54e4b4cbe7ad":[1,1,3,0,0,8,0,8]
 };

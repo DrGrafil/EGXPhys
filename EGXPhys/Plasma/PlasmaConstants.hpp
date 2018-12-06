@@ -1,7 +1,7 @@
 /// @file EGXPhys/Plasma/PlasmaConstants.hpp
 ///
 /// @brief Holds all constants related to the field of Plasma Physics.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/28/17
 
 

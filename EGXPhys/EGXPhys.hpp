@@ -2,7 +2,7 @@
 ///
 /// @brief EGXPhys main include file. 
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/25/17
 ///
 /// @defgroup EGXPhys EGXPhys Library

@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates the torque applied.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/15/18
 
 /// @defgroup EGXPhys-Kinetics-Torque Torque

@@ -1,7 +1,7 @@
 /// @file EGXPhys/Acoustics/AcousticsConstants.hpp
 ///
 /// @brief Holds all constants related to the field of Acoustics Physics.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/28/17
 
 

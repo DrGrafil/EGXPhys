@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/AngleConversions/GonConversion.inl
 ///
 /// @brief Implimentation of gradian conversions.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/28/18
 
 

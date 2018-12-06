@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/OrbitalCharecteristics.inl
 ///
 /// @brief Implimentation of Orbital Charecteristics calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/25/17
 
 

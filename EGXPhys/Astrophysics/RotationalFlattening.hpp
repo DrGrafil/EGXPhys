@@ -2,7 +2,7 @@
 /// 
 /// @brief Defines functions relating to flattening of a planet due to rotation.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/20/18
 
 /// @defgroup EGXPhys-Astrophysics-RotationalFlattening Rotational Flattening/Oblateness

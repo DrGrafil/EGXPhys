@@ -114,6 +114,9 @@ Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EGXPhys::AngularAcceleration </td>
@@ -139,12 +142,29 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Calculates the angular acceleration, \(\alpha\), in radians per second squared. Angular acceleration of an object is calculated from the torque, \(\tau\), applied to an object and the object's inertia tensor, \(I\): </p><p class="formulaDsp">
 \[\alpha=I^{-1} \tau \]
 </p>
 <p>. </p>
+<p>See <a href="https://en.wikipedia.org/wiki/Angular_acceleration">https://en.wikipedia.org/wiki/Angular_acceleration</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">torqueInNm</td><td>\(\tau\ (N\ m)\) Torque apply to object in Newton meters. </td></tr>
+    <tr><td class="paramname">inertiaTensorInkgmsquared</td><td>\(I\ (kg\ m^2)\) Inertia tensor matrix of object in kilogram meter squared. </td></tr>
+    <tr><td class="paramname">angularAccelerationInradPersSquared</td><td>\(\alpha\ (\frac{rad}{s^2})\) Angular acceleration of an object in radians per second squared. Calculates the angular acceleration, \(\alpha\), in radians per second squared. Angular acceleration of an object is calculated from the torque, \(\tau\), applied to an object and the object's inertia tensor, \(I\): <p class="formulaDsp">
+\[\alpha=I^{-1} \tau \]
+</p>
+</td></tr>
+  </table>
+  </dd>
+</dl>
 <p>See <a href="https://en.wikipedia.org/wiki/Angular_acceleration">https://en.wikipedia.org/wiki/Angular_acceleration</a></p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

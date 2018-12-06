@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/AngleConversions/TurnConversion.inl
 ///
 /// @brief Implimentation of turn conversions.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/28/18
 
 

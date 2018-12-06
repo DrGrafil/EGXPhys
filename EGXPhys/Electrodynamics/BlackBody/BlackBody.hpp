@@ -2,7 +2,7 @@
 ///
 /// @brief Includes all header files that are related to the field of Black bodies.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/25/18
 
 

@@ -2,7 +2,7 @@
 ///
 /// @brief Converts a set of 3D coordinates fom Spherical into Cartesian, Polar ect.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/18/18
 
 /// @defgroup EGXMath-Conversions-CoordinateConversions-3D-Spherical Spherical

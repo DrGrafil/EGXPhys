@@ -1,7 +1,7 @@
 /// @file EGXPhys/Atomic/NuclearSeparationEnergy.inl
 ///
 /// @brief Implimentation of nuclear separation energy calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/17/17
 
 

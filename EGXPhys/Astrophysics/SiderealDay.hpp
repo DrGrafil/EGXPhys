@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates sidereal day (a rotation of 360 degrees) of a celestial object.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/1/18
 
 /// @defgroup EGXPhys-Astrophysic-SiderealDay Sidereal Day

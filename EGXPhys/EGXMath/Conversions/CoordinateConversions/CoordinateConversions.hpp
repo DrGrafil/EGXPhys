@@ -2,7 +2,7 @@
 ///
 /// @brief Converts a set of coordinates into other coordinate system such as cartesian, polar, spherical.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/18/18
 
 /// @defgroup EGXMath-Conversions-CoordinateConversions Coordinate Conversions

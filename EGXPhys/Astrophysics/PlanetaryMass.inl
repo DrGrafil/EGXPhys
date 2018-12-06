@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/PlanetaryMass.inl
 ///
 /// @brief Implimentation of planet criteria calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/31/17
 
 

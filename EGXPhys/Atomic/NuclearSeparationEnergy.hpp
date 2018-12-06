@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates nuclear separation energy of an atom.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/17/17
 /// @todo: Add better see links.
 

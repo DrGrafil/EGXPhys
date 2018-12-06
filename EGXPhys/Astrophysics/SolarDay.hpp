@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates solar day of a celestial object.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/1/18
 
 /// @defgroup EGXPhys-Astrophysic-SolarDay Solar Day

@@ -2,7 +2,7 @@
 ///
 /// @brief Converts a set of 2D coordinates from Cartesian into  Polar ect.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/18/18
 
 /// @defgroup EGXMath-Conversions-CoordinateConversions-2D-Cartesian Cartesian

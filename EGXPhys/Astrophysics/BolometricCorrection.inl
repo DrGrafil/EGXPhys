@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/BolometricCorrection.inl
 ///
 /// @brief Implimentation of bolometric correction calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/16/18
 
 

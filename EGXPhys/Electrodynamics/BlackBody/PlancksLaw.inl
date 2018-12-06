@@ -1,7 +1,7 @@
 /// @file EGXPhys/Electrodynamics/BlackBody/PlancksLaw.inl
 ///
 /// @brief Implimentation of Planck's Law calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/25/18
 
 

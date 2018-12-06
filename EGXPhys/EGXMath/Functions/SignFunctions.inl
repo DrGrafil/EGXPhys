@@ -1,7 +1,7 @@
 /// @file EGXMath/Functions/SignFunctions.inl
 ///
 /// @brief Implimentation of functions related to the sign function.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/9/18
 
 

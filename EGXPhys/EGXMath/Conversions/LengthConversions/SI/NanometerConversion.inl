@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/NanometerConversion.inl
 ///
 /// @brief Implimentation of Nanometer conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

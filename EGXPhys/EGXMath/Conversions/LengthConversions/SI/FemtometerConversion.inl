@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/FemtometerConversion.inl
 ///
 /// @brief Implimentation of Femtometer conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates color temperature and related information derived from it.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/14/18
 
 /// @defgroup EGXPhys-Astrophysics-ColorTemperature Color Temperature

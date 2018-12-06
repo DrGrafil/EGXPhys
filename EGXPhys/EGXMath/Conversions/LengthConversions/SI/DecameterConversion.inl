@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/DecameterConversion.inl
 ///
 /// @brief Implimentation of Decameter conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

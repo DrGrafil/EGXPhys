@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/AngleConversions/RadianConversion.inl
 ///
 /// @brief Implimentation of radian conversions.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/28/18
 
 

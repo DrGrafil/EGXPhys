@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/2D/Ellipse/EllipseFocalParameter.inl
 ///
 /// @brief Implimentation of functions related to ellipse focal parameter.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/24/18
 
 

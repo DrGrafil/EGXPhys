@@ -2,7 +2,7 @@
 ///
 /// @brief Defines functions relating to the sign function.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/9/18
 
 /// @defgroup EGXMath-Functions-Sign Sign

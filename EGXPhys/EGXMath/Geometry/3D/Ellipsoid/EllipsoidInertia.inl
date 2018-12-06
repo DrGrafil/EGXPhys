@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/3D/Ellipsoid/EllipsoidInertia.inl
 ///
 /// @brief Implimentation of functions related to the inertia of an ellipsoid.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/23/18
 
 

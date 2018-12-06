@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates eccentricity of an orbit.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/29/17
 
 /// @defgroup EGXPhys-Eccentricity Eccentricity

@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/AttometerConversion.inl
 ///
 /// @brief Implimentation of Attometer conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/1/18
 
 

@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/ExameterConversion.inl
 ///
 /// @brief Implimentation of Exameter conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

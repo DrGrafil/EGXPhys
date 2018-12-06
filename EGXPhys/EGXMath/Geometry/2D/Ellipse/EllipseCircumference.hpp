@@ -2,7 +2,7 @@
 ///
 /// @brief Defines functions relating to ellipse circumference.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/23/18
 /// @todo Add more Circumference approximations from http://dx.doi.org/10.3247/SL1Math05.004 
 

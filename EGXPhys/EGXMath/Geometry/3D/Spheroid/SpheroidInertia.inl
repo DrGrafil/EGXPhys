@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/3D/Spheroid/SpheroidInertia.inl
 ///
 /// @brief Implimentation of functions related to the inertia of a spheroid.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/24/18
 
 

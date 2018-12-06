@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates redshift caused by various doppler effects.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/28/17
 
 /// @defgroup EGXPhys-Redshift Redshift

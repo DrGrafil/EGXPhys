@@ -2,7 +2,7 @@
 ///
 /// @brief Link to all header files that includes constants.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/25/17
 
 

@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates mass excess of an atom.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/13/17
 
 /// @defgroup EGXPhys-MassExcess Mass Excess

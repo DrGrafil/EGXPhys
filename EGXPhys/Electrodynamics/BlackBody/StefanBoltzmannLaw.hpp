@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates B-V Color of stars and related information derived from it Stefan-Boltzmann Law.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/30/18
 
 /// @defgroup EGXPhys-Electrodynamics-BlackBody-StefanBoltzmannLaw Stefan-Boltzmann Law

@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates standard gravitational parameter of celestial bodies.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/19/18
 
 /// @defgroup EGXPhys-Astrophysics-StandardGravitationalParameter Standard Gravitational Parameter

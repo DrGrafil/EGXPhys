@@ -1,7 +1,7 @@
 /// @file EGXPhys/Atomic/RadioactiveDecay.inl
 ///
 /// @brief Implimentation of mean lifetime calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/4/17
 
 

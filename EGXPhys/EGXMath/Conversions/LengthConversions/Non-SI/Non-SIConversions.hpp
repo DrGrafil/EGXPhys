@@ -2,7 +2,7 @@
 ///
 /// @brief Converts length measurements from SI units into various other units such as meters, parsecs, light years.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/10/18
 
 /// @defgroup EGXMath-Conversions-LengthConversions-Non-SI From Non-SI Unit

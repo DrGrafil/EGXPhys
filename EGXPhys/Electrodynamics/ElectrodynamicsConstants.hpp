@@ -1,7 +1,7 @@
 /// @file EGXPhys/Electrodynamics/Electrodynamics.hpp
 ///
 /// @brief Holds all constants related to the field of Electrodynamics.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/25/17
 
 

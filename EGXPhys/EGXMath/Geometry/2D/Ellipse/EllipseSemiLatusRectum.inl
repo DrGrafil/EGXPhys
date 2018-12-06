@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/2D/Ellipse/EllipseSemiLatusRectum.inl
 ///
 /// @brief Implimentation of functions related to ellipse semi-latus rectum.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/25/18
 
 

@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/RotationalFlattening.inl
 ///
 /// @brief Implimentation of rotational flattening functions.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/20/18
 
 

@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/NauticalMileConversion.inl
 ///
 /// @brief Implimentation of NauticalMile conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/13/18
 
 

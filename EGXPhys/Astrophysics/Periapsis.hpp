@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates periapsis of various orbiting bodies.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/29/17
 
 

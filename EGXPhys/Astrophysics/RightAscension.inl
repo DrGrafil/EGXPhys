@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/RightAscension.inl
 ///
 /// @brief Right ascension  calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/29/18
 
 

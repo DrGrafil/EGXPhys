@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates planetary equilibrium tempreture of a planet
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/29/18
 
 

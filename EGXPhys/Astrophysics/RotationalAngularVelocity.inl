@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/RotationalAngularVelocity.inl
 ///
 /// @brief Implimentation of rotational angular velocity functions.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/29/18
 
 

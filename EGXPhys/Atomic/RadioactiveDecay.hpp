@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates various radioactive decay measurements such as half life and mean lifetime
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/2/17
 
 /// @defgroup EGXPhys-RadioactiveDecay Radioactive Decay

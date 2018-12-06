@@ -1,7 +1,7 @@
 /// @file EGXPhys/Electrodynamics/BlackBody/WiensDisplacementLaw.inl
 ///
 /// @brief Implimentation of Wien's Displacement Law calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/25/18
 
 

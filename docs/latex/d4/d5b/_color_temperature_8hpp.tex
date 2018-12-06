@@ -5,7 +5,7 @@
 Calculates color temperature and related information derived from it.  
 
 
-{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
 {\ttfamily \#include \char`\"{}Astrophysics\+Constants.\+hpp\char`\"{}}\newline
 {\ttfamily \#include $<$glm/fwd.\+hpp$>$}\newline
 {\ttfamily \#include \char`\"{}Color\+Temperature.\+inl\char`\"{}}\newline
@@ -17,7 +17,7 @@ Calculates color temperature and related information derived from it.
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-{\footnotesize template$<$typename T $>$ }\\T \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_color_temperature_ga81db6b5b397c9f788001be73adae032d}{E\+G\+X\+Phys\+::\+Color\+Temperature\+To\+R\+GB}} (const T temperature\+InK, T \&R, T \&G, T \&B)
+{\footnotesize template$<$typename T1 , typename T2 $>$ }\\void \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_color_temperature_ga53633ad397d0ee34ff0b5869f41c7c83}{E\+G\+X\+Phys\+::\+Color\+Temperature\+To\+R\+GB}} (const T1 temperature\+InK, T2 \&R, T2 \&G, T2 \&B)
 \begin{DoxyCompactList}\small\item\em Calculates the color R\+GB values from the color tempreture, $T_{black}$, assuming the color was emitted via black body radiation. \end{DoxyCompactList}\item 
 {\footnotesize template$<$typename T $>$ }\\glm\+::vec3 \mbox{\hyperlink{group___e_g_x_phys-_astrophysics-_color_temperature_gaad787485a232976da96c2c785ce21dad}{E\+G\+X\+Phys\+::\+Color\+Temperature\+To\+R\+GB}} (const T temperature\+InK)
 \begin{DoxyCompactList}\small\item\em Calculates the color R\+GB values from the color tempreture, $T_{black}$, assuming the color was emitted via black body radiation. \end{DoxyCompactList}\end{DoxyCompactItemize}
@@ -27,7 +27,7 @@ Calculates color temperature and related information derived from it.
 Calculates color temperature and related information derived from it. 
 
 \begin{DoxyAuthor}{Author}
-Elliot Grafil (Metex) 
+Elliot Grafil 
 \end{DoxyAuthor}
 \begin{DoxyDate}{Date}
 4/14/18 

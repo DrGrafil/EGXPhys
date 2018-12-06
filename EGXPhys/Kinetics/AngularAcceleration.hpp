@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates the angular acceleration of an object.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/19/18
 
 /// @defgroup EGXPhys-Kinetics-AngularAcceleration Angular Acceleration

@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/2D/Circle.inl
 ///
 /// @brief Implimentation of functions related to Circle shape.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/10/18
 
 

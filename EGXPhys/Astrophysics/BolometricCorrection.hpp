@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates bolometric correction of for a star. It allows one to convert the visible magnitude of a star into the bolometric(full spectrum) magnitude.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/16/18
 
 /// @defgroup EGXPhys-Astrophysic-BolometricCorrection Bolometric Correction

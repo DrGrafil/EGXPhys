@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/MillimeterConversion.inl
 ///
 /// @brief Implimentation of Millimeter conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

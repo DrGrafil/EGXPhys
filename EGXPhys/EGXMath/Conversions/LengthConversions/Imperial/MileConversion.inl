@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Imperial/MileConversion.inl
 ///
 /// @brief Implimentation of Mile conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/11/18
 
 

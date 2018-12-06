@@ -2,7 +2,7 @@
 ///
 /// @brief Converts a set of 3D coordinates from Cylindrical into Spherical, Caresian ect.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/18/18
 
 /// @defgroup EGXMath-Conversions-CoordinateConversions-3D-Cylindrical Cylindrical

@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/PlanetaryEquilibriumTempreture.inl
 ///
 /// @brief Implimentation of planetary equilibrium tempreture calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/29/18
 
 

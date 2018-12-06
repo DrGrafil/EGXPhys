@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/3D/Spheroid/SpheroidFlattening.inl
 ///
 /// @brief Implimentation of spheroid flattening functions.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/20/18
 
 

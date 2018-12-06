@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates the radius of stars.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/19/18
 
 /// @defgroup EGXPhys-StellarRadius Stellar Radius

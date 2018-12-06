@@ -1,7 +1,7 @@
 /// @file EGXPhys/Atomic/NuclearBindingEnergy.inl
 ///
 /// @brief Implimentation of nuclear binding energy calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/4/17
 
 

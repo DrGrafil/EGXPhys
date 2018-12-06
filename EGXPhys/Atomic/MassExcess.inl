@@ -1,7 +1,7 @@
 /// @file EGXPhys/Atomic/MassExcess.inl
 ///
 /// @brief Implimentation of mass excess calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/13/17
 
 namespace EGXPhys{

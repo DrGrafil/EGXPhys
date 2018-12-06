@@ -2,7 +2,7 @@
 /// 
 /// @brief Defines functions relating to the volume of a spheroid.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/21/18
 
 /// @defgroup EGXMath-Geometry-3D-Spheroid-Volume Volume

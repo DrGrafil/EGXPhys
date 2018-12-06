@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/2D/Ellipse/EllipseSurfaceArea.inl
 ///
 /// @brief Implimentation of functions related to ellipse surface area.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/23/18
 
 

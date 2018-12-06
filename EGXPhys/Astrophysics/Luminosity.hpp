@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates luminosity of various types for stellar bodies
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/25/17
 
 

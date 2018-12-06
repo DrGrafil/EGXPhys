@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Non-SI/MoXUnitConversion.inl
 ///
 /// @brief Implimentation of MoXUnit conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

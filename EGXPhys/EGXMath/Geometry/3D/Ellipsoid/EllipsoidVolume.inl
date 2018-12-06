@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/3D/EllipsoidVolume.inl
 ///
 /// @brief Implimentation of functions relating to the volume of an ellipsoid.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/23/18
 
 

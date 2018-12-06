@@ -1,7 +1,7 @@
 /// @file EGXPhys/Relativity/LorentzTransformations.inl
 ///
 /// @brief Implimentation of Lorentz Transformations calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/2/17
 
 

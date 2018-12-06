@@ -2,7 +2,7 @@
 /// 
 /// @brief Defines functions relating to spheroid shape.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/24/18
 
 /// @defgroup EGXMath-Geometry-3D-Spheroid Spheroid

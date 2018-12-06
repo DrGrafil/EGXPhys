@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/StandardGravitationalParameter.inl
 ///
 /// @brief Implimentation of standard gravitational parameter calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/19/18
 
 

@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/ZeptometerConversion.inl
 ///
 /// @brief Implimentation of Zeptometer conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

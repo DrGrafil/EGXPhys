@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/StellarRadius.inl
 ///
 /// @brief Implimentation of stellar radius calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/19/18
 
 

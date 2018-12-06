@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/3D/Spheroid/SpheroidSurfaceArea.inl
 ///
 /// @brief Implimentation of functions related to the surface area of an spheroid.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/23/18
 
 

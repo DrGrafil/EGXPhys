@@ -2,7 +2,7 @@
 ///
 /// @brief EGXMath main include file. 
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/25/17
 ///
 /// @defgroup EGXMath EGXMath Library

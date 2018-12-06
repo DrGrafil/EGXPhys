@@ -2,7 +2,7 @@
 ///
 /// @brief Converts length measurements in Cu x units into various other units such as meters, parsecs, light years.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 /// @defgroup EGXMath-Conversions-LengthConversions-Non-SI-CuXUnit CuXUnit

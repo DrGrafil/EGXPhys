@@ -1,7 +1,7 @@
 /// @file EGXPhys/Electrodynamics/BlackBody/StefanBoltzmannLaw.inl
 ///
 /// @brief Implimentation of Stefan-Boltzmann Law calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/30/18
 
 

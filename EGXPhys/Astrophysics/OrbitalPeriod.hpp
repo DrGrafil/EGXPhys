@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates orbital period of a celestial object.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/1/18
 
 /// @defgroup EGXPhys-Astrophysic-OrbitalPeriod Orbital Period

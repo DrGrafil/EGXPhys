@@ -1,7 +1,7 @@
 /// @file EGXPhys/Atomic/DecayWidth.inl
 ///
 /// @brief Implimentation of Decay Width calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/4/17
 
 

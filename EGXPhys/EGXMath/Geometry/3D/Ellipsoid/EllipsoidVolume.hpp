@@ -2,7 +2,7 @@
 /// 
 /// @brief Defines functions relating to the volume of an ellipsoid.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/23/18
 
 /// @defgroup EGXMath-Geometry-3D-Ellipsoid-Volume Volume

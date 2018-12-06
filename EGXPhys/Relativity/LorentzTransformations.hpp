@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates Lorentz Transformations
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/2/17
 
 /// @defgroup EGXPhys-LorentzTransformations Lorentz Transformations

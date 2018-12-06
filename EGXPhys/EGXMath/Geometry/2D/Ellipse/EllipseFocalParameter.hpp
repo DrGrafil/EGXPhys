@@ -2,7 +2,7 @@
 ///
 /// @brief Defines functions relating to ellipse focal parameter.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/23/18
 
 /// @defgroup EGXMath-Geometry-2D-Ellipse-FocalParameter Focal Parameter

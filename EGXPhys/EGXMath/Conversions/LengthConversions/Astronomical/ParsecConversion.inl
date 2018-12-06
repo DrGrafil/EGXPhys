@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Astronomical/ParsecConversion.inl
 ///
 /// @brief Implimentation of Parsec conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/11/18
 
 

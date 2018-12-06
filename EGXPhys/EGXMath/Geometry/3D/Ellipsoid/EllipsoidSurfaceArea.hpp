@@ -2,7 +2,7 @@
 /// 
 /// @brief Defines functions relating to the surface area of an ellipsoid.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/23/18
 
 /// @defgroup EGXMath-Geometry-3D-Ellipsoid-SurfaceArea Surface Area

@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates solar luminosity ratio of a star when compared to the sun.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/27/18
 
 

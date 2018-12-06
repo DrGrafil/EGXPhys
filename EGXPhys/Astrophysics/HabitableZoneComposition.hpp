@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates habitable zone composition metric of a planet
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/30/18
 
 

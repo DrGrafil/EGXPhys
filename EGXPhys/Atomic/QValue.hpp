@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates Q-value of a nuclear reaction.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/18/17
 
 /// @defgroup EGXPhys-QValue Q-Value

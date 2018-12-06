@@ -2,7 +2,7 @@
 ///
 /// @brief Defines functions relating to ellipse focal length.
 /// Focal length is 2c/2linear eccentricity https://www.vitutor.com/geometry/conics/ellipse.html
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/24/18
 
 /// @defgroup EGXMath-Geometry-2D-Ellipse-FocalLength Focal Length

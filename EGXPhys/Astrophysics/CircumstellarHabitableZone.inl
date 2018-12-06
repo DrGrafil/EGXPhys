@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/CircumstellarHabitableZone.inl
 ///
 /// @brief Implimentation of Circumstellar Habitable Zone calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/2/17
 
 

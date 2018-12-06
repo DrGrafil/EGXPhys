@@ -2,7 +2,7 @@
 ///
 /// @brief Includes all header files that are related to 3D geometry.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/21/18
 
 /// @defgroup EGXMath-Geometry-3D 3D Objects

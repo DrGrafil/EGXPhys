@@ -2,7 +2,7 @@
 ///
 /// @brief Defines functions relating to ellipse surface area.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/23/18
 
 /// @defgroup EGXMath-Geometry-2D-Ellipse-SurfaceArea Surface Area

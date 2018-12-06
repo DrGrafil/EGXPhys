@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/SynodicDay.inl
 ///
 /// @brief Implimentation of synodic day calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/1/18
 
 

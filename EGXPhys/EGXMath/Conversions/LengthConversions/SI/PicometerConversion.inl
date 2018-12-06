@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/SI/PicometerConversion.inl
 ///
 /// @brief Implimentation of Picometer conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/8/18
 
 

@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/HabitableZoneComposition.inl
 ///
 /// @brief Implimentation of habitable zone composition calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/30/18
 
 

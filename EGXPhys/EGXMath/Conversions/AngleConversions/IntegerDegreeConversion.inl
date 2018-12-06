@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/AngleConversions/IntegerDegreeConversion.inl
 ///
 /// @brief Implimentation of integer degree conversions.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/28/18
 
 

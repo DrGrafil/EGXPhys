@@ -1,7 +1,7 @@
 /// @file EGXPhys/Kinetics/KineticsConstants.hpp
 ///
 /// @brief Holds all constants related to the field of Kinetics.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/15/18
 
 

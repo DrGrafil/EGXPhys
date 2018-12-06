@@ -1,7 +1,7 @@
 /// @file EGXMath/Functions/LogFunctions.inl
 ///
 /// @brief Implimentation of functions related to the log function.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/9/18
 
 

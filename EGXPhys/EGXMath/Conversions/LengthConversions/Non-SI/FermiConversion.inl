@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Non-SI/FermiConversion.inl
 ///
 /// @brief Implimentation of Fermi conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/10/18
 
 

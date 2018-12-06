@@ -2,7 +2,7 @@
 /// 
 /// @brief Defines functions relating to the polar radius of a spheroid.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/20/18
 
 /// @defgroup EGXMath-Geometry-3D-Spheroid-PolarRadius Polar Radius

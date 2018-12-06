@@ -2,7 +2,7 @@
 ///
 /// @brief Converts length measurements in inchs into various other units such as meters, parsecs, light years.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/11/18
 
 /// @defgroup EGXMath-Conversions-LengthConversions-Imperial-Inch Inch

@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates mass defect of an atom.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/12/17
 
 /// @defgroup EGXPhys-MassDefect Mass Defect

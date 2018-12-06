@@ -1,7 +1,7 @@
 /// @file EGXMath/Functions/ErfFunctions.inl
 ///
 /// @brief Implimentation of functions related to the error function.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/9/18
 
 namespace EGXMath {

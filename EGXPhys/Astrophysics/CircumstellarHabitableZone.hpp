@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates Circumstellar Habitable Zone of a solar system
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/2/17
 
 /// @todo Add more models for Seff. https://en.wikipedia.org/wiki/Circumstellar_habitable_zone lists way more models

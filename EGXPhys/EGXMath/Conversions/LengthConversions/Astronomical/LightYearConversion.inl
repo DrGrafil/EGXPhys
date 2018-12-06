@@ -1,7 +1,7 @@
 /// @file EGXMath/Conversions/LengthConversions/Astronomical/LightYearConversion.inl
 ///
 /// @brief Implimentation of LightYear conversions
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/11/18
 
 

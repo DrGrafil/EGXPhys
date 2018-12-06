@@ -15,12 +15,23 @@ void \mbox{\hyperlink{group___e_g_x_phys-_kinetics-_angular_acceleration_gaf636e
 \index{Angular Acceleration@{Angular Acceleration}!Angular\+Acceleration@{Angular\+Acceleration}}
 \index{Angular\+Acceleration@{Angular\+Acceleration}!Angular Acceleration@{Angular Acceleration}}
 \subsubsection{\texorpdfstring{Angular\+Acceleration()}{AngularAcceleration()}}
-{\footnotesize\ttfamily void E\+G\+X\+Phys\+::\+Angular\+Acceleration (\begin{DoxyParamCaption}\item[{const glm\+::vec3 \&}]{torque\+In\+Nm,  }\item[{const glm\+::mat3 \&}]{inertia\+Tensor\+Inkgmsquared,  }\item[{glm\+::vec3 \&}]{angular\+Acceleration\+Inrad\+Pers\+Squared }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void E\+G\+X\+Phys\+::\+Angular\+Acceleration (\begin{DoxyParamCaption}\item[{const glm\+::vec3 \&}]{torque\+In\+Nm,  }\item[{const glm\+::mat3 \&}]{inertia\+Tensor\+Inkgmsquared,  }\item[{glm\+::vec3 \&}]{angular\+Acceleration\+Inrad\+Pers\+Squared }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
 
 Calculates the angular acceleration, $\alpha$, in radians per second squared. Angular acceleration of an object is calculated from the torque, $\tau$, applied to an object and the object\textquotesingle{}s inertia tensor, $I$\+: \[\alpha=I^{-1} \tau \]. 
 
+See \href{https://en.wikipedia.org/wiki/Angular_acceleration}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Angular\+\_\+acceleration}
+
+
+\begin{DoxyParams}{Parameters}
+{\em torque\+In\+Nm} & $\tau\ (N\ m)$ Torque apply to object in Newton meters. \\
+\hline
+{\em inertia\+Tensor\+Inkgmsquared} & $I\ (kg\ m^2)$ Inertia tensor matrix of object in kilogram meter squared. \\
+\hline
+{\em angular\+Acceleration\+Inrad\+Pers\+Squared} & $\alpha\ (\frac{rad}{s^2})$ Angular acceleration of an object in radians per second squared. Calculates the angular acceleration, $\alpha$, in radians per second squared. Angular acceleration of an object is calculated from the torque, $\tau$, applied to an object and the object\textquotesingle{}s inertia tensor, $I$\+: \[\alpha=I^{-1} \tau \]\\
+\hline
+\end{DoxyParams}
 See \href{https://en.wikipedia.org/wiki/Angular_acceleration}{\tt https\+://en.\+wikipedia.\+org/wiki/\+Angular\+\_\+acceleration}
 
 

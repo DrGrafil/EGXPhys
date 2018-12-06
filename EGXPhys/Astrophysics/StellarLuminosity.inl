@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/SolarLuminosityRatio.inl
 ///
 /// @brief Implimentation of solar luminosity ratio calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/25/17
 
 

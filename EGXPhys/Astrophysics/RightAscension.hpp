@@ -2,7 +2,7 @@
 ///
 /// @brief Calculates co-ordinate transformations of Right Ascension and Declination.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 3/29/18
 
 /// @defgroup EGXPhys-Astrophysics-RightAscension Right Ascension

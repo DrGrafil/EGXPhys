@@ -2,7 +2,7 @@
 ///
 /// @brief Converts length measurements from one unit into various other units such as meters, parsecs, light years.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/31/18
 
 /// @defgroup EGXMath-Conversions-LengthConversions Length Conversions

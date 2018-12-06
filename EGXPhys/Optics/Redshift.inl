@@ -1,7 +1,7 @@
 /// @file EGXPhys/Optics/Redshift.inl
 ///
 /// @brief Implimentation of redshift calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 7/28/17
 
 

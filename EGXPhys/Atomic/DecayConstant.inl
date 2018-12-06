@@ -1,7 +1,7 @@
 /// @file EGXPhys/Atomic/DecayConstant.inl
 ///
 /// @brief Implimentation of decay constant calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 8/4/17
 
 

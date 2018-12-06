@@ -2,7 +2,7 @@
 ///
 /// @brief Implimentation of convertions from Polar coordinates to other coordinate systems.
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/18/18
 
 

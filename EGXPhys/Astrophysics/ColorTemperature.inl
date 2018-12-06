@@ -1,7 +1,7 @@
 /// @file EGXPhys/Astrophysics/ColorTemperature.inl
 ///
 /// @brief Implimentation of color temperature calculations
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 4/14/18
 
 

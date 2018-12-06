@@ -1,7 +1,7 @@
 /// @file EGXMath/Geometry/3D/Spheroid/SpheroidEquatorialRadius.inl
 ///
 /// @brief Implimentation of functions related to the equatorial radius of an spheroid.
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 5/24/18
 
 
