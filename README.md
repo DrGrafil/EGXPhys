@@ -20,7 +20,7 @@ For vectors and matrixs the data are stored in the row-major C convention as use
 
 ## Documentation
 
-All functions are fully documented with the equation written in latex, and either a link to the sourced article or cite from where it was taken from. You can read the documentation [HERE](https://metex.github.io/EGXPhys/html/modules.html).
+All functions are fully documented with the equation written in latex, and either a link to the sourced article or cite from where it was taken from. You can read the documentation [HERE](https://DrGrafil.github.io/EGXPhys/html/modules.html).
 
 ## Setup
 
@@ -60,17 +60,17 @@ double MassDefectInu(const int atomicNumber, const int  massNumber, const double
 
 3. Why does wikipedia and google disagree with some of your values?
 
-   It is because most of the constants are obtained from the [NISTConst 1.0](https://github.com/Metex/NISTConst/) library. NISTConst values are frozen to the values present in [CODATA-2014](https://dx.doi.org/10.1063/1.4954402) while google and wikipedia are able to pick values from any source.
+   It is because most of the constants are obtained from the [NISTConst 1.0](https://github.com/DrGrafil/NISTConst/) library. NISTConst values are frozen to the values present in [CODATA-2014](https://dx.doi.org/10.1063/1.4954402) while google and wikipedia are able to pick values from any source.
 
    If the values aren't from NISTConst such as values relating to astronomy there might be an error on our part.
 
 ## Current Development
 
-[![Build Status](https://travis-ci.org/Metex/EGXPhys.svg?branch=master)](https://travis-ci.org/Metex/EGXPhys)
-[![](https://tokei.rs/b1/github/Metex/EGXPhys?category=files)](https://github.com/Aaronepower/tokei)
-[![](https://tokei.rs/b1/github/Metex/EGXPhys?category=lines)](https://github.com/Aaronepower/tokei)
-[![](https://tokei.rs/b1/github/Metex/EGXPhys?category=code)](https://github.com/Aaronepower/tokei)
-[![](https://tokei.rs/b1/github/Metex/EGXPhys?category=comments)](https://github.com/Aaronepower/tokei)
+[![Build Status](https://travis-ci.org/DrGrafil/EGXPhys.svg?branch=master)](https://travis-ci.org/DrGrafil/EGXPhys)
+[![](https://tokei.rs/b1/github/DrGrafil/EGXPhys?category=files)](https://github.com/Aaronepower/tokei)
+[![](https://tokei.rs/b1/github/DrGrafil/EGXPhys?category=lines)](https://github.com/Aaronepower/tokei)
+[![](https://tokei.rs/b1/github/DrGrafil/EGXPhys?category=code)](https://github.com/Aaronepower/tokei)
+[![](https://tokei.rs/b1/github/DrGrafil/EGXPhys?category=comments)](https://github.com/Aaronepower/tokei)
 Field | Equations | Tests Pass |
 ------------ | ------------- | ------------- |
 Acoustics | 					| 
@@ -267,7 +267,7 @@ EGXMath (Will eventually be seperated out):
 ---
 ## Release notes
 
-### [EGXPhys 0.1.0](https://github.com/Metex/EGXPhys/releases/latest)
+### [EGXPhys 0.1.0](https://github.com/DrGrafil/EGXPhys/releases/latest)
 #### Features:
 - Adding equations at light speed.
 - Setup readme.
@@ -275,7 +275,7 @@ EGXMath (Will eventually be seperated out):
 - Setup github.io view for documentation.
 - Setup unit test framework using catch
 - Setup basic cmake outline.
-- Included [NISTConst 1.0](https://github.com/Metex/NISTConst/)
+- Included [NISTConst 1.0](https://github.com/DrGrafil/NISTConst/)
  
 ---
 
